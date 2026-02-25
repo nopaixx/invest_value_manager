@@ -165,6 +165,9 @@ price_monitors:
   - { ticker: GSK.L, entry_gbp: 1850 }
   - { ticker: LULU, add_trigger_usd: 155, note: "POSITION - conditional Q4+CEO" }
   - { ticker: BYIT.L, add_trigger_gbp: 240, note: "POSITION - after H2 OP confirm" }
+  - { ticker: HLNE, entry_usd: 100, note: "R1 complete. QS 82 Tier A. FV $120. Alt AM near 52wL." }
+  - { ticker: UTHR, entry_usd: 390, note: "R1 complete. QS 78 Tier A. FV $484. PAH specialist." }
+  - { ticker: CELH, entry_usd: 35, note: "R1 complete. QS 62 Tier B. FV $44. Energy drinks." }
   - { ticker: DNLM.L, entry_gbp: 780 }
   - { ticker: WKL.AS, entry_eur: "50-55" }
   - { ticker: DSY.PA, entry_eur: 14.50, condition: "WAIT Q1. Revised down S75 post -21% crash." }
@@ -179,3 +182,6 @@ price_monitors:
   - { ticker: ALFA.L, entry_gbp: 165, note: "R3 complete. QS 83 Tier A. FV 235p (DA -11.3%). CHP structural overhang. HARD GATE Mar 12." }
   - { ticker: FSG.L, entry_gbp: 375, note: "R1 complete. QS 70 Tier B (AM adj). FV 530p. VCT tax cut CRITICAL." }
   - { ticker: CKN.L, entry_gbp: 3200, note: "R1 complete. QS 80 Tier A borderline. FV 5200p. PROFIT WARNING. HARD GATE Mar 2026." }
+  - { ticker: HLNE, entry_usd: 100, note: "R1 COMPLETE 2026-02-22. QS 86/82 Tier A. FV $120. Hamilton Lane alt AM. ROIC 29%, 10.9% insider. CEO bought $1M at $130. Near 52wL $107. High-sensitivity DCF (TV 74.5%). E[CAGR] 18.7% at market. SO at $100 (MoS 17%). Receivables +67% vs rev +29% = investigate." }
+  - { ticker: UTHR, entry_usd: 390, note: "R1 COMPLETE 2026-02-22. QS 78 Tier A. FV $484. United Therapeutics PAH specialist. ROIC 25%, net cash $2.8B, FCF $1.1B. AT_FV at $473 (MoS 2.3%). Near ATH. YUTREPIA competition. SO at $390 (MoS 19%). Earnings Feb 25 — could create entry on TETON disappointment." }
+  - { ticker: CELH, entry_usd: 35, note: "R1 COMPLETE 2026-02-22. QS 79/62 Tier B (adj -17: Pepsi concentration, margin collapse, CEO selling). FV $44. Celsius energy drinks. OVERVALUED at $48.32. P/E 402x trailing, ~40x normalized. Entry $33-36. 29% insider but CEO net seller." }

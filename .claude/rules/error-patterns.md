@@ -100,3 +100,16 @@ SOs a -40% del precio actual con <10% probabilidad de fill no son deployment, so
 **#56. R1 sin sector view fresco**
 ANTES de lanzar fundamental-analyst para R1, verificar edad del sector view.
 Si >21 dias: ACTUALIZAR primero. Si no existe: CREAR primero (ya cubierto por #30, #56 anade dimension de staleness). `sector_health.py freshness` es la herramienta. `r1_prioritizer.py` muestra flags STALE-SECTOR(Xd) y NO-SECTOR-VIEW automaticamente.
+
+**#57. Basket deployment without per-stock due diligence**
+Basket approval does NOT skip per-stock R1-R4. Buying 3 stocks because "the basket is approved" without per-stock thesis = repeat of Jan 26 (2→18 positions in 8 days, 8 sold). Each stock STILL needs: individual QS tool-first, kill conditions, thesis file, SM context, constraint check. Max 2 new positions per session per basket. If any basket position triggers KC within 14 days of buy → entire basket enters REVIEW.
+
+---
+
+## Errores de Inaccion y Racionalizacion
+
+**#58. Inaction disguised as process**
+Having cash >25% for >3 sessions while universe contains candidates with E[CAGR] >12% at market price = the system is using process to avoid deployment. "Waiting for DA," "need more analysis," "entries are unrealistic" are symptoms of a system optimized to prevent commission errors while ignoring omission errors. The cost of 54% cash at 4.5pp/yr drag is HIGHER than the cost of buying a Tier A compounder at 5% below FV instead of 15% below. Fix: deploy or document WHY EVERY CANDIDATE is uninvestable. If you can't — deploy.
+
+**#59. Rationalizing a high-conviction error**
+When a high-conviction thesis fails: admit quickly, no rationalization. Update error patterns with the signal I ignored. Exit protocol if position open. NEVER retroactively move KC goalposts. Document: "What signal did I ignore? What would I do differently?"

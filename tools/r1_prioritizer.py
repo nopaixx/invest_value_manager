@@ -24,6 +24,7 @@ Usage:
   python3 tools/r1_prioritizer.py --pre-flight           # Only E[CAGR]-at-entry >= threshold
   python3 tools/r1_prioritizer.py --advancement          # R1_COMPLETE advancement pipeline (3 sections)
   python3 tools/r1_prioritizer.py --near-entry-advancement  # Quick: advancement near entry only
+  python3 tools/r1_prioritizer.py --buyable-now              # Reverse: what's buyable at market TODAY?
 """
 
 import sys
@@ -41,6 +42,8 @@ UNIVERSE_PATH = os.path.join(PROJECT_ROOT, "state", "quality_universe.yaml")
 CALENDAR_PATH = os.path.join(PROJECT_ROOT, "state", "calendar.yaml")
 SECTORS_DIR = os.path.join(PROJECT_ROOT, "world", "sectors")
 CONTINUITY_PATH = os.path.join(PROJECT_ROOT, "state", "session_continuity.yaml")
+GRAPH_PATH = os.path.join(SCRIPT_DIR, "smart_money", "graph.json")
+SNAPSHOTS_DIR = os.path.join(SCRIPT_DIR, "smart_money", "data", "snapshots")
 
 # Tickers known to NOT be available on eToro (verified manually)
 ETORO_UNAVAILABLE = {
@@ -245,17 +248,35 @@ def load_cooldowns():
 
     today = date.today()
     cooldowns = {}
-    for entry in data.get("r1_cooldowns", []):
-        ticker = entry.get("ticker", "")
-        cooldown_until = entry.get("cooldown_until", "")
-        if not ticker or not cooldown_until:
-            continue
-        try:
-            cd_date = datetime.strptime(str(cooldown_until), "%Y-%m-%d").date()
-            if cd_date > today:
-                cooldowns[ticker] = entry
-        except (ValueError, TypeError):
-            continue
+    raw = data.get("r1_cooldowns", [])
+    # Support both list format [{ticker:, cooldown_until:}] and dict format {TICKER: {date:, ...}}
+    if isinstance(raw, dict):
+        for ticker, info in raw.items():
+            if not ticker or not isinstance(info, dict):
+                continue
+            cooldown_until = info.get("cooldown_until") or info.get("date", "")
+            if not cooldown_until:
+                continue
+            try:
+                cd_date = datetime.strptime(str(cooldown_until), "%Y-%m-%d").date()
+                if cd_date > today:
+                    cooldowns[ticker] = info
+            except (ValueError, TypeError):
+                continue
+    else:
+        for entry in raw:
+            if isinstance(entry, str):
+                continue
+            ticker = entry.get("ticker", "")
+            cooldown_until = entry.get("cooldown_until", "")
+            if not ticker or not cooldown_until:
+                continue
+            try:
+                cd_date = datetime.strptime(str(cooldown_until), "%Y-%m-%d").date()
+                if cd_date > today:
+                    cooldowns[ticker] = entry
+            except (ValueError, TypeError):
+                continue
     return cooldowns
 
 
@@ -580,6 +601,200 @@ def show_advancement_pipeline(companies, near_entry_only=False):
     print(f"[Pipeline velocity: 1 R1 = 1 unit, 1 R2->R3 = 2 units, 1 R4 = 1 unit. Target: 3+ units/session]")
 
 
+def show_buyable_now(companies):
+    """Reverse pipeline mode: what's buyable at market price TODAY?
+
+    Filters ALL universe companies (any pipeline_status with FV defined) to those where
+    E[CAGR]@market exceeds deployment threshold. Answers: "If I had cash to deploy,
+    what should I buy RIGHT NOW?"
+    """
+    # Filter: long direction, has FV and current_price
+    candidates = [
+        c for c in companies
+        if c.get("direction", "long") == "long"
+        and c.get("fair_value") and c.get("current_price")
+        and c["fair_value"] > 0 and c["current_price"] > 0
+    ]
+
+    if not candidates:
+        print("\nNo candidates with FV and current price in universe.")
+        return
+
+    # Fetch dividend yields for E[CAGR] computation
+    tickers = [c["ticker"] for c in candidates]
+    print(f"Fetching dividend yields for {len(tickers)} candidates...")
+    div_yields = get_dividend_yields(tickers)
+
+    # Compute E[CAGR]@market and filter by threshold
+    buyable = []
+    for c in candidates:
+        ticker = c["ticker"]
+        fv = c["fair_value"]
+        cp = c["current_price"]
+        dy = div_yields.get(ticker, 0.0)
+        ecagr = compute_ecagr_at_market(fv, cp, dy)
+        if ecagr is None:
+            continue
+
+        tier = c.get("tier", "B")
+        threshold = 12.0 if tier == "A" else 15.0
+
+        if ecagr >= threshold:
+            c["_ecagr_market"] = ecagr
+            c["_threshold"] = threshold
+            c["_div_yield"] = dy
+            buyable.append(c)
+
+    today = date.today()
+    print(f"\n=== BUYABLE NOW — Market Price Deployment Candidates | {today} ===")
+    print(f"Universe scanned: {len(candidates)} with FV | Buyable: {len(buyable)}")
+    print("=" * 140)
+
+    if not buyable:
+        print("\nNo candidates meet E[CAGR]@market threshold at current prices.")
+        print("  Tier A needs >= 12%, Tier B needs >= 15%.")
+        return
+
+    # Sort by E[CAGR] descending
+    buyable.sort(key=lambda c: -c["_ecagr_market"])
+
+    print(f"{'#':>2} {'Ticker':<14} {'QS':>3} {'Tier':>4} {'Sector':<20} {'Price':>8} {'FV':>8} {'MoS%':>7} {'E[CAGR]':>8} {'Pipeline':<14} {'Flags'}")
+    print("-" * 140)
+
+    for i, c in enumerate(buyable, 1):
+        qs = c.get("qs_adj") or c.get("qs_tool") or "?"
+        tier = c.get("tier", "?")
+        sector = (c.get("sector") or "Unknown")[:20]
+        cp = c["current_price"]
+        fv = c["fair_value"]
+        mos = ((fv - cp) / cp) * 100
+        ecagr = c["_ecagr_market"]
+        pipeline = c.get("pipeline_status", "?")
+
+        flags = []
+        if c["ticker"] in ETORO_UNAVAILABLE:
+            flags.append("NO-ETORO")
+        if c["ticker"].endswith(UK_SUFFIX):
+            flags.append("UK")
+        gate = c.get("gate") or c.get("pre_execution_condition") or ""
+        if gate:
+            flags.append(f"GATE")
+        flags_str = " | ".join(flags) if flags else ""
+
+        print(f"{i:>2} {c['ticker']:<14} {qs:>3} {tier:>4} {sector:<20} {cp:>8.1f} {fv:>8.1f} {mos:>+6.1f}% {ecagr:>7.1f}% {pipeline:<14} {flags_str}")
+
+    print("-" * 140)
+    print(f"\nE[CAGR]@market = (FV/price)^(1/3) - 1 + div_yield. Thresholds: Tier A >= 12%, Tier B >= 15%.")
+    print(f"[Reverse pipeline: these are BUYABLE at today's market price. Apply market-buy-protocol gates.]")
+
+
+def load_smart_money_signals(tickers):
+    """Load smart money signal codes for each ticker from graph.
+
+    Returns dict of ticker -> (code, priority_adj):
+      IC = insider cluster buy (+2)
+      CV = convergence: 2+ quality funds (+2)
+      QA = quiet accumulation (+3)
+      FC = founder conviction (+1)
+      HW = herd warning (-1)
+      SE = short escalation (-2)
+      SQ = squeeze risk (0, informational)
+    """
+    import json
+    import networkx as nx
+
+    if not os.path.exists(GRAPH_PATH):
+        return {}
+
+    try:
+        with open(GRAPH_PATH) as f:
+            data = json.load(f)
+        G = nx.node_link_graph(data, directed=True, multigraph=True)
+    except Exception:
+        return {}
+
+    results = {}
+
+    for ticker in tickers:
+        if ticker not in G.nodes:
+            continue
+
+        codes = []
+        adj = 0
+
+        # Gather edges
+        holders = []
+        shorts = []
+        insider_buys_60d = []
+        insider_buys_90d = []
+
+        for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+            rel = d.get("relation", "")
+            if rel == "holds":
+                holders.append((u, d))
+            elif rel == "shorts":
+                shorts.append((u, d))
+            elif rel == "insider_buy":
+                buy_date = d.get("date", "")
+                if buy_date:
+                    try:
+                        from datetime import datetime as _dt, date as _d
+                        bd = _dt.strptime(str(buy_date)[:10], "%Y-%m-%d").date()
+                        days = (_d.today() - bd).days
+                        if days <= 60:
+                            insider_buys_60d.append((u, d))
+                        if days <= 90:
+                            insider_buys_90d.append((u, d))
+                    except (ValueError, TypeError):
+                        pass
+
+        total_si = sum(s[1].get("pct_shares", 0) or 0 for s in shorts)
+        quality_holders = [h for h in holders if G.nodes.get(h[0], {}).get("fund_type") in ("value", "quality", "activist")]
+
+        # Insider Cluster Buy
+        if len(insider_buys_60d) >= 3:
+            codes.append("IC")
+            adj += 2
+
+        # Convergence
+        if len(quality_holders) >= 2:
+            codes.append("CV")
+            adj += 2
+
+        # Quiet Accumulation
+        if holders and total_si < 3 and insider_buys_90d:
+            codes.append("QA")
+            adj += 3
+
+        # Founder Conviction
+        for _, ed in insider_buys_90d:
+            role = (ed.get("role", "") or "").lower()
+            value = ed.get("value", 0) or 0
+            if value >= 100000 and any(w in role for w in ["ceo", "chief executive", "founder", "chairman"]):
+                codes.append("FC")
+                adj += 1
+                break
+
+        # Herd Warning
+        if len(holders) >= 5:
+            codes.append("HW")
+            adj -= 1
+
+        # Short Escalation
+        if total_si > 8 and len(shorts) >= 5:
+            codes.append("SE")
+            adj -= 2
+
+        # Squeeze Risk
+        if total_si > 10 and quality_holders and insider_buys_90d:
+            codes.append("SQ")
+
+        if codes:
+            results[ticker] = (",".join(codes), adj)
+
+    return results
+
+
 def main():
     parser = argparse.ArgumentParser(description="R1 Prioritizer -- Rank SCORED companies for R1 analysis")
     parser.add_argument("--top", type=int, default=10, help="Number of candidates to show (default: 10)")
@@ -593,6 +808,8 @@ def main():
     parser.add_argument("--exclude-fantasy-risk", action="store_true", help="Filter out FANTASY-RISK entries (price > 150%% of FV)")
     parser.add_argument("--pre-flight", action="store_true", help="Only show candidates with E[CAGR]-at-entry >= 12%% (worth doing R1)")
     parser.add_argument("--near-entry-advancement", action="store_true", help="Quick check: advancement pipeline candidates near entry")
+    parser.add_argument("--buyable-now", action="store_true", help="Reverse mode: what's buyable at market price today? (E[CAGR]@market > threshold)")
+    parser.add_argument("--smart-money", action="store_true", help="Add Smart Money overlay from graph signals (insider, convergence, shorts)")
     args = parser.parse_args()
     args._cooled_entries = []  # populated by rank_candidates
 
@@ -600,6 +817,11 @@ def main():
     if not companies:
         print("Quality Universe is empty.")
         sys.exit(1)
+
+    # --buyable-now mode: reverse pipeline — what's buyable at market today?
+    if args.buyable_now:
+        show_buyable_now(companies)
+        sys.exit(0)
 
     # --advancement mode: show R1_COMPLETE candidates for R2+ advancement
     if args.advancement or args.near_entry_advancement:
@@ -679,6 +901,16 @@ def main():
     # Determine if we show E[CAGR] column (at least one computed)
     show_ecagr = len(ecagr_map) > 0
 
+    # Smart money overlay
+    sm_signals = {}
+    show_sm = False
+    if args.smart_money:
+        sm_tickers = [c["ticker"] for c in candidates]
+        sm_signals = load_smart_money_signals(sm_tickers)
+        show_sm = bool(sm_signals)
+        if show_sm:
+            print(f"\nSmart Money overlay: {len(sm_signals)} tickers with signals")
+
     # Print header
     today = date.today()
     print(f"\nR1 PRIORITY QUEUE | {today}")
@@ -687,13 +919,12 @@ def main():
     if auto_near_entry_applied:
         print(f"Auto-filtered to near-entry (R1_COMPLETE >= 20, dist <= 25%). Use --include-far to see all.")
 
-    col_width = 130 if show_ecagr else 120
+    col_width = 140 if (show_ecagr and show_sm) else 130 if (show_ecagr or show_sm) else 120
     print("=" * col_width)
 
-    if show_ecagr:
-        print(f"{'#':>2} {'Ticker':<12} {'QS':>3} {'Tier':>4} {'Sector':<24} {'Dist%':>7} {'E[CAGR]':>8} {'Currency':>8} {'Flags'}")
-    else:
-        print(f"{'#':>2} {'Ticker':<12} {'QS':>3} {'Tier':>4} {'Sector':<24} {'Dist%':>7} {'Currency':>8} {'Flags'}")
+    sm_col = f" {'SM':>8}" if show_sm else ""
+    ecagr_col = f" {'E[CAGR]':>8}" if show_ecagr else ""
+    print(f"{'#':>2} {'Ticker':<12} {'QS':>3} {'Tier':>4} {'Sector':<24} {'Dist%':>7}{ecagr_col}{sm_col} {'Currency':>8} {'Flags'}")
     print("-" * col_width)
 
     for i, c in enumerate(candidates, 1):
@@ -763,12 +994,17 @@ def main():
             if expected not in sector_files:
                 flags.append("NO-SECTOR-VIEW")
 
+        # Smart money signal code
+        sm_code = ""
+        if show_sm:
+            sm_entry = sm_signals.get(c["ticker"])
+            sm_code = sm_entry[0] if sm_entry else "-"
+
         flags_str = " | ".join(flags) if flags else ""
 
-        if show_ecagr:
-            print(f"{i:>2} {c['ticker']:<12} {qs:>3} {tier:>4} {sector:<24} {dist_str:>7} {ecagr_str:>8} {currency:>8}  {flags_str}")
-        else:
-            print(f"{i:>2} {c['ticker']:<12} {qs:>3} {tier:>4} {sector:<24} {dist_str:>7} {currency:>8}  {flags_str}")
+        ecagr_part = f" {ecagr_str:>8}" if show_ecagr else ""
+        sm_part = f" {sm_code:>8}" if show_sm else ""
+        print(f"{i:>2} {c['ticker']:<12} {qs:>3} {tier:>4} {sector:<24} {dist_str:>7}{ecagr_part}{sm_part} {currency:>8}  {flags_str}")
 
     # Summary
     print("-" * col_width)
@@ -786,6 +1022,10 @@ def main():
 
     if show_ecagr:
         print(f"\nE[CAGR] = (FV/entry)^(1/3) - 1 + div_yield. Threshold: >=12% Tier A, >=15% Tier B.")
+
+    if show_sm:
+        print(f"\nSM codes: IC=insider cluster(+2), CV=convergence(+2), QA=quiet accum(+3), "
+              f"FC=founder conviction(+1), HW=herd warning(-1), SE=short escalation(-2), SQ=squeeze risk(0)")
 
     if earnings:
         earning_scored = [t for t in earnings if any(c["ticker"] == t and c.get("pipeline_status") == "SCORED" for c in companies)]

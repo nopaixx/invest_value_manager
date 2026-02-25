@@ -279,7 +279,47 @@ def print_short_positions(state):
     print("-" * 60)
     print(f"{'TOTAL':<10} {'':<18} {'':<3} {total_short_val:>8.0f} {total_pnl:>+8.0f} {total_carry:>7.1f}")
 
-def print_report(state, drawdown_pct=50):
+def load_baskets():
+    """Load thematic baskets for basket concentration analysis."""
+    path = os.path.join(os.path.dirname(__file__), '..', 'state', 'thematic_baskets.yaml')
+    try:
+        with open(path) as f:
+            return yaml.safe_load(f)
+    except Exception:
+        return None
+
+
+def print_basket_concentration(state, baskets_data):
+    """Print basket concentration section."""
+    if not baskets_data:
+        return
+    baskets = baskets_data.get('baskets', [])
+    if not baskets:
+        return
+
+    total = state['total_eur']
+    pos_values = {p['ticker']: p['value_eur'] for p in state['positions']}
+
+    print(f"\n{'Basket':<25} {'EUR':>8} {'%':>6} {'Positions'}")
+    print("-" * 60)
+    for b in baskets:
+        positions = b.get('positions', [])
+        val = sum(pos_values.get(tk, 0) for tk in positions)
+        pct = (val / total * 100) if total > 0 else 0
+        tks = ', '.join(positions[:5])
+        print(f"{b.get('name', b.get('id','?')):<25} {val:>8.0f} {pct:>5.1f}% {tks}")
+
+    # Unassigned
+    assigned = set()
+    for b in baskets:
+        assigned.update(b.get('positions', []))
+    uval = sum(v for tk, v in pos_values.items() if tk not in assigned)
+    if uval > 0:
+        utks = ', '.join(tk for tk in pos_values if tk not in assigned)
+        print(f"{'Unassigned':<25} {uval:>8.0f} {(uval/total*100) if total > 0 else 0:>5.1f}% {utks}")
+
+
+def print_report(state, drawdown_pct=50, show_baskets=False):
     pos_list, sectors, geos, cash, total, num_pos = analyze_context(state)
 
     print("=" * 60)
@@ -336,6 +376,15 @@ def print_report(state, drawdown_pct=50):
 
     # Exposure summary (always show, even if no shorts -- useful context)
     print_exposure_summary(state)
+
+    # Basket concentration (if --baskets flag)
+    if show_baskets:
+        baskets_data = load_baskets()
+        if baskets_data:
+            print(f"\n{'='*60}")
+            print("BASKET CONCENTRATION")
+            print(f"{'='*60}")
+            print_basket_concentration(state, baskets_data)
 
     print("\n[Raw data. Reason from principles.md]")
 
@@ -472,6 +521,8 @@ def main():
     parser.add_argument('amount', nargs='?', type=float, help='Amount EUR for CHECK/CHECK_SHORT mode')
     parser.add_argument('--drawdown', type=float, default=50,
                         help='Drawdown %% for impact calculation (default: 50)')
+    parser.add_argument('--baskets', action='store_true',
+                        help='Add basket concentration section to REPORT')
 
     args = parser.parse_args()
     mode = args.mode.upper()
@@ -483,7 +534,7 @@ def main():
     state = build_portfolio_state(portfolio, eurusd, gbpeur)
 
     if mode == 'REPORT':
-        print_report(state, drawdown_pct=args.drawdown)
+        print_report(state, drawdown_pct=args.drawdown, show_baskets=args.baskets)
     elif mode == 'CHECK':
         if not args.ticker or args.amount is None:
             print("Usage: constraint_checker.py CHECK TICKER AMOUNT_EUR [--drawdown 30]")

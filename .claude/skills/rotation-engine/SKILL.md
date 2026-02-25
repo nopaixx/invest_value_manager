@@ -170,6 +170,27 @@ un candidato Tier A con MoS atractivo:
 
 ---
 
+## Proceso: Basket-Level Rotation (P17)
+
+```
+Every session, compare basket E[CAGR] (weighted average of positions):
+
+IF basket E[CAGR] < 8% for > 3 sessions
+AND no catalyst within 30 days
+AND new basket thesis with E[CAGR] > 12% available:
+  → BASKET ROTATION CANDIDATE (deprecate old basket, build new)
+
+Cash deployment priority:
+1. Basket with highest E[CAGR] AND most underfunded vs meta_portfolio target
+2. Within that basket: position with highest individual E[CAGR]
+3. Constraint check must still pass
+
+Tool: python3 tools/basket_dashboard.py --rebalance
+Tool: python3 tools/basket_dashboard.py --rotation
+```
+
+---
+
 ## Guardrails (principios, no reglas)
 
 1. **No fire sales.** Rotar no significa vender todo de golpe. Es gradual.

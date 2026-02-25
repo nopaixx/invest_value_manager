@@ -16,7 +16,7 @@
 
 ---
 
-## Inputs Dinamicos (9 fuentes + 3 tools)
+## Inputs Dinamicos (10 fuentes + tools)
 
 ### Fuentes de Estado (leer)
 
@@ -30,41 +30,51 @@
 | `portfolio/current.yaml` | Positions on probation, pending reviews, conviction levels |
 | `state/quality_universe.yaml` | SCORED count, stale count, pipeline funnel |
 | `state/session_continuity.yaml` | Prior session work, dedup signals, R1 cooldowns, handoff |
+| `state/evolution_state.yaml` | Trigger red_count, scheduled reviews due, active experiments |
 
 ### Tools Rapidos (ejecutar)
 
 | Tool | Que extraer |
 |------|-------------|
+| `python3 tools/portfolio_cagr.py` | **P1 DEPLOYMENT**: Portfolio E[CAGR], cash drag, market buy candidates, rotation candidates |
 | `python3 tools/forward_return.py --active-only` | Bottom 3 posiciones, rotation candidates, E[CAGR] column |
 | `python3 tools/forward_return.py --pipeline-only --deployment-ready` | Pipeline candidates viable for deployment at current prices |
 | `python3 tools/sector_health.py freshness --stale-only` | Sectores stale con dependencias de portfolio |
-| `python3 tools/r1_prioritizer.py --top 5` | Top R1 candidates (with FANTASY-RISK flags + fantasy rate) |
+| `python3 tools/r1_prioritizer.py --buyable-now` | Reverse pipeline: what's buyable at market TODAY |
 | `python3 tools/r1_prioritizer.py --advancement` | R1_COMPLETE advancement: 3 sections (Ready/Approaching/Parked) + E[CAGR]@mkt |
 | `python3 tools/quality_universe.py approaching` | Pipeline entries moving toward entry since last refresh |
+| `python3 tools/outcome_tracker.py` | Buy decision outcomes: P&L, win rate, calibration |
 
 ---
 
-## Logica de Priorizacion (8 niveles)
+## Logica de Priorizacion (9 niveles)
 
 | P# | Condicion | Bloque | Ejemplo |
 |----|-----------|--------|---------|
 | P0 | Kill condition / CRITICAL news alert | URGENTE | Fraude detectado en posicion |
-| P1 | Earnings <7d sin framework (posicion activa) | URGENTE | MONY.L FY results Monday |
-| P2 | SO triggered o near (<5%) | URGENTE | RACE.MI at 5.3% de entry |
-| P3 | Cash >25% + candidatos actionable en pipeline | PRIORIDAD NORMAL | 60% cash + 3 near-entry |
-| P4 | R1 processing (obligatorio 3-5/sesion — L-08) | PRIORIDAD NORMAL | Top 5 de r1_prioritizer |
-| P5 | Pipelines OVERDUE | PRIORIDAD NORMAL | risk-review 3d overdue |
-| P6 | Rotation: bottom 3 con alternativa superior | PRIORIDAD NORMAL | BYIT.L bottom + IHP.L ready |
+| P1 | **DEPLOYMENT: `portfolio_cagr.py` → market buy candidates → rotation candidates** | URGENTE | Cash 56%, 3 candidates E[CAGR]>15% |
+| P1b | **INACTION AUDIT (auto-trigger if cash >25%): top 3 by E[CAGR], specific reason each NOT bought, classify VALID/INVALID** | URGENTE | Cash 54.6%, HLNE not bought = Error #58 |
+| P2 | Earnings <7d sin framework (posicion activa) | URGENTE | MONY.L FY results Monday |
+| P3 | SO triggered o near (<5%) | URGENTE | RACE.MI at 5.3% de entry |
+| P4 | R1 processing for BUYABLE candidates (obligatorio 3 velocity units/sesion) | PRIORIDAD NORMAL | Top 5 de r1_prioritizer --buyable-now |
+| P5 | Position reviews (ongoing health) | PRIORIDAD NORMAL | LULU probation review |
+| P6 | Pipelines OVERDUE | PRIORIDAD NORMAL | risk-review 3d overdue |
 | P7 | Sector stale con portfolio deps | PRIORIDAD NORMAL | telecom.md 45d old, DTE.DE dep |
 | P8 | System maintenance, universe expansion, health check | MANTENIMIENTO | batch_scorer new index |
+| P8c | **Cash audit: if cash >10%, WHY? Document or deploy.** | MANTENIMIENTO | Cash 15% sin justificacion |
+| P8e | **Evolution: update triggers, process reviews, propose if RED.** If `red_count >= 4` → **URGENTE**. | MANTENIMIENTO (or URGENTE) | 6 RED triggers, exp_001 review due |
 
 **Reglas de clasificacion:**
-- P0-P2 → bloque URGENTE (hacer PRIMERO, antes de cualquier wave)
-- P3-P7 → bloque PRIORIDAD NORMAL (bulk del trabajo de la sesion)
+- P0-P3 → bloque URGENTE (hacer PRIMERO, antes de cualquier wave)
+- P1 DEPLOYMENT is now URGENTE, not normal — every session starts with "what can I buy or rotate NOW?"
+- **P1b INACTION AUDIT fires AUTOMATICALLY when cash >25%.** Not optional. Not maintenance. URGENTE. Output: "Inaction Audit: [PASS/FAIL]. Cash [X]%. Top 3 not bought because: [reasons]"
+- P4-P7 → bloque PRIORIDAD NORMAL (bulk del trabajo de la sesion)
 - P8 → bloque MANTENIMIENTO (si queda contexto)
 - P8e → Evolution micro-step (SIEMPRE al final — Fase 6)
-- R1 processing (P4) SIEMPRE aparece — es obligatorio cada sesion
+- P8c → Cash audit (if cash >10%) — mandatory justification
+- R1 processing (P4) focuses on BUYABLE candidates first (--buyable-now)
 - Net exposure reasoning SIEMPRE aparece — es obligatorio cada sesion (P13)
+- Rotation check SIEMPRE aparece — es obligatorio cada sesion (P16)
 
 ---
 
@@ -99,6 +109,10 @@ Read `session_continuity.yaml` → `session.date` and `skip_if_same_day`:
 - Pipeline: [N] SCORED sin R1, [N] near-entry, [N] deployment-ready (E[CAGR]>=threshold)
 - Fantasy rate: [X]% ([N]/[M] R1s → OVERVALUED/FANTASY)
 - Advancement: Section A [N] ready, [N] approaching
+
+### INACTION AUDIT (auto si cash >25%)
+- Cash: [X]% | Top 3: [T1] E[CAGR] [X]% (reason: [VALID/INVALID]), [T2]..., [T3]...
+- Verdict: [PASS/FAIL]
 
 ### URGENTE (hacer PRIMERO)
 1. [P#] [Descripcion] — agentes: [lista] — ~[X]m
@@ -175,6 +189,60 @@ Si el humano da instruccion directa, NO entrar en plan mode formal. Pero:
 - Generar plan mental como contexto interno (que mas hay pendiente?)
 - Ejecutar la instruccion directa como Wave 1
 - Si queda contexto tras la instruccion, proponer siguiente accion basada en prioridades
+
+---
+
+## Lesson Trigger Table (checked during plan generation)
+
+During plan generation, scan these conditions and surface the matching lesson:
+
+| Condition | Lesson | Where to Surface |
+|-----------|--------|-----------------|
+| `cash > 40%` | L-01: Cash drag | P1 URGENTE |
+| `>5 SOs at >25% distance` | L-02: SOs autoengano | SO reality check item |
+| `DA adjusts FV >20% → entry unreachable` | L-03: Pipeline letal | Post-R2 resolution |
+| `Output contains option menu` | L-04: Cobardia intelectual | Self-check before presenting |
+| `No deployment in 3+ sessions AND cash >20%` | L-05: Esperar crash | P1 URGENTE |
+| `Evaluating Tier A with MoS <15%` | L-06: Calidad bate cash | Investment committee context |
+| `>5 new files created in session` | L-07: Complejidad ≠ calidad | P8 maintenance |
+| `velocity_units <3 at session end` | L-08: Velocity cuello botella | Fase 6 reflection |
+| `R1_COMPLETE >20 AND <3 ACTIONABLE` | L-09: Advancement > volume | Pipeline decision (P4) |
+| `cash >10% for >2 sessions` | L-10: Full deployment mandate | P1 EMERGENCY |
+| `cash >25%` | **INACTION AUDIT (Error #58)**: Top 3 E[CAGR], why not bought, VALID/INVALID | P1b URGENTE (auto-fire) |
+
+**How to use:** After reading 8 state sources and running tools, scan this table. If condition matches, add the lesson reference to the relevant plan section. Format: `[L-XX] {lesson name} — {action}`
+
+---
+
+## Evolution Session Plan Template
+
+**When to activate full evolution session:**
+- Monthly: 1st session of each month
+- RED override: `evolution_state.yaml` → `trigger_summary.red_count >= 4`
+- Human says: "evolve", "mejora el sistema", "self-improve"
+- Scheduled review due: `evolution_state.yaml` → `scheduled_reviews[]` with `due_session <= current`
+
+```markdown
+## EVOLUTION SESSION PLAN — Session [N] | [Date]
+
+### TRIGGER STATUS
+- Red: [N]/10 — [list RED triggers]
+- Experiments measuring: [N] — [list]
+- Reviews due: [list or "none"]
+
+### EVOLUTION ITEMS (P8e → URGENTE if red_count >= 4)
+1. [Review exp_NNN] Measure [metric] vs baseline. Verdict: [POSITIVE/NEGATIVE/NEUTRAL]
+2. [Fix T{N}] {trigger name} — Proposed change: [description]
+3. [Backfill] Measure effectiveness of [evo_NNN] from changelog
+
+### REGULAR SESSION ITEMS
+[Standard URGENTE / PRIORIDAD NORMAL / MANTENIMIENTO blocks]
+
+### EVOLUTION CLOSE
+- Updated evolution_state.yaml triggers: [list changes]
+- New experiments: [list or "none"]
+- Next review due: S[N+5]
+```
 
 ---
 

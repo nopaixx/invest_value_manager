@@ -7,8 +7,8 @@
 system:
   system_version: "4.2.0"
   framework_version: "4.2"
-  last_session: 2026-02-20
-  session_number: 105
+  last_session: 2026-02-25
+  session_number: 118
   status: active
 
   framework_v4_status:
@@ -19,7 +19,7 @@ system:
   portfolio_quality_analysis:
     date: 2026-02-20
     summary:
-      total_positions: 11
+      total_positions: 12
       tier_a_count: 4
       tier_b_count: 6
       tier_c_count: 1
@@ -34,67 +34,83 @@ system:
       gross_pct: 0  # gross / total portfolio
     positions:
       - { ticker: MORN, score: 78, tier: A, status: "FV $195. First E[CAGR] buy S101." }
-      - { ticker: MONY.L, score: 75, tier: A, status: "ON PROBATION. FV 190 GBp. Feb 23 earnings." }
+      - { ticker: MONY.L, score: 75, tier: A, status: "HOLD. FV 190 GBp. FY2025 KCs clear. Probation easing." }
       - { ticker: LULU, score: 78, tier: A, status: "ON PROBATION. FV $196. Mar 31 MAKE-OR-BREAK." }
       - { ticker: ADBE, score: 76, tier: A, status: "FV $390. FTC trial Oct 2026." }
-      - { ticker: NVO, score: 73, tier: B, status: "FV $66. CagriSema March." }
+      - { ticker: NVO, score: 73, tier: B, status: "FV $50 (revised). CagriSema FAILED. KC#1 triggered. HOLD LOW pending confirmation." }
       - { ticker: AUTO.L, score: 71, tier: B, status: "FV 580p. April pricing make-or-break." }
       - { ticker: BYIT.L, score: 68, tier: B, status: "FV 345 GBp. HOLD LOW." }
-      - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. Feb 24 earnings." }
+      - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. FY2025 BASE+ confirmed. All KCs clear." }
       - { ticker: DOM.L, score: 61, tier: B, status: "FV 240 GBp. Mar 5 results." }
-      - { ticker: DTE.DE, score: 69, tier: B, status: "FV EUR 35. Feb 26 earnings." }
+      - { ticker: DTE.DE, score: 69, tier: B, status: "FV EUR 35. Earnings TOMORROW Feb 26. Framework ready." }
+      - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. 2nd E[CAGR] market buy." }
       - { ticker: GL, score: 52, tier: C, status: "FV $191. SEC+DOJ cleared." }
 
   last_session_summary: |
-    Session 105 (2026-02-20, 13th session of day). HARD SESSION — governance + pipeline + system evolution.
+    Session 118 (2026-02-25 ~10:00 CET, 2nd session today). DEPLOYMENT + PIPELINE + OSINT.
     COMPLETED:
-      1. Position Reviews: LULU (HOLD PROBATION, E[CAGR] 6.75%), BYIT.L (HOLD PROBATION, E[CAGR] 14.4%), DOM.L (HOLD LOW, E[CAGR] 12.9%). All 3 HOLD.
-      2. Earnings Prep: EDEN.PA framework rewritten v2 (corrected consensus, added Italy KC#6). DTE.DE trim pre-calc ready. MONY.L sector view updated (ChatGPT launch, QS 81→75).
-      3. R1: ROR.L R1 COMPLETE — QS 73/78adj Tier A. FV 320p, OVERVALUED at 386p. Entry 270-280p. VLTO R1 validation (R3 thesis from S97 confirmed current).
-      4. System Evolution: Anti-fantasy protocol + earnings auto-prep gate added to session-planner SKILL.md.
-      5. Net Exposure Reasoning: 43.3% long, 0% short, 56.7% cash. UNCHANGED. Cash above target. Shorts justified (LYV paused, CVNA no catalyst).
-      6. E[CAGR] scan: ALFA.L 18.5%, IHP.L 23%, RACE.MI 16%, MEGP.L 16.1% — best deployment candidates but all gated.
-    Velocity: 2 units (1x ROR.L R1 + 1x system improvement). Below 3 minimum — acceptable for HARD governance session.
-    Portfolio: UNCHANGED. 11 positions. 43.3% long, 56.7% cash. 0 shorts.
-    R1_COMPLETE: 28 total (+ROR.L). 0 ACTIONABLE for advancement.
-    Fantasy rate: ~70% (25/28 R1s produce OVERVALUED/FANTASY). Anti-fantasy protocol now deployed.
-    Next: MONY.L earnings Mon Feb 23 (CRITICAL — ON PROBATION). EDEN.PA Tue Feb 24. DTE.DE Wed Feb 26.
+      1. NVO thesis v4.0: FV $66→$50, conviction MEDIUM→LOW. HOLD CONFIRMED by human S117. KC#1 triggered (CagriSema failed). ADD SO cancelled. Thesis file updated.
+      2. DOCS R4 Investment Committee: 10-gate review for BUY at $23. [IN PROGRESS]
+      3. Vigilance: 0 CRITICAL. EDEN.PA -5.2% (profit-taking post-earnings, normal). ADBE AI lawsuit (minor). IHP.L insiders buying 339p.
+      4. Smart Money: Form4 insider data ingested (first time — 135 buys, 165 sells). EDEN.PA shorts escalated 19.2%→23.6%. AUTO.L insider cluster $95M. DTE.DE EU capture.
+      5. Net exposure reasoning: 45.1% long, 54.9% cash. EMERGENCY (5th session >50%). Inaction Audit PASS.
+      6. Calendar cleanup: completed events archived. Evolution state updated.
+    Velocity: 2+ units (DOCS R4=1u, pipeline work).
+    Portfolio: 12 positions, ~$11,909 total, +0.4% P&L. Cash 54.9% (EMERGENCY).
+    Next: DTE.DE earnings TOMORROW Feb 26 — TRIM >EUR 34. QTCOM.HE FY2025 HARD GATE tomorrow. DOM.L Mar 5.
 
   # NET EXPOSURE REASONING — Principio 13. Re-evaluate EVERY session.
   # This is NOT a target or range. It's the CONCLUSION of reasoning.
   # History preserved for consistency checks.
   net_exposure:
     current:
-      long_pct: 43.3  # % of total portfolio value in long positions (post-MORN S101)
-      short_pct: 0.0   # % of total portfolio value in short positions
-      cash_pct: 56.7   # % of total portfolio value in cash
-      net_pct: 43.3    # long - short
-      gross_pct: 43.3  # long + short
+      long_pct: 45.1
+      short_pct: 0.0
+      cash_pct: 54.9
+      net_pct: 45.1
+      gross_pct: 45.1
     reasoning: |
-      Session 105 (2026-02-20 20:40 CET): Net exposure 43.3% long, 0% short, 56.7% cash.
-      NO CHANGE from S102. No trades executed S103-S105 (pipeline + system work).
-      MACRO (fresh data Feb 20 20:40):
-        VIX 18.96 (moderate, -19% 3m). S&P 6,902 (-1.4% from ATH). Gold $5,093 (+75% 12m — institutional hedging signal).
-        US 10Y 4.09% (declining). 2Y-10Y +0.61% (normalized). DXY 97.78 (-8% 12m, weak USD = favorable for EUR portfolio).
-        Oil $66.48 (low). HYG/LQD 0.7253 (credit stable).
-      REGIME: Fair-Value UNCHANGED. No panic (VIX moderate), no euphoria (S&P flat 3m). Gold surge = hedging, not crisis.
-      CASH 56.7% — STILL above target (50-55% by Feb 28). 8 days remain.
-        Deployment path: DNLM.L SO 950p only 2.7% away (nearest). RACE.MI 3.8%. IHP.L 5.0%.
-        Earnings week Mon-Wed: MONY.L (if SELL → frees EUR 473), EDEN.PA, DTE.DE (if TRIM → frees EUR 233).
-        Post-earnings: either capital freed or positions confirmed → enables new deployment.
-        Fantasy rate 70% = pipeline produces few actionable entries. Anti-fantasy protocol now in place (S105).
-        E[CAGR] scan: ALFA.L 18.5%, IHP.L 23%, RACE.MI 16%, MEGP.L 16.1% — best deployment candidates.
-      TARGET: Cash 50-55% by Feb 28, 45-50% by Mar 1. Path is earnings-dependent.
+      Session 118 (2026-02-25 ~10:00 CET): Net exposure 45.1% long, 0% short, 54.9% cash.
+      MACRO (fresh data Feb 25 10:00):
+        VIX 19.48 (moderate, stable). S&P 6,890 (-1.6% from ATH). Gold $5,210 (+83.7% 12m).
+        US 10Y 4.03% (declining). DXY 97.79 (-9.1% 12m). 2Y-10Y +0.55% (positive curve).
+        Oil $65.92 (moderate). HYG/LQD 0.7236 (credit stable).
+      REGIME: Fair-Value CONFIRMED. No change from S117. VIX moderate. No systemic stress.
+      CASH 54.9% — EMERGENCY (5th consecutive session >50%). Cash drag ~6.7pp/yr.
+        NVO HOLD confirmed by human. No capital freed.
+        Deployment path (prioritized, updated):
+        1. DTE.DE earnings TOMORROW Feb 26: TRIM if >EUR 34 (~2.2% away at EUR 33.29). Frees ~EUR 400.
+        2. DOCS R4 committee IN PROGRESS. If APPROVED → SO at $23. Currently $24.07 (4.5% above).
+        3. CPRT SO $34 ($35.28 now, 3.6% above). GATED: needs R1. Near 52wL $33.81.
+        4. RACE.MI SO EUR 295 (3.8% away). R4 approved. Best near-trigger.
+        5. DNLM.L SO 950p (2.7% away). R4 approved. 6th UK = conditional (needs MONY.L exit).
+        6. PEGA R3 GATED. Entry $38. At $43.28 = 12.2% above. Gate: Appian.
       SHORT 0% — JUSTIFIED:
-        CVNA $340 — recovered well above $300 re-entry zone. No catalyst without new fraud evidence. MONITOR.
-        LYV $164.94 — DOJ trial Mar 2. Short PAUSED S93 after Q4 beat. Reassess post-trial outcome.
-        No other short candidate through pipeline. Short screening resumes post earnings week.
-        P12 acknowledged: active short search lower priority during dense earnings (4 positions in 96h).
-      ROTATION: Reviews completed S105 (LULU, BYIT.L, DOM.L). All HOLD. No rotation trigger (no OS >2.0).
-        LULU weakest (E[CAGR] 6.75%) but position tiny ($372) — rotation cost > benefit.
-        Bottom 3: LULU (6.75%), DTE.DE (~7%), DOM.L (12.9%). All have catalysts in <2 weeks.
-    last_updated: 2026-02-20
+        No mature short candidates. LYV cancelled. No pipeline.
+      INACTION AUDIT (P15, PASS — 5th session):
+        Top 3 near deployment: RACE.MI E[CAGR] ~14.5% (3.8% from entry, R4 approved),
+        DOCS E[CAGR] ~16% (4.5% above $23 entry, R4 in progress),
+        DNLM.L E[CAGR] ~13.6% (2.7% from entry, 6th UK conditional).
+        All 3 have VALID deployment blockers (price above entry or UK concentration gate).
+        MEGP.L is only market-buy candidate at E[CAGR] 13.4%+ but NOT on eToro = uninvestable.
+      ROTATION: LULU worst at -6.7% E[CAGR]. No improvement target at market.
+        DTE.DE TRIM tomorrow = potential capital redeployment.
+        LULU Mar 31 = MAKE-OR-BREAK (34 days).
+    last_updated: 2026-02-25
     history:
+      - date: 2026-02-25
+        net_pct: 45.1
+        note: "S118. Cash 54.9% EMERGENCY (5th session >50%). NVO HOLD confirmed. DOCS R4 in progress. DTE.DE TRIM tomorrow if >EUR 34. Inaction Audit PASS."
+      - date: 2026-02-25
+        net_pct: 45.1
+        note: "S117. Cash 54.9% EMERGENCY (4th session >50%). ANF R1 COMPLETE (WATCHLIST, entry $80). Digital marketplaces v2.1 updated. DTE.DE earnings TODAY. No deployment target at market. Inaction Audit PASS."
+      - date: 2026-02-25
+        net_pct: 44.0
+        note: "S116. NVO CagriSema FAILED. KC#1 triggered. HOLD recommended (P6). Position -19.8%. Cash ratio worsened to ~56%. DOCS R3 + PEGA R3 completed. DTE.DE earnings tomorrow."
+      - date: 2026-02-22
+        net_pct: 45.4
+        gross_pct: 45.4
+        note: "S109. IHP.L market buy S108 increased long 43.3→45.4%. Cash 56.7→54.6%. Fair-Value regime confirmed. Earnings week deployment conditional (MONY.L→DNLM.L). 0 shorts justified (LYV cancelled, no pipeline). REN.AS R3 WATCHLIST EUR 24.50."
       - date: 2026-02-20
         net_pct: 43.3
         gross_pct: 43.3
@@ -128,9 +144,15 @@ system:
     anti_bias: "This direction was set Feb 15. Do NOT anchor to it. Fresh eyes each session."
 
 macro_snapshot:
-  last_update: 2026-02-20
-  themes: ["Fed/BCE pausa 4.25-4.50%/2.75%", "S&P 6902 near ATH (-1.4%)", "Gold $5093 (+75% 12m — hedge signal)", "DXY 97.78 (-8% 12m, weak USD)", "VIX 18.96 moderate", "US 10Y 4.09% declining", "2Y-10Y +0.61% normalized"]
-  risks: ["Dense earnings Feb 23-26 (MONY.L/EDEN.PA/DTE.DE — 3 positions)", "MONY.L ON PROBATION — earnings Monday make-or-break", "Italy KC#6 for EDEN.PA (5% commission cap + fraud investigation)", "AI disruption wave (MONY.L/BYIT.L/ADBE)", "DOJ antitrust LYV trial Mar 2 (short PAUSED)", "Tariff policy uncertainty", "Gold surge = institutional hedging", "Fantasy rate 70% — pipeline deployment bottleneck"]
+  last_update: 2026-02-25
+  themes: ["Fed/BCE pausa 4.25-4.50%/2.75%", "S&P 6,890 (-1.6% from ATH)", "Gold $5,212 (+83.7% 12m — massive institutional hedging)", "DXY 97.76 (-9.1% 12m — weak USD)", "VIX 19.54 moderate stable", "US 10Y 4.03% declining", "2Y-10Y +0.55% positive curve", "Oil $65.83 moderate"]
+  risks: ["NVO CagriSema FAILED — KC#1 triggered, HOLD LOW pending human", "DTE.DE earnings TODAY Feb 26", "LULU tariff 15% + SCOTUS IEEPA ruling (Section 122 replacement) + no CEO", "ANF Q4 Mar 4 (pipeline gate)", "DOM.L FY25 Mar 5 (8 days)", "EDEN.PA Italy KC#6 (commission cap + fraud)", "AI disruption wave (MONY.L/BYIT.L/ADBE) — BCG classifies auto marketplaces as Breached", "DOJ antitrust LYV trial Mar 2 (short PAUSED)", "Gold surge $5,212 = institutional hedging signal"]
+
+closing_criteria:
+  - "12+ months underperformance >3pp annualized vs MSCI World + MSCI Europe blend"
+  - "<3 sessions/week sustained for 1+ month"
+  - "Portfolio >EUR 100K and eToro limitations prevent proper execution"
+  - "DA calibrator >70% insufficient for >50+ corrections = systematic FV bias"
 
 # Cross-references to split files:
 # Calendar events:     state/calendar.yaml

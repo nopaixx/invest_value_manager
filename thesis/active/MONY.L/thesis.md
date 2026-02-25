@@ -1101,18 +1101,56 @@ EARNINGS RELEASE (Feb 23)
 |--------|-------|
 | Shares | 204 |
 | Avg Cost | 232 GBp |
-| Current Price | 146.1 GBp |
-| Unrealized P&L | -37.1% |
-| Position Size | ~3.2% of portfolio |
+| Current Price | 152.9 GBp |
+| Unrealized P&L | -34.1% |
+| Position Size | ~3.5% of portfolio |
 | QS Tool | 83/100 (Tier A) |
 | QS Adjusted | 75/100 (Tier A borderline) |
-| Working FV | 190 GBp (v3.0, replaces 201 GBp) |
-| MoS vs FV | 23.1% |
-| MoS vs Bear | -9.8% |
-| Conviction | LOW |
-| Status | ON PROBATION |
-| Next Review | Feb 23 (earnings) |
-| Standing Order ADD | CANCELLED (was 150p; no ADD while on probation) |
+| Working FV | 190 GBp (v3.0, maintained post-FY2025) |
+| MoS vs FV | 24.3% |
+| E[CAGR] | 18.2% |
+| Conviction | LOW (was ON PROBATION, easing) |
+| Status | HOLD — PROBATION EASING |
+| Next Review | Next quarter or if price >180p |
+| Standing Order ADD | CANCELLED (no ADD while conviction LOW) |
+
+### FY2025 Earnings Results (2026-02-23)
+
+**Revenue: GBP 446.3M (+2% YoY)** — Above KC#1 floor of GBP 435M by GBP 11.3M.
+
+| Segment | FY2025 | FY2024 | Change |
+|---------|--------|--------|--------|
+| Insurance | GBP 232.5M | GBP 235.0M | -1% |
+| Money | GBP 105.7M | GBP 97.9M | +8% |
+| Home Services | GBP 48.2M | GBP 36.2M | +33% |
+| Travel | GBP 17.6M | GBP 19.6M | -10% |
+| Cashback | GBP 52.7M | GBP 60.6M | -13% |
+
+**Profitability:** Adj EBITDA GBP 145.1M (+2%, margin 33% record). Adj EPS 17.9p (+5%). PAT GBP 80.7M.
+**Capital returns:** GBP 30M buyback completed, GBP 25M for 2026. Dividend 12.63p (+1%).
+**2026 Guidance:** EBITDA in line with consensus GBP 146M (range 142-153M). Maintained.
+
+**AI Strategy Assessment (KC#9):**
+- Enterprise OpenAI agreement signed
+- MoneySuperMarket ChatGPT app launched (first UK financial services company)
+- New products: Price Optimiser, Savings by MoneySuperMarket
+- "Agentic mesh" architecture described
+- AI used for 60% customer contacts already
+- **Verdict: KC#9 CLEAR. AI strategy is Tier 1-2 (credible, funded, product-level). Not exploration — actual products in market.**
+
+**SuperSaveClub:** 2.1M members (doubled from 1M). 16% of group revenue. ARPU GBP 35 vs GBP 20 non-members. Cross-enquiry rate 45% vs 25%. Incremental margin 75% vs 62%.
+
+**Kill Condition Assessment:**
+| KC | Threshold | Result | Status |
+|----|-----------|--------|--------|
+| KC#1 Revenue | <GBP 435M | GBP 446.3M | CLEAR |
+| KC#2 Insurance H2 | -5%+ | -1% H2 | CLEAR |
+| KC#3 Dividend | Cut | +1% increase | CLEAR |
+| KC#9 AI Strategy | None | OpenAI deal + products | CLEAR |
+
+**Decision:** HOLD. All KCs cleared. Revenue between 435-450M = base case. Guidance maintained. AI strategy validated. Probation easing — KC#9 was the existential concern and it's addressed. Conviction stays LOW (not MEDIUM) because: revenue growth only +2%, Insurance flat, Cashback declining -13%, Travel -10%. Need to see revenue acceleration toward 5%+ or SuperSaveClub driving >20% of revenue for upgrade.
+
+**FV 190 GBp MAINTAINED.** Results confirm base case, not bull case. EBITDA GBP 145M growing to 146M = ~1% growth. Need structural improvement for FV upgrade.
 
 ### Version History Update
 
@@ -1120,8 +1158,9 @@ EARNINGS RELEASE (Feb 23)
 |---------|------|--------|
 | 1.0 | 2026-02-04 | Thesis original. FV 240-280 GBp |
 | 2.0 | 2026-02-07 | Adversarial review. FV revised to 201 GBp. Conviction LOW. HOLD pre-earnings. |
-| **3.0** | **2026-02-12** | **AI Disruption Re-evaluation. FV revised to 190 GBp. QS adjusted 83->75 (borderline Tier A). Bear probability +10pp. Insurify US-only, car-only, cannot transact. UK regulatory moat intact. HOLD through Feb 23 earnings. Added KC#9 (AI strategy requirement). Post-earnings decision tree tightened.** |
-| **3.1** | **2026-02-20** | **Pre-earnings update. MONY LAUNCHED ChatGPT integration (first UK financial services company). Car insurance quotes available inside ChatGPT. Shares rose 1.6% on news. This PARTIALLY pre-addresses KC#9 — management IS responding to AI threat. At earnings call, verify: (1) ChatGPT app traction/usage data, (2) broader AI strategy beyond ChatGPT, (3) Google AI Overviews defense. Price 152.9p, P/E 10.2x, yield 8.3%. MoS vs FV 190p = 19.5%.** |
+| 3.0 | 2026-02-12 | AI Disruption Re-evaluation. FV revised to 190 GBp. QS adjusted 83->75. |
+| 3.1 | 2026-02-20 | Pre-earnings update. ChatGPT app launched. KC#9 partially pre-addressed. |
+| **3.2** | **2026-02-23** | **FY2025 earnings. Revenue GBP 446.3M (+2%). All KCs CLEAR. AI strategy validated (KC#9). Probation easing. FV 190 GBp maintained. Conviction LOW (base case confirmed, not bull). Next: quarterly review or price >180p.** |
 
 ---
 

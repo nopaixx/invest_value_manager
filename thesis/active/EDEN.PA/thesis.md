@@ -4,7 +4,7 @@
 **Original Date:** 2026-02-01
 **Price at Review:** EUR 17.95
 **Quality Score:** 62/100 -- Tier B
-**Recommendation:** HOLD / WAIT FOR EARNINGS FEB 24
+**Recommendation:** HOLD (FY2025 BASE+ confirmed 2026-02-24. All KCs clear.)
 **Framework Version:** 4.0 (Principios Adaptativos)
 > **Fair Value:** EUR 29.0 (adversarial, updated 2026-02-07)
 
@@ -445,9 +445,41 @@ EARNINGS FEB 24
 
 ---
 
+## POST-EARNINGS UPDATE — FY2025 Results (2026-02-24)
+
+**Scenario realized: BASE+ (beat + unchanged guidance)**
+
+| Metric | FY2025 Actual | Consensus | vs Consensus |
+|--------|--------------|-----------|--------------|
+| Total Revenue | EUR 2,961M (+5.7% LfL) | EUR 2,955M | BEAT +0.2% |
+| Operating Revenue | EUR 2,732M (+6.2% LfL, +8.3% ex-Italy) | — | Strong |
+| EBITDA | >EUR 1,340M | EUR 1,342M | In-line/slight beat |
+| H2 EBITDA | EUR 706M (+8% LfL) | — | 42% above expectations |
+| Net Income | EUR 521M (+2.8%) | EUR 531.7M | Slight miss |
+| Adj EPS | EUR 2.59 (+10%) | EUR 2.136 | **MASSIVE BEAT +21%** |
+| Dividend | EUR 1.33/share (+10%) | EUR 1.306 | Beat |
+
+**Key takeaways:**
+- Record profitability. Margin expansion + accelerated deleveraging.
+- 2026 guidance UNCHANGED: EBITDA -8%/-12% reported. Intrinsic +8-12% ex-regulatory.
+- 2027-2028 targets CONFIRMED: 8-12% organic EBITDA growth + FCF conversion >=65%.
+- Italy: "exceptional items" mentioned, precise impact not fully disclosed in press release.
+- Brazil: injunction suspension confirmed. Update expected.
+- Price reaction: +8% intraday, settled at EUR 18.92.
+- SI 19.3% (27 funds) — shorts taking pain. Covering rally may continue.
+
+**Decision tree outcome:** BASE+ → **HOLD**. Thesis intact. No KC triggered.
+- FV EUR 29.0 MAINTAINED (adversarial base). No change warranted — strong 2025 but 2026 still rebasing year.
+- MoS at EUR 18.92: 34.7% (was 37.6% at EUR 18.09)
+- E[CAGR] at EUR 18.92: ~29% (still very high)
+- Conviction: MEDIUM (unchanged). Monitor SI covering dynamics.
+
+---
+
 ## Sources
 
 - [Edenred Financial Results](https://www.edenred.com/en/investors-shareholders/financial-results)
+- [Edenred FY2025 Shares Surge 8%](https://www.marketscreener.com/news/edenred-shares-surge-8-after-slightly-better-than-expected-2025-results-and-unchanged-2026-outlook-ce7e5cdad989f022)
 - [Edenred: New regulatory framework Brazil](https://media.edenred.com/edenred-takes-note-of-the-new-regulatory-framework-for-the-meal-and-food-voucher-system-in-brazil/?lang=en)
 - [Investing.com: Edenred shares fall 9%](https://www.investing.com/news/earnings/edenred-shares-fall-9-after-brazils-new-meal-voucher-rules-threaten-earnings-4350187)
 - [MarketScreener: Edenred and Pluxee Shine After Suspension](https://www.marketscreener.com/news/edenred-and-pluxee-shine-amid-temporary-suspension-of-meal-voucher-reform-in-brazil-ce7e58ddd080f427)

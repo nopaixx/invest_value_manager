@@ -5,7 +5,9 @@
 > **Status:** RESEARCH
 > **Ticker:** NOVO-B.CO (Copenhagen) / NVO (NYSE ADR)
 
-> **Fair Value:** $66 (DKK 491, weighted OEY + DCF + Reverse DCF)
+> **Fair Value:** $50 (v4.0 post-CagriSema REDEFINE 4 failure. Was $66. Bear $35-42, Base $50, Bull $65.)
+> **Conviction:** LOW (downgraded from MEDIUM, S117 2026-02-25)
+> **Status Update:** HOLD CONFIRMED by human S117. CagriSema FAILED non-inferiority vs Zepbound. KC#1 TRIGGERED.
 
 ---
 
@@ -169,7 +171,7 @@ LTV/CAC: Estimated >10x (exceptional)
 
 ### Kill Conditions
 
-1. **CagriSema head-to-head shows inferiority to Zepbound** (data March 2026) - would cement #2 position with inferior product
+1. **CagriSema head-to-head shows inferiority to Zepbound** — **KC#1 TRIGGERED Feb 23, 2026.** REDEFINE 4 trial FAILED non-inferiority vs Zepbound (23.0% vs 25.5% weight loss). CagriSema = inferior next-gen compound. **P6 Applied: HOLD** — Ozempic/Wegovy franchise intact ($42B+), MoS 22.8% vs $50 FV, E[CAGR] ~18.7%. HOLD confirmed by human S117.
 2. **Market share falls below 40%** - indicates structural competitive disadvantage
 3. **Gross margin falls below 70%** - indicates moat erosion
 4. **Dividend cut** - would signal management pessimism
@@ -590,6 +592,66 @@ Given QS 82 (Tier A) but elevated near-term uncertainty:
 2. **Divergent beta estimates**: Sources report beta from 0.36 to 0.95. Used 0.6 as midpoint but this affects WACC significantly.
 
 3. **2026 guidance range is unusually wide** (-5% to -13% = 8pp spread). Management uncertainty is elevated.
+
+---
+
+## THESIS UPDATE v4.0 — CagriSema REDEFINE 4 Failure (2026-02-25, S117-S118)
+
+### What Happened
+- **REDEFINE 4 trial results (Feb 23, 2026):** CagriSema achieved 23.0% weight loss vs Zepbound's 25.5% — FAILED non-inferiority (p=0.02 superiority for Zepbound)
+- CagriSema = amylin + GLP-1 dual-agonist (Novo's best next-gen compound)
+- Zepbound = tirzepatide, GLP-1+GIP dual-agonist (Eli Lilly)
+- **KC#1 TRIGGERED.** This was the #1 kill condition — CagriSema inferiority vs Zepbound.
+
+### P6 Analysis: Why HOLD, Not EXIT
+Principle 6: "Vender Requiere Argumento" — selling needs a positive case for selling, not just a triggered rule.
+
+**Arguments FOR EXIT:**
+- KC#1 triggered (head-to-head inferiority confirmed)
+- Next-gen pipeline now structurally weaker than Lilly
+- Stock at -19.8% unrealized loss from entry
+- Conviction already LOW
+
+**Arguments FOR HOLD (stronger):**
+- Ozempic/Wegovy franchise intact ($42B+ annual revenue, growing)
+- CagriSema still got 23% weight loss — not failed, just inferior to best-in-class
+- Base business (diabetes + obesity) continues to generate $10B+ FCF
+- At $38.59, price implies near-zero growth for 5 years — market overreacting
+- MoS 22.8% vs revised $50 FV
+- E[CAGR] ~18.7% at current price (well above 15% Tier B threshold)
+- Selling crystallizes -19.8% loss when base business justifies higher value
+
+**VERDICT: HOLD with REVISED parameters.**
+
+### Revised Fair Value: $50 (was $66)
+
+**Bridge $66 → $50 (-24.2%):**
+| Factor | Impact | Reasoning |
+|--------|--------|-----------|
+| CagriSema no longer premium pricing | -$8 | Was modeled at premium; now priced as me-too |
+| Market share trajectory worsened | -$5 | Base case 42% → 38% by 2028 |
+| Probability reweight: bear up | -$3 | Bear now 35% (was 25%), bull 15% (was 25%) |
+
+**New Scenarios:**
+| Scenario | Prob | FV | Key Assumption |
+|----------|------|-----|----------------|
+| Bear | 35% | $35-42 | Share <35%, GM <72%, no next-gen differentiation |
+| Base | 50% | $50 | Duopoly at 38%, Wegovy pill grows, CagriSema niche |
+| Bull | 15% | $65 | Wegovy pill blockbuster, new indications, sentiment recovery |
+
+### Conviction: LOW (was MEDIUM)
+- Downgraded because KC#1 triggered = thesis materially weakened
+- HOLD justified by base business + valuation, not by thesis strength
+
+### Updated Exit Plan
+- HOLD LOW through Q1-Q2 2026
+- ADD only at $30 if Wegovy pill data strong
+- SELL if FY2026 guidance miss >10% OR market share <40% OR gross margin <70%
+- TRIM at $60+
+- Next catalysts: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update
+
+### ADD Standing Order: CANCELLED
+- Previous ADD SO at $33 (CagriSema-contingent) = CANCELLED. Gate invalidated.
 
 ---
 

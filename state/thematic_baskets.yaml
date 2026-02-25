@@ -1,0 +1,192 @@
+# =============================================================================
+# THEMATIC BASKETS — Portfolio Architect Layer
+# =============================================================================
+# Groups related positions under shared thematic theses.
+# Accelerates deployment (shared sector analysis), reduces fantasy rate,
+# adds portfolio structure for scaling to 25-40 positions.
+#
+# SAFETY: Baskets streamline SHARED context, not INDIVIDUAL analysis.
+# Every per-stock gate (QS, kill conditions, thesis, constraint check) stays intact.
+# Max 2 new positions per session per basket. See error #57.
+#
+# Created: 2026-02-22 | Framework v4.6
+# =============================================================================
+
+baskets:
+
+  - id: uk-digital-platforms
+    name: "UK Digital Platforms"
+    status: ACTIVE
+    thesis: >
+      UK digital platforms with dominant market positions (>50% share), high ROIC
+      (>20%), recurring revenue models, and structural tailwinds from offline-to-online
+      migration. GBP exposure is a shared risk. UK consumer confidence is the shared
+      macro driver. AI disruption is the shared structural risk (varying by sub-sector).
+    sector_views:
+      - world/sectors/digital-marketplaces.md
+    positions:
+      - MONY.L   # Price comparison, QS 75 Tier A borderline
+      - AUTO.L   # Auto classifieds, QS 71 Tier B
+      - IHP.L    # Adviser platform, QS 80 Tier A
+    pipeline:
+      - DNLM.L   # Homewares e-commerce, QS 79 Tier A, SO 950p
+      - ALFA.L   # Auto dealer platform, R4 gated Mar 12
+    shared_risks:
+      - "GBP depreciation (all revenues GBP-denominated)"
+      - "UK consumer spending slowdown"
+      - "UK digital services tax increase"
+      - "AI disruption of comparison/marketplace models"
+    kill_conditions:
+      - "GBP/EUR drops >15% in 3 months (currency shock)"
+      - "UK enters recession (2 consecutive GDP contractions)"
+      - "3+ positions in basket trigger individual KCs simultaneously"
+    metrics: {}  # computed by basket_dashboard.py
+    created: 2026-02-22
+    notes: "5th UK position cap applies (IHP.L = 5th). DNLM.L conditional on MONY.L outcome."
+
+  - id: quality-compounders-us
+    name: "US Quality Compounders"
+    status: ACTIVE
+    thesis: >
+      US-listed quality compounders with wide/narrow moats, high ROIC (>15%),
+      strong FCF generation, and significant insider ownership. Common theme:
+      fallen angels or underfollowed names trading below intrinsic value due to
+      temporary headwinds (legal, governance, sentiment) not structural impairment.
+    sector_views:
+      - world/sectors/technology.md
+      - world/sectors/financial-data-analytics.md
+      - world/sectors/insurance.md
+    positions:
+      - ADBE    # Creative/document cloud, QS 73 Tier B (FTC headwind)
+      - MORN    # Financial data, QS 78 Tier A
+      - LULU    # Athleisure, QS 78 Tier A (governance headwind)
+    pipeline:
+      - HLNE    # Alt asset management, QS 82 Tier A, SO $100
+      - UTHR    # PAH specialist pharma, QS 78 Tier A, SO $390
+    shared_risks:
+      - "USD strength reducing EUR-denominated returns"
+      - "US market multiple compression"
+      - "Rising US interest rates impact growth valuations"
+    kill_conditions:
+      - "US enters stagflation (GDP <0% + inflation >5%)"
+      - "3+ positions in basket hit individual KCs simultaneously"
+    metrics: {}
+    created: 2026-02-22
+    notes: "Diverse sub-sectors (tech, data, retail). Correlation moderate via USD + US economy."
+
+  - id: eu-value-recovery
+    name: "EU Value Recovery"
+    status: ACTIVE
+    thesis: >
+      European companies with strong competitive positions trading at value
+      multiples due to EU-specific headwinds (regulation, growth perception,
+      geopolitics). Recovery thesis: earnings normalization + multiple re-rating
+      as headwinds fade. EUR exposure is shared currency risk.
+    sector_views:
+      - world/sectors/business-services.md
+      - world/sectors/telecom.md
+    positions:
+      - EDEN.PA  # Employee benefits, QS 69 Tier B (France regulation headwind)
+      - DTE.DE   # Telecom, QS 69 Tier B (TMUS hidden value)
+    pipeline:
+      - REN.AS   # Data analytics, QS 76 Tier A, SO EUR 24.50
+      - RACE.MI  # Luxury auto, QS 82 Tier A, SO EUR 295
+    shared_risks:
+      - "EU macro deterioration (Germany recession deepens)"
+      - "EUR depreciation vs USD reducing absolute returns"
+      - "EU regulatory tightening (antitrust, digital markets)"
+    kill_conditions:
+      - "EU GDP contracts >2% annualized for 2 consecutive quarters"
+      - "3+ positions trigger individual KCs simultaneously"
+    metrics: {}
+    created: 2026-02-22
+    notes: "Diverse sub-sectors. Correlation via EUR + EU economy. RACE.MI = luxury (low EU macro correlation)."
+
+  - id: specialty-insurance
+    name: "Specialty Insurance"
+    status: BUILDING
+    thesis: >
+      Specialty insurance companies with superior underwriting discipline
+      (combined ratios consistently <95%), high ROE (>15%), and competitive moats
+      from data/expertise advantages. Counter-cyclical deployment opportunity as
+      market enters soft cycle from hard market peak.
+    sector_views:
+      - world/sectors/insurance.md
+    positions:
+      - GL      # Life/health insurance, QS 55 Tier B borderline
+    pipeline:
+      - ACGL    # Bermuda specialty, QS 68 Tier B, SO $88
+      - KNSL    # E&S specialist, QS 75 Tier A, SO $310
+    shared_risks:
+      - "Catastrophe losses spike (climate events)"
+      - "Interest rate decline compresses investment income"
+      - "Soft market cycle accelerates (pricing power erodes)"
+    kill_conditions:
+      - "Industry combined ratio >105% for 2 consecutive years"
+      - "All 3 positions enter soft-cycle earnings decline simultaneously"
+    metrics: {}
+    created: 2026-02-22
+    notes: "BUILDING status — only GL deployed. ACGL is priority over KNSL for capital."
+
+  - id: pharma-biotech
+    name: "Pharma & Biotech"
+    status: BUILDING
+    thesis: >
+      Quality pharma/biotech companies with dominant franchises in large therapeutic
+      areas, strong pipeline optionality, and temporary valuation dislocations from
+      clinical setbacks or sentiment shifts. High FCF margins fund R&D moat.
+    sector_views:
+      - world/sectors/pharma-healthcare.md
+    positions:
+      - NVO     # GLP-1 leader, QS 73 Tier B (CagriSema binary)
+    pipeline: []
+    shared_risks:
+      - "Drug pricing regulation (US IRA, EU reference pricing)"
+      - "Clinical trial failures on key pipeline assets"
+      - "Patent cliff exposure"
+    kill_conditions:
+      - "Key franchise loses >25% market share to competitor"
+      - "Major regulatory action (FDA black box, EU withdrawal)"
+    metrics: {}
+    created: 2026-02-22
+    notes: "BUILDING — single position (NVO). Needs 2+ candidates to justify active basket."
+
+# Positions not yet assigned to baskets (insufficient pipeline to justify):
+# BYIT.L — UK tech VAR, potential fit in uk-digital-platforms but sector mismatch
+# DOM.L  — UK consumer staples, no obvious thematic cluster
+
+# =============================================================================
+# META-PORTFOLIO ALLOCATION (Phase 4)
+# =============================================================================
+meta_portfolio:
+  regime: FAIR_VALUE
+  last_reasoned: 2026-02-22
+  target_allocations:
+    - basket_id: uk-digital-platforms
+      target_pct: 20
+      range_pct: [15, 25]
+      reasoning: "Highest concentration of Tier A pipeline. 4 positions + 2 pipeline. GBP risk acceptable."
+    - basket_id: quality-compounders-us
+      target_pct: 25
+      range_pct: [20, 30]
+      reasoning: "Best individual E[CAGR] positions. Diverse sub-sectors reduce intra-basket correlation."
+    - basket_id: eu-value-recovery
+      target_pct: 20
+      range_pct: [15, 25]
+      reasoning: "Value recovery upside if EU headwinds fade. RACE.MI = portfolio crown jewel candidate."
+    - basket_id: specialty-insurance
+      target_pct: 10
+      range_pct: [5, 15]
+      reasoning: "Counter-cyclical. BUILDING — expand when soft market creates entry points."
+    - basket_id: pharma-biotech
+      target_pct: 10
+      range_pct: [5, 15]
+      reasoning: "BUILDING — single position. Binary catalyst (CagriSema). Expand when pipeline develops."
+    - basket_id: unassigned
+      target_pct: 5
+      range_pct: [0, 10]
+      reasoning: "BYIT.L + DOM.L. Small positions on probation. Rotate if basket opportunity better."
+    - basket_id: cash
+      target_pct: 10
+      range_pct: [5, 15]
+      reasoning: "Target near-full deployment. Cash >15% = EMERGENCY per P15."

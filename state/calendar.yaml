@@ -1,55 +1,19 @@
 # CALENDAR - Active and Future Events
 # Past events archived in state/calendar_archive.yaml
-# Updated: 2026-02-20
+# Updated: 2026-02-25 (S118)
 
 events:
-  # COMPLETED — Archive candidates (keep for reference until next calendar cleanup)
-  # LYV Q4: COMPLETED Feb 19. STRONG BEAT. Short PAUSED. See post_q4_assessment.md
-  # MONC.MI FY2025: COMPLETED Feb 19. R3 COMPLETE. R4 gated Q1 2026. FV EUR 52, entry EUR 42.
-  # AGN.NV FY2025: COMPLETED Feb 19. Operating result +15%. Solvency 184%. Not at entry.
-
-  # EARNINGS WEEK FEB 23-26
-  - date: 2026-02-23
-    type: earnings
-    ticker: MONY.L
-    event: "MONY.L FY2025 Results — ON PROBATION"
-    priority: high
-    action: "KC#9: SELL if no AI strategy. FV 190 GBp. SELL if rev <435M or Insurance -5%+."
-
-  - date: 2026-02-23
-    type: strategy
-    ticker: ENEL.MI
-    event: "Enel Capital Markets Day"
-    priority: high
-    action: "Si FV sube 11-12 - entry 8.50."
-
-  - date: 2026-02-24
-    type: earnings
-    ticker: EDEN.PA
-    event: "EDEN.PA FY2025 Results"
-    priority: high
-    action: "Framework ready. See thesis/active/EDEN.PA/earnings_framework_feb2026.md"
-
-  - date: 2026-02-24
-    type: earnings
-    ticker: UTG.L
-    event: "Unite Group FY2025 Preliminary Results"
-    priority: high
-    action: "Watch occupancy FY2027 reservations, Empiric synergies."
-
-  - date: 2026-02-25
-    type: watchlist_review
-    ticker: WKL.AS
-    event: "WKL.AS FY2025 Results — review trigger"
-    priority: high
-    action: "Committee: entry EUR 50-55 post results. See thesis/research/WKL.AS/committee_decision.md"
-
-  - date: 2026-02-25
-    type: earnings
-    ticker: BVI.PA
-    event: "BVI.PA FY2025 — R3 complete"
-    priority: high
-    action: "Pipeline candidate. R3 complete."
+  # COMPLETED (archive next cleanup):
+  # LYV Q4: COMPLETED Feb 19. STRONG BEAT. Short PAUSED.
+  # MONC.MI FY2025: COMPLETED Feb 19. R3 COMPLETE. R4 gated Q1 2026.
+  # AGN.NV FY2025: COMPLETED Feb 19. Operating result +15%. Not at entry.
+  # MONY.L FY2025: COMPLETED Feb 23. Rev GBP 446.3M (+2%), EBITDA GBP 145.1M record. All KCs clear. Probation easing.
+  # ENEL.MI CMD: COMPLETED Feb 23. No actionable.
+  # EDEN.PA FY2025: COMPLETED Feb 24. EBITDA EUR 1,360M (+11.2% LFL). MASSIVE BEAT. BASE+ confirmed. HOLD.
+  # UTG.L FY2025: COMPLETED Feb 24. Not in pipeline.
+  # WKL.AS FY2025: COMPLETED Feb 25. Rev EUR 6.1B (+7% CC), cloud +15%. Stock EUR 62.34, entry EUR 50-55 = 17-20% away. NOT actionable.
+  # BVI.PA FY2025: COMPLETED Feb 25. Rev +6.5% organic, margin 16.3% (+51bps). Strong TIC. Not at entry.
+  # NVO CagriSema: KC#1 TRIGGERED Feb 23. REDEFINE 4 FAILED non-inferiority vs Zepbound (23% vs 25.5%). FV $66→$50. HOLD confirmed.
 
   - date: 2026-02-26
     type: earnings_pipeline
@@ -163,12 +127,8 @@ events:
     priority: high
     action: "R3 complete. Pipeline candidate. HARD GATE: must review results before standing order."
 
-  - date: 2026-03-15
-    type: catalyst
-    ticker: NVO
-    event: "CagriSema vs Zepbound head-to-head data"
-    priority: CRITICAL
-    action: "If positive: ADD 2%. If inferior: evaluate kill conditions."
+  # NVO CagriSema head-to-head: COMPLETED Feb 23. FAILED. KC#1 triggered. See thesis/active/NVO/thesis.md v4.0.
+  # Next NVO catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update (no fixed date yet).
 
   - date: 2026-03-19
     type: earnings

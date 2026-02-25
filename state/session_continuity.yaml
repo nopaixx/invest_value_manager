@@ -2,75 +2,109 @@
 # OVERWRITTEN each session (not accumulated). r1_cooldowns is rolling 30d.
 # Read by: session-planner, r1_prioritizer.py, session-phases
 # Written by: Fase 6 (last operation of each session)
-# Created: 2026-02-20
+# Created: 2026-02-25
 
 session:
-  id: 106
-  date: "2026-02-20"
-  timestamp_cet: "2026-02-20T21:45"
+  id: 121
+  date: "2026-02-25"
+  timestamp_cet: "2026-02-25T12:30"
 
 completed:
   vigilance:
-    news_scan_time: "2026-02-20T23:00"
+    news_scan_time: "2026-02-25T10:00"
     critical_count: 0
-    note: "Same-day dedup from S105. Fresh until Feb 21 07:00."
+    material_count: 3
+    note: "Same-day dedup from S118-S120. No new news scan needed."
   so_check:
-    timestamp: "2026-02-20T19:36"
-    nearest: { ticker: "DNLM.L", distance_pct: 2.7 }
+    timestamp: "2026-02-25T11:00"
+    nearest: { ticker: "DOCS", distance_pct: 4.4, note: "R4 APPROVED. Nearest ACTIVE SO." }
     triggered: []
-    note: "Same-day dedup from S105."
+    note: "Carried from S120. No price changes in same-day session."
   rotation_check: true
+  rotation_note: "Same-day dedup from S120."
   net_exposure: true
-  net_exposure_reasoning: "Cash 56.7%. Fair-Value regime. 0 shorts justified. Earnings week = deployment catalyst. UNCHANGED from S105."
-  position_reviews:
-    - { ticker: "LULU", verdict: "HOLD PROBATION", e_cagr: 6.75, note: "S105 review. Mar 31 make-or-break." }
-    - { ticker: "BYIT.L", verdict: "HOLD PROBATION", e_cagr: 14.4, note: "S105 review. May results decisive." }
-    - { ticker: "DOM.L", verdict: "HOLD LOW", e_cagr: 12.9, note: "S105 review. Mar 11 earnings decisive." }
-  sectors_refreshed:
-    - { sector: "digital-marketplaces", note: "S105: MONY.L QS 81→75, AUTO.L 79→71" }
-  earnings_prep_verified:
-    - { ticker: "MONY.L", date: "2026-02-23", status: "DECISION-READY", key: "KC#9 AI strategy. FV 190p." }
-    - { ticker: "EDEN.PA", date: "2026-02-24", status: "DECISION-READY", key: "Framework v2 ready. Italy KC#6 added. FV EUR 29." }
-    - { ticker: "DTE.DE", date: "2026-02-26", status: "DECISION-READY", key: "MoS ~7%. TRIM >EUR 34. FY2026 EPS guide critical." }
-  pipeline_advancement:
-    - "FSG.L R2 COMPLETE → PAUSED. DA found P/E 13x overstated (peers 5-9x trailing). FV revised 530p→408p base. VCT tax cut Apr 2026 = 13-19% revenue risk. Entry 320p. Revisit Dec 2026. 2 velocity units."
-    - "NOS.LS R2 COMPLETE → DO NOT ADVANCE. DA confirmed: Digi risk severe (Spain: 10% share, -11.6% ARPU). FCF overstated (EUR 360M not 446M). E[CAGR] 12% < 15% threshold. DTE.DE superior. Entry revised EUR 3.50. 2 velocity units."
-  velocity_units: 4  # FSG.L R2=2u, NOS.LS R2=2u. Exceeds 3 minimum.
+  net_exposure_reasoning: "Same-day dedup. 45.1% long, 0% short, 54.9% cash. EMERGENCY continues."
+  deployment_actions:
+    - "OSINT SESSION — No deployments. Pure research + graph enrichment."
+    - "discover FCA/AMF dedup bug FIXED: Same root cause as ingest-fca. Sainsbury 1604%→5.4%."
+    - "stock-profile bug FIXED: quality_holders used edge data dict instead of fund_id for G.nodes.get()."
+    - "3 funds ENROLLED: Cantillon (CIK 1279936), Fundsmith (CIK 1569205), Coronation (CIK 1594320). 13F downloaded + ingested. 146 hold edges."
+    - "EU CAPTURE 7 stocks: EDEN.PA, DTE.DE, IHP.L, MONY.L, DOM.L, BYIT.L, AUTO.L. Full holders + insiders captured."
+    - "Graph: 504→539 nodes, 708→795 edges."
+  earnings_frameworks:
+    - { ticker: "DTE.DE", date: "2026-02-26", status: "READY", key: "BEAT+>EUR 34=TRIM 50%. MEET=HOLD. MISS=EXIT." }
+    - { ticker: "QTCOM.HE", date: "2026-02-26", status: "HARD GATE", key: "EBITA margin >=18% = PASS → R2." }
+    - { ticker: "MEGP.L", date: "2026-02-27", status: "HARD GATE (NOT ON ETORO)", key: "Thesis tracking only." }
+    - { ticker: "DOM.L", date: "2026-03-05", status: "READY (thesis Section 9)", key: "EBITDA >GBP125M KC#1." }
+  pipeline_advancement: []
+  velocity_units: 0
+  velocity_note: "OSINT-only session. No pipeline advancement. Rolling avg declining."
+  osint:
+    - "discover FCA/AMF dedup bug fixed. SI% now sane (<100% for all stocks)."
+    - "stock-profile quality_holders crash fixed (unhashable dict → fund_id)."
+    - "3 new funds enrolled: Cantillon, Fundsmith, Coronation. 13F ingested."
+    - "EU capture: 7 EU portfolio stocks fully enriched with holders + insiders."
+    - "AUTO.L INSIDER_CLUSTER_BUY = FALSE POSITIVE (corporate buyback misclassified)."
+    - "Kintbury Capital = MATERIAL bear signal on AUTO.L (forensic accounting fund, largest UK short)."
+    - "EDEN.PA short thesis = regulatory (Brazil+Italy). France caps RULED OUT. 60% SI is quant/systematic."
+    - "DTE.DE heavy insider selling 2025 (EUR 8-9M). SoftBank fully exited."
+    - "DOM.L Chair+CEO bought Dec 2025. Fundsmith 5.4%. Browning West 5% activist."
+    - "BYIT.L genuine insider cluster Aug 2025 (4 dirs, GBP 239K). Coronation 26%."
+    - "MONY.L Moltiply Group 10% strategic (Italian fintech = M&A watch)."
+    - "Cross-fund gaps: FTNT, OTIS, ODD, IBKR, CBRE, ICE, FWONK not in universe."
+    - "ADBE fund divergence: Gayner exit = rotation (not AI conviction). Cantillon +16% = contrarian quality buy."
+  evolution_updates:
+    - "T2 RED continues (8th session >50% cash)."
+    - "Graph v4.4 operational. 16 funds tracked."
+  meta_reflection_processed:
+    - { agent: "EU capture agents x3", items: 21, key_action: "7 stocks enriched. AUTO.L false positive identified. Kintbury red flag documented." }
+    - { agent: "Signal deep dive agents x2", items: 8, key_action: "Kintbury accounting lens thesis documented. EDEN.PA short composition analyzed." }
 
-skip_if_same_day:
-  vigilance_fresh_until: "2026-02-21T07:00"
-  so_fresh_until: "2026-02-21T07:00"
-  rotation_done_today: true
+handoff:
+  next_session_priorities:
+    P0:
+      - "DTE.DE EARNINGS TODAY Feb 26: Apply decision tree. BEAT+>EUR 34 → TRIM 50%. Insider SELLING is bearish context."
+      - "QTCOM.HE FY2025 TODAY Feb 26: HARD GATE. EBITA margin >=18% = PASS → R2."
+    P1:
+      - "MEGP.L FY2025 Feb 27: HARD GATE. Thesis tracking (NOT on eToro)."
+      - "DOCS SO at $23: Monitor. 4.4% away."
+      - "HLNE SO at $95: Monitor. 7.1% away."
+      - "AUTO.L: Add Kintbury accounting lens investigation to next re-eval (capitalised dev costs, SBC, FCF gap)."
+    P2:
+      - "KLR.L FY2025 Mar 3: HARD GATE."
+      - "DOM.L FY25 Mar 5: Framework READY."
+      - "Pipeline velocity YELLOW — need advancement units."
+      - "EDEN.PA: Monitor quant covering velocity in next AMF data refresh."
+    P3:
+      - "New universe candidates from cross-fund: FTNT (Fundsmith 3%), OTIS, IBKR (Cantillon 7.5%), ICE (Cantillon 4.9%)."
+      - "FWONK (F1 scarcity asset) — quick triage if time."
+  dedup_signals:
+    - "NVO thesis v4.0 COMPLETE. No re-analysis until Wegovy pill data."
+    - "DOCS R4 APPROVED. SO at $23. No re-analysis."
+    - "PEGA R3 GATED. Entry $38."
+    - "ANF R1 COMPLETE. Entry $80. GATED Q4 Mar 4."
+    - "MONY.L FY2025 PROCESSED."
+    - "EDEN.PA FY2025 PROCESSED. HOLD confirmed. Short thesis = regulatory, France caps ruled out."
+    - "CPRT R3 COMPLETE. GATED Q3 FY2026."
+    - "WING R1 COMPLETE. GATED R2+Q1."
+    - "HLNE R4 APPROVED. SO $95."
+    - "SM discover + stock-profile bugs FIXED."
+    - "EU capture COMPLETE for all 7 EU portfolio stocks. Next: pre-earnings or pre-R1."
+    - "AUTO.L INSIDER_CLUSTER_BUY = FALSE POSITIVE (corporate buyback). Do NOT cite as bullish insider signal."
 
-# Rolling 30-day cooldown window. Max 30 entries.
-# OVERVALUED = 14d cooldown, FANTASY = 30d cooldown, AT_FV = 14d, ACTIONABLE = 0d (no cooldown)
 r1_cooldowns:
-  # Session 105 (2026-02-20)
-  - { ticker: "ROR.L", verdict: "OVERVALUED", session: 105, date: "2026-02-20", price_at_analysis: 385.6, cooldown_until: "2026-03-06" }
-  # Session 104 (2026-02-20)
-  - { ticker: "ASM.AS", verdict: "OVERVALUED", session: 104, date: "2026-02-20", price_at_analysis: 709.4, cooldown_until: "2026-03-06" }
-  - { ticker: "BEI.DE", verdict: "OVERVALUED", session: 104, date: "2026-02-20", price_at_analysis: 106.5, cooldown_until: "2026-03-06" }
-  # Session 103 (2026-02-20)
-  - { ticker: "RO.SW", verdict: "AT_FV", session: 103, date: "2026-02-20", price_at_analysis: 375.80, cooldown_until: "2026-03-06" }
-  # Session 102 (2026-02-20)
-  - { ticker: "REN.AS", verdict: "AT_FV", session: 102, date: "2026-02-20", price_at_analysis: 26.80, cooldown_until: "2026-03-06" }
-  # Session 97 (2026-02-20)
-  - { ticker: "MNST", verdict: "FANTASY", session: 97, date: "2026-02-20", price_at_analysis: 82, cooldown_until: "2026-03-22" }
-  - { ticker: "OR.PA", verdict: "OVERVALUED", session: 97, date: "2026-02-20", price_at_analysis: 395, cooldown_until: "2026-03-06" }
-  - { ticker: "AM.PA", verdict: "OVERVALUED", session: 97, date: "2026-02-20", price_at_analysis: 351, cooldown_until: "2026-03-06" }
-  - { ticker: "BEAN.SW", verdict: "FANTASY", session: 97, date: "2026-02-20", price_at_analysis: 904, cooldown_until: "2026-03-22" }
-  # Session 92 (2026-02-20)
-  - { ticker: "KNEBV.HE", verdict: "OVERVALUED", session: 92, date: "2026-02-20", price_at_analysis: 53.6, cooldown_until: "2026-03-06" }
-
-next_priorities:
-  - "MONY.L earnings Mon Feb 23 — ON PROBATION. KC#9 AI strategy. SELL if no AI plan."
-  - "EDEN.PA earnings Tue Feb 24 — Framework v2 ready. Italy KC#6 added."
-  - "DTE.DE earnings Wed Feb 26 — MoS ~7%, TRIM >EUR 34."
-  - "Position review batch 'middle' due Feb 22."
-  - "KLR.L FY2025 Mar 3 — MAKE-OR-BREAK for SO activation."
-  - "ROR.L FY2025 Mar 10 — watch for price correction toward 270-280p entry."
-  - "DOM.L earnings ~Mar 11 — LOW conviction, FY25 EBITDA decisive."
-  - "E[CAGR] deployment candidates: ALFA.L (18.5%), IHP.L (23%), RACE.MI (16%), MEGP.L (16.1%) — all gated."
-  - "R1 pipeline: 28 R1_COMPLETE. FSG.L R2_PAUSED, NOS.LS R2_DO_NOT_ADVANCE. Fantasy rate ~70%."
-  - "Telecom sector view needs Digi Portugal entry update (NOS.LS DA finding)."
-  - "Post-earnings: reassess cash deployment target (45-50% by Mar 1)."
+  MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
+  ASML.AS: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (OVERVALUED)" }
+  EXEL: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (AT_FV)" }
+  CELH: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (OVERVALUED)" }
+  UTHR: { date: "2026-02-23", session: 115, verdict: "TRIAGE (AT_FV, gated earnings Feb 25)" }
+  HLNE: { date: "2026-02-25", session: 120, verdict: "R4_APPROVED (SO $95 EUR 400, all 10 gates PASS)" }
+  REN.AS: { date: "2026-02-22", session: 111, verdict: "R3_COMPLETE (WATCHLIST, entry EUR 24.50)" }
+  ROR.L: { date: "2026-02-22", session: 110, verdict: "R1_COMPLETE (OVERVALUED)" }
+  TW: { date: "2026-02-23", session: 115, verdict: "R3_COMPLETE (AT_FV, SO $110)" }
+  VRSN: { date: "2026-02-23", session: 115, verdict: "TRIAGE (AT_FV, SO $200)" }
+  CPRT: { date: "2026-02-25", session: 119, verdict: "R3_COMPLETE (FV $37, entry $31, GATED Q3)" }
+  DOCS: { date: "2026-02-25", session: 118, verdict: "R4_APPROVED (SO $23, FV $32.80)" }
+  PEGA: { date: "2026-02-25", session: 116, verdict: "R3_COMPLETE GATED (entry $38, FV $50)" }
+  ANF: { date: "2026-02-25", session: 117, verdict: "R1_COMPLETE (WATCHLIST, entry $80, FV $107, QS 65 Tier B)" }
+  WING: { date: "2026-02-25", session: 119, verdict: "R1_COMPLETE (WATCHLIST, FV $296, entry $215, GATED R2+Q1)" }

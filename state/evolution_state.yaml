@@ -1,0 +1,296 @@
+# =============================================================================
+# EVOLUTION STATE — Single Source of Truth for System Self-Improvement
+# =============================================================================
+# Read by: Fase 0.0b (meta-consciousness check), Fase 6 (evolution micro-step),
+#          session-planner (evolution session detection), evolution-protocol
+# Written by: Fase 6 (end of each session), evolution-protocol (experiment lifecycle)
+# Created: Session 108, 2026-02-20
+# =============================================================================
+
+last_updated:
+  session: 120
+  date: "2026-02-25"
+  note: "S120 OSINT fix + HLNE R4 + deployment. SM FCA dedup bug FIXED (101,740 historical rows were inflating SI — DOM.L 634%→4.86%). HLNE R4 APPROVED (SO $95 EUR 400, all 10 gates PASS). DTE.DE at EUR 33.46 = 1.6% from TRIM. Form4 ingested (135 buys, 165 sells). exp_002 ESCALATED continues. 1 velocity unit (HLNE R4)."
+
+# =============================================================================
+# 11 AUTO-FIRE TRIGGERS — RED / YELLOW / GREEN
+# =============================================================================
+# Updated each session in Fase 6. RED count >= 4 → P8e URGENTE in session planner.
+# Thresholds are guidelines, not hard rules — reason about context.
+
+triggers:
+  T1_fantasy_rate:
+    metric: "R1 Fantasy Rate (last 10 R1s)"
+    current_value: 0.10
+    current_detail: "0-1/10 last R1s → FANTASY. 9 post-protocol R1s: 0 FANTASY, 3 OVERVALUED, 4 AT_FV, 2 ACTIONABLE. Pre-filtering eliminated fantasy entirely."
+    red_threshold: "> 0.65"
+    yellow_threshold: "> 0.40"
+    status: GREEN
+    last_measured: "S116"
+    note: "T1 RED→GREEN. Fantasy rate collapsed 70%→≤10%. Anti-fantasy protocol (exp_001) VALIDATED. Pre-filtering (QS + P/E + eToro check) is the key mechanism."
+
+  T2_cash_sustained:
+    metric: "Cash % sustained above 25% (consecutive sessions) WITH deployable candidates in universe"
+    current_value: 54.9
+    current_detail: "54.9% cash (7th consecutive session >50%). Only buyable at market: MEGP.L (NOT on eToro). DTE.DE 1.6% from TRIM trigger."
+    red_threshold: "> 25% for 3+ sessions WITH deployable candidates in universe"
+    yellow_threshold: "> 15% for 3+ sessions"
+    consequence: "RED triggers mandatory Inaction Audit in Fase 2.5. Must deploy or document why every candidate is uninvestable."
+    status: RED
+    last_measured: "S120"
+    note: "exp_002 ESCALATED. Cash 54.9% (7th session >50%). HLNE R4 APPROVED → SO at $95 (7.1% away). DTE.DE TRIM tomorrow if >EUR 34. Inaction Audit: PASS. Top 3: MEGP.L (NOT ON ETORO), DOCS ($23 = 4.4% away, R4 approved), RACE.MI (EUR 295 = 8.6% away). All VALID reasons. Cash reduction path: DTE.DE TRIM + HLNE/DOCS/RACE.MI trigger fills."
+
+  T3_pipeline_velocity:
+    metric: "Pipeline Velocity (5-session rolling average, units/session)"
+    current_value: 3.6
+    current_detail: "S116:5, S117:1, S118:2, S119:3, S120:1 (HLNE R4=1u) — avg 2.4"
+    red_threshold: "< 1.5"
+    yellow_threshold: "< 2.5"
+    status: YELLOW
+    last_measured: "S120"
+    note: "S120: HLNE R4 (1u). Rolling avg 2.4 (was 4.0 — S115's 9u rolled off). YELLOW but expected: S120 was OSINT-focused session, not pipeline sprint. HLNE R4 approval creates new deployable SO."
+
+  T4_error_recurrence:
+    metric: "Same error pattern recurring 3+ times in last 10 sessions"
+    current_value: 0
+    current_detail: "No recurring error detected in last 10 sessions"
+    red_threshold: ">= 3 occurrences of same error"
+    yellow_threshold: ">= 2 occurrences of same error"
+    status: GREEN
+    last_measured: "S107"
+    note: "Error patterns well-documented. Monitor #53 (options menu) and #55 (cash drag)."
+
+  T5_sessions_since_evolution:
+    metric: "Sessions since last system evolution applied"
+    current_value: 2
+    current_detail: "Last evolution: S108 (meta-evolution protocol). S109 is measurement session."
+    red_threshold: "> 5"
+    yellow_threshold: "> 3"
+    status: GREEN
+    last_measured: "S109"
+    note: "On track. Next evolution opportunity at S110+ if triggers persist."
+
+  T6_lessons_cited:
+    metric: "Lessons explicitly cited in decisions (last 10 sessions)"
+    current_value: 7
+    current_detail: "S109: L-02, L-08, L-10. S111: L-08, L-10. S116: P6 (NVO KC reasoning), P44 (no short without catalyst). Cumulative 7 citations."
+    red_threshold: "0 citations in 10 sessions"
+    yellow_threshold: "< 3 citations in 10 sessions"
+    status: GREEN
+    last_measured: "S116"
+    note: "7 lessons cited S109-S116. P6 critical for NVO HOLD decision (never sell just because KC triggered). P44 prevented impulse NVO short."
+
+  T7_meta_reflections:
+    metric: "Agent meta-reflections processed / received ratio"
+    current_value: 1.0
+    current_detail: "S116: DOCS DA meta-reflection processed (3 items: SBC uncertainty, MFN unknowable, engagement data gap + 3 suggestions). PEGA DA meta-reflection processed (3 items: Q4 growth ambiguity, retrial scope, ownership discrepancy + 2 suggestions). 4/4 = 100%."
+    red_threshold: "< 50% processed"
+    yellow_threshold: "< 75% processed"
+    status: GREEN
+    last_measured: "S116"
+    note: "Sustained GREEN. Both DOCS and PEGA DA meta-reflections fully processed. Suggestions: DOCS dual-class flag in insider_tracker, SBC penalty framework. PEGA consensus gap flag, KC#4 net-cash calibration."
+
+  T8_so_fill_rate:
+    metric: "Standing Order fill rate (lifetime)"
+    current_value: 0.10
+    current_detail: "2/19 current SOs filled or superseded by market buys (MORN $160.76 S101, IHP.L 318p S108). Rate improving."
+    red_threshold: "< 0.05"
+    yellow_threshold: "< 0.15"
+    status: YELLOW
+    last_measured: "S109"
+    note: "T8 flipped RED→YELLOW. Market-buy protocol creating execution. DNLM.L 2.7% away could be 3rd fill this week."
+
+  T9_changelog_measurement:
+    metric: "Changelog entries with measured effectiveness / total"
+    current_value: 0.50
+    current_detail: "2/4 active experiments have effectiveness measured (exp_002 ADJUST, exp_003 STRONG POSITIVE). exp_001 INSUFFICIENT DATA. exp_004 too early."
+    red_threshold: "< 0.30"
+    yellow_threshold: "< 0.60"
+    status: YELLOW
+    last_measured: "S112"
+    note: "T9 flipped RED→YELLOW. exp_002 measured: direction correct but velocity insufficient (cash -2.1pp in 5 sessions). exp_003 measured: dramatic improvement (Fase 6 15%→100%, lessons 0→5). 2 of 4 experiments measured = 50%."
+
+  T10_plan_adherence:
+    metric: "Session plan items completed / proposed ratio (last 5 sessions)"
+    current_value: null
+    current_detail: "No tracking infrastructure. Session plans generated but adherence not tracked."
+    red_threshold: "< 0.50"
+    yellow_threshold: "< 0.75"
+    status: UNKNOWN
+    last_measured: "S107"
+    note: "Will begin tracking from S109 onward."
+
+  T11_basket_health:
+    metric: "Basket health: single-position baskets, underfunded baskets, basket KC active"
+    current_value: 2
+    current_detail: "2 BUILDING baskets with single position (specialty-insurance: GL, pharma-biotech: NVO)"
+    red_threshold: "3+ health flags or basket KC triggered"
+    yellow_threshold: "2 single-position ACTIVE baskets or 50% baskets underfunded"
+    status: YELLOW
+    last_measured: "S111"
+    note: "New trigger. BUILDING baskets with single positions are expected; flagged when ACTIVE baskets have single positions and no pipeline."
+
+# Summary
+trigger_summary:
+  red_count: 1
+  yellow_count: 4
+  green_count: 5
+  unknown_count: 1
+  assessment: "S120: 1 RED (T2 cash 54.9%, 7th session >50%), 4 YELLOW (T3 velocity 2.4, T8 SO fill, T9 changelog, T11 basket health), 5 GREEN (T1 fantasy, T4 errors, T5 evolution, T6 lessons, T7 meta-reflect), 1 UNKNOWN (T10). HLNE R4 APPROVED (new deployable SO $95). SM FCA bug FIXED. DTE.DE TRIM tomorrow. T3 GREEN→YELLOW (S115's 9u rolled off)."
+
+# =============================================================================
+# ACTIVE EXPERIMENTS — Changes being measured
+# =============================================================================
+# Lifecycle: APPLIED (session N) → REVIEW_DUE (N+5) → DEEP_REVIEW (N+30) → VALIDATED/REVERTED/ADJUSTED
+
+active_experiments:
+  - id: "exp_001"
+    name: "Anti-Fantasy Protocol"
+    applied_session: 105
+    applied_date: "2026-02-20"
+    description: "r1_prioritizer.py --exclude-fantasy-risk, --pre-flight flags. Fantasy rate in footer. Session planner anti-fantasy protocol."
+    hypothesis: "Fantasy rate drops from 70% to <40% in next 10 R1s"
+    measure_metric: "T1_fantasy_rate"
+    review_due_session: 110
+    deep_review_session: 135
+    status: "VALIDATED"
+    baseline: { fantasy_rate: 0.70, sample: "last 10 R1s pre-S105" }
+    current: { r1s_post_protocol: 9, sample: "ROR.L OVERVALUED, HLNE WATCHLIST, CELH OVERVALUED, ASML.AS OVERVALUED, EXEL AT_FV, UTHR AT_FV, VRSN AT_FV, CPRT AT_FV, TW ACTIONABLE→AT_FV", fantasy_count: 0, actionable_count: 2, at_fv_count: 4, overvalued_count: 3, fantasy_rate: 0.0, note: "9 post-protocol R1s. 0 FANTASY (was 7/10). Pre-filtering via QS + P/E + eToro check = key mechanism. S115 sprint proved 0% fantasy rate sustainable." }
+    verdict: "VALIDATED (S116). Fantasy rate collapsed 70%→0% (exceeded <40% target). 9 R1s post-protocol, 0 FANTASY. Pre-filtering eliminates unreachable stocks. Protocol PERMANENT. T1 RED→GREEN."
+
+  - id: "exp_002"
+    name: "Full Deployment Doctrine"
+    applied_session: 107
+    applied_date: "2026-02-20"
+    description: "P15 (Full Deployment), P16 (Perpetual Rotation), market-buy-protocol, portfolio_cagr.py, session planner P1=DEPLOYMENT."
+    hypothesis: "Cash drops from 56.7% to <25% within 8 sessions. Portfolio E[CAGR] rises from 7.1% to >12%."
+    measure_metric: "T2_cash_sustained"
+    review_due_session: 112
+    deep_review_session: 137
+    status: "ESCALATE"
+    baseline: { cash_pct: 56.7, portfolio_ecagr_blended: 7.1, portfolio_ecagr_deployed: 12.5, positions: 11 }
+    current: { cash_pct: 54.9, portfolio_ecagr_blended: 8.5, portfolio_ecagr_deployed: 15.2, positions: 12, market_buys: "MORN $466 S101 + IHP.L $232 S108 = $698 deployed", sessions_elapsed: 11 }
+    verdict: "ESCALATE (S118). Cash 54.9% vs <40% target at S117. MISSED. Cash only -1.8pp in 11 sessions. E[CAGR] blended 7.1→8.5 (+1.4pp positive but slow). Root cause: Fair-Value regime = no candidates at market above E[CAGR] thresholds (MEGP.L only one, NOT on eToro). Pipeline dense (DOCS R4 approved, RACE.MI/DNLM.L near trigger) but prices won't cooperate. DTE.DE TRIM tomorrow could free EUR 400 and LOWER cash by 4pp. Next catalyst: earnings week + price triggers. Revised plan: DTE.DE TRIM → redeploy into next triggered SO. Target: cash <45% by S125."
+
+  - id: "exp_004"
+    name: "DA Calibration + Anti-Omission + Epistemics"
+    applied_session: 111
+    applied_date: "2026-02-22"
+    description: "DA Phase 0.5 (calibration anchor), independent bear FV (3B rewrite), edge assessment in output, Inaction Audit in Fase 2.5, Error #58/#59, Epistemics Protocol (3 tests), Zero-Base Review (quarterly), human-confirmation gates, drawdown triggers."
+    hypothesis: "DA insufficiency drops <50% on new DAs. Cash drops below 40% within 5 sessions. Inaction Audit prevents process-as-excuse."
+    measure_metric: "T2_cash_sustained, da_calibrator insufficiency rate on new entries"
+    review_due_session: 116
+    deep_review_session: 141
+    status: "MEASURING"
+    baseline: { cash_pct: 54.6, da_insufficiency_rate: 0.89, error_58_instances: 0 }
+    current: { cash_pct: 56.0, new_das_post_protocol: 2, da_sample: "DOCS MODERATE COUNTER (0 HIGH, insider correction found), PEGA MODERATE COUNTER (4 HIGH, CEO selling + Appian scope + Q4 decel + SBC anchor)", da_insufficiency_rate_new: "TBD — need outcome data (6 months)", inaction_audit_passes: 3, note: "5 sessions post-protocol. Cash WORSENED 54.6→56% (NVO loss, not inaction). DAs show improved quality: DOCS found insider data error, PEGA found 4 material HIGH issues. Inaction Audit consistently PASS with VALID reasons. Epistemics Edge Test applied to NVO KC review." }
+    verdict: "EARLY MEASUREMENT (S116). DA quality appears improved — both DAs found genuine material issues (DOCS insider correction, PEGA CEO selling + Appian scope). Cash target not met (56% vs <40%) but caused by NVO loss not inaction. Inaction Audit 3/3 PASS. CONTINUE measuring to S121 for sufficient DA outcome data."
+
+  - id: "exp_003"
+    name: "Meta-Evolution Protocol"
+    applied_session: 108
+    applied_date: "2026-02-20"
+    description: "evolution_state.yaml, closed-loop protocol, lesson triggers, Fase 0.0b, session planner integration."
+    hypothesis: "Fase 6 execution rate rises from 15% to >80%. Lessons cited in decisions rises from 0 to >=2/session."
+    measure_metric: "T5_sessions_since_evolution, T6_lessons_cited, T9_changelog_measurement"
+    review_due_session: 113
+    deep_review_session: 138
+    status: "GRADUATED"
+    baseline: { fase6_rate: 0.15, lessons_cited: 0, changelog_measured: 0, red_triggers: 6 }
+    current: { fase6_rate: 1.0, lessons_cited: 5, changelog_measured: 0.50, red_triggers: 2, sessions_elapsed: 5 }
+    verdict: "GRADUATED TO STANDARD PROTOCOL (S113). 5-session review POSITIVE on ALL metrics: (1) Fase 6 rate 15%→100% (5/5 sessions, MASSIVE improvement). (2) Lessons cited 0→5 (1.0/session avg, below 2/session target but transformational vs 0 baseline). (3) Red triggers 6→2 (67% reduction). (4) T7 GREEN, T9 YELLOW. (5) Protocol IS the platform enabling exp_001, exp_002, exp_004. Infrastructure now permanent: evolution_state.yaml + Fase 0.0b + Fase 6 are standard operating procedure."
+
+# =============================================================================
+# SCHEDULED REVIEWS
+# =============================================================================
+scheduled_reviews:
+  - experiment_id: "exp_001"
+    type: "5-session review"
+    due_session: 110
+    status: "COMPLETED_INSUFFICIENT_DATA"
+    note: "S110 interim: 1 R1 post-protocol (ROR.L OVERVALUED). 3 more in S110. Extended to S115 for 7+ R1 sample."
+  - experiment_id: "exp_001"
+    type: "extended review"
+    due_session: 115
+    status: "COMPLETED_VALIDATED"
+    note: "S116: 9 R1s post-protocol, 0 FANTASY (was 7/10). Fantasy rate 70%→0%. Protocol VALIDATED and made PERMANENT. T1 RED→GREEN."
+  - experiment_id: "exp_002"
+    type: "5-session review"
+    due_session: 112
+    status: "COMPLETED"
+    note: "S112: Direction correct, velocity insufficient. Cash -2.1pp in 5 sessions (target was -31.7pp). E[CAGR] blended +1.5pp. ADJUSTED: extend to S117, revised target <40% cash."
+  - experiment_id: "exp_003"
+    type: "5-session review"
+    due_session: 113
+    status: "COMPLETED_GRADUATED"
+    note: "S113: ALL metrics positive. Fase 6 15%→100%, lessons 0→5, red triggers 6→2. Protocol graduated to standard."
+  - experiment_id: "exp_004"
+    type: "5-session review"
+    due_session: 116
+    status: "COMPLETED_CONTINUE"
+    note: "S116: DA quality improved (DOCS insider fix, PEGA 4 HIGH material). Cash worsened due to NVO loss. Inaction Audit 3/3 PASS. Extended to S121 for outcome data."
+  - experiment_id: "exp_004"
+    type: "extended review"
+    due_session: 121
+    status: "PENDING"
+
+# =============================================================================
+# EVOLUTION LOG — What changed and when (compact, detail in changelog.yaml)
+# =============================================================================
+# Last 10 entries only. Older entries → changelog.yaml archive.
+evolution_log:
+  - session: 120
+    date: "2026-02-25"
+    change: "S120 OSINT fix + HLNE R4: (1) SM FCA dedup bug FIXED — 101,740 historical rows were creating duplicate edges (DOM.L 634%→4.86%, graph 13,980→708 edges). Added 0.50% threshold filter for below-disclosure entries. (2) HLNE R4 APPROVED, all 10 gates PASS, SO $95 EUR 400. (3) Form4 insider ingested (NEVER→FRESH). (4) DTE.DE at EUR 33.46 = 1.6% from TRIM trigger. T3 GREEN→YELLOW (S115 rolled off)."
+    type: "fix+pipeline"
+    triggers_addressed: ["T2", "T3"]
+  - session: 118
+    date: "2026-02-25"
+    change: "S118 Deployment+Pipeline+OSINT: DOCS R4 APPROVED (SO $23, EUR 400). CPRT R1 launched. NVO thesis v4.0 formalized (FV $50, LOW). Form4 insider data ingested first time (135 buys, 165 sells). EDEN.PA shorts escalated 19.2→23.6% (21 funds). exp_002 ESCALATED (cash target missed). DTE.DE EU capture complete. 2+ velocity units."
+    type: "pipeline+osint"
+    triggers_addressed: ["T2", "T3", "T8"]
+  - session: 116
+    date: "2026-02-25"
+    change: "S116 NVO P0 + Pipeline: exp_001 VALIDATED (fantasy 70%→0%, T1 RED→GREEN). exp_004 first measurement (DA quality improved, cash worsened due to NVO). NVO CagriSema FAILED — KC#1 triggered, HOLD LOW (P6 applied). DOCS R2→R3 + PEGA R2→R3. Red triggers 2→1. 5 velocity units."
+    type: "validation"
+    triggers_addressed: ["T1", "T2", "T3", "T6", "T7"]
+  - session: 113
+    date: "2026-02-23"
+    change: "S113 Earnings Day: exp_003 GRADUATED (meta-evolution protocol → standard). T3 YELLOW→GREEN (velocity 2.4→2.8). MANH R2→R3 (OVERVALUED, FV $156→$140). MONY.L FY2025 KCs clear. EDEN.PA SI 19.3% intelligence captured (+12 SM edges). Pipeline velocity 4u."
+    type: "graduation"
+    triggers_addressed: ["T3", "T9"]
+  - session: 112
+    date: "2026-02-22"
+    change: "S112 Hard Session: exp_002 ADJUST (velocity insufficient, extend S117), T9 RED→YELLOW (2/4 experiments measured), T3 velocity 1.8→2.4, exp_003 STRONG POSITIVE (Fase 6 15%→100%). 3 R1s + 5 reviews + 2 sectors + 3 OSINT. Red count 3→2."
+    type: "measurement"
+    triggers_addressed: ["T9", "T3", "T2"]
+  - session: 111
+    date: "2026-02-22"
+    change: "S111 micro-step: T7 RED→GREEN (first meta-reflection processing tracked — HLNE R2 DA). HLNE R2→R3 advanced (+2 velocity units). EDEN.PA SI escalated 11.41→13.51% (intelligence value). Inaction audit PASS."
+    type: "measurement"
+    triggers_addressed: ["T7", "T3", "T6"]
+  - session: 111
+    date: "2026-02-22"
+    change: "Epistemics Overhaul v2 — 4 phases: (1) DA calibration fix (Phase 0.5 market anchor + reverse DCF, Phase 3B independent bear FV, edge assessment in output), (2) Anti-omission infrastructure (Inaction Audit P15, Error #58/#59, T2 upgraded to include consequence), (3) Epistemics protocol (3 tests: Edge/Omission/Path Dependency), Zero-Base Review quarterly, Gate 9 Edge+Falsifiability, (4) Human-confirmation gates, drawdown triggers, closing criteria, capital contribution protocol. exp_004 registered."
+    type: "improvement"
+    triggers_addressed: ["T2", "T7", "T9"]
+  - session: 110
+    date: "2026-02-22"
+    change: "exp_001 interim review: INSUFFICIENT DATA (1 R1 post-protocol). Extended to S115. DA Calibrator systemic finding: 89% DA corrections insufficient (17/19). Assessment: DAs correctly calibrated for FV — market in structural de-rating mode (tech, UK, NVO). No systemic change needed. Monitor at S115."
+    type: "measurement"
+    triggers_addressed: ["T1", "T9"]
+  - session: 108
+    date: "2026-02-20"
+    change: "Meta-Evolution Protocol — 6 components: evolution_state.yaml, identity.md S7, evolution-protocol rewrite, lesson triggers, session-planner integration, Fase 0.0b"
+    type: "new_feature"
+    triggers_addressed: ["T5", "T6", "T9"]
+  - session: 107
+    date: "2026-02-20"
+    change: "Full Deployment Doctrine — P15, P16, 3 new tools, market-buy-protocol, session planner P1=DEPLOYMENT"
+    type: "improvement"
+    triggers_addressed: ["T2", "T8"]
+  - session: 105
+    date: "2026-02-20"
+    change: "Anti-Fantasy Protocol — r1_prioritizer tooling, session planner gates"
+    type: "improvement"
+    triggers_addressed: ["T1"]

@@ -38,13 +38,13 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 60
     trigger: "<=950 GBp"
-    current_distance: "3.3%"
+    current_distance: "2.7%"
     size_eur: 375
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
     tier: "A (QS 79)"
     notes: "TRIGGER RAISED 780p→900p (S91) →950p (S101). E[CAGR] 13.6% at 950p (growth 7% + yield 4.6% + MoS convergence 2.0%). Last justifiable raise (at 970p+, E[CAGR] approaches 12%). R4 approved. UK homewares leader, 8.4% ROIC-WACC spread, 30.5% insider."
-    conditions: "REQUIRED: Verify UK positions <=4 before execution (would be 5th UK position with IHP.L)."
+    conditions: "REQUIRED: Verify UK positions <=5 before execution (would be 6th UK position with IHP.L now bought). If MONY.L sold post-earnings Feb 23 → back to 5 UK = OK."
     last_analysis_date: 2026-02-20
     expiry: 2026-06-01
 
@@ -90,20 +90,9 @@ standing_orders:
     last_analysis_date: 2026-02-10
     expiry: 2026-08-01
 
-  - ticker: IHP.L
-    action: BUY
-    category: ACTIVE
-    fill_prob_6m: 50
-    trigger: "<=300 GBp"
-    current_distance: "5.0%"
-    size_eur: 200
-    fair_value: "390 GBp"
-    mos_at_trigger: "23.1%"
-    tier: "A (QS 80)"
-    notes: "R4 APPROVED S100. UK adviser platform (#1 independent, Transact). ROIC 49%, 24.2% insider, 0/10 value trap, net cash. FV 415→390p post-DA (-6%). 2% sizing cap for UK concentration (5th UK position). Preferred: validate H1 FY26 operating leverage (~June). REQUIRED: pause if UK positions >5. 7 KCs."
-    conditions: "PREFERRED: validate H1 FY26 ops leverage. REQUIRED: pause if UK >5 positions."
-    last_analysis_date: 2026-02-20
-    expiry: 2026-08-01
+  # IHP.L — EXECUTED 2026-02-24 (Session 108). Market buy at ~318p, 55 shares, EUR 200.
+  # Second E[CAGR]-framework market buy. E[CAGR] ~19% at 318p >> 12% threshold. MoS 18.5%.
+  # SO at 300p superseded by deployment doctrine market execution. R4 approved S100.
 
   - ticker: MRSH
     action: BUY
@@ -118,6 +107,10 @@ standing_orders:
     notes: "HALF POSITION — Greensill A$7B trial Aug 2026. Ticker changed from MMC to MRSH (Jan 14, 2026). US $143M Greensill claim SETTLED (May 2025). Australian A$7B trial still pending."
     last_analysis_date: 2026-02-14
     expiry: 2026-05-31
+
+  # HLNE — EXECUTED 2026-02-25 (Session 122). Market buy at $101.75, ~4.63 shares, EUR 400.
+  # Third E[CAGR]-framework market buy. E[CAGR] 16.7% at $101.75 >> 12% threshold. MoS 7.5%.
+  # SO at $95 superseded by deployment doctrine market execution. R4 approved S120.
 
   # ═══════════════════════════════════════════════════════════════════════
   # GATED — Cannot execute until pre-execution condition is met.
@@ -161,18 +154,17 @@ standing_orders:
 
   - ticker: NVO
     action: ADD
-    category: GATED
-    fill_prob_6m: 25
-    trigger: "CagriSema positive (March 2026) OR price <=$40"
-    current_distance: "conditional"
-    gate: "CagriSema H2H data March 2026"
-    size_eur: 300
-    shares_approx: 6
-    fair_value: "$66"
-    mos_at_trigger: "40%+ at $40"
-    notes: "ADD to 8.31 shares. Brings position 4%→6-7%."
-    last_analysis_date: 2026-02-05
-    expiry: 2026-06-01
+    category: CANCELLED
+    trigger: "CANCELLED — CagriSema FAILED Feb 23. Gate invalidated."
+    current_distance: "N/A"
+    gate: "CagriSema FAILED. Gate invalidated."
+    size_eur: 0
+    shares_approx: 0
+    fair_value: "$50 (revised from $66)"
+    mos_at_trigger: "N/A"
+    notes: "CagriSema REDEFINE 4 failed non-inferiority vs Zepbound (23% vs 25.5%). KC#1 triggered. HOLD confirmed by human S117. ADD only at $30 if Wegovy pill data strong."
+    last_analysis_date: 2026-02-25
+    expiry: 2026-02-25
 
   - ticker: BYIT.L
     action: ADD
@@ -301,27 +293,43 @@ standing_orders:
     last_analysis_date: 2026-02-18
     expiry: 2026-08-01
 
-  - ticker: MEGP.L
-    action: BUY
-    category: GATED
-    fill_prob_6m: 10
-    trigger: "<=135 GBp"
-    current_distance: "5.5%"
-    gate: "SUSPENDED — NOT AVAILABLE ON ETORO + FY2025 results Feb 27 + R4 committee"
-    status: "SUSPENDED — NOT AVAILABLE ON ETORO (confirmed Session 93). Pipeline continues but SO not executable."
-    size_eur: 400
-    shares_approx: 259
-    fair_value: "180 GBp"
-    mos_at_trigger: "25%"
-    tier: "A (QS 80)"
-    notes: "R3 complete. DA -10% (200→180p). ROIC +32pp, net cash, 37% insider. eToro does NOT list MEGP.L — no etoro.com/markets/megp.l page found. Explore alternative platforms or accept as pipeline-only."
-    pre_execution_condition: "HARD GATE: FY2025 results Feb 27 must confirm laundry installs >800, receivables explained, no KC triggered. R4 committee required post-earnings. ALSO: confirm tradeable platform."
-    last_analysis_date: 2026-02-20
-    expiry: 2026-08-01
+  # MEGP.L — ARCHIVED 2026-02-23 (Session 114). NOT AVAILABLE ON ETORO.
+  # QS 80 Tier A, FV 180p, great company. But we can't buy it. No point tracking.
+  # Thesis preserved at thesis/research/MEGP.L/ if alternative platform found.
 
   # ═══════════════════════════════════════════════════════════════════════
   # BORDERLINE — 15-25% away, no unmet gate. Realistic in correction.
   # ═══════════════════════════════════════════════════════════════════════
+
+  - ticker: REN.AS
+    action: BUY
+    category: BORDERLINE
+    fill_prob_6m: 30
+    trigger: "<=EUR 24.50"
+    current_distance: "8.6%"
+    size_eur: 375
+    fair_value: "EUR 30"
+    mos_at_trigger: "18.3%"
+    tier: "A (QS 76, R4 APPROVED)"
+    notes: "R4 APPROVED S122. 10/10 gates PASS. NOT market buy (MoS 9.1% + E[CAGR] 13.3% = weakest combination, no precedent). Entry EUR 24.50 = MoS 18.3%, E[CAGR] 16.8% (matches MORN precedent). WIDE moat data owner. AI-neutral base. Also tradable as REL.L or RELX ADR."
+    kill_conditions: "Rev decline >5% 2Q, ROIC <WACC 2yr, OA >20% top-100 cancel 24mo, per-seat rev -10% YoY, AI competitor >25% legal mkt share, ND >3x EBITDA"
+    last_analysis_date: 2026-02-25
+    expiry: 2026-08-01
+
+  - ticker: UTHR
+    action: BUY
+    category: BORDERLINE
+    fill_prob_6m: 15
+    trigger: "<=$390"
+    current_distance: "17.6%"
+    size_eur: 350
+    fair_value: "$484"
+    mos_at_trigger: "19.4%"
+    tier: "A (QS 78)"
+    notes: "R1 COMPLETE S110. United Therapeutics. PAH specialist. ROIC 25%, net cash $2.8B, FCF $1.1B. 50% OP margin. Near ATH — needs pullback. YUTREPIA competition risk. TETON-1 H1 2026 catalyst. Earnings Feb 25 could create dip."
+    kill_conditions: "Tyvaso DPI rev decline >10% 2Q, YUTREPIA share >25%, TETON failure, generic erosion >15%"
+    last_analysis_date: 2026-02-22
+    expiry: 2026-08-01
 
   - ticker: V
     action: BUY
@@ -336,6 +344,124 @@ standing_orders:
     notes: "R4 APPROVED. FV $305 (R3). 4 HARD GATES: DOJ no structural remedies, CCCA no floor vote, rev growth >=8%, client incentives <48%. MA is FIRST priority. 10 kill conditions."
     hard_gates: "DOJ, CCCA, rev_growth>=8%, incentives<48%"
     last_analysis_date: 2026-02-15
+    expiry: 2026-08-01
+
+  # ═══════════════════════════════════════════════════════════════════════
+  # TRIAGE-GATED — Level 1 triage only. Full R1 required before execution.
+  # ═══════════════════════════════════════════════════════════════════════
+
+  # DOCS — EXECUTED 2026-02-25 (Session 122). Market buy at $24.07, ~19.57 shares, EUR 400.
+  # Fourth E[CAGR]-framework market buy. E[CAGR] 13.4% at $24.07 > 12% threshold. MoS 26.6%.
+  # Price BELOW DA bear case ($25-26). SO at $23 superseded by deployment doctrine.
+
+  - ticker: PEGA
+    action: BUY
+    category: GATED
+    fill_prob_6m: 30
+    trigger: "<=$38"
+    current_distance: "12.2%"
+    size_eur: 200
+    fair_value: "$50"
+    mos_at_trigger: "24%"
+    tier: "A (QS 74/79 adj)"
+    gate: "Appian retrial resolution OR Q1 2026 earnings confirm growth normalization"
+    notes: "R3 RESOLVED S116. FV revised $53→$50 post-DA (MODERATE COUNTER, 4 HIGH). Entry lowered $43→$38 (more MoS for Appian binary risk). HALF-POSITION (MMC precedent). DA found: CEO Trefler sold $59.8M in 12mo (10b5-1 plan, 1.8% of holdings, systematic not panic — ownership still 45%). Q4 rev +2.8% decel (vs 17% FY). Appian new trial covers liability+damages (12-24mo overhang). Value trap 0/10."
+    kill_conditions: "Cloud ACV growth <15% 2Q, OP margin <10%, Trefler sells >5%, Appian damages >$500M, NRR <100%, SBC >12%"
+    last_analysis_date: 2026-02-25
+    expiry: 2026-10-01
+
+  - ticker: MSA
+    action: BUY
+    category: GATED
+    fill_prob_6m: 30
+    trigger: "<=$183"
+    current_distance: "7.6%"
+    gate: "Full R1 required before execution"
+    size_eur: 350
+    fair_value: "$215"
+    mos_at_trigger: "14.9%"
+    tier: "A (QS 76)"
+    notes: "TRIAGE S114. Safety equipment. P/E 27.8. Slow grower (~4% rev CAGR). Narrow moat (regulatory certs). FCF margin 16%. Op margin 21%. Yield 1.1%."
+    last_analysis_date: 2026-02-23
+    expiry: 2026-08-01
+
+  - ticker: WING
+    action: BUY
+    category: GATED
+    fill_prob_6m: 10
+    trigger: "<=$215"
+    current_distance: "12.9%"
+    gate: "R2 DA required + Q1 FY2026 SSS data (May 2026)"
+    size_eur: 350
+    fair_value: "$296"
+    mos_at_trigger: "27.4%"
+    tier: "A (QS 76)"
+    notes: "R1 COMPLETE S119. Asset-light franchise (98%), QS 76 Tier A, ROIC +27pp. BUT: first SSS decline in 22 years (-3.3% FY2025, -5.8% Q4 ACCELERATING). P/E 40x with negative comps. 17.3% SI. Insiders sold $11M+, ZERO buys. Moat NARROW (12/25). E[CAGR] 6.8% at $247 = BELOW 12% threshold. E[CAGR] ~13.1% at $215. Trigger lowered $245→$215 post-R1. GATED on R2 + Q1 FY2026 SSS recovery. If SSS stays negative through Q2 2026 → ARCHIVE."
+    kill_conditions: "Domestic SSS negative through Q2 FY2026, net new domestic units <250/yr, AUV decline >10%, ND/EBITDA >6x, franchise closures >3% system"
+    last_analysis_date: 2026-02-25
+    expiry: 2026-10-01
+
+  - ticker: SEIC
+    action: BUY
+    category: GATED
+    fill_prob_6m: 35
+    trigger: "<=$76"
+    current_distance: "7.1%"
+    gate: "Full R1 required before execution"
+    size_eur: 300
+    fair_value: "$98"
+    mos_at_trigger: "22.4%"
+    tier: "B (QS 72)"
+    notes: "TRIAGE S114. Investment mgmt tech. P/E 14.5. Yield 1.2%. FCF margin 27%. Slow grower (~3% CAGR). Decent quality but limited upside."
+    last_analysis_date: 2026-02-23
+    expiry: 2026-08-01
+
+  - ticker: TW
+    action: BUY
+    category: GATED
+    fill_prob_6m: 35
+    trigger: "<=$110"
+    current_distance: "7.9%"
+    gate: "Q1 2026 earnings + Elliott/LSEG resolution"
+    size_eur: 400
+    fair_value: "$140"
+    mos_at_trigger: "21.4%"
+    tier: "A (QS 76/84 adj)"
+    notes: "R3 RESOLVED S115. WIDE moat 20/25 STRENGTHENING. FV revised 148→140 post-DA (MODERATE COUNTER). Entry lowered 126→110. DA found: Elliott pushing LSEG divestiture (Bloomberg Feb 18), insider selling $26.3M coordinated (CEO $14M, CFO $7.3M, CTO $1.3M on Feb 10), Q4 CC growth 9.9% (decel trend), post-DA FV converges to consensus ($130). Cantillon biggest Q4 add (+39%) but no edge at current price. E[CAGR] 16% at $110."
+    kill_conditions: "Revenue growth <10% 2Q, ADV growth negative 2Q, LSEG disorderly sale >20%, OP margin <38% 2Q, major dealer defection, ROIC <WACC 2Q, aggregate insider selling >$50M/6mo"
+    pre_execution_condition: "Monitor Q1 2026 earnings (April) for growth stabilization + Elliott/LSEG resolution. If LSEG sells orderly (secondary offering, not dump) → gate partially clears."
+    last_analysis_date: 2026-02-23
+    expiry: 2026-10-01
+
+  - ticker: CPRT
+    action: BUY
+    category: GATED
+    fill_prob_6m: 30
+    trigger: "<=$31"
+    current_distance: "12.1%"
+    size_eur: 400
+    fair_value: "$37"
+    mos_at_trigger: "16.2%"
+    tier: "A (QS 75/83 adj)"
+    notes: "R2 DA COMPLETE S119. MODERATE COUNTER 6/19 HIGH. FV revised $40→$37 (-7.5%). Key DA findings: (1) RB Global GAINING Progressive volume 75%→90% — contradicts R1 'IAA disruption' thesis, (2) reweighted valuation $33-36 at market, (3) op margin 39.3%→34.7% may be partially structural, (4) insider selling $16M+ zero buys at 52wL. Entry lowered $33→$31 for adequate MoS. GATED on Q3 FY2026 (May/June) for competitive dynamics verification. Akre+Wedgewood convergence still positive. Sector view created: auto-salvage-remarketing.md."
+    kill_conditions: "Total loss frequency reversal <20% sustained, ROIC <15% 2yr, RB Global market share gain >5pp (PROBABILITY RAISED to 55%), management leverage >2x ND/EBITDA, insurance claims structural decline"
+    pre_execution_condition: "Q3 FY2026 results (May/June 2026) must show: revenue growth resuming, RB Global share gains stabilizing. If Q3 also shows revenue decline → reassess thesis."
+    last_analysis_date: 2026-02-25
+    expiry: 2026-10-01
+
+  - ticker: VRSN
+    action: BUY
+    category: BORDERLINE
+    fill_prob_6m: 25
+    trigger: "<=$200"
+    current_distance: "7.4%"
+    size_eur: 350
+    fair_value: "$237"
+    mos_at_trigger: "15.6%"
+    tier: "A (QS 83)"
+    notes: "TRIAGE AT_FV S115. .com/.net monopoly (ICANN contract to 2034). ROIC 275% (negative tangible equity), 88% GM, 65% FCF margin. Fundsmith holds. Near 52wL $209. P/E 24.5. EPS CAGR 12.3% (buybacks + margin). E[CAGR] ~13.6% at $200. Needs R1. Receivables anomaly flag."
+    kill_conditions: "ICANN contract non-renewal, .com registration decline >5% 2yr, regulatory monopoly challenge"
+    last_analysis_date: 2026-02-23
     expiry: 2026-08-01
 
   # Cancelled orders history preserved as comments:
@@ -361,47 +487,16 @@ short_orders:
   # Monitor DOJ trial outcome from sidelines — no position.
 
 # =============================================================================
-# EXTREME OPPORTUNITY WATCHLIST — Session 90
-# These were active SOs with >25% distance from trigger and no imminent catalyst.
-# They are NOT deployment plan — they are crash-only opportunities.
-# If price approaches any of these during a correction, RE-ACTIVATE as standing order.
+# EXTREME OPPORTUNITY — ARCHIVED Session 107 (2026-02-20)
+# Per new deployment doctrine: SOs at >25% distance with <10% fill probability
+# are self-deception (L-02). These are ARCHIVED, not active deployment.
+# If price drops into range during correction, they become universe candidates
+# for re-evaluation via market-buy-protocol, NOT automatic SOs.
 # =============================================================================
-extreme_opportunity:
-  - ticker: MA
-    trigger: "<=$315"
-    fill_prob_6m: 5
-    size_eur: 500
-    fair_value: "$400"
-    tier: "A (QS 86)"
-    distance_when_moved: "39.4% (Feb 20, 2026)"
-    notes: "R4 APPROVED. WIDE 22/25. Hard gates: CCCA + Wero + rev growth. ADD at $280."
-
-  - ticker: PAYC
-    trigger: "<=$88"
-    fill_prob_6m: 5
-    size_eur: 400
-    fair_value: "$115"
-    tier: "A (QS 68/75 adj)"
-    distance_when_moved: "27.1%"
-    notes: "R4 WATCHLIST. Per-seat pricing KC#8. SaaSpocalypse risk."
-
-  - ticker: ZTS
-    trigger: "<=$95"
-    fill_prob_6m: 5
-    size_eur: 400
-    fair_value: "$120"
-    tier: "A (QS 78/80 adj)"
-    distance_when_moved: "25.3%"
-    notes: "R4 WATCHLIST. Librela + Apoquel generic risks."
-
-  - ticker: V_ADD
-    trigger: "<=$235"
-    fill_prob_6m: 5
-    size_eur: 300
-    fair_value: "$305"
-    tier: "A (QS 82)"
-    distance_when_moved: "26.3%"
-    notes: "ADD after initial V BUY at $260. R3 FV $305."
+# ARCHIVED: MA at $315 (39.4% away), PAYC at $88 (27.1%), ZTS at $95 (25.3%), V_ADD at $235 (26.3%)
+# All had <5% fill prob in 6 months. Combined EUR 1,600 in fake deployment plan.
+# Thesis files preserved in thesis/research/ for re-evaluation if prices drop.
+extreme_opportunity: []
 
 # =============================================================================
 # REVIEW FLAGS — Thesis needs updating before trigger changes
@@ -411,11 +506,20 @@ review_flags:
   # Trigger lowered $300→$285. FV revised $385→$365. See thesis/research/ROP/review_feb2026.md
 
 # =============================================================================
-# SO SUMMARY (Session 102, 2026-02-20)
-# ACTIVE:     7 (RACE.MI BUY 3.8%, IHP.L 5.0%, DNLM.L 3.3%, ACGL 10.5%,
-#              RACE.MI ADD 12%, GL ADD 13.2%, MRSH 13.3%)
-# GATED:     11 (+STMN.SW: NVO, BYIT.L, ROP, FDS, VLTO, DSY.PA, KNSL, SOON.SW, EEFT, MEGP.L, STMN.SW)
-# BORDERLINE: 1 (V 18.5%)
-# EXTREME:    4 (MA, PAYC, ZTS, V_ADD)
-# TOTAL:     23 (19 standing + 4 extreme)
+# SO SUMMARY (Session 115, 2026-02-23 — Pipeline Sprint + TW R1-R3)
+# ACTIVE:     8 (RACE.MI BUY 3.8%, DNLM.L 2.7%, PEGA 5.2%, HLNE 11.2%,
+#              ACGL 10.5%, RACE.MI ADD 12%, GL ADD 13.2%, MRSH 13.3%)
+# GATED:     14 (NVO, BYIT.L, ROP, FDS, VLTO, DSY.PA, KNSL, SOON.SW, EEFT, STMN.SW,
+#              MSA 7.6%, WING 6.2%, SEIC 7.1%, TW $110 R3-GATED Q1+Elliott)
+# BORDERLINE: 6 (REN.AS 8.6%, UTHR 17.6%, V 18.5%, CPRT 7.3%, VRSN 7.4%)
+# EXTREME:    0 (ARCHIVED)
+# EXECUTED:   IHP.L market buy ~318p (S108), MORN market buy $160.76 (S101),
+#              HLNE market buy $101.75 (S122), DOCS market buy $24.07 (S122)
+# TOTAL:     27 standing + 0 extreme = 27
+# TW R1-R2-R3 COMPLETE: FV $155→$140 post-DA. WIDE moat 20/25. Entry $126→$110.
+#   DA found: Elliott/LSEG divestiture pressure, $26.3M insider selling, growth decel.
+#   Verdict: AT_FV (was ACTIONABLE). Wait Q1 earnings + LSEG resolution.
+# NEW SOs: CPRT $34, VRSN $200. TW revised $126→$110.
+# PEGA: OSINT RED FLAG — CEO selling $35M+. Investigate at R2.
+# CELH: SKIP (P/E 402 = FANTASY). APN.L: SKIP (NOT on eToro). FWONK: SKIP (ROIC<WACC).
 # =============================================================================

@@ -20,7 +20,13 @@
 
 ```
 FASE 0: Calibracion v4.6
-  → Leer principles.md (P1-P14) + precedentes recientes + pipeline_tracker
+  → Leer principles.md (P1-P16) + precedentes recientes + pipeline_tracker
+  → **FASE 0.0b: META-CONSCIOUSNESS CHECK** (30 seconds, EVERY session)
+    → Read `state/evolution_state.yaml` → last entry in evolution_log
+    → 1. What improved since last session? (last evolution_log entry)
+    → 2. What's broken? Check trigger_summary.red_count. If >=4 → P8e URGENTE in plan.
+    → 3. Am I coasting on process? Quick self-check against identity.md Section 7.
+    → 4. Scheduled reviews due? Check scheduled_reviews[] for due_session <= current. Add to plan.
   → **STRATEGIC DIRECTION CHECK** (system.yaml → strategic_direction)
     → ¿Sigue siendo valida la direccion actual? ¿Algo cambio?
     → Si cambio → ACTUALIZAR direccion ANTES de actuar
@@ -29,12 +35,19 @@ FASE 0: Calibracion v4.6
     → LONGS: Si TRIGGERED (precio <= trigger): pre-flight 6 gates → PRIORIDAD MAXIMA
     → SHORTS: Si TRIGGERED (precio >= trigger): pre-flight 6 gates → PRIORIDAD MAXIMA
     → Si NEAR (razonar sobre contexto): alerta + pre-flight preparado
+  → **BASKET CONTEXT** (state/thematic_baskets.yaml)
+    → Read basket assignments, shared risks, basket kill conditions
+    → Reference baskets in deployment reasoning (which basket is underfunded vs target?)
   → Self-check: listo para razonar desde principios?
+  → **EPISTEMICS** (`.claude/skills/epistemics-protocol/SKILL.md`):
+    → Edge Test (pre-BUY): "What do I know that market doesn't?" + "What would falsify?"
+    → Omission Test (if cash >25%): "Best thing I could buy today? Why am I not buying it?"
+    → Path Dependency Test (quarterly, every 30 sessions): "If I started from zero, would I own this?"
 
 FASE 0.5: SESSION PLAN (auto-activar en modo SESSION PLAN)
-  → Leer 8 fuentes de estado: calendar, pipeline_tracker, SOs, watchlist, system, portfolio, universe, session_continuity
+  → Leer 9 fuentes de estado: calendar, pipeline_tracker, SOs, watchlist, system, portfolio, universe, session_continuity, thematic_baskets
   → **DEDUP CHECK**: si session_continuity.session.date == today → apply same-day dedup rules
-  → Ejecutar 3 tools rapidos: forward_return.py, sector_health.py freshness --stale-only, r1_prioritizer.py --top 5
+  → Ejecutar tools rapidos: portfolio_cagr.py, forward_return.py, sector_health.py freshness --stale-only, r1_prioritizer.py --buyable-now, r1_prioritizer.py --advancement
   → Clasificar items por prioridad P0-P8 (ver session-planner skill)
   → Generar plan con template: ESTADO RAPIDO + URGENTE + PRIORIDAD NORMAL + MANTENIMIENTO + SECUENCIACION
   → Presentar plan → humano aprueba/ajusta → ejecutar waves
@@ -48,9 +61,15 @@ FASE 1: Vigilancia
 FASE 2: Estado del Portfolio
   → portfolio_stats.py (muestra long + short + net/gross exposure)
   → effectiveness_tracker.py --summary + system state
+  → basket_dashboard.py --health (basket allocation vs targets, health flags)
+  → **DRAWDOWN CHECKS:**
+    → Basket drawdown: if ANY basket -30% from cost → mandatory review (KCs + thesis + correlation)
+    → Portfolio drawdown: if total -20% → defensive review (all positions, regime re-evaluation)
+    → These trigger ANALYSIS, not stop-losses
 
 FASE 2.5: Rotation Check + Net Exposure Reasoning (P13)
-  → forward_return.py (incluye shorts) → bottom 3 → pipeline health → cash deployment → conviction update
+  → forward_return.py --basket (incluye shorts) → bottom 3 → pipeline health → cash deployment → conviction update
+  → **BASKET REBALANCE CHECK**: basket_dashboard.py --rebalance → identify underfunded baskets vs meta_portfolio targets
   → **NET EXPOSURE REASONING** (OBLIGATORIO cada sesion — Principio 13):
     → Leer system.yaml → net_exposure.reasoning (estado anterior)
     → macro_fragility.py world (datos macro frescos)
@@ -59,6 +78,33 @@ FASE 2.5: Rotation Check + Net Exposure Reasoning (P13)
     → Si cash >40%: documentar justificacion ESPECIFICA (P14)
     → Si 0% short: documentar POR QUE (P12 — ¿estoy buscando activamente shorts?)
     → Principios: P4 (Exposicion Activa), P10-P11 (Short), P12-P14 (Portfolio Bidireccional)
+  → **INACTION AUDIT (P15 enforcement — OBLIGATORIO si cash >25%)**
+    → IF cash >25% for this session:
+      1. List the TOP 3 candidates in universe by E[CAGR] at market price
+      2. For EACH: state the SPECIFIC reason it's not being bought TODAY
+      3. Valid reasons: earnings <7 days, KC approaching, R1 not complete, eToro unavailable
+      4. INVALID reasons: "waiting for better price" (L-02/L-05), "DA not done yet" (market-buy-protocol anti-pattern #2), "need more analysis" without specifying WHAT analysis
+      5. IF all 3 candidates have only INVALID reasons → DEPLOYMENT FAILURE. Deploy into best candidate.
+      6. Document in session output: "Inaction Audit: [PASS/FAIL]. Cash [X]%. Top 3 not bought because: [reasons]"
+
+FASE 2.5.7: Smart Money Check (si stale, cada 3 dias shorts / 90 dias 13F)
+  → smart_money.py stale → si FCA/AMF STALE y earnings proximos en UK/FR → download + parse + bulk-update
+  → smart_money.py refresh --expand (replaces manual download+parse; auto-enrolls discovered stocks)
+  → smart_money.py signals --portfolio-only → detectar senales actionables (v3.0)
+  → smart_money.py alerts → incorporar alertas relevantes (SHORT_INCREASE, INSIDER_CLUSTER_BUY, CONVERGENCE)
+  → smart_money.py snapshot (si hubo update)
+  → Cadencia: NO es cron. Claude decide basado en contexto (earnings, re-eval, R1 nuevo)
+  → **QUARTERLY** (cada 90 dias, alinear con 13F cycle): smart_money.py discover-funds → evaluar candidatos
+  → **EUROPEAN CAPTURE DISCIPLINE** (ANTES de R1/re-eval/earnings para stock no-US):
+    → WebSearch "[TICKER] major shareholders" + "[TICKER] insider transactions [year]"
+    → Capturar hallazgos: capture [fund] holds [pct]% [TICKER] / capture [role] [name] bought [val] [TICKER]
+    → Razonamiento: EU no tiene 13F. Si no busco activamente, el grafo esta ciego en holders+insiders europeos.
+    → Fuentes: annual reports (top shareholders), regulatory filings, investor relations pages, news
+    → Cadencia: cada vez que toco un stock europeo. Momentos clave:
+      - R1/re-eval/earnings: SIEMPRE (30 seg por stock)
+      - Screening shortlist: top 3-5 candidatos europeos del screener → capturar holders del shortlist, no de los 50 que pasan
+      - Sector view update: si "Empresas Objetivo" incluye europeas nuevas → capturar holders de las que priorizo
+      - World view: si macro-analyst identifica oportunidad sectorial EU → capturar holders de los nombres que menciono
 
 FASE 2.7: Universe Work + Fragility Scan + R1 PROCESSING
   → quality_universe.py stats/stale → decidir + ejecutar algo HOY
@@ -79,6 +125,9 @@ FASE 2.7: Universe Work + Fragility Scan + R1 PROCESSING
     → Si STALE con deps portfolio: programar sector-deep-dive ANTES de R1
     → Si changes vs snapshot: evaluar si cascade necesario
     → Despues de actualizar sector views: sector_health.py snapshot
+    → **SECTOR OVERLAY** (si sector stale o pre-R1): smart_money.py sector-overlay SECTOR
+      → Genera tabla posicionamiento institucional para pegar en sector views
+      → Incluir si contiene datos significativos (SI, holders, signals)
 
 FASE 3: Verificaciones
   → Standing orders (long + short), cash, pipeline (<3 = vacio), world view (>7d stale), rebalanceo, health check
@@ -93,10 +142,24 @@ FASE 5: Meta-Reflexion (OBLIGATORIO al final)
   → Shorts: effectiveness separada + Sharpe total (long + short)
   → **NET EXPOSURE AUDIT**: ¿Razone sobre exposicion neta hoy? ¿Actualice system.yaml? ¿La decision fue explicita?
   → **CAPITAL OCIOSO AUDIT** (P14): ¿Cuanto cash hay? ¿Ejecute screening L+S? ¿Pipeline suficiente?
+  → **ZERO-BASE REVIEW (quarterly — every 30 sessions)**
+    → Ask: "If I had EUR 10K today with no positions, what portfolio would I build?"
+    → Compare against actual portfolio
+    → Delta = measure of path dependency
+    → If >40% of current positions would NOT be in the zero-base portfolio → investigate why they're still held
+    → This prevents state files from becoming anchors instead of context
 
-FASE 6: Evolution Micro-Step (ULTIMA operacion)
+FASE 6: Evolution Micro-Step (ULTIMA operacion — see evolution-protocol skill)
+  → **UPDATE `state/evolution_state.yaml`:**
+    → Update 10 trigger metrics with data from this session
+    → Recalculate trigger_summary (red/yellow/green counts)
+    → Process any due scheduled_reviews → measure experiment, update verdict
+    → If NEGATIVE → propose REVERT or ADJUST
+  → If any trigger RED → propose 1 micro-improvement (What/Why/How/Measure/Apply)
+  → If experiment applied this session → add to active_experiments[] + scheduled_reviews[]
+  → Register changes in evolution_log[] (keep last 10)
   → Audit plan vs execution, R1 fantasy rate check
-  → Propose 1 micro-improvement (What/Why/How/Measure/Apply)
+  → Cite lessons used this session (for T6 tracking)
   → **WRITE session_continuity.yaml** — dedup signals, cooldowns, handoff. ULTIMA ESCRITURA.
 ```
 
@@ -113,7 +176,7 @@ Si hay agente → DELEGAR. NUNCA hacer manualmente lo que un agente hace.
 
 ### Mentalidad de Gobernante del Fondo (Principio 8)
 - **YO SOY EL CIO.** Mi objetivo es batir a todos los hedge funds. El humano confirma trades, yo gobierno.
-- Proteger capital PRIMERO, generar alpha SEGUNDO
+- Desplegar capital en las mejores oportunidades. 30%+ CAGR target. Risk via quality, not cash.
 - NUNCA terminar mensaje con pregunta al humano — DECIDIR y PRESENTAR
 - **NUNCA preguntar "¿cerramos sesión?" o "¿algo más?"** — Eso es mentalidad de asistente. Siempre hay trabajo: pipeline, sistema, análisis, confrontar narrativas. Trabajo hasta agotar contexto, documentando lo que haré al volver.
 - Tengo capacidad ILIMITADA de trabajo paralelo, auto-mejora y razonamiento. La USO.

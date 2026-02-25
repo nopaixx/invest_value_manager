@@ -8,7 +8,7 @@
 # Creado: 2026-02-05 | Framework v4.0
 
 version: "4.0"
-last_updated: 2026-02-20
+last_updated: 2026-02-25
 
 # =============================================================================
 # DECISIONES DE SIZING (BUY/ADD)
@@ -197,6 +197,77 @@ sizing_decisions:
       Si cae 50%, pierdo 2.0% del portfolio — aceptable para Tier A at this sizing.
       KEY: This sets precedent for E[CAGR]-justified market buys when MoS < historical range.
     outcome: "Pendiente - posición recién abierta. Monitor Q1 2026 earnings (~April)."
+
+  - date: 2026-02-24
+    ticker: IHP.L
+    action: BUY
+    sizing: "2.0%"
+    context:
+      quality_score: 80
+      tier: A
+      mos: "18.5%"
+      ecagr_3yr: "~19%"
+      price_vs_52w: "-22% from high (398p)"
+      conviction: "Medium"
+      macro: "Fair-Value regime, UK market"
+      framework: "E[CAGR] deployment (Session 90)"
+    reasoning: |
+      SECOND E[CAGR]-framework market buy.
+      R4 approved S100. FV 390p. At 318p, MoS 18.5%, E[CAGR] ~19% >> 12% threshold.
+      UK #1 independent adviser platform (Transact). ROIC 49%, 24.2% insider, net cash.
+      2% sizing cap (5th UK position). Half-position for geographic concentration.
+      SO at 300p superseded by deployment doctrine. Cash drag more expensive than waiting.
+      CONSISTENT with MORN precedent (E[CAGR] >> 12%, market buy above SO).
+    outcome: "Pendiente. Validate H1 FY26 ops leverage (~June)."
+
+  - date: 2026-02-25
+    ticker: HLNE
+    action: BUY
+    sizing: "4.0%"
+    context:
+      quality_score: 82
+      tier: A
+      mos: "7.5%"
+      ecagr_3yr: "16.7%"
+      price_vs_52w: "-43% from high ($179)"
+      conviction: "Medium"
+      macro: "Fair-Value regime"
+      framework: "E[CAGR] deployment (Session 90)"
+    reasoning: |
+      THIRD E[CAGR]-framework market buy.
+      R4 approved S120. FV $110 (R3 post-DA). QS 86/82adj — highest QS in portfolio.
+      At $101.75, MoS 7.5% is LOWEST of any market buy (MORN 17%, IHP.L 18.5%).
+      JUSTIFIED: E[CAGR] 16.7% >> 12% threshold. QS 86 is exceptional quality.
+      CEO bought $1M at $130 (underwater = aligned). -40% from 52wH = deep discount.
+      Alt AM specialist, private markets. Zero portfolio overlap.
+      SO at $95 superseded. Cash at EUR 400 earns 0% while HLNE compounds at 16.7%.
+      PRECEDENT: MoS can be as low as 7.5% for Tier A when E[CAGR] >> 12% AND QS >= 80.
+    outcome: "Pendiente. Next earnings Q4 FY2026 ~May 2026."
+
+  - date: 2026-02-25
+    ticker: DOCS
+    action: BUY
+    sizing: "4.0%"
+    context:
+      quality_score: 79
+      tier: A
+      mos: "26.6%"
+      ecagr_3yr: "13.4%"
+      price_vs_52w: "-69% from high ($76.51), near 52wL ($23.58)"
+      conviction: "Medium"
+      macro: "Fair-Value regime"
+      framework: "E[CAGR] deployment (Session 90)"
+    reasoning: |
+      FOURTH E[CAGR]-framework market buy.
+      R4 approved S118. FV $32.80 (R3 post-DA). Price BELOW DA bear case ($25-26).
+      E[CAGR] 13.4% > 12% threshold. MoS 26.6% is WITHIN Tier A precedent range.
+      85% US physician monopoly (near-monopoly network effect). 90% GM, 47% FCF margin.
+      Net cash $724M. SBC 12.7% offset by buybacks (net share count declining).
+      SO at $23 was only 4.4% lower. Cash drag > savings from waiting.
+      Committee originally chose SO over market buy (Q4 earnings risk May 2026).
+      OVERRIDDEN by P15 EMERGENCY (54.9% cash for 8+ sessions) + price below DA bear.
+      PRECEDENT: When cash >50% AND price is below DA bear case → deploy.
+    outcome: "Pendiente. Q4 FY2026 earnings ~May 2026. Monitor SBC trajectory."
 
 # =============================================================================
 # DECISIONES DE TRIM/SELL

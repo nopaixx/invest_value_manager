@@ -36,7 +36,14 @@ import warnings
 warnings.filterwarnings('ignore')
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(BASE_DIR, 'tools'))
+from thesis_parser import (extract_fair_value, extract_growth_rate,
+                           extract_dividend_yield, compute_ecagr,
+                           convert_fv_to_price_currency,
+                           _detect_currency_from_context)
+
 PORTFOLIO_FILE = os.path.join(BASE_DIR, 'portfolio', 'current.yaml')
+BASKETS_FILE = os.path.join(BASE_DIR, 'state', 'thematic_baskets.yaml')
 SYSTEM_FILE = os.path.join(BASE_DIR, 'state', 'system.yaml')
 THESIS_ACTIVE_DIR = os.path.join(BASE_DIR, 'thesis', 'active')
 THESIS_RESEARCH_DIR = os.path.join(BASE_DIR, 'thesis', 'research')
@@ -160,232 +167,9 @@ def read_thesis_file(thesis_path):
         return None
 
 
-def detect_currency_from_context(thesis_content, match_obj):
-    """
-    Detect the FV currency by examining:
-    1. The matched text itself
-    2. The immediate line context (same line as the match)
-    3. The broader thesis context (first 3000 chars)
-
-    Returns detected currency string or None.
-    """
-    # 1. Check within the match itself
-    match_text = match_obj.group(0)
-    for label, curr in [('EUR', 'EUR'), ('DKK', 'DKK'), ('SEK', 'SEK'),
-                        ('$', 'USD'), ('GBp', 'GBp'), ('gbp', 'GBp'), ('GBP', 'GBP')]:
-        if label in match_text:
-            return curr
-    if match_text.rstrip().endswith('p') and not match_text.rstrip().endswith('pp'):
-        return 'GBp'
-
-    # 2. Check the same line as the match (get 40 chars before and after)
-    start = max(0, match_obj.start() - 40)
-    end = min(len(thesis_content), match_obj.end() + 40)
-    line_context = thesis_content[start:end]
-
-    # Find what's immediately after the number (e.g., "850 SEK" or "850p")
-    # Look for currency right after the matched number
-    after_match = thesis_content[match_obj.end():match_obj.end() + 20]
-    if re.match(r'\s*SEK\b', after_match):
-        return 'SEK'
-    if re.match(r'\s*DKK\b', after_match):
-        return 'DKK'
-    if re.match(r'\s*EUR\b', after_match):
-        return 'EUR'
-    if re.match(r'\s*GBp\b', after_match, re.IGNORECASE):
-        return 'GBp'
-    if re.match(r'\s*USD\b', after_match):
-        return 'USD'
-    if re.match(r'p\b', after_match):
-        return 'GBp'
-
-    # Check what's immediately before the number in the line
-    before_match = thesis_content[max(0, match_obj.start() - 20):match_obj.start()]
-    if 'SEK' in before_match:
-        return 'SEK'
-    if 'DKK' in before_match:
-        return 'DKK'
-    if '$' in before_match:
-        return 'USD'
-    if 'EUR' in before_match:
-        return 'EUR'
-
-    # 3. Broader context fallback - check within 200 chars around the match
-    nearby_start = max(0, match_obj.start() - 100)
-    nearby_end = min(len(thesis_content), match_obj.end() + 100)
-    nearby = thesis_content[nearby_start:nearby_end]
-
-    # Order matters: check SEK/DKK before EUR to avoid "850 SEK (74 EUR)" matching EUR
-    for label, curr in [('SEK', 'SEK'), ('DKK', 'DKK'), ('GBp', 'GBp'),
-                        ('EUR', 'EUR'), ('$', 'USD')]:
-        if label in nearby:
-            return curr
-
-    return None
-
-
-def extract_fair_value(thesis_content, ticker, currency='USD'):
-    """
-    Extract fair value from thesis file using multiple patterns.
-    Returns (fair_value_in_native_currency, currency_of_fv) or (None, None).
-    """
-    if not thesis_content:
-        return None, None
-
-    fv = None
-    fv_currency = currency
-
-    # Optional markdown bold and currency patterns for reuse
-    bold = r'\*{0,2}'
-    curr_prefix = r'(?:\$|EUR\s*|GBP\s*|DKK\s*|SEK\s*)?'
-    curr_suffix = r'(?:p|GBp)?'
-
-    # Pattern priority (most specific first):
-    patterns = [
-        # PRIORITY 0: Header declaration "**Fair Value:** XXX" at start of line (canonical, placed in thesis header)
-        (r'^>?\s*\*\*Fair Value:\*\*\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*' + curr_suffix, 'single'),
-        # "Weighted FV/Average" in table: | **Weighted ...** | ... | **$394** or **455p**
-        (r'\*\*Weighted\s+(?:Avg|Average|FV|Fair Value)\*\*\s*\|[^|]*\|[^|]*\|\s*\*\*\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*' + curr_suffix + r'\s*\*\*', 'single'),
-        # "Blended Fair Value" in table: | **Blended Fair Value** | ... | **3,701p**
-        (r'\*\*Blended Fair Value\*\*\s*\|[^|]*\|[^|]*\|\s*\*\*\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*' + curr_suffix + r'\s*\*\*', 'single'),
-        # "Weighted Fair Value: XXXp" or "Weighted Fair Value: EUR XX"
-        (r'Weighted Fair Value[:\s]+' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*' + curr_suffix, 'single'),
-        # "Fair Value Consolidado: EUR XX - YY" (range, take midpoint)
-        (r'Fair Value Consolidado:\s*(?:EUR|USD|\$|GBP|DKK)\s*([0-9,]+(?:\.\d+)?)\s*-\s*([0-9,]+(?:\.\d+)?)', 'range'),
-        # "**Blended Base Fair Value:** $283.74" (with bold markers, UHS-style)
-        (bold + r'Blended (?:Base )?Fair Value' + bold + r'[:\s]+' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*' + curr_suffix, 'single'),
-        # "Fair Value (Weighted)" in table row
-        (r'Fair Value \(Weighted\)\s*\|\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)', 'single'),
-        # "Fair Value Base (Weighted)" in table row
-        (r'Fair Value Base \(Weighted\)\s*\|\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)', 'single'),
-        # "Fair Value (v2.0 Base)" or similar in table
-        (r'Fair Value\s*\((?:v\d+\.?\d*\s*)?Base\)\s*\|\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)', 'single'),
-        # "Fair Value Expected (v3.0): EUR XX"
-        (r'Fair Value Expected[^:]*:\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)', 'single'),
-        # "Fair Value Base" 2-column table: | Fair Value Base | EUR 102 | EUR 122 |
-        (r'Fair Value Base\s*\|\s*' + curr_prefix + r'[0-9,]+(?:\.\d+)?\s*\|\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)', 'single'),
-        # "Fair Value Base" simple: | Fair Value Base | EUR 122 |
-        (r'Fair Value Base\s*\|\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)', 'single'),
-        # "Blended Fair Value (v2.0)" in table: | Blended Fair Value (v2.0) | $283.74 |
-        (r'Blended Fair Value\s*\(v\d+\.?\d*\)\s*\|\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)', 'single'),
-        # "Conservative Fair Value Range: X,XXX - X,XXXp"
-        (r'Conservative Fair Value Range:\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*-\s*([0-9,]+(?:\.\d+)?)\s*' + curr_suffix, 'range'),
-        # "Base Case FV:" or "FV Base:" or "FV Expected:"
-        (r'(?:Base Case FV|FV Base|FV Expected)[:\s]+~?\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*' + curr_suffix, 'single'),
-        # "OEY Fair Value: ~XXXp" (backup)
-        (r'OEY Fair Value[:\s]+~?\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*' + curr_suffix, 'single'),
-        # "Fair Value v2.0: EUR XX-YY" (range in intro)
-        (r'Fair Value v\d+\.?\d*:\s*' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*-\s*([0-9,]+(?:\.\d+)?)', 'range'),
-        # Generic "Fair Value: $XX" (last resort)
-        (bold + r'Fair Value' + bold + r'[:\s]+' + curr_prefix + r'([0-9,]+(?:\.\d+)?)\s*' + curr_suffix, 'single'),
-    ]
-
-    for pat, pat_type in patterns:
-        m = re.search(pat, thesis_content, re.IGNORECASE | re.MULTILINE)
-        if m:
-            groups = m.groups()
-            if pat_type == 'range' and len(groups) >= 2:
-                try:
-                    v1 = float(groups[0].replace(',', ''))
-                    v2 = float(groups[1].replace(',', ''))
-                    fv = (v1 + v2) / 2
-                except (ValueError, TypeError):
-                    continue
-            else:
-                try:
-                    fv = float(groups[0].replace(',', ''))
-                except (ValueError, TypeError):
-                    continue
-
-            if fv <= 0:
-                fv = None
-                continue
-
-            # Detect currency using multi-layer context analysis
-            detected = detect_currency_from_context(thesis_content, m)
-            if detected:
-                fv_currency = detected
-
-            break
-
-    return fv, fv_currency
-
-
-def extract_growth_rate(thesis_content, ticker):
-    """
-    Extract expected growth rate from thesis.
-    Returns growth as a decimal (e.g., 0.08 for 8%).
-    """
-    if not thesis_content:
-        return None
-
-    patterns = [
-        (r'Expected Growth[^:]*:\s*(?:~)?(\d+(?:\.\d+)?)\s*%', 'single'),
-        (r'Revenue Growth Base:\s*(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%', 'range'),
-        (r'GP Growth[^:]*:\s*(?:~)?(\d+(?:\.\d+)?)\s*%\s*\(base', 'single'),
-        (r'=\s*~?(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%\s*GP growth', 'range'),
-        (r'GP CAGR[):\s]+(?:~)?(\d+(?:\.\d+)?)\s*%\s*\(base', 'single'),
-        (r'Expected Growth \(GP CAGR\):\s*(\d+(?:\.\d+)?)\s*%', 'single'),
-        (r'(?:Expected )?Growth:\s*(\d+(?:\.\d+)?)\s*%', 'single'),
-        (r'Revenue Growth:\s*(?:~)?(\d+(?:\.\d+)?)\s*%', 'single'),
-        (r'Revenue Growth\s*=.*?(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%', 'range'),
-        (r'growth of\s*(?:~)?(\d+(?:\.\d+)?)\s*%', 'single'),
-        (r'~?(\d+(?:\.\d+)?)\s*%\s*CAGR\s*\((?:normalized|base)', 'single'),
-    ]
-
-    for pat, pat_type in patterns:
-        m = re.search(pat, thesis_content, re.IGNORECASE)
-        if m:
-            groups = m.groups()
-            if pat_type == 'range' and len(groups) >= 2:
-                try:
-                    g1 = float(groups[0])
-                    g2 = float(groups[1])
-                    growth = (g1 + g2) / 2 / 100
-                    if -0.50 <= growth <= 0.50:
-                        return growth
-                except (ValueError, TypeError):
-                    continue
-            else:
-                try:
-                    growth = float(groups[0]) / 100
-                    if -0.50 <= growth <= 0.50:
-                        return growth
-                except (ValueError, TypeError):
-                    continue
-
-    return None
-
-
-def compute_ecagr_at_market(fv, price, growth_pct, yield_pct):
-    """Compute E[CAGR] at current market price.
-
-    E[CAGR] = (FV/Price)^(1/3) - 1 + growth + div_yield
-
-    Args:
-        fv: Fair value in same currency as price (already converted)
-        price: Current market price
-        growth_pct: Expected growth rate as percentage (e.g., 8.0 for 8%)
-        yield_pct: Dividend yield as percentage (e.g., 2.5 for 2.5%)
-
-    Returns:
-        E[CAGR] as percentage (e.g., 14.5 for 14.5%), or None if inputs invalid.
-    """
-    if not fv or not price or price <= 0 or fv <= 0:
-        return None
-
-    # MoS convergence component: (FV/Price)^(1/3) - 1
-    ratio = fv / price
-    mos_cagr = (ratio ** (1.0 / 3.0)) - 1.0
-
-    # Add sustainable growth (convert from pct to decimal, then back)
-    growth_decimal = (growth_pct or 0.0) / 100.0
-
-    # Add dividend yield
-    div_decimal = (yield_pct or 0.0) / 100.0
-
-    ecagr = (mos_cagr + growth_decimal + div_decimal) * 100.0
-    return round(ecagr, 1)
+# detect_currency_from_context, extract_fair_value, extract_growth_rate -> thesis_parser
+# compute_ecagr_at_market -> thesis_parser.compute_ecagr (same signature)
+compute_ecagr_at_market = compute_ecagr  # alias for backward compat within this file
 
 
 def extract_qs_and_tier(thesis_content):
@@ -450,38 +234,7 @@ def extract_status_from_research(thesis_content):
     return 'Research'
 
 
-def convert_fv_to_price_currency(fv, fv_currency, stock_currency, eurusd, gbpeur, dkkeur):
-    """Convert fair value to the stock's trading currency for MoS calculation."""
-    if fv_currency == stock_currency:
-        return fv
-
-    # Convert to EUR first
-    fv_eur = fv
-    if fv_currency == 'USD':
-        fv_eur = fv / eurusd
-    elif fv_currency in ('GBp', 'GBX'):
-        fv_eur = (fv / 100) * gbpeur
-    elif fv_currency == 'GBP':
-        fv_eur = fv * gbpeur
-    elif fv_currency == 'DKK':
-        fv_eur = fv * dkkeur
-    elif fv_currency == 'SEK':
-        fv_eur = fv * 0.088
-
-    # Convert from EUR to target
-    if stock_currency == 'EUR':
-        return fv_eur
-    elif stock_currency == 'USD':
-        return fv_eur * eurusd
-    elif stock_currency in ('GBp', 'GBX'):
-        return (fv_eur / gbpeur) * 100
-    elif stock_currency == 'GBP':
-        return fv_eur / gbpeur
-    elif stock_currency == 'DKK':
-        return fv_eur / dkkeur if dkkeur else fv_eur
-    elif stock_currency == 'SEK':
-        return fv_eur / 0.088
-    return fv_eur
+# convert_fv_to_price_currency -> thesis_parser (imported above)
 
 
 def get_yfinance_data(ticker):
@@ -1018,12 +771,91 @@ def _print_net_forward_return(active_results, short_results):
     print(f"  Combined:              Long {long_avg:+.1f}% + Short {short_avg:+.1f}%")
 
 
+def load_baskets():
+    """Load thematic baskets from state/thematic_baskets.yaml."""
+    if not os.path.exists(BASKETS_FILE):
+        return None
+    try:
+        with open(BASKETS_FILE, 'r') as f:
+            data = yaml.safe_load(f)
+        return data.get('baskets', [])
+    except Exception:
+        return None
+
+
+def print_basket_grouping(active_results, baskets):
+    """Print active positions grouped by thematic basket with weighted E[CAGR]."""
+    if not baskets:
+        return
+
+    # Build ticker -> basket mapping
+    ticker_basket = {}
+    for b in baskets:
+        for tk in b.get('positions', []):
+            ticker_basket[tk] = b
+
+    print()
+    print("=" * 90)
+    print("BASKET GROUPING — ACTIVE LONG POSITIONS")
+    print("=" * 90)
+
+    # Group results by basket
+    grouped = {}
+    unassigned = []
+    for r in active_results:
+        b = ticker_basket.get(r['ticker'])
+        if b:
+            bid = b['id']
+            if bid not in grouped:
+                grouped[bid] = {'basket': b, 'positions': []}
+            grouped[bid]['positions'].append(r)
+        else:
+            unassigned.append(r)
+
+    for bid, data in grouped.items():
+        b = data['basket']
+        positions = sorted(data['positions'], key=lambda x: x['ecagr_at_market'] if x.get('ecagr_at_market') is not None else -999, reverse=True)
+
+        # Weighted E[CAGR]
+        w_sum = sum(r['ecagr_at_market'] for r in positions if r.get('ecagr_at_market') is not None)
+        w_cnt = sum(1 for r in positions if r.get('ecagr_at_market') is not None)
+        avg_ecagr = w_sum / w_cnt if w_cnt > 0 else None
+        avg_str = f"{avg_ecagr:.1f}%" if avg_ecagr is not None else 'N/A'
+
+        pipe_str = ', '.join(b.get('pipeline', [])[:3])
+        print(f"\n  {b.get('name', bid)} [{b.get('status', '?')}] — Avg E[CAGR]: {avg_str} | Pipeline: {pipe_str or 'none'}")
+        print(f"  {'Ticker':<10} {'QS':>3} {'Tier':>4} {'MoS%':>7} {'E[CAGR]':>8} {'Conv':>4}")
+        print(f"  {'-'*40}")
+        for r in positions:
+            qs_str = str(r['qs']) if r['qs'] is not None else '?'
+            tier_str = r['tier'] if r['tier'] else '?'
+            mos_str = f"{r['mos_pct']:+.1f}" if r['mos_pct'] is not None else 'N/A'
+            ecagr_str = f"{r['ecagr_at_market']:.1f}%" if r.get('ecagr_at_market') is not None else '-'
+            conv_str = {'high':'H','medium':'M','low':'L'}.get(r.get('conviction',''), '?')
+            print(f"  {r['ticker']:<10} {qs_str:>3} {tier_str:>4} {mos_str:>7} {ecagr_str:>8} {conv_str:>4}")
+
+    if unassigned:
+        print(f"\n  Unassigned")
+        print(f"  {'Ticker':<10} {'QS':>3} {'Tier':>4} {'MoS%':>7} {'E[CAGR]':>8} {'Conv':>4}")
+        print(f"  {'-'*40}")
+        for r in unassigned:
+            qs_str = str(r['qs']) if r['qs'] is not None else '?'
+            tier_str = r['tier'] if r['tier'] else '?'
+            mos_str = f"{r['mos_pct']:+.1f}" if r['mos_pct'] is not None else 'N/A'
+            ecagr_str = f"{r['ecagr_at_market']:.1f}%" if r.get('ecagr_at_market') is not None else '-'
+            conv_str = {'high':'H','medium':'M','low':'L'}.get(r.get('conviction',''), '?')
+            print(f"  {r['ticker']:<10} {qs_str:>3} {tier_str:>4} {mos_str:>7} {ecagr_str:>8} {conv_str:>4}")
+
+    print()
+
+
 def main():
     parser = argparse.ArgumentParser(description='Forward Return Ranking for portfolio positions (long + short)')
     parser.add_argument('--ticker', nargs='+', help='Specific tickers to analyze')
     parser.add_argument('--active-only', action='store_true', help='Only show active positions (long + short)')
     parser.add_argument('--pipeline-only', action='store_true', help='Only show research pipeline')
     parser.add_argument('--deployment-ready', action='store_true', help='Filter pipeline to E[CAGR] >= 12%% (Tier A) or >= 15%% (Tier B)')
+    parser.add_argument('--basket', action='store_true', help='Group active positions by thematic basket')
 
     args = parser.parse_args()
 
@@ -1087,6 +919,14 @@ def main():
     # Pass short_results (even if empty) when show_active, None when not
     print_ranking(active_results, research_results, short_results if show_active else None,
                   show_active, show_pipeline, deployment_ready=args.deployment_ready)
+
+    # Basket grouping (additive — only shown with --basket flag)
+    if args.basket and show_active and active_results:
+        baskets = load_baskets()
+        if baskets:
+            print_basket_grouping(active_results, baskets)
+        else:
+            print("  [Baskets: state/thematic_baskets.yaml not found]")
 
 
 if __name__ == '__main__':

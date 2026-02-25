@@ -1,0 +1,21 @@
+# CUSIP → Ticker mapping for 13F holdings identification
+# 13F filings report holdings by CUSIP, not ticker
+# Only need mappings for stocks we care about (portfolio + pipeline)
+# Source: SEC EDGAR, OpenFIGI, or manual lookup
+
+# US Portfolio Positions
+cusip_to_ticker:
+  "00724F101": "ADBE"      # Adobe Inc.
+  "37959E102": "GL"        # Globe Life Inc.
+  "669531107": "NVO"       # Novo Nordisk (ADR)
+  "550021109": "LULU"      # Lululemon Athletica
+  "596700100": "MORN"      # Morningstar Inc.
+
+# Pipeline / Watchlist US stocks (add as needed)
+  # "594918104": "MSFT"    # Microsoft
+  # "037833100": "AAPL"    # Apple
+
+# Notes:
+# - European stocks (*.L, *.PA, *.DE) don't appear in 13F filings
+# - ADRs (like NVO) DO appear in 13F with their ADR CUSIP
+# - Add new CUSIPs as we add US stocks to portfolio/pipeline

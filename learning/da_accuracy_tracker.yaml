@@ -235,6 +235,11 @@ stats:
   da_insufficient_count: 0
   first_review_due: 2026-08-03
 
+# FUTURE ENTRIES should also include:
+#   - da_independent_fv: DA's own bear-case FV (from Phase 3B independent valuation)
+#   - consensus_pt_at_da: analyst consensus price target at time of DA
+# These enable edge tracking: did our FV outperform consensus?
+
 # OBSERVATIONS (not recommendations):
 # - 19 consecutive DA corrections, all negative (DA always reduces FV)
 # - Average correction -16.7% is substantial

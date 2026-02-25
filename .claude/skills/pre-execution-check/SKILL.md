@@ -27,7 +27,7 @@ Antes de recomendar ejecucion, SIEMPRE hacer pre-flight check.
 
 ---
 
-## Pre-Flight Checklist (5 gates)
+## Pre-Flight Checklist (7 gates)
 
 Para cada standing order TRIGGERED o NEAR:
 
@@ -85,6 +85,17 @@ Para cada standing order TRIGGERED o NEAR:
 [ ] ¿Cual sera el nivel de cash resultante? ¿Es coherente con el contexto? (Principio 4)
 [ ] ¿Tengo pipeline de ideas que necesite reserva de capital?
 [ ] Si mejor alternativa existe → ESPERA o REDIRIGE capital
+```
+
+### Gate 7: SMART MONEY CONTEXT
+```
+[ ] Run: python3 tools/smart_money.py stock-profile TICKER
+[ ] Run: python3 tools/smart_money.py signals --ticker TICKER
+[ ] If SI increased >2x since thesis → FLAG for re-eval before execution
+[ ] If quality fund EXITED since thesis → FLAG for re-eval before execution
+[ ] If insider cluster buy appeared → BOOST confidence (note in presentation)
+[ ] If new short >1% appeared → NOTE but don't block
+[ ] If SHORT_ESCALATION signal → extra caution, verify thesis assumptions
 ```
 
 ---

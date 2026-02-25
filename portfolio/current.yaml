@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 5755  # Updated 2026-02-20. Post-MORN BUY (-EUR 396).
+  amount: 4755  # Updated 2026-02-25. Post-HLNE+DOCS market buys (-EUR 800).
   currency: EUR
 
 positions:
@@ -16,7 +16,8 @@ positions:
     name: "Deutsche Telekom AG"
     shares: 20.624621  # Trimmed from 23.62 on 2026-02-04
     invested_usd: 699.56  # Prorated: 801.26 * (20.62/23.62)
-    avg_cost_usd: 33.91  # Unchanged (original cost basis)
+    avg_cost_usd: 33.91  # USD at purchase FX rate
+    avg_cost_eur: 26.880  # REAL entry price in EUR (from eToro, confirmed 2026-02-23)
     date_opened: 2026-01-26
     thesis: thesis/active/DTE.DE/thesis.md
     conviction: medium
@@ -35,8 +36,9 @@ positions:
   - ticker: EDEN.PA
     name: "Edenred SA"
     shares: 22.00
-    invested_usd: 459.18  # eToro: 461.91 - 2.73 P&L
-    avg_cost_usd: 20.87  # 459.18 / 22
+    invested_usd: 459.18  # eToro account currency (USD)
+    avg_cost_usd: 20.87  # USD at purchase FX rate
+    avg_cost_eur: 17.610  # REAL entry price in EUR (from eToro, confirmed 2026-02-23)
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
     conviction: medium
@@ -50,7 +52,8 @@ positions:
     name: "Domino's Pizza Group PLC"
     shares: 175
     invested_usd: 436.52
-    avg_cost_usd: 2.49  # 436.52 / 175
+    avg_cost_usd: 2.49  # USD at purchase FX rate
+    avg_cost_gbp: 182.50  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
     date_opened: 2026-02-02
     thesis: thesis/active/DOM.L/thesis.md
     conviction: low
@@ -64,7 +67,7 @@ positions:
     name: "Globe Life Inc."
     shares: 3
     invested_usd: 423.18
-    avg_cost_usd: 141.06  # 423.18 / 3
+    avg_cost_usd: 141.35  # Corrected from eToro (was 141.06)
     date_opened: 2026-02-03
     thesis: thesis/active/GL/thesis.md
     conviction: medium
@@ -78,7 +81,7 @@ positions:
     name: "Adobe Inc."
     shares: 2
     invested_usd: 541.20
-    avg_cost_usd: 270.60  # 541.20 / 2
+    avg_cost_usd: 271.60  # Corrected from eToro (was 270.60)
     date_opened: 2026-02-04
     conviction: medium
     fair_value: "$390 (FTC-adjusted, was $394. QS Tool 76, Adj 73)"
@@ -88,35 +91,37 @@ positions:
 
   - ticker: NVO
     name: "Novo Nordisk A/S"
-    shares: 8.31
+    shares: 8.31675  # Corrected from eToro (was 8.31)
     invested_usd: 400.00
-    avg_cost_usd: 48.13  # 400 / 8.31
+    avg_cost_usd: 48.13  # USD equivalent
+    avg_cost_dkk: 303.00  # REAL entry price in DKK (eToro shows NOVO-B.CO, confirmed 2026-02-23)
     date_opened: 2026-02-05
-    conviction: medium
-    exit_plan: "HOLD through CagriSema H2H data (March 2026). ADD if CagriSema positive OR price <=$40. SELL if CagriSema inferior + FY2026 guidance miss >10%. TRIM at $80+."
-    fair_value: "$66 (v3.0. QS Tool 73, Adj 73 Tier B. OEY+DCF+Reverse DCF weighted.)"
-    last_review: 2026-02-05
+    conviction: low
+    exit_plan: "HOLD LOW. CagriSema FAILED (KC#1 triggered Feb 23). FV revised $50. SELL if FY2026 guidance miss >10% OR market share <40% OR gross margin <70%. ADD at $30 only if Wegovy pill data strong. TRIM at $60+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update."
+    fair_value: "$50 (v4.0 post-CagriSema failure. Was $66. Bear case now $35-42. QS Tool 73, Adj 73 Tier B.)"
+    last_review: 2026-02-25
     thesis: thesis/active/NVO/thesis.md
-    notes: "Framework v3.0 validation. QS Tool 73, Thesis 82, Adj 73 Tier B. MoS 38% at entry. Phased entry 4%. CagriSema March = BINARY catalyst."
+    notes: "CagriSema REDEFINE 4 FAILED non-inferiority vs Zepbound (23% vs 25.5%). KC#1 triggered. P6 applied: HOLD because Ozempic/Wegovy franchise intact ($42B+ revenue), MoS 22.8% vs $50 FV, E[CAGR] ~18.7%. Conviction MEDIUM→LOW. Position -19.8% unrealized. HOLD CONFIRMED by human S117 (Feb 25). ADD SO cancelled (gate invalidated)."
 
   - ticker: MONY.L
     name: "Mony Group PLC"
     shares: 204
     invested_usd: 473.00  # ~400 EUR at 1.1826 rate
-    avg_cost_usd: 2.32  # 473 / 204 (169 GBp in USD)
+    avg_cost_usd: 2.32  # USD at purchase FX rate
+    avg_cost_gbp: 169.98  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
     date_opened: 2026-02-04
     thesis: thesis/active/MONY.L/thesis.md
-    notes: "AI Disruption Re-eval 2026-02-12: QS Tool 83, Adj 75 (borderline Tier A). Moat NARROW, erosion prob 30-35%. Insurify ChatGPT proof-of-concept (US-only). ROIC 31.8% >> WACC 9.2%. Financial quality 40/40. CEO bought 170.6p Feb 5."
+    notes: "FY2025 earnings 2026-02-23: Rev GBP 446.3M (+2%), EBITDA GBP 145.1M (33% margin record). All KCs CLEAR. AI strategy validated (OpenAI enterprise deal, ChatGPT app, Price Optimiser). SuperSaveClub 2.1M members doubled. Probation easing. Base case confirmed."
     conviction: low
-    last_review: 2026-02-12
-    fair_value: "190 GBp (v3.0 AI disruption re-eval, was 201 adversarial, 277 original)"
-    exit_plan: "HOLD ON PROBATION through Feb 23 earnings. SELL if revenue <435M (KC#1) or Insurance -5%+ H2 (KC#2) or dividend cut (KC#3). SELL if management has no AI strategy (KC#9). If earnings base/bull + AI strategy: maintain. If cautious guidance: 60-day probation with exit at 130p. No ADD while on probation."
+    last_review: 2026-02-23
+    fair_value: "190 GBp (v3.2 post-FY2025 earnings. QS Tool 83, Adj 75 Tier A borderline.)"
+    exit_plan: "HOLD. FV 190 GBp. Conviction LOW (base case, not bull). SELL if revenue declines YoY or Insurance -5%+ or dividend cut. SELL if AI strategy stalls (no product iteration by H1 2026). TRIM at >180p. ADD at <130p only if conviction upgrades. Next review: Q1 2026 trading update or if price >180p."
 
   - ticker: LULU
     name: "Lululemon Athletica Inc."
     shares: 2
     invested_usd: 343.24
-    avg_cost_usd: 171.62  # 343.24 / 2
+    avg_cost_usd: 171.84  # Corrected from eToro (was 171.62)
     date_opened: 2026-02-05
     thesis: thesis/active/LULU/thesis.md
     conviction: low
@@ -129,7 +134,8 @@ positions:
     name: "AutoTrader Group plc"
     shares: 65
     invested_usd: 427.60  # 362.70 EUR * 1.1789
-    avg_cost_usd: 6.58  # 427.60 / 65
+    avg_cost_usd: 6.58  # USD at purchase FX rate
+    avg_cost_gbp: 486.86  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
     date_opened: 2026-02-06
     thesis: thesis/active/AUTO.L/thesis.md
     conviction: low
@@ -142,7 +148,7 @@ positions:
     name: "Morningstar, Inc."
     shares: 2.9
     invested_usd: 466.20
-    avg_cost_usd: 160.76  # 466.20 / 2.9
+    avg_cost_usd: 161.00  # Corrected from eToro (was 160.76)
     date_opened: 2026-02-20
     thesis: thesis/active/MORN/thesis.md
     conviction: medium
@@ -151,11 +157,52 @@ positions:
     exit_plan: "HOLD. TRIM at $220+. ADD at $140 (MoS 28%). SELL if KC#1 (rev growth negative 2Q) or KC#8 (CRSP regulatory investigation). Next earnings ~April 2026."
     notes: "FIRST E[CAGR]-framework market buy. E[CAGR] 15.6% at $161.85. MoS 17% (below historical 29-38% Tier A precedent, justified by Expected Return framework S90). 46% insider (Mansueto). Zero portfolio overlap. Financial data/analytics sector."
 
+  - ticker: IHP.L
+    name: "IntegraFin Holdings plc"
+    shares: 55
+    invested_usd: 232  # ~EUR 200 at ~1.16 EUR/USD
+    avg_cost_usd: 4.22  # USD at purchase FX rate
+    avg_cost_gbp: 325.9996  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
+    date_opened: 2026-02-24
+    thesis: thesis/research/IHP.L/thesis.md
+    conviction: medium
+    fair_value: "390 GBp (R3 post-DA. QS Tool 80 Tier A. Was 415p pre-DA. Entry 300p SO superseded by market buy.)"
+    last_review: 2026-02-20
+    exit_plan: "HOLD. TRIM at 450p+. ADD at 250p (MoS 36%). SELL if KC triggered (AUM outflows >5% 2Q, platform downtime >48h, FCA investigation). Validate H1 FY26 ops leverage (~June). 2% sizing cap for UK concentration (5th UK position)."
+    notes: "SECOND E[CAGR]-framework market buy. E[CAGR] ~19% at 318p. R4 APPROVED S100. UK #1 independent adviser platform (Transact). ROIC 49%, 24.2% insider, net cash, 0/10 value trap. 2% sizing cap (5th UK position). SO at 300p superseded by deployment doctrine market buy."
+
+  - ticker: HLNE
+    name: "Hamilton Lane Incorporated"
+    shares: 4.63  # EUR 400 at $101.75. Confirm exact shares from eToro.
+    invested_usd: 471.16  # EUR 400 * 1.1779
+    avg_cost_usd: 101.75
+    date_opened: 2026-02-25
+    thesis: thesis/research/HLNE/thesis.md
+    conviction: medium
+    fair_value: "$110 (R3 post-DA. QS Tool 86, Adj 82 Tier A. Highest QS in portfolio.)"
+    last_review: 2026-02-25
+    exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Next earnings Q4 FY2026 ~May 2026."
+    notes: "THIRD E[CAGR]-framework market buy. E[CAGR] 16.7% at $101.75. QS 86 highest in portfolio. R4 APPROVED S120. SO at $95 superseded by deployment doctrine. CEO bought $1M at $130 (aligned). Alternative AM, private markets specialist."
+
+  - ticker: DOCS
+    name: "Doximity, Inc."
+    shares: 19.57  # EUR 400 at $24.07. Confirm exact shares from eToro.
+    invested_usd: 471.16  # EUR 400 * 1.1779
+    avg_cost_usd: 24.07
+    date_opened: 2026-02-25
+    thesis: thesis/research/DOCS/thesis.md
+    conviction: medium
+    fair_value: "$32.80 (R3 post-DA. QS Tool 74, Adj 79 Tier A. SBC-adj OEY $24 = floor.)"
+    last_review: 2026-02-25
+    exit_plan: "HOLD. TRIM at $40+. ADD at $20 (MoS 39%). SELL if KC#1 (NRR <100%) or KC#5 (SBC >15% without buyback offset). Next earnings Q4 FY2026 ~May 2026."
+    notes: "FOURTH E[CAGR]-framework market buy. E[CAGR] 13.4% at $24.07. Price BELOW DA bear case ($25-26). R4 APPROVED S118. SO at $23 superseded. 85% US physician monopoly. 90% GM, 47% FCF margin, $724M net cash. Near 52wL."
+
   - ticker: BYIT.L
     name: "Bytes Technology Group plc"
     shares: 110
     invested_usd: 444
-    avg_cost_usd: 4.04  # 444 / 110
+    avg_cost_usd: 4.04  # USD at purchase FX rate
+    avg_cost_gbp: 299.3999  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
     date_opened: 2026-02-07
     thesis: thesis/active/BYIT.L/thesis.md
     conviction: low
@@ -586,3 +633,27 @@ transactions:
     price_usd: 160.76
     total_usd: 466.20
     notes: "BUY - FIRST E[CAGR]-framework market buy (new precedent). QS 78 Tier A. FV $195. MoS 17% (below historical 29-38%, justified by E[CAGR] 15.6% >> 12% threshold). 46% insider. Zero portfolio overlap. Financial data/analytics. SO at $150 replaced by market execution."
+
+  - date: 2026-02-24
+    action: BUY
+    ticker: IHP.L
+    shares: 55
+    price_gbp: 318
+    total_eur: 200.00
+    notes: "BUY - SECOND E[CAGR]-framework market buy. QS 80 Tier A. FV 390p. MoS 18.5% at market. E[CAGR] ~19%. R4 approved S100. UK #1 independent adviser platform (Transact). ROIC 49%, 24.2% insider, net cash. 2% sizing cap (5th UK position, UK total 16.6%). SO at 300p superseded by deployment doctrine."
+
+  - date: 2026-02-25
+    action: BUY
+    ticker: HLNE
+    shares: 4.63
+    price_usd: 101.75
+    total_eur: 400
+    notes: "BUY - THIRD E[CAGR]-framework market buy. QS 86/82adj Tier A (highest QS in portfolio). FV $110 (R3 post-DA). MoS 7.5%. E[CAGR] 16.7% >> 12% threshold. R4 APPROVED S120. SO at $95 superseded. CEO bought $1M at $130. Alt AM, private markets specialist. Zero portfolio overlap."
+
+  - date: 2026-02-25
+    action: BUY
+    ticker: DOCS
+    shares: 19.57
+    price_usd: 24.07
+    total_eur: 400
+    notes: "BUY - FOURTH E[CAGR]-framework market buy. QS 74/79adj Tier A. FV $32.80 (R3 post-DA). MoS 26.6%. E[CAGR] 13.4% > 12% threshold. R4 APPROVED S118. Price BELOW DA bear ($25-26). SO at $23 superseded. 85% US physician monopoly. 90% GM, 47% FCF, $724M net cash."

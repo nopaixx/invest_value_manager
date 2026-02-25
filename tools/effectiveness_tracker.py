@@ -46,6 +46,9 @@ import yaml
 import yfinance as yf
 import numpy as np
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'tools'))
+from thesis_parser import extract_fair_value as _tp_extract_fv
+
 # ==============================================================================
 # Configuration
 # ==============================================================================
@@ -165,10 +168,9 @@ def to_eur(price: float, currency: str, eurusd: float, gbpusd: float) -> float:
 # ==============================================================================
 
 def parse_thesis_for_fv(ticker: str) -> Dict[str, Any]:
-    """
-    Parse thesis file to extract fair value, entry price, and tier information.
-    Returns dict with: fair_value, entry_price, mos_pct, tier, currency
-    """
+    """Parse thesis file to extract fair value, entry price, and tier information.
+    Uses canonical thesis_parser for FV extraction.
+    Returns dict with: fair_value, fv_currency, mos_pct, tier"""
     thesis_path = os.path.join(THESIS_DIR, ticker, 'thesis.md')
     if not os.path.exists(thesis_path):
         return {}
@@ -178,34 +180,11 @@ def parse_thesis_for_fv(ticker: str) -> Dict[str, Any]:
 
     result = {}
 
-    # Try to extract Fair Value (multiple patterns)
-    fv_patterns = [
-        r'Fair Value[:\s]*\$?([\d,]+(?:\.\d+)?)',
-        r'FV[:\s]*\$?([\d,]+(?:\.\d+)?)',
-        r'fair value[:\s]*\$?([\d,]+(?:\.\d+)?)',
-        r'Fair Value[:\s]*EUR?\s*([\d,]+(?:\.\d+)?)',
-        r'FV[:\s]*EUR?\s*([\d,]+(?:\.\d+)?)',
-        r'\*\*Weighted Average\*\*[^\d]*([\d,]+(?:\.\d+)?)',
-        r'Expected Value[:\s]*EUR?\s*([\d,]+(?:\.\d+)?)',
-        r'REVISED FAIR VALUE[^:]*:\s*EUR?\s*([\d,-]+)',
-    ]
-
-    for pattern in fv_patterns:
-        match = re.search(pattern, content, re.IGNORECASE)
-        if match:
-            fv_str = match.group(1).replace(',', '').split('-')[0]  # Handle ranges
-            try:
-                result['fair_value'] = float(fv_str)
-                # Detect currency from context
-                if 'EUR' in content[:match.start()+100] or '.PA' in ticker or '.DE' in ticker or '.MI' in ticker or '.AS' in ticker:
-                    result['fv_currency'] = 'EUR'
-                elif 'GBp' in content or 'GBX' in content or '.L' in ticker:
-                    result['fv_currency'] = 'GBp'
-                else:
-                    result['fv_currency'] = 'USD'
-                break
-            except ValueError:
-                continue
+    # Use canonical FV extractor from thesis_parser
+    fv, fv_currency = _tp_extract_fv(content, ticker, 'USD')
+    if fv is not None:
+        result['fair_value'] = fv
+        result['fv_currency'] = fv_currency
 
     # Try to extract Margin of Safety
     mos_patterns = [
@@ -861,6 +840,83 @@ def print_recommendations(recommendations: List[str]):
 # Main
 # ==============================================================================
 
+def load_baskets():
+    """Load thematic baskets for basket-level effectiveness tracking."""
+    path = os.path.join(BASE_DIR, 'state', 'thematic_baskets.yaml')
+    try:
+        with open(path) as f:
+            return yaml.safe_load(f)
+    except Exception:
+        return None
+
+
+def print_basket_effectiveness(active, closed, baskets_data):
+    """Print effectiveness metrics broken down by thematic basket."""
+    if not baskets_data:
+        return
+    baskets = baskets_data.get('baskets', [])
+    if not baskets:
+        return
+
+    print()
+    print("=" * 80)
+    print("BASKET EFFECTIVENESS")
+    print("=" * 80)
+
+    # Build ticker -> basket map
+    ticker_basket = {}
+    for b in baskets:
+        for tk in b.get('positions', []):
+            ticker_basket[tk] = b.get('name', b.get('id', '?'))
+
+    # Active positions by basket
+    basket_active = {}
+    for p in active:
+        tk = p.get('ticker', '')
+        bname = ticker_basket.get(tk, 'Unassigned')
+        basket_active.setdefault(bname, []).append(p)
+
+    # Closed positions by basket (approximate — match ticker)
+    basket_closed = {}
+    for c in closed:
+        tk = c.get('ticker', '')
+        bname = ticker_basket.get(tk, 'Unassigned')
+        basket_closed.setdefault(bname, []).append(c)
+
+    print(f"\n{'Basket':<25} {'Active':>6} {'Closed':>6} {'Avg P&L%':>8} {'Win Rate':>8}")
+    print("-" * 60)
+
+    for b in baskets:
+        bname = b.get('name', b.get('id', '?'))
+        a_list = basket_active.get(bname, [])
+        c_list = basket_closed.get(bname, [])
+
+        # Avg unrealized P&L for active
+        active_pnls = [p.get('pnl_pct', 0) for p in a_list if p.get('pnl_pct') is not None]
+        avg_pnl = sum(active_pnls) / len(active_pnls) if active_pnls else 0
+
+        # Win rate from closed
+        if c_list:
+            wins = sum(1 for c in c_list if c.get('pnl_pct', 0) > 0)
+            wr = f"{wins}/{len(c_list)}"
+        else:
+            wr = '-'
+
+        print(f"{bname:<25} {len(a_list):>6} {len(c_list):>6} {avg_pnl:>+7.1f}% {wr:>8}")
+
+    # Unassigned
+    ua = basket_active.get('Unassigned', [])
+    uc = basket_closed.get('Unassigned', [])
+    if ua or uc:
+        active_pnls = [p.get('pnl_pct', 0) for p in ua if p.get('pnl_pct') is not None]
+        avg_pnl = sum(active_pnls) / len(active_pnls) if active_pnls else 0
+        wins = sum(1 for c in uc if c.get('pnl_pct', 0) > 0) if uc else 0
+        wr = f"{wins}/{len(uc)}" if uc else '-'
+        print(f"{'Unassigned':<25} {len(ua):>6} {len(uc):>6} {avg_pnl:>+7.1f}% {wr:>8}")
+
+    print()
+
+
 def main():
     parser = argparse.ArgumentParser(description='Investment Effectiveness Tracker')
     parser.add_argument('--summary', action='store_true', help='Summary metrics only')
@@ -868,11 +924,12 @@ def main():
     parser.add_argument('--attribution', action='store_true', help='Attribution analysis')
     parser.add_argument('--retrospective', action='store_true', help='Thesis accuracy review')
     parser.add_argument('--recommendations', action='store_true', help='Improvement recommendations')
+    parser.add_argument('--baskets', action='store_true', help='Basket-level effectiveness breakdown')
     args = parser.parse_args()
 
     # Default: show all if no specific flag
     show_all = not any([args.summary, args.positions, args.attribution,
-                        args.retrospective, args.recommendations])
+                        args.retrospective, args.recommendations, args.baskets])
 
     print("Loading portfolio data...")
     portfolio = load_portfolio()
@@ -920,6 +977,13 @@ def main():
 
     if show_all or args.recommendations:
         print_recommendations(recommendations)
+
+    if args.baskets:
+        baskets_data = load_baskets()
+        if baskets_data:
+            print_basket_effectiveness(active, closed, baskets_data)
+        else:
+            print("\n  [Baskets: state/thematic_baskets.yaml not found]")
 
     print("=" * 80)
     print(f"Report generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")

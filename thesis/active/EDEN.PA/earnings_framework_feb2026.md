@@ -20,8 +20,19 @@
 | Precio vs 52w low | +6.7% (low: 16.96) |
 | P/E current | 8.7x (depressed) |
 | Dividend Yield | 6.8% |
+| **SHORT INTEREST** | **19.3% (27 funds)** — ESCALATED from 13.51% baseline |
 
 **Change since Feb 5:** Price +2.0% (EUR 17.73→18.09). MoS compressed slightly (39.2%→37.6%).
+
+**CRITICAL UPDATE (S113 OSINT, 2026-02-23):**
+- SI is 19.3% across 27 funds (NOT 13.51% / 11 funds as previously tracked). MASSIVE discrepancy.
+- Millennium International INCREASED to 1.90% on Feb 19 (4 days before earnings). Voleon NEW 0.50% same day.
+- Combined Millennium group: ~2.61% (two entities). CPP still at 2.60%.
+- Three major LONGS: Baillie Gifford 5.41%, Pale Fire Capital 5.14%, Harris/Oakmark 5.06% = 15.6% floor.
+- UBS DOWNGRADED Buy→Neutral, PT EUR 42→19 (below current price).
+- Brazil injunction STILL ACTIVE. No appeal confirmed filed. Definitive ruling late 2026/early 2027.
+- Q3 was STRONG: revenue +8.2% LfL, Europe accelerating.
+- **Asymmetry amplified:** 19.3% SI means shorts amplify BOTH directions. Bull = covering rally 15-25%. Bear = shorts add, price overshoots down.
 
 ---
 
@@ -155,6 +166,29 @@ EARNINGS RELEASE (Feb 24)
 +-> ANY KILL CONDITION TRIGGERED?
     --> SELL (exit completo)
 ```
+
+---
+
+## 5b. SHORT ESCALATION CONTEXT (Added 2026-02-22)
+
+**EDEN.PA has the HIGHEST short interest in our portfolio: 11.41% (10 funds).**
+
+| Fund | SI % | Trend |
+|------|------|-------|
+| CPP Investment Board | 2.60% | Largest single short |
+| Millennium Management | 1.90% | Major hedge fund |
+| Other 8 funds | ~6.91% combined | |
+| **TOTAL** | **~11.41%** | **Escalating** |
+
+**What this means for earnings dynamics:**
+1. **If BAD earnings:** No short squeeze relief. Shorts will likely INCREASE positions. Price could drop sharply to EUR 16-17 (near 52wL EUR 16.96). The 10 funds betting against EDEN already expect bad Italy/Brazil numbers — they will ADD on confirmation.
+2. **If GOOD earnings (bull scenario):** Potential SHORT COVERING RALLY. 11.41% SI = ~28M shares short. If 2027-28 guidance confirmed + Italy contained, shorts covering could drive 10-20% pop in days. This is the asymmetric upside case.
+3. **If BASE earnings:** Shorts likely hold positions. Sideways price action. No covering catalyst.
+
+**Implication for our decision tree:**
+- BEAR: Exit FASTER. With 10 funds short, any weakness will be amplified. Don't wait for "another data point."
+- BULL: Don't chase the covering rally. Validate fundamentals FIRST. Short covering rallies reverse if fundamentals don't improve.
+- BASE: No change to original decision tree.
 
 ---
 
