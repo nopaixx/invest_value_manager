@@ -16,10 +16,21 @@ Usage:
 """
 
 import sys
+import math
 import argparse
 import yfinance as yf
 import warnings
 warnings.filterwarnings('ignore')
+
+
+def _is_valid_number(val):
+    """Return True if val is a finite number (not None, not NaN, not inf)."""
+    if val is None:
+        return False
+    if isinstance(val, (int, float)):
+        return math.isfinite(val)
+    return False
+
 
 # Gross Margin medians by sector (for relative comparison)
 SECTOR_GM_MEDIANS = {
@@ -107,7 +118,7 @@ def _extract_returns(t, info, profile):
             for i in range(min(4, len(financials.columns))):
                 try:
                     ebit = financials.loc['EBIT'].iloc[i] if 'EBIT' in financials.index else None
-                    if ebit is None:
+                    if not _is_valid_number(ebit):
                         continue
 
                     # Tax rate: try to calculate from actual taxes
@@ -115,7 +126,7 @@ def _extract_returns(t, info, profile):
                     if 'Tax Provision' in financials.index and 'Pretax Income' in financials.index:
                         tax_prov = financials.loc['Tax Provision'].iloc[i]
                         pretax = financials.loc['Pretax Income'].iloc[i]
-                        if pretax and pretax > 0 and tax_prov is not None:
+                        if _is_valid_number(pretax) and pretax > 0 and _is_valid_number(tax_prov):
                             effective_rate = tax_prov / pretax
                             if 0 < effective_rate < 0.50:
                                 tax_rate = effective_rate
@@ -127,11 +138,16 @@ def _extract_returns(t, info, profile):
                     cash_eq = 0
                     for cash_key in ['Cash And Cash Equivalents', 'Cash Cash Equivalents And Short Term Investments']:
                         if cash_key in balance.index:
-                            cash_eq = balance.loc[cash_key].iloc[i] or 0
+                            val = balance.loc[cash_key].iloc[i]
+                            cash_eq = val if _is_valid_number(val) else 0
                             break
 
-                    if total_assets and total_assets > 0:
-                        invested_capital = total_assets - (current_liab or 0) - (cash_eq or 0)
+                    # Sanitize: treat NaN as 0 for current_liab
+                    if not _is_valid_number(current_liab):
+                        current_liab = 0
+
+                    if _is_valid_number(total_assets) and total_assets > 0:
+                        invested_capital = total_assets - current_liab - cash_eq
                         if invested_capital > 0:
                             roic = nopat / invested_capital
                             year_label = str(financials.columns[i].year) if hasattr(financials.columns[i], 'year') else f"Y-{i}"
@@ -140,6 +156,9 @@ def _extract_returns(t, info, profile):
                     continue
     except Exception:
         pass
+
+    # Filter out any NaN that may have slipped through
+    roic_trajectory = [(y, r) for y, r in roic_trajectory if _is_valid_number(r)]
 
     profile['roic_trajectory'] = roic_trajectory
     profile['roic_current'] = roic_trajectory[0][1] if roic_trajectory else None
@@ -154,7 +173,7 @@ def _extract_returns(t, info, profile):
                 try:
                     net_income = financials.loc['Net Income'].iloc[i] if 'Net Income' in financials.index else None
                     equity = balance.loc['Stockholders Equity'].iloc[i] if 'Stockholders Equity' in balance.index else None
-                    if net_income and equity and equity > 0:
+                    if _is_valid_number(net_income) and _is_valid_number(equity) and equity > 0:
                         year_label = str(financials.columns[i].year) if hasattr(financials.columns[i], 'year') else f"Y-{i}"
                         roe_trajectory.append((year_label, net_income / equity))
                 except Exception:
@@ -180,7 +199,8 @@ def _extract_wacc(t, info, profile):
     try:
         financials = t.financials
         if not financials.empty and 'Interest Expense' in financials.index:
-            interest = abs(financials.loc['Interest Expense'].iloc[0] or 0)
+            raw_interest = financials.loc['Interest Expense'].iloc[0]
+            interest = abs(raw_interest) if _is_valid_number(raw_interest) else 0
             if total_debt > 0 and interest > 0:
                 cost_of_debt = interest / total_debt
                 # Sanity check: cost of debt should be 1-15%
@@ -202,7 +222,7 @@ def _extract_wacc(t, info, profile):
             if 'Tax Provision' in financials.index and 'Pretax Income' in financials.index:
                 tax_prov = financials.loc['Tax Provision'].iloc[0]
                 pretax = financials.loc['Pretax Income'].iloc[0]
-                if pretax and pretax > 0 and tax_prov is not None:
+                if _is_valid_number(pretax) and pretax > 0 and _is_valid_number(tax_prov):
                     effective_rate = tax_prov / pretax
                     if 0 < effective_rate < 0.50:
                         tax_rate = effective_rate
@@ -236,7 +256,7 @@ def _extract_wacc(t, info, profile):
 
     # ROIC-WACC spread
     roic = profile.get('roic_current')
-    if roic is not None:
+    if _is_valid_number(roic):
         profile['roic_wacc_spread'] = roic - wacc
     else:
         profile['roic_wacc_spread'] = None
@@ -260,14 +280,14 @@ def _extract_margins(t, info, profile):
                     year_label = str(financials.columns[i].year) if hasattr(financials.columns[i], 'year') else f"Y-{i}"
                     rev = financials.loc['Total Revenue'].iloc[i] if 'Total Revenue' in financials.index else None
 
-                    if 'Gross Profit' in financials.index and rev and rev > 0:
+                    if 'Gross Profit' in financials.index and _is_valid_number(rev) and rev > 0:
                         gp = financials.loc['Gross Profit'].iloc[i]
-                        if gp is not None:
+                        if _is_valid_number(gp):
                             gm_trajectory.append((year_label, gp / rev))
 
-                    if 'Operating Income' in financials.index and rev and rev > 0:
+                    if 'Operating Income' in financials.index and _is_valid_number(rev) and rev > 0:
                         oi = financials.loc['Operating Income'].iloc[i]
-                        if oi is not None:
+                        if _is_valid_number(oi):
                             op_margin_trajectory.append((year_label, oi / rev))
                 except Exception:
                     continue
@@ -277,13 +297,13 @@ def _extract_margins(t, info, profile):
                 try:
                     year_label = str(cf.columns[i].year) if hasattr(cf.columns[i], 'year') else f"Y-{i}"
                     fcf = cf.loc['Free Cash Flow'].iloc[i]
-                    if fcf is not None:
+                    if _is_valid_number(fcf):
                         fcf_trajectory.append((year_label, fcf))
 
                         # FCF margin
                         if not financials.empty and 'Total Revenue' in financials.index and i < len(financials.columns):
                             rev = financials.loc['Total Revenue'].iloc[i]
-                            if rev and rev > 0:
+                            if _is_valid_number(rev) and rev > 0:
                                 fcf_margin_trajectory.append((year_label, fcf / rev))
                 except Exception:
                     continue
@@ -316,7 +336,7 @@ def _extract_margins(t, info, profile):
 
 
     # FCF consistency
-    positive_fcf_years = sum(1 for _, fcf in fcf_trajectory if fcf and fcf > 0)
+    positive_fcf_years = sum(1 for _, fcf in fcf_trajectory if _is_valid_number(fcf) and fcf > 0)
     profile['fcf_positive_years'] = positive_fcf_years
     profile['fcf_total_years'] = len(fcf_trajectory)
 
@@ -324,7 +344,7 @@ def _extract_margins(t, info, profile):
     sector = info.get('sector', 'Unknown')
     sector_median = SECTOR_GM_MEDIANS.get(sector, 0.35)
     profile['sector_gm_median'] = sector_median
-    if profile['gm_current'] is not None:
+    if _is_valid_number(profile['gm_current']):
         profile['gm_premium'] = profile['gm_current'] - sector_median
     else:
         profile['gm_premium'] = None
@@ -372,8 +392,9 @@ def _extract_leverage(t, info, profile):
         financials = t.financials
         if not financials.empty and 'EBIT' in financials.index and 'Interest Expense' in financials.index:
             ebit = financials.loc['EBIT'].iloc[0]
-            interest = abs(financials.loc['Interest Expense'].iloc[0] or 0)
-            if interest > 0 and ebit:
+            raw_interest = financials.loc['Interest Expense'].iloc[0]
+            interest = abs(raw_interest) if _is_valid_number(raw_interest) else 0
+            if interest > 0 and _is_valid_number(ebit):
                 profile['interest_coverage'] = ebit / interest
             else:
                 profile['interest_coverage'] = None
@@ -397,7 +418,7 @@ def _extract_growth(t, info, profile):
                     try:
                         year_label = str(financials.columns[i].year) if hasattr(financials.columns[i], 'year') else f"Y-{i}"
                         rev = financials.loc['Total Revenue'].iloc[i]
-                        if rev is not None and rev > 0:
+                        if _is_valid_number(rev) and rev > 0:
                             rev_trajectory.append((year_label, rev))
                     except Exception:
                         continue
@@ -408,7 +429,7 @@ def _extract_growth(t, info, profile):
                     try:
                         year_label = str(financials.columns[i].year) if hasattr(financials.columns[i], 'year') else f"Y-{i}"
                         eps = financials.loc[eps_key].iloc[i]
-                        if eps is not None:
+                        if _is_valid_number(eps):
                             eps_trajectory.append((year_label, eps))
                     except Exception:
                         continue
@@ -434,7 +455,7 @@ def _extract_growth(t, info, profile):
         eps_now = eps_trajectory[0][1]
         eps_old = eps_trajectory[-1][1]
         years = len(eps_trajectory) - 1
-        if eps_old and eps_old > 0 and eps_now and eps_now > 0:
+        if _is_valid_number(eps_old) and eps_old > 0 and _is_valid_number(eps_now) and eps_now > 0:
             profile['eps_cagr'] = (eps_now / eps_old) ** (1 / years) - 1
         else:
             profile['eps_cagr'] = None
@@ -489,7 +510,7 @@ def calculate_legacy_score(profile):
 
     # ROIC Spread (15 pts max)
     spread = profile.get('roic_wacc_spread')
-    if spread is not None:
+    if _is_valid_number(spread):
         spread_pp = spread * 100
         if spread_pp > 15: s = 15
         elif spread_pp > 10: s = 12
@@ -510,7 +531,7 @@ def calculate_legacy_score(profile):
         op_traj = profile.get('op_margin_trajectory', [])
         if op_traj:
             op_m = op_traj[0][1]  # latest operating margin
-            if op_m is not None:
+            if _is_valid_number(op_m):
                 if op_m > 0.20: s = 8  # Cap at 8 (not 10) since it's a proxy
                 elif op_m > 0.15: s = 6
                 elif op_m > 0.10: s = 4
@@ -522,7 +543,7 @@ def calculate_legacy_score(profile):
                 scores['fcf_margin'] = 0
         else:
             scores['fcf_margin'] = 0
-    elif fcf_m is not None:
+    elif _is_valid_number(fcf_m):
         if fcf_m > 0.20: s = 10
         elif fcf_m > 0.15: s = 8
         elif fcf_m > 0.10: s = 5
@@ -535,7 +556,7 @@ def calculate_legacy_score(profile):
 
     # Leverage (10 pts max)
     lev = profile.get('net_debt_ebitda')
-    if lev is not None:
+    if _is_valid_number(lev):
         if lev <= 0: s = 10  # net cash
         elif lev < 1: s = 10
         elif lev < 2: s = 8
@@ -564,7 +585,7 @@ def calculate_legacy_score(profile):
 
     # Revenue CAGR (10 pts max)
     rc = profile.get('rev_cagr')
-    if rc is not None:
+    if _is_valid_number(rc):
         if rc > 0.15: s = 10
         elif rc > 0.10: s = 8
         elif rc > 0.05: s = 5
@@ -577,7 +598,7 @@ def calculate_legacy_score(profile):
 
     # EPS CAGR (10 pts max)
     ec = profile.get('eps_cagr')
-    if ec is not None:
+    if _is_valid_number(ec):
         if ec > 0.15: s = 10
         elif ec > 0.10: s = 8
         elif ec > 0.05: s = 5
@@ -601,7 +622,7 @@ def calculate_legacy_score(profile):
 
     # GM Premium (10 pts max)
     gmp = profile.get('gm_premium')
-    if gmp is not None:
+    if _is_valid_number(gmp):
         if gmp > 0.10: s = 10
         elif gmp > 0.05: s = 7
         elif gmp > -0.05: s = 4
@@ -620,14 +641,16 @@ def calculate_legacy_score(profile):
 
     # ROIC Persistence (7 pts max) - from trajectory
     roic_traj = profile.get('roic_trajectory', [])
-    if len(roic_traj) >= 2:
+    # Filter to only valid numeric ROIC values for persistence scoring
+    valid_roic_traj = [(y, r) for y, r in roic_traj if _is_valid_number(r)]
+    if len(valid_roic_traj) >= 2:
         wacc = profile.get('wacc', 0.09)
-        above_wacc_count = sum(1 for _, r in roic_traj if r > wacc)
-        if above_wacc_count == len(roic_traj): s = 7
-        elif above_wacc_count >= len(roic_traj) * 0.5: s = 5
+        above_wacc_count = sum(1 for _, r in valid_roic_traj if r > wacc)
+        if above_wacc_count == len(valid_roic_traj): s = 7
+        elif above_wacc_count >= len(valid_roic_traj) * 0.5: s = 5
         else: s = 2
         scores['roic_persistence'] = s
-    elif profile.get('roic_current') is not None:
+    elif _is_valid_number(profile.get('roic_current')):
         roic = profile['roic_current']
         wacc = profile.get('wacc', 0.09)
         if roic > wacc * 1.5: s = 7
@@ -692,7 +715,7 @@ def calculate_legacy_score(profile):
 
 def fmt_pct(val, show_sign=False):
     """Format a decimal as percentage string."""
-    if val is None:
+    if not _is_valid_number(val):
         return 'N/A'
     prefix = '+' if show_sign and val > 0 else ''
     return f"{prefix}{val*100:.1f}%"
@@ -700,7 +723,7 @@ def fmt_pct(val, show_sign=False):
 
 def fmt_money(val, currency=''):
     """Format large numbers as B/M."""
-    if val is None or val == 0:
+    if not _is_valid_number(val) or val == 0:
         return 'N/A'
     if abs(val) >= 1e9:
         return f"{val/1e9:.1f}B {currency}".strip()
@@ -760,7 +783,7 @@ def print_profile(profile, show_legacy=True, show_detail=False):
         print(f"  WACC:             {fmt_pct(wacc)} (Ke={fmt_pct(wc['cost_of_equity'])}, "
               f"Kd={fmt_pct(wc['cost_of_debt'])}, beta={wc['beta']:.2f}, "
               f"tax={wc['tax_source']})")
-    if spread is not None:
+    if _is_valid_number(spread):
         print(f"  ROIC-WACC spread: {spread*100:+.1f}pp")
 
     # --- MARGINS ---
@@ -772,7 +795,7 @@ def print_profile(profile, show_legacy=True, show_detail=False):
     if gm_traj:
         traj_str = '  '.join(f"{yr}: {fmt_pct(v)}" for yr, v in reversed(gm_traj))
         print(f"  Gross margin:     {traj_str}  [{profile.get('gm_trend', 'N/A')}]")
-        if profile.get('gm_premium') is not None:
+        if _is_valid_number(profile.get('gm_premium')):
             print(f"  vs sector median: {profile['gm_premium']*100:+.1f}pp (sector={fmt_pct(profile['sector_gm_median'])})")
     elif profile.get('gm_current') is not None:
         print(f"  Gross margin:     {fmt_pct(profile['gm_current'])}")
@@ -801,14 +824,14 @@ def print_profile(profile, show_legacy=True, show_detail=False):
     print(f"{'─'*70}")
 
     lev = profile.get('net_debt_ebitda')
-    if lev is not None:
+    if _is_valid_number(lev):
         status = "Net Cash" if lev <= 0 else f"{lev:.1f}x"
         print(f"  Net Debt/EBITDA:  {status}")
     print(f"  Total debt:       {fmt_money(profile.get('total_debt', 0))}")
     print(f"  Cash:             {fmt_money(profile.get('total_cash', 0))}")
     print(f"  Net debt:         {fmt_money(profile.get('net_debt', 0))}")
     ic = profile.get('interest_coverage')
-    if ic is not None:
+    if _is_valid_number(ic):
         print(f"  Interest cover:   {ic:.1f}x")
 
     # --- GROWTH ---
@@ -821,7 +844,7 @@ def print_profile(profile, show_legacy=True, show_detail=False):
         traj_str = '  '.join(f"{yr}: {fmt_money(v)}" for yr, v in reversed(rev_traj))
         print(f"  Revenue:          {traj_str}")
     rc = profile.get('rev_cagr')
-    if rc is not None:
+    if _is_valid_number(rc):
         print(f"  Revenue CAGR:     {fmt_pct(rc, show_sign=True)}")
 
     eps_traj = profile.get('eps_trajectory', [])
@@ -829,7 +852,7 @@ def print_profile(profile, show_legacy=True, show_detail=False):
         traj_str = '  '.join(f"{yr}: {v:.2f}" for yr, v in reversed(eps_traj))
         print(f"  EPS:              {traj_str}")
     ec = profile.get('eps_cagr')
-    if ec is not None:
+    if _is_valid_number(ec):
         print(f"  EPS CAGR:         {fmt_pct(ec, show_sign=True)}")
 
     # --- CAPITAL ALLOCATION ---
@@ -919,16 +942,16 @@ def main():
         print(f"{'-'*95}")
 
         for profile, legacy in results:
-            roic_str = fmt_pct(profile.get('roic_current')) if profile.get('roic_current') is not None else 'N/A'
-            wacc_str = fmt_pct(profile.get('wacc')) if profile.get('wacc') is not None else 'N/A'
+            roic_str = fmt_pct(profile.get('roic_current')) if _is_valid_number(profile.get('roic_current')) else 'N/A'
+            wacc_str = fmt_pct(profile.get('wacc')) if _is_valid_number(profile.get('wacc')) else 'N/A'
             spread = profile.get('roic_wacc_spread')
-            spread_str = f"{spread*100:+.1f}" if spread is not None else 'N/A'
-            fcf_str = fmt_pct(profile.get('fcf_current_margin')) if profile.get('fcf_current_margin') is not None else 'N/A'
+            spread_str = f"{spread*100:+.1f}" if _is_valid_number(spread) else 'N/A'
+            fcf_str = fmt_pct(profile.get('fcf_current_margin')) if _is_valid_number(profile.get('fcf_current_margin')) else 'N/A'
             lev = profile.get('net_debt_ebitda')
-            lev_str = f"{lev:.1f}x" if lev is not None else 'N/A'
+            lev_str = f"{lev:.1f}x" if _is_valid_number(lev) else 'N/A'
             rc = profile.get('rev_cagr')
-            rc_str = fmt_pct(rc, show_sign=True) if rc is not None else 'N/A'
-            gm_str = fmt_pct(profile.get('gm_current')) if profile.get('gm_current') is not None else 'N/A'
+            rc_str = fmt_pct(rc, show_sign=True) if _is_valid_number(rc) else 'N/A'
+            gm_str = fmt_pct(profile.get('gm_current')) if _is_valid_number(profile.get('gm_current')) else 'N/A'
 
             print(f"{profile['ticker']:<10} {profile['sector'][:22]:<22} {roic_str:>6} {wacc_str:>6} {spread_str:>7} {fcf_str:>6} {lev_str:>5} {rc_str:>8} {gm_str:>6} {legacy['total']:>5}/100 {legacy['tier']:>5}")
 

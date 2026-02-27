@@ -206,7 +206,10 @@ def _is_actionable_entry(c, distance_threshold=15.0):
     dist = c.get("distance_to_entry")
     if dist is None:
         return False
-    return dist <= distance_threshold
+    try:
+        return float(dist) <= distance_threshold
+    except (ValueError, TypeError):
+        return False
 
 
 # ---------------------------------------------------------------------------

@@ -269,10 +269,58 @@ sizing_decisions:
       PRECEDENT: When cash >50% AND price is below DA bear case → deploy.
     outcome: "Pendiente. Q4 FY2026 earnings ~May 2026. Monitor SBC trajectory."
 
+  - date: 2026-02-27
+    ticker: IHP.L
+    action: ADD
+    sizing: "1.9% → 3.9% (+EUR 200)"
+    context:
+      quality_score: 80
+      tier: A
+      mos: "17.9% at 320p vs 390p FV"
+      ecagr: "22.6%"
+      price_vs_52w: "320p vs 263 low, 398 high"
+      conviction: "Medium"
+      macro: "Fair-Value regime"
+    reasoning: |
+      SIXTH E[CAGR]-framework deployment.
+      Position at 1.9% was absurdly undersized for a QS 80 Tier A with 22.6% E[CAGR].
+      Original 2% sizing cap (5th UK position) was conservative constraint from initial buy.
+      P1 reasoning: 3.9% position dropping 50% = -2.0% portfolio = coherent with conviction.
+      UK concentration: 5 positions ~19% total but ALL uncorrelated sectors (adviser platform,
+      pizza, auto marketplace, insurance comparison, tech reseller). No single UK sector >4%.
+      Price 320p = essentially same as original buy 326p. If good then, good now.
+      Cash 41% → 39.3%. 0 buyable-now candidates at market — ADD to existing quality.
+      PRECEDENT: Extends E[CAGR]-framework deployment to ADDs (previously only new buys).
+    outcome: "Pendiente. H1 FY2026 results ~June 2026. Monitor ops leverage."
+
 # =============================================================================
 # DECISIONES DE TRIM/SELL
 # =============================================================================
 trim_decisions:
+
+  - date: 2026-02-26
+    ticker: DTE.DE
+    action: "TRIM (partial exit - rotation from low E[CAGR])"
+    context:
+      quality_score: 69
+      tier: B
+      position_size: "6.8% → 3.5%"
+      mos: "4%"
+      pnl: "+17.3%"
+      ecagr: "6.0%"
+      destination: "Cash for pipeline (DNLM.L 3.7%, FTNT 5.6%, RACE.MI 7.6% from entry)"
+    reasoning: |
+      DTE.DE FY2025 results MEET-to-SOFT MISS. EBITDA AL EUR 44.2B (+4.7%),
+      FCF EUR 19.5B (+2.0%), EPS EUR 2.00. FY2026 guide: EBITDA EUR 47.4B (+7.2%),
+      EPS EUR 2.20. Guide above KILL (EUR 2.00) but below BEAT (EUR 2.30).
+      E[CAGR] 6.0% = second worst in portfolio (barely above cash).
+      MoS 4% = fully valued at EUR 33.66 vs FV EUR 35.
+      Rotation OS 2.5x vs HLNE pipeline. +17.3% gain = successful investment.
+      TRIM 10 of 20.6 shares. Remaining 10.6 maintains TMUS growth exposure.
+      Principio 16 (Perpetual Rotation): worst → best. DTE.DE is capital better deployed.
+      Principio 14 (Capital Ocioso): freed EUR 337 for higher-E[CAGR] deployment.
+      Conviction MEDIUM→LOW.
+    outcome: "Realized +EUR 67.80 (+25.2% per share). Cash EUR 5,092."
 
   - date: 2026-02-06
     ticker: TEP.PA

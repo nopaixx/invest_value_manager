@@ -9,9 +9,10 @@ El sector asegurador global se encuentra en un punto de inflexion tras dos anos 
 
 **Actualizacion Febrero 2026:** Reinsurance pricing softening CONFIRMADO. Jan 2026 renewals: property cat rates -14.7% (largest decline since 2014), retrocession -16.5%. KBW expects approaching -20%. Sin embargo, rentabilidad absoluta sigue siendo buena -- ejecutivos describen 2026 como potencialmente el "quinto mejor ano" para cat reinsurance. Las aseguradoras con disciplina de underwriting (ACGL) mantendran margenes; las indisciplinadas sufriran.
 
-**NOTA IMPORTANTE: Brokers vs Underwriters.** Este sector view cubre AMBOS sub-tipos, pero son fundamentalmente diferentes:
-- **Underwriters** (ACGL, ALL, GL): Take balance sheet risk on insurance claims. Revenue = premiums - claims. Exposed to catastrophe losses.
+**NOTA IMPORTANTE: Brokers vs Underwriters vs Fee Managers.** Este sector view cubre TRES sub-tipos fundamentalmente diferentes:
+- **Underwriters** (ACGL, GL): Take balance sheet risk on insurance claims. Revenue = premiums - claims. Exposed to catastrophe losses.
 - **Brokers** (MMC, AON, AJG): Pure intermediaries earning commissions/fees. NO claims risk. Revenue grows with premium rates AND market complexity. Higher margins, more predictable.
+- **Fee Managers** (ERIE): Manage reciprocal exchanges for a percentage management fee. NO underwriting risk. Revenue = % of premiums written. Ultra asset-light, net cash, monopoly over their exchange.
 
 La tesis sectorial es **selectiva**: en US, ACGL (specialty/reinsurance, QS 68 adj, P/E 8.6x, P/B 1.53x, ROE 17-21%) emerge como la mejor oportunidad en underwriting. MMC (#1 global broker, QS 68 adj, FV $220, entry $160) es la mejor oportunidad en broking pero needs further price decline. GL sigue en portfolio como posicion Tier C. ALL vendida 2026-02-14 (MoS insuficiente, peak cycle).
 
@@ -222,6 +223,7 @@ Las europeas (Allianz, AXA) ofrecen yield pero menor calidad de underwriting."
 | **MMC** | **Marsh McLennan** | **68 adj (B)** | **thesis/research/MMC** | **$160** | **R1 complete, WATCHLIST** |
 | **AON** | **Aon plc** | **70 adj (B)** | **thesis/research/AON** | **$300** | **R1 complete, WATCHLIST** |
 | KMPR | Kemper Corp | 42 (C) | thesis/research/KMPR | $28 | Wait for turnaround confirmation |
+| **ERIE** | **Erie Indemnity** | **77 adj (A)** | **thesis/research/ERIE** | **$180** | **R3 complete S126. STRONG COUNTER. FV $225 (-28%). SCOTUS lawsuit. Spruce Point short.** |
 
 ### Evitar
 | Ticker | Empresa | Razon |
@@ -269,6 +271,7 @@ Las europeas (Allianz, AXA) ofrecen yield pero menor calidad de underwriting."
 | Watchlist | **ACGL** | **thesis/research/ACGL** | **2026-02-12** | **Entry $92** |
 | Watchlist | **MMC** | **thesis/research/MMC** | **2026-02-13** | **Entry $160** |
 | Watchlist | KMPR | thesis/research/KMPR | 2026-02-04 | Entry $28 |
+| Watchlist | **ERIE** | **thesis/research/ERIE** | **2026-02-26** | **R3 COMPLETE. Entry $180 (was $250). SCOTUS gated. QS 77adj.** |
 
 ---
 
@@ -276,6 +279,8 @@ Las europeas (Allianz, AXA) ofrecen yield pero menor calidad de underwriting."
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-02-26 | **ERIE R3 COMPLETE — DA STRONG COUNTER** | FV $313→$225 (-28.1%). QS 85→77. Entry $250→$180. SCOTUS No. 25-834 + Spruce Point STRONG SELL + 2x fee comparable. GATED on cert disposition. |
+| 2026-02-26 | **Added ERIE R1 analysis** | QS 65/85adj Tier A, FV $313, entry $250. Fee-based management company for Erie Insurance Exchange. 45.5% insider, 0 analysts, -41% off high (one-time $100M donation + premium decel + AM Best downgrade). New sub-category: Fee Managers. |
 | 2026-02-14 | **ALL SOLD** | Tier C ON PROBATION, MoS 11.3% insufficient, peak cycle (CR 85.2%), 6/6 SELL precedent consistency. P&L +5.9%. Moved to archive. |
 | 2026-02-13 | **Added MMC R1 analysis** | QS 68 adj Tier B, FV $220, entry $160. #1 global insurance broker, WIDE moat, 27% ROE. Asset-light, no underwriting risk. Current price $183 above entry. Added broker vs underwriter distinction to sector view. |
 | 2026-02-12 | **Added ACGL R1 analysis** | QS 68 adj Tier B, FV $120, entry $92. Best-in-class specialty insurer. Updated reinsurance softening data (Jan 2026 renewals -14.7% prop cat). |

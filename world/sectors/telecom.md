@@ -165,10 +165,10 @@ El sector telecom europeo sigue siendo de los mas baratos de Europa, pero el sen
 | KPN.AS | KPN | 21.1x | 4.7% | Beat FY2025 guidance, 10% dividend hike, EUR 250M buyback. Near 52wH | Baja (near highs) |
 | BCE.TO | BCE | 5.3x | 5.0% | Canada, P/E anomalo, investigar | Baja |
 
-### YA EN PORTFOLIO
+### CERRADAS — Historial
 | Ticker | Nombre | Status | Notas |
 |--------|--------|--------|-------|
-| DTE.DE | Deutsche Telekom | POSICION ACTIVA | P/E 13.2x, yield 2.8%, TMUS CMD raised outlook massively. Earnings Feb 26. Best-in-class EU telecom |
+| DTE.DE | Deutsche Telekom | **SOLD 2026-02-26** | P16 rotation. E[CAGR] 6.7% lowest position. Entry EUR 26.88, exits EUR 33.66 (trim) + EUR 32.91 (final). Total P&L ~EUR 212 across all tranches (37.62 original shares). Best-in-class EU telecom but fully valued at FV EUR 35. |
 
 ### Evitar
 | Ticker | Nombre | Razon |
@@ -256,7 +256,9 @@ El sector telecom europeo sigue siendo de los mas baratos de Europa, pero el sen
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Portfolio | DTE.DE | thesis/active/DTE.DE/thesis.md | 2026-02-11 | HOLD. Earnings Feb 26 |
+| ~~Portfolio~~ | ~~DTE.DE~~ | ~~thesis/active/DTE.DE/thesis.md~~ | 2026-02-26 | **SOLD** — P16 rotation. E[CAGR] 6.7% lowest. P&L +22.4% final tranche. Total ~EUR 212 realized across all DTE.DE trades. |
+
+*No active portfolio positions in telecom sector as of 2026-02-26.*
 
 ---
 
@@ -266,6 +268,7 @@ El sector telecom europeo sigue siendo de los mas baratos de Europa, pero el sen
 |-------|--------|-------|
 | 2026-02-03 | Status inicial: NEUTRAL | Sector barato pero con razones estructurales. Selectivo en names con catalizadores. |
 | 2026-02-20 | Update MATERIAL: Q4 earnings results + regulatory + catalysts | TMUS CMD beat masivo (EBITDA +10%, $14.6B buyback). Orange FY2025 beat (EBITDA +3.8%, Africa +13.9%, MASORANGE 100%). KPN beat guidance, 10% div hike. EU Digital Networks Act proposed (indefinite spectrum, pan-EU passport). DTE.DE earnings Feb 26 preview added. Comparativa valuacion actualizada. Sector sentiment improving from IGNORADO to RECONOCIDO. Status: NEUTRAL maintained -- catalizadores ejecutandose pero multiples near 52wH. |
+| 2026-02-26 | DTE.DE FULLY EXITED | P16 rotation. E[CAGR] 6.7% lowest position in portfolio. FY2025 earnings MEET-to-SOFT MISS. Total P&L ~EUR 212 across all tranches. No active positions in telecom. Moved from "YA EN PORTFOLIO" to "CERRADAS". Thesis archived. |
 
 ---
 

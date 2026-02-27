@@ -348,8 +348,8 @@ My valuation relies on P/E multiples and EV/EBIT -- more appropriate for a platf
 
 ```
 Price: 315p
-FV: 415p
-MoS: (415-315)/415 = 24.1%
+FV: 390p (post-DA R3 adjustment, was 415p R1)
+MoS: (390-315)/390 = 19.2%
 ```
 
 ---

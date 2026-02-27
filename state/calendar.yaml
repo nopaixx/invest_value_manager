@@ -1,40 +1,30 @@
 # CALENDAR - Active and Future Events
 # Past events archived in state/calendar_archive.yaml
-# Updated: 2026-02-25 (S118)
+# Updated: 2026-02-26 (S123)
 
 events:
-  # COMPLETED (archive next cleanup):
-  # LYV Q4: COMPLETED Feb 19. STRONG BEAT. Short PAUSED.
-  # MONC.MI FY2025: COMPLETED Feb 19. R3 COMPLETE. R4 gated Q1 2026.
-  # AGN.NV FY2025: COMPLETED Feb 19. Operating result +15%. Not at entry.
-  # MONY.L FY2025: COMPLETED Feb 23. Rev GBP 446.3M (+2%), EBITDA GBP 145.1M record. All KCs clear. Probation easing.
-  # ENEL.MI CMD: COMPLETED Feb 23. No actionable.
-  # EDEN.PA FY2025: COMPLETED Feb 24. EBITDA EUR 1,360M (+11.2% LFL). MASSIVE BEAT. BASE+ confirmed. HOLD.
-  # UTG.L FY2025: COMPLETED Feb 24. Not in pipeline.
-  # WKL.AS FY2025: COMPLETED Feb 25. Rev EUR 6.1B (+7% CC), cloud +15%. Stock EUR 62.34, entry EUR 50-55 = 17-20% away. NOT actionable.
-  # BVI.PA FY2025: COMPLETED Feb 25. Rev +6.5% organic, margin 16.3% (+51bps). Strong TIC. Not at entry.
-  # NVO CagriSema: KC#1 TRIGGERED Feb 23. REDEFINE 4 FAILED non-inferiority vs Zepbound (23% vs 25.5%). FV $66→$50. HOLD confirmed.
+  # Archived S123: LYV Q4, MONC.MI FY2025, AGN.NV, MONY.L FY2025, ENEL.MI CMD, EDEN.PA FY2025, UTG.L, WKL.AS, BVI.PA, NVO CagriSema
 
   - date: 2026-02-26
     type: earnings_pipeline
     ticker: QTCOM.HE
-    event: "QTCOM.HE FY2025 Results — HARD GATE for R2"
-    priority: high
-    action: "R1 complete. QS 76 adj. FV EUR 37. CRITICAL: 2 profit warnings in 2025, Q3 EBITA margin collapsed to 10.5%. PASS: EBITA margin >=18%, revenue growth resuming, IAR synergies on track. FAIL: margin <15%, 3rd profit warning → ARCHIVE."
+    event: "QTCOM.HE FY2025 Results — PROCESSED S126"
+    priority: completed
+    action: "Stock -9.3% on results day (EUR 22.40, near 52wL EUR 21.06). Bulletin published ~1pm EET. Actual figures NOT YET CONFIRMED (web lag). Preliminary: ARCHIVE (3rd negative signal). Confirm numbers next session."
 
   - date: 2026-02-26
     type: earnings
     ticker: DTE.DE
-    event: "Deutsche Telekom FY2025"
-    priority: high
-    action: "FV EUR 35.00 (v3.1). Watch EBITDA vs EUR 48.5B, FCF vs EUR 20.1B."
+    event: "Deutsche Telekom FY2025 — PROCESSED S124"
+    priority: completed
+    action: "MEET-to-SOFT MISS. EBITDA AL EUR 44.2B (+4.7%), EPS EUR 2.00, FY2026 guide EUR 2.20/EBITDA EUR 47.4B. TRIMMED 10 shares at EUR 33.66 (+17.3%). Conviction LOW. FV EUR 35 confirmed."
 
   - date: 2026-02-26
     type: earnings_pipeline
     ticker: INTU
-    event: "INTU Q2 FY2026 earnings (after close)"
-    priority: high
-    action: "Pipeline candidate. QS 75. FV $465, entry $330-365. R1 complete. Framework ready."
+    event: "INTU Q2 FY2026 earnings (after close) — MONITORING ONLY"
+    priority: medium
+    action: "R3 COMPLETE. DA STRONG COUNTER. FV revised $465→$395. Entry $290-300. Current $381 = 31.5% above entry. NOT a deployment candidate. Monitor for thesis validation only."
 
   - date: 2026-02-26
     type: earnings
@@ -43,12 +33,12 @@ events:
     priority: high
     action: "Si precio cae a 34.50-35.50 - BUY."
 
-  - date: 2026-02-27
+  - date: 2026-03-13
     type: earnings_pipeline
     ticker: MEGP.L
-    event: "MEGP.L FY2025 Annual Results — HARD GATE for R4"
+    event: "MEGP.L FY2025 Annual Results — DELAYED from Feb 27. Auditor needs time. Shares SUSPENDED from Mar 2."
     priority: high
-    action: "R4 APPROVED CONDITIONAL. Entry 130p (MoS 38.5%). FV 180p. PASS criteria: laundry net installs >=1000, PBT >=GBP 75M, receivables benign, no German regulation surprise, FY2026 guidance >=3% profit growth. If PASS → standing order 130p. If FAIL → archive. Framework: thesis/research/MEGP.L/earnings_framework_feb27.md"
+    action: "ARCHIVED — NOT ON ETORO. R4 APPROVED CONDITIONAL. Entry 130p (MoS 38.5%). FV 180p. PASS criteria: laundry net installs >=1000, PBT >=GBP 75M, receivables benign, no German regulation surprise, FY2026 guidance >=3% profit growth. If PASS → standing order 130p. If FAIL → archive. Framework: thesis/research/MEGP.L/earnings_framework_feb27.md"
 
   - date: 2026-02-27
     type: earnings

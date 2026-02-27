@@ -7,23 +7,12 @@
 # =============================================================================
 
 cash:
-  amount: 4755  # Updated 2026-02-25. Post-HLNE+DOCS market buys (-EUR 800).
+  amount: 4042  # Updated 2026-02-27. Post-IHP.L ADD EUR 200. Previous: 4242.
   currency: EUR
 
 positions:
   # DATOS SINCRONIZADOS CON eToro 2026-02-02
-  - ticker: DTE.DE
-    name: "Deutsche Telekom AG"
-    shares: 20.624621  # Trimmed from 23.62 on 2026-02-04
-    invested_usd: 699.56  # Prorated: 801.26 * (20.62/23.62)
-    avg_cost_usd: 33.91  # USD at purchase FX rate
-    avg_cost_eur: 26.880  # REAL entry price in EUR (from eToro, confirmed 2026-02-23)
-    date_opened: 2026-01-26
-    thesis: thesis/active/DTE.DE/thesis.md
-    conviction: medium
-    fair_value: "EUR 35.00 (v3.1 post-TMUS Q4 beat. QS Tool 61, Adj 69 Tier B. Was 48 Tier C.)"
-    last_review: 2026-02-11
-    exit_plan: "HOLD through Feb 26 DTE earnings. TRIM >EUR 34. ADD <EUR 28. SELL if div cut or FY2026 EPS guide <EUR 2.00."
+  # DTE.DE REMOVED 2026-02-26 - SOLD remaining 10.624621 shares at EUR 32.91. P16 rotation. E[CAGR] 6.7% lowest productive position. Total P&L across all DTE.DE trades: +22.4% on final tranche. Cash earmarked for FTNT/DNLM.L/RACE.MI SOs.
 
   # ALL REMOVED 2026-02-14 - SOLD. Tier C ON PROBATION, MoS insufficient (11.3% vs 30% required), peak cycle, 6/6 SELL precedent consistency. P&L +5.9%.
 
@@ -79,15 +68,16 @@ positions:
 
   - ticker: ADBE
     name: "Adobe Inc."
-    shares: 2
-    invested_usd: 541.20
-    avg_cost_usd: 271.60  # Corrected from eToro (was 270.60)
+    shares: 3.83  # 2 original + 1.83 ADD S126. Confirm exact shares from eToro.
+    invested_usd: 1013.92  # $541.20 + $472.72 (EUR 400 * 1.1818)
+    avg_cost_usd: 264.73  # Blended: (2*271.60 + 1.83*259.04) / 3.83
     date_opened: 2026-02-04
     conviction: medium
     fair_value: "$390 (FTC-adjusted, was $394. QS Tool 76, Adj 73)"
-    exit_plan: "HOLD through trial Oct 2026. EXIT if KC#6 (FTC mandates one-click + churn >5pp). TRIM at $350 pre-trial. ADD only if <$240 (bear absorbed). No ADD until trial clarity."
+    exit_plan: "HOLD through trial Oct 2026. EXIT if KC#6 (FTC mandates one-click + churn >5pp). TRIM at $350 pre-trial. Next earnings ~Mar 2026."
     last_review: 2026-02-10
     thesis: thesis/active/ADBE/thesis.md
+    notes: "ADD EUR 400 at $259.04 S126. E[CAGR] 21.6%, MoS 50.6%. FTC trial Oct 2026 priced in. Cash deployment."
 
   - ticker: NVO
     name: "Novo Nordisk A/S"
@@ -159,30 +149,30 @@ positions:
 
   - ticker: IHP.L
     name: "IntegraFin Holdings plc"
-    shares: 55
-    invested_usd: 232  # ~EUR 200 at ~1.16 EUR/USD
-    avg_cost_usd: 4.22  # USD at purchase FX rate
-    avg_cost_gbp: 325.9996  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
+    shares: 110  # 55 original + ~55 ADD S127. Confirm exact shares from eToro.
+    invested_usd: 468  # $232 + ~$236 (EUR 200 * 1.1804)
+    avg_cost_usd: 4.25  # Blended estimate
+    avg_cost_gbp: 323.0  # Blended: (55*326 + 55*320) / 110
     date_opened: 2026-02-24
     thesis: thesis/research/IHP.L/thesis.md
     conviction: medium
     fair_value: "390 GBp (R3 post-DA. QS Tool 80 Tier A. Was 415p pre-DA. Entry 300p SO superseded by market buy.)"
     last_review: 2026-02-20
-    exit_plan: "HOLD. TRIM at 450p+. ADD at 250p (MoS 36%). SELL if KC triggered (AUM outflows >5% 2Q, platform downtime >48h, FCA investigation). Validate H1 FY26 ops leverage (~June). 2% sizing cap for UK concentration (5th UK position)."
-    notes: "SECOND E[CAGR]-framework market buy. E[CAGR] ~19% at 318p. R4 APPROVED S100. UK #1 independent adviser platform (Transact). ROIC 49%, 24.2% insider, net cash, 0/10 value trap. 2% sizing cap (5th UK position). SO at 300p superseded by deployment doctrine market buy."
+    exit_plan: "HOLD. TRIM at 450p+. ADD at 250p (MoS 36%). SELL if KC triggered (AUM outflows >5% 2Q, platform downtime >48h, FCA investigation). Validate H1 FY26 ops leverage (~June)."
+    notes: "SECOND E[CAGR]-framework market buy + ADD S127 EUR 200 at 320p (E[CAGR] 22.6%). R4 APPROVED S100. UK #1 independent adviser platform (Transact). ROIC 49%, 24.2% insider, net cash, 0/10 value trap. Position doubled: 1.9%→~3.9%. UK concentration justified (uncorrelated sectors)."
 
   - ticker: HLNE
     name: "Hamilton Lane Incorporated"
-    shares: 4.63  # EUR 400 at $101.75. Confirm exact shares from eToro.
-    invested_usd: 471.16  # EUR 400 * 1.1779
-    avg_cost_usd: 101.75
+    shares: 9.00  # 4.63 original + 4.37 ADD S126. Confirm exact shares from eToro.
+    invested_usd: 943.88  # $471.16 + $472.72 (EUR 400 * 1.1818)
+    avg_cost_usd: 104.88  # Blended: (4.63*101.75 + 4.37*108.11) / 9.00
     date_opened: 2026-02-25
     thesis: thesis/research/HLNE/thesis.md
     conviction: medium
     fair_value: "$110 (R3 post-DA. QS Tool 86, Adj 82 Tier A. Highest QS in portfolio.)"
     last_review: 2026-02-25
     exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Next earnings Q4 FY2026 ~May 2026."
-    notes: "THIRD E[CAGR]-framework market buy. E[CAGR] 16.7% at $101.75. QS 86 highest in portfolio. R4 APPROVED S120. SO at $95 superseded by deployment doctrine. CEO bought $1M at $130 (aligned). Alternative AM, private markets specialist."
+    notes: "THIRD E[CAGR]-framework market buy. E[CAGR] 16.7% at $101.75. QS 86 highest in portfolio. R4 APPROVED S120. SO at $95 superseded by deployment doctrine. CEO bought $1M at $130 (aligned). Alternative AM, private markets specialist. ADD EUR 400 at $108.11 S126. Position doubled. E[CAGR] 14.6% at ADD price. Cash drag avoidance — deploying into highest QS (82) in portfolio."
 
   - ticker: DOCS
     name: "Doximity, Inc."
@@ -196,6 +186,19 @@ positions:
     last_review: 2026-02-25
     exit_plan: "HOLD. TRIM at $40+. ADD at $20 (MoS 39%). SELL if KC#1 (NRR <100%) or KC#5 (SBC >15% without buyback offset). Next earnings Q4 FY2026 ~May 2026."
     notes: "FOURTH E[CAGR]-framework market buy. E[CAGR] 13.4% at $24.07. Price BELOW DA bear case ($25-26). R4 APPROVED S118. SO at $23 superseded. 85% US physician monopoly. 90% GM, 47% FCF margin, $724M net cash. Near 52wL."
+
+  - ticker: FTNT
+    name: "Fortinet, Inc."
+    shares: 5.98
+    avg_cost_usd: 79.12
+    invested_usd: 473.14
+    conviction: medium
+    date_opened: 2026-02-26
+    fair_value: "$88 (R3 post-DA resolution. QS Tool 70, Adj 85 Tier A.)"
+    thesis: thesis/active/FTNT/thesis.md
+    exit_plan: "HOLD. TRIM at $100+. ADD at $65 (MoS 26%). SELL if KC triggered (SEC investigation, 2nd major security incident in 6mo, product rev -10% for 2Q + SASE <15%). Next earnings ~April 2026."
+    notes: "Fifth E[CAGR]-framework market buy. E[CAGR] ~13.6% at $79.12. MoS 10.0% (HLNE precedent 7.5%). QS 85 Tier A highest-quality pipeline candidate. WIDE moat (ASIC + switching costs). R4 approved S123. SO $78 essentially at market — cash drag avoidance."
+    last_review: 2026-02-26
 
   - ticker: BYIT.L
     name: "Bytes Technology Group plc"
@@ -657,3 +660,55 @@ transactions:
     price_usd: 24.07
     total_eur: 400
     notes: "BUY - FOURTH E[CAGR]-framework market buy. QS 74/79adj Tier A. FV $32.80 (R3 post-DA). MoS 26.6%. E[CAGR] 13.4% > 12% threshold. R4 APPROVED S118. Price BELOW DA bear ($25-26). SO at $23 superseded. 85% US physician monopoly. 90% GM, 47% FCF, $724M net cash."
+
+  - date: 2026-02-26
+    action: TRIM
+    ticker: DTE.DE
+    shares: 10
+    price_eur: 33.66
+    total_eur: 336.60
+    pnl_eur: 67.80
+    pnl_pct: 25.2
+    notes: "TRIM - FY2025 earnings MEET-to-SOFT MISS. E[CAGR] 6.0% = second worst position. MoS 4% (EUR 33.66 vs FV EUR 35) = fully valued. FY2026 EPS guide EUR 2.20 (below EUR 2.30 beat threshold). +25.2% gain per share locked (EUR 33.66 vs EUR 26.88 cost). Capital freed for higher-E[CAGR] pipeline (DNLM.L 3.7%, FTNT 5.6%, RACE.MI 7.6% from triggers). Remaining 10.6 shares maintains TMUS exposure. Conviction MEDIUM→LOW."
+
+  - date: 2026-02-26
+    action: SELL
+    ticker: DTE.DE
+    shares: 10.624621
+    price_eur: 32.91
+    total_eur: 349.66
+    pnl_eur: 64.08
+    pnl_pct: 22.4
+    notes: "EXIT - FULL EXIT remaining 10.624621 shares. P16 rotation. E[CAGR] 6.7% lowest productive position. Conviction LOW. Already trimmed 10 shares earlier today at EUR 33.66. Combined DTE.DE P&L: TRIM +EUR 67.80 (25.2%) + EXIT +EUR 64.08 (22.4%) = total realized +EUR 131.88. Cash earmarked for FTNT SO $73, DNLM.L SO 950p, RACE.MI SO EUR 295."
+
+  - date: 2026-02-26
+    action: BUY
+    ticker: FTNT
+    shares: 5.98
+    price_usd: 79.12
+    total_eur: 400
+    notes: "BUY - FIFTH E[CAGR]-framework market buy. QS 85adj Tier A (Tool 70, +15 for ROIC NaN + market position). FV $88 (R3 post-DA). MoS 10.0%. E[CAGR] ~13.6% > 12% threshold. R4 APPROVED S123. SO $78 raised from $73 (1.6% away, essentially at market). WIDE moat (ASIC 83% ROIC + FortiOS switching costs). #1 firewall 55% unit share. 4.3% SBC (vs peers 15-30%). Net cash $2.6B. Cybersecurity sector diversifier (new). EUR/USD 1.1818."
+
+  - date: 2026-02-26
+    action: ADD
+    ticker: HLNE
+    shares: 4.37
+    price_usd: 108.11
+    total_eur: 400
+    notes: "ADD - Position doubled. E[CAGR] 14.6% at ADD price. QS 82 Tier A (highest in portfolio). FV $110, MoS 1.7% at ADD price. Cash drag avoidance — deploying into highest-quality position. Total shares 4.63→9.00. EUR/USD 1.1818."
+
+  - date: 2026-02-27
+    action: ADD
+    ticker: IHP.L
+    shares: 55  # Estimate at 320p. Confirm exact from eToro.
+    price_gbp: 320
+    total_eur: 200
+    notes: "ADD - Position doubled. E[CAGR] 22.6% at 320p (best Tier A risk-adjusted in portfolio). QS 80 Tier A. FV 390p, MoS 17.9%. 6th E[CAGR]-framework deployment. Position 1.9%→3.9%. UK concentration justified (5 UK positions in uncorrelated sectors: adviser platform, pizza, auto marketplace, insurance comparison, tech reseller). Sizing cap 2% removed — P1 reasoning: -50% = -2.0% portfolio = manageable."
+
+  - date: 2026-02-26
+    action: ADD
+    ticker: ADBE
+    shares: 1.83
+    price_usd: 259.04
+    total_eur: 400
+    notes: "ADD - E[CAGR] 21.6%, MoS 50.6%. FTC trial Oct 2026 priced in. QS 76adj Tier A. FV $390. Cash deployment into deeply undervalued compounder. Total shares 2→3.83. EUR/USD 1.1818."

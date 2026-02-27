@@ -4058,6 +4058,11 @@
       "type": "stock",
       "country": "US",
       "id": "SYK"
+    },
+    {
+      "type": "stock",
+      "country": "US",
+      "id": "FTNT"
     }
   ],
   "edges": [
@@ -11062,6 +11067,16 @@
       "date_added": "2026-02-25",
       "source": "fundsmith",
       "target": "V",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 3.0,
+      "source": "fundsmith",
+      "session_date": "2026-02-26",
+      "date_added": "2026-02-26",
+      "note": "capture",
+      "target": "FTNT",
       "key": 0
     },
     {

@@ -222,11 +222,87 @@ corrections:
     outcome: null
     notes: "Math error corrected by DA. R4 approved conditional."
 
+  - ticker: HALO
+    date: 2026-02-26
+    pre_da_fv: "$110"
+    post_da_fv: "$90"
+    correction_pct: -18.2
+    price_at_da: "$70"
+    review_date: 2026-08-26
+    price_at_review: null
+    outcome: null
+    notes: "STRONG COUNTER. CMS/IRA omission, Alteogen competition, royalty step-downs."
+
+  - ticker: ERIE
+    date: 2026-02-26
+    pre_da_fv: "$313"
+    post_da_fv: "$225"
+    correction_pct: -28.1
+    price_at_da: "$274"
+    da_independent_fv: "$215"
+    consensus_pt_at_da: "N/A (1 analyst)"
+    review_date: 2026-08-26
+    price_at_review: null
+    outcome: null
+    notes: "STRONG COUNTER. 3 CRITICAL: SCOTUS lawsuit No. 25-834 omitted, QS +20 reduced to +12, 2x comparable fee. Spruce Point STRONG SELL. 2nd largest correction."
+
+  - ticker: CHKP
+    date: 2026-02-26
+    pre_da_fv: "$174"
+    post_da_fv: "$160"
+    correction_pct: -8.0
+    price_at_da: "$153"
+    da_independent_fv: "$138"
+    consensus_pt_at_da: "$205"
+    review_date: 2026-08-26
+    price_at_review: null
+    outcome: null
+    notes: "MODERATE COUNTER. Q1 guidance miss omitted, Shwed selling $200M+/q, EPS tax inflation."
+
+  - ticker: QLYS
+    date: 2026-02-27
+    pre_da_fv: "$128"
+    post_da_fv: "$110"
+    correction_pct: -14.1
+    price_at_da: "$93.68"
+    da_independent_fv: "$102"
+    consensus_pt_at_da: "$138.53"
+    review_date: 2026-08-27
+    price_at_review: null
+    outcome: null
+    notes: "MODERATE COUNTER. 3 HIGH: MSFT Defender loss omitted, platformization TENB -50%/RPD -80%, hyperscaler native VM. Billings decel 5.6% Q4. GATED Q1 billings."
+
+  - ticker: VRSN
+    date: 2026-02-27
+    pre_da_fv: "$255"
+    post_da_fv: "$240"
+    correction_pct: -5.9
+    price_at_da: "$225"
+    da_independent_fv: "$234"
+    consensus_pt_at_da: "$276.50"
+    review_date: 2026-08-27
+    price_at_review: null
+    outcome: null
+    notes: "MODERATE COUNTER. 1 CRITICAL: BRK sold 32% at $267 (omitted by R1, Combs left Dec 2025). FCF margin peak 64.5% vs 3yr avg 58.3%. Receivables +37.5% anomaly. No informational edge — FV below consensus."
+
+  - ticker: CMCSA
+    date: 2026-02-27
+    pre_da_fv: "$39.37"
+    post_da_fv: "$33.00"
+    correction_pct: -16.2
+    price_at_da: "$30.93"
+    da_independent_fv: "$28.82 (DA1) / $27.73 (DA2)"
+    consensus_pt_at_da: "$33.01-35.01"
+    review_date: 2026-08-27
+    price_at_review: null
+    outcome: null
+    notes: "MODERATE-STRONG COUNTER. Two independent DAs converged on 5 issues: parks 14x→12x (biggest), FCF $15B→$14B norm, governance 10%→12%, Peacock $8.1B→$4B, broadband 5.5x→5.0x. Error #49: FV=consensus, edge THIN. SO tightened $28→$26. GATED Q1 2026."
+
 # AGGREGATE STATISTICS (update monthly)
 stats:
-  total_corrections: 19
-  avg_correction_pct: -16.7
-  median_correction_pct: -16.9
+  total_corrections: 25
+  avg_correction_pct: -15.7
+  median_correction_pct: -13.0
   max_correction_pct: -36.1  # EEFT
   min_correction_pct: -1.0   # ADBE
   outcomes_measured: 0

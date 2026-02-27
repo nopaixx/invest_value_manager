@@ -2,95 +2,123 @@
 # OVERWRITTEN each session (not accumulated). r1_cooldowns is rolling 30d.
 # Read by: session-planner, r1_prioritizer.py, session-phases
 # Written by: Fase 6 (last operation of each session)
-# Created: 2026-02-25
+# Created: 2026-02-27
 
 session:
-  id: 121
-  date: "2026-02-25"
-  timestamp_cet: "2026-02-25T12:30"
+  id: 127
+  date: "2026-02-27"
+  timestamp_cet: "2026-02-27T10:30"
 
 completed:
   vigilance:
-    news_scan_time: "2026-02-25T10:00"
+    news_scan_time: "2026-02-27T10:00"
     critical_count: 0
     material_count: 3
-    note: "Same-day dedup from S118-S120. No new news scan needed."
+    note: "Full scan 23 tickers. MATERIAL: NVO ambulance chasing (NOT KC), ADBE new 52wL, LULU governance. EDEN.PA won Brazil PAT legal challenge."
+  market_pulse:
+    timestamp: "2026-02-27T10:05"
+    anomalies: "MORN +5.74% (post-Q4 re-rating to $182.31). NVO -21.8% near 52wL. FTNT flat since entry."
+    so_distances: "DNLM.L 5.2%, RACE.MI 8.6%, HALO 6.5% (GATED). All widening."
   so_check:
-    timestamp: "2026-02-25T11:00"
-    nearest: { ticker: "DOCS", distance_pct: 4.4, note: "R4 APPROVED. Nearest ACTIVE SO." }
+    timestamp: "2026-02-27T10:05"
+    nearest: { ticker: "DNLM.L", distance_pct: 5.2, note: "999.50 GBp vs 950 trigger. DOWNGRADED BORDERLINE S127." }
     triggered: []
-    note: "Carried from S120. No price changes in same-day session."
+    executed_this_session: []
   rotation_check: true
-  rotation_note: "Same-day dedup from S120."
+  rotation_note: "LULU E[CAGR] -8.0% worst. HOLD through Mar 31 MAKE-OR-BREAK. MORN 5.9% second worst, HOLD (below FV, CRSP accretion). No rotation — no superior destination."
   net_exposure: true
-  net_exposure_reasoning: "Same-day dedup. 45.1% long, 0% short, 54.9% cash. EMERGENCY continues."
+  net_exposure_reasoning: "59% long, 0% short, 41% cash. Fair-Value regime. Cash 41% justified: (1) EUR 1,200 deployed yesterday, (2) 0 buyable-at-market candidates, (3) pipeline SOs require 5-15% declines, (4) DNLM.L downgraded BORDERLINE."
   deployment_actions:
-    - "OSINT SESSION — No deployments. Pure research + graph enrichment."
-    - "discover FCA/AMF dedup bug FIXED: Same root cause as ingest-fca. Sainsbury 1604%→5.4%."
-    - "stock-profile bug FIXED: quality_holders used edge data dict instead of fund_id for G.nodes.get()."
-    - "3 funds ENROLLED: Cantillon (CIK 1279936), Fundsmith (CIK 1569205), Coronation (CIK 1594320). 13F downloaded + ingested. 146 hold edges."
-    - "EU CAPTURE 7 stocks: EDEN.PA, DTE.DE, IHP.L, MONY.L, DOM.L, BYIT.L, AUTO.L. Full holders + insiders captured."
-    - "Graph: 504→539 nodes, 708→795 edges."
+    - { ticker: "IHP.L", action: "ADD", amount_eur: 200, price_gbp: 320, shares_est: 55, ecagr: "22.6%", note: "6th E[CAGR] deployment. Position doubled 1.9%→3.9%. Sizing cap removed." }
   earnings_frameworks:
-    - { ticker: "DTE.DE", date: "2026-02-26", status: "READY", key: "BEAT+>EUR 34=TRIM 50%. MEET=HOLD. MISS=EXIT." }
-    - { ticker: "QTCOM.HE", date: "2026-02-26", status: "HARD GATE", key: "EBITA margin >=18% = PASS → R2." }
-    - { ticker: "MEGP.L", date: "2026-02-27", status: "HARD GATE (NOT ON ETORO)", key: "Thesis tracking only." }
+    - { ticker: "KLR.L", date: "2026-03-03", status: "HARD GATE for SO", key: "OP margin >=6.5% + order book >=1.4B." }
     - { ticker: "DOM.L", date: "2026-03-05", status: "READY (thesis Section 9)", key: "EBITDA >GBP125M KC#1." }
-  pipeline_advancement: []
-  velocity_units: 0
-  velocity_note: "OSINT-only session. No pipeline advancement. Rolling avg declining."
-  osint:
-    - "discover FCA/AMF dedup bug fixed. SI% now sane (<100% for all stocks)."
-    - "stock-profile quality_holders crash fixed (unhashable dict → fund_id)."
-    - "3 new funds enrolled: Cantillon, Fundsmith, Coronation. 13F ingested."
-    - "EU capture: 7 EU portfolio stocks fully enriched with holders + insiders."
-    - "AUTO.L INSIDER_CLUSTER_BUY = FALSE POSITIVE (corporate buyback misclassified)."
-    - "Kintbury Capital = MATERIAL bear signal on AUTO.L (forensic accounting fund, largest UK short)."
-    - "EDEN.PA short thesis = regulatory (Brazil+Italy). France caps RULED OUT. 60% SI is quant/systematic."
-    - "DTE.DE heavy insider selling 2025 (EUR 8-9M). SoftBank fully exited."
-    - "DOM.L Chair+CEO bought Dec 2025. Fundsmith 5.4%. Browning West 5% activist."
-    - "BYIT.L genuine insider cluster Aug 2025 (4 dirs, GBP 239K). Coronation 26%."
-    - "MONY.L Moltiply Group 10% strategic (Italian fintech = M&A watch)."
-    - "Cross-fund gaps: FTNT, OTIS, ODD, IBKR, CBRE, ICE, FWONK not in universe."
-    - "ADBE fund divergence: Gayner exit = rotation (not AI conviction). Cantillon +16% = contrarian quality buy."
-  evolution_updates:
-    - "T2 RED continues (8th session >50% cash)."
-    - "Graph v4.4 operational. 16 funds tracked."
+    - { ticker: "LULU", date: "2026-03-31", status: "MAKE-OR-BREAK", key: "SELL if negative global comps or GM <57%." }
+    - { ticker: "QTCOM.HE", date: "2026-02-26", status: "ARCHIVE — 3rd negative signal. IAR SaaS transition extends trough.", key: "EBITA margin confirmed >=15% but guide lackluster." }
+  pipeline_advancement:
+    - "QLYS R2+R3 COMPLETE. FV $128→$110 (-14.1%). SO $82 GATED Q1 billings (Apr). DA MODERATE COUNTER: MSFT Defender loss omitted, platformization severity, hyperscaler VM."
+    - "DNLM.L SO DOWNGRADED ACTIVE→BORDERLINE (E[CAGR] ~9% at trigger + 6th UK position)."
+    - "Cybersecurity sector view updated with QLYS R3 outcome."
+    - "DA accuracy tracker: QLYS entry (23rd correction, -14.1%)."
+    - "OPPORTUNITY SCAN: MLI (QS 65 Tier B, ROIC 36.8%, 2 analysts) + WTM (QS 45→~55 adj, 0 analysts) added to universe."
+    - "VRSN R1 LAUNCHED (QS 83 Tier A, 7.4% from SO $200). .com/.net monopoly. moat+risk agents parallel."
+    - "QTCOM.HE ARCHIVED in universe + watchlist (3rd negative signal)."
+    - "ANF Q4 earnings gate framework created (thesis/research/ANF/earnings_gate_q4.md)."
+    - "quality_universe.py stats bug FIXED (str vs float comparison in _is_actionable_entry)."
+    - "CMCSA R1→R2→R3 COMPLETE. FV $39.37→$33 post-DA (-16.2%). Two DAs converged (MODERATE+STRONG). Parks 14x→12x, FCF $15B→$14B, governance 10%→12%, Peacock $8.1B→$4B. SO $28→$26 GATED Q1 2026. Edge THIN (Error #49)."
+  velocity_units: 8
+  velocity_note: "S127: QLYS R2→R3 = 2u + VRSN R1→R2→R3 = 3u + CMCSA R1→R2→R3 = 3u. Total 8 units. Target 3 EXCEEDED."
   meta_reflection_processed:
-    - { agent: "EU capture agents x3", items: 21, key_action: "7 stocks enriched. AUTO.L false positive identified. Kintbury red flag documented." }
-    - { agent: "Signal deep dive agents x2", items: 8, key_action: "Kintbury accounting lens thesis documented. EDEN.PA short composition analyzed." }
+    - "QLYS DA: MSFT Defender partnership loss omitted from R1 → add 'material events past 24mo' to R1 checklist"
+    - "QLYS DA: VM specialist comps (TENB/RPD) mandatory in any QLYS analysis"
+    - "QLYS DA: billings vs revenue growth spread → flag automatically when billings < revenue"
+    - "News-monitor: EDEN.PA won initial Brazil PAT legal challenge — could soften 2026 EBITDA headwind"
+    - "News-monitor: PROX.BR FY2025 today — EUR 275M goodwill impairment but capex declining"
+    - "VRSN DA: BRK sold 32% at $267 → R1 agents must check 13F CHANGES via stock-profile, not just holdings"
+    - "VRSN DA: For monopoly businesses, compare FV to known institutional selling prices"
+    - "VRSN DA: Peak FCF margin (64.5% vs 3yr avg 58.3%) → always normalize, never anchor to peak"
+    - "IHP.L ADD: Sizing cap (2%) was arbitrary conservative constraint. P1 reasoning (-50% = -2.0% portfolio) justified removal."
+    - "UTHR earnings: EPS beat +13%, TreSMI moat extension, $4B/2027 target. Stock re-rated above FV. Not deployable at $499."
+    - "CMCSA: P/E 5.7 + 4 value fund convergence + 17% FCF yield. Market pricing -6.1% FCF decline vs +15% historical. Potential deep value."
+    - "CMCSA R1: FCF $19.2B is NON-RECURRING ($2B tax benefit + capex trough). Normalized $15-16B. ALWAYS normalize FCF for one-time items before valuing."
+    - "CMCSA R1: ARPU trajectory stale in old thesis (+1.7%). Management froze prices 2026 → ARPU turning negative. Check ARPU trajectory for ANY subscription biz before projecting."
+    - "CMCSA R1: Sports rights $8B/yr doubled in 4yr. Content cost inflation is structural, not cyclical. Must model for any media company."
+    - "CMCSA R1: Conglomerate SoP is primary method. FA's 15x parks EBITDA aggressive → 13-14x more conservative. Recession sensitivity real."
+    - "CMCSA R2+R3: Two DAs converged on same 5 issues = high confidence. Parks multiple was biggest correction. FCF anchor to historical avg FIRST, then adjust up."
+    - "CMCSA R2+R3: When edge is thin (Error #49), require MORE MoS. Standard Tier B = 20-25%. Thin-edge Tier B = 25-30%."
+    - "CMCSA R2+R3: DA correction -16.2% exactly matches tracker avg -16.1% → system well-calibrated."
 
 handoff:
   next_session_priorities:
-    P0:
-      - "DTE.DE EARNINGS TODAY Feb 26: Apply decision tree. BEAT+>EUR 34 → TRIM 50%. Insider SELLING is bearish context."
-      - "QTCOM.HE FY2025 TODAY Feb 26: HARD GATE. EBITA margin >=18% = PASS → R2."
+    P0: []
     P1:
-      - "MEGP.L FY2025 Feb 27: HARD GATE. Thesis tracking (NOT on eToro)."
-      - "DOCS SO at $23: Monitor. 4.4% away."
-      - "HLNE SO at $95: Monitor. 7.1% away."
-      - "AUTO.L: Add Kintbury accounting lens investigation to next re-eval (capitalised dev costs, SBC, FCF gap)."
+      - "Cash 39% (EUR 4,042). 0 buyable-at-market candidates. Active SOs: RACE.MI EUR 295 (8.6%), DNLM.L 950 GBp (5.2% BORDERLINE). GATED: HALO $65 (6.5%), QLYS $82 (12.2%), ERIE $180 (49%), CMCSA $26 (15.9% GATED Q1 2026)."
     P2:
-      - "KLR.L FY2025 Mar 3: HARD GATE."
-      - "DOM.L FY25 Mar 5: Framework READY."
-      - "Pipeline velocity YELLOW — need advancement units."
-      - "EDEN.PA: Monitor quant covering velocity in next AMF data refresh."
+      - "KLR.L FY2025 Mar 3 (4 days): HARD GATE for SO. OP margin >=6.5% AND order book >=GBP 1.4B."
+      - "DOM.L FY25 Mar 5: Framework READY. EBITDA >GBP125M KC#1."
+      - "LULU Mar 31: MAKE-OR-BREAK. E[CAGR] worst in portfolio."
+      - "PROX.BR FY2025 released Feb 27 — review results if interesting. EUR 275M goodwill writedown."
+      - "ENGI.PA FY2025 released — guidance RAISED. Above entry. Monitor only."
     P3:
-      - "New universe candidates from cross-fund: FTNT (Fundsmith 3%), OTIS, IBKR (Cantillon 7.5%), ICE (Cantillon 4.9%)."
-      - "FWONK (F1 scarcity asset) — quick triage if time."
+      - "CMCSA R3 COMPLETE. FV $33 post-DA (-16.2%). SO $26 GATED Q1 2026 earnings (late April). Edge THIN. E[CAGR] ~16.5% at $26 (incl buyback). Parks 12x, FCF $14B norm, Peacock $4B."
+      - "VRSN R3 COMPLETE S127. FV $240 post-DA. QS 86adj Tier A. SO $190 (was $200). DA: BRK sold 32% at $267, FCF peak, no edge. E[CAGR] 14.5% at $190. 15.7% from trigger."
+      - "MLI added to universe (QS 65 Tier B, ROIC 36.8%, 2 analysts). Entry ~$90. Overvalued at $120. Monitor."
+      - "WTM added to universe (QS 45→~55 adj, 0 analysts, insurance holding). Needs deeper look. Price ~$2,228."
+      - "Cybersec allocation: FTNT primary (position), QLYS secondary (SO $82 GATED), CHKP tertiary (entry $125, no SO). Max 2 positions."
+      - "MORN approaching FV ($182 vs $195 FV). Monitor for TRIM zone ($220+)."
+      - "Sector gaps identified: waste-management, industrial-distribution, professional-services, water-infrastructure. No Asia/Japan coverage."
+      - "CMCSA R3 COMPLETE S127. FV $33 (-16.2% post-DA). SO $26 GATED. DA tracker entry #25."
+      - "QTCOM.HE ARCHIVED S127."
   dedup_signals:
     - "NVO thesis v4.0 COMPLETE. No re-analysis until Wegovy pill data."
-    - "DOCS R4 APPROVED. SO at $23. No re-analysis."
+    - "HLNE BOUGHT S122 + ADD S126. Position 9.0 shares, $104.88 avg. No SO."
+    - "DOCS BOUGHT S122. No SO. Position 4%."
+    - "REN.AS R4 APPROVED S122. SO EUR 24.50. NOT market buy."
+    - "FTNT BOUGHT $79.12 S126. 5th E[CAGR] market buy. EUR 400."
+    - "CHKP R3 COMPLETE S126. FV $160 (-8%). Entry $125. No SO. FTNT preferred."
+    - "QLYS R3 COMPLETE S127. FV $110 (-14.1%). Entry $78-82. SO $82 GATED Q1 billings."
+    - "DTE.DE SOLD S126. Position CLOSED. P16 rotation."
+    - "HALO R3 COMPLETE S126. FV $90. SO $65 GATED (Merck PTAB Jun 2026)."
+    - "ERIE R3 COMPLETE S126. FV $225. SO $180 GATED (SCOTUS)."
     - "PEGA R3 GATED. Entry $38."
     - "ANF R1 COMPLETE. Entry $80. GATED Q4 Mar 4."
-    - "MONY.L FY2025 PROCESSED."
-    - "EDEN.PA FY2025 PROCESSED. HOLD confirmed. Short thesis = regulatory, France caps ruled out."
     - "CPRT R3 COMPLETE. GATED Q3 FY2026."
     - "WING R1 COMPLETE. GATED R2+Q1."
-    - "HLNE R4 APPROVED. SO $95."
-    - "SM discover + stock-profile bugs FIXED."
-    - "EU capture COMPLETE for all 7 EU portfolio stocks. Next: pre-earnings or pre-R1."
-    - "AUTO.L INSIDER_CLUSTER_BUY = FALSE POSITIVE (corporate buyback). Do NOT cite as bullish insider signal."
+    - "DNLM.L SO DOWNGRADED ACTIVE→BORDERLINE S127 (E[CAGR] ~9% + 6th UK)."
+    - "MONY.L FY2025 PROCESSED."
+    - "EDEN.PA FY2025 PROCESSED. Brazil PAT won initial legal challenge."
+    - "ROIC NaN bug FIXED S125."
+    - "MEGP.L ARCHIVED (NOT on eToro)."
+    - "QTCOM.HE ARCHIVED S127 (3rd negative signal). Removed from watchlist + universe status ARCHIVED."
+    - "MLI added to universe S127. QS 65 Tier B. ROIC 36.8%. Overvalued at $120. Entry ~$90."
+    - "WTM added to universe S127. QS 45 Tier C (adj ~55 B). Insurance holding. 0 analysts."
+    - "ORI QS 37 Tier C. NOT ADDED (below threshold even with adj)."
+    - "FCN QS 52 Tier C. NOT ADDED (ROIC 8.9% too low)."
+    - "VRSN R3 COMPLETE S127. FV $255→$240 post-DA (-5.9%). QS 86adj Tier A. SO $200→$190. DA MODERATE: BRK sold 32% at $267 (CRITICAL), FCF peak, receivables anomaly, no edge. E[CAGR] 14.5% at $190."
+    - "ANF Q4 earnings gate framework CREATED."
+    - "quality_universe.py stats bug FIXED (str vs float)."
+    - "DA accuracy tracker: 23 entries, avg -16.1%. No outcomes measured yet (first Aug 2026)."
+    - "CMCSA R3 COMPLETE S127. FV $39→$33 post-DA (-16.2%). QS 60 Tier B. SO $26 GATED Q1 2026. Two DAs converged. Edge THIN."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -98,13 +126,21 @@ r1_cooldowns:
   EXEL: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (AT_FV)" }
   CELH: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (OVERVALUED)" }
   UTHR: { date: "2026-02-23", session: 115, verdict: "TRIAGE (AT_FV, gated earnings Feb 25)" }
-  HLNE: { date: "2026-02-25", session: 120, verdict: "R4_APPROVED (SO $95 EUR 400, all 10 gates PASS)" }
-  REN.AS: { date: "2026-02-22", session: 111, verdict: "R3_COMPLETE (WATCHLIST, entry EUR 24.50)" }
+  HLNE: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $101.75 (S122)" }
+  REN.AS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED (WATCHLIST, SO EUR 24.50)" }
   ROR.L: { date: "2026-02-22", session: 110, verdict: "R1_COMPLETE (OVERVALUED)" }
   TW: { date: "2026-02-23", session: 115, verdict: "R3_COMPLETE (AT_FV, SO $110)" }
-  VRSN: { date: "2026-02-23", session: 115, verdict: "TRIAGE (AT_FV, SO $200)" }
+  VRSN: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $240 post-DA, SO $190, QS 86adj Tier A. DA MODERATE: BRK sold 32% at $267, FCF peak, receivables anomaly. No edge.)" }
   CPRT: { date: "2026-02-25", session: 119, verdict: "R3_COMPLETE (FV $37, entry $31, GATED Q3)" }
-  DOCS: { date: "2026-02-25", session: 118, verdict: "R4_APPROVED (SO $23, FV $32.80)" }
+  DOCS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $24.07 (S122)" }
   PEGA: { date: "2026-02-25", session: 116, verdict: "R3_COMPLETE GATED (entry $38, FV $50)" }
   ANF: { date: "2026-02-25", session: 117, verdict: "R1_COMPLETE (WATCHLIST, entry $80, FV $107, QS 65 Tier B)" }
   WING: { date: "2026-02-25", session: 119, verdict: "R1_COMPLETE (WATCHLIST, FV $296, entry $215, GATED R2+Q1)" }
+  FWONK: { date: "2026-02-25", session: 122, verdict: "TRIAGE PASS (QS 40 Tier C, overvalued)" }
+  IBKR: { date: "2026-02-25", session: 122, verdict: "TRIAGE WATCHLIST ($50-55, QS 96adj, fully priced)" }
+  FTNT: { date: "2026-02-26", session: 126, verdict: "BOUGHT $79.12 (5th E[CAGR] market buy, EUR 400)" }
+  CHKP: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, entry $125, FV $160, QS 77 Tier A. No SO. FTNT preferred.)" }
+  QLYS: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, SO $82, FV $110, QS 81 Tier A. GATED Q1 billings. FTNT primary.)" }
+  HALO: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, SO $65, FV $90 post-DA, QS 79adj Tier A)" }
+  ERIE: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, SO $180, FV $225, QS 77adj Tier A. SCOTUS gated.)" }
+  CMCSA: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $33 post-DA, was $39.37 R1. SO $26 GATED Q1 2026 earnings. QS 60 Tier B. DA -16.2%. Edge THIN. Two DAs: MODERATE+STRONG.)" }

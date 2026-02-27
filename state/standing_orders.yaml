@@ -35,17 +35,17 @@ standing_orders:
 
   - ticker: DNLM.L
     action: BUY
-    category: ACTIVE
-    fill_prob_6m: 60
+    category: BORDERLINE
+    fill_prob_6m: 25
     trigger: "<=950 GBp"
-    current_distance: "2.7%"
+    current_distance: "4.8%"
     size_eur: 375
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
     tier: "A (QS 79)"
-    notes: "TRIGGER RAISED 780p→900p (S91) →950p (S101). E[CAGR] 13.6% at 950p (growth 7% + yield 4.6% + MoS convergence 2.0%). Last justifiable raise (at 970p+, E[CAGR] approaches 12%). R4 approved. UK homewares leader, 8.4% ROIC-WACC spread, 30.5% insider."
-    conditions: "REQUIRED: Verify UK positions <=5 before execution (would be 6th UK position with IHP.L now bought). If MONY.L sold post-earnings Feb 23 → back to 5 UK = OK."
-    last_analysis_date: 2026-02-20
+    notes: "DOWNGRADED ACTIVE→BORDERLINE S127. Two constraints: (1) Would be 6th UK position (DOM.L, MONY.L, AUTO.L, IHP.L, BYIT.L = 5). Geographic concentration P2. (2) E[CAGR] 13.6% at trigger = marginal for Tier A, and at market (998p) only 11.9% = below 12% threshold. Price trending AWAY from trigger. Not a real deployment path unless UK position sold first."
+    conditions: "BLOCKED: 6th UK position. Requires selling one of DOM.L/MONY.L/AUTO.L/BYIT.L first."
+    last_analysis_date: 2026-02-27
     expiry: 2026-06-01
 
   - ticker: ACGL
@@ -111,6 +111,45 @@ standing_orders:
   # HLNE — EXECUTED 2026-02-25 (Session 122). Market buy at $101.75, ~4.63 shares, EUR 400.
   # Third E[CAGR]-framework market buy. E[CAGR] 16.7% at $101.75 >> 12% threshold. MoS 7.5%.
   # SO at $95 superseded by deployment doctrine market execution. R4 approved S120.
+
+  # FTNT — EXECUTED 2026-02-26 (Session 126). Market buy at $79.12, ~5.98 shares, EUR 400.
+  # Fifth E[CAGR]-framework market buy. E[CAGR] ~13.6% at $79.12 >> 12% threshold. MoS 10.0%.
+  # SO at $78 superseded by market buy — $1.18 difference = noise vs cash drag cost.
+  # R4 approved S123. QS 85 Tier A. WIDE moat. STRONG COUNTER DA absorbed.
+
+  - ticker: HALO
+    action: BUY
+    category: GATED
+    fill_prob_6m: 30
+    trigger: "<=$65"
+    current_distance: "7.6%"
+    gate: "Merck PTAB ruling (Jun 2026) — binary risk favors patience"
+    size_eur: 400
+    fair_value: "$90 (R3 post-DA, was $110 R1)"
+    mos_at_trigger: "27.8%"
+    tier: "A (QS 79adj, R3 COMPLETE)"
+    notes: "R3 RESOLVED S126. DA STRONG COUNTER (-18.2%): CMS/IRA risk omitted (-27% event), Alteogen competition ($1.65B deals), FV>all analyst PTs, royalty rate step-downs. Moat NARROW-to-WIDE (65% conf). Royalty platform (ENHANZE rHuPH20), 84% GM, 46% FCF margin. E[CAGR] ~15.3% at $65. Goldman SELL $56-58. 16% SI. CEO selling $10M+. Wait Merck PTAB Jun 2026."
+    kill_conditions: "Merck PTAB full loss (royalty stream voided), CMS/IRA final guidance kills DARZALEX pricing, Alteogen wins 3+ new partners in 12mo, ROIC <WACC 2yr"
+    pre_execution_condition: "Merck PTAB ruling Jun 2026 must resolve favorably. If partial adverse → reassess at lower entry. If full adverse → CANCEL."
+    last_analysis_date: 2026-02-26
+    expiry: 2026-10-01
+
+  - ticker: ERIE
+    action: BUY
+    category: GATED
+    fill_prob_6m: 5
+    trigger: "<=$180"
+    current_distance: "34.3%"
+    gate: "SCOTUS Stephenson v. Erie Indemnity (No. 25-834) cert disposition"
+    size_eur: 350
+    fair_value: "$225 (R3 post-DA, was $313 R1, -28.1%)"
+    mos_at_trigger: "20.0%"
+    tier: "A (QS 77adj, R3 COMPLETE — was 85adj)"
+    notes: "R3 RESOLVED S126. DA STRONG COUNTER (3 CRITICAL): (1) SCOTUS lawsuit No. 25-834 challenging 25% fee — OMITTED from R1, (2) QS +20 reduced to +12 (precedent max was +11), (3) ERIE charges 2x comparable (Farmers 12.4% vs 25%) + Spruce Point STRONG SELL + $455M Zurich settlement precedent. FV probability-weighted: 75% no fee change ($237) + 15% fee to 22% ($174) + 10% fee to 20% ($149) = $225. E[CAGR] ~13.2% at $180. 8.6% SI. Zero insider buying. No informational edge (Spruce Point thesis exists)."
+    kill_conditions: "Exchange board vote to reduce fee, SCOTUS rules against ERIE on fee challenge, AM Best downgrade below A-, premium growth negative 2yr, insider ownership <30%, Spruce Point thesis materially validates"
+    pre_execution_condition: "SCOTUS Stephenson cert disposition required. If cert DENIED → SO valid (case to PA state court). If cert GRANTED → wait for ruling. If fee upheld → valid. If fee modified → CANCEL."
+    last_analysis_date: 2026-02-26
+    expiry: 2026-10-01
 
   # ═══════════════════════════════════════════════════════════════════════
   # GATED — Cannot execute until pre-execution condition is met.
@@ -293,6 +332,25 @@ standing_orders:
     last_analysis_date: 2026-02-18
     expiry: 2026-08-01
 
+  - ticker: QLYS
+    action: BUY
+    category: GATED
+    fill_prob_6m: 15
+    trigger: "<=$82"
+    current_distance: "12.2%"
+    gate: "Q1 2026 billings growth (Apr 2026 earnings). If billings <5% → ARCHIVE. If >8% → consider $85 entry."
+    size_eur: 400
+    shares_approx: 5
+    fair_value: "$110 (R3 post-DA, was $128)"
+    mos_at_trigger: "25.5%"
+    tier: "A (QS 81 tool, was 82adj)"
+    ecagr_at_trigger: "~15%"
+    notes: "R3 RESOLVED S127. DA MODERATE COUNTER -14.1%. 3 HIGH: (1) MSFT Defender partnership loss OMITTED, (2) platformization severity = TENB -50% RPD -80%, (3) hyperscaler native VM proven. FV $128→$110. FTNT = primary cybersec allocation; QLYS = secondary. VM specialist risk. 45% FCF margin, 70% ROIC, net cash. Entry $78-82."
+    kill_conditions: "Rev <5% 2Q, NRR <100%, FCF margin <30%, SEC investigation, TotalCloud/ETM <8% bookings Q4 FY2026, billings <5% 2Q"
+    pre_execution_condition: "GATED: Q1 2026 billings must show improvement (>5% growth) before execution. Apr 2026 earnings. Also: FTNT is primary cybersec — max 2 positions in sector."
+    last_analysis_date: 2026-02-27
+    expiry: 2026-10-01
+
   # MEGP.L — ARCHIVED 2026-02-23 (Session 114). NOT AVAILABLE ON ETORO.
   # QS 80 Tier A, FV 180p, great company. But we can't buy it. No point tracking.
   # Thesis preserved at thesis/research/MEGP.L/ if alternative platform found.
@@ -452,21 +510,39 @@ standing_orders:
   - ticker: VRSN
     action: BUY
     category: BORDERLINE
-    fill_prob_6m: 25
-    trigger: "<=$200"
-    current_distance: "7.4%"
+    fill_prob_6m: 20
+    trigger: "<=$190"
+    current_distance: "15.7%"
     size_eur: 350
-    fair_value: "$237"
-    mos_at_trigger: "15.6%"
-    tier: "A (QS 83)"
-    notes: "TRIAGE AT_FV S115. .com/.net monopoly (ICANN contract to 2034). ROIC 275% (negative tangible equity), 88% GM, 65% FCF margin. Fundsmith holds. Near 52wL $209. P/E 24.5. EPS CAGR 12.3% (buybacks + margin). E[CAGR] ~13.6% at $200. Needs R1. Receivables anomaly flag."
-    kill_conditions: "ICANN contract non-renewal, .com registration decline >5% 2yr, regulatory monopoly challenge"
-    last_analysis_date: 2026-02-23
+    fair_value: "$240"
+    mos_at_trigger: "20.8%"
+    tier: "A (QS 83/86adj)"
+    notes: "R3_COMPLETE S127. WIDE moat — ICANN .com/.net monopoly. FV $255→$240 post-DA (-5.9%). DA MODERATE: BRK sold 32% at $267 (omitted by R1), FCF margin peak (64.5% vs 3yr avg 58.3%), receivables +37.5% anomaly, no informational edge. E[CAGR] ~14.5% at $190. Bear $165-185/Base $240/Bull $310-320. Fundsmith 2.5%. 7 KCs defined."
+    kill_conditions: "ICANN non-renewal, .com base decline 2yr, pricing authority stripped, alt DNS >5%, FCF margin <50% 2yr, renewal rate <70%, receivables divergence >2Q"
+    last_analysis_date: 2026-02-27
     expiry: 2026-08-01
 
   # Cancelled orders history preserved as comments:
   # FGP.L — CANCELLED 2026-02-18 (Session 79). No pipeline. UK concentration.
-  # CMCSA — CANCELLED 2026-02-18 (Session 79). No pipeline.
+  - ticker: CMCSA
+    action: BUY
+    category: GATED
+    fill_prob_6m: 20
+    trigger: "<=$26"
+    current_distance: "15.9%"
+    gate: "Q1 2026 earnings (late April). If broadband <150K loss + ARPU stable → execute. If broadband >200K + ARPU negative → DOWNGRADE to PASS."
+    size_eur: 350
+    fair_value: "$33 (R3 post-DA, was $39.37 R1)"
+    mos_at_trigger: "21.2%"
+    tier: "B (QS 60)"
+    ecagr_at_trigger: "~16.5% (incl buyback credit)"
+    notes: "R3 RESOLVED S127. Two independent DAs converged: MODERATE + STRONG COUNTER. FV $39.37→$33 (-16.2%). Key corrections: parks 14x→12x (-$3.12/sh), FCF $15B→$14B norm, governance 10%→12%, Peacock $8.1B→$4B. Edge THIN (Error #49 — consensus-adjacent). 3 CRITICAL risks correlated (broadband + ARPU + FWA). 4 value fund convergence. Post-Versant cleaner. SO tightened $28→$26 for adequate MoS."
+    kill_conditions: "Broadband >250K/Q 2Q, Peacock losses widen, dividend cut, ND/EBITDA >3.5x, norm FCF <$12B 2yr, ARPU -2% + subs >200K same Q, sports >$10B/yr, Roberts >$20B M&A"
+    pre_execution_condition: "Q1 2026 earnings (late April). First clean post-Versant quarter. Monitor broadband trajectory + ARPU + parks momentum."
+    last_analysis_date: 2026-02-27
+    expiry: 2026-10-01
+
+  # CMCSA old — CANCELLED 2026-02-18 (Session 79). Replaced by R3 SO above.
   # WPP.L — CANCELLED 2026-02-18 (Session 77). QS 32 = Tier D.
   # MA — MOVED TO EXTREME OPPORTUNITY (Session 90).
   # PAYC — MOVED TO EXTREME OPPORTUNITY (Session 90).

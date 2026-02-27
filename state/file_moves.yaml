@@ -110,6 +110,29 @@ moves:
     triggered_by: "portfolio-ops: SELL confirmation"
     note: "Active files replaced with redirect stubs. Delete thesis/active/ALL/ directory manually."
 
+  - date: 2026-02-26
+    file: state/quality_universe.yaml (MEGP.L entry removed)
+    from: state/quality_universe.yaml
+    to: N/A (entry deleted, not moved)
+    reason: "MEGP.L not available on eToro. Removed from quality universe. SO already archived. Calendar annotated. Thesis preserved at thesis/research/MEGP.L/."
+    triggered_by: "CIO direct instruction via file-system-manager"
+
+  - date: 2026-02-26
+    file: thesis/active/DTE.DE/* (thesis.md, risk_assessment.md, valuation_report.md, earnings_framework_feb2026.md)
+    from: thesis/active/DTE.DE/
+    to: thesis/archive/DTE.DE/
+    reason: "Position FULLY CLOSED - SELL remaining 10.624621 shares @ EUR 32.91. P16 rotation. E[CAGR] 6.7% lowest position. Total P&L ~EUR 212 across all tranches. Cash earmarked for FTNT/DNLM.L/RACE.MI SOs."
+    triggered_by: "portfolio-ops: SELL confirmation (human confirmed full exit)"
+    note: "Archive copies created with CLOSED/ARCHIVED headers. Delete thesis/active/DTE.DE/ directory manually."
+
+  - date: 2026-02-26
+    file: thesis/research/FTNT/* (thesis.md, moat_assessment.md, risk_assessment.md, r2_devils_advocate.md, r3_resolution.md, committee_decision.md, triage.md)
+    from: thesis/research/FTNT/
+    to: thesis/active/FTNT/
+    reason: "Position OPENED - BUY 5.98 shares @ $79.12 (EUR 400). 5th E[CAGR]-framework market buy. QS 85adj Tier A. WIDE moat. R4 approved S123."
+    triggered_by: "portfolio-ops: BUY confirmation (human confirmed execution)"
+    note: "Active copies created with updated headers (position info, R3 revisions). Delete thesis/research/FTNT/ directory manually."
+
 # Format:
 #   - date: 2026-01-31
 #     file: thesis/research/SHEL/thesis.md

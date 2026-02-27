@@ -9,11 +9,12 @@
 # Metadata
 metadata:
   created: 2026-02-03
-  last_updated: 2026-02-14
-  total_closed: 15
-  total_pnl_eur: -3.85  # Previous -26.85 + ALL +23 = ~-3.85
-  win_rate: 53.3  # 8 winners / 15 positions (ALL +5.9% is a winner)
-  avg_holding_days: 8
+  last_updated: 2026-02-26
+  total_closed: 16
+  total_pnl_eur: 60.23  # Previous -3.85 + DTE.DE +64.08 = 60.23 (closed positions only, excludes partial sells)
+  win_rate: 56.3  # 9 winners / 16 positions (DTE.DE +22.4% is a winner)
+  avg_holding_days: 9
+  # Note: DTE.DE had prior partial sells totaling EUR 137.80 realized P&L (see partial_sells section)
 
 # ADVERSARIAL FV ACCURACY TRACKING (added Session 53 per Devil's Advocate)
 # Purpose: Track whether adversarial FVs are accurate or systematically pessimistic
@@ -403,6 +404,34 @@ closed_positions:
     exit_reason: adversarial_review_roic_below_wacc
     lesson_learned: "D&A assumptions MUST be cross-checked against actual EBITDA-to-EBIT bridge in results. Post-acquisition D&A (intangible amortization) can be dramatically higher than pre-acquisition baseline. EV/EBIT multiples must anchor to actual peer trading levels, not theoretical ranges. For leveraged mid-caps, EV/EBIT is more reliable than DCF (which had 76% terminal value dependency)."
 
+  - ticker: DTE.DE
+    name: "Deutsche Telekom AG"
+    entry_date: 2026-01-26
+    exit_date: 2026-02-26
+    shares: 10.624621  # Final tranche (remaining after 3 prior trims: 14 + 3 + 10 shares)
+    entry_price_eur: 26.88  # Avg cost EUR
+    exit_price_eur: 32.91
+    entry_currency: EUR
+    invested_eur: 285.59  # Prorated: 10.624621 * 26.88
+    proceeds_eur: 349.66
+    pnl_amount_eur: 64.08  # (32.91 - 26.88) * 10.624621
+    pnl_percent: 22.4
+    holding_days: 31
+    thesis_fv_at_entry: 35.00  # EUR - v3.1 post-TMUS Q4 beat
+    thesis_fv_adversarial: null  # No formal adversarial review
+    fv_reached: false  # FV EUR 35 not reached at exit
+    quality_score: 69  # Tier B (Tool 61, Adj 69)
+    thesis_accuracy:
+      correct: true
+      notes: "Thesis was directionally correct: TMUS as hidden value driver, capex peak passing, consolidation catalysts materializing. FV EUR 35 reasonable (stock reached EUR 33.66 intraday = 96% of FV). FY2025 earnings MEET-to-SOFT MISS on Feb 26: EBITDA AL EUR 45.3B in-line, FY2026 EPS guide EUR 2.20 (below EUR 2.30 beat threshold). Stock has been a solid performer (+22-25% from cost) but E[CAGR] of 6.7% was lowest in portfolio, making it the correct rotation candidate under P16."
+    exit_reason: p16_rotation_lowest_ecagr
+    lesson_learned: "DTE.DE was a successful position (+22.4% in 31 days on final tranche) but demonstrates P16 rotation discipline: even profitable positions should be sold when E[CAGR] is the lowest in the portfolio and pipeline has higher-return alternatives. Total DTE.DE P&L across all tranches (37.62 shares original): TRIM 14 shares (~+EUR 70), TRIM 3 shares (~+EUR 10), TRIM 10 shares (+EUR 67.80), EXIT 10.62 shares (+EUR 64.08) = ~EUR 212 total realized. The position funded several rotations into Tier A compounders."
+    total_dteDE_pnl_all_tranches:
+      original_shares: 37.62
+      original_cost_eur: 26.88
+      total_realized_eur: ~212  # Sum of all trim + exit P&L across all DTE.DE trades
+      note: "DTE.DE was the second position opened (Jan 26). Trimmed 3 times for concentration + rotation, then fully exited. Net profitable across all tranches."
+
 # Partial Sells (Trims) - Not full exits, but record for P&L tracking
 partial_sells:
   - ticker: SHEL.L
@@ -432,18 +461,29 @@ partial_sells:
     pnl_approx_eur: 70.00  # Estimated gain
     reason: "TRIM - Position 11.3% exceeded 7% max limit"
 
+  - ticker: DTE.DE
+    date: 2026-02-26
+    shares_sold: 10
+    shares_remaining: 10.624621
+    price_eur: 33.66
+    proceeds_eur: 336.60
+    pnl_eur: 67.80  # (33.66 - 26.88) * 10 = EUR 67.80
+    pnl_pct: 25.2  # Per share gain vs avg cost EUR 26.88
+    reason: "TRIM - FY2025 earnings MEET-to-SOFT MISS. E[CAGR] 6.0% second worst. MoS 4% fully valued. FY2026 EPS guide EUR 2.20 below beat threshold. Capital freed for higher-E[CAGR] pipeline. Position remains active (10.6 shares for TMUS exposure)."
+    # NOTE: Subsequently FULLY EXITED same day — see closed_positions entry for DTE.DE
+
 # Statistics (auto-calculated by effectiveness_tracker.py)
 statistics:
   # Will be populated by the tool
-  total_closed_positions: 15
-  total_partial_sells: 3
-  total_realized_pnl_eur: 424.00  # Previous 401 + ALL +23 = ~424
-  winners: 8  # SHEL.L +2.3%, LIGHT.AS +13.7%, PFE +1.8%, TATE.L +3.5%, IMB.L +6.9%, UHS +16.2%, VICI +1.7%, ALL +5.9%
+  total_closed_positions: 16
+  total_partial_sells: 4  # DTE.DE trim Feb 26 is now part of closed position (fully exited)
+  total_realized_pnl_eur: 555.88  # Previous 491.80 + DTE.DE final exit +64.08 = 555.88
+  winners: 9  # SHEL.L +2.3%, LIGHT.AS +13.7%, PFE +1.8%, TATE.L +3.5%, IMB.L +6.9%, UHS +16.2%, VICI +1.7%, ALL +5.9%, DTE.DE +22.4%
   losers: 5  # FUTR.L -2.8%, TEP.PA -6.7%, A2A.MI -1.5%, SAN.PA -0.84%, HRB -13.25%
   breakeven: 2  # ENEL.MI 0%, VNA.DE 0%
-  win_rate_pct: 53.3
-  avg_win_pct: 6.4  # (2.3 + 13.7 + 1.8 + 3.5 + 6.9 + 16.2 + 1.7 + 5.9) / 8 = 6.5, rounding
+  win_rate_pct: 56.3
+  avg_win_pct: 8.2  # (2.3 + 13.7 + 1.8 + 3.5 + 6.9 + 16.2 + 1.7 + 5.9 + 22.4) / 9 = 8.27
   avg_loss_pct: -4.9  # (-2.8 + -6.7 + -1.5 + -0.84 + -13.25) / 5
-  avg_holding_days: 8
+  avg_holding_days: 9
   positions_reached_fv: 0
   thesis_accuracy_rate: null

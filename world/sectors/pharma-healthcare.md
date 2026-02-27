@@ -312,6 +312,7 @@ El sector Pharma/Healthcare esta en un momento de transicion historica. Por un l
 | **Watchlist** | **HIK.L** | **thesis/research/HIK.L** | **2026-02-04** | **WATCHLIST - Entry 1400-1450 GBp** |
 | **Watchlist** | **GSK.L** | **thesis/research/GSK.L** | **2026-02-05** | **WATCHLIST - Entry 1850p** |
 | **Watchlist** | **ZTS** | **thesis/research/ZTS/thesis.md** | **2026-02-12** | **WATCHLIST - Entry $110-115. R1 complete, needs R2-R4.** |
+| **Watchlist** | **HALO** | **thesis/research/HALO/** | **2026-02-26** | **R3 COMPLETE. FV $90. SO $65 GATED (Merck PTAB Jun 2026). Royalty platform.** |
 
 ---
 
@@ -393,6 +394,7 @@ El sector Pharma/Healthcare esta en un momento de transicion historica. Por un l
 | 2026-02-05 | GSK.L analizada y anadida a Watchlist | Tier B QS 59, MoS 10% < 20% required. Entry 1850p. Good business, near fair value. |
 | **2026-02-06** | **PFE SOLD - Capital rotation to Tier A** | **QS 47, ROIC < WACC, MoS -3.2% (near 52w high = overvalued). Capital rotated to BYIT.L.** |
 | **2026-02-12** | **ZTS R1 completed. Added to Watchlist. Animal Health subsector added.** | **QS Adj 78 Tier A. FV $140. Entry $110-115. MoS 10% insufficient. 7 compounder criteria met.** |
+| **2026-02-26** | **HALO R1+R2+R3 completed. Added to Watchlist.** | **QS 73/79adj Tier A. FV $90 (post-DA, was $110). SO $65 GATED (Merck PTAB Jun 2026). Royalty platform (ENHANZE rHuPH20). DA STRONG COUNTER: CMS/IRA omission, Alteogen competition. CMS/IRA risk added to pharma R1 checklist.** |
 
 ---
 

@@ -49,6 +49,7 @@ Analisis profundos por sector que complementan la vision macro. Ubicados en `wor
 | business-services.md | EDEN.PA |
 | consumer-discretionary.md | LULU |
 | consumer-staples.md | DOM.L |
+| cybersecurity.md | FTNT (pipeline, R1 complete) |
 | defense-aerospace.md | (pipeline only) |
 | digital-marketplaces.md | MONY.L, AUTO.L |
 | energy.md | (pipeline only) |

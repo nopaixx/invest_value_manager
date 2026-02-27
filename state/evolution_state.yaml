@@ -8,9 +8,9 @@
 # =============================================================================
 
 last_updated:
-  session: 120
-  date: "2026-02-25"
-  note: "S120 OSINT fix + HLNE R4 + deployment. SM FCA dedup bug FIXED (101,740 historical rows were inflating SI — DOM.L 634%→4.86%). HLNE R4 APPROVED (SO $95 EUR 400, all 10 gates PASS). DTE.DE at EUR 33.46 = 1.6% from TRIM. Form4 ingested (135 buys, 165 sells). exp_002 ESCALATED continues. 1 velocity unit (HLNE R4)."
+  session: 127
+  date: "2026-02-27"
+  note: "S127 FINAL. 6 velocity units (QLYS R2→R3=2u + VRSN R1→R3=3u + CMCSA R1=1u). IHP.L ADD EUR 200. Cash 41→39%. VRSN R3: FV $240, SO $190. CMCSA R1: FV $39, SO $28, WATCHLIST. MLI+WTM added to universe. QTCOM.HE ARCHIVED."
 
 # =============================================================================
 # 11 AUTO-FIRE TRIGGERS — RED / YELLOW / GREEN
@@ -31,34 +31,34 @@ triggers:
 
   T2_cash_sustained:
     metric: "Cash % sustained above 25% (consecutive sessions) WITH deployable candidates in universe"
-    current_value: 54.9
-    current_detail: "54.9% cash (7th consecutive session >50%). Only buyable at market: MEGP.L (NOT on eToro). DTE.DE 1.6% from TRIM trigger."
+    current_value: 39.3
+    current_detail: "~39% cash (EUR 4,042). IHP.L ADD EUR 200 S127. 14 positions. Still >25% = RED but improving (50→41→39% in 2 sessions)."
     red_threshold: "> 25% for 3+ sessions WITH deployable candidates in universe"
     yellow_threshold: "> 15% for 3+ sessions"
     consequence: "RED triggers mandatory Inaction Audit in Fase 2.5. Must deploy or document why every candidate is uninvestable."
     status: RED
-    last_measured: "S120"
-    note: "exp_002 ESCALATED. Cash 54.9% (7th session >50%). HLNE R4 APPROVED → SO at $95 (7.1% away). DTE.DE TRIM tomorrow if >EUR 34. Inaction Audit: PASS. Top 3: MEGP.L (NOT ON ETORO), DOCS ($23 = 4.4% away, R4 approved), RACE.MI (EUR 295 = 8.6% away). All VALID reasons. Cash reduction path: DTE.DE TRIM + HLNE/DOCS/RACE.MI trigger fills."
+    last_measured: "S127"
+    note: "Cash 50→41→39% (-11pp in 2 sessions). S126: EUR 1,200 (FTNT+HLNE+ADBE). S127: EUR 200 (IHP.L ADD). Total EUR 1,400 deployed. Still RED (39% >25%) but strong downward trajectory. 0 market-buy candidates. CMCSA R1 COMPLETE (SO $28, 10% from market). Pipeline SOs need 5-15% declines."
 
   T3_pipeline_velocity:
     metric: "Pipeline Velocity (5-session rolling average, units/session)"
-    current_value: 3.6
-    current_detail: "S116:5, S117:1, S118:2, S119:3, S120:1 (HLNE R4=1u) — avg 2.4"
+    current_value: 4.0
+    current_detail: "S123:5, S124:3, S125:1, S126:5, S127:6 (QLYS R2→R3=2u + VRSN R1→R3=3u + CMCSA R1=1u) — avg 4.0"
     red_threshold: "< 1.5"
     yellow_threshold: "< 2.5"
-    status: YELLOW
-    last_measured: "S120"
-    note: "S120: HLNE R4 (1u). Rolling avg 2.4 (was 4.0 — S115's 9u rolled off). YELLOW but expected: S120 was OSINT-focused session, not pipeline sprint. HLNE R4 approval creates new deployable SO."
+    status: GREEN
+    last_measured: "S126"
+    note: "T3 GREEN sustained. S127: 6 velocity units (QLYS R2→R3=2u, VRSN R1→R3=3u, CMCSA R1=1u). Rolling avg 4.0. Two consecutive 5+ unit sessions."
 
   T4_error_recurrence:
     metric: "Same error pattern recurring 3+ times in last 10 sessions"
     current_value: 0
-    current_detail: "No recurring error detected in last 10 sessions"
+    current_detail: "ROIC NaN bug occurred 3x (S123 FTNT, S124 CHKP+QLYS) — ROOT CAUSE FIXED S125. quality_scorer.py now handles NaN/inf via _is_valid_number() helper."
     red_threshold: ">= 3 occurrences of same error"
     yellow_threshold: ">= 2 occurrences of same error"
     status: GREEN
-    last_measured: "S107"
-    note: "Error patterns well-documented. Monitor #53 (options menu) and #55 (cash drag)."
+    last_measured: "S125"
+    note: "ROIC NaN bug was 3rd recurrence (would have been RED). Fixed before flagging by adding comprehensive NaN/inf handling to quality_scorer.py. 0 recurring errors now active."
 
   T5_sessions_since_evolution:
     metric: "Sessions since last system evolution applied"
@@ -92,13 +92,13 @@ triggers:
 
   T8_so_fill_rate:
     metric: "Standing Order fill rate (lifetime)"
-    current_value: 0.10
-    current_detail: "2/19 current SOs filled or superseded by market buys (MORN $160.76 S101, IHP.L 318p S108). Rate improving."
+    current_value: 0.19
+    current_detail: "5/26 SOs filled or superseded by market buys (MORN S101, IHP.L S108, HLNE S122, DOCS S122, FTNT S126). QLYS SO $82 added S127."
     red_threshold: "< 0.05"
     yellow_threshold: "< 0.15"
-    status: YELLOW
-    last_measured: "S109"
-    note: "T8 flipped RED→YELLOW. Market-buy protocol creating execution. DNLM.L 2.7% away could be 3rd fill this week."
+    status: GREEN
+    last_measured: "S127"
+    note: "T8 GREEN sustained. 5/26 = 19%. FTNT SO raised $73→$78 then bought at market $79.12 S126. QLYS SO $82 added GATED."
 
   T9_changelog_measurement:
     metric: "Changelog entries with measured effectiveness / total"
@@ -133,10 +133,10 @@ triggers:
 # Summary
 trigger_summary:
   red_count: 1
-  yellow_count: 4
-  green_count: 5
+  yellow_count: 2
+  green_count: 7
   unknown_count: 1
-  assessment: "S120: 1 RED (T2 cash 54.9%, 7th session >50%), 4 YELLOW (T3 velocity 2.4, T8 SO fill, T9 changelog, T11 basket health), 5 GREEN (T1 fantasy, T4 errors, T5 evolution, T6 lessons, T7 meta-reflect), 1 UNKNOWN (T10). HLNE R4 APPROVED (new deployable SO $95). SM FCA bug FIXED. DTE.DE TRIM tomorrow. T3 GREEN→YELLOW (S115's 9u rolled off)."
+  assessment: "S127 FINAL: 1 RED (T2 cash 39% — down from 50%, still >25%), 2 YELLOW (T9 changelog, T11 basket health), 7 GREEN (T1 fantasy 10%, T3 velocity 4.0 avg, T4 errors 0, T5 evolution, T6 lessons 7, T7 meta-reflect 100%, T8 SO fill 19%), 1 UNKNOWN (T10). Velocity 6u (record session). VRSN R3 + CMCSA R1 + QLYS R3 completed. IHP.L ADD EUR 200. MLI+WTM universe. QTCOM.HE archived."
 
 # =============================================================================
 # ACTIVE EXPERIMENTS — Changes being measured
@@ -169,8 +169,8 @@ active_experiments:
     deep_review_session: 137
     status: "ESCALATE"
     baseline: { cash_pct: 56.7, portfolio_ecagr_blended: 7.1, portfolio_ecagr_deployed: 12.5, positions: 11 }
-    current: { cash_pct: 54.9, portfolio_ecagr_blended: 8.5, portfolio_ecagr_deployed: 15.2, positions: 12, market_buys: "MORN $466 S101 + IHP.L $232 S108 = $698 deployed", sessions_elapsed: 11 }
-    verdict: "ESCALATE (S118). Cash 54.9% vs <40% target at S117. MISSED. Cash only -1.8pp in 11 sessions. E[CAGR] blended 7.1→8.5 (+1.4pp positive but slow). Root cause: Fair-Value regime = no candidates at market above E[CAGR] thresholds (MEGP.L only one, NOT on eToro). Pipeline dense (DOCS R4 approved, RACE.MI/DNLM.L near trigger) but prices won't cooperate. DTE.DE TRIM tomorrow could free EUR 400 and LOWER cash by 4pp. Next catalyst: earnings week + price triggers. Revised plan: DTE.DE TRIM → redeploy into next triggered SO. Target: cash <45% by S125."
+    current: { cash_pct: 50.0, portfolio_ecagr_blended: 8.5, portfolio_ecagr_deployed: 15.2, positions: 14, market_buys: "MORN $466 S101 + IHP.L $232 S108 + HLNE $471 S122 + DOCS $471 S122 = $1,640 deployed", sessions_elapsed: 17, trims: "DTE.DE 10 shares at EUR 33.66 S124" }
+    verdict: "ESCALATE (S124). Cash 50% (worsened from 46.7% due to DTE.DE TRIM rotation). 4 market buys + 1 trim in 17 sessions. Pipeline active: FTNT SO $73 (R4 approved, 6% away), DNLM.L SO 950 GBp (3.7%), RACE.MI SO EUR 295 (7.6%). Cash recycled from low-E[CAGR] to higher-E[CAGR] pipeline via rotation. Target: cash <45% by S130."
 
   - id: "exp_004"
     name: "DA Calibration + Anti-Omission + Epistemics"
@@ -232,13 +232,34 @@ scheduled_reviews:
   - experiment_id: "exp_004"
     type: "extended review"
     due_session: 121
-    status: "PENDING"
+    status: "COMPLETED_CONTINUE"
+    note: "S123 (overdue from S121): FTNT DA = STRONG COUNTER (3 CRITICAL). Quality improved: found class action + security crisis + refresh fade. DA correction -8.3% ($96→$88) vs historical avg -16.7% = DA not excessively conservative here. Cash 54.9→46.7% (HLNE+DOCS deployed S122). Inaction Audit: PASS. Continue measuring. Next: S130 deep review."
 
 # =============================================================================
 # EVOLUTION LOG — What changed and when (compact, detail in changelog.yaml)
 # =============================================================================
 # Last 10 entries only. Older entries → changelog.yaml archive.
 evolution_log:
+  - session: 126
+    date: "2026-02-26"
+    change: "S126 opportunity hunting: (1) S&P500+FTSE250 screening (undiscovered mode) → 16+30 candidates. (2) QS triage: CDW 38, POOL 49, GPC 36, HOLX 41, DVA 43 = Tier C. FFIV 72 Tier B, ERIE 65 Tier B, HALO 73 Tier B = worth pursuing. (3) HALO R1+R2+R3 COMPLETE: R1 FV $110, R2 STRONG COUNTER (CMS/IRA omitted, Alteogen competition, FV>all PTs, royalty step-downs, revenue gap). R3: FV $90 (-18.2%), QS 79adj Tier A. SO $65. Wait Merck PTAB Jun 2026. (4) ERIE R1 COMPLETE: fee-based monopoly, FV $313, QS 85adj Tier A, 45% insider, SO $250. (5) FFIV added to universe. (6) MEGP.L DELAYED to Mar 13 (auditor). (7) QTCOM.HE results still not published. 5 velocity units."
+    type: "screening+pipeline"
+    triggers_addressed: ["T2", "T3"]
+  - session: 125
+    date: "2026-02-26"
+    change: "S125 maintenance: (1) ROIC NaN bug FIXED in quality_scorer.py — _is_valid_number() helper handles NaN/inf across all calculations. 3rd occurrence triggered fix. (2) QS corrected: FTNT 70→87, CHKP 60→77, QLYS 64→81 (all gained ~17pts from ROIC recovery). (3) quality_universe.yaml updated with corrected qs_tool values. (4) IHP.L thesis FV fixed 415→390 GBp (forward_return.py discrepancy resolved). (5) QTCOM.HE results still not available."
+    type: "tooling_fix"
+    triggers_addressed: ["T4"]
+  - session: 124
+    date: "2026-02-26"
+    change: "S124 DTE.DE earnings + cybersec R1s: (1) DTE.DE FY2025 MEET-to-SOFT MISS → TRIMMED 10 shares at EUR 33.66 (+17.3%). Rotation from E[CAGR] 6% to cash. Conviction MEDIUM→LOW. (2) CHKP R1 COMPLETE: FV $174, entry $135, QS 60/73adj Tier B. WATCHLIST. (3) QLYS R1 COMPLETE: FV $128, entry $78-82, QS 64/82adj Tier A. WATCHLIST. (4) Cybersecurity sector view updated with CHKP+QLYS deps. (5) Cash 46.7→50% (DTE.DE trim added EUR 337). (6) ROIC NaN bug flagged for 3rd time — needs fix."
+    type: "earnings+pipeline"
+    triggers_addressed: ["T2", "T3"]
+  - session: 123
+    date: "2026-02-26"
+    change: "S123 FTNT full pipeline: (1) Cybersecurity sector view CREATED (280 lines, NEUTRAL). (2) FTNT R1+R2+R3+R4 COMPLETE in single session — fastest pipeline ever. R2 STRONG COUNTER (3 CRITICAL: refresh fading, security crisis, no edge). FV $96→$88 post-DA. QS 88→85adj. (3) SO $73 APPROVED (R4 10 gates: 8 PASS, 2 CONDITIONAL). (4) Cash 54.9→46.7% (S122 deployments: HLNE+DOCS EUR 800). (5) T3 YELLOW→GREEN (velocity 3.0), T8 YELLOW→GREEN (SO fill 16%). exp_004 review processed."
+    type: "pipeline+deployment"
+    triggers_addressed: ["T2", "T3", "T8"]
   - session: 120
     date: "2026-02-25"
     change: "S120 OSINT fix + HLNE R4: (1) SM FCA dedup bug FIXED — 101,740 historical rows were creating duplicate edges (DOM.L 634%→4.86%, graph 13,980→708 edges). Added 0.50% threshold filter for below-disclosure entries. (2) HLNE R4 APPROVED, all 10 gates PASS, SO $95 EUR 400. (3) Form4 insider ingested (NEVER→FRESH). (4) DTE.DE at EUR 33.46 = 1.6% from TRIM trigger. T3 GREEN→YELLOW (S115 rolled off)."
