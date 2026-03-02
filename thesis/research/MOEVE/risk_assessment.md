@@ -1,8 +1,8 @@
 # Risk Assessment: Moeve S.A. (antigua Cepsa)
 
-> **Fecha:** 2026-02-07
+> **Fecha:** 2026-02-07 | **Actualizado:** 2026-03-02 (S132 — Iran crisis)
 > **Evaluacion independiente adversarial de riesgos**
-> **Risk Score: HIGH (6 riesgos importantes + 2 criticos)**
+> **Risk Score: HIGH (8 riesgos importantes + 2 criticos)**
 
 ---
 
@@ -98,6 +98,24 @@ Moeve presenta un perfil de riesgo elevado con 2 riesgos CRITICOS (FCF negativo 
 
 ---
 
+### NUEVO — CRISIS IRAN (S132, 2026-03-02)
+
+#### R12: Cierre Prolongado de Hormuz — Input Cost Surge
+- **Probabilidad:** MEDIA-ALTA (65% de duracion >2 semanas)
+- **Impacto:** MEDIO-ALTO
+- **Descripcion:** El Estrecho de Hormuz esta cerrado tras Operation Epic Fury. 20M bpd de transito interrumpido. Aunque 84% va a Asia, los precios del crudo son globales. Brent +7.6% a $78.41. Si persiste >1 mes, Brent podria llegar a $85-95. Cada $1/bbl sube input costs de Moeve ~EUR 20-30M/ano. Si el alza de costes supera la expansion de cracks, el EBITDA neto podria CAER.
+- **Mitigante:** Moeve no depende de crudo del Golfo directamente. Fuentes alternativas (Mar del Norte, WAFR, Libia). Cracks actualmente exceden subida de costes.
+- **Impacto en valoracion:** -5 a +5% (depende de duracion — podria ser positivo o negativo)
+
+#### R13: Contagio Geopolitico a Argelia — Upstream Risk
+- **Probabilidad:** BAJA-MEDIA (15-25%)
+- **Impacto:** MEDIO
+- **Descripcion:** Moeve mantiene 34,400 bpd de produccion upstream en Argelia. Argelia tiene relaciones complejas en MENA (OPEC+, cercanias con Rusia/Iran). Si el conflicto se extiende por la region, riesgo de interrupciones de produccion, cambios regulatorios o expropiacion. Argelia suministra ~20% del gas de Espana via Medgaz.
+- **Mitigante:** Upstream es solo 8% del EBITDA. Argelia ha sido estable internamente. No hay indicios de tension directa.
+- **Impacto en valoracion:** -3%
+
+---
+
 ### MENORES (Monitor)
 
 #### R9: Merger con Galp - Riesgo de Ejecucion
@@ -128,8 +146,9 @@ Moeve presenta un perfil de riesgo elevado con 2 riesgos CRITICOS (FCF negativo 
 | Gobernanza | R7 (IMPORTANTE) | IMPORTANTE |
 | Iliquidez | R2 (CRITICO) | CRITICO |
 | Ejecucion | R9 (MENOR) | MENOR |
+| **Geopolitico (S132)** | **R12 (IMPORTANTE), R13 (IMPORTANTE)** | **IMPORTANTE** |
 
-**Risk Score: HIGH** (2 criticos + 6 importantes)
+**Risk Score: HIGH** (2 criticos + 8 importantes)
 
 ---
 
