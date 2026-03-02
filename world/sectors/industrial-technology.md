@@ -120,6 +120,7 @@ The best companies in this sector share several characteristics that make them e
 |------|--------|-------------|-------------|--------|
 | Universe | ROP | thesis/research/ROP/thesis.md | 2026-02-12 | R4_APPROVED |
 | Universe | ADDT-B.ST | thesis/research/ADDT-B.ST | 2026-02-19 | R3 COMPLETE. QS 77 Tier A lower, FV SEK 225, entry SEK 180. Crisis only (+79% above). |
+| Universe | MSA | thesis/research/MSA/thesis.md | 2026-02-28 | R1 COMPLETE. QS 73 Tier B. FV $144, entry $120. AT_FV at $195 (38% above entry). PFAS risk. |
 
 ---
 
@@ -176,6 +177,7 @@ Note: All 4 Nordic serial acquirers trade at 30-42x P/E. All require "crisis onl
 | Ticker | Empresa | FV | Entry | MoS Req | Thesis | Fecha Analisis |
 |--------|---------|-----|-------|---------|--------|----------------|
 | ADDT-B.ST | Addtech AB | SEK 225 | SEK 180 | 20% | thesis/research/ADDT-B.ST/thesis.md | 2026-02-19 |
+| MSA | MSA Safety Inc. | $144 | $120 | 17% | thesis/research/MSA/thesis.md | 2026-02-28 |
 
 ---
 

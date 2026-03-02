@@ -5,10 +5,10 @@
 # =============================================================================
 
 system:
-  system_version: "4.2.0"
-  framework_version: "4.2"
-  last_session: 2026-02-27
-  session_number: 127
+  system_version: "4.7.0"
+  framework_version: "4.7"
+  last_session: 2026-03-02
+  session_number: 132
   status: active
 
   framework_v4_status:
@@ -50,28 +50,23 @@ system:
       - { ticker: GL, score: 52, tier: C, status: "FV $191. SEC+DOJ cleared." }
 
   last_session_summary: |
-    Session 127 (2026-02-27). VIGILANCE + PIPELINE ADVANCEMENT.
-    COMPLETED:
-      1. News scan: 0 CRITICAL. NVO ambulance chasing (NOT KC). ADBE new 52wL. LULU governance chaos.
-      2. Market pulse: MORN +5.74% (post-Q4 re-rating). FTNT flat since entry. NVO -21.8% near 52wL.
-      3. QLYS R2+R3 COMPLETE. FV $128→$110 (-14.1%). SO $82 GATED Q1 billings. DA MODERATE COUNTER: MSFT Defender loss omitted, platformization severity, hyperscaler VM proven.
-      4. DNLM.L SO DOWNGRADED ACTIVE→BORDERLINE (E[CAGR] ~9% at trigger, 6th UK position).
-      5. Net exposure reasoning: 59% long, 0% short, 41% cash. Fair-Value regime confirmed.
-      6. Rotation check: LULU -8% HOLD through Mar 31. MORN 5.9% HOLD. No superior destination.
-      7. EDEN.PA Brazil PAT: won initial legal challenge (9/12 issuers). Could soften 2026 headwind.
-      8. DA accuracy tracker: QLYS entry. Total 23.
-      9. OPPORTUNITY SCAN: MLI (QS 65 Tier B, ROIC 36.8%, 2 analysts) + WTM (QS 45→~55 adj) added to universe.
-      10. VRSN R1→R2→R3 COMPLETE (single session). FV $255→$240 post-DA (-5.9%). QS 86adj Tier A. WIDE moat. SO $200→$190. DA MODERATE: BRK sold 32% at $267 (CRITICAL omission), FCF margin peak, receivables anomaly, no informational edge.
-      11. QTCOM.HE ARCHIVED. ANF Q4 earnings gate framework CREATED. quality_universe.py stats bug FIXED.
-      12. ORI (QS 37) + FCN (QS 52) scored — NOT ADDED (below threshold).
-      13. Sector gaps identified: 17 uncovered sectors. 0 Asia/Japan in 273 entries.
-      14. IHP.L ADD EUR 200 at 320p. 6th E[CAGR] deployment. Position 1.9%→3.9%. UK sizing cap removed.
-      15. KNEBV.HE triage: AT_FV (P/E 34, rev growth 1%). Discarded.
-      16. UTHR earnings check: EPS BEAT +13%, rev miss -2%. $4B target 2027. TreSMI moat extension. Price $499 > FV $484 = NOT deployable.
-      17. CMCSA R1→R2→R3 COMPLETE. FV $39.37→$33 post-DA (-16.2%). Two DAs converged (MODERATE+STRONG). QS 60 Tier B. Parks 14x→12x, FCF $15B→$14B norm, governance 12%, Peacock $4B. Edge THIN (Error #49). SO $28→$26 GATED Q1 2026 earnings (late April). DA tracker entry #25.
-    Velocity: 8 units (QLYS R2→R3 = 2u + VRSN R1→R2→R3 = 3u + CMCSA R1→R2→R3 = 3u). Target 3 EXCEEDED. MEGA SESSION.
-    Portfolio: 14 positions, EUR 4,042 cash (~39.3%). Long 60.7%.
-    Next: KLR.L Mar 3 HARD GATE. ANF Q4 Mar 4. DOM.L Mar 5. LULU Mar 31.
+    Session 132 (2026-03-02). CRISIS SESSION — Operation Epic Fury.
+    CRITICAL: US-Israel strikes on Iran (Feb 28-Mar 1). Khamenei killed. Strait of Hormuz closed.
+    EU markets -1.8-2.3%, S&P futures -1.7%, Oil +6-13%, VIX 23.27 (elevated from 19.9).
+    DELIVERABLES:
+      1. P0 CRISIS ASSESSMENT: All 14 positions analyzed for Iran impact. No KC triggered.
+         Direct exposure: NVO (DKK→oil costs), EDEN.PA (EU consumer), AUTO.L (UK consumer).
+         Most resilient: ADBE/DOCS/HLNE (US digital, minimal oil/geopolitical exposure).
+      2. Earnings frameworks VERIFIED: KLR.L Mar 3 (HARD GATE), ANF Mar 4, DOM.L Mar 5.
+         All frameworks exist and are fresh. Crisis may overshadow results.
+      3. ADBE Q1 earnings Mar 12 DISCOVERED — needs framework by ~Mar 10 (Error #13).
+      4. Net exposure: 60/0/40 MAINTAINED and JUSTIFIED by crisis (cash = deployment asset).
+      5. Rotation check: NO ROTATION. LULU worst (-7.8%) but on probation. 0 pipeline viable.
+      6. Pipeline velocity: 0 units (justified — crisis monitoring, poor Section A candidates).
+    Cash 39.5% = STRATEGIC in crisis context. Multiple SOs within 5-15% if selloff deepens.
+    RACE.MI 5.8% from trigger — could activate this week.
+    Next: Process KLR.L/ITRK.L Mar 3. Process ANF Mar 4. Process DOM.L Mar 5.
+    Prepare ADBE framework by Mar 10. Monitor Iran escalation daily.
 
   # NET EXPOSURE REASONING — Principio 13. Re-evaluate EVERY session.
   # This is NOT a target or range. It's the CONCLUSION of reasoning.
@@ -84,18 +79,23 @@ system:
       net_pct: 60.7
       gross_pct: 60.7
     reasoning: |
-      Session 127 (2026-02-27): 59% long, 0% short, 41% cash. Fair-Value regime confirmed.
-      Macro: VIX 19 (normal), US10Y 4.02% (moderate), Gold +79% YoY (geopolitical hedge demand),
-      DXY -7.6% YoY (weak dollar, positive for EU positions), S&P -1.3% from highs.
-      No crisis signals, no crash opportunity. Cash 41% justified:
-        (1) EUR 1,200 deployed yesterday (FTNT buy + HLNE/ADBE ADDs)
-        (2) 0 candidates pass buyable-now threshold at current prices
-        (3) Pipeline SOs require 5-15% declines to activate
-        (4) DNLM.L downgraded to BORDERLINE (UK concentration + marginal E[CAGR])
-      Active deployment paths: RACE.MI EUR 295 (7.7%), REN.AS EUR 24.50 (15%).
-      No short thesis — justified (no catalyst with date identified).
-      Rotation check: LULU (-8% E[CAGR]) HOLD through Mar 31 earnings. No superior destination.
-    last_updated: 2026-02-27
+      Session 132 (2026-03-02): 60/0/40 MAINTAINED. CRISIS CONTEXT — Operation Epic Fury.
+      Macro SHIFT: VIX 23.27 (elevated from 19.9), Oil surging +6-13% (Hormuz closed), Gold $5,407 (+86% YoY),
+      EU markets -1.8-2.3%, S&P futures -1.7%. GEOPOLITICAL RISK = ELEVATED.
+      Cash 39.5% NOW STRATEGIC (was previously RED trigger):
+        (1) Crisis may deepen 5-10% over coming days/weeks → brings SOs into range
+        (2) RACE.MI 5.8% from EUR 295 trigger — could activate this week
+        (3) Multiple SOs within 10-15%: SPGI $420 (5%), DSY.PA EUR 38 (7%), VLTO $80 (9%)
+        (4) If selloff reaches 10-15%, several Tier A candidates become market buys
+        (5) Zero candidates at market pre-crisis; LOWER prices from crisis = OPPORTUNITY
+      DO NOT deploy into crisis Day 1. Wait for:
+        - Hormuz resolution signal (reopening or workaround)
+        - VIX peak (>30 = max fear, typically deployment zone)
+        - Earnings season this week provides anchors (KLR.L, ANF, DOM.L)
+      No short thesis — JUSTIFIED even more (crisis shorts = catching falling knife with unknown bottom).
+      Rotation check: NO ROTATION. Quality positions HOLD. LULU worst but on probation through Mar 31.
+      Inaction Audit: PASS — crisis patience is DEPLOYMENT STRATEGY, not inaction.
+    last_updated: 2026-03-02
     history:
       - date: 2026-02-25
         net_pct: 45.1
@@ -127,9 +127,9 @@ system:
   # This is NOT a plan. It's a compass bearing. Replace when context changes.
   # Ask: "Given what I know TODAY, is this still the right priority?"
   strategic_direction:
-    current: "Capital deployment bidireccional activo. Poblar universo short + reducir cash ocioso a nivel justificado."
-    rationale: "v4.2 deployed. 60% cash documentado como EXCESIVO. 25+ standing orders pero entries lejanas. Short universe VACIO (0 candidates). Prioridades: 1) Poblar short universe via screening, 2) Revisar entries de SOs para realismo, 3) Net exposure reasoning cada sesion con razonamiento explicito (P13)."
-    set_date: 2026-02-18
+    current: "BASKETS ARE THE FUND (v4.7). Descubrir mejores temas seculares, construir baskets, mantener como entes vivos. Deployment via basket priorities. Theme discovery continuo."
+    rationale: "v4.7 deployed. CRISIS CONTEXT: Operation Epic Fury creates potential deployment window. Cash 39.5% NOW STRATEGIC — multiple SOs within 5-15% if selloff deepens. 6 baskets active. EU Value Recovery DYING (RACE.MI 5.8% from trigger = best crisis path). Pharma DECLINING. US Quality Compounders strongest (6 positions). Prioridades: 1) CRISIS MONITORING — daily for escalation/resolution, 2) Deploy into quality IF selloff deepens 5-10%, 3) Process earnings this week (KLR.L, ANF, DOM.L) — crisis may compress prices to SO levels, 4) Prepare ADBE framework Mar 10, 5) Theme discovery PAUSED during crisis (resume when VIX <20)."
+    set_date: 2026-03-02
     review_protocol: |
       Every Fase 0, BEFORE executing anything, ask:
       1. Has something changed that invalidates this direction?
@@ -143,9 +143,9 @@ system:
     anti_bias: "This direction was set Feb 15. Do NOT anchor to it. Fresh eyes each session."
 
 macro_snapshot:
-  last_update: 2026-02-25
-  themes: ["Fed/BCE pausa 4.25-4.50%/2.75%", "S&P 6,890 (-1.6% from ATH)", "Gold $5,212 (+83.7% 12m — massive institutional hedging)", "DXY 97.76 (-9.1% 12m — weak USD)", "VIX 19.54 moderate stable", "US 10Y 4.03% declining", "2Y-10Y +0.55% positive curve", "Oil $65.83 moderate"]
-  risks: ["NVO CagriSema FAILED — KC#1 triggered, HOLD LOW pending human", "DTE.DE earnings TODAY Feb 26", "LULU tariff 15% + SCOTUS IEEPA ruling (Section 122 replacement) + no CEO", "ANF Q4 Mar 4 (pipeline gate)", "DOM.L FY25 Mar 5 (8 days)", "EDEN.PA Italy KC#6 (commission cap + fraud)", "AI disruption wave (MONY.L/BYIT.L/ADBE) — BCG classifies auto marketplaces as Breached", "DOJ antitrust LYV trial Mar 2 (short PAUSED)", "Gold surge $5,212 = institutional hedging signal"]
+  last_update: 2026-03-02
+  themes: ["OPERATION EPIC FURY — US-Israel strikes Iran, Khamenei killed, Hormuz closed", "VIX 23.27 (elevated from 19.9)", "Oil $71.88 surging (+6-13% crisis premium)", "Gold $5,407 (+86% YoY — crisis + institutional hedging)", "EU markets -1.8-2.3% Monday open", "S&P futures -1.7%", "Fed/BCE pausa 4.25-4.50%/2.75%", "DXY 97.7 (-7.7% YoY — weak USD)", "US 10Y 3.96% declining"]
+  risks: ["IRAN CRISIS ESCALATION — Hormuz closure duration unknown, military response possible", "Oil supply shock if Hormuz >7 days — global recession risk", "LULU tariff 15% + no CEO + Mar 31 MAKE-OR-BREAK", "ADBE Q1 Mar 12 — no framework yet (Error #13)", "DOM.L FY25 Mar 5 (KC#1 EBITDA <£125M)", "EDEN.PA Italy KC#6 + EU consumer weakness from oil shock", "NVO CagriSema FAILED — HOLD LOW, Wegovy pill ramp Q1-Q2", "AI disruption wave (MONY.L/BYIT.L/ADBE)", "Multiple UK positions vulnerable to crisis selloff (DOM.L, MONY.L, AUTO.L, BYIT.L, IHP.L)"]
 
 closing_criteria:
   - "12+ months underperformance >3pp annualized vs MSCI World + MSCI Europe blend"

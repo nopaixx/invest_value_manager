@@ -1,8 +1,10 @@
-# Session Protocol v4.6
+# Session Protocol v4.7
 
 > Auto-loaded. Flujo de sesion y reglas de comportamiento criticas.
 > Detalle de fases: `.claude/skills/session-phases/SKILL.md`
 > Session planner: `.claude/skills/session-planner/SKILL.md`
+> **v4.7: Baskets ARE the fund.** The portfolio revolves around thematic baskets (P17).
+> Primary CIO job: discover best themes, build baskets, maintain as living entities.
 
 ---
 
@@ -19,8 +21,8 @@
 ## Flujo de Fases
 
 ```
-FASE 0: Calibracion v4.6
-  → Leer principles.md (P1-P16) + precedentes recientes + pipeline_tracker
+FASE 0: Calibracion v4.7
+  → Leer principles.md (P1-P17) + precedentes recientes + pipeline_tracker
   → **FASE 0.0b: META-CONSCIOUSNESS CHECK** (30 seconds, EVERY session)
     → Read `state/evolution_state.yaml` → last entry in evolution_log
     → 1. What improved since last session? (last evolution_log entry)
@@ -35,9 +37,16 @@ FASE 0: Calibracion v4.6
     → LONGS: Si TRIGGERED (precio <= trigger): pre-flight 6 gates → PRIORIDAD MAXIMA
     → SHORTS: Si TRIGGERED (precio >= trigger): pre-flight 6 gates → PRIORIDAD MAXIMA
     → Si NEAR (razonar sobre contexto): alerta + pre-flight preparado
-  → **BASKET CONTEXT** (state/thematic_baskets.yaml)
-    → Read basket assignments, shared risks, basket kill conditions
-    → Reference baskets in deployment reasoning (which basket is underfunded vs target?)
+  → **BASKET HEALTH CHECK** (P17 — primary lens, state/thematic_baskets.yaml)
+    → Read ALL baskets: status, positions, pipeline, shared risks, kill conditions
+    → For EACH active basket: Is the theme still alive? Any KCs approaching? E[CAGR] trend?
+    → basket_dashboard.py --health → flags, allocation drift, basket-level drawdowns
+    → Identify: which baskets are underfunded? Which themes are strengthening/weakening?
+    → Deployment priority flows from basket conviction, not just individual stock E[CAGR]
+    → **THEME DISCOVERY SCAN** (weekly, or when cash >15%):
+      → Are there secular themes I'm NOT invested in that show >30% CAGR potential?
+      → Sources: macro_fragility.py, smart_money.py discover, sector views, OSINT
+      → If new theme identified with 3+ candidates → flag for basket formation
   → Self-check: listo para razonar desde principios?
   → **EPISTEMICS** (`.claude/skills/epistemics-protocol/SKILL.md`):
     → Edge Test (pre-BUY): "What do I know that market doesn't?" + "What would falsify?"
@@ -61,15 +70,23 @@ FASE 1: Vigilancia
 FASE 2: Estado del Portfolio
   → portfolio_stats.py (muestra long + short + net/gross exposure)
   → effectiveness_tracker.py --summary + system state
-  → basket_dashboard.py --health (basket allocation vs targets, health flags)
+  → basket_dashboard.py --health (basket health, allocation, theme vitality flags)
+  → **BASKET-LEVEL CHECKS (P17):**
+    → For each basket: theme vitality (alive/declining/dead?), E[CAGR] trend, composition quality
+    → Unassigned positions: should they join an existing basket, form a new one, or be rotation candidates?
+    → Basket pipeline: are there candidates ready to deploy into underfunded baskets?
   → **DRAWDOWN CHECKS:**
-    → Basket drawdown: if ANY basket -30% from cost → mandatory review (KCs + thesis + correlation)
+    → Basket drawdown: if ANY basket -30% from cost → mandatory review (KCs + thesis + correlation + theme vitality)
     → Portfolio drawdown: if total -20% → defensive review (all positions, regime re-evaluation)
     → These trigger ANALYSIS, not stop-losses
 
 FASE 2.5: Rotation Check + Net Exposure Reasoning (P13)
   → forward_return.py --basket (incluye shorts) → bottom 3 → pipeline health → cash deployment → conviction update
-  → **BASKET REBALANCE CHECK**: basket_dashboard.py --rebalance → identify underfunded baskets vs meta_portfolio targets
+  → **BASKET ROTATION CHECK (P17):**
+    → basket_dashboard.py --rebalance → allocation drift per basket
+    → For each basket: Is allocation consistent with CURRENT conviction? (no fixed targets — reason each session)
+    → Cross-basket: Is capital flowing to the strongest themes? Should any basket be killed/born?
+    → Within-basket: weakest position vs best pipeline candidate → rotate if +3pp E[CAGR]
   → **NET EXPOSURE REASONING** (OBLIGATORIO cada sesion — Principio 13):
     → Leer system.yaml → net_exposure.reasoning (estado anterior)
     → macro_fragility.py world (datos macro frescos)
@@ -106,9 +123,15 @@ FASE 2.5.7: Smart Money Check (si stale, cada 3 dias shorts / 90 dias 13F)
       - Sector view update: si "Empresas Objetivo" incluye europeas nuevas → capturar holders de las que priorizo
       - World view: si macro-analyst identifica oportunidad sectorial EU → capturar holders de los nombres que menciono
 
-FASE 2.7: Universe Work + Fragility Scan + R1 PROCESSING
+FASE 2.7: Universe Work + Fragility Scan + R1 PROCESSING + THEME DISCOVERY
   → quality_universe.py stats/stale → decidir + ejecutar algo HOY
   → **EXPANSION**: batch_scorer.py --index {INDEX} --new-only --add-to-universe (si hay indices no cubiertos)
+  → **THEME DISCOVERY (P17 — weekly or when basket count < 3 or cash > 15%)**:
+    → Ask: "What secular mega-trends are producing >30% CAGR companies right now?"
+    → Sources: sector views scan, macro_fragility.py, smart_money.py discover, WebSearch for emerging themes
+    → If theme found with 3+ QS>=55 candidates in universe → propose basket formation
+    → If existing basket theme is exhausting → flag for decline/death evaluation
+    → R1 priority should FAVOR candidates that fill underfunded baskets over orphan stocks
   → **FRAGILITY SCAN** (semanal, OBLIGATORIO): quality_universe.py --fragility
     → Evaluar candidatos short del universe + sector views
     → Si fragility_watch vencido → ejecutar scan como parte del universe work
@@ -138,10 +161,15 @@ FASE 4: Acciones
   → Shorts: si catalizador inminente + thesis aprobada → ejecutar
 
 FASE 5: Meta-Reflexion (OBLIGATORIO al final)
-  → Pipeline tracker, cumplimiento v4.6, auditoria delegacion, universe work, auto-mejora
+  → Pipeline tracker, cumplimiento v4.7, auditoria delegacion, universe work, auto-mejora
   → Shorts: effectiveness separada + Sharpe total (long + short)
   → **NET EXPOSURE AUDIT**: ¿Razone sobre exposicion neta hoy? ¿Actualice system.yaml? ¿La decision fue explicita?
   → **CAPITAL OCIOSO AUDIT** (P14): ¿Cuanto cash hay? ¿Ejecute screening L+S? ¿Pipeline suficiente?
+  → **BASKET HEALTH AUDIT** (P17 — OBLIGATORIO cada sesion):
+    → ¿Todos los baskets siguen con tema vivo? ¿Algun basket deberia morir?
+    → ¿Hay posiciones sin basket (orphans)? ¿Deberian formar uno nuevo o rotar?
+    → ¿Hice theme discovery esta semana? ¿Hay temas emergentes que estoy ignorando?
+    → ¿La asignacion por basket refleja mi conviccion ACTUAL o es inercia historica?
   → **ZERO-BASE REVIEW (quarterly — every 30 sessions)**
     → Ask: "If I had EUR 10K today with no positions, what portfolio would I build?"
     → Compare against actual portfolio

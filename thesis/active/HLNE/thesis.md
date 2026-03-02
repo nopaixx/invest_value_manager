@@ -1,5 +1,7 @@
 # HLNE - Hamilton Lane Incorporated
 
+> **Fair Value:** $110 (R3 post-DA, was $120 R1)
+
 ## TL;DR
 
 Hamilton Lane is a high-quality alternative asset management firm (QS 86 Tier A) trading at 52-week low ($107, -40% from high) despite strong fundamentals: AUM $146B (+8% YoY), FEAUM $79B (+11%), FRE +37%, management fees growing 14%. The decline appears driven by multiple compression from elevated 2024 valuation (P/E ~35x to current 19x) and broad private equity sector sentiment weakness (fundraising drought, slow exits), NOT fundamental deterioration. Market implies only 3.4% FCF growth vs 21.5% historical. Compelling asymmetry, but the standard DCF is HIGH SENSITIVITY (TV 74.5% of EV, FV Spread 77%), so valuation anchored on fee-based earnings and reverse DCF rather than point-estimate DCF.
@@ -314,7 +316,7 @@ Even if I haircut the lowest growth rate (14% fee revenue) by 50%, I get 7% grow
 DCF is UNRELIABLE as point estimate. FRE multiple is more anchored because it uses peer-comparable data.
 I weight FRE multiple higher (50%) because for asset managers, fee-based earnings multiples are the industry-standard valuation approach.
 
-**Fair Value: $120/share (rounded from $120.00)**
+**Fair Value: $110/share (R3 post-DA, was $120 R1)**
 
 ### DCF Sensitivity Assessment
 

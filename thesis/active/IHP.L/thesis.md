@@ -1,5 +1,6 @@
 # IHP.L - IntegraFin Holdings PLC
 
+> **Fair Value:** 390 GBp (R3 post-DA, was 415p R1)
 > R1 Fundamental Analysis | Date: 2026-02-20
 > Analyst: fundamental-analyst (opus)
 > Sector View: world/sectors/uk-adviser-platforms.md
@@ -361,7 +362,7 @@ MoS: (390-315)/390 = 19.2%
 | Assumption | Revenue margin compression accelerates (19bps by FY28). FUA growth slows. Costs miss target. | FUA +12%/yr, margin compression decelerates per guidance, costs +3%/yr | FUA +15%/yr (market rally + strong flows). Margin stabilizes. M&A optionality |
 | FY28E EPS | 20p | 26p | 33p |
 | FV Multiple | 17x | 21x | 24x |
-| **FV** | **340p** | **415p (weighted)** | **510p** |
+| **FV** | **340p** | **390p (R3 post-DA, was 415p)** | **510p** |
 | **Probability** | **25%** | **50%** | **25%** |
 
 ```
@@ -466,7 +467,7 @@ E[CAGR] of 13.2% exceeds 12% threshold for Tier A deployment per framework.
 
 ## Veredicto: WATCHLIST with Standing Order Recommendation
 
-**At 315p, IHP.L offers 24% MoS vs FV 415p with E[CAGR] 13.2% -- above the 12% Tier A threshold.**
+**At 315p, IHP.L offers 19% MoS vs FV 390p (R3 post-DA) with E[CAGR] ~19% -- above the 12% Tier A threshold.**
 
 However, I recommend WATCHLIST (not immediate BUY) for these reasons:
 

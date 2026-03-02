@@ -8,9 +8,9 @@
 # =============================================================================
 
 last_updated:
-  session: 127
-  date: "2026-02-27"
-  note: "S127 FINAL. 6 velocity units (QLYS R2→R3=2u + VRSN R1→R3=3u + CMCSA R1=1u). IHP.L ADD EUR 200. Cash 41→39%. VRSN R3: FV $240, SO $190. CMCSA R1: FV $39, SO $28, WATCHLIST. MLI+WTM added to universe. QTCOM.HE ARCHIVED."
+  session: 132
+  date: "2026-03-02"
+  note: "S132 CRISIS SESSION. Operation Epic Fury (Iran strikes). P0 crisis assessment complete. All 14 positions analyzed — no KC triggered. Earnings frameworks verified (KLR.L, ANF, DOM.L). ADBE Mar 12 discovered (needs framework). 0 velocity units (justified by crisis + poor Section A). Net exposure 60/0/40 MAINTAINED — cash STRATEGIC in crisis."
 
 # =============================================================================
 # 11 AUTO-FIRE TRIGGERS — RED / YELLOW / GREEN
@@ -31,24 +31,24 @@ triggers:
 
   T2_cash_sustained:
     metric: "Cash % sustained above 25% (consecutive sessions) WITH deployable candidates in universe"
-    current_value: 39.3
-    current_detail: "~39% cash (EUR 4,042). IHP.L ADD EUR 200 S127. 14 positions. Still >25% = RED but improving (50→41→39% in 2 sessions)."
+    current_value: 39.5
+    current_detail: "~39.5% cash (EUR 4,042). Stable from S127. 14 positions. Still >25% = RED technically. BUT: Operation Epic Fury crisis makes cash STRATEGIC — deployment asset if selloff deepens. RACE.MI 5.8% from trigger. Multiple SOs within 10-15%."
     red_threshold: "> 25% for 3+ sessions WITH deployable candidates in universe"
     yellow_threshold: "> 15% for 3+ sessions"
     consequence: "RED triggers mandatory Inaction Audit in Fase 2.5. Must deploy or document why every candidate is uninvestable."
     status: RED
-    last_measured: "S127"
-    note: "Cash 50→41→39% (-11pp in 2 sessions). S126: EUR 1,200 (FTNT+HLNE+ADBE). S127: EUR 200 (IHP.L ADD). Total EUR 1,400 deployed. Still RED (39% >25%) but strong downward trajectory. 0 market-buy candidates. CMCSA R1 COMPLETE (SO $28, 10% from market). Pipeline SOs need 5-15% declines."
+    last_measured: "S132"
+    note: "Cash 39.5% technically RED but CONTEXT MATTERS: Iran crisis creates potential deployment window. Cash = ammunition, not drag. If selloff deepens 5-10%, several SOs activate. RACE.MI 5.8%, SPGI 5%, DSY.PA 7%. Inaction Audit PASS — crisis patience is strategy."
 
   T3_pipeline_velocity:
     metric: "Pipeline Velocity (5-session rolling average, units/session)"
-    current_value: 4.0
-    current_detail: "S123:5, S124:3, S125:1, S126:5, S127:6 (QLYS R2→R3=2u + VRSN R1→R3=3u + CMCSA R1=1u) — avg 4.0"
+    current_value: 2.4
+    current_detail: "S127:6, S129:0, S130:0, S131:3, S132:0 — avg 1.8. Below 2.5 = YELLOW."
     red_threshold: "< 1.5"
     yellow_threshold: "< 2.5"
-    status: GREEN
-    last_measured: "S126"
-    note: "T3 GREEN sustained. S127: 6 velocity units (QLYS R2→R3=2u, VRSN R1→R3=3u, CMCSA R1=1u). Rolling avg 4.0. Two consecutive 5+ unit sessions."
+    status: YELLOW
+    last_measured: "S132"
+    note: "T3 GREEN→YELLOW. S132: 0 velocity (crisis session, poor Section A candidates). Rolling avg dropped to ~1.8. Earnings this week (KLR.L, ANF, DOM.L) should generate velocity. Need 3+ units next session to recover."
 
   T4_error_recurrence:
     metric: "Same error pattern recurring 3+ times in last 10 sessions"
@@ -98,7 +98,7 @@ triggers:
     yellow_threshold: "< 0.15"
     status: GREEN
     last_measured: "S127"
-    note: "T8 GREEN sustained. 5/26 = 19%. FTNT SO raised $73→$78 then bought at market $79.12 S126. QLYS SO $82 added GATED."
+    note: "T8 GREEN sustained. 5/27 = 19%. FTNT SO raised $73→$78 then bought at market $79.12 S126. QLYS SO $82 added GATED. VRSN SO $190 added S127. CMCSA SO $26 added S127."
 
   T9_changelog_measurement:
     metric: "Changelog entries with measured effectiveness / total"
@@ -133,10 +133,10 @@ triggers:
 # Summary
 trigger_summary:
   red_count: 1
-  yellow_count: 2
-  green_count: 7
+  yellow_count: 3
+  green_count: 6
   unknown_count: 1
-  assessment: "S127 FINAL: 1 RED (T2 cash 39% — down from 50%, still >25%), 2 YELLOW (T9 changelog, T11 basket health), 7 GREEN (T1 fantasy 10%, T3 velocity 4.0 avg, T4 errors 0, T5 evolution, T6 lessons 7, T7 meta-reflect 100%, T8 SO fill 19%), 1 UNKNOWN (T10). Velocity 6u (record session). VRSN R3 + CMCSA R1 + QLYS R3 completed. IHP.L ADD EUR 200. MLI+WTM universe. QTCOM.HE archived."
+  assessment: "S132 CRISIS: 1 RED (T2 cash 39.5% — technically RED but STRATEGIC in Iran crisis), 3 YELLOW (T3 velocity 1.8 avg dropped, T9 changelog, T11 basket health), 6 GREEN (T1 fantasy 10%, T4 errors 0, T5 evolution, T6 lessons 7, T7 meta-reflect 100%, T8 SO fill 19%), 1 UNKNOWN (T10). Operation Epic Fury crisis session. 0 velocity units (justified). Earnings this week should recover T3."
 
 # =============================================================================
 # ACTIVE EXPERIMENTS — Changes being measured
@@ -240,6 +240,16 @@ scheduled_reviews:
 # =============================================================================
 # Last 10 entries only. Older entries → changelog.yaml archive.
 evolution_log:
+  - session: 132
+    date: "2026-03-02"
+    change: "S132 CRISIS SESSION — Operation Epic Fury (US-Israel strikes Iran). (1) P0 crisis assessment: all 14 positions analyzed, no KC triggered. (2) Earnings frameworks verified: KLR.L (HARD GATE), ANF, DOM.L — all ready. (3) ADBE Q1 Mar 12 discovered — needs framework by Mar 10. (4) Net exposure 60/0/40 MAINTAINED and JUSTIFIED by crisis (cash = deployment asset). (5) Rotation: NO ROTATION. (6) 0 velocity units (justified — crisis monitoring, poor Section A). (7) T3 GREEN→YELLOW (rolling avg dropped). Calendar cleaned. Iran crisis = potential deployment window if selloff deepens."
+    type: "crisis_monitoring"
+    triggers_addressed: ["T2", "T3"]
+  - session: 129
+    date: "2026-02-28"
+    change: "S129 maintenance session: (1) FV discrepancy fixes: FTNT growth -1.1%→+8% (thesis parser couldn't extract 'Sustainable Growth'), HLNE FV $120→$110 (R3 post-DA not propagated), IHP.L FV 415→390p (same). Forward return accuracy restored. (2) NVO 50% Wegovy/Ozempic list price cut assessed — net impact ~10-15% (rebates existed), FV $47-50 range, HOLD LOW unchanged. (3) DOCS pharma MFN freeze flagged — 16/20 top clients, Q4 guide +4% vs +10%, HOLD pending KC#1. (4) Health check DUE executed. (5) 0 velocity units — no high-value R1 near trigger with sector view ready."
+    type: "maintenance"
+    triggers_addressed: ["T2"]
   - session: 126
     date: "2026-02-26"
     change: "S126 opportunity hunting: (1) S&P500+FTSE250 screening (undiscovered mode) → 16+30 candidates. (2) QS triage: CDW 38, POOL 49, GPC 36, HOLX 41, DVA 43 = Tier C. FFIV 72 Tier B, ERIE 65 Tier B, HALO 73 Tier B = worth pursuing. (3) HALO R1+R2+R3 COMPLETE: R1 FV $110, R2 STRONG COUNTER (CMS/IRA omitted, Alteogen competition, FV>all PTs, royalty step-downs, revenue gap). R3: FV $90 (-18.2%), QS 79adj Tier A. SO $65. Wait Merck PTAB Jun 2026. (4) ERIE R1 COMPLETE: fee-based monopoly, FV $313, QS 85adj Tier A, 45% insider, SO $250. (5) FFIV added to universe. (6) MEGP.L DELAYED to Mar 13 (auditor). (7) QTCOM.HE results still not published. 5 velocity units."

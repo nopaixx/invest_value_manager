@@ -1,9 +1,9 @@
-# PRINCIPLES.md - Framework v4.6
+# PRINCIPLES.md - Framework v4.7
 
 > **Guías de pensamiento para decisiones de inversión.**
 > Este archivo NO contiene números fijos. Solo frameworks de razonamiento.
-> Creado: 2026-02-05 | Framework v4.0 | Actualizado: 2026-02-22 | Framework v4.6
-> **17 Principios:** P1-P9 long, P10-P11 short, P12-P14 portfolio, P15-P16 deployment, P17 baskets
+> Creado: 2026-02-05 | Framework v4.0 | Actualizado: 2026-02-27 | Framework v4.7
+> **17 Principios:** P1-P9 long, P10-P11 short, P12-P14 portfolio, P15-P16 deployment, P17 baskets-as-fund
 
 ---
 
@@ -383,29 +383,58 @@ If pipeline candidate has E[CAGR] > worst position by >= 3pp AND QS >= worst pos
 
 ---
 
-## Principio 17: Thematic Conviction Allocation
+## Principio 17: The Fund IS Its Baskets
 
-Capital flows to themes with strongest thesis + highest E[CAGR]. Meta-portfolio targets
-guide deployment, not dictate it.
+The fund is organized around thematic baskets. Baskets are not labels for existing positions — they are the TOP-DOWN organizing principle. My primary job as CIO is:
+
+1. **Discover** the best secular themes of the era (sectors/trends producing >30% CAGR over 10+ years)
+2. **Build** baskets around those themes, filling them with the highest-quality companies
+3. **Monitor** each basket as a living entity — adjusting composition, allocation, and conviction continuously
+4. **Kill** baskets when their theme exhausts, and **Birth** new ones when superior themes emerge
+
+This solves the cash deployment problem: there is ALWAYS something to investigate, build, or rotate within the basket structure. Capital should be practically 100% deployed across the best baskets at all times.
+
+**The Basket Lifecycle:**
+- **Discovery**: Using OSINT, web search, smart money data, macro analysis, sector screening to identify secular mega-trends with multi-year tailwinds
+- **Formation**: When I identify a theme with 3+ high-quality investable candidates, it becomes a basket candidate. Thesis required.
+- **Building**: Deploying capital into the best companies within the theme via standard R1-R4 pipeline (per-stock gates stay INTACT — Error #57)
+- **Maturity**: Fully invested basket. Continuous monitoring: rotate within basket (weaker → stronger), adjust allocation based on E[CAGR] evolution
+- **Decline**: Theme exhaustion signals emerge (secular headwinds, disruption, regulatory destruction). Reduce allocation, rotate capital to emerging baskets.
+- **Death**: Theme is dead. Close basket, archive thesis, redeploy capital to live baskets.
 
 **Preguntas guia:**
-1. "Which basket has the best risk-adjusted forward return right now?"
-2. "Is my current allocation consistent with my thematic convictions?"
-3. "Am I underfunding my highest-conviction theme while overfunding a weaker one?"
+1. "What are the 3-5 best secular themes for the next decade? Am I invested in them?"
+2. "For each active basket: is the theme still alive? Is my conviction growing or shrinking?"
+3. "Are there emerging themes I'm not yet invested in? What evidence supports them?"
+4. "Which basket has the worst forward E[CAGR]? Does a better theme exist to replace it?"
+5. "Is my basket count right? Too few = concentration risk. Too many = diluted conviction."
 
-**Framework de decision:**
-- Meta-portfolio targets in `state/thematic_baskets.yaml` are RANGES, not limits
-- Basket E[CAGR] < 8% for >3 sessions without catalyst → rotation candidate
-- Deployment priority: highest E[CAGR] basket that is most underfunded vs target
-- Basket kill conditions are additive to per-stock KCs — they trigger basket-wide REVIEW
-- New baskets emerge from screening (3+ candidates in same theme), not from top-of-mind
+**Dynamic Allocation (no fixed targets):**
+- The number of baskets changes as themes emerge and die. Today it could be 3, tomorrow 6.
+- Allocation percentages are REASONED each session, not fixed. A basket with E[CAGR] 25% deserves more capital than one with 12%.
+- Rebalancing happens continuously through the rotation engine — not on a schedule.
+- Cash should flow to the most underfunded high-conviction basket, not sit idle.
+
+**What I Do Every Session (basket lens):**
+- Check health of each active basket (theme intact? positions performing? KCs clear?)
+- Scan for emerging themes via macro, OSINT, smart money, screeners, sector views
+- Evaluate whether any basket should be killed or created
+- Within each basket: rotate weaker → stronger, add to underfunded, trim overfunded
+- Ensure allocation reflects CURRENT conviction, not historical artifact
+
+**Per-Stock Safety (unchanged):**
 - Basket approval does NOT skip per-stock R1-R4 (Error #57)
+- Each stock needs: individual QS, kill conditions, thesis file, SM context, constraint check
+- Max 2 new positions per session per basket
+- If any basket position triggers KC within 14 days of buy → entire basket enters REVIEW
 
 **Antipatrones:**
+- Treating baskets as static labels for existing positions instead of living themes
+- Fixed allocation percentages that never change regardless of conviction shifts
 - "The basket is approved, so buy all 3 stocks" — each stock needs full pipeline
-- "My UK basket is at 18% vs 20% target, must add" — targets are ranges, not obligations
-- "I need a pharma basket" without pipeline candidates — don't create empty baskets
-- Rigid adherence to meta-portfolio targets when a single stock has exceptional E[CAGR]
+- Creating baskets for individual positions (1 stock ≠ theme, need 3+ candidates)
+- Ignoring basket health while focusing only on individual stock health
+- Not actively scanning for new themes (the fund dies when discovery stops)
 
 ---
 
@@ -466,5 +495,5 @@ patterns:
 
 ---
 
-**Última actualización:** 2026-02-20
-**Framework version:** 4.6
+**Última actualización:** 2026-02-27
+**Framework version:** 4.7

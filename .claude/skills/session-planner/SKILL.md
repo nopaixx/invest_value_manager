@@ -3,6 +3,7 @@
 > Auto-activar al inicio de sesion en modo DASHBOARD o WAVE.
 > Genera plan de trabajo priorizado basado en estado actual del sistema.
 > El CIO llega, evalua, prioriza, presenta, y tras aprobacion, ejecuta.
+> **v4.7: Baskets ARE the fund (P17).** Plan always includes basket health + theme discovery.
 
 ---
 
@@ -44,6 +45,7 @@
 | `python3 tools/r1_prioritizer.py --advancement` | R1_COMPLETE advancement: 3 sections (Ready/Approaching/Parked) + E[CAGR]@mkt |
 | `python3 tools/quality_universe.py approaching` | Pipeline entries moving toward entry since last refresh |
 | `python3 tools/outcome_tracker.py` | Buy decision outcomes: P&L, win rate, calibration |
+| `python3 tools/basket_dashboard.py --health` | **P17 BASKET HEALTH**: theme vitality, allocation, orphan positions, basket pipeline |
 
 ---
 
@@ -54,9 +56,11 @@
 | P0 | Kill condition / CRITICAL news alert | URGENTE | Fraude detectado en posicion |
 | P1 | **DEPLOYMENT: `portfolio_cagr.py` → market buy candidates → rotation candidates** | URGENTE | Cash 56%, 3 candidates E[CAGR]>15% |
 | P1b | **INACTION AUDIT (auto-trigger if cash >25%): top 3 by E[CAGR], specific reason each NOT bought, classify VALID/INVALID** | URGENTE | Cash 54.6%, HLNE not bought = Error #58 |
+| P1c | **BASKET HEALTH (P17): any basket with declining theme, orphan positions, or basket KC approaching** | URGENTE | Pharma basket theme declining, 2 orphan positions |
 | P2 | Earnings <7d sin framework (posicion activa) | URGENTE | MONY.L FY results Monday |
 | P3 | SO triggered o near (<5%) | URGENTE | RACE.MI at 5.3% de entry |
-| P4 | R1 processing for BUYABLE candidates (obligatorio 3 velocity units/sesion) | PRIORIDAD NORMAL | Top 5 de r1_prioritizer --buyable-now |
+| P4 | R1 processing for BUYABLE candidates — **FAVOR candidates that fill underfunded baskets** (obligatorio 3 velocity units/sesion) | PRIORIDAD NORMAL | Top 5 de r1_prioritizer --buyable-now |
+| P4b | **THEME DISCOVERY (P17, weekly or cash >15%): scan for emerging mega-trends, propose basket birth/death** | PRIORIDAD NORMAL | AI infrastructure theme identified, 4 candidates |
 | P5 | Position reviews (ongoing health) | PRIORIDAD NORMAL | LULU probation review |
 | P6 | Pipelines OVERDUE | PRIORIDAD NORMAL | risk-review 3d overdue |
 | P7 | Sector stale con portfolio deps | PRIORIDAD NORMAL | telecom.md 45d old, DTE.DE dep |
@@ -72,9 +76,11 @@
 - P8 → bloque MANTENIMIENTO (si queda contexto)
 - P8e → Evolution micro-step (SIEMPRE al final — Fase 6)
 - P8c → Cash audit (if cash >10%) — mandatory justification
-- R1 processing (P4) focuses on BUYABLE candidates first (--buyable-now)
+- R1 processing (P4) focuses on BUYABLE candidates first (--buyable-now), FAVORING candidates that fill underfunded baskets
 - Net exposure reasoning SIEMPRE aparece — es obligatorio cada sesion (P13)
 - Rotation check SIEMPRE aparece — es obligatorio cada sesion (P16)
+- **Basket health check SIEMPRE aparece — es obligatorio cada sesion (P17)**
+- **Theme discovery (P4b) fires weekly, or when cash >15%, or when any basket is in DECLINE status**
 
 ---
 
@@ -109,6 +115,13 @@ Read `session_continuity.yaml` → `session.date` and `skip_if_same_day`:
 - Pipeline: [N] SCORED sin R1, [N] near-entry, [N] deployment-ready (E[CAGR]>=threshold)
 - Fantasy rate: [X]% ([N]/[M] R1s → OVERVALUED/FANTASY)
 - Advancement: Section A [N] ready, [N] approaching
+
+### BASKET HEALTH (P17 — obligatorio)
+- Active baskets: [N] | Positions assigned: [N]/[total] | Orphans: [tickers]
+- Per basket: [basket-name] [N] positions, E[CAGR] [X]%, theme [ALIVE/DECLINING/DEAD], conviction [HIGH/MED/LOW]
+- Basket pipeline: [N] candidates across [N] baskets
+- Theme discovery: [last done X days ago / DUE]
+- Action needed: [basket births/deaths/rebalancing or "healthy"]
 
 ### INACTION AUDIT (auto si cash >25%)
 - Cash: [X]% | Top 3: [T1] E[CAGR] [X]% (reason: [VALID/INVALID]), [T2]..., [T3]...
@@ -209,8 +222,12 @@ During plan generation, scan these conditions and surface the matching lesson:
 | `R1_COMPLETE >20 AND <3 ACTIONABLE` | L-09: Advancement > volume | Pipeline decision (P4) |
 | `cash >10% for >2 sessions` | L-10: Full deployment mandate | P1 EMERGENCY |
 | `cash >25%` | **INACTION AUDIT (Error #58)**: Top 3 E[CAGR], why not bought, VALID/INVALID | P1b URGENTE (auto-fire) |
+| `>2 orphan positions (no basket)` | **L-11: Orphan positions = structural gap.** Assign to existing basket or form new one | P1c basket health |
+| `any basket theme DECLINING` | **L-12: Dying theme = capital trap.** Evaluate basket death, redeploy to live themes | P1c basket health URGENTE |
+| `theme discovery >7 days stale` | **L-13: Discovery stops = fund dies.** Scan for emerging mega-trends | P4b theme discovery |
+| `basket count < 3` | **L-14: Insufficient diversification.** Need at least 3 live themes for structural resilience | P4b theme discovery |
 
-**How to use:** After reading 8 state sources and running tools, scan this table. If condition matches, add the lesson reference to the relevant plan section. Format: `[L-XX] {lesson name} — {action}`
+**How to use:** After reading 9 state sources and running tools, scan this table. If condition matches, add the lesson reference to the relevant plan section. Format: `[L-XX] {lesson name} — {action}`
 
 ---
 

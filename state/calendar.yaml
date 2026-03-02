@@ -1,66 +1,32 @@
 # CALENDAR - Active and Future Events
 # Past events archived in state/calendar_archive.yaml
-# Updated: 2026-02-26 (S123)
+# Updated: 2026-03-02 (S132)
 
 events:
-  # Archived S123: LYV Q4, MONC.MI FY2025, AGN.NV, MONY.L FY2025, ENEL.MI CMD, EDEN.PA FY2025, UTG.L, WKL.AS, BVI.PA, NVO CagriSema
+  # Archived S132: QTCOM.HE FY2025 (ARCHIVED), DTE.DE FY2025 (SOLD), INTU Q2 (monitoring), CS.PA FY2025 (no action), PROX.BR FY2025 (no action), ENGI.PA FY2025 (no action), NTGY.MC FY2025 (passed), LYV DOJ trial (monitoring, no position)
 
-  - date: 2026-02-26
-    type: earnings_pipeline
-    ticker: QTCOM.HE
-    event: "QTCOM.HE FY2025 Results — PROCESSED S126"
-    priority: completed
-    action: "Stock -9.3% on results day (EUR 22.40, near 52wL EUR 21.06). Bulletin published ~1pm EET. Actual figures NOT YET CONFIRMED (web lag). Preliminary: ARCHIVE (3rd negative signal). Confirm numbers next session."
-
-  - date: 2026-02-26
-    type: earnings
-    ticker: DTE.DE
-    event: "Deutsche Telekom FY2025 — PROCESSED S124"
-    priority: completed
-    action: "MEET-to-SOFT MISS. EBITDA AL EUR 44.2B (+4.7%), EPS EUR 2.00, FY2026 guide EUR 2.20/EBITDA EUR 47.4B. TRIMMED 10 shares at EUR 33.66 (+17.3%). Conviction LOW. FV EUR 35 confirmed."
-
-  - date: 2026-02-26
-    type: earnings_pipeline
-    ticker: INTU
-    event: "INTU Q2 FY2026 earnings (after close) — MONITORING ONLY"
-    priority: medium
-    action: "R3 COMPLETE. DA STRONG COUNTER. FV revised $465→$395. Entry $290-300. Current $381 = 31.5% above entry. NOT a deployment candidate. Monitor for thesis validation only."
-
-  - date: 2026-02-26
-    type: earnings
-    ticker: CS.PA
-    event: "AXA FY2025 results"
-    priority: high
-    action: "Si precio cae a 34.50-35.50 - BUY."
-
-  - date: 2026-03-13
-    type: earnings_pipeline
-    ticker: MEGP.L
-    event: "MEGP.L FY2025 Annual Results — DELAYED from Feb 27. Auditor needs time. Shares SUSPENDED from Mar 2."
-    priority: high
-    action: "ARCHIVED — NOT ON ETORO. R4 APPROVED CONDITIONAL. Entry 130p (MoS 38.5%). FV 180p. PASS criteria: laundry net installs >=1000, PBT >=GBP 75M, receivables benign, no German regulation surprise, FY2026 guidance >=3% profit growth. If PASS → standing order 130p. If FAIL → archive. Framework: thesis/research/MEGP.L/earnings_framework_feb27.md"
-
-  - date: 2026-02-27
-    type: earnings
-    ticker: PROX.BR
-    event: "Proximus FY2025 + Strategic Plan"
-    priority: high
-    action: "Si capex decline + plan creible - BUY 3% a 7.50-7.70."
-
-  - date: 2026-02-28
-    type: earnings
-    ticker: ENGI.PA
-    event: "Engie FY2025"
-    priority: high
-    action: "Watch FCF yield >5%, payout <80%."
-
-  # MARCH
+  # GEOPOLITICAL CRISIS — Operation Epic Fury (US-Israel strikes on Iran, Feb 28-Mar 1)
   - date: 2026-03-02
-    type: catalyst
-    ticker: LYV
-    event: "DOJ antitrust trial starts — MONITOR ONLY (short CANCELLED S93)"
-    priority: medium
-    action: "Short thesis CANCELLED S93. KC#3 triggered (organic rev >10% 2Q). Reverse DCF: FV $170-238 at 8-10% growth >> $130 cancel. Monitor from sidelines — no position."
+    type: macro_crisis
+    ticker: PORTFOLIO
+    event: "Operation Epic Fury — Iran strikes. Khamenei killed. Strait of Hormuz closed. EU markets -1.8-2.3%, S&P futures -1.7%, Oil +6-13%."
+    priority: CRITICAL
+    action: "MONITOR DAILY. Cash 39.5% = strategic deployment asset if selloff deepens 5-10% toward SO triggers. RACE.MI 5.8% from trigger could activate this week. Multiple SOs within 10-15% range. DO NOT panic sell. Quality positions with intact thesis HOLD. Reassess if Hormuz closure >7 days or military escalation beyond Iran."
+
+  # THIS WEEK — EARNINGS (all in crisis context)
+  - date: 2026-03-03
+    type: earnings_pipeline
+    ticker: KLR.L
+    event: "KLR.L FY2025 Full Year Results — HARD GATE for SO"
+    priority: high
+    action: "R1 complete S93. QS 76/79 Tier A. FV 2,600p, entry 1,750p. PASS: margins >=6.5%, order book maintained, ROCE >20%. If PASS → create SO at 1,750p + consider R2. If margins collapse → lower entry or ARCHIVE. NOTE: UK market stressed by Iran crisis — results may be overshadowed."
+
+  - date: 2026-03-03
+    type: earnings_pipeline
+    ticker: ITRK.L
+    event: "Intertek FY2025 Full Year Results — HARD GATE for R4/SO"
+    priority: high
+    action: "R3 complete. FV 4700p, entry 3700p. HARD GATE: op margin >=16.3%, FCF recovery. Tesco lawsuit update. BVI.PA preferred for TIC. If positive → create SO at 3700p + R4 committee."
 
   - date: 2026-03-03
     type: earnings_pipeline
@@ -76,32 +42,19 @@ events:
     priority: medium
     action: "R1 S104. QS 75adj Tier A. FV EUR 99, entry EUR 85-90. Watch organic growth deceleration, La Prairie recovery, margin pressure."
 
-  - date: 2026-03-03
-    type: earnings_pipeline
-    ticker: KLR.L
-    event: "KLR.L FY2025 Full Year Results — HARD GATE for SO"
-    priority: high
-    action: "R1 complete S93. QS 76/79 Tier A. FV 2,600p, entry 1,750p (15.8% below current). PASS: margins >=6.5%, order book maintained, ROCE >20%. If PASS → create SO at 1,750p + consider R2. If margins collapse → lower entry or ARCHIVE."
-
-  - date: 2026-03-01
-    type: earnings
-    ticker: NTGY.MC
-    event: "Naturgy FY2025"
-    priority: high
-
-  - date: 2026-03-03
-    type: earnings_pipeline
-    ticker: ITRK.L
-    event: "Intertek FY2025 Full Year Results — HARD GATE for R4/SO"
-    priority: high
-    action: "R3 complete. FV 4700p, entry 3700p. HARD GATE: op margin >=16.3%, FCF recovery. Tesco lawsuit update. BVI.PA preferred for TIC. If positive → create SO at 3700p + R4 committee."
-
   - date: 2026-03-04
     type: earnings
     ticker: VEEV
     event: "VEEV Q4 FY2026 — thesis catalyst"
     priority: high
     action: "R1 complete. QS 80 Tier A. FV $205. Entry $140-150."
+
+  - date: 2026-03-04
+    type: earnings_pipeline
+    ticker: ANF
+    event: "ANF Q4 FY2026 earnings — pipeline gate"
+    priority: high
+    action: "R1 complete S117. Framework: thesis/research/ANF/earnings_gate_q4.md. PASS: OP margin >=12%, Hollister comps positive, inventory < rev, GM >62%, FY2026 guide >=+3%. FAIL: OP margin <10%, Hollister neg, GM <60% → ARCHIVE."
 
   - date: 2026-03-05
     type: earnings
@@ -116,6 +69,13 @@ events:
     event: "4imprint FY2025 Results — HARD GATE for entry"
     priority: high
     action: "R3 complete. Pipeline candidate. HARD GATE: must review results before standing order."
+
+  - date: 2026-03-12
+    type: earnings
+    ticker: ADBE
+    event: "ADBE Q1 FY2026 earnings (after close) — FRAMEWORK READY S132"
+    priority: high
+    action: "ACTIVE POSITION ($1,014 invested, 3.83 shares). FV $390. FTC trial Oct 2026. MUST prepare bear/base/bull framework by ~Mar 10 (Error #13). Key metrics: Digital Media ARR growth, Document Cloud growth, Firefly AI monetization, FTC impact on guidance. KC: exit if FTC mandates one-click + churn >5pp."
 
   # NVO CagriSema head-to-head: COMPLETED Feb 23. FAILED. KC#1 triggered. See thesis/active/NVO/thesis.md v4.0.
   # Next NVO catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update (no fixed date yet).

@@ -24,7 +24,7 @@
 | `state/session_continuity.yaml` | Inter-session dedup: completed work, R1 cooldowns, handoff, evolution proposals |
 | `state/agent_coordination.yaml` | Coordinacion inter-agente (shared blackboard) |
 | `learning/da_accuracy_tracker.yaml` | DA correction tracking — pre/post FV, 6-month review, accuracy stats |
-| `state/thematic_baskets.yaml` | Thematic baskets: groupings, shared thesis, pipeline, meta-portfolio allocation |
+| `state/thematic_baskets.yaml` | **THE fund's structure (P17 v4.7).** Living entity baskets: theme vitality, dynamic allocation reasoning, discovery tracking. No fixed targets. |
 | `thesis/baskets/{basket-id}/thesis.md` | Shared thematic thesis per basket (basket pipeline R1-R4) |
 | `thesis/baskets/archive/` | Deprecated basket theses |
 

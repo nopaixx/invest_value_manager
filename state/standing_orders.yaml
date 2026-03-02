@@ -359,6 +359,23 @@ standing_orders:
   # BORDERLINE — 15-25% away, no unmet gate. Realistic in correction.
   # ═══════════════════════════════════════════════════════════════════════
 
+  - ticker: SPGI
+    action: BUY
+    category: GATED
+    fill_prob_6m: 15
+    trigger: "<=$420"
+    current_distance: "5.0%"
+    size_eur: 400
+    fair_value: "$470 (R3 post-DA S131, was $511)"
+    mos_at_trigger: "10.6%"
+    tier: "A (QS 60/76 adj — serial acquirer +16)"
+    ecagr_at_trigger: "12.1%"
+    gate: "Q1 2026 earnings (late April/May). Must clear: (1) receivables growth normalizes <5pp above rev, (2) FCF margin >=35%, (3) MI organic growth >=5%."
+    notes: "R3 COMPLETE S131. Post-DA FV $511→$470 (-8.0%). MODERATE COUNTER: no informational edge (Error #49), FCF contraction 2025, receivables +20% vs rev +8%. TCI Fund (Chris Hohn) adding — smart money validation. Ratings duopoly near-impenetrable. Financial Market Infrastructure basket anchor."
+    kill_conditions: "Ratings market share <30%, regulatory break of duopoly, ROIC<WACC 3yr, revenue decline >5% 2Q, receivables >10pp gap 2Q, Mobility spinoff destroys >20% of value"
+    last_analysis_date: 2026-02-28
+    expiry: 2026-10-01
+
   - ticker: REN.AS
     action: BUY
     category: BORDERLINE

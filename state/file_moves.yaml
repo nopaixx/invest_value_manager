@@ -133,6 +133,27 @@ moves:
     triggered_by: "portfolio-ops: BUY confirmation (human confirmed execution)"
     note: "Active copies created with updated headers (position info, R3 revisions). Delete thesis/research/FTNT/ directory manually."
 
+  - date: 2026-02-28
+    file: thesis/research/IHP.L/* (thesis.md, committee_decision.md, r2_devils_advocate.md, r3_resolution.md)
+    from: thesis/research/IHP.L/
+    to: thesis/active/IHP.L/
+    reason: "Active position since S108 (BUY Feb 24). Thesis was never moved from research to active after purchase. Corrective housekeeping. portfolio/current.yaml thesis path updated."
+    triggered_by: "CIO direct instruction via file-system-manager"
+
+  - date: 2026-02-28
+    file: thesis/research/HLNE/* (thesis.md, committee_decision.md, r2_devils_advocate.md, r3_resolution.md)
+    from: thesis/research/HLNE/
+    to: thesis/active/HLNE/
+    reason: "Active position since S122 (BUY Feb 25). Thesis was never moved from research to active after purchase. Corrective housekeeping. portfolio/current.yaml thesis path updated."
+    triggered_by: "CIO direct instruction via file-system-manager"
+
+  - date: 2026-02-28
+    file: thesis/research/DOCS/* (thesis.md, committee_decision.md, r2_devils_advocate.md, r3_resolution.md)
+    from: thesis/research/DOCS/
+    to: thesis/active/DOCS/
+    reason: "Active position since S122 (BUY Feb 25). Thesis was never moved from research to active after purchase. Corrective housekeeping. portfolio/current.yaml thesis path updated."
+    triggered_by: "CIO direct instruction via file-system-manager"
+
 # Format:
 #   - date: 2026-01-31
 #     file: thesis/research/SHEL/thesis.md

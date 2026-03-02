@@ -102,7 +102,9 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 
 ## Nuestras Posiciones Actuales
 
-(Ninguna actualmente)
+| Ticker | Empresa | FV | Entry | Status |
+|--------|---------|-----|-------|--------|
+| MORN | Morningstar Inc. | $195 | market buy $161 | ACTIVE — E[CAGR]-framework buy S101 |
 
 ---
 
@@ -110,8 +112,12 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
+| Portfolio | MORN | thesis/active/MORN | 2026-02-20 | ACTIVE — E[CAGR] buy S101. FV $195. |
+| Research | SPGI | thesis/research/SPGI | 2026-02-28 | R3 COMPLETE — SO $420 GATED Q1 2026. FV $470 (post-DA, was $511). Financial Mkt Infra basket anchor. |
 | Research | FICO | thesis/research/FICO | 2026-02-11 | R1 COMPLETE -- WATCHLIST (~$900 FV, entry $700-850) |
 | Research | FDS | thesis/research/FDS | 2026-02-13 | R1 COMPLETE -- WATCHLIST ($230 FV, entry $180) |
+| Scored | ICE | N/A | 2026-02-28 | SCORED S130 — QS 65adj Tier B. Exchange + data. |
+| Scored | NDAQ | N/A | 2026-02-28 | SCORED S130 — QS 67adj Tier B. 11% insider. |
 
 ---
 
@@ -120,8 +126,9 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 ### Para analisis profundo
 | Ticker | Razon | Priority |
 |--------|-------|----------|
-| SPGI | QS ~85+ probable. WIDE moat indices+ratings. Premium valuation. | Media |
-| MSCI | QS ~80+ probable. WIDE moat indices. Premium valuation. | Media |
+| MSCI | QS ~80+ probable. WIDE moat indices. Premium valuation ($572, R3 OVERVALUED). | Baja |
+| ICE | Exchange + data monopoly. QS 65adj Tier B. SCORED S130. | Media |
+| NDAQ | Exchange + data. QS 67adj Tier B. 11% insider. SCORED S130. | Media |
 
 ### Analizadas
 | Ticker | Razon | Resultado |
@@ -144,7 +151,8 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 |--------|---------|-----|-------|---------|--------|----------------|
 | FICO | Fair Isaac Corp | ~$900 | $700-850 | 20-25% | thesis/research/FICO | 2026-02-11 |
 | FDS | FactSet Research Systems | $210 | $170 | 19% | thesis/research/FDS | 2026-02-14 |
-| MORN | Morningstar Inc. | $180 | $135 | 25% | thesis/research/MORN | 2026-02-14 |
+| MORN | Morningstar Inc. | $195 | market buy $161 | N/A | thesis/active/MORN | 2026-02-20 |
+| SPGI | S&P Global Inc. | $470 | $420 | 10.6% | thesis/research/SPGI | 2026-02-28 |
 
 ---
 

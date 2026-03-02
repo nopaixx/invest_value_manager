@@ -1,11 +1,46 @@
 # =============================================================================
-# NEWS DIGEST - Session 127 (2026-02-27 full scan)
+# NEWS DIGEST - Session 132 (2026-03-02 full scan)
 # =============================================================================
 
-last_scan: "2026-02-27 ~morning CET (S127)"
-session: 127
-tickers_scanned: 23  # 14 active + 9 watchlist
-classification: "0 CRITICAL | 3 MATERIAL | 7 ROUTINE | 5 NOISE"
+last_scan: "2026-03-02 ~morning CET (S132)"
+session: 132
+tickers_scanned: 22  # 14 active + 8 pipeline/calendar
+classification: "1 CRITICAL_MACRO | 3 MATERIAL | 10 ROUTINE | 3 MINOR_POSITIVE | 0 ALREADY_KNOWN"
+
+# =============================================================================
+# CRITICAL MACRO EVENT — OPERATION EPIC FURY (IRAN STRIKES)
+# =============================================================================
+
+macro_alert:
+  classification: CRITICAL_MACRO
+  urgency: IMMEDIATE
+  event: "US-Israel strikes on Iran ('Operation Epic Fury') began Feb 28. Supreme Leader Khamenei killed."
+  market_impact:
+    - "S&P 500 futures -1.7%, Nasdaq futures -2.0%, Dow futures -1.6% (pre-market Mar 2)"
+    - "European STOXX 600 -1.8%, DAX -2.3%, CAC -2.1%, FTSE -0.8%"
+    - "Brent crude surged ~13% initially, trading +6.2% at $77.38/bbl"
+    - "Strait of Hormuz: shipping suspended by Maersk/MSC/Hapag-Lloyd"
+    - "European gas +25% on Iran crisis"
+    - "Gold up ~1.2%, USD surging (safe haven flows)"
+    - "Energy sector UP (Shell/BP/TTE +5%+), Travel/Leisure DOWN (-4.4%)"
+  portfolio_impact: |
+    DIRECT IMPACT ON PORTFOLIO: LIMITED. No energy positions. No travel/leisure.
+    INDIRECT IMPACT: MODERATE.
+    - ALL equity positions face risk-off selling pressure today.
+    - UK positions (DOM.L, MONY.L, AUTO.L, IHP.L, BYIT.L) = FTSE -0.8% only (less exposed).
+    - EU positions (EDEN.PA) = CAC -2.1% (France more exposed via energy imports).
+    - US positions (GL, ADBE, MORN, HLNE, DOCS, FTNT, LULU) = S&P -1.7% broad pressure.
+    - NVO (Denmark) = already at 52wL, additional selling pressure.
+    - RACE.MI (pipeline SO) = Italian market hit, may approach EUR 295 trigger FASTER.
+    - Oil spike = net negative for most portfolio (cost input), but our companies are low oil-sensitivity.
+    - If Strait of Hormuz closure persists: inflation spike risk, rate cut timeline delays.
+  action: |
+    DO NOT PANIC SELL. This is a geopolitical shock, not a fundamental deterioration.
+    Quality compounders with pricing power (most of our portfolio) weather these events.
+    MONITOR for: (1) escalation (Iran retaliation beyond initial response), (2) duration of Hormuz closure,
+    (3) oil above $90/bbl sustained = inflation risk becomes structural.
+    OPPORTUNITY: If broad sell-off deepens 5-10%, pipeline SO triggers may activate (RACE.MI, SPGI, others).
+    Cash position EUR 4,042 = ready to deploy if opportunities emerge from panic selling.
 
 # =============================================================================
 # ACTIVE POSITIONS (14) - DETAILED
@@ -13,519 +48,420 @@ classification: "0 CRITICAL | 3 MATERIAL | 7 ROUTINE | 5 NOISE"
 
 positions:
 
-  FTNT:
+  EDEN.PA:
     classification: ROUTINE
-    urgency: RECENTLY_BOUGHT
+    urgency: LOW
     headlines:
-      - "Bought S126 at $79.12. No adverse post-market news."
-      - "CVE-2026-21643: Critical SQLi flaw in FortiClientEMS (CVSS 9.1). Patched in 7.4.5. Disclosed Feb 6, patched same day."
-      - "Freedom Capital Markets downgraded Buy->Hold on valuation + margin concerns (memory costs, FX, competition)."
-      - "FY2025: Revenue $6.8B (+14%), billings $7.55B (+16%), product rev Q4 +20%. FCF $2.21B record."
-      - "2026 guidance: revenue $7.5-7.7B. Buyback expanded to $10.25B."
-      - "FortiSIEM AI upgrade announced (incident response, threat detection)."
-      - "Stock -28% YTD per 247wallst."
+      - "No new company-specific news since Feb 28 scan."
+      - "Analyst rating update noted but no detail available."
+      - "Stock at EUR 17.91 (pre Iran shock). CAC -2.1% today."
     thesis_impact: NONE
-    kc_check:
-      vulnerability: "CVE-2026-21643 is SECOND major vuln in recent memory (after FortiManager Oct 2024). Our KC includes '2nd major security incident in 6mo' as sell trigger. This was PATCHED internally before public disclosure by Fortinet's own security team. NOT a breach -- it's a proactive patch. KC NOT triggered."
-    analysis: |
-      Position opened yesterday. All known information was priced in.
-      CVE-2026-21643 is worth monitoring but is NOT a breach/exploit -- it was found internally
-      by Fortinet's own team and patched on disclosure day. This is POSITIVE (responsible disclosure).
-      Freedom Capital downgrade is valuation-based opinion. Our thesis at $88 FV accounts for margin risk.
-      FY2025 results were strong: +14% rev, +16% billings, record FCF.
-    action: "HOLD. No issues. CVE was proactively patched. KC NOT triggered."
-
-  ADBE:
-    classification: MATERIAL
-    urgency: MONITOR
-    headlines:
-      - "NEW 52-WEEK LOW on Feb 26: traded as low as $246.21."
-      - "Down 26% in 2026, 44% from 52-week high."
-      - "Jefferies cut PT to $290 from $400 (Hold maintained) on Feb 23."
-      - "AI competition narrative driving repricing: Microsoft, Alphabet, Canva cited."
-      - "Intech Investment Management BUYING shares (institutional accumulation signal)."
-      - "Insider Monkey: upside potential at 71% despite PT reductions."
-      - "Zacks positive on Firefly + Acrobat AI integrations."
-    thesis_impact: MINOR_NEGATIVE
-    kc_check:
-      our_entry_blended: "$264.73 (2 shares at $271.60 + 1.83 shares at $259.04)"
-      current_approx: "~$247 area (new 52wL)"
-      pnl: "~-6.7% unrealized"
-      our_fv: "$390 (FTC-adjusted)"
-      mos_now: "~36.7% at current price"
-    analysis: |
-      New 52-week low. MoS expanding to 37%. P/E ~16x with 36%+ OP margins.
-      Repricing is AI-narrative driven, not fundamental deterioration.
-      Revenue still growing 10% YoY. Margins holding above 36%.
-      Institutional buying (Intech) = smart money accumulating.
-      FTC trial Oct 2026 remains primary catalyst/risk.
-      At current price, E[CAGR] likely >25% -- increasingly attractive.
-    action: "HOLD. Consider further ADD if cash available and price drops to $230-240 range. MoS 37% is substantial."
+    action: "HOLD. Record FY2025 already incorporated. Iran shock = temporary market noise for Edenred."
 
   NVO:
     classification: MATERIAL
     urgency: MONITOR_LEGAL
     headlines:
-      - "NEW: Schall Law Firm and Pomerantz LLP BOTH investigating NVO for securities fraud (Feb 25-26)."
-      - "Investigations focused on whether company made false/misleading statements re: CagriSema."
-      - "Thornburg Investment sold 278,291 shares. Cypress Asset trimmed stake."
-      - "Stock at ~$38.16. Down 22.5% in 7 days, 40.4% in 30 days."
-      - "DKK 15B share buyback program underway (DKK 3.8B by May 4)."
-      - "Bloomberg: NVO trial flop ripples through Denmark stock market."
-    thesis_impact: MATERIAL_NEGATIVE_NEW
-    kc_check:
-      securities_fraud_investigation: "TWO law firms investigating. This is AMBULANCE CHASING, not SEC/DOJ investigation. Class action law firms routinely investigate after large stock drops. No SEC or DOJ involvement. KC#4 (new investigation by regulator) NOT triggered -- these are private firms."
-      our_entry: "$48.13"
-      current_approx: "~$38"
-      pnl: "~-21% unrealized"
-      our_fv: "$50 (revised post-CagriSema)"
-      mos_now: "~24% at current price"
-    analysis: |
-      The Schall/Pomerantz investigations are STANDARD ambulance-chasing after a major
-      stock drop. These firms file investigations after virtually every -15%+ single-day
-      drop in major stocks. This is NOT an SEC or DOJ investigation. KC#4 specifically
-      references government regulator investigations, not private law firm trolling.
-
-      However: if a class action lawsuit is actually FILED (not just investigated), it
-      adds legal overhang. Monitor for actual complaint filing.
-
-      Institutional selling (Thornburg, Cypress) is EXPECTED post-CagriSema failure.
-      Share buyback DKK 15B is supportive.
-
-      HOLD decision from S116-117 stands. FV $50, conviction LOW.
-    action: "HOLD. Fraud investigations are ambulance-chasing, NOT regulatory. Monitor for actual lawsuit filing. No change to S117 HOLD decision."
-
-  EDEN.PA:
-    classification: ROUTINE
-    urgency: MONITOR_REGULATORY
-    headlines:
-      - "FY2025 RECORD: EBITDA EUR 1,360M (+11.2% LFL). FCF EUR 1,111M (+34%). Net profit EUR 521M (+2.8%)."
-      - "Dividend EUR 1.33/share (+10%)."
-      - "2026 EBITDA guide: -8% to -12% LFL (rebasing year, Italy + Brazil regulation)."
-      - "2027-28 intrinsic EBITDA growth 8-12% CONFIRMED."
-      - "Stock +7.16% to EUR 19.39 post-results (Feb 24)."
-      - "AI/Data investment: 6x increase by 2028."
-      - "Brazil PAT: merchant discount cap 3.6%, interchange cap 2%, 15-day settlement. Edenred WON first legal challenge (9/12 issuers won in court)."
-      - "Italy cap regulation already in effect."
-    thesis_impact: MODERATE_POSITIVE
-    analysis: |
-      FY2025 ABOVE expectations. FCF +34% exceptional.
-      2026 rebasing year ALREADY KNOWN and priced in. Key is 2027-28 recovery.
-      Brazil PAT regulation: legal challenge partially successful (9/12 won).
-      If regulation softened by courts, 2026 may be better than -8 to -12% guide.
-      FV EUR 29.0 vs current ~EUR 19.4 = MoS 33%. Thesis intact.
-    action: "HOLD. All KCs CLEAR. Record execution. 2026 rebasing is temporary."
-
-  DOM.L:
-    classification: ROUTINE
-    urgency: EARNINGS_MAR_5
-    headlines:
-      - "FY25 results CONFIRMED March 5 (6 days away)."
-      - "No pre-earnings leaks or trading updates detected."
-      - "Analyst consensus: avg target 241.33p (+19.5% upside)."
-      - "New CEO Dominic Paul starts Apr 6."
-      - "CHICK 'N' DIP rolled out to all UK/Ireland stores Feb 6."
-      - "Q3 recap: total sales +2.1%, LFL +1%, EBITDA guide GBP 130-140M maintained."
-    thesis_impact: NONE
-    action: "HOLD. Earnings Mar 5 next catalyst. EBITDA <GBP 125M = KC#1 sell trigger. EBITDA GBP 130-137M = base case. >GBP 140M = upgrade conviction."
-
-  GL:
-    classification: ROUTINE
-    urgency: LOW
-    headlines:
-      - "Dividend raised to $0.33/quarter (Feb 26)."
-      - "Two new board members appointed Feb 25: Derek Kan (Shopify VP) + Sandra Phillips (Toyota CLO)."
-      - "FY2026 guidance raised: net operating income $14.95-$15.65/share."
-      - "Q4 EPS $3.39 slight miss vs $3.44 consensus."
-      - "Wells Fargo PT raised to $171. Truist Buy PT $180. Weiss upgraded to Buy."
-      - "8 Buy / 2 Hold analyst consensus."
-    thesis_impact: MINOR_POSITIVE
-    analysis: |
-      Dividend raise + guidance raise + board refreshment = all positive signals.
-      Q4 slight miss ($0.05) is immaterial. Full-year guidance is what matters.
-      New board members have strong corporate governance backgrounds.
-      Stock ~$144. FV $191. MoS ~25%.
-    action: "HOLD. Executing well. ADD at $125 remains valid."
-
-  MONY.L:
-    classification: ROUTINE
-    urgency: LOW
-    headlines:
-      - "FY2025 Feb 23 PROCESSED S114: Rev GBP 446.3M (+2%), EBITDA GBP 145.1M record."
-      - "GBP 25M buyback executing: ~228K shares repurchased Feb 23-24."
-      - "SuperSaveClub 2.1M members (16% of revenue)."
-      - "ChatGPT app launched -- first UK financial services in ChatGPT."
-      - "Insurance -1%, Money +8%, Home Services +33%."
-    thesis_impact: NEUTRAL_POSITIVE
-    action: "HOLD. All KCs clear. Buyback executing. Base case confirmed S114."
-
-  LULU:
-    classification: MATERIAL
-    urgency: MONITOR_MAR_31
-    headlines:
-      - "CEO search ongoing. No announcement of permanent CEO."
-      - "Interim co-CEOs: Meghan Frank (CFO) + Andre Maestrini (CCO)."
-      - "Elliott Investment pushing specific CEO pick."
-      - "Chip Wilson nominated 3 independent directors including Marc Maurer (ex-On Holding co-CEO)."
-      - "NEW: Product quality issues -- see-through complaints on Heart Scatter + Get Low leggings."
-      - "100th EMEA store opened."
+      - "US Bancorp sold 30,103 shares (filed Mar 1). Institutional selling continues."
+      - "Bernstein Litowitz class action ongoing (CagriSema-related). Pomerantz also investigating."
+      - "Dividend $1.275 announced, ex-date March 30."
+      - "Stock at $37.45 near 52wL $37.31. DKK 3.8B buyback tranche active through May 4."
+      - "2026 guidance: adjusted sales -5% to -13% CER. Brutal."
     thesis_impact: MINOR_NEGATIVE
     kc_check:
-      ceo_appointment: "STILL PENDING. KC explicitly states 'poor CEO appointment' as sell trigger."
-      product_quality: "See-through issues are RECURRING (happened before in 2013, 2023). Brand perception risk but not structural."
+      fraud_investigation: "STILL ambulance chasing. Bernstein Litowitz + Pomerantz + Schall = standard post-crash litigation trolling. NO SEC/DOJ investigation. KC#4 NOT triggered."
+      institutional_selling: "US Bancorp sold 30K shares. Part of broader institutional rotation out post-CagriSema. Expected behavior."
     analysis: |
-      CEO vacuum persists 27 days after McDonald departure.
-      Elliott vs Wilson proxy battle = governance chaos continues.
-      Product quality complaints (see-through) are a MINOR negative but this is
-      a recurring issue for the brand, not new territory.
-      Mar 31 Q4 earnings remain MAKE-OR-BREAK: US comps, GM%, CEO status.
-    action: "HOLD ON PROBATION through Mar 31. No ADD. Governance risk elevated."
+      Multiple law firms now chasing NVO class action = noise accumulation, not signal escalation.
+      Institutional selling continuing (US Bancorp latest). Still within expected post-disappointment rotation.
+      Dividend + buyback = capital return positive, but does not offset fundamental challenge.
+      Stock very close to 52wL. Bear case $35-42. If Iran shock pushes below $35 = approaching ADD zone (only at $30 per thesis).
+      HOLD LOW confirmed. No change to S117 decision.
+    action: "HOLD LOW. Class action filings are ambulance chasing. Monitor for actual regulatory action."
 
-  AUTO.L:
-    classification: ROUTINE
-    urgency: LOW
+  ADBE:
+    classification: MATERIAL
+    urgency: EARNINGS_MAR_12
     headlines:
-      - "AI-powered 'I'm looking for' search launched Feb 19 (13 ML-driven categories)."
-      - "UK used car market strong: visits +24.7% MoM to 86.3M in Jan."
-      - "BUT supply headwinds: structural shift in 2026 supply."
-      - "Share buyback executing."
-    thesis_impact: NEUTRAL
+      - "Q1 FY2026 earnings CONFIRMED March 12, 2026 (10 DAYS). EPS est $5.46, rev est $6.28B."
+      - "Stock -43% from 52wH, -23% YTD. Trading ~$262."
+      - "Firefly AI: 35%+ Photoshop subscribers using GenAI features."
+      - "Content Supply Chain as primary growth driver."
+      - "Mean analyst PT $423.50 (Buy consensus)."
+    thesis_impact: NEUTRAL_BUT_WATCH
+    kc_check:
+      earnings_prep: "Mar 12 = 10 days. Need bear/base/bull framework ready (Error #13)."
     analysis: |
-      AI product launch is positive (innovation). Visit growth +25% is demand strength.
-      Supply headwind for used cars could be POSITIVE for AutoTrader (scarcity = dealers need platform more).
-      April 2026 pricing event remains MAKE-OR-BREAK.
-    action: "HOLD LOW conviction. April pricing event next catalyst."
-
-  MORN:
-    classification: ROUTINE
-    urgency: MONITOR
-    headlines:
-      - "Mansueto sold ~$2.2M shares Feb 19-20 (routine 10b5-1 plan, tiny vs 46% stake)."
-      - "BMO cut PT $257->$193. Stock ~$160."
-      - "Scott Brown appointed President of Direct Platform effective Mar 2."
-      - "2025 revenue $2.45B (+8% organic). Q4 adj EPS $2.71 BEAT $2.36."
-      - "Stock -50.4% over 1 year."
-    thesis_impact: NONE
-    analysis: |
-      Mansueto sale is ROUTINE scheduled selling (0.07% of stake). Not a signal.
-      PT cuts follow price, not fundamentals. Earnings beat strongly.
-      Scott Brown as Direct Platform President is a leadership investment.
-      Stock near our cost basis. FV $195. MoS ~18%.
-    action: "HOLD. Patient. ADD at $140."
+      ADBE earnings Mar 12 is MATERIAL calendar event. This is our 2nd largest position ($1,014 invested).
+      FTC trial Oct 2026 remains primary thesis variable, not earnings.
+      Consensus expects solid execution. Risk: AI narrative shifts (competitors, pricing pressure).
+      Iran shock may depress stock further into earnings = could create additional entry opportunity.
+    action: "HOLD. Prepare bear/base/bull earnings framework BEFORE Mar 12. Error #13 compliance."
 
   IHP.L:
     classification: ROUTINE
     urgency: LOW
     headlines:
-      - "Insider buying: Euan Marshall 4,000 shares at 339p (Feb 12) + 47 shares at 318p (Feb 23)."
-      - "Alexander Scott 47 shares at 318p (Feb 23)."
-      - "Stock ~308p. Down from 339p area."
-    thesis_impact: MINOR_POSITIVE
-    analysis: |
-      Multiple insiders buying. Marshall's 4,000 share purchase at 339p (above our entry 318p) is
-      a genuine conviction signal. The 47-share purchases are likely automatic plans.
-      Stock pulling back to 308p from our entry -- normal volatility for small-cap UK stock.
-    action: "HOLD. Insider confidence validated. Monitor for H1 FY26 results (~June)."
+      - "Stock at 357p. No new company news since record assets/inflows report."
+      - "Next earnings May 20, 2026."
+      - "FTSE impact minimal (-0.8%)."
+    thesis_impact: NONE
+    action: "HOLD. No news. Position doubled S127. Insider buying from Feb still positive signal."
 
-  HLNE:
+  AUTO.L:
     classification: ROUTINE
     urgency: LOW
     headlines:
-      - "Q3 FY2026 (Feb 3): EPS $1.55 BEAT $1.28. Revenue $198.6M BEAT."
-      - "FRE +31% YoY. Evergreen AUM +70%. Total AUM/AUS $1 trillion."
-      - "Infrastructure Fund II closed ~$2B (60% oversubscribed)."
-      - "Dividend $0.54/share (+10%). Zacks upgraded to Strong Buy."
-      - "Oppenheimer PT $230. KBW PT $170."
-      - "Vanguard trimmed 1.8%. JPM trimmed 10.9%."
-    thesis_impact: POSITIVE
+      - "Jefferies downgraded to Hold (new -- not in last scan)."
+      - "ARPR reaching ~GBP 3,000/month. Deal Builder 4,000+ retailers live."
+      - "Stock at 472p. Name changed to Autotrader Group plc (Jan 2026)."
+    thesis_impact: MINOR_NEGATIVE
     analysis: |
-      Q3 was exceptional. All growth metrics accelerating.
-      Institutional trimming (Vanguard, JPM) is routine portfolio management, not a signal.
-      Stock ~$107-110. Our FV $110. At fair value territory.
-    action: "HOLD. Strong execution. Position doubled in S126. Monitor for normalization."
-
-  DOCS:
-    classification: ROUTINE
-    urgency: LOW
-    headlines:
-      - "Q3 beat (rev $185.1M +10%, adj EPS $0.46). Q4 guide MISSED ($143-144M vs $150M)."
-      - "Stock -17% on Feb 6 guidance miss."
-      - "Pharma MFN agreements causing budget caution (16/20 top clients)."
-      - "Barclays cut PT $63->$57."
-      - "Stock at $24.28-$25.29 range (Feb 26)."
-    thesis_impact: PROCESSED
-    analysis: |
-      Guidance miss was processed pre-purchase (we bought at $24.07 S122 BELOW DA bear case).
-      MFN pharma headwind is TEMPORARY -- this was in our thesis.
-      Stock hovering near our entry. No new information since S122 purchase.
-    action: "HOLD. All known. Price near entry."
+      Jefferies downgrade to Hold adds to Berenberg downgrade previously known.
+      BUT: fundamentals intact (ARPR growth, Deal Builder adoption, AI tools).
+      April pricing event still MAKE-OR-BREAK. Downgrade is opinion, not new data.
+    action: "HOLD LOW. April pricing event unchanged as key catalyst. Jefferies downgrade = opinion."
 
   BYIT.L:
     classification: ROUTINE
     urgency: LOW
     headlines:
-      - "Hit new 52-week low ~285.80p in mid-Feb."
-      - "Analysts maintain avg PT 490.89p (61% upside). 6 Buy / 3 Hold."
-      - "Top UK dividend stock per Simply Wall St (6.9% yield)."
+      - "Stock at 358p, recovered from 52wL of 286p."
+      - "Analyst avg PT 471p. Next earnings May 26."
+      - "No new fundamental news."
     thesis_impact: NONE
-    analysis: |
-      No new fundamental news. Price weakness is market-driven, not company-specific.
-      ON PROBATION until May 2026 FY results.
     action: "HOLD ON PROBATION. May 2026 FY results next catalyst."
 
-# =============================================================================
-# WATCHLIST & SPECIAL ATTENTION (9 tickers scanned)
-# =============================================================================
+  GL:
+    classification: ROUTINE
+    urgency: LOW
+    headlines:
+      - "No new news beyond what was captured Feb 28."
+      - "Wells Fargo PT $171. Morgan Stanley Buy. Evercore PT $157."
+      - "Stock reached ATH $152.71 on Feb 5."
+    thesis_impact: NONE
+    action: "HOLD. Positive momentum continues. ADD at $125 remains valid."
 
-watchlist:
-
-  PROX.BR:
+  DOM.L:
     classification: MATERIAL
-    urgency: RESULTS_TODAY
+    urgency: EARNINGS_MAR_5_IMMINENT
     headlines:
-      - "FY2025 results + NEW STRATEGIC PLAN released TODAY Feb 27 at 07:00 CET."
-      - "PRE-ANNOUNCED: EUR 275M non-cash goodwill impairment on Proximus Global."
-      - "2025 Domestic outlook: stable revenue, EBITDA +up to 2%."
-      - "2025 CapEx revised DOWN to ~EUR 1.25B (fiber integration efficiency)."
-      - "Organic FCF upgraded to ~EUR 100M (was lower)."
-      - "2026 outlook: Global EBITDA EUR 100-130M. Return to growth targeted 2027."
-      - "Net debt/EBITDA ~2.8x."
-    thesis_impact: MATERIAL_NEW
+      - "FY25 results March 5 (3 DAYS). KC#1: EBITDA <GBP 125M = SELL."
+      - "Analyst consensus PT 241p. Range 150-450p extremely wide."
+      - "New CEO Dominic Paul starts Apr 6."
+      - "No pre-announcement or trading statement detected."
+    thesis_impact: PENDING_EARNINGS
+    kc_check:
+      ebitda_trigger: "KC#1: EBITDA <GBP 125M = SELL. Base case GBP 130-137M. 3 DAYS."
     analysis: |
-      Our thesis was: capex decline + plan credible -> BUY 3% at 7.50-7.70.
-      CapEx is declining (to ~EUR 1.25B) -- CHECK.
-      FCF upgraded to EUR 100M -- CHECK.
-      BUT: EUR 275M goodwill impairment on Global is MATERIAL NEGATIVE.
-      Need to see: (1) actual FY2025 numbers, (2) strategic plan details,
-      (3) 2026 dividend commitment, (4) Global turnaround timeline.
-      The goodwill writedown suggests Global is struggling more than expected.
-      WAIT for full results analysis before any action.
-    action: "REVIEW FULL RESULTS TODAY. Goodwill impairment complicates thesis. Need to assess strategic plan credibility."
+      IMMINENT EARNINGS. Third most time-sensitive item after Iran macro and ADBE earnings.
+      Clean going in -- no leaks, no trading statement.
+      Wide analyst range (150-450p) reflects genuine uncertainty.
+      Iran shock unlikely to affect FY25 historical results but could depress stock on day of release.
+    action: "HARD MONITORING. Have SELL plan ready if KC#1 triggers."
 
-  ENGI.PA:
-    classification: ROUTINE
-    urgency: RESULTS_TOMORROW
+  MONY.L:
+    classification: MINOR
+    urgency: LOW
     headlines:
-      - "FY2025 ALREADY RELEASED (Feb 27): NRIgs EUR 4.9B. EBIT ex-Nuclear EUR 8.8B (+2.2% organic)."
-      - "Revenue EUR 71.9B (-2.5% gross, -0.7% organic). EBITDA EUR 14.7B (-5.4% gross)."
-      - "FCF from operations EUR 13.6B -- STRONG."
-      - "Renewables +6.2 GW added (57.2 GW total). PPAs +11%."
-      - "2026 NRIgs guide: EUR 4.6-5.2B (RAISED from EUR 4.2-4.8B, UKPN integration)."
-      - "Dividend EUR 1.35/share (payout 67%). Net debt/EBITDA 3.1x stable."
-    thesis_impact: MODERATE_POSITIVE
+      - "Morgan Stanley downgraded OW to EW (actually occurred Dec 2025, NOT new). PT cut citing AI overhang."
+      - "Dividend 0.093 GBp, ex-date Mar 26."
+      - "Buyback ongoing: 47K shares Feb 25, 126K shares Feb 24."
+      - "Stock at ~168p."
+    thesis_impact: NONE
     analysis: |
-      Our criteria: FCF yield >5% and payout <80%.
-      FCF from ops EUR 13.6B vs market cap ~EUR 38B = FCF yield ~35% on ops level (but this
-      includes capex reinvestment). Need to check free FCF after capex.
-      Payout 67% < 80% -- CHECK.
-      Guidance RAISED for 2026 (UKPN acquisition accretive).
-      Renewables expansion impressive (+6.2 GW).
-      Stock at ~EUR 17. Our entry EUR 22 is -22% below current. NOT near entry.
-    action: "MONITOR. Results are solid but stock well above our EUR 22 entry. Not actionable."
+      Morgan Stanley downgrade is from Dec 2025, not new. AI disruption concern previously known.
+      Buyback continues executing. Record results already incorporated.
+    action: "HOLD. Morgan Stanley downgrade is old news (Dec 2025). KCs CLEAR."
 
-  QTCOM.HE:
-    classification: ROUTINE
-    urgency: RESULTS_CONFIRMED
+  LULU:
+    classification: MATERIAL
+    urgency: MONITOR_MAR_31
     headlines:
-      - "FY2025 results RELEASED Feb 26. Conference at 3pm EET."
-      - "ARR EUR 127.1M (+8.3% CC)."
-      - "2026 guide: net sales +10% YoY (CC), EBITA margin >=15%."
-      - "IAR SaaS transition ongoing: IAR revenue to DECREASE in 2026 (SaaS conversion headwind), recovery by 2027."
-      - "Stock at ~EUR 22.40, -9.3% on results day. Near 52wL EUR 21.06."
-    thesis_impact: MIXED
+      - "Wilson March 13 DEADLINE to board: resolve or escalate."
+      - "Elliott Investment Management >$1B stake, pushing Jane Nielsen (Ralph Lauren veteran) as CEO."
+      - "Calvin McDonald serving as Senior Advisor through Mar 31."
+      - "Interim co-CEOs: Meghan Frank (CFO) + Andre Maestrini (CCO). Marti Morfitt as Executive Chair."
+      - "No permanent CEO appointment yet (now 30 days without CEO)."
+    thesis_impact: MINOR_NEGATIVE
+    kc_check:
+      governance: |
+        CEO vacuum now 30 days. TWO activist investors (Wilson + Elliott) with DIFFERENT visions.
+        Wilson wants brand-focused board (Maurer/Gentile/Hirshberg).
+        Elliott wants Jane Nielsen (operational/financial background).
+        This divergence could create STALEMATE or CONSTRUCTIVE TENSION.
+        Mar 13 Wilson deadline + Mar 31 McDonald advisor end = two key dates.
     analysis: |
-      Results now CONFIRMED. ARR +8.3% is modest but positive.
-      2026 guide: +10% revenue and >=15% EBITA margin.
-      IAR SaaS transition is a KNOWN headwind that will depress 2026 revenue.
-      Stock near our entry EUR 22. This is the HARD GATE -- numbers now available.
-      Need detailed analysis: is the core Qt business accelerating?
-      IAR integration = artificial 2026 depression. Recovery from 2027.
-      THESIS CALL: FY2025 trough appears confirmed. Recovery timeline extends to 2027.
-    action: "ARCHIVE per S126 decision (3rd negative signal). Entry EUR 22 no longer attractive with IAR headwind extending to 2027."
+      POSITIVE: Elliott's Jane Nielsen candidate is high-quality (Ralph Lauren experience).
+      POSITIVE: Wilson nominees also quality executives.
+      NEGATIVE: Two activists with competing visions = potential for prolonged governance chaos.
+      NEGATIVE: 30 days without CEO while business has upcoming Q4 earnings Mar 31.
+      NET: Proxy fight direction is constructive (both sides pushing quality candidates) but resolution timeline uncertain.
+    action: "HOLD ON PROBATION through Mar 31. Watch Mar 13 Wilson deadline closely."
 
-  HALO:
+  MORN:
     classification: ROUTINE
-    urgency: GATED
+    urgency: LOW
     headlines:
-      - "FY2025: RECORD revenue $1.4B. Royalty revenue to exceed $1B in 2026."
-      - "2026 guide: 22-30% total revenue growth. >$2B total revenue by 2028."
-      - "Morgan Stanley PT raised to $94. Benchmark to $90. Wells Fargo to $75."
-      - "DARZALEX FASPRO FDA approval for new indication (newly diagnosed MM)."
-      - "Stock at ~$70 area."
-    thesis_impact: POSITIVE
+      - "Scott Brown started as President Direct Platform (effective Mar 2 = today)."
+      - "Stock at $183.14. Trading range $178-183."
+      - "52wL $149, 52wH $319. Our cost $161."
+    thesis_impact: NONE
     analysis: |
-      Exceptional execution. Revenue record, guidance strong, new DARZALEX indication.
-      Multiple analyst PT raises (Morgan Stanley $94, Benchmark $90).
-      Our SO at $65 GATED on Merck PTAB Jun 2026.
-      Stock at ~$70 is 7.1% above our trigger.
-      R3 completed S126: FV $90, QS 79adj, E[CAGR] ~15.3% at $65.
-      DARZALEX new indication is POSITIVE for royalty stream.
-    action: "WAIT. Gated on Merck PTAB Jun 2026. Fundamentals strengthening. SO $65 valid."
+      Scott Brown hire as President Direct Platform is incrementally positive (leadership bench depth).
+      Stock holding above our cost basis ($161 vs $183). FV $195 = 6.5% upside.
+      BMO convergence concern from S128 remains -- edge narrowing.
+      No new Mansueto selling filed since last scan.
+    action: "HOLD. Scott Brown hire is positive signal for Direct platform growth."
 
-  ERIE:
+  HLNE:
     classification: ROUTINE
-    urgency: GATED
+    urgency: LOW
     headlines:
-      - "Q4 2025: net income $63.4M ($1.21/share) vs $152.0M ($2.91) prior year."
-      - "Full year 2025: $559.3M ($10.69) vs $600.3M ($11.48) prior year."
-      - "Drop due to $100M charitable contribution to Erie Insurance Foundation."
-      - "No SCOTUS Stephenson news found in February 2026."
-    thesis_impact: NEUTRAL
+      - "Q3 FY2026 results from Feb already incorporated."
+      - "UBS lowered PT to $150 (from $184) but maintained Buy."
+      - "Dividend $0.54/share, payable Apr 6, record Mar 20."
+      - "$1.0 trillion AUM/S milestone."
+    thesis_impact: NONE
     analysis: |
-      Q4 decline is entirely due to $100M charitable contribution -- one-time item.
-      Underlying business appears stable. Premium growth likely continued.
-      SCOTUS case (No. 25-834) still pending -- no cert disposition found.
-      SO at $180 GATED on SCOTUS ruling. Stock at ~$275 (34% above trigger).
-    action: "WAIT. GATED on SCOTUS cert disposition. $100M Foundation contribution is one-time."
+      UBS PT cut $184 to $150 is notable but still well above current (~$105-110 area).
+      Our FV $110 = conservative. UBS Buy at $150 = market sees more upside.
+      $1T AUM milestone validates thesis on private markets secular growth.
+    action: "HOLD. UBS PT cut is manageable (still above our FV). Thesis intact."
 
-  DNLM.L:
-    classification: ROUTINE
-    urgency: ACTIVE_SO
+  DOCS:
+    classification: MATERIAL
+    urgency: REVIEW_THESIS_ONGOING
     headlines:
-      - "Stock at ~976p (Feb 20). Our SO trigger 950p = 2.7% away."
-      - "JPMorgan upgrade Feb 10. Jefferies upgrade Feb 8."
-      - "FY2026 PBT guidance GBP 214M (range GBP 210-221M)."
-      - "CFO Karen Witts exercised 2,698 sharesave options Feb 23."
-      - "11 Buy / 1 Hold / 1 Sell analyst consensus."
-      - "Consumer demand recovery 'not yet sustained' per management."
-    thesis_impact: NEUTRAL
+      - "Piper Sandler raised PT to $42 (from $40), OW rating."
+      - "Andra AP fonden new 77,433 share position."
+      - "Institutional buying at depressed levels = contrarian signal."
+      - "Record bookings in January despite Q4 guidance weakness."
+    thesis_impact: INCREMENTALLY_POSITIVE
     analysis: |
-      Stock 2.7% from our SO trigger at 950p. Close but not triggered.
-      JPMorgan + Jefferies upgrades are positive analyst sentiment.
-      Consumer demand caution from management is honest but not alarming.
-      CFO sharesave exercise is routine (not open market buying).
-    action: "MONITOR DAILY. 2.7% from 950p trigger. If triggered, verify UK positions <=5 before execution."
+      MFN budget freeze impact from S128 still the key thesis question.
+      BUT: management says delayed budgets will be deployed later in year (upsell season).
+      Record January bookings = early signal that freeze is TEMPORARY not structural.
+      Piper Sandler PT raise + institutional buying at lows = contrarian positive.
+      Stock at ~$24 still BELOW DA bear case ($25-26) = margin of safety wide.
+    action: "CONTINUE monitoring. January record bookings suggests MFN freeze is TEMPORARY. Review at Q4 report."
+
+  FTNT:
+    classification: ROUTINE
+    urgency: LOW
+    headlines:
+      - "Stock at $78.20 (near our $79.12 cost). Traded $76.64-$79.17 range."
+      - "Quantbot Technologies bought 66,245 shares (filed Mar 1)."
+      - "Next earnings Apr 30."
+      - "Median analyst PT $90. Range $70-$120."
+    thesis_impact: NONE
+    action: "HOLD. Institutional buying. Median PT $90 vs our FV $88 = aligned."
+
+# =============================================================================
+# PIPELINE / CALENDAR (8)
+# =============================================================================
+
+pipeline:
+
+  KLR.L:
+    classification: MATERIAL
+    urgency: EARNINGS_TOMORROW_HARD_GATE
+    headlines:
+      - "FY2025 results TOMORROW March 3. HARD GATE for SO at 1,700p."
+      - "Stock near ATH. Consensus BUY. Peel Hunt PT 2,250p."
+      - "SO gate: OP margin >=6.5% AND order book >=GBP 1.4B."
+    thesis_impact: PENDING_EARNINGS
+    analysis: |
+      TOMORROW. Stock at ATH vs SO 1,700p = 16% above entry.
+      If results strong: need to decide market buy vs SO revision.
+      If results weak: SO stays valid, stock may drop toward trigger.
+      Iran shock: Keller is infrastructure/geotechnical, 55% US revenue.
+      Iran unlikely to affect FY2025 results or forward guidance materially.
+    action: "EVALUATE TOMORROW after results. Pre-flight ready."
+
+  ITRK.L:
+    classification: ROUTINE
+    urgency: EARNINGS_TOMORROW
+    headlines:
+      - "Full Year Results announcement March 3. 9:30 AM London."
+      - "Testing/inspection/certification sector."
+    thesis_impact: PENDING
+    action: "MONITOR. Intertek results tomorrow -- sector read-through for quality universe."
+
+  DOM.L:
+    classification: MATERIAL
+    urgency: EARNINGS_MAR_5
+    headlines:
+      - "FY25 results March 5 (3 days). KC#1 EBITDA <GBP125M = SELL."
+    action: "See positions section above. HARD MONITORING."
+
+  ANF:
+    classification: ROUTINE
+    urgency: EARNINGS_MAR_4
+    headlines:
+      - "Q4/FY2025 results March 4. EPS est $3.56-$3.58, rev est $1.669B."
+      - "Consumer discretionary sector read."
+    thesis_impact: NONE
+    action: "MONITOR for LULU sector read-through (consumer discretionary, athleisure adjacent)."
+
+  VEEV:
+    classification: MATERIAL
+    urgency: EARNINGS_MAR_4
+    headlines:
+      - "FQ4 2026 results after market close March 4. EPS est $1.92, rev est $810.9M."
+      - "On watchlist: entry $140-150, FV $205, QS 72/80 Tier A."
+    thesis_impact: PENDING_EARNINGS
+    analysis: |
+      VEEV is on our watchlist at $140-150 entry. If earnings disappoint and stock drops,
+      could approach entry zone. Currently well above.
+    action: "MONITOR earnings closely. Potential pipeline opportunity if results disappoint."
 
   RACE.MI:
     classification: ROUTINE
-    urgency: ACTIVE_SO
+    urgency: ACTIVE_SO_APPROACHING
     headlines:
-      - "Q4 2025 missed: EPS $2.14 vs $2.48, revenue $1.8B vs $2.07B. But stock rose 8.82% pre-market."
-      - "FY2025: Revenue EUR 7.1B (+8%), EBIT >EUR 2.1B, industrial cash flow >EUR 1.5B."
-      - "Dividend +21% to EUR 3.615/share."
-      - "Buyback: 307,643 shares for EUR 91.68M by Feb 20."
-      - "2026 outlook: 4 new models, slight CapEx increase, 23% tax rate, EUR 200M FX headwind."
-      - "Stock ~$375 / EUR 307. Our SO trigger EUR 295 = 3.9% away."
-    thesis_impact: NEUTRAL_POSITIVE
+      - "FY2025 guidance beats. EBITDA margin 39%. First EV (Ferrari Luce) May reveal."
+      - "Stock surged ~10% on guidance beat."
+      - "SO at EUR 295. Iran shock + Italian market -2%+ could push stock closer to trigger."
+    thesis_impact: INCREMENTALLY_POSITIVE
     analysis: |
-      Q4 headline miss but stock rallied -- market looks through it to full-year strength.
-      FY2025 execution strong: +8% rev, EBIT >EUR 2.1B, cash flow >EUR 1.5B.
-      Dividend +21% and buyback executing = shareholder-friendly.
-      Our SO at EUR 295 is 3.9% away. Getting close.
-    action: "MONITOR DAILY. 3.9% from EUR 295 trigger. Q4 miss is noise -- FY2025 strong."
+      Guidance beat is POSITIVE for thesis. EBITDA margin expansion.
+      BUT: stock rallied on it. Current ~EUR 307 = 3.9% from SO.
+      Iran shock today: Italian markets down ~2%. If sustained, RACE.MI could trade to EUR 295 range.
+      MONITOR CLOSELY this week. Trigger fill probability just INCREASED.
+    action: "MONITOR. Iran selloff may push toward SO EUR 295 trigger. Pre-flight ready."
 
-  REN.AS:
+  SPGI:
     classification: ROUTINE
-    urgency: BORDERLINE
+    urgency: CONFERENCE_TOMORROW
     headlines:
-      - "FY2025: Revenue GBP 9,590M (+7% underlying). Adj OP +9% to GBP 3,342M. Adj EPS +10% to 128.5p."
-      - "Dividend 67.5p (+7%). Buyback GBP 2,250M planned for 2026 (GBP 250M done)."
-      - "Stock fell 16.53% intraday Feb 4 on AI disruption fears (sector-wide)."
-      - "Currently ~EUR 26.8 area. Our SO EUR 24.50 = 8.6% away."
-    thesis_impact: POSITIVE
+      - "CEO + CFO at Raymond James conference TOMORROW Mar 3."
+      - "BofA conference Mar 12."
+      - "Stock at $417, SO at $420 = 0.7% ABOVE trigger. Near-trigger."
+      - "Mobility spin-off could enhance valuation."
+      - "Down 21.8% in 21 trading days."
+    thesis_impact: INCREMENTALLY_POSITIVE
     analysis: |
-      Excellent results. +7% revenue, +9% OP, +10% EPS. Massive buyback.
-      Feb 4 AI selloff was sector-wide (DeepSeek panic) -- not RELX-specific.
-      AI is NEUTRAL to POSITIVE for RELX (they own proprietary data, AI enhances products).
-      Stock recovered from Feb 4 low. Our entry EUR 24.50 is 8.6% away.
-    action: "MONITOR. Fundamentals strengthening. Entry realistic in correction."
+      SPGI at $417 is WITHIN the SO trigger zone ($420).
+      BUT: SO is GATED on Q1 2026 earnings (late April).
+      Conference tomorrow could provide forward color.
+      Iran selloff could push below $420 into trigger territory.
+      R3 complete. FV $470. E[CAGR] 12.1% at $420.
+    action: "MONITOR conference commentary tomorrow. Stock approaching SO trigger but GATED."
 
-  KLR.L:
-    classification: ROUTINE
-    urgency: EARNINGS_MAR_3
+  LYV:
+    classification: MATERIAL
+    urgency: TRIAL_STARTS_TODAY
     headlines:
-      - "FY2025 results confirmed March 3 (4 days away)."
-      - "No pre-earnings leaks detected."
-      - "Last known: H1 PBT GBP 94M, EBITDA margin 10.72%."
-    thesis_impact: NONE
+      - "DOJ antitrust trial: jury selection TODAY March 3 (Monday)."
+      - "6-week trial featuring Rapino, Berchtold. 40 state AGs."
+      - "Settlement efforts STALLED -- DOJ antitrust chief Gail Slater stepped down."
+      - "Claims proceeding: amphitheater monopoly + ticketing monopoly + state claims."
+      - "Promotion/fan-experience claims DISMISSED."
+    thesis_impact: INFORMATIONAL
     analysis: |
-      FY2025 results are our HARD GATE for the SO.
-      PASS criteria: OP margin >=6.5% AND order book >=GBP 1.4B.
-      If PASS -> SO at 1,700p becomes active.
-    action: "WAIT for Mar 3 results. This is the HARD GATE."
-
-# =============================================================================
-# ADDITIONAL TICKERS CHECKED (brief)
-# =============================================================================
-
-additional:
-
-  QLYS:
-    classification: NOISE
-    headlines: "Q4 strong, 2026 guide 7-8% rev growth. Stock -18% on soft outlook. Routine for pipeline."
-    action: "No position. Pipeline R1 only. No action."
-
-  CHKP:
-    classification: NOISE
-    headlines: "Q4 EPS $3.40 beat. Cyata acquisition. $2B buyback. Wedbush cut PT $240->$210. Stock -10%."
-    action: "No position. Pipeline R1 only. Sector context for FTNT thesis."
-
-  TW:
-    classification: NOISE
-    headlines: "Q4 rev +12.5% to $521M. $2B annual rev first time. Morgan Stanley PT raised to $123. Stock ~$121."
-    action: "GATED SO at $110. 7.9% away. Strong execution. No action."
+      LYV short was CANCELLED S93 (KC#3 triggered, operational thesis dead).
+      Trial starting TODAY is for monitoring only -- no position.
+      Outcome relevant for future short reconsideration IF DOJ wins meaningful remedy.
+      Settlement stalled = trial proceeding as scheduled.
+      Watch for: breakup order, consent decree, or behavioral remedies.
+    action: "MONITOR from sidelines. No position. Trial outcome informs potential future short thesis."
 
 # =============================================================================
 # ALERTS & PRIORITIES
 # =============================================================================
 
 alerts:
-  critical: []
+  critical:
+    - type: MACRO
+      event: "Operation Epic Fury -- US/Israel strikes on Iran. Khamenei killed."
+      market_impact: "S&P -1.7%, STOXX -1.8%, Oil +13%. Strait of Hormuz shipping suspended."
+      portfolio_action: "DO NOT PANIC SELL. Monitor escalation. Cash ready for deployment if broad selloff deepens."
   material:
-    - "NVO: Schall + Pomerantz law firms investigating for securities fraud. AMBULANCE CHASING -- not SEC/DOJ. Monitor for actual complaint filing."
-    - "ADBE: New 52-week low $246.21. MoS expanding to 37%. AI narrative repricing, not fundamental deterioration."
-    - "LULU: CEO vacuum 27 days. Elliott vs Wilson proxy war. Product quality complaints. Mar 31 MAKE-OR-BREAK."
-  routine:
-    - "PROX.BR: FY2025 results + strategic plan TODAY. EUR 275M goodwill impairment pre-announced. Review needed."
-    - "DOM.L: Earnings Mar 5 (6 days). No leaks. EBITDA <GBP 125M = sell trigger."
-    - "KLR.L: Earnings Mar 3 (4 days). HARD GATE for SO at 1,700p."
-    - "DNLM.L: 2.7% from SO trigger 950p. Monitor daily."
-    - "RACE.MI: 3.9% from SO trigger EUR 295. Q4 miss is noise."
-    - "HALO: Record results, analyst PT raises. GATED on Merck PTAB Jun 2026."
-    - "QTCOM.HE: Results confirmed. IAR transition extends headwind to 2027. ARCHIVE decision from S126."
+    - ticker: ADBE
+      headline: "Q1 FY2026 earnings March 12 (10 days). 2nd largest position."
+      classification: MATERIAL
+      action: "Prepare bear/base/bull framework. Error #13."
+    - ticker: DOM.L
+      headline: "FY25 results March 5 (3 days). KC#1 EBITDA <GBP 125M = SELL."
+      classification: MATERIAL
+      action: "HARD MONITORING. Have SELL plan ready."
+    - ticker: LULU
+      headline: "Wilson Mar 13 deadline. Elliott pushing Jane Nielsen. No CEO 30 days."
+      classification: MATERIAL
+      action: "MONITOR through Mar 31."
 
 # =============================================================================
-# META-REFLECTION (S127)
+# EARNINGS CALENDAR THIS WEEK
+# =============================================================================
+
+earnings_this_week:
+  - { ticker: KLR.L, date: "Mar 3 (Mon)", type: "FY2025 prelims", portfolio: "pipeline SO", gate: "OP margin >=6.5%, OB >=GBP 1.4B" }
+  - { ticker: ITRK.L, date: "Mar 3 (Mon)", type: "FY results", portfolio: "watchlist/sector read", gate: "N/A" }
+  - { ticker: ANF, date: "Mar 4 (Wed)", type: "Q4/FY2025", portfolio: "sector read (LULU)", gate: "N/A" }
+  - { ticker: VEEV, date: "Mar 4 (Wed)", type: "FQ4 2026", portfolio: "watchlist entry $140-150", gate: "N/A" }
+  - { ticker: DOM.L, date: "Mar 5 (Wed)", type: "FY2025 results", portfolio: "ACTIVE POSITION", gate: "KC#1 EBITDA <GBP 125M = SELL" }
+  - { ticker: ADBE, date: "Mar 12 (Thu next week)", type: "Q1 FY2026", portfolio: "ACTIVE POSITION (2nd largest)", gate: "Error #13 framework needed" }
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+
+summary:
+  critical_count: 1  # MACRO (Iran/Operation Epic Fury)
+  material_count: 3  # ADBE earnings, DOM.L earnings, LULU governance
+  routine_count: 10
+  minor_positive_count: 3
+
+  key_actions:
+    - "MACRO: Iran strikes = risk-off. DO NOT PANIC SELL. Monitor escalation + oil prices."
+    - "RACE.MI: Iran selloff may push stock toward SO EUR 295 trigger. Monitor closely."
+    - "SPGI: Stock at $417, near SO $420 trigger. Conference tomorrow. GATED but approaching."
+    - "KLR.L: EARNINGS TOMORROW. Hard gate for SO 1,700p. Prepare evaluation."
+    - "DOM.L: EARNINGS Wed Mar 5. KC#1 EBITDA <GBP 125M = SELL. 3 days."
+    - "ADBE: EARNINGS Mar 12 (10 days). Prepare bear/base/bull. Error #13."
+    - "VEEV: EARNINGS Wed Mar 4. Pipeline opportunity if disappointing."
+    - "LULU: Wilson Mar 13 deadline. Elliott pushing CEO candidate. Monitor."
+    - "LYV: DOJ trial jury selection TODAY. Monitor from sidelines (no position)."
+    - "DOCS: January record bookings suggests MFN freeze temporary. Incrementally positive."
+
+  positions_unchanged:
+    - EDEN.PA   # No new news. CAC selloff = noise.
+    - IHP.L     # No news. FTSE minimal impact.
+    - BYIT.L    # Recovering from 52wL. No news.
+    - GL        # Positive momentum continues.
+    - MONY.L    # MS downgrade was Dec 2025 (old).
+    - HLNE      # UBS PT cut manageable. Thesis intact.
+    - FTNT      # Institutional buying. Stable.
+    - MORN      # Scott Brown hire positive. Edge question ongoing.
+
+# =============================================================================
+# META-REFLECTION (S132)
 # =============================================================================
 
 meta_reflection:
-  coverage: "FULL SCAN. 14 portfolio + 9 watchlist = 23 tickers. 20+ web searches."
+  coverage: "22/22 tickers scanned. 14 portfolio + 8 pipeline/calendar."
   scan_duration: "~12 min"
-  findings_vs_expectation: |
-    1. ZERO CRITICAL alerts. Portfolio safe.
-    2. NVO: NEW -- Two law firms investigating for securities fraud. Classified as AMBULANCE
-       CHASING (standard post-drop behavior), NOT regulatory. But monitor for actual filings.
-    3. ADBE: NEW 52-week low. MoS expanding. This is OPPORTUNITY territory, not alarm.
-    4. FTNT: CVE-2026-21643 is a vulnerability that was PROACTIVELY patched. KC NOT triggered.
-       This is our second cybersecurity vulnerability to monitor (after Oct 2024 FortiManager).
-    5. PROX.BR: EUR 275M goodwill impairment complicates our thesis. Need to review strategic plan today.
-    6. EDEN.PA: Brazil PAT regulation -- Edenred WON initial legal challenge (9/12 issuers). Positive.
-    7. GL: Dividend raise + guidance raise + board refreshment -- all positive.
-    8. HLNE: Q3 beat exceptional. Thesis strengthening.
-    9. QTCOM.HE: Results confirmed. IAR SaaS transition extends headwind. ARCHIVE per S126.
-    10. KLR.L + DOM.L: Earnings imminent (Mar 3, Mar 5). No leaks. Clean pre-earnings.
-  new_vs_s118:
-    - "NVO fraud investigations by Schall Law + Pomerantz (Feb 25-26). AMBULANCE CHASING."
-    - "ADBE new 52-week low $246.21 (Feb 26). Jefferies PT cut to $290."
-    - "FTNT CVE-2026-21643 critical vulnerability (patched Feb 6). KC monitoring."
-    - "GL dividend raise + 2 new board members (Feb 25-26)."
-    - "HALO record revenue $1.4B, analyst PT raises (Morgan Stanley $94)."
-    - "ERIE $100M Foundation contribution explains Q4 drop."
-    - "PROX.BR EUR 275M goodwill impairment pre-announced."
-    - "ENGI.PA FY2025 released: NRIgs EUR 4.9B, guidance RAISED."
-    - "QTCOM.HE FY2025 numbers confirmed: ARR +8.3%, 2026 guide +10% rev."
-    - "RACE.MI Q4 headline miss but stock rallied on FY2025 strength."
-    - "REN.AS FY2025: +7% rev, +9% OP, +10% EPS. Massive buyback."
+  key_finding: |
+    CRITICAL MACRO EVENT discovered: Operation Epic Fury (US/Israel strikes on Iran).
+    This was NOT in the S128 scan 2 days ago. It began Feb 28 (Saturday).
+    Supreme Leader Khamenei killed. Strait of Hormuz shipping suspended.
+    This changes the macro landscape significantly for at least the next 2-4 weeks.
   limitations:
-    - "PROX.BR FY2025 full results released today 07:00 CET -- detailed numbers not yet analyzed."
-    - "No SCOTUS Stephenson update found for ERIE -- case may be in deliberation."
-    - "LULU CEO search: no specific candidate announcement found."
+    - "Iran situation is FAST-MOVING. Information may be hours old by the time this scan completes."
+    - "European markets opened down but not yet full US session data (pre-market only)."
+    - "LULU: CEO candidate names from Elliott (Jane Nielsen) need verification."
+    - "KLR.L: results not yet released (tomorrow). Cannot evaluate gate."
   anomalies:
-    - "NVO: Two separate law firms investigating simultaneously suggests coordinated ambulance chasing, not genuine fraud concern. But volume of institutional selling (Thornburg 278K shares) is notable."
-    - "ADBE at new 52wL with P/E ~16x and OP margin >36%. If FTC trial resolves favorably, this could be the most undervalued Tier A in our portfolio."
-    - "FTNT: Second major CVE within ~16 months. Pattern worth monitoring -- but proactive patching is GOOD practice, not a red flag."
+    - "SPGI at $417 is essentially AT the SO trigger of $420. But SO is GATED on Q1 earnings. Tension between proximity and gate."
+    - "RACE.MI could benefit from Italian market selloff pushing toward SO EUR 295."
+    - "NVO accumulating class action filings (now 3+ law firms). Still ambulance chasing but volume increasing."
+    - "MONY.L Morgan Stanley downgrade appeared in search results as 'recent' but is actually Dec 2025. Search result dating unreliable."
   suggestions:
-    - "ADBE: Consider ADD if drops to $230-240 range. E[CAGR] increasingly compelling."
-    - "PROX.BR: Review strategic plan today. EUR 275M impairment changes the narrative."
-    - "QTCOM.HE: Formalize ARCHIVE decision with detailed IAR headwind analysis."
-    - "Standing order proximity: DNLM.L 2.7%, RACE.MI 3.9% -- both could trigger this week."
+    - "IMMEDIATE: Update macro view for Iran conflict impact on portfolio thesis assumptions."
+    - "TODAY: Prepare for KLR.L results tomorrow. Pre-flight gate evaluation ready."
+    - "TUESDAY: Process KLR.L results. Evaluate ITRK.L sector read."
+    - "WEDNESDAY: DOM.L earnings -- have SELL trigger ready for KC#1."
+    - "WEDNESDAY: VEEV + ANF earnings -- monitor for pipeline/sector reads."
+    - "NEXT WEEK: ADBE earnings Mar 12 -- bear/base/bull framework mandatory."
+    - "OPPORTUNITY: If Iran selloff deepens, RACE.MI and SPGI may hit SO triggers. Cash ready."

@@ -171,7 +171,7 @@ Price = $79.12
 Dividend = 0%
 
 Capital Appreciation: (88/79.12)^(1/3) - 1 = 3.6%
-Sustainable Growth (post-FV compounding): +8%
+Expected Growth: 8%
 Buyback yield: +2%
 
 E[CAGR_3yr] = ~13.6%

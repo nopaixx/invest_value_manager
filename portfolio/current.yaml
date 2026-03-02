@@ -154,7 +154,7 @@ positions:
     avg_cost_usd: 4.25  # Blended estimate
     avg_cost_gbp: 323.0  # Blended: (55*326 + 55*320) / 110
     date_opened: 2026-02-24
-    thesis: thesis/research/IHP.L/thesis.md
+    thesis: thesis/active/IHP.L/thesis.md
     conviction: medium
     fair_value: "390 GBp (R3 post-DA. QS Tool 80 Tier A. Was 415p pre-DA. Entry 300p SO superseded by market buy.)"
     last_review: 2026-02-20
@@ -167,7 +167,7 @@ positions:
     invested_usd: 943.88  # $471.16 + $472.72 (EUR 400 * 1.1818)
     avg_cost_usd: 104.88  # Blended: (4.63*101.75 + 4.37*108.11) / 9.00
     date_opened: 2026-02-25
-    thesis: thesis/research/HLNE/thesis.md
+    thesis: thesis/active/HLNE/thesis.md
     conviction: medium
     fair_value: "$110 (R3 post-DA. QS Tool 86, Adj 82 Tier A. Highest QS in portfolio.)"
     last_review: 2026-02-25
@@ -180,7 +180,7 @@ positions:
     invested_usd: 471.16  # EUR 400 * 1.1779
     avg_cost_usd: 24.07
     date_opened: 2026-02-25
-    thesis: thesis/research/DOCS/thesis.md
+    thesis: thesis/active/DOCS/thesis.md
     conviction: medium
     fair_value: "$32.80 (R3 post-DA. QS Tool 74, Adj 79 Tier A. SBC-adj OEY $24 = floor.)"
     last_review: 2026-02-25
