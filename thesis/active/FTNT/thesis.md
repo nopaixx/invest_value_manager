@@ -185,5 +185,48 @@ E[CAGR_3yr] = ~13.6%
 
 ---
 
+---
+
+## 9. INVESTOR DAY FRAMEWORK (Mar 10, 2026)
+
+### Key Metrics to Watch
+
+| Metric | Current (FY2025) | Bull Signal | Bear Signal | Thesis Impact |
+|--------|------------------|-------------|-------------|---------------|
+| **Unified SASE ARR** | +40% billings Q4 | ARR >$1B, growth >35% | Growth <25%, churn signal | KC#2 (SASE <15% = SELL) |
+| **FortiOS 8.0 roadmap** | FortiOS 7.x | Major AI-native features, ASIC 6 timeline | Incremental only, no AI moat narrative | Moat durability assessment |
+| **FY2027+ revenue guide** | $7.5-7.7B FY26 | 3yr CAGR >12%, $10B+ by FY28 | <10% CAGR, refresh dependency | FV sensitivity: +/-$8-12 |
+| **Platformization attach rate** | ~3.5 products/customer | >4 products, >50% new deals multi-product | Flat attach, single-product dominance persists | Revenue quality, stickiness |
+| **Product margin trajectory** | GM 81.3% expanding | >82% target, ASIC advantage quantified | Margin guide flat, SASE COGS rising | Bear case margin risk |
+| **ASIC 6 / SP6 details** | ASIC 5 current | Performance benchmarks, competitive gap widened | Delays, x86 gap narrowing | Core moat validity |
+| **Security incident response** | CVE-2025/2026 crisis | Transparent post-mortem, new security ops, customer retention data | Downplay/ignore, no churn metrics | KC#6 monitoring |
+| **Capital allocation** | $1.38B buyback auth | New auth, accelerated pace | Pivot to M&A, dilutive acquisition | FCF deployment quality |
+| **OT/IoT security TAM** | Early stage | TAM sizing >$15B, dedicated OT roadmap | Afterthought, no dedicated resources | Growth vector validation |
+| **AI security positioning** | Nascent | AI-native products, LLM threat detection, GenAI SecOps | Buzzword-only, no product substance | Competitive moat vs CRWD/PANW |
+
+### Scenario Impact on Thesis
+
+| Outcome | FV Impact | Action |
+|---------|-----------|--------|
+| **BULL** (SASE ARR >$1B, ASIC 6 details, FY27 guide >12% CAGR) | FV $88 → $95-100 | HOLD, raise FV, consider ADD at current |
+| **BASE** (incremental updates, confirms FY26 guide, SASE steady) | FV $88 unchanged | HOLD |
+| **BEAR** (SASE deceleration signal, no ASIC 6, margin concerns) | FV $88 → $75-80 | Review KC#2, tighten stop |
+
+### What I'm Looking For (Edge)
+1. **SASE customer count + churn.** Market focuses on billings. If customer count is rising AND churn is <5%, the recurring base is stronger than market credits.
+2. **ASIC cost advantage quantification.** If Fortinet reveals specific $/Gbps vs x86, the moat story becomes more concrete for re-rating.
+3. **Cross-sell data.** Products per customer trending up = platform stickiness = higher switching costs = justifies premium multiple.
+4. **Security incident remediation.** How they address CVE-2025/2026 publicly matters. Transparency = trust = customer retention.
+
+### Pre-Event Checklist
+- [ ] Check FTNT price morning of Mar 10
+- [ ] Monitor live webcast / investor materials
+- [ ] Post-event: update thesis Section 9 with actuals vs framework
+- [ ] If any KC approaches: trigger review-agent
+
+*Framework prepared: 2026-03-06 (Session 141)*
+
+---
+
 *Position opened: 2026-02-26. 5.98 shares @ $79.12 (EUR 400).*
 *R1→R2→R3→R4 pipeline completed S123. 5th E[CAGR]-framework market buy.*

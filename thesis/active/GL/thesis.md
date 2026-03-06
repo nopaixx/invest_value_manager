@@ -125,7 +125,7 @@ Tendencia: ROE comprimido vs 2024 (22.3%→20.9%) pero aun excelente vs peers (1
 | Disrupcion tecnologica | NO | Captive agents hard to disrupt |
 | Management destruyendo valor | NO | $126 avg buyback = excellent allocation |
 | Balance deteriorandose | NO | Debt/Equity stable |
-| Insider selling masivo | NO | No significant insider selling |
+| Insider selling masivo | **MONITORING** | C-suite sales Mar 2-4: CEO Darden $2.7M (18K sh exercise+sale), CIO Hensley $373K (3K sh). ~$3.1M in 48h. Context: post-grant exercises (Feb 27 awards). Net insider activity still positive (195K net purchased historically). Watch for pattern. |
 | Dividend cut | NO | 10+ anos aumentando |
 | Perdida market share | NO | Stable in niche |
 | ROIC < WACC | NO | ROE 20.9% >> cost of equity ~7% |
@@ -450,6 +450,7 @@ Expected Value = $29 + $105 + $59 = $193
 | Q1 2026 | Q1 earnings (~May) | Verify premium growth tracking 7-8%, underwriting margins |
 | 2026 ongoing | Class action developments | Monitor depositions, settlement talks. Alert if >$200M |
 | Continuous | P/E re-rating | If P/E approaches 13-14x, evaluate TRIM |
+| 2026-03-06 | C-suite selling $3.1M in 48h | CEO Darden 18K sh ($2.7M exercise+sale), CIO Hensley 3K sh ($373K). Post Feb 27 stock awards. Monitor next 30d for continuation pattern. |
 
 ---
 
@@ -480,6 +481,44 @@ Expected Value = $29 + $105 + $59 = $193
 |------|--------|-------|--------|-------|
 | 2026-02-03 | BUY | $141.06 | 3 | Initial position ~$423 |
 | 2026-02-10 | — | $141.42 | 3 | v3.0 review: HOLD, conviction upgraded |
+| 2026-03-06 | — | $143.37 | 3 | Insider selling alert: CEO $2.7M + CIO $373K in 48h. Post-grant exercises. NOT exit signal — see Section 15.1 |
+
+---
+
+## 15.1 INSIDER SELLING ANALYSIS (2026-03-06)
+
+**Event:** 3 C-suite transactions in 48 hours (Mar 2-4):
+
+| Date | Insider | Role | Action | Shares | Value | Context |
+|------|---------|------|--------|--------|-------|---------|
+| Mar 4 | James M. Darden | CEO | Exercise + Sale | 18,000 | $2.7M @ $145.10 | Option exercise, immediate sale |
+| Mar 4 | James M. Darden | CEO | Exercise (derivative conversion) | 18,000 | $1.8M | Derivative conversion |
+| Mar 2 | Robert E. Hensley | CIO | Sale | 3,000 | $373K @ $145.04 | Open market |
+| Mar 2 | James M. Darden | CEO | Stock Gift | 7,000 | $0 | Transfer, not sale |
+| Mar 2 | Robert B. Mitchell | General Counsel | Stock Gift | 6,000 | $0 | Transfer, not sale |
+
+**Total actual sales: ~$3.1M** (CEO $2.7M + CIO $373K). Stock gifts ($0 value transfers) excluded.
+
+**KC#5 threshold check (insider selling >10% holdings):**
+- Total insider holdings: 0.7% of shares outstanding (~549.7K shares)
+- Sales: 21K shares sold = 3.8% of insider holdings
+- **KC#5 NOT triggered** (3.8% << 10% threshold)
+- BUT: insider ownership already very low at 0.7% — the LEVEL matters more than the % sold
+
+**Assessment: NOT an exit signal.** Reasons:
+1. **Timing = post-grant exercise.** Feb 27: Darden received 29K award, Kalmbach 12K, Hensley 10K, others. Mar 4 sale follows standard exercise-and-sell pattern (tax obligations on vested awards).
+2. **Net insider activity is strongly positive.** Historical: 410K purchased vs 215K sold = 195K net purchased (61 transactions). The pattern is net accumulation.
+3. **Size is manageable.** $3.1M vs $423M position cost = immaterial. CEO sold 18K of what appears to be freshly exercised options.
+4. **No General Counsel sale.** Mitchell gifted stock, didn't sell. GC selling would be a stronger signal.
+5. **Stock at $143-145 is still 25% below FV.** If insiders believed price was at/above FV, selling would be more concerning.
+
+**What WOULD trigger concern:**
+- Sustained selling over 3+ months (pattern, not event)
+- GC or CFO Kalmbach selling (not just CEO exercising options)
+- Sales >10% of individual holdings without replenishment
+- Selling at prices approaching FV ($180+)
+
+**Verdict: HOLD unchanged. Monitor for pattern over next 30 days.**
 
 ---
 

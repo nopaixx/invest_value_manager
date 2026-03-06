@@ -45,6 +45,25 @@ standing_orders:
     last_analysis_date: 2026-02-27
     expiry: 2026-06-01
 
+  - ticker: BAH
+    action: BUY
+    category: GATED
+    fill_prob_6m: 30
+    trigger: "<=$75"
+    current_distance: "8.3%"
+    created_date: "2026-03-06"
+    staleness_status: FRESH
+    gate: "R1 complete. R4 required before execution."
+    size_eur: 400
+    fair_value: "$88"
+    mos_at_trigger: "14.8%"
+    tier: "B (QS 68)"
+    notes: "Booz Allen Hamilton. R1 complete S141. Government IT/consulting. DOGE tail risk priced in. SO $75 = ~15% MoS. E[CAGR] ~13% at trigger."
+    kill_conditions: "DOGE structural contract loss >15% revenue, ROIC <WACC 2yr, security clearance revocation, CEO departure"
+    pre_execution_condition: "R4 committee required. Monitor DOGE impact on federal consulting contracts."
+    last_analysis_date: 2026-03-06
+    expiry: 2026-09-01
+
   - ticker: ACGL
     action: BUY
     category: ACTIVE
