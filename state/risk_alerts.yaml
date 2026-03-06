@@ -2,516 +2,399 @@
 # RISK ALERTS - Actualizado por risk-sentinel agent
 # =============================================================================
 
-last_scan: 2026-02-19
-next_scan_due: 2026-02-26  # +7 dias desde last_scan
-scan_number: 3  # Third weekly scan
+last_scan: 2026-03-06
+next_scan_due: 2026-03-13  # +7 dias desde last_scan
+scan_number: 4  # Fourth weekly scan — CRISIS SCAN (Hormuz/Epic Fury)
 
 # Alertas por nivel
 alerts_by_level:
 
-  red: []  # No thesis-killers detected this scan
+  red:
+    # =========================================================================
+    # NVO - RED: KC#1 TRIGGERED + Securities Fraud Investigation
+    # =========================================================================
+    - ticker: NVO
+      risk_type: KILL_CONDITION_TRIGGERED + LEGAL
+      description: >
+        KC#1 TRIGGERED (2026-02-23): CagriSema REDEFINE 4 FAILED non-inferiority
+        vs Zepbound (23% vs 25.5% adherent, 20.2% vs 23.6% ITT). Stock -16.43%.
+        NEW (2026-03-03): Pomerantz LLP + Schall Law Firm launched SECURITIES
+        FRAUD INVESTIGATIONS. These are ambulance-chaser firms (NOT SEC). Filed
+        after the 16% drop on CagriSema failure. Investigation concerns whether
+        officers made misleading statements. NDA filed to FDA Dec 2025. Higher-dose
+        trial planned H2 2026, REDEFINE 11 data H1 2027.
+        Position: -19.7% unrealized. $38.66 vs avg cost $48.13.
+      source: "globenewswire.com (Pomerantz), businesswire.com (Schall), novonordisk.com, statnews.com"
+      date_detected: 2026-02-23
+      date_updated: 2026-03-06
+      kill_condition_triggered: true
+      kill_condition_detail: "KC#1: CagriSema fails non-inferiority vs Zepbound. TRIGGERED Feb 23."
+      recommendation: >
+        HOLD LOW conviction per P6 analysis (Ozempic/Wegovy franchise intact,
+        $42B+ revenue base, MoS 22.8% vs $50 FV). Securities investigations are
+        ambulance-chasing, NOT SEC. If actual SEC investigation opens, ESCALATE
+        immediately. Monitor Wegovy pill ramp Q1-Q2 2026 and FY2026 guidance.
+        No ADD. SELL if FY2026 guidance miss >10% OR market share <40%.
 
   orange:
 
     # =========================================================================
-    # GL - ESCALATED from YELLOW to ORANGE (CEO SELLING)
+    # FTNT - ELEVATED TO ORANGE (Class Action + CVE-2026-24858)
+    # =========================================================================
+    - ticker: FTNT
+      risk_type: LEGAL + CYBERSECURITY_INCIDENT
+      description: >
+        COMBINED RISK (2026-03-06): Two distinct risk vectors:
+        1) SECURITIES CLASS ACTION (Oct 2025): Robbins Geller filed for Nov 2024-
+        Aug 2025 class period. Rhode Island pension fund as lead plaintiff (SERIOUS).
+        Alleges misrepresentation of FortiGate refresh cycle magnitude ($400-450M
+        revenue claimed, but 40-50% complete by Q2 2025). Our purchase Feb 26 2026
+        is OUTSIDE class period. Lead plaintiff deadline passed Nov 21 2025.
+        2) CVE-2026-24858 (Jan 2026): CRITICAL auth bypass (CVSS 9.4). FortiOS
+        SSO zero-day actively exploited. Rogue admin accounts created, configs
+        exfiltrated. Fortinet disabled SSO globally Jan 26, patched Jan 27. CISA
+        added to KEV catalog. This is the irony flagged by DA: cybersecurity
+        company's own products have critical vulnerabilities.
+        Pattern: CVE-2025 series + CVE-2026-24858 = recurrent security issues.
+      source: "rgrdlaw.com, businesswire.com, thehackernews.com, cisa.gov, socprime.com"
+      date_detected: 2026-03-06
+      kill_condition_triggered: false
+      kill_condition_at_risk: >
+        KC#4 (SEC investigation): NOT triggered. Class action is private litigation.
+        KC#6 (2nd major security incident in 6mo causing customer attrition):
+        CVE-2026-24858 in Jan 2026 is INCIDENT #1. If a 2nd incident occurs before
+        Jul 2026 AND customer churn is visible, KC#6 triggers. Monitor Q1 billings.
+      recommendation: >
+        HOLD. Class action priced in (stock near 52wL at purchase). CVE-2026-24858
+        patched within 24h. But PATTERN of vulnerabilities is concerning for a
+        cybersecurity vendor. April 2026 earnings = key data point for billings
+        and customer retention. If billings decelerate AND churn increases, KC#6
+        approaches. Update thesis to track CVE-2026-24858 as first incident.
+
+    # =========================================================================
+    # GL - MAINTAINED ORANGE (Insider Selling + Class Actions)
     # =========================================================================
     - ticker: GL
-      risk_type: INSIDER_SELLING_PATTERN
+      risk_type: INSIDER_SELLING_PATTERN + LEGAL
       description: >
-        ESCALATED (2026-02-19): Insider selling pattern BROADENED since last scan.
-        SINCE FEB 13: CEO Frank Svoboda sold 12,500 shares ($1.81M) on Feb 17.
-        Exercise-and-sell at $82.56 exercise, sold at $145.52 avg. Holds 35,868
-        direct + 108,473 via Family Trust + 26,425 via Spouse Trust.
-        CMO Jennifer Allison Haworth sold 10,000 shares ($1.43M) on Feb 12.
-        TOTAL SINCE Q4 EARNINGS (Feb 4): 4 insiders sold $7.4M in 2 weeks.
-        EVP Majors $4.4M (39% of position), CEO Svoboda $1.8M, CMO Haworth
-        $1.4M, Director Blinn $259K. Pattern: broad-based, C-suite included.
-        POSITIVE: SEC/DOJ cleared. AM Best A. S&P AA-. Data breach settled
-        $4.66M (532K people). No 10b5-1 plans flagged on filings.
-        ESCALATION REASONING: Last scan warned "if C-suite begins selling,
-        ESCALATE." CEO sold Feb 17. Condition met. Also CMO sold Feb 12.
-        Now 4 insiders (1 C-suite CEO + 1 C-suite CMO + 1 EVP + 1 Director).
-      source: "investing.com, marketbeat.com, stocktitan.net, defenseworld.net"
+        MAINTAINED (2026-03-06): No new insider sales detected since Feb 19 scan.
+        Previous pattern: 4 insiders sold $7.4M in 13 days post-Q4 earnings
+        (CEO + CMO + EVP + Director). SEC/DOJ CLEARED Jul 2025. Credit STABLE
+        (AM Best A, S&P AA-). Data breach settlement $4.66M (immaterial, pending
+        preliminary approval filed Feb 12).
+        NEW: "Good faith defense" class action filed — alleges GL used outlawed
+        legal defense to deny benefits. Separate from securities class actions.
+        4 securities class actions remain active (private litigation).
+        OIL IMPACT: Mild negative (low-income policyholders stressed by energy costs).
+      source: "classaction.org, topclassactions.com, bloomberglaw.com"
       date_detected: 2026-02-13
-      date_updated: 2026-02-19
+      date_updated: 2026-03-06
       kill_condition_triggered: false
-      kill_condition_at_risk: >
-        KC#4 (new investigation opened): NOT triggered, but broad C-suite
-        selling sometimes precedes material non-public information. SEC/DOJ
-        are CLOSED, so this is more likely monetization than red flag.
-        However, 4 insiders in 2 weeks is a PATTERN, not isolated events.
+      kill_condition_at_risk: "KC#4 (new investigation): NOT triggered. SEC/DOJ cleared."
       recommendation: >
-        HOLD but HEIGHTENED ALERT. The exercise-and-sell pattern is common
-        post-earnings (options expiring, tax planning), and SEC/DOJ clearance
-        removes the worst interpretation. However, the BREADTH is notable:
-        CEO + CMO + EVP + Director = all C-suite layers selling within 13 days.
-        IF any additional material insider sale occurs, or IF class action
-        settlement terms are materially adverse, ESCALATE TO RED.
-        No ADD at current levels. Maintain $125 ADD trigger only.
-        Monitor: next Form 4 filings weekly.
+        HOLD. Legal profile IMPROVING (SEC/DOJ cleared, data breach settling).
+        Benefits class action is new but appears manageable. No new insider sales
+        since Feb scan = pattern may have been post-earnings monetization as assessed.
+        No ADD at current levels. Maintain $125 ADD trigger.
 
     # =========================================================================
-    # MONY.L - ESCALATED from YELLOW to ORANGE (AI threat materialized)
-    # =========================================================================
-    - ticker: MONY.L
-      risk_type: AI_DISRUPTION_ESCALATED
-      description: >
-        ESCALATED (2026-02-19): AI disruption threat MATERIALLY WORSENED since
-        last scan. NEW DEVELOPMENT: Experian launched Insurance Marketplace app
-        on ChatGPT (Feb 12-13). This is NOT a startup like Insurify -- Experian
-        is a FTSE 100 data company with 37+ US carrier integrations. While
-        currently US-only, Experian has UK insurance data infrastructure via
-        its consumer services division.
-        COMPOUNDING FACTORS since last scan:
-        1) Experian ChatGPT app (LEVEL 2 competitor, not Level 3 startup)
-        2) Stock at 146p = 13-year low, -11.6% in one week (Feb 17)
-        3) Morgan Stanley downgraded on AI concerns (rated Underweight)
-        4) Google AI Overviews serving 2 billion users/month
-        5) Feb 23 earnings = 4 days away. KC#9 (AI strategy) is THE gate.
-        PREVIOUS DEFENSE WEAKENING: Berenberg's "FCA regulatory moat" argument
-        is weakened by Experian's entry -- Experian already has FCA authorization
-        in UK (via Runpath). If Experian deploys UK ChatGPT insurance, the
-        "regulatory barrier" argument collapses.
-        No new lawsuits or FCA actions against MONY directly.
-      source: "experianplc.com, insurancejournal.com, investing.com, sharecast.com, ajbell.co.uk, cityam.com"
-      date_detected: 2026-02-12
-      date_updated: 2026-02-19
-      kill_condition_triggered: false
-      kill_condition_at_risk: >
-        KC#9 (no AI strategy at Feb 23 results): 4 DAYS from trigger evaluation.
-        KC#8 (agentic AI brokers >20% UK adoption): Experian ChatGPT US-only
-        currently, but Experian HAS UK FCA authorization. Threshold not met
-        but the "UK regulatory moat" defense is weakening.
-        KC#4 (organic traffic -15% YoY): Google AI Overviews at 2B users/month.
-        Need traffic data from Feb 23 earnings.
-      recommendation: >
-        HOLD ON PROBATION through Feb 23 earnings. This is now THE decisive
-        event for this position. Experian's entry changes the calculus:
-        - If management addresses AI with credible strategy: HOLD cautiously
-        - If management dismissive of AI: KC#9 TRIGGERED, begin 30-day exit
-        - If traffic data shows organic decline: ESCALATE immediately
-        Thesis bear probability has increased from 35% to 40-45%.
-        Current price 146p vs FV 190p = 30% MoS on paper, but disruption risk
-        makes FV increasingly uncertain. No ADD under any circumstances.
-
-    # =========================================================================
-    # LULU - MAINTAINED ORANGE (no new developments)
+    # LULU - ESCALATING ORANGE (Proxy Fight Now Formal)
     # =========================================================================
     - ticker: LULU
-      risk_type: BRAND_QUALITY_GOVERNANCE
+      risk_type: GOVERNANCE_ACTIVIST_ESCALATION
       description: >
-        MAINTAINED (2026-02-19): No 3rd quality incident detected since Feb 13.
-        Governance cluster unchanged: no CEO (since Jan 31, co-interim CFO+CCO),
-        Wilson proxy fight active (3 nominees), Elliott $1B activist.
-        Wilson NOT working with Elliott (confirmed by sources).
-        CEO search ongoing, Elliott promoting Jane Nielsen (ex-Ralph Lauren).
-        Securities class action still active (Dec 2023-Jul 2024 period).
-        PFAS class action dismissed (standing). Greenwashing dismissed. DEI
-        derivative lawsuit filed Nov 2024 -- still pending.
-        Short interest: 5.13% of float (DECLINING -8.9% since last report).
-        Analyst consensus: HOLD (22 analysts). No new downgrades.
-        Q4 Mar 31 remains MAKE-OR-BREAK.
-      source: "cnbc.com, cbcnews.ca, fastcompany.com, marketbeat.com, benzinga.com"
+        ESCALATED (2026-03-06): Chip Wilson launched CreativityFirstlulu.com on
+        Mar 5. Announced Schedule 14A proxy filing + GOLD universal proxy card.
+        3 director nominees: Marc Maurer (ex-On Running co-CEO), Laura Gentile
+        (ex-ESPN CMO), Eric Hirshberg (ex-Activision CEO). Specifically seeking
+        ouster of Advent International representation. Elliott $1B stake pushing
+        Jane Nielsen (ex-Ralph Lauren) as CEO. DUAL activist pressure.
+        No CEO since Jan 31 (34+ days). Q4 earnings Mar 17 = MAKE-OR-BREAK.
+        Short interest 5.13% (declining). Securities class action active.
+        OIL IMPACT: Moderate (shipping costs from Vietnam/Cambodia).
+      source: "yahoo.com, chainstoreage.com, wwd.com, semafor.com"
       date_detected: 2026-02-13
-      date_updated: 2026-02-19
+      date_updated: 2026-03-06
       kill_condition_triggered: false
       kill_condition_at_risk: >
-        KC#3 (2 consecutive quality recalls): still at 2, no 3rd incident.
-        KC#5 (hostile takeover/proxy fight): Wilson proxy active, vote June 2026.
-        KC#7 (lose premium positioning): monitoring.
+        KC#5 (hostile takeover/proxy fight): ESCALATING. Formal proxy filing
+        announced. Vote Jun 2026. Wilson + Elliott = dual fronts.
+        KC#3 (quality recalls): Still at 2, no 3rd incident.
       recommendation: >
-        HOLD ON PROBATION. No deterioration since last scan but no improvement
-        either. Mar 31 Q4 remains the gate. If negative global comps or GM <57%,
-        EXIT. If 3rd quality incident, ELEVATE TO RED.
-        No ADD under any circumstances.
+        HOLD ON PROBATION through Mar 17 Q4. Proxy fight is NOW FORMAL (escalation
+        from "threat"). If Q4 shows negative global comps or GM <57%, EXIT. If
+        3rd quality incident, RED. Position small ($343), loss manageable.
 
     # =========================================================================
-    # EDEN.PA - MAINTAINED ORANGE (Feb 24 earnings imminent)
+    # ADBE - MAINTAINED ORANGE (FTC Trial Oct 2026)
+    # =========================================================================
+    - ticker: ADBE
+      risk_type: LEGAL_FTC
+      description: >
+        MAINTAINED (2026-03-06): FTC subscription practices lawsuit proceeding to
+        trial est. Oct 2026. No new developments this scan. Motion to dismiss denied
+        May 2025. Two executives named. Separate data tracking class action (minor).
+        EARNINGS MAR 12 (6 days). OIL IMPACT: Minimal (pure SaaS).
+      source: "ftc.gov, news.adobe.com"
+      date_detected: 2026-02-09
+      date_updated: 2026-03-06
+      kill_condition_triggered: false
+      kill_condition_at_risk: "KC#6 (FTC mandates one-click + churn >5pp): Trial Oct 2026"
+      recommendation: "HOLD. FTC risk known and priced. Mar 12 earnings key. TRIM at $350 pre-trial."
+
+    # =========================================================================
+    # AUTO.L - MAINTAINED ORANGE (Dealer Revolt + Oil Overlay)
+    # =========================================================================
+    - ticker: AUTO.L
+      risk_type: COMPETITIVE + OIL_SENSITIVITY
+      description: >
+        MAINTAINED (2026-03-06): No CMA complaint filed. Buyback ongoing (515K
+        shares at 485p Mar 2, 535K at 469p Mar 4). April pricing event + May FY
+        results = dual make-or-break. FY26 retailer revenue growth guided 5-7%.
+        Deal Builder/Buying Signals monetization begins April 2026.
+        OIL IMPACT: SIGNIFICANT — auto market demand sensitive to fuel costs.
+        $90 oil = ~165-170p/litre UK petrol. Consumer may delay car purchases.
+        BUT: new car supply disruption could boost used car prices (positive).
+      source: "tipranks.com, yahoo.com"
+      date_detected: 2026-02-09
+      date_updated: 2026-03-06
+      kill_condition_triggered: false
+      kill_condition_at_risk: "KC#8 (CMA formal investigation): NOT filed. Approaching slowly."
+      recommendation: >
+        HOLD LOW conviction. Oil shock adds headwind. April pricing = gate.
+        Buyback at 469-485p shows management confidence. If CMA opens formal
+        investigation, SELL (KC#8).
+
+    # =========================================================================
+    # EDEN.PA - MAINTAINED ORANGE (Multi-jurisdiction regulatory)
     # =========================================================================
     - ticker: EDEN.PA
       risk_type: REGULATORY_MULTI_JURISDICTION
       description: >
-        MAINTAINED (2026-02-19): No new regulatory developments since Feb 13.
-        BRAZIL: Brazilian judge TEMPORARILY SUSPENDED reform as it applies to
-        Edenred, but government appealing. Definitive ruling late 2026/early 2027.
-        Company guiding EBITDA -8% to -12% organic for 2026.
-        FRANCE: 8% social levy RULED OUT (Jun 2025). Transparency charter
-        approach instead. This is POSITIVE vs last scan's assessment.
-        Jefferies maintaining HOLD, PT EUR 17.70, ahead of Feb 24 earnings.
-        Feb 24 earnings = 5 days away. Will reveal full 2026 guidance.
-      source: "investing.com, edenred.com, marketscreener.com, webdisclosure.com"
+        MAINTAINED (2026-03-06): FY2025 BASE+ confirmed at Feb 24 earnings. Brazil
+        court suspension holding, government appeal pending. France levy RULED OUT.
+        2027-28 guidance maintained at +8/+12%. Share capital disclosure Feb 28.
+        OIL IMPACT: MODERATE — mobility segment (fuel cards) benefits from higher
+        prices short-term. Economic slowdown risk if oil shock persists.
+      source: "edenred.com, yahoo.com"
       date_detected: 2026-02-09
-      date_updated: 2026-02-19
+      date_updated: 2026-03-06
       kill_condition_triggered: false
-      kill_condition_at_risk: >
-        KC#6 (2027-28 guidance <5%): Feb 24 will test this.
-        KC#8 (regulation extends to 3rd major market): France RULED OUT levy
-        (Jun 2025) -- this is net POSITIVE. Brazil + Italy + Turkey remain.
-        France levy risk REDUCED since last scan.
-      recommendation: >
-        HOLD through Feb 24 earnings. France levy ruled out is POSITIVE update
-        vs last scan. Brazil suspension gives breathing room but appeal pending.
-        If 2027-28 growth guide <5%, evaluate EXIT per KC#6.
-        If Brazil appeal succeeds and EBITDA impact >12%, escalate.
+      kill_condition_at_risk: "KC#6 (2027-28 guidance <5%): CLEAR — guidance maintained +8/+12%."
+      recommendation: "HOLD. FY2025 confirmed. Monitor Brazil appeal. Mobility segment mild positive from oil."
 
     # =========================================================================
-    # AUTO.L - MAINTAINED ORANGE
+    # DOM.L - MAINTAINED ORANGE (FY25 Earnings Mar 10, Oil Impact)
     # =========================================================================
-    - ticker: AUTO.L
-      risk_type: REGULATORY_COMPETITIVE
+    - ticker: DOM.L
+      risk_type: FUNDAMENTAL + OIL_SENSITIVITY
       description: >
-        MAINTAINED (2026-02-19): No new CMA developments since Feb 13.
-        Cancellation numbers unchanged: 59 confirmed (official) to 165 (IMDA).
-        Auto Trader announced 5.5% price increase for 2026 (down from 8% in
-        2025) -- suggests company acknowledging dealer pushback.
-        CMA complaint NOT yet filed. Dealers "constructing" complaint.
-        AM-online reports "tougher road to growth as dealers push back, rivals
-        circle." No formal investigation opened.
-        April 2026 pricing event remains MAKE-OR-BREAK.
-      source: "cardealermagazine.co.uk, am-online.com, aimgroup.com"
+        MAINTAINED (2026-03-06): FY25 results March 10 (4 days). EBITDA guidance
+        GBP 130-140M. KC#1 test: EBITDA < GBP 125M = SELL ALL. New CEO Dominic
+        Paul starts Apr 6. OIL IMPACT: SIGNIFICANT — delivery fuel costs rise,
+        consumer discretionary squeezed by energy bills. BUT value positioning
+        ("cheaper than eating out") could benefit from trading-down behavior.
+        NLW + NIC cost squeeze compounding.
+      source: "investors.dominos.co.uk"
       date_detected: 2026-02-09
-      date_updated: 2026-02-19
+      date_updated: 2026-03-06
       kill_condition_triggered: false
-      kill_condition_at_risk: >
-        KC#8 (CMA formal investigation): NOT filed yet. APPROACHING.
-        KC#1 (dealer count decline >3%): 0.4-1.2% currently. Below threshold.
+      kill_condition_at_risk: "KC#1 (EBITDA < GBP 125M): TEST IN 4 DAYS. Mar 10 results."
       recommendation: >
-        HOLD LOW conviction. Price increase moderation (8%->5.5%) is small
-        concession but may not satisfy dealers. April pricing + May FY results
-        = dual make-or-break. If CMA opens formal investigation, SELL (KC#8).
-
-    # =========================================================================
-    # DSY.PA - PIPELINE (maintained)
-    # =========================================================================
-    - ticker: DSY.PA
-      risk_type: CYBERSECURITY_FUNDAMENTAL
-      description: >
-        MAINTAINED (2026-02-19): No new developments on data breach. Standing
-        order at EUR 14.50 (revised down from 15.50 in S75). Breach not
-        officially acknowledged by DSY publicly. Q1 2026 results (Apr 2026)
-        will be first post-breach disclosure window.
-      source: "breachsense.com, hookphish.com, investor.3ds.com"
-      date_detected: 2026-02-11
-      date_updated: 2026-02-19
-      kill_condition_triggered: false
-      recommendation: >
-        Standing order at EUR 14.50 CONDITIONAL on breach clarity.
-        DO NOT EXECUTE if price reaches trigger before Q1 2026 earnings.
-
-    # =========================================================================
-    # ADBE - MAINTAINED ORANGE
-    # =========================================================================
-    - ticker: ADBE
-      risk_type: LEGAL
-      description: >
-        MAINTAINED (2026-02-19): FTC lawsuit proceeding to trial. Motion to
-        dismiss denied May 2025. Trial date not publicly confirmed, thesis
-        assumes Oct 2026 (calendar shows Sep 24 dispositive motions deadline,
-        Oct 19 jury trial). Two executives named personally.
-        ADDITIONAL: New data tracking class action filed (company allegedly
-        tracks user activity and sells data). Separate from FTC subscription
-        case. Low priority vs FTC case.
-        No settlement discussions reported. Adobe partially implementing
-        subscription practice changes already.
-      source: "ftc.gov, topclassactions.com, news.adobe.com"
-      date_detected: 2026-02-09
-      date_updated: 2026-02-19
-      kill_condition_triggered: false
-      kill_condition_at_risk: "KC#6 (FTC mandates one-click + churn >5pp)"
-      recommendation: >
-        HOLD. New data tracking class action is minor compared to FTC case.
-        FTC trial timeline intact per thesis assumptions.
-        TRIM at $350 pre-trial. No ADD until trial clarity.
-
-    # =========================================================================
-    # ROP - PIPELINE (maintained)
-    # =========================================================================
-    - ticker: ROP
-      risk_type: FUNDAMENTAL_GOVERNMENT
-      description: >
-        MAINTAINED (2026-02-19): No new developments since Feb 13 scan.
-        Deltek headwind remains. Government funding uncertainty ongoing.
-        Standing order at $300, monitor for approach.
-      source: "finviz.com, nasdaq.com"
-      date_detected: 2026-02-13
-      date_updated: 2026-02-19
-      kill_condition_triggered: false
-      recommendation: "Standing order $300 valid with conservative sizing (3-4% max)."
+        HOLD through Mar 10. SELL ALL if EBITDA < GBP 125M. If base (130-137M),
+        hold for new CEO strategy. Prepare pre-earnings framework.
 
   yellow:
 
     # =========================================================================
-    # NVO - UPDATED (2026 guidance shock + executive transition)
+    # MONY.L - DOWNGRADE from ORANGE toward YELLOW (AI Strategy Validated)
     # =========================================================================
-    - ticker: NVO
-      risk_type: FUNDAMENTAL_GUIDANCE
+    - ticker: MONY.L
+      risk_type: AI_DISRUPTION_MODERATING
       description: >
-        UPDATED (2026-02-19): NEW MATERIAL DEVELOPMENTS since last scan:
-        1) 2026 guidance: Sales AND operating profit BOTH declining 5-13% at
-           constant FX. First sales decline in years. Driven by US price cuts
-           (MFN policy impact), China/Brazil/Canada LOE.
-        2) Stock -21% in one month on guidance shock.
-        3) CEO transition: Lars Fruergaard Jorgensen stepped down Aug 2025.
-           New CEO: Maziar Mike Doustdar (appointed Aug 2025). CSO Marcus
-           Schindler retired. Leadership transition in execution phase.
-        4) FDA warning letter for Wegovy TV ad (minor, fixable).
-        5) POSITIVE: Novo suing ~130 compounders. Hims referred to DOJ.
-           FDA cracking down on compounding APIs. Moat REINFORCING.
-        6) CagriSema NDA filed. March H2H data remains CRITICAL catalyst.
-        NET ASSESSMENT: Guidance shock is REAL but driven by pricing headwinds
-        (MFN, payer negotiations) not demand destruction. CagriSema pipeline
-        intact. Compounding crackdown is structural positive. Price already
-        reflects pessimism (stock near $48 entry level).
-      source: "cnbc.com, fiercepharma.com, pharmexec.com, yahoo.com, novonordisk.com"
-      date_detected: 2026-02-09
-      date_updated: 2026-02-19
+        IMPROVING (2026-03-06): FY2025 confirmed record EBITDA margin (33%).
+        AI strategy validated: ChatGPT app launched, Price Optimiser live,
+        SuperSaveClub 2.1M members. 2026 guidance reiterated. Active buyback
+        (~120K shares/day Mar 2-5). KC#9 (AI strategy) CLEARED at Feb 23 earnings.
+        Experian ChatGPT insurance app still US-only.
+        OIL IMPACT: MILD POSITIVE — higher costs drive comparison shopping.
+      source: "sharecast.com, tipranks.com"
+      date_detected: 2026-02-12
+      date_updated: 2026-03-06
       kill_condition_triggered: false
-      kill_condition_at_risk: >
-        KC#1 (CagriSema fails vs Zepbound): March H2H data CRITICAL.
-        NEW RISK: MFN pricing policy could permanently compress US margins.
-        If 2027 guidance also shows decline, thesis structurally weakened.
+      kill_condition_at_risk: "KC#4 (traffic -15% YoY): Need Q1 data. KC#8 (agentic AI): Not triggered."
       recommendation: >
-        HOLD. Guidance shock is pricing-driven, not demand-driven. Stock has
-        repriced. Entry at $48 = already discounted bad news. CagriSema March
-        H2H is the BINARY event. No ADD until CagriSema data. If CagriSema
-        loses by >5pp, evaluate EXIT.
+        HOLD. Significantly de-risked post-FY2025. AI strategy credible. Buyback
+        shows capital discipline. DOWNGRADE risk to YELLOW at next scan if Q1
+        traffic data confirms stability.
 
     # =========================================================================
-    # DTE.DE - UPDATED (Meta ruling positive)
-    # =========================================================================
-    - ticker: DTE.DE
-      risk_type: REGULATORY_OPERATIONAL
-      description: >
-        UPDATED (2026-02-19): NEW: German court ruled Meta must pay DTE EUR 30M
-        for network services. This is NET POSITIVE for DTE (validates fair share
-        argument). Net neutrality complaint with Bundesnetzagentur still pending
-        but no enforcement action.
-        Huawei/ZTE 5G core replacement deadline end of 2026. Manageable.
-        Feb 26 earnings = 7 days away.
-        No new lawsuits, no investigations, credit ratings stable.
-      source: "tradingview.com (reuters), cyberlaw.stanford.edu"
-      date_detected: 2026-02-09
-      date_updated: 2026-02-19
-      kill_condition_triggered: false
-      recommendation: >
-        LOW RISK profile. Meta ruling is modestly positive. Feb 26 earnings
-        upcoming. Monitor Huawei replacement costs in FY2025 results.
-
-    # =========================================================================
-    # GL - LEGAL (class actions, data breach settlement)
-    # =========================================================================
-    - ticker: GL
-      risk_type: LEGAL_SETTLEMENT
-      description: >
-        UPDATED (2026-02-19): Data breach settlement announced: $4.66M to
-        resolve class action for 532,000 people affected by 2025 breach.
-        Settlement is IMMATERIAL to GL ($0.005B vs $6B market cap).
-        SEC/DOJ investigations CLOSED Jul 2025 with NO enforcement.
-        AM Best A (Excellent). S&P AA-. Credit ratings STABLE.
-        4 securities class actions still active (private litigation, 2024
-        period). Remaining risk: settlement costs. NOT thesis-killing.
-      source: "bloomberglaw.com, insurancebusinessmag.com, ambest.com"
-      date_detected: 2026-02-09
-      date_updated: 2026-02-19
-      kill_condition_triggered: false
-      recommendation: >
-        Data breach settlement at $4.66M is de minimis. Class actions are
-        manageable private litigation. Federal investigations cleared.
-        Credit stable. Legal risk profile is IMPROVING over time.
-
-    # =========================================================================
-    # BYIT.L - UPDATED (FTC Microsoft probe)
-    # =========================================================================
-    - ticker: BYIT.L
-      risk_type: COMPETITIVE_STRUCTURAL
-      description: >
-        UPDATED (2026-02-19): NEW: FTC ratcheted up Microsoft probe (Feb 13),
-        querying rivals on cloud and AI. UK CMA considering Strategic Market
-        Status investigations for Microsoft and AWS in early 2026.
-        FTC + CMA = DUAL-JURISDICTION regulatory pressure on Microsoft's
-        cloud licensing practices. If Microsoft is forced to open licensing,
-        could be NET POSITIVE for VARs (more complexity = more advisory).
-        OR negative if Microsoft responds by further cutting partner incentives.
-        Microsoft EA disintermediation structural headwind ongoing.
-        Former CEO investigation RESOLVED. No Bytes-specific legal risks.
-      source: "bloomberg.com, computerweekly.com, samexpert.com"
-      date_detected: 2026-02-09
-      date_updated: 2026-02-19
-      kill_condition_triggered: false
-      recommendation: >
-        FTC + CMA dual investigation of Microsoft creates UNCERTAINTY for
-        Bytes, not definitive directional risk. Could help or hurt.
-        Microsoft incentive cuts remain primary concern. Monitor FY2026
-        full-year OP (May 2026). KC: OP < GBP 66M.
-
-    # =========================================================================
-    # LYV - SHORT POSITION (NEW - pre-trial monitoring)
-    # =========================================================================
-    - ticker: LYV
-      risk_type: SHORT_CATALYST_MONITORING
-      description: >
-        NEW (2026-02-19): S4 APPROVED short candidate. Key developments:
-        1) Feb 18: Judge Subramanian REJECTED dismiss motion in 44-page ruling.
-           3 core claims SURVIVE: amphitheater monopoly, ticketing monopoly,
-           state-level claims. Only fan-experience claim dismissed. Judge wrote
-           "a reasonable jury could certainly find that artists were coerced."
-        2) Feb 19: Q4/FY2025 earnings releasing AFTER MARKET TODAY. Analysts
-           expect revenue $6.1B (+7.4% YoY), EPS ($1.00). Q4 typically weakest.
-        3) Mar 2: Trial CONFIRMED to start. 40 state AGs. NYS AG James issued
-           supportive statement.
-        SHORT THESIS STRENGTHENED by dismiss ruling. Trial proceeding on the
-        strongest claims (monopoly, not just consumer experience).
-        Entry window: $145-160, stop $195, target FV $85.
-      source: "deadline.com, billboard.com, bloomberg.com, hollywoodreporter.com, yahoo.com, ag.ny.gov"
-      date_detected: 2026-02-19
-      kill_condition_triggered: false
-      recommendation: >
-        REVIEW Q4 RESULTS TONIGHT before entering short. If Q4 shows structural
-        weakness in Ticketmaster revenue share: PROCEED with short entry.
-        If blowout results: RE-EVALUATE but trial still proceeding.
-        Dismiss ruling STRENGTHENS short thesis. Trial is confirmed Mar 2.
-        Entry window Feb 20-28 per S4 approval.
-
-    # =========================================================================
-    # RACE.MI - PIPELINE (maintained)
+    # RACE.MI - MAINTAINED YELLOW (Tariff + Oil Minimal)
     # =========================================================================
     - ticker: RACE.MI
       risk_type: TARIFF
       description: >
-        MAINTAINED (2026-02-19): US tariff at 15% contained by pricing power.
-        No new developments. Standing order EUR 270+260 valid.
-      source: "yahoo.com, euronews.com"
+        MAINTAINED (2026-03-06): Ferrari raised US prices 10% to offset 25% tariff.
+        Absorbed for 296/SF90/Roma, passed through on Purosangue/12Cilindri/F80.
+        FY2025 targets confirmed. 50bps potential margin impact. Order book
+        through end-2027. AGM Apr 15. EUR 101M buyback active.
+        OIL IMPACT: MINIMAL — ultra-wealthy buyers immune to fuel costs.
+      source: "motor1.com, theglobeandmail.com, robbreport.com"
       date_detected: 2026-02-13
-      date_updated: 2026-02-19
+      date_updated: 2026-03-06
       kill_condition_triggered: false
-      recommendation: "Standing order valid. Monitor tariff escalation risk."
+      recommendation: "HOLD. Oil-proof. Tariff absorbed via pricing power. Monitor AGM Apr 15."
 
     # =========================================================================
-    # DNLM.L - PIPELINE (maintained)
+    # HLNE - NEW YELLOW (Market Sensitivity)
     # =========================================================================
-    - ticker: DNLM.L
-      risk_type: FUNDAMENTAL
+    - ticker: HLNE
+      risk_type: MARKET_SENSITIVITY
       description: >
-        MAINTAINED (2026-02-19): UK consumer weakness, profit warning Jan 2026.
-        No new developments. Standing order 780p has buffer.
-      source: "tradingview.com, lse.co.uk"
-      date_detected: 2026-02-13
-      date_updated: 2026-02-19
+        NEW (2026-03-06): UBS cut PT $184→$150 (maintain Buy) citing alt AM
+        multiple compression. Q3 FY2026 beat (EPS $1.55 vs $1.28 consensus).
+        Japan expansion (Mika Tashiro). No lawsuits or investigations.
+        OIL IMPACT: Mild negative (credit tightening slows PE deal flow).
+        Position is largest at 7.6% of portfolio.
+      source: "prnewswire.com, yahoo.com, hamiltonlane.com"
+      date_detected: 2026-03-06
       kill_condition_triggered: false
-      recommendation: "Monitor Q3 trading update."
+      recommendation: "HOLD. Q3 beat validates. Alt AM de-rating is pricing, not fundamental."
 
-# Tickers sin alertas nuevas (active positions)
-clear_tickers:
-  - DOM.L: >
-      GREEN. No new legal/regulatory risks detected. No lawsuits against
-      Domino's Pizza Group UK (separate entity from US DPZ which has securities
-      litigation and investigation for "corporate wrongdoing"). US-specific
-      cases (BIPA voiceprint, ADA accessibility) do NOT affect UK entity.
-      No UK-specific lawsuits or investigations found. Mar 5 FY25 results
-      upcoming. New CEO Dominic Paul starts Apr 6.
+    # =========================================================================
+    # DOCS - NEW YELLOW (Trade Secret Lawsuit)
+    # =========================================================================
+    - ticker: DOCS
+      risk_type: LEGAL_TRADE_SECRET
+      description: >
+        NEW (2026-03-06): OpenEvidence Inc. filed trade secret lawsuit alleging
+        Doximity engineers posed as doctors to use "prompt injection" to steal
+        proprietary AI code. US District Court, Massachusetts. Novel legal theory.
+        $31M securities settlement (Dec 2025) clearing separately. Insurance-funded.
+        OIL IMPACT: Zero.
+      source: "gurufocus.com, legal.io, bloomberglaw.com"
+      date_detected: 2026-03-06
+      kill_condition_triggered: false
+      recommendation: "HOLD. Novel lawsuit likely immaterial. $31M settlement de-risking. Monitor."
 
-# Riesgos por sector (updated)
+    # =========================================================================
+    # BYIT.L - MAINTAINED YELLOW (Jefferies Downgrade)
+    # =========================================================================
+    - ticker: BYIT.L
+      risk_type: COMPETITIVE_STRUCTURAL + ANALYST_DOWNGRADE
+      description: >
+        UPDATED (2026-03-06): Jefferies downgraded Buy→Hold, PT GBP 4.00.
+        "Extended recovery timeline" for European software VARs. FTC + CMA
+        dual probe of Microsoft cloud licensing ongoing. OIL IMPACT: Minimal.
+      source: "yahoo.com, directorstalkinterviews.com"
+      date_detected: 2026-02-09
+      date_updated: 2026-03-06
+      kill_condition_triggered: false
+      recommendation: "HOLD ON PROBATION. May 2026 FY results = gate (OP < GBP 66M)."
+
+    # =========================================================================
+    # IHP.L - NEW YELLOW (Macro Overlay Only)
+    # =========================================================================
+    - ticker: IHP.L
+      risk_type: MACRO_OVERLAY
+      description: >
+        NEW (2026-03-06): No company-specific risks. AGM Feb 26 passed unanimously.
+        Insider buying: Euan Marshall 4,000 shares at 339p + 47 at 318p.
+        Strong start to FY2026. OIL IMPACT: Mild mixed (volatility helps/hurts
+        adviser platform activity). Yellow due to UK macro overlay only.
+      source: "tipranks.com, investegate.co.uk"
+      date_detected: 2026-03-06
+      kill_condition_triggered: false
+      recommendation: "HOLD. Cleanest risk profile in UK cluster. Insider buying validating."
+
+    # =========================================================================
+    # MORN - NEW YELLOW (Macro Overlay Only)
+    # =========================================================================
+    - ticker: MORN
+      risk_type: MACRO_OVERLAY
+      description: >
+        NEW (2026-03-06): No company-specific risks. CRSP acquisition complete.
+        Scott Brown appointed President, Direct Platform (Mar 2). No lawsuits.
+        OIL IMPACT: Mixed (volatility helps research demand, hurts AUM fees).
+        Yellow due to macro overlay only.
+      source: "stocktitan.com, businesswire.com"
+      date_detected: 2026-03-06
+      kill_condition_triggered: false
+      recommendation: "HOLD. Clean profile. CRSP integration = execution variable."
+
+# Riesgos por sector (updated Mar 6)
 sector_risks:
   pharma_healthcare:
-    - "NVO 2026 guidance: sales AND profit declining 5-13% (MFN pricing, LOE). First sales decline in years."
-    - "CagriSema March H2H vs tirzepatide: BINARY catalyst for NVO thesis."
-    - "CEO transition: Doustdar replaced Jorgensen Aug 2025. CSO retired."
-    - "FDA compounding crackdown: POSITIVE for NVO (moat reinforcement)"
+    - "NVO KC#1 TRIGGERED: CagriSema FAILED vs Zepbound. Securities fraud investigation (ambulance-chasing)."
+    - "NVO: NDA filed to FDA. Higher-dose trial H2 2026. REDEFINE 11 data H1 2027."
     - "IRA drug price negotiations expanding (system-wide)"
   insurance:
-    - "GL: 4 insiders sold $7.4M in 2 weeks post-earnings (CEO + CMO + EVP + Director) -- PATTERN"
-    - "GL: Data breach settled $4.66M (immaterial). SEC/DOJ CLEARED. Credit STABLE."
-    - "GL: 4 securities class actions still active (private litigation)"
+    - "GL: Insider selling pattern cooled (no new sales since Feb 19). Benefits class action NEW."
+    - "GL: SEC/DOJ CLEARED. Credit STABLE. Data breach settling ($4.66M)."
   benefits_vouchers:
-    - "Brazil decree: EBITDA -8/-12% but judge SUSPENDED (appeal pending). (EDEN.PA)"
-    - "France: 8% social levy RULED OUT (Jun 2025). Transparency charter instead. (EDEN.PA POSITIVE)"
-    - "Turkey antitrust investigation ongoing (EDEN.PA)"
-    - "Italy EUR 120M/yr impact ongoing (EDEN.PA)"
+    - "EDEN.PA: FY2025 BASE+ confirmed. Brazil suspension holding. France levy RULED OUT."
+    - "EDEN.PA: OIL — Mobility (fuel cards) mild positive from higher prices."
   consumer_discretionary:
-    - "LULU: Governance vacuum (no CEO 20 days), Wilson proxy + Elliott activist. Securities class action active."
-    - "LULU: 2 see-through incidents, short interest declining (5.13%, down -8.9%)"
-    - "DNLM.L: UK consumer weakness, profit warning (pipeline)"
+    - "LULU: Proxy fight NOW FORMAL (Mar 5). Wilson + Elliott dual pressure. No CEO 34+ days."
+    - "LULU: Q4 Mar 17 = MAKE-OR-BREAK. OIL — moderate shipping cost impact."
+    - "DOM.L: FY25 results Mar 10. KC#1 test. OIL — SIGNIFICANT delivery cost + consumer squeeze."
   tech_software:
-    - "ADBE: FTC trial Oct 2026. New data tracking class action (minor). KC#6 gate."
-    - "MONY.L: AI disruption ESCALATED -- Experian launched ChatGPT insurance app (Feb 12). US-only but has UK FCA auth."
-    - "MONY.L: Morgan Stanley downgrade. Stock at 13-year low 146p. Feb 23 KC#9 gate."
-    - "BYIT.L: FTC + CMA dual probe of Microsoft cloud licensing (Feb 13). Uncertain impact on VARs."
-    - "DSY.PA: Data breach + weak guidance (pipeline)"
-  auto_classifieds:
-    - "AUTO.L: 59-165 cancellations. Price increase moderated 8%->5.5%. CMA complaint NOT filed."
-    - "AUTO.L: April pricing + May FY = dual make-or-break."
-  telecom:
-    - "DTE.DE: Meta ordered to pay EUR 30M (POSITIVE). Net neutrality pending. Huawei replacement manageable."
-  live_entertainment:
-    - "LYV SHORT: Dismiss motion REJECTED Feb 18. Trial Mar 2 CONFIRMED. 3 core monopoly claims survive."
-    - "LYV: Q4 results tonight. Entry window Feb 20-28."
-  serial_acquirer_govcon:
-    - "ROP: Deltek headwind ongoing. Government uncertainty. SO $300 valid (conservative sizing)."
+    - "ADBE: FTC trial Oct 2026. Earnings Mar 12. OIL — minimal."
+    - "BYIT.L: Jefferies downgrade Buy→Hold. Microsoft dual probe (FTC+CMA). OIL — minimal."
+  cybersecurity:
+    - "FTNT: Securities class action (RI pension fund lead plaintiff). CVE-2026-24858 CRITICAL vulnerability patched Jan 2026. Pattern of incidents concerning. KC#6 watch."
+  digital_marketplaces:
+    - "AUTO.L: No CMA complaint filed. Buyback ongoing. OIL — SIGNIFICANT for auto market demand."
+    - "MONY.L: AI risk MODERATING post-FY2025. ChatGPT app live. OIL — mild positive."
   luxury_auto:
-    - "RACE.MI: 15% US tariff contained. Order book through 2026."
+    - "RACE.MI: Tariff 25% absorbed via 10% price increase. OIL — minimal (ultra-wealthy immune)."
+  financial_data:
+    - "MORN: Clean. CRSP integration. OIL — mixed."
+  alternative_am:
+    - "HLNE: UBS PT cut. Q3 beat. OIL — mild negative (credit tightening)."
+  physician_platform:
+    - "DOCS: Trade secret lawsuit (OpenEvidence). Securities settlement clearing. OIL — zero."
+  adviser_platform:
+    - "IHP.L: Clean. Insider buying. OIL — mild mixed."
 
-# Riesgos correlacionados (updated)
+# Riesgos correlacionados (updated Mar 6)
 correlated_risks:
-  - description: "Governance vacuum cluster"
-    tickers: [LULU, DOM.L]
+  - description: "HORMUZ CRISIS — Global macro overlay (NEW CRITICAL)"
+    tickers: [ALL_POSITIONS]
     detail: >
-      2 positions with CEO transitions. LULU has no CEO since Jan 31
-      (co-interim CFO+CCO, search ongoing). DOM.L has new CEO Dominic
-      Paul starting Apr 6 (announced, transition planned). Both LOW conviction.
+      Strait of Hormuz CLOSED since Feb 28. Oil at $89.89 (+17% in 1 day).
+      VIX 26.32. Gold $5,152. S&P -1.6%. Wall Street warns $100+ oil if
+      prolonged. 150 ships stranded. Rerouting via Cape of Good Hope adds
+      10+ days to shipping. UK/EU most vulnerable to LNG price spike.
+      Portfolio positioned well (13/15 positions minimal/mild oil sensitivity)
+      but 5 UK positions face concentrated UK macro headwind.
 
-  - description: "AI disruption wave 2026 -- INTENSIFYING"
-    tickers: [MONY.L, BYIT.L, ADBE]
+  - description: "UK Concentration (5 positions, ~20% portfolio)"
+    tickers: [MONY.L, AUTO.L, BYIT.L, DOM.L, IHP.L]
     detail: >
-      3 positions affected by AI disruption. ESCALATION since Feb 13:
-      Experian launched ChatGPT insurance marketplace (MONY.L threat).
-      FTC probing Microsoft on cloud/AI (BYIT.L uncertainty).
-      ADBE defensive (AI Firefly) but FTC legal headwind compounding.
-      Combined portfolio exposure ~15%. SaaSpocalypse narrative persists.
-      NEW: Experian's entry elevates MONY.L threat from "startup noise"
-      to "incumbent competitor with infrastructure."
+      UK energy vulnerability from Hormuz. BoE may DELAY rate cuts if
+      oil-driven inflation returns. Sterling at risk. DOM.L Mar 10 is
+      first test. AUTO.L and DOM.L most directly oil-exposed.
+      MONY.L improving (AI strategy validated). IHP.L cleanest profile.
 
-  - description: "UK concentration risk (4 positions at stress)"
-    tickers: [MONY.L, AUTO.L, BYIT.L, DOM.L]
+  - description: "Earnings Cluster (Mar 10-17, 3 binary events)"
+    tickers: [DOM.L, ADBE, LULU]
     detail: >
-      4 of 10 positions are UK-listed (40% by count). ALL four at stress:
-      MONY.L (13-year low, AI disruption, ON PROBATION, Feb 23 gate),
-      AUTO.L (dealer revolt, CMA risk, price moderation, April gate),
-      BYIT.L (Microsoft headwind, FTC/CMA cloud probe, May gate),
-      DOM.L (CEO transition, consumer weakness, Mar 5 gate).
-      UK macro: BoE expected to cut rates to 3.25% (Feb+Apr cuts).
-      Rate cuts = POSITIVE for UK mid-caps historically.
-      BUT: political risk (unpopular Labour government, fiscal discipline
-      at risk per RBC). GBP volatility. All 4 at 52-week lows or near.
-      CORRELATED RISK: A single UK macro shock (fiscal crisis, consumer
-      confidence collapse) would hit ALL four simultaneously.
+      DOM.L Mar 10 (KC#1 EBITDA test), ADBE Mar 12, LULU Mar 17
+      (MAKE-OR-BREAK). Combined weight ~12%. Dense 7-day window.
 
-  - description: "Regulatory multi-jurisdictional pattern"
-    tickers: [EDEN.PA]
+  - description: "Legal/Litigation Cluster (6 of 15 positions)"
+    tickers: [NVO, FTNT, GL, LULU, ADBE, DOCS]
     detail: >
-      Brazil (suspended, appeal pending), Italy (active), Turkey (antitrust).
-      France levy RULED OUT (positive change from last scan).
-      Reduced from 4 to 3 active jurisdictions. Feb 24 earnings key.
+      6 positions with active legal proceedings. Most are standard corporate
+      litigation. Only ADBE (FTC trial Oct 2026) and FTNT (pension fund
+      lead plaintiff) represent above-average legal risk.
 
-  - description: "Insider selling concentration"
-    tickers: [GL]
+  - description: "Governance/Leadership Transition"
+    tickers: [LULU, DOM.L, NVO]
     detail: >
-      4 insiders sold $7.4M in 13 days post-Q4 earnings. CEO + CMO + EVP +
-      Director. All exercise-and-sell pattern. SEC/DOJ cleared. Credit stable.
-      Interpretation: most likely monetization post-earnings window opening,
-      NOT informed selling. BUT breadth warrants monitoring.
-
-  - description: "Binary events cluster (next 14 days)"
-    tickers: [MONY.L, EDEN.PA, DTE.DE, LYV]
-    detail: >
-      4 positions/candidates with binary events in next 14 days:
-      Feb 19: LYV Q4 results (short pre-condition)
-      Feb 23: MONY.L earnings (KC#9 AI strategy gate)
-      Feb 24: EDEN.PA earnings (2026 guidance + Brazil)
-      Feb 26: DTE.DE earnings (FY2025 results)
-      Mar 2: LYV DOJ trial starts
-      DENSE earnings week. Multiple positions could trigger exits or
-      confirmations simultaneously.
+      LULU: No CEO 34+ days, proxy fight formal. DOM.L: New CEO Apr 6.
+      NVO: New CEO Doustdar (since Aug 2025), CSO retired. All LOW conviction.
 
 # Historial de alertas resueltas
 resolved:
@@ -535,6 +418,11 @@ resolved:
     resolved_date: 2025-06-25
     resolution: "France 8% social levy on meal vouchers RULED OUT by Minister Louwagie. Transparency charter approach instead."
 
+  - ticker: MONY.L
+    risk_type: AI_STRATEGY_CONCERN
+    resolved_date: 2026-02-23
+    resolution: "KC#9 (AI strategy) CLEARED at FY2025 earnings. ChatGPT app, Price Optimiser, SuperSaveClub validated."
+
 # Posiciones VENDIDAS (purged from active alerts)
 sold_positions_purged:
   - SAN.PA: "SOLD 2026-02-09."
@@ -542,26 +430,26 @@ sold_positions_purged:
   - VICI: "SOLD 2026-02-13."
   - UHS: "SOLD 2026-02-13."
   - HRB: "SOLD 2026-02-09."
-  - ALL: "SOLD 2026-02-14. Removed from active monitoring."
+  - ALL: "SOLD 2026-02-14."
+  - DTE.DE: "SOLD 2026-02-26."
 
 # Estadisticas
 stats:
-  total_scans: 3
-  active_red_alerts: 0
-  active_orange_alerts: 8  # GL(insider escalated), MONY.L(escalated), LULU, EDEN.PA, AUTO.L, DSY.PA, ADBE, ROP
-  active_yellow_alerts: 6  # NVO, DTE.DE, GL(legal), BYIT.L, LYV(short), RACE.MI, DNLM.L
-  clear_tickers: 1  # DOM.L
-  positions_on_probation: 2  # MONY.L, LULU (ALL sold Feb 14)
+  total_scans: 4
+  active_red_alerts: 1  # NVO (KC#1 triggered)
+  active_orange_alerts: 7  # FTNT(new), GL, LULU(escalating), ADBE, AUTO.L, EDEN.PA, DOM.L
+  active_yellow_alerts: 7  # MONY.L(improving), RACE.MI, HLNE(new), DOCS(new), BYIT.L, IHP.L(new), MORN(new)
+  clear_tickers: 0  # All positions carry macro overlay from Hormuz crisis
+  positions_on_probation: 3  # LULU, AUTO.L, BYIT.L
   upcoming_binary_events:
-    - "Feb 19 TONIGHT: LYV Q4 earnings (short pre-condition review)"
-    - "Feb 23: MONY.L earnings (KC#9 AI strategy = DECISIVE)"
-    - "Feb 24: EDEN.PA earnings (2026 guidance with Brazil decree)"
-    - "Feb 26: DTE.DE earnings + INTU earnings (pipeline)"
-    - "Feb 27: MEGP.L FY2025 (R4 hard gate)"
-    - "Mar 2: LYV DOJ trial starts (short catalyst)"
-    - "Mar 5: DOM.L FY25 results (KC#1 EBITDA test)"
-    - "Mar 15: NVO CagriSema obesity H2H data (CRITICAL)"
-    - "Mar 31: LULU Q4 earnings (MAKE-OR-BREAK)"
+    - "Mar 10: DOM.L FY25 results (KC#1 EBITDA test — 4 DAYS)"
+    - "Mar 12: ADBE Q1 2026 earnings"
+    - "Mar 17: LULU Q4 earnings (MAKE-OR-BREAK)"
+    - "Mar 26: NVO AGM"
     - "Apr 2026: AUTO.L pricing event (MAKE-OR-BREAK)"
+    - "Apr 2026: FTNT Q1 earnings (KC#6 billings/churn check)"
+    - "Apr 15: RACE.MI AGM"
+    - "May 2026: BYIT.L FY2026 results (OP < GBP 66M test)"
+    - "May 2026: HLNE Q4 FY2026 earnings"
     - "Jun 2026: LULU annual meeting (proxy fight vote)"
     - "Oct 2026: ADBE FTC jury trial"
