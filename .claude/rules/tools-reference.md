@@ -22,7 +22,7 @@
 | `portfolio_cagr.py` | `python3 tools/portfolio_cagr.py [--verbose] [--no-universe] [--baskets]` | Portfolio E[CAGR] projector. Cash drag, position ranking, market buy candidates, rotation candidates. `--baskets` adds basket breakdown. Run EVERY session P1. |
 | `da_calibrator.py` | `python3 tools/da_calibrator.py [--detail]` | DA accuracy interim check. Current prices vs pre/post-DA FVs. Systematic conservatism detection. |
 | `outcome_tracker.py` | `python3 tools/outcome_tracker.py [--active-only]` | Buy decision outcome tracker. P&L, days held, win rate for active + closed positions. |
-| `basket_dashboard.py` | `python3 tools/basket_dashboard.py [--metrics\|--rotation\|--health\|--rebalance]` | Thematic basket aggregation. Metrics, health flags, rotation, allocation vs targets. |
+| `basket_dashboard.py` | `python3 tools/basket_dashboard.py [--metrics\|--rotation\|--health\|--rebalance\|--lifecycle]` | Thematic basket aggregation. Metrics, health flags, rotation, allocation vs targets. `--lifecycle` = v4.8 integrity checks (MISLABELED, STAGNANT, NO_PATH, DEATH_WATCH, DEADLINE). |
 
 ## Screening & Valuation
 

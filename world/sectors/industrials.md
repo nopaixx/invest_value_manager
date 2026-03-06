@@ -1,6 +1,6 @@
 # Sector: Industrials (Lighting / Building Technology / Automation)
 
-> Ultima actualizacion: 2026-02-06
+> Ultima actualizacion: 2026-03-02 (S132 — Iran cascade update)
 > Status: **NEUTRAL - DETERIORATING** (lighting subsector under structural pressure)
 
 ## Resumen Ejecutivo
@@ -194,6 +194,7 @@ La building automation es donde Signify compite con su plataforma Interact (IoT 
 | 2026-02-03 | Status inicial: NEUTRAL | Primera version sector view |
 | 2026-02-06 | Status: NEUTRAL-DETERIORATING | Q4 2025 Signify earnings miss, JPM downgrade, thesis debilitada |
 | 2026-02-06 | LIGHT.AS SOLD, sin posiciones activas | Capital rotation a BYIT.L (Tier A). QS 56, ROIC < WACC. |
+| **2026-03-02** | **IRAN CASCADE: minimal direct impact** | **Oil surge affects input costs (energy, transport) for industrials. Building/construction sector marginally negative (higher materials costs). KLR.L FY2025 Mar 3 — UK market stressed by crisis, results may be overshadowed. GDWN.L unaffected. No thesis change for watchlist deps.** |
 
 ---
 

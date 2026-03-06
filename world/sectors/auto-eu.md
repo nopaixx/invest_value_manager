@@ -1,7 +1,7 @@
 # Sector: Auto EU
 
-> Ultima actualizacion: 2026-02-05
-> Status: EVITAR (estructural, no ciclico)
+> Ultima actualizacion: 2026-03-02 (S132 — Iran cascade update)
+> Status: EVITAR (estructural, no ciclico — Iran crisis AGRAVA)
 
 ## Resumen Ejecutivo
 
@@ -56,7 +56,7 @@ La narrativa de "extremo pesimismo = oportunidad" ignora que los fundamentos han
 | Tipos de interes | Alta | Financing de vehiculos |
 | Recesion | Muy Alta | Discretionary spending |
 | Inflacion | Media | Pass-through limitado |
-| Petroleo | Media | Menos relevante con EVs |
+| **Petroleo** | **ALTA (CRISIS)** | **Oil $78+ → fuel costs UP. ICE vs EV calculus shifts toward EV. Consumers delay purchases.** |
 | Tariffs | Muy Alta | Trump 25% sobre EU autos |
 | CNY | Alta | Competencia china |
 
@@ -108,11 +108,23 @@ El mercado esta CORRECTO. Las valuaciones bajas reflejan fundamentos deteriorado
 
 **Flujos de fondos (12m):** Outflows masivos
 
+### **IRAN CRISIS CASCADE (S132 — 2026-03-02)**
+
+Operation Epic Fury AGRAVA la tesis EVITAR:
+
+1. **Oil price surge → combustible mas caro:** ICE vehicles se vuelven mas costosos de operar. Accelera shift a EV. Fabricantes EU legacy son los MAS expuestos (Stellantis 80% ICE, VW 75% ICE, BMW 70% ICE).
+2. **Consumer confidence EU -1.8-2.3%:** Compra de coches nuevos es la primera que se pospone en crisis. Booking rates caen.
+3. **Supply chain:** Componentes que transitan Hormuz (petrochemicals para plasticos, cauchos) sufren disrupcion.
+4. **Paradoja EV:** Oil alto FAVORECE EV economics (TCO de EV mejora vs ICE). Pero fabricantes EU son malos en EV (vs BYD/Tesla). Crisis podria ACELERAR la destruccion de value en legacy auto EU.
+5. **Middle East markets:** Golfo Persico es mercado clave para autos premium EU (Mercedes, BMW). Guerra en la region → ventas colapsando temporalmente.
+
+**Conclusion reforzada:** EVITAR con mas conviction que antes. Crisis Iran es un viento en contra ADICIONAL para sector ya en crisis estructural.
+
 ---
 
 ## Nuestras Posiciones Actuales
 
-**Ninguna** - Sector evitado por razones estructurales.
+**Ninguna** - Sector evitado por razones estructurales. Crisis Iran refuerza decision.
 
 ---
 
@@ -177,6 +189,7 @@ Cuando actualice este sector view con cambio MATERIAL:
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
 | 2026-02-05 | Status inicial: EVITAR | Analisis VOW3.DE revelo sector estructuralmente roto |
+| **2026-03-02** | **IRAN CASCADE: EVITAR reforzado** | **Operation Epic Fury. Oil $78+. ICE economics worsened. Consumer confidence EU -1.8-2.3%. EV shift accelerated. Middle East sales disrupted. Crisis is ADDITIONAL headwind for already broken sector.** |
 
 ---
 

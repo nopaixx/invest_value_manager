@@ -1,9 +1,9 @@
-# PRINCIPLES.md - Framework v4.7
+# PRINCIPLES.md - Framework v4.8
 
 > **Guías de pensamiento para decisiones de inversión.**
 > Este archivo NO contiene números fijos. Solo frameworks de razonamiento.
-> Creado: 2026-02-05 | Framework v4.0 | Actualizado: 2026-02-27 | Framework v4.7
-> **17 Principios:** P1-P9 long, P10-P11 short, P12-P14 portfolio, P15-P16 deployment, P17 baskets-as-fund
+> Creado: 2026-02-05 | Framework v4.0 | Actualizado: 2026-03-02 | Framework v4.8
+> **18 Principios:** P1-P9 long, P10-P11 short, P12-P14 portfolio, P15-P16 deployment, P17 baskets-as-fund, P18 action-bias
 
 ---
 
@@ -422,6 +422,23 @@ This solves the cash deployment problem: there is ALWAYS something to investigat
 - Within each basket: rotate weaker → stronger, add to underfunded, trim overfunded
 - Ensure allocation reflects CURRENT conviction, not historical artifact
 
+**Basket Lifecycle Integrity (v4.8):**
+
+| Stage | Criteria | Duration Max |
+|-------|----------|-------------|
+| **IDEA** | Theme identified, no candidates scored | 7 days → RESEARCHING or KILL |
+| **RESEARCHING** | 3+ candidates screened/scored | 30 days → BUILDING or KILL |
+| **BUILDING** | 1 deployed + 2 pipeline within 15% of entry | 45 days → ACTIVE or downgrade |
+| **ACTIVE** | 2+ deployed positions | Indefinite while theme ALIVE |
+| **DECLINING** | Theme weakening, KCs approaching | Review every session, kill within 30 days or revive |
+| **DEAD** | Theme exhausted, KCs triggered | Archive immediately, redeploy capital |
+
+**Integrity Rules:**
+- A basket with 1 position for >30 days without a second = downgrade to RESEARCHING or KILL
+- Creating a basket for 1 existing position is PROHIBITED unless 2+ pipeline candidates exist within 15% of entry
+- BUILDING baskets need a deployment DEADLINE. Miss deadline = downgrade to RESEARCHING or KILL
+- Status must match REALITY, not aspirations. If status is ACTIVE but positions are 1, status is WRONG.
+
 **Per-Stock Safety (unchanged):**
 - Basket approval does NOT skip per-stock R1-R4 (Error #57)
 - Each stock needs: individual QS, kill conditions, thesis file, SM context, constraint check
@@ -435,6 +452,43 @@ This solves the cash deployment problem: there is ALWAYS something to investigat
 - Creating baskets for individual positions (1 stock ≠ theme, need 3+ candidates)
 - Ignoring basket health while focusing only on individual stock health
 - Not actively scanning for new themes (the fund dies when discovery stops)
+- Labeling a 1-position basket as ACTIVE when it's really RESEARCHING (status theater)
+
+---
+
+## Principio 18: El Riesgo de No Actuar es Mayor que el Riesgo de Actuar Mal
+
+El mayor riesgo del portfolio NO es comprar algo que baja 10%. Es NO comprar algo que sube 30%.
+
+**Fundamento:**
+- Cash drag ~4.5pp/yr es CERTEZA. Una compra a 5% MoS en vez de 15% MoS es RIESGO MENOR.
+- Si E[CAGR] > 12% para Tier A a precio de mercado: la pregunta NO es "deberia comprar?" sino "por que NO estoy comprando?"
+- Cada sesion que termina sin deployment Y sin razon que el humano aceptaria = FALLO DEL CIO.
+- "El mercado puede caer mas" NO es razon valida — siempre puede caer mas. Si la empresa es quality, el tiempo esta a mi favor.
+- El CIO perfecto no existe. El CIO que ACTUA con 80% de informacion bate al que espera 100%.
+
+**Preguntas guia:**
+1. "Si NO compro hoy y sube 15% en 3 meses, cuanto me costo esta inaccion?"
+2. "Estoy esperando informacion que REALMENTE cambiaria mi decision, o estoy procrastinando?"
+3. "Cuantas sesiones llevo con cash >25%? Que tengo que mostrar por ello?"
+4. "Si el humano me pregunta 'por que no compraste X', tengo una respuesta que el aceptaria?"
+
+**Framework de decision:**
+- Errores de comision (compre algo que bajo 10%) son REVERSIBLES: sell, rotate, learn.
+- Errores de omision (no compre algo que subio 30%) son IRREVERSIBLES: la oportunidad se fue.
+- El sistema debe optimizar para MINIMIZAR errores de omision, no solo de comision.
+- Un proceso que produce 40% cash por 25+ sesiones esta optimizado para evitar comision a costa de omision masiva.
+
+**Regla dura — "Three Waits" Override:**
+- Si Q1 de la Fase 0.ZERO se responde con "esperar" 3 sesiones seguidas → la 4a sesion DEBE presentar un market buy al humano. No mas esperar.
+- Razon: 3 sesiones de "esperar" = el sistema esta roto o el CIO tiene miedo. Ambos se curan actuando.
+
+**Antipatrones:**
+- "Waiting for better price" sin catalizador especifico (L-02/L-05)
+- "DA not done yet" como excusa para no comprar R1 con E[CAGR] > 18% (market-buy anti-pattern #2)
+- "Need more analysis" sin especificar QUE analisis y CUANDO estara listo
+- Passing Inaction Audits while cash stays at 40% for 5+ sessions (Error #60)
+- Confundir prudencia con paralisis: la prudencia real es diversificar en quality, no acumular cash
 
 ---
 
@@ -495,5 +549,5 @@ patterns:
 
 ---
 
-**Última actualización:** 2026-02-27
-**Framework version:** 4.7
+**Última actualización:** 2026-03-02
+**Framework version:** 4.8

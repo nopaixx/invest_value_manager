@@ -277,41 +277,19 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 
 ---
 
-## Historial de Analisis
-
-| Ticker | Razon Archivo | Fecha | Leccion |
-|--------|---------------|-------|---------|
-| TEP.PA | SOLD - Capital rotation to Tier A (BYIT.L) | 2026-02-06 | QS 46 Tier C con ROIC < WACC. AI disruption faster than expected. |
-| FUTR.L | SOLD - Tier D violation (QS 32) | 2026-02-04 | No comprar por P/E bajo sin verificar QS. |
-
----
+Archived: TEP.PA SOLD (QS 46, AI disruption). FUTR.L SOLD (QS 32 Tier D).
 
 ## Historial de Cambios
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
-| 2026-02-03 | Status inicial: NEUTRAL (selectivo) | Sector bifurcado |
-| 2026-02-06 | TEP.PA SOLD | Capital rotation. QS 46, ROIC < WACC |
-| 2026-02-13 | MAJOR UPDATE: Expanded to include Information Services, TIC subsectors | Sector screener v3.0 systematic screening. Added 11 scored companies. Identified VRSK, WKL.AS, IT as high-priority Tier A/B candidates. |
-| 2026-02-13 | VRSK R1 COMPLETE | QS 85 adj (Tier A). WIDE moat near-monopoly. FV $260, entry $150. Added to quality universe. Moved from Empresas Objetivo to Already in Universe. |
-| 2026-02-13 | IT R1 COMPLETE | QS 73->80 adj (Tier A). #1 IT advisory, ROIC 52%. FV $245, entry $145. Moved from Empresas Objetivo to Already in Universe. Per-seat + DOGE risks. |
+| 2026-02-13 | MAJOR UPDATE: Info Services + TIC. VRSK R1 (QS 85 Tier A), IT R1 (QS 80 Tier A) | Sector screener v3.0. 11 scored companies. |
+| 2026-02-06 | TEP.PA SOLD, status NEUTRAL | Capital rotation. QS 46, ROIC < WACC. |
 
 ---
 
 ## Fuentes
 
-### Information Services
-- [Verisk Investor Relations](https://investor.verisk.com/)
-- [Morningstar - TIC Valuation](https://www.morningstar.com/company-reports/1304983)
-- [TIKR - High ROIC Asset-Light Stocks](https://www.tikr.com/blog/10-asset-light-high-roic-stocks-that-stand-out-now)
-- [Aventis Advisors - TIC Industry Guide](https://aventis-advisors.com/tic-industry/)
-- [Gartner Investor Relations](https://investor.gartner.com/financial-information/quarterly-results)
-- [Gartner Q4 2025 Earnings Results - Morningstar](https://www.morningstar.com/news/business-wire/20260203822306/gartner-reports-fourth-quarter-2025-financial-results)
-
-### TIC Sector
-- [Mordor Intelligence - Europe TIC Market](https://www.mordorintelligence.com/industry-reports/europe-testing-inspection-and-certification-market)
-- [MarketsandMarkets - TIC Market](https://www.marketsandmarkets.com/Market-Reports/testing-inspection-certification-market-5352498.html)
-
-### BPO/Staffing
-- [Grand View Research - BPO Market](https://www.grandviewresearch.com/industry-analysis/business-process-outsourcing-bpo-market)
-- [Yahoo Finance - Staffing Sector](https://finance.yahoo.com/sectors/industrials/staffing-employment-services/)
+Information Services: Verisk IR, Morningstar TIC Valuation, TIKR (high ROIC), Aventis TIC Guide, Gartner Q4 2025.
+TIC: Mordor Intelligence (EU TIC), MarketsandMarkets (global TIC).
+BPO/Staffing: Grand View Research (BPO), Yahoo Finance (staffing sector).

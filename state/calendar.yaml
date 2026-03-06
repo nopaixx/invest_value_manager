@@ -5,70 +5,46 @@
 events:
   # Archived S132: QTCOM.HE FY2025 (ARCHIVED), DTE.DE FY2025 (SOLD), INTU Q2 (monitoring), CS.PA FY2025 (no action), PROX.BR FY2025 (no action), ENGI.PA FY2025 (no action), NTGY.MC FY2025 (passed), LYV DOJ trial (monitoring, no position)
 
-  # GEOPOLITICAL CRISIS — Operation Epic Fury (US-Israel strikes on Iran, Feb 28-Mar 1)
-  - date: 2026-03-02
+  # GEOPOLITICAL CRISIS — Operation Epic Fury (MODERATING from peak)
+  - date: 2026-03-05
     type: macro_crisis
     ticker: PORTFOLIO
-    event: "Operation Epic Fury — Iran strikes. Khamenei killed. Strait of Hormuz closed. EU markets -1.8-2.3%, S&P futures -1.7%, Oil +6-13%."
+    event: "Operation Epic Fury — MODERATING. Hormuz still closed (~150 ships stranded). But Iran 'open to de-escalation' (Araghchi to Oman FM). Oil retreating: WTI $76.90 (from $87 peak). IRIS Dena sunk by US sub. Death toll 787+."
     priority: CRITICAL
-    action: "MONITOR DAILY. Cash 39.5% = strategic deployment asset if selloff deepens 5-10% toward SO triggers. RACE.MI 5.8% from trigger could activate this week. Multiple SOs within 10-15% range. DO NOT panic sell. Quality positions with intact thesis HOLD. Reassess if Hormuz closure >7 days or military escalation beyond Iran."
+    action: "MONITOR DAILY. Market pricing 'contained disruption.' VIX 21.15, Oil $77, S&P 6870. If Hormuz partially reopens → oil $75. If closure sustains → $90-100 risk. RACE.MI 6% from trigger — moved AWAY as crisis moderates."
 
   # THIS WEEK — EARNINGS (all in crisis context)
-  - date: 2026-03-03
-    type: earnings_pipeline
-    ticker: KLR.L
-    event: "KLR.L FY2025 Full Year Results — HARD GATE for SO"
-    priority: high
-    action: "R1 complete S93. QS 76/79 Tier A. FV 2,600p, entry 1,750p. PASS: margins >=6.5%, order book maintained, ROCE >20%. If PASS → create SO at 1,750p + consider R2. If margins collapse → lower entry or ARCHIVE. NOTE: UK market stressed by Iran crisis — results may be overshadowed."
+  # Archived S136: KLR.L FY2025 GATE PASS (OP 7.1%, OB GBP 1.5B, buyback GBP 100M. SO 1700p ACTIVE.), ITRK.L FY2025 CONDITIONAL PASS (OP 18.1%, organic 3.9%. Deferred — BVI.PA preferred.), ASM.AS Q4 monitoring, BEI.DE FY2025 monitoring
 
-  - date: 2026-03-03
-    type: earnings_pipeline
-    ticker: ITRK.L
-    event: "Intertek FY2025 Full Year Results — HARD GATE for R4/SO"
-    priority: high
-    action: "R3 complete. FV 4700p, entry 3700p. HARD GATE: op margin >=16.3%, FCF recovery. Tesco lawsuit update. BVI.PA preferred for TIC. If positive → create SO at 3700p + R4 committee."
+  # Archived S140: VEEV Q4 FY2026 (reported Mar 4, monitoring only), ANF Q4 FY2026 (CONDITIONAL PASS — receivables +40% FAIL, OP 14.1% PASS, Hollister +3% PASS. Hold watchlist $80 entry. Monitor Q1 Jun 2026.)
 
-  - date: 2026-03-03
-    type: earnings_pipeline
-    ticker: ASM.AS
-    event: "ASM.AS Q4 2025 Full Results — R1 monitoring"
-    priority: medium
-    action: "R1 S104. QS 80adj Tier A. FV EUR 525, current EUR 709 (OVERVALUED -35%). Watch receivables anomaly, margins, 2026 guidance. Entry EUR 475."
-
-  - date: 2026-03-03
-    type: earnings_pipeline
-    ticker: BEI.DE
-    event: "Beiersdorf FY2025 Results — R1 monitoring"
-    priority: medium
-    action: "R1 S104. QS 75adj Tier A. FV EUR 99, entry EUR 85-90. Watch organic growth deceleration, La Prairie recovery, margin pressure."
-
-  - date: 2026-03-04
-    type: earnings
-    ticker: VEEV
-    event: "VEEV Q4 FY2026 — thesis catalyst"
-    priority: high
-    action: "R1 complete. QS 80 Tier A. FV $205. Entry $140-150."
-
-  - date: 2026-03-04
-    type: earnings_pipeline
-    ticker: ANF
-    event: "ANF Q4 FY2026 earnings — pipeline gate"
-    priority: high
-    action: "R1 complete S117. Framework: thesis/research/ANF/earnings_gate_q4.md. PASS: OP margin >=12%, Hollister comps positive, inventory < rev, GM >62%, FY2026 guide >=+3%. FAIL: OP margin <10%, Hollister neg, GM <60% → ARCHIVE."
-
-  - date: 2026-03-05
+  - date: 2026-03-10
     type: earnings
     ticker: DOM.L
-    event: "Dominos Pizza Group FY25 results"
+    event: "Dominos Pizza Group FY25 preliminary results — KC#1 EBITDA test (CORRECTED from Mar 5)"
     priority: high
-    action: "Kill: ND/EBITDA >3x, FCF <60M, share <45%."
+    action: "KC#1: EBITDA >= GBP 125M (SELL if below). Bear <130M, Base 130-137M, Bull >137M. Oil/shipping headwind from Hormuz crisis = NEW risk for UK consumer. Orphan position — post-earnings decides rotation/assignment. Prepare framework by Mar 9."
 
-  - date: 2026-03-11
+  - date: 2026-03-10
+    type: framework_deadline
+    ticker: ADBE
+    event: "ADBE pre-earnings framework due (earnings Mar 12). Error #13."
+    priority: high
+    action: "Create Section 9 in thesis with bear/base/bull framework. Key metrics: Digital Media ARR, Document Cloud, Firefly AI, FTC impact. KC: churn >5pp."
+
+  - date: 2026-03-18
     type: earnings_pipeline
     ticker: FOUR.L
-    event: "4imprint FY2025 Results — HARD GATE for entry"
+    event: "4imprint FY2025 Results — HARD GATE for entry (CORRECTED from Mar 11)"
     priority: high
     action: "R3 complete. Pipeline candidate. HARD GATE: must review results before standing order."
+
+  - date: 2026-03-14
+    type: framework_deadline
+    ticker: LULU
+    event: "LULU pre-earnings framework due (earnings Mar 17). MAKE-OR-BREAK."
+    priority: CRITICAL
+    action: "Create bear/base/bull. KC: GM <57% or negative global comps = SELL. $320M tariff headwind. No permanent CEO."
 
   - date: 2026-03-12
     type: earnings
@@ -86,12 +62,12 @@ events:
     event: "Enel FY2025 results"
     priority: medium
 
-  - date: 2026-03-31
+  - date: 2026-03-17
     type: earnings
     ticker: LULU
-    event: "LULU Q4 — MAKE-OR-BREAK"
+    event: "LULU Q4 FY2025 — MAKE-OR-BREAK (CORRECTED from Mar 31)"
     priority: CRITICAL
-    action: "ON PROBATION. SELL if negative global comps or GM <57%."
+    action: "ON PROBATION. SELL if negative global comps or GM <57% or poor CEO appointment. Prepare bear/base/bull framework by Mar 14. $320M tariff hit + oil headwind = margin pressure. 12 days, not 26."
 
   # REGULATORY WATCH
   - date: 2026-06-30

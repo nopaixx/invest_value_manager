@@ -274,45 +274,7 @@ El sector telecom europeo sigue siendo de los mas baratos de Europa, pero el sen
 
 ## Fuentes
 
-### Sector / Regulatory
-- [ING Think - European telecoms 2026 outlook](https://think.ing.com/articles/european-telecoms-set-to-see-modest-growth-in-2026)
-- [ING Think - M&A may provide a tailwind to the telecom sector in 2026](https://think.ing.com/articles/ma-may-provide-a-tailwind-to-the-telecom-sector-in-2026/)
-- [J.P.Morgan - European Telecom Consolidation Wave](https://www.investing.com/news/stock-market-news/jpmorgan-upgrades-european-telecom-outlook-as-consolidation-wave-looms-93CH-4381647)
-- [IEEE ComSoc - Digital Networks Act spectrum regulation](https://techblog.comsoc.org/2026/01/14/european-commissions-digital-networks-act-to-restructure-european-telecom-spectrum-regulation/)
-- [Bird & Bird - Digital Networks Act reform overview](https://www.twobirds.com/en/insights/2026/the-digital-networks-act-%E2%80%93-reform-of-the-eu%E2%80%99s-telecoms-regime)
-- [Inside Global Tech - Seven Major Changes in EU Digital Networks Act](https://www.insideglobaltech.com/2026/01/23/seven-major-changes-in-the-european-commissions-proposal-for-an-eu-digital-networks-act/)
-- [Wray Castle - Telecom Regulation 2026](https://wraycastle.com/blogs/knowledge-base/telecom-regulation-2026-what-industry-leaders-need-to-know)
-- [RankiaPro - Falling Capex drives deleveraging across European telecoms](https://rankiapro.com/en/insights/european-telecoms-leverage-points-to-decade-lows-as-the-decline-in-capital-investment-continues/)
-- [Telecom Analysis - Western Europe Capex 2024-2030](https://telecomanalysis.net/2025/08/04/navigating-the-future-of-telecom-capex-western-europes-telecom-investment-2024-to-2030/)
-- [Morningstar - Best European Stocks Q1 2026](https://global.morningstar.com/en-eu/stocks/best-european-stocks-q1-2026-our-top-picks-by-sector)
-- [Goldman Sachs - European telecom deregulation](https://www.goldmansachs.com/insights/articles/european-telecom-companies-poised-for-growth-amid-deregulation)
-- [Scope Ratings - Telecom sector credit outlook](https://scoperatings.com/ratings-and-research/research/EN/176327)
-
-### T-Mobile US
-- [T-Mobile Q4 2025 Earnings Release](https://www.t-mobile.com/news/business/t-mobile-q4-2025-earnings)
-- [T-Mobile Capital Markets Day Update Feb 2026](https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026)
-- [CNBC - T-Mobile Q4 earnings](https://www.cnbc.com/2026/02/11/t-mobile-tmus-q4-earnings.html)
-- [TipRanks - T-Mobile Raises Multi-Year Growth Outlook](https://www.tipranks.com/news/company-announcements/t-mobile-raises-multi-year-growth-outlook-boosts-buybacks)
-- [Motley Fool - TMUS Q4 2025 Earnings Transcript](https://www.fool.com/earnings/call-transcripts/2026/02/11/t-mobile-us-tmus-q4-2025-earnings-transcript/)
-
-### Deutsche Telekom
-- [Deutsche Telekom - Financial Results 2025](https://www.telekom.com/en/investor-relations/publications/financial-results/financial-results-2025)
-- [Deutsche Telekom - Outlook & Financial Strategy](https://www.telekom.com/en/investor-relations/company/outlook-financial-strategy)
-- [Deutsche Telekom - Share Buy-Back 2026 Announcement](https://www.telekom.com/en/investor-relations/investor-relations/announcement-of-share-buy-back-2026-1100658)
-- [Deutsche Telekom - Q3 2025 raises guidance and plans record dividend](https://www.telekom.com/en/media/media-information/archive/third-quarter-report-2025-1098968)
-
-### Orange
-- [Orange FY 2025 Results - Lead the Future plan achieved](https://www.globenewswire.com/news-release/2026/02/18/3240477/0/en/Orange-Success-of-Lead-the-Future-2023-2025-strategic-plan-2025-objectives-fully-achieved.html)
-- [Yahoo Finance - Orange posts solid 2025 results, Africa & Middle East drive growth](https://finance.yahoo.com/news/orange-posts-solid-2025-results-175722917.html)
-- [Orange - MASORANGE full acquisition announcement](https://newsroom.orange.com/orange-announces-the-signing-of-a-binding-agreement-with-lorca-to-acquire-their-50-stake-in-masorange/)
-
-### KPN / Telia / Other Operators
-- [Investing.com - KPN Q4 2025 steady growth](https://www.investing.com/news/transcripts/earnings-call-transcript-kpn-q4-2025-sees-steady-growth-amid-market-challenges-93CH-4470012)
-- [Yahoo Finance - Telia Q4 2025 Highlights](https://finance.yahoo.com/news/telia-company-ab-tlsnf-q4-150233884.html)
-- [Investing.com - Telia Q4 2025 solid EBITDA growth](https://www.investing.com/news/company-news/telia-q4-2025-slides-solid-ebitda-growth-despite-regional-challenges-93CH-4472335)
-- [RCR Wireless - Telia flat revenue lower profits 2025](https://www.rcrwireless.com/20260202/5g/telia-revenues-2025)
-
-### VodafoneThree
-- [DCD - VodafoneThree speeds up network integration](https://www.datacenterdynamics.com/en/news/vodafonethree-speeds-up-network-integration-following-uk-merger/)
-- [Vodafone - Completion of Vodafone and Three merger UK](https://www.vodafone.co.uk/newscentre/press-release/completion-vodafone-three-merger-uk/)
-- [Investing.com - Vodafone Q1 FY26 service revenue up 5.5%](https://www.investing.com/news/company-news/vodafone-q1-fy26-slides-service-revenue-up-55-three-merger-integration-underway-93CH-4325923)
+Sector: ING Think (EU telecoms 2026), J.P.Morgan (consolidation wave), Goldman Sachs (deregulation), Scope Ratings (credit).
+Regulatory: IEEE ComSoc, Bird & Bird, Inside Global Tech (Digital Networks Act).
+Company: TMUS Q4+CMD, DTE FY2025+buyback, Orange FY2025+MASORANGE, KPN Q4, Telia Q4, VodafoneThree merger.
+Quantitative: yfinance, MacroTrends (P/E history).

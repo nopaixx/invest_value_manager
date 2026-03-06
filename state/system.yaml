@@ -7,8 +7,8 @@
 system:
   system_version: "4.7.0"
   framework_version: "4.7"
-  last_session: 2026-03-02
-  session_number: 132
+  last_session: 2026-03-05
+  session_number: 140
   status: active
 
   framework_v4_status:
@@ -17,10 +17,10 @@ system:
     implementation_date: 2026-02-05
 
   portfolio_quality_analysis:
-    date: 2026-02-26
+    date: 2026-03-05
     summary:
-      total_positions: 14
-      tier_a_count: 8  # MORN, MONY.L, LULU, ADBE, IHP.L, HLNE, DOCS, FTNT
+      total_positions: 15
+      tier_a_count: 9  # MORN, MONY.L, LULU, ADBE, IHP.L, HLNE, DOCS, FTNT, RACE.MI
       tier_b_count: 5  # NVO, AUTO.L, BYIT.L, EDEN.PA, DOM.L
       tier_c_count: 1  # GL
       tier_d_count: 0
@@ -35,68 +35,65 @@ system:
     positions:
       - { ticker: MORN, score: 78, tier: A, status: "FV $195. First E[CAGR] buy S101." }
       - { ticker: MONY.L, score: 75, tier: A, status: "HOLD. FV 190 GBp. FY2025 KCs clear. Probation easing." }
-      - { ticker: LULU, score: 78, tier: A, status: "ON PROBATION. FV $196. Mar 31 MAKE-OR-BREAK." }
+      - { ticker: LULU, score: 78, tier: A, status: "ON PROBATION. FV $196. Mar 17 MAKE-OR-BREAK." }
       - { ticker: ADBE, score: 76, tier: A, status: "FV $390. FTC trial Oct 2026." }
       - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. 2nd E[CAGR] buy + ADD S127 EUR 200 at 320p." }
       - { ticker: NVO, score: 73, tier: B, status: "FV $50 (revised). CagriSema FAILED. KC#1 triggered. HOLD LOW." }
       - { ticker: AUTO.L, score: 71, tier: B, status: "FV 580p. April pricing make-or-break." }
-      # DTE.DE REMOVED 2026-02-26 — SOLD remaining 10.6 shares at EUR 32.91. P16 rotation. P&L +22.4%.
       - { ticker: BYIT.L, score: 68, tier: B, status: "FV 345 GBp. HOLD LOW." }
       - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. FY2025 BASE+ confirmed. All KCs clear." }
-      - { ticker: DOM.L, score: 61, tier: B, status: "FV 240 GBp. Mar 5 results." }
+      - { ticker: DOM.L, score: 61, tier: B, status: "FV 240 GBp. Mar 10 results." }
       - { ticker: HLNE, score: 82, tier: A, status: "FV $110. 3rd E[CAGR] buy S122." }
       - { ticker: DOCS, score: 79, tier: A, status: "FV $32.80. 4th E[CAGR] buy S122." }
       - { ticker: FTNT, score: 85, tier: A, status: "FV $88. 5th E[CAGR] market buy S126." }
+      - { ticker: RACE.MI, score: 84, tier: A, status: "FV EUR 355. 6th E[CAGR] market buy S140. THREE WAITS." }
       - { ticker: GL, score: 52, tier: C, status: "FV $191. SEC+DOJ cleared." }
 
   last_session_summary: |
-    Session 132 (2026-03-02). CRISIS SESSION — Operation Epic Fury.
-    CRITICAL: US-Israel strikes on Iran (Feb 28-Mar 1). Khamenei killed. Strait of Hormuz closed.
-    EU markets -1.8-2.3%, S&P futures -1.7%, Oil +6-13%, VIX 23.27 (elevated from 19.9).
+    Session 140 (2026-03-05). RACE.MI BUY CONFIRMED + portfolio ops.
     DELIVERABLES:
-      1. P0 CRISIS ASSESSMENT: All 14 positions analyzed for Iran impact. No KC triggered.
-         Direct exposure: NVO (DKK→oil costs), EDEN.PA (EU consumer), AUTO.L (UK consumer).
-         Most resilient: ADBE/DOCS/HLNE (US digital, minimal oil/geopolitical exposure).
-      2. Earnings frameworks VERIFIED: KLR.L Mar 3 (HARD GATE), ANF Mar 4, DOM.L Mar 5.
-         All frameworks exist and are fresh. Crisis may overshadow results.
-      3. ADBE Q1 earnings Mar 12 DISCOVERED — needs framework by ~Mar 10 (Error #13).
-      4. Net exposure: 60/0/40 MAINTAINED and JUSTIFIED by crisis (cash = deployment asset).
-      5. Rotation check: NO ROTATION. LULU worst (-7.8%) but on probation. 0 pipeline viable.
-      6. Pipeline velocity: 0 units (justified — crisis monitoring, poor Section A candidates).
-    Cash 39.5% = STRATEGIC in crisis context. Multiple SOs within 5-15% if selloff deepens.
-    RACE.MI 5.8% from trigger — could activate this week.
-    Next: Process KLR.L/ITRK.L Mar 3. Process ANF Mar 4. Process DOM.L Mar 5.
-    Prepare ADBE framework by Mar 10. Monitor Iran escalation daily.
+      1. RACE.MI BUY EXECUTED: Market buy ~1.12 shares at EUR 312.80, EUR 350. 6th E[CAGR] market buy. THREE WAITS mandate fulfilled.
+      2. EU Value Recovery basket SAVED: RESEARCHING→BUILDING. Mar 31 death deadline averted. RACE.MI = 2nd position (Tier A anchor).
+      3. Cash: EUR 4,042 → EUR 3,692. Cash % pending portfolio_stats.py (estimate ~35%).
+      4. Positions: 14 → 15. Tier A count: 8 → 9 (RACE.MI QS 84).
+      5. Thesis moved: research/RACE.MI → active/RACE.MI.
+      6. SO RACE.MI BUY marked EXECUTED. ADD SO at EUR 270 remains active.
+    PORTFOLIO: 15 positions (9 Tier A, 5 Tier B, 1 Tier C). Cash EUR 3,692.
+    NEXT: DOM.L results Mar 10, ADBE framework by Mar 10, LULU framework by Mar 14.
 
   # NET EXPOSURE REASONING — Principio 13. Re-evaluate EVERY session.
   # This is NOT a target or range. It's the CONCLUSION of reasoning.
   # History preserved for consistency checks.
   net_exposure:
     current:
-      long_pct: 60.7  # Post IHP.L ADD EUR 200. ~$7,404 long / ~$12,181 total
+      long_pct: 60.7
       short_pct: 0.0
-      cash_pct: 39.3  # EUR 4,042 / ~EUR 10,307 total
+      cash_pct: 39.3  # EUR 4,042
       net_pct: 60.7
       gross_pct: 60.7
     reasoning: |
-      Session 132 (2026-03-02): 60/0/40 MAINTAINED. CRISIS CONTEXT — Operation Epic Fury.
-      Macro SHIFT: VIX 23.27 (elevated from 19.9), Oil surging +6-13% (Hormuz closed), Gold $5,407 (+86% YoY),
-      EU markets -1.8-2.3%, S&P futures -1.7%. GEOPOLITICAL RISK = ELEVATED.
-      Cash 39.5% NOW STRATEGIC (was previously RED trigger):
-        (1) Crisis may deepen 5-10% over coming days/weeks → brings SOs into range
-        (2) RACE.MI 5.8% from EUR 295 trigger — could activate this week
-        (3) Multiple SOs within 10-15%: SPGI $420 (5%), DSY.PA EUR 38 (7%), VLTO $80 (9%)
-        (4) If selloff reaches 10-15%, several Tier A candidates become market buys
-        (5) Zero candidates at market pre-crisis; LOWER prices from crisis = OPPORTUNITY
-      DO NOT deploy into crisis Day 1. Wait for:
-        - Hormuz resolution signal (reopening or workaround)
-        - VIX peak (>30 = max fear, typically deployment zone)
-        - Earnings season this week provides anchors (KLR.L, ANF, DOM.L)
-      No short thesis — JUSTIFIED even more (crisis shorts = catching falling knife with unknown bottom).
-      Rotation check: NO ROTATION. Quality positions HOLD. LULU worst but on probation through Mar 31.
-      Inaction Audit: PASS — crisis patience is DEPLOYMENT STRATEGY, not inaction.
-    last_updated: 2026-03-02
+      Session 140 (2026-03-05): ~60/0/40 → POTENTIAL 64/0/36 if RACE.MI executes.
+      Crisis MODERATING: Oil WTI $76.90 (from $87 peak), VIX 21.15 (from 23.57), S&P 6,870 (resilient).
+      Iran signaled 'open to de-escalation' via Oman FM. Hormuz still closed but market expects resolution.
+      Gold $5,174 (+79% YoY), DXY 98.99 (weak USD = EUR positive), 2Y-10Y +0.60% (no recession signal).
+      THREE WAITS RESOLVED: RACE.MI market buy recommended at EUR 312-315.
+        (1) RACE.MI 6.0% from EUR 295 — moved AWAY as crisis moderates. Market buy at market.
+        (2) SPGI 5.0% from $420 (GATED on Q1 late April)
+        (3) DNLM.L 1.1% from trigger but BLOCKED (6th UK position)
+        (4) 0 universe candidates at E[CAGR] threshold
+      No shorts: crisis environment makes shorting dangerous. Short screening continues via fragility watch.
+      Net 60 → 64 is a step toward deployment. Next session: if RACE.MI confirmed, update to 64/0/36.
+      Oil surge = NEW headwind for consumer names (DOM.L, LULU, MONY.L). Don't ADD consumer exposure.
+      NVO: Wegovy pill launch exceeding expectations (MATERIAL POSITIVE).
+      AUTO.L: 26 insiders bought $95M in 60d (STRONG BULL).
+      No short thesis during active military conflict — volatility premium too high.
+      Rotation: NO — LULU worst but tiny ($300), Mar 31 binary. No forced action.
+      Inaction Audit: PASS — 0 candidates at market thresholds, crisis validates cash.
+    last_updated: 2026-03-04
     history:
+      - date: 2026-03-03
+        net_pct: 60.7
+        note: "S136. 60/0/40 MAINTAINED. Crisis escalating. RACE.MI 3.3%. SOs are deployment mechanism."
       - date: 2026-02-25
         net_pct: 45.1
         note: "S118. Cash 54.9% EMERGENCY (5th session >50%). NVO HOLD confirmed. DOCS R4 in progress. DTE.DE TRIM tomorrow if >EUR 34. Inaction Audit PASS."
@@ -143,9 +140,9 @@ system:
     anti_bias: "This direction was set Feb 15. Do NOT anchor to it. Fresh eyes each session."
 
 macro_snapshot:
-  last_update: 2026-03-02
-  themes: ["OPERATION EPIC FURY — US-Israel strikes Iran, Khamenei killed, Hormuz closed", "VIX 23.27 (elevated from 19.9)", "Oil $71.88 surging (+6-13% crisis premium)", "Gold $5,407 (+86% YoY — crisis + institutional hedging)", "EU markets -1.8-2.3% Monday open", "S&P futures -1.7%", "Fed/BCE pausa 4.25-4.50%/2.75%", "DXY 97.7 (-7.7% YoY — weak USD)", "US 10Y 3.96% declining"]
-  risks: ["IRAN CRISIS ESCALATION — Hormuz closure duration unknown, military response possible", "Oil supply shock if Hormuz >7 days — global recession risk", "LULU tariff 15% + no CEO + Mar 31 MAKE-OR-BREAK", "ADBE Q1 Mar 12 — no framework yet (Error #13)", "DOM.L FY25 Mar 5 (KC#1 EBITDA <£125M)", "EDEN.PA Italy KC#6 + EU consumer weakness from oil shock", "NVO CagriSema FAILED — HOLD LOW, Wegovy pill ramp Q1-Q2", "AI disruption wave (MONY.L/BYIT.L/ADBE)", "Multiple UK positions vulnerable to crisis selloff (DOM.L, MONY.L, AUTO.L, BYIT.L, IHP.L)"]
+  last_update: 2026-03-03
+  themes: ["OPERATION EPIC FURY — ESCALATING. Iran IRGC declares Hormuz CLOSED. Will attack any transiting vessel.", "CONFLICT WIDENING: Qatar LNG suspended (2 facilities hit), US Embassy Riyadh hit by drones, Israel ground incursion southern Lebanon.", "Trump: campaign lasts 'about 4 weeks'. Death toll 787.", "VIX 25.0 (UP from 21.5). Oil WTI $74.94 (+5%). Gold $5,307.", "S&P 6,881 (-1.7% ATH — remarkably resilient). DXY 99.03 (weak USD).", "2Y-10Y +0.57% positive slope. No recession signal yet despite crisis.", "Fed/BCE pausa 4.25-4.50%/2.75%. US 10Y 4.05%.", "Energy supply disruption now MATERIAL: both oil (Hormuz) and LNG (Qatar)."]
+  risks: ["IRAN CRISIS WIDENING — now Qatar, Lebanon, Saudi involved. Supply disruption MATERIAL (oil + LNG).", "Oil shock → UK/EU consumer headwind (lagged Q2-Q3 effect on DOM.L, MONY.L, EDEN.PA)", "DOM.L FY25 Mar 5 — KC#1 EBITDA test + oil/shipping headwind", "LULU tariff 15% + no CEO + Mar 31 MAKE-OR-BREAK", "FTNT class action (Robbins Geller Oct 2025)", "NVO CagriSema FAILED — pharma basket DECLINING", "Multiple UK positions in crisis-exposed economy (5 UK stocks)", "If Hormuz >30 days → global recession risk rises significantly"]
 
 closing_criteria:
   - "12+ months underperformance >3pp annualized vs MSCI World + MSCI Europe blend"

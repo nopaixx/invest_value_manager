@@ -1,33 +1,33 @@
 # PIPELINE TRACKER + MAINTENANCE
 # Operational metadata for the fund
-# Updated: 2026-02-20
+# Updated: 2026-03-02 (S132)
 
 # PRIORITY #1 - CAPITAL DEPLOYMENT (while cash > 25%)
 capital_deployment:
   frequency: daily
   priority: 1
   trigger: "cash > 25%"
-  last_run: 2026-02-20
-  next_due: 2026-02-21
-  last_result: "S103: STMN.SW R4 APPROVED. KLR.L R2→R3 (FV 2,600→2,100, SO 1,700p gated Mar 3). RO.SW R1 (QS 80adj, AT_FV CHF 282). 4 velocity units. so_probability.py + r1_prioritizer E[CAGR] enhancements deployed."
+  last_run: 2026-03-02
+  next_due: 2026-03-03
+  last_result: "S134: E[CAGR] deployed 15.5%, blended 10.6%. 0 market buy candidates at market. RACE.MI 4.7% from EUR 295. KNSL 8.7% from $355. Cash 39.5%."
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/quality_universe.py"
 
 # DAILY
 vigilance:
   frequency: daily
-  last_run: 2026-02-20
-  next_due: 2026-02-21
-  last_result: "S94: 0 CRITICAL, 3 HIGH (MONY.L Mon Feb 23, EDEN.PA Tue Feb 24, DTE.DE Wed Feb 26 — all earnings-related). EDEN.PA Italy fraud = former execs, immaterial. SOs: RACE.MI 4.3%, MORN 7.3%, DNLM.L 8.0%."
+  last_run: 2026-03-02
+  next_due: 2026-03-03
+  last_result: "S134: Crisis ongoing (Hormuz closed). SM: BYIT.L insider cluster $239K, AUTO.L SI up 6.35%, EDEN.PA quant shorts. SOs: RACE.MI 4.7%, KNSL 8.7%."
   smart_skip:
     same_day_window_hours: 8
     source: "state/session_continuity.yaml → skip_if_same_day"
 
 rotation_check:
   frequency: daily
-  last_run: 2026-02-20
-  next_due: 2026-02-21
-  last_result: "S94: Bottom 3: DTE.DE (+7.4% MoS), LULU (+7.2%), BYIT.L (+18.4%). Rotation flagged vs ALFA.L (OS 4.0x, 3.6x). No rotation pre-earnings. Post-earnings target cash 45-50% by Mar 1."
+  last_run: 2026-03-02
+  next_due: 2026-03-03
+  last_result: "S134: Bottom 3: LULU (-6.5% E[CAGR]), MORN (6.3%), DOCS (11.9%). NO ROTATION — LULU probation Mar 31, MORN healthy +12.3%. 0 pipeline viable at market."
   smart_skip:
     same_day_window_hours: 12
     earnings_blackout: true
@@ -37,22 +37,22 @@ rotation_check:
 opportunity_scan:
   frequency: weekly
   last_run: 2026-02-19
-  next_due: 2026-02-26
-  last_result: "S81: MASSIVE DISCOVERY SESSION. 2 agents (opportunity-hunter + sector-screener) found 20+ NEW companies not in universe. Top: RAA.DE (Rational, ROIC 47%, net cash), KYGA.L (Kerry Group, 52w LOW + insider buying), LAGR-B.ST (Lagercrantz, 56% ROIC), STF.PA (STEF, cold chain monopoly). 3 sectors screened (specialty chemicals, logistics, specialty insurance). 6 new sector views needed. yfinance RATE LIMITED — ALL SCORING DEFERRED to next session. Scoring queue: Batch 1 (RAA.DE, KYGA.L, LAGR-B.ST, STF.PA), Batch 2 (HLMA.L, FPE3.DE, HSX.L, DPLM.L). Universe 149+. Reports: journal/log/2026-02-19_three_sector_screening.md."
+  next_due: 2026-03-07  # 15d OVERDUE. Promise deadline S142.
+  last_result: "S81: MASSIVE DISCOVERY SESSION. 20+ new companies found. Top: RAA.DE, KYGA.L, LAGR-B.ST, STF.PA. Universe 149+. OVERDUE — prioritize next session."
 
 risk_review:
   frequency: weekly
-  last_run: 2026-02-19
-  next_due: 2026-02-26
-  last_result: "S81: 0 RED, 8 ORANGE, 6 YELLOW, 1 GREEN. GL insider ESCALATED (CEO+CMO+EVP+Dir, $7.4M/13days). MONY.L ESCALATED (Experian ChatGPT). NVO UPDATED (2026 guidance -5-13%). EDEN.PA France levy RULED OUT (positive). DTE.DE Meta EUR 30M ruling (positive). LYV NEW (short monitoring). BYIT.L FTC+CMA probe. Binary cluster: LYV tonight, MONY.L Feb 23, EDEN.PA Feb 24, DTE.DE Feb 26."
+  last_run: 2026-03-02
+  next_due: 2026-03-09
+  last_result: "S134: 2 RED (NVO KC#1 known, FTNT class action NEW — added to thesis), 4 ORANGE (EDEN.PA regulatory, LULU proxy, DOCS MFN, AUTO.L SI+DMCCA), 5 YELLOW/GREEN. FTNT Robbins Geller securities fraud class action Oct 2025 — KC#4 monitors SEC escalation, LOW prob. Iran crisis overlay on all positions."
 
 # SHORT/FRAGILITY
 fragility_watch:
   frequency: weekly
   priority: 2
-  last_run: 2026-02-20
-  next_due: 2026-02-27
-  last_result: "S93: LYV short CANCELLED (KC#3 triggered, FV $170-238 at 8-10% growth >> $130 cancel). Active shorts: 0. Short pipeline: CVNA S3 complete (S4 deferred, $361), APP REJECTED. 0 active short candidates mature. Fair-Value regime — short screening not urgent but remains on radar."
+  last_run: 2026-03-04
+  next_due: 2026-03-11
+  last_result: "S139: No actionable short candidates. CVNA SI declining -9% MoM (12.1%). Crisis makes shorting dangerous (volatility premium, squeeze risk). No new fragility identified. EDEN.PA SI 23.5% (20 funds) — risk signal on LONG, MONITOR. AUTO.L 26 insiders bought $95M (STRONG BULL)."
   skill: ".claude/skills/short-thesis-framework/SKILL.md"
   tool: "tools/quality_universe.py --fragility"
   mandatory: true
@@ -70,17 +70,17 @@ fragility_watch:
 # BIWEEKLY
 position_review:
   frequency: biweekly
-  last_run: 2026-02-08
-  next_due: 2026-02-22
-  last_result: "Adversarial Fase 2: 9 Tier C reviewed."
-  current_batch: "middle"
+  last_run: 2026-03-02
+  next_due: 2026-03-16
+  last_result: "S134: Quick health checks. LULU HOLD PROBATION (E[CAGR] -6.5%, tiny position, Mar 31 binary). MORN HOLD (healthy, +12.3%, QS 80 intact). NVO pharma basket DECLINING confirmed (kill deadline Jun 30). DOM.L unassigned orphan (earnings Mar 5 resolve)."
+  current_batch: "bottom"
   batch_rotation: ["bottom", "middle", "top"]
 
 system_health:
   frequency: biweekly
-  last_run: 2026-02-18
-  next_due: 2026-03-04
-  last_result: "8.5/10. Fixed: NVO 4 missing fields, archived 3 past calendar events, SOON.SW SO created. Warnings: Layer 1 44KB (>40KB), .claude/ 608KB (>500KB), 7 sector views >300 lines. 79 universe entries, 24 SOs, 16 tools."
+  last_run: 2026-03-03
+  next_due: 2026-03-17
+  last_result: "S138: 7.5/10 (up from 6.5). Structure 9/10, consistency 9/10, tools 10/10. 7 warnings: fragility_watch 4d overdue, opportunity_scan 5d overdue, file bloat (CLAUDE.md 224>150 lines, Layer 1 64>40KB, universe 133KB). NVO cancelled SO cleaned."
 
 # MONTHLY
 deep_performance:
@@ -106,9 +106,9 @@ r1_processing:
   frequency: daily
   priority: 1
   trigger: "SCORED count > 0 in universe"
-  last_run: 2026-02-20
-  next_due: 2026-02-21
-  last_result: "S106: 4 velocity units (FSG.L R2=2u, NOS.LS R2=2u). FSG.L R2 PAUSED (P/E overstated, VCT tax risk, revisit Dec 2026). NOS.LS R2 DO NOT ADVANCE (Digi risk severe, E[CAGR] 12% insufficient). Both produced clean counter-theses."
+  last_run: 2026-03-02
+  next_due: 2026-03-03
+  last_result: "S135: 2 velocity units (WING R2→R3). STRONG COUNTER 13/19: FV $296→$240, entry $215→$190. GATED Q1 FY2026 May. Section A remaining: BZU.MI 8.1%, EXEL 6.5%, BEI.DE -0.7%. Earnings Mar 3-5 = 3+ more units."
   minimum_per_session: "3 velocity units (1 R1=1u, 1 R2→R3=2u, 1 R4=1u)"
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/r1_prioritizer.py"
@@ -129,9 +129,9 @@ universe_refresh:
 # SECTOR HEALTH
 sector_health:
   frequency: weekly
-  last_run: 2026-02-20
-  next_due: 2026-02-27
-  last_result: "S95: Telecom sector view refreshed (17d stale → fresh). T-Mobile US CMD beat, EU DNA regulation proposed, Orange FY beat. DTE.DE earnings preview added. All portfolio deps covered."
+  last_run: 2026-03-02
+  next_due: 2026-03-09
+  last_result: "S134: 3 sector refreshes (digital-marketplaces v2.3, insurance, business-services in progress). 5 STALE → 3 STALE after refreshes. 8 BORDERLINE."
   tool: "tools/sector_health.py"
   mandatory: true
 
@@ -146,22 +146,22 @@ drift_detection:
 # NET EXPOSURE REASONING (P13, mandatory)
 net_exposure_reasoning:
   frequency: daily
-  last_run: 2026-02-20
-  next_due: 2026-02-21
-  last_result: "S93: Net 39.4% long, 0% short, 60.6% cash. Fair-Value CONFIRMED. LYV short CANCELLED (KC#3, FV $170-238 at 8-10% growth). Cash justified by earnings density Feb 23-27 + 4 SOs <10%. Post-earnings target: 45-50% by Mar 1."
+  last_run: 2026-03-04
+  next_due: 2026-03-05
+  last_result: "S139: 60/0/40 MAINTAINED. Crisis ESCALATED: Hormuz closed, Brent $87, diplomacy dead. Cash strategic. 0 candidates at threshold. RACE.MI 3.2%. THREE WAITS triggered — next session MUST present market buy."
 
 # STANDING ORDER REALITY CHECK
 so_reality_check:
   frequency: daily
-  last_run: 2026-02-20
-  next_due: 2026-02-21
-  last_result: "S99→S100: Restructured S99 (7 ACTIVE, 10 GATED, 1 BORDERLINE, 4 EXTREME). S100: +IHP.L ACTIVE → 8 ACTIVE, 23 total."
+  last_run: 2026-03-02
+  next_due: 2026-03-03
+  last_result: "S134: 22 active SOs (5 archived, 3 recalibrated S133). 0% STALE. RACE.MI 4.7% (closest). KNSL 8.7%. VRSN 7.1%."
 
 # MAINTENANCE
 maintenance:
-  last_health_check: 2026-02-14
-  next_health_check_due: 2026-02-28
-  health_score: 10.0/10
+  last_health_check: 2026-03-02
+  next_health_check_due: 2026-03-16
+  health_score: 6.5/10
   last_compact: 2026-02-01
   memory_status: ok
   agents_count: 24

@@ -1,32 +1,40 @@
 # Sector: Energy (Oil & Gas Majors)
 
-> Ultima actualizacion: 2026-02-04
-> Status: **INFRAPONDERAR** (Neutral con sesgo negativo)
+> Ultima actualizacion: 2026-03-02 (S132 — CRISIS UPDATE)
+> Status: **NEUTRAL-SELECTIVO** (upgraded from INFRAPONDERAR — Iran crisis reshapes supply dynamics)
 
 ## Resumen Ejecutivo
 
-El sector de oil & gas majors enfrenta un **entorno fundamentalmente bajista** para 2026-2027: exceso de oferta proyectado de 3.8M b/d (IEA), Brent previsto cayendo a $55-58/bbl, y demanda de petroleo en transporte tocando pico ~2026-2027. Sin embargo, **riesgos geopoliticos (Iran, Oriente Medio) actuan como hedge** que puede revertir la tendencia rapidamente si escala el conflicto.
+**CAMBIO MATERIAL (S132):** Operation Epic Fury (US-Israel strikes on Iran, Feb 28 - Mar 1, 2026) ha cambiado fundamentalmente el outlook del sector. Estrecho de Hormuz CERRADO — 20M bpd de transito interrumpido (20% suministro global). Brent $78.41 (+7.6%), WTI $72.01. Trafico Hormuz -70%, 150+ buques anclados. Primas de seguro maritimo disparadas 300-500%.
 
-**Tesis sectorial:** El sector esta "relativamente barato" por razones validas: peak oil demand visible (~2030), transicion energetica acelerandose (EVs 40% mercado 2035), ESG outflows persistentes. Pero NO es "deep value" porque el mercado ya pricea estos riesgos a P/E 11-15x. Las supermajors integradas (Shell, TotalEnergies) tienen ventaja via LNG (crecimiento 3-5%/anual), pero el upstream puro esta en declive secular. **Posicion defensiva justificada solo como hedge geopolitico, no como core holding.**
+La tesis de "exceso de oferta 3.8M b/d + Brent $55-58" de Feb 4 esta **INVALIDADA a corto plazo**. El supply outlook depende ahora de la duracion del cierre de Hormuz y la escalada militar. Si Hormuz permanece cerrado >2 semanas, oil podria alcanzar $85-95. Si >1 mes, posible $100+.
 
-**Divergencia clave:** Majors europeas (Shell, TTE, BP) cotizan a P/E 11-16x con yields 4-5%, mientras US majors (XOM, CVX) cotizan a P/E 21-27x con yields 3-4%. Europa ofrece mejor valor relativo pero tambien mas riesgo (menos recursos baratos, mas exposicion regulatoria).
+**Tesis sectorial actualizada:** El sector ha pasado de "hedge geopolitico barato" a "beneficiario directo de shock de oferta". Refining margins en expansion ($18-22/bbl gasoleo EU vs $8-10 pre-crisis). Majors integradas con produccion fuera de Golfo (Shell Noruega/Brasil, TTE Africa/LNG) son las mejor posicionadas. US shale (XOM, ConocoPhillips) se beneficia SIN riesgo de supply disruption. EU refiners (Repsol, Moeve, Galp) tienen cracks elevados pero costes de crudo tambien suben.
+
+**CLAVE:** La crisis puede ser corta (diplomacia rapida) o prolongada (escalada MENA). NO comprar energia como trade tactico de crisis — solo si fundamentals a 3+ anos justifican. Pero el sector merece upgrade de INFRAPONDERAR a NEUTRAL-SELECTIVO porque el riesgo geopolitico que antes era "hedge" ahora es REALIDAD, y las majors con produccion diversificada lo capturan.
+
+**Divergencia clave (actualizada):** EU majors siguen a P/E 11-16x pero con oil en $78 generan FCF excepcional. US majors a P/E 21-27x ya pricean parte del upside. **Preferir EU majors (Shell, TTE) sobre US para exposicion en crisis** — mayor descuento + upside si oil >$80.
 
 ---
 
 ## Metricas Clave
 
-| Metrica | Valor | vs Historia | Tendencia |
-|---------|-------|-------------|-----------|
+| Metrica | Valor (Mar 2026) | vs Pre-crisis (Feb) | Tendencia |
+|---------|------------------|---------------------|-----------|
 | TAM Global (oil market) | ~$2.5T | Estable | -> |
-| Brent spot (Feb 2026) | ~$74-76/bbl | vs $80+ avg 2022-24 | Bajista |
-| Brent forecast 2026 | $55-58/bbl | Consensus bearish | Bajista |
-| Henry Hub Gas | $3.50/MMBtu | vs $2.50 2024 | Alcista |
-| P/E sector (EU majors) | 11-16x | vs 10-12x historico | Inline |
-| P/E sector (US majors) | 21-27x | vs 12-15x historico | Premium |
-| Dividend yield (EU) | 4-5.5% | | Cubierto |
+| Brent spot | **$78.41** | vs $72.80 (+7.6%) | **ALCISTA (crisis)** |
+| WTI spot | **$72.01** | vs $67.50 (+6.7%) | **ALCISTA (crisis)** |
+| Brent forecast 2026 | **$75-95 (revised)** | vs $55-58 pre-crisis | **INVALIDATED** |
+| Henry Hub Gas | $3.50/MMBtu | Estable | Neutral |
+| Refining margins EU (gasoleo) | **$18-22/bbl** | vs $8-10 pre-crisis | **EXPANSION** |
+| P/E sector (EU majors) | 11-16x | Sin cambio material aun | Podria comprimir si oil persiste |
+| P/E sector (US majors) | 21-27x | Sin cambio material aun | Premium |
+| Dividend yield (EU) | 4-5.5% | | Cubierto + crisis FCF |
 | Dividend yield (US) | 2.9-4% | | Cubierto |
-| EV/EBITDA sector | 5-7x | | Bajo pero justificado |
-| FCF yield (majors) | 10-16% | | Muy alto |
+| EV/EBITDA sector | 5-7x | | Bajo pero con oil alto = upside |
+| FCF yield (majors) | **12-20%** | vs 10-16% pre-crisis | **MEJORANDO** |
+| VIX | 23.27 | vs 19.9 | Elevado |
+| Gold | $5,407 | +86% YoY | Flight to safety |
 
 ### Comparativa Supermajors (Feb 2026)
 
@@ -97,11 +105,14 @@ El sector de oil & gas majors enfrenta un **entorno fundamentalmente bajista** p
 | <$50/bbl | Dividendos en riesgo, capex cuts |
 | $50-60/bbl | Breakeven para majors, bajo growth |
 | $60-70/bbl | FCF positivo, buybacks sostenibles |
-| $70-80/bbl | Sweet spot, fuerte FCF y returns |
-| >$80/bbl | Windfall, pero demand destruction acelera |
+| **$70-80/bbl** | **Sweet spot, fuerte FCF y returns ← ESTAMOS AQUI ($78)** |
+| $80-95/bbl | Windfall territory. Crisis premium. |
+| >$100/bbl | Demand destruction + recesion risk. Double-edged. |
 
 **Breakeven point (majors):** $40-50/bbl
-**Brent 2026 consensus:** $55-58/bbl -> **MARGEN ESTRECHO**
+**Brent actual:** $78.41 → **SWEET SPOT para majors**
+**Brent range si Hormuz cierra >2 sem:** $85-95
+**Brent range si Hormuz cierra >1 mes:** $95-110+ (demand destruction possible)
 
 ---
 
@@ -137,14 +148,26 @@ El sector de oil & gas majors enfrenta un **entorno fundamentalmente bajista** p
 **Sustitutos:** EVs (principal), hydrogen (futuro), biofuels (nicho)
 **NOCs:** Continuan ganando share, IOCs en retroceso secular
 
-### Riesgo Geopolitico: **ALTO** (PRINCIPAL DRIVER CORTO PLAZO)
+### Riesgo Geopolitico: **CRITICO** (REALIZADO — HORMUZ CERRADO)
 
-| Riesgo | Probabilidad | Impacto | Escenario |
-|--------|--------------|---------|-----------|
-| Conflicto US-Iran | 30-40% | **Muy Alto** | Brent $90-100+ si Hormuz cerrado |
+| Riesgo | Status | Impacto | Escenario |
+|--------|--------|---------|-----------|
+| **Conflicto US-Iran** | **REALIZADO (Feb 28 - Mar 1)** | **MUY ALTO** | **Hormuz CERRADO. Brent $78→$85-110 possible. Khamenei killed.** |
+| Escalada Iran → guerra regional MENA | 25-35% | Catastrofico | Si Iran retalia → $100+, Argelia/Libia risk |
+| Hormuz reapertura rapida (<2 sem) | 40-50% | Oil normaliza $70-75 | Diplomacia + presion US naval |
+| Hormuz cierre prolongado (>1 mes) | 30-40% | Oil $95-110 | Supply chain restructuring global |
 | Escalada Russia-Ukraine | 20-30% | Alto | Sanctions tightening, gas prices |
 | China-Taiwan | 10-20% | Catastrofico | Supply chains globales |
-| OPEC+ discipline break | 40-50% | Medio | Price wars, Brent <$50 |
+| OPEC+ compensates Iran loss | 50-60% | Moderador | Saudi+UAE tienen spare capacity ~3-4M bpd |
+
+**NUEVO RISK FACTOR:** Primas de seguro maritimo para Golfo Persico +300-500%. Tanker rates disparados. Afecta toda la cadena de suministro de crudo, no solo Iran.
+
+**IRAN CRISIS — Implicaciones por subsector:**
+- **Upstream puro:** BENEFICIADO directamente (oil price up)
+- **Refining integrado:** MIXTO (cracks up pero input costs up, NET positivo si cracks > crudo)
+- **LNG:** BENEFICIADO (gas como sustituto de oil en crisis)
+- **Oilfield services:** BENEFICIADO (actividad drilling up con oil alto)
+- **Downstream/retail:** PRESION de margen si no puede trasladar costes a consumidor
 
 ---
 
@@ -218,38 +241,39 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 ---
 
-## Catalizadores Proximos
+## Catalizadores Proximos (actualizado S132)
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| **5-Feb-2026** | **SHEL.L Q4 2025 earnings** | CRITICO - validation thesis FCF $40B |
-| 6-Feb-2026 | TTE Q4 2025 earnings | Comparable SHEL |
-| 11-Feb-2026 | BP Q4 2025 earnings | Turnaround progress? |
-| Q1 2026 | OPEC+ meeting | Production cuts extended/eased? |
-| Ongoing | Iran tensions | Oil price upside risk |
-| H1 2026 | Qatar LNG expansions online | Supply surge |
-| 2026 | EU ETS refining CBAM debate | Regulacion |
+| **NOW** | **HORMUZ CERRADO — Operation Epic Fury** | **CRITICO. 20M bpd interrumpido. Monitor DIARIO.** |
+| Mar 2026 | OPEC+ emergency response | Saudi/UAE spare capacity deployment? |
+| Mar 2026 | Iran response / escalation | Military retaliation? Regional spread? |
+| Mar-Apr 2026 | Hormuz resolution timeline | KEY: <2 sem = $70-75, >1 mes = $95+ |
+| Q1 2026 | EU major Q1 earnings (Shell, TTE, BP) | Will show crisis windfall FCF |
+| H1 2026 | Qatar LNG expansions online | Partially compensates oil supply gap |
+| 2026 | EU ETS refining CBAM debate | Regulacion (lower priority in crisis) |
 
 ---
 
 ## Conexion con World View y Macro
 
 ### Fit con Ciclo Economico
-- **Ciclo actual:** Late-cycle, desacelerando
-- **Fit energia:** **CAUTELA** - ciclicos en late-cycle sufren si recesion
-- **Excepcion:** Hedge geopolitico justifica posicion pequena (3-5%)
+- **Ciclo actual:** Late-cycle PERO crisis geopolitica supera ciclo
+- **Fit energia:** **FAVORABLE a corto plazo** — oil en sweet spot ($78)
+- **Riesgo:** Si crisis prolongada → recesion → demand destruction → oil falls despite supply shock
 
 ### Fit con Geopolitica
-- **Iran-US:** FAVORABLE para energia si escala (precio sube)
+- **Iran-US:** **REALIZADO. Hormuz cerrado. Oil surging. Sector beneficiado directamente.**
 - **Tariffs:** Neutral (energia menos afectada que autos/tech)
-- **China weakness:** NEGATIVO (demand destruction)
+- **China weakness:** AGRAVADO por crisis (China es mayor importador de crudo del Golfo)
 
-### Recomendacion para Portfolio
-1. **Mantener SHEL.L al 3-4%** como hedge geopolitico
-2. **NO aumentar exposicion** - sector en viento en contra fundamental
-3. **SI geopolitica escala (Iran ataque)** - considerar ADD temporal
-4. **SI oil <$55 sostenido** - evaluar TRIM
-5. **NO buscar nuevas posiciones en sector** - mejor oportunidad en utilities (A2A.MI ya tenemos)
+### Recomendacion para Portfolio (actualizada S132)
+1. **SIN POSICIONES ACTIVAS** en energia (SHEL.L vendida Feb 6)
+2. **NO comprar energia como trade tactico de crisis** — especulativo, no quality investing
+3. **SI Hormuz se prolonga >1 mes Y EU major cae >15%:** Reconsiderar Shell o TTE como hedge con QS >55
+4. **Moeve (research/MOEVE):** Crisis Iran impacto analizado. AVOID se mantiene (no cotiza). Ver `thesis/research/MOEVE/iran_conflict_impact.md`
+5. **Prioridad del capital:** Quality compounders (SOs en RACE.MI, SPGI, DSY.PA) >> energy especulativo
+6. **Si oil >$100 sostenido:** Evaluar impacto en portfolio — EDEN.PA/AUTO.L/DOM.L como consumer exposure vulnerable
 
 ---
 
@@ -260,39 +284,14 @@ Cuando actualices este sector view con cambio MATERIAL:
 | 2026-02-04 | Status: INFRAPONDERAR | Sector view creado. Health check flag: SHEL.L posicion activa sin cobertura sectorial |
 | 2026-02-04 | SHEL.L posicion reducida a 3.6% | TRIM por overweight (era 15%) |
 | 2026-02-06 | SHEL.L EXIT completo | Capital rotado a AUTO.L (Tier A). QS 36, MoS -3.5%, tesis debilitada. |
+| **2026-03-02** | **Status: INFRAPONDERAR → NEUTRAL-SELECTIVO** | **CAMBIO MATERIAL. Operation Epic Fury — Hormuz cerrado. Oil $78+. Refining cracks $18-22/bbl. Sector outlook fundamentally changed. Cascade RE-EVAL triggered for portfolio positions with oil/consumer exposure (EDEN.PA, AUTO.L, DOM.L).** |
 
 ---
 
-## Reglas de Ciclo de Vida
-
-### Cuando una empresa se COMPRA:
-- Mover de "Analizadas - Watchlist" a "Nuestras Posiciones Actuales"
-- Anadir a "Dependencias Activas" como Portfolio
-
-### Cuando una thesis se ARCHIVA (vendida o descartada):
-- Mover de "Dependencias Activas" a "Historial de Analisis"
-- Registrar razon y fecha de archivo
-- Mantener maximo 10 entradas en historial, luego purgar
-
-### Cuando sector view crece demasiado (>300 lineas):
-- Mover "Historial de Analisis" a archivo separado: world/sectors/archive/energy-history.md
-- Mantener solo ultimos 6 meses en "Analizadas"
-
-### Historial de Analisis (Archivadas)
-| Ticker | Razon Archivo | Fecha | Leccion |
-|--------|---------------|-------|---------|
-| SHEL.L | EXIT - Capital rotado a AUTO.L (Tier A, QS 79). QS 36 borderline Tier D, MoS -3.5%, tesis debilitada post-Q4 2025 miss. EXIT Protocol 6/6 SELL. | 2026-02-06 | Commodity play (QS 36) no compite con monopoly platform (QS 79). Rotar de Tier C a Tier A genera alpha. |
-
----
+Archived: SHEL.L EXIT 2026-02-06 (QS 36, rotated to AUTO.L Tier A). Lesson: commodity play can't compete with monopoly platform.
 
 ## Fuentes
 
-- [Deloitte 2026 Oil and Gas Industry Outlook](https://www.deloitte.com/us/en/insights/industry/oil-and-gas/oil-and-gas-industry-outlook.html)
-- [RSM US 2026 Oil and Gas Outlook](https://rsmus.com/insights/industries/energy/reconciling-industry-and-company-outlook.html)
-- [EIA Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/)
-- [Wood Mackenzie Corporate Oil & Gas 2026 Outlook](https://www.woodmac.com/news/opinion/corporate-oil-gas-2026-outlook)
-- [Seeking Alpha - Shell FCF Analysis](https://seekingalpha.com/article/4851307-shell-continued-investment-and-incredibly-strong-fcf)
-- [CNBC - Oil Majors Earnings Season](https://www.cnbc.com/2026/02/03/oil-earnings-shell-bp-equinor-totalenergies-dividends-buybacks.html)
-- [Euronews - EU Carbon Border Tax](https://www.euronews.com/my-europe/2026/01/01/eus-carbon-border-tax-on-heavy-industry-goods-goes-into-effect-risking-trade-escalation)
-- [Motley Fool - Better Buy 2026: ExxonMobil or Chevron](https://www.fool.com/investing/2025/12/07/better-buy-for-2026-exxonmobil-or-chevron/)
-- [Equinor Dividend History](https://stockanalysis.com/stocks/eqnr/dividend/)
+Sector: Deloitte 2026 O&G Outlook, RSM US 2026, EIA STEO, Wood Mackenzie 2026.
+Company: Shell FCF (SA), CNBC oil earnings, Equinor dividend history.
+Regulatory: Euronews EU Carbon Border Tax.

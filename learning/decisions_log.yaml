@@ -8,12 +8,44 @@
 # Creado: 2026-02-05 | Framework v4.0
 
 version: "4.0"
-last_updated: 2026-02-25
+last_updated: 2026-03-05
 
 # =============================================================================
 # DECISIONES DE SIZING (BUY/ADD)
 # =============================================================================
 sizing_decisions:
+
+  - date: 2026-03-05
+    ticker: RACE.MI
+    action: BUY
+    sizing: "~3.4% (EUR 350)"
+    context:
+      quality_score: "82 tool / 84 adjusted (+2)"
+      tier: A
+      mos: "11.9% at EUR 312.80 vs FV EUR 355"
+      ecagr: "~13.5% at EUR 312.80"
+      price_vs_52w: "-35% from ATH EUR 493, +13% from 52wL EUR 276"
+      conviction: "Medium"
+      macro: "Crisis moderating (oil $77 from $87). Iran de-escalation signals."
+      pipeline: "R1+R2+R3+R4 complete"
+    reasoning: |
+      THREE WAITS MANDATE: 3 consecutive sessions Q1 answered 'wait'. 4th session
+      MUST present market buy per v4.8 Three Waits rule.
+      E[CAGR] ~13.5% at EUR 312.80 > 12% Tier A threshold (deployment doctrine S90).
+      MoS 11.9% consistent with recent E[CAGR]-framework precedents:
+        HLNE MoS 7.5%, FTNT MoS 10.0%, MORN MoS 17%.
+      SO at EUR 295 superseded — EUR 17.80 difference (5.7%) = noise vs 4.8pp/yr cash drag.
+      SAVES EU Value Recovery basket from Mar 31 death deadline (RESEARCHING→BUILDING).
+      WIDE moat (brand + scarcity + pricing power). 52% ROIC, net cash, 2-yr order book.
+      0/10 value trap. QS 84 = 2nd highest in portfolio (after FTNT 85).
+      Sizing EUR 350 (~3.4%) at conservative end of Tier A range due to:
+        (a) MEDIUM-HIGH risk (4 correlated HIGH risks per adversarial)
+        (b) OEY + Growth < WACC signal acknowledged
+        (c) Crisis environment
+      If falls 50%: -1.7% portfolio impact — acceptable.
+      PRECEDENT: E[CAGR]-framework market buy at MoS ~12% for Tier A (HLNE was 7.5%).
+    outcome: "Position opened. 15th position. 9th Tier A."
+    precedents_cited: "MORN S101 (MoS 17%), HLNE S122 (MoS 7.5%), FTNT S126 (MoS 10%)"
 
   - date: 2026-02-04
     ticker: ADBE

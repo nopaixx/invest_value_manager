@@ -146,6 +146,41 @@ First E[CAGR]-framework market buy. MORN at $160.76:
 
 ---
 
+## STALE Standing Order Evaluation (v4.8)
+
+Standing orders that sit untriggered become stale and must be actively managed.
+
+**Definition:** SO with >15% distance to trigger for >30 days without a specific catalyst with date = STALE.
+
+**Staleness Protocol (Fase 3 of each session):**
+```
+FOR each SO in standing_orders.yaml:
+  distance = (current_price - trigger) / current_price * 100
+  age = days since created_date or last_analysis_date
+
+  IF distance > 15% AND age > 30 AND no dated catalyst:
+    staleness_status = STALE
+    MUST choose ONE:
+      (a) RECALIBRATE: Move trigger closer to market. New trigger at MoS ~10-15% for Tier A.
+          Requires: thesis still valid, E[CAGR] at new trigger > 12%
+      (b) MARKET BUY EVALUATE: If E[CAGR] at CURRENT price > 12% (Tier A) or > 15% (Tier B),
+          present market buy to human via market-buy-protocol.
+      (c) ARCHIVE: If thesis weakened OR better alternatives exist, archive SO.
+          Move to extreme_opportunity[] or cancel entirely.
+
+  IF distance <= 15% OR age <= 30 OR has dated catalyst:
+    staleness_status = FRESH
+```
+
+**Anti-Patterns:**
+- Leaving STALE SOs untouched for months — this is #54 (self-deception)
+- "Recalibrating" by moving trigger 1% closer — that's cosmetic, not real
+- Keeping 20+ SOs to feel productive when 15 are STALE
+
+**Trigger T12:** If >50% of all SOs are STALE = RED in evolution_state.
+
+---
+
 ## Capital Contributions
 
 When new capital is contributed to the portfolio:
@@ -157,4 +192,4 @@ When new capital is contributed to the portfolio:
 
 ---
 
-**Version:** 1.1 | Updated: 2026-02-22 | Framework v4.6
+**Version:** 1.2 | Updated: 2026-03-02 | Framework v4.8

@@ -113,3 +113,6 @@ Having cash >25% for >3 sessions while universe contains candidates with E[CAGR]
 
 **#59. Rationalizing a high-conviction error**
 When a high-conviction thesis fails: admit quickly, no rationalization. Update error patterns with the signal I ignored. Exit protocol if position open. NEVER retroactively move KC goalposts. Document: "What signal did I ignore? What would I do differently?"
+
+**#60. Passing self-audits while failing objectives (audit theater)**
+Cash >25% for >5 sessions while ALL Inaction Audits PASS = the audit is rubber-stamping inaction, not preventing it. The audit was designed to force deployment or document valid reasons. If cash stays high despite passing audits, the audits are finding "valid" reasons that are collectively insufficient. Fix: Cumulative Inaction Audit (Fase 2.5) requires at least ONE of: (a) deployed capital, (b) recalibrated 2+ SOs, (c) scored 3+ new candidates. Passing the session audit while failing the multi-session objective is the most sophisticated form of inaction — the system using its own safeguards as a shield against action. See P18 (Action Bias).

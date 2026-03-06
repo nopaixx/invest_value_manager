@@ -2,95 +2,157 @@
 # OVERWRITTEN each session (not accumulated). r1_cooldowns is rolling 30d.
 # Read by: session-planner, r1_prioritizer.py, session-phases
 # Written by: Fase 6 (last operation of each session)
-# Created: 2026-03-02
+# Created: 2026-03-05
 
 session:
-  id: 132
-  date: "2026-03-02"
-  timestamp_cet: "2026-03-02T12:30"
+  id: 140
+  date: "2026-03-05"
+  timestamp_cet: "2026-03-05T08:55"
 
 completed:
   vigilance:
-    news_scan_time: "2026-03-02T12:00"
-    critical_count: 1
-    material_count: 3
-    note: "CRITICAL: Operation Epic Fury — US-Israel strikes on Iran (Feb 28-Mar 1). Khamenei killed. Hormuz closed. EU markets -1.8-2.3%. MATERIAL: ADBE Q1 Mar 12 (needs framework), DOCS positive (Jan record bookings, MFN temporary), LULU Wilson Mar 13 proxy deadline."
+    news_scan_time: "2026-03-05T08:40"
+    critical_count: 1  # Crisis moderating — Hormuz closed but Iran open to de-escalation, oil retreating
+    material_count: 3  # DOM.L date correction Mar 10, LULU date correction Mar 17, NVO Wegovy pill strong
+    note: "Crisis MODERATING. Oil $76.90 (from $87). Iran diplomatic signals. DOM.L results Mar 10 NOT Mar 5. LULU Mar 17 NOT Mar 31."
   so_check:
-    timestamp: "2026-03-02T11:55"
-    nearest: { ticker: "RACE.MI", distance_pct: 5.8, note: "EUR 312 vs EUR 295 trigger. ACTIVE. Could activate if Iran selloff deepens this week." }
+    timestamp: "2026-03-05T08:40"
+    nearest: { ticker: "RACE.MI", distance_pct: 6.0, note: "EUR 312.80 vs EUR 295 trigger. Moved AWAY (was 3.2% S139). THREE WAITS market buy recommended." }
     triggered: []
     executed_this_session: []
+    other_near:
+      - { ticker: "SPGI", distance_pct: 5.0, note: "GATED Q1 late April. $445.50 vs $420." }
+      - { ticker: "DNLM.L", distance_pct: 1.1, note: "BLOCKED — 6th UK position. 939.50p vs 950p." }
+      - { ticker: "MSA", distance_pct: 7.6, note: "GATED full R1. $198 vs $183." }
+      - { ticker: "SEIC", distance_pct: 7.1, note: "GATED full R1. $81.7 vs $76." }
+      - { ticker: "TW", distance_pct: 7.9, note: "GATED Q1+Elliott. $119 vs $110." }
+  earnings_gates:
+    - { ticker: "ANF", status: "CONDITIONAL PASS (processed S139). Hold watchlist $80. Monitor Q1 FY2026 Jun 2026." }
+    - { ticker: "DOM.L", status: "RESCHEDULED to Mar 10. Calendar corrected. Framework ready." }
+    - { ticker: "LULU", status: "RESCHEDULED to Mar 17. Was Mar 31. Framework NEEDED by Mar 14." }
+    - { ticker: "ADBE", status: "Mar 12. Framework NEEDED by Mar 10. Error #13." }
   pipeline_advancement: []
-  basket_decisions:
-    - "All baskets assessed for Iran crisis exposure. No basket KC triggered."
-    - "EU Value Recovery: RACE.MI 5.8% from trigger — crisis could catalyze entry."
-    - "UK Digital Platforms: 4 positions all down 1.4-2.9% — HOLD, crisis is temporary."
-  universe_work: []
-  velocity_units: 0
-  velocity_note: "S132: 0 velocity units. JUSTIFIED: crisis monitoring session, Section A advancement candidates all poor E[CAGR] (BZU.MI 7.2%, EXEL 4.3%, WRB -0.3%). Earnings processing this week (KLR.L, ITRK.L, ANF) will generate 3+ units."
-  deployment_actions: []
+  position_reviews: []
+  net_exposure_updated: true
+  net_exposure_note: "60/0/40. If RACE.MI executes → 64/0/36. Crisis moderating. No shorts."
   rotation_check: true
-  rotation_note: "NO ROTATION. LULU worst (-7.8%) but on probation through Mar 31. 0 pipeline candidates viable at market. Crisis not a rotation trigger."
+  rotation_note: "LULU worst (-5.5% E[CAGR]), tiny position ($298). Mar 17 binary (corrected from Mar 31). No rotation — wait for earnings."
+  crisis_update:
+    - "Hormuz still closed. ~150 ships stranded. IRIS Dena sunk by US sub."
+    - "BUT: Iran 'open to de-escalation' (Araghchi to Oman FM). Mixed signals."
+    - "Oil RETREATING: WTI $76.90 (from $87 peak). Market pricing contained disruption."
+    - "Goldman CEO Solomon: market reaction 'surprisingly benign.'"
+    - "S&P 6,870 resilient. VIX 21.15 (down from 23.57)."
+  velocity_units: 1
+  velocity_note: "S140: 1 unit (ANF gate processing + RACE.MI market buy evaluation). Below target 3. Justified: DOM.L delayed, no Section A advancement candidates above threshold."
+  deployment_actions:
+    - "THREE WAITS: Market buy RACE.MI EUR 350 recommended at EUR 312-315. AWAITING HUMAN."
   net_exposure: true
-  net_exposure_reasoning: "60/0/40 MAINTAINED. Cash 39.5% now STRATEGIC (was RED trigger). Iran crisis creates potential deployment window. Multiple SOs within 5-15% if selloff deepens. VIX 23.27. No short thesis — justified (crisis shorts = catching falling knife)."
-  crisis_context: "Operation Epic Fury is the dominant macro event. Monitor escalation/resolution daily. Cash = ammunition. Quality positions HOLD."
+  net_exposure_reasoning: "60/0/40 → 64/0/36 if RACE.MI executes. Crisis moderating. Cash still strategic but THREE WAITS obligation met."
+  portfolio_ecagr:
+    deployed: 15.1%
+    blended: 10.4%
+    cash_drag: "~4.7pp/yr"
+    worst: "LULU -5.5%"
+  fragility_watch:
+    completed: false
+    note: "Not run this session — crisis context, other priorities. Due by S142."
+  evolution:
+    exp_005_review: "MIXED. Extended to S143. 2/4 PASSING (T12, T14), 2/4 FAILING (T2, T11)."
+    t3_status: "RED (rolling avg ~0.8). Need velocity next session."
+
+# =============================================================================
+# PROMISES — Accountability loop (v4.8, P18)
+# Max 5 active. Tracked: PENDING → KEPT / BROKEN. Same promise broken 3x = T14 RED.
+# =============================================================================
+promises:
+  - promise: "Process DOM.L FY25 earnings — KC#1 EBITDA test (Mar 10)"
+    created_session: 136
+    deadline: "S142"  # Revised from S140 — date corrected to Mar 10
+    status: PENDING
+    broken_count: 0
+  - promise: "Create ADBE Q1 FY2026 pre-earnings framework (Mar 12 earnings)"
+    created_session: 140
+    deadline: "S142"  # By Mar 10
+    status: PENDING
+    broken_count: 0
+  - promise: "Create LULU Q4/FY2025 pre-earnings framework (Mar 17 earnings)"
+    created_session: 140
+    deadline: "S143"  # By Mar 14
+    status: PENDING
+    broken_count: 0
+  - promise: "Run opportunity_scan (now 15d overdue)"
+    created_session: 138
+    deadline: "S142"
+    status: PENDING
+    broken_count: 0
+  - promise: "Process FOUR.L FY2025 results (Mar 18 CORRECTED) — HARD GATE for entry"
+    created_session: 140
+    deadline: "S145"
+    status: PENDING
+    broken_count: 0
+
+# Three Questions tracking (v4.8)
+three_questions:
+  q1_wait_streak: 0  # RESET — market buy recommended (RACE.MI). THREE WAITS obligation met.
+  last_q1_answer: "Market buy RACE.MI at EUR 312-315 recommended. THREE WAITS mandate fulfilled."
+  last_q2_answer: "RACE.MI fills EU Value Recovery basket. If executed → 2nd position saves Mar 31 deadline."
+  last_q3_answer: "Calendar corrections (DOM.L Mar 10, LULU Mar 17). ADBE + LULU framework promises created. Crisis assessment updated."
 
 handoff:
   next_session_priorities:
     P0:
-      - "IRAN CRISIS MONITORING: Check Hormuz status, oil price, VIX. If VIX >30 = deployment zone."
+      - "RACE.MI: Did human execute? If YES → portfolio-ops update. If NO → re-present or adjust."
+      - "ADBE pre-earnings framework: 7 days to Mar 12. Create Section 9 with bear/base/bull."
+      - "CRISIS: Monitor Hormuz, oil trajectory, diplomatic developments."
     P1:
-      - "KLR.L FY2025 Mar 3 (MONDAY): HARD GATE for SO. OP margin >=6.5% AND order book >=GBP 1.4B. Process results."
-      - "ITRK.L FY2025 Mar 3: HARD GATE for R4/SO. Process results."
-      - "RACE.MI: 5.8% from EUR 295 trigger. If crisis drives EU autos down, could trigger."
-      - "Cash 39.5% (EUR 4,042). STRATEGIC in crisis. Deploy if selloff deepens 5-10%."
+      - "DOM.L FY25 results Mar 10: Prepare framework by Mar 9."
+      - "FOUR.L FY2025 results Mar 11: HARD GATE for entry."
+      - "LULU earnings Mar 17: Create framework by Mar 14. MAKE-OR-BREAK accelerated."
     P2:
-      - "ANF Q4 Mar 4: Pipeline gate. Framework ready. Process results."
-      - "DOM.L FY25 Mar 5: Framework READY. EBITDA >GBP125M KC#1. Process results."
-      - "ADBE Q1 Mar 12: MUST prepare bear/base/bull framework by ~Mar 10 (Error #13)."
-      - "LULU Mar 31: MAKE-OR-BREAK. Wilson proxy Mar 13."
+      - "Opportunity scan (15d overdue). PROMISE deadline S142."
+      - "Pipeline velocity RED. Need 3+ units next session."
+      - "Sector health: digital-marketplaces.md STALE (27d, priority — AUTO.L dep)."
     P3:
-      - "Pipeline velocity: need 3+ units next session to recover T3. Earnings processing = velocity."
-      - "Monitor all UK positions (5 positions) for crisis impact."
-      - "EU Value Recovery DEADLINE Mar 31: RACE.MI is only path."
-    P4:
-      - "Sector staleness: digital-marketplaces 26d STALE (AUTO.L dep). Refresh before April pricing."
-      - "Health check overdue (last 2026-02-14)."
+      - "exp_005 review due S143."
+      - "NVO Wegovy pill: positive but conviction still LOW. Monitor rev data."
+      - "DNLM.L 1.1% from trigger but BLOCKED (6th UK). If DOM.L sells → unblocks."
   dedup_signals:
-    - "OPERATION EPIC FURY: US-Israel strikes Iran. Khamenei killed. Hormuz closed. EU -1.8-2.3%. S132."
-    - "ADBE Q1 Mar 12 DISCOVERED — needs framework (Error #13). S132."
-    - "DOCS positive: January record bookings, MFN freeze TEMPORARY. S132."
-    - "All prior dedup signals from S131 still valid (SPGI R3, MSA R1, CMCSA R3, etc.)"
-    - "Financial Market Infrastructure basket CREATED S130. MORN anchor."
-    - "CIO Operating Plan CREATED S130."
-    - "FTNT BOUGHT $79.12 S126."
-    - "HLNE BOUGHT S122 + ADD S126. Position 9.0 shares."
-    - "DOCS BOUGHT S122. MFN risk FLAGGED S129."
-    - "DTE.DE SOLD S126. Position CLOSED."
+    - "Crisis: Hormuz closed but moderating. Oil $77, VIX 21. Iran diplomatic signals."
+    - "SOs: RACE.MI 6%, SPGI 5%, DNLM.L 1.1% (BLOCKED), SEIC 7.1%."
+    - "ANF: CONDITIONAL PASS. Hold $80. Receivables +40% failed gate."
+    - "DOM.L results Mar 10 (corrected from Mar 5)."
+    - "LULU earnings Mar 17 (corrected from Mar 31). Framework needed by Mar 14."
+    - "ADBE earnings Mar 12. Framework MISSING (Error #13). Create by Mar 10."
+    - "NVO Wegovy pill 246K patients — strongest launch ever. Material positive."
+    - "AUTO.L 26 insiders bought $95M in 60d (STRONG BULL from S139)."
+    - "EDEN.PA SI 23.5% (MONITOR from S139)."
+    - "FOUR.L FY2025 results Mar 11 — HARD GATE for SO."
+    - "exp_005 MIXED. Extended to S143."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
   ASML.AS: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (OVERVALUED)" }
   EXEL: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (AT_FV)" }
   CELH: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (OVERVALUED)" }
-  UTHR: { date: "2026-02-23", session: 115, verdict: "TRIAGE (AT_FV, gated earnings Feb 25)" }
+  UTHR: { date: "2026-02-23", session: 115, verdict: "TRIAGE (AT_FV, SO ARCHIVED S133)" }
   HLNE: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $101.75 (S122)" }
   REN.AS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED (WATCHLIST, SO EUR 24.50)" }
   ROR.L: { date: "2026-02-22", session: 110, verdict: "R1_COMPLETE (OVERVALUED)" }
   TW: { date: "2026-02-23", session: 115, verdict: "R3_COMPLETE (AT_FV, SO $110)" }
-  VRSN: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $240 post-DA, SO $190)" }
+  VRSN: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $240, SO RECALIBRATED $210 S133)" }
   CPRT: { date: "2026-02-25", session: 119, verdict: "R3_COMPLETE (FV $37, entry $31, GATED Q3)" }
   DOCS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $24.07 (S122)" }
   PEGA: { date: "2026-02-25", session: 116, verdict: "R3_COMPLETE GATED (entry $38, FV $50)" }
-  ANF: { date: "2026-02-25", session: 117, verdict: "R1_COMPLETE (WATCHLIST, entry $80, FV $107, QS 65 Tier B)" }
-  WING: { date: "2026-02-25", session: 119, verdict: "R1_COMPLETE (WATCHLIST, FV $296, entry $215, GATED R2+Q1)" }
+  ANF: { date: "2026-03-04", session: 139, verdict: "CONDITIONAL PASS. Hold watchlist $80. Receivables +40% failed. Monitor Q1 FY2026 Jun." }
+  WING: { date: "2026-03-02", session: 135, verdict: "R3_COMPLETE (WATCHLIST, FV $240 revised from $296 -19%, entry $190, GATED Q1 FY2026 SSS May)" }
   FWONK: { date: "2026-02-25", session: 122, verdict: "TRIAGE PASS (QS 40 Tier C, overvalued)" }
   IBKR: { date: "2026-02-25", session: 122, verdict: "TRIAGE WATCHLIST ($50-55, QS 96adj, fully priced)" }
   FTNT: { date: "2026-02-26", session: 126, verdict: "BOUGHT $79.12 (5th E[CAGR] market buy, EUR 400)" }
   CHKP: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, entry $125, FV $160, QS 77 Tier A)" }
   QLYS: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, SO $82, FV $110, QS 81 Tier A. GATED Q1 billings.)" }
   HALO: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, SO $65, FV $90 post-DA, QS 79adj Tier A)" }
-  ERIE: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, SO $180, FV $225, QS 77adj Tier A. SCOTUS gated.)" }
+  ERIE: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (SO ARCHIVED S133 — above FV, SCOTUS undated)" }
   CMCSA: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $33, SO $26 GATED Q1 2026.)" }
   SPGI: { date: "2026-02-28", session: 131, verdict: "R3_COMPLETE (WATCHLIST, FV $470 post-DA, SO $420 GATED Q1 2026, QS 76adj Tier A)" }
   MSA: { date: "2026-02-28", session: 131, verdict: "R1_COMPLETE (AT_FV, FV $144, QS 73 Tier B, no SO, PFAS risk)" }

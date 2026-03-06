@@ -1,5 +1,5 @@
 # DOM.L — FY2025 Earnings Framework
-## Results Date: March 5, 2026
+## Results Date: March 10, 2026 (CORRECTED from March 5)
 **Created:** 2026-02-20 | **Price at creation:** 201p | **FV v3.0:** 240p | **MoS:** 16.3%
 **Conviction:** LOW | **Position:** 175 shares (EUR 436, ~4.3% portfolio)
 
@@ -194,4 +194,15 @@ FV REVISION (if HOLD):
 
 ---
 
-*Framework version: v4.0 | Based on thesis v3.0 (2026-02-10) | Error Pattern #13 compliant*
+## Hormuz Crisis Context (Updated S141, 2026-03-06)
+
+Operation Epic Fury is MODERATING (Iran open to de-escalation). Impact on DOM.L:
+- **Energy costs:** If oil sustains >$80, franchisee delivery costs up 5-8%. Indirect margin pressure.
+- **UK consumer:** Higher energy bills could compress discretionary spend. Pizza = affordable indulgence (relatively insulated vs luxury).
+- **Food input costs:** Wheat/cheese import costs could rise if shipping disrupted. Watch commentary on input inflation.
+- **Net assessment:** MINOR NEGATIVE. FY2025 results predate crisis (FY ends Dec 2025). Impact would show in FY2026 guidance.
+- **Price at update:** 185p | MoS vs 240p FV: 22.9%
+
+---
+
+*Framework version: v4.1 | Based on thesis v3.0 (2026-02-10) | Error Pattern #13 compliant | Date corrected S141*

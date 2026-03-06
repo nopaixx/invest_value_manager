@@ -244,69 +244,12 @@ The sector is NOT cheap in aggregate. Premium valuations (22-28x P/E) reflect th
 
 ---
 
-## Reglas de Ciclo de Vida
-
-### Cuando una empresa se COMPRA:
-- Mover de "Analizadas - Watchlist" a "Nuestras Posiciones Actuales"
-- Anadir a "Dependencias Activas" como Portfolio
-
-### Cuando una thesis se ARCHIVA (vendida o descartada):
-- Mover de "Dependencias Activas" a "Historial de Analisis"
-- Registrar razon y fecha de archivo
-- Mantener maximo 10 entradas en historial, luego purgar
-
-### Cuando sector view crece demasiado (>300 lineas):
-- Mover "Historial de Analisis" a archivo separado: world/sectors/archive/security-access-control-history.md
-- Mantener solo ultimos 6 meses en "Analizadas"
-
-### Historial de Analisis (Archivadas)
-| Ticker | Razon Archivo | Fecha | Leccion |
-|--------|---------------|-------|---------|
-| (vacio) | | | |
-
----
-
 ## Fuentes
 
-### Market Size & Growth
-- [Access Control Market Size to Exceed $20.47B by 2033 at 7.7% CAGR - SNS Insider](https://www.globenewswire.com/news-release/2026/01/23/3224708/0/en/Access-Control-Market-Size-to-Exceed-20-47-Billion-by-2033-at-7-7-CAGR-Report-by-SNS-Insider.html)
-- [Access Control Market worth $15.80B by 2030 - MarketsAndMarkets](https://www.marketsandmarkets.com/PressReleases/access-control.asp)
-- [Access Control Market Size to Hit $25.15B by 2034 - Precedence Research](https://www.precedenceresearch.com/access-control-market)
-- [Smart Lock Market Size to 2030 - Grand View Research](https://www.grandviewresearch.com/industry-analysis/smart-lock-market)
-- [Smart Lock Market Company Analysis 2025-2033 - GlobeNewsWire](https://www.globenewswire.com/news-release/2026/02/17/3239555/28124/en/Smart-Lock-Market-Company-Analysis-Report-2025-Company-Strategic-Developments-Mergers-Product-Innovations-Revenue-Insights-and-Future-Forecasts-to-2033.html)
-- [Locks Market to $25B by 2030 - GlobeNewsWire](https://www.globenewswire.com/news-release/2026/02/17/3238998/28124/en/Locks-Market-Research-Report-2025-A-25-Billion-Market-by-2030-R-D-Innovations-Propel-Growth-with-Focus-on-IoT-Integration-and-Cost-Reduction.html)
+TAM: SNS Insider ($20.5B 2033), MarketsAndMarkets ($15.8B 2030), Precedence Research ($25.2B 2034), Grand View (smart locks).
+Competitive: MarketsAndMarkets (top companies), Owler (ASSA ABLOY), ASSA ABLOY Q4 2025.
+Company: Allegion Q4 FY2025 (Morningstar wide moat), NAPCO FY2025, Fortune Brands Q4.
+M&A: Tracxn (ASSA ABLOY 107 acquisitions), dormakaba SBD acquisition.
+Trends: ACR Security (2026 trends), Avigilon (security tech), SDM Magazine (AI predictions).
 
-### Competitive Landscape & Market Share
-- [Access Control Companies - Top List - MarketsAndMarkets](https://www.marketsandmarkets.com/ResearchInsight/access-control-market.asp)
-- [Access Control Market Dynamics 2023-2025 - GlobeNewsWire](https://www.globenewswire.com/news-release/2025/02/07/3022732/28124/en/Access-Control-Market-Dynamics-Company-Insights-2023-2025-Featuring-ASSA-ABLOY-Dormakaba-Group-Johnson-Controls-Allegion-Honeywell-Int-l-Proxy-Nexkey-More.html)
-- [ASSA ABLOY Competitors - Owler](https://www.owler.com/company/assaabloy)
-- [ASSA ABLOY Q4 2025 Report](https://www.prnewswire.com/news-releases/assa-abloy-quarterly-report-q4-2025-302680039.html)
-
-### Industry Trends & Technology
-- [Access Control Trends 2026 - ACR Security](https://www.acresecurity.com/blog/access-control-trends-2026-physical-security)
-- [Security Technology Overview 2026 - Avigilon](https://www.avigilon.com/blog/security-technology)
-- [2026 Predictions: AI, Proactive Deterrence - SDM Magazine](https://www.sdmmag.com/articles/104966-2026-predictions-security-experts-talk-ai-proactive-deterrence-video-analytics-and-more)
-- [Physical Security Market worth $151.50B by 2030 - MarketsAndMarkets](https://www.marketsandmarkets.com/PressReleases/physical-security.asp)
-
-### Consolidation & M&A
-- [List of 107 Acquisitions by ASSA ABLOY - Tracxn](https://tracxn.com/d/acquisitions/acquisitions-by-assa-abloy/__JzmvRKk6gloTjwGm-VaRzo6xT5sAYa2a9MN8Tc-oE4k)
-- [ASSA ABLOY Acquisitions Strategy](https://www.assaabloy.com/group/en/investors/acquisitions)
-- [dormakaba Completes SBD Mechanical Security Acquisition](https://newsroom.dormakaba.com/dormakaba-completes-acquisition-of-mechanical-security-businesses-from-stanley-black--decker-new-top-three-player-in-the-north-american-market)
-- [Mergers & Acquisitions 2025 - Security Informed](https://www.securityinformed.com/insights/mergers-acquisitions-2025-pivotal-year-security-co-130-ga-co-823-ga-co-1090-ga-co-2173-ga-co-3126-ga-co-7256-ga-co-9380-ga-co-9699-ga-co-9711-ga-co-13488-ga-co-14575-ga-co-14631-ga-co-15166-ga-co-1555412760-ga-co-1557500910-ga-co-1582802360-ga-co-1592579541-ga-co-1656494283-ga-co-1701935910-ga-co-1736746152-ga-co-1737955029-ga-co-1747638530-ga-co-1751432763-ga-co-1752215940-ga-co-1760597626-ga-sb.1767614683.html)
-
-### Company-Specific
-- [Allegion Q4 2025 Earnings Call Transcript - Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/02/17/allegion-alle-q4-2025-earnings-call-transcript/)
-- [Allegion Reports Q4/FY2025 Results](https://www.allegion.com/corp/en/news/year/2026/2025-results.html)
-- [Allegion's Brands Secure Pricing Power - Morningstar](https://www.morningstar.com/stocks/allegions-brands-secure-pricing-power)
-- [Allegion Wide Moat - Morningstar](https://www.morningstar.com/company-reports/1431792-allegions-portfolio-of-reputable-brands-underpins-its-wide-economic-moat)
-- [Schlage #1 Most Trusted Lock Brand 7th Year](https://www.stocktitan.net/news/ALLE/schlage-named-america-s-most-trusted-lock-brand-for-seventh-pgabpgi5r95v.html)
-- [NAPCO Security FY2025 Results](https://www.stocktitan.net/news/NSSC/napco-security-technologies-inc-reports-fiscal-q4-and-full-year-2025-h95wtraisj08.html)
-- [Fortune Brands Q4 2025 Earnings Transcript](https://www.fool.com/earnings/call-transcripts/2026/02/12/fortune-brands-fbin-q4-2025-earnings-transcript/)
-
-### Regulation & Building Codes
-- [Security and Access Control Guide 2026 - Logic Fire & Security](https://www.logicfireandsecurity.com/news/security-and-access-control)
-- [EU Cyber Resilience Act Compliance Guide](https://www.encryptionconsulting.com/step-by-step-guide-to-cyber-resilience-act-cra-compliance/)
-
----
-
-*Proxima revision: 2026-03-18 o ante cambio material (major acquisition, regulatory change, or residential market inflection)*
+*Proxima revision: 2026-03-18 o ante cambio material (major acquisition, regulatory change, residential inflection)*

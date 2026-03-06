@@ -1,10 +1,10 @@
-# Session Protocol v4.7
+# Session Protocol v4.8
 
 > Auto-loaded. Flujo de sesion y reglas de comportamiento criticas.
 > Detalle de fases: `.claude/skills/session-phases/SKILL.md`
 > Session planner: `.claude/skills/session-planner/SKILL.md`
-> **v4.7: Baskets ARE the fund.** The portfolio revolves around thematic baskets (P17).
-> Primary CIO job: discover best themes, build baskets, maintain as living entities.
+> **v4.8: CIO con Punch.** Baskets ARE the fund (P17). Action bias (P18). Three Questions. Promise tracking.
+> Primary CIO job: discover best themes, build baskets, DEPLOY capital aggressively into quality.
 
 ---
 
@@ -21,8 +21,18 @@
 ## Flujo de Fases
 
 ```
-FASE 0: Calibracion v4.7
-  → Leer principles.md (P1-P17) + precedentes recientes + pipeline_tracker
+FASE 0.ZERO: Three Questions (PRIMERO, antes de CUALQUIER cosa — P18)
+  → Q1: "Que hago HOY para bajar cash hacia <10%?" (accion concreta: market buy, recalibrar SO, rotation)
+  → Q2: "Que hago HOY para llenar baskets con <2 posiciones?" (paso especifico: R1, advancement, screen)
+  → Q3: "Que hago HOY que no me han pedido?" (proactividad: theme discovery, system improvement, risk scan)
+  → Registrar respuestas en plan. Comparar con deliverables en Fase 6.
+  → **REGLA DURA "Three Waits"**: Si Q1 se responde con "esperar" 3 sesiones seguidas (check session_continuity.promises[]),
+    la 4a sesion DEBE presentar un market buy al humano. No mas esperar.
+  → **PROMISE AUDIT**: Leer session_continuity.yaml → promises[]. Evaluar status de promesas anteriores.
+    Promesa rota 3x = RED flag en evolution_state T14.
+
+FASE 0: Calibracion v4.8
+  → Leer principles.md (P1-P18) + precedentes recientes + pipeline_tracker
   → **FASE 0.0b: META-CONSCIOUSNESS CHECK** (30 seconds, EVERY session)
     → Read `state/evolution_state.yaml` → last entry in evolution_log
     → 1. What improved since last session? (last evolution_log entry)
@@ -103,6 +113,14 @@ FASE 2.5: Rotation Check + Net Exposure Reasoning (P13)
       4. INVALID reasons: "waiting for better price" (L-02/L-05), "DA not done yet" (market-buy-protocol anti-pattern #2), "need more analysis" without specifying WHAT analysis
       5. IF all 3 candidates have only INVALID reasons → DEPLOYMENT FAILURE. Deploy into best candidate.
       6. Document in session output: "Inaction Audit: [PASS/FAIL]. Cash [X]%. Top 3 not bought because: [reasons]"
+  → **CUMULATIVE INACTION AUDIT (v4.8 — Error #60 enforcement)**
+    → IF cash >25% for >5 sessions AND all Inaction Audits PASS: audit is INSUFFICIENT
+    → Cumulative PASS requires at least ONE of:
+      (a) Deployed capital this session (market buy or rotation)
+      (b) Recalibrated 2+ SOs to more realistic entry points
+      (c) QS-scored 3+ new candidates this session (expanding the funnel)
+    → If NONE of (a)(b)(c): Cumulative Audit FAIL regardless of per-session Inaction Audit result
+    → Cumulative FAIL = L-15 (audit theater). Present market buy recommendation to human.
 
 FASE 2.5.7: Smart Money Check (si stale, cada 3 dias shorts / 90 dias 13F)
   → smart_money.py stale → si FCA/AMF STALE y earnings proximos en UK/FR → download + parse + bulk-update
@@ -155,12 +173,18 @@ FASE 2.7: Universe Work + Fragility Scan + R1 PROCESSING + THEME DISCOVERY
 FASE 3: Verificaciones
   → Standing orders (long + short), cash, pipeline (<3 = vacio), world view (>7d stale), rebalanceo, health check
   → Shorts activos: carry acumulado, catalizadores vigentes (fragility-watch pipeline semanal)
+  → **SO STALENESS CHECK (v4.8 — OBLIGATORIO)**:
+    → Para cada SO: calcular distancia al trigger + dias desde created_date
+    → Si >15% distancia AND >30 dias AND sin catalizador especifico con fecha = STALE
+    → STALE SOs deben: (a) recalibrar entry mas cerca del mercado, (b) evaluar market buy, o (c) archivar
+    → Nuevo trigger T12 en evolution_state: >50% SOs stale = RED
+    → Registrar staleness_status en standing_orders.yaml: FRESH / STALE / RECALIBRATED / ARCHIVED
 
 FASE 4: Acciones
   → Lanzar agentes EN PARALELO. No preguntar, DECIDIR y PRESENTAR.
   → Shorts: si catalizador inminente + thesis aprobada → ejecutar
 
-FASE 5: Meta-Reflexion (OBLIGATORIO al final)
+FASE 5: Meta-Reflexion + Promise Registration (OBLIGATORIO al final)
   → Pipeline tracker, cumplimiento v4.7, auditoria delegacion, universe work, auto-mejora
   → Shorts: effectiveness separada + Sharpe total (long + short)
   → **NET EXPOSURE AUDIT**: ¿Razone sobre exposicion neta hoy? ¿Actualice system.yaml? ¿La decision fue explicita?
@@ -170,6 +194,13 @@ FASE 5: Meta-Reflexion (OBLIGATORIO al final)
     → ¿Hay posiciones sin basket (orphans)? ¿Deberian formar uno nuevo o rotar?
     → ¿Hice theme discovery esta semana? ¿Hay temas emergentes que estoy ignorando?
     → ¿La asignacion por basket refleja mi conviccion ACTUAL o es inercia historica?
+  → **THREE QUESTIONS DELIVERY CHECK** (v4.8 — compare Q1/Q2/Q3 answers from Fase 0.ZERO vs actual deliverables):
+    → Did I do what I said I'd do for Q1 (deployment)? Q2 (basket filling)? Q3 (proactividad)?
+    → If NOT: document WHY and register as broken promise
+  → **PROMISE REGISTRATION** (v4.8 — max 5 active promises):
+    → Register concrete promises for next session in session_continuity.yaml → promises[]
+    → Format: { promise: "text", deadline: "session_id or date", status: PENDING }
+    → If same promise BROKEN 3x → RED flag in T14
   → **ZERO-BASE REVIEW (quarterly — every 30 sessions)**
     → Ask: "If I had EUR 10K today with no positions, what portfolio would I build?"
     → Compare against actual portfolio
@@ -179,7 +210,7 @@ FASE 5: Meta-Reflexion (OBLIGATORIO al final)
 
 FASE 6: Evolution Micro-Step (ULTIMA operacion — see evolution-protocol skill)
   → **UPDATE `state/evolution_state.yaml`:**
-    → Update 10 trigger metrics with data from this session
+    → Update 14 trigger metrics with data from this session (T1-T14)
     → Recalculate trigger_summary (red/yellow/green counts)
     → Process any due scheduled_reviews → measure experiment, update verdict
     → If NEGATIVE → propose REVERT or ADJUST

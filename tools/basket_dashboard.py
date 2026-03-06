@@ -12,6 +12,7 @@ Usage:
   python3 tools/basket_dashboard.py --rotation       # Cross-basket rotation candidates
   python3 tools/basket_dashboard.py --health         # Health flags (single-position, stale, underfunded)
   python3 tools/basket_dashboard.py --rebalance      # Allocation vs meta-portfolio targets
+  python3 tools/basket_dashboard.py --lifecycle       # Lifecycle integrity flags (v4.8)
 """
 import sys, os, argparse, yaml, warnings
 warnings.filterwarnings('ignore')
@@ -336,6 +337,69 @@ def print_rebalance(basket_results, baskets_data, cash_eur, total_portfolio):
     print()
 
 
+def print_lifecycle(basket_results, baskets_data):
+    """Check basket lifecycle integrity per v4.8 rules."""
+    from datetime import datetime, date
+    today = date.today()
+    baskets = baskets_data.get('baskets', [])
+
+    print(f"\nBASKET LIFECYCLE INTEGRITY (v4.8)\n{'='*70}")
+    flags = []
+
+    for b_yaml in baskets:
+        bid = b_yaml.get('id', '?')
+        name = b_yaml.get('name', bid)
+        status = b_yaml.get('status', '?')
+        vitality = b_yaml.get('theme_vitality', '?')
+        positions = b_yaml.get('positions', [])
+        pipeline = b_yaml.get('pipeline', [])
+        deadline_str = b_yaml.get('lifecycle_deadline')
+        pos_count = len(positions)
+        pipe_count = len(pipeline)
+
+        # Parse deadline
+        deadline = None
+        days_to_deadline = None
+        if deadline_str:
+            try:
+                deadline = datetime.strptime(deadline_str, "%Y-%m-%d").date()
+                days_to_deadline = (deadline - today).days
+            except Exception:
+                pass
+
+        # MISLABELED: status doesn't match reality
+        if status == 'ACTIVE' and pos_count < 2:
+            flags.append(f"  MISLABELED: {name} is '{status}' but has only {pos_count} position(s). Should be RESEARCHING or BUILDING.")
+        if status == 'BUILDING' and pos_count == 0:
+            flags.append(f"  MISLABELED: {name} is 'BUILDING' with 0 positions. Should be RESEARCHING or IDEA.")
+
+        # STAGNANT: single-position for extended period without progress
+        if pos_count == 1 and pipe_count == 0 and status not in ('DECLINING', 'DEAD'):
+            flags.append(f"  STAGNANT: {name} has 1 position, 0 pipeline. No path to ACTIVE. Consider KILL.")
+
+        # NO_PATH: building/researching with no pipeline candidates
+        if status in ('BUILDING', 'RESEARCHING') and pipe_count == 0:
+            flags.append(f"  NO_PATH: {name} is '{status}' with 0 pipeline candidates. Cannot progress without candidates.")
+
+        # DEATH_WATCH: declining theme + single position
+        if vitality == 'DECLINING' and pos_count <= 1:
+            flags.append(f"  DEATH_WATCH: {name} theme DECLINING with {pos_count} position(s). Evaluate basket death.")
+
+        # DEADLINE: approaching or missed
+        if deadline and days_to_deadline is not None:
+            if days_to_deadline < 0:
+                flags.append(f"  DEADLINE_MISSED: {name} deadline was {deadline_str} ({abs(days_to_deadline)}d ago). ACTION REQUIRED: kill or extend with justification.")
+            elif days_to_deadline <= 14:
+                flags.append(f"  DEADLINE_NEAR: {name} deadline {deadline_str} ({days_to_deadline}d away). Plan deployment or prepare to kill.")
+
+    if flags:
+        for f in flags:
+            print(f)
+    else:
+        print("  All baskets pass lifecycle integrity checks.")
+    print()
+
+
 def print_rotation(basket_results):
     print(f"\nCROSS-BASKET ROTATION CANDIDATES\n{'='*70}")
     active = [b for b in basket_results if b['ecagr'] is not None and b['status'] in ('ACTIVE','-')]
@@ -372,6 +436,7 @@ def main():
     ap.add_argument('--rotation', action='store_true', help='Cross-basket rotation candidates')
     ap.add_argument('--health', action='store_true', help='Health flags')
     ap.add_argument('--rebalance', action='store_true', help='Allocation vs targets')
+    ap.add_argument('--lifecycle', action='store_true', help='Lifecycle integrity flags (v4.8)')
     args = ap.parse_args()
 
     baskets_data = load_yaml(BASKETS_FILE)
@@ -393,7 +458,7 @@ def main():
 
     basket_results, total_portfolio = aggregate_baskets(baskets_data, pos_data, cash_eur)
 
-    show_all = not (args.metrics or args.rotation or args.health or args.rebalance)
+    show_all = not (args.metrics or args.rotation or args.health or args.rebalance or args.lifecycle)
 
     if show_all or args.metrics:
         print_metrics(basket_results, total_portfolio, cash_eur)
@@ -403,6 +468,8 @@ def main():
         print_rebalance(basket_results, baskets_data, cash_eur, total_portfolio)
     if show_all or args.rotation:
         print_rotation(basket_results)
+    if show_all or args.lifecycle:
+        print_lifecycle(basket_results, baskets_data)
 
     print("[Raw data. Reason from principles.md]")
     print()

@@ -1,371 +1,342 @@
 # =============================================================================
-# NEWS DIGEST - Session 132 (2026-03-02 full scan)
+# NEWS DIGEST - Session 140 (2026-03-05 morning CET scan)
 # =============================================================================
 
-last_scan: "2026-03-02 ~morning CET (S132)"
-session: 132
-tickers_scanned: 22  # 14 active + 8 pipeline/calendar
-classification: "1 CRITICAL_MACRO | 3 MATERIAL | 10 ROUTINE | 3 MINOR_POSITIVE | 0 ALREADY_KNOWN"
+last_scan: "2026-03-05 ~morning CET"
+tickers_scanned: 18  # 14 active + 4 pipeline
+classification: "1 CRITICAL_MACRO (escalating) | 4 MATERIAL | 6 MINOR | rest ROUTINE/NOISE"
 
 # =============================================================================
-# CRITICAL MACRO EVENT — OPERATION EPIC FURY (IRAN STRIKES)
+# CRITICAL MACRO EVENT — OPERATION EPIC FURY (DAY 5+ UPDATE)
 # =============================================================================
 
 macro_alert:
   classification: CRITICAL_MACRO
-  urgency: IMMEDIATE
-  event: "US-Israel strikes on Iran ('Operation Epic Fury') began Feb 28. Supreme Leader Khamenei killed."
-  market_impact:
-    - "S&P 500 futures -1.7%, Nasdaq futures -2.0%, Dow futures -1.6% (pre-market Mar 2)"
-    - "European STOXX 600 -1.8%, DAX -2.3%, CAC -2.1%, FTSE -0.8%"
-    - "Brent crude surged ~13% initially, trading +6.2% at $77.38/bbl"
-    - "Strait of Hormuz: shipping suspended by Maersk/MSC/Hapag-Lloyd"
-    - "European gas +25% on Iran crisis"
-    - "Gold up ~1.2%, USD surging (safe haven flows)"
-    - "Energy sector UP (Shell/BP/TTE +5%+), Travel/Leisure DOWN (-4.4%)"
+  urgency: ONGOING_ESCALATING
+  event: "Iran-US-Israel conflict — Hormuz CLOSED, IRIS Dena sunk, diplomacy stalled"
+  developments_since_mar_3:
+    - "IRGC declared Hormuz CLOSED. At least 5 tankers damaged, 2 personnel killed, ~150 ships stranded."
+    - "Tanker traffic dropped from avg 24/day to 4 vessels on Mar 1, near-zero since."
+    - "Iran Navy frigate IRIS Dena SUNK by US Navy submarine south of Sri Lanka (Mar 4)."
+    - "Qatar LNG suspended pre-emptively."
+    - "Leading maritime insurers CANCELLED war risk cover."
+    - "Iran REJECTED negotiations: Larijani said 'We will not negotiate.' BUT Araghchi separately told Oman FM Tehran is 'open to de-escalation.' Contradictory signals."
+    - "Trump said Iran 'wants to talk.' Oman mediating. No clear diplomatic pathway yet."
+    - "Power vacuum in Iran — no permanent Supreme Leader. Adds unpredictability."
+    - "S&P 500 Mar 3: 6,816 (-0.94%). Dow dropped 1,000+ intraday before recovering. Goldman CEO Solomon said reaction 'surprisingly benign'."
+  oil_prices_mar_5:
+    wti: "$74.42 (range 74.39-75.69)"
+    brent: "$81.21 (prev close 81.40, range 80.32-84.47)"
+    change_vs_mar_3: "WTI stabilized near $75 level. Brent backed off from $87+ peak."
+    assessment: "Oil PULLED BACK from panic highs. Brent $81 vs $87+ peak = 7% retreat. WTI $74 = essentially flat vs pre-crisis $75. Market pricing 'contained disruption' not 'full embargo.' If Hormuz reopens partially, oil returns to $75-78. If sustained closure: $90-100+ risk."
+  diplomatic_signals: |
+    MIXED — not pure escalation anymore.
+    Oman FM mediating. Araghchi said 'open to de-escalation.'
+    But Larijani said 'no negotiations.' Internal Iran split.
+    Market interpreting as 'eventual resolution likely' given oil retreat.
+    Goldman CEO Solomon called market reaction 'benign' — agrees with our hold thesis.
   portfolio_impact: |
-    DIRECT IMPACT ON PORTFOLIO: LIMITED. No energy positions. No travel/leisure.
-    INDIRECT IMPACT: MODERATE.
-    - ALL equity positions face risk-off selling pressure today.
-    - UK positions (DOM.L, MONY.L, AUTO.L, IHP.L, BYIT.L) = FTSE -0.8% only (less exposed).
-    - EU positions (EDEN.PA) = CAC -2.1% (France more exposed via energy imports).
-    - US positions (GL, ADBE, MORN, HLNE, DOCS, FTNT, LULU) = S&P -1.7% broad pressure.
-    - NVO (Denmark) = already at 52wL, additional selling pressure.
-    - RACE.MI (pipeline SO) = Italian market hit, may approach EUR 295 trigger FASTER.
-    - Oil spike = net negative for most portfolio (cost input), but our companies are low oil-sensitivity.
-    - If Strait of Hormuz closure persists: inflation spike risk, rate cut timeline delays.
+    DIRECT: Still limited (no energy, travel, shipping positions).
+    INDIRECT: MODERATING vs Mar 3-4 peak.
+    - Oil at $81 Brent (vs $87+ peak) = cost pressure REAL but not extreme.
+    - LULU: tariff + oil = margin pressure, but $81 Brent is not crisis level.
+    - RACE.MI: Italian MIB selling. EUR ~305-315 range. SO EUR 295 getting closer.
+    - UK positions (DOM.L, MONY.L, AUTO.L, IHP.L, BYIT.L): FTSE more resilient.
+    - US positions (ADBE, FTNT, MORN, HLNE, DOCS, GL): business models minimal oil sensitivity.
+    - KEY: Market seems to be pricing 'containment' — if wrong, second leg down possible.
   action: |
-    DO NOT PANIC SELL. This is a geopolitical shock, not a fundamental deterioration.
-    Quality compounders with pricing power (most of our portfolio) weather these events.
-    MONITOR for: (1) escalation (Iran retaliation beyond initial response), (2) duration of Hormuz closure,
-    (3) oil above $90/bbl sustained = inflation risk becomes structural.
-    OPPORTUNITY: If broad sell-off deepens 5-10%, pipeline SO triggers may activate (RACE.MI, SPGI, others).
-    Cash position EUR 4,042 = ready to deploy if opportunities emerge from panic selling.
+    MAINTAIN POSITIONS. Quality compounders weather geopolitical shocks.
+    OPPORTUNITY: Crisis-driven selloff is compressing SO distances.
+    RACE.MI approaching trigger. ACGL, KNSL also closer.
+    Cash EUR 4,042 ready. DO NOT deploy purely on crisis — deploy on fundamentals.
+    If Brent sustains >$90 for >2 weeks: reassess consumer-facing names' margin thesis.
 
 # =============================================================================
-# ACTIVE POSITIONS (14) - DETAILED
+# ACTIVE POSITIONS (14)
 # =============================================================================
 
 positions:
 
-  EDEN.PA:
-    classification: ROUTINE
-    urgency: LOW
+  DOM.L:
+    classification: MATERIAL
+    urgency: EARNINGS_MAR_10
     headlines:
-      - "No new company-specific news since Feb 28 scan."
-      - "Analyst rating update noted but no detail available."
-      - "Stock at EUR 17.91 (pre Iran shock). CAC -2.1% today."
-    thesis_impact: NONE
-    action: "HOLD. Record FY2025 already incorporated. Iran shock = temporary market noise for Edenred."
+      - "FY2025 results scheduled MARCH 10, 2026 (not today Mar 5 as expected)."
+      - "KC#1: Underlying EBITDA <GBP 125M = SELL."
+      - "Guided EBITDA range GBP 130-140M (down from GBP 146M initial expectation)."
+      - "New CEO Dominic Paul starts Apr 6."
+      - "No pre-announcement or trading statement leak detected."
+    thesis_impact: PENDING_EARNINGS
+    analysis: |
+      CORRECTION: Results are MARCH 10, not March 5 as calendar indicated.
+      Five more trading days to prepare. H1 2025 showed system sales GBP 777.8M (+1.3%).
+      Guided EBITDA GBP 130-140M. KC#1 at GBP 125M = comfortable buffer IF guidance range holds.
+      Risk: employment cost increases + weak consumer confidence in H2 could compress.
+      Iran selloff adds macro headwind but FY25 numbers are historical, not forward-looking.
+      Conviction LOW. Position small. MoS 19.2% marginal for Tier B.
+    action: "HARD MONITORING. Results Mar 10. KC#1 EBITDA <GBP 125M = SELL. Bear/base/bull ready."
 
   NVO:
     classification: MATERIAL
-    urgency: MONITOR_LEGAL
+    urgency: POSITIVE_DEVELOPMENT
     headlines:
-      - "US Bancorp sold 30,103 shares (filed Mar 1). Institutional selling continues."
-      - "Bernstein Litowitz class action ongoing (CagriSema-related). Pomerantz also investigating."
-      - "Dividend $1.275 announced, ex-date March 30."
-      - "Stock at $37.45 near 52wL $37.31. DKK 3.8B buyback tranche active through May 4."
-      - "2026 guidance: adjusted sales -5% to -13% CER. Brutal."
-    thesis_impact: MINOR_NEGATIVE
+      - "Wegovy pill launch called 'one of strongest launches EVER' — 246K patients in ~2 months."
+      - "EUR 432M ($507M) investment in Irish factory for Wegovy pill production."
+      - "US list price cuts: Ozempic + Wegovy injectable prices CUT 50% effective Jan 1 2027."
+      - "Wegovy pill priced at $149/month — aggressive accessibility."
+      - "FDA approved Sogroya for 3 new indications (children, Feb 27)."
+      - "Vivtex oral biologics partnership — up to $2.1B milestones."
+      - "AGM March 26. Employee board elections completed."
+    thesis_impact: POSITIVE_SIGNIFICANT
     kc_check:
-      fraud_investigation: "STILL ambulance chasing. Bernstein Litowitz + Pomerantz + Schall = standard post-crash litigation trolling. NO SEC/DOJ investigation. KC#4 NOT triggered."
-      institutional_selling: "US Bancorp sold 30K shares. Part of broader institutional rotation out post-CagriSema. Expected behavior."
+      wegovy_pill: "KEY catalyst in thesis exit_plan: 'ADD at $30 only if Wegovy pill data strong.' Data IS strong. 246K patients."
+      market_share: "First oral GLP-1 for weight loss = first-mover vs Lilly."
+      cagrisema: "KC#1 still triggered. CagriSema failure not reversed."
     analysis: |
-      Multiple law firms now chasing NVO class action = noise accumulation, not signal escalation.
-      Institutional selling continuing (US Bancorp latest). Still within expected post-disappointment rotation.
-      Dividend + buyback = capital return positive, but does not offset fundamental challenge.
-      Stock very close to 52wL. Bear case $35-42. If Iran shock pushes below $35 = approaching ADD zone (only at $30 per thesis).
-      HOLD LOW confirmed. No change to S117 decision.
-    action: "HOLD LOW. Class action filings are ambulance chasing. Monitor for actual regulatory action."
+      Wegovy pill launch is genuinely impressive — 246K patients in ~2 months, analysts calling it
+      one of strongest pharma launches ever. EUR 432M factory investment = management confidence.
+      Price cuts proactive against IRA/Medicare pressure. Vivtex partnership = oral platform expansion.
+      HOWEVER: CagriSema failure (KC#1) still weighs. Next-gen pipeline weakened.
+      Stock near 52wL suggests market focused on CagriSema + 2026 guidance cut, not oral Wegovy.
+      Current price ~$38-39 vs FV $50 = 22-24% MoS. E[CAGR] improving with oral tailwind.
+      Potential thesis upgrade if oral Wegovy revenue exceeds $2B in first 12 months.
+    action: "HOLD. Upgrade monitoring from LOW to WATCH. Oral Wegovy is partially offsetting CagriSema failure."
 
   ADBE:
     classification: MATERIAL
     urgency: EARNINGS_MAR_12
     headlines:
-      - "Q1 FY2026 earnings CONFIRMED March 12, 2026 (10 DAYS). EPS est $5.46, rev est $6.28B."
-      - "Stock -43% from 52wH, -23% YTD. Trading ~$262."
-      - "Firefly AI: 35%+ Photoshop subscribers using GenAI features."
-      - "Content Supply Chain as primary growth driver."
-      - "Mean analyst PT $423.50 (Buy consensus)."
-    thesis_impact: NEUTRAL_BUT_WATCH
+      - "Q1 FY2026 earnings CONFIRMED March 12 (7 days)."
+      - "Stock +3.50% on Mar 3 — investors positioning ahead of earnings."
+      - "AI-focused momentum: Acrobat Studio, WPP partnership, Firefly Foundry."
+      - "Beaten EPS estimates 8 consecutive quarters."
+      - "Stock -42% from 52wH on 'AI existentialism' fears."
+      - "Varenne Capital Partners decreased position."
+    thesis_impact: PENDING_EARNINGS
     kc_check:
-      earnings_prep: "Mar 12 = 10 days. Need bear/base/bull framework ready (Error #13)."
+      fct_trial: "KC#6: FTC trial Oct 2026. No new developments."
+      earnings: "Error #13: bear/base/bull framework NEEDED. 7 days. 2nd largest position ($1,014)."
+    action: "PREPARE bear/base/bull framework. 7 days to Q1 FY2026 earnings."
+
+  LULU:
+    classification: MATERIAL
+    urgency: EARNINGS_MAR_17
+    headlines:
+      - "Q4/FY2025 earnings conference call MARCH 17, 2026."
+      - "Tariff impact: $320M FY2026 estimated hit. Modest price increases rolling out."
+      - "100th EMEA store opening — international expansion milestone."
+      - "New innovation: ShowZero sweat-concealing tech + Unrestricted Power lifting platform."
+      - "Chip Wilson governance battle ongoing. No permanent CEO 30+ days."
+    thesis_impact: MIXED
+    kc_check:
+      margin: "KC: GM <57% = SELL. $320M tariff hit threatens. Oil at $81 adds shipping costs."
+      governance: "No CEO. Wilson proxy fight. Mar 17 earnings = MAKE-OR-BREAK (updated from Mar 31)."
     analysis: |
-      ADBE earnings Mar 12 is MATERIAL calendar event. This is our 2nd largest position ($1,014 invested).
-      FTC trial Oct 2026 remains primary thesis variable, not earnings.
-      Consensus expects solid execution. Risk: AI narrative shifts (competitors, pricing pressure).
-      Iran shock may depress stock further into earnings = could create additional entry opportunity.
-    action: "HOLD. Prepare bear/base/bull earnings framework BEFORE Mar 12. Error #13 compliance."
+      CORRECTION: Earnings now confirmed MARCH 17 (was previously thought Mar 31).
+      This moves up the MAKE-OR-BREAK event by 2 weeks.
+      100th EMEA store = international momentum. Product innovation (ShowZero) = addressing staleness criticism.
+      $320M tariff + $81 oil = margin pressure stack. But GM 57% KC threshold has buffer historically.
+      Small position ($343, ~3%). Wilson governance battle adds noise.
+    action: "HOLD ON PROBATION through Mar 17 earnings. Prepare bear/base/bull. SELL if negative global comps or GM <57%."
+
+  GL:
+    classification: MINOR
+    urgency: LOW
+    headlines:
+      - "Trading at $144.54. 52wk range $109-$153."
+      - "Truist raised PT $158->$180 (Buy). JPMorgan raised PT $180->$181 (OW). Wells Fargo raised PT $170->$171 (OW)."
+      - "Dividend $0.33 declared, ex-date Apr 2."
+      - "US Bancorp reduced holdings -12.2%."
+    thesis_impact: NONE
+    analysis: |
+      All news is positive — three analyst PT raises in Feb. Insurance sector benefits from higher rates.
+      US Bancorp sale is routine 13F rebalancing. Dividend maintained.
+      No thesis-relevant developments. GL at $144 vs FV $191 = 24.6% MoS. Solid.
+    action: "HOLD. Positive analyst momentum. No thesis change."
+
+  MORN:
+    classification: MINOR
+    urgency: LOW
+    headlines:
+      - "Scott Brown appointed President, Direct Platform (Mar 2). From Experian."
+      - "PitchBook launched Late-Stage Company Research (SpaceX, AI companies)."
+      - "Sustainalytics ESG Data Survey released."
+      - "Mansueto sold 3,122 shares at $182.32 ($569K). Systematic 10b5-1 plan."
+      - "Foundation Series CITs launched (retirement)."
+    thesis_impact: INCREMENTALLY_POSITIVE
+    analysis: |
+      Scott Brown hire + PitchBook expansion + Foundation Series CITs = positive product execution.
+      Mansueto $569K sale is de minimis vs $3B+ ownership (0.02%). Non-event.
+      Stock at $182 vs our $161 entry = +13% unrealized.
+    action: "HOLD. Positive developments. Mansueto sale is noise."
+
+  HLNE:
+    classification: MINOR
+    urgency: LOW
+    headlines:
+      - "Mika Tashiro appointed Head of Private Wealth Solutions Japan (Mar 1)."
+      - "Infrastructure Opportunities Fund II closed at $2B (20% above $1.25B target)."
+      - "Dividend $0.54/share (+10% YoY). Record Mar 20, payable Apr 6."
+      - "Institutional buying: Norges Bank new $46.6M, Champlain +36.7%."
+      - "$1T AUM milestone (Dec 31, 2025)."
+    thesis_impact: INCREMENTALLY_POSITIVE
+    analysis: |
+      Japan expansion + $2B fund close + $1T AUM = strong execution on growth thesis.
+      10% dividend increase signals management confidence.
+      Norges Bank + Champlain buying = institutional validation.
+      Stock at $107 vs FV $110 = 2.7% MoS. Near FV but growth justifies hold.
+    action: "HOLD. Strong execution. Thesis intact. Largest position ($944)."
+
+  DOCS:
+    classification: MINOR
+    urgency: LOW
+    headlines:
+      - "Average analyst PT $44.50 (Moderate Buy). Range $27-$55."
+      - "Piper Sandler raised PT $40->$42 (OW). Wells Fargo cut PT $55->$45 (OW)."
+      - "William Blair increased holdings +11.7%. Andra AP fonden new position."
+      - "FY2026 Q3: Rev $185.1M (+10%). Guidance: $642.5-643.5M rev, $355.5-356.5M adj EBITDA."
+    thesis_impact: NONE
+    analysis: |
+      Institutional buying (William Blair, Andra AP) is positive.
+      Guidance intact. Q4 May earnings is next catalyst.
+      Stock near our $24.07 entry. Position at cost.
+    action: "HOLD. No material news. Q4 May earnings next catalyst."
+
+  FTNT:
+    classification: MINOR
+    urgency: LOW
+    headlines:
+      - "Presented Morgan Stanley TMT Conference Mar 3."
+      - "Q4 beat confirmed: EPS $0.81 vs $0.74 est, rev $1.91B vs $1.86B."
+      - "13% billings growth guidance for 2026 (above 11% consensus)."
+      - "Unified SASE revenue +40%."
+      - "Record $2.21B free cash flow."
+      - "BMO raised PT $90->$95 (Market Perform)."
+    thesis_impact: NONE
+    analysis: |
+      All positive news. Q4 beat + billings guidance beat + record FCF.
+      BMO PT raise confirms value. Morgan Stanley conference = normal IR activity.
+      Stock near our $79 entry. Thesis intact.
+    action: "HOLD. Strong operating momentum. Thesis intact."
+
+  MONY.L:
+    classification: ROUTINE
+    urgency: LOW
+    headlines:
+      - "Buyback executing: 119,300 shares (Mar 2), 123,105 shares (Mar 3), 121,014 shares (Mar 4)."
+      - "Avg buyback price ~162-168p. GBP 25M program active."
+      - "Record FY2025 profits confirmed (EBITDA GBP 145.1M)."
+    thesis_impact: NONE
+    action: "HOLD. Buyback executing at good prices. Thesis intact."
+
+  EDEN.PA:
+    classification: ROUTINE
+    urgency: LOW
+    headlines:
+      - "Share capital disclosure Feb 28. Routine regulatory."
+      - "Analyst rating update received within last 5 hours."
+      - "No company-specific material news."
+    thesis_impact: NONE
+    action: "HOLD. No fundamental change. CAC selloff is macro, not company-specific."
 
   IHP.L:
     classification: ROUTINE
     urgency: LOW
     headlines:
-      - "Stock at 357p. No new company news since record assets/inflows report."
-      - "Next earnings May 20, 2026."
-      - "FTSE impact minimal (-0.8%)."
+      - "No new company-specific news in last 48h."
+      - "Record AUM and inflows reported Jan 13."
     thesis_impact: NONE
-    action: "HOLD. No news. Position doubled S127. Insider buying from Feb still positive signal."
+    action: "HOLD. Thesis intact. H1 FY26 results ~June next catalyst."
 
   AUTO.L:
     classification: ROUTINE
     urgency: LOW
     headlines:
-      - "Jefferies downgraded to Hold (new -- not in last scan)."
-      - "ARPR reaching ~GBP 3,000/month. Deal Builder 4,000+ retailers live."
-      - "Stock at 472p. Name changed to Autotrader Group plc (Jan 2026)."
-    thesis_impact: MINOR_NEGATIVE
-    analysis: |
-      Jefferies downgrade to Hold adds to Berenberg downgrade previously known.
-      BUT: fundamentals intact (ARPR growth, Deal Builder adoption, AI tools).
-      April pricing event still MAKE-OR-BREAK. Downgrade is opinion, not new data.
-    action: "HOLD LOW. April pricing event unchanged as key catalyst. Jefferies downgrade = opinion."
+      - "Buyback: 515,000 shares purchased Mar 2 at 485.24p."
+      - "Deal Builder: 4,000+ retailers live."
+      - "'No Driver Left Behind' report published — affordability study."
+    thesis_impact: NONE
+    action: "HOLD LOW. April pricing event remains MAKE-OR-BREAK."
 
   BYIT.L:
     classification: ROUTINE
     urgency: LOW
     headlines:
-      - "Stock at 358p, recovered from 52wL of 286p."
-      - "Analyst avg PT 471p. Next earnings May 26."
-      - "No new fundamental news."
+      - "No material news. Next earnings May 26, 2026."
+      - "Analyst consensus: Buy, PT GBP 338."
     thesis_impact: NONE
-    action: "HOLD ON PROBATION. May 2026 FY results next catalyst."
-
-  GL:
-    classification: ROUTINE
-    urgency: LOW
-    headlines:
-      - "No new news beyond what was captured Feb 28."
-      - "Wells Fargo PT $171. Morgan Stanley Buy. Evercore PT $157."
-      - "Stock reached ATH $152.71 on Feb 5."
-    thesis_impact: NONE
-    action: "HOLD. Positive momentum continues. ADD at $125 remains valid."
-
-  DOM.L:
-    classification: MATERIAL
-    urgency: EARNINGS_MAR_5_IMMINENT
-    headlines:
-      - "FY25 results March 5 (3 DAYS). KC#1: EBITDA <GBP 125M = SELL."
-      - "Analyst consensus PT 241p. Range 150-450p extremely wide."
-      - "New CEO Dominic Paul starts Apr 6."
-      - "No pre-announcement or trading statement detected."
-    thesis_impact: PENDING_EARNINGS
-    kc_check:
-      ebitda_trigger: "KC#1: EBITDA <GBP 125M = SELL. Base case GBP 130-137M. 3 DAYS."
-    analysis: |
-      IMMINENT EARNINGS. Third most time-sensitive item after Iran macro and ADBE earnings.
-      Clean going in -- no leaks, no trading statement.
-      Wide analyst range (150-450p) reflects genuine uncertainty.
-      Iran shock unlikely to affect FY25 historical results but could depress stock on day of release.
-    action: "HARD MONITORING. Have SELL plan ready if KC#1 triggers."
-
-  MONY.L:
-    classification: MINOR
-    urgency: LOW
-    headlines:
-      - "Morgan Stanley downgraded OW to EW (actually occurred Dec 2025, NOT new). PT cut citing AI overhang."
-      - "Dividend 0.093 GBp, ex-date Mar 26."
-      - "Buyback ongoing: 47K shares Feb 25, 126K shares Feb 24."
-      - "Stock at ~168p."
-    thesis_impact: NONE
-    analysis: |
-      Morgan Stanley downgrade is from Dec 2025, not new. AI disruption concern previously known.
-      Buyback continues executing. Record results already incorporated.
-    action: "HOLD. Morgan Stanley downgrade is old news (Dec 2025). KCs CLEAR."
-
-  LULU:
-    classification: MATERIAL
-    urgency: MONITOR_MAR_31
-    headlines:
-      - "Wilson March 13 DEADLINE to board: resolve or escalate."
-      - "Elliott Investment Management >$1B stake, pushing Jane Nielsen (Ralph Lauren veteran) as CEO."
-      - "Calvin McDonald serving as Senior Advisor through Mar 31."
-      - "Interim co-CEOs: Meghan Frank (CFO) + Andre Maestrini (CCO). Marti Morfitt as Executive Chair."
-      - "No permanent CEO appointment yet (now 30 days without CEO)."
-    thesis_impact: MINOR_NEGATIVE
-    kc_check:
-      governance: |
-        CEO vacuum now 30 days. TWO activist investors (Wilson + Elliott) with DIFFERENT visions.
-        Wilson wants brand-focused board (Maurer/Gentile/Hirshberg).
-        Elliott wants Jane Nielsen (operational/financial background).
-        This divergence could create STALEMATE or CONSTRUCTIVE TENSION.
-        Mar 13 Wilson deadline + Mar 31 McDonald advisor end = two key dates.
-    analysis: |
-      POSITIVE: Elliott's Jane Nielsen candidate is high-quality (Ralph Lauren experience).
-      POSITIVE: Wilson nominees also quality executives.
-      NEGATIVE: Two activists with competing visions = potential for prolonged governance chaos.
-      NEGATIVE: 30 days without CEO while business has upcoming Q4 earnings Mar 31.
-      NET: Proxy fight direction is constructive (both sides pushing quality candidates) but resolution timeline uncertain.
-    action: "HOLD ON PROBATION through Mar 31. Watch Mar 13 Wilson deadline closely."
-
-  MORN:
-    classification: ROUTINE
-    urgency: LOW
-    headlines:
-      - "Scott Brown started as President Direct Platform (effective Mar 2 = today)."
-      - "Stock at $183.14. Trading range $178-183."
-      - "52wL $149, 52wH $319. Our cost $161."
-    thesis_impact: NONE
-    analysis: |
-      Scott Brown hire as President Direct Platform is incrementally positive (leadership bench depth).
-      Stock holding above our cost basis ($161 vs $183). FV $195 = 6.5% upside.
-      BMO convergence concern from S128 remains -- edge narrowing.
-      No new Mansueto selling filed since last scan.
-    action: "HOLD. Scott Brown hire is positive signal for Direct platform growth."
-
-  HLNE:
-    classification: ROUTINE
-    urgency: LOW
-    headlines:
-      - "Q3 FY2026 results from Feb already incorporated."
-      - "UBS lowered PT to $150 (from $184) but maintained Buy."
-      - "Dividend $0.54/share, payable Apr 6, record Mar 20."
-      - "$1.0 trillion AUM/S milestone."
-    thesis_impact: NONE
-    analysis: |
-      UBS PT cut $184 to $150 is notable but still well above current (~$105-110 area).
-      Our FV $110 = conservative. UBS Buy at $150 = market sees more upside.
-      $1T AUM milestone validates thesis on private markets secular growth.
-    action: "HOLD. UBS PT cut is manageable (still above our FV). Thesis intact."
-
-  DOCS:
-    classification: MATERIAL
-    urgency: REVIEW_THESIS_ONGOING
-    headlines:
-      - "Piper Sandler raised PT to $42 (from $40), OW rating."
-      - "Andra AP fonden new 77,433 share position."
-      - "Institutional buying at depressed levels = contrarian signal."
-      - "Record bookings in January despite Q4 guidance weakness."
-    thesis_impact: INCREMENTALLY_POSITIVE
-    analysis: |
-      MFN budget freeze impact from S128 still the key thesis question.
-      BUT: management says delayed budgets will be deployed later in year (upsell season).
-      Record January bookings = early signal that freeze is TEMPORARY not structural.
-      Piper Sandler PT raise + institutional buying at lows = contrarian positive.
-      Stock at ~$24 still BELOW DA bear case ($25-26) = margin of safety wide.
-    action: "CONTINUE monitoring. January record bookings suggests MFN freeze is TEMPORARY. Review at Q4 report."
-
-  FTNT:
-    classification: ROUTINE
-    urgency: LOW
-    headlines:
-      - "Stock at $78.20 (near our $79.12 cost). Traded $76.64-$79.17 range."
-      - "Quantbot Technologies bought 66,245 shares (filed Mar 1)."
-      - "Next earnings Apr 30."
-      - "Median analyst PT $90. Range $70-$120."
-    thesis_impact: NONE
-    action: "HOLD. Institutional buying. Median PT $90 vs our FV $88 = aligned."
+    action: "HOLD ON PROBATION. FY2026 results May is next catalyst."
 
 # =============================================================================
-# PIPELINE / CALENDAR (8)
+# PIPELINE / WATCHLIST STOCKS
 # =============================================================================
 
 pipeline:
 
-  KLR.L:
+  RACE.MI:
     classification: MATERIAL
-    urgency: EARNINGS_TOMORROW_HARD_GATE
+    urgency: SO_APPROACHING
     headlines:
-      - "FY2025 results TOMORROW March 3. HARD GATE for SO at 1,700p."
-      - "Stock near ATH. Consensus BUY. Peel Hunt PT 2,250p."
-      - "SO gate: OP margin >=6.5% AND order book >=GBP 1.4B."
-    thesis_impact: PENDING_EARNINGS
+      - "AGM scheduled April 15, Amsterdam."
+      - "Buyback: EUR 101.4M spent, 338,393 shares repurchased."
+      - "Dividend proposed: EUR 3.615/share (~EUR 640M total)."
+      - "Iran selloff pushing Italian market lower. Stock trending toward SO EUR 295."
+    thesis_impact: NONE_NEGATIVE
     analysis: |
-      TOMORROW. Stock at ATH vs SO 1,700p = 16% above entry.
-      If results strong: need to decide market buy vs SO revision.
-      If results weak: SO stays valid, stock may drop toward trigger.
-      Iran shock: Keller is infrastructure/geotechnical, 55% US revenue.
-      Iran unlikely to affect FY2025 results or forward guidance materially.
-    action: "EVALUATE TOMORROW after results. Pre-flight ready."
-
-  ITRK.L:
-    classification: ROUTINE
-    urgency: EARNINGS_TOMORROW
-    headlines:
-      - "Full Year Results announcement March 3. 9:30 AM London."
-      - "Testing/inspection/certification sector."
-    thesis_impact: PENDING
-    action: "MONITOR. Intertek results tomorrow -- sector read-through for quality universe."
-
-  DOM.L:
-    classification: MATERIAL
-    urgency: EARNINGS_MAR_5
-    headlines:
-      - "FY25 results March 5 (3 days). KC#1 EBITDA <GBP125M = SELL."
-    action: "See positions section above. HARD MONITORING."
-
-  ANF:
-    classification: ROUTINE
-    urgency: EARNINGS_MAR_4
-    headlines:
-      - "Q4/FY2025 results March 4. EPS est $3.56-$3.58, rev est $1.669B."
-      - "Consumer discretionary sector read."
-    thesis_impact: NONE
-    action: "MONITOR for LULU sector read-through (consumer discretionary, athleisure adjacent)."
+      Buyback + dividend = capital return executing as planned.
+      Italian market under pressure from Iran crisis — RACE.MI likely moving lower.
+      SO at EUR 295 was 3.3% away per last check. Iran selloff could push within range.
+      Pre-flight ready. R4 approved. Gate DE-RISKED (Luce + tariffs).
+    action: "MONITOR DAILY. SO EUR 295 approaching. Pre-flight ready."
 
   VEEV:
-    classification: MATERIAL
-    urgency: EARNINGS_MAR_4
+    classification: HIGH
+    urgency: RESULTS_JUST_REPORTED
     headlines:
-      - "FQ4 2026 results after market close March 4. EPS est $1.92, rev est $810.9M."
-      - "On watchlist: entry $140-150, FV $205, QS 72/80 Tier A."
-    thesis_impact: PENDING_EARNINGS
+      - "Q4 FY2026 RESULTS (Mar 4 after close): BEAT on all metrics."
+      - "Revenue $836M (+16% YoY) vs $810.6M consensus."
+      - "EPS $2.06 vs $1.93 consensus."
+      - "Full year revenue $3.20B (+16%)."
+      - "FY2027 guidance: $3.585-3.600B revenue vs $3.56B consensus. EPS $8.85 vs $8.58 consensus."
+      - "7 of top-20 pharma fully committed to Vault architecture."
+      - "1,552 customers."
+      - "Stock UP 9.31% after-hours to $206.03."
+    thesis_impact: WATCHLIST_NEGATIVE_FOR_ENTRY
     analysis: |
-      VEEV is on our watchlist at $140-150 entry. If earnings disappoint and stock drops,
-      could approach entry zone. Currently well above.
-    action: "MONITOR earnings closely. Potential pipeline opportunity if results disappoint."
+      VEEV beat and guided up — strong results. Stock jumping 9% to $206.
+      Our watchlist entry was $140-150. At $206, stock is 37% ABOVE our entry level.
+      This REMOVES VEEV from near-term deployment candidates.
+      BUT: validates quality of business. R1 QS 72/80 Tier A was correct assessment.
+      If market corrects broadly (Iran) and VEEV gives back this pop, could revisit.
+      Vault CRM transition accelerating — 7 of top-20 pharma committed.
+    action: "REMOVE from near-term deployment list. Stock $206 vs entry $140-150. Monitor for pullback only."
 
-  RACE.MI:
-    classification: ROUTINE
-    urgency: ACTIVE_SO_APPROACHING
+  ACGL:
+    classification: MINOR
+    urgency: SO_MONITORING
     headlines:
-      - "FY2025 guidance beats. EBITDA margin 39%. First EV (Ferrari Luce) May reveal."
-      - "Stock surged ~10% on guidance beat."
-      - "SO at EUR 295. Iran shock + Italian market -2%+ could push stock closer to trigger."
-    thesis_impact: INCREMENTALLY_POSITIVE
+      - "Record Q4: EPS $2.98 vs $2.34 est. Revenue $4.93B vs $3.94B est."
+      - "Stock $100.48. SO at $88 = 12.4% away."
+      - "RBC raised PT $108->$115 (Outperform)."
+      - "Preferred share dividends declared."
+      - "P/E 8.65, beta 0.40."
+    thesis_impact: NONE
     analysis: |
-      Guidance beat is POSITIVE for thesis. EBITDA margin expansion.
-      BUT: stock rallied on it. Current ~EUR 307 = 3.9% from SO.
-      Iran shock today: Italian markets down ~2%. If sustained, RACE.MI could trade to EUR 295 range.
-      MONITOR CLOSELY this week. Trigger fill probability just INCREASED.
-    action: "MONITOR. Iran selloff may push toward SO EUR 295 trigger. Pre-flight ready."
+      Strong Q4 results. But stock at $100 vs SO $88 = 12.4% away.
+      Insurance sector benefits from rising rates and volatility.
+      Iran crisis could boost re/insurance pricing (Hormuz claims, war risk).
+      Paradoxically, crisis may push ACGL stock UP not down.
+    action: "MONITOR. SO $88 may be less likely to fill in crisis environment (insurance stocks benefit)."
 
-  SPGI:
-    classification: ROUTINE
-    urgency: CONFERENCE_TOMORROW
+  FOUR.L:
+    classification: MINOR
+    urgency: EARNINGS_MAR_18
     headlines:
-      - "CEO + CFO at Raymond James conference TOMORROW Mar 3."
-      - "BofA conference Mar 12."
-      - "Stock at $417, SO at $420 = 0.7% ABOVE trigger. Near-trigger."
-      - "Mobility spin-off could enhance valuation."
-      - "Down 21.8% in 21 trading days."
-    thesis_impact: INCREMENTALLY_POSITIVE
-    analysis: |
-      SPGI at $417 is WITHIN the SO trigger zone ($420).
-      BUT: SO is GATED on Q1 2026 earnings (late April).
-      Conference tomorrow could provide forward color.
-      Iran selloff could push below $420 into trigger territory.
-      R3 complete. FV $470. E[CAGR] 12.1% at $420.
-    action: "MONITOR conference commentary tomorrow. Stock approaching SO trigger but GATED."
-
-  LYV:
-    classification: MATERIAL
-    urgency: TRIAL_STARTS_TODAY
-    headlines:
-      - "DOJ antitrust trial: jury selection TODAY March 3 (Monday)."
-      - "6-week trial featuring Rapino, Berchtold. 40 state AGs."
-      - "Settlement efforts STALLED -- DOJ antitrust chief Gail Slater stepped down."
-      - "Claims proceeding: amphitheater monopoly + ticketing monopoly + state claims."
-      - "Promotion/fan-experience claims DISMISSED."
-    thesis_impact: INFORMATIONAL
-    analysis: |
-      LYV short was CANCELLED S93 (KC#3 triggered, operational thesis dead).
-      Trial starting TODAY is for monitoring only -- no position.
-      Outcome relevant for future short reconsideration IF DOJ wins meaningful remedy.
-      Settlement stalled = trial proceeding as scheduled.
-      Watch for: breakup order, consent decree, or behavioral remedies.
-    action: "MONITOR from sidelines. No position. Trial outcome informs potential future short thesis."
+      - "Next earnings March 18, 2026."
+      - "Stock 3,770p (-3.7% last week)."
+      - "Analyst consensus: Buy, avg PT 4,945p."
+    thesis_impact: N/A_NOT_PIPELINE
+    action: "MONITOR. Not in active pipeline. Earnings Mar 18 for sector read."
 
 # =============================================================================
 # ALERTS & PRIORITIES
@@ -373,95 +344,88 @@ pipeline:
 
 alerts:
   critical:
-    - type: MACRO
-      event: "Operation Epic Fury -- US/Israel strikes on Iran. Khamenei killed."
-      market_impact: "S&P -1.7%, STOXX -1.8%, Oil +13%. Strait of Hormuz shipping suspended."
-      portfolio_action: "DO NOT PANIC SELL. Monitor escalation. Cash ready for deployment if broad selloff deepens."
+    - type: MACRO_CRISIS
+      event: "Iran-US war Day 5+. Hormuz closed. IRIS Dena sunk. Oil Brent $81 (down from $87 peak)."
+      trend: "MIXED — military escalation (ship sunk) BUT oil pulling back AND Oman mediating."
+      portfolio_action: "HOLD ALL. Oil retreat from $87 to $81 is positive signal. Monitor for second leg."
+
   material:
-    - ticker: ADBE
-      headline: "Q1 FY2026 earnings March 12 (10 days). 2nd largest position."
-      classification: MATERIAL
-      action: "Prepare bear/base/bull framework. Error #13."
     - ticker: DOM.L
-      headline: "FY25 results March 5 (3 days). KC#1 EBITDA <GBP 125M = SELL."
-      classification: MATERIAL
-      action: "HARD MONITORING. Have SELL plan ready."
+      headline: "FY2025 results MARCH 10. KC#1 EBITDA <GBP 125M = SELL."
+      classification: MATERIAL_EARNINGS
+      action: "5 days to prepare. Bear/base/bull ready. SELL plan prepared."
+    - ticker: ADBE
+      headline: "Q1 FY2026 earnings March 12. 2nd largest position. 7 days."
+      classification: MATERIAL_EARNINGS
+      action: "Prepare bear/base/bull framework. Error #13."
     - ticker: LULU
-      headline: "Wilson Mar 13 deadline. Elliott pushing Jane Nielsen. No CEO 30 days."
-      classification: MATERIAL
-      action: "MONITOR through Mar 31."
+      headline: "Q4/FY2025 earnings MARCH 17 (updated from Mar 31). MAKE-OR-BREAK."
+      classification: MATERIAL_EARNINGS
+      action: "Prepare bear/base/bull. $320M tariff + governance uncertainty."
+    - ticker: NVO
+      headline: "Wegovy pill launch 'one of strongest ever' — 246K patients. Positive."
+      classification: MATERIAL_POSITIVE
+      action: "Upgrade monitoring. Partially offsets CagriSema failure."
 
 # =============================================================================
-# EARNINGS CALENDAR THIS WEEK
+# EARNINGS CALENDAR (next 14 days)
 # =============================================================================
 
-earnings_this_week:
-  - { ticker: KLR.L, date: "Mar 3 (Mon)", type: "FY2025 prelims", portfolio: "pipeline SO", gate: "OP margin >=6.5%, OB >=GBP 1.4B" }
-  - { ticker: ITRK.L, date: "Mar 3 (Mon)", type: "FY results", portfolio: "watchlist/sector read", gate: "N/A" }
-  - { ticker: ANF, date: "Mar 4 (Wed)", type: "Q4/FY2025", portfolio: "sector read (LULU)", gate: "N/A" }
-  - { ticker: VEEV, date: "Mar 4 (Wed)", type: "FQ4 2026", portfolio: "watchlist entry $140-150", gate: "N/A" }
-  - { ticker: DOM.L, date: "Mar 5 (Wed)", type: "FY2025 results", portfolio: "ACTIVE POSITION", gate: "KC#1 EBITDA <GBP 125M = SELL" }
-  - { ticker: ADBE, date: "Mar 12 (Thu next week)", type: "Q1 FY2026", portfolio: "ACTIVE POSITION (2nd largest)", gate: "Error #13 framework needed" }
+earnings_calendar:
+  - { ticker: DOM.L, date: "Mar 10", type: "FY2025 Prelim", portfolio: "ACTIVE", gate: "KC#1 EBITDA <GBP125M=SELL" }
+  - { ticker: ADBE, date: "Mar 12", type: "Q1 FY2026", portfolio: "ACTIVE (2nd largest)", gate: "Error #13 framework" }
+  - { ticker: ALFA.L, date: "Mar 12", type: "FY2025", portfolio: "WATCHLIST R3", gate: "HARD GATE before SO" }
+  - { ticker: LULU, date: "Mar 17", type: "Q4/FY2025", portfolio: "ACTIVE (ON PROBATION)", gate: "GM<57%=SELL, US comps" }
+  - { ticker: FOUR.L, date: "Mar 18", type: "FY Results", portfolio: "not pipeline", gate: "sector read" }
+  - { ticker: RAA.DE, date: "Mar 19", type: "FY2025", portfolio: "WATCHLIST R3", gate: "HARD GATE for SO" }
 
 # =============================================================================
-# SUMMARY
+# SUMMARY FOR ORCHESTRATOR
 # =============================================================================
 
 summary:
-  critical_count: 1  # MACRO (Iran/Operation Epic Fury)
-  material_count: 3  # ADBE earnings, DOM.L earnings, LULU governance
-  routine_count: 10
-  minor_positive_count: 3
+  critical_count: 1  # MACRO crisis (Hormuz closed, but oil retreating from peak)
+  material_count: 4  # DOM.L (Mar 10), ADBE (Mar 12), LULU (Mar 17), NVO positive
+  minor_count: 6     # GL, MORN, HLNE, DOCS, FTNT, RACE.MI
+  routine_count: 4   # MONY.L, EDEN.PA, IHP.L, AUTO.L, BYIT.L
 
-  key_actions:
-    - "MACRO: Iran strikes = risk-off. DO NOT PANIC SELL. Monitor escalation + oil prices."
-    - "RACE.MI: Iran selloff may push stock toward SO EUR 295 trigger. Monitor closely."
-    - "SPGI: Stock at $417, near SO $420 trigger. Conference tomorrow. GATED but approaching."
-    - "KLR.L: EARNINGS TOMORROW. Hard gate for SO 1,700p. Prepare evaluation."
-    - "DOM.L: EARNINGS Wed Mar 5. KC#1 EBITDA <GBP 125M = SELL. 3 days."
-    - "ADBE: EARNINGS Mar 12 (10 days). Prepare bear/base/bull. Error #13."
-    - "VEEV: EARNINGS Wed Mar 4. Pipeline opportunity if disappointing."
-    - "LULU: Wilson Mar 13 deadline. Elliott pushing CEO candidate. Monitor."
-    - "LYV: DOJ trial jury selection TODAY. Monitor from sidelines (no position)."
-    - "DOCS: January record bookings suggests MFN freeze temporary. Incrementally positive."
+  key_changes_vs_last_scan:
+    - "DOM.L results corrected: MARCH 10 (not Mar 5). Five more days to prepare."
+    - "LULU earnings corrected: MARCH 17 (not Mar 31). Accelerates make-or-break."
+    - "OIL RETREATING: Brent $81 (down from $87+ peak). WTI $74 (essentially flat vs pre-crisis)."
+    - "DIPLOMATIC SIGNALS: Mixed. Araghchi 'open to de-escalation' via Oman. Larijani says 'no talks.' Internal Iran split."
+    - "VEEV: Q4 beat, stock +9% AH to $206. Removes from near-term deployment list."
+    - "HLNE: $2B fund close, $1T AUM, Japan expansion. Positive execution."
+    - "Goldman CEO called market reaction 'surprisingly benign' — supports hold thesis."
 
-  positions_unchanged:
-    - EDEN.PA   # No new news. CAC selloff = noise.
-    - IHP.L     # No news. FTSE minimal impact.
-    - BYIT.L    # Recovering from 52wL. No news.
-    - GL        # Positive momentum continues.
-    - MONY.L    # MS downgrade was Dec 2025 (old).
-    - HLNE      # UBS PT cut manageable. Thesis intact.
-    - FTNT      # Institutional buying. Stable.
-    - MORN      # Scott Brown hire positive. Edge question ongoing.
+  immediate_actions:
+    - "ADBE: Begin bear/base/bull framework TODAY (7 days to earnings, Error #13)."
+    - "DOM.L: Refresh KC#1 analysis, prepare SELL plan (5 days to results)."
+    - "LULU: Prepare bear/base/bull (12 days to earnings). Update Mar 31->Mar 17."
+    - "NVO: Incorporate Wegovy pill positive data into monitoring upgrade."
+    - "RACE.MI: Monitor daily. SO EUR 295 approaching."
+    - "CALENDAR: Update state/calendar.yaml with corrected dates."
 
 # =============================================================================
-# META-REFLECTION (S132)
+# META-REFLECTION
 # =============================================================================
 
 meta_reflection:
-  coverage: "22/22 tickers scanned. 14 portfolio + 8 pipeline/calendar."
-  scan_duration: "~12 min"
-  key_finding: |
-    CRITICAL MACRO EVENT discovered: Operation Epic Fury (US/Israel strikes on Iran).
-    This was NOT in the S128 scan 2 days ago. It began Feb 28 (Saturday).
-    Supreme Leader Khamenei killed. Strait of Hormuz shipping suspended.
-    This changes the macro landscape significantly for at least the next 2-4 weeks.
+  coverage: "18/18 tickers scanned (14 active + 4 pipeline/watchlist)."
+  scan_quality: "Comprehensive. Multiple searches per ticker for crisis context."
+  key_corrections:
+    - "DOM.L earnings: Calendar said Mar 5 but financial calendar shows MAR 10. Corrected."
+    - "LULU earnings: Calendar said Mar 31. Company announced MAR 17 earnings call. Corrected."
+    - "Oil prices: Brent $81, WTI $74 — DOWN from $87+ peak. Market pricing containment."
   limitations:
-    - "Iran situation is FAST-MOVING. Information may be hours old by the time this scan completes."
-    - "European markets opened down but not yet full US session data (pre-market only)."
-    - "LULU: CEO candidate names from Elliott (Jane Nielsen) need verification."
-    - "KLR.L: results not yet released (tomorrow). Cannot evaluate gate."
+    - "DOM.L UK company: search engines persistently return US DPZ results, not UK DOM.L. Had to verify via investor relations financial calendar directly."
+    - "Iran situation fast-moving: information may be hours stale."
+    - "Real-time prices not available via search. Using most recent close/quote."
   anomalies:
-    - "SPGI at $417 is essentially AT the SO trigger of $420. But SO is GATED on Q1 earnings. Tension between proximity and gate."
-    - "RACE.MI could benefit from Italian market selloff pushing toward SO EUR 295."
-    - "NVO accumulating class action filings (now 3+ law firms). Still ambulance chasing but volume increasing."
-    - "MONY.L Morgan Stanley downgrade appeared in search results as 'recent' but is actually Dec 2025. Search result dating unreliable."
+    - "Oil RETREAT from $87 to $81 despite military escalation (IRIS Dena sunk) — market pricing de-escalation or SPR/OPEC response. Watch closely."
+    - "NVO at 52wL despite Wegovy pill 'strongest launch ever' — extreme pessimism may present opportunity if oral revenue materializes."
+    - "VEEV jumped 9% to $206 on Q4 beat — our $140-150 entry is now 35-45% below market. Quality confirmed but price removed."
   suggestions:
-    - "IMMEDIATE: Update macro view for Iran conflict impact on portfolio thesis assumptions."
-    - "TODAY: Prepare for KLR.L results tomorrow. Pre-flight gate evaluation ready."
-    - "TUESDAY: Process KLR.L results. Evaluate ITRK.L sector read."
-    - "WEDNESDAY: DOM.L earnings -- have SELL trigger ready for KC#1."
-    - "WEDNESDAY: VEEV + ANF earnings -- monitor for pipeline/sector reads."
-    - "NEXT WEEK: ADBE earnings Mar 12 -- bear/base/bull framework mandatory."
-    - "OPPORTUNITY: If Iran selloff deepens, RACE.MI and SPGI may hit SO triggers. Cash ready."
+    - "Update calendar.yaml with corrected DOM.L (Mar 10), LULU (Mar 17) dates."
+    - "Monitor Brent crude daily — $81 is manageable, $90+ is structural risk."
+    - "ADBE earnings framework is HIGHEST PRIORITY work item (Error #13, 7 days, 2nd largest position)."

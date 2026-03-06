@@ -1,6 +1,6 @@
 # Sector: Luxury Goods (Ultra-Premium & Personal Luxury)
 
-> Ultima actualizacion: 2026-02-11
+> Ultima actualizacion: 2026-03-02 (S132 — Iran cascade update)
 > Status: **NEUTRAL-SELECTIVO** - Oportunidades selectivas en nombres premium que han sufrido de-rating significativo. No comprar el sector entero.
 
 ## Resumen Ejecutivo
@@ -83,6 +83,29 @@ El sub-segmento ultra-luxury (Ferrari, Hermes, Patek Philippe) es especialmente 
 - **Nuevos entrantes ultra-luxury:** Practicamente imposible. No se puede crear herencia.
 - **Nuevos entrantes aspiration luxury:** Moderado (nuevas marcas DTC como Loro Piana by LVMH)
 - **Sustitutos:** Experiencias de lujo (viajes, wellness) compiten por wallet share pero el mercado total crece
+
+### **IRAN CRISIS CASCADE (S132 — 2026-03-02)**
+
+Operation Epic Fury impacto en luxury goods:
+
+**Impacto DIRECTO:** BAJO para ultra-luxury. Clientela UHNW no cancela compras por geopolitica. Ferrari tiene order book hasta fin 2027 — crisis Iran no lo afecta. Hermes tiene listas de espera de 2+ anos.
+
+**Impacto via mercados financieros:**
+- EU markets -1.8-2.3%, FTSE MIB (Italia) tipicamente -2-3% en crisis
+- **RACE.MI podria caer a zona de SO (EUR 295, 5.8% del trigger pre-crisis)**
+- Si selloff deepens 5-10% en EU, RACE.MI podria activar SO en EUR 260-290 range
+- Esto seria OPORTUNIDAD, no riesgo — Ferrari fundamentals 100% intactos en crisis
+
+**Impacto INDIRECTO:**
+- **Oil wealth (Middle East UHNW):** POSITIVO para luxury. Precios del petroleo altos = mas gasto de UHNW del Golfo. Ferrari F80 hypercar y Luce EV → clientela perfecta.
+- **Travel disruption:** Temporalmente negativo para tiendas de duty-free (Hermes airports). Pero <1% del revenue.
+- **Aspiration luxury:** Mas afectado (MONCLER, Kering) — consumer confidence EU baja.
+
+**RACE.MI — CRITICA:**
+- SO a EUR 295 esta a 5.8% pre-crisis. Con EU markets down, puede activarse esta semana.
+- Si RACE.MI toca EUR 295: pre-flight 6 gates → ejecutar si PASS.
+- Crisis Iran NO afecta thesis de Ferrari (pricing power demostrado con tariff 10%, order book 2+ anos, UHNW clientele, 0 dependencia de oil supply).
+- Ferrari podria BENEFICIARSE de Oil wealth effect en Middle East.
 
 ---
 
@@ -169,6 +192,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 | 2026-02-11 | Sector view creado. Status: NEUTRAL-SELECTIVO | RACE.MI pipeline activo. Screening V2.5 encontro QS 82 Tier A. |
 | 2026-02-11 | RACE.MI R3 reconciled: FV EUR 377→355, entry EUR 290-305→260-290. Risk MEDIUM→MEDIUM-HIGH. | Devil's advocate STRONG COUNTER. OEY < WACC limitation, MoS below Tier A precedent. |
 | 2026-02-19 | MONC.MI R3 complete. FV EUR 58→52, entry EUR 48→42. R4 deferred to post-Q1 2026. | FY2025 BASE-BULL (Q4 +7%, EBIT 29.2%). DA MODERATE COUNTER: consensus convergence (Error #49), growth 3% vs 6% assumed, CEO double transition risk. Quality-at-discount thesis, not contrarian. |
+| **2026-03-02** | **IRAN CASCADE UPDATE** | **Operation Epic Fury. Impact: LOW for ultra-luxury (UHNW insulated). RACE.MI 5.8% from SO trigger — could activate this week if EU selloff deepens. Oil wealth effect POSITIVE for Ferrari/Hermes. Aspiration luxury (Moncler) more vulnerable. No thesis change.** |
 
 ---
 

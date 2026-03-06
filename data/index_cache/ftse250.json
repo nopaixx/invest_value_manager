@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-26T12:51:42.354121",
+  "timestamp": "2026-03-06T08:31:13.390515",
   "tickers": [
     "3IN.L",
     "FOUR.L",
@@ -53,6 +53,7 @@
     "CMCX.L",
     "COA.L",
     "CCC.L",
+    "COST.L",
     "CWK.L",
     "CURY.L",
     "DLN.L",
@@ -228,7 +229,6 @@
     "TCAP.L",
     "TRN.L",
     "TPK.L",
-    "BBOX.L",
     "TRY.L",
     "TRST.L",
     "TFIF.L",

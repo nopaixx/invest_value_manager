@@ -259,61 +259,11 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 ---
 
-## Reglas de Ciclo de Vida
-
-### Cuando una empresa se COMPRA:
-- Mover de "Analizadas - Watchlist" a "Nuestras Posiciones Actuales"
-- Anadir a "Dependencias Activas" como Portfolio
-
-### Cuando una thesis se ARCHIVA (vendida o descartada):
-- Mover de "Dependencias Activas" a "Historial de Analisis"
-- Registrar razon y fecha de archivo
-- Mantener maximo 10 entradas en historial, luego purgar
-
-### Cuando sector view crece demasiado (>300 lineas):
-- Mover "Historial de Analisis" a archivo separado: world/sectors/archive/hr-payroll-processing-history.md
-- Mantener solo ultimos 6 meses en "Analizadas - Watchlist"
-
-### Historial de Analisis (Archivadas)
-
-| Ticker | Razon Archivo | Fecha | Leccion |
-|--------|---------------|-------|---------|
-| (vacio) | | | |
-
----
-
 ## Fuentes
 
-### Market Size and TAM
-- [Fortune Business Insights: HCM Market ($37B 2026, $76B 2034)](https://www.fortunebusinessinsights.com/industry-reports/human-capital-management-hcm-market-100240)
-- [Mordor Intelligence: US Payroll Services Market](https://www.mordorintelligence.com/industry-reports/united-states-payroll-services-market)
-- [Verified Market Reports: HCM & Payroll ($22.5B 2024, $42.3B 2033)](https://www.verifiedmarketreports.com/product/human-capital-management-hcm-and-payroll-market/)
-- [Apps Run The World: Top 10 Payroll Software Vendors](https://www.appsruntheworld.com/top-10-hcm-software-vendors-in-payroll-market-segment/)
+TAM: Fortune Business Insights (HCM $76B 2034), Mordor Intelligence (US Payroll), Verified Market Reports.
+Competitive: OutSail (ADP vs Paychex vs Paylocity), CSIMarket (ADP share), Shortlister.
+Company: ADP Q2 FY2026, MacroTrends (P/E history), Paychex-Paycor acquisition.
+Disruption: CNBC (AI jobs 2026), AI2Work (SaaSpocalypse), HR Dive (hiring outlook).
 
-### Competitive Positioning
-- [OutSail: ADP vs Paychex vs Paylocity Mid-Market Showdown](https://www.outsail.co/post/adp-vs-paychex-vs-paylocity-mid-market-payroll)
-- [Mordor Intelligence: US Payroll Services Market Share](https://www.mordorintelligence.com/industry-reports/united-states-payroll-services-market/market-share)
-- [CSIMarket: ADP Market Share](https://csimarket.com/stocks/competitionSEG2.php?code=ADP)
-- [Shortlister: ADP Competitors in Payroll](https://www.myshortlister.com/insights/adp-competitors-payroll)
-
-### Industry Consolidation
-- [ADP Acquires WorkForce Software (Oct 2024)](https://mediacenter.adp.com/2024-10-15-ADP-Acquires-WorkForce-Software)
-- [Paychex Completes Paycor Acquisition ($4.1B, Apr 2025)](https://www.paychex.com/newsroom/news-releases/paycor-acquisition-complete)
-- [CNBC: Rippling Valued at $16.8B](https://www.cnbc.com/2025/05/09/rippling-valued-at-16point8-billion-in-450-million-funding-round.html)
-- [CNBC: Deel Prepares for IPO](https://www.cnbc.com/2025/02/04/hr-unicorn-deel-prepares-for-ipo-as-soon-as-2026.html)
-
-### ADP Financial Analysis
-- [ADP Q2 FY2026 Earnings Release](https://s205.q4cdn.com/887941133/files/doc_financials/2026/q2/ADP-2Q26-Earnings-Release.pdf)
-- [Investing.com: ADP Q2 2026 Transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-adp-q2-2026-beats-earnings-stock-dips-93CH-4470691)
-- [MacroTrends: ADP P/E Ratio History](https://www.macrotrends.net/stocks/charts/ADP/adp/pe-ratio)
-- [Simply Wall St: ADP Valuation After Q2](https://simplywall.st/stocks/us/commercial-services/nasdaq-adp/automatic-data-processing/news/a-look-at-automatic-data-processings-valuation-after-q2-earn)
-
-### AI / SaaSpocalypse Impact
-- [CNBC: AI Will Impact 89% of Jobs in 2026](https://www.cnbc.com/2025/11/14/ai-to-impact-89percent-of-jobs-next-year-cnbc-survey-finds.html)
-- [AI2Work: The 2026 SaaS Apocalypse](https://ai2.work/technology/the-2026-saas-apocalypse-why-wall-street-is-dumping-software-stocks/)
-- [JioHRMS: AI Transforming Payroll Management 2026](https://jiohrms.com/blogs/how-ai-transforming-payroll-management-in-2026-a-strategic-c-suite-perspective)
-- [HR Dive: 2026 Hiring Outlook](https://www.hrdive.com/news/2026-hiring-outlook-improves-skills-ai-hurdles/808955/)
-
----
-
-*Proxima revision: 2026-03-18 o ante cambio material (ADP Q3 earnings Apr 2026, PAYC Q1 earnings Apr 2026, Fed rate decision, SaaSpocalypse narrative shift, significant employment data)*
+*Proxima revision: 2026-03-18 o ante cambio material (ADP Q3 Apr, PAYC Q1 Apr, Fed rate, employment data)*

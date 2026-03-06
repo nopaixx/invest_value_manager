@@ -133,7 +133,7 @@ baskets:
 
   - id: eu-value-recovery
     name: "EU Value Recovery"
-    status: ACTIVE
+    status: BUILDING  # UPGRADED from RESEARCHING — RACE.MI deployed as 2nd position (2026-03-05)
     theme_vitality: ALIVE
     thesis: >
       European companies with strong competitive positions trading at value
@@ -143,11 +143,12 @@ baskets:
     thesis_file: thesis/baskets/eu-value-recovery/thesis.md
     sector_views:
       - world/sectors/business-services.md
+      - world/sectors/luxury-goods.md
     positions:
       - EDEN.PA  # Employee benefits, QS 62 Tier B (France regulation headwind)
+      - RACE.MI  # Luxury auto, QS 82/84 Tier A. BUY 2026-03-05 EUR 312.80. 6th E[CAGR] market buy.
     pipeline:
       - REN.AS   # Data analytics, QS 76 Tier A, SO EUR 24.50
-      - RACE.MI  # Luxury auto, QS 82 Tier A, SO EUR 295
     shared_risks:
       - "EU macro deterioration (Germany recession deepens)"
       - "EUR depreciation vs USD reducing absolute returns"
@@ -156,16 +157,17 @@ baskets:
       - "EU GDP contracts >2% annualized for 2 consecutive quarters"
       - "3+ positions trigger individual KCs simultaneously"
     vitality_signals:
-      positive: ["EDEN.PA Brazil PAT won initial challenge", "DXY -7.6% YoY = EUR strength", "ECB rate cuts supporting recovery"]
-      negative: ["Only 1 active position = barely a basket", "EU growth sluggish", "Pipeline requires 5-15% declines"]
-    last_reviewed: 2026-02-27
+      positive: ["RACE.MI deployed — basket saved from death deadline", "EDEN.PA Brazil PAT won initial challenge", "DXY -7.6% YoY = EUR strength", "ECB rate cuts supporting recovery", "Crisis moderating (oil $77 from $87)"]
+      negative: ["EU growth sluggish", "Only 2 positions still thin", "REN.AS 8.6% from trigger"]
+    last_reviewed: 2026-03-05
     created: 2026-02-22
-    notes: "DTE.DE SOLD 2026-02-26. Only EDEN.PA remains. DEADLINE: if no new position by Mar 31 2026 → KILL basket, EDEN.PA becomes orphan or rotates. Pipeline must trigger (REN.AS EUR 24.50 = 16.7% away, RACE.MI EUR 295 = 8.9% away). CMCSA R2 in progress — potential addition if FV holds (Tier B, media/broadband)."
+    notes: "RACE.MI DEPLOYED 2026-03-05 as 2nd position (market buy EUR 312.80, EUR 350). Basket UPGRADED RESEARCHING→BUILDING. Mar 31 death deadline AVERTED. REN.AS EUR 24.50 (8.6% away) is 3rd position candidate. CMCSA R3 complete, SO EUR 26 (15.9% away). Basket now has Tier A anchor (RACE.MI QS 84) + Tier B value (EDEN.PA QS 62)."
 
   - id: specialty-insurance
     name: "Specialty Insurance"
     status: BUILDING
     theme_vitality: ALIVE
+    lifecycle_deadline: "2026-04-15"  # v4.8: Must deploy 2nd position by this date or downgrade to RESEARCHING
     thesis: >
       Specialty insurance companies with superior underwriting discipline
       (combined ratios consistently <95%), high ROE (>15%), and competitive moats
@@ -194,8 +196,9 @@ baskets:
 
   - id: pharma-biotech
     name: "Pharma & Biotech"
-    status: BUILDING
+    status: DECLINING  # v4.8 DOWNGRADED from BUILDING — KC triggered, single position LOW conviction, HALO gated Jun 2026
     theme_vitality: DECLINING  # CagriSema FAILED, single position, no pipeline
+    lifecycle_deadline: "2026-06-30"  # HALO PTAB gate Jun 2026. If HALO fails → KILL basket, NVO orphan or rotate
     thesis: >
       Quality pharma/biotech companies with dominant franchises in large therapeutic
       areas, strong pipeline optionality, and temporary valuation dislocations from
@@ -219,7 +222,7 @@ baskets:
       negative: ["CagriSema FAILED = core thesis weakened", "NVO -19.8% unrealized", "Single position LOW conviction", "HALO GATED until Jun 2026"]
     last_reviewed: 2026-02-27
     created: 2026-02-22
-    notes: "DECLINING theme vitality. CagriSema failure weakened the core thesis. NVO is HOLD LOW. HALO in pipeline but GATED. Evaluate basket death if NVO hits KC or HALO gate fails. Need >2 candidates to justify active basket."
+    notes: "v4.8 DECLINING (was BUILDING). CagriSema failure weakened the core thesis. NVO is HOLD LOW. HALO in pipeline but GATED until Jun 2026. Basket on DEATH WATCH — evaluate basket death if NVO hits KC or HALO gate fails. Need >2 candidates to justify active basket. If no progress by Jun 30 → KILL."
 
 # Orphan positions (not assigned to any basket):
 orphans:

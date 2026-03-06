@@ -278,37 +278,8 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 ---
 
-## Reglas de Ciclo de Vida
-
-### Cuando una empresa se COMPRA:
-- Mover de "Analizadas - Watchlist" a "Nuestras Posiciones Actuales"
-- Anadir a "Dependencias Activas" como Portfolio
-
-### Cuando una thesis se ARCHIVA (vendida o descartada):
-- Mover de "Dependencias Activas" a "Historial de Analisis"
-- Registrar razon y fecha de archivo
-- Mantener maximo 10 entradas en historial, luego purgar
-
-### Cuando sector view crece demasiado (>300 lineas):
-- Mover "Historial de Analisis" a archivo separado: world/sectors/archive/payments-fintech-history.md
-- Mantener solo ultimos 6 meses en "Analizadas"
-
-### Historial de Analisis (Archivadas)
-| Ticker | Razon Archivo | Fecha | Leccion |
-|--------|---------------|-------|---------|
-| (vacio) | | | |
-
----
-
 ## Fuentes
 
-- [Mordor Intelligence - Global Payments Market 2026-2031](https://www.mordorintelligence.com/industry-reports/global-payments-market)
-- [Grand View Research - Digital Payment Solutions Market](https://www.grandviewresearch.com/industry-analysis/digital-payment-solutions-market)
-- [Quartr - Visa and Mastercard: The Global Payment Duopoly](https://quartr.com/insights/edge/visa-and-mastercard-the-global-payment-duopoly)
-- [Capital One Shopping - Credit Card Market Share 2025](https://capitaloneshopping.com/research/credit-card-market-share-statistics/)
-- [Seeking Alpha - Visa vs Mastercard Analysis](https://seekingalpha.com/article/4855892-visa-vs-mastercard-two-payment-giants-one-clear-favorite-for-me)
-- [The Financial Brand - 5 Critical Payments Challenges 2026](https://thefinancialbrand.com/news/payments-trends/payments-outlook-2026-194517)
-- [Payments Dive - How Payments Will Evolve 2026](https://www.paymentsdive.com/news/how-payments-will-evolve-6-industry-trends-to-watch-in-2026/808869/)
-- [Clearly Payments - Future of Interchange Fees 2026](https://www.clearlypayments.com/blog/the-future-of-interchange-fees-2026-and-beyond/)
-- [EuroCommerce - Interchange Fee Regulation 10 Years](https://www.eurocommerce.eu/2025/06/ten-years-after-the-interchange-fee-regulation-we-need-new-action-to-tackle-new-wholesale-price-increases/)
-- [Globe Newswire - BNPL Market Report 2026](https://www.globenewswire.com/news-release/2026/01/29/3228852/28124/en/Global-Buy-Now-Pay-Later-Business-and-Investment-Report-2026-A-1-Trillion-Market-by-2031-Klarna-and-Affirm-Lead-While-Splitit-Expands-Bank-Embedded-BNPL-Through-FI-PayLater.html)
+Sector: Mordor Intelligence (global payments), Grand View Research (digital payments), Quartr (V/MA duopoly).
+Trends: Financial Brand (2026 challenges), Payments Dive (2026 evolution), Clearly Payments (interchange fees).
+Company: Capital One Shopping (market share), Seeking Alpha (V vs MA), EuroCommerce (interchange regulation).

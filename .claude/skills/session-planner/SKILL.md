@@ -3,7 +3,7 @@
 > Auto-activar al inicio de sesion en modo DASHBOARD o WAVE.
 > Genera plan de trabajo priorizado basado en estado actual del sistema.
 > El CIO llega, evalua, prioriza, presenta, y tras aprobacion, ejecuta.
-> **v4.7: Baskets ARE the fund (P17).** Plan always includes basket health + theme discovery.
+> **v4.8: CIO con Punch.** Three Questions FIRST (P18). Promise tracking. Basket lifecycle integrity. Action bias.
 
 ---
 
@@ -31,7 +31,7 @@
 | `portfolio/current.yaml` | Positions on probation, pending reviews, conviction levels |
 | `state/quality_universe.yaml` | SCORED count, stale count, pipeline funnel |
 | `state/session_continuity.yaml` | Prior session work, dedup signals, R1 cooldowns, handoff |
-| `state/evolution_state.yaml` | Trigger red_count, scheduled reviews due, active experiments |
+| `state/evolution_state.yaml` | Trigger red_count (14 triggers), scheduled reviews due, active experiments |
 
 ### Tools Rapidos (ejecutar)
 
@@ -60,6 +60,7 @@
 | P2 | Earnings <7d sin framework (posicion activa) | URGENTE | MONY.L FY results Monday |
 | P3 | SO triggered o near (<5%) | URGENTE | RACE.MI at 5.3% de entry |
 | P4 | R1 processing for BUYABLE candidates — **FAVOR candidates that fill underfunded baskets** (obligatorio 3 velocity units/sesion) | PRIORIDAD NORMAL | Top 5 de r1_prioritizer --buyable-now |
+| P1d | **THEME DISCOVERY ESCALATION (v4.8): cash >25% AND baskets <4 active = URGENTE, not P4b** | URGENTE | Cash 40%, only 3 active baskets |
 | P4b | **THEME DISCOVERY (P17, weekly or cash >15%): scan for emerging mega-trends, propose basket birth/death** | PRIORIDAD NORMAL | AI infrastructure theme identified, 4 candidates |
 | P5 | Position reviews (ongoing health) | PRIORIDAD NORMAL | LULU probation review |
 | P6 | Pipelines OVERDUE | PRIORIDAD NORMAL | risk-review 3d overdue |
@@ -106,6 +107,12 @@ Read `session_continuity.yaml` → `session.date` and `skip_if_same_day`:
 
 ```markdown
 ## SESSION PLAN — Sesion [N] | [Fecha]
+
+### THREE QUESTIONS (P18 — Fase 0.ZERO)
+- **Q1 (Deploy)**: [concrete action to reduce cash toward <10%]
+- **Q2 (Baskets)**: [concrete action to fill baskets with <2 positions]
+- **Q3 (Proactive)**: [something I'm doing without being asked]
+- Promise audit: [N]/[M] promises from last session KEPT. Broken: [list or "none"]
 
 ### ESTADO RAPIDO
 - Portfolio: [N] posiciones, EUR [X] invested, cash [Y]%
@@ -226,6 +233,8 @@ During plan generation, scan these conditions and surface the matching lesson:
 | `any basket theme DECLINING` | **L-12: Dying theme = capital trap.** Evaluate basket death, redeploy to live themes | P1c basket health URGENTE |
 | `theme discovery >7 days stale` | **L-13: Discovery stops = fund dies.** Scan for emerging mega-trends | P4b theme discovery |
 | `basket count < 3` | **L-14: Insufficient diversification.** Need at least 3 live themes for structural resilience | P4b theme discovery |
+| `cash >25% for >5 sessions AND all Inaction Audits PASS` | **L-15: Audit theater.** Self-audits passing while objectives failing. Cumulative Inaction Audit override: must deploy, recalibrate SOs, or score new candidates. See Error #60 and P18. | P1b URGENTE |
+| `cash >25% AND baskets <4 ACTIVE` | **Theme Discovery ESCALATION**: cash high + insufficient basket coverage = structural deployment failure. Escalate theme discovery from P4b to P1d URGENTE. Dedicate 1 wave. | P1d URGENTE |
 
 **How to use:** After reading 9 state sources and running tools, scan this table. If condition matches, add the lesson reference to the relevant plan section. Format: `[L-XX] {lesson name} — {action}`
 

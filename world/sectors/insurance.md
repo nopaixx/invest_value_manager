@@ -1,22 +1,17 @@
 # Sector: Insurance
 
-> Ultima actualizacion: 2026-02-13
-> Status: **NEUTRAL** (Seleccionar empresas especificas)
+> Ultima actualizacion: 2026-03-02
+> Status: **NEUTRAL-FAVORABLE** (Defensive in crisis; stock picking selectivo)
 
 ## Resumen Ejecutivo
 
-El sector asegurador global se encuentra en un punto de inflexion tras dos anos de outperformance. Las aseguradoras P&C (Property & Casualty) han alcanzado combined ratios cercanos a 94-97% (los mejores en 15+ anos), impulsados por aumentos de primas post-pandemia y repricing de riesgo climatico. Sin embargo, el mercado esta entrando en fase de softening con mayor competencia y presion sobre margenes en 2026.
+The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/Hormuz crisis. While the broader P&C underwriting cycle is softening (Jan 2026 renewals: property cat -14.7%, retrocession -16.5%), ABSOLUTE profitability remains strong -- industry executives describe 2026 as potentially the "fifth best year" for cat reinsurance. The key Q1 development is the Iran-driven split: marine/war risk insurers face acute exposure (cancelling Hormuz coverage), while US-focused life/health and specialty lines are largely insulated from the conflict.
 
-**Actualizacion Febrero 2026:** Reinsurance pricing softening CONFIRMADO. Jan 2026 renewals: property cat rates -14.7% (largest decline since 2014), retrocession -16.5%. KBW expects approaching -20%. Sin embargo, rentabilidad absoluta sigue siendo buena -- ejecutivos describen 2026 como potencialmente el "quinto mejor ano" para cat reinsurance. Las aseguradoras con disciplina de underwriting (ACGL) mantendran margenes; las indisciplinadas sufriran.
+**Q1 2026 update:** Three sector dynamics converge: (1) P&C soft market accelerating -- property rates dipped for the first time since 2017, commercial rate increases moderating to low single digits; (2) social inflation ESCALATING as the most significant liability headwind -- nuclear verdicts up 52% in 2024, GL rates forecast +5.6-9% Q1 2026, auto liability +7-15%; (3) Iran/Hormuz crisis creates a BIFURCATION between marine/specialty war risk (chaos) and domestic US life/health/specialty (insulated). Investment income remains supportive at 4.0-4.2% yields even as Fed holds rates.
 
-**NOTA IMPORTANTE: Brokers vs Underwriters vs Fee Managers.** Este sector view cubre TRES sub-tipos fundamentalmente diferentes:
-- **Underwriters** (ACGL, GL): Take balance sheet risk on insurance claims. Revenue = premiums - claims. Exposed to catastrophe losses.
-- **Brokers** (MMC, AON, AJG): Pure intermediaries earning commissions/fees. NO claims risk. Revenue grows with premium rates AND market complexity. Higher margins, more predictable.
-- **Fee Managers** (ERIE): Manage reciprocal exchanges for a percentage management fee. NO underwriting risk. Revenue = % of premiums written. Ultra asset-light, net cash, monopoly over their exchange.
+**GL update:** Q4 2025 earnings strong (EPS $3.29, FY2025 $14.07). FY2026 guidance raised to $14.95-$15.65 (vs prior). Net health sales +71%. $170M buybacks Q4. SEC+DOJ cleared Jul 2025. Securities fraud class action proceeding -- Texas court denied dismissal Sep 2025. Data breach settlement (up to $4.66M) filed Feb 12, 2026 -- immaterial. Stock at $145.63, FV $191, MoS 23.7%.
 
-La tesis sectorial es **selectiva**: en US, ACGL (specialty/reinsurance, QS 68 adj, P/E 8.6x, P/B 1.53x, ROE 17-21%) emerge como la mejor oportunidad en underwriting. MMC (#1 global broker, QS 68 adj, FV $220, entry $160) es la mejor oportunidad en broking pero needs further price decline. GL sigue en portfolio como posicion Tier C. ALL vendida 2026-02-14 (MoS insuficiente, peak cycle).
-
-El riesgo principal para underwriters es el clima: 2025 fue el sexto ano consecutivo con perdidas aseguradas >$100B. Para brokers, el riesgo principal es organic growth deceleration and multiple compression. El driver clave compartido son los tipos de interes: investment income se beneficia mientras las tasas se mantengan elevadas.
+**Pipeline:** ACGL SO at $88 (12.6% away, ACTIVE). KNSL SO at $355 (8.7% away, GATED). ERIE ARCHIVED (above FV). MMC/AON on watchlist.
 
 ---
 
@@ -30,80 +25,65 @@ El riesgo principal para underwriters es el clima: 2025 fue el sexto ano consecu
 | P/E sector US (underwriters) | 13.6x | vs 18.8x (3y avg) | Discount |
 | P/E sector US (brokers) | 22-25x | vs 28-30x (3y avg) | Compressing |
 | Combined Ratio US (2025e) | 98.5% | vs 97.2% (2024) | Deteriorando |
-| Combined Ratio US (2026e) | 99% | | Softening |
-| Investment Yield US | 4.0-4.2% (2025-26) | | Estable/Rising |
-| **Reinsurance Rate Change Jan 2026** | **-14.7% prop cat** | **Largest decline since 2014** | **Softening** |
+| Combined Ratio US (2026e) | 99% | | Softening continues |
+| Investment Yield US | 4.0-4.2% (2025-26) | | Stable (Fed hold) |
+| Reinsurance Rate Change Jan 2026 | -14.7% prop cat | Largest decline since 2014 | Softening |
 | Insurance Brokerage TAM | $328B (2025) | | +9.4% CAGR |
+| Nuclear Verdicts (2024) | +52% YoY | Record severity | Accelerating |
+| GL Rate Increases Q1 2026 | +5.6-9.0% | | Social inflation offset |
+| Auto Liability Rates Q1 2026 | +7-15% | | Strongest increases |
 
 ---
 
 ## Sub-sectores
 
-### Property & Casualty (P&C)
-- **Personal Lines**: Auto, Home - Combined ratio mejorando (95-106%)
-- **Commercial Lines**: Liability, Property - 5 anos consecutivos de profitability
-- **Workers Comp**: Excelente (86% CR, 8+ anos consecutivos <90%)
-- **General Liability**: Problematico (CR >107%, litigiosidad social)
+### Property & Casualty (P&C) -- SOFTENING CONFIRMED
+- **Personal Lines**: Auto improving (95-100% CR) but social inflation eroding gains. Homeowners under cat pressure (LA wildfires $37.5B insured)
+- **Commercial Lines**: 5+ years of profitability. Rate increases moderating to LOW SINGLE DIGITS. Property rates DIPPED for first time since 2017
+- **Workers Comp**: Excellent (86% CR, 8+ years <90%). Best-performing line
+- **General Liability**: Problematic (CR >107%). Nuclear verdicts +52% in 2024. Social inflation is THE headwind. Tort reform in FL/GA/LA providing partial offset
 
-### Life Insurance
-- Demanda por productos de ahorro (annuities) en alza con tipos altos
-- Investment leverage 8-14x = alta sensibilidad a tipos
-- Growth 2.3% real en 2025-26
+### Life Insurance (GL's primary segment)
+- Demand for savings products (annuities) strong with elevated rates
+- Investment leverage 8-14x = benefits from sustained higher rates
+- GL net health sales +71% Q4 2025 = strong organic growth
+- Less cyclical than P&C. DEFENSIVE in crisis environments
 
-### Health Insurance
-- Crecimiento moderado (~1.5% real)
-- Medicare y repricing de primas como drivers
+### Reinsurance -- SOFT MARKET ACCELERATING
+- Jan 2026 renewals: prop cat -14.7%, retrocession -16.5% (Howden Re)
+- Moody's expects further -15% property cat decline through 2026
+- Cat bonds at record $58B -- alternative capital flooding market
+- JP Morgan expects "lacklustre margins" for P&C reinsurers in 2026
+- Key: disciplined underwriters (ACGL) shed volume; undisciplined chase premium
+- DESPITE softening, absolute profitability still GOOD -- just below peak
 
-### Reinsurance (UPDATED Feb 2026)
-- **Mercado en softening acelerado en 2026** tras buenos resultados 2024-25
-- Jan 2026 renewals: prop cat -14.7%, retrocession -16.5% (Howden Re data)
-- Cat bonds en record ($58B)
-- Attachment points mas altos = menos exposicion pero menos premium
-- **A pesar del softening, rentabilidad absoluta sigue siendo buena** -- ejecutivos ACGL/RNR/Everest describen 2026 como aun altamente profitable
-- Key: disciplined underwriters (ACGL) shed volume; undisciplined ones chase premium
+### Insurance Broking
+- Pure fee/commission model, no claims risk. TAM $328B, +9.4% CAGR
+- Big 4 dominate: MMC ($27B), Aon ($16.6B), AJG ($11.5B), WTW ($9.7B)
+- Benefits in BOTH cycle directions: hard market = higher commissions, soft = more advisory demand
+- Multiple compression: 22x vs 28-30x historical for MMC
 
-### Insurance Broking (NEW - Feb 2026)
-- **Fundamentally different from underwriting** -- pure fee/commission model, no claims risk
-- TAM: $328B (2025), growing at 9.4% CAGR globally, 4.1% in US
-- Dominated by Big 4: MMC ($27B), Aon ($16.6B), AJG ($11.5B), WTW ($9.7B)
-- **Beneficia en AMBAS direcciones del ciclo**: hard market = higher commissions, soft market = more advisory demand
-- Asset-light: Capex <2% revenue, FCF margins 15-20%
-- Key risk: organic growth deceleration in soft markets, multiple compression from premium valuations
+### Marine/War Risk -- CRISIS MODE (NOT our exposure)
+- Iran/Hormuz crisis: marine insurers CANCELLING war risk coverage for Gulf transit
+- War risk premiums at 6-year highs. De facto Hormuz closure
+- ~170 containerships trapped inside strait as of Mar 1
+- This sub-sector is in acute stress but our pipeline has ZERO marine exposure
 
 ---
 
-## Estructura Competitiva
+## Iran/Hormuz Crisis Impact on Insurance (NEW -- Mar 2026)
 
-**Concentracion:** Fragmentado globalmente, oligopolio por mercado local
-**Top 5 Global market share (underwriters):** ~15-20% (Allianz, AXA, Ping An, Berkshire, State Farm)
-**Top 4 Global brokers:** MMC (40%), Aon (25%), AJG (17%), WTW (15%) of top-4 revenue
+**Direct impact on our positions/pipeline: MINIMAL.**
 
-| Empresa | Segmento | Market Cap | P/E | Yield | Fortaleza |
-|---------|----------|------------|-----|-------|-----------|
-| **Marsh McLennan (MMC)** | **#1 Global Broker** | **$90B** | **22x** | **2.0%** | **#1 for 15 consecutive years, WIDE moat, 27% ROE** |
-| **Arch Capital (ACGL)** | **Specialty/Reinsurance/MI** | **$36B** | **8.6x** | **0%** | **Best underwriting discipline, 15%+ BVPS CAGR since 2001** |
-| Aon (AON) | #2 Global Broker | ~$75B | 25x | 0.7% | Pure-play risk/retirement |
-| Arthur J. Gallagher (AJG) | #3 Global Broker | ~$60B | 28x | 0.8% | M&A machine, mid-market |
-| Allianz (ALV.DE) | Multi-line | ~$125B | 10x | 4.2% | Lider global, estabilidad |
-| AXA (CS.PA) | Multi-line | ~$80B | 10x | 5-6% | Valor, alto yield |
-| Berkshire (BRK.B) | P&C/Multi | ~$950B | 23x | 0% | Float + compounding |
-| Chubb (CB) | P&C | $125B | 13x | 1.2% | Premium underwriting |
-| Progressive (PGR) | Personal Auto | $119B | 10.6x | 6.8%* | Telematics leader |
-| Allstate (ALL) | P&C Personal | $53B | 6.6x | 2% | Turnaround, pricing power |
-| Globe Life (GL) | Life/Health | $12B | 10x | 75%** | Niche, high ROE |
-| Travelers (TRV) | Commercial | $64B | 10.5x | 1.5% | Commercial leader |
-| Munich Re (MUV2.DE) | Reinsurance | ~$65B | 14x | 3%+ | Reinsurance #1 |
+| Sub-sector | Impact | Reasoning |
+|------------|--------|-----------|
+| GL (Life/Health) | NONE | US domestic life/health insurance. Zero marine, zero Gulf exposure. Investment portfolio primarily US bonds |
+| ACGL (Specialty/Reinsurance) | LOW-MEDIUM | Bermuda specialty. Some marine/aviation book. Q4 CR 80.6% disciplined. May take modest Hormuz-related claims but manageable. Key: ACGL EXITS lines that don't meet return targets |
+| KNSL (E&S Specialty) | NONE | US-only E&S. No marine, no international. Excess & surplus lines |
+| ERIE (Fee Manager) | NONE | Manages Erie Insurance Exchange. US personal/commercial only |
+| MMC/AON (Brokers) | SLIGHT POSITIVE | Crisis = more demand for risk advisory, placement, war risk brokerage. Fee income rises with complexity |
 
-*Progressive yield appears elevated due to special dividend
-**Globe Life yield appears erroneous in data - actual ~0.7%
-
-**Barreras de entrada:** Altas
-- Capital requirements regulatorios ($B) [underwriters]
-- Licencias estatales/nacionales
-- Brand trust (decadas de construccion)
-- Actuarial expertise y data historica
-- Distribution networks (agents, direct)
-- Client relationships and switching costs [brokers]
+**Net assessment:** Iran crisis is NEUTRAL-TO-POSITIVE for our insurance names. Life/health is defensive haven. Specialty underwriters with discipline benefit from repricing. Brokers benefit from complexity. The crisis CONFIRMS insurance as correct defensive allocation.
 
 ---
 
@@ -111,96 +91,81 @@ El riesgo principal para underwriters es el clima: 2025 fue el sexto ano consecu
 
 | Factor | Sensibilidad | Notas |
 |--------|--------------|-------|
-| Tipos de interes | Alta (Life), Media (P&C), Media (Brokers) | Investment income = 30-100% de operating income segun segmento. Brokers earn fiduciary income on float |
-| Recesion | Media | Primas inelaticas a corto plazo, pero claims pueden subir. Brokers: consulting segments cyclical |
-| Inflacion | Alta | Loss cost inflation en auto/property; offset parcial por repricing. Brokers: commissions rise with premiums |
-| Catastrofes | Muy Alta (P&C), Baja (Brokers) | 6 anos >$100B insured losses; climate trend. Brokers benefit from placement demand |
+| Tipos de interes | Alta (Life), Media (P&C) | Fed hold at 3.50-3.75% = continued strong investment income. Oil-driven inflation may DELAY cuts further = NET POSITIVE for insurers |
+| Recesion | Media | Primas inelasticas short-term. Claims may rise. GL: life/health demand = countercyclical |
+| Inflacion | Alta | Loss cost inflation (social inflation) in auto/property. BUT rate increases are tracking. Oil spike adds modest cost pressure |
+| Catastrofes | Muy Alta (P&C), None (Brokers/Fee) | LA wildfires $37.5B insured in 2025. 2026 hurricane season TBD |
+| Social Inflation | Alta | THE emerging risk. Nuclear verdicts +52%. Jury attitudes shifting. Liability lines pressured |
 
-**Mejor fase del ciclo:** Mid-cycle to early-late (evitar deep recession por claims)
-**Beta tipico:** 0.8-1.1 (defensivo relativo)
-
-### Underwriting Cycle (Dura 8-12 anos)
-- **2020-2024**: Hard market - pricing up, CR mejorando
-- **2025-2026**: Transicion a soft market - competencia, margenes comprimiendo
-- **2027+**: Probable soft market salvo catastrofes mayores
+**Current cycle position:** EARLY-TO-MID SOFT MARKET for P&C. Investment income provides floor. Social inflation creates pockets of hardness in liability. Life/health in stable growth mode.
 
 ---
 
-## Disrupcion y Riesgos
+## Estructura Competitiva
 
-### Tecnologicos
-| Amenaza | Probabilidad | Impacto | Timeline |
-|---------|--------------|---------|----------|
-| AI claims processing | Alta (ya en curso) | Positivo (eficiencia) | 2025-27 |
-| AI underwriting | Alta | Positivo/Neutro | 2025-27 |
-| InsurTech (embedded) | Media | Disruptivo para distribution | 3-5 anos |
-| Fraude con AI | Media | Negativo (costos) | En curso |
-| AI broker analytics | Alta | Positivo for incumbents | 2025-27 |
-
-**Nota**: AI es mas oportunidad que amenaza para incumbents (both underwriters and brokers). El gasto en AI del sector crece >25% anual. Los incumbents tienen data + capital para adoptar. InsurTechs han pivotado a partnerships vs disruption. Brokers use AI for risk analytics, placement optimization, and client advisory.
-
-### Regulatorios
-| Regulacion | Probabilidad | Impacto |
-|------------|--------------|---------|
-| Rate caps (FL, CA) | Alta | Negativo local |
-| Climate disclosure | Alta | Neutro/Compliance cost |
-| AI explainability | Media | Compliance cost |
-| ICS (capital global) | Media | Neutral long-term |
-| Broker compensation transparency | Baja | Could disrupt commissions if enacted |
-
-### Competitivos
-- **Nuevos entrantes**: InsurTechs ya pasaron pico de hype. Ahora son partners mas que competidores.
-- **Sustitutos**: Auto-seguro (grandes corporates), captives. Limitado para personal lines.
-- **Broker consolidation**: Top 4 brokers gaining share from smaller players via M&A (AJG, MMC most active)
-
-### Climatico (RIESGO PRINCIPAL for underwriters)
-- 2025: $224B total losses, $108B insured (6to ano >$100B)
-- California wildfires: $40B insured (record)
-- Tendencia: +5-7% anual en cat losses
-- Respuesta: retiro de zonas alto riesgo, attachment points mas altos, rate increases
-
----
-
-## Sentimiento de Mercado
-
-**Sentimiento actual:** Neutral a ligeramente Querido (post-rally 2024-25)
-
-**Narrativa dominante:**
-"Las aseguradoras han tenido un excelente 2024-25 con combined ratios record y repricing exitoso. Ahora entran en fase de softening con competencia creciente y presion de catastrofes climaticas. Brokers trading at compressed multiples after 2025 selloff."
-
-**Mi contra-tesis:**
-"El mercado esta pricingando correctamente el softening, pero subestima:
-1) La disciplina de underwriting ganada en el hard market (no volveran a 2017-2019 CR facil)
-2) El beneficio estructural de investment income con tipos >4%
-3) Las oportunidades en segmentos despreciados (life, specialty)
-4) **ACGL especificamente es la mejor expresion de la tesis underwriting** -- P/E 8.6x con ROE 17% y 15% BVPS CAGR es mispriced
-5) **MMC es la mejor expresion de la tesis broking** -- #1 global, WIDE moat, 27% ROE, trading at compressed multiple (22x vs 28-30x historical). Needs more pullback to $160 for adequate MoS.
-
-Las europeas (Allianz, AXA) ofrecen yield pero menor calidad de underwriting."
-
-**Flujos de fondos (12m):** Inflows moderados tras outperformance
-**P/E US sector (underwriters):** 13.6x vs 18.8x historico = 27% discount
-**P/E US sector (brokers):** 22x vs 28x historico = 21% discount (MMC specifically)
+| Empresa | Segmento | MCap | P/E | Yield | Key Strength |
+|---------|----------|------|-----|-------|-------------|
+| **ACGL** | **Specialty/Re/MI** | **$36.5B** | **8.7x** | **0%** | **Best discipline. 15% BVPS CAGR since 2001. CR 80.6%** |
+| **KNSL** | **E&S Specialty** | **$9.1B** | **17.9x** | **0%** | **CR 71.7% Q4. GWP +17.3% YoY. Technology edge** |
+| MMC | #1 Global Broker | ~$90B | 22x | 2.0% | #1 for 15yr, WIDE moat, 27% ROE |
+| Aon | #2 Global Broker | ~$75B | 25x | 0.7% | Pure-play risk/retirement |
+| **GL** | **Life/Health** | **$11.8B** | **10.3x** | **~0.7%** | **Niche captive agent. ROE 20%+. FY26 guide $14.95-15.65** |
+| ERIE | Fee Manager | $13.8B | 21.3x | 2.2% | NO underwriting risk. 45.5% insider |
+| Allianz | Multi-line | ~$125B | 10x | 4.2% | Global leader |
+| BRK.B | P&C/Multi | ~$950B | 23x | 0% | Float + compounding |
+| PGR | Personal Auto | $119B | 10.6x | 6.8%* | Telematics leader |
 
 ---
 
 ## Nuestras Posiciones
 
-### Allstate (ALL) - P&C Personal Lines
-- **Shares**: 2.04 | **Invested**: $400 | **Avg Cost**: $196
-- **Current**: ~$202 | **P&L**: ~+3%
-- **Thesis**: Turnaround post-2022 losses, pricing power, P/E 6.6x exceptional
-- **Risk**: Cat exposure (midwest storms), tariffs on auto parts
-- **Catalyst**: Q4 earnings showing sustained CR improvement
+### Globe Life (GL) -- Life/Health Insurance -- PORTFOLIO POSITION
+- **Shares**: 3 | **Invested**: $423 | **Avg Cost**: $141.35
+- **Current**: $145.63 | **P&L**: +3.0%
+- **FV**: $191 (v3.0) | **MoS**: 23.7% | **QS**: 52/55adj Tier B borderline
+- **Conviction**: MEDIUM
+- **Q4 2025 earnings (Feb 4)**: BEAT. EPS $3.29 (+9.3% YoY). FY2025 $14.07. Net health sales +71%. $170M buybacks. FY2026 guidance RAISED to $14.95-$15.65 (midpoint $15.30 = P/E 9.5x forward)
+- **Litigation status**: SEC+DOJ CLEARED Jul 2025. Securities class action proceeding (Texas court denied GL dismissal motion Sep 2025 -- "plausible claims for relief"). Data breach settlement $4.66M filed Feb 12 (immaterial). Class action resolution = PRIMARY catalyst for re-rating
+- **Iran crisis impact**: NONE. US domestic life/health. Defensive in crisis
+- **Risk**: Class action trial date TBD. Social inflation affects life/health claims marginally
+- **Action**: HOLD MEDIUM. Best macro fit in current environment. ADD SO at $125 (MoS 34.5%) remains active
 
-### Globe Life (GL) - Life/Health Insurance
-- **Shares**: 3 | **Invested**: $423 | **Avg Cost**: $141
-- **Current**: ~$144 | **P&L**: ~+2%
-- **Thesis**: Cleared SEC/DOJ inquiry, P/E 10x, ROE 20%, niche market
-- **Risk**: Regulatory overhang residual, Medicare supplement repricing
-- **Catalyst**: Q4 2025 earnings (Feb 4, 2026), confirmation of normalized ops
+**Allocation actual Insurance:** ~3.4% of portfolio (GL only)
 
-**Allocation actual Insurance:** ~6-7% del portfolio (adecuado)
+---
+
+## Pipeline
+
+### Arch Capital (ACGL) -- Specialty/Reinsurance -- SO ACTIVE
+- **SO**: $88 (12.6% from current $100.63) | **Category**: ACTIVE | **Fill prob 6mo**: 50%
+- **FV**: $110 | **MoS at trigger**: 20% | **QS**: 57/68adj Tier B
+- **Q4 2025 earnings (Feb 9)**: BEAT. CR 80.6%. BVPS $65.11. $1.9B buybacks. ROE 17-21%
+- **Soft market risk**: ACGL is THE disciplined underwriter -- sheds volume rather than chase premium. Jan renewals softening may actually help ACGL gain share from undisciplined competitors in 2H 2026
+- **Iran exposure**: LOW. Some marine/aviation book but ACGL actively exits unprofitable lines
+- **Status**: R1 COMPLETE. Entry $88. Waiting for pullback. Iran crisis could create entry opportunity if broad risk-off deepens. Watch for $90-92 approach
+
+### Kinsale Capital (KNSL) -- E&S Specialty -- SO GATED
+- **SO**: $355 (8.7% from current $388.84) | **Category**: GATED | **Fill prob 6mo**: 20%
+- **FV**: $458 | **MoS at trigger**: 22.5% | **QS**: 61/75adj Tier A
+- **Q4 2025 earnings (Feb 12)**: STRONG BEAT. EPS $5.81 (vs $5.30 est). Rev $483M (+17.3%). CR 71.7% (vs 74.8% est). FY2025 NI $503.6M (+21.4%)
+- **Cycle position**: KNSL benefits from P&C softening in ADMITTED market -- more risks flow to E&S market as standard carriers tighten. KNSL's technology cost advantage (expense ratio 20% vs industry 30%) widens in competitive environments
+- **Gate**: Verify Q1 2026 GWP growth trends (ex-property >10%) before executing
+- **Iran exposure**: NONE. US-only E&S
+- **Status**: Near 52wL ($341). Recalibrated trigger $310->$355 (session 133). ACGL is FIRST PRIORITY
+
+### Erie Indemnity (ERIE) -- Fee Manager -- ARCHIVED
+- **Current**: $264.08 | **FV**: $225 (R3 post-DA) | **QS**: 65/77adj Tier A
+- **Status**: SO ARCHIVED (S133). $264 > FV $225 = OVERVALUED. 34% from old trigger = fantasy. SCOTUS No. 25-834 + Spruce Point STRONG SELL + 2x fee comparable created strong counter in DA
+- **Action**: Monitor. Re-evaluate if price <$200. SCOTUS cert disposition is hard gate
+
+### Marsh McLennan (MMC) -- #1 Global Broker -- WATCHLIST
+- **Entry target**: $160 | **Current**: ~$183 (est.) | **QS**: 68adj Tier B | **FV**: $220
+- **Q4 2025 (Jan 29)**: Revenue +9%, organic +4%, adj EPS $2.12 (+10%). FY26 guidance similar
+- **Status**: R1 COMPLETE. Current price above entry. Monitor for crisis-driven pullback
+
+### Aon (AON) -- #2 Global Broker -- WATCHLIST
+- **Entry target**: $300 | **QS**: 70adj Tier B | **FV**: TBD
+- **Status**: R1 COMPLETE. Lower priority than MMC
 
 ---
 
@@ -209,28 +174,33 @@ Las europeas (Allianz, AXA) ofrecen yield pero menor calidad de underwriting."
 ### Para Watchlist (Considerar en Pullbacks)
 | Ticker | Empresa | P/E | Yield | Razon | Priority |
 |--------|---------|-----|-------|-------|----------|
-| ALV.DE | Allianz | 10x | 4.2% | Lider global, estabilidad, yield | Alta |
-| CS.PA | AXA | 10x | 5-6% | Mas barata que ALV, alto yield | Alta |
-| TRV | Travelers | 10.5x | 1.5% | Commercial leader, disciplina | Media |
-| HIG | Hartford | 10.4x | 1.8% | Balanced, good CR | Media |
-| CINF | Cincinnati Fin | 12x | 2.2% | Quality regional | Media |
-| MUV2.DE | Munich Re | 14x | 3% | Reinsurance leader | Media |
-
-### Analizadas - En Watchlist
-| Ticker | Empresa | QS | Thesis Path | Entry Target | Status |
-|--------|---------|-----|-------------|--------------|--------|
-| **ACGL** | **Arch Capital** | **68 adj (B)** | **thesis/research/ACGL** | **$92** | **R1 complete, WATCHLIST** |
-| **MMC** | **Marsh McLennan** | **68 adj (B)** | **thesis/research/MMC** | **$160** | **R1 complete, WATCHLIST** |
-| **AON** | **Aon plc** | **70 adj (B)** | **thesis/research/AON** | **$300** | **R1 complete, WATCHLIST** |
-| KMPR | Kemper Corp | 42 (C) | thesis/research/KMPR | $28 | Wait for turnaround confirmation |
-| **ERIE** | **Erie Indemnity** | **77 adj (A)** | **thesis/research/ERIE** | **$180** | **R3 complete S126. STRONG COUNTER. FV $225 (-28%). SCOTUS lawsuit. Spruce Point short.** |
+| ALV.DE | Allianz | 10x | 4.2% | Global leader, yield, stability | Media |
+| CS.PA | AXA | 10x | 5-6% | Cheaper than ALV, high yield | Media |
+| TRV | Travelers | 10.5x | 1.5% | Commercial leader | Baja |
+| CINF | Cincinnati Fin | 12x | 2.2% | Quality regional | Baja |
+| MUV2.DE | Munich Re | 14x | 3% | Reinsurance #1 | Baja |
 
 ### Evitar
 | Ticker | Empresa | Razon |
 |--------|---------|-------|
-| PGR | Progressive | P/E 10.6x post-rally, premium valuation vs peers |
-| CB | Chubb | P/E 13x, premium valuation, bajo yield |
-| MET/PRU | Life insurers | Alta sensibilidad a tipos, beta elevado |
+| PGR | Progressive | Premium valuation post-rally |
+| CB | Chubb | P/E 13x, premium valuation, low yield |
+| MET/PRU | Life insurers (large) | High rate sensitivity, beta elevated |
+| KMPR | Kemper Corp | QS 42 Tier C. Turnaround unconfirmed |
+
+---
+
+## Key Risks Q1 2026
+
+| Risk | Probability | Impact | Affected |
+|------|-------------|--------|----------|
+| Social inflation acceleration | HIGH (70%) | Medium-High | GL (minor), ACGL (GL/auto lines), KNSL (E&S liability) |
+| Reinsurance soft market deepens | HIGH (65%) | Medium | ACGL (managed via discipline), KNSL (E&S benefits) |
+| LA wildfire aftershocks (Q1 reserving) | Medium (40%) | Medium | P&C underwriters. ACGL has exposure but managed |
+| Iran/Hormuz marine losses | HIGH (80%) | LOW for our names | Marine underwriters only. GL/KNSL/ERIE = zero. ACGL minimal |
+| Oil-driven inflation delaying rate cuts | Medium (50%) | POSITIVE for insurers | Higher investment income for longer. NET POSITIVE |
+| Hurricane season 2026 | Medium (35%) | High if severe | P&C underwriters. KNSL E&S property. ACGL reinsurance |
+| GL class action adverse ruling | Medium (30%) | High for GL only | Trial date TBD. SEC/DOJ already cleared |
 
 ---
 
@@ -238,28 +208,27 @@ Las europeas (Allianz, AXA) ofrecen yield pero menor calidad de underwriting."
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| 2026-02-09 | **ACGL Q4 2025 earnings REPORTED** | Beat EPS, 80.6% CR, $65.11 BVPS, $1.9B buybacks |
-| 2026-01-29 | **MMC Q4 2025 earnings REPORTED** | Revenue +9%, organic +4%, adj EPS $2.12 (+10%), guides FY26 similar |
-| 2026-02-04 | GL Q4 earnings | Critical - confirmation of normalized ops |
-| 2026-02-04 | KMPR Q4 earnings | Watch - turnaround progress |
-| 2026-02-05 | ALL Q4 earnings | Important - CR sustainability |
-| 2026 Q1 | Fed decisions | Investment income direction |
-| 2026 Q2-Q3 | Hurricane season | Cat loss exposure test |
-| 2026 H2 | Rate filing approvals | Pricing power confirmation |
+| Ongoing | Iran/Hormuz crisis | Marine war risk chaos. Our names insulated. Monitor ACGL marine book |
+| 2026-02-12 | GL data breach settlement filed | Immaterial ($4.66M). Clearing noise |
+| 2026 Q1 | GL class action proceedings | Trial date TBD. Key re-rating catalyst when resolved |
+| 2026 Q2 | ACGL Q1 2026 results | Soft market impact. Watch CR discipline |
+| 2026 Q2 | KNSL Q1 2026 results | GWP growth verification (gate for SO) |
+| 2026 Q2-Q3 | Hurricane season | Cat loss exposure. ACGL/KNSL most exposed |
+| 2026 H2 | Rate filing approvals | Social inflation response verification |
+| TBD | ERIE SCOTUS No. 25-834 | Fee structure challenge. Hard gate for entry |
 
 ---
 
 ## Accion Recomendada
 
-**Status: NEUTRAL - Stock picking selectivo**
+**Status: NEUTRAL-FAVORABLE -- Defensive sector in crisis. Stock picking selectivo.**
 
-1. **Mantener** ALL y GL - ambas bien posicionadas
-2. **ACGL is top insurance UNDERWRITER pick** - R1 complete, QS 68 adj, FV $120, entry $92. Proceed to R2 if price approaches entry.
-3. **MMC is top insurance BROKER pick** - R1 complete, QS 68 adj, FV $220, entry $160. Current price $183 too high. Monitor for pullback.
-4. **Watchlist** ALV.DE y CS.PA con targets de entrada (pullback 10%+)
-5. **Watchlist** KMPR at $28 - requires turnaround confirmation
-6. **Considerar rotation** ALL/GL -> ACGL or MMC if capital needed (Principio 9: Quality Gravitation). ACGL/MMC QS 68 > ALL 56 > GL 52.
-7. **Monitorear** cat season 2026 - oportunidades si hay overreaction
+1. **GL HOLD MEDIUM.** Best macro fit in Iran crisis environment. Defensive life/health. Q4 beat, guidance raised. Class action is the swing factor -- resolution would unlock re-rating to $191 FV. ADD SO at $125 (MoS 34.5%) stays active but unlikely to fill absent market crash
+2. **ACGL is #1 insurance pipeline priority.** SO at $88 (12.6% away). Disciplined underwriter entering soft market = contrarian opportunity. If Iran risk-off deepens and brings broad -10%+ selloff, ACGL could approach entry. MONITOR closely
+3. **KNSL is #2 insurance pipeline priority.** SO at $355 (8.7% away). Near 52wL. Q4 crushed estimates (CR 71.7%). E&S benefits from standard market softening. GATED on Q1 GWP verification
+4. **ERIE ARCHIVED.** Above FV. SCOTUS hard gate. Revisit below $200
+5. **MMC/AON too expensive.** Watchlist. Wait for crisis-driven pullback to $160/$300 respectively
+6. **Sector allocation ~3.4% (GL only).** Room to grow to 6-8% if ACGL entry fills. Insurance is a CORRECT defensive allocation in current crisis environment
 
 ---
 
@@ -267,11 +236,11 @@ Las europeas (Allianz, AXA) ofrecen yield pero menor calidad de underwriting."
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Portfolio | GL | thesis/active/GL | 2026-02-03 | HOLD |
-| Watchlist | **ACGL** | **thesis/research/ACGL** | **2026-02-12** | **Entry $92** |
-| Watchlist | **MMC** | **thesis/research/MMC** | **2026-02-13** | **Entry $160** |
-| Watchlist | KMPR | thesis/research/KMPR | 2026-02-04 | Entry $28 |
-| Watchlist | **ERIE** | **thesis/research/ERIE** | **2026-02-26** | **R3 COMPLETE. Entry $180 (was $250). SCOTUS gated. QS 77adj.** |
+| Portfolio | GL | thesis/active/GL | 2026-02-10 | HOLD MEDIUM. FV $191 |
+| Pipeline | ACGL | thesis/research/ACGL | 2026-02-14 | SO $88 ACTIVE (12.6% away) |
+| Pipeline | KNSL | thesis/research/KNSL | 2026-03-02 | SO $355 GATED (8.7% away) |
+| Watchlist | MMC | thesis/research/MMC | 2026-02-13 | Entry $160 |
+| Archived | ERIE | thesis/research/ERIE | 2026-02-26 | ARCHIVED. Above FV. SCOTUS gate |
 
 ---
 
@@ -279,28 +248,20 @@ Las europeas (Allianz, AXA) ofrecen yield pero menor calidad de underwriting."
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
-| 2026-02-26 | **ERIE R3 COMPLETE — DA STRONG COUNTER** | FV $313→$225 (-28.1%). QS 85→77. Entry $250→$180. SCOTUS No. 25-834 + Spruce Point STRONG SELL + 2x fee comparable. GATED on cert disposition. |
-| 2026-02-26 | **Added ERIE R1 analysis** | QS 65/85adj Tier A, FV $313, entry $250. Fee-based management company for Erie Insurance Exchange. 45.5% insider, 0 analysts, -41% off high (one-time $100M donation + premium decel + AM Best downgrade). New sub-category: Fee Managers. |
-| 2026-02-14 | **ALL SOLD** | Tier C ON PROBATION, MoS 11.3% insufficient, peak cycle (CR 85.2%), 6/6 SELL precedent consistency. P&L +5.9%. Moved to archive. |
-| 2026-02-13 | **Added MMC R1 analysis** | QS 68 adj Tier B, FV $220, entry $160. #1 global insurance broker, WIDE moat, 27% ROE. Asset-light, no underwriting risk. Current price $183 above entry. Added broker vs underwriter distinction to sector view. |
-| 2026-02-12 | **Added ACGL R1 analysis** | QS 68 adj Tier B, FV $120, entry $92. Best-in-class specialty insurer. Updated reinsurance softening data (Jan 2026 renewals -14.7% prop cat). |
-| 2026-02-04 | Added KMPR analysis | QS 42 Tier C, WATCHLIST at $28 entry |
+| 2026-03-02 | **Q1 2026 full update.** Status NEUTRAL->NEUTRAL-FAVORABLE. GL Q4 beat + guidance raised. KNSL Q4 beat (CR 71.7%). Soft market data updated. Iran/Hormuz crisis impact assessed (minimal for our names). Social inflation data added. ACGL/KNSL pipeline updated with fresh prices. ERIE archived. ALL removed (sold Feb 14). | 17-day staleness update. Crisis context |
+| 2026-02-26 | ERIE R3 COMPLETE -- DA STRONG COUNTER | FV $313->$225 (-28.1%). SCOTUS gated |
+| 2026-02-14 | ALL SOLD | Tier C, MoS insufficient, peak cycle. P&L +5.9% |
+| 2026-02-13 | Added MMC R1 analysis | QS 68 adj Tier B, FV $220, entry $160 |
+| 2026-02-12 | Added ACGL R1 analysis | QS 68 adj Tier B, FV $120, entry $92 |
 | 2026-02-03 | Status inicial: NEUTRAL | Sector en transicion hard->soft market |
 
 ---
 
 ## Fuentes
 
-- [Swiss Re Sigma](https://www.swissre.com/institute/research/sigma-research/)
-- [Deloitte 2026 Insurance Outlook](https://www.deloitte.com/us/en/insights/industry/financial-services/financial-services-industry-outlooks/insurance-industry-outlook.html)
-- [S&P Global US P&C Report](https://www.spglobal.com/market-intelligence/)
-- [Munich Re Natural Disaster Figures](https://www.munichre.com/en/company/media-relations/)
-- [OECD Global Insurance Trends](https://www.oecd.org/en/publications/global-insurance-market-trends-2025_0d11ecf4-en.html)
-- [J.P. Morgan European Insurance Analysis](https://www.investing.com/news/stock-market-news/jp-morgan-names-best-european-insurance-stocks-for-2026-as-sector-slows-93CH-4395349)
-- [Simply Wall St Insurance Analysis](https://simplywall.st/markets/us/financials/insurance)
-- [NYU Stern P/E Data](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html)
-- [Reinsurance Pricing Softening Jan 2026 - Artemis/Howden Re](https://www.artemis.bm/news/property-cat-reinsurance-down-14-7-retrocession-down-16-5-at-jan-2026-renewals-howden-re/)
-- [KBW Property Cat Rate Decline](https://beinsure.com/news/drop-cat-reinsurance-rates-renewals/)
-- [Arch Capital Q4 2025 Results](https://www.stocktitan.net/news/ACGL/arch-capital-group-ltd-reports-2025-fourth-quarter-xyveznrieped.html)
-- [Insurance Brokerage Industry Report 2026](https://www.globenewswire.com/news-release/2026/02/09/3234440/28124/en/Insurance-Brokerage-Industry-Report-2026-Market-Share-Analysis-Industry-Trends-Statistics-Growth-Forecasts-2025-2031.html)
-- [AM Best Top 20 Global Brokers](https://www.xprimm.com/AM-Best%E2%80%99s-Top-20-Global-Brokers-2024-Marsh-McLennan-and-Aon-top-the-ranking-for-the-14th-consecutive-year-articol-124-22006.htm)
+Sector: S&P Global P&C 2026 Outlook, Deloitte 2026 Global Insurance Outlook, Fitch 2026 P&C Outlook, Amwins State of the Market 2026, Howden Re (Jan renewals), JP Morgan P&C Reinsurance.
+Social Inflation: CAS/Triple-I analysis ($231-281B losses over decade), NAIC, Stillwell Risk Partners (2026 liability trends), RAND study on trial awards.
+Cat: Morningstar (LA wildfires one-year retrospective), Moody's RMS ($37.5B LA insured losses), Claims Journal.
+Companies: GL Q4 2025 PR (Feb 4 2026), ACGL Q4 2025, KNSL Q4 2025 (Feb 12 2026), MMC Q4 2025 (Jan 29 2026).
+Iran: Insurance Journal (marine war risk cancellation Mar 2 2026), Kpler (Hormuz crisis oil markets).
+Data: price_checker.py GL/ACGL/KNSL/ERIE (Mar 2 2026), standing_orders.yaml, macro_fragility.py.

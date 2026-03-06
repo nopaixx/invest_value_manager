@@ -1,6 +1,6 @@
 # Sector: Consumer Staples
 
-> Ultima actualizacion: 2026-02-04
+> Ultima actualizacion: 2026-03-02 (S132 — Iran cascade update)
 > Status: **NEUTRAL** - Seleccionar empresas especificas, no sobreponderar sector
 
 ## Resumen Ejecutivo
@@ -178,6 +178,31 @@ Consumer Staples es el sector defensivo por excelencia: alimentos, bebidas, taba
 - **Currency:** Empresas globales expuestas a FX
 - **China slowdown:** Danone, Nestle, Diageo, Pernod Ricard tienen exposure significativa
 
+### **IRAN CRISIS CASCADE (S132 — 2026-03-02)**
+
+Operation Epic Fury impacta consumer staples via multiples canales:
+
+**1. Oil/Energy costs → Input cost inflation:**
+- Brent +7.6% a $78.41. Si Hormuz persiste cerrado, $85-95 posible.
+- Packaging (petrochemicals), transport, agriculture (fertilizantes de gas natural) costs suben.
+- Food companies con margenes bajos (<30% gross) mas vulnerables: DOM.L (pizza delivery = fuel costs + food inputs).
+- Empresas con pricing power (Nestle, P&G) pueden trasladar; las que no (private label dependientes) sufren.
+
+**2. Consumer confidence shock:**
+- EU consumer sentiment cayendo con mercados -1.8-2.3% y oil surging.
+- UK especialmente vulnerable: 5 posiciones nuestras en UK, DOM.L es la mas expuesta como discretionary food.
+- Si oil >$90 sostenido → inflacion vuelve → BCE/BoE no pueden bajar tipos → consumer staples como yield plays NO se re-ratan.
+
+**3. Implicaciones para DOM.L (FY25 Mar 5):**
+- Crisis podria AMPLIFICAR debilidad: delivery costs suben (fuel), consumer retrench en takeaway
+- PERO: pizza delivery como "affordable indulgence" puede resistir vs dining out
+- Framework ya preparado: EBITDA >GBP 125M = KC#1. Crisis NO cambia el gate.
+
+**4. Defensive rotation potential:**
+- Si crisis se profundiza y mercados caen 5-10%, consumer staples como sector defensivo podria recibir flujos
+- Beta 0.6-0.8 = captura solo 60-80% de caidas → outperformance relativa
+- Nuestras posiciones en sector (solo DOM.L) no son defensivas tipicas (pizza delivery ≠ P&G)
+
 ---
 
 ## Sentimiento de Mercado
@@ -204,163 +229,48 @@ Consumer Staples es el sector defensivo por excelencia: alimentos, bebidas, taba
 
 ## Empresas Objetivo
 
-### En Portfolio (Revisar)
+### Para Analisis (no yet screened)
+HRL (dividend king 60y, -25%), ULVR.L (lowest P/E majors), DGE.L (spirits, ROE 20%), NESN.SW (quality premium)
 
-| Ticker | Empresa | P/E | Yield | Thesis Status |
-|--------|---------|-----|-------|---------------|
-| IMB.L | Imperial Brands | 9x fwd | 5.3% | HOLD - barato en sector, cash cow, beta 0.15 |
-| DOM.L | Domino's Pizza UK | Alto | 6.4% | REVIEW - caido 40%, pero warning signs |
-| TATE.L | Tate & Lyle | ~15x | ~3% | HOLD - acquisition CP Kelco, healthy trends |
-
-### Analizadas - En Watchlist
-
-| Ticker | Empresa | P/E | Yield | Thesis Status | Entry Target |
-|--------|---------|-----|-------|---------------|--------------|
-| GIS | General Mills | 10x | 5.2% | WATCHLIST - Fair value ~$45, need $35-38 for 25% MoS | $35-38 |
-| BATS.L | British American Tobacco | ~10x norm | 5.3% | WATCHLIST - Tier B, MoS 12% insuf. Need 25% MoS | 4000-4200 GBp |
-| RI.PA | Pernod Ricard | 12.4x | 6.2% | WATCHLIST - Tier C (QS 51), FV EUR 65-70, need EUR 55-60 for 30% MoS. China/US headwinds. H1 FY26 earnings 19-Feb critical | EUR 55-60 |
-| **INGR** | **Ingredion** | 10.8x | 2.7% | **WATCHLIST** - Tier B (QS 57), FV $141, current $120.90 = 14% MoS insuf. Narrow moat (specialty ingredients), 0.6x leverage, 11+ yr dividend streak. Argo facility issues temporary. | $105-113 |
-
-### Analizadas - Evitar (Value Traps)
-
-| Ticker | Empresa | P/E | Yield | Razon Evitar | Fecha Analisis |
-|--------|---------|-----|-------|--------------|----------------|
-| CAG | Conagra Brands | N/A (loss) | 7.3% | **VALUE TRAP**: 5/10 factors triggered, ROIC ~5% barely covers WACC, $968M impairment, declining volumes, dividend payout -667% (negative earnings), gross margin 27% worst in sector | 2026-02-04 |
-
-### Para Analisis Profundo
-
-| Ticker | Razon | Priority |
-|--------|-------|----------|
-| HRL | Hormel Foods - dividend king 60y, caido 25% | Media |
-| ULVR.L | Unilever - lowest P/E de majors, highest yield | Media |
-| NESN.SW | Nestle - quality pero premium | Baja |
-| DGE.L | Diageo - spirits premium, correccion, ROE 20% vs Pernod 10% | Media |
-
-### Evitar (Legacy)
-
-| Ticker | Razon |
-|--------|-------|
-| KO | Coca-Cola - P/E alto, GLP-1 exposure, no margen seguridad |
-| PEP | PepsiCo - mejor que KO pero still no cheap |
-| MDLZ | Mondelez - snacks puro, vulnerable a GLP-1 |
-| EL | Estee Lauder - China dependency, premium valuation |
+### Evitar
+KO (P/E alto, GLP-1), PEP (not cheap), MDLZ (GLP-1 vulnerable), CAG (VALUE TRAP 5/10), EL (China)
 
 ---
 
 ## Catalizadores Proximos
 
-| Fecha | Evento | Impacto esperado |
-|-------|--------|------------------|
-| 12-Feb-2026 | **BAT FY25 Results** | Key for smoke-free progress, 2026 guidance |
-| Feb 17, 2026 | CAG CAGNY conference | May provide clarity (but avoid CAG) |
-| **19-Feb-2026** | **Pernod Ricard H1 FY26 Results** | Critical for RI.PA thesis - FCF, dividend, China recovery |
-| Q1 2026 | Earnings season | Visibility on GLP-1 impact, pricing |
-| Mar 2026 | GIS Q3 FY26 earnings | Volume trend critical for thesis |
-| Mar 2026 | TATE.L FY results | CP Kelco integration update |
-| **Apr 2026** | **INGR Q1 FY26 earnings** | Argo facility resolution update critical |
-| Apr 2, 2026 | CAG Q3 FY26 earnings | Will show if decline continues |
-| 2026 | Fed rate cuts (if any) | Positivo para yield stocks |
-| 2026 | GLP-1 adoption pace | Si slower bullish for food |
-
----
+| Fecha | Evento | Impacto |
+|-------|--------|---------|
+| **Mar 5, 2026** | **DOM.L FY25 Results** | **KC#1 EBITDA <GBP125M = SELL** |
+| Mar 2026 | GIS Q3 FY26 earnings | Volume trend for thesis |
+| **Apr 2026** | **INGR Q1 FY26 earnings** | Argo facility resolution |
 
 ## Dependencias Activas
 
-| Tipo | Ticker | Thesis Path | Ultima Eval | Status |
-|------|--------|-------------|-------------|--------|
-| Historial | IMB.L | thesis/archive/IMB.L | 2026-02-10 | SOLD +6.9%. QS 54 Tier C, MoS -14.6%. |
-| Portfolio | DOM.L | thesis/active/DOM.L | 2026-02-02 | REVIEW |
-| Historial | TATE.L | thesis/archive/TATE.L | 2026-02-08 | SOLD +3.5%. QS 45 Tier C, adversarial FV -40%. |
-| Watchlist | GIS | thesis/research/GIS | 2026-02-04 | Entry $35-38 |
-| Watchlist | BATS.L | thesis/research/BATS.L | 2026-02-04 | Entry 4000-4200 GBp |
-| Watchlist | RI.PA | thesis/research/RI.PA | 2026-02-04 | Entry EUR 55-60 |
-| **Watchlist** | **INGR** | **thesis/research/INGR** | **2026-02-04** | **Entry $105-113** |
-| Avoid | CAG | thesis/research/CAG | 2026-02-04 | VALUE TRAP - Do not buy |
+| Tipo | Ticker | Status |
+|------|--------|--------|
+| Portfolio | DOM.L | HOLD LOW. FY25 Mar 5 |
+| Watchlist | GIS, BATS.L, RI.PA, INGR, DGE.L | See watchlist table above |
 
 ---
 
 ## Implicaciones para Portfolio
 
-### Posiciones Actuales
+### Posicion Actual
+- **DOM.L** — QS 61 Tier B, FV 240 GBp, HOLD LOW CONVICTION. FY25 results Mar 5. KC#1 EBITDA <GBP125M = SELL. See thesis/active/DOM.L/thesis.md.
 
-**IMB.L (Imperial Brands) — SOLD 2026-02-10 (+6.9%):**
-- Adversarial review: QS 54 Tier C (thesis claimed Tier A 9.5/10)
-- FV revised 3,701→2,796p (-24.4%), MoS -14.6% at exit
-- Key gaps: $400M HMRC payment, UK generational ban, dividend cut history (2016)
-- Lesson: excise tax pass-through inflates revenue but distorts quality metrics
+### Sold: IMB.L (+6.9% S76, QS 54 Tier C), TATE.L (+3.5% S73, QS 45 Tier C). Lesson: excise tax distorts quality metrics.
 
-**DOM.L (Domino's Pizza UK):**
-- REVISAR - Caido 40%, yield 6.4%, pero forward P/E alto (993x?)
-- Warning signs: solvency score 38/100, orders declining
-- Thesis necesita re-validacion - posible value trap
-- Accion: Fundamental analysis profundo requerido
+### Watchlist (detail in thesis/research/)
+| Ticker | Entry | FV | QS/Tier | Key Gate |
+|--------|-------|----|---------|----------|
+| GIS | $35-38 | $45 | — | Q3 FY26 volume |
+| BATS.L | 4000-4200p | 5163p | Tier B | IMB.L sold, sole tobacco OK |
+| RI.PA | EUR 55-60 | EUR 65-70 | 51/C | China/destocking |
+| INGR | $105-113 | $141 | 57/B | Argo facility, Q1 guide weak |
+| DGE.L | — | — | — | Prefer over RI.PA (2x ROE, safer div) |
 
-**TATE.L (Tate & Lyle):**
-- MANTENER - Food ingredients, healthy trends benefician
-- Acquisition CP Kelco diversifica, pero execution risk
-- Analysts +32% upside target
-- Caido desde 663p a 380p sin cambio fundamental dramatico
-
-### Nuevas Oportunidades
-
-1. **General Mills (GIS)** - WATCHLIST (Analizado 2026-02-04)
-   - P/E 10x, yield 5.2%, pricing power demostrado
-   - Fair value ~$45, current $46.50 = fairly valued
-   - **NOT cheap enough for 25% MoS (Tier B)**
-   - Entry target: $35-38 (need 18-25% drop)
-   - Monitor Q3 FY26 earnings for volume stabilization
-
-2. **BAT (BATS.L)** - WATCHLIST (Analizado 2026-02-04)
-   - P/E ~10x normalized, yield 5.3%, GBP 1.3B buyback 2026
-   - Smoke-free 18.2% revenue, Velo Plus #2 US pouches
-   - **Tier B (4/10 value trap factors)** - requires 25% MoS
-   - Current MoS: 12-17% vs blended FV 5163 GBp
-   - **Entry target: 4000-4200 GBp** (~10% below current)
-   - IMB.L sold 2026-02-10 — no tobacco concentration risk anymore
-   - If entry 4000-4200p, could be sole tobacco position
-
-3. **Pernod Ricard (RI.PA)** - WATCHLIST (Analizado 2026-02-04)
-   - P/E 12.4x, yield 6.2%, #2 global spirits
-   - **Quality Score 51/100 (Tier C)** - requires 30-40% MoS
-   - Fair value EUR 65-70 (weighted), current EUR 80 = **overvalued**
-   - China tariffs (-21% China sales), US destocking, "transition year" FY2026
-   - FCF coverage of dividend only 0.99x (tight)
-   - **Entry target: EUR 55-60** (25-30% below current)
-   - **Key catalyst: H1 FY26 earnings 19-Feb-2026**
-   - Prefer DGE.L on risk-adjusted basis (safer dividend, 2x ROE)
-
-4. **Ingredion (INGR)** - WATCHLIST (Analizado 2026-02-04)
-   - P/E 10.8x, yield 2.7%, #3-5 global food ingredients
-   - **Quality Score 57/100 (Tier B)** - requires 20-25% MoS
-   - Fair value $141 (weighted EV/EBIT + P/E), current $120.90 = **14% MoS insufficient**
-   - Narrow moat via switching costs in specialty ingredients (850+ patents)
-   - Excellent balance sheet: 0.6x Net Debt/EBITDA
-   - 11+ years consecutive dividend increases, 34% payout ratio
-   - Temporary headwinds: Argo facility issues, Q4 earnings miss, weak Q1 2026 guidance
-   - NOT a value trap (0/10 factors)
-   - **Entry target: $105-113** (need 10-15% drop)
-   - **Concern**: US geography already 32%, adding INGR pushes to 35-36%
-   - **Note**: Similar business to TATE.L (both food ingredients) - concentration risk
-
-5. **Diageo (DGE.L)** - Priority MEDIA
-   - Premium spirits, correccion reciente
-   - ROE 20.1% vs Pernod 10.1% (2x better capital efficiency)
-   - FCF coverage 1.5x vs Pernod 0.99x (safer dividend)
-   - China/luxury exposure es risk but less than Pernod
-   - Better risk-adjusted choice in spirits
-
-### Value Traps Confirmados
-
-1. **Conagra Brands (CAG)** - AVOID (Analizado 2026-02-04)
-   - Down 37% looks attractive but is a TRAP
-   - 5/10 value trap factors triggered
-   - ROIC 5.3-5.7% barely covers WACC ~5% = NO moat
-   - $968M goodwill/brand impairment in Q2 FY26
-   - Dividend payout ratio -667% (negative earnings)
-   - Gross margin 27% = WORST among peers (GIS 34%, K 32%)
-   - Management expects FY26 EPS $1.70-1.85, down -24% YoY
-   - Analyst consensus: HOLD, avg target $18.58 (BELOW current $19.11)
-   - **Lesson:** High yield + big drop does NOT equal opportunity. Look at fundamentals.
+### Avoid: CAG (5/10 value trap, ROIC 5.3% = no moat, $968M impairment). See thesis/research/CAG.
 
 ---
 
@@ -368,59 +278,15 @@ Consumer Staples es el sector defensivo por excelencia: alimentos, bebidas, taba
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
-| 2026-02-04 | **INGR anadido a Watchlist** | Analisis Framework v3.0 completo. QS 57 (Tier B). FV $141, current $120.90 = 14% MoS insuf. Entry $105-113. Narrow moat, solid balance sheet, temporary issues. |
-| 2026-02-04 | **RI.PA anadido a Watchlist** | Analisis Framework v3.0 completo. QS 51 (Tier C). FV EUR 65-70, current EUR 80 = overvalued. Entry EUR 55-60. H1 FY26 19-Feb catalyst. |
-| 2026-02-04 | Spirits sub-sector anadido | Para documentar Pernod Ricard y Diageo correctamente |
-| 2026-02-04 | **CAG movido de "Para Analisis" a "Evitar - Value Traps"** | Analisis Framework v2.0 completo. 5/10 value trap factors. ROIC ~5% = no moat. Dividend unsustainable. |
-| 2026-02-04 | **BATS.L movido de "Para Analisis" a "Watchlist"** | Analisis completo Framework v2.0. Tier B, MoS 12% insuf. Entry 4000-4200 GBp. Tobacco concentration risk con IMB.L existente |
-| 2026-02-04 | GIS movido de "Para Analisis" a "Watchlist" | Analisis completo Framework v2.0. FV $45, current $46.50 = fair. Entry $35-38 |
-| 2026-02-03 | Status inicial: NEUTRAL | Valuaciones no extremas, disrupcion real |
+| 2026-03-02 | Iran cascade update | Oil $78+, input cost risk, DOM.L FY25 Mar 5 context. NEUTRAL maintained. |
+| 2026-02-04 | 5 analyses completed | GIS/BATS.L/RI.PA/INGR→Watchlist. CAG→AVOID (value trap). |
+| 2026-02-03 | Status inicial: NEUTRAL | Valuaciones no extremas, disrupcion real. |
 
 ---
 
 ## Fuentes
 
-### Mercado y TAM
-- [Transparency Market Research: Consumer Staples Market 2035](https://www.transparencymarketresearch.com/consumer-staples-market.html)
-- [Deloitte: Consumer Products Industry Outlook 2026](https://www.deloitte.com/us/en/insights/industry/consumer-products/consumer-products-industry-outlook.html)
-- [Fidelity: Consumer Staples Sector Outlook 2025](https://www.fidelity.com/learning-center/trading-investing/outlook-consumer-staples)
-- [Precedence Research: Food Ingredients Market](https://www.precedenceresearch.com/food-ingredients-market)
-- [Grand View Research: Specialty Food Ingredients Market](https://www.grandviewresearch.com/industry-analysis/specialty-food-ingredients-market)
-
-### Valuaciones
-- [World P/E Ratio: S&P 500 Consumer Staples](https://worldperatio.com/sector/sp-500-consumer-staples/)
-- [Guinness Global Investors: Consumer Staples Sector](https://www.guinnessgi.com/insights/consumer-staples-sector-stocks)
-- [MSCI Europe Consumer Staples Index](https://www.msci.com/www/index-factsheets/msci-europe-consumer-staples/08526685)
-
-### Private Label
-- [Grocery Dive: Private Label Record Sales 2025](https://www.grocerydive.com/news/private-label-record-sales-volume-2025-plma-grocery/810093/)
-- [Grocery Trade News: Private Label Margins 2025](https://www.grocerytradenews.com/private-label-margins-2025/)
-- [eMarketer: Private Label Growth 2025](https://www.emarketer.com/content/private-label-growth-2025-retail-trends)
-
-### GLP-1 Impact
-- [Cornell Chronicle: Ozempic Changing Food Americans Buy](https://news.cornell.edu/stories/2025/12/ozempic-changing-foods-americans-buy)
-- [Circana: GLP-1 Users 35% of Sales by 2030](https://www.circana.com/post/glp-1-medication-users-to-represent-35-percent-of-u-s-food-and-beverage-sales-by-2030)
-- [Food Navigator: GLP-1 Effect on Food & Beverage 2026](https://www.foodnavigator-usa.com/Article/2025/12/15/soup-to-nuts-podcast-how-will-glp-1s-reshape-food-in-2026/)
-
-### Spirits Industry
-- [Mordor Intelligence - Spirits Market](https://www.mordorintelligence.com/industry-reports/spirits-market)
-- [Globe Newswire - Spirits Market 2028](https://www.globenewswire.com/news-release/2025/02/04/3020281/0/en/1-22-Trillion-Opportunities-in-the-Global-Spirits-Market-to-2028-with-Diageo-Pernod-Ricard-Suntory-The-Mark-Anthony-Group-of-Companies-and-Hite-Jinro-Dominating.html)
-- [DIMINS - 2026 Wine & Spirits Trends](https://www.dimins.com/blog/2026/01/13/2026-wine-spirits-industry-trends/)
-
-### Empresas Especificas
-- [Stock Analysis: Imperial Brands Statistics](https://stockanalysis.com/quote/lon/IMB/statistics/)
-- [Simply Wall St: Tate & Lyle Analysis](https://simplywall.st/stocks/gb/food-beverage-tobacco/lse-tate/tate-lyle-shares)
-- [Yahoo Finance: Domino's Pizza Group](https://finance.yahoo.com/quote/DOM.L/)
-- [MoneyWeek: Tobacco Industry Going Smoke-Free](https://moneyweek.com/investments/the-tobacco-industry-is-going-smoke-free)
-- [General Mills IR - Q2 FY2026 Results](https://www.generalmills.com/news/press-releases/general-mills-reports-fiscal-2026-second-quarter-results-and-reaffirms-full-year-outlook)
-- [BAT 2025 Pre-Close Trading Update](https://www.bat.com/media/press-releases/_2025/december/2025-full-year-pre-close-trading-update)
-- [Conagra Q2 FY2026 Earnings](https://www.conagrabrands.com/news-room/news-conagra-brands-reports-second-quarter-results-prn-122942)
-- [Seeking Alpha: Conagra Sell Rating](https://seekingalpha.com/article/4853964-conagra-brands-sell-on-bleak-outlook-and-falling-fundamentals)
-- [Pernod Ricard FY25 Results](https://www.pernod-ricard.com/en/media/fy25-full-year-sales-and-results)
-- [Simply Wall St: Pernod Ricard Ownership](https://simplywall.st/stocks/us/food-beverage-tobacco/otc-pdrd.f/pernod-ricard/ownership)
-- [Ingredion Q4 2025 Results](https://www.globenewswire.com/news-release/2026/02/03/3230839/0/en/Ingredion-Incorporated-Reports-2025-Fourth-Quarter-and-Full-Year-Results.html)
-- [Ingredion Moat Analysis - Morningstar](https://www.morningstar.com/stocks/ingredion-benefits-improving-product-mix)
-
-### Sector Defensivo
-- [Nasdaq: Recession 2026 Consumer Staple Stocks](https://www.nasdaq.com/articles/recession-2026-3-solid-consumer-staple-stocks-safety)
-- [24/7 Wall St: Consumer Staples Dividend Kings 2026](https://247wallst.com/investing/2026/01/21/consumer-staples-are-exploding-higher-in-2026-buy-5-high-yielding-dividend-kings-now/)
+Sector-level: Transparency Market Research (TAM $4,962B), Deloitte (outlook 2026), Fidelity (sector outlook).
+Private label: Grocery Dive (record sales 2025), eMarketer (growth trends).
+GLP-1: Cornell Chronicle (food buying changes), Circana (35% of sales by 2030).
+Individual company sources: see respective thesis files in thesis/research/ and thesis/active/.

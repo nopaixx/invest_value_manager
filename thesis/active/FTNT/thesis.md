@@ -161,6 +161,12 @@ DA adjustments: -$3 (refresh fading), -$2 (security crisis), -$3 (edge thinness)
 
 ---
 
+## Risk Monitoring
+
+**Securities Class Action (Oct 2025):** Robbins Geller Rudman & Dowd filed securities fraud class action alleging misleading statements about product security vulnerabilities (CVE-2025/2026 series). Status: early stage, no SEC involvement. KC#4 tracks escalation path — triggers only if SEC opens formal investigation. Class actions in cybersecurity are common post-incident (CrowdStrike faced similar post-Jul 2024). Monitor for: SEC subpoena, discovery outcomes, settlement size. Current assessment: LOW probability of KC#4 trigger — no SEC interest, strong company cash position ($2.6B) for defense/settlement.
+
+---
+
 ## E[CAGR] at Purchase Price ($79.12)
 
 ```

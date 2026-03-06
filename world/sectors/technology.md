@@ -1,8 +1,9 @@
 # Sector: Technology / Software
 
-> Ultima actualizacion: 2026-02-12
+> Ultima actualizacion: 2026-03-02 (S133)
 > Analista: Claude
 > Status: **NEUTRAL** (selectivo en quality compounders, evitar growth sin fundamentales)
+> Iran Crisis Note: Minimal direct impact on software sector. No oil/geopolitical exposure. Main risk = broader recession if Hormuz closure extends >7 days.
 
 ## Resumen Ejecutivo
 
@@ -138,19 +139,19 @@ La IA generativa es tanto amenaza como oportunidad. Los incumbentes con datos pr
 
 ### ADBE - Adobe Inc. (Creative Software)
 
-- **Holding:** 2 shares, ~EUR 458 invested
-- **Quality Score:** 76/100 (Tier A)
+- **Holding:** 3.83 shares, ~EUR 850 invested (ADD EUR 400 at $259.04 S126)
+- **Quality Score:** 76/73adj (Tier A)
 - **Thesis:** Lider indiscutible en software creativo profesional. 89% gross margin, 30% ROIC, $9.8B FCF. Integrando AI via Firefly exitosamente. Mercado sobrereacciono por miedo a AI disruption.
 - **Por que nos gusta:**
   - Quality Compounder a precio de value stock (P/E 16x, -51% de maximos)
-  - OEY + Growth = 16.5% >> 12% threshold
+  - E[CAGR] 21.1% at current $262 >> 12% threshold
   - AI es OPORTUNIDAD, no amenaza (Firefly genera $400M revenue)
   - FCF margin 41% (excepcional)
 - **Riesgos:**
   - Canva/Figma en prosumer segment
+  - FTC trial Oct 2026 — binary outcome
   - Beta alto (1.51) = volatil
-  - Capital allocation score bajo
-- **Status:** HOLD. Entry at $270.60, FV Base $380, MoS 31%
+- **Status:** HOLD. Avg cost $264.73, FV $390, MoS 32.7%. Q1 earnings Mar 12 (framework READY).
 - **Thesis:** `/home/angel/value_invest2/thesis/active/ADBE/thesis.md`
 
 ### BYIT.L - Bytes Technology Group plc (UK IT Services/VAR)
@@ -238,11 +239,9 @@ Cuando actualices este sector view con cambio MATERIAL:
 | Q1 2026 | Adobe Q1 earnings (Mar) | Validate Firefly monetization |
 | Q1 2026 | Tyler Q4 2025 earnings | Cloud transition progress |
 | Q1 2026 | Dropbox Q4 2025 earnings | Dash metrics, user trends |
-| **Feb 26, 2026** | **INTU Q2 FY2026 earnings** | **Tax season guidance critical. QBO Advanced growth, Mailchimp trajectory.** |
-| **Q1-Q2 2026** | **DSY.PA Q1 earnings** | **First datapoint on FY2026 3-5% guide. Cloud acceleration?** |
-| H1 2026 | Fed rate cuts? | Re-rating de software growth |
-| 2026 | Canva/Figma IPO | Clarify competitive landscape |
-| **2027-28** | **NVIDIA-Dassault partnership revenue** | **Potential re-rating catalyst** |
+| **Mar 12, 2026** | **ADBE Q1 FY2026 earnings** | **Framework READY. Firefly AI monetization, Digital Media ARR, FTC impact.** |
+| **Apr 15, 2026** | **DSY.PA Q1 2026 earnings** | **First datapoint on FY2026 3-5% guide. Standing order review.** |
+| H1 2026 | Fed rate cuts? | Re-rating de software growth (delayed by Iran crisis / oil shock) |
 | Ongoing | Enterprise AI adoption | Pricing power para incumbentes |
 
 ---
@@ -288,55 +287,12 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 ## Fuentes Principales
 
-### Market Size & TAM
-- [Fortune Business Insights: SaaS Market](https://www.fortunebusinessinsights.com/software-as-a-service-saas-market-102222)
-- [Grand View Research: Enterprise Software](https://www.grandviewresearch.com/industry-analysis/enterprise-software-market)
-- [Statista: Enterprise Software](https://www.statista.com/outlook/tmo/software/enterprise-software/worldwide)
-- [Mordor Intelligence: PLM Market](https://www.mordorintelligence.com/industry-reports/product-lifecycle-management-software-market)
-
-### Market Share & Competition
-- [Synergy Research: SaaS Market Share](https://www.srgresearch.com/articles/microsoft-leads-saas-market-salesforce-adobe-oracle-and-sap-follow)
-- [IDC: Enterprise Applications Market](https://www.cio.com/article/2496985/sap-salesforce-lead-356-billion-enterprise-applications-market-idc.html)
-- [CX Today: Salesforce CRM Dominance](https://www.cxtoday.com/crm/salesforce-still-dominates-the-crm-space-leads-on-revenue-for-the-12th-straight-year/)
-- [ABI Research: PLM Rankings](https://finance.yahoo.com/news/siemens-ptc-dassault-syst-mes-163100831.html)
-
-### AI Disruption & Adobe Analysis
-- [Stocktwits: Adobe vs AI Upstarts](https://stocktwits.com/news-articles/markets/equity/adobe-now-tested-by-ai-upstarts-and-a-figma-sized-shadow/cLIxdFgREVC)
-- [Investing.com: Adobe SWOT Analysis](https://www.investing.com/news/swot-analysis/adobes-swot-analysis-ai-integration-drives-growth-amid-competitive-pressures-93CH-4278458)
-- [EntrepreneurLoop: Canva AI Disruption](https://entrepreneurloop.com/canva-ai-tools-challenge-adobe/)
-- [StartupHub: AI Agents Threat](https://www.startuphub.ai/ai-news/ai-video/2026/ai-agents-trigger-software-stock-collapse-salesforce-and-adobe-face-new-existential-threat/)
-
-### Intuit Analysis
-- [Intuit Q1 FY2026 Earnings](https://investors.intuit.com/news-events/press-releases/detail/1286/intuit-reports-strong-first-quarter-results-and-reiterates-full-year-guidance)
-- [Intuit-OpenAI Partnership](https://openai.com/index/intuit-partnership/)
-- [IRS Direct File Eliminated](https://www.nextgov.com/digital-government/2025/11/direct-file-wont-happen-2026-irs-tells-states/409309/)
-- [TIKR: INTU Analysis](https://www.tikr.com/blog/down-25-in-last-12-months-can-intuit-nasdaq-intu-stock-deliver-strong-returns-in-2026)
-
-### Dassault Systemes Analysis
-- [Dassault Q4 2025 Press Release](https://www.3ds.com/newsroom/press-releases/dassault-systemes-q4-revenue-growth-1-solid-operating-margin-and-eps-expansion-initiating-2026-revenue-guidance-3-5-growth)
-- [Morningstar: Wide Moat Assessment](https://www.morningstar.com/company-reports/1204660-dassault-systemes-wide-moat-would-be-challenging-for-new-entrants-to-replicate)
-- [NVIDIA Partnership](https://nvidianews.nvidia.com/news/dassault-systemes-nvidia-industrial-ai)
-- [Generative Value: Physical Design Software Moats](https://www.generativevalue.com/p/physical-design-software-the-strongest)
-
-### Tyler Technologies Analysis
-- [Morningstar: Tyler's Modernizing Its Market](https://www.morningstar.com/stocks/tylers-modernizing-its-market)
-- [Seeking Alpha: Tyler Well-Positioned](https://seekingalpha.com/article/4600616-tyler-technologies-well-positioned-in-a-growing-market)
-- [Third Bridge: Tyler Growth Runway](https://thirdbridge.com/transcripts/tyler-technologies-growth-runway-public-sector-software-market-trends/)
-
-### Dropbox Analysis
-- [Dropbox Q3 2025 Results](https://dropbox.gcs-web.com/news-releases/news-release-details/dropbox-announces-fiscal-2025-third-quarter-results)
-- [Dropbox Bear Case - Insider Monkey](https://www.insidermonkey.com/blog/dropbox-inc-dbx-a-bear-case-theory-1659090/)
-- [Dropbox Structural Decline - AInvest](https://www.ainvest.com/news/dropbox-sustained-decline-structural-crisis-crowded-cloud-market-2508/)
-
-### European Software
-- [Investing.com: Top European Software Stocks 2026](https://www.investing.com/news/stock-market-news/top-european-software-stocks-to-watch-in-2026-93CH-4380330)
-- [Seeking Alpha: Dassault Systemes Analysis](https://seekingalpha.com/article/4864751-dassault-systmes-one-of-the-best-it-potentials-for-2026)
-- [Kepler Cheuvreux: European Software Picks](https://www.investing.com/news/stock-market-news/kepler-cheuvreux-names-top-european-software-stocks-for-2026-93CH-4448722)
-
-### Undervalued Stocks Research
-- [Morningstar: Best Tech Stocks to Buy](https://www.morningstar.com/stocks/best-tech-stocks-buy)
-- [Simply Wall St: Amdocs Analysis](https://simplywall.st/stocks/us/software/nasdaq-dox/amdocs)
+Key sources referenced in individual thesis files. Sector-level:
+- TAM: Fortune Business Insights (SaaS $376B), Grand View Research (Enterprise Software $264B), Mordor Intelligence (PLM $46-75B)
+- Market Share: Synergy Research, IDC, ABI Research (PLM rankings)
+- AI Disruption: StartupHub (AI agents threat), Investing.com (Adobe SWOT), Morningstar (DSY.PA wide moat)
+- Individual company sources: see respective thesis files in thesis/research/
 
 ---
 
-*Proxima revision: 2026-03-05 o ante cambio material (AI regulation, major earnings, Fed action, DSY.PA Q1 2026 results, INTU Q2 Feb 26)*
+*Proxima revision: 2026-03-12 (ADBE Q1 earnings) o ante cambio material*

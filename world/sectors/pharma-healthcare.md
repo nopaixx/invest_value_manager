@@ -1,8 +1,8 @@
 # Sector: Pharma/Healthcare
 
-> Ultima actualizacion: 2026-02-12
+> Ultima actualizacion: 2026-03-02 (S133 — position data refresh, NVO CagriSema failure, DOCS added)
 > Analista: Claude
-> Status: NEUTRAL (subsector-dependent: Pharma = SOBREPONDERAR selectivo, Healthcare Services = NEUTRAL, GLP-1 Pure Play = **ACTUALIZADO: NEUTRAL-POSITIVO a valuaciones actuales**, Animal Health = **NEUTRAL-POSITIVO**)
+> Status: NEUTRAL (subsector-dependent). GLP-1: NVO CagriSema FAILED, HOLD LOW. Animal Health: NEUTRAL-POSITIVO.
 
 ## Resumen Ejecutivo
 
@@ -112,36 +112,11 @@ El sector Pharma/Healthcare esta en un momento de transicion historica. Por un l
 - Via Big Pharma con M&A en obesity (Pfizer adquirio Metsera $10B)
 - EVITAR LLY a valuaciones actuales (51x P/E)
 
-### 3. Biosimilars
-**Status: NEUTRAL (catalysts en progreso)**
+### 3. Biosimilars — NEUTRAL. Humira biosimilars 40%+ share expected 2026. Winners: Teva, Sandoz.
 
-- Humira biosimilars ganando share (23% Nov 2024 -> expected 40%+ 2026)
-- Margenes mas bajos que originals
-- Ganadores: Teva, Sandoz, Organon
-- Losers: AbbVie (pero ya en precio)
+### 4. Generics — NEUTRAL. Commoditized. HIK.L (#3 US injectables) analyzed, QS 46 Tier C.
 
-### 4. Generics/Injectables
-**Status: NEUTRAL**
-
-- Mercado commoditizado, pricing pressure constante
-- Margenes bajos (GM 40-45% vs 67% pharma innovador)
-- Hikma (#3 US injectables) analizada - Tier C, MoS insuficiente actualmente
-- Mejores posicionados: empresas con sterile manufacturing expertise
-
-### 5. Healthcare Services (Hospitales)
-**Status: NEUTRAL**
-
-- Demanda estable (aging population)
-- Labor cost pressure persistente
-- Valuaciones razonables (7-10x EV/EBITDA)
-- UHS bien posicionada (behavioral health growth)
-
-| Empresa | EV/EBITDA | P/E | Crecimiento EPS 2026 |
-|---------|-----------|-----|---------------------|
-| HCA | ~8x | ~14x | +15% |
-| Tenet (THC) | ~7x | ~10x | +7% |
-| UHS | ~7.5x | ~10x | +9% |
-| CHS | ~6x | N/A | Turnaround |
+### 5. Healthcare Services — NEUTRAL. Sold PFE, SAN.PA, UHS (all rotated). 7-10x EV/EBITDA reasonable.
 
 ### 6. Animal Health (NUEVO 2026-02-12)
 **Status: NEUTRAL-POSITIVO**
@@ -152,23 +127,8 @@ El sector Pharma/Healthcare esta en un momento de transicion historica. Por un l
 - Diagnostics es el subsector de mayor crecimiento (~12-15% CAGR)
 - Companion animal (~65% sector revenue) growing faster than livestock (~35%)
 
-**Mejores posicionadas:**
-- **Zoetis (ZTS)** -- Global #1, ROIC 30%, GM 70%+, diagnostics ecosystem building
-- Idexx (IDXX) -- #1 veterinary diagnostics, higher multiple but pure-play diagnostics
-- Dechra Pharma -- UK-listed, niche veterinary pharma, acquired by EQT Private Equity
-
-**Riesgos:**
-- Regulatory (Librela/mAb safety scrutiny by FDA)
-- Competition intensifying in parasiticides (Elanco Credelio Quattro)
-- FX headwinds for global operators (ZTS, MSD AH)
-- Pet spending sensitivity to recession (historically resilient but not immune)
-
-**Valuaciones actuales:**
-| Empresa | P/E | ROIC | GM | Status |
-|---------|-----|------|----|--------|
-| ZTS | 21x | 30% | 70%+ | **Near 52wL, -29% from high. WATCHLIST.** |
-| IDXX | ~45x | ~35% | ~58% | Expensive but quality |
-| Elanco (ELAN) | ~16x | ~5% | ~55% | Lower quality, leveraged |
+Best positioned: ZTS (Global #1, ROIC 30%, GM 70%+, WATCHLIST entry $110-115), IDXX (#1 vet diagnostics, expensive 45x P/E).
+Risks: Librela FDA safety, parasiticide competition, pet spending recession sensitivity.
 
 ---
 
@@ -181,16 +141,7 @@ El sector Pharma/Healthcare esta en un momento de transicion historica. Por un l
 | Inflacion | Media | Pricing power limitado por PBMs, IRA |
 | Regulacion | Alta | IRA drug pricing, Medicare negociaciones |
 
-**Mejor fase del ciclo:** All/Late-cycle
-- Pharma es defensive, outperforms en recesion
-- Healthcare services mas ciclico (elective procedures)
-- Animal health = defensive (pet spending resilient)
-
-**Beta tipico:**
-- Big Pharma: 0.5-0.8
-- Biotech: 1.2-1.5
-- Healthcare Services: 0.9-1.1
-- Animal Health: 0.8-1.0
+Cycle: Late-cycle defensive (pharma 0.5-0.8 beta). Healthcare services more cyclical (0.9-1.1). Animal health defensive.
 
 ---
 
@@ -260,127 +211,39 @@ El sector Pharma/Healthcare esta en un momento de transicion historica. Por un l
 
 ## Empresas Objetivo
 
-### Ya en Portfolio
+### Watchlist (analysed)
+| Ticker | QS/Tier | Entry | FV | Key Gate |
+|--------|---------|-------|----|----------|
+| HIK.L | 46/C | 1400-1450p | — | MoS 23% < 30% req |
+| GSK.L | 59/B | 1850p | — | MoS 10% < 20% req |
+| ZTS | 78adj/A | $95 | $120 | Librela safety, SO $95 |
+| HALO | 79adj/A | $65 | $90 | Merck PTAB Jun 2026 |
 
-| Ticker | Posicion | Tesis | Status |
-|--------|----------|-------|--------|
-| ~~PFE~~ | ~~Activa~~ | ~~Yield 6.5%, M&A firepower~~ | **SOLD 2026-02-06** - QS 47, ROIC < WACC, MoS -3.2% (overvalued near 52w high) |
-| SAN.PA | Activa | Dupixent growth, pipeline diversificado | HOLD - valuacion expandida |
-| ~~UHS~~ | ~~Activa~~ | ~~Behavioral health growth~~ | **SOLD 2026-02-13** - QS 51, ABOVE FV -9%, Medicaid cuts structural, BofA PT $185. P&L +16.2% |
-| **NVO** | **Activa (NEW 2026-02-05)** | **QS 82 Tier A, GLP-1 pioneer, MoS 38%** | **HOLD - Framework v3.0 validated, ADD on CagriSema positive** |
-
-### Analizadas - En Watchlist
-
-| Ticker | Thesis | Entry Price | Status | Dependencia |
-|--------|--------|-------------|--------|-------------|
-| ~~NOVO-B.CO~~ | ~~QS 82, Quality Compounder distressed~~ | ~~DKK 307~~ | **PURCHASED 2026-02-05** | thesis/active/NVO |
-| **HIK.L** | **QS 46 Tier C, Generics/Injectables, family ownership** | **1400-1450 GBp** | **WATCHLIST - MoS 23% < 30% required** | thesis/research/HIK.L |
-| **GSK.L** | **QS 59 Tier B, HIV + Vaccines + Oncology** | **1850p** | **WATCHLIST - MoS 10% < 20% required** | thesis/research/GSK.L |
-| **ZTS** | **QS 78/80 adj (Tier A low-end). #1 Animal Health, ROIC 26%+, GM 71%+** | **$95 (R4 corrected from $110-115)** | **R4 WATCHLIST. FV $120 (was $140). Standing order $95. Librela + Apoquel risks.** | thesis/research/ZTS |
-
-### Para Analisis Profundo
-
-| Ticker | Razon | Priority |
-|--------|-------|----------|
-| ~~GSK.L~~ | ~~Yield 3.3%, P/E 14.6x, vaccines + respiratory~~ | **ANALIZADO 2026-02-05** |
-| MRK | Keytruda franchise, P/E ~9x forward, pero cliff 2028 | Media |
-| BMY | P/E 7x, deep value, pero pipeline concerns | Media |
-| GILD | P/E 22.5x, HIV franchise estable, oncology optionality | Media |
-| ABBV | Post-Humira transition working, pero priced in | Baja |
-| AMGN | Obesity pipeline (AMG 133), biosimilars | Media |
-| IDXX | Veterinary diagnostics pure play. High quality but expensive (~45x P/E) | Baja |
-
-### Evitar
-
-| Ticker | Razon |
-|--------|-------|
-| LLY | P/E 51x - priced for perfection, any miss = -30% |
-| ~~NVO~~ | ~~P/E 15.6x pero patent cliff 2026+, ya no es value~~ **REMOVIDO - ver Watchlist** |
-| BIIB | Pipeline weak, Alzheimer franchise risky |
-| JNJ | Too slow growth for current valuation |
+### Para Analisis: MRK (Keytruda cliff 2028), BMY (deep value 7x), GILD (HIV+oncology), AMGN (obesity pipeline), IDXX (vet diagnostics, expensive)
+### Evitar: LLY (51x P/E), BIIB (weak pipeline), JNJ (slow growth)
 
 ---
 
-## Dependencias Activas
+## Posiciones y Dependencias
 
-| Tipo | Ticker | Thesis Path | Ultima Eval | Status |
-|------|--------|-------------|-------------|--------|
-| ~~Portfolio~~ | ~~PFE~~ | ~~thesis/active/PFE~~ | ~~2026-02-01~~ | **SOLD 2026-02-06 - Capital rotation** |
-| Portfolio | SAN.PA | thesis/active/SAN.PA | 2026-02-01 | HOLD |
-| Portfolio | UHS | thesis/active/UHS | 2026-02-01 | HOLD |
-| **Portfolio** | **NVO** | **thesis/active/NVO** | **2026-02-05** | **HOLD - phased entry 4%, ADD on CagriSema** |
-| **Watchlist** | **HIK.L** | **thesis/research/HIK.L** | **2026-02-04** | **WATCHLIST - Entry 1400-1450 GBp** |
-| **Watchlist** | **GSK.L** | **thesis/research/GSK.L** | **2026-02-05** | **WATCHLIST - Entry 1850p** |
-| **Watchlist** | **ZTS** | **thesis/research/ZTS/thesis.md** | **2026-02-12** | **WATCHLIST - Entry $110-115. R1 complete, needs R2-R4.** |
-| **Watchlist** | **HALO** | **thesis/research/HALO/** | **2026-02-26** | **R3 COMPLETE. FV $90. SO $65 GATED (Merck PTAB Jun 2026). Royalty platform.** |
+| Tipo | Ticker | QS/Tier | FV | Status |
+|------|--------|---------|-----|--------|
+| Portfolio | NVO | 73/B | $50 | HOLD LOW. CagriSema FAILED. ADD at $30. See thesis/active/NVO. |
+| Portfolio | DOCS | 79/A | $32.80 | HOLD. 85% physician monopoly. See thesis/active/DOCS. |
 
----
-
-## Posiciones Actuales - Evaluacion Rapida
-
-### Pfizer (PFE)
-- **Entry thesis:** Post-COVID oversold, yield 6.5%, M&A optionality
-- **Current status:** En transicion. 2026 revenue guidance $59.5-62.5B (down from 2022 peak)
-- **Patent cliff:** $17-18B at risk 2026-2028 (Eliquis, Ibrance, Xtandi)
-- **Positivos:** Metsera acquisition ($10B) for obesity, Padcev +15%, Abrysvo +136%
-- **Riesgos:** COVID revenue -$1.5B en 2026, execution risk alto
-- **Verdict:** HOLD. Yield paga por esperar, pero monitoring close required.
-
-### Sanofi (SAN.PA)
-- **Entry thesis:** Dupixent growth, diversified pipeline
-- **Current status:** Q4 2025 strong (+13.3% CER), Dupixent +32% YoY
-- **Dupixent cliff:** 2031-2033 (pero $27.8B peak sales expected 2030)
-- **Pipeline:** 94 projects, amlitelimab/frexalimab filings 2026-2027
-- **Riesgos:** UBS downgrade, pipeline execution post-Dupixent
-- **Verdict:** HOLD. Fundamentals solid pero ya no es deep value (P/E 20x).
-
-### Universal Health Services (UHS)
-- **Entry thesis:** Behavioral health growth, reasonable valuation
-- **Current status:** 2025 EPS +17%, 2026 guidance +8.6%
-- **Positivos:** Behavioral health JVs, network expansion, bed additions
-- **Valuacion:** P/E 9.9x, EV/EBITDA ~7.5x - reasonable for healthcare services
-- **Riesgos:** Labor costs, regulatory pressure, margin compression
-- **Verdict:** HOLD. Solid defensive position con upside modesto.
-
-### GSK (GSK.L) - WATCHLIST
-- **Thesis:** QS 59 Tier B, HIV + Vaccines + Oncology diversification
-- **Current status:** 2025 revenue GBP 32.7B (+7%), core OP GBP 9.78B (+11%)
-- **Patent cliff:** Dolutegravir GBP 5.65B at risk 2027-28
-- **Positivos:** HIV transition to long-acting (Cabenuva +42%), Oncology +43%, buybacks GBP 2B
-- **Negatives:** Arexvy disappointment (-72% Q3), near fair value
-- **Entry price:** 1850p (MoS 20%)
-- **Verdict:** WATCHLIST. Solid business but insufficient MoS at current price.
-
-### Zoetis (ZTS) - WATCHLIST (NEW 2026-02-12)
-- **Thesis:** QS Tool 73, Adj 78 (Tier A). Global #1 animal health. Quality compounder.
-- **Current status:** Q4 2025 just reported (Feb 12). Rev $9.47B (+6%), EPS beat. 2026 guidance 3-5% organic.
-- **Key franchise:** Simparica Trio, Apoquel/Cytopoint, Librela (under pressure), Diagnostics (+13%)
-- **Positivos:** ROIC 30%, GM 70%+, FCF $2.3B growing, #1 position 2x #2, diagnostics razor/blade
-- **Negatives:** Librela FDA safety concerns, 2026 guidance deceleration (3-5%), P/E 21x still not cheap
-- **Entry price:** $110-115 (20-25% MoS)
-- **Verdict:** WATCHLIST. Textbook quality compounder but insufficient MoS at $126.
+Sold: PFE (QS 47 Tier C), SAN.PA, UHS (+16.2%). All rotated to higher quality.
 
 ---
 
 ## Catalizadores Proximos
 
-| Fecha | Evento | Impacto esperado |
-|-------|--------|------------------|
-| **Feb 2026** | **Arexvy EMA 18+ approval** | **Medio para GSK** |
-| **25-Feb-2026** | **UHS Q4 earnings** | **Alto - ON PROBATION, EXIT candidate** |
-| **26-Feb-2026** | **HIK.L FY2025 Results** | **Medio - potential catalyst for entry** |
-| **Marzo 2026** | **CagriSema vs Zepbound head-to-head data** | **MUY ALTO para NVO** |
-| Q1 2026 | Earnings season Big Pharma | Alto - first full year post-COVID normalization |
-| Q2 2026 | Zoetis Q1 2026 results | Medio - first check on 2026 guidance execution |
-| H2 2026 | Zoetis Librela/Lenivia safety update + diagnostics launch | Medio-Alto for ZTS thesis |
-| 2026 | FDA guidance on AI in drug development | Medio - claridad regulatoria |
-| Mayo 2026 | Januvia/Janumet generics launch (Merck) | Alto para MRK |
-| 2026 | Eliquis Medicare price drop ($231/month) | Medio para PFE/BMY |
-| 2026 | Semaglutide patent expiration starts | Alto para NVO, medio para LLY |
-| **2027-28** | **Dolutegravir patent expiry** | **Alto para GSK** |
-| H2 2026 | Eli Lilly oral GLP-1 approval expected | Alto para sector |
-| H2 2026 | CagriSema FDA approval expected | Alto para NVO |
-| 2026-2027 | First AI-designed drug approval expected | Medio - narrative shift |
+| Fecha | Evento | Impacto |
+|-------|--------|---------|
+| Q1-Q2 2026 | NVO: Wegovy pill ramp + FY2026 guidance update | Alto — NVO catalyst |
+| Q2 2026 | ZTS Q1 2026 results | Medio — guidance check |
+| Jun 2026 | Merck PTAB ruling (HALO gate) | Alto — HALO SO activation |
+| H2 2026 | CagriSema FDA filing expected (despite REDEFINE failure) | Alto — NVO |
+| H2 2026 | Eli Lilly oral GLP-1 approval | Alto — sector re-rating |
 
 ---
 
@@ -388,32 +251,13 @@ El sector Pharma/Healthcare esta en un momento de transicion historica. Por un l
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
-| 2026-02-03 | Status inicial: NEUTRAL (subsector-dependent) | Valuaciones atractivas pero risks reales |
-| 2026-02-04 | GLP-1 subsector -> NEUTRAL-POSITIVO; NVO movido de "Evitar" a "Watchlist" | Caida 50% NVO cambio ecuacion R/R; thesis completa creada |
-| 2026-02-04 | HIK.L analizada y anadida a Watchlist | Tier C QS 46, MoS 23% < 30% required. Entry 1400-1450 GBp |
-| 2026-02-05 | GSK.L analizada y anadida a Watchlist | Tier B QS 59, MoS 10% < 20% required. Entry 1850p. Good business, near fair value. |
-| **2026-02-06** | **PFE SOLD - Capital rotation to Tier A** | **QS 47, ROIC < WACC, MoS -3.2% (near 52w high = overvalued). Capital rotated to BYIT.L.** |
-| **2026-02-12** | **ZTS R1 completed. Added to Watchlist. Animal Health subsector added.** | **QS Adj 78 Tier A. FV $140. Entry $110-115. MoS 10% insufficient. 7 compounder criteria met.** |
-| **2026-02-26** | **HALO R1+R2+R3 completed. Added to Watchlist.** | **QS 73/79adj Tier A. FV $90 (post-DA, was $110). SO $65 GATED (Merck PTAB Jun 2026). Royalty platform (ENHANZE rHuPH20). DA STRONG COUNTER: CMS/IRA omission, Alteogen competition. CMS/IRA risk added to pharma R1 checklist.** |
+| 2026-03-02 | Position data refresh, NVO CagriSema failure, DOCS added | S133. Trimmed bloat. |
+| 2026-02-26 | HALO R3 complete → Watchlist SO $65 | QS 79adj Tier A. FV $90. GATED Merck PTAB Jun 2026. |
+| 2026-02-12 | ZTS R1 → Watchlist. Animal Health subsector added. | QS 78adj Tier A. FV $120. Entry $95. |
 
 ---
 
 ## Fuentes
 
-- [Pharmaceutical Market Size - Precedence Research](https://www.precedenceresearch.com/pharmaceutical-market)
-- [GLP-1 Market - Grand View Research](https://www.grandviewresearch.com/industry-analysis/glp-1-receptor-agonist-market)
-- [Patent Cliff Analysis - GEN News](https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/)
-- [Pharma Valuations - Janus Henderson](https://www.janushenderson.com/en-us/advisor/article/why-healthcare-stocks-could-excel-in-2026/)
-- [AI Drug Discovery - Axis Intelligence](https://axis-intelligence.com/ai-drug-discovery-2026-complete-analysis/)
-- [Biosimilars Market - Alira Health](https://alirahealth.com/biosimilars-market-2025-market-size-growth-drivers-regional-dynamics/)
-- [Hospital Industry - Nasdaq/Zacks](https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-hca-healthcare-tenet-healthcare-universal-health-and)
-- [Pfizer Outlook - Various sources](https://www.gurufocus.com/news/8577323/pfizer-projects-revenue-dip-in-2026-as-patent-losses-weigh)
-- [Sanofi Q4 2025 - Company Press Release](https://www.sanofi.com/en/media-room/press-releases/2026/2026-01-29-06-30-00-3228191)
-- [NYU Stern P/E Data](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html)
-- [Novo Nordisk 2025 Results](https://www.globenewswire.com/news-release/2026/02/03/3231383/0/en/)
-- [CNBC: Novo Nordisk guidance](https://www.cnbc.com/2026/02/03/novo-nordisk-2025-earnings-wegovy-ozempic.html)
-- [Hikma Investor Relations](https://www.hikma.com/investors/)
-- [GSK Q4 2025 Results](https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-2025-performance-and-re-affirms-long-term-outlooks/)
-- [GSK 2026 Outlook](https://www.syneticx.com/blog/gsk.html)
-- [Zoetis Q4 2025 Earnings](https://investor.zoetis.com/news/news-details/2026/Zoetis-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx)
-- [Animal Health Market $152B by 2033](https://www.globenewswire.com/news-release/2026/02/10/3235049/0/en/Animal-Health-Market-Size-is-Poised-to-Reach-USD-152-28-Billion-by-2033.html)
+Sector-level: Precedence Research (pharma TAM $1.79T), Grand View Research (GLP-1 market), GEN News (patent cliff 2026-2029).
+Individual company sources: see respective thesis files in thesis/active/ and thesis/research/.

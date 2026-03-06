@@ -262,38 +262,19 @@ The February 2026 expanded screening now covers 28+ companies across 13 sub-sect
 
 ## Screening Summary
 
-**Total companies screened:** 28+
-**QS formally scored:** 19 companies via quality_scorer.py:
-- US: ISRG, SYK, BSX, EW, DHR, HOLX, PODD, STE, ABT, RMD
-- Denmark: COLO-B.CO, DEMANT.CO, GN.CO, AMBU-B.CO
-- Switzerland: STMN.SW, SOON.SW, ALC.SW, LONN.SW
-- Germany: SHL.DE
-- Sweden: EKTA-B.ST, GETI-B.ST
-- UK: CTEC.L
-**Companies I did NOT know before screening:** Ambu single-use endoscopy business model, ConvaTec turnaround trajectory, Getinge's poor ROIC despite apparent moat, GN Store Nord's structural decline
-**QS >= 60 tool score:** RMD (67), STMN.SW (60), SOON.SW (61), PODD (61), SYK (59), COLO-B.CO (56), ISRG (55)
-**Anti-bias validation:**
-- 7 geographies covered (US, Denmark, Switzerland, Germany, Sweden, UK, Australia)
-- 13 sub-sectors analyzed
-- Multiple companies I would not have screened without systematic process
-- European names constitute 4 of top 7 -- no US bias
-
-**Key insight from expanded screening:** The real quality-at-a-discount sweet spot is European medtech. ResMed (AU/US) has the best fundamental profile (ROIC +14.5pp, 32% FCF margin) at a P/E of just 25x. Straumann and Sonova add two Swiss quality compounders not previously in our universe. The hearing aid oligopoly (Sonova/Demant) is structurally attractive but Demant's leverage is concerning. The Danish companies are cheapest but have company-specific headwinds.
+28+ companies screened, 19 QS scored (7 geographies, 13 sub-sectors). QS>=60: RMD (67), SOON.SW (61), PODD (61), STMN.SW (60), SYK (59), COLO-B.CO (56), ISRG (55).
+**Key insight:** EU medtech = quality-at-discount sweet spot. RMD best fundamentals. Anti-bias: 4 of top 7 are European.
 
 ---
 
 ## Catalizadores Proximos
 
-| Fecha | Evento | Impacto esperado |
-|-------|--------|------------------|
-| Feb 26 2026 | Intuitive Surgical Q4 earnings | Procedure growth read |
-| Mar 2026 | Demant FY2025 results RELEASED Feb 5 -- stock dropped 13% | Leverage trajectory, KIND integration progress |
-| H1 2026 | Sonova mid-term targets update | Potential catalyst for re-rating (Bernstein view) |
-| Q2 2026 | Coloplast Q2 FY25/26 results | Margin recovery check, Atos integration progress |
-| Q2 2026 | Straumann FY2025 results | Growth trajectory, margin resilience |
-| Q2 2026 | ISRG Ion platform expansion update | Growth catalyst |
-| H1 2026 | EU MDR implementation updates | Regulatory risk for EU players |
-| H2 2026 | GLP-1 impact on bariatric/diabetes devices | Sector overhang resolution |
+| Fecha | Evento | Impacto |
+|-------|--------|---------|
+| H1 2026 | Sonova mid-term targets | Re-rating catalyst |
+| Q2 2026 | Coloplast Q2, Straumann FY2025, ISRG Ion | Growth/margin checks |
+| H1 2026 | EU MDR implementation | Regulatory risk EU players |
+| H2 2026 | GLP-1 impact on bariatric/diabetes devices | Sector overhang |
 
 ---
 
@@ -301,43 +282,13 @@ The February 2026 expanded screening now covers 28+ companies across 13 sub-sect
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
-| 2026-02-13 | Sector view created | Healthcare Equipment & MedTech screening -- filling gap in quality universe |
-| 2026-02-14 | **MATERIAL UPDATE**: Expanded from 20+ to 28+ companies. Added 8 new QS scores (STMN.SW, SOON.SW, EKTA-B.ST, CTEC.L, GN.CO, AMBU-B.CO, SHL.DE, GETI-B.ST, ALC.SW). Added STMN.SW and SOON.SW to Priority 1 targets. RMD elevated to #1 priority. Demant downgraded to Priority 2 (leverage concern). | Systematic screening expansion to cover all European medtech |
-
----
-
-## Reglas de Ciclo de Vida
-
-### Cuando una empresa se COMPRA:
-- Mover de "Empresas Objetivo" a "Nuestras Posiciones Actuales"
-- Anadir a "Dependencias Activas" como Portfolio
-
-### Cuando una thesis se ARCHIVA:
-- Mover de "Dependencias Activas" a "Historial de Analisis"
-- Registrar razon y fecha de archivo
-
-### Cuando sector view crece demasiado (>300 lineas):
-- Mover "Historial de Analisis" a archivo separado: world/sectors/archive/healthcare-equipment-history.md
-
-### Historial de Analisis (Archivadas)
-| Ticker | Razon Archivo | Fecha | Leccion |
-|--------|---------------|-------|---------|
-| (vacio) | | | |
+| 2026-02-14 | Expanded 20→28+ companies, 8 new QS scores | RMD #1 priority, STMN/SOON added P1, Demant downgraded P2 |
+| 2026-02-13 | Sector view created | Healthcare Equipment screening |
 
 ---
 
 ## Fuentes
 
-- [IHI ETF Holdings](https://stockanalysis.com/etf/ihi/holdings/)
-- [Morningstar Nordic - Where to Find Value 2026](https://global.morningstar.com/en-nd/stocks/where-nordic-investors-should-look-value-2026)
-- [Bernstein - European Medtech Buying Opportunity](https://www.investing.com/news/analyst-ratings/bernstein-sees-buying-opportunity-in-european-medtech-stocks-after-2025-slump-93CH-4444713)
-- [Bernstein - Top European Medtech Stocks 2026](https://www.investing.com/news/stock-market-news/bernstein-names-top-european-medical-tech-stocks-to-watch-in-2026-93CH-4475198)
-- [J.P. Morgan European Medtech Research](https://www.investing.com/news/stock-market-news/jp-morgan-identifies-top-european-medtech-stocks-for-investors-to-watch-93CH-4398186)
-- [Coloplast Q1 FY25/26 Results](https://www.coloplast.com/investor-relations/)
-- [Demant FY2025 Results / Q4 Earnings Call](https://www.investing.com/news/transcripts/earnings-call-transcript-william-demant-q4-2025-sees-stock-drop-13-93CH-4482298)
-- [Sonova - RBC Capital Outperform Initiation](https://www.investing.com/news/analyst-ratings/rbc-capital-initiates-sonova-stock-with-outperform-rating-sees-12-eps-growth-93CH-4366919)
-- [GN Store Nord FY2025 Annual Report](https://www.globenewswire.com/news-release/2026/02/05/3232627/0/en/)
-- [Ambu Q1 2025/26 Slides](https://www.investing.com/news/company-news/ambu-q1-202526-slides-endoscopy-solutions-drive-86-organic-growth-93CH-4484091)
-- [ConvaTec 2025 Interim Results](https://www.convatecgroup.com/media-articles/press-releases/2025/interim-results-for-the-six-months-ended-30-june-2025/)
-- [Siemens Healthineers FY2024 Results](https://www.siemens-healthineers.com/press/releases/2024q4)
-- yfinance quantitative data (Feb 2026 -- quality_scorer.py + price_checker.py)
+Sector: IHI ETF holdings, Morningstar Nordic Value 2026, Bernstein EU Medtech Buying Opportunity, J.P. Morgan EU Medtech.
+Company: Coloplast Q1 FY25/26, Demant FY2025, Sonova RBC initiation, GN Store Nord FY2025, Ambu Q1, ConvaTec interim, SHL FY2024.
+Quantitative: yfinance (quality_scorer.py + price_checker.py, Feb 2026).
