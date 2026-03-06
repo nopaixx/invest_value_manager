@@ -113,7 +113,7 @@ baskets:
       - DOCS    # Physician network, QS 79 Tier A — 85% monopoly
       - FTNT    # Cybersecurity, QS 85 Tier A — WIDE moat (ASIC)
     pipeline:
-      - VRSN    # Domain registry, QS 86adj Tier A, SO $190
+      - VRSN    # Domain registry, QS 86adj Tier A, R4 APPROVED, SO $210
       - QLYS    # Cloud security, QS 80adj Tier A, SO $82 GATED Q1 billings
       - CHKP    # Cybersecurity, QS 77adj Tier A, entry $125 (FTNT preferred)
     shared_risks:
@@ -208,7 +208,7 @@ baskets:
     positions:
       - NVO     # GLP-1 leader, QS 73 Tier B (CagriSema FAILED, KC#1 triggered)
     pipeline:
-      - HALO    # Royalty platform (ENHANZE), QS 79adj Tier A, SO $65 GATED Merck PTAB Jun 2026
+      - HALO    # Royalty platform (ENHANZE), QS 79adj Tier A, R4 APPROVED, SO $65 GATED Merck PTAB Jun 2026
     shared_risks:
       - "Drug pricing regulation (US IRA, EU reference pricing)"
       - "Clinical trial failures on key pipeline assets"
@@ -244,25 +244,45 @@ orphans:
 # This section records the LAST reasoning for basket allocation specifically.
 
 allocation_reasoning:
-  date: 2026-02-28
+  date: 2026-03-06
   reasoning: |
-    14 positions across 6 baskets + 1 orphan. Cash ~39%.
-    NEW Financial Market Infrastructure: 1 position (MORN) + SPGI in pipeline (SO $420, 5% away).
-    Theme STRENGTHENING. Toll-booth businesses with WIDE moats. Priority for deployment.
-    US Quality Compounders: 5 positions (MORN moved out). Still largest basket. Avg QS 80.
-    Deep pipeline (VRSN, QLYS, CHKP). Deserves largest allocation.
-    UK Digital Platforms: 4 positions. Theme ALIVE but under siege. IHP.L anchors quality.
-    EU Value Recovery: ONLY 1 position. DEADLINE Mar 31: if no new position → KILL.
-    RACE.MI 8.9% from trigger = most likely deployment path.
-    Specialty Insurance: BUILDING. GL weak anchor. ERIE GATED (SCOTUS).
-    Pharma & Biotech: DECLINING. NVO HOLD LOW. HALO GATED Jun 2026.
-    DOM.L: Orphan. Mar 5 earnings decides.
+    15 positions across 5 baskets + 1 orphan. Cash 35.3% (EUR 3,692).
+    RACE.MI deployed Mar 5 — EU Value Recovery saved from death deadline.
+    HALO R4 approved SO $65, VRSN R4 approved SO $210 — two new deployment paths.
 
-    CAPITAL FLOW PRIORITY:
-    1. Financial Market Infrastructure (SPGI at $420 = 5% away, new basket needs filling)
-    2. US Quality Compounders (VRSN $190, QLYS $82 GATED)
-    3. EU Value Recovery (RACE.MI EUR 295)
-    Do NOT add to DECLINING pharma without new thesis.
+    BASKET STATUS:
+    US Quality Compounders: 5 positions, avg QS ~80. Largest basket. VRSN R4 approved
+    SO $210 = NEW high-priority deployment path. Also QLYS SO $82 GATED Q1 billings.
+    FTNT+DOCS+HLNE+ADBE+LULU = diverse sub-sectors. Deserves largest allocation.
+
+    Financial Market Infrastructure: 1 position (MORN). STRENGTHENING theme.
+    SPGI SO $420. Needs 2nd position urgently — single-position basket >30d by Mar 30.
+    SPGI is primary candidate. TW R3 complete at FV.
+
+    UK Digital Platforms: 4 positions. Theme ALIVE but under siege (Kintbury, AI disruption).
+    IHP.L anchors quality (QS 80). AUTO.L April pricing event = MAKE-OR-BREAK.
+    DNLM.L SO 950p, ALFA.L R4 gated Mar 12.
+
+    EU Value Recovery: 2 positions (EDEN.PA + RACE.MI). BUILDING.
+    RACE.MI QS 84 = Tier A anchor. REN.AS SO EUR 24.50 as 3rd candidate.
+    Basket now viable but thin. Pipeline limited.
+
+    Specialty Insurance: 1 position (GL QS 52). BUILDING.
+    HALO R4 approved SO $65 = pipeline candidate (pharma-adjacent but royalty model).
+    ERIE R2 gated. ACGL SO $88, KNSL SO $310. Deadline Apr 15.
+
+    Pharma & Biotech: DECLINING. NVO HOLD LOW. HALO moved to pipeline but GATED Jun 2026.
+    No action until HALO PTAB resolves. Single position, no urgency to add.
+
+    DOM.L: Orphan. Mar 10 earnings = rotation catalyst (corrected from Mar 5).
+
+    CAPITAL FLOW PRIORITY (EUR 3,692 deployable):
+    1. US Quality Compounders — VRSN SO $210 (R4 approved, highest QS 86adj in universe)
+    2. Financial Market Infrastructure — SPGI SO $420 (single-position basket, deadline approaching)
+    3. Pharma/Insurance — HALO SO $65 (R4 approved, cross-basket candidate, GATED Jun 2026)
+    4. EU Value Recovery — REN.AS SO EUR 24.50 (8.6% away, 3rd position)
+    Do NOT add to DECLINING pharma (NVO) without new thesis.
+    Do NOT add to UK Digital until AUTO.L April event resolves.
 
 # =============================================================================
 # THEME DISCOVERY TRACKING
