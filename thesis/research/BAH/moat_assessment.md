@@ -1,10 +1,10 @@
 # Moat Assessment: BAH (Booz Allen Hamilton)
 
-## Fecha: 2026-02-13
+## Fecha: 2026-03-06
 
-## Clasificacion: NARROW
+## Clasificacion: NARROW (with WIDE potential in Defense/Intel segment)
 
-> **Fair Value:** $120 (universe estimate, pre-pipeline)
+**Previous assessment (2026-02-13): NARROW. This update CONFIRMS Narrow overall but refines the segment-level analysis. DOGE has been a moat TEST, and the moat passed in Defense/Intel but is ERODING in Civil.**
 
 ---
 
@@ -12,92 +12,132 @@
 
 | Fuente | Presente | Evidencia | Durabilidad | Trayectoria |
 |--------|----------|-----------|-------------|-------------|
-| Cost advantage | NO | No structural cost advantage vs peers; margins higher due to mix (more consulting/advisory vs integration), not process efficiency | N/A | -> |
-| Network effects | NO | No network effects in government consulting | N/A | N/A |
-| Intangible assets | YES | 22,000+ cleared employees (TS/SCI), #1 government AI supplier ($800M rev), 100+ year brand in federal consulting, deep agency relationships | 15-20 years | Down arrow |
-| Switching costs | YES | Embedded in classified programs, institutional knowledge of agency missions, multi-year contracts, 80%+ recompete win rate for incumbents, $38B backlog | 15-20 years | Down arrow |
-| Efficient scale | PARTIAL | Limited pool of primes can handle large classified programs; only ~5-6 firms (BAH, LDOS, SAIC, CACI, Accenture Federal, Deloitte Federal) have the scale and clearances for major work | 10-15 years | Stable |
+| Cost advantage | NO | GM 54.8% vs LDOS ~17.6%, SAIC ~12%, CACI ~30%. But this is MIX (advisory/consulting vs integration), not structural cost advantage. BAH charges MORE, not less. Operating margin ~11% vs SAIC ~7%, LDOS ~8.5%. No process or scale cost advantage -- premium pricing model. | N/A | N/A |
+| Network effects | NO | No network effects in government consulting. Relationships create incumbency but not value-increases-with-users dynamics. | N/A | N/A |
+| Intangible assets | YES (Strong) | **22K cleared employees** (72% of workforce). TS/SCI clearances take 6-18 months to obtain; supply fundamentally constrained. #1 federal AI capabilities ($800M+, growing 30%+ YoY). 100+ year brand. Relationships with every major defense/intel agency. 56% new bid win rate, 92% recompete win rate. | 15-20 years | Stable to Down (DOGE reducing civil asset value, but defense/intel intact) |
+| Switching costs | YES (Strong) | **$38B backlog** (book-to-bill 1.41x TTM -- 6yr high). Contracts 3-7 years. Tribal knowledge of classified programs. Replacing a cleared workforce embedded in mission-critical systems would take years. 80-90% recompete win rates prove switching costs are REAL -- agencies reselect incumbent even when competitors bid lower. | 15-20 years | Stable in defense/intel; DOWN in civil (DOGE bypassing normal procurement = ignoring switching costs) |
+| Efficient scale | PARTIAL | Only ~5-6 firms have the scale + clearance capacity for major federal IT programs: BAH, LDOS, SAIC, CACI, Accenture Federal, Deloitte Federal. Market is naturally limited by clearance requirements and security infrastructure. BUT this is not a natural monopoly -- multiple credible competitors exist. | 10-15 years | Stable |
 
----
-
-## Detailed Source Analysis
-
-### 1. Intangible Assets (PRIMARY MOAT SOURCE) -- Strength: 4/5
-
-**Security Clearances (the crown jewel claim):**
-- BAH employs 22,000+ cleared professionals out of ~35,000 total workforce (roughly 63%)
-- Approximately 49% hold Top Secret or higher clearances (based on historical data; current % likely similar)
-- Security clearances take 6-18 months to obtain; TS/SCI can take 12-24 months
-- This creates a genuine barrier to entry: a new entrant cannot simply hire 22,000 cleared professionals overnight
-- HOWEVER: This is NOT unique to BAH. LDOS, CACI, SAIC all have large cleared workforces. The barrier protects the OLIGOPOLY, not BAH specifically
-
-**AI Leadership:**
-- Self-described as "largest AI supplier to U.S. government"
-- AI revenue ~$800M in FY2025, growing 30%+ YoY
-- This is a differentiated capability but AI expertise is not proprietary; talent can be hired by competitors
-- The moat here is the COMBINATION of AI expertise + clearances + domain knowledge, not AI alone
-
-**Brand and Relationships:**
-- 100+ year history in federal consulting (founded 1914)
-- Deep institutional relationships across DoD, IC, and civil agencies
-- These relationships are valuable but personnel-dependent; when employees leave, some relationship value walks out
-
-**Durability assessment: 15-20 years.** Security clearance infrastructure and deep domain knowledge persist, but the Littlejohn data breach + Treasury contract cancellation demonstrates that brand reputation is fragile and can be damaged by a single incident.
-
-### 2. Switching Costs (SECONDARY MOAT SOURCE) -- Strength: 3.5/5
-
-**Contract stickiness:**
-- Industry-wide, incumbent contractors win recompetes at ~80-90% rate
-- BAH has $38B backlog providing multi-year revenue visibility
-- Qualified pipeline for FY2027 stands at $53B
-- Multi-year contracts create natural lock-in (average contract duration 3-5 years)
-
-**Embedded in classified programs:**
-- Once a contractor is embedded in a classified program, replacement is extremely costly
-- New contractor would need clearances, facility accreditation (SCIF), and institutional knowledge
-- Transition risk for government agencies is high -- they prefer continuity
-
-**HOWEVER -- switching costs are under active erosion:**
-- DOGE is ACTIVELY breaking the incumbency bias by canceling contracts without regard for transition costs
-- 60+ BAH contracts already cancelled; $4B in Pentagon cancellations across BAH/Accenture/Deloitte
-- The government is demonstrating willingness to accept transition costs to achieve savings
-- This directly undermines the switching cost moat thesis
-
-**Durability assessment: 15-20 years for defense/intelligence (DOGE has limited reach into classified programs), but <5 years for civil segment (DOGE is aggressively targeting civil agency spending).**
-
-### 3. Efficient Scale (CONTRIBUTORY, not standalone) -- Strength: 2.5/5
-
-**Limited prime contractor pool:**
-- Only 5-6 firms have the scale, clearance infrastructure, and past performance to compete for major government IT programs
-- This creates an oligopoly, but NOT a monopoly -- BAH still competes vigorously within this group
-
-**Scale advantage within the oligopoly:**
-- BAH revenue $12B vs CACI $7.2B vs SAIC $7.7B vs LDOS $16.7B
-- BAH is #2 by revenue (behind LDOS) in the government IT services space
-- Scale provides overhead absorption and bid capacity, but not decisive advantage
+**Total fuentes presentes:** 2 strong (intangible assets, switching costs) + 1 partial (efficient scale)
+**Fortaleza promedio:** 3.5/5
 
 ---
 
 ## Evidencia Cuantitativa
 
-| Metrica | BAH | Peer Median (LDOS/SAIC/CACI) | Diferencia |
-|---------|-----|-------------------------------|------------|
-| ROIC (latest) | 23.6% | ~10% (LDOS ~10%, CACI ~9%) | +13.6pp |
-| ROIC (5yr avg) | ~15.7% | ~9% | +6.7pp |
-| WACC | 5.6% | ~7-8% | -1.4pp (lower is better) |
-| ROIC-WACC Spread | +18.0pp | ~2-3pp | +15pp |
-| Operating Margin | 10.5% | ~7-8% | +3pp |
-| Gross Margin | 54.8% | ~25-30% (consulting mix) | +25pp |
-| Revenue CAGR (3yr) | 12.7% | ~6-8% | +5pp |
-| Backlog | $38B | $46B (LDOS), $25B (CACI) | In-line |
-| P/E (current) | 11.9x | 16.4x (LDOS), 11.2x (SAIC), 25x (CACI) | Cheap vs peers |
+### BAH vs Peers -- Financial Moat Evidence
 
-**ROIC Persistence (4yr available from tool):**
-- 2022: 13.7%, 2023: 8.4%, 2024: 17.0%, 2025: 23.6%
-- 4/4 years above WACC of 5.6%
-- Trajectory is IMPROVING, though 2023 was a notable dip
+| Metrica | BAH | LDOS | SAIC | CACI | BAH vs Peer Median |
+|---------|-----|------|------|------|---------------------|
+| ROIC (latest) | 23.6% | ~10% | ~12.3% | ~9% | **+13.3pp** |
+| ROIC 5yr avg | 19.3% | 11.7% | 12.3% | ~9% | **+8.0pp** |
+| Gross Margin | 54.8% | 17.6% | ~12% | ~30% | **+31pp** (but different business mix) |
+| Operating Margin | 11.4% | ~8.5% | ~7.0% | ~8.9% | **+2.9pp** |
+| Revenue CAGR 3yr | +12.7% | ~5% | ~2% | ~15% | **+5.2pp** |
+| P/E (current) | 11.8x | 16x | 13x | 25x | **-2.7x discount** |
 
-**Key observation:** BAH's ROIC and margins are SIGNIFICANTLY above peers. This IS evidence of moat -- the market is paying BAH a premium for its services (advisory/consulting mix vs lower-margin integration work at peers). However, the 2023 dip shows vulnerability, and the current DOGE-driven civil decline will compress margins going forward.
+**Key insight:** BAH has CONSISTENTLY higher ROIC than all peers over 5 years. This is the hallmark of a moat -- capital earns excess returns that competitors cannot replicate. The ROIC spread of +18pp over WACC (5.6%) is massive and has been WIDENING (13.7% in 2022 to 23.6% in 2025).
+
+### ROIC vs WACC Trajectory (Persistence Test)
+
+| Year | ROIC | WACC (est) | Spread | > WACC? |
+|------|------|------------|--------|---------|
+| FY2022 | 13.7% | ~7% | +6.7pp | YES |
+| FY2023 | 8.4% | ~7% | +1.4pp | YES (barely) |
+| FY2024 | 17.0% | ~7.5% | +9.5pp | YES |
+| FY2025 | 23.6% | ~7.5% | +16.1pp | YES |
+| **4/4 years > WACC** | | | Avg spread: +8.4pp | **PASS** |
+
+FY2023 was a trough year (acquisition costs, restructuring) and ROIC still exceeded WACC. This is strong evidence of durable excess returns.
+
+### Pricing Power Evidence
+
+- Gross margin EXPANDING: 53.4% (FY2022) -> 54.8% (FY2025). In a services business, expanding GM means BAH is charging MORE per dollar of labor, reflecting pricing power.
+- New bid win rate 56% + recompete 92% = BAH wins most contracts it bids on, suggesting its pricing is accepted by government clients despite being the premium option.
+- AI revenue $800M+ growing 30%+ = BAH can charge premium rates for AI/digital work vs commodity IT staff augmentation.
+
+### Customer Retention
+
+- Recompete win rate: **92%** (vs industry 70-75%)
+- Book-to-bill: **1.41x TTM** (6yr high -- more new orders than revenue, even during DOGE)
+- Backlog: **$38B** (+2% YoY, up from $34.5B two years ago)
+- Top 10 contracts: Average tenure 10+ years
+
+---
+
+## Segment-Level Moat Assessment
+
+**This is the critical nuance.** BAH's moat is NOT uniform across segments.
+
+### Defense Segment (47% revenue) -- WIDE MOAT
+
+| Factor | Evidence |
+|--------|----------|
+| Cleared workforce | 22K cleared, majority deployed on defense programs |
+| Switching costs | Multi-year classified programs; replacing contractor requires new clearances + knowledge transfer |
+| Incumbency | 80-90% recompete win rates in defense |
+| Growth | AI/cyber for DoD growing strongly; $1.5T FY2027 budget proposal |
+| DOGE exposure | LOW -- DOGE targets civil agencies, not defense/intel |
+| Durability | 20+ years -- defense spending is structural, bipartisan, accelerating post-Iran crisis |
+
+### Intelligence Segment (17% revenue) -- WIDE MOAT
+
+| Factor | Evidence |
+|--------|----------|
+| Clearance barrier | TS/SCI required -- hardest clearances to obtain (2+ years) |
+| Mission criticality | BAH embedded in intelligence community operations |
+| Competition | Very few firms can operate in this space (requires SCIF infrastructure, cleared workforce) |
+| DOGE exposure | VERY LOW -- intelligence budgets are classified and DOGE has no visibility |
+| Durability | 20+ years -- intelligence spending is non-discretionary |
+
+### Civil Segment (34% revenue) -- NO MOAT (currently)
+
+| Factor | Evidence |
+|--------|----------|
+| DOGE impact | Revenue declining ~22% YoY. 61 contracts cancelled ($207M). 2,500 layoffs centered here |
+| Switching costs | DOGE BYPASSED normal procurement (cancelled contracts unilaterally). This proves switching costs in civil are WEAKER than defense/intel -- political will can override procurement inertia |
+| Recompete | "Pricing pressures on large procurements, including notable recompetes" -- civil agencies under DOGE pressure to cut consulting costs |
+| Recovery | Uncertain. Some civil work (DHS cyber, VA health IT) may recover. Other civil work (USAID, EPA consulting) may be permanently reduced |
+| Durability | <5 years of visibility. DOGE could become permanent policy framework |
+
+**CRITICAL FINDING:** DOGE is a natural experiment that TESTS moat durability. Defense/intel moat held firm (90% of Q2 FY2026 gross bookings in national security). Civil moat crumbled. This bifurcation is REAL and must be weighted.
+
+---
+
+## Moat Classification Reasoning
+
+### Why NARROW (not WIDE) overall:
+
+1. **Civil segment (34% of revenue) has NO effective moat** under current political conditions. DOGE proved that the switching costs BAH relies on in civil can be overridden by political directive. A company where 34% of revenue has no moat protection cannot be classified WIDE overall.
+
+2. **Only 2 strong moat sources** (intangible assets + switching costs). Cost advantage is absent. Network effects are absent. Efficient scale is partial. For WIDE, I need 2+ sources with 20+ year durability -- the civil segment erosion reduces the blended durability below 20 years.
+
+3. **Moat trajectory is MIXED, not strengthening.** Defense/intel moat is stable-to-strengthening (AI, Iran crisis, budget increases). Civil moat is actively eroding. Net effect is stable-to-weakening at the portfolio level.
+
+4. **ROIC persistence is strong but SHORT track record as public company.** BAH IPO'd in 2010. ROIC data is only 4 years in the tool. FY2023 dip to 8.4% shows vulnerability. I cannot confirm 10+ years of consistently high ROIC.
+
+### Why NOT None:
+
+1. **Defense + Intelligence = 64% of revenue with WIDE-equivalent moat.** The cleared workforce, incumbency, and mission criticality in these segments create genuine 20+ year barriers.
+
+2. **ROIC massively above WACC** (23.6% vs 5.6% = +18pp spread). This is not a commodity business. Competitors earn 9-12% ROIC. BAH earns 23.6%. The spread is widening, not narrowing.
+
+3. **$38B backlog provides 3+ years of revenue visibility.** Even if no new contracts are won, BAH has years of work already booked.
+
+4. **92% recompete win rate** is not replicable by competitors. It proves customer stickiness is REAL, not theoretical.
+
+---
+
+## Moat Score: 17/25
+
+| Component | Score | Rationale |
+|-----------|-------|-----------|
+| Moat Source Strength (2 strong + 1 partial) | 7/10 | Intangible assets (cleared workforce) and switching costs are genuinely strong in defense/intel. Partial efficient scale. No cost advantage or network effects. |
+| Durability (blended) | 4/7 | Defense/intel: 20+ years. Civil: <5 years. Blended ~12-15 years given 64/34 mix. |
+| Trajectory | 3/5 | Defense/intel strengthening (AI, Iran crisis, budget growth). Civil eroding (DOGE). Net: slightly negative trajectory. |
+| ROIC Evidence | 3/3 | ROIC 23.6% vs peers 9-12%, vs WACC 5.6%. Massive spread, widening. 4/4 years > WACC. |
+
+**17/25 = Narrow moat (high end).** Could upgrade to WIDE if civil segment stabilizes AND ROIC persistence confirmed over longer period.
 
 ---
 
@@ -105,121 +145,69 @@
 
 | Amenaza | Probabilidad | Impacto | Horizonte |
 |---------|-------------|---------|-----------|
-| **DOGE/Government Efficiency Cuts** | HIGH (already happening) | HIGH -- civil segment declining 20%+ | 1-3 years |
-| **Cleared Workforce Attrition from Layoffs** | MEDIUM | MEDIUM -- 2,500 layoffs (7%) may lose cleared employees to competitors | 1-2 years |
-| **Trump Admin Anti-Consulting Stance** | HIGH (policy directive issued) | MEDIUM -- applies pressure to all govcon, but defense less affected | 2-4 years |
-| **AI Disrupting Consulting Model** | MEDIUM | HIGH long-term -- AI could automate portions of consulting/analytics work | 5-10 years |
-| **Data Breach Reputational Damage** | LOW-MEDIUM (already occurred) | MEDIUM -- Treasury $21M cancellation is small but sets precedent | Already realized |
-| **Margin Compression from Civil Decline** | HIGH | MEDIUM -- civil is higher-margin; losing it hurts profitability | 1-3 years |
-| **Defense Budget Shifts** | LOW (bipartisan support) | HIGH if realized | 3-5 years |
+| DOGE becomes permanent structural reduction in civil consulting | Media (40%) | Alto -- permanently reduces TAM by ~20-30% for civil segment | 1-3 years |
+| AI automates traditional consulting tasks (body-shop model disrupted) | Media (35%) | Alto -- but BAH is AI PROVIDER, mitigates risk | 5-10 years |
+| Security clearance process reform (faster clearances = lower barrier) | Baja (15%) | Alto -- would erode primary moat source | 5-15 years |
+| Defense budget sequestration or cuts | Muy Baja (5%) | Alto -- but politically impossible post-Iran | 3-5 years |
+| Competitor consolidation (LDOS+SAIC merger?) creating scale peer | Baja (20%) | Medio -- would create more credible competitor | 2-5 years |
+| Treasury-style breach scandal spreading to defense/intel contracts | Baja (10%) | Muy Alto -- would directly attack trust-based moat | 1-2 years |
 
 ---
 
 ## Escenarios de Erosion
 
-### Scenario 1: DOGE Permanently Shrinks Civil Market (Most Probable, 50% probability)
+### 1. Most Probable: Permanent Civil Shrinkage (40% probability)
+DOGE becomes institutionalized. Civil consulting TAM permanently shrinks 20-30%. BAH's civil segment stabilizes at 20-25% of revenue (down from 34%), reducing blended revenue by 5-10%. Moat remains intact in defense/intel but BAH becomes a smaller, more concentrated defense/intel company. ROIC stays high but revenue base is smaller.
 
-DOGE and the broader Trump administration "anti-consulting" stance permanently reduces the civil consulting market by 20-30%. BAH's civil segment ($4.2B in FY2025, now declining to ~$3.4B) never fully recovers. The company pivots to defense/intelligence and AI, but total addressable market is smaller. BAH remains profitable but growth decelerates to low-single-digits. Moat in defense/intelligence remains intact, but the company is a smaller, less diversified business.
+**Impact:** Narrow moat maintained. FV adjusts to $80-90 range (lower revenue, same quality). P/E re-rates to 13-15x (still below historical 15-20x).
 
-**Impact on moat:** Narrows further. The switching costs that protected civil contracts have been demonstrated to be breakable by political will. The company becomes more concentrated in defense, where moat is stronger but growth is more dependent on budget cycles.
+### 2. Tail Risk: Clearance Reform + AI Disruption (10% probability)
+A combination of: (a) government streamlines clearance process (reducing barrier to entry), (b) AI tools automate significant portion of consulting deliverables, and (c) DOGE expands to defense consulting contracts. BAH's moat erodes across all segments. ROIC compresses toward peer levels (10-12%).
 
-### Scenario 2: Cleared Workforce Exodus (Tail Risk, 15% probability)
-
-The 7% workforce reduction + further DOGE-driven contract cancellations cause a talent exodus. Cleared professionals, who are highly sought after, leave for competitors (LDOS, CACI) or private sector AI companies. BAH loses its primary intangible asset -- the cleared workforce -- through attrition faster than it can replace. Recompete win rates decline below 70%.
-
-**Impact on moat:** Potentially devastating. The entire moat thesis rests on the cleared workforce + institutional knowledge. If the workforce shrinks materially, the moat erodes rapidly.
-
-### Scenario 3: AI Automates Government Consulting (Long-tail, 20% probability over 10 years)
-
-Generative AI capabilities advance to the point where much of the analysis, report-writing, and advisory work BAH provides can be automated. Government agencies begin building internal AI capabilities, reducing reliance on external consultants. BAH's AI expertise becomes a double-edged sword -- it helps create the tools that reduce demand for its own services.
-
-**Impact on moat:** The intangible assets (clearances, relationships) remain valuable, but the DEMAND for the services protected by those moats declines. A moat around a shrinking castle.
+**Impact:** Moat downgrades to None. FV drops to $50-60. P/E compresses to 8-10x.
 
 ---
 
-## Moat Classification Rationale
+## Discrepancias con Thesis
 
-**Classification: NARROW (not WIDE)**
+The existing thesis (2026-02-13) classified moat as **WIDE (7/10)**. I DISAGREE and classify as **NARROW (17/25 or roughly 6.8/10 equivalent)**.
 
-**Arguments FOR Wide:**
-- ROIC significantly and consistently above WACC (spread +18pp latest)
-- Cleared workforce is genuinely hard to replicate
-- $38B backlog provides years of revenue visibility
-- #1 in government AI, a growing market
-- Operating margins 3pp+ above all peers
+**Key disagreements:**
 
-**Arguments AGAINST Wide (why I classify NARROW):**
+1. **Thesis says "WIDE (7/10)"** -- I say NARROW. The thesis underweights the civil segment moat erosion. DOGE proved that 34% of BAH's revenue sits in a segment where switching costs can be politically overridden. A WIDE moat company should not have 34% of revenue in a segment with no effective moat protection.
 
-1. **DOGE is actively and successfully eroding switching costs.** 60+ contracts cancelled, $4B in Pentagon cuts, 7% workforce reduction. The switching cost moat that was assumed to be durable is demonstrably breakable by political will. This is not a theoretical threat -- it is happening NOW.
+2. **Thesis treats DOGE as purely cyclical** -- I see it as mixed. Defense/intel DOGE impact is likely cyclical (these contracts are mission-critical). But civil DOGE impact may be partially structural -- the political precedent has been set that consulting contracts in civil agencies can be cancelled at will. Future administrations may continue this approach.
 
-2. **Single-customer concentration risk is extreme.** 98% of revenue from U.S. government. This is not diversification across customers -- it is concentration in a SINGLE customer with the power to unilaterally cancel contracts. A moat that depends on a single customer's willingness to keep paying is inherently fragile.
+3. **FCF inconsistency weakens the moat narrative.** The thesis acknowledges FCF volatility ($192M in FY2024 vs $911M in FY2025) but does not connect this to moat assessment. For a company with a genuine WIDE moat, I expect MORE consistent FCF generation. The volatility suggests the moat is narrower than the ROIC alone implies -- project-based revenue with government shutdown exposure creates FCF lumpiness that true wide-moat companies (subscription-based, monopoly-like) do not exhibit.
 
-3. **Civil segment (35% of revenue) has no durable moat in current environment.** Low-20% revenue decline in civil demonstrates that the switching costs are easily overcome when the customer (government) decides to cut. The moat only holds when the customer WANTS to stay.
+4. **Track record too short.** BAH IPO'd in 2010 but the quality_scorer.py only has 4 years of ROIC data. The moat framework requires 10+ years of ROIC > WACC for WIDE classification. I cannot confirm this with available data.
 
-4. **The cleared workforce moat protects the OLIGOPOLY, not BAH specifically.** LDOS, CACI, SAIC, Accenture Federal, and Deloitte Federal all have significant cleared workforces. BAH has the most, but the advantage is relative, not absolute. A new entrant cannot break in, but BAH's existing competitors can and do take contracts.
-
-5. **Revenue guidance cut 8% in a single quarter** (from $12-12.5B to $11.3-11.5B). A company with a Wide moat should not see this magnitude of revenue erosion from a non-recession political event.
-
-**Moat Score: 16/25** (for QS purposes)
-
-Breakdown:
-- GM Premium vs sector: 10/10 (massive +26.8pp vs consulting sector median)
-- Market Position: 5/8 (strong #2, but oligopoly not monopoly)
-- ROIC Persistence: 1/7 (only 4 years available from tool; the trajectory is good but I cannot verify 10yr persistence)
-
-**Note on ROIC Persistence scoring:** The tool only provides 4 years of ROIC data. All 4 are above WACC. However, per the moat framework rules ("NUNCA clasificar como Wide sin ROIC > WACC por 10+ años"), I cannot confirm the 10-year track record from available data. Independent research suggests BAH has been consistently profitable for over a decade, but I cannot score what I cannot quantitatively verify. I assign 1/7 as a conservative estimate -- likely should be higher (5-6/7) with more data.
-
-**Adjusted Moat Score with better ROIC persistence data: 20-21/25 is plausible, but I use 16/25 based on what I can verify.**
-
----
-
-## Comparison with Peer Moats
-
-| Company | Moat Type | Strength | Key Differentiator |
-|---------|-----------|----------|--------------------|
-| BAH | NARROW | 4/5 intangibles, 3.5/5 switching | #1 AI for gov, highest margins |
-| LDOS | NARROW | 3/5 intangibles, 4/5 switching | Largest scale, most diversified |
-| CACI | NARROW | 4/5 intangibles, 3/5 switching | SIGINT/classified focus, highest growth |
-| SAIC | NARROW | 3/5 intangibles, 3/5 switching | More IT integration, lower margins |
-
-All four companies have NARROW moats within the government IT services oligopoly. BAH is arguably at the stronger end of NARROW, but none qualify as WIDE given the single-customer concentration and demonstrated vulnerability to political disruption.
-
----
-
-## Discrepancias con Thesis (si aplica)
-
-No fundamental-analyst thesis exists yet. This is an independent R1 assessment. Key findings for the fundamental analyst to consider:
-
-1. **Entry price of $70 (from universe) requires careful justification.** Current price is $80.07. The stock is near its 52-week low ($76.83), already pricing in significant DOGE damage. The question is whether the market has overreacted (creating opportunity) or whether DOGE damage is still understated.
-
-2. **FV of $120 (from universe) may be too high given revised guidance.** FY2026 revenue guided to $11.3-11.5B (down from $12-12.5B), EPS guided to $5.95-6.15. At 15x forward P/E (reasonable for Tier B govcon), FV = $89-92. At 18x (premium for AI/moat), FV = $107-111. $120 implies 20x forward P/E which may be aggressive given the current DOGE overhang.
-
-3. **The DOGE risk is not transient.** The "Department of Government Efficiency" at 1 year has produced lasting changes in federal spending habits. Even if DOGE is disbanded, the precedent of aggressive contract cancellation may persist. The civil market may permanently shrink.
+**Where I AGREE with the thesis:**
+- Defense/intel moat sources are genuine and durable (cleared workforce, incumbency, AI leadership)
+- CEO insider purchase of $2M at ~$85 is a positive signal (skin in the game)
+- At P/E 11.8x, the market is pricing NO moat, which is too pessimistic
+- The valuation discount vs peers (BAH 11.8x vs CACI 25x, LDOS 16x) is excessive given BAH's superior ROIC
 
 ---
 
 ## 🔄 META-REFLECTION
 
 ### Dudas/Incertidumbres
-- I could not verify 10-year ROIC history from the quality_scorer tool (only 4 years available). This is a significant gap for moat classification. BAH's IPO was in 2010, so 10+ years of public data exists -- but the tool does not surface it. The moat score of 16/25 is likely understated if historical ROIC consistently exceeded WACC.
-- The cleared workforce numbers (22,000 cleared, 49% TS/SCI) come from older data and company self-reporting. Post-layoff numbers may be materially lower. I could not find post-layoff cleared headcount data.
-- DOGE's long-term impact is deeply uncertain. Some sources suggest DOGE cuts are being reversed (NPR article from Oct 2025). Others suggest lasting changes (Washington Times, Jan 2026). The duration and permanence of cuts is the single biggest uncertainty for BAH's moat durability.
+- **Civil segment granularity:** I could not obtain agency-level breakdown within civil. Some civil work (DHS cybersecurity, VA health IT) likely has stronger moat characteristics than others (EPA consulting, USAID). The 34% "civil" bucket may overstate the moat erosion if resilient sub-segments dominate.
+- **ROIC data limitations:** Only 4 years in quality_scorer.py. BAH has been public since 2010 and I would need 10+ year ROIC data to fully evaluate persistence. The FY2023 dip to 8.4% is concerning -- was this a one-off or does it reveal cyclical ROIC patterns?
+- **Gross margin comparability:** BAH's 54.8% GM vs LDOS 17.6% is a massive gap, but these companies have fundamentally different revenue mixes. BAH is more consulting/advisory (high GM, lower revenue per employee); LDOS is more systems integration (lower GM, higher revenue per employee). The comparison may overstate BAH's moat quality.
+- **DOGE permanence is unknowable.** This is the single largest source of uncertainty. Historical pattern (sequestration was temporary) suggests cyclical. But DOGE has a political constituency that sequestration did not.
+
+### Discrepancias con Thesis
+- Thesis classifies WIDE moat; I classify NARROW. See detailed disagreement section above. The core difference is how we weight the civil segment erosion. If you weight defense/intel only (64% of revenue), the moat is WIDE. If you weight the whole company, it is NARROW because 34% of revenue has demonstrated moat vulnerability.
 
 ### Sugerencias para el Sistema
-- The quality_scorer.py tool should attempt to pull 10-year ROIC history for moat assessment purposes. 4 years is insufficient for moat classification per the framework's own rules.
-- Government consulting/defense may deserve its own sector view given we now have BAH in the universe. The defense-aerospace.md view focuses on equipment/platforms, not IT services.
-
-### Anomalias Detectadas
-- BAH's beta of 0.35 seems anomalously low for a company experiencing 10% revenue decline and major political risk. This produces a WACC of 5.6% which may understate the true cost of capital. A beta of 0.7-0.9 would be more appropriate for the current risk profile, yielding WACC of 7-9% and tighter ROIC-WACC spread (+15pp instead of +18pp). The moat conclusion does not change, but the quantitative evidence is less dramatic than the tool suggests.
-- LDOS yield showing 100% in price_checker seems like a data error.
+- **Segment-level moat assessment** should become standard for companies with materially different competitive dynamics across segments. BAH's defense moat and civil moat are completely different stories -- a single moat score obscures this.
+- **DOGE impact tracking** should be added as a systematic risk factor for all US government-exposed positions. It is not a one-time event but a new structural risk for the govcon sector.
 
 ### Preguntas para Orchestrator
-1. Should we pursue R2 (devil's advocate) given the moat is NARROW and the DOGE risk is HIGH? The risk-reward profile is uncertain.
-2. Should the universe entry price be revised given the guidance cut? $70 entry implies significant further downside from $80.07.
-3. Is there a sector view for government consulting/IT services? If not, should we create one before proceeding?
+1. Should the moat score (17/25) be adjusted if civil segment stabilizes at next earnings (May 2026 Q4 FY2026)? What would upgrade conditions look like?
+2. Does the segment-level moat bifurcation (WIDE in defense/intel, NONE in civil) change the entry price calculus? Perhaps a sum-of-parts approach with different multiples per segment is more appropriate than a blended FV.
+3. Should we recalibrate the $70 entry price given Goldman's $109 PT (even post-downgrade) and the fact that BAH is already at historical P/E trough? The gap between our $70 entry and the current $82 may be "waiting for perfection" (L-02/L-05 error pattern).
 
 ---
-
-## Summary
-
-BAH has a **NARROW moat** driven primarily by intangible assets (cleared workforce, AI leadership, agency relationships) and moderate switching costs (contract stickiness, classified program embeddedness). The moat is under active erosion from DOGE government efficiency cuts, which have already resulted in 60+ contract cancellations, 7% workforce reduction, and an 8% revenue guidance cut. The defense and intelligence segments retain stronger moats than civil, which is declining 20%+. BAH's ROIC significantly exceeds WACC and margins are the best in the peer group, but single-customer concentration (98% government) makes the moat inherently fragile. The stock is near its 52-week low, suggesting the market is pricing in significant moat erosion. The key question for fundamental analysis is whether the market has OVER-priced this risk (creating opportunity) or is correctly pricing a structurally impaired business.

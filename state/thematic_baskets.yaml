@@ -211,6 +211,46 @@ baskets:
       not scored yet, P/E 18.6x interesting. RHM.DE and BA.L are Tier B at full price —
       not deployment candidates at current multiples.
 
+  - id: luxury-pricing-power
+    name: "Luxury & Pricing Power"
+    status: RESEARCHING
+    theme_vitality: ALIVE
+    thesis: >
+      Ultra-luxury companies with Veblen pricing power: demand INCREASES with price.
+      Deliberate scarcity models (production < demand), multi-generational brand moats,
+      UHNW population growing ~5% CAGR globally. These businesses are recession-resistant
+      because their customers don't feel recessions. Ferrari (52% ROIC, order book to 2027),
+      Hermes (2+ year Birkin waitlist), and select others operate as pricing power monopolies
+      where the brand IS the moat.
+    thesis_file: null  # TODO: Create thesis/baskets/luxury-pricing-power/thesis.md
+    sector_views:
+      - world/sectors/luxury-goods.md
+    positions:
+      - RACE.MI  # Ultra-luxury auto, QS 84 Tier A, 52% ROIC, F1 brand moat. Orphan promoted.
+    pipeline:
+      - RMS.PA   # Hermes — ultra-luxury, likely QS >80 Tier A. NOT SCORED. 2+ year waitlists.
+      - MC.PA    # LVMH — luxury conglomerate, likely QS ~70 Tier B. NOT SCORED. Diversified but China exposure.
+    shared_risks:
+      - "China luxury spending structural slowdown (22% of global luxury)"
+      - "UHNW wealth destruction in major financial crisis"
+      - "EUR strength reducing competitiveness of European luxury exports"
+      - "Succession risk in family-controlled businesses"
+    kill_conditions:
+      - "Global UHNW population declines for 2+ consecutive years"
+      - "2+ positions hit individual KCs simultaneously"
+      - "Ultra-luxury segment demand destruction (order books <12 months)"
+    vitality_signals:
+      positive: ["RACE.MI QS 84 Tier A = quality anchor", "UHNW population growing 5% CAGR", "Ferrari order book to 2027", "Sector de-rated 30% from 2023 peak = better entry", "Hermes + Ferrari = 2 of the best businesses on Earth"]
+      negative: ["Single position (RESEARCHING)", "China deceleration ongoing", "RMS.PA + MC.PA not scored yet", "Need 2nd position to upgrade from RESEARCHING"]
+    last_reviewed: 2026-03-06
+    created: 2026-03-06
+    notes: >
+      S141 NEW BASKET. RACE.MI promoted from orphan (was in killed eu-value-recovery basket).
+      The theme is PRICING POWER, not geography. RACE.MI is the anchor (QS 84, 52% ROIC).
+      Pipeline: score RMS.PA (Hermes, likely Tier A) and MC.PA (LVMH, likely Tier B).
+      If RMS.PA scores Tier A, this becomes a 2-position basket with the two best luxury
+      businesses in the world. Sector de-rated ~30% from 2023 peaks = better entry timing.
+
 # =============================================================================
 # ORPHAN POSITIONS (honest labels for positions without thematic basket)
 # =============================================================================
@@ -238,11 +278,7 @@ orphans:
     previous_basket: eu-value-recovery
     orphaned_date: 2026-03-06
 
-  - ticker: RACE.MI
-    reason: "Luxury monopoly with pricing power. Doesn't belong in 'EU Value Recovery' — belongs in a Pricing Power / Luxury basket if we find 2+ more."
-    action: "HOLD. QS 84 Tier A. EUR 355 FV. Monitor AGM Apr 15. If Hermes (RMS.PA) or LVMH scored Tier A → form Luxury/Pricing Power basket."
-    previous_basket: eu-value-recovery
-    orphaned_date: 2026-03-06
+  # RACE.MI — PROMOTED to luxury-pricing-power basket S141. No longer orphan.
 
   - ticker: DOM.L
     reason: "UK consumer staples. No thematic cluster. Small position, LOW conviction. Mar 10 earnings = potential catalyst for rotation."
@@ -288,8 +324,9 @@ killed_baskets:
 allocation_reasoning:
   date: 2026-03-06
   reasoning: |
-    S141 RESTRUCTURED from 6 baskets + 1 orphan to 5 baskets + 7 orphans.
-    LULU SOLD S141 (orphan EXIT). Now 14 positions, cash ~37% (EUR 3,985).
+    S141 RESTRUCTURED from 6 baskets + 1 orphan to 6 baskets + 5 orphans.
+    LULU SOLD S141 (orphan EXIT). RACE.MI promoted to luxury-pricing-power basket.
+    Now 14 positions, cash ~37% (EUR 3,985).
 
     BASKET STATUS POST-RESTRUCTURE:
     US Quality Compounders: 3 positions (ADBE, HLNE, DOCS), avg QS ~79. Slimmed.
@@ -313,9 +350,12 @@ allocation_reasoning:
     BAH (P/E 11.8x) is the contrarian entry. RHM.DE QS 70, BA.L QS 71 scored.
     Most names expensive — selectivity critical.
 
-    ORPHANS (7): LULU (EXIT candidate), GL (value bet), NVO (HOLD LOW),
-    EDEN.PA (highest E[CAGR]), RACE.MI (luxury anchor), DOM.L (Mar 10 binary),
-    BYIT.L (probation).
+    Luxury & Pricing Power (NEW): 1 position (RACE.MI QS 84). RESEARCHING.
+    Promoted from orphan. Score RMS.PA + MC.PA for pipeline. Veblen pricing theme.
+
+    ORPHANS (5): GL (value bet), NVO (HOLD LOW),
+    EDEN.PA (highest E[CAGR]), DOM.L (Mar 10 binary),
+    BYIT.L (probation). LULU SOLD. RACE.MI promoted to basket.
 
     CAPITAL FLOW PRIORITY (EUR 3,692 deployable):
     1. VRSN SO $210 — R4 approved, QS 86adj, fits US QC basket
@@ -354,7 +394,7 @@ theme_discovery:
       status: "HLNE in US QC basket. Need 2+ more candidates for dedicated basket."
     - theme: "Luxury / Pricing Power Monopolies"
       evidence: "RACE.MI (QS 84, orphaned from EU Value Recovery). Hermes RMS.PA (QS likely >80, not scored). LVMH possible."
-      status: "RACE.MI orphaned. If RMS.PA scores Tier A → form basket."
+      status: "BASKET luxury-pricing-power CREATED (RESEARCHING). RACE.MI anchor. Score RMS.PA + MC.PA."
     - theme: "India Digital & Consumption"
       evidence: "Fastest major economy 7%+ GDP. UPI digital payments. 500M middle class growth 2020-2040."
       status: "NOT SCORED. Score INFY + HDFCBANK as test cases. 20-year theme we're blind to."
