@@ -2,7 +2,7 @@
 
 > **Fair Value:** $195 (v4.0 post-CRSP accretion, was $180 R3)
 > **Entry:** $140 (MoS 28%)
-> **Date:** 2026-02-20 (bought S101, updated S104)
+> **Date:** 2026-02-20 (bought S101, updated S104, refreshed 2026-03-06)
 > **Status:** ACTIVE — E[CAGR] 15.6% at $161.85. First E[CAGR]-framework market buy.
 > **Pipeline:** R1 ✓ | R2 ✓ (DA 13/19 STRONG COUNTER) | R3 ✓ (resolution) | R4 market buy S101
 > **R3 Resolution (2026-02-13):** FV $205→$180 (-12%). DA 13/19 STRONG COUNTER. CRSP conflict of interest, growth 9%→7.5%, index fund fee pressure. QS 83→78 (Tier A). Entry $130-135 (25-28% MoS).
@@ -353,12 +353,12 @@ MORN trades at a massive discount to peers. Even adjusting for lower margins (MO
 
 | Metric | Value |
 |--------|-------|
-| Current Price | $155 |
-| Fair Value (Weighted) | $205 |
+| Current Price | $189.86 (Mar 6) |
+| Fair Value (v4.0) | $195 |
 | Expected Value | $208 |
-| MoS vs Base FV | **+32%** |
-| MoS vs EV | **+34%** |
-| MoS vs Bear | **-5%** |
+| MoS vs FV $195 | **+2.7%** |
+| MoS vs EV | **+9.6%** |
+| MoS vs Bear | **-22%** |
 
 **Assessment:** At $155, MoS of 32% vs base and 34% vs EV is excellent for a Tier A compounder. The bear case at $148 is only 5% below current price, providing strong downside protection: even in the bear case, the downside is minimal.
 

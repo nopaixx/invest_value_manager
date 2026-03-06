@@ -1,6 +1,6 @@
 # AUTO.L - AutoTrader Group plc
 
-> Fecha: 2026-02-06 (original) | Adversarial Review: 2026-02-11 | Urgent Re-Evaluation: 2026-02-11
+> Fecha: 2026-02-06 (original) | Adversarial Review: 2026-02-11 | Last Refresh: 2026-03-06
 > Analista: Claude (fundamental-analyst) | Reviewer: Claude (review-agent, adversarial + urgent re-eval)
 > Status: ACTIVE - Position opened 2026-02-06 (65 shares @ 485.80 GBp)
 > **Fair Value:** 580 GBp (re-eval 2026-02-11)
@@ -343,20 +343,20 @@ AUTO.L earns a CONDITIONAL place in the portfolio -- conditional on the April pr
 
 ---
 
-## Position Details (Updated Feb 11)
+## Position Details (Updated Mar 6)
 
 | Metric | Value |
 |--------|-------|
 | Shares | 65 |
 | Entry Price | 485.80 GBp (~5.58 EUR) |
-| Current Price | 470.00 GBp (Feb 11) |
-| P&L | -3.3% (-EUR 12) |
-| Total Invested | ~363 EUR |
-| Weight | ~3.4% |
+| Current Price | 486.54 GBp (Mar 6) |
+| P&L | +0.2% (~flat) |
+| Total Invested | ~428 EUR |
+| Weight | ~3.5% |
 | Conviction | **LOW** (was MEDIUM -- downgraded due to intensifying dealer revolt) |
 | ADD trigger | **CANCELLED** (was 450p; based on inflated FV) |
 | FV (Re-Eval) | **580p** (was 617p adversarial, 688p original) |
-| MoS | **19.0%** (was 23.7% adversarial, 29% original) |
+| MoS | **19.3%** at 486.54p |
 | Next review | After April 2026 pricing event implementation |
 | Decision point | **May 2026**: FY results + April pricing reception = HOLD/EXIT decision |
 
