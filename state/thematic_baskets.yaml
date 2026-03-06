@@ -218,11 +218,7 @@ baskets:
 # fit is more important than forcing them into a fake basket.
 
 orphans:
-  - ticker: LULU
-    reason: "Worst E[CAGR] in portfolio (-5.5%). No CEO 34+ days. Dual activist pressure (Wilson proxy + Elliott). Governance crisis. LOW conviction. Mar 17 MAKE-OR-BREAK."
-    action: "EXIT candidate. Mar 17 Q4 earnings decides fate. If negative comps or GM <57% → EXIT. If strong + CEO appointed → reconsider."
-    previous_basket: us-quality-compounders
-    orphaned_date: 2026-03-06
+  # LULU — SOLD 2026-03-06. Orphan EXIT. P&L -1.0%. Capital freed EUR ~293.
 
   - ticker: GL
     reason: "QS 52 Tier C = lowest quality in portfolio. Post-litigation special situation, not basket anchor. Insurance is cyclical, not secular."
@@ -293,7 +289,7 @@ allocation_reasoning:
   date: 2026-03-06
   reasoning: |
     S141 RESTRUCTURED from 6 baskets + 1 orphan to 5 baskets + 7 orphans.
-    Honest labels > fake themes. 15 positions, cash 35.3% (EUR 3,692).
+    LULU SOLD S141 (orphan EXIT). Now 14 positions, cash ~37% (EUR 3,985).
 
     BASKET STATUS POST-RESTRUCTURE:
     US Quality Compounders: 3 positions (ADBE, HLNE, DOCS), avg QS ~79. Slimmed.

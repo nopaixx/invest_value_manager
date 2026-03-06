@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 3692  # Updated 2026-03-05. Post-RACE.MI BUY EUR 350. Previous: 4042.
+  amount: 3985  # Updated 2026-03-06. Post-LULU SELL 2 shares at ~$170.12 (~EUR 293 at 1.1616). Previous: 3692.
   currency: EUR
 
 positions:
@@ -107,18 +107,7 @@ positions:
     fair_value: "190 GBp (v3.2 post-FY2025 earnings. QS Tool 83, Adj 75 Tier A borderline.)"
     exit_plan: "HOLD. FV 190 GBp. Conviction LOW (base case, not bull). SELL if revenue declines YoY or Insurance -5%+ or dividend cut. SELL if AI strategy stalls (no product iteration by H1 2026). TRIM at >180p. ADD at <130p only if conviction upgrades. Next review: Q1 2026 trading update or if price >180p."
 
-  - ticker: LULU
-    name: "Lululemon Athletica Inc."
-    shares: 2
-    invested_usd: 343.24
-    avg_cost_usd: 171.84  # Corrected from eToro (was 171.62)
-    date_opened: 2026-02-05
-    thesis: thesis/active/LULU/thesis.md
-    conviction: low
-    last_review: 2026-02-12
-    fair_value: "$196 (governance re-eval Feb 12, was $202 adversarial, $261 original. QS Tool 80, Adj 78 Tier A low-end.)"
-    exit_plan: "HOLD ON PROBATION through Mar 31 Q4 earnings. No ADD. SELL if negative global comps or GM <57% or poor CEO appointment. UPGRADE if US improves + GM stable + credible CEO. Kill conditions: 8 active, 2 approaching/elevated."
-    notes: "Governance Re-eval 2026-02-12: QS 82→78, FV $261→$196 (-25%). CEO out Jan 31, Elliott $1B activist, Wilson proxy fight, bonuses below target. ROIC 47% exceptional but thesis weakened on 3/6 assumptions. Position small ($343). Mar 31 MAKE-OR-BREAK."
+  # LULU REMOVED 2026-03-06 - SOLD. Orphan EXIT. No CEO 34+ days, dual activist pressure (Wilson + Elliott), worst E[CAGR] in portfolio (-5.5%). P&L -1.0%.
 
   - ticker: AUTO.L
     name: "AutoTrader Group plc"
@@ -733,3 +722,13 @@ transactions:
     price_eur: 312.80
     total_eur: 350
     notes: "BUY - SIXTH E[CAGR]-framework market buy. QS 82/84adj Tier A. FV EUR 355 (R3 post-DA). MoS 11.9%. E[CAGR] ~13.5% > 12% threshold. THREE WAITS mandate (3 consecutive Q1 'wait' answers). SO EUR 295 superseded by market buy (EUR 17.80 difference = noise vs 4.8pp/yr cash drag). R4 approved S90. EU Value Recovery basket 2nd position — saves from Mar 31 death deadline. WIDE moat (brand + scarcity + pricing power). 52% ROIC, net cash, 2-yr order book. AGM Apr 15."
+
+  - date: 2026-03-06
+    action: SELL
+    ticker: LULU
+    shares: 2
+    price_usd: 170.12
+    total_usd: 340.24
+    pnl_usd: -3.44
+    pnl_pct: -1.0
+    notes: "EXIT - Orphan position. No CEO 34+ days (Christine Day out Jan 31). Dual activist pressure (Wilson proxy fight + Elliott $1B stake). Worst E[CAGR] in portfolio (-5.5%). ON PROBATION since Feb 12 governance re-eval. QS 78 Tier A low-end but thesis weakened 3/6 assumptions. Capital freed for deployment into stronger baskets."

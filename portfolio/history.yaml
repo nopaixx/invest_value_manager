@@ -10,10 +10,10 @@
 metadata:
   created: 2026-02-03
   last_updated: 2026-02-26
-  total_closed: 16
-  total_pnl_eur: 60.23  # Previous -3.85 + DTE.DE +64.08 = 60.23 (closed positions only, excludes partial sells)
-  win_rate: 56.3  # 9 winners / 16 positions (DTE.DE +22.4% is a winner)
-  avg_holding_days: 9
+  total_closed: 17
+  total_pnl_eur: 57.23  # Previous 60.23 + LULU -3 = ~57.23 (closed positions only, excludes partial sells)
+  win_rate: 52.9  # 9 winners / 17 positions
+  avg_holding_days: 10
   # Note: DTE.DE had prior partial sells totaling EUR 137.80 realized P&L (see partial_sells section)
 
 # ADVERSARIAL FV ACCURACY TRACKING (added Session 53 per Devil's Advocate)
@@ -404,6 +404,30 @@ closed_positions:
     exit_reason: adversarial_review_roic_below_wacc
     lesson_learned: "D&A assumptions MUST be cross-checked against actual EBITDA-to-EBIT bridge in results. Post-acquisition D&A (intangible amortization) can be dramatically higher than pre-acquisition baseline. EV/EBIT multiples must anchor to actual peer trading levels, not theoretical ranges. For leveraged mid-caps, EV/EBIT is more reliable than DCF (which had 76% terminal value dependency)."
 
+  - ticker: LULU
+    name: "Lululemon Athletica Inc."
+    entry_date: 2026-02-05
+    exit_date: 2026-03-06
+    shares: 2
+    entry_price_usd: 171.84
+    exit_price_usd: 170.12
+    entry_currency: USD
+    invested_eur: 291  # ~$343.24 / 1.18
+    proceeds_eur: 293  # ~$340.24 / 1.1616
+    pnl_amount_usd: -3.44
+    pnl_percent: -1.0
+    holding_days: 29
+    thesis_fv_at_entry: 261  # USD - original thesis
+    thesis_fv_adversarial: 202  # USD - adversarial review
+    thesis_fv_v3: 196  # USD - governance re-eval (Feb 12)
+    fv_reached: false
+    quality_score: 78  # Tier A low-end (Tool 80, Adj 78)
+    thesis_accuracy:
+      correct: false
+      notes: "Original FV $261 inflated 25% — governance re-eval Feb 12 lowered to $196 after CEO departure Jan 31, Elliott $1B activist, Wilson proxy fight. QS 82→78. Position ON PROBATION since Feb 12. Thesis weakened 3/6 assumptions. ROIC 47% exceptional but no CEO for 34+ days, dual activist pressure, worst E[CAGR] in portfolio (-5.5%). Orphaned from US Quality Compounders basket S141. Small loss (-1.0%) confirms disciplined exit rather than waiting for MAKE-OR-BREAK Mar 17 earnings."
+    exit_reason: orphan_exit_governance_crisis
+    lesson_learned: "Governance crises (CEO departure + activist pressure) can crater thesis even when QS and ROIC are strong. Probation periods should have clearer time limits. Position was too small ($343) to justify the monitoring overhead. Sell early when thesis weakens on multiple assumptions rather than waiting for a binary event."
+
   - ticker: DTE.DE
     name: "Deutsche Telekom AG"
     entry_date: 2026-01-26
@@ -475,15 +499,15 @@ partial_sells:
 # Statistics (auto-calculated by effectiveness_tracker.py)
 statistics:
   # Will be populated by the tool
-  total_closed_positions: 16
+  total_closed_positions: 17
   total_partial_sells: 4  # DTE.DE trim Feb 26 is now part of closed position (fully exited)
-  total_realized_pnl_eur: 555.88  # Previous 491.80 + DTE.DE final exit +64.08 = 555.88
+  total_realized_pnl_eur: 552.88  # Previous 555.88 + LULU -3 = ~552.88
   winners: 9  # SHEL.L +2.3%, LIGHT.AS +13.7%, PFE +1.8%, TATE.L +3.5%, IMB.L +6.9%, UHS +16.2%, VICI +1.7%, ALL +5.9%, DTE.DE +22.4%
-  losers: 5  # FUTR.L -2.8%, TEP.PA -6.7%, A2A.MI -1.5%, SAN.PA -0.84%, HRB -13.25%
+  losers: 6  # FUTR.L -2.8%, TEP.PA -6.7%, A2A.MI -1.5%, SAN.PA -0.84%, HRB -13.25%, LULU -1.0%
   breakeven: 2  # ENEL.MI 0%, VNA.DE 0%
-  win_rate_pct: 56.3
+  win_rate_pct: 52.9
   avg_win_pct: 8.2  # (2.3 + 13.7 + 1.8 + 3.5 + 6.9 + 16.2 + 1.7 + 5.9 + 22.4) / 9 = 8.27
-  avg_loss_pct: -4.9  # (-2.8 + -6.7 + -1.5 + -0.84 + -13.25) / 5
+  avg_loss_pct: -4.3  # (-2.8 + -6.7 + -1.5 + -0.84 + -13.25 + -1.0) / 6
   avg_holding_days: 9
   positions_reached_fv: 0
   thesis_accuracy_rate: null
