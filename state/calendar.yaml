@@ -5,13 +5,13 @@
 events:
   # Archived S132: QTCOM.HE FY2025 (ARCHIVED), DTE.DE FY2025 (SOLD), INTU Q2 (monitoring), CS.PA FY2025 (no action), PROX.BR FY2025 (no action), ENGI.PA FY2025 (no action), NTGY.MC FY2025 (passed), LYV DOJ trial (monitoring, no position)
 
-  # GEOPOLITICAL CRISIS — Operation Epic Fury (MODERATING from peak)
-  - date: 2026-03-05
+  # GEOPOLITICAL CRISIS — Operation Epic Fury (RE-ESCALATED Mar 6)
+  - date: 2026-03-06
     type: macro_crisis
     ticker: PORTFOLIO
-    event: "Operation Epic Fury — MODERATING. Hormuz still closed (~150 ships stranded). But Iran 'open to de-escalation' (Araghchi to Oman FM). Oil retreating: WTI $76.90 (from $87 peak). IRIS Dena sunk by US sub. Death toll 787+."
+    event: "Operation Epic Fury — RE-ESCALATED. Hormuz STILL CLOSED. Oil WTI surged $77→$90 (+17% in 1 day). VIX 21→26. Gold $5,152. DXY 98.88 weakening. Previous 'moderating' assessment WRONG. Market now pricing sustained disruption."
     priority: CRITICAL
-    action: "MONITOR DAILY. Market pricing 'contained disruption.' VIX 21.15, Oil $77, S&P 6870. If Hormuz partially reopens → oil $75. If closure sustains → $90-100 risk. RACE.MI 6% from trigger — moved AWAY as crisis moderates."
+    action: "MONITOR DAILY. 3 HIGH-vulnerability positions (DOM.L, EDEN.PA, AUTO.L = 11.2% portfolio). 35.5% cash = buffer. FTNT = crisis beneficiary. DOM.L earnings Mar 10 = key test under oil pressure. If Hormuz reopens → rapid reversal. If sustains → $100+ oil risk, recession fears."
 
   # THIS WEEK — EARNINGS (all in crisis context)
   # Archived S136: KLR.L FY2025 GATE PASS (OP 7.1%, OB GBP 1.5B, buyback GBP 100M. SO 1700p ACTIVE.), ITRK.L FY2025 CONDITIONAL PASS (OP 18.1%, organic 3.9%. Deferred — BVI.PA preferred.), ASM.AS Q4 monitoring, BEI.DE FY2025 monitoring
@@ -38,6 +38,20 @@ events:
     event: "4imprint FY2025 Results — HARD GATE for entry (CORRECTED from Mar 11)"
     priority: high
     action: "R3 complete. Pipeline candidate. HARD GATE: must review results before standing order."
+
+  - date: 2026-03-20
+    type: ex_dividend
+    ticker: HLNE
+    event: "HLNE ex-dividend date"
+    priority: low
+    action: "Capture dividend. No action needed."
+
+  - date: 2026-03-26
+    type: ex_dividend
+    ticker: MONY.L
+    event: "MONY.L ex-dividend date"
+    priority: low
+    action: "Capture dividend. No action needed."
 
   - date: 2026-03-14
     type: framework_deadline
