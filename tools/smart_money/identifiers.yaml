@@ -1393,6 +1393,12 @@ identifiers:
     resolved_at: '2026-02-25'
     isin: GB00B1KJJ408
     source: regulatory_harvest
+  HALO:
+    country: US
+    resolved_at: '2026-03-06'
+    isin: US40637H1095
+    cusip: 40637H109
+    cik: '1159036'
 failed_resolutions:
 - BEI.DE
 - CCH.L

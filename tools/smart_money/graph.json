@@ -4105,6 +4105,38 @@
       "full_name": "Piero Ferrari",
       "fund_type": "unknown",
       "id": "piero-ferrari"
+    },
+    {
+      "type": "stock",
+      "country": "US",
+      "id": "ERIE"
+    },
+    {
+      "type": "fund",
+      "full_name": "PNC Financial",
+      "fund_type": "unknown",
+      "id": "pnc-financial"
+    },
+    {
+      "type": "fund",
+      "full_name": "Spruce Point Capital",
+      "fund_type": "unknown",
+      "id": "spruce-point-capital"
+    },
+    {
+      "type": "fund",
+      "full_name": "Hirt Family Trusts",
+      "fund_type": "unknown",
+      "id": "hirt-family-trusts"
+    },
+    {
+      "type": "stock",
+      "name": "",
+      "sector": "",
+      "country": "US",
+      "in_portfolio": false,
+      "in_universe": true,
+      "id": "HALO"
     }
   ],
   "edges": [
@@ -11781,10 +11813,10 @@
     {
       "relation": "holds",
       "pct_portfolio": 4.0,
-      "source": "blackrock",
       "session_date": "2026-03-02",
       "date_added": "2026-03-02",
       "note": "capture",
+      "source": "blackrock",
       "target": "RACE.MI",
       "key": 0
     },
@@ -13352,6 +13384,37 @@
       "note": "capture",
       "source": "piero-ferrari",
       "target": "RACE.MI",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 10.6,
+      "session_date": "2026-03-06",
+      "date_added": "2026-03-06",
+      "note": "capture",
+      "source": "pnc-financial",
+      "target": "ERIE",
+      "key": 0
+    },
+    {
+      "relation": "shorts",
+      "pct_shares": 8.6,
+      "session_date": "2026-03-06",
+      "date_added": "2026-03-06",
+      "data_source": "live",
+      "note": "capture",
+      "source": "spruce-point-capital",
+      "target": "ERIE",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 45.5,
+      "session_date": "2026-03-06",
+      "date_added": "2026-03-06",
+      "note": "capture",
+      "source": "hirt-family-trusts",
+      "target": "ERIE",
       "key": 0
     }
   ]
