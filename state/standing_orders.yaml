@@ -1,13 +1,16 @@
 # STANDING ORDERS - Price alerts with pre-written thesis
 # NOT autonomous orders. Human alerts Claude when price hits trigger.
 # Claude runs fast-track validation (pre-execution-check + reverse DCF) before recommending.
-# Updated: 2026-02-20 (Session 99 — restructured with categories)
+# Updated: 2026-03-02 (Session 133 — v4.8 staleness metadata added)
 #
 # CATEGORIES:
 # ACTIVE     — trigger <15% away, no unmet gate, prob_fill >25%. Human should watch daily.
 # GATED      — has pre-execution condition not yet met. Cannot execute until gate clears.
 # BORDERLINE — 15-25% away, no gate, prob_fill 10-25%. Realistic in correction.
 # EXTREME    — >25% away, prob_fill <10%. Crash-only. Separate section below.
+#
+# STALENESS (v4.8): Each SO has staleness_status: FRESH / STALE / RECALIBRATED / ARCHIVED
+# STALE = >15% distance AND >30d since created AND no dated catalyst. See T12, Error #54.
 
 standing_orders:
 
@@ -15,19 +18,11 @@ standing_orders:
   # ACTIVE — Watch daily. These can execute when price hits trigger.
   # ═══════════════════════════════════════════════════════════════════════
 
-  - ticker: RACE.MI
-    action: BUY
-    category: ACTIVE
-    fill_prob_6m: 75
-    trigger: "<=EUR 295"
-    current_distance: "3.8%"
-    size_eur: 350
-    fair_value: "EUR 355"
-    mos_at_trigger: "16.9%"
-    tier: "A (QS 82/84)"
-    notes: "Committee approved. Trigger RAISED EUR 270→295 (Session 90, Expected Return framework). E[CAGR] ~14.5% at EUR 295 vs cash 3%. Luce gate DE-RISKED (interior revealed Feb 9, positive feedback). Tariff gate DE-RISKED (25%→15%, Greenland threat withdrawn). Fair-Value mode: MoS 5-15% Tier A acceptable."
-    last_analysis_date: 2026-02-20
-    expiry: 2026-08-01
+  # RACE.MI BUY — EXECUTED 2026-03-05 (Session 140). Market buy at EUR 312.80, ~1.12 shares, EUR 350.
+  # 6th E[CAGR]-framework market buy. THREE WAITS mandate (3 consecutive Q1 'wait' answers).
+  # SO EUR 295 superseded by market buy — EUR 17.80 difference = noise vs 4.8pp/yr cash drag.
+  # E[CAGR] ~13.5% at EUR 312.80 > 12% Tier A threshold. MoS 11.9%.
+  # Saves EU Value Recovery basket from Mar 31 death deadline.
 
   # MORN — EXECUTED 2026-02-20 (Session 101). Market buy at $160.76, 2.9 shares, $466.20.
   # First E[CAGR]-framework market buy. E[CAGR] 15.6% at $162 >> 12% threshold. MoS 17%.
@@ -39,6 +34,8 @@ standing_orders:
     fill_prob_6m: 25
     trigger: "<=950 GBp"
     current_distance: "4.8%"
+    created_date: "2026-02-14"
+    staleness_status: FRESH  # <15% distance, but BLOCKED (6th UK position)
     size_eur: 375
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
@@ -54,6 +51,8 @@ standing_orders:
     fill_prob_6m: 50
     trigger: "<=$88"
     current_distance: "10.5%"
+    created_date: "2026-02-14"
+    staleness_status: FRESH  # <15% distance
     size_eur: 400
     fair_value: "$110"
     mos_at_trigger: "20%"
@@ -67,13 +66,15 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 25
     trigger: "<=EUR 270"
-    current_distance: "12.0%"
+    current_distance: "14.0%"
+    created_date: "2026-02-20"
+    staleness_status: FRESH  # <15% distance
     size_eur: 350
     shares_approx: 1
     fair_value: "EUR 355"
     mos_at_trigger: "24%"
-    notes: "ADD to full 6% if initial EUR 295 already executed. Trigger raised EUR 260→270 (Session 90)."
-    last_analysis_date: 2026-02-20
+    notes: "ADD to full 6% — initial BUY EXECUTED 2026-03-05 at EUR 312.80 (~1.12 shares, EUR 350). Trigger raised EUR 260→270 (Session 90). Current position ~3.4%."
+    last_analysis_date: 2026-03-05
     expiry: 2026-08-01
 
   - ticker: GL
@@ -82,6 +83,8 @@ standing_orders:
     fill_prob_6m: 25
     trigger: "<=$125"
     current_distance: "13.2%"
+    created_date: "2026-02-10"
+    staleness_status: FRESH  # <15% distance
     size_eur: 300
     shares_approx: 2
     fair_value: "$191"
@@ -100,6 +103,8 @@ standing_orders:
     fill_prob_6m: 25
     trigger: "<=$155"
     current_distance: "13.3%"
+    created_date: "2026-02-14"
+    staleness_status: FRESH  # <15% distance
     size_eur: 200
     fair_value: "$190"
     mos_at_trigger: "18.4%"
@@ -122,34 +127,23 @@ standing_orders:
     category: GATED
     fill_prob_6m: 30
     trigger: "<=$65"
-    current_distance: "7.6%"
+    current_distance: "3.5%"
+    created_date: "2026-02-26"
+    staleness_status: FRESH  # <15% distance, dated catalyst (Merck PTAB Jun 2026)
     gate: "Merck PTAB ruling (Jun 2026) — binary risk favors patience"
+    r4_status: "APPROVED CONDITIONAL (S140, 2026-03-06). 6 PASS, 4 CONDITIONAL PASS, 0 FAIL."
     size_eur: 400
     fair_value: "$90 (R3 post-DA, was $110 R1)"
     mos_at_trigger: "27.8%"
-    tier: "A (QS 79adj, R3 COMPLETE)"
-    notes: "R3 RESOLVED S126. DA STRONG COUNTER (-18.2%): CMS/IRA risk omitted (-27% event), Alteogen competition ($1.65B deals), FV>all analyst PTs, royalty rate step-downs. Moat NARROW-to-WIDE (65% conf). Royalty platform (ENHANZE rHuPH20), 84% GM, 46% FCF margin. E[CAGR] ~15.3% at $65. Goldman SELL $56-58. 16% SI. CEO selling $10M+. Wait Merck PTAB Jun 2026."
+    tier: "A (QS 79adj, R4 APPROVED)"
+    notes: "R4 APPROVED S140. 10-gate: 6 PASS, 4 CONDITIONAL. Conditions: (1) CANCEL if Merck PTAB broadly adverse Jun 2026, (2) RECALIBRATE to $55 if CMS finalizes combination product guidance as drafted, (3) RECLASSIFY Tier B if Alteogen signs 3+ more major deals or DARZALEX rev negative. Edge WEAK (FV $90 = consensus median). NVO precedent: pharma binaries can destroy 22% value. SO approach correct for binary risk."
     kill_conditions: "Merck PTAB full loss (royalty stream voided), CMS/IRA final guidance kills DARZALEX pricing, Alteogen wins 3+ new partners in 12mo, ROIC <WACC 2yr"
-    pre_execution_condition: "Merck PTAB ruling Jun 2026 must resolve favorably. If partial adverse → reassess at lower entry. If full adverse → CANCEL."
-    last_analysis_date: 2026-02-26
+    pre_execution_condition: "Merck PTAB ruling Jun 2026 must resolve favorably. If partial adverse → reassess at lower entry ($55). If full adverse → CANCEL."
+    last_analysis_date: 2026-03-06
     expiry: 2026-10-01
 
-  - ticker: ERIE
-    action: BUY
-    category: GATED
-    fill_prob_6m: 5
-    trigger: "<=$180"
-    current_distance: "34.3%"
-    gate: "SCOTUS Stephenson v. Erie Indemnity (No. 25-834) cert disposition"
-    size_eur: 350
-    fair_value: "$225 (R3 post-DA, was $313 R1, -28.1%)"
-    mos_at_trigger: "20.0%"
-    tier: "A (QS 77adj, R3 COMPLETE — was 85adj)"
-    notes: "R3 RESOLVED S126. DA STRONG COUNTER (3 CRITICAL): (1) SCOTUS lawsuit No. 25-834 challenging 25% fee — OMITTED from R1, (2) QS +20 reduced to +12 (precedent max was +11), (3) ERIE charges 2x comparable (Farmers 12.4% vs 25%) + Spruce Point STRONG SELL + $455M Zurich settlement precedent. FV probability-weighted: 75% no fee change ($237) + 15% fee to 22% ($174) + 10% fee to 20% ($149) = $225. E[CAGR] ~13.2% at $180. 8.6% SI. Zero insider buying. No informational edge (Spruce Point thesis exists)."
-    kill_conditions: "Exchange board vote to reduce fee, SCOTUS rules against ERIE on fee challenge, AM Best downgrade below A-, premium growth negative 2yr, insider ownership <30%, Spruce Point thesis materially validates"
-    pre_execution_condition: "SCOTUS Stephenson cert disposition required. If cert DENIED → SO valid (case to PA state court). If cert GRANTED → wait for ruling. If fee upheld → valid. If fee modified → CANCEL."
-    last_analysis_date: 2026-02-26
-    expiry: 2026-10-01
+  # ERIE — ARCHIVED S133 (2026-03-02). STALE TRIAGE: $269 > FV $225 (overvalued). SCOTUS undated.
+  # 34% from trigger = fantasy. Thesis preserved thesis/research/ERIE/. Re-eval if price <$200.
 
   # ═══════════════════════════════════════════════════════════════════════
   # GATED — Cannot execute until pre-execution condition is met.
@@ -161,6 +155,8 @@ standing_orders:
     fill_prob_6m: 25
     trigger: "<=CHF 80"
     current_distance: "15.0%"
+    created_date: "2026-02-20"
+    staleness_status: FRESH  # 15% distance but has dated gate (GM at next report)
     gate: "GM >=70% at most recent reporting date (R4 APPROVED S103)"
     size_eur: 400
     shares_approx: 5
@@ -175,50 +171,29 @@ standing_orders:
 
   - ticker: KLR.L
     action: BUY
-    category: GATED
-    fill_prob_6m: 20
+    category: ACTIVE
+    fill_prob_6m: 25
     trigger: "<=1,700p"
-    current_distance: "16.1%"
-    gate: "FY2025 results (Mar 3, 2026) — PASS: OP margin >=6.5% AND order book >=GBP 1.4B"
+    current_distance: "20.4%"
+    created_date: "2026-02-20"
+    staleness_status: FRESH  # Gate CLEARED Mar 3 — OP 7.1%, OB GBP 1.5B. Now ACTIVE.
+    gate: "CLEARED S136. FY2025: OP margin 7.1% (gate 6.5%), order book GBP 1.5B (gate 1.4B). GBP 100M buyback announced."
     size_eur: 400
-    shares_approx: 23
+    shares_approx: 19
     fair_value: "2,100p"
     mos_at_trigger: "19.0%"
     tier: "A (QS 76/79 adj)"
-    notes: "R3 RESOLVED (S103). FV 2,600→2,100 (-19.2%). Entry 1,750→1,700. Margin 6%→5.5%, EV/EBIT 10.5x→9.5x. R2 was 11/19 MODERATE COUNTER: margin mean reversion + IIJA cliff + H1 2025 weakness. Bear 1,450p. #1 global geotechnical, ROIC 19.7%, ND/EBITDA 0.4x."
+    notes: "R3 RESOLVED (S103). FV 2,600→2,100 (-19.2%). GATE PASSED S136: OP margin 7.1% (highest recent), OB GBP 1.5B, GBP 100M buyback, rev GBP 3.09B (+5.9% CC). OP GBP 218.2M (+6.5%). Bear 1,450p. #1 global geotechnical, ROIC 19.7%, ND/EBITDA 0.4x. UK-listed but 55% US revenue. R4 required before execution."
     kill_conditions: "OP margin <5% 2Q, order book <GBP 1.2B, ROIC <WACC, CEO acquisition >GBP 200M, US infra spending -15%"
-    pre_execution_condition: "FY2025 results Mar 3, 2026. PASS: OP margin >=6.5% + order book >=1.4B. FAIL: margin <5.5% or OB <1.2B → CANCEL. CONDITIONAL: 5.5-6.5% margin → reassess with tighter entry."
-    last_analysis_date: 2026-02-20
+    pre_execution_condition: "R4 committee required. Gate cleared. 20.4% from trigger — needs meaningful selloff or crisis-driven discount."
+    last_analysis_date: 2026-03-03
     expiry: 2026-10-01
 
-  - ticker: NVO
-    action: ADD
-    category: CANCELLED
-    trigger: "CANCELLED — CagriSema FAILED Feb 23. Gate invalidated."
-    current_distance: "N/A"
-    gate: "CagriSema FAILED. Gate invalidated."
-    size_eur: 0
-    shares_approx: 0
-    fair_value: "$50 (revised from $66)"
-    mos_at_trigger: "N/A"
-    notes: "CagriSema REDEFINE 4 failed non-inferiority vs Zepbound (23% vs 25.5%). KC#1 triggered. HOLD confirmed by human S117. ADD only at $30 if Wegovy pill data strong."
-    last_analysis_date: 2026-02-25
-    expiry: 2026-02-25
+  # NVO ADD — CANCELLED 2026-02-25 (Session 117). CagriSema REDEFINE 4 FAILED.
+  # KC#1 triggered. HOLD confirmed. ADD only at $30 if Wegovy pill data strong. FV $50.
 
-  - ticker: BYIT.L
-    action: ADD
-    category: GATED
-    fill_prob_6m: 10
-    trigger: "<=240 GBp"
-    current_distance: "~40%"
-    gate: "H2 FY2026 OP must confirm recovery >GBP 66M"
-    size_eur: 200
-    shares_approx: 83
-    fair_value: "345 GBp"
-    mos_at_trigger: "30%"
-    notes: "After H2 FY2026 OP confirms recovery >GBP 66M."
-    last_analysis_date: 2026-02-11
-    expiry: 2026-06-01
+  # BYIT.L ADD — ARCHIVED S133 (2026-03-02). STALE TRIAGE: 40% from trigger = EXTREME territory.
+  # Already hold 110 shares. Gate undated. Re-eval only if price <260p AND FY2026 OP >66M confirmed.
 
   - ticker: ROP
     action: BUY
@@ -226,6 +201,8 @@ standing_orders:
     fill_prob_6m: 25
     trigger: "<=$285"
     current_distance: "14.2%"
+    created_date: "2026-02-20"
+    staleness_status: FRESH  # <15% distance, dated gate (Q1 2026)
     gate: "Q1 2026 organic growth must be >=4%"
     size_eur: 400
     fair_value: "$365"
@@ -242,6 +219,8 @@ standing_orders:
     fill_prob_6m: 10
     trigger: "<=$170"
     current_distance: "14.5%"
+    created_date: "2026-02-14"
+    staleness_status: FRESH  # <15% distance, dated gate (Q2 FY2026 Mar 2026)
     gate: "Q2 FY2026 results (Mar 2026)"
     size_eur: 400
     fair_value: "$210"
@@ -257,6 +236,8 @@ standing_orders:
     fill_prob_6m: 10
     trigger: "<=$80"
     current_distance: "14.9%"
+    created_date: "2026-02-14"
+    staleness_status: FRESH  # <15% distance
     gate: "Price drifting away. Need re-eval if stays >$90."
     size_eur: 400
     fair_value: "$100"
@@ -269,33 +250,37 @@ standing_orders:
   - ticker: DSY.PA
     action: BUY
     category: GATED
-    fill_prob_6m: 25
-    trigger: "<=EUR 14.50"
-    current_distance: "16.6%"
+    fill_prob_6m: 30
+    trigger: "<=EUR 17.00"
+    current_distance: "9.4%"
+    created_date: "2026-02-18"
+    staleness_status: RECALIBRATED  # S133: trigger EUR 14.50→17.00 (was STALE 16.6% away, now 9.4%)
     gate: "Q1 2026 results must confirm organic growth >=3%"
     size_eur: 330
     fair_value: "EUR 20.00"
-    mos_at_trigger: "27.5%"
+    mos_at_trigger: "15.0%"
     tier: "B (QS 70)"
-    notes: "Re-eval Feb 18: Trigger revised 15.50→14.50 post -21% crash. FV unchanged. 0APT breach FAKE (cleared). 6 HIGH/CRITICAL risks. Wait Q1 2026. Cancel if growth <3%."
+    notes: "RECALIBRATED S133: trigger EUR 14.50→17.00 (P18 action bias). MoS 15% acceptable for Tier B with dated gate. E[CAGR] ~11% at EUR 17. If Q1 growth <3% → ARCHIVE."
     pre_execution_condition: "Q1 2026 results must confirm organic growth >=3%. KC5/KC6 in WATCHING status."
-    last_analysis_date: 2026-02-18
+    last_analysis_date: 2026-03-02
     expiry: 2026-05-15
 
   - ticker: KNSL
     action: BUY
     category: GATED
-    fill_prob_6m: 10
-    trigger: "<=$310"
-    current_distance: "17.1%"
+    fill_prob_6m: 20
+    trigger: "<=$355"
+    current_distance: "8.9%"
+    created_date: "2026-02-18"
+    staleness_status: RECALIBRATED  # S133: trigger $310→$355 (was STALE 17.1% away, now 8.9%)
     gate: "Verify Q1 2026 GWP growth trends (ex-property >10%)"
     size_eur: 400
     fair_value: "$458"
-    mos_at_trigger: "32.3%"
+    mos_at_trigger: "22.5%"
     tier: "A (QS 61/75 adj)"
-    notes: "R3 complete. DA -15% correction ($539→$458). WIDE moat (expense ratio 20.8% = half industry). ROE 26% >> CoE 10%. Insurer QS adjustment +15. ACGL is FIRST PRIORITY over KNSL for capital. 7 KCs."
+    notes: "RECALIBRATED S133: trigger $310→$355 (P18 action bias). MoS 22.5% still strong for insurer Tier A. E[CAGR] ~15% at $355. ACGL is FIRST PRIORITY. Near 52wL ($341). WIDE moat."
     pre_execution_condition: "Verify Q1 2026 GWP growth trends (ex-property >10%) before executing"
-    last_analysis_date: 2026-02-18
+    last_analysis_date: 2026-03-02
     expiry: 2026-08-01
 
   - ticker: SOON.SW
@@ -304,6 +289,8 @@ standing_orders:
     fill_prob_6m: 10
     trigger: "<=CHF 160"
     current_distance: "17.9%"
+    created_date: "2026-02-18"
+    staleness_status: FRESH  # >15% but has dated gate (May 2026 FY results)
     gate: "HARD: Do NOT execute before May 2026 FY2025/26 results"
     size_eur: 350
     shares_approx: 2
@@ -315,22 +302,8 @@ standing_orders:
     last_analysis_date: 2026-02-18
     expiry: 2026-10-01
 
-  - ticker: EEFT
-    action: BUY
-    category: GATED
-    fill_prob_6m: 10
-    trigger: "<=$58"
-    current_distance: "18.3%"
-    gate: "SUSPENDED: DO NOT EXECUTE until Q1 2026 results (May 2026)"
-    size_eur: 184
-    shares_approx: 3
-    fair_value: "$85"
-    mos_at_trigger: "32%"
-    tier: "B (QS 68, R3 revised)"
-    notes: "R3 RESOLVED. DA STRONG COUNTER -36%. FV $133→$85. EPS buyback-engineered. 1% remittance tax. CEO selling. Risk VERY HIGH."
-    pre_execution_condition: "SUSPENDED: DO NOT EXECUTE until Q1 2026 results (May 2026) confirm remittance tax impact. If Ria US revenue -10%+ → CANCEL."
-    last_analysis_date: 2026-02-18
-    expiry: 2026-08-01
+  # EEFT — ARCHIVED S133 (2026-03-02). STALE TRIAGE: DA STRONG COUNTER -36%, CEO selling,
+  # risk VERY HIGH. 18% from trigger. Thesis destroyed. Not worth pipeline slot.
 
   - ticker: QLYS
     action: BUY
@@ -338,6 +311,8 @@ standing_orders:
     fill_prob_6m: 15
     trigger: "<=$82"
     current_distance: "12.2%"
+    created_date: "2026-02-27"
+    staleness_status: FRESH  # <15% distance, dated gate (Q1 2026 Apr)
     gate: "Q1 2026 billings growth (Apr 2026 earnings). If billings <5% → ARCHIVE. If >8% → consider $85 entry."
     size_eur: 400
     shares_approx: 5
@@ -365,6 +340,8 @@ standing_orders:
     fill_prob_6m: 15
     trigger: "<=$420"
     current_distance: "5.0%"
+    created_date: "2026-02-28"
+    staleness_status: FRESH  # 5% distance, dated gate (Q1 late April)
     size_eur: 400
     fair_value: "$470 (R3 post-DA S131, was $511)"
     mos_at_trigger: "10.6%"
@@ -382,6 +359,8 @@ standing_orders:
     fill_prob_6m: 30
     trigger: "<=EUR 24.50"
     current_distance: "8.6%"
+    created_date: "2026-02-25"
+    staleness_status: FRESH  # <15% distance
     size_eur: 375
     fair_value: "EUR 30"
     mos_at_trigger: "18.3%"
@@ -391,35 +370,12 @@ standing_orders:
     last_analysis_date: 2026-02-25
     expiry: 2026-08-01
 
-  - ticker: UTHR
-    action: BUY
-    category: BORDERLINE
-    fill_prob_6m: 15
-    trigger: "<=$390"
-    current_distance: "17.6%"
-    size_eur: 350
-    fair_value: "$484"
-    mos_at_trigger: "19.4%"
-    tier: "A (QS 78)"
-    notes: "R1 COMPLETE S110. United Therapeutics. PAH specialist. ROIC 25%, net cash $2.8B, FCF $1.1B. 50% OP margin. Near ATH — needs pullback. YUTREPIA competition risk. TETON-1 H1 2026 catalyst. Earnings Feb 25 could create dip."
-    kill_conditions: "Tyvaso DPI rev decline >10% 2Q, YUTREPIA share >25%, TETON failure, generic erosion >15%"
-    last_analysis_date: 2026-02-22
-    expiry: 2026-08-01
+  # UTHR — ARCHIVED S133 (2026-03-02). STALE TRIAGE: $520 > FV $484 (overvalued 7.4%).
+  # Near ATH $537. Only R1 complete. 0% fill probability. Thesis preserved thesis/research/UTHR/.
 
-  - ticker: V
-    action: BUY
-    category: BORDERLINE
-    fill_prob_6m: 10
-    trigger: "<=$260"
-    current_distance: "18.5%"
-    size_eur: 400
-    fair_value: "$305"
-    mos_at_trigger: "14.8%"
-    tier: "A (QS 82)"
-    notes: "R4 APPROVED. FV $305 (R3). 4 HARD GATES: DOJ no structural remedies, CCCA no floor vote, rev growth >=8%, client incentives <48%. MA is FIRST priority. 10 kill conditions."
-    hard_gates: "DOJ, CCCA, rev_growth>=8%, incentives<48%"
-    last_analysis_date: 2026-02-15
-    expiry: 2026-08-01
+  # V — ARCHIVED S133 (2026-03-02). STALE TRIAGE: $318 > FV $305 (overvalued 4.2%).
+  # 19% from trigger. 4 undated hard gates. MA first priority per original notes.
+  # Thesis preserved thesis/research/V/. Re-eval if DOJ + CCCA resolve AND price <$280.
 
   # ═══════════════════════════════════════════════════════════════════════
   # TRIAGE-GATED — Level 1 triage only. Full R1 required before execution.
@@ -435,6 +391,8 @@ standing_orders:
     fill_prob_6m: 30
     trigger: "<=$38"
     current_distance: "12.2%"
+    created_date: "2026-02-25"
+    staleness_status: FRESH  # <15% distance, dated gate (Appian retrial or Q1 earnings)
     size_eur: 200
     fair_value: "$50"
     mos_at_trigger: "24%"
@@ -451,6 +409,8 @@ standing_orders:
     fill_prob_6m: 30
     trigger: "<=$183"
     current_distance: "7.6%"
+    created_date: "2026-02-23"
+    staleness_status: FRESH  # <15% distance
     gate: "Full R1 required before execution"
     size_eur: 350
     fair_value: "$215"
@@ -463,17 +423,19 @@ standing_orders:
   - ticker: WING
     action: BUY
     category: GATED
-    fill_prob_6m: 10
-    trigger: "<=$215"
-    current_distance: "12.9%"
-    gate: "R2 DA required + Q1 FY2026 SSS data (May 2026)"
-    size_eur: 350
-    fair_value: "$296"
-    mos_at_trigger: "27.4%"
+    fill_prob_6m: 5
+    trigger: "<=$190"
+    current_distance: "19.8%"
+    created_date: "2026-02-25"
+    staleness_status: FRESH  # Dated gate (Q1 FY2026 SSS May 2026). R3 complete S135.
+    gate: "Q1 FY2026 SSS data (May 2026). R2 COMPLETE S135 (STRONG COUNTER 13/19)."
+    size_eur: 300
+    fair_value: "$240 (R3 revised from $296, -19%)"
+    mos_at_trigger: "20.8%"
     tier: "A (QS 76)"
-    notes: "R1 COMPLETE S119. Asset-light franchise (98%), QS 76 Tier A, ROIC +27pp. BUT: first SSS decline in 22 years (-3.3% FY2025, -5.8% Q4 ACCELERATING). P/E 40x with negative comps. 17.3% SI. Insiders sold $11M+, ZERO buys. Moat NARROW (12/25). E[CAGR] 6.8% at $247 = BELOW 12% threshold. E[CAGR] ~13.1% at $215. Trigger lowered $245→$215 post-R1. GATED on R2 + Q1 FY2026 SSS recovery. If SSS stays negative through Q2 2026 → ARCHIVE."
-    kill_conditions: "Domestic SSS negative through Q2 FY2026, net new domestic units <250/yr, AUV decline >10%, ND/EBITDA >6x, franchise closures >3% system"
-    last_analysis_date: 2026-02-25
+    notes: "R3 COMPLETE S135. FV $296→$240 (-19%), entry $215→$190 (-12%). R2 STRONG COUNTER: FCF flat FY2025 ($105.7→$105.6M on 11.4% rev growth), market prices 42% FCF growth, our FV < consensus ($325-340), value-destructive buybacks ($500M at P/E 100x while insiders sell). SSS accelerating decline (-5.6% Q3→-5.8% Q4). E[CAGR] ~16% at $190. GATED on Q1 FY2026: if SSS >-2% → activate, if <-4% → ARCHIVE."
+    kill_conditions: "Q1 FY2026 domestic SSS <-4% → ARCHIVE, net new units <350/yr, FCF margin <13% 2Q, wing prices >$2.50/lb 2mo, insider selling >$250 without buys"
+    last_analysis_date: 2026-03-02
     expiry: 2026-10-01
 
   - ticker: SEIC
@@ -482,6 +444,8 @@ standing_orders:
     fill_prob_6m: 35
     trigger: "<=$76"
     current_distance: "7.1%"
+    created_date: "2026-02-23"
+    staleness_status: FRESH  # <15% distance
     gate: "Full R1 required before execution"
     size_eur: 300
     fair_value: "$98"
@@ -497,6 +461,8 @@ standing_orders:
     fill_prob_6m: 35
     trigger: "<=$110"
     current_distance: "7.9%"
+    created_date: "2026-02-23"
+    staleness_status: FRESH  # <15% distance, dated gate (Q1 earnings April)
     gate: "Q1 2026 earnings + Elliott/LSEG resolution"
     size_eur: 400
     fair_value: "$140"
@@ -514,6 +480,8 @@ standing_orders:
     fill_prob_6m: 30
     trigger: "<=$31"
     current_distance: "12.1%"
+    created_date: "2026-02-25"
+    staleness_status: FRESH  # <15% distance, dated gate (Q3 FY2026 May/June)
     size_eur: 400
     fair_value: "$37"
     mos_at_trigger: "16.2%"
@@ -526,17 +494,19 @@ standing_orders:
 
   - ticker: VRSN
     action: BUY
-    category: BORDERLINE
-    fill_prob_6m: 20
-    trigger: "<=$190"
-    current_distance: "15.7%"
+    category: ACTIVE
+    fill_prob_6m: 40
+    trigger: "<=$210"
+    current_distance: "7.1%"
+    created_date: "2026-02-27"
+    staleness_status: RECALIBRATED  # S133: trigger $190→$210 (was STALE 15.7% away, now 7.1%)
     size_eur: 350
     fair_value: "$240"
-    mos_at_trigger: "20.8%"
+    mos_at_trigger: "12.5%"
     tier: "A (QS 83/86adj)"
-    notes: "R3_COMPLETE S127. WIDE moat — ICANN .com/.net monopoly. FV $255→$240 post-DA (-5.9%). DA MODERATE: BRK sold 32% at $267 (omitted by R1), FCF margin peak (64.5% vs 3yr avg 58.3%), receivables +37.5% anomaly, no informational edge. E[CAGR] ~14.5% at $190. Bear $165-185/Base $240/Bull $310-320. Fundsmith 2.5%. 7 KCs defined."
+    notes: "RECALIBRATED S133: trigger $190→$210 (P18 action bias). WIDE moat ICANN monopoly. QS 86adj = top quality. MoS 12.5% acceptable for monopoly Tier A. E[CAGR] ~14.5% at $210. Category upgraded BORDERLINE→ACTIVE. BRK sold 32% at $267 (DA finding). Bear $165-185/Base $240/Bull $310-320."
     kill_conditions: "ICANN non-renewal, .com base decline 2yr, pricing authority stripped, alt DNS >5%, FCF margin <50% 2yr, renewal rate <70%, receivables divergence >2Q"
-    last_analysis_date: 2026-02-27
+    last_analysis_date: 2026-03-02
     expiry: 2026-08-01
 
   # Cancelled orders history preserved as comments:
@@ -547,6 +517,8 @@ standing_orders:
     fill_prob_6m: 20
     trigger: "<=$26"
     current_distance: "15.9%"
+    created_date: "2026-02-27"
+    staleness_status: FRESH  # >15% but has dated gate (Q1 late April). RECALIBRATE if still >15% post-Q1.
     gate: "Q1 2026 earnings (late April). If broadband <150K loss + ARPU stable → execute. If broadband >200K + ARPU negative → DOWNGRADE to PASS."
     size_eur: 350
     fair_value: "$33 (R3 post-DA, was $39.37 R1)"
