@@ -490,6 +490,50 @@ However:
 
 ---
 
+## DOGE CIVIL REVENUE RISK ASSESSMENT (2026-03-07)
+
+### Quantifying the DOGE Impact
+
+**Civil segment (~33% of revenue) is under direct DOGE pressure:**
+- Q3 FY2026: Civil revenue -22% YoY (the most severe decline)
+- 61 contracts cancelled ($207M cumulative)
+- 2,500 layoffs (7% workforce) primarily from civil-facing roles
+- FY2026 revenue guidance cut: $12.0-12.5B → $11.3-11.4B (midpoint -8.5%)
+
+**Blended portfolio impact:** Civil at -22% × 33% weight = ~-7.3% blended revenue drag. This is partially offset by defense/intel growth (+mid-single digits × 65% weight = ~+3.5%). Net effect: ~-4% revenue decline FY2026 vs FY2025.
+
+### Is DOGE Cyclical or Structural?
+
+| Evidence for CYCLICAL (55% prob) | Evidence for STRUCTURAL (45% prob) |
+|----------------------------------|-------------------------------------|
+| 2013 sequestration: BAH revenue -7%, recovered within 2 years | DOGE has unprecedented political backing (Musk) |
+| Government ALWAYS needs external IT talent (22K cleared workers irreplaceable) | AI could automate some consulting tasks long-term |
+| Book-to-bill 1.41x (6yr high) = demand NOT destroyed | Civil agencies may permanently internalize some functions |
+| $38B backlog = 3-4 years visibility | Treasury breach + scandal may accelerate agency distrust |
+| CEO buying $2M at ~$85 (insider conviction) | Bipartisan support for reducing government consulting spend |
+
+### SO $75 Validity Check
+
+| Metric | At $82 (current) | At $75 (SO) | Assessment |
+|--------|-------------------|-------------|------------|
+| MoS vs FV $88 | 7.5% | 17% | Insufficient → Adequate |
+| MoS vs EV $99 | 21% | 32% | Good → Strong |
+| E[CAGR] 3yr | 12-13% | 16-19% | Borderline → Strong |
+| P/E | 12.1x | ~11x | Cheap → Very cheap |
+| Downside to bear ($56) | -32% | -25% | Painful → Manageable |
+
+**VERDICT: SO $75 REMAINS VALID.** The DOGE risk is already priced into the thesis and FV ($88). Civil -22% is worse than the -10-12% initially flagged, but the thesis already models this in the base case (civil -5% blended in FY2027+). The defense/intel structural tailwind (Iran + $1.5T budget) counterbalances. At $75, E[CAGR] 16-19% provides adequate compensation for the DOGE tail risk.
+
+**Recalibration not needed because:**
+1. Thesis was FRESHLY REWRITTEN on Mar 6 with full DOGE analysis
+2. FV $88 already uses conservative 12x EV/EBIT (peers at 13-14x)
+3. Civil -22% is in the thesis; no new information
+4. $75 is 8.4% below current price — achievable on a bad earnings print or DOGE escalation
+
+**Monitor:** If DOGE extends to defense/intel contracts → KC#1 triggers, SO becomes invalid. Next data point: Q4 FY2026 earnings (May 2026).
+
+---
+
 ## META-REFLECTION
 
 ### Incertidumbres/Dudas

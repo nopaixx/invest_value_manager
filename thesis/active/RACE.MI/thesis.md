@@ -173,6 +173,85 @@ Ferrari stock peaked at ~EUR 493 in Feb-2025, trading at ~55-60x P/E. It then su
 
 ---
 
+## SECTION 9: PRE-EARNINGS FRAMEWORK — FY2026 Q1/Full Year (May 2026)
+
+> **Created:** 2026-03-07. Earnings expected ~May 2026 (Q1 or interim update).
+> **Purpose:** Framework ready in advance. Evaluate against KCs and thesis.
+
+### Key Metrics to Watch
+
+| Data Point | Bull Signal | Base Signal | Bear Signal |
+|-----------|-------------|-------------|-------------|
+| Revenue | >EUR 1.9B (+6%+) | EUR 1.8-1.9B (+3-5%) | <EUR 1.8B (<3%) |
+| EBIT Margin | >30% (expanding) | 29-30% (stable) | <29% (compressing) |
+| EBITDA Margin | >=40% (guidance beat) | 38-39% (in-line) | <38% (miss) |
+| Deliveries | 13,500-14,000 (flat by design) | ~13,500 (controlled) | >14,500 (discipline broken KC#1) |
+| Order Book | Extends beyond 2027 | Through end-2027 (stable) | Shortens to <18 months (KC#3) |
+| Personalization Mix | >22% of cars & parts rev | ~20% (stable) | <18% (pricing power doubt) |
+| Industrial FCF | >EUR 400M (Q1 alone) | EUR 350-400M | <EUR 300M |
+| Buyback Update | >EUR 30M executed Q1 | Active per schedule | Paused (negative signal) |
+| Luce EV Update | Pre-orders opened, pricing confirmed | Timeline on track | Delay or pricing cut |
+| China/APAC Orders | Stable or growing | Flat | Declining (macro risk) |
+
+### Scenario Decision Tree
+
+```
+FY2026 EARNINGS (May 2026)
+|
++-- Revenue +5%+ AND EBIT margin >=29.5% AND order book stable
+|   --> BULL: HOLD, consider ADD at EUR 270. FV EUR 355 maintained or raised.
+|
++-- Revenue +3-5% AND margins in-line AND order book stable
+|   --> BASE: HOLD. Thesis confirmed. No action needed.
+|
++-- Revenue <3% OR EBIT margin <28% OR order book shortens to <18mo
+|   --> BEAR: Re-evaluate FV. If margin compression structural → TRIM.
+|
++-- Deliveries >15,000 (KC#1 VOLUME DISCIPLINE)
+|   --> KILL CONDITION: Volume discipline abandoned. EXIT.
+|
++-- EBIT margin <20% for 2Q (KC#2)
+|   --> KILL CONDITION: Margin collapse. EXIT.
+|
++-- F1 exit announced or major brand scandal (KC#5)
+|   --> KILL CONDITION: Brand moat damaged. EXIT.
+|
++-- Luce complete failure signal (KC#6)
+|   --> Monitor severity. If brand contagion to ICE lineup → EXIT.
+|
++-- FY2026 revenue misses EUR 7.3B (KC#8, adversarial)
+|   --> Re-evaluate growth assumptions. Likely TRIM or EXIT.
+```
+
+### AGM Apr 15 Pre-Check
+
+The AGM on April 15 precedes earnings and may provide:
+- Buyback execution update (EUR 101M program active)
+- Guidance reaffirmation or revision
+- Luce timeline confirmation
+- If guidance revised down at AGM → prepare for bear scenario at earnings
+
+### Position Context at Earnings
+
+| Metric | Current (Mar 2026) |
+|--------|--------------------|
+| Shares | 1.12 |
+| Avg Cost | EUR 312.80 |
+| FV | EUR 355 |
+| MoS | ~13.5% at EUR 307 |
+| Conviction | MEDIUM |
+| Basket | EU Value Recovery |
+| Weight | ~3.4% |
+
+### Post-Earnings Actions
+
+- **If BULL:** HOLD. Upgrade conviction to HIGH if 2 consecutive beats. Consider ADD at EUR 270 SO.
+- **If BASE:** HOLD. Maintain conviction MEDIUM. No changes.
+- **If BEAR (non-KC):** TRIM 50% if margin compression appears structural. Revise FV down.
+- **If KC triggered:** EXIT per kill condition protocol. No debate.
+
+---
+
 ## Sources
 
 - Ferrari FY2025 Results Press Release

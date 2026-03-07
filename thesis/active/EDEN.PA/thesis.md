@@ -224,16 +224,33 @@ The permanent decline scenario (EUR 19.29) represents absolute worst case and as
 
 ## SECCION 6: QUALITY SCORE
 
-**Quality Score: 62/100 = Tier B (unchanged from purchase)**
+### QS Tool: 76/100 (Tier A) — Run 2026-03-07
 
-| Component | Score | Notes |
-|-----------|-------|-------|
-| Financial Quality | 19/40 | ROIC spread 0 pts (tool issue - real ROIC 15-18% vs WACC 8.5%) |
-| Growth Quality | 21/25 | Revenue CAGR 15.1%, EPS CAGR 13.2% (historical) |
-| Moat Evidence | 17/25 | GM premium +12.8pp, strong market position |
-| Capital Allocation | 5/10 | 10yr shareholder returns, low insider ownership |
+| Category | Score | Max | Notes |
+|----------|-------|-----|-------|
+| Financial | 36/40 | 40 | ROIC Spread 15/15 (+23.2pp), FCF Margin 8/10 (proxy: op margin, FCF distorted by client flows), Leverage 8/10 (1.2x ND/EBITDA), FCF Consistency 5/5 |
+| Growth | 18/25 | 25 | Revenue CAGR 18.6% (10/10), EPS CAGR 12.6% (8/10), GM Trend 0/5 (declining 61.1%→59.9%) |
+| Moat | 17/25 | 25 | GM Premium +29.9pp vs sector (10/10), Market Position 0/8 (manual), ROIC Persistence 7/7 |
+| CapAlloc | 5/10 | 10 | Shareholder Returns 5/5, Insider Ownership 0/5 (0.1%) |
 
-Note: ROIC spread scored 0 by tool due to yfinance sector classification ("Financial Services"). Real business ROIC of 15-18% vs 8.5% WACC gives true spread of +6.5-9.5pp, which would add 8 points, bringing adjusted QS to ~70.
+### QS Adjusted: 70/100 (Tier B) — Adjustment: -6 points
+
+**Adjustment rationale (quantitative):**
+
+1. **Market Position +6 (0→6/8):** Edenred is #1 global in meal/food vouchers, 60M+ users, 2M merchants, leader in 70% of markets it operates. Not monopoly but dominant. 6/8 appropriate.
+
+2. **ROIC Spread -7 (15→8/15):** Tool shows ROIC 28.6% vs WACC 5.4% (+23.2pp). This overstates true economics: (a) yfinance beta 0.41 yields unrealistically low WACC; real WACC ~8.5% per thesis v3.0 analysis. (b) ROIC includes float income from EUR 1.3B of client money flows (financial services classification distortion). True business ROIC is 15-18%, spread vs real WACC ~+6.5-9.5pp. At +8pp, score should be ~8/15.
+
+3. **Forward regulatory risk -5:** Italy + Brazil = EUR 270-320M EBITDA impact (22-27% of EBITDA). GM declining (61.1%→59.9%) reflects this. 2026 guidance -8/-12%. France 30% probability. This constitutes active moat siege per adjustment criteria. -5 points for forward growth deterioration + moat siege.
+
+**Net: +6 -7 -5 = -6. QS Adjusted: 70/100 (Tier B).**
+
+```
+QS Tool:     76/100 (Tier A)
+QS Adjusted: 70/100 (Tier B) — Adjustment: -6 (market position +6, ROIC distortion -7, regulatory moat siege -5)
+```
+
+**Note on score change vs original:** Original thesis (Feb 2026) showed QS 62 because the tool scored ROIC Spread at 0/15 due to sector classification issues. The new tool run (Mar 2026) corrected this to 15/15 (+15 points), driving the raw increase. The adjusted score of 70 is more representative than either the old 62 or the new 76, and confirms Tier B classification is correct for EDEN given the regulatory headwinds.
 
 ---
 

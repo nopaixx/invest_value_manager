@@ -155,9 +155,9 @@ standing_orders:
     fair_value: "$90 (R3 post-DA, was $110 R1)"
     mos_at_trigger: "27.8%"
     tier: "A (QS 79adj, R4 APPROVED)"
-    notes: "R4 APPROVED S140. 10-gate: 6 PASS, 4 CONDITIONAL. Conditions: (1) CANCEL if Merck PTAB broadly adverse Jun 2026, (2) RECALIBRATE to $55 if CMS finalizes combination product guidance as drafted, (3) RECLASSIFY Tier B if Alteogen signs 3+ more major deals or DARZALEX rev negative. Edge WEAK (FV $90 = consensus median). NVO precedent: pharma binaries can destroy 22% value. SO approach correct for binary risk."
-    kill_conditions: "Merck PTAB full loss (royalty stream voided), CMS/IRA final guidance kills DARZALEX pricing, Alteogen wins 3+ new partners in 12mo, ROIC <WACC 2yr"
-    pre_execution_condition: "Merck PTAB ruling Jun 2026 must resolve favorably. If partial adverse → reassess at lower entry ($55). If full adverse → CANCEL."
+    notes: "R4 APPROVED S140. 10-gate: 6 PASS, 4 CONDITIONAL. S142 UPDATE: PTAB dispute is about Keytruda SC (MDASE patents), NOT DARZALEX/ENHANZE royalties. Existing royalties (DARZALEX $483M, Phesgo, Vyvgart) NOT at risk. German injunction WON Dec 2025 (Keytruda SC blocked in Germany). PTAB oral hearings Mar 2026, final ruling June 2. FY2025 record $1.4B rev (+38%). 2026 guidance $1.8B. Goldman SELL $56. Conditions: (1) CANCEL if Merck PTAB broadly adverse Jun 2026, (2) RECALIBRATE to $55 if CMS finalizes combination product guidance, (3) RECLASSIFY Tier B if Alteogen signs 3+ more major deals."
+    kill_conditions: "Merck PTAB full loss (Keytruda SC royalty opportunity voided), CMS/IRA final guidance kills DARZALEX pricing, Alteogen wins 3+ new partners in 12mo, ROIC <WACC 2yr"
+    pre_execution_condition: "Merck PTAB ruling June 2, 2026 must resolve favorably. If partial adverse → reassess at lower entry ($55). If full adverse → CANCEL. PTAB oral hearings in progress Mar 2026."
     last_analysis_date: 2026-03-06
     expiry: 2026-10-01
 
@@ -173,9 +173,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 25
     trigger: "<=CHF 80"
-    current_distance: "15.0%"
+    current_distance: "5.6%"
     created_date: "2026-02-20"
-    staleness_status: FRESH  # 15% distance but has dated gate (GM at next report)
+    staleness_status: FRESH  # <15% distance, dated gate (GM at next report). NEAR TRIGGER.
     gate: "GM >=70% at most recent reporting date (R4 APPROVED S103)"
     size_eur: 400
     shares_approx: 5
@@ -422,22 +422,14 @@ standing_orders:
     last_analysis_date: 2026-02-25
     expiry: 2026-10-01
 
-  - ticker: MSA
-    action: BUY
-    category: GATED
-    fill_prob_6m: 30
-    trigger: "<=$183"
-    current_distance: "0.2%"
-    created_date: "2026-02-23"
-    staleness_status: FRESH  # AT TRIGGER! $183.43 vs $183. But R1 required.
-    gate: "Full R1 required before execution — URGENT given price at trigger"
-    size_eur: 350
-    fair_value: "$215"
-    mos_at_trigger: "14.9%"
-    tier: "A (QS 76)"
-    notes: "TRIAGE S114. Safety equipment. P/E 27.8. Slow grower (~4% rev CAGR). Narrow moat (regulatory certs). FCF margin 16%. Op margin 21%. Yield 1.1%. S142: PRICE AT TRIGGER ($183.43 vs $183). R1 URGENTLY NEEDED or archive."
-    last_analysis_date: 2026-02-23
-    expiry: 2026-08-01
+  # MSA — REVISED S142 (2026-03-07). R1 COMPLETE (Feb 28) found FV $144-152, NOT $215.
+  # Triage FV of $215 was WRONG (consensus-anchored, Error #49). R1 multi-method:
+  # EV/EBIT 16x = $150, DCF base = $135, weighted = $144. QS adjusted 76→73 (Tier B).
+  # At $183, MoS is -27% (NEGATIVE). PFAS litigation tail risk. Organic growth +1% FY2025.
+  # Ruane Cunniff/Sequoia doubled at $159 — strong quality signal but longer horizon.
+  # REVISED trigger $183→$120. Entry per R1 = $120-125 (20-25% MoS vs $144-152 FV).
+  # At $120, prob_fill <5% in 6mo = EXTREME territory. ARCHIVED.
+  # Thesis preserved: thesis/research/MSA/thesis.md. Re-eval if $140-150 with PFAS clarity.
 
   - ticker: WING
     action: BUY
@@ -592,17 +584,18 @@ review_flags:
 # =============================================================================
 # SO SUMMARY (Session 142, 2026-03-07 — Full distance audit)
 # NEAR TRIGGER: HALO 3.5% (R4 APPROVED, Merck gate), DNLM.L 1.9% (BLOCKED UK),
-#               MSA 0.2% (AT TRIGGER, R1 needed!), KNSL 4.6% (crisis selloff)
+#               KNSL 4.6% (crisis selloff), STMN.SW 5.6% (CORRECTED from 15%)
 # ACTIVE:    5 (DNLM.L 1.9%, ACGL 9.5%, RACE.MI ADD 10.5%, GL ADD 12.1%, VRSN 13.9%)
 # GATED:   14 (BAH 8.4%, HALO 3.5%, STMN.SW, KLR.L 19.4%, ROP 22.4%*,
 #              FDS 24.7%*, VLTO 15.2%*, DSY.PA 9.2%, KNSL 4.6%, SOON.SW,
 #              QLYS 16.9%*, SPGI 7.2%, WING 17.1%, SEIC 6.7%, TW 11.7%,
-#              CPRT 17.9%*, PEGA 19.6%*, CMCSA 18.5%*, MSA 0.2%)
+#              CPRT 17.9%*, PEGA 19.6%*, CMCSA 18.5%*)
 # BORDERLINE: 1 (REN.AS 19.7%*)
 # STALE (*): ROP 22.4%, FDS 24.7%, VLTO 15.2%, QLYS 16.9%, CPRT 17.9%,
 #            PEGA 19.6%, CMCSA 18.5%, REN.AS 19.7%, MRSH 15.3%
 #            9 SOs now STALE — market rally moved many away from triggers.
 #            Priority: archive FDS (24.7% = extreme), recalibrate ROP.
+# ARCHIVED S142: MSA (R1 FV $144-152, triage $215 wrong. At $183 = overvalued -27%)
 # EXECUTED S141-S142: RACE.MI market buy EUR 312.80 (S140)
 # MORN ROTATION: SELL MORN (E[CAGR] 4.4%), redeploy KNSL $355 or VRSN $210
 # =============================================================================

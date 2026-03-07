@@ -116,12 +116,33 @@ events:
     action: "Trump endorsed Jan 2026, bipartisan. Could reduce US scheme fees 15-25%. Affects MA + V standing orders. Re-evaluate if committee vote scheduled."
 
   # Q2+ (major events only)
+  - date: 2026-03-31
+    type: legal
+    ticker: HALO
+    event: "HALO PTAB oral hearings (March 2026, exact date TBD)"
+    priority: high
+    action: "Merck vs Halozyme MDASE patent oral hearings. This is about Keytruda SC, NOT DARZALEX royalties. Final ruling June 2. Monitor for hearing outcome signals."
+
+  - date: 2026-06-02
+    type: legal
+    ticker: HALO
+    event: "HALO PTAB final decision — Merck vs Halozyme MDASE patents"
+    priority: CRITICAL
+    action: "BINARY EVENT. SO $65 GATED on this. If HALO wins → execute SO. If partial adverse → reassess at $55. If full adverse → CANCEL SO. Existing ENHANZE royalties (DARZALEX, Phesgo, Vyvgart) NOT at risk — only Keytruda SC royalty opportunity."
+
   - date: 2026-04-15
     type: watchlist_review
     ticker: DSY.PA
     event: "DSY.PA Q1 2026 — standing order review"
     priority: high
     action: "Cancel if Q1 growth <3%. See thesis/research/DSY.PA/committee_decision.md"
+
+  - date: 2026-04-28
+    type: earnings_pipeline
+    ticker: SPGI
+    event: "SPGI Q1 2026 earnings (estimated) — SO gate review"
+    priority: high
+    action: "SO $420 GATED on this. Must clear: (1) receivables growth normalizes <5pp above rev, (2) FCF margin >=35%, (3) MI organic growth >=5%. If PASS → activate SO. 7 smart money holders (TCI Fund adding)."
 
   - date: 2026-05-01
     type: earnings_pipeline

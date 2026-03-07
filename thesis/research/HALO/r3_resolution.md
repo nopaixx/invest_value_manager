@@ -39,7 +39,18 @@ FV = $110 - $20 = **$90** (rounded).
 
 ### 4. Merck PTAB (Jun 2026): Binary Risk
 
-**Resolution: WAIT.** DA is right — this is a binary event 4 months away. If HALO wins, stock likely goes to $80-85 and we can still enter with decent E[CAGR]. If HALO loses partially, stock could drop to $55-60 offering much better entry. The asymmetry favors PATIENCE.
+**Resolution: WAIT.** DA is right — this is a binary event 3 months away. If HALO wins, stock likely goes to $80-85 and we can still enter with decent E[CAGR]. If HALO loses partially, stock could drop to $55-60 offering much better entry. The asymmetry favors PATIENCE.
+
+**CRITICAL CLARIFICATION (S142 update, 2026-03-07):** The PTAB dispute concerns **Keytruda SC (Merck's subcutaneous pembrolizumab)** using Alteogen's ALT-B4 enzyme, NOT the DARZALEX/ENHANZE royalty streams. Existing royalties from DARZALEX (J&J), Phesgo (Roche), Vyvgart (argenx) are NOT at risk from this case. The dispute is about MDASE patents, separate from ENHANZE licensing.
+
+**New developments since R3:**
+- **PTAB oral hearings: March 2026** (this month)
+- **Final PTAB decision: June 2, 2026** (confirmed)
+- **German preliminary injunction WON (Dec 2025):** Munich court blocked Keytruda SC distribution in Germany. Significant leverage for settlement.
+- **FY2025 record revenue: $1.4B (+38% YoY).** 2026 guidance raised to $1.71-1.81B (+22-30%). Royalty revenue $1.13-1.17B.
+- **Wells Fargo:** PTAB institution "reduces probability" of HALO prevailing.
+- **Goldman Sachs:** Downgraded to SELL, $56 PT (long-term patent cliff).
+- The binary risk is MORE NUANCED than R3 assumed — even if Merck wins PTAB, existing ENHANZE royalties are safe. The loss is the Keytruda SC royalty opportunity ($2-4B+ over Keytruda's remaining lifecycle).
 
 ### 5. CMS/IRA Omission
 
