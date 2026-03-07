@@ -1,5 +1,5 @@
 quality_universe:
-  last_updated: '2026-03-06'
+  last_updated: '2026-03-07'
   companies:
   - ticker: INTU
     name: Intuit Inc.
@@ -212,24 +212,22 @@ quality_universe:
     r1_verdict: OVERVALUED
     distance_delta: -0.4
   - ticker: BVI.PA
-    name: BUREAU VERITAS
-    qs_tool: 69
-    qs_adj: 70
-    tier: B
-    sector: Testing/Inspection/Cert
-    fair_value: 29.0
-    entry_price: 22.0
-    currency: EUR
-    current_price: 28.92
-    distance_to_entry: 31.5
-    pipeline_status: R3_COMPLETE
-    thesis_path: thesis/research/BVI.PA/thesis.md
-    last_scored: '2026-02-13'
-    last_price_check: '2026-03-06'
-    notes: R3 COMPLETE. QS 69->70 adj (+4 market -3 governance). FV EUR 29 (was 33, -12pct). Wendel STRUCTURAL. Entry EUR
-      22. HARD GATE Feb 25 earnings.
+    name: Bureau Veritas SA
     direction: long
-    distance_delta: -0.5
+    qs_tool: 66
+    qs_adj: 66
+    tier: B
+    sector: testing-inspection-certification
+    fair_value: 30.0
+    entry_price: 24.0
+    currency: USD
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: null
+    last_scored: '2026-03-07'
+    last_price_check: null
+    notes: EU Pricing Power basket candidate. Testing/inspection/certification. QS 66 Tier B. T16 universe expansion.
   - ticker: RMD
     name: ResMed Inc.
     qs_tool: 67
@@ -849,24 +847,22 @@ quality_universe:
     direction: long
     distance_delta: -3.9
   - ticker: VRSK
-    name: Verisk Analytics, Inc.
-    qs_tool: 80
-    qs_adj: 80
-    tier: A
-    sector: Insurance Data
-    fair_value: 185.0
-    entry_price: 140.0
-    currency: USD
-    current_price: 211.22
-    distance_to_entry: 50.9
-    pipeline_status: R3_COMPLETE
-    thesis_path: thesis/research/VRSK/thesis.md
-    last_scored: '2026-02-13'
-    last_price_check: '2026-03-06'
-    notes: 'R3 COMPLETE. DA STRONG COUNTER FV $205->$185. Q4 2025 BEAT: EPS $1.82 (+13%) vs $1.59 est, FCF +38%, div +11%.
-      Hard gate CLEARED. Thesis validated. Entry $140 (26.6% from $177). R4 path open but price far from entry.'
+    name: Verisk Analytics
     direction: long
-    distance_delta: -3.1
+    qs_tool: 72
+    qs_adj: 72
+    tier: B
+    sector: data-analytics
+    fair_value: 300.0
+    entry_price: 240.0
+    currency: USD
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: null
+    last_scored: '2026-03-07'
+    last_price_check: null
+    notes: Data & Analytics Monopolies basket candidate. Insurance data monopoly. QS 72 Tier B. T16 universe expansion.
   - ticker: TDG
     name: Transdigm Group Incorporated
     qs_tool: 69
@@ -5037,3 +5033,23 @@ quality_universe:
     last_scored: '2026-03-06'
     last_price_check: '2026-03-06'
     notes: Auto-scored by batch_scorer. Needs R1 analysis.
+  - ticker: SAF.PA
+    name: Safran SA
+    direction: long
+    qs_tool: 78
+    qs_adj: 78
+    tier: A
+    sector: defense-aerospace
+    fair_value: 260.0
+    entry_price: 245.0
+    currency: USD
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: R3_COMPLETE
+    thesis_path: null
+    last_scored: '2026-03-07'
+    last_price_check: null
+    notes: R3 complete. Jet engine duopolist (CFM JV). WIDE moat. OVERVALUED at EUR 317.70 (-22% above FV). Entry EUR 240-250.
+      Rate 75 delayed to 2029. FX KO barrier risk. Parked.
+    r1_session: 143
+    r1_verdict: OVERVALUED
