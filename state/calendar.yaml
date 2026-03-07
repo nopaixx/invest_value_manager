@@ -28,16 +28,23 @@ events:
   - date: 2026-03-10
     type: framework_deadline
     ticker: ADBE
-    event: "ADBE pre-earnings framework due (earnings Mar 12). Error #13."
+    event: "ADBE pre-earnings framework COMPLETE (earnings Mar 12). Error #13 satisfied."
+    priority: low
+    action: "Section 9 exists in thesis + separate earnings_framework_q1fy26.md. PASS/CONDITIONAL/FAIL defined. 8 KCs mapped. READY."
+
+  - date: 2026-03-10
+    type: investor_day
+    ticker: FTNT
+    event: "Fortinet Accelerate 2026 Investor Briefing — 3:00 PM PT via investor.fortinet.com"
     priority: high
-    action: "Create Section 9 in thesis with bear/base/bull framework. Key metrics: Digital Media ARR, Document Cloud, Firefly AI, FTC impact. KC: churn >5pp."
+    action: "ACTIVE POSITION (10.57 shares, EUR 862). FV $88. E[CAGR] 9.7% = 2nd worst. Section 9 Investor Day Framework READY in thesis. Key: SASE ARR, ASIC roadmap, CVE response, FY27 guide. Bull→FV $95-100, Bear→FV $75-80 (rotation candidate)."
 
   - date: 2026-03-18
     type: earnings_pipeline
     ticker: FOUR.L
     event: "4imprint FY2025 Results — HARD GATE for entry (CORRECTED from Mar 11)"
     priority: high
-    action: "R3 complete. Pipeline candidate. HARD GATE: must review results before standing order."
+    action: "R3 complete (FV 4400p, entry 3400p, QS 69 Tier B). HARD GATE: must review results before R4/SO. PASS criteria: OP margin >=10%, Q4 sequential improvement, 2026 guidance stable, no KCs triggered, marketing efficiency clarity. KC#5 Year 1 of 2 ACTIVE (market share loss). If PASS → run R4 same session → set SO 3400p."
 
   - date: 2026-03-20
     type: ex_dividend
