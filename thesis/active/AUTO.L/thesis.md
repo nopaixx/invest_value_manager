@@ -15,13 +15,11 @@ AutoTrader Group is the dominant online car classifieds platform in the UK with 
 
 ## Quality Score
 
-### QS Tool: 63/100 (Tier B) -- data gaps in GM and EPS for 2025
-### QS Adjusted: 71/100 (Tier B, high-end)
+### QS Tool: 72/100 (Tier B) -- was 63, EPS CAGR data gap resolved Mar 7
+### QS Adjusted: 71/100 (Tier B, high-end) -- tool now close to adjusted; no inflation needed
 
-**Adjustment reasoning (+8 points):**
-- GM Premium: +10 pts (tool scores 0 due to nan in 2025; actual GM 72-84% vs 50% sector = +22-34pp premium)
-- Market Position: +8 pts (tool scores 0 default; actual #1 UK auto classifieds by 10x margin, 75%+ market share)
-- Offset: EPS CAGR unverifiable (nan in 2025), scored 0 by tool -- partially valid, cannot inflate
+**Adjustment note (updated S144c3):**
+Tool improved 63→72 as EPS CAGR data became available. Original +8 adjustment (GM premium +10, Market Position +8, offset by EPS gap) is now largely captured by tool natively. QS Adjusted stays 71 — tool convergence validates the prior manual assessment.
 
 **No further QS change from adversarial (Feb 11).** The Deal Builder revolt does not change the CURRENT financial metrics -- ROIC, FCF margin, leverage all intact. The risk is FORWARD-looking: if pricing power erodes, future QS will decline. But today, the tool correctly scores Financial Quality 40/40.
 
