@@ -1,167 +1,258 @@
-# Counter-Analysis: IHP.L (IntegraFin Holdings PLC)
+# Counter-Analysis: IHP.L (IntegraFin Holdings PLC) -- R2 Refresh
 
-## Date: 2026-02-20
+## Date: 2026-03-07 | Session: S147
 ## Agent: devil's-advocate (opus)
-## Input: thesis/research/IHP.L/thesis.md (R1 fundamental-analyst)
+## Input: thesis/active/IHP.L/thesis.md (R1 + R3 resolution from S108)
+## Position: 327 shares @ 319.6p avg, 11.4% portfolio, HIGH conviction
+
+---
+
+## Calibration Anchor
+
+- **Market price:** 318.5p. Market implies FCF decline >20%/yr per reverse DCF (distorted by yfinance FCF data for financial services -- see tool caveat below).
+- **Reverse DCF caveat:** The DCF tool reports FCF margin >200% and FCF highly volatile (CV=1.5), flagging financial services unreliability. The market is NOT pricing a 20% FCF decline -- it is pricing a mature, slow-growth platform business at ~19.9x P/E with structural margin headwinds. I anchor to the P/E-implied expectations, not the broken DCF.
+- **Historical DA pattern:** 25 corrections, avg -15.7%, median -13.0%. All corrections negative. Previous IHP.L DA (Feb 20): MODERATE COUNTER, FV reduced from 415p to 390p (R3). No outcomes data yet (first review Aug 2026).
+- **Position context:** This has grown from 2% initial to 11.4% through 4 buys (S108, S127, S132, S143c8). The 2nd largest position. This is NOT the same risk profile as the original 2% entry -- a -30% drawdown now costs -3.4% of portfolio.
 
 ---
 
 ## Executive Summary
 
-The bull thesis for IHP.L is reasonably constructed but rests on three assumptions that deserve deeper scrutiny: (1) that revenue margin compression will decelerate as management guides, (2) that cost discipline at +3%/yr is sustainable while the platform also invests to compete, and (3) that the 20-22x P/E multiple is warranted when BofA Securities -- the only major bank covering this stock -- rates it UNDERPERFORM with a 286p target, below current price. The thesis correctly identifies a high-quality business model, but the market is NOT as ignorant as the thesis implies: BofA's detailed bear case projects flat ROIC of ~22% through FY28 (vs AJ Bell's 41%) and flows below consensus. The T4A impairment, while small, signals capital allocation weakness. The UK geographic concentration risk for the portfolio is real and compounding.
+The thesis for IHP.L rests on a quality business model (undeniable: QS 80, ROIC 49%, 97.8% gross margin, 24.2% insider ownership) and an operating leverage story (costs +3%/yr vs revenue +8%+). My first DA (Feb 20) found MODERATE COUNTER with FV adjusted from 415p to 390p. Since then, the position has tripled in size (2% to 11.4%) through 4 adds, making it the 2nd largest holding -- and the risk profile has changed materially.
 
-That said, several of my challenges proved WEAK when investigated. The competitive landscape is actually favorable (Hargreaves Lansdown slashing fees post-PE buyout creates disruption for D2C competitors, not for Transact's adviser market). The moat from proprietary technology is genuine. And the insider buying is unambiguously positive. The thesis survives scrutiny but with a narrower margin of safety than presented.
+This refresh finds **the thesis fundamentals remain intact** but identifies **three concerns that have intensified since the original DA:**
 
-**Key finding: The thesis overstates MoS by approximately 5-8 percentage points.** The true FV is likely 380-400p (not 415p), making the real MoS 17-21% at 315p -- still acceptable for Tier A but less comfortable. The bear case FV of 340p should be stress-tested to 300-310p given BofA's more aggressive compression scenario.
+1. **The position size (11.4%) is disproportionate to the conviction level and the business's inherent FUA sensitivity.** This is a bps-on-AUM business where a -20% equity market creates -15-20% revenue decline. At 11.4%, a market drawdown creates outsized portfolio impact.
+
+2. **Competition is stronger than the thesis admits.** Quilter's net inflows surged 75% in 2025 (GBP 9.1bn) and AUA hit GBP 134.8bn -- nearly 2x IHP's GBP 77bn. AJ Bell crossed GBP 100bn. HL under CVC is revamping fees (Mar 2026). The thesis treats HL delisting as competitive relief; the evidence says PE-owned HL will compete more aggressively.
+
+3. **The IHT pension reform (April 2027) is a material risk not adequately captured.** Unused pension funds will be included in estates for IHT at 40%. This could trigger SIPP drawdowns/transfers OFF platforms like Transact, directly reducing FUA.
+
+Overall verdict: **MODERATE COUNTER** (unchanged from original DA, but the risk context has changed because of position size).
 
 ---
 
 ## Assumptions Challenged
 
-### 1. Revenue Margin Compression Will Decelerate (CORE ASSUMPTION)
+### 1. Revenue Margin Compression Decelerates (CORE ASSUMPTION)
 
-**Thesis claim:** Margin compression is ~1bps/yr and management guides it to decelerate to ~0.5bps/yr in FY26+. This means volume growth outpaces margin erosion.
+**Thesis claim:** Margin compression slows to ~0.5bps/yr per management guidance (FY26 earnings call). Volume growth outpaces erosion.
 
 **Evidence against:**
-- BofA Securities (the only major bank with an Underperform rating) explicitly forecasts that margin compression will NOT decelerate as management claims. BofA projects flat ROIC of ~22% through FY28 -- this implies revenue margins compress faster than the thesis assumes, OR costs grow faster, OR both.
-- The historical track record is WORSE than 1bps/yr: margins went from ~25bps (FY21) to 22.4bps (FY25) = -2.6bps over 4 years = 0.65bps/yr average. But the RECENT trajectory is faster: 23.5bps (FY24) to 22.4bps (FY25) = -1.1bps in ONE year. Then to 21.9bps by Sep 2025.
-- The "deceleration" thesis relies entirely on management guidance -- management naturally has incentive to guide optimistically. I found NO independent evidence confirming deceleration.
-- Hargreaves Lansdown (post-PE buyout) is cutting its main account fee from 0.45% to 0.35% effective March 2026. While HL is primarily D2C, this creates competitive pricing pressure across the platform industry that could force further cuts.
-- The Aviva platform has surged to #1 in adviser recommendations (2025 Defaqto data), narrowing the gap with Quilter. More competition at the top = more pricing pressure.
+- Historical trajectory: 25bps (FY21) -> 24bps (FY22) -> 23.5bps (FY23) -> 22.4bps (FY25) -> 21.9bps (Sep 2025). That is -3.1bps over 4 years = 0.78bps/yr average. But the FY24->FY25 drop was -1.1bps (accelerating, not decelerating).
+- Management guided "slower compression" starting FY26. But management also announced proactive fee reductions (pension wrapper fees, non-advised client charges) costing GBP 3M/yr annualized. Proactive cuts are ADDITIONAL to the structural tiering effect.
+- Competitive context: HL under CVC cut main account fee from 0.45% to 0.35% effective Mar 2026. AJ Bell is price-competitive on D2C. Quilter and Aviva are competing aggressively for adviser recommendations. Abrdn repriced (-3bps in FY25, from 31.2bps to 26.6bps).
+- Industry-wide: all platforms are converging toward 20bps. At 21.9bps, IHP has limited room before reaching the industry floor. The question is not whether compression stops, but how fast it approaches the floor.
 
-**Quantified impact if margin compresses to 19bps by FY28 (vs thesis 20.5bps):**
+**What if compression continues at ~1bps/yr (not decelerating)?**
 ```
-FUA 98bn x 19bps = GBP 186M revenue (vs thesis GBP 206M)
-GBP 186M - GBP 101M costs = GBP 85M PBT (vs thesis GBP 115M)
-EPS: ~19.2p (vs thesis 26p)
-At 19x P/E (bear multiple): FV = 365p
-At 17x P/E (deeper bear): FV = 326p
+FY28 margin: 21.9 - 3*1 = 18.9bps
+FUA 98bn x 18.9bps = GBP 185M revenue (vs thesis GBP 206M at 20.5bps)
+Delta: -GBP 21M revenue = -GBP 16M PBT after tax = ~4.7p EPS impact
+FY28E EPS: ~21.3p (vs thesis 26p)
+At 19x P/E: FV = 405p
+At 17x P/E: FV = 362p
 ```
 
 **Severity: MODERATE**
-**Resolution:** The margin compression trajectory is the single most important variable. The thesis should present a scenario where compression does NOT decelerate and quantify the FV impact. The FV range should incorporate 19bps by FY28 as a realistic bear scenario, not just the thesis's optimistic 20.5bps.
+**What changed since first DA:** Nothing materially -- this was already flagged. The compression trajectory in Q1 FY26 (21.9bps interim) is consistent with the original concern. No new data to confirm or deny deceleration yet. H1 FY26 results (~Jun 2026) will be the definitive test.
 
 ---
 
-### 2. Operating Leverage: Costs at +3%/yr Is Sustainable
+### 2. FUA Growth Sustainability and Market Sensitivity
 
-**Thesis claim:** Management guides costs to grow at +3%/yr in FY26-FY27. Combined with revenue at +8-10%, this creates expanding PBT margins from 48% to 54%+.
+**Thesis claim:** FUA +12%/yr sustainable (market returns ~7% + net inflows ~5%).
 
 **Evidence against:**
-- FY25 costs grew at +9% YoY (GBP 91M vs prior year). The step down from +9% to +3% is a 6-percentage-point improvement in one year. This is ambitious.
-- Management cites a "GBP 4M annualized savings by FY27" efficiency program. On a GBP 91M cost base, that is only 4.4% savings -- hardly transformative.
-- The platform operates three regulated entities (two insurance companies). Regulatory compliance costs tend to INCREASE, not decrease. FCA Consumer Duty implementation is ongoing. Pension dashboard connection required by Oct 2026 = additional cost.
-- Technology investment is ongoing: the thesis notes capex/depreciation of 1.5x (up from <1x historically), confirming the platform is INVESTING more, not less. This contradicts the +3% cost growth narrative.
-- BofA explicitly flags "competition-induced high-cost requirements" as a headwind.
-- The effective tax rate drifted from 24% to 26% and may increase further with legislative changes. The thesis uses 25%.
+- **Current crisis overlay (Mar 2026):** Iran/Hormuz conflict, oil $91, VIX 27-29, FTSE 100 -5.5% weekly. UK equities are directly exposed. A sustained selloff mechanically reduces FUA and revenue.
+- **Q1 FY26 inflow deceleration:** Net inflows +11% YoY (GBP 1.0bn vs GBP 0.9bn). This is materially below the +76% headline in the thesis. Management confirmed the +76% was inflated by pre-Budget pension activity. The normalized run-rate is closer to 5-7% organic inflow growth, not 12%.
+- **Competitor inflow comparison (2025):** Quilter net inflows GBP 9.1bn (up 75%). AJ Bell net flows 17.8% of AUA. IHP net inflows GBP 4.4bn. IHP is being outpaced on absolute inflows by both Quilter and AJ Bell.
+- **FUA composition sensitivity:** ~43% of FY25 FUA growth was market appreciation. In a -20% equity market:
+  ```
+  FUA: GBP 77bn x 0.80 = GBP 61.6bn + inflows ~GBP 2bn = ~GBP 64bn
+  Revenue: GBP 64bn x 21bps = GBP 134M (vs FY25 GBP 157M = -15%)
+  Costs: ~GBP 94M (largely fixed)
+  PBT: GBP 40M (vs FY25 GBP 75M = -47%)
+  EPS: ~9.0p
+  At 16x P/E: FV = 144p (-55% from current)
+  At 18x P/E: FV = 162p (-49%)
+  ```
+  This is the PERMANENT risk of bps-on-AUM businesses. The thesis bear case (340p, adjusted to 310p in R3) assumes "slower growth," not "negative market returns." A genuine market drawdown is far more severe.
 
-**Quantified impact if costs grow at 5% (not 3%):**
-```
-FY28 costs: GBP 105.4M (vs thesis GBP 100.8M) -- delta GBP 4.6M
-FY28 PBT: GBP 110.6M (vs thesis GBP 115.2M) -- 4% lower
-FY28 EPS: ~24.9p (vs thesis 26p)
-FV impact: ~5-10p lower = 405p (vs thesis 415p)
-```
+**However, important nuance:** A 20% market drawdown is TEMPORARY for a quality platform business. FUA recovers with markets. Inflows actually accelerate at lower valuations (ISA season, pension contributions are structural). The FV compression is real but short-lived. The question is whether you can tolerate -50% on an 11.4% position (= -5.7% portfolio impact) while waiting for recovery.
 
-**Severity: LOW-MODERATE**
-**Resolution:** The cost sensitivity is modest because IHP.L has genuine operating leverage (high gross margins). Even at 5% cost growth, the business is profitable. However, the thesis should stress-test the 3% assumption and acknowledge that FY25's +9% growth makes the +3% target aspirational, not confirmed.
+**Severity: MODERATE-HIGH** (elevated from original DA because position is now 11.4%, not 2%)
 
 ---
 
-### 3. The 20-22x P/E Multiple Is Appropriate
+### 3. Competition Is Stronger Than the Thesis Admits
 
-**Thesis claim:** Fair Value P/E of 20-22x forward earnings, supported by AJ Bell trading at 28x P/E.
+**Thesis claim:** HL delisting "reduces competitive pressure." Transact is #1 independent adviser platform.
 
 **Evidence against:**
-- BofA Securities, the most detailed independent analyst covering IHP.L, initiated with UNDERPERFORM and a 286p target price in November 2025. This implies a P/E of approximately 14-16x forward earnings -- far below the thesis's 20-22x.
-- BofA projects IntegraFin's ROIC at ~22% through FY28, compared to AJ Bell's projected 41% ROIC. The 28x P/E comparison with AJ Bell is misleading because AJ Bell is almost TWICE as capital-efficient.
-- AJ Bell also has a D2C channel that is growing rapidly, giving it a different growth profile. IHP.L is purely B2B (adviser-only), which limits the TAM.
-- The thesis's method 2 (EV/EBIT) initially gave 453-500p before being adjusted down because the net cash included regulatory capital. This self-correction is good but highlights that the initial multiple application was too generous.
-- Shore Capital downgraded to Hold. Panmure Liberum downgraded to Hold citing "limited earnings upgrade potential."
-- Of 9 analysts, the consensus mean target is 411p -- but this INCLUDES the bull outliers. The bear analyst (BofA) at 286p is well below current price.
+- **HL under CVC is INCREASING competition, not decreasing it.** CVC/Nordic Capital/ADIA paid GBP 5.4bn. They want returns. They have already:
+  - Cut main account fee from 0.45% to 0.35% (Mar 2026)
+  - Cut share dealing fees from GBP 11.95 to GBP 6.95
+  - Investing in technology overhaul
+  - HL's "strategic reset" is explicitly designed to regain market share lost over the past 3 years
+- **Quilter is resurgent.** Full year 2025: AUM GBP 134.8bn, net inflows up 75% to GBP 9.1bn, 30% operating margin achieved, GBP 100M buyback announced. Quilter's FNZ platform migration is complete. Quilter is the most recommended adviser platform by value (Defaqto 2025).
+- **AJ Bell is scaling rapidly.** AUA crossed GBP 100bn. Record 644K customers (+19%). D2C growth +25%. Pre-tax profit +22% to GBP 137.8M. GBP 50M share buyback. P/E 17.2x (now CHEAPER than IHP.L at 19.9x).
+- **Aviva rising.** Topped adviser platform recommendations in 2025 at 29% share (Defaqto).
+- **Platform recommendation rankings (2025 Defaqto):** Aviva 29%, Quilter 28%, Fidelity 9%, Transact 7%, AJ Bell 6%. Transact is 4th, not 1st.
+- **Lang Cat popularity survey (Dec 2025):** Transact #1 by popularity (different metric from recommendations). This is a SENTIMENT metric, not a market share metric.
 
-**Challenge to the AJ Bell comparison:**
-The thesis uses AJ Bell at 28x as a ceiling comp. But AJ Bell has:
-- Higher ROIC (41% projected vs 22%)
-- D2C growth channel (absent in IHP)
-- Higher revenue growth rate
-- These differences justify the premium, not parity
-
-A more honest comp range: 16-20x P/E
-- Quilter (FNZ-based, inferior): 15x
-- AJ Bell (proprietary, D2C growth): 28x
-- IHP.L (proprietary, adviser-only): 18-20x seems fair
-- At 18-20x FY26 EPS of 19.9p = 358-398p
+**The thesis conflates "most popular" (Lang Cat) with competitive dominance.** By FUA, market share, net inflows, and adviser recommendations, Transact ranks 3rd-4th, not 1st. It has a strong niche (high-net-worth adviser market) but is being outgrown by larger competitors.
 
 **Severity: MODERATE**
-**Resolution:** The thesis should acknowledge the BofA bear case explicitly. Using 18-20x instead of 20-22x gives a FV of 358-398p, midpoint ~378p. The weighted FV drops from 415p to approximately 390p.
+**What changed since first DA:** Quilter's 2025 results are much stronger than expected (75% inflow growth vs IHP's 76% -- virtually matching). AJ Bell is now cheaper than IHP on P/E (17.2x vs 19.9x). The competitive picture has deteriorated incrementally.
 
 ---
 
-### 4. GBP 255M "Net Cash" Is Overstated for Valuation Purposes
+### 4. IHT Pension Reform (April 2027) -- NEW RISK
 
-**Thesis claim:** GBP 255M net cash, eventually corrected to GBP 34M surplus in Method 2. But Method 1 implicitly includes full cash in market cap calculation.
+**Thesis claim:** Not addressed in thesis or original DA. Kill Condition #4 mentions "major regulatory change materially reducing adviser platform economics" generically but does not identify the specific IHT change.
 
-**Evidence against:**
-- The thesis itself acknowledges: "much of this cash is regulatory capital buffer (only GBP 33.7M is true surplus)."
-- This means GBP 221M (87% of the "net cash") is TRAPPED as regulatory capital and CANNOT be returned to shareholders through dividends or buybacks.
-- Management confirmed: capital requirements "increase broadly in line with FUD growth." As FUA grows from GBP 77bn to GBP 118bn (thesis projection), regulatory capital requirements ALSO increase by ~53%. The surplus may actually SHRINK as FUA grows.
-- The thesis's OEY calculation uses Market Cap of GBP 1,046M in the denominator. If we deduct only surplus cash (GBP 34M) instead of full cash: Enterprise Value = GBP 1,012M. OEY becomes 77.4/1,012 = 7.6% (virtually unchanged -- so this is minor for Method 1).
-- But the framing is misleading: "net cash GBP 255M" in the TL;DR suggests enormous financial flexibility that does NOT exist.
+**Evidence:**
+- From April 2027, unused pension funds (including SIPPs) will be included in the value of a deceased person's estate for IHT purposes, potentially taxed at 40%.
+- "Double taxation" risk: income tax AFTER IHT deduction, creating effective rates of 52-67% on inherited pension pots.
+- Finance Bill containing these provisions published December 2025.
+- This creates a strong incentive for clients to DRAW DOWN SIPP assets before death rather than leaving them invested on platform. Drawdowns reduce FUA.
+- Some advisers are restructuring client portfolios NOW ahead of April 2027, which may create short-term inflows (restructuring activity) but medium-term outflows (as clients deplete SIPPs faster).
+- **Quantified risk:** IHP does not disclose SIPP FUA as a percentage of total FUA. Industry-wide, SIPPs represent 30-40% of adviser platform FUA. If 5% of SIPP assets are drawn down annually post-reform (net additional drawdowns), that is 1.5-2% of total FUA = GBP 1.2-1.5bn annual outflow headwind, partially offsetting the GBP 4.4bn/yr net inflows.
 
-**Severity: LOW**
-**Resolution:** The thesis already partially addresses this in Method 2 reconciliation. However, the TL;DR and executive summary should clarify that surplus distributable cash is only GBP 34M, not GBP 255M. The headline framing is misleading.
-
----
-
-### 5. UK Geographic Concentration (Portfolio-Level Risk)
-
-**Thesis claim:** Acknowledges UK concentration but argues IHP.L is "financial services, not consumer discretionary" and thus different from existing UK positions.
-
-**Evidence against:**
-- Current UK positions: MONY.L (financial services), DOM.L (consumer), AUTO.L (digital marketplace), BYIT.L (technology). Adding IHP.L = 5 of 10 positions (50% of position count) are UK-listed.
-- The thesis claims MONY.L and IHP.L have different revenue drivers, but BOTH are UK financial services companies whose revenues depend on UK household wealth levels. In a UK recession:
-  - MONY.L: fewer consumers switching insurance/finance (discretionary savings behavior falls)
-  - IHP.L: FUA drops with UK equity markets + net outflows as clients draw down savings
-  - AUTO.L: car transactions decline
-  - BYIT.L: IT spending budgets cut
-  - DOM.L: consumer spending on pizza declines
-- GBP/EUR risk: GBP is forecast to weaken against EUR in 2026 (consensus GBP/EUR trending lower). Goldman forecasts GBP/USD at 1.36 by end-2026 (current ~1.26). A -10% GBP move = -5% portfolio impact from UK positions alone.
-- Principle 2 (Geographic Diversification) explicitly notes: "UK = 4/13 positions (~30% invested capital). Correlation high between MONY.L, AUTO.L, BYIT.L (UK digital platforms, UK consumer spending, GBP). Before adding any new UK position: document why the alternative non-UK comparable is inferior."
-- The thesis's argument that "no direct non-UK comparable exists" is partially correct for the specific platform business -- but the CAPITAL could be deployed to a non-UK Tier A opportunity instead of adding more UK exposure. The question is not "is IHP.L unique?" but "is the marginal UK risk worth the marginal return?"
-- With portfolio at ~60% cash, there is NO urgency to add a 5th UK position. The opportunity set is wide.
-
-**Severity: HIGH**
-**Resolution:** This is a portfolio-level concern, not a thesis-level concern. IHP.L may be a fine business, but the incremental UK risk is material. The investment committee should require that adding IHP.L must be accompanied by a plan to reduce UK exposure elsewhere, OR should size the position at 2% (not 3-4%) to limit incremental geographic risk.
+**Severity: MODERATE**
+**This is a genuine blind spot in the thesis.** The IHT change is the most significant regulatory development for UK platforms since auto-enrollment. It should be a monitored risk, though the magnitude is uncertain.
 
 ---
 
-### 6. FUA Growth Sustainability and Market Sensitivity
+### 5. Position Sizing Risk -- 11.4% of Portfolio
 
-**Thesis claim:** FUA +14% YoY, net inflows +76%. Volume growth outpaces margin compression.
+**Thesis claim:** HIGH conviction justified by QS 80, ROIC 49%, insider buying.
+
+**Challenge:**
+- The position grew from 2% (S108 original sizing, per R3 resolution) to 11.4% through 4 separate buys. Original R3 specified "Size at 2% (EUR ~200). Limits incremental GBP/UK macro risk."
+- Current sizing at 11.4% (EUR 1,197) is 5.7x the original R3-approved size. Each ADD was individually justified, but the cumulative effect exceeds what the original DA and R3 contemplated.
+- If IHP.L falls 30% (to ~223p), the portfolio loses -3.4%. This is equivalent to a small position being wiped out entirely.
+- IHP.L is a bps-on-AUM business. In a market crash, the stock can easily fall 40-50% (as it did in 2022 from 420p to ~290p, -31%). At 11.4%, a repeat would cost -4.6 to -5.7% of portfolio.
+- **UK concentration:** IHP.L is 3rd largest of 4 UK positions. Total UK exposure is ~22% of portfolio. All UK positions are correlated to GBP, BoE rates, and UK economic health.
+- **Comparison with peers:** AJ Bell P/E is 17.2x vs IHP.L 19.9x. AJ Bell has higher ROIC growth trajectory (projected 41% by FY28 per BofA), D2C channel, and is cheaper. The portfolio is paying a premium for IHP over AJ Bell without obvious justification.
+
+**Severity: HIGH** (portfolio-level, not thesis-level)
+
+---
+
+### 6. T4A/CURO Impairment -- Capital Allocation Signal
+
+**Thesis claim:** "T4A is <4% of revenue. Core platform is what matters. GBP 7.5M write-down is noise."
 
 **Evidence against:**
-- FUA composition for FY25 growth: 43% was market appreciation (GBP 5.7bn), 57% was net inflows (GBP 4.4bn). The thesis does not clearly separate these.
-- In a bear market scenario (FTSE -20%), the market appreciation component REVERSES. If FUA drops 20% from market movements, revenue drops ~20% on a bps-based model. Costs are largely fixed. This creates brutal operating DEleverage.
-- The +76% net inflow growth was partially inflated by elevated pension wrapper activity ahead of the October 2025 UK budget (confirmed by management). "Flows have since returned to normalised levels." The thesis treats this as a sustainable trajectory.
-- Q1 FY26 net inflows: GBP 1.0bn, up only 11% YoY (vs the +76% cited in the thesis). The deceleration from +76% to +11% in ONE quarter is significant and not mentioned in the thesis.
-- Outflows remain "elevated, albeit stable" -- transfer ratio improved to 2.8x from 1.7x, which is good, but the absolute outflow level suggests ongoing churn.
+- IHP acquired Time4Advice in January 2021 for an undisclosed sum. Within 4 years, 100% of goodwill was impaired (GBP 7.5M).
+- CURO (the adviser CRM product) has "in excess of 4,000 users" but has not generated meaningful revenue contribution. The thesis shows "Other (T4A, interest)" at GBP 6.2M (4% of total, declining).
+- This is management's ONLY acquisition. It failed completely. While not material financially, it tells us:
+  - Management's M&A track record: 0/1
+  - Capital allocated to T4A could have been returned to shareholders
+  - The "strategic importance" narrative was wrong
+- If management attempts further M&A (Transact + adviser tech integration), investors should be skeptical.
 
-**Bear market stress test:**
+**Severity: LOW** (financially immaterial, but informative about capital allocation capability)
+
+---
+
+### 7. BofA Underperform -- The Structural Bear Case
+
+**Thesis claim:** BofA's 286p target is "extreme bear, not base" (R3 resolution).
+
+**Evidence:**
+- BofA initiated with Underperform in November 2025 with a 286p price target. Key projections:
+  - ROIC flat at ~22% through FY28 (vs thesis-reported 49% tool ROIC)
+  - Fund flows below consensus
+  - "Revenue margin pressure, competition-induced high-cost requirements"
+- **The ROIC discrepancy is critical.** The thesis reports ROIC 49% (quality_scorer.py). BofA projects 22%. This 27pp gap likely reflects different ROIC definitions: BofA may include regulatory capital in invested capital base, while yfinance/tool ROIC excludes it. If BofA's basis is correct, IHP's moat is NARROWER than the thesis claims.
+- BofA is the ONLY major bulge-bracket bank covering IHP.L. While sell-side ratings are Level 2 sources with biases, BofA's specific quantitative projections deserve engagement, not dismissal.
+- **However:** BofA's 286p target implies ~14x forward P/E. This would be a discount to Quilter (15x) despite IHP's superior proprietary tech, higher insider ownership, and lower leverage. BofA appears overly bearish on growth sustainability.
+
+**Severity: MODERATE**
+**Resolution:** The truth likely lies between thesis (390p) and BofA (286p). The ROIC definition question should be resolved -- if BofA's "true ROIC" of 22% is correct, the QS 80 score is inflated (ROIC-WACC spread would be +12pp, not +36.6pp, reducing Financial Quality from 40 to ~32, QS would drop to ~72 = still Tier A but lower confidence).
+
+---
+
+## Short Interest & Institutional Context
+
+- **Short interest:** Saba Capital Management holds 0.53% short (FCA disclosure, Feb 18, 2026). Low. Not a crowded short.
+- **Institutional holders:** 53.1%. Key holders include Baillie Gifford (5.0%), BlackRock (6.0%), Evenlode Investment (5.3%), Liontrust (5.0%), Vanguard (2.2%). Quality institutional ownership.
+- **Insider activity:** STRONGLY POSITIVE. CEO Alexander Scott and Director Euan Marshall buying consistently (Jan-Feb 2026, multiple purchases). 24.2% insider ownership is exceptional.
+- **Analyst consensus:** 13 analysts. 2 Strong Buy, 6 Buy, 4 Hold, 0 Sell, 1 Strong Sell (BofA). Mean target 411p, median 420p, low 306p, high 480p.
+- **Crowding score:** 7.0x median (7 funds holding). Not crowded.
+
+**Assessment:** Insider and institutional signals are POSITIVE and counterbalance the bear case. This is genuine skin in the game -- insiders buying with their own money at current prices. This is the single strongest positive signal for the thesis.
+
+---
+
+## DA Bear-Case Valuation
+
+**Method: Conservative Multiple (different from FA's primary OEY/P/E method)**
+
 ```
-If FTSE drops 20% in FY27:
-  FUA: GBP 88bn x 0.80 = GBP 70.4bn (vs thesis GBP 88bn)
-  Revenue: GBP 70.4bn x 21bps = GBP 148M (vs thesis GBP 190M)
-  Costs: GBP 96.5M (fixed)
-  PBT: GBP 51.5M (vs thesis GBP 103.5M) -- 50% lower
-  EPS: ~11.6p
-  At 18x P/E: FV = 209p (-34% from current)
+Approach: EV/Revenue with margin-compressed earnings cross-check
+
+Bear assumptions:
+- FUA growth: 8% (market 5% + organic inflows 3% -- below thesis 12%)
+- Revenue margin: 19.5bps by FY28 (vs thesis 20.5bps -- moderate compression continues)
+- Cost growth: 4.5% (vs thesis 3% -- between management target and FY25 actual 9%)
+- Terminal growth: 2% (at GDP)
+- P/E multiple: 17x (below Quilter 15x, below AJ Bell 17.2x, premium for proprietary tech but discounted for growth concerns)
+
+FY28E projections:
+  FUA: GBP 77.2bn * 1.08^3 = GBP 97.3bn
+  Revenue: GBP 97.3bn x 19.5bps = GBP 190M
+  Costs: GBP 91M * 1.045^3 = GBP 104M
+  PBT: GBP 86M
+  Tax (25%): GBP 21.5M
+  Net Income: GBP 64.5M
+  EPS: 19.4p
+
+FV at 17x P/E: 330p
+FV at 19x P/E: 369p
+Bear midpoint: 350p
 ```
 
-This is the key asymmetric risk: in a bull market, FUA growth is strong and the thesis works. In a bear market, the bps-on-FUA model creates severe downside. The thesis's bear case of 340p does NOT incorporate a genuine market downturn -- it only assumes "slower growth."
+## Three-Number Table
 
-**Severity: MODERATE-HIGH**
-**Resolution:** The thesis bear case (340p, 25% probability) should be stress-tested with a genuine market downturn scenario. A -20% market move takes the FV to ~210-250p, which is significantly below the current price. This is the fundamental fragility of a bps-on-AUM business model.
+| Source | FV | Method |
+|--------|-----|--------|
+| FA thesis | 390p (R3 post-DA) | OEY/P/E (60%) + EV/EBIT (40%) |
+| Market | 318.5p | Current price |
+| DA bear | 350p | Conservative P/E (17-19x) with margin + growth haircuts |
+
+**Assessment:** FA (390p) > DA bear (350p) > Market (318.5p). Even in my bear case, there is upside from current price (10%). This suggests genuine, albeit modest, undervaluation. The market appears to price in worse-than-bear assumptions OR is discounting the Iran/Hormuz crisis impact on UK equities.
+
+---
+
+## Edge Assessment
+
+- **Analyst consensus PT:** 411p mean, 420p median (source: Yahoo Finance, 13 analysts)
+- **Post-DA FV:** 390p (unchanged from R3 -- no new data to justify revision)
+- **Gap:** 390p vs 411p consensus = -5.1% (we are BELOW consensus)
+- **Our specific edge:** We see operating leverage (costs +3% vs revenue +8%) as the primary value driver. Market anchors on margin compression headline. The edge is modest -- consensus at 411p is above our FV.
+- **WARNING: Our FV (390p) is below consensus (411p).** We do NOT have a positive informational edge over consensus. Our advantage, if any, is discipline-based (holding through volatility, longer time horizon) rather than informational.
+
+---
+
+## Kill Condition Review
+
+| KC | Status | Assessment |
+|----|--------|------------|
+| 1. Revenue margin <20bps AND FUA growth <8% | NOT TRIGGERED | Margin 21.9bps (approaching but not breached). FUA growth 17% (well above). Both must occur. |
+| 2. Net outflows 2+ consecutive quarters | NOT TRIGGERED | Net inflows positive every quarter. GBP 1.0bn Q1 FY26. |
+| 3. Insider selling >5% within 12 months | NOT TRIGGERED | Insiders BUYING. Strongly positive. |
+| 4. Major regulatory change to ISA/SIPP | WATCH | IHT pension reform April 2027 is a material regulatory change. Not yet clear if it "materially reduces adviser platform economics" but it reduces the attractiveness of SIPPs. Monitor closely. |
+| 5. Costs >6%/yr | NOT TRIGGERED | FY25 was +9% but management guides +3% for FY26. Monitor. |
+| 6. AI disruption of financial advice | DORMANT | Long-term. 40% of Britons using AI chatbots for financial guidance (anecdotal). |
+| 7. UK equity market drawdown >25% sustained 6+ months | WATCHING | Iran crisis creating short-term selloff. FTSE -5.5% weekly. Not yet at -25% threshold but directionally concerning. |
+
+**Recommended KC additions:**
+- **KC#8: AJ Bell P/E falls durably below IHP.L P/E by >3x for 6+ months.** Would indicate market pricing IHP as inferior quality. Currently AJ Bell at 17.2x vs IHP 19.9x -- AJ Bell is already cheaper, which challenges the thesis's quality premium narrative.
+- **KC#9: IHT pension reform (April 2027) triggers SIPP net outflows >GBP 0.5bn in any quarter.** This would validate the IHT risk as material.
 
 ---
 
@@ -171,69 +262,45 @@ This is the key asymmetric risk: in a bull market, FUA growth is strong and the 
 
 | # | Challenge | Evidence | Severity |
 |---|-----------|----------|----------|
-| 1 | Aviva surging to #1 adviser recommendation (2025 Defaqto) | Aviva tops platform recommendations, narrowing gap. Quilter remains strong. | LOW |
-| 2 | T4A/CURO GBP 7.5M impairment signals failed diversification | Write-down on 2021 acquisition. "Strategic importance" claimed but no revenue impact demonstrated. | LOW |
-| 3 | Transact ranked 3rd in Q2 2025 net flows (behind Quilter, Aviva) | Lang Cat and flow data show Transact is strong but NOT dominant across all metrics | LOW-MODERATE |
-| 4 | BofA projects IHP ROIC flat at 22% vs AJ Bell 41% through FY28 | BofA Underperform, 286p target, detailed analysis | MODERATE |
+| 1 | Competition stronger than thesis admits | Quilter +75% inflows, AJ Bell GBP 100bn AUA, Aviva #1 in recommendations | MODERATE |
+| 2 | T4A/CURO impairment -- capital allocation | GBP 7.5M write-down on only acquisition. 0/1 M&A track record | LOW |
+| 3 | Transact ranked 4th in adviser recommendations (Defaqto 2025) | Aviva 29%, Quilter 28%, Fidelity 9%, Transact 7% | LOW-MODERATE |
+| 4 | HL under CVC increasing competition | Fee cuts Mar 2026, tech investment, GBP 5.4bn exit price demands returns | MODERATE |
 
 ### Valuation
 
 | # | Challenge | Evidence | Severity |
 |---|-----------|----------|----------|
-| 1 | BofA 286p target implies 14-16x P/E (vs thesis 20-22x) | Only major bank with Underperform on IHP.L | MODERATE |
-| 2 | AJ Bell comp at 28x is misleading (different ROIC, D2C channel) | 41% vs 22% ROIC, different business model | MODERATE |
-| 3 | Net cash overstated (GBP 255M headline vs GBP 34M surplus) | Management confirms regulatory capital increases with FUA | LOW |
-| 4 | FV sensitivity to margin compression: 19bps -> FV 326-365p | BofA bear scenario | MODERATE |
-| 5 | Bear case (340p) doesn't stress-test genuine market downturn | -20% market -> FV 209-250p | MODERATE-HIGH |
+| 1 | BofA Underperform 286p target | ROIC 22% projection, flows below consensus | MODERATE |
+| 2 | AJ Bell now cheaper (17.2x vs IHP 19.9x) | Higher ROIC, D2C growth, same sector | MODERATE |
+| 3 | DA bear FV 350p vs thesis 390p | Conservative assumptions still show modest upside | LOW-MODERATE |
+| 4 | No informational edge -- FV below consensus | Our 390p < consensus 411p | LOW |
 
 ### Risks
 
 | # | Challenge | Evidence | Severity |
 |---|-----------|----------|----------|
-| 1 | UK geographic concentration: 5th UK position in 10-position portfolio | Principle 2 explicitly warns. Correlated GBP/UK economy risk | HIGH |
-| 2 | FUA growth conflates market returns (43%) with organic inflows (57%) | Bear market reverses market appreciation component | MODERATE-HIGH |
-| 3 | Net inflow growth already decelerating: +76% -> +11% in one quarter | Q1 FY26 data vs FY25 full-year. Budget-driven distortion | MODERATE |
-| 4 | IHT change April 2027 (pensions included in estate) could drive outflows | Regulatory change affecting SIPP assets | LOW-MODERATE |
-| 5 | AI/robo-advice could reduce adviser numbers over 5-10yr horizon | 40% of Britons now use AI chatbots for financial guidance. Advisers serving only wealthier clients | LOW |
+| 1 | Position size 11.4% disproportionate for FUA-sensitive business | 5.7x original R3-approved 2% sizing. -30% IHP = -3.4% portfolio | HIGH |
+| 2 | IHT pension reform April 2027 | SIPPs included in estates for IHT. Incentive to draw down. FUA headwind | MODERATE |
+| 3 | FUA market sensitivity not stress-tested at current sizing | -20% FTSE = -50% stock = -5.7% portfolio impact | MODERATE-HIGH |
+| 4 | UK geographic concentration -- 4th UK position | Total UK exposure ~22% of portfolio. GBP/BoE/UK economy correlation | MODERATE |
+| 5 | Revenue margin compression trajectory uncertain | 21.9bps, approaching 20bps floor. Management guidance vs BofA projection | MODERATE |
 
 ### Timing
 
 | # | Challenge | Evidence | Severity |
 |---|-----------|----------|----------|
-| 1 | H1 FY26 results (~June 2026) needed to validate operating leverage | Thesis itself recommends WATCHLIST not immediate BUY | LOW |
-| 2 | Hargreaves Lansdown fee cuts March 2026 could create competitive ripple | 0.45% -> 0.35% main fee. Industry-wide pricing pressure | LOW-MODERATE |
-| 3 | Pension dashboard connection required by Oct 2026 = implementation cost | Additional regulatory cost not in thesis | LOW |
-| 4 | Market may continue to compress -- stock was 398p Dec 2025, 315p now | Downtrend intact, may not have found floor | LOW |
+| 1 | Iran/Hormuz crisis -- FTSE under pressure | Oil $91, VIX 27-29, FTSE -5.5% weekly. FUA mechanically declining | MODERATE |
+| 2 | H1 FY26 results (~Jun 2026) needed to validate thesis | Operating leverage, margin compression deceleration, cost discipline | LOW |
+| 3 | HL fee restructuring Mar 2026 ripple effects | Industry-wide pricing competition | LOW-MODERATE |
 
 ---
 
 ## Conflicts with Other Analyses
 
-No moat_assessment.md or risk_assessment.md exist for IHP.L (R1 only produced thesis.md). The sector view (uk-adviser-platforms.md) was created same day and is consistent with the thesis but lacks independent depth. The sector view notes revenue margin compression as the "dominant headwind" at ALTA probability, which is actually MORE bearish than the thesis itself.
-
-**Key conflict: The sector view rates competition risk at "Media" and margin compression probability at "Alta." The thesis dismisses competition risk more aggressively than the sector view supports.**
-
----
-
-## Quantified Alternative Bear Case
-
-If I am right about the three key challenges (margin compression faster than guided, multiple lower than thesis, and market sensitivity not stress-tested):
-
-```
-Conservative FV:
-  Method 1: 18-20x FY26E EPS of 18-19.9p = 324-398p (vs thesis 398-438p)
-  Method 2: 15-17x normalized EBIT + GBP 34M surplus = 360-410p (vs thesis 410p)
-  Weighted: ~370-395p (vs thesis 415p)
-
-Bear FV (accelerating compression + bear market):
-  17x FY28E EPS of 19p = 323p (vs thesis 340p)
-  In a genuine -20% market: FV drops to 209-250p temporarily
-
-My FV estimate: 385-395p (6-8% below thesis)
-My MoS estimate at 315p: ~17-20% (vs thesis 24%)
-```
-
-This still passes the Tier A threshold (MoS >10-15% per precedents) but with less cushion.
+1. **R3 Resolution (Feb 20) approved 2% sizing.** Position is now 11.4% (5.7x larger). The R3 explicitly said "Size at 2% (EUR ~200). Limits incremental GBP/UK macro risk." The four ADDs were individually justified but collectively exceeded the R3 framework.
+2. **Sector view (Mar 7) rates competition risk at "Media"** which is consistent with the thesis. However, the sector view also notes Quilter is "most recommended" and AJ Bell crossed GBP 100bn -- both competitive intensification signals.
+3. **BofA ROIC (22%) vs quality_scorer ROIC (49%).** This discrepancy is unresolved. If BofA's basis is correct (including regulatory capital), the QS may be inflated.
 
 ---
 
@@ -241,74 +308,81 @@ This still passes the Tier A threshold (MoS >10-15% per precedents) but with les
 
 | Metric | Value |
 |--------|-------|
-| Total challenges | 17 |
-| Challenges HIGH/CRITICAL | 1 HIGH (UK concentration), 0 CRITICAL |
-| Challenges MODERATE or above | 8 of 17 |
-| Challenges not resolved by thesis | 5 (UK concentration, bear market stress test, net inflow deceleration, BofA bear case, AJ Bell comp validity) |
+| Total challenges | 16 |
+| Challenges HIGH/CRITICAL | 1 HIGH (position sizing), 0 CRITICAL |
+| Challenges MODERATE or above | 10 of 16 |
+| Challenges not resolved by thesis | 4 (IHT pension reform, position sizing, AJ Bell P/E comparison, ROIC definition) |
 | **Verdict** | **MODERATE COUNTER** |
 
 ### Interpretation
 
-**MODERATE COUNTER:** The thesis has identifiable gaps but no kill-level flaws. The business is genuinely high-quality (QS 80 is warranted). The moat is real (proprietary tech + switching costs). The insider buying is strongly positive. However:
+**MODERATE COUNTER:** The business quality is genuine. The moat (proprietary tech + switching costs) is real. Insider buying is strongly positive. The thesis survives scrutiny at the BUSINESS level. However:
 
-1. The FV is likely 385-395p, not 415p (6-8% overstatement)
-2. The bear case should be 300-310p, not 340p (market sensitivity underestimated)
-3. The UK geographic concentration is the most serious concern at portfolio level
-4. The +76% net inflow growth is misleading as a sustainable trajectory
-5. BofA's detailed Underperform case deserves more than dismissal
+1. **Position sizing (11.4%) is the primary concern.** This is not a thesis quality issue -- it is a portfolio risk management issue. The bps-on-AUM revenue model creates severe downside asymmetry in market drawdowns, and at 11.4%, that asymmetry affects the entire portfolio.
+2. **IHT pension reform (April 2027) is a genuine blind spot** that should be monitored as a potential KC trigger.
+3. **Competition is incrementally worse** since the original DA -- Quilter is stronger, AJ Bell is cheaper, HL is more aggressive.
+4. **No informational edge over consensus.** Our FV (390p) is below consensus (411p). We are not smarter than the market on this one -- we are betting on time and discipline, not information asymmetry.
 
-The thesis SURVIVES but needs calibration before the investment committee.
+The thesis HOLDS but the position size deserves scrutiny.
+
+---
+
+## Three-Number Table
+
+| Source | FV | Method |
+|--------|-----|--------|
+| FA thesis | 390p | OEY/P/E (60%) + EV/EBIT (40%), R3 adjusted |
+| Market | 318.5p | Current price |
+| DA bear | 350p | Conservative P/E (17-19x), margin + growth haircuts |
 
 ---
 
 ## Recommendation to Investment Committee
 
-1. **ADJUST FV to 385-395p range** (incorporate BofA's lower multiple assumption and stress-test margin compression)
-2. **REQUIRE bear case stress-test with -20% market scenario** (FUA-linked revenue models have severe downside asymmetry)
-3. **UK GEOGRAPHIC CONCENTRATION: Require explicit plan** -- either (a) limit IHP.L sizing to 2% (not 3-4%), or (b) identify a UK position to REDUCE concurrently, or (c) document why 50% of positions being UK-listed is acceptable
-4. **VALIDATE operating leverage before execution**: The thesis itself recommends waiting for H1 FY26 results. This is correct. At 315p with true MoS of ~17-20%, there is no urgency. A 5% pullback to 300p would be safer entry.
-5. **MONITOR net inflow deceleration**: Q1 FY26 was +11% (vs +76% for FY25). If Q2 also decelerates, the growth narrative weakens materially.
-6. **DO NOT dismiss BofA Underperform**: While sell-side ratings are Level 2 sources with inherent biases, BofA's specific projections (flat ROIC 22%, flows below consensus) deserve engagement, not dismissal. The thesis should explain why BofA is wrong, with data.
+1. **MAINTAIN FV at 390p.** No new financial data since R3 to justify revision. H1 FY26 results (~Jun 2026) will be the next calibration point.
+2. **REVIEW position sizing.** 11.4% is 5.7x the R3-approved 2%. For a business with mechanical FUA sensitivity to equity markets, consider whether this concentration is appropriate in the current crisis environment. If uncomfortable: TRIM to 7-8% (sell ~120 shares).
+3. **ADD IHT pension reform to monitored risks.** The April 2027 change could create SIPP outflow headwinds. This is not a KC yet, but should be tracked.
+4. **RESOLVE ROIC definition question.** Is tool ROIC (49%) or BofA's ROIC (22%) more representative? If 22% is correct, the QS may need revision.
+5. **MONITOR AJ Bell P/E convergence.** AJ Bell at 17.2x is now cheaper than IHP at 19.9x. If this persists, the market is saying AJ Bell is the better value -- and the thesis should explain why IHP deserves a premium.
+6. **WATCH Iran crisis duration.** A sustained -20% UK equity drawdown would mechanically compress IHP's FUA by ~GBP 15bn and revenue by ~GBP 30M. This is temporary but could trigger -40% stock decline. At 11.4% of portfolio, that is painful.
 
 ---
 
 ## META-REFLECTION
 
 ### Doubts/Uncertainties
-- I could not access the full BofA research note (paywalled). My understanding of their bear case comes from summary excerpts. The actual report may have more nuance.
-- The revenue margin compression trajectory is genuinely uncertain. Management may be right that it decelerates. I found no definitive evidence EITHER WAY -- only management guidance (bullish) vs BofA projections (bearish).
-- The IHT change (pensions in estate from April 2027) could trigger significant SIPP outflows, but the magnitude is speculative. Some advisers may INCREASE platform usage to restructure before the deadline, creating SHORT-TERM inflows before long-term outflows.
+- The ROIC discrepancy (49% tool vs 22% BofA) is the most important unresolved question. I could not determine BofA's methodology without the full paywalled report. This single variable could shift the thesis from "quality compounder" to "decent but not exceptional platform."
+- The IHT pension reform impact is highly uncertain. The behavioral response of clients and advisers to a change 12 months away is speculative. It could drive short-term inflows (restructuring) before long-term outflows (faster drawdowns).
+- My bear FV (350p) may be too conservative. IHP trades at 19.9x P/E, which is already below my 17-19x bear P/E for a quality platform business. If the market is right at 318p, my 350p is STILL above market.
 
 ### Limitations of This Analysis
-- Could not access full analyst research reports (BofA, Panmure Liberum, Shore Capital) due to paywalls
-- Limited ability to verify actual regulatory capital requirements vs. total cash (would need full annual report balance sheet notes)
-- The bear market stress test (FUA -20%) is illustrative, not precise. Actual portfolio FUA sensitivity depends on asset allocation of clients on the platform (UK equity, global equity, fixed income, cash mix).
-- No independent data on competitor pricing actions beyond Hargreaves Lansdown's fee cut announcement
+- Could not access full BofA research report (paywalled)
+- No data on IHP's SIPP FUA as percentage of total FUA (company does not disclose)
+- FCF/DCF tools are unreliable for IHP due to yfinance financial services data distortion
+- Limited visibility into Quilter's and AJ Bell's actual adviser market share gains at the expense of IHP specifically
 
 ### Suggestions for the System
-- For businesses with bps-on-AUM revenue models (IHP.L, AJB.L, fund managers), the valuation framework should ALWAYS include a market downturn scenario as a standard bear case element. The thesis's bear case assumed "slower growth" but not "negative market returns."
-- The UK concentration principle (P2) should have a specific trigger: "If adding position would make UK >40% of positions by count, escalate to explicit committee discussion."
+- For bps-on-AUM businesses (IHP.L, fund managers, platforms), the valuation framework should ALWAYS include a -20% market stress test as standard. This is not a "tail risk" -- it is a regular occurrence (2008, 2011, 2015, 2018, 2020, 2022).
+- Position sizing that grows through multiple ADDs should trigger a cumulative sizing review when it exceeds 2x the original R3-approved size.
 
-### Questions for Orchestrator
-1. With 60% cash and 4 existing UK positions, is the marginal UK risk of IHP.L justified vs. deploying that capital to a non-UK Tier A opportunity from the pipeline?
-2. Should the standing order entry at 300p be adjusted to 285-290p to account for the lower FV estimate (385-395p vs thesis 415p)?
-3. The BofA ROIC comparison (IHP 22% vs AJ Bell 41%) contradicts the thesis's tool-reported ROIC of 49%. Which ROIC is correct? If BofA's 22% is on a different basis (including all regulatory capital), the moat may be narrower than the thesis suggests.
+### Preguntas para Orchestrator
+1. Is 11.4% appropriate for a FUA-sensitive business in a crisis environment? The original R3 approved 2%.
+2. Should the ROIC definition question (49% vs 22%) be escalated to a formal re-evaluation before H1 results?
+3. Given no informational edge over consensus (our FV < consensus PT), what is our actual competitive advantage in this position?
 
 ---
 
 Sources:
-- [BofA Underperform initiation on IHP.L](https://in.investing.com/news/analyst-ratings/integrafin-stock-initiated-with-underperform-rating-at-bofa-securities-93CH-5121350)
-- [IntegraFin H2 Earnings Call Highlights](https://www.dailypolitical.com/2025/12/22/integrafin-h2-earnings-call-highlights.html)
-- [IntegraFin FY25 Results Analysis](https://joshthompson.co.uk/investing/integrafin-reports-strong-fy25-earnings-growth-record-net-inflows/)
+- [BofA Underperform initiation on IHP.L](https://www.investing.com/news/analyst-ratings/integrafin-stock-initiated-with-underperform-rating-at-bofa-securities-93CH-4372390)
+- [Quilter FY 2025 results: inflows surge 75%](https://www.investing.com/news/company-news/quilter-fy-2025-slides-net-inflows-surge-75-margin-target-hit-93CH-4540305)
+- [AJ Bell surpasses GBP 100bn platform assets](https://in.investing.com/news/earnings/aj-bell-surpasses-100-billion-in-platform-assets-as-customer-base-grows-5058751)
+- [AJ Bell GBP 50M buyback, profit +22%](https://www.professionaladviser.com/news/4522785/aj-bell-launches-50m-share-buyback-scheme-pre-tax-profit-rise-22)
 - [Aviva tops adviser platform recommendations 2025](https://www.moneymarketing.co.uk/news/aviva-tops-adviser-platform-recommendations-in-2025/)
-- [Quilter, Aviva, Transact top adviser net flows](https://www.moneymarketing.co.uk/news/quilter-aviva-and-transact-top-adviser-platform-net-flows/)
-- [Hargreaves Lansdown fee cuts](https://www.moneymarketing.co.uk/news/hargreaves-lansdown-fee-cuts-mark-strategic-reset-in-price-war/)
-- [Lang Cat most popular adviser platforms 2025](https://www.moneymarketing.co.uk/news/the-lang-cat-reveals-most-popular-adviser-platforms-for-2025/)
-- [Transact named most popular platform (Lang Cat)](https://professionalparaplanner.co.uk/transact-named-most-popular-adviser-platform-by-the-lang-cat/)
+- [HL fee restructuring Mar 2026](https://www.filmogaz.com/119966)
 - [IntegraFin Q1 FY26 strong start](https://www.sharecast.com/news/news-and-announcements/integrafin-reports-strong-start-to-2026-financial-year--21492436.html)
-- [T4A/CURO impairment (Citywire)](https://citywire.com/new-model-adviser/news/transact-commits-to-adviser-back-office-system-despite-7-5m-write-down/a2466281)
-- [40% of Britons use AI chatbots for financial guidance](https://www.resultsense.com/news/2026-02-17-priced-out-britons-turn-to-ai-for-financial-advice)
-- [UK Parliament Treasury Committee on AI risk](https://committees.parliament.uk/committee/158/treasury-committee/news/211401/current-approach-to-ai-in-financial-services-risks-serious-harm-to-consumers-and-wider-system/)
-- [GBP/USD Forecast 2026](https://www.fxempire.com/forecasts/article/gbp-usd-forecast-2026-sterling-faces-limits-but-outlook-improves-1568579)
+- [IHT pension reform April 2027](https://www.clearcutfp.co.uk/new-pension-iht-rules-in-2027-what-this-means-for-retirees/)
+- [FCA 2026 regulatory priorities for consumer investments](https://financialregulation.linklaters.com/post/102mm1y/fca-sets-out-its-2026-regulatory-priorities-for-consumer-investments)
+- [IntegraFin H2 earnings call highlights](https://www.dailypolitical.com/2025/12/22/integrafin-h2-earnings-call-highlights.html)
 - [Panmure Liberum downgrade](https://www.proactiveinvestors.co.uk/companies/news/1074831/integrafin-downgraded-on-valuation-grounds-and-limited-upgrade-earnings-potential-1074831.html)
-- [IntegraFin FY25 Annual Results RNS (PDF)](https://www.integrafin.co.uk/media/1zapl3v5/fy25-year-end-results-announcement-rns.pdf)
+- [Quilter most recommended adviser platform](https://ifamagazine.com/quilter-remains-most-recommended-adviser-platform-but-aviva-narrows-gap/)
+- [Lang Cat most popular adviser platforms](https://professionalparaplanner.co.uk/transact-named-most-popular-adviser-platform-by-the-lang-cat/)
