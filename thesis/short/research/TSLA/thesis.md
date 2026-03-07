@@ -3,6 +3,7 @@
 > **Date:** 2026-03-07 | **Session:** S145 | **Pipeline Stage:** S1 Complete
 > **Price:** $396.73 (EUR 341.54) | **Market Cap:** $1,488.7B
 > **Fair Value (Base):** $37-51 (auto business) / $80-120 (with option value) | **Implied Downside:** -70% to -80%
+> **S3 Resolved FV:** $80 (probability-weighted SOTP post-DA). Entry $270-310 post-Q1 data. Stop $420. EUR 75 (0.75%). 90d max.
 > **QS Tool:** 29/100 (Tier D) | **QS Adjusted:** 35/100 (Tier C) | Adjustment: +6 points for energy business (29.8% GM, $12.8B revenue, 48% deployment growth) and $44B net cash not captured by legacy scorer
 > **Verdict:** VIABLE SHORT THESIS -- but EXTREME CAUTION required due to squeeze risk, Musk factor, and real option value in Robotaxi/Energy/Optimus
 
