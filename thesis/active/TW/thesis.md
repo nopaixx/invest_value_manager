@@ -1,6 +1,7 @@
 # TW - Tradeweb Markets Inc.
 
 > **Fair Value:** $140 (R3 post-DA, was $155-159 R1. DA reduced citing thin edge vs consensus, LSEG overhang.)
+> **Expected Growth:** 12% (base case revenue CAGR 12% from electronification S-curve + ADV growth. EPS CAGR ~14% with operating leverage. Conservative 12%.)
 > R1 Fundamental Analysis | 2026-02-23
 > Analyst: fundamental-analyst agent | Framework v4.0
 

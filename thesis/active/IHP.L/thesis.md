@@ -1,10 +1,11 @@
 # IHP.L - IntegraFin Holdings PLC
 
 > **Fair Value:** 390 GBp (R3 post-DA, was 415p R1)
-> R1 Fundamental Analysis | Date: 2026-02-20 | Updated: 2026-03-07 (S142)
+> **Expected Growth:** 9% (EPS CAGR: FUA +12% - margin compression ~3% = revenue +8-9%, operating leverage adds +1pp to earnings growth. Base case 9%.)
+> R1 Fundamental Analysis | Date: 2026-02-20 | Updated: 2026-03-07 (S146)
 > Analyst: fundamental-analyst (opus)
 > Sector View: world/sectors/uk-adviser-platforms.md (FRESH, updated 2026-03-07)
-> **Status: ACTIVE HOLD** — 110 shares @ avg 323p (~3.9% portfolio). BUY S108 + ADD S127.
+> **Status: ACTIVE HOLD** — 327 shares @ avg 319.6p (~11% portfolio). BUY S108 + ADDs S127/S132/S143c8.
 
 ## TL;DR
 

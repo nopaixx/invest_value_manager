@@ -1,5 +1,6 @@
 # DOCS - Doximity, Inc. | R1 Thesis
 
+> **Fair Value:** $32.80 (R1 weighted: OEY $28 50%, DCF $40 30%, EV/Sales $34 20%. SBC-adjusted floor $24.)
 > Date: 2026-02-23
 > Analyst: fundamental-analyst (R1)
 > Sector View: pharma-healthcare.md (Health Information Services)
@@ -514,11 +515,10 @@ Terry Smith's Fundsmith holds Doximity at 5.3% portfolio weight, making it one o
 
 | Metric | Value |
 |--------|-------|
-| Avg Cost | $24.07 (19.57 shares) |
-| Current Price | $25.34 |
-| Unrealized | +5.3% |
+| Shares | 39.93 |
+| Avg Cost | $24.81 |
 | FV | $32.80 |
-| MoS | 29.4% |
-| E[CAGR] | 11.5% (growth component conservative at 2.5%) |
+| E[CAGR] | 19.0% (forward_return.py, growth 10%) |
 | QS | 79 Tier A |
+| Weight | ~8% portfolio |
 | Next Catalyst | Q4 FY2026 earnings ~May 2026 |
