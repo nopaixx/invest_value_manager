@@ -140,10 +140,10 @@ positions:
     date_opened: 2026-02-25
     thesis: thesis/active/DOCS/thesis.md
     conviction: medium
-    fair_value: "$32.80 (R3 post-DA. QS Tool 74, Adj 79 Tier A. SBC-adj OEY $24 = floor.)"
-    last_review: 2026-02-25
-    exit_plan: "HOLD. TRIM at $40+. ADD at $20 (MoS 39%). SELL if KC#1 (NRR <100%) or KC#5 (SBC >15% without buyback offset). Next earnings Q4 FY2026 ~May 2026."
-    notes: "TRIM S143c8: sizing rebalance -7.15 shares at $25.34 (EUR 156). T15 alignment: E[CAGR] 11.5% = bottom quartile, sized down from 9.4% to 8.0%. 85% US physician monopoly."
+    fair_value: "$30 (R3 resolved S146c4. Was $32.80. DA: TAM 13%->7%, growth 10%->8%, MFN structural. QS 74/79 Tier A.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD 8%. Do NOT add before Q4 (~May 2026). TRIM to 5% if Q4 misses + FY27 guide <8%. TRIM at $38+. SELL if KC#1 (NRR <100%) or KC#7 (Q4 rev <$140M + FY27 guide <6%)."
+    notes: "R3 S146c4: FV $32.80->$30, growth 10%->8%, E[CAGR] 19%->13.8%. TAM corrected 13%->7%. 3 HIGH DA findings resolved. Position justified (E[CAGR] 13.8% > 12% threshold) but oversized at 8%. Q4 earnings = binary catalyst."
 
   - ticker: FTNT
     name: "Fortinet, Inc."

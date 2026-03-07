@@ -1,11 +1,11 @@
 # DOCS - Doximity, Inc. | R1 Thesis
 
-> **Fair Value:** $32.80 (R1 weighted: OEY $28 50%, DCF $40 30%, EV/Sales $34 20%. SBC-adjusted floor $24.)
+> **Fair Value:** $30 (R3 resolved S146c4. Was $32.80 R1. DA reduced: TAM growth 13%->7%, growth 10%->8%, MFN 12-18mo. OEY $28/DCF $35/EV/Sales $30 weighted.)
 > Date: 2026-02-23
 > Analyst: fundamental-analyst (R1)
 > Sector View: pharma-healthcare.md (Health Information Services)
-> Pipeline Stage: R1_COMPLETE
-> **Expected Growth:** 10% (sustainable: FY2026 guided 13%, 4yr CAGR 18.4%, base case 12%. Conservative 10%.)
+> Pipeline Stage: R3_COMPLETE
+> **Expected Growth:** 8% (R3 resolved: TAM 7% + share gains 1-2pp - MFN drag 1pp. Was 10%. Sell-side ~9%, Q4 guide 4%, "record Jan bookings" suggests sandbagged.)
 
 ---
 
@@ -517,8 +517,8 @@ Terry Smith's Fundsmith holds Doximity at 5.3% portfolio weight, making it one o
 |--------|-------|
 | Shares | 39.93 |
 | Avg Cost | $24.81 |
-| FV | $32.80 |
-| E[CAGR] | 19.0% (forward_return.py, growth 10%) |
+| FV | $30 (R3 resolved) |
+| E[CAGR] | 13.8% (R3: growth 8%, FV $30) |
 | QS | 79 Tier A |
 | Weight | ~8% portfolio |
 | Next Catalyst | Q4 FY2026 earnings ~May 2026 |
