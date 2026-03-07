@@ -1,10 +1,11 @@
 # MONY.L - MONY Group PLC (MoneySupermarket)
 
-> Fecha: 2026-02-04
+> Fecha: 2026-02-04 | Updated: 2026-03-07 (S147c3)
 > Analista: Claude (fundamental-analyst)
-> Status: RESEARCH - Pendiente Investment Committee
-> **Expected Growth:** 2% (post-DA actual 1-2%. R1 assumed 5-7% was wrong. AI disruption + insurance premium decline = structural headwind.)
-> **Fair Value:** 190 GBp (v3.0, updated 2026-02-12)
+> Status: ACTIVE HOLD — 384 shares @ 171.0p avg, 7.3% portfolio. FIRST ROTATION CANDIDATE.
+> **Expected Growth:** 2% (post-DA actual 1-2%. Lowest growth in portfolio. Insurance premium decline structural but cyclical recovery expected 2026.)
+> **Fair Value:** 190 GBp (R3 S147c3, maintained. DA MODERATE COUNTER, 5 HIGH. DA bear 155p. Only 10% upside — yield play.)
+> Pipeline Stage: R3_COMPLETE
 
 ---
 

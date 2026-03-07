@@ -81,11 +81,11 @@ positions:
     avg_cost_gbp: 171.0  # Unchanged
     date_opened: 2026-02-04
     thesis: thesis/active/MONY.L/thesis.md
-    notes: "TRIM S143c8: sizing rebalance -72 shares at 172.90p (EUR 144). T15 alignment: E[CAGR] 13.4% = below median, sized down from 8.3% to 7.0%. FY2025 record margins. QS 75 Tier A borderline."
+    notes: "R3 S147c3: FV 190p maintained. DA MODERATE COUNTER, 5 HIGH (AI live disruption, P/E re-rating unlikely, narrow upside 10%). FIRST ROTATION CANDIDATE. Yield play (7.3% div + 3% buyback). Growth 2% = lowest in portfolio."
     conviction: medium
-    last_review: 2026-02-23
-    fair_value: "190 GBp (v3.2 post-FY2025 earnings. QS Tool 83, Adj 75 Tier A borderline.)"
-    exit_plan: "HOLD. FV 190 GBp. SELL if revenue declines YoY or Insurance -5%+ or dividend cut. SELL if AI strategy stalls. TRIM at >180p."
+    last_review: 2026-03-07
+    fair_value: "190 GBp (R3 S147c3, maintained. DA MODERATE COUNTER, 5 HIGH. DA bear 155p. QS 83/75.)"
+    exit_plan: "HOLD yield anchor. FIRST ROTATION CANDIDATE if higher E[CAGR] needs capital. SELL if revenue declines YoY, Insurance -5%+, dividend cut, or AI adoption >5% of quotes. TRIM at >180p."
 
   # LULU REMOVED 2026-03-06 - SOLD. Orphan EXIT. No CEO 34+ days, dual activist pressure (Wilson + Elliott), worst E[CAGR] in portfolio (-5.5%). P&L -1.0%.
 
