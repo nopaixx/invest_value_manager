@@ -6,7 +6,9 @@
 **Quality Score:** 62/100 -- Tier B
 **Recommendation:** HOLD (FY2025 BASE+ confirmed 2026-02-24. All KCs clear.)
 **Framework Version:** 4.0 (Principios Adaptativos)
-> **Fair Value:** EUR 29.0 (adversarial, updated 2026-02-07)
+> **Fair Value:** EUR 29.0 (R3 maintained S146c9. Was EUR 38.4 pre-adversarial. DA bear EUR 25.40-30.90 brackets thesis. KC#1 DORMANT.)
+> **Expected Growth:** 6% (R3 resolved: 2026 -10%, 2027-28 +7%. Management guide +8/+12% at 70% probability. Was yf_earn 4.6%.)
+> Pipeline Stage: R3_COMPLETE
 
 ---
 
