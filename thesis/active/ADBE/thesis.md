@@ -8,6 +8,8 @@ Adobe cotiza a P/E 16x (-43% de maximos), el mercado teme disrupcion por IA pero
 
 **CAMBIO v2.0 (10-Feb-2026):** Integra FTC/DOJ ROSCA lawsuit (trial Oct 2026), ajusta FV -6%, anade Kill Condition #6 (FTC churn impact). Corrige formato a QS Tool-First.
 > **Fair Value:** $390 (FTC-adjusted, weighted DCF + EV/EBIT + P/E)
+> **Expected Growth:** 7% (adjusted from 8%. R3 pending post-earnings Mar 12.)
+> Pipeline Stage: R2_COMPLETE (DA S146c9-10. R3 after Q1 earnings.)
 
 ---
 

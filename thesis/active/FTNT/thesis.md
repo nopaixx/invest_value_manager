@@ -1,6 +1,8 @@
 # FTNT - Fortinet, Inc.
 
 > **Fair Value:** $88 (R3 post-DA resolution)
+> **Expected Growth:** 8% (R3 post-DA. Billings +18%, SASE +40%, rev guide +12%. Buyback ~2%.)
+> Pipeline Stage: R3_COMPLETE (DA pending post-Investor Day Mon Mar 10)
 > R1 Fundamental Analysis | Date: 2026-02-26
 > Analyst: fundamental-analyst (opus)
 > Sector View: world/sectors/cybersecurity.md (FRESH, same day)

@@ -5,9 +5,9 @@
 # Created: 2026-03-07
 
 session:
-  id: 147
+  id: 148
   date: "2026-03-07"
-  timestamp_cet: "2026-03-07T18:10"
+  timestamp_cet: "2026-03-07T18:48"
 
 completed:
   vigilance:
@@ -49,12 +49,12 @@ completed:
 promises:
   - promise: "Process FTNT Investor Day outcome (Mon Mar 10) — update thesis Section 9, DA if data warrants"
     created_session: 145
-    deadline: "S148"
+    deadline: "S149 (Mon Mar 10)"
     status: PENDING
     broken_count: 0
   - promise: "Process ADBE Q1 FY2026 earnings (Wed Mar 12) + R3 resolution post-earnings"
     created_session: 146
-    deadline: "S148"
+    deadline: "S150 (Wed Mar 12+)"
     status: PENDING
     broken_count: 0
   - promise: "Review MEGP.L FY2025 results when published (~Mar 13) — advance to R4"

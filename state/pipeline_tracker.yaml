@@ -1,6 +1,6 @@
 # PIPELINE TRACKER + MAINTENANCE
 # Operational metadata for the fund
-# Updated: 2026-03-07 (S143)
+# Updated: 2026-03-07 (S148)
 
 # PRIORITY #1 - CAPITAL DEPLOYMENT (while cash > 25%)
 capital_deployment:
@@ -9,7 +9,7 @@ capital_deployment:
   trigger: "cash > 25%"
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S143: MASSIVE DEPLOYMENT. Cash 37%→6.6%. Sold GL+BYIT.L+DOM.L+MORN+RACE.MI. Bought TW+WKL.AS. 5 ADDs. EUR 717 remaining. 11 positions."
+  last_result: "S144: Full deployment. Cash 6.6%→0%. ADD NVO+EDEN.PA. 11 positions, 0% cash. Deployment = rotation only."
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/quality_universe.py"
 
@@ -18,7 +18,7 @@ vigilance:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S143: Crisis context. DOM.L earnings Mar 10 (no Section 9 — S144 priority). FTNT Investor Day Mar 10. ADBE earnings Mar 12 (framework READY). FOUR.L Mar 18."
+  last_result: "S148: Week ahead brief updated. DOM.L Mon, FTNT Inv Day Mon, CPI Tue, ADBE Wed. All frameworks READY."
   smart_skip:
     same_day_window_hours: 8
     source: "state/session_continuity.yaml → skip_if_same_day"
@@ -27,7 +27,7 @@ rotation_check:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S143: RACE.MI SOLD (E[CAGR] 6.6% worst). T15 sizing rebalance (7 positions). Blended E[CAGR] 14.4%→17.0% (+2.6pp). All orphans resolved."
+  last_result: "S147: DA audit corrected blended E[CAGR] 19.1%→17.4%. Rotation hierarchy: FTNT 9.7% > AUTO.L 12.1% > MONY.L 12.5%. MONY.L = FIRST ROTATION CANDIDATE."
   smart_skip:
     same_day_window_hours: 12
     earnings_blackout: true
@@ -44,7 +44,7 @@ risk_review:
   frequency: weekly
   last_run: 2026-03-07
   next_due: 2026-03-14
-  last_result: "S143: Cash buffer reduced 37%→6.6% (deployed into quality). 3 HIGH-vulnerability positions remain (DOM.L, EDEN.PA, AUTO.L). FTNT crisis beneficiary. FX fallback audit completed (12 tools fixed)."
+  last_result: "S148: Week ahead brief refreshed. 0% cash = zero buffer. 3 HIGH-vulnerability (DOM.L, EDEN.PA, AUTO.L ~25.5%). VIX 29.5 near panic."
 
 # SHORT/FRAGILITY
 fragility_watch:
@@ -108,7 +108,7 @@ r1_processing:
   trigger: "SCORED count > 0 in universe"
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S143: RMS.PA R1 COMPLETE (QS 96adj, FANTASY). BZU.MI R4 APPROVED (SO EUR 42). VRSK R4 confirmed (SO $210). BVI.PA R1 refreshed. SAF.PA R3 COMPLETE (OVERVALUED, parked). WKL.AS re-eval EUR 80. FV alignment audit (2 fixes). Pipeline velocity 7+ units."
+  last_result: "S147: DA audit focused. 10/11 DAs complete (6 R2s + 6 R3s = 12 velocity units). FTNT DA deferred to post-Investor Day. No new R1s this session."
   minimum_per_session: "3 velocity units (1 R1=1u, 1 R2→R3=2u, 1 R4=1u)"
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/r1_prioritizer.py"
@@ -131,7 +131,7 @@ sector_health:
   frequency: weekly
   last_run: 2026-03-07
   next_due: 2026-03-14
-  last_result: "S143: Digital marketplaces refreshed (was 29d stale). MORN sold — financial-data-analytics dep removed. professional-information-services sector view MISSING (WKL.AS HARD GATE)."
+  last_result: "S146: WKL.AS sector view HARD GATE cleared. 30/30 sector views FRESH (all <21d)."
   tool: "tools/sector_health.py"
   mandatory: true
 
@@ -148,14 +148,14 @@ net_exposure_reasoning:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S143: 93/0/7. MASSIVE DEPLOYMENT. Cash 37%→6.6%. 11 positions. No shorts (crisis vol too high). Full deployment justified by quality composition (7 Tier A, 4 Tier B)."
+  last_result: "S148: 100/0/0. Fully deployed. No shorts (VIX 29.5, crisis vol). Justified by quality (7 Tier A, 4 Tier B, blended E[CAGR] 17.4%)."
 
 # STANDING ORDER REALITY CHECK
 so_reality_check:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S143: RACE.MI sold. Active SOs: BZU.MI EUR 42 (R4 approved), VRSK $210 (R4 approved), FOUR.L pending (R3 complete, R4 after Mar 18 earnings)."
+  last_result: "S148: Active SOs: BZU.MI EUR 42 (R4), VRSK $210 (R4), FOUR.L pending (R3, GATED Mar 18 earnings). CVNA short SO conditional ($290-330, VIX <28)."
 
 # QUARTERLY — TOOL AUDIT
 tool_fx_audit:
