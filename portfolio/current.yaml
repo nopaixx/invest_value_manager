@@ -67,11 +67,11 @@ positions:
     avg_cost_dkk: 256.00  # Estimated blended
     date_opened: 2026-02-05
     conviction: medium
-    exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $50. SELL if FY2026 guidance miss >10% OR market share <40% OR gross margin <70%. TRIM at $60+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update."
-    fair_value: "$50 (v4.0 post-CagriSema failure. Was $66. Bear case now $35-42. QS Tool 73, Adj 73 Tier B.)"
-    last_review: 2026-02-25
+    exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $47. SELL if FY2026 rev decline >10% (KC#8) OR market share <40% OR gross margin <70%. TRIM at $55+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, Q1 FY2026 ~May."
+    fair_value: "$47 (R3 resolved S146c8. Was $50 v4.0. DA: FCF stale, P/E 16x. Bear $37/Base $48/Bull $62. QS 73 Tier B.)"
+    last_review: 2026-03-07
     thesis: thesis/active/NVO/thesis.md
-    notes: "ADD S144c1: Full deployment +12.04 shares at $38.58 (EUR 400). E[CAGR] 23.8% = 2nd highest. Now ~13% of portfolio. Avg cost improved $41.84→$40.76. 4th ADD total."
+    notes: "R3 S146c8: FV $50->$47, growth 10%->5%, E[CAGR] 23.8%->16.6%. OEY inputs stale (DKK 72B vs actual 29B), P/E now primary method. KC#8/#9 added. Position justified (16.6% > 15% Tier B) but do NOT add."
 
   - ticker: MONY.L
     name: "Mony Group PLC"

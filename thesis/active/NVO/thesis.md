@@ -5,9 +5,11 @@
 > **Status:** RESEARCH
 > **Ticker:** NOVO-B.CO (Copenhagen) / NVO (NYSE ADR)
 
-> **Fair Value:** $50 (v4.0 post-CagriSema REDEFINE 4 failure. Was $66. Bear $35-42, Base $50, Bull $65.)
+> **Fair Value:** $47 (R3 resolved S146c8. Was $50 v4.0. DA: FCF inputs stale, P/E 16x DKK 21 = $46. Bear $37/Base $48/Bull $62 scenario = $46.25. Split at $47.)
+> **Expected Growth:** 5% (R3 resolved: normalized post-CagriSema. 2026 -7%, 2027 +6%, 2028+ +7%. Was 10% R1.)
 > **Conviction:** LOW (downgraded from MEDIUM, S117 2026-02-25)
 > **Status Update:** HOLD CONFIRMED by human S117. CagriSema FAILED non-inferiority vs Zepbound. KC#1 TRIGGERED.
+> Pipeline Stage: R3_COMPLETE
 
 ---
 
