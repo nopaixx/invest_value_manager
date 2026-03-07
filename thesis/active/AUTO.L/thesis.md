@@ -4,6 +4,7 @@
 > Analista: Claude (fundamental-analyst) | Reviewer: Claude (review-agent, adversarial + urgent re-eval)
 > Status: ACTIVE - Position opened 2026-02-06 (65 shares @ 485.80 GBp)
 > **Fair Value:** 580 GBp (re-eval 2026-02-11)
+> **Expected Growth:** 4.5% (revised S145: pricing ceiling 5.5%, Amazon threat, dealer revolt)
 
 ---
 
@@ -247,21 +248,22 @@ The shift is driven by:
 
 ---
 
-## Kill Conditions (UPDATED)
+## Kill Conditions (UPDATED S145 -- Mar 7)
 
 | # | Kill Condition | Status | Notes |
 |---|----------------|--------|-------|
 | 1 | Dealer count decline >5% in a year | **OK** | Up 1% in H1 2026. But monitor April-June closely. |
 | 2 | ARPR growth turns negative | **OK** | +5% H1 2026. Decelerating but positive. |
-| 3 | Competitor >20% market share | **OK** | Motors.co.uk ~5% at best. |
+| 3 | Competitor >20% market share | **OK** | Motors.co.uk ~5% at best. Amazon Autos UK not yet launched. |
 | 4 | FCF margin <35% | **OK** | 50%. Rock solid. |
 | 5 | Large M&A >GBP 1B | **OK** | None. |
 | 6 | OEM direct >20% UK sales | **OK** | Still <5%. |
 | 7 | AI buying agents disintermediate search | **OK** | Nascent, 3-5yr. |
-| 8 | **NEW: CMA opens formal investigation** | **OK -- MONITOR** | Dealers filing complaints. No investigation yet. |
-| 9 | **NEW: ARPR growth below 2% for 2 consecutive periods** | **OK** | Currently 5%. But watch FY27 reporting. |
+| 8 | CMA opens formal investigation | **OK -- MONITOR** | Dealers filing complaints. No investigation yet. Rightmove GBP 1B class action creates precedent. |
+| 9 | ARPR growth below 2% for 2 consecutive periods | **OK** | Currently 5%. But watch FY27 reporting. |
+| 10 | **NEW: Amazon Autos UK captures >5% dealer listings within 12m of launch** | **NEW -- MONITOR** | **Amazon Autos UK launch announced 'by end 2026'. FREE for dealers. First credible well-funded competitor in a decade.** |
 
-**No kill conditions triggered. KC#8 (CMA) requires active monitoring.**
+**No kill conditions triggered. KC#8 (CMA) and KC#10 (Amazon Autos) require active monitoring.**
 
 ---
 
@@ -341,9 +343,29 @@ AUTO.L earns a CONDITIONAL place in the portfolio -- conditional on the April pr
 
 ---
 
-## Position Details (Updated Mar 7, S144c3)
+## Position Details (Updated Mar 7, S145)
 
 | Metric | Value |
+|--------|-------|
+| Shares | 65 |
+| Entry Price | 485.80 GBp (~5.58 EUR) |
+| Current Price | 494.80 GBp (Mar 7) |
+| P&L | +1.9% |
+| Total Invested | ~428 EUR |
+| Weight | ~3.5% |
+| Conviction | **LOW** (was MEDIUM -- downgraded due to intensifying dealer revolt) |
+| ADD trigger | **CANCELLED** (was 450p; no ADDs at LOW conviction) |
+| FV (Re-Eval) | **580p** (was 617p adversarial, 688p original) |
+| Prob-Weighted EV | **532p** (S145 updated scenarios incl. Amazon Autos) |
+| MoS vs FV | **14.7%** at 494.80p |
+| MoS vs EV | **7.0%** (marginal) |
+| E[CAGR] (corrected) | **10-12%** (tool shows 18.5% but uses overstated yf_earn growth of 10.9%; realistic growth 4.5%) |
+| Growth (thesis) | **4.5%** (was 5% Feb 11; further cut due to Amazon competitive ceiling) |
+| Cash context | ~36% cash but position is rotation candidate if needed |
+| Next review | After May 2026 FY results (MANDATORY) |
+| Decision point | **May 2026**: FY results + April pricing reception = HOLD/EXIT decision |
+| April Framework | **thesis/active/AUTO.L/april_framework_s145.md** -- detailed make-or-break framework |
+
 |--------|-------|
 | Shares | 65 |
 | Entry Price | 485.80 GBp (~5.58 EUR) |
