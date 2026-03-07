@@ -65,6 +65,25 @@ standing_orders:
     last_analysis_date: 2026-03-07
     expiry: 2026-09-01
 
+  - ticker: BZU.MI
+    action: BUY
+    category: ACTIVE
+    fill_prob_6m: 40
+    trigger: "<=EUR 42"
+    current_distance: "3.7%"
+    created_date: "2026-03-07"
+    staleness_status: FRESH
+    r4_status: "APPROVED S143c10 (2026-03-07). 10/10 gates PASS."
+    size_eur: 400
+    fair_value: "EUR 57 (weighted), EUR 55 (EV)"
+    mos_at_trigger: "31%"
+    tier: "B (QS 73/75adj)"
+    notes: "R4 APPROVED. Italian cement. Buzzi family 53%. EUR 200M buyback active. Through-cycle EBIT EUR 850M at 10.5x. E[CAGR] 15.9% at EUR 42 (above 15% Tier B). NOT market buy at EUR 43.62 (E[CAGR] 14.6% below threshold). Cycle not troughed — US volumes declining 2yr, oil $92. Standalone (no basket yet)."
+    kill_conditions: "KC#1 US EBITDA margin <30% 2yr, KC#2 net debt >2x EBITDA, KC#3 family <40%, KC#4 Russia writedown >EUR 500M, KC#5 ROIC <WACC 2yr"
+    pre_execution_condition: "Execute at EUR 42. Pre-flight reverse DCF. Check FY2025 full results (if available)."
+    last_analysis_date: 2026-03-07
+    expiry: 2026-07-31
+
   - ticker: ACGL
     action: BUY
     category: ACTIVE

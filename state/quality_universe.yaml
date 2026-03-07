@@ -214,20 +214,23 @@ quality_universe:
   - ticker: BVI.PA
     name: Bureau Veritas SA
     direction: long
-    qs_tool: 66
-    qs_adj: 66
+    qs_tool: 70
+    qs_adj: 70
     tier: B
     sector: testing-inspection-certification
-    fair_value: 30.0
-    entry_price: 24.0
+    fair_value: 33.0
+    entry_price: 25.5
     currency: USD
     current_price: null
     distance_to_entry: null
-    pipeline_status: SCORED
+    pipeline_status: R1_COMPLETE
     thesis_path: null
     last_scored: '2026-03-07'
     last_price_check: null
-    notes: EU Pricing Power basket candidate. Testing/inspection/certification. QS 66 Tier B. T16 universe expansion.
+    notes: 'R1 refresh post-FY2025. TIC #2 global. WIDE moat (regulatory mandates). FV EUR 33, entry EUR 25.50. E[CAGR] 13.8%
+      at EUR 28.80. QS 70adj. Governance risk (-3 haircut). EU Pricing Power basket candidate.'
+    r1_session: 143
+    r1_verdict: AT_FV
   - ticker: RMD
     name: ResMed Inc.
     qs_tool: 67
@@ -849,20 +852,23 @@ quality_universe:
   - ticker: VRSK
     name: Verisk Analytics
     direction: long
-    qs_tool: 72
-    qs_adj: 72
-    tier: B
-    sector: data-analytics
-    fair_value: 300.0
-    entry_price: 240.0
+    qs_tool: 80
+    qs_adj: 80
+    tier: A
+    sector: financial-data-analytics
+    fair_value: 210.0
+    entry_price: 195.0
     currency: USD
     current_price: null
     distance_to_entry: null
-    pipeline_status: SCORED
+    pipeline_status: R4_APPROVED
     thesis_path: null
     last_scored: '2026-03-07'
     last_price_check: null
-    notes: Data & Analytics Monopolies basket candidate. Insurance data monopoly. QS 72 Tier B. T16 universe expansion.
+    notes: 'R4 APPROVED. Insurance data monopoly (ISO). QS 80adj. SO 10. E[CAGR] at market ~8%. Data & Analytics Monopolies
+      basket. Q4 FY2025 confirmed: rev +6.6% OCC, EBITDA margin 56.2%, ROIC 60.6%.'
+    r1_session: 143
+    r1_verdict: AT_FV
   - ticker: TDG
     name: Transdigm Group Incorporated
     qs_tool: 69
@@ -1182,25 +1188,25 @@ quality_universe:
     direction: long
     distance_delta: -2.4
   - ticker: RMS.PA
-    name: HERMES INTL
-    qs_tool: 78
-    qs_adj: 86
+    name: Hermes International
+    direction: long
+    qs_tool: 96
+    qs_adj: 96
     tier: A
-    sector: Luxury Goods
+    sector: luxury-goods
     fair_value: 1350.0
     entry_price: 1200.0
-    currency: EUR
-    current_price: 1899.5
-    distance_to_entry: 58.3
+    currency: USD
+    current_price: null
+    distance_to_entry: null
     pipeline_status: R1_COMPLETE
-    thesis_path: thesis/research/RMS.PA/r1_thesis.md
-    last_scored: '2026-02-20'
-    last_price_check: '2026-03-06'
-    notes: R1 S93. QS 78/86 adj (WIDE moat +8). FV EUR 1,350. Best business, wrong price. Entry EUR 1,200 (fantasy). P/E 50x.
-    direction: long
+    thesis_path: null
+    last_scored: '2026-03-07'
+    last_price_check: null
+    notes: 'R1 complete. QS 96adj HIGHEST in universe. WIDE moat (Birkin scarcity). FANTASY at EUR 1905 (-29% overvalued).
+      Entry EUR 1200 requires 37% decline. Patience path: multiple compression 44x→22x over 2-3yr. Monitor EUR 1500.'
+    r1_session: 143
     r1_verdict: FANTASY
-    r1_session: 93
-    distance_delta: -2.5
   - ticker: FOUR.L
     name: 4imprint Group plc
     qs_tool: 67

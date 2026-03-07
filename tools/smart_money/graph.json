@@ -4166,6 +4166,17 @@
       "full_name": "FMR LLC Fidelity",
       "fund_type": "unknown",
       "id": "fmr-llc-fidelity"
+    },
+    {
+      "type": "stock",
+      "country": "IT",
+      "id": "BZU.MI"
+    },
+    {
+      "type": "fund",
+      "full_name": "Buzzi_Family",
+      "fund_type": "unknown",
+      "id": "buzzi_family"
     }
   ],
   "edges": [
@@ -12710,9 +12721,9 @@
       "value": 0,
       "date": "2026-02",
       "role": "CFO",
-      "source": "unknown",
       "data_source": "live",
       "date_added": "2026-03-07",
+      "source": "unknown",
       "target": "TW",
       "key": 2
     },
@@ -13537,6 +13548,16 @@
       "note": "capture",
       "source": "fmr-llc-fidelity",
       "target": "WKL.AS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 53.0,
+      "source": "buzzi_family",
+      "session_date": "2026-03-07",
+      "date_added": "2026-03-07",
+      "note": "capture",
+      "target": "BZU.MI",
       "key": 0
     }
   ]
