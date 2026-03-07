@@ -1,7 +1,9 @@
 # WKL.AS - Wolters Kluwer NV
 
-> **Fair Value:** EUR 80 (Re-eval S143c11. Committee EUR 72 pre-FY2025, range 67-80. FY2025 confirmed base: organic 5-6%, GM 73.5% expanding, OP 25%, EPS +24.7%. EUR 80 = top of committee range, conservative vs DCF EUR 88.)
+> **Fair Value:** EUR 80 (R3 refresh S147c2, maintained. Re-eval S143c11 post-FY2025. Committee EUR 72 pre-FY2025, range 67-80. DA bear EUR 67. DA MODERATE COUNTER.)
+> **Expected Growth:** 6% (R3 resolved: FY2025 organic 5-6%, cloud +15%, EPS +24.7%. Margin expansion offsets low-single-digit revenue growth. Guided 2026: organic 5-7%.)
 > **Sector View:** professional-information-services.md (348 lines, COMPLETE — HARD GATE cleared S146)
+> Pipeline Stage: R3_COMPLETE
 
 ## TL;DR
 
@@ -419,6 +421,13 @@ The 10% that faces structural risk (generic legal research) is already reflected
 4. **FCF margin contracts below 15%** -- would signal structural margin pressure from competition.
 5. **Management abandons AI integration strategy** or makes value-destructive acquisition to "pivot."
 6. **Net debt exceeds 3.5x EBITDA** -- balance sheet deterioration.
+7. **AI tax/compliance plugins achieve real enterprise adoption** (TR CoCounsel 1M users but mostly legal. Monitor for tax/compliance crossover.)
+8. **ROIC falls below WACC** (~9-11%) -- would signal moat erosion.
+9. **Stock below DA bear FV (EUR 60) for 4+ consecutive weeks** -- market may see something we don't.
+10. **Harvey AI reaches >$500M ARR** -- signals AI legal tools gaining critical mass.
+11. **Claude/GPT gains IRS e-filing certification** -- direct threat to tax compliance workflow.
+12. **Net debt exceeds 2.5x EBITDA** (R3 S147c2 — tighter than KC#6, given capital returns exceeding FCF. Currently 2.0x.)
+13. **OpenEvidence achieves >100 hospital system contracts** (R3 S147c2 — direct threat to UpToDate installed base, 27% of WKL revenue.)
 
 ---
 

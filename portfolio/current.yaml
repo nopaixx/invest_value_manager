@@ -183,10 +183,10 @@ positions:
     date_opened: 2026-03-07
     thesis: thesis/active/WKL.AS/thesis.md
     conviction: medium
-    fair_value: "EUR 80 (Re-eval S143c11. Committee EUR 72 was pre-FY2025 results, range 67-80. FY2025 confirmed base: organic 5-6%, GM 73.5%, OP 25%, EPS +24.7%, FCF EUR 1.4B. EUR 80 = top of committee range. DCF tool EUR 88 base. QS Tool 72 Tier B.)"
+    fair_value: "EUR 80 (R3 S147c2, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear EUR 67. QS 72 Tier B.)"
     last_review: 2026-03-07
-    exit_plan: "HOLD. TRIM at EUR 95+. ADD at EUR 55 (MoS 31%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, Harvey AI >$500M ARR, regulatory disruption to legal/tax data monopoly)."
-    notes: "FV HISTORY: R1 EUR 94→committee EUR 72→unsupported EUR 85→corrected EUR 72→re-eval EUR 80 (S143c11 post-FY2025). Sector view MISSING (committee HARD GATE #0). Full re-eval with sector view still needed."
+    exit_plan: "HOLD. TRIM at EUR 95+. ADD at EUR 55 (MoS 31%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, Harvey AI >$500M ARR, net debt >2.5x, OpenEvidence >100 hospital contracts)."
+    notes: "R3 S147c2: FV EUR 80 maintained. DA MODERATE COUNTER (was STRONG Feb 11). FY2025 confirmed thesis. Receivables +23% vs rev +3.5% yellow flag. Growth 6% formalized (Error #64 fix). KC#12-13 added. No ADD until receivables explained + Caywood track record. Sector view cleared S146."
 
 # =============================================================================
 # SHORT POSITIONS - CFDs en eToro
