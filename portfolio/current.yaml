@@ -152,7 +152,7 @@ positions:
     invested_usd: 862  # Proportional: 1054 * (10.57/12.92)
     conviction: medium
     date_opened: 2026-02-26
-    fair_value: "$88 (R3 post-DA resolution. QS Tool 70, Adj 85 Tier A.)"
+    fair_value: "$88 (R3 post-DA resolution. QS Tool 87 Tier A. Was 70 pre-ROIC data fix.)"
     thesis: thesis/active/FTNT/thesis.md
     exit_plan: "HOLD. TRIM at $100+. ADD at $65 (MoS 26%). SELL if KC triggered (SEC investigation, 2nd major security incident in 6mo, product rev -10% for 2Q + SASE <15%). Next earnings ~April 2026."
     notes: "TRIM S143c8: sizing rebalance -2.35 shares at $83.67 (EUR 169). T15 alignment: E[CAGR] 9.7% = 2nd worst, sized down from 8.5% to 7.0%. WIDE moat, QS 85 Tier A, cybersecurity basket anchor. Crisis beneficiary."

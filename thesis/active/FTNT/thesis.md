@@ -19,32 +19,27 @@ Fortinet is the #1 firewall vendor globally (55% unit share) with a proprietary 
 ## Quality Score
 
 ```
-QS Tool: 70/100 (Tier B)
-QS Adjusted: 85/100 (Tier A) — R3 revision from 88
+QS Tool: 87/100 (Tier A) — updated Mar 7, was 70 when ROIC data gap existed
+QS Adjusted: 87/100 (Tier A) — no manual adjustment needed
 
-Adjustment: +15 points with quantitative justification:
-  +12: ROIC Spread — Tool scores 0/15 due to FY2025 ROIC = NaN (data gap).
-        Actual ROIC: 83.7% (FY2024), estimated ~82-84% FY2025 (Net Income $1.85B
-        on invested capital ~$2.2B). ROIC - WACC spread = +73pp. This is the
-        highest ROIC in our entire universe. Normalized 5yr avg ~55-65%.
-        Warrants 12/15 (R3 adjusted from 15/15 per DA).
-  +3:  Market Position — Tool scores 0/8 (requires manual input).
-        Fortinet is #1 globally in firewall units (55% market share, 650 Group Q3 2025).
-        Named Gartner Leader in HMF (highest for Ability to Execute).
-        12 Gartner MQ recognitions. Warrants 8/8 (+3 net after rounding).
+Previous adjustment of +15 is NO LONGER NEEDED because:
+  - FY2025 ROIC data (65.0%) now available in yfinance → tool scores ROIC natively
+  - ROIC-WACC spread +54.9pp correctly captured by tool (was NaN)
+  - Market Position still requires manual input but rounding makes adjustment immaterial
 
-No other adjustments warranted. Tool correctly captures:
-  - FCF Margin 10/10 (~32% margin)
-  - Leverage 10/10 (net cash $2.6B)
-  - FCF Consistency 5/5 (4/4 years positive, likely 5/5 with FY2025)
-  - Revenue CAGR 10/10 (+16.1%)
+Tool correctly captures:
+  - ROIC Spread: 15/15 (ROIC 65%, spread +54.9pp vs WACC 10.1%)
+  - FCF Margin 10/10 (~32.7% margin)
+  - Leverage 10/10 (net cash $2.5B)
+  - FCF Consistency 5/5 (4/4 years positive)
+  - Revenue CAGR 10/10 (+15.5%)
   - EPS CAGR 10/10 (+31.4%)
-  - GM Trend 5/5 (expanding: 75.4% -> 76.7% -> 80.6%)
-  - GM Premium 10/10 (+25.6pp vs sector median)
+  - GM Trend 5/5 (expanding: 75.4% -> 76.7% -> 80.6% -> 80.5%)
+  - GM Premium 10/10 (+25.5pp vs sector median)
   - Insider Ownership 5/5 (17.4% — CEO Ken Xie 8.3%, CTO Michael Xie 7.4%)
 ```
 
-**QS Adjusted: 85/100 -- Tier A (Quality Compounder)**
+**QS Tool: 87/100 | QS Adjusted: 87/100 -- Tier A (Quality Compounder)**
 
 ---
 
@@ -335,7 +330,7 @@ FTNT at 9.7% E[CAGR] is tied for 2nd worst in the portfolio. This investor day i
 - If FV drops to $78-80: FTNT becomes a clear EXIT candidate
 - The investor day outcome materially affects whether this position survives the next rotation check
 
-*Framework prepared: 2026-03-06 (Session 141). KC mapping added 2026-03-07 (Session 142). Pre-event review completed 2026-03-07 (Session 143): kill conditions verified, FV sensitivity added, geopolitical context, conference details, Lacework/FortiCNAPP context.*
+*Framework prepared: 2026-03-06 (Session 141). KC mapping added 2026-03-07 (Session 142). Pre-event review completed 2026-03-07 (Session 143): kill conditions verified, FV sensitivity added, geopolitical context, conference details, Lacework/FortiCNAPP context. QS updated 87 (was 70): ROIC data gap resolved (S144c3).*
 
 ---
 

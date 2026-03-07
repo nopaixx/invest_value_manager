@@ -1,6 +1,6 @@
 # AUTO.L - AutoTrader Group plc
 
-> Fecha: 2026-02-06 (original) | Adversarial Review: 2026-02-11 | Last Refresh: 2026-03-06
+> Fecha: 2026-02-06 (original) | Adversarial Review: 2026-02-11 | Last Refresh: 2026-03-07
 > Analista: Claude (fundamental-analyst) | Reviewer: Claude (review-agent, adversarial + urgent re-eval)
 > Status: ACTIVE - Position opened 2026-02-06 (65 shares @ 485.80 GBp)
 > **Fair Value:** 580 GBp (re-eval 2026-02-11)
@@ -343,7 +343,7 @@ AUTO.L earns a CONDITIONAL place in the portfolio -- conditional on the April pr
 
 ---
 
-## Position Details (Updated Mar 7)
+## Position Details (Updated Mar 7, S144c3)
 
 | Metric | Value |
 |--------|-------|
@@ -354,11 +354,14 @@ AUTO.L earns a CONDITIONAL place in the portfolio -- conditional on the April pr
 | Total Invested | ~428 EUR |
 | Weight | ~3.5% |
 | Conviction | **LOW** (was MEDIUM -- downgraded due to intensifying dealer revolt) |
-| ADD trigger | **CANCELLED** (was 450p; based on inflated FV) |
+| ADD trigger | **CANCELLED** (was 450p; no ADDs at LOW conviction) |
 | FV (Re-Eval) | **580p** (was 617p adversarial, 688p original) |
 | MoS | **14.7%** at 494.80p |
+| E[CAGR] | ~11.5% (bottom quartile of portfolio) |
+| Cash context | **0% cash — any exit = rotation to higher E[CAGR]** |
 | Next review | After April 2026 pricing event implementation |
 | Decision point | **May 2026**: FY results + April pricing reception = HOLD/EXIT decision |
+| Section 9 | **COMPLETE** — April binary framework with bull/base/bear + rotation plan |
 
 ---
 
@@ -411,6 +414,55 @@ AUTO.L earns a CONDITIONAL place in the portfolio -- conditional on the April pr
 - LOW insider ownership (0.5%) remains a weakness vs portfolio quality standards
 - April pricing event remains the decisive catalyst
 - **No upgrade to conviction warranted** — HOLD LOW remains correct
+
+---
+
+## Section 9: April 2026 Pricing Event — Decision Framework
+
+**Event:** April 1, 2026 — +5.5% ARPR increase takes effect
+**Reporting:** May 2026 FY results will show April impact (cancellations, downgrades, dealer count)
+**This is a BINARY catalyst for conviction direction.**
+
+### Scenarios
+
+| Scenario | Cancellations | Dealer Count | ARPR Impact | Action |
+|----------|--------------|--------------|-------------|--------|
+| **BULL** | <50 additional | Stable/growing | 5%+ confirmed | Upgrade conviction MEDIUM. FV 580p holds. ADD candidate at <480p. |
+| **BASE** | 50-150 additional | Flat (-0.5% to +0.5%) | 4-5% growth | HOLD LOW conviction. FV 580p. Monitor next reporting. |
+| **BEAR** | >200 additional OR dealer count -3%+ | Declining | <3% growth | **EXIT.** Rotate capital to highest-E[CAGR] pipeline candidate. |
+
+### CMA Status (as of Mar 7)
+- Dealers filing complaints via "specialist lawyers" — confirmed
+- NO formal CMA investigation opened — confirmed
+- Rightmove GBP 1B class action creates legal blueprint but no AUTO.L-specific action yet
+- **KC#8 (CMA formal investigation) = NOT TRIGGERED**
+- If CMA announces investigation before April → EXIT regardless of pricing outcome
+
+### Conviction Path
+
+**Current: LOW** (downgraded from MEDIUM, Feb 11)
+
+Upgrade path to MEDIUM:
+1. April pricing accepted with <50 cancellations, AND
+2. Dealer count stable in May FY reporting, AND
+3. No CMA formal investigation
+
+Upgrade path to HIGH (unlikely near-term):
+1. Deal Builder adoption >50% (currently 29%), AND
+2. ARPR growth re-accelerates to 7%+, AND
+3. Analyst upgrades resume
+
+Exit path:
+1. KC#8 triggered (CMA investigation), OR
+2. April causes >200 cancellations or dealer count -3%+, OR
+3. ARPR growth <3% in any period (KC#9), OR
+4. Better rotation candidate available AND AUTO.L E[CAGR] <10%
+
+### If April FAILS — Rotation Plan
+- At 0% cash, exit proceeds (~EUR 430) deploy to highest-E[CAGR] position
+- Current best ADDs: EDEN.PA (E[CAGR] 27.1%), NVO (23.8%), IHP.L (20.4%)
+- Run constraint_checker.py before any ADD with proceeds
+- Timeline: EXIT after May FY results confirm April damage, not before (avoid selling on rumor)
 
 ---
 
