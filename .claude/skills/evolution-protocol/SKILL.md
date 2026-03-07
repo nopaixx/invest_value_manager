@@ -36,7 +36,7 @@ DETECT (triggers fire) → PROPOSE (specific change) → APPLY (backup + impleme
 4. Quick self-check: "Am I coasting on process?"
 
 ### Fase 6 — Evolution Micro-Step (end of session)
-1. **Update 10 trigger metrics** with data from this session
+1. **Update 16 trigger metrics** with data from this session (T1-T16)
 2. Recalculate `trigger_summary` (red/yellow/green counts)
 3. **Process any due scheduled_reviews** → measure experiment, update verdict
 4. If any trigger RED → propose 1 micro-improvement (What/Why/How/Measure/Apply)

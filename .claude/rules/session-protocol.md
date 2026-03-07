@@ -92,6 +92,17 @@ FASE 2: Estado del Portfolio
 
 FASE 2.5: Rotation Check + Net Exposure Reasoning (P13)
   → forward_return.py --basket (incluye shorts) → bottom 3 → pipeline health → cash deployment → conviction update
+  → **T15 SIZING-CONVICTION CHECK (OBLIGATORIO cada sesion):**
+    → portfolio_cagr.py → record blended E[CAGR]
+    → Rank positions by size% AND by E[CAGR] → calculate rank correlation
+    → If correlation < 0 (inverted: largest positions have lowest E[CAGR]): propose rotation/rebalance
+    → If blended E[CAGR] declining 3+ sessions: mandatory rotation from bottom to top
+    → Goal: capital should flow TOWARD highest E[CAGR], not away from it
+  → **T16 SHORT SIDE CHECK (OBLIGATORIO cada sesion):**
+    → "Did I consider a short this session? If not, why?"
+    → If >10 sessions since last short thesis work AND net exposure >80%: fragility scan mandatory
+    → If >20 sessions: write at least 1 short thesis to S1 stage
+    → This is not about FORCING shorts — it's about ensuring the short side is ACTIVELY CONSIDERED
   → **BASKET ROTATION CHECK (P17):**
     → basket_dashboard.py --rebalance → allocation drift per basket
     → For each basket: Is allocation consistent with CURRENT conviction? (no fixed targets — reason each session)

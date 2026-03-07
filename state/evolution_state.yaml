@@ -160,13 +160,52 @@ triggers:
     last_measured: "S136"
     note: "T14 YELLOW→GREEN. S133 batch fully resolved: 4/4 KEPT (100%). KLR.L/ITRK.L PROCESSED S136 as promised. Weekly velocity 4 units (promise was 3+). New S136 promises: ANF, DOM.L, RACE.MI deploy."
 
+  T15_ecagr_optimization:
+    metric: "Portfolio E[CAGR] blended trend AND sizing-conviction alignment"
+    current_value: 14.4
+    current_detail: "S143: Blended 14.4%, deployed 16.3%. Sizing INVERTED: top-3 E[CAGR] (EDEN 27.1%, NVO 23.8%, IHP 20.4%) = 19.8% of capital. Bottom-3 E[CAGR] (RACE 6.6%, FTNT 9.7%, DOCS 11.5%) = 21.0% of capital. Capital-weighted E[CAGR] penalized by ~3pp from misalignment."
+    red_threshold: "Blended E[CAGR] declining for 3+ sessions AND sizing-conviction correlation < 0 (inverted)"
+    yellow_threshold: "Blended E[CAGR] < 15% OR sizing-conviction correlation < 0.3"
+    consequence: "RED triggers mandatory rotation proposal: move capital from bottom E[CAGR] to top, or explain why not. YELLOW triggers sizing review."
+    status: RED
+    last_measured: "S143"
+    note: "FIRST MEASUREMENT. Blended 14.4% = half of 30% target. Sizing inverted: largest positions (HLNE 13.1%, DOCS 9.4%) have mid-range E[CAGR] while highest E[CAGR] positions (EDEN, NVO) are undersized. This is the single highest-impact lever for closing the gap to 30%. Fix: rotation engine must weight E[CAGR] into sizing decisions, not just conviction label."
+    how_to_measure: |
+      Each session in Fase 2.5:
+      1. Run portfolio_cagr.py → record blended E[CAGR]
+      2. Calculate Spearman rank correlation between position size% and E[CAGR]
+         (positive = larger positions have higher E[CAGR] = GOOD)
+      3. Compare blended vs previous session → trend (rising/flat/declining)
+      4. If declining 3+ sessions AND correlation negative → RED
+      5. Track: { blended_ecagr, deployed_ecagr, size_ecagr_correlation, trend }
+    history: []
+
+  T16_strategy_evolution:
+    metric: "Active use of portfolio tools beyond long-only equity (shorts, hedges, wider universe)"
+    current_value: 0
+    current_detail: "S143: 0 short theses written lifetime. 0 short positions opened lifetime. 0 options/hedges considered. Short infrastructure exists (pipeline, skills, protocols) but NEVER USED. Universe coverage: ~200 stocks scored, concentrated in US large-cap + UK mid-cap + EU blue-chip."
+    red_threshold: "> 20 sessions without ANY short thesis research AND net exposure > 80%"
+    yellow_threshold: "> 10 sessions without short thesis research OR universe expansion stalled (0 new sectors screened in 10 sessions)"
+    consequence: "RED triggers mandatory: (a) identify 3 short candidates from fragility scan, (b) write 1 short thesis to at least S1 stage, (c) screen 1 new geography/sector not yet covered. YELLOW triggers fragility scan."
+    status: RED
+    last_measured: "S143"
+    note: "FIRST MEASUREMENT. The fund has NEVER written a short thesis despite having full infrastructure (short pipeline S1-S4, devil's-advocate bull case, cover protocol, SHORT_APPROVAL committee mode). P12 says portfolio is bidirectional. P10 requires catalyst. P11 warns on asymmetry. All theory, zero practice. This is the largest strategic gap. A well-timed short adds 5-10pp CAGR. Even without shorting, the RESEARCH process improves long thesis quality by forcing bear-case thinking on sectors."
+    how_to_measure: |
+      Each session in Fase 2.5:
+      1. Count short theses in thesis/short/research/ and thesis/short/active/
+      2. Count sessions since last short thesis work (research or active)
+      3. Check net exposure reasoning — was short side explicitly considered?
+      4. Check universe expansion — new sectors/geographies screened?
+      5. Track: { short_theses_total, sessions_since_short_work, net_exposure, new_sectors_screened }
+    history: []
+
 # Summary
 trigger_summary:
-  red_count: 2
+  red_count: 4
   yellow_count: 2
   green_count: 9
   unknown_count: 1
-  assessment: "S139: 14 triggers. 2 RED (T2 cash 39.1% — strategic in crisis, T3 velocity 0.8 avg — rolling denominator inflated by same-day sessions). 2 YELLOW (T9 changelog 50%, T11 basket health 3 flags). 9 GREEN (T1 fantasy, T4 errors, T5 evolution, T6 lessons, T7 meta-reflect, T8 SO fill 19%, T12 SO staleness 0%, T13 discovery, T14 promises 100%). 1 UNKNOWN (T10). T3 YELLOW→RED (rolling avg, but weekly target met)."
+  assessment: "S143: 16 triggers. 4 RED (T2 cash — stale value from S140, T3 velocity, T15 E[CAGR] 14.4% with inverted sizing, T16 zero short activity lifetime). 2 YELLOW (T9 changelog 50%, T11 basket health). 9 GREEN (T1-T8 except T2/T3, T12-T14). 1 UNKNOWN (T10). NEW: T15+T16 added S143 — these measure RETURN GENERATION not just process compliance. T15 is the highest-impact lever (sizing realignment). T16 is the largest strategic gap (bidirectional portfolio = theory only)."
 
 # =============================================================================
 # ACTIVE EXPERIMENTS — Changes being measured

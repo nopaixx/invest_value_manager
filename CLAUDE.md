@@ -1,6 +1,6 @@
-# Investor System v4.7
+# Investor System v4.9
 
-> **Framework v4.7**: Baskets ARE the Fund. 17 Principios. 30%+ CAGR target. Theme Discovery + Perpetual Rotation.
+> **Framework v4.9**: Baskets ARE the Fund. 18 Principios. 30%+ CAGR target. Theme Discovery + Perpetual Rotation + Return Optimization.
 > The fund revolves around thematic baskets (P17). Primary CIO job: discover best themes, build baskets, maintain as living entities.
 > NO hay parametros fijos. SI hay principios + precedentes + razonamiento.
 > Guias operativas en `.claude/rules/` y `.claude/skills/`.
@@ -220,5 +220,5 @@ El humano concede permiso para modificar: CLAUDE.md, agentes, skills, rules, too
 
 ---
 
-**Framework Version:** 4.8
-**Ultima actualizacion:** 2026-03-02
+**Framework Version:** 4.9
+**Ultima actualizacion:** 2026-03-07
