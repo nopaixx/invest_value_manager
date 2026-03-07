@@ -1,6 +1,6 @@
 # CALENDAR - Active and Future Events
 # Past events archived in state/calendar_archive.yaml
-# Updated: 2026-03-07 (S142)
+# Updated: 2026-03-07 (S148)
 
 events:
   # Archived S132: QTCOM.HE FY2025 (ARCHIVED), DTE.DE FY2025 (SOLD), INTU Q2 (monitoring), CS.PA FY2025 (no action), PROX.BR FY2025 (no action), ENGI.PA FY2025 (no action), NTGY.MC FY2025 (passed), LYV DOJ trial (monitoring, no position)
@@ -11,19 +11,14 @@ events:
     ticker: PORTFOLIO
     event: "Operation Epic Fury — RE-ESCALATED. Hormuz STILL CLOSED. Oil WTI surged $77→$90 (+17% in 1 day). VIX 21→26. Gold $5,152. DXY 98.88 weakening. Previous 'moderating' assessment WRONG. Market now pricing sustained disruption."
     priority: CRITICAL
-    action: "MONITOR DAILY. 3 HIGH-vulnerability positions (DOM.L, EDEN.PA, AUTO.L = 11.2% portfolio). 35.5% cash = buffer. FTNT = crisis beneficiary. DOM.L earnings Mar 10 = key test under oil pressure. If Hormuz reopens → rapid reversal. If sustains → $100+ oil risk, recession fears."
+    action: "MONITOR DAILY. 2 HIGH-vulnerability positions (EDEN.PA ~19%, AUTO.L ~3.5%). 0% cash = NO buffer. FTNT = crisis beneficiary. If Hormuz reopens → rapid reversal + V-recovery. If sustains → $100+ oil, recession fears. Rotation hierarchy ready if needed."
 
   # THIS WEEK — EARNINGS (all in crisis context)
   # Archived S136: KLR.L FY2025 GATE PASS (OP 7.1%, OB GBP 1.5B, buyback GBP 100M. SO 1700p ACTIVE.), ITRK.L FY2025 CONDITIONAL PASS (OP 18.1%, organic 3.9%. Deferred — BVI.PA preferred.), ASM.AS Q4 monitoring, BEI.DE FY2025 monitoring
 
   # Archived S140: VEEV Q4 FY2026 (reported Mar 4, monitoring only), ANF Q4 FY2026 (CONDITIONAL PASS — receivables +40% FAIL, OP 14.1% PASS, Hollister +3% PASS. Hold watchlist $80 entry. Monitor Q1 Jun 2026.)
 
-  - date: 2026-03-10
-    type: earnings
-    ticker: DOM.L
-    event: "Dominos Pizza Group FY25 preliminary results — KC#1 EBITDA test (CORRECTED from Mar 5)"
-    priority: high
-    action: "KC#1: EBITDA >= GBP 125M (SELL if below). Bear <130M, Base 130-137M, Bull >137M. Oil/shipping headwind from Hormuz crisis = NEW risk for UK consumer. Orphan position — post-earnings decides rotation/assignment. Prepare framework by Mar 9."
+  # DOM.L ARCHIVED S148: Position SOLD S143. FY25 results Mar 10 — monitoring only for potential re-entry pipeline.
 
   - date: 2026-03-10
     type: framework_deadline

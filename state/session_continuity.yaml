@@ -82,13 +82,14 @@ three_questions:
 handoff:
   next_session_priorities:
     P0:
-      - "FTNT Investor Day (Mon Mar 10): Process outcome. Bull→$95-100 (hold), Base→$88 (hold), Bear→$75-80 (rotation out to FOUR.L or pipeline)."
-      - "DOM.L FY25 results (Mon Mar 10): KC#1 EBITDA test. Orphan — post-earnings decides future."
+      - "FTNT Investor Day (Mon Mar 10): Process outcome. Bull→$95-100 (hold), Base→$88 (hold), Bear→$75-80 (rotation out)."
+      - "TSLA S4 committee: S3 resolved, s4_preflight ready. Launch before Q1 deliveries Apr 5."
     P1:
       - "CPI (Tue Mar 11): Context for ADBE earnings next day. Oil $91 = hot CPI risk."
-      - "ADBE Q1 FY2026 earnings (Wed Mar 12): PASS/CONDITIONAL/FAIL. R3 resolution with real data. DA suggests $390→$360."
+      - "ADBE Q1 FY2026 earnings (Wed Mar 12): PASS/CONDITIONAL/FAIL. R3 resolution with real data."
     P2:
-      - "FTNT DA: Launch post-investor day if data warrants. Last position without DA."
+      - "FTNT DA: Launch post-investor day if data warrants. Last position without DA (Error #65)."
+      - "Score LOPE/CHE/HRB (US undiscovered). Pipeline velocity."
       - "FOUR.L FY2025 results (Mar 18): HARD GATE for SO."
     P3:
       - "HLNE ex-div Mar 20, MONY.L ex-div Mar 26."
@@ -98,7 +99,8 @@ handoff:
     - "Blended E[CAGR] 17.4% (was 19.1%). Honest measurement."
     - "TW FV reduced $140->$135. Growth corrections: TW 12%->10%, HLNE 12%->10%."
     - "MONY.L = FIRST ROTATION CANDIDATE (5 HIGH, 12.5% E[CAGR], yield play)."
-    - "ADBE DA suggests $390→$360. R3 AFTER earnings Mar 12. Expected Growth header still missing (fix in R3)."
+    - "ADBE Expected Growth header FIXED (S148c3). R3 AFTER earnings Mar 12."
+    - "TSLA S4 committee ready — s4_preflight exists, Q1 deliveries gate Apr 5."
     - "Rotation hierarchy: FTNT (9.7%) > AUTO.L (12.1%) > MONY.L (12.5%) > HLNE (13.1%) > TW (13.2%)."
     - "Crisis: Hormuz closed. Oil ~$91. VIX ~29."
 
