@@ -1,99 +1,98 @@
-# Counter-Analysis: DOCS (Doximity, Inc.)
+# Counter-Analysis: DOCS (Doximity, Inc.) -- R2 Devil's Advocate
 
-## Date: 2026-02-25
+## Date: 2026-03-07
 
-## Resumen Ejecutivo
-
-The thesis survives scrutiny but with material adjustments. DOCS has a genuine WIDE moat (85%+ physician penetration is real and defensible), but the FA's FV of $34.50 is moderately aggressive given: (1) a critical insider ownership data error in the thesis (actual CEO ownership is ~27% via dual-class, not 2.7%), which STRENGTHENS the thesis; (2) genuine uncertainty about whether pharma MFN headwinds are cyclical or semi-structural; (3) revenue concentration risk (126 clients = 84% revenue) is material but accepted by the market; and (4) SBC at 12.7% is a real drag but buybacks do offset it. The bear-case FV of $22 is too tight -- my independent bear case suggests $24-26. The thesis is on the right side of the trade but may be premature at current prices ($24.07) given limited downside protection.
+## POSITION CONTEXT: ACTIVE HOLDING -- 8% of Portfolio
+- Shares: 39.93 @ $24.81 avg cost
+- Current price: $25.34 | P&L: +2.1%
+- FV (R1 thesis): $32.80
+- E[CAGR]: 19.0% (forward_return.py, 10% growth)
+- QS: 74 tool / 79 adjusted (Tier A low-end)
+- Next catalyst: Q4 FY2026 earnings ~May 2026
 
 ---
 
 ## Calibration Anchor (Phase 0.5)
 
-**Market price at time of DA: $24.07**
+**Market at $25.34 implies -7.7% annual FCF decline over 5 years.** Historical FCF CAGR: +30.2%. Gap: 37.9pp. The FA must prove the market is wrong about sustained decline. I must determine whether the FA's proof is convincing or whether the market sees something the FA dismisses too easily.
 
-Reverse DCF analysis shows the market prices -9.1% annual FCF decline over 5 years, versus +30.2% historical FCF CAGR. This is an enormous 39pp gap. The market is either:
-(a) Pricing a permanent structural break in the business model (pharma ad budgets never recover + competition emerges), or
-(b) Massively overreacting to a single weak quarter of guidance (Q4 FY2026 guided +4% vs +10% just delivered).
+**DA historical stats:** 25 corrections tracked, avg -15.7%, median -13.0%. All corrections negative. Zero outcomes measured yet (first review Aug 2026). Pattern: DA has never increased an FV. My corrections may have been too conservative historically -- but I cannot verify until August 2026 reviews.
 
-**DA historical stats:** 19 corrections, avg -16.7%, median -16.9%. All negative. No outcomes measured yet.
+---
 
-**My anchor:** The market at $24 implies this business is DECLINING. That is an extreme assumption for a net-cash monopoly with 90% gross margins. The burden is on the bear case to explain WHY this business permanently declines, not on the bull case to prove it grows.
+## Resumen Ejecutivo
+
+The DOCS thesis rests on a genuine asset -- the 85% physician network monopoly. However, the R1 analyst systematically overestimates near-term growth, underestimates the structural nature of pharma budget pressures, and treats AI as free optionality when it is equally likely to be a cost center or commoditized capability. The 43% internal valuation spread ($28 OEY vs $40 DCF) signals genuine model uncertainty that the weighted average of $32.80 papers over. The position is sized at 8% -- double the committee-approved 4% -- without documented justification. The thesis survives scrutiny on its core moat argument but has meaningful gaps in growth assumptions, TAM growth rates, and timing that the committee must resolve before Q4 FY2026 earnings.
 
 ---
 
 ## Asunciones Clave Desafiadas
 
-### 1. "85% Physician Penetration = Insurmountable Moat"
+### 1. "Expected Growth 10% Is Conservative" -- CHALLENGED
 
-- **Challenge:** The 85% figure refers to registered users, not active daily users. Physicians may have accounts but not engage deeply. The moat depends on ENGAGEMENT, not registration. If engagement drops, pharma advertisers migrate spend elsewhere.
-- **Evidence in contra:** Limited. Doximity claims "physician engagement exceeds general professional networks" and physicians use workflow tools (e-fax, messaging, telehealth) daily. The residency pipeline (97% of medical students) is genuine lock-in. No competitor has achieved >10% penetration in 13 years.
-- **Counter-evidence found:** OpenEvidence lawsuit suggests at least one competitor is aggressively pursuing the clinical AI space. The suit alleges Doximity's CTO and AI director impersonated physicians to reverse-engineer OpenEvidence's model -- which suggests Doximity perceived OpenEvidence as a real threat worth illegal conduct to study.
-- **Severity:** LOW
-- **Resolution:** The moat is REAL at the network level. The OpenEvidence lawsuit is concerning for governance but does not threaten the core physician network moat. The risk is not a competing network but rather pharma finding alternative channels. I accept the FA's moat assessment with minor reservation.
-
-### 2. "MFN Headwinds Are Temporary/Cyclical"
-
-- **Challenge:** The thesis assumes pharma budget delays are TIMING, not STRUCTURAL. But what if MFN pricing fundamentally reduces pharma profitability on key drugs, permanently shrinking marketing budgets? 16 of top 20 pharma companies signed MFN agreements. If drug prices are cut 20-80% on negotiated drugs, pharma margins compress, and marketing is typically the first budget to be cut.
-- **Evidence in contra:**
-  - Pharma digital advertising TAM is GROWING: $24.8B (2025) to $26.2B (2026), +13% YoY per eMarketer
-  - IRA drug pricing negotiations affect small molecules and biologics on market for 7+ or 11+ years -- these are MATURE drugs with declining marketing budgets already
-  - The NEWER drugs (which drive most DTC/HCP marketing spend) are NOT affected by MFN negotiations yet
-  - Management reported "record bookings growth in January 2026" -- which directly contradicts the "permanent decline" thesis
-  - Presidential memorandum targets DTC (direct-to-consumer) advertising, not HCP (healthcare professional) advertising. Doximity's model is HCP-facing, not DTC. If anything, restrictions on DTC TV advertising could REDIRECT pharma budgets toward targeted HCP digital platforms like Doximity.
-- **Evidence supporting challenge:**
-  - FY2026 full-year guidance was narrowed to $642.5-643.5M, not raised -- suggesting only modest recovery
-  - Q4 guidance of $143-144M implies sequential DECLINE from Q3 ($185M) -- highly unusual
-  - Sell-side now models only 9% revenue growth next 12 months (vs 18%+ historical CAGR)
+- **R1 assumption:** 10% sustainable growth (FY2026 guided 13%, 4yr CAGR 18.4%, base case 12%, conservative 10%).
+- **Evidence against:**
+  - Q4 FY2026 management guidance: +4% ($143-144M). This is the COMPANY'S OWN NUMBER for the most recent quarter.
+  - Growth trajectory shows DECELERATION pattern, not stability: FY2023 +22% -> FY2024 +13.5% -> FY2025 +20% (recovery) -> FY2026 full year ~13% but Q4 at +4%.
+  - Sell-side consensus for next 12 months: ~9% (below the thesis 10%).
+  - Wells Fargo cut PT from $55 to $45. JPMorgan cut to $33. Goldman Sachs downgraded. These are not fringe bears -- they are mainstream sell-side with access to management.
+  - NRR decelerating: 118% -> 117% -> 112%. Three consecutive declines. This is the best leading indicator of future revenue growth. If NRR continues declining toward 100%, the growth engine stalls.
+- **Why this matters:** Forward_return.py uses 10% growth to produce E[CAGR] 19.0%. If true sustainable growth is 7% (midpoint of Q4 guide 4% and sell-side 9%), E[CAGR] drops to ~15.3%. Still above the 12% Tier A threshold, but the gap narrows significantly and the position's 8% sizing becomes harder to justify.
+- **Counter-argument:** Management may be sandbagging Q4 guidance (they mentioned "record January bookings"). If the company beats Q4 guide and provides FY2027 guide of 12%+, the 10% assumption looks conservative again.
 - **Severity:** MODERATE
-- **Resolution:** MFN is more likely cyclical than structural, but the thesis understates the duration risk. Budget delays could persist through FY2027 if pharma companies remain cautious. The base case of 12% revenue CAGR may be too aggressive for the next 2-3 years. A more realistic near-term expectation is 8-10% growth recovering to 12%+ by FY2028-2029.
+- **Resolution:** The committee should model E[CAGR] at both 10% growth (thesis) and 7% growth (conservative) scenarios. At 7%, the position is still acceptable but potentially oversized at 8%.
 
-### 3. "SBC Is Manageable Because Buybacks Offset Dilution"
+### 2. "MFN Headwinds Are Temporary" -- CHALLENGED (STRUCTURAL RISK)
 
-- **Challenge:** SBC at 12.7% of revenue is genuinely HIGH. The thesis says "buybacks > dilution" and share count is declining 2-3%/yr. But this means the company is spending ~$200M/yr buying back shares largely to offset the $72M/yr in SBC -- a significant portion of buyback capital goes to treading water, not creating incremental shareholder value.
-- **Evidence in contra:**
-  - Net share count IS declining (verified): FY2023 to FY2025, shares outstanding decreased
-  - $500M new buyback authorization approved Feb 2026
-  - $197M bought back in Q3 FY2026 alone (aggressive execution)
-  - At current depressed prices ($24 vs $50+ a year ago), buybacks are significantly more accretive per dollar spent
-- **Evidence supporting challenge:**
-  - SBC TREND is RISING: 9.2% -> 11.4% -> 10.7% -> 12.7% -- no sign of moderation
-  - CFO Anna Bryson Collins received 152K stock award grant on Feb 13, 2026 (worth ~$3.7M at market)
-  - If SBC reaches 15%+ (which is the trajectory), the buyback offset breaks down
-  - SBC-adjusted Owner Earnings FV is only $24 (essentially AT current market price)
+- **R1 assumption:** MFN is a budget timing issue, not structural. Recovery in 6-12 months.
+- **Evidence against:**
+  - MFN is now signed by 14 of 17 largest pharma companies (expanded from original scope).
+  - Drug companies signed MFN deals but are raising prices anyway -- creating regulatory CHAOS, not resolution. This uncertainty causes pharma companies to hold marketing budgets in reserve, not release them.
+  - MFN is NOT an isolated policy. It exists alongside IRA drug pricing negotiations (which cap prices on 10 Medicare drugs, expanding to 20), DTC advertising regulatory pressure (FDA scrutiny), and potential tariffs on pharma imports. This is a TRIPLE SQUEEZE on pharma profitability.
+  - When pharma profitability faces multi-front pressure, marketing budgets are HISTORICALLY the first cut. Not R&D (pipelines are sacred), not manufacturing (supply chain), but marketing.
+  - PwC and industry experts describe MFN as "certainly here to stay" as a concept, though implementation details remain fluid. This is NOT a one-quarter blip.
+  - The R1 thesis cites pharma digital ad TAM growing "13%/yr" but current eMarketer data shows 2025-2026 growth of only 5.6% ($24.8B to $26.2B). The 13% figure appears to be from an older or broader industry estimate, not current reality. This is a MATERIAL discrepancy the R1 analyst did not catch.
+- **Why this matters:** If pharma digital ad TAM growth is 5.6% (not 13%), Doximity's base case revenue growth of 10-12% requires significant SHARE GAINS, not just riding market growth. Share gains from 2.5% to 5-8% are possible but harder than just surfing a growing TAM.
+- **Severity:** HIGH
+- **Resolution:** The committee must acknowledge that pharma digital ad TAM growth has decelerated from ~13% to ~5.6%. The thesis revenue growth assumptions must be rebuilt on the lower TAM growth rate. This alone reduces base case FV by ~$3-5.
+
+### 3. "SBC at 12.7% Is Manageable Because Buybacks Offset" -- CHALLENGED (PARADOX)
+
+- **R1 assumption:** Buybacks > dilution; share count declining 2-3%/yr; $500M new buyback authorization.
+- **Evidence against:**
+  - SBC/Revenue trajectory is RISING with no sign of moderation: 9.2% -> 11.4% -> 10.7% -> 12.7%. At this rate, the 15% kill condition triggers by FY2027-2028.
+  - CFO Anna Bryson Collins received 152K stock award (~$3.7M) in Feb 2026. Director Wampler sold $52K in Mar 2026. The compensation culture is generous and expanding.
+  - **THE BUYBACK PARADOX:** The buyback offset works SPECIFICALLY BECAUSE the stock is depressed. At $25/share, $197M buys ~7.9M shares while SBC grants ~2.9M shares = net buyback works. But if the bull thesis plays out (stock recovers to $40-50): at $50/share, $197M buys only 3.9M shares while SBC grants remain ~2.9M shares = near parity. The thesis NEEDS the stock to go up, but the SBC management only works while the stock stays DOWN.
+  - SBC-adjusted Owner Earnings gives FV of only $24 -- essentially AT the current market price. This means if you deduct SBC as a real economic cost (which it IS), the stock is fairly valued today. The upside case depends ENTIRELY on (a) growth exceeding 10% AND (b) SBC declining as % of revenue. Both are uncertain.
 - **Severity:** MODERATE
-- **Resolution:** SBC is a real quality drag but NOT a deal-breaker. The buyback offset is working today. The risk is the trajectory -- if SBC/Revenue continues rising, it becomes a kill condition. The FA's decision to include both SBC-adjusted and unadjusted OEY is correct. I note the SBC-adjusted FV of $24 aligns almost exactly with the current market price -- suggesting the market may be pricing in FULL SBC drag. This is actually a reasonable interpretation of the market's valuation.
+- **Key insight for committee:** The SBC dynamic creates asymmetric risk -- if the thesis is right and stock goes up, the SBC offset degrades. If the thesis is wrong and stock stays flat, the SBC offset works but there is no upside.
 
-### 4. "Revenue Concentration (126 Customers = 84% Revenue) Is Manageable"
+### 4. "Revenue Concentration Is Budget Risk, Not Churn Risk" -- CHALLENGED
 
-- **Challenge:** This is EXTREME concentration. If even 3-5 of the top 20 pharma companies materially reduce digital HCP marketing spend (due to MFN, mergers, or strategic shift), revenue takes a 10-20% hit. The thesis acknowledges this but classifies it as acceptable risk.
-- **Evidence in contra:**
-  - NRR of 112% shows existing large customers are SPENDING MORE, not less
-  - All top 20 pharma manufacturers are Doximity customers -- there is no "lost customer" risk, only "budget fluctuation" risk
-  - Top 20 client spending grew 22% TTM -- faster than overall revenue
-  - Customer count at $500K+ is growing (126, +10% YoY) -- diversification improving
-- **Evidence supporting challenge:**
-  - Q4 guidance shock came precisely from top customer budget delays -- proving the concentration risk is real and actionable
-  - 84% of revenue from 126 customers = ~$5.1M average per customer. Losing even 5 customers = ~4% revenue hit
-  - Pharma M&A (mergers like Pfizer/Seagen, AbbVie/ImmunoGen) consolidates the customer base further
+- **R1 assumption:** 126 large clients = 84% revenue. They cannot leave because no alternative exists for reaching 85% of physicians.
+- **Evidence against:**
+  - The framing is correct but INCOMPLETE. The risk is not that clients leave. The risk is:
+    - (a) They renegotiate pricing DOWN. 126 buyers of a monopoly product have collective bargaining power, especially when pharma profitability is under triple squeeze.
+    - (b) Pharma M&A reduces customer count. Pfizer/Seagen, AbbVie/ImmunoGen, and ongoing consolidation reduce the number of independent pharma marketing budgets.
+    - (c) One or two top clients pause spending for a quarter and create exactly the Q4 guidance shock we already saw.
+  - NRR at 112% (down from 118%) confirms the deceleration pattern. The 126 large clients are spending MORE year over year but at a DECREASING rate. If NRR hits 100%, it is mathematically impossible to grow revenue without adding new large clients.
+  - Q4 FY2026 guidance shock came PRECISELY from top customer budget delays. This is not theoretical -- it already materialized once.
 - **Severity:** MODERATE
-- **Resolution:** Concentration risk is REAL but mitigated by (a) all top 20 are already customers, (b) NRR > 100%, and (c) the nature of the product (monopoly reach to 85% of physicians means pharma has no substitute). The thesis should emphasize that the concentration risk is PRICING/BUDGET risk, not CHURN risk. Pharma companies cannot leave Doximity because there is no alternative for reaching 85% of US physicians digitally.
+- **Resolution:** The thesis correctly identifies this risk but assigns too low a probability to the budget-cut scenario. A 5% reduction in top-20 client spending = ~4% total revenue decline. This IS the bear case mechanism.
 
-### 5. "Insider Ownership at 2.7% Is a Concern"
+### 5. "AI Is Pure Optionality at $0 Valuation" -- CHALLENGED (AI AS RISK, NOT JUST UPSIDE)
 
-- **CRITICAL CORRECTION:** The thesis contains a MATERIAL DATA ERROR. The 2.7% figure from insider_tracker.py reflects only direct Class A share ownership. CEO Jeff Tangney controls approximately 26-27% of the company through dual-class shares (Class B shares with 10x voting rights).
-- **Evidence:**
-  - GuruFocus: Jeffrey Tangney owns about 2,104,940 direct shares ($86M+) as of Jan 2026
-  - Simply Wall St: "31.30% of the stock is currently owned by company insiders"
-  - Multiple sources confirm Tangney's ~27% economic stake via Class A + Class B
-  - Feb 2025: Tangney sold ~1M Class A shares for ~$76M. This is SIGNIFICANT but represents <3% of his total stake
-- **Impact on thesis:**
-  - The "low insider ownership" concern that the FA cited as a reason for reduced conviction is WRONG
-  - Tangney has $2.5B+ skin in the game. This is SUBSTANTIAL alignment
-  - The FA's entry price ($23) was partially justified by "insider ownership concern" -- this concern is invalidated
-  - However: Tangney HAS been reducing his stake over time (selling). The Feb 2025 sale of $76M is a real data point. Net selling is occurring, even if the remaining stake is large.
-- **Severity:** MODERATE (but net positive -- the thesis was MORE conservative than warranted on this dimension)
-- **Resolution:** The thesis should be CORRECTED. Insider ownership is ~27%, not 2.7%. This significantly reduces the "skin in the game" concern. The dual-class structure does create governance risk (Tangney has outsized voting control), but for our purposes, the alignment of interest is STRONG. His ongoing selling is a mild negative but represents <3% of his total holding -- more consistent with diversification than abandonment. This correction STRENGTHENS the thesis.
+- **R1 assumption:** AI products (DocsGPT, Scribe) are unmonetized optionality. If monetized, growth re-accelerates. Priced at $0 in base case.
+- **Evidence against:**
+  - DocsGPT has 300,000+ unique clinician users but ZERO revenue. The company is giving away AI for free to build engagement. CEO Tangney: "our goal here is this summer that we're going to have built the engagement to be able to add the monetization." This is a PROMISE dated to summer 2026, not a fact.
+  - The clinical AI space is moving FAST. OpenEvidence, Glass Health, Vera Health, UpToDate AI features, and even ChatGPT are competing for physician clinical AI attention. The $3.6B clinical decision support market has multiple entrants.
+  - DoxGPT's "2x preference rate" comes from Doximity's OWN physician evaluation -- Level 2 evidence with inherent bias. No independent third-party validation exists.
+  - The Pathway Medical acquisition + OpenEvidence lawsuit suggests DOCS is SCRAMBLING to build AI capabilities, not calmly deploying from strength. The lawsuit adds governance and financial risk.
+  - If clinical AI tools become table-stakes (free features every platform offers), DOCS has invested in gross margin compression (93% -> 91% non-GAAP GM) with no revenue return. The 2pp margin compression is already real and measurable.
+  - AI is unlikely to deliver an overnight revenue boost. Even optimistic timelines put commercial AI monetization in H2 FY2027 (Oct 2026 - Mar 2027), which means 18+ months from now.
+- **Counter-argument:** Even if AI does not monetize, the core advertising business is intact. AI costs are <2pp of gross margin. The risk is limited.
+- **Severity:** MODERATE
+- **Resolution:** AI should NOT be treated as free optionality. It carries execution risk, lawsuit risk, and cost. The committee should model a scenario where AI costs persist (91% GM) without revenue contribution for 2+ years. The bear case should include AI as a net negative ($10-15M/yr cost without revenue).
 
 ---
 
@@ -103,84 +102,79 @@ Reverse DCF analysis shows the market prices -9.1% annual FCF decline over 5 yea
 
 | # | Desafio | Evidencia | Severidad |
 |---|---------|-----------|-----------|
-| 1 | Is 85% physician penetration moat real? | Yes -- 13 years, no competitor >10%, residency pipeline lock-in. OpenEvidence lawsuit shows competitors exist but are marginal. | LOW |
-| 2 | Could Google/LinkedIn/Meta disintermediate? | No evidence of serious entry. Healthcare requires HIPAA compliance, CME credentialing, drug databases, institutional integrations. LinkedIn lacks these. | LOW |
-| 3 | OpenEvidence IP lawsuit risk | Federal judge allowing case to proceed (Jan 2026). Allegations of prompt injection and fake physician accounts are governance concerns. Could result in settlement/damages. | MODERATE |
-| 4 | Revenue model = 90% pharma advertising -- single source of revenue | True and acknowledged. Diversification attempts (hiring 5%, telehealth 5%) remain small. Hospital revenue is future optionality, not current. | MODERATE |
-| 5 | DTC advertising regulatory crackdown (FDA/Trump memo) | Actually NET POSITIVE for DOCS. FDA targets DTC (TV) ads, not HCP (physician) ads. Pharma budget shift from TV to digital HCP channels BENEFITS Doximity. | LOW |
+| 1 | Growth deceleration: 22% -> 13.5% -> 4% (Q4 guide) is a PATTERN | 3 of 5 data points show deceleration; only FY2025 was an outlier (+20%); Q4 at +4% is management's own number | MODERATE |
+| 2 | Revenue model 90% pharma advertising -- single payer class | Q4 guidance shock proves single-payer vulnerability. Hiring (5%) and telehealth (5%) are negligible diversification | MODERATE |
+| 3 | NRR decelerating: 118% -> 117% -> 112% in three consecutive periods | Leading indicator of revenue growth stalling. If NRR hits 100%, triggers KC#1 | MODERATE |
+| 4 | Pharma digital ad TAM growth 5.6% (eMarketer 2025-2026), NOT 13% as R1 claims | Material discrepancy in TAM growth rate. Thesis revenue growth requires share gains, not just TAM surfing | HIGH |
+| 5 | OpenEvidence lawsuit advancing (Jan 2026 ruling -- both sides moving forward) | Federal judge allowed computer fraud + breach of contract claims. Governance concern + potential damages | LOW |
+| 6 | Physician ENGAGEMENT vs REGISTRATION distinction unclear | 85% = registered. No public data on DAU/MAU. Moat depends on engagement, not signup count | LOW |
+| 7 | Smithson liquidation (Feb 2026, ~GBP 1B) may force DOCS selling | If Smithson held DOCS, forced selling possible. Fundsmith main fund (5.3% weight) likely unaffected but unknown | LOW |
 
 ### Valoracion
 
 | # | Desafio | Evidencia | Severidad |
 |---|---------|-----------|-----------|
-| 1 | FV $34.50 assumes 12% revenue CAGR -- too aggressive near-term | FY2026 full-year guidance = $642.5-643.5M implies ~13% growth, but Q4 = only 4%. Sell-side models 9% next 12 months. 12% may be right on 5yr basis but not near-term. | MODERATE |
-| 2 | SBC-adjusted OEY gives FV $24 = current market price | The market may be correctly pricing the SBC drag. If SBC rises to 15%, downside increases. | MODERATE |
-| 3 | DCF sensitivity is HIGH (FV spread 67%, terminal 74.5% of EV) | Standard for growth companies but reduces confidence in point estimates. | LOW |
-| 4 | Quality premium (+5% on weighted FV) -- is it justified? | Within 10% cap. Near-monopoly + net cash + expanding margins justifies. Acceptable. | LOW |
-| 5 | Bear case FV $22 is too aggressive | Bear assumes 5% revenue CAGR + 35% FCF margin. Even at 3% growth, 12% WACC, 2% terminal: FV = $26.60. Bear should be $22-24, not below. | LOW |
+| 1 | OEY-DCF spread is 43% ($28 vs $40) -- too wide for confidence | Typical DA corrections are 10-20%. Internal 43% spread signals genuine model uncertainty | HIGH |
+| 2 | SBC-adjusted OEY = $24 = AT market price | If market is pricing SBC correctly, stock is fairly valued today. Upside depends entirely on growth exceeding expectations | MODERATE |
+| 3 | forward_return.py uses 10% growth but Q4 guide is 4% and sell-side is 9% | 10% may overstate near-term growth by 1-3pp. E[CAGR] sensitive: 10% -> 19%, 7% -> ~15.3% | MODERATE |
+| 4 | Position sized at 8% vs committee-approved 4% | Doubles portfolio risk without documented override. At 8%, bear case $22 = -$2.61/share loss | MODERATE |
+| 5 | DCF tool base case $40.41 is 59% above market | Such large gaps often reflect model optimism, not genuine undervaluation. Terminal value = 74.5% of EV | LOW |
+| 6 | EV/Sales peer comparison uses VEEV at 14x as anchor | VEEV has lower growth and lower margins but trades at 14x. DOCS at 6.4x COULD indicate correct pricing for slower-growth DOCS, not mispricing | LOW |
 
 ### Riesgos
 
 | # | Desafio | Evidencia | Severidad |
 |---|---------|-----------|-----------|
-| 1 | Pharma MFN headwinds could persist 12-18 months (not 6-12) | 16 of top 20 pharma companies signed MFN. Budget normalization may take longer than thesis assumes. Record January bookings is positive signal but one month is not a trend. | MODERATE |
-| 2 | Receivables growing faster than revenue (26.7% vs 20%) | Confirmed by narrative_checker. Could indicate collection problems or revenue recognition timing. FA flagged but did not investigate deeply. | LOW |
-| 3 | SBC trajectory (9.2% to 12.7%) if it continues to 15%+ | Approaching kill condition #4. No sign of moderation. New CFO stock award (152K shares) suggests culture of generous compensation. | MODERATE |
-| 4 | Dual-class governance risk | Tangney controls ~50%+ voting power via Class B shares. Standard for tech but reduces shareholder influence. | LOW |
-| 5 | Only 4 years of public data (IPO June 2021) | Cannot verify through-cycle performance. ROIC persistence scored on limited data. Doximity has never navigated a recession as a public company. | LOW |
+| 1 | MFN + IRA + DTC regulation = TRIPLE SQUEEZE on pharma margins | Multiple simultaneous policy headwinds. Marketing budgets are first cut in profitability squeeze | HIGH |
+| 2 | SBC trending toward 15% KC: 9.2% -> 11.4% -> 10.7% -> 12.7% | No sign of moderation. KC#4 could trigger FY2027-2028 at current trajectory | MODERATE |
+| 3 | Q4 FY2026 earnings (May 2026) is a binary event | If Q4 misses below $143M AND FY2027 guide <8%: thesis materially damaged at 8% position | MODERATE |
+| 4 | CEO Tangney sold $75.7M at $74-79 range in Feb 2025 | Sold at 3x current price. Directionally negative though only ~3% of total stake | LOW |
+| 5 | Receivables growing 26.7% vs revenue 20% | Could indicate collection problems or customer payment delays (related to MFN budget caution) | LOW |
+| 6 | Only 4 years of public data -- never tested through recession | If recession (tariffs, policy uncertainty), pharma ad budgets would be cut | LOW |
+| 7 | Buyback paradox: offset works at low prices, degrades at high prices | At $50/share, $197M/q buys only 3.9M shares vs ~2.9M SBC grants = near parity | MODERATE |
 
 ### Timing
 
 | # | Desafio | Evidencia | Severidad |
 |---|---------|-----------|-----------|
-| 1 | Q4 FY2026 earnings (May 2026) could disappoint further | If Q4 comes in below already-low guide ($143-144M), stock could test $20. This is a known catalyst but buying before it = timing risk. | MODERATE |
-| 2 | Pharma budget cycle may not normalize until H2 FY2027 | MFN negotiations, IRA drug pricing, and DTC advertising regulatory uncertainty create multi-quarter headwinds. | MODERATE |
-| 3 | Short interest at 6.6% -- bearish sentiment elevated | Not extreme (not a squeeze risk) but above average. Bearish consensus. | LOW |
-| 4 | Analyst downgrades cascading (JPM to $33, Truist to $37) | Herd behavior. PTs still well above current price ($25-56 range, mean $40, median $38). Downgrades create selling pressure but PTs support eventual recovery. | LOW |
+| 1 | Q4 earnings ~May 2026 is THE binary catalyst | Beat + strong FY2027 guide = validated. Miss + weak guide = damaged at 8% position size | MODERATE |
+| 2 | Position entered ABOVE committee's $23 entry at $24.81 | Lost ~$1.81/share of committee-approved MoS buffer | LOW |
+| 3 | Pharma budget normalization may not occur until FY2028 | Triple squeeze (MFN + IRA + DTC) creates multi-year headwind, not multi-quarter | MODERATE |
 
 ---
 
 ## Conflictos con Otros Analisis
 
-No moat_assessment.md or risk_assessment.md files exist for DOCS (only thesis.md from R1).
+**Internal conflict within thesis (MATERIAL -- UNRESOLVED):**
+- SBC-adjusted OEY FV = $24 vs weighted FV $32.80 = 37% divergence. The blended approach is methodologically defensible, but the SBC-adjusted view is the MARKET'S view -- the stock trades at $25.34, almost exactly at the SBC-adjusted FV. This suggests the market is pricing SBC correctly and the upside thesis depends on growth exceeding current trajectory AND SBC declining as % of revenue. Both are uncertain.
 
-**Internal conflict within thesis:**
-- The FA's SBC-adjusted OEY gives FV of $24 (essentially market price), but the weighted FV is $34.50. This creates a 44% spread between the most conservative and final FV. The FA resolved this by blending methods, which is correct methodology, but the SBC-adjusted FV being AT market price is notable -- it means the market may be pricing SBC correctly.
+**TAM growth rate conflict (NEW -- MATERIAL):**
+- R1 thesis cites pharma digital ad TAM growing "10-13%/yr" in multiple places. Current eMarketer data shows 2025-2026 growth of only 5.6% ($24.8B to $26.2B). The 360iResearch broader pharma marketing CAGR is 8.86%, but this includes non-digital. The correct TAM growth for Doximity's specific segment (digital pharma advertising, primarily HCP-directed) appears to be 5-9%, NOT 13%. This reduces the base case revenue growth projection materially.
 
-**Insider ownership data error:**
-- The thesis uses 2.7% (from insider_tracker.py) but actual insider ownership is ~27-31% (dual-class). This is a MATERIAL error that, paradoxically, STRENGTHENS the thesis.
-
----
-
-## Veredicto Global
-
-| Metric | Valor |
-|--------|-------|
-| Desafios HIGH/CRITICAL | 0 de 18 |
-| Desafios MODERATE | 10 de 18 |
-| Desafios LOW | 8 de 18 |
-| Desafios no resueltos por thesis | 3 (MFN duration underestimated, SBC trajectory, insider data error) |
-| Veredicto | **MODERATE COUNTER** |
-
-### Interpretacion:
-
-**MODERATE COUNTER**: The thesis has real gaps but the core investment case survives scrutiny. Key adjustments needed:
-
-1. **CORRECT insider ownership data** (strengthens thesis)
-2. **Moderate FV downward** to reflect near-term growth uncertainty (8-10% next 2yr, not 12%)
-3. **Tighten entry price** -- at $24.07, there is insufficient margin of safety given MFN uncertainty and SBC drag
-4. The thesis correctly identifies the market overreaction (pricing -9% decline vs +13% actual growth) and the genuine moat (85% physician penetration, no real competitor)
+**Position sizing conflict (UNRESOLVED):**
+- Committee approved 4% ($400). Actual position is 8% ($991). No documented justification for the doubling. This is not a minor discrepancy -- it doubles the portfolio impact of any bear scenario. The committee's conservative sizing reflected SBC concerns and Q4 timing risk, both of which remain unresolved.
 
 ---
 
-## Edge Assessment
+## Independent Bear-Case Valuation (Phase 3B)
 
-- **Analyst consensus PT:** Mean $39.95, Median $38.00 (source: insider_tracker / Yahoo Finance)
-- **FA thesis FV:** $34.50
-- **Post-DA FV adjustment:** $30-32 (my recommendation, reflecting 8-10% near-term growth vs 12%)
-- **Gap FA vs consensus:** -13.6% (FA is BELOW consensus -- unusual, suggests FA was already conservative)
-- **Our specific edge:** We correctly identify that the market prices -9% decline into a +13% growth business with 90% gross margins and $724M net cash. The edge is TIME HORIZON -- the market is overweighting a single quarter of guidance (Q4 FY2026 +4%) and ignoring that (a) record January bookings signal recovery, (b) AI products are unmonetized optionality, (c) pharma digital ad TAM is growing +13%/yr.
-- **Edge quality:** MODERATE. The thesis is directionally correct but our FV ($34.50) is below sell-side consensus ($38-40), which suggests the market does not fully price in our bear concerns either.
+**Method: EV/EBIT (trailing normalized) -- DIFFERENT from FA's primary OEY method**
+
+Bear assumptions:
+- Trailing EBIT: $230M (FY2025 operating income)
+- Bear EV/EBIT multiple: 15x (vs current 17.6x; justified by growth deceleration + MFN + SBC trend)
+- Net cash: $724M
+
+Bear EV/EBIT valuation:
+- EV = $230M x 15x = $3,450M
+- Equity = $3,450M + $724M = $4,174M
+- FV = $4,174M / 188M shares = **$22.20**
+
+Conservative base EV/EBIT:
+- EV/EBIT 18x (sector average, assuming growth stabilizes at 7-10%)
+- EV = $230M x 18x = $4,140M
+- Equity = $4,140M + $724M = $4,864M
+- FV = $4,864M / 188M = **$25.87**
 
 ---
 
@@ -188,52 +182,131 @@ No moat_assessment.md or risk_assessment.md files exist for DOCS (only thesis.md
 
 | Source | FV | Method |
 |--------|-----|--------|
-| FA thesis | $34.50 | Weighted (OEY 50%, DCF 30%, EV/Sales 20%) + 5% quality premium |
-| Market | $24.07 | Current price (implies -9.1% FCF decline) |
-| DA bear | $25-26 | SBC-adjusted OEY ($24) blended with bear DCF at 5% growth, 11.5% WACC, 2% terminal ($29.62). Weighted toward SBC-adjusted view. |
+| FA thesis | $32.80 | Weighted (OEY 50%, DCF 30%, EV/Sales 20%) |
+| Market | $25.34 | Current price (implies -7.7% FCF decline 5yr) |
+| DA bear | $22.20 | EV/EBIT 15x trailing EBIT + net cash |
+| DA conservative base | $25.87 | EV/EBIT 18x trailing EBIT + net cash |
 
-**Interpretation:** FA $34.50 > DA bear $25-26 > Market $24.07. Genuine upside exists even in my bear case, but the gap between DA bear and market is thin ($1-2, or 4-8%). This means the entry price of $23 recommended by the FA provides ADEQUATE downside protection, but a market buy at $24.07 offers almost no safety margin in the bear case.
+**Interpretation:** The market price ($25.34) is essentially AT my conservative base case ($25.87). This suggests the market is approximately correct in its current valuation IF growth stabilizes at 7-10%. The FA's $32.80 requires growth to EXCEED 10% sustainably -- which is possible but not the current trajectory. The bear case ($22.20) represents -12.4% downside from current price.
+
+Risk/reward at $25.34: +29% upside (to FA FV) / -12% downside (to DA bear) = ~2.4x asymmetry. Reasonable but NOT exceptional for an 8% position.
+
+At cost basis $24.81: +32% upside / -10.5% downside = ~3.0x asymmetry. Adequate.
+
+---
+
+## Veredicto Global
+
+| Metric | Valor |
+|--------|-------|
+| Desafios HIGH/CRITICAL | 3 HIGH, 0 CRITICAL |
+| Desafios MODERATE | 13 de 23 |
+| Desafios LOW | 7 de 23 |
+| Desafios no resueltos por thesis | 5 (TAM growth rate 13% vs 5.6%, growth overstatement, MFN structural nature, sizing vs committee, SBC trajectory) |
+| Veredicto | **MODERATE COUNTER** |
+
+### Interpretacion:
+
+**MODERATE COUNTER**: The thesis survives adversarial scrutiny on its CORE argument -- the 85% physician network monopoly is real, the market pricing of -7.7% FCF decline is likely too pessimistic, and the net cash position ($724M = 15% of market cap) provides downside support. However, three HIGH-severity challenges require resolution:
+
+1. **Pharma digital ad TAM growth is 5.6%, not 13%.** The thesis overstates the TAM tailwind. Revenue growth requires SHARE GAINS, not passive TAM growth.
+2. **The 43% valuation spread ($28 OEY vs $40 DCF) signals genuine model uncertainty.** The weighted FV of $32.80 papers over a wide disagreement between methods.
+3. **The triple squeeze on pharma margins (MFN + IRA + DTC regulation) creates STRUCTURAL headwinds, not temporary ones.** Calling MFN "temporary" after 3 months is premature.
+
+The thesis is NOT invalidated. The moat is genuine. But the growth assumptions, TAM assumptions, and timing assumptions need downward revision. The post-DA FV should be $28-30, not $32.80.
+
+---
+
+## Edge Assessment
+
+- **Analyst consensus PT:** Mean ~$40, Median ~$38 (JPM $33, Morgan Stanley $49, Mizuho $34, Goldman downgraded)
+- **FA thesis FV:** $32.80
+- **Post-DA FV (this analysis):** $28-30 (adjusting for TAM growth + near-term growth deceleration)
+- **Gap FA vs consensus:** -18% (FA is BELOW consensus)
+- **Our specific edge:** We correctly identify the market overreaction (pricing -7.7% decline into +13% actual growth). The 38pp gap between implied and historical growth is genuine. The edge is TIME HORIZON + MONOPOLY RECOGNITION.
+- **Edge quality:** MODERATE. Our FV ($32.80) is BELOW sell-side consensus ($38-40). This means sell-side is MORE bullish than us. Our "edge" is primarily vs the market price, not vs professional analysis. If sell-side sees $38-40 and we see $28-33, we may be OVERLY cautious. Alternatively, the sell-side is still anchored to old estimates and has not fully processed the TAM growth deceleration.
+- **WARNING: Crowded contrarian trade.** Both we and sell-side disagree with market price. This is not idiosyncratic insight -- it is CONSENSUS DISAGREEMENT with the market. The market may know something about MFN/pharma budget structural headwinds that neither we nor sell-side have fully priced.
+
+---
+
+## Kill Conditions Review
+
+The 7 existing KCs are adequate. I suggest one ADDITION:
+
+**KC#8 (NEW): Pharma digital advertising TAM growth turns negative for 2 consecutive years.** The current KCs reference pharma digital ad TAM contraction (KC#7) but define it as "2+ years." This is the right threshold. However, the committee should note that TAM growth has ALREADY decelerated from ~13% to ~5.6%. Another 50% deceleration (to ~3%) would put this KC on a trajectory to trigger. Monitor eMarketer annual reports.
 
 ---
 
 ## Recomendacion al Investment Committee
 
-1. **CORRECT the insider ownership data.** Tangney owns ~27% via dual-class shares, not 2.7%. This strengthens alignment of interest. Remove "insider ownership concern" as a reason for reduced conviction. However, note ongoing selling (~$76M in Feb 2025).
+1. **MAINTAIN POSITION but FLAG sizing concern.** The core thesis (monopoly physician network, market overreaction) is intact. However, the 8% position is DOUBLE the committee-approved 4% without documentation.
 
-2. **Adjust near-term growth assumption.** Use 8-10% revenue CAGR for Years 1-2, then 12% from Year 3 onward. This reflects the MFN budget delay overhang. Impact: reduces FV by ~$2-3 to ~$31-33 range.
+2. **CORRECT TAM growth assumption.** The thesis cites 13% TAM growth repeatedly. Current eMarketer data shows 5.6%. This is a MATERIAL factual error that affects revenue projections. Correct the thesis header and rebuild projections on 5-8% TAM growth.
 
-3. **Maintain entry at $23 or tighten to $22-23.** At $24.07, the stock offers limited MoS vs DA bear case ($25-26). The FA's recommended entry of $23 is reasonable and provides bear-case downside of only -4% to -9%. Do NOT market buy at $24.07.
+3. **ADJUST growth expectation.** Using 10% growth in forward_return.py may overstate near-term E[CAGR]. The committee should evaluate at both 10% (thesis) and 7% (conservative) and decide sizing accordingly.
 
-4. **Monitor Q4 FY2026 earnings (May 2026) as the key catalyst.** If Q4 beats the lowered guide ($143-144M) and FY2027 guidance signals MFN resolution, the entry thesis strengthens materially.
+4. **Q4 FY2026 earnings (May 2026) is THE decision point.** Pre-build earnings framework:
+   - BEAT + FY2027 guide >10%: thesis validated, maintain or add
+   - IN-LINE + FY2027 guide 8-10%: thesis intact but recovery delayed
+   - MISS + FY2027 guide <8%: thesis DAMAGED. Evaluate EXIT protocol at 8% position
 
-5. **Add SBC trajectory to kill conditions.** If SBC/Revenue exceeds 15% AND buyback cannot offset net dilution (share count stops declining), the quality thesis is impaired.
+5. **Formally resolve the sizing question.** Either (a) document why 8% is justified (higher conviction than committee assessed) or (b) trim to 4% (original committee approval) to reduce pre-Q4 risk.
 
-6. **OpenEvidence lawsuit** is a governance red flag worth monitoring but does not affect the investment thesis. If adverse judgment involves significant damages (>$50M) or injunction against AI products, re-evaluate.
-
-7. **Key question for committee:** Is the SBC-adjusted OEY FV of $24 (essentially market price) more informative than the blended $34.50? If yes, the stock is fairly valued today and the entry at $23 provides only ~4% downside. If no (because buybacks genuinely offset dilution), then the upside case is intact. The committee should decide which SBC treatment they believe is more appropriate.
+6. **Post-DA FV suggestion: $28-30** (down from $32.80) based on:
+   - TAM growth correction: 5.6% not 13% (-$2)
+   - Near-term growth adjustment: 7-8% not 10% (-$1-2)
+   - MFN structural duration: 12-18 months not 6-12 (-$1)
+   - Offset by: Insider ownership correction (+27% is genuine skin in the game) and net cash floor ($724M)
 
 ---
 
 ## META-REFLECTION
 
 ### Dudas/Incertidumbres
-- The SBC-adjusted vs unadjusted FV divergence ($24 vs $32) creates genuine uncertainty about the "true" FV. Both are valid approaches. The truth depends on whether Doximity continues to buy back more shares than it issues -- which it has done historically but cannot be guaranteed.
-- MFN impact duration is unknowable from public information alone. Management says "record January bookings" but this is Level 2 evidence (management commentary), not Level 1 (primary data). I cannot independently verify this claim.
-- I could not find specific data on Doximity's physician ENGAGEMENT metrics (DAU, MAU, time-on-platform) as distinct from registration numbers. The 85% figure is registrations. Engagement data would materially strengthen or weaken the moat assessment.
+- The pharma digital ad TAM growth discrepancy (13% in thesis vs 5.6% in eMarketer 2025-2026) is the single most impactful finding but could reflect different definitions: "pharma digital" vs "healthcare and pharma digital" vs "HCP-directed digital advertising." The R1 analyst may have used a narrower or broader TAM. If the 13% figure refers to HCP-specific digital (Doximity's actual addressable market), it could still be valid. The eMarketer 5.6% covers ALL healthcare and pharma digital. This needs resolution.
+- The "record January 2026 bookings" claim from CEO Tangney is Level 2 evidence (management commentary). If genuine, it invalidates the growth deceleration concern and suggests Q4 guidance was deliberately conservative. If it is management spin, the growth trajectory is worse than the thesis assumes. There is no way to independently verify this before Q4 earnings.
+- I could not determine if Smithson (Fundsmith sub-fund, liquidated ~GBP 1B in Feb 2026) held DOCS directly. If so, forced selling pressure exists. If only Fundsmith Equity Fund holds DOCS, this is irrelevant.
+- The 8% position sizing relative to 4% committee approval is unexplained in the file record. It could represent an intentional add via market-buy protocol, or it could be an execution decision that was not formally documented. Either way, it represents elevated risk before a binary catalyst.
 
 ### Limitaciones de Este Analisis
-- No access to Q3 FY2026 10-Q to verify receivables detail, deferred revenue composition, or customer cohort data
-- No access to detailed pharma industry advertising budget data by channel (DTC vs HCP digital vs HCP in-person) to verify TAM sizing
-- Limited competitor data: Sermo is private, OpenEvidence is private. Cannot verify their growth rates or physician engagement
-- Only 4 years of public financial data limits cycle-testing of the business model
+- No Q4 FY2026 data yet (reports ~May 2026). The next fundamental datapoint is ~2 months away.
+- Limited competitor data: Sermo is private. Cannot verify their engagement or revenue trajectory.
+- Could not independently verify whether Fundsmith has added to or reduced DOCS position since initial disclosure.
+- Pharma digital ad TAM growth rates vary significantly by source (5.6% to 13%). The "true" growth rate for Doximity's specific addressable market (HCP-directed digital pharma advertising) may differ from both figures.
 
 ### Sugerencias para el Sistema
-- The insider_tracker.py tool reports insider ownership as 2.7% for DOCS. This is MISLEADING for dual-class companies where economic ownership differs from Class A ownership. Consider flagging dual-class structures in the tool output or adding a warning when insider ownership appears anomalously low for a founder-led company.
-- Consider creating an "SBC penalty framework" in valuation-methods skill to standardize how SBC is treated across tech/healthcare companies. The current ad-hoc approach (sometimes SBC-adjusted, sometimes not) creates inconsistency.
+- Forward_return.py growth input should be cross-checked against sell-side consensus and management guidance, not just the thesis header assumption. A warning when thesis growth > consensus by >3pp would catch discrepancies (Error #64 prevention).
+- Position sizing that exceeds committee approval should be automatically flagged in portfolio_cagr.py or constraint_checker.py output.
+- TAM growth rates cited in thesis should include source and date. "Growing 13%/yr" without attribution allows stale data to persist.
+- The SBC buyback offset analysis should be formalized: at what stock price does the buyback cease to offset dilution? This is material for any high-SBC company.
 
 ### Preguntas para Orchestrator
-1. Should the insider ownership correction ($27% vs 2.7%) change the entry price recommendation from $23 to a more aggressive level (e.g., $25 market buy)?
-2. Does the OpenEvidence lawsuit warrant further investigation before R4 committee, or is it immaterial to the investment thesis?
-3. The SBC-adjusted OEY FV of $24 being AT market price is a key debate point. Should the committee explicitly rule on SBC treatment for DOCS before setting final FV?
+1. Why is the position 8% when committee approved 4%? Was there a documented add or market-buy override?
+2. The pharma digital ad TAM growth discrepancy (13% in thesis vs ~5.6% in eMarketer 2025-2026): which is correct for Doximity's specific addressable market?
+3. Given Q4 earnings are ~2 months away and represent a binary catalyst, should the position be trimmed from 8% to 4% as risk management?
+4. Should the thesis header growth assumption be revised from 10% to 7-8% to align with near-term reality? This would change forward_return.py E[CAGR] from 19.0% to ~15-16%.
 
 ---
+
+## Sources
+
+- [Doximity Q3 FY2026 Guidance Shock](https://www.fool.com/investing/2026/02/06/why-doximity-stock-plummeted-today/)
+- [Doximity Q3 FY2026 Earnings Release](https://www.businesswire.com/news/home/20260205969285/en/Doximity-Announces-Fiscal-2026-Third-Quarter-Financial-Results)
+- [JPMorgan Downgrades Doximity](https://www.defenseworld.net/2026/02/24/doximity-nasdaqdocs-sets-new-12-month-low-after-analyst-downgrade.html)
+- [Goldman Sachs Analyst Downgrade](https://simplywall.st/stocks/us/healthcare/nyse-docs/doximity/news/how-analyst-downgrade-and-ai-push-could-reshape-doximitys-do/amp)
+- [MFN Executive Order Impact on Pharma](https://www.pharmexec.com/view/most-favored-nation-mfn-brands-future-implications)
+- [Drug Companies Raise Prices Despite MFN Deals](https://www.drugdiscoverytrends.com/drug-companies-sign-most-favored-nation-deals-then-raise-prices-anyway/)
+- [MFN "Here to Stay" -- PwC Analysis](https://www.pwc.com/us/en/industries/health-industries/health-research-institute/next-in-health-podcast/taking-a-closer-look-at-the-most-favored-nation-pricing-executive-order.html)
+- [eMarketer: Pharma Digital Ad Spending 2025-2026](https://www.emarketer.com/content/top-trends-pharma-advertising-2025)
+- [2026 Pharma Ad Dollars Shifting from TV](https://www.fiercepharma.com/marketing/2026-forecast-pharma-ad-dollars-will-continue-shifting-away-traditional-tv)
+- [Digital Downshift in Pharma Ad Spend](https://www.mmm-online.com/home/channel/7-day-supply/digital-downshift-analyzing-the-slowdown-in-pharmas-digital-ad-spend-growth/)
+- [Doximity CEO on AI Strategy -- FierceHealthcare](https://www.fiercehealthcare.com/ai-and-machine-learning/well-win-ai-market-2026-doximity-ceo-says-medical-ai-assistant-market)
+- [OpenEvidence Lawsuit Advancing](https://news.bloomberglaw.com/ip-law/openevidence-doximity-advance-dispute-over-ai-platform-access)
+- [Sermo vs Doximity Comparison](https://www.sermo.com/comparison/sermo-vs-doximity/)
+- [New OpenEvidence Competitors in 2026](https://clinicalaireport.com/alternatives/new-openevidence-competitors-2026)
+- [Doximity CEO Tangney Sells $75.7M](https://www.investing.com/news/insider-trading-news/doximity-ceo-jeffrey-tangney-sells-757-million-in-stock-93CH-3868891)
+- [Doximity Director Sells Stock Mar 2026](https://www.themarketsdaily.com/2026/03/05/doximity-nasdaqdocs-director-sells-52000-00-in-stock.html)
+- [Doximity Institutional Ownership](https://www.marketbeat.com/stocks/NASDAQ/DOCS/institutional-ownership/)
+- [Smithson Liquidation -- Quoted Data](https://quoteddata.com/2026/02/fundsmith-loses-nearly-1bn-of-assets-in-smithson-liquidation/)
+- [Pharma Marketing Market Size -- 360iResearch](https://www.360iresearch.com/library/intelligence/pharmaceutical-marketing)
+- [Reassessing DOCS After 39% Slide](https://www.sahmcapital.com/news/content/reassessing-doximity-docs-after-a-39-slide-and-conflicting-valuation-signals-2026-02-05)
