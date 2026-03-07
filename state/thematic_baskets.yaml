@@ -142,6 +142,7 @@ baskets:
     thesis_file: thesis/baskets/data-analytics-monopolies/thesis.md
     sector_views:
       - world/sectors/financial-data-analytics.md
+      - world/sectors/professional-information-services.md
     positions:
       - TW      # Bond trading platform, QS 84adj Tier A — NEW S143
       - WKL.AS  # Legal/tax/health information monopolist, QS ~80 Tier A — NEW S143

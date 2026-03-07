@@ -5059,3 +5059,71 @@ quality_universe:
       Rate 75 delayed to 2029. FX KO barrier risk. Parked.
     r1_session: 143
     r1_verdict: OVERVALUED
+  - ticker: SAAB-B.ST
+    name: SAAB AB ser. B
+    direction: long
+    qs_tool: 63
+    qs_adj: 63
+    tier: B
+    sector: Industrials
+    fair_value: 0
+    entry_price: 0
+    currency: SEK
+    current_price: 653.3
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: ''
+    last_scored: '2026-03-07'
+    last_price_check: '2026-03-07'
+    notes: Auto-scored by batch_scorer. Needs R1 analysis.
+  - ticker: HM-B.ST
+    name: Hennes & Mauritz AB, H & M ser.
+    direction: long
+    qs_tool: 60
+    qs_adj: 60
+    tier: B
+    sector: Consumer Cyclical
+    fair_value: 0
+    entry_price: 0
+    currency: SEK
+    current_price: 178.4
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: ''
+    last_scored: '2026-03-07'
+    last_price_check: '2026-03-07'
+    notes: Auto-scored by batch_scorer. Needs R1 analysis.
+  - ticker: MEGP.L
+    name: 'ME GROUP INTERNATIONAL PLC ORD '
+    direction: long
+    qs_tool: 80
+    qs_adj: 80
+    tier: A
+    sector: Industrials
+    fair_value: 0
+    entry_price: 0
+    currency: GBp
+    current_price: 136.6
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: ''
+    last_scored: '2026-03-07'
+    last_price_check: '2026-03-07'
+    notes: Auto-scored by batch_scorer. Needs R1 analysis.
+  - ticker: BPT.L
+    name: BRIDGEPOINT GROUP PLC ORD GBP0.
+    direction: long
+    qs_tool: 57
+    qs_adj: 57
+    tier: B
+    sector: Financial Services
+    fair_value: 0
+    entry_price: 0
+    currency: GBp
+    current_price: 235.2
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: ''
+    last_scored: '2026-03-07'
+    last_price_check: '2026-03-07'
+    notes: Auto-scored by batch_scorer. Needs R1 analysis.
