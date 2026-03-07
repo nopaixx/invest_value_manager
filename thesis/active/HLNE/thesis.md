@@ -1,6 +1,8 @@
 # HLNE - Hamilton Lane Incorporated
 
-> **Fair Value:** $110 (R3 post-DA, was $120 R1)
+> **Fair Value:** $110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)
+> **Expected Growth:** 10% (R3 refresh: EPS CAGR 10.7% more honest than revenue CAGR 24.7%. SBC dilution 2.7%/yr. PE fundraising -32% YoY headwind. Was 12%.)
+> Pipeline Stage: R3_COMPLETE
 
 ## TL;DR
 

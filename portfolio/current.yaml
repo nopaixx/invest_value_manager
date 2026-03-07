@@ -127,10 +127,10 @@ positions:
     date_opened: 2026-02-25
     thesis: thesis/active/HLNE/thesis.md
     conviction: medium
-    fair_value: "$110 (R3 post-DA. QS Tool 86, Adj 82 Tier A. Highest QS in portfolio.)"
-    last_review: 2026-02-25
-    exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Next earnings Q4 FY2026 ~May 2026."
-    notes: "TRIM S143c8: sizing rebalance -3.67 shares at $106.57 (EUR 337). T15 alignment: E[CAGR] 15.0% = mid-range, sized down from 13.1% to 10.0%. QS 82 Tier A, CEO bought at $130."
+    fair_value: "$110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Resolve receivables gate Q4 FY2026 ~May 2026."
+    notes: "R3 refresh S147c4: FV $110 maintained. Growth 12%->10% (EPS CAGR basis). DA: PE fundraising -32%, mega-managers accelerating, receivables +67.5% unresolved (Error #63 flag). Insider cluster buy $4.2M = strongest in portfolio. No ADD."
 
   - ticker: DOCS
     name: "Doximity, Inc."
@@ -170,10 +170,10 @@ positions:
     date_opened: 2026-03-07
     thesis: thesis/active/TW/thesis.md
     conviction: medium
-    fair_value: "$140 (R3 post-DA. QS Tool 76, Adj 84 Tier A.)"
+    fair_value: "$135 (R3 refresh S147c4, reduced from $140. DA MODERATE COUNTER, 4 HIGH. DA bear $104. QS 76/84 Tier A.)"
     last_review: 2026-03-07
-    exit_plan: "HOLD. TRIM at $160+. ADD at $105 (MoS 25%). SELL if KC triggered (rev growth <10% 2Q, LSEG disorderly sale >20%, OP margin <38% 2Q, aggregate insider selling >$50M/6mo)."
-    notes: "NEW POSITION S143. Data & Analytics Monopolies basket. WIDE moat 20/25. Bond trading platform. R3 complete. E[CAGR] ~12% at $125."
+    exit_plan: "HOLD. TRIM at $155+. ADD at $105 (MoS 22%). SELL if KC triggered (rev growth <10% 2Q, LSEG disorderly sale >20%, OP margin <38% 2Q, insider selling >$50M/6mo). Q1 earnings April = key test."
+    notes: "R3 refresh S147c4: FV $140->$135, growth 12%->10%. DA: Q4 CC 9.9% below thesis, RPM compression structural, LSEG governance, insider selling $26.3M. E[CAGR] 13.0%. Bottom tercile — rotation candidate if Q1 disappoints."
 
   - ticker: WKL.AS
     name: "Wolters Kluwer N.V."
