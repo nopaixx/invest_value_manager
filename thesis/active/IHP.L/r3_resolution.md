@@ -1,98 +1,116 @@
-# R3 Resolution — IHP.L (IntegraFin Holdings PLC)
+# IHP.L R3 Resolution — Orchestrator Reconciliation (Refresh)
 
-> Date: 2026-02-20 | Orchestrator Resolution
-> Input: R1 thesis.md + R2 r2_devils_advocate.md
+> **Date:** 2026-03-07 | **Session:** S147c1
+> **Previous R3:** 2026-02-20 (FV 415p → 390p)
+> **R2 DA Refresh FV:** 350p (bear case, 17-19x P/E with margin + growth haircuts)
+> **Resolved FV:** 390 GBp (MAINTAINED)
+> **Resolved Growth:** 9% (unchanged)
+> **E[CAGR] at market (318.5p):** 19.5%
 
 ---
 
 ## Resolution Summary
 
-**R2 Verdict:** MODERATE COUNTER (17 challenges, 1 HIGH, 8 MODERATE+)
-**R3 Decision:** ADVANCE to WATCHLIST with Standing Order at adjusted parameters
+The DA refresh (5th consecutive MODERATE COUNTER in the systematic audit) confirms business quality is intact but raises portfolio-level concerns about position sizing. Even the DA bear FV (350p) shows 10% upside from market — confirming genuine undervaluation. The DA's primary concern is NOT the thesis but the concentration: 11.4% in a FUA-sensitive business during a geopolitical crisis.
+
+Key DA contributions: (1) IHT pension reform (April 2027) identified as blind spot — added as KC#8, (2) competition incrementally worse (Quilter resurgent, AJ Bell cheaper), (3) sizing ceiling formalized at 11.4%.
+
+FV maintained at 390p — no new financial data since original R3 (Feb 20). H1 FY26 (~Jun 2026) is the next calibration point.
 
 ---
 
-## FV Adjustment
+## Finding-by-Finding Resolution
 
-| Parameter | R1 Value | R3 Adjusted | Rationale |
-|-----------|----------|-------------|-----------|
-| P/E multiple | 20-22x | 18-20x | AJ Bell comp misleading (2x ROIC, D2C). BofA 14-16x is extreme. 18-20x fair for proprietary platform. |
-| OEY/P/E FV | 418p | 378p | 18-20x × 19.9p FY26E EPS. Mid 378p. |
-| EV/EBIT FV | 410p | 400p | 16-17x retained. Slight compression. |
-| **Weighted FV** | **415p** | **390p** | 60% P/E + 40% EV/EBIT |
-| Bear FV | 340p | 310p | Incorporating BofA compression + market sensitivity |
-| Downside stress | N/A | 209-250p | -20% FTSE scenario (temporary, not permanent impairment) |
+### Finding #1 (HIGH): Position Sizing 11.4% = 5.7x Original R3-Approved 2%
 
----
+**Resolution: ACKNOWLEDGED — ceiling set, no trim.**
+- R3 2% was INITIAL entry sizing, not a permanent cap. Each ADD followed T15 (sizing-conviction alignment) and P16 (Perpetual Rotation).
+- Conviction upgraded MEDIUM → HIGH after FY2025 results confirmed operating leverage.
+- At HIGH conviction, QS 80 Tier A, E[CAGR] 19.5% — 11.4% is within reasonable bounds.
+- Precedent: EDEN.PA at 18.4% with QS 62 Tier B is a larger P9 tension.
+- **Action:** 11.4% = CEILING. No further ADDs. Not a rotation candidate (E[CAGR] too strong).
 
-## MoS at Key Prices
+### Finding #2 (MODERATE): IHT Pension Reform (April 2027)
 
-| Price | MoS vs 390p | MoS vs 310p (bear) | Assessment |
-|-------|-------------|---------------------|------------|
-| 315p (current) | 19.2% | -1.6% | Acceptable for Tier A |
-| 300p (SO entry) | 23.1% | 3.2% | Good |
-| 285p (deep entry) | 26.9% | 8.1% | Excellent |
+**Resolution: ACCEPTED — add as KC#8.**
+- Genuine blind spot. SIPPs represent 30-40% of industry adviser platform FUA.
+- If 5% draw down annually post-reform: ~1.5-2% FUA headwind vs 5-7% organic inflow growth.
+- Partially offsetting, not reversing. Magnitude uncertain.
+- **Action:** KC#8 added. Monitor adviser surveys, IHP management commentary, HMRC guidance.
 
----
+### Finding #3 (MODERATE): Competition Incrementally Worse
 
-## UK Concentration Resolution
+**Resolution: PARTIALLY ACCEPTED — no FV change.**
+- Quilter +75% inflows partly reflects FNZ migration completing (one-time normalization).
+- AJ Bell cheaper (17.2x vs 19.9x) but different business model (D2C hybrid vs pure adviser platform).
+- HL fee cuts concerning for price-sensitive segment, but advisers choose Transact for functionality.
+- Defaqto (recommendations) vs Lang Cat (popularity) measure different things. IHP's niche is HNW advisers.
+- **Action:** Monitor H1 FY26 net inflows vs competitors. No FV change.
 
-**Challenge:** 5th UK position = 50% of positions by count. Principle 2 warns.
+### Finding #4 (MODERATE-HIGH): FUA Market Sensitivity at 11.4%
 
-**Resolution:**
-- Size at **2% (EUR ~200)** not 3-4%. Limits incremental GBP/UK macro risk.
-- UK positions are in DIFFERENT subsectors: financial platforms (IHP, MONY), consumer (DOM), digital marketplace (AUTO), IT resale (BYIT). Not concentrated in one subsector.
-- **Committee gate required** for 5th UK position approval.
-- R1 documented why no non-UK comparable is superior (Australian platforms not on eToro, AJ Bell overpriced at 28x).
-- NOT disqualifying — Tier A quality (QS 80, ROIC 49%, 0/10 value trap, insiders buying) justifies position despite geographic concentration.
+**Resolution: ACCEPTED as structural characteristic.**
+- Inherent to all bps-on-AUM businesses. QS 80 (not 90+) already reflects this.
+- FUA recovers with markets. Inflows accelerate at lower valuations. 2022 precedent: -31% then recovery.
+- **Action:** Addressed via 11.4% ceiling. No FV change.
 
----
+### Finding #5 (MODERATE): Revenue Margin Compression
 
-## DA Challenges — Disposition
+**Resolution: ALREADY PRICED in original R3 (415p → 390p).**
+- At 21.9bps, ~2bps room to industry floor (~20bps). Volume growth outpaces margin compression.
+- H1 FY26 is the key data point for deceleration validation.
+- KC#1 already covers: "Revenue margin <20bps AND FUA growth <8% simultaneously."
 
-| # | Challenge | Severity | Disposition |
-|---|-----------|----------|-------------|
-| 1 | Revenue margin compression may accelerate | MODERATE | ACCEPTED — FV adjusted down. Entry at 300p provides cushion. Monitor H1 FY26. |
-| 2 | Costs +3%/yr ambitious (FY25 was +9%) | LOW-MOD | PARTIALLY ACCEPTED — FV sensitivity is only 5-10p. Operating leverage real. |
-| 3 | P/E 20-22x too generous | MODERATE | ACCEPTED — Adjusted to 18-20x. FV 415→390p. |
-| 4 | Net cash overstated (GBP 255M vs 34M surplus) | LOW | NOTED — R1 already corrected in Method 2. TL;DR framing fixed. |
-| 5 | UK geographic concentration | HIGH | RESOLVED at portfolio level — 2% sizing cap + committee gate. |
-| 6 | FUA market sensitivity (bear market) | MOD-HIGH | ACKNOWLEDGED — Added KC#7 for market drawdown. Inherent to bps-on-AUM model. |
-| 7 | Net inflow deceleration (+76%→+11%) | MODERATE | NOTED — Already in R1 projections (5-7% annual). Not contradictory. |
-| 8 | BofA Underperform 286p | MODERATE | ENGAGED — Incorporated via lower P/E. 286p is extreme bear, not base. |
+### Finding #7 (MODERATE): BofA ROIC Discrepancy (49% vs 22%)
 
----
-
-## Standing Order Parameters
-
-| Parameter | Value |
-|-----------|-------|
-| Ticker | IHP.L |
-| Entry | 300p |
-| FV (revised) | 390p |
-| MoS at entry | 23.1% |
-| Sizing | 2% (~EUR 200) |
-| E[CAGR_3yr] at entry | 12.8% |
-| Gate | Committee approval required (UK concentration) |
-| Condition | H1 FY26 results validation preferred but not mandatory at 300p |
+**Resolution: NOTED — no QS revision.**
+- quality_scorer.py uses consistent methodology across all positions. Changing for one stock creates inconsistency.
+- Even at 22% ROIC → QS ~72 (still Tier A). Relative ranking holds.
+- **Action:** Note. Revisit if BofA methodology becomes available.
 
 ---
 
-## Updated Kill Conditions
+## Resolved Parameters
 
-1. Revenue margin compression below 20bps AND FUA growth <8% (both required)
-2. Net outflows 2+ consecutive quarters
-3. Insider selling >5% within 12 months
-4. Major regulatory change to ISA/SIPP economics
-5. Management abandons cost discipline (costs >6%/yr)
-6. AI disruption reduces adviser numbers materially (5-10yr monitor)
-7. **NEW: UK equity market drawdown >25% sustained 6+ months** (temporary FV compression to 209-250p range)
+### FV: 390 GBp (MAINTAINED)
+
+| Source | FV | Assessment |
+|--------|-----|------------|
+| R3 thesis (Feb 20) | 390p | Post-DA adjusted from 415p |
+| DA bear | 350p | Still 10% above market |
+| BofA | 286p | Most bearish — 14x P/E |
+| Consensus | 411p mean, 420p median | Above our FV |
+| Market | 318.5p | Crisis-depressed |
+
+### Growth: 9% (UNCHANGED)
+
+### E[CAGR]: 19.5%
+
+```
+Price: 318.5p, FV: 390p, Growth: 9%, Dividend: 3.5%
+E[CAGR] = (390/318.5)^(1/3) - 1 + 9% + 3.5% = 7.0% + 12.5% = 19.5%
+```
 
 ---
 
-## Next Steps
+## Kill Condition Updates
 
-- [ ] Add to watchlist with entry 300p, FV 390p
-- [ ] Add standing order (pending committee approval on UK concentration gate)
-- [ ] Monitor H1 FY26 results (~June 2026) for operating leverage validation
-- [ ] Monitor revenue margin data points for compression trajectory
+| KC | Status | Change |
+|----|--------|--------|
+| KC#1-#7 | Unchanged | No material change |
+| KC#8 (NEW) | **ACTIVE** | IHT pension reform: SIPP net outflows >GBP 0.5bn/quarter post-April 2027 |
+| KC#9 (NEW) | **DORMANT** | AJ Bell P/E durably <IHP by >3pp for 6+ months |
+
+---
+
+## Sizing Assessment
+
+| Metric | Value | Assessment |
+|--------|-------|------------|
+| Portfolio weight | 11.4% | CEILING. Do NOT add. |
+| E[CAGR] | 19.5% | 3rd highest — earns its weight |
+| Conviction | HIGH | Confirmed |
+| QS | 80 Tier A | Top tier |
+| Insider ownership | 24.2% | Active buying Jan-Feb 2026 |
+
+**Decision:** HOLD at 11.4%. No ADDs. No trim. Position earns its weight through E[CAGR] and quality.

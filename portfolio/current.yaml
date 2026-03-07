@@ -114,10 +114,10 @@ positions:
     date_opened: 2026-02-24
     thesis: thesis/active/IHP.L/thesis.md
     conviction: high
-    fair_value: "390 GBp (R3 post-DA. QS Tool 80 Tier A. Was 415p pre-DA.)"
-    last_review: 2026-02-20
-    exit_plan: "HOLD. TRIM at 450p+. ADD at 250p (MoS 36%). SELL if KC triggered (AUM outflows >5% 2Q, platform downtime >48h, FCA investigation). Validate H1 FY26 ops leverage (~June)."
-    notes: "ADD S143c8: sizing rebalance +53 shares at 318.5p (EUR 194). T15 alignment: E[CAGR] 20.4% = 3rd highest, sized up from 9.2% to 11.0%. Conviction upgraded MEDIUM→HIGH. UK #1 independent adviser platform. ROIC 49%, 24.2% insider, net cash. Total 4 ADDs."
+    fair_value: "390 GBp (R3 refresh S147c1, maintained. DA bear 350p still 10% above market. QS Tool 80 Tier A.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD. 11.4% = CEILING, do NOT add. TRIM at 450p+. SELL if KC triggered (margin <20bps + FUA <8%, outflows 2Q, insider selling >5%, IHT SIPP outflows >0.5bn/Q). Validate H1 FY26 ops leverage (~June)."
+    notes: "R3 refresh S147c1: FV 390p maintained. DA MODERATE COUNTER — sizing concern (11.4% = 5.7x original 2%), IHT pension reform blind spot (KC#8 added), competition incrementally worse. E[CAGR] 19.5%. No add, no trim."
 
   - ticker: HLNE
     name: "Hamilton Lane Incorporated"

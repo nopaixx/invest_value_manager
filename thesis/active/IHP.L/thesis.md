@@ -1,11 +1,12 @@
 # IHP.L - IntegraFin Holdings PLC
 
-> **Fair Value:** 390 GBp (R3 post-DA, was 415p R1)
+> **Fair Value:** 390 GBp (R3 refresh S147c1, maintained. Was 415p R1, 390p R3 Feb 20. DA bear 350p still 10% above market.)
 > **Expected Growth:** 9% (EPS CAGR: FUA +12% - margin compression ~3% = revenue +8-9%, operating leverage adds +1pp to earnings growth. Base case 9%.)
-> R1 Fundamental Analysis | Date: 2026-02-20 | Updated: 2026-03-07 (S146)
+> R1 Fundamental Analysis | Date: 2026-02-20 | Updated: 2026-03-07 (S147c1)
 > Analyst: fundamental-analyst (opus)
 > Sector View: world/sectors/uk-adviser-platforms.md (FRESH, updated 2026-03-07)
-> **Status: ACTIVE HOLD** — 327 shares @ avg 319.6p (~11% portfolio). BUY S108 + ADDs S127/S132/S143c8.
+> Pipeline Stage: R3_COMPLETE
+> **Status: ACTIVE HOLD** — 327 shares @ avg 319.6p (~11.4% portfolio, CEILING). BUY S108 + ADDs S127/S132/S143c8.
 
 ## TL;DR
 
@@ -411,6 +412,9 @@ E[CAGR] of 13.2% exceeds 12% threshold for Tier A deployment per framework.
 4. **Major regulatory change materially reducing adviser platform economics** (e.g., ISA/SIPP tax benefit removal)
 5. **Management abandons cost discipline** (costs growing >6%/yr vs guided 3%)
 6. **AI disruption of financial advice reduces number of advisers materially** (5-10yr risk, monitor quarterly)
+7. **UK equity market drawdown >25% sustained 6+ months** (FUA mechanically declines, revenue follows)
+8. **IHT pension reform (April 2027) triggers SIPP net outflows >GBP 0.5bn in any quarter** (R3 S147c1 — blind spot identified by DA refresh. Monitor adviser surveys, IHP management commentary, HMRC guidance.)
+9. **AJ Bell P/E durably below IHP by >3pp for 6+ months** (DORMANT — would indicate market pricing IHP as inferior quality. Currently AJ Bell 17.2x vs IHP 19.9x.)
 
 ---
 
