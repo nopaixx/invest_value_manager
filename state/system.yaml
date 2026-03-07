@@ -19,8 +19,8 @@ system:
   portfolio_quality_analysis:
     date: 2026-03-07
     summary:
-      total_positions: 13
-      tier_a_count: 10  # MORN, MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, RACE.MI, TW, WKL.AS
+      total_positions: 12
+      tier_a_count: 9  # MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, RACE.MI, TW, WKL.AS
       tier_b_count: 3  # NVO, AUTO.L, EDEN.PA
       tier_c_count: 0
       tier_d_count: 0
@@ -33,13 +33,13 @@ system:
       net_pct: 0
       gross_pct: 0
     positions:
-      - { ticker: MORN, score: 78, tier: A, status: "FV $195. Financial Market Infra basket." }
+      # MORN — SOLD S143. Moved to thesis/archive/MORN/.
       - { ticker: MONY.L, score: 75, tier: A, status: "FV 190 GBp. ADD S143. UK Digital Platforms." }
       - { ticker: ADBE, score: 76, tier: A, status: "FV $390. US Quality Compounders." }
       - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. ADD S143. UK Digital Platforms quality anchor." }
-      - { ticker: NVO, score: 73, tier: B, status: "FV $50. CagriSema FAILED. HOLD LOW. Orphan." }
+      - { ticker: NVO, score: 73, tier: B, status: "FV $50. CagriSema FAILED. HOLD LOW. GLP-1 basket." }
       - { ticker: AUTO.L, score: 71, tier: B, status: "FV 580p. UK Digital Platforms. April make-or-break." }
-      - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. Orphan (highest E[CAGR])." }
+      - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. European Pricing Power basket." }
       - { ticker: HLNE, score: 82, tier: A, status: "FV $110. ADD S143 >10%. US Quality Compounders." }
       - { ticker: DOCS, score: 79, tier: A, status: "FV $32.80. ADD S143. US Quality Compounders." }
       - { ticker: FTNT, score: 85, tier: A, status: "FV $88. ADD S143. Cybersecurity anchor." }
@@ -54,8 +54,8 @@ system:
       2. BOUGHT: TW (Data & Analytics Monopolies, QS 84 Tier A, EUR 600), WKL.AS (Data & Analytics Monopolies, QS 80 Tier A, EUR 600)
       3. ADDED: IHP.L EUR 600, HLNE EUR 600 (>10% confirmed), DOCS EUR 600, MONY.L EUR 500, FTNT EUR 500
       4. Cash: EUR 3,985 → EUR 1,596 (15.3%). Deployed ~EUR 4,000.
-      5. Positions: 14 → 13. Tier A count: 8 → 10. Tier C: 1 → 0. ZERO orphans in new positions.
-      6. Baskets: Data & Analytics Monopolies renamed/created (TW + WKL.AS + MORN). 6 baskets, 0 orphans from new.
+      5. Positions: 14 → 12 (MORN also sold). Tier A count: 8 → 9. Tier C: 1 → 0. ZERO orphans.
+      6. Baskets: 7 baskets (added glp1 for NVO, european-pricing-power for EDEN.PA+RACE.MI). 0 orphans.
       7. Portfolio quality UPGRADE: 77% Tier A (10/13), 0% Tier C. Best quality composition ever.
     PORTFOLIO: 13 positions (10 Tier A, 3 Tier B, 0 Tier C). Cash EUR 1,596 (~15.3%).
     NEXT: ADBE earnings Mar 12, FOUR.L results Mar 18, system check Mar 16.
