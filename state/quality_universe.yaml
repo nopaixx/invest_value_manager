@@ -3576,16 +3576,16 @@ quality_universe:
     name: Lantheus Holdings, Inc.
     direction: long
     qs_tool: 70
-    qs_adj: 70
+    qs_adj: 62
     tier: B
     sector: Healthcare
-    fair_value: 90.0
-    entry_price: 72.0
+    fair_value: 88.0
+    entry_price: 68.0
     currency: USD
     current_price: 72.56
-    distance_to_entry: 0.8
-    pipeline_status: TRIAGE_ACTIONABLE
-    thesis_path: ''
+    distance_to_entry: 6.7
+    pipeline_status: R1_COMPLETE
+    thesis_path: thesis/research/LNTH/thesis.md
     last_scored: '2026-02-22'
     last_price_check: '2026-03-07'
     on_etoro: true
@@ -5137,12 +5137,12 @@ quality_universe:
     fair_value: 540.0
     entry_price: 430.0
     currency: EUR
-    current_price: null
-    distance_to_entry: null
+    current_price: 502.2
+    distance_to_entry: 16.8
     pipeline_status: R1_COMPLETE
     thesis_path: thesis/research/RMS.PA/thesis.md
     last_scored: '2026-03-07'
-    last_price_check: null
+    last_price_check: '2026-03-07'
     notes: 'Luxury conglomerate #1 globally. QS Tool 54, Adj 72 Tier B (+18: market position 8/8, cyclical distortion +8,
       GM stability +3). FV EUR 540. Entry EUR 430. SEVERELY OVERVALUED at EUR 502 (7% above entry). European Pricing Power
       basket pipeline. 50% Arnault ownership. EUR 14.2B FCF.'
