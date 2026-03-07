@@ -73,11 +73,11 @@ system:
   # History preserved for consistency checks.
   net_exposure:
     current:
-      long_pct: 93.4
+      long_pct: 100.0
       short_pct: 0.0
-      cash_pct: 6.6  # EUR 717. S143c10: RACE.MI sold + EUR 800 deployed.
-      net_pct: 93.4
-      gross_pct: 93.4
+      cash_pct: 0.0  # EUR 0. S144c1: Full deployment. NVO +400, EDEN +317.
+      net_pct: 100.0
+      gross_pct: 100.0
     reasoning: |
       Session 143 (2026-03-07): MASSIVE DEPLOYMENT 63/0/37 → 85/0/15.
       S143 restructuring: sold 3 low-quality positions (GL Tier C, BYIT.L Tier B probation, DOM.L Tier B orphan).

@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 717  # Updated 2026-03-07. S143c10: RACE.MI rotation + EUR 800 deploy. Previous: 1517. RACE sale +338, EDEN -300, NVO -300, WKL -200.
+  amount: 0  # Updated 2026-03-07. S144c1: Full deployment. NVO +400, EDEN +317. Previous: 717.
   currency: EUR
 
 positions:
@@ -24,17 +24,17 @@ positions:
 
   - ticker: EDEN.PA
     name: "Edenred SA"
-    shares: 85.96  # 70 + ~15.96 ADD S143c10 T15 rotation (EUR 300 at EUR 18.79). Confirm exact from eToro.
-    invested_usd: 1850  # 1502 + ~348 (EUR 300 * 1.1616)
-    avg_cost_usd: 21.52  # Blended estimate
-    avg_cost_eur: 18.26  # Blended: (70*18.20 + 15.96*18.79) / 85.96
+    shares: 102.83  # 85.96 + ~16.87 ADD S144c1 (EUR 317 at EUR 18.79). Confirm exact from eToro.
+    invested_usd: 2218  # 1850 + ~368 (EUR 317 * 1.1616)
+    avg_cost_usd: 21.57  # Blended estimate
+    avg_cost_eur: 18.35  # Blended: (85.96*18.26 + 16.87*18.79) / 102.83
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
     conviction: high
     last_review: 2026-02-07
     fair_value: "EUR 29.0 (adversarial, was 38.4)"
     exit_plan: "HOLD. EXIT if 2027-28 guidance <5% or France regulation. TRIM if MoS vs revised FV <15%."
-    notes: "ADD S143c10: T15 rotation +15.96 shares at EUR 18.79 (EUR 300). RACE.MI proceeds + cash deploy. E[CAGR] 27.1% = HIGHEST. Now ~16% of portfolio. Total 4 ADDs."
+    notes: "ADD S144c1: Full deployment +16.87 shares at EUR 18.79 (EUR 317). E[CAGR] 27.1% = HIGHEST. Now ~19% of portfolio. 5th ADD total."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
@@ -61,17 +61,17 @@ positions:
 
   - ticker: NVO
     name: "Novo Nordisk A/S"
-    shares: 24.16  # 16.39 + ~7.77 ADD S143c10 T15 rotation. Confirm exact from eToro.
-    invested_usd: 1011  # 711 + ~300 (EUR 300 * 1.1616 / 1.1616 ≈ $348 but NVO priced in USD)
-    avg_cost_usd: 41.84  # Blended: (16.39*43.38 + 7.77*38.58) / 24.16
-    avg_cost_dkk: 263.00  # Estimated blended
+    shares: 36.20  # 24.16 + ~12.04 ADD S144c1 (EUR 400 at $38.58). Confirm exact from eToro.
+    invested_usd: 1476  # 1011 + ~465 (EUR 400 * 1.1616)
+    avg_cost_usd: 40.76  # Blended: (24.16*41.84 + 12.04*38.58) / 36.20
+    avg_cost_dkk: 256.00  # Estimated blended
     date_opened: 2026-02-05
     conviction: medium
     exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $50. SELL if FY2026 guidance miss >10% OR market share <40% OR gross margin <70%. TRIM at $60+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update."
     fair_value: "$50 (v4.0 post-CagriSema failure. Was $66. Bear case now $35-42. QS Tool 73, Adj 73 Tier B.)"
     last_review: 2026-02-25
     thesis: thesis/active/NVO/thesis.md
-    notes: "ADD S143c10: T15 rotation +7.77 shares at $38.58 (EUR 300). RACE.MI proceeds + cash deploy. E[CAGR] 23.8% = 2nd highest. Now ~9% of portfolio. Avg cost improved $43.38→$41.84. Total 3 ADDs."
+    notes: "ADD S144c1: Full deployment +12.04 shares at $38.58 (EUR 400). E[CAGR] 23.8% = 2nd highest. Now ~13% of portfolio. Avg cost improved $41.84→$40.76. 4th ADD total."
 
   - ticker: MONY.L
     name: "Mony Group PLC"
@@ -900,3 +900,21 @@ transactions:
     price_eur: 68.52
     total_eur: 200
     notes: "ADD - S143c10 T15 rotation. E[CAGR] 20.9%. Data & Analytics basket. Position now ~9.5%."
+
+  # S144c1 FULL DEPLOYMENT — Cash EUR 717 → EUR 0 (2026-03-07)
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: NVO
+    shares: ~12.04
+    price_usd: 38.58
+    total_eur: 400
+    notes: "ADD - S144c1 full deployment. E[CAGR] 23.8% 2nd highest. Position 7.6%→~13%. Avg cost $41.84→$40.76. 4th ADD total."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: EDEN.PA
+    shares: ~16.87
+    price_eur: 18.79
+    total_eur: 317
+    notes: "ADD - S144c1 full deployment. E[CAGR] 27.1% HIGHEST. Position 15.4%→~19%. 5th ADD total. Remaining cash deployed."

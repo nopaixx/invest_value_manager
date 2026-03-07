@@ -163,7 +163,8 @@ def build_portfolio_state(portfolio, eurusd, gbpeur):
     pos_data = []
     for p in positions:
         ticker = p['ticker']
-        val_eur = get_current_value_eur(ticker, p['shares'], p['invested_usd'], eurusd, gbpeur)
+        invested_usd = p.get('invested_usd', p.get('invested_eur', 0) * eurusd)
+        val_eur = get_current_value_eur(ticker, p['shares'], invested_usd, eurusd, gbpeur)
         sector = SECTOR_MAP.get(ticker, guess_sector(ticker))
         geo = GEO_MAP.get(ticker, guess_geo(ticker))
         pos_data.append({
