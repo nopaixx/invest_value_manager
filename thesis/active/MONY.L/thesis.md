@@ -3,6 +3,7 @@
 > Fecha: 2026-02-04
 > Analista: Claude (fundamental-analyst)
 > Status: RESEARCH - Pendiente Investment Committee
+> **Expected Growth:** 2% (post-DA actual 1-2%. R1 assumed 5-7% was wrong. AI disruption + insurance premium decline = structural headwind.)
 > **Fair Value:** 190 GBp (v3.0, updated 2026-02-12)
 
 ---

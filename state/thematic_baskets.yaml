@@ -71,7 +71,7 @@ baskets:
     sector_views:
       - world/sectors/cybersecurity.md
     positions:
-      - FTNT    # Cybersecurity, QS 85 Tier A — WIDE moat (proprietary ASICs). Spun from US QC.
+      - FTNT    # Cybersecurity, QS 87 Tier A — WIDE moat (proprietary ASICs). Spun from US QC.
     pipeline:
       - QLYS    # Cloud security, QS 80adj Tier A, SO $82 GATED Q1 billings
       - CHKP    # Cybersecurity, QS 77adj Tier A, entry $125
@@ -223,83 +223,46 @@ baskets:
 
   - id: european-pricing-power
     name: "European Pricing Power"
-    status: ACTIVE
+    status: BUILDING  # Downgraded S145: RACE.MI sold S143, single position (EDEN.PA only)
     theme_vitality: ALIVE
     thesis: >
       European companies with exceptional pricing power and competitive moats trading at
-      depressed multiples. RACE.MI (52% ROIC, Veblen pricing, F1 brand) and EDEN.PA
-      (regulated employee benefits with structural floor) both possess pricing power that
-      insulates from macro cycles. EUR-denominated, natural for the portfolio.
-      Renamed from EU Value Recovery S141 (geographic label killed) and merged with
-      Luxury & Pricing Power S143 (EDEN.PA promoted from orphan).
+      depressed multiples. EDEN.PA (regulated employee benefits with structural floor)
+      possesses pricing power that insulates from macro cycles. EUR-denominated, natural
+      for the portfolio. RACE.MI sold S143 — basket needs 2nd position to regain ACTIVE.
+      Pipeline: luxury names (RMS.PA, MC.PA) or other EUR pricing-power companies.
     thesis_file: thesis/baskets/european-pricing-power/thesis.md
     sector_views:
       - world/sectors/luxury-goods.md
       - world/sectors/business-services.md
     positions:
       - EDEN.PA   # Employee benefits, QS 62 Tier B, highest E[CAGR] 27.1%. Promoted from orphan S143.
-      - RACE.MI   # Ultra-luxury auto, QS 84 Tier A, 52% ROIC, F1 brand moat.
     pipeline:
       - RMS.PA   # Hermes — ultra-luxury, likely QS >80 Tier A. NOT SCORED. 2+ year waitlists.
       - MC.PA    # LVMH — luxury conglomerate, likely QS ~70 Tier B. NOT SCORED. Diversified but China exposure.
     shared_risks:
-      - "China luxury spending structural slowdown (22% of global luxury)"
       - "EUR depreciation vs USD"
       - "EU regulatory tightening (EDEN.PA France regulation)"
-      - "Succession risk in family-controlled businesses"
+      - "Single position concentration — all basket risk in EDEN.PA"
     kill_conditions:
       - "EU GDP contracts >2% annualized for 2Q consecutive"
-      - "2+ positions hit individual KCs simultaneously"
       - "France regulatory action hits EDEN.PA >15% revenue"
+      - "P17: single position >60d without 2nd → kill"
     vitality_signals:
-      positive: ["2 positions = ACTIVE status", "RACE.MI QS 84 Tier A", "EDEN.PA highest E[CAGR] 27.1%", "Sub-sectors uncorrelated (luxury auto vs employee benefits)", "Sector de-rated 30% from 2023 peak"]
-      negative: ["EDEN.PA QS 62 Tier B (lowest QS in basket)", "China deceleration ongoing", "RMS.PA + MC.PA not scored yet"]
+      positive: ["EDEN.PA highest E[CAGR] 27.1%", "Sector de-rated 30% from 2023 peak", "Pipeline has strong candidates (RMS.PA, MC.PA)"]
+      negative: ["Single position after RACE.MI sold S143", "EDEN.PA QS 62 Tier B (lowest QS)", "RMS.PA + MC.PA not scored yet", "P17 deadline: need 2nd position by ~Apr 6 (60d from S143)"]
     last_reviewed: 2026-03-07
     created: 2026-02-22
     notes: >
-      S143c5: EDEN.PA ADD EUR 475 (position doubled, 22→47 shares). E[CAGR] 27.1% = highest in portfolio.
-      MORN proceeds redeployed. Basket now 11.2% of portfolio (overweight vs 7% target — justified by E[CAGR]).
-      RACE.MI is quality anchor (QS 84, 52% ROIC). EDEN.PA is return anchor (E[CAGR] 27.1%).
-      Pipeline: score RMS.PA (Hermes, likely Tier A) and MC.PA (LVMH, likely Tier B).
+      S145: RACE.MI SOLD S143. Basket downgraded ACTIVE→BUILDING. Single position (EDEN.PA).
+      E[CAGR] 27.1% = highest in portfolio. Need 2nd position to regain ACTIVE.
+      P17 deadline: ~Apr 6 (60d from RACE.MI sale). Score RMS.PA + MC.PA urgently.
+      If no 2nd position by deadline → kill basket, EDEN.PA becomes orphan.
 
 # =============================================================================
-# GLP-1 & Obesity Basket
+# GLP-1 & Obesity Basket — KILLED S145
 # =============================================================================
-
-  - id: glp1
-    name: "GLP-1 & Obesity"
-    status: BUILDING
-    theme_vitality: DECLINING  # CagriSema FAILED, but Ozempic/Wegovy franchise intact
-    thesis: >
-      GLP-1 receptor agonists are the most significant pharmacological breakthrough
-      in obesity treatment. Global obesity market projected $100B+ by 2030. NVO
-      franchise intact ($42B+ revenue) despite CagriSema failure. Duopoly with LLY.
-      LOW conviction — BUILDING pending Wegovy pill data and HALO PTAB Jun 2026.
-    thesis_file: thesis/baskets/glp1/thesis.md
-    sector_views:
-      - world/sectors/pharma-healthcare.md
-    positions:
-      - NVO     # GLP-1 duopolist, QS 73 Tier B. CagriSema FAILED (KC#1). HOLD LOW.
-    pipeline: []  # Gated until HALO PTAB Jun 2026
-    shared_risks:
-      - "CagriSema pipeline failure confirmed (KC#1 triggered)"
-      - "Zepbound (LLY) market share gains"
-      - "Regulatory pricing pressure on GLP-1 class"
-      - "GLP-1 class safety signal"
-    kill_conditions:
-      - "NVO FY2026 guidance miss >10%"
-      - "NVO market share <40%"
-      - "NVO gross margin <70%"
-      - "GLP-1 class safety signal from FDA/EMA"
-    vitality_signals:
-      positive: ["Ozempic/Wegovy franchise $42B+ intact", "Wegovy pill ramp Q1-Q2 2026", "GLP-1 class expanding indications"]
-      negative: ["CagriSema FAILED (KC#1)", "LOW conviction", "Pipeline gated 3+ months", "Single position"]
-    last_reviewed: 2026-03-07
-    created: 2026-03-07
-    notes: >
-      S143: NVO promoted from orphan to GLP-1 basket. BUILDING status with DECLINING
-      theme vitality. CagriSema failure is real, but Ozempic/Wegovy franchise intact.
-      Pipeline gated until HALO PTAB Jun 2026. If NVO hits additional KC → EXIT + kill basket.
+# MOVED TO killed_baskets section below. NVO reverts to orphan.
 
 # =============================================================================
 # ORPHAN POSITIONS (honest labels for positions without thematic basket)
@@ -309,11 +272,12 @@ baskets:
 # S143: ALL orphans resolved. NVO → glp1 basket. EDEN.PA → european-pricing-power basket.
 
 orphans:
+  - NVO     # GLP-1 duopolist, QS 73 Tier B. Reverted from glp1 basket (KILLED S145). CagriSema FAILED. HOLD LOW conviction.
   # LULU — SOLD 2026-03-06. Orphan EXIT. P&L -1.0%.
   # GL — SOLD 2026-03-07. S143 restructuring. Tier C orphan rotated to quality. P&L +0.8%.
   # DOM.L — SOLD 2026-03-07. S143 restructuring. Tier B orphan, pre-earnings exit. P&L -1.7%.
   # BYIT.L — SOLD 2026-03-07. S143 restructuring. Tier B probation orphan. P&L +5.7%.
-  # NVO — ASSIGNED to glp1 basket S143.
+  # NVO — ASSIGNED to glp1 basket S143. REVERTED to orphan S145 (basket killed).
   # EDEN.PA — ASSIGNED to european-pricing-power basket S143.
 
 # =============================================================================
@@ -348,6 +312,13 @@ killed_baskets:
     former_positions: [RACE.MI]
     condition_for_rebirth: "Merged into european-pricing-power."
 
+  - id: glp1
+    killed_date: 2026-03-07
+    killed_session: 145
+    reason: "DECLINING theme vitality. Single position (NVO). CagriSema FAILED (KC#1). Pipeline empty — gated until HALO PTAB Jun 2026 (3+ months). No viable 2nd candidate globally at reasonable valuation. P17 violation: single position >30d without second. NVO reverts to orphan."
+    former_positions: [NVO]
+    condition_for_rebirth: "HALO PTAB positive Jun 2026 + NVO stabilizes above $45 + Wegovy pill data strong + identify 2nd candidate with QS >= 55 at entry → reconsider pharma/obesity basket."
+
 # =============================================================================
 # ALLOCATION REASONING (replaces fixed target_allocations)
 # =============================================================================
@@ -355,42 +326,37 @@ killed_baskets:
 allocation_reasoning:
   date: 2026-03-07
   reasoning: |
-    S143 MASSIVE RESTRUCTURING. Sold 3 low-quality orphans, bought 2, added 5.
-    13 positions, cash EUR 1,596 (15.3%). 10 Tier A, 3 Tier B, 0 Tier C.
-    BEST QUALITY COMPOSITION EVER. 77% Tier A.
+    S145 UPDATE. 11 positions, 0% cash (full deployment S144). 7 Tier A, 4 Tier B.
 
-    BASKET STATUS POST-S143:
-    US Quality Compounders: 3 positions (ADBE, HLNE, DOCS). HLNE >10%.
-    All significantly sized via ADDs. Total basket ~30% of portfolio.
-    VRSN R4 approved SO $210 = pipeline. Coherent.
+    BASKET STATUS POST-S145:
+    US Quality Compounders: 3 positions (ADBE, HLNE, DOCS). ACTIVE.
+    Total basket ~30% of portfolio. VRSN SO $210 = pipeline.
 
-    Cybersecurity: 1 position (FTNT QS 85). BUILDING. Position DOUBLED via ADD.
-    QLYS SO $82 GATED Q1 billings. CHKP entry $125. Need 2nd position.
-    FTNT = crisis beneficiary. Strongest thematic coherence.
+    Cybersecurity: 1 position (FTNT QS 87). BUILDING.
+    Investor Day Mon Mar 10 = binary. Bear → rotation candidate.
+    QLYS SO $82 GATED Q1 billings. CHKP entry $125.
 
     UK Digital Platforms: 3 positions (MONY.L, IHP.L, AUTO.L). ACTIVE.
-    IHP.L TRIPLED, MONY.L DOUBLED via ADDs. Quality concentration.
-    AUTO.L April = MAKE-OR-BREAK. DNLM.L now UNBLOCKED (DOM.L + BYIT.L sold).
+    AUTO.L April = MAKE-OR-BREAK. DNLM.L UNBLOCKED (4th UK ok).
 
-    Data & Analytics Monopolies: 3 positions (MORN, TW, WKL.AS). ACTIVE.
-    Renamed from Financial Market Infrastructure. 3 WIDE-moat monopolists.
-    Strongest basket thesis. SPGI in pipeline. MORN rotation candidate.
+    Data & Analytics Monopolies: 2 positions (TW, WKL.AS). ACTIVE.
+    MORN sold S143. SPGI in pipeline as 3rd position ($420 SO).
 
     Defense & Rearmament: 0 positions. RESEARCHING.
     BAH (P/E 11.8x) is the contrarian entry. Pipeline intact.
 
-    Luxury & Pricing Power: 1 position (RACE.MI QS 84). RESEARCHING.
-    Score RMS.PA + MC.PA for pipeline.
+    European Pricing Power: 1 position (EDEN.PA). BUILDING.
+    RACE.MI sold S143. Need 2nd position by ~Apr 6 or kill.
+    Score RMS.PA + MC.PA urgently.
 
-    ORPHANS (0): ALL resolved S143. NVO → glp1 basket. EDEN.PA → european-pricing-power basket.
-    Down from 5 orphans. 3 sold (GL, DOM.L, BYIT.L), 2 assigned to baskets.
+    GLP-1: KILLED S145. NVO reverted to orphan.
 
-    CAPITAL FLOW PRIORITY (EUR 1,596 remaining):
-    1. SPGI SO $420 — 7.2% away, Data & Analytics Monopolies 4th position
-    2. VRSN SO $210 — R4 approved, QS 86adj, US QC basket
-    3. QLYS/CHKP — cybersecurity 2nd position when gates clear
-    4. BAH — defense basket contrarian entry if DOGE risk clarifies
-    5. MORN rotation → if E[CAGR] stays <5%, rotate to SPGI/KNSL
+    ORPHANS (1): NVO (QS 73 Tier B, CagriSema FAILED, LOW conviction).
+
+    CAPITAL FLOW (0% cash — rotation only):
+    1. FTNT (9.7% E[CAGR]) = top rotation candidate if Investor Day disappoints
+    2. AUTO.L = rotation candidate if April bear scenario
+    3. Any new buy requires selling worst E[CAGR] position
 
 # =============================================================================
 # THEME DISCOVERY TRACKING
