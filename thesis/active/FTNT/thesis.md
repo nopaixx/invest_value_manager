@@ -218,13 +218,26 @@ E[CAGR_3yr] = ~13.6%
 3. **Cross-sell data.** Products per customer trending up = platform stickiness = higher switching costs = justifies premium multiple.
 4. **Security incident remediation.** How they address CVE-2025/2026 publicly matters. Transparency = trust = customer retention.
 
+### KC Mapping to Investor Day Signals
+
+| Kill Condition | Investor Day Signal to Watch | How It Appears |
+|----------------|------------------------------|----------------|
+| KC#1 (Rev <8% 2Q) | FY2027+ revenue guide | If long-term guide implies <8% CAGR → early warning |
+| KC#2 (SASE ARR <15%) | Unified SASE ARR disclosure | If ARR growth disclosed <20% → approaching KC |
+| KC#5 (Xie <5% ownership) | Capital allocation commentary | Unlikely at investor day, but monitor any large sell-program announcements |
+| KC#6 (2nd security incident) | CVE-2025/2026 response | How they frame past incidents. If dismissive/no remediation data → risk elevated |
+| KC#7 (Product rev -10% + SASE <15%) | Product roadmap + SASE trajectory | Combined weakness here is thesis-breaking |
+
+**CRITICAL: If investor day reveals SASE deceleration (<25% growth) WITHOUT offsetting product strength, this approaches KC#2 territory. Trigger review-agent immediately.**
+
 ### Pre-Event Checklist
-- [ ] Check FTNT price morning of Mar 10
+- [ ] Check FTNT price morning of Mar 10 (currently $83.67, +5.7% from cost basis $79.12)
 - [ ] Monitor live webcast / investor materials
 - [ ] Post-event: update thesis Section 9 with actuals vs framework
 - [ ] If any KC approaches: trigger review-agent
+- [ ] Specifically look for: ASIC 6 timeline, SASE ARR number, products/customer, FY27 guide
 
-*Framework prepared: 2026-03-06 (Session 141)*
+*Framework prepared: 2026-03-06 (Session 141). KC mapping added 2026-03-07 (Session 142).*
 
 ---
 

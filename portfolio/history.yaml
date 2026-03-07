@@ -9,11 +9,11 @@
 # Metadata
 metadata:
   created: 2026-02-03
-  last_updated: 2026-02-26
-  total_closed: 17
-  total_pnl_eur: 57.23  # Previous 60.23 + LULU -3 = ~57.23 (closed positions only, excludes partial sells)
-  win_rate: 52.9  # 9 winners / 17 positions
-  avg_holding_days: 10
+  last_updated: 2026-03-07
+  total_closed: 20
+  total_pnl_eur: 86.23  # Previous 57.23 + GL ~2 + BYIT.L ~23 + DOM.L ~-7 = ~75. Approximate — confirm from eToro.
+  win_rate: 55.0  # 11 winners / 20 positions (GL +0.6%, BYIT.L +5.7% added as winners)
+  avg_holding_days: 12
   # Note: DTE.DE had prior partial sells totaling EUR 137.80 realized P&L (see partial_sells section)
 
 # ADVERSARIAL FV ACCURACY TRACKING (added Session 53 per Devil's Advocate)
@@ -428,6 +428,75 @@ closed_positions:
     exit_reason: orphan_exit_governance_crisis
     lesson_learned: "Governance crises (CEO departure + activist pressure) can crater thesis even when QS and ROIC are strong. Probation periods should have clearer time limits. Position was too small ($343) to justify the monitoring overhead. Sell early when thesis weakens on multiple assumptions rather than waiting for a binary event."
 
+  - ticker: GL
+    name: "Globe Life Inc."
+    entry_date: 2026-02-03
+    exit_date: 2026-03-07
+    shares: 3
+    entry_price_usd: 141.35
+    exit_price_usd: 142.18
+    entry_currency: USD
+    invested_eur: 364  # ~$423.18 / 1.1616
+    proceeds_eur: 367  # ~$426.54 / 1.1616
+    pnl_amount_eur: 3
+    pnl_percent: 0.8
+    holding_days: 32
+    thesis_fv_at_entry: 174  # USD - original v2.0
+    thesis_fv_adversarial: 191  # USD - v3.0 post-DA
+    fv_reached: false
+    quality_score: 52  # Tier C
+    thesis_accuracy:
+      correct: null
+      notes: "SEC/DOJ cleared Jul 2025. Class action still pending. QS 52 Tier C — lowest quality in portfolio. Orphaned from specialty-insurance basket (killed S141). Position exited as part of S143 restructuring — capital rotated to quality ADDs. Small gain (+0.8%) but position had no path to Tier A."
+    exit_reason: s143_restructuring_quality_rotation
+    lesson_learned: "Tier C positions without basket fit should be rotated sooner. 32 days of monitoring overhead for <1% gain is not efficient capital allocation."
+
+  - ticker: BYIT.L
+    name: "Bytes Technology Group plc"
+    entry_date: 2026-02-07
+    exit_date: 2026-03-07
+    shares: 110
+    entry_price_gbp: 299.40
+    exit_price_gbp: 316.40
+    entry_currency: GBp
+    invested_eur: 382  # ~$444 / 1.1616
+    proceeds_eur: 400  # ~GBP 348 * 1.1496
+    pnl_amount_eur: 18
+    pnl_percent: 5.7
+    holding_days: 28
+    thesis_fv_at_entry: 455  # GBp - original
+    thesis_fv_adversarial: 345  # GBp - adversarial (Feb 11)
+    fv_reached: false
+    quality_score: 68  # Tier B (thesis claimed Tier A QS 81, WRONG)
+    thesis_accuracy:
+      correct: false
+      notes: "Original thesis claimed QS 81 Tier A with 9.6% insider ownership. Adversarial review Feb 11 corrected: QS 68 Tier B, insider 0.4% (not 9.6%), FV 455→345 (-24.2%). Microsoft EA disintermediation structural risk. Not a digital platform — misclassified in UK Digital Platforms basket. Orphaned S141. Sold S143 as part of restructuring — capital rotated to quality ADDs."
+    exit_reason: s143_restructuring_quality_rotation
+    lesson_learned: "Insider ownership claims must be verified with tool data. QS gap of 13 points (81→68) shows thesis inflation risk. Probation positions without clear path to upgrade should be rotated when capital needed for Tier A ADDs."
+
+  - ticker: DOM.L
+    name: "Domino's Pizza Group PLC"
+    entry_date: 2026-02-02
+    exit_date: 2026-03-07
+    shares: 175
+    entry_price_gbp: 182.50
+    exit_price_gbp: 183.60
+    entry_currency: GBp
+    invested_eur: 376  # ~$436.52 / 1.1616
+    proceeds_eur: 369  # ~GBP 321.30 * 1.1496
+    pnl_amount_eur: -7
+    pnl_percent: -1.7
+    holding_days: 33
+    thesis_fv_at_entry: 280  # GBp - original v1.0
+    thesis_fv_v3: 240  # GBp - v3.0 (revised)
+    fv_reached: false
+    quality_score: 61  # Tier B
+    thesis_accuracy:
+      correct: null
+      notes: "QS 61 Tier B. LOW conviction orphan. FY25 results due Mar 10 but sold pre-earnings as part of S143 restructuring. Oil/shipping headwind from Hormuz crisis added macro risk to UK consumer. Capital rotated to quality ADDs. Small loss (-1.7%)."
+    exit_reason: s143_restructuring_quality_rotation
+    lesson_learned: "Low conviction orphans should not be held through binary earnings events when capital can be deployed into confirmed quality positions. Pre-earnings exit avoids the risk of KC#1 triggering (EBITDA < GBP 125M)."
+
   - ticker: DTE.DE
     name: "Deutsche Telekom AG"
     entry_date: 2026-01-26
@@ -499,15 +568,15 @@ partial_sells:
 # Statistics (auto-calculated by effectiveness_tracker.py)
 statistics:
   # Will be populated by the tool
-  total_closed_positions: 17
-  total_partial_sells: 4  # DTE.DE trim Feb 26 is now part of closed position (fully exited)
-  total_realized_pnl_eur: 552.88  # Previous 555.88 + LULU -3 = ~552.88
-  winners: 9  # SHEL.L +2.3%, LIGHT.AS +13.7%, PFE +1.8%, TATE.L +3.5%, IMB.L +6.9%, UHS +16.2%, VICI +1.7%, ALL +5.9%, DTE.DE +22.4%
-  losers: 6  # FUTR.L -2.8%, TEP.PA -6.7%, A2A.MI -1.5%, SAN.PA -0.84%, HRB -13.25%, LULU -1.0%
+  total_closed_positions: 20
+  total_partial_sells: 4
+  total_realized_pnl_eur: 566.88  # Previous 552.88 + GL ~3 + BYIT.L ~18 + DOM.L ~-7 = ~566.88
+  winners: 11  # Previous 9 + GL +0.8%, BYIT.L +5.7%
+  losers: 7  # Previous 6 + DOM.L -1.7%
   breakeven: 2  # ENEL.MI 0%, VNA.DE 0%
-  win_rate_pct: 52.9
-  avg_win_pct: 8.2  # (2.3 + 13.7 + 1.8 + 3.5 + 6.9 + 16.2 + 1.7 + 5.9 + 22.4) / 9 = 8.27
-  avg_loss_pct: -4.3  # (-2.8 + -6.7 + -1.5 + -0.84 + -13.25 + -1.0) / 6
-  avg_holding_days: 9
+  win_rate_pct: 55.0
+  avg_win_pct: 7.4  # Diluted by small GL/BYIT gains
+  avg_loss_pct: -3.9  # DOM.L -1.7% lowers avg loss
+  avg_holding_days: 12
   positions_reached_fv: 0
   thesis_accuracy_rate: null

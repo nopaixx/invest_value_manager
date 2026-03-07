@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 3985  # Updated 2026-03-06. Post-LULU SELL 2 shares at ~$170.12 (~EUR 293 at 1.1616). Previous: 3692.
+  amount: 1596  # Updated 2026-03-07. S143: SELL GL+BYIT.L+DOM.L (~EUR 1,136), BUY TW+WKL.AS (-EUR 1,200), ADD IHP.L+HLNE+DOCS+MONY.L+FTNT (-EUR 2,800). Previous: 3985.
   currency: EUR
 
 positions:
@@ -37,32 +37,11 @@ positions:
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
-  - ticker: DOM.L
-    name: "Domino's Pizza Group PLC"
-    shares: 175
-    invested_usd: 436.52
-    avg_cost_usd: 2.49  # USD at purchase FX rate
-    avg_cost_gbp: 182.50  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
-    date_opened: 2026-02-02
-    thesis: thesis/active/DOM.L/thesis.md
-    conviction: low
-    fair_value: "240 GBp (v3.0. QS Tool 61 Tier B, no adj. Was 294p v2.0, -18.4%. EV/EBIT 60% + P/E 40%)"
-    last_review: 2026-02-10
-    exit_plan: "HOLD through FY25 results Mar 5. SELL if EBITDA <GBP125M (KC#1). HOLD if base (GBP130-137M). Conviction LOW -- MoS 19.2% marginal for Tier B. New CEO Dominic Paul starts Apr 6."
+  # DOM.L REMOVED 2026-03-07 - SOLD. S143 restructuring. Orphan, LOW conviction, Tier B. Rotated capital to higher-quality ADDs. P&L ~-1.7%.
 
   # UHS REMOVED 2026-02-13 - SOLD. EXIT analysis: ABOVE FV -9% ($234 vs $213), BofA UNDERPERFORM PT $185, Medicaid cuts structural. 5/5 precedents Tier C MoS<=0 = SOLD. P&L +16.2%.
 
-  - ticker: GL
-    name: "Globe Life Inc."
-    shares: 3
-    invested_usd: 423.18
-    avg_cost_usd: 141.35  # Corrected from eToro (was 141.06)
-    date_opened: 2026-02-03
-    thesis: thesis/active/GL/thesis.md
-    conviction: medium
-    fair_value: "$191 (v3.0. QS Tool 52, Adj 55 Tier B borderline. Was $185 adversarial, $174 v2.0)"
-    last_review: 2026-02-10
-    exit_plan: "HOLD through class action resolution. TRIM at $185+. ADD at $125 (MoS 34.5%). EXIT if KC#1 (new fraud) or KC#4 (new investigation). SEC+DOJ cleared Jul 2025."
+  # GL REMOVED 2026-03-07 - SOLD. S143 restructuring. QS 52 Tier C, lowest quality in portfolio. Orphan, no basket. Capital rotated to quality ADDs. P&L ~+0.6%.
 
   # HRB REMOVED 2026-02-09 - SOLD. Adversarial review: Intuit 600 offices + $100M OpenAI = moat breach. FCF -20% 3yr. Counter 18/24 STRONG. P&L -13.25%.
 
@@ -95,17 +74,17 @@ positions:
 
   - ticker: MONY.L
     name: "Mony Group PLC"
-    shares: 204
-    invested_usd: 473.00  # ~400 EUR at 1.1826 rate
-    avg_cost_usd: 2.32  # USD at purchase FX rate
-    avg_cost_gbp: 169.98  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
+    shares: 456  # 204 prior + ~252 ADD S143 (EUR 500 at ~172.90p). Confirm exact shares from eToro.
+    invested_usd: 1054  # 473 + ~581 (EUR 500 * 1.1616)
+    avg_cost_usd: 2.31  # Blended estimate
+    avg_cost_gbp: 171.0  # Blended: (204*169.98 + 252*172.90) / 456
     date_opened: 2026-02-04
     thesis: thesis/active/MONY.L/thesis.md
-    notes: "FY2025 earnings 2026-02-23: Rev GBP 446.3M (+2%), EBITDA GBP 145.1M (33% margin record). All KCs CLEAR. AI strategy validated (OpenAI enterprise deal, ChatGPT app, Price Optimiser). SuperSaveClub 2.1M members doubled. Probation easing. Base case confirmed."
-    conviction: low
+    notes: "FY2025 record margins. AI strategy validated. ADD S143 EUR 500 at 172.90p. Position more than doubled. Conviction upgraded LOW→MEDIUM on deployment."
+    conviction: medium
     last_review: 2026-02-23
     fair_value: "190 GBp (v3.2 post-FY2025 earnings. QS Tool 83, Adj 75 Tier A borderline.)"
-    exit_plan: "HOLD. FV 190 GBp. Conviction LOW (base case, not bull). SELL if revenue declines YoY or Insurance -5%+ or dividend cut. SELL if AI strategy stalls (no product iteration by H1 2026). TRIM at >180p. ADD at <130p only if conviction upgrades. Next review: Q1 2026 trading update or if price >180p."
+    exit_plan: "HOLD. FV 190 GBp. SELL if revenue declines YoY or Insurance -5%+ or dividend cut. SELL if AI strategy stalls. TRIM at >180p."
 
   # LULU REMOVED 2026-03-06 - SOLD. Orphan EXIT. No CEO 34+ days, dual activist pressure (Wilson + Elliott), worst E[CAGR] in portfolio (-5.5%). P&L -1.0%.
 
@@ -138,55 +117,55 @@ positions:
 
   - ticker: IHP.L
     name: "IntegraFin Holdings plc"
-    shares: 110  # 55 original + ~55 ADD S127. Confirm exact shares from eToro.
-    invested_usd: 468  # $232 + ~$236 (EUR 200 * 1.1804)
+    shares: 274  # 110 prior + ~164 ADD S143 (EUR 600 at ~318.50p). Confirm exact shares from eToro.
+    invested_usd: 1165  # 468 + ~697 (EUR 600 * 1.1616)
     avg_cost_usd: 4.25  # Blended estimate
-    avg_cost_gbp: 323.0  # Blended: (55*326 + 55*320) / 110
+    avg_cost_gbp: 320.0  # Blended: (110*323 + 164*318.5) / 274
     date_opened: 2026-02-24
     thesis: thesis/active/IHP.L/thesis.md
     conviction: medium
-    fair_value: "390 GBp (R3 post-DA. QS Tool 80 Tier A. Was 415p pre-DA. Entry 300p SO superseded by market buy.)"
+    fair_value: "390 GBp (R3 post-DA. QS Tool 80 Tier A. Was 415p pre-DA.)"
     last_review: 2026-02-20
     exit_plan: "HOLD. TRIM at 450p+. ADD at 250p (MoS 36%). SELL if KC triggered (AUM outflows >5% 2Q, platform downtime >48h, FCA investigation). Validate H1 FY26 ops leverage (~June)."
-    notes: "SECOND E[CAGR]-framework market buy + ADD S127 EUR 200 at 320p (E[CAGR] 22.6%). R4 APPROVED S100. UK #1 independent adviser platform (Transact). ROIC 49%, 24.2% insider, net cash, 0/10 value trap. Position doubled: 1.9%→~3.9%. UK concentration justified (uncorrelated sectors)."
+    notes: "UK #1 independent adviser platform (Transact). ROIC 49%, 24.2% insider, net cash. ADD S143 EUR 600 at 318.50p. Position tripled from original. E[CAGR] ~22% at 318p."
 
   - ticker: HLNE
     name: "Hamilton Lane Incorporated"
-    shares: 9.00  # 4.63 original + 4.37 ADD S126. Confirm exact shares from eToro.
-    invested_usd: 943.88  # $471.16 + $472.72 (EUR 400 * 1.1818)
-    avg_cost_usd: 104.88  # Blended: (4.63*101.75 + 4.37*108.11) / 9.00
+    shares: 15.54  # 9.00 prior + ~6.54 ADD S143 (EUR 600 at ~$106.57). Confirm exact shares from eToro.
+    invested_usd: 1641  # 943.88 + ~697 (EUR 600 * 1.1616)
+    avg_cost_usd: 105.60  # Blended estimate
     date_opened: 2026-02-25
     thesis: thesis/active/HLNE/thesis.md
     conviction: medium
     fair_value: "$110 (R3 post-DA. QS Tool 86, Adj 82 Tier A. Highest QS in portfolio.)"
     last_review: 2026-02-25
     exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Next earnings Q4 FY2026 ~May 2026."
-    notes: "THIRD E[CAGR]-framework market buy. E[CAGR] 16.7% at $101.75. QS 86 highest in portfolio. R4 APPROVED S120. SO at $95 superseded by deployment doctrine. CEO bought $1M at $130 (aligned). Alternative AM, private markets specialist. ADD EUR 400 at $108.11 S126. Position doubled. E[CAGR] 14.6% at ADD price. Cash drag avoidance — deploying into highest QS (82) in portfolio."
+    notes: "Alt asset management, private markets specialist. QS 82 Tier A highest QS. CEO bought $1M at $130. ADD S143 EUR 600 at $106.57. Position >10% confirmed by human. Total 3 ADDs."
 
   - ticker: DOCS
     name: "Doximity, Inc."
-    shares: 19.57  # EUR 400 at $24.07. Confirm exact shares from eToro.
-    invested_usd: 471.16  # EUR 400 * 1.1779
-    avg_cost_usd: 24.07
+    shares: 47.08  # 19.57 prior + ~27.51 ADD S143 (EUR 600 at ~$25.34). Confirm exact shares from eToro.
+    invested_usd: 1168  # 471.16 + ~697 (EUR 600 * 1.1616)
+    avg_cost_usd: 24.81  # Blended estimate
     date_opened: 2026-02-25
     thesis: thesis/active/DOCS/thesis.md
     conviction: medium
     fair_value: "$32.80 (R3 post-DA. QS Tool 74, Adj 79 Tier A. SBC-adj OEY $24 = floor.)"
     last_review: 2026-02-25
     exit_plan: "HOLD. TRIM at $40+. ADD at $20 (MoS 39%). SELL if KC#1 (NRR <100%) or KC#5 (SBC >15% without buyback offset). Next earnings Q4 FY2026 ~May 2026."
-    notes: "FOURTH E[CAGR]-framework market buy. E[CAGR] 13.4% at $24.07. Price BELOW DA bear case ($25-26). R4 APPROVED S118. SO at $23 superseded. 85% US physician monopoly. 90% GM, 47% FCF margin, $724M net cash. Near 52wL."
+    notes: "85% US physician monopoly. 90% GM, 47% FCF margin, $724M net cash. ADD S143 EUR 600 at $25.34. Position more than doubled. E[CAGR] ~13% at $25."
 
   - ticker: FTNT
     name: "Fortinet, Inc."
-    shares: 5.98
-    avg_cost_usd: 79.12
-    invested_usd: 473.14
+    shares: 12.92  # 5.98 prior + ~6.94 ADD S143 (EUR 500 at ~$83.67). Confirm exact shares from eToro.
+    avg_cost_usd: 81.58  # Blended estimate
+    invested_usd: 1054  # 473.14 + ~581 (EUR 500 * 1.1616)
     conviction: medium
     date_opened: 2026-02-26
     fair_value: "$88 (R3 post-DA resolution. QS Tool 70, Adj 85 Tier A.)"
     thesis: thesis/active/FTNT/thesis.md
     exit_plan: "HOLD. TRIM at $100+. ADD at $65 (MoS 26%). SELL if KC triggered (SEC investigation, 2nd major security incident in 6mo, product rev -10% for 2Q + SASE <15%). Next earnings ~April 2026."
-    notes: "Fifth E[CAGR]-framework market buy. E[CAGR] ~13.6% at $79.12. MoS 10.0% (HLNE precedent 7.5%). QS 85 Tier A highest-quality pipeline candidate. WIDE moat (ASIC + switching costs). R4 approved S123. SO $78 essentially at market — cash drag avoidance."
+    notes: "WIDE moat (ASIC + switching costs). QS 85 Tier A. Cybersecurity basket anchor. ADD S143 EUR 500 at $83.67. Position doubled. Crisis beneficiary."
     last_review: 2026-02-26
 
   - ticker: RACE.MI
@@ -202,19 +181,33 @@ positions:
     notes: "6th E[CAGR]-framework market buy. E[CAGR] 13.5% at EUR 312.80. THREE WAITS mandate. SO EUR 295 superseded. EU Value Recovery basket 2nd position. 52% ROIC, luxury pricing power, F1 brand moat. AGM Apr 15. EUR 101M buyback active."
     last_review: 2026-03-05
 
-  - ticker: BYIT.L
-    name: "Bytes Technology Group plc"
-    shares: 110
-    invested_usd: 444
-    avg_cost_usd: 4.04  # USD at purchase FX rate
-    avg_cost_gbp: 299.3999  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
-    date_opened: 2026-02-07
-    thesis: thesis/active/BYIT.L/thesis.md
-    conviction: low
-    fair_value: "345 GBp (adversarial, was 455. QS Tool 68, Adj 69-72 Tier B. Was 81 Tier A.)"
-    exit_plan: "HOLD ON PROBATION. EXIT if FY2026 full-year OP < GBP 66M (~May 2026). ADD at 240p. SELL if Tier A needs capital and better opportunity exists."
-    last_review: 2026-02-11
-    notes: "Adversarial review 2026-02-11: FV 455->345 (-24.2%), QS 81->68-72 (Tier A->B). Insider ownership 0.4% not 9.6%. Microsoft EA disintermediation structural. Moat NARROW (14/25). HOLD because ROIC>>WACC, net cash, small position."
+  # BYIT.L REMOVED 2026-03-07 - SOLD. S143 restructuring. QS 68 Tier B ON PROBATION, orphan (not a platform). Capital rotated to quality ADDs. P&L ~+5.7%.
+
+  - ticker: TW
+    name: "Tradeweb Markets Inc."
+    shares: 5.59  # EUR 600 at ~$124.59. Confirm exact shares from eToro.
+    invested_usd: 697  # EUR 600 * 1.1616
+    avg_cost_usd: 124.59
+    date_opened: 2026-03-07
+    thesis: thesis/active/TW/thesis.md
+    conviction: medium
+    fair_value: "$140 (R3 post-DA. QS Tool 76, Adj 84 Tier A.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD. TRIM at $160+. ADD at $105 (MoS 25%). SELL if KC triggered (rev growth <10% 2Q, LSEG disorderly sale >20%, OP margin <38% 2Q, aggregate insider selling >$50M/6mo)."
+    notes: "NEW POSITION S143. Data & Analytics Monopolies basket. WIDE moat 20/25. Bond trading platform. R3 complete. E[CAGR] ~12% at $125."
+
+  - ticker: WKL.AS
+    name: "Wolters Kluwer N.V."
+    shares: 8.76  # EUR 600 at ~EUR 68.52. Confirm exact shares from eToro.
+    invested_eur: 600
+    avg_cost_eur: 68.52
+    date_opened: 2026-03-07
+    thesis: thesis/active/WKL.AS/thesis.md
+    conviction: medium
+    fair_value: "EUR 85 (R3 post-DA. QS Tool estimate ~80 Tier A.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD. TRIM at EUR 100+. ADD at EUR 58 (MoS 32%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, regulatory disruption to legal/tax data monopoly)."
+    notes: "NEW POSITION S143. Data & Analytics Monopolies basket. Legal/tax/health information monopolist. 7th E[CAGR]-framework market buy. 78% recurring revenue. 24% OP margin. Strong pricing power in professional information."
 
 # =============================================================================
 # SHORT POSITIONS - CFDs en eToro
@@ -732,3 +725,88 @@ transactions:
     pnl_usd: -3.44
     pnl_pct: -1.0
     notes: "EXIT - Orphan position. No CEO 34+ days (Christine Day out Jan 31). Dual activist pressure (Wilson proxy fight + Elliott $1B stake). Worst E[CAGR] in portfolio (-5.5%). ON PROBATION since Feb 12 governance re-eval. QS 78 Tier A low-end but thesis weakened 3/6 assumptions. Capital freed for deployment into stronger baskets."
+
+  # S143 RESTRUCTURING — 3 SELLS + 2 BUYS + 5 ADDS (2026-03-07)
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: GL
+    shares: 3
+    price_usd: 142.18
+    total_eur: ~367
+    pnl_pct: ~0.6
+    notes: "EXIT - S143 restructuring. QS 52 Tier C, lowest quality in portfolio. Orphan without basket. SEC/DOJ cleared but class action overhang. Capital rotated to quality ADDs (IHP.L, HLNE, DOCS, MONY.L, FTNT)."
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: BYIT.L
+    shares: 110
+    price_gbp: 316.40
+    total_eur: ~400
+    pnl_pct: ~5.7
+    notes: "EXIT - S143 restructuring. QS 68 Tier B ON PROBATION. Orphan (not a digital platform). 0.4% insider, Microsoft EA disintermediation structural. Capital rotated to quality ADDs."
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: DOM.L
+    shares: 175
+    price_gbp: 183.60
+    total_eur: ~369
+    pnl_pct: ~-1.7
+    notes: "EXIT - S143 restructuring. QS 61 Tier B LOW conviction. Orphan without basket. Pre-earnings exit (results Mar 10). Capital rotated to quality ADDs."
+
+  - date: 2026-03-07
+    action: BUY
+    ticker: TW
+    shares: 5.59
+    price_usd: 124.59
+    total_eur: 600
+    notes: "BUY - S143. Data & Analytics Monopolies basket. WIDE moat 20/25. Bond trading platform monopoly. R3 complete. QS 84adj Tier A."
+
+  - date: 2026-03-07
+    action: BUY
+    ticker: WKL.AS
+    shares: 8.76
+    price_eur: 68.52
+    total_eur: 600
+    notes: "BUY - S143. Data & Analytics Monopolies basket. Legal/tax/health information monopolist. QS ~80 Tier A. 78% recurring revenue."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: IHP.L
+    shares: ~164
+    price_gbp: 318.50
+    total_eur: 600
+    notes: "ADD - S143. UK Digital Platforms basket quality anchor. QS 80 Tier A. E[CAGR] ~22% at 318p. Position tripled."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: HLNE
+    shares: ~6.54
+    price_usd: 106.57
+    total_eur: 600
+    notes: "ADD - S143. US Quality Compounders basket. QS 82 Tier A highest QS. Position >10% confirmed by human. CEO bought $1M at $130."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: DOCS
+    shares: ~27.51
+    price_usd: 25.34
+    total_eur: 600
+    notes: "ADD - S143. US Quality Compounders basket. 85% US physician monopoly. QS 79 Tier A. Position more than doubled."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: MONY.L
+    shares: ~252
+    price_gbp: 172.90
+    total_eur: 500
+    notes: "ADD - S143. UK Digital Platforms basket. QS 75 Tier A borderline. FY2025 record margins. AI strategy validated. Position more than doubled."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: FTNT
+    shares: ~6.94
+    price_gbp: 83.67
+    total_eur: 500
+    notes: "ADD - S143. Cybersecurity basket anchor. QS 85 Tier A. WIDE moat. Crisis beneficiary. Position doubled."

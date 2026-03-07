@@ -549,18 +549,33 @@ Despite significant thesis flaws, BYIT.L does NOT match the SELL pattern from pr
 
 ## Veredicto: HOLD on PROBATION — LOW Conviction
 
-**ADVERSARIAL UPDATED 2026-02-11**
+**ADVERSARIAL UPDATED 2026-02-11 | Probation KCs added 2026-03-07 (S142)**
 
-**Status: ACTIVE POSITION — PROBATION**
+**Status: ACTIVE POSITION — PROBATION (orphan, no basket)**
 - 110 shares @ ~296 GBp (~$4.04 per share)
 - Total cost: $444 (~377 EUR)
+- Current price: 316.4 GBp (+6.9% from cost)
 - Fair Value: **345 GBp** (adversarial, was 455 GBp)
-- MoS: **15.1%** (was 35%)
+- MoS: **8.3%** (at 316.4p vs 345p FV)
 - QS: **Tool 68, Adjusted 69-72 (Tier B)** (was 81 Tier A)
 - Conviction: **LOW** (was HIGH)
 - ADD trigger: **240 GBp** (was 260 GBp) — requires MoS ~30% vs adversarial FV for Tier B
 - EXIT trigger: **FY2026 full-year OP < GBP 66M** (FY2025 level)
 - Next mandatory review: **FY2026 full-year results (~May 2026)**
+
+### Probation Criteria (PASS/FAIL at FY2026 full-year results, ~May 2026)
+
+| Criterion | PASS | FAIL | Rationale |
+|-----------|------|------|-----------|
+| **Full-year OP** | ≥ GBP 66M | < GBP 66M | FY2025 level. If full-year can't match prior year despite services growth, thesis is broken. **PRIMARY EXIT GATE.** |
+| **GP growth** | ≥ 8% (mgmt guide: double-digit) | < 5% | If GP growth misses management's own "double-digit" guidance by >5pp, credibility damaged |
+| **Services growth** | ≥ 20% | < 10% | Services is the offset to software margin compression. KC#3. If it decelerates hard, pivot thesis fails |
+| **GP/GII margin** | ≥ 5.8% (H1 was 6.1%) | < 5.5% | Further margin compression = Microsoft disintermediation accelerating (structural, not cyclical) |
+| **Microsoft concentration** | No new adverse incentive changes | Further margin cuts or direct-sales expansion | KC#1. Each Microsoft change compresses the moat |
+
+**PASS probation** = HOLD continues, review conviction for upgrade to MEDIUM if OP >GBP 72M and services >25%.
+**FAIL probation** = EXIT via rotation. Capital redeploys to highest E[CAGR] pipeline candidate.
+**If Tier A opportunity needs capital before May** = BYIT.L is a rotation candidate (orphan, LOW conviction, Tier B).
 
 ---
 

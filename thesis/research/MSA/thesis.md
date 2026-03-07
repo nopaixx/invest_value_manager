@@ -1,15 +1,15 @@
 # MSA Safety Incorporated (MSA) - R1 Fundamental Analysis
 
-> **Date:** 2026-02-28
+> **Date:** 2026-02-28 (initial) | 2026-03-07 (price refresh)
 > **Stage:** R1 COMPLETE
 > **Analyst:** fundamental-analyst
-> **Sector View:** world/sectors/industrial-technology.md (Updated 2026-02-19)
+> **Sector View:** world/sectors/industrials.md (Updated 2026-03-07)
 
 ---
 
 ## TL;DR
 
-MSA Safety is a 110-year-old industrial safety leader with #1 market share in SCBA (25-30% globally), growing detection business (41% of sales, +17% organic Q4), and a regulatory moat built on NFPA/NIOSH certifications + 15 patents on its G1 SCBA platform. The business generates consistent FCF ($295M in FY2025, 15.8% margin), has conservative leverage (0.9x ND/EBITDA), and is backed by Ruane Cunniff/Sequoia Fund (4.7% stake, doubled position at ~$159). However, at $195 the stock prices in ~15.7% FCF growth (vs 7% revenue CAGR), fire service segment is cyclically weak (-10% organic FY2025), and PFAS litigation exposure is a material tail risk. Fair value estimated at $195-210, leaving minimal margin of safety at current prices.
+MSA Safety is a 110-year-old industrial safety leader with #1 market share in SCBA (25-30% globally), growing detection business (41% of sales, +17% organic Q4), and a regulatory moat built on NFPA/NIOSH certifications + 15 patents on its G1 SCBA platform. The business generates consistent FCF ($295M in FY2025, 15.8% margin), has conservative leverage (0.9x ND/EBITDA), and is backed by Ruane Cunniff/Sequoia Fund (4.7% stake, doubled position at ~$159). However, at $183.43 the stock still prices in ~13-14% FCF growth (vs 7-9% organic), fire service segment is cyclically weak (-10% organic FY2025), and PFAS litigation exposure is a material tail risk. Fair value estimated at $144-152, leaving MSA overvalued by 20-27% at current prices.
 
 ---
 
@@ -73,9 +73,9 @@ MSA Safety makes products that protect workers in hazardous environments. Founde
 - **FCF conversion:** OCF/NI = 1.3x in FY2025 (excellent). FCF margin 15.8%.
 - **Working capital note (ANOMALY):** Receivables grew +9.8% vs revenue +3.7%. Inventory grew +15.6% vs revenue +3.7%. Both are significantly ahead of revenue growth. Could indicate: (a) pre-building ahead of tariff risk, (b) slower collections, or (c) demand softness. Monitor closely in Q1 2026.
 
-### Why MSA is "Cheap" (P/E 27.6x vs Sector 28-35x)
+### Why MSA Appears "Cheap" vs Peers
 
-MSA is not cheap in absolute terms. At P/E 27.6x, it trades at the low end of its industrial quality peer group but still at a premium to the broader market. The discount vs. peers reflects:
+MSA is not cheap in absolute terms. At P/E ~25.8x (at $183.43), it trades at the low end of its industrial quality peer group but still at a premium to the broader market. The discount vs. peers reflects:
 
 1. **Fire Service weakness:** -10% organic decline FY2025. FEMA grant timing is lumpy and creates visible revenue headwinds.
 2. **Low organic growth:** +1% organic FY2025 vs mid-single-digit peers (Graco, AMETEK, Rotork).
@@ -105,7 +105,7 @@ MSA is not cheap in absolute terms. At P/E 27.6x, it trades at the low end of it
 **Honest assessment:** My edge here is LIMITED. MSA is well-covered by 7 analysts with mean PT $212. The consensus view (quality industrial, temporary fire service headwinds, growing detection) is essentially my view. The main differentiation I bring is:
 1. Recognition that organic growth (+1%) is weaker than the 7.1% headline CAGR suggests
 2. PFAS litigation as a material unquantified risk that analysts may underweight
-3. Reverse DCF showing the market prices in 15.7% FCF growth -- aggressive vs organic fundamentals
+3. Reverse DCF showing the market prices in aggressive growth that hasn't materialized organically
 4. Working capital deterioration (receivables +9.8%, inventory +15.6% vs rev +3.7%) as a leading indicator
 
 This is NOT a high-edge situation (Error #49 warning: my FV converges near consensus).
@@ -175,6 +175,12 @@ Fire Service moat is very durable (certification barriers are structural and inc
 
 **Management's 2028 targets:** $2.1-2.3B revenue implies 4-7% CAGR from $1.875B (2025 base)
 
+**Iran War / Oil $92 Impact Assessment (2026-03-07):**
+- MSA has LOW direct oil sensitivity (asset-light, not energy-dependent)
+- Oil at $92 WTI: MINOR headwind on component transport costs, MODEST tailwind on oil & gas Detection demand (more drilling activity = more safety equipment)
+- Recession risk (40-55% probability): MODERATE headwind on industrial PPE demand, but Fire Service (FEMA-funded) and Detection (regulatory-driven) are more resilient
+- Net impact on MSA thesis: MINIMAL. Safety equipment is non-discretionary.
+
 ### Margin Projection
 
 | Metric | FY2025 | FY2026E | FY2027E | FY2028E | Basis |
@@ -189,20 +195,20 @@ Fire Service moat is very durable (certification barriers are structural and inc
 ### WACC Derivation
 
 ```
-Risk-Free Rate: 4.3% (10Y UST, Feb 2026)
+Risk-Free Rate: 4.13% (10Y UST, Mar 7 2026 -- updated from 4.3%)
 Equity Risk Premium: 5.5%
 Beta: 0.97
-Cost of Equity (Ke): 4.3% + 0.97 * 5.5% = 9.6%
+Cost of Equity (Ke): 4.13% + 0.97 * 5.5% = 9.5%
 Cost of Debt (Kd pre-tax): ~5.0%
 Tax Rate: 23.9%
 Kd after-tax: 5.0% * (1 - 0.239) = 3.8%
-Market Cap: $7.7B
+Market Cap: $7.2B (at $183.43)
 Total Debt: $640M
-E/V = 92.3%, D/V = 7.7%
-WACC = (0.923 * 9.6%) + (0.077 * 3.8%) = 9.2%
+E/V = 91.8%, D/V = 8.2%
+WACC = (0.918 * 9.5%) + (0.082 * 3.8%) = 9.0%
 ```
 
-WACC: **9.2%** (sanity check: reasonable for mid-cap US industrial, investment grade)
+WACC: **9.0%** (slightly lower than initial 9.2% due to lower risk-free rate and market cap)
 
 ### Terminal Growth: 2.5%
 
@@ -241,61 +247,64 @@ Peer comparison:
 **Equity = $6.4B - $475M net debt = $5.925B**
 **FV/share = $5.925B / 39.4M shares = $150**
 
-### Method 2: DCF (Secondary, 40% weight)
+### Method 2: P/E Multiple (Secondary, 40% weight)
 
-Using DCF tool output with adjusted assumptions:
+**Normalized EPS:**
+- FY2025 EPS: $7.11
+- FY2024 EPS: $7.24
+- FY2023 EPS: $1.49 (DEPRESSED -- M&A charges, not representative)
+- Normalized EPS: ~$7.00 (using FY2024-2025 average, excluding FY2023 distortion)
 
-**Inputs:**
-- FCF Year 0: $295M (FY2025)
-- Growth: 7% years 1-3, 5% years 4-5 (reflects mid-single-digit organic + M&A)
-- WACC: 9.2%
-- Terminal growth: 2.5%
+**Multiple Selection:**
+- Quality industrial P/E range: 20-30x
+- MSA justified P/E: 20-22x (discount for low organic growth, PFAS, moderate ROIC-WACC spread)
+  - Premium vs market for #1 position, dividend aristocrat, regulatory moat: +2-3x
+  - Discount for organic growth weakness, PFAS: -3-4x
+  - Net: ~20x
 
-**Scenario Analysis (from tool, contextually adjusted):**
-
-| Scenario | Revenue Growth | Op Margin | WACC | Terminal | FV/Share |
-|----------|---------------|-----------|------|----------|----------|
-| Bear | 3% | 20% | 10.5% | 2.0% | $95 |
-| Base | 5-6% | 22-23% | 9.2% | 2.5% | $135 |
-| Bull | 8% | 24-25% | 8.5% | 3.0% | $185 |
-
-**DCF Base Case FV: $135**
-
-**DCF Sensitivity Assessment:**
-- FV Spread: 85% (HIGH) -- tool confirmed
-- Terminal Value: 74.5% of EV (HIGH)
-- Assessment: **HIGH SENSITIVITY** -- DCF is unreliable as a point estimate. Use as range.
+**FV = $7.00 * 20 = $140**
 
 ### Method 3: Reverse DCF (Sanity Check)
 
-The market at $195 implies 15.7% FCF growth for 5 years. Given:
-- Revenue organic growth: ~4-5%
-- Operating leverage + margin expansion: maybe adds 2-3pp to FCF growth
-- Total realistic FCF growth: 7-9%
+At $183.43 (down from $195.41 when thesis was first written), the implied FCF growth has moderated from ~15.7% to roughly 13-14%. This is still well above the 7-9% I estimate as realistic.
 
 **The market is pricing in substantially more growth than fundamentals support.** Either:
 (a) M&A will deliver the gap (risky assumption), or
 (b) Detection growth accelerates beyond current trajectory, or
 (c) The stock is overvalued
 
-This is a significant finding. The implied growth of 15.7% vs my estimate of 7-9% suggests the stock is at or above fair value.
+### DCF Cross-Check
+
+DCF tool output (from original analysis):
+
+| Scenario | Revenue Growth | Op Margin | WACC | Terminal | FV/Share |
+|----------|---------------|-----------|------|----------|----------|
+| Bear | 3% | 20% | 10.5% | 2.0% | $95 |
+| Base | 5-6% | 22-23% | 9.0% | 2.5% | $138 |
+| Bull | 8% | 24-25% | 8.5% | 3.0% | $185 |
+
+**DCF Sensitivity Assessment:**
+- FV Spread: 85% (HIGH) -- tool confirmed
+- Terminal Value: 74.5% of EV (HIGH)
+- Assessment: **HIGH SENSITIVITY** -- DCF is unreliable as a point estimate. Use as range.
+- Note: Updated WACC of 9.0% (from 9.2%) raises base DCF by ~$3 to $138 (from $135).
 
 ### Reconciliation
 
 | Method | FV/Share | Weight | Weighted |
 |--------|---------|--------|----------|
-| EV/EBIT (16x norm) | $150 | 60% | $90 |
-| DCF Base | $135 | 40% | $54 |
-| **Weighted FV** | | **100%** | **$144** |
+| EV/EBIT (16x norm) | $150 | 60% | $90.0 |
+| P/E (20x norm) | $140 | 40% | $56.0 |
+| **Weighted FV** | | **100%** | **$146** |
 
-Current Price: **$195.41**
-MoS vs Weighted FV: **-35.7%** (OVERVALUED)
+Current Price: **$183.43** (updated Mar 7, 2026)
+MoS vs Weighted FV: **-25.6%** (OVERVALUED)
 
 ### Consensus Comparison
 
-- Analyst mean PT: $212.43
-- My FV: $144
-- Delta: **-32%** vs consensus
+- Analyst mean PT: $212
+- My FV: $146
+- Delta: **-31%** vs consensus
 
 My FV is significantly below consensus. The key difference: I discount for (1) the organic growth reality (+1% vs headline 7%), (2) PFAS litigation risk, and (3) the reverse DCF showing the market prices in aggressive growth that hasn't materialized organically.
 
@@ -315,20 +324,20 @@ My FV is significantly below consensus. The key difference: I discount for (1) t
 
 **Expected Value = ($95 * 0.25) + ($150 * 0.50) + ($210 * 0.25) = $152**
 
-### MoS Analysis
+### MoS Analysis (updated at $183.43)
 
 | Metric | Value |
 |--------|-------|
-| Current Price | $195.41 |
-| Weighted FV | $144 |
+| Current Price | $183.43 |
+| Weighted FV | $146 |
 | Expected Value | $152 |
-| MoS vs Base | -30.3% (NEGATIVE) |
-| MoS vs EV | -28.6% (NEGATIVE) |
-| MoS vs Bear | -105.7% (deeply negative) |
-| MoS vs Bull | 7.0% (barely positive) |
+| MoS vs Base FV | -22.3% (NEGATIVE) |
+| MoS vs EV | -20.7% (NEGATIVE) |
+| MoS vs Bear | -93.1% (deeply negative) |
+| MoS vs Bull | 12.7% (marginally positive) |
 
 **Required MoS for Tier B (precedent from decisions_log):** ~20-25%
-**Entry would require price of ~$115-120** (20-25% MoS vs $144-152 FV)
+**Entry would require price of ~$115-120** (20-25% MoS vs $146-152 FV)
 
 ---
 
@@ -354,7 +363,8 @@ My FV is significantly below consensus. The key difference: I discount for (1) t
 | Connected solutions >50% of sales | By 2026 | MEDIUM | Higher margins, recurring revenue, deeper lock-in |
 | M&A bolt-ons | Ongoing | HIGH | $1.5B deployment capacity. M&C TechGroup was $189M. More deals expected |
 | PFAS litigation resolution | 2026-2028 | MEDIUM | If resolved favorably, removes overhang and potentially re-rates stock |
-| OSHA heat illness prevention rule | 2026 | MEDIUM | New federal regulation = demand driver for detection + PPE |
+| OSHA heat illness prevention rule | 2026 | LOW-MEDIUM | Under Trump admin, OSHA enforcement may weaken. Reduced probability. |
+| Iran war oil-driven industrial safety demand | H1 2026 | MEDIUM | Oil at $92 = more O&G activity = more detection equipment demand |
 
 ---
 
@@ -367,7 +377,7 @@ My FV is significantly below consensus. The key difference: I discount for (1) t
 
 **Short Interest:** 3.1% of float, 5.2 days to cover. DECLINING (-21% MoM). Not heavily shorted.
 
-**Insiders:** 6.9% ownership. Recent net buyer (13.3K purchased vs 8.5K sold). Officer Buck sold $224K in Feb 2026 (small, likely tax/diversification). No alarming patterns.
+**Insiders:** 6.2% ownership (updated). Recent net buyer (+3.4K shares net). Officer Buck sold at $203 (above current price -- timing was good). No alarming patterns.
 
 **Smart Money Graph:** Limited coverage (only First Eagle tracked with 24 shares -- de minimis). Ruane Cunniff NOT yet in our tracked funds. **SUGGESTION: Enroll Ruane Cunniff (CIK: 1279936) as tracked fund -- they appear in multiple quality industrials.**
 
@@ -379,12 +389,13 @@ My FV is significantly below consensus. The key difference: I discount for (1) t
 |--------|------------|----------------|
 | Interest rates | LOW | Asset-light, 0.9x leverage. Rate changes minimal impact |
 | Recession | MEDIUM | Industrial activity drives Detection/PPE demand. Fire Service resilient (FEMA grants) |
-| Inflation | LOW | Strong pricing power. Can pass through costs. GM stable at 46-47% |
+| Inflation / Oil | LOW-MEDIUM | Strong pricing power. Can pass through costs. Oil at $92 = mixed (cost pressure vs O&G demand) |
 | USD strength | MEDIUM | 32% international revenue. Strong dollar compresses international earnings |
-| Tariffs | MEDIUM | Some component sourcing internationally. Tariff escalation = margin risk |
-| OSHA regulations | POSITIVE | Tightening safety standards = demand driver. Heat illness rule coming |
+| Tariffs | MEDIUM | Some component sourcing internationally; 15% EU surcharge + steel/aluminum tariffs = margin risk |
+| OSHA regulations | CAUTELA | Under Trump admin, OSHA enforcement may weaken vs Obama/Biden era. Still secular trend tighter. |
+| Iran war | LOW-POSITIVE | Safety equipment is non-discretionary. More industrial/O&G activity = more demand. |
 
-**Fit with World View:** MSA is a defensive quality industrial. Works in most macro environments. Current Fair-Value regime does NOT favor paying premium multiples. The stock needs a correction to offer value.
+**Fit with World View (Mar 7, 2026):** MSA is a defensive quality industrial that works in most macro environments. The Iran war / oil crisis has minimal direct impact on the thesis. However, the current crisis environment does NOT favor paying premium multiples for mid-single-digit growers. The stock needs a correction to offer value. At $183 it's closer to but still above FV.
 
 ---
 
@@ -392,26 +403,27 @@ My FV is significantly below consensus. The key difference: I discount for (1) t
 
 **MSA Safety is a quality business at a premium price.**
 
-At $195, the stock trades 28-36% above my estimated fair value range of $144-152. The reverse DCF confirms the market prices in 15.7% FCF growth -- roughly double what organic fundamentals can deliver. While M&A and the NFPA upgrade cycle could provide upside, these are already partially priced in.
+At $183.43 (down from $195 at initial analysis), the stock trades 20-26% above my estimated fair value range of $146-152. The reverse DCF shows the market prices in 13-14% FCF growth -- roughly 1.5-2x what organic fundamentals can deliver. While M&A and the NFPA upgrade cycle could provide upside, these are already partially priced in.
 
 **Why not PASS:**
 - The business quality is genuinely good (QS 73, Tier B upper). ROIC>WACC, durable moat, 55+ yr dividend growth.
 - Ruane Cunniff/Sequoia doubling position at $159 is a strong quality-plus-value signal
 - NFPA 2025 upgrade cycle creates a multi-year fire service tailwind not yet visible in results
 - Detection growth (+17% organic Q4) is structurally strong
+- Low oil sensitivity makes it relatively crisis-resilient
 
 **Why not BUY:**
-- Negative MoS at current price (-28% to -36% vs FV)
+- Negative MoS at current price (-21% to -26% vs FV)
 - Low edge vs consensus (Error #49 concern)
-- Organic growth (+1% FY2025) does not justify P/E 27.6x
+- Organic growth (+1% FY2025) does not justify P/E ~26x
 - PFAS litigation is unquantified tail risk
 - Working capital anomaly (receivables +9.8%, inventory +15.6% vs rev +3.7%) needs monitoring
 
-**Entry Price:** $120-125 (20-25% MoS vs $150 FV). This represents ~37-39% decline from current price, which would likely require either (a) broad market correction, (b) PFAS litigation escalation creating fear, or (c) multi-quarter fire service weakness + detection slowdown.
+**Entry Price:** $115-120 (20-25% MoS vs $146 FV). This represents ~35-37% decline from current price, which would likely require either (a) broad market correction, (b) PFAS litigation escalation creating fear, or (c) multi-quarter fire service weakness + detection slowdown.
 
-**Standing Order Recommendation:** $120 (FANTASY at current distance of 38.5%). Do NOT place as standing order until price moves closer. Add to universe for monitoring at $145-150 (near FV) for potential opportunistic entry if a catalyst emerges.
+**Standing Order Recommendation:** No SO at current distance (35%+ from entry). Add to universe for monitoring. Re-evaluate if price drops to $145-150 (near FV) or if Iran-driven market correction brings quality industrials to distressed levels.
 
-**Basket Fit:** Would fit in an "Industrial Safety / Regulatory-Driven Quality" basket alongside ROP (industrial technology), or a new "Industrial Quality" basket if we build one with 3+ candidates. Currently no natural basket home in the active portfolio.
+**Basket Fit:** Would fit in an "Industrial Quality / Regulatory-Driven Safety" basket, but we don't have an active basket with that theme. No natural home in current portfolio structure. Would need 3+ industrial quality candidates to justify basket formation (candidates: MSA + KLR.L + potentially GGG/AMETEK).
 
 **eToro Availability:** CONFIRMED -- available on eToro as MSA.
 
@@ -421,8 +433,8 @@ At $195, the stock trades 28-36% above my estimated fair value range of $144-152
 
 | Metric | Triage | R1 | Delta | Explanation |
 |--------|--------|-----|-------|-------------|
-| FV | $215 | $144-152 | -30 to -33% | Triage likely used consensus-adjacent multiple. R1 discounts for organic growth reality + PFAS |
-| Entry | $183 | $120-125 | -32 to -34% | Higher MoS required given lower FV |
+| FV | $215 | $146 | -32% | Triage likely used consensus-adjacent multiple. R1 discounts for organic growth reality + PFAS |
+| Entry | $183 | $115-120 | -34 to -37% | Higher MoS required given lower FV |
 | QS | 76 (A) | 73 (B) | -3 pts | PFAS risk + organic growth reality |
 | Moat | Narrow | Narrow | Same | Confirmed |
 
@@ -433,16 +445,18 @@ At $195, the stock trades 28-36% above my estimated fair value range of $144-152
 ### Incertidumbres/Dudas
 - PFAS litigation exposure is the biggest unknown. MSA is named as defendant in turnout gear MDL. The financial impact could range from immaterial (insurance covers, settled cheaply) to thesis-breaking (multi-billion dollar liability). I cannot quantify this with available data.
 - Working capital deterioration (receivables +9.8%, inventory +15.6% vs rev +3.7%) -- is this pre-building for tariffs, or demand softness signaling future revenue weakness?
-- Is Ruane Cunniff buying at $159 a better signal than my valuation showing overvalued at $195? Their research depth likely exceeds mine. But they may have a longer time horizon (5-10yr compounding view) where P/E 27x on a quality industrial works out.
+- Is Ruane Cunniff buying at $159 a better signal than my valuation showing overvalued at $183? Their research depth likely exceeds mine. But they may have a longer time horizon (5-10yr compounding view) where P/E 26x on a quality industrial works out. Note: at their $159 entry, MoS vs my FV is 8-9% -- modest but positive.
+- The 16x EV/EBIT multiple is a judgment call. If I used 18x (closer to Rotork, which has similar ROIC-WACC spread but better organic growth), FV would be $167. This would still leave MSA overvalued at $183 but with only -10% vs FV.
 
 ### Sugerencias para el Sistema
 - **Enroll Ruane Cunniff (CIK: 1279936) in smart_money tracked funds.** They are a top-quality value fund (Sequoia Fund) with positions across quality industrials. Their activity would be valuable signal.
 - **PFAS litigation monitoring:** Consider adding a periodic PFAS litigation check for any portfolio company manufacturing PPE or fire service equipment. This is a growing legal vector.
-- **Sector view update:** Add MSA to industrial-technology.md "Monitoring" section. It doesn't meet quality threshold for "Para analisis profundo" given Tier B classification.
+- **Sector view update:** MSA should be added to industrials.md as a monitoring candidate. It doesn't warrant a standalone subsection given Tier B classification and overvaluation, but it fits the quality industrials theme alongside BAH and KLR.L.
 
 ### Anomalias Detectadas
 - **FCF CAGR of 37.6% is misleading.** The tool calculates from a depressed FY2023 base ($50M). Normalized FCF growth is closer to 7-9%. This is a known limitation of short lookback periods but worth flagging for any stock with volatile FCF history.
 - **EPS CAGR +15.8% vs Revenue CAGR +7.1%.** The delta is too large to be explained by operating leverage alone. FY2023 had depressed EPS ($1.49) likely due to M&A-related charges. Using normalized EPS growth, the figure is closer to 8-10%.
+- **Price drop from $195 to $183 (-6.1%) since initial R1:** Likely attributable to broad market risk-off (Iran war, VIX 29.5) rather than MSA-specific deterioration. The thesis is unchanged; only the price has moved.
 
 ### Preguntas para Orchestrator
 1. Should we add MSA to the quality universe at current prices for monitoring, despite AT_FV verdict? Its quality profile is strong enough that a 20-30% correction would make it very interesting.
@@ -483,4 +497,5 @@ At $195, the stock trades 28-36% above my estimated fair value range of $144-152
 ---
 
 **R1 COMPLETE. Verdict: AT_FV / WATCHLIST. No Standing Order recommended at current prices.**
+**Price Refresh: $183.43 (Mar 7, 2026). MoS still negative (-21% to -26%). Entry at $115-120.**
 **Next Step:** Add to universe for monitoring. Re-evaluate if price drops to $145-150 range or PFAS litigation develops clarity.

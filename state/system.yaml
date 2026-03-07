@@ -7,8 +7,8 @@
 system:
   system_version: "4.7.0"
   framework_version: "4.7"
-  last_session: 2026-03-05
-  session_number: 140
+  last_session: 2026-03-07
+  session_number: 143
   status: active
 
   framework_v4_status:
@@ -17,78 +17,71 @@ system:
     implementation_date: 2026-02-05
 
   portfolio_quality_analysis:
-    date: 2026-03-05
+    date: 2026-03-07
     summary:
-      total_positions: 14
-      tier_a_count: 8  # MORN, MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, RACE.MI
-      tier_b_count: 5  # NVO, AUTO.L, BYIT.L, EDEN.PA, DOM.L
-      tier_c_count: 1  # GL
+      total_positions: 13
+      tier_a_count: 10  # MORN, MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, RACE.MI, TW, WKL.AS
+      tier_b_count: 3  # NVO, AUTO.L, EDEN.PA
+      tier_c_count: 0
       tier_d_count: 0
     short_positions: 0
     exposure:
       long_value_eur: 0  # Calculated by portfolio_stats.py
-      short_value_eur: 0  # Calculated by portfolio_stats.py
-      net_exposure_eur: 0  # long - short
-      gross_exposure_eur: 0  # long + short
-      net_pct: 0  # net / total portfolio
-      gross_pct: 0  # gross / total portfolio
+      short_value_eur: 0
+      net_exposure_eur: 0
+      gross_exposure_eur: 0
+      net_pct: 0
+      gross_pct: 0
     positions:
-      - { ticker: MORN, score: 78, tier: A, status: "FV $195. First E[CAGR] buy S101." }
-      - { ticker: MONY.L, score: 75, tier: A, status: "HOLD. FV 190 GBp. FY2025 KCs clear. Probation easing." }
-      - { ticker: ADBE, score: 76, tier: A, status: "FV $390. FTC trial Oct 2026." }
-      - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. 2nd E[CAGR] buy + ADD S127 EUR 200 at 320p." }
-      - { ticker: NVO, score: 73, tier: B, status: "FV $50 (revised). CagriSema FAILED. KC#1 triggered. HOLD LOW." }
-      - { ticker: AUTO.L, score: 71, tier: B, status: "FV 580p. April pricing make-or-break." }
-      - { ticker: BYIT.L, score: 68, tier: B, status: "FV 345 GBp. HOLD LOW." }
-      - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. FY2025 BASE+ confirmed. All KCs clear." }
-      - { ticker: DOM.L, score: 61, tier: B, status: "FV 240 GBp. Mar 10 results." }
-      - { ticker: HLNE, score: 82, tier: A, status: "FV $110. 3rd E[CAGR] buy S122." }
-      - { ticker: DOCS, score: 79, tier: A, status: "FV $32.80. 4th E[CAGR] buy S122." }
-      - { ticker: FTNT, score: 85, tier: A, status: "FV $88. 5th E[CAGR] market buy S126." }
-      - { ticker: RACE.MI, score: 84, tier: A, status: "FV EUR 355. 6th E[CAGR] market buy S140. THREE WAITS." }
-      - { ticker: GL, score: 52, tier: C, status: "FV $191. SEC+DOJ cleared." }
+      - { ticker: MORN, score: 78, tier: A, status: "FV $195. Financial Market Infra basket." }
+      - { ticker: MONY.L, score: 75, tier: A, status: "FV 190 GBp. ADD S143. UK Digital Platforms." }
+      - { ticker: ADBE, score: 76, tier: A, status: "FV $390. US Quality Compounders." }
+      - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. ADD S143. UK Digital Platforms quality anchor." }
+      - { ticker: NVO, score: 73, tier: B, status: "FV $50. CagriSema FAILED. HOLD LOW. Orphan." }
+      - { ticker: AUTO.L, score: 71, tier: B, status: "FV 580p. UK Digital Platforms. April make-or-break." }
+      - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. Orphan (highest E[CAGR])." }
+      - { ticker: HLNE, score: 82, tier: A, status: "FV $110. ADD S143 >10%. US Quality Compounders." }
+      - { ticker: DOCS, score: 79, tier: A, status: "FV $32.80. ADD S143. US Quality Compounders." }
+      - { ticker: FTNT, score: 85, tier: A, status: "FV $88. ADD S143. Cybersecurity anchor." }
+      - { ticker: RACE.MI, score: 84, tier: A, status: "FV EUR 355. Luxury & Pricing Power." }
+      - { ticker: TW, score: 84, tier: A, status: "FV $140. NEW S143. Data & Analytics Monopolies." }
+      - { ticker: WKL.AS, score: 80, tier: A, status: "FV EUR 85. NEW S143. Data & Analytics Monopolies." }
 
   last_session_summary: |
-    Session 140 (2026-03-05). RACE.MI BUY CONFIRMED + portfolio ops.
+    Session 143 (2026-03-07). MASSIVE RESTRUCTURING — 3 SELLS + 2 BUYS + 5 ADDS.
     DELIVERABLES:
-      1. RACE.MI BUY EXECUTED: Market buy ~1.12 shares at EUR 312.80, EUR 350. 6th E[CAGR] market buy. THREE WAITS mandate fulfilled.
-      2. EU Value Recovery basket SAVED: RESEARCHING→BUILDING. Mar 31 death deadline averted. RACE.MI = 2nd position (Tier A anchor).
-      3. Cash: EUR 4,042 → EUR 3,692. Cash % pending portfolio_stats.py (estimate ~35%).
-      4. Positions: 14 → 15. Tier A count: 8 → 9 (RACE.MI QS 84).
-      5. Thesis moved: research/RACE.MI → active/RACE.MI.
-      6. SO RACE.MI BUY marked EXECUTED. ADD SO at EUR 270 remains active.
-    PORTFOLIO: 15 positions (9 Tier A, 5 Tier B, 1 Tier C). Cash EUR 3,692.
-    NEXT: DOM.L results Mar 10, ADBE framework by Mar 10, LULU framework by Mar 14.
+      1. SOLD: GL (QS 52 Tier C, +0.8%), BYIT.L (QS 68 Tier B, +5.7%), DOM.L (QS 61 Tier B, -1.7%)
+      2. BOUGHT: TW (Data & Analytics Monopolies, QS 84 Tier A, EUR 600), WKL.AS (Data & Analytics Monopolies, QS 80 Tier A, EUR 600)
+      3. ADDED: IHP.L EUR 600, HLNE EUR 600 (>10% confirmed), DOCS EUR 600, MONY.L EUR 500, FTNT EUR 500
+      4. Cash: EUR 3,985 → EUR 1,596 (15.3%). Deployed ~EUR 4,000.
+      5. Positions: 14 → 13. Tier A count: 8 → 10. Tier C: 1 → 0. ZERO orphans in new positions.
+      6. Baskets: Data & Analytics Monopolies renamed/created (TW + WKL.AS + MORN). 6 baskets, 0 orphans from new.
+      7. Portfolio quality UPGRADE: 77% Tier A (10/13), 0% Tier C. Best quality composition ever.
+    PORTFOLIO: 13 positions (10 Tier A, 3 Tier B, 0 Tier C). Cash EUR 1,596 (~15.3%).
+    NEXT: ADBE earnings Mar 12, FOUR.L results Mar 18, system check Mar 16.
 
   # NET EXPOSURE REASONING — Principio 13. Re-evaluate EVERY session.
   # This is NOT a target or range. It's the CONCLUSION of reasoning.
   # History preserved for consistency checks.
   net_exposure:
     current:
-      long_pct: 63.0
+      long_pct: 84.7
       short_pct: 0.0
-      cash_pct: 37.0  # EUR 3,985
-      net_pct: 63.0
-      gross_pct: 63.0
+      cash_pct: 15.3  # EUR 1,596
+      net_pct: 84.7
+      gross_pct: 84.7
     reasoning: |
-      Session 140 (2026-03-05): ~60/0/40 → POTENTIAL 64/0/36 if RACE.MI executes.
-      Crisis MODERATING: Oil WTI $76.90 (from $87 peak), VIX 21.15 (from 23.57), S&P 6,870 (resilient).
-      Iran signaled 'open to de-escalation' via Oman FM. Hormuz still closed but market expects resolution.
-      Gold $5,174 (+79% YoY), DXY 98.99 (weak USD = EUR positive), 2Y-10Y +0.60% (no recession signal).
-      THREE WAITS RESOLVED: RACE.MI market buy recommended at EUR 312-315.
-        (1) RACE.MI 6.0% from EUR 295 — moved AWAY as crisis moderates. Market buy at market.
-        (2) SPGI 5.0% from $420 (GATED on Q1 late April)
-        (3) DNLM.L 1.1% from trigger but BLOCKED (6th UK position)
-        (4) 0 universe candidates at E[CAGR] threshold
-      No shorts: crisis environment makes shorting dangerous. Short screening continues via fragility watch.
-      Net 60 → 64 is a step toward deployment. Next session: if RACE.MI confirmed, update to 64/0/36.
-      Oil surge = NEW headwind for consumer names (DOM.L, LULU, MONY.L). Don't ADD consumer exposure.
-      NVO: Wegovy pill launch exceeding expectations (MATERIAL POSITIVE).
-      AUTO.L: 26 insiders bought $95M in 60d (STRONG BULL).
-      No short thesis during active military conflict — volatility premium too high.
-      Rotation: NO — LULU worst but tiny ($300), Mar 31 binary. No forced action.
-      Inaction Audit: PASS — 0 candidates at market thresholds, crisis validates cash.
-    last_updated: 2026-03-04
+      Session 143 (2026-03-07): MASSIVE DEPLOYMENT 63/0/37 → 85/0/15.
+      S143 restructuring: sold 3 low-quality positions (GL Tier C, BYIT.L Tier B probation, DOM.L Tier B orphan).
+      Deployed EUR ~4,000: 2 new buys (TW, WKL.AS) + 5 ADDs (IHP.L, HLNE, DOCS, MONY.L, FTNT).
+      Cash dropped from EUR 3,985 (37%) → EUR 1,596 (15.3%). Near P15 target (<10% = emergency resolved).
+      Portfolio quality UPGRADED: 10 Tier A (77%), 3 Tier B, 0 Tier C. Best composition ever.
+      Hormuz crisis context: Oil $90 re-escalated, but quality compounders are defensible long-term.
+      FTNT = crisis beneficiary (cybersecurity). Consumer exposure reduced (DOM.L sold).
+      No shorts: crisis volatility premium too high. Short screening continues.
+      Net exposure 85% reflects HIGH conviction in quality portfolio. Cash 15% for 1-2 more opportunities.
+      Inaction Audit: MASSIVE PASS — deployed EUR 4,000 in single session.
+    last_updated: 2026-03-07
     history:
       - date: 2026-03-03
         net_pct: 60.7

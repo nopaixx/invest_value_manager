@@ -40,8 +40,8 @@ standing_orders:
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
     tier: "A (QS 79)"
-    notes: "DOWNGRADED ACTIVE→BORDERLINE S127. Two constraints: (1) Would be 6th UK position (DOM.L, MONY.L, AUTO.L, IHP.L, BYIT.L = 5). Geographic concentration P2. (2) E[CAGR] 13.6% at trigger = marginal for Tier A, and at market (998p) only 11.9% = below 12% threshold. Price trending AWAY from trigger. Not a real deployment path unless UK position sold first."
-    conditions: "BLOCKED: 6th UK position. Requires selling one of DOM.L/MONY.L/AUTO.L/BYIT.L first."
+    notes: "S143 UPDATE: UNBLOCKED. DOM.L + BYIT.L sold. Now 3 UK positions (MONY.L, IHP.L, AUTO.L). Would be 4th UK = acceptable. E[CAGR] 13.6% at trigger marginal for Tier A. Price ~968p, 1.9% from 950p trigger."
+    conditions: "UNBLOCKED S143. Previously 6th UK position, now would be 4th (DOM.L + BYIT.L sold)."
     last_analysis_date: 2026-02-27
     expiry: 2026-06-01
 
@@ -96,21 +96,7 @@ standing_orders:
     last_analysis_date: 2026-03-05
     expiry: 2026-08-01
 
-  - ticker: GL
-    action: ADD
-    category: ACTIVE
-    fill_prob_6m: 25
-    trigger: "<=$125"
-    current_distance: "12.1%"
-    created_date: "2026-02-10"
-    staleness_status: FRESH  # <15% distance
-    size_eur: 300
-    shares_approx: 2
-    fair_value: "$191"
-    mos_at_trigger: "34.5%"
-    notes: "GL v3.0. SEC+DOJ cleared. QS Adj 55 Tier B borderline."
-    last_analysis_date: 2026-02-10
-    expiry: 2026-08-01
+  # GL ADD — ARCHIVED 2026-03-07 (S143). POSITION SOLD. S143 restructuring — GL exited (QS 52 Tier C).
 
   # IHP.L — EXECUTED 2026-02-24 (Session 108). Market buy at ~318p, 55 shares, EUR 200.
   # Second E[CAGR]-framework market buy. E[CAGR] ~19% at 318p >> 12% threshold. MoS 18.5%.
@@ -466,24 +452,9 @@ standing_orders:
     last_analysis_date: 2026-02-23
     expiry: 2026-08-01
 
-  - ticker: TW
-    action: BUY
-    category: GATED
-    fill_prob_6m: 35
-    trigger: "<=$110"
-    current_distance: "11.7%"
-    created_date: "2026-02-23"
-    staleness_status: FRESH  # <15% distance, dated gate (Q1 earnings April)
-    gate: "Q1 2026 earnings + Elliott/LSEG resolution"
-    size_eur: 400
-    fair_value: "$140"
-    mos_at_trigger: "21.4%"
-    tier: "A (QS 76/84 adj)"
-    notes: "R3 RESOLVED S115. WIDE moat 20/25 STRENGTHENING. FV revised 148→140 post-DA (MODERATE COUNTER). Entry lowered 126→110. DA found: Elliott pushing LSEG divestiture (Bloomberg Feb 18), insider selling $26.3M coordinated (CEO $14M, CFO $7.3M, CTO $1.3M on Feb 10), Q4 CC growth 9.9% (decel trend), post-DA FV converges to consensus ($130). Cantillon biggest Q4 add (+39%) but no edge at current price. E[CAGR] 16% at $110."
-    kill_conditions: "Revenue growth <10% 2Q, ADV growth negative 2Q, LSEG disorderly sale >20%, OP margin <38% 2Q, major dealer defection, ROIC <WACC 2Q, aggregate insider selling >$50M/6mo"
-    pre_execution_condition: "Monitor Q1 2026 earnings (April) for growth stabilization + Elliott/LSEG resolution. If LSEG sells orderly (secondary offering, not dump) → gate partially clears."
-    last_analysis_date: 2026-02-23
-    expiry: 2026-10-01
+  # TW BUY — EXECUTED 2026-03-07 (S143). Market buy at $124.59, ~5.59 shares, EUR 600.
+  # S143 restructuring. Data & Analytics Monopolies basket. SO $110 superseded by market buy.
+  # E[CAGR] ~12% at $125. QS 84adj Tier A. WIDE moat 20/25.
 
   - ticker: CPRT
     action: BUY
@@ -582,20 +553,13 @@ review_flags:
   # Trigger lowered $300→$285. FV revised $385→$365. See thesis/research/ROP/review_feb2026.md
 
 # =============================================================================
-# SO SUMMARY (Session 142, 2026-03-07 — Full distance audit)
-# NEAR TRIGGER: HALO 3.5% (R4 APPROVED, Merck gate), DNLM.L 1.9% (BLOCKED UK),
-#               KNSL 4.6% (crisis selloff), STMN.SW 5.6% (CORRECTED from 15%)
-# ACTIVE:    5 (DNLM.L 1.9%, ACGL 9.5%, RACE.MI ADD 10.5%, GL ADD 12.1%, VRSN 13.9%)
-# GATED:   14 (BAH 8.4%, HALO 3.5%, STMN.SW, KLR.L 19.4%, ROP 22.4%*,
-#              FDS 24.7%*, VLTO 15.2%*, DSY.PA 9.2%, KNSL 4.6%, SOON.SW,
-#              QLYS 16.9%*, SPGI 7.2%, WING 17.1%, SEIC 6.7%, TW 11.7%,
-#              CPRT 17.9%*, PEGA 19.6%*, CMCSA 18.5%*)
-# BORDERLINE: 1 (REN.AS 19.7%*)
-# STALE (*): ROP 22.4%, FDS 24.7%, VLTO 15.2%, QLYS 16.9%, CPRT 17.9%,
-#            PEGA 19.6%, CMCSA 18.5%, REN.AS 19.7%, MRSH 15.3%
-#            9 SOs now STALE — market rally moved many away from triggers.
-#            Priority: archive FDS (24.7% = extreme), recalibrate ROP.
-# ARCHIVED S142: MSA (R1 FV $144-152, triage $215 wrong. At $183 = overvalued -27%)
-# EXECUTED S141-S142: RACE.MI market buy EUR 312.80 (S140)
-# MORN ROTATION: SELL MORN (E[CAGR] 4.4%), redeploy KNSL $355 or VRSN $210
+# SO SUMMARY (Session 143, 2026-03-07 — Post-restructuring)
+# EXECUTED S143: TW market buy at $124.59 (EUR 600). SO $110 superseded.
+# ARCHIVED S143: GL ADD (position SOLD), TW BUY (EXECUTED)
+# NEAR TRIGGER: HALO 3.5%, DNLM.L 1.9% (UNBLOCKED), KNSL 4.6%, STMN.SW 5.6%
+# ACTIVE:    4 (DNLM.L 1.9% UNBLOCKED, ACGL 9.5%, RACE.MI ADD 10.5%, VRSN 13.9%)
+# GATED:   13 (BAH, HALO, STMN.SW, KLR.L, ROP*, FDS*, VLTO*, DSY.PA, KNSL,
+#              SOON.SW, QLYS*, SPGI, WING, SEIC, CPRT*, PEGA*, CMCSA*)
+# BORDERLINE: 1 (REN.AS*)
+# Cash EUR 1,596 — reduced SO capacity. Prioritize SPGI, VRSN, DNLM.L.
 # =============================================================================

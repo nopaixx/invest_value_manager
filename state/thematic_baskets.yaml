@@ -55,7 +55,7 @@ baskets:
       negative: ["ADBE FTC trial Oct 2026", "DOCS MFN risk (16/20 clients)", "Slimmed from 5 to 3 — less diversified"]
     last_reviewed: 2026-03-06
     created: 2026-02-22
-    notes: "S141 RESTRUCTURED: FTNT spun out to cybersecurity basket. LULU orphaned (worst E[CAGR], no CEO, proxy fight). Now 3 genuinely different businesses with high QS. VRSN (QS 86adj) is priority pipeline."
+    notes: "S143: HLNE ADD EUR 600 (>10% confirmed), DOCS ADD EUR 600. Positions significantly sized. VRSN (QS 86adj) is priority pipeline. Basket total ~30% of portfolio."
 
   - id: cybersecurity
     name: "Cybersecurity"
@@ -88,7 +88,7 @@ baskets:
       negative: ["FTNT class action active", "CVE-2026-24858 pattern concerning", "Need 2nd position to justify basket"]
     last_reviewed: 2026-03-06
     created: 2026-03-06
-    notes: "S141 NEW BASKET. Spun off from US Quality Compounders. FTNT is the anchor (QS 85, WIDE moat). QLYS SO $82 GATED on Q1 billings check. CHKP at $125 entry. 3 Tier A candidates = genuine thematic coherence. Need 2nd position to upgrade from BUILDING."
+    notes: "S143: FTNT ADD EUR 500. Position DOUBLED. Crisis beneficiary. QLYS SO $82 GATED on Q1 billings. CHKP at $125 entry. Need 2nd position to upgrade from BUILDING."
 
   - id: uk-digital-platforms
     name: "UK Digital Platforms"
@@ -108,7 +108,7 @@ baskets:
       - AUTO.L   # Auto classifieds, QS 71 Tier B — April pricing MAKE-OR-BREAK
       - IHP.L    # Adviser platform, QS 80 Tier A — quality anchor
     pipeline:
-      - DNLM.L   # Homewares e-commerce, QS 79 Tier A, SO 950p (BLOCKED — would be 6th UK if BYIT.L still counted; NOW unblocked if DOM.L exits)
+      - DNLM.L   # Homewares e-commerce, QS 79 Tier A, SO 950p — UNBLOCKED S143 (DOM.L + BYIT.L sold, now 4th UK)
       - ALFA.L   # Auto dealer platform, R4 gated Mar 12
     shared_risks:
       - "GBP depreciation (all revenues GBP-denominated)"
@@ -124,25 +124,30 @@ baskets:
       negative: ["AI disruption accelerating (BCG: marketplaces Breached)", "AUTO.L pricing pushback + April event", "UK macro overlay from Hormuz oil shock"]
     last_reviewed: 2026-03-06
     created: 2026-02-22
-    notes: "S141 TRIMMED: BYIT.L removed (Microsoft VAR, not a platform — QS 68 Tier B, 0.4% insider). Now 3 genuine digital platforms. AUTO.L April event is MAKE-OR-BREAK for basket. If AUTO.L exits → 2-position basket with MONY.L + IHP.L = still viable."
+    notes: "S143: IHP.L TRIPLED (EUR 600 ADD), MONY.L DOUBLED (EUR 500 ADD). Quality concentration in basket. DNLM.L UNBLOCKED (DOM.L + BYIT.L sold, now 4th UK acceptable). AUTO.L April = MAKE-OR-BREAK."
 
-  - id: financial-market-infrastructure
-    name: "Financial Market Infrastructure"
-    status: BUILDING
+  - id: data-analytics-monopolies
+    name: "Data & Analytics Monopolies"
+    status: ACTIVE
     theme_vitality: STRENGTHENING
     thesis: >
-      Toll-booth businesses at the core of global financial markets. Every dollar invested,
-      bond issued, company rated, trade executed, or index tracked flows through these
-      infrastructure companies. Secular drivers: global AUM growth (7-10% CAGR), regulatory
-      complexity increasing, passive investing growth, data consumption. WIDE moats from
-      regulatory barriers (ratings), network effects (exchanges), and data lock-in (indices).
+      Toll-booth monopolies in data, analytics, and professional information. These companies
+      own irreplaceable data assets or market infrastructure that every participant MUST use.
+      Secular drivers: global AUM growth (7-10% CAGR), regulatory complexity increasing,
+      passive investing growth, professional information consumption, electronification of
+      markets. WIDE moats from regulatory barriers (ratings), network effects (exchanges/trading),
+      data lock-in (indices, legal/tax databases), and switching costs (embedded workflows).
+      Renamed from Financial Market Infrastructure to reflect broader theme including
+      professional information monopolists (WKL.AS).
+    thesis_file: thesis/baskets/data-analytics-monopolies/thesis.md
     sector_views:
       - world/sectors/financial-data-analytics.md
     positions:
       - MORN    # Financial data/ratings, QS 78 Tier A
+      - TW      # Bond trading platform, QS 84adj Tier A — NEW S143
+      - WKL.AS  # Legal/tax/health information monopolist, QS ~80 Tier A — NEW S143
     pipeline:
-      - SPGI    # Ratings duopoly + S&P index monopoly, QS 78adj Tier A, SO $420 (5% from trigger)
-      - TW      # Bond trading platform, QS 76/84adj Tier A, R3 AT_FV, entry $110
+      - SPGI    # Ratings duopoly + S&P index monopoly, QS 78adj Tier A, SO $420
       - ICE     # Exchange + data monopoly, QS 65adj Tier B, SCORED
       - NDAQ    # Exchange + data, QS 67adj Tier B, 11% insider, SCORED
     shared_risks:
@@ -156,11 +161,11 @@ baskets:
       - "Major regulatory restructuring of credit ratings industry"
       - "2+ positions hit individual KCs simultaneously"
     vitality_signals:
-      positive: ["Global AUM at ATH", "Passive investing secular growth", "Regulatory complexity increasing", "SPGI 5% from trigger"]
-      negative: ["Sector trades at premium multiples (P/E 28-35x)", "MORN at 5.1% E[CAGR] = mediocre entry", "Single position — need 2nd by Mar 30"]
-    last_reviewed: 2026-03-06
+      positive: ["3 positions now (MORN + TW + WKL.AS) — ACTIVE status", "WIDE moats across all 3", "Global AUM at ATH", "WKL.AS 78% recurring revenue", "TW WIDE moat 20/25 STRENGTHENING"]
+      negative: ["Sector trades at premium multiples (P/E 28-35x)", "MORN at 5.1% E[CAGR] = rotation candidate", "TW insider selling $26.3M in Feb"]
+    last_reviewed: 2026-03-07
     created: 2026-02-28
-    notes: "S141: No structural change. SPGI at $420 SO is 5% away — primary deployment path. Best thematic thesis in portfolio but execution has been mediocre (MORN near FV). Need 2nd position by Mar 30 or downgrade to orphan + pipeline-only."
+    notes: "S143 UPGRADED: BUILDING→ACTIVE. Renamed from Financial Market Infrastructure to Data & Analytics Monopolies. Added TW (bond trading) + WKL.AS (professional information). Now 3 positions — strongest basket in portfolio with 3 WIDE-moat monopolists. SPGI in pipeline. MORN is weakest position (rotation candidate if E[CAGR] stays low)."
 
   - id: defense-rearmament
     name: "Defense & European Rearmament"
@@ -263,13 +268,10 @@ baskets:
 # fit is more important than forcing them into a fake basket.
 
 orphans:
-  # LULU — SOLD 2026-03-06. Orphan EXIT. P&L -1.0%. Capital freed EUR ~293.
-
-  - ticker: GL
-    reason: "QS 52 Tier C = lowest quality in portfolio. Post-litigation special situation, not basket anchor. Insurance is cyclical, not secular."
-    action: "HOLD as orphan value bet. SEC/DOJ cleared. Monitor class actions. If price rises toward $191 FV → TRIM. If new investigation → EXIT."
-    previous_basket: specialty-insurance
-    orphaned_date: 2026-03-06
+  # LULU — SOLD 2026-03-06. Orphan EXIT. P&L -1.0%.
+  # GL — SOLD 2026-03-07. S143 restructuring. Tier C orphan rotated to quality. P&L +0.8%.
+  # DOM.L — SOLD 2026-03-07. S143 restructuring. Tier B orphan, pre-earnings exit. P&L -1.7%.
+  # BYIT.L — SOLD 2026-03-07. S143 restructuring. Tier B probation orphan. P&L +5.7%.
 
   - ticker: NVO
     reason: "KC#1 triggered (CagriSema FAILED). HOLD LOW conviction. DECLINING theme. HALO gated until Jun 2026."
@@ -281,20 +283,6 @@ orphans:
     reason: "EU Value Recovery was a geographic label, not a theme. EDEN.PA (French employee benefits) has zero business overlap with RACE.MI (Italian luxury auto)."
     action: "HOLD. Highest E[CAGR] in portfolio (27.1%). Brazil PAT catalyst. If 2+ business services companies emerge in pipeline → form Business Services basket."
     previous_basket: eu-value-recovery
-    orphaned_date: 2026-03-06
-
-  # RACE.MI — PROMOTED to luxury-pricing-power basket S141. No longer orphan.
-
-  - ticker: DOM.L
-    reason: "UK consumer staples. No thematic cluster. Small position, LOW conviction. Mar 10 earnings = potential catalyst for rotation."
-    action: "Mar 10 FY25 results decide fate. KC#1: EBITDA < GBP 125M = SELL ALL. If base case → hold through new CEO strategy Apr 6."
-    previous_basket: null  # Always orphan
-    orphaned_date: 2026-02-22
-
-  - ticker: BYIT.L
-    reason: "Microsoft VAR/reseller, NOT a digital platform. Shoehorned into UK Digital Platforms. QS 68 Tier B, 0.4% insider. ON PROBATION."
-    action: "HOLD ON PROBATION. May 2026 FY results = gate (OP < GBP 66M = EXIT). If DOM.L sells and BYIT.L improves → reconsider for UK Digital Platforms. Otherwise EXIT candidate."
-    previous_basket: uk-digital-platforms
     orphaned_date: 2026-03-06
 
 # =============================================================================
@@ -327,47 +315,44 @@ killed_baskets:
 # =============================================================================
 
 allocation_reasoning:
-  date: 2026-03-06
+  date: 2026-03-07
   reasoning: |
-    S141 RESTRUCTURED from 6 baskets + 1 orphan to 6 baskets + 5 orphans.
-    LULU SOLD S141 (orphan EXIT). RACE.MI promoted to luxury-pricing-power basket.
-    Now 14 positions, cash ~37% (EUR 3,985).
+    S143 MASSIVE RESTRUCTURING. Sold 3 low-quality orphans, bought 2, added 5.
+    13 positions, cash EUR 1,596 (15.3%). 10 Tier A, 3 Tier B, 0 Tier C.
+    BEST QUALITY COMPOSITION EVER. 77% Tier A.
 
-    BASKET STATUS POST-RESTRUCTURE:
-    US Quality Compounders: 3 positions (ADBE, HLNE, DOCS), avg QS ~79. Slimmed.
-    VRSN R4 approved SO $210 = primary deployment path. Coherent: financial data +
-    healthcare IT + creative SaaS. Each genuinely different business.
+    BASKET STATUS POST-S143:
+    US Quality Compounders: 3 positions (ADBE, HLNE, DOCS). HLNE >10%.
+    All significantly sized via ADDs. Total basket ~30% of portfolio.
+    VRSN R4 approved SO $210 = pipeline. Coherent.
 
-    Cybersecurity (NEW): 1 position (FTNT QS 85). BUILDING.
+    Cybersecurity: 1 position (FTNT QS 85). BUILDING. Position DOUBLED via ADD.
     QLYS SO $82 GATED Q1 billings. CHKP entry $125. Need 2nd position.
-    Strongest thematic coherence of any basket. Secular + non-discretionary spend.
+    FTNT = crisis beneficiary. Strongest thematic coherence.
 
-    UK Digital Platforms: 3 positions (MONY.L, IHP.L, AUTO.L). Cleaned.
-    BYIT.L removed (not a platform). AUTO.L April = MAKE-OR-BREAK.
-    IHP.L quality anchor (QS 80). Genuine digital marketplace theme.
+    UK Digital Platforms: 3 positions (MONY.L, IHP.L, AUTO.L). ACTIVE.
+    IHP.L TRIPLED, MONY.L DOUBLED via ADDs. Quality concentration.
+    AUTO.L April = MAKE-OR-BREAK. DNLM.L now UNBLOCKED (DOM.L + BYIT.L sold).
 
-    Financial Market Infrastructure: 1 position (MORN). BUILDING.
-    SPGI SO $420 (5% away) = highest-priority deployment. Best thesis, mediocre entry.
-    Need 2nd position by Mar 30 or downgrade.
+    Data & Analytics Monopolies: 3 positions (MORN, TW, WKL.AS). ACTIVE.
+    Renamed from Financial Market Infrastructure. 3 WIDE-moat monopolists.
+    Strongest basket thesis. SPGI in pipeline. MORN rotation candidate.
 
-    Defense & Rearmament (NEW): 0 positions. RESEARCHING.
-    Biggest strategic gap. NATO 5% GDP + Hormuz = multi-decade theme.
-    BAH (P/E 11.8x) is the contrarian entry. RHM.DE QS 70, BA.L QS 71 scored.
-    Most names expensive — selectivity critical.
+    Defense & Rearmament: 0 positions. RESEARCHING.
+    BAH (P/E 11.8x) is the contrarian entry. Pipeline intact.
 
-    Luxury & Pricing Power (NEW): 1 position (RACE.MI QS 84). RESEARCHING.
-    Promoted from orphan. Score RMS.PA + MC.PA for pipeline. Veblen pricing theme.
+    Luxury & Pricing Power: 1 position (RACE.MI QS 84). RESEARCHING.
+    Score RMS.PA + MC.PA for pipeline.
 
-    ORPHANS (5): GL (value bet), NVO (HOLD LOW),
-    EDEN.PA (highest E[CAGR]), DOM.L (Mar 10 binary),
-    BYIT.L (probation). LULU SOLD. RACE.MI promoted to basket.
+    ORPHANS (2): NVO (HOLD LOW), EDEN.PA (highest E[CAGR]).
+    Down from 5 orphans. 3 sold (GL, DOM.L, BYIT.L).
 
-    CAPITAL FLOW PRIORITY (EUR 3,692 deployable):
-    1. VRSN SO $210 — R4 approved, QS 86adj, fits US QC basket
-    2. SPGI SO $420 — single-position FMI basket, best thesis
-    3. BAH re-eval — defense basket, only cheap quality name
-    4. QLYS/CHKP — cybersecurity basket 2nd position when gates clear
-    5. Rotation: LULU EXIT Mar 17 → redeploy to strongest basket gap
+    CAPITAL FLOW PRIORITY (EUR 1,596 remaining):
+    1. SPGI SO $420 — 7.2% away, Data & Analytics Monopolies 4th position
+    2. VRSN SO $210 — R4 approved, QS 86adj, US QC basket
+    3. QLYS/CHKP — cybersecurity 2nd position when gates clear
+    4. BAH — defense basket contrarian entry if DOGE risk clarifies
+    5. MORN rotation → if E[CAGR] stays <5%, rotate to SPGI/KNSL
 
 # =============================================================================
 # THEME DISCOVERY TRACKING

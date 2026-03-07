@@ -1,13 +1,14 @@
 # IHP.L - IntegraFin Holdings PLC
 
 > **Fair Value:** 390 GBp (R3 post-DA, was 415p R1)
-> R1 Fundamental Analysis | Date: 2026-02-20
+> R1 Fundamental Analysis | Date: 2026-02-20 | Updated: 2026-03-07 (S142)
 > Analyst: fundamental-analyst (opus)
-> Sector View: world/sectors/uk-adviser-platforms.md
+> Sector View: world/sectors/uk-adviser-platforms.md (FRESH, updated 2026-03-07)
+> **Status: ACTIVE HOLD** — 110 shares @ avg 323p (~3.9% portfolio). BUY S108 + ADD S127.
 
 ## TL;DR
 
-IntegraFin operates Transact, the UK's leading independent adviser investment platform with GBP 77.2bn FUA, proprietary technology, 97.8% gross margins, and 24.2% insider ownership. QS 80 (Tier A). The stock is 21% below its 52-week high at 315p, punished by revenue margin compression fears (22.4bps -> 21.9bps). My thesis: volume growth (FUA +14% YoY, net inflows +76%) outpaces margin compression (1bps/yr), and the market is anchoring on the margin decline while ignoring the operating leverage from costs guided to grow at only 3%/yr. FV range 380-420p. At 315p, MoS ~17-26%.
+IntegraFin operates Transact, the UK's leading independent adviser investment platform with GBP 77.2bn FUA (+17% YoY), proprietary technology, 97.8% gross margins, and 24.2% insider ownership. QS 80 (Tier A). Net inflows +76% YoY (organic flow rate ~11% of FUA). My thesis: volume growth outpaces margin compression (1bps/yr), and the market anchors on margin decline while ignoring operating leverage from costs guided +3%/yr. FV 390p (R3 post-DA). HL now delisted (CVC/Nordic/ADIA takeout completed Mar 2025) — reduces competitive pressure. At 318p, MoS ~18.5%.
 
 ---
 
@@ -131,7 +132,7 @@ Platforms using outsourced tech (FNZ) pay license fees, have less control over p
 | Revenue margin compression will kill earnings | Volume growth outpaces margin compression | FUA +14% YoY, net inflows +76%. Revenue grew +8% despite margin falling 1.1bps |
 | Pricing cuts signal weakness | Pricing cuts are OFFENSIVE (to win market share from FNZ platforms) | Net inflow share 20%+ vs 10% FUA share. Winning disproportionately |
 | T4A impairment signals failed diversification | T4A is <4% of revenue. Core platform is what matters | GBP 7.5M write-down on a GBP 1.0B market cap company is noise |
-| Competition will erode moat | Proprietary tech + 25yr of functionality + adviser switching costs = durable moat | HL going private (less competitive). Quilter/Abrdn on inferior outsourced tech |
+| Competition will erode moat | Proprietary tech + 25yr of functionality + adviser switching costs = durable moat | HL delisted/taken private by CVC (completed Mar 2025, GBP 5.4bn) — less competitive as PE-owned. Quilter/Abrdn on inferior outsourced tech |
 | Limited earnings growth | Operating leverage: costs guided +3%/yr vs revenue +8%+ | PBT margin should EXPAND from 48% to 50%+ over FY26-FY27 |
 
 ### Value Trap Checklist
@@ -465,23 +466,22 @@ E[CAGR] of 13.2% exceeds 12% threshold for Tier A deployment per framework.
 
 ---
 
-## Veredicto: WATCHLIST with Standing Order Recommendation
+## Veredicto: ACTIVE HOLD (was WATCHLIST — BUY EXECUTED)
 
-**At 315p, IHP.L offers 19% MoS vs FV 390p (R3 post-DA) with E[CAGR] ~19% -- above the 12% Tier A threshold.**
+**Position opened S108 (2026-02-24): 55 shares @ ~318p, EUR 200. ADD S127: 55 shares @ ~320p, EUR 200. Total: 110 shares @ avg 323p, ~3.9% portfolio.**
 
-However, I recommend WATCHLIST (not immediate BUY) for these reasons:
+At 318p (Mar 7, 2026), MoS ~18.5% vs FV 390p. E[CAGR] ~22.6% at ADD price (S127).
 
-1. **Earnings proximity**: FY26 H1 results expected ~June 2026. The operating leverage thesis needs validation -- if H1 shows PBT margin expanding toward 50%+, conviction increases materially
-2. **Revenue margin data point**: Next quarterly update will show whether compression is truly decelerating as management guided
-3. **UK concentration**: With 4 UK positions already, adding a 5th requires higher conviction threshold. MoS of 24% is good but not exceptional for Tier A precedents (NVO had 38%, BYIT.L 35%)
-4. **Price trend**: Stock was 398p in Dec 2025, now 315p (21% decline). May still be finding a floor
+**Hold rationale:**
+- FUA +17% YoY, net inflow organic rate ~11% of FUA — strong volume growth
+- Operating leverage thesis intact: costs guided +3%/yr vs revenue +8%+
+- HL delisted (Mar 2025) — competitive pressure reduced
+- 24.2% insider ownership with recent BUYING (Jan-Feb 2026)
+- Next validation: H1 FY26 results (~June 2026) — expect PBT margin expanding toward 50%+
 
-**Standing Order Recommendation:**
-- **Entry: 300p** (MoS 27.7% vs FV 415p)
-- **Sizing: 3-4% (EUR 300-400)**
-- **Condition: Validate operating leverage thesis with H1 FY26 results before execution OR if price reaches 300p before H1 results**
+**EXIT plan:** HOLD. TRIM at 450p+. ADD at 250p (MoS 36%). SELL if KC triggered (AUM outflows >5% 2Q, platform downtime >48h, FCA investigation).
 
-This is 5% below current price of 315p -- achievable on any moderate market pullback. At 300p, the thesis is compelling enough to add despite UK concentration concerns.
+**Macro overlay (Mar 2026):** Iran/Hormuz crisis creating FTSE volatility. IHP.L sector view assesses AUM drawdown risk: base case -5 to -8% market impact on FUA, manageable given 11% organic inflow rate compensates. Oil price sensitivity LOW (financial infrastructure, not consumer discretionary).
 
 ---
 

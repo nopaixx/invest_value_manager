@@ -595,6 +595,39 @@ Given QS 82 (Tier A) but elevated near-term uncertainty:
 
 ---
 
+## THESIS UPDATE v4.1 — Wegovy Pill Exceeding Expectations (2026-03-07, S142)
+
+### What's Changed
+- **Wegovy pill launch exceeding expectations** (S140 data, Mar 4): Weekly prescriptions tracking ~50K/week, above internal targets. Oral semaglutide for obesity is validating the base case assumption that Wegovy pill can partially offset CagriSema weakness.
+- **Price**: $38.58 (Mar 7). Down from $48.13 avg cost (-19.8% unrealized).
+- **E[CAGR] at current price**: (50/38.58)^(1/3) - 1 + 5% growth + 4.8% div = ~18.8%. Well above 15% Tier B threshold.
+
+### Impact on Thesis
+- **Base case CONFIRMED, not upgraded.** The $50 FV (v4.0) assumed "Wegovy pill grows, CagriSema niche." Wegovy pill exceeding expectations validates this assumption — it does NOT raise FV because it was already baked in.
+- **Bear case probability slightly reduced**: 35% → 30%. Wegovy pill success reduces the "everything goes wrong" scenario where both next-gen AND base franchise fail.
+- **Bull case probability slightly raised**: 15% → 20%. If Wegovy pill becomes a blockbuster oral formulation, it could partially compensate for CagriSema inferiority.
+
+### Revised Scenarios (v4.1)
+| Scenario | Prob | FV | Change | Key Assumption |
+|----------|------|-----|--------|----------------|
+| Bear | 30% (was 35%) | $35-42 | -5pp | Share <35%, GM <72%, no next-gen differentiation |
+| Base | 50% | $50 | unchanged | Duopoly at 38%, Wegovy pill grows, CagriSema niche |
+| Bull | 20% (was 15%) | $65 | +5pp | Wegovy pill blockbuster, new indications, sentiment recovery |
+
+**New Expected Value: ($38.5 * 0.30) + ($50 * 0.50) + ($65 * 0.20) = $11.55 + $25 + $13 = $49.55 → ~$50 (unchanged)**
+
+### Conviction Assessment
+- **Conviction stays LOW.** KC#1 remains triggered (CagriSema inferior). One positive data point (Wegovy pill) doesn't reverse a structural competitive disadvantage in next-gen compounds.
+- **However, HOLD case strengthens.** E[CAGR] 18.8% at $38.58 is compelling. The base business is generating real cash ($10B+ FCF). Wegovy pill validates the revenue offset thesis.
+- **Upgrade to MEDIUM would require**: (a) FY2026 revenue decline <5% (beating bear guidance), OR (b) Wegovy pill scripts >100K/week sustained for 2Q, OR (c) Market share stabilizes at >42% for 2Q.
+
+### Next Catalysts
+- **Wegovy pill ramp data** (Q1-Q2 2026): if scripts sustain >50K/week through Q2 → POSITIVE
+- **FY2026 Q1 results** (~May 2026): first quarter with Wegovy pill contribution
+- **Market share data**: monthly IMS/IQVIA data tracking NVO vs LLY share
+
+---
+
 ## THESIS UPDATE v4.0 — CagriSema REDEFINE 4 Failure (2026-02-25, S117-S118)
 
 ### What Happened
