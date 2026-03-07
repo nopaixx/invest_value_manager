@@ -238,8 +238,8 @@ baskets:
     positions:
       - EDEN.PA   # Employee benefits, QS 62 Tier B, highest E[CAGR] 27.1%. Promoted from orphan S143.
     pipeline:
-      - RMS.PA   # Hermes — ultra-luxury, likely QS >80 Tier A. NOT SCORED. 2+ year waitlists.
-      - MC.PA    # LVMH — luxury conglomerate, likely QS ~70 Tier B. NOT SCORED. Diversified but China exposure.
+      - RMS.PA   # Hermes — QS 88/96 Tier A. SEVERELY OVERVALUED EUR 1905 vs entry EUR 1200. Crisis-only.
+      - MC.PA    # LVMH — QS 54/72 Tier B. SCORED S145. FV EUR 540, entry EUR 430. OVERVALUED at EUR 502 (7% above entry).
     shared_risks:
       - "EUR depreciation vs USD"
       - "EU regulatory tightening (EDEN.PA France regulation)"
@@ -256,8 +256,11 @@ baskets:
     notes: >
       S145: RACE.MI SOLD S143. Basket downgraded ACTIVE→BUILDING. Single position (EDEN.PA).
       E[CAGR] 27.1% = highest in portfolio. Need 2nd position to regain ACTIVE.
-      P17 deadline: ~Apr 6 (60d from RACE.MI sale). Score RMS.PA + MC.PA urgently.
-      If no 2nd position by deadline → kill basket, EDEN.PA becomes orphan.
+      P17 deadline: ~Apr 6 (60d from RACE.MI sale). KILL at deadline accepted.
+      RMS.PA QS 96adj (highest in universe) but EUR 1905 = 41% above FV. Crisis-only.
+      MC.PA SCORED S145: QS 72 Tier B, FV EUR 540, entry EUR 430. 7% above entry.
+      Neither candidate is deployable at current prices. Basket will die at deadline.
+      EDEN.PA stays on E[CAGR] merit (27.1%). It doesn't need a basket to justify hold.
 
 # =============================================================================
 # GLP-1 & Obesity Basket — KILLED S145

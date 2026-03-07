@@ -32,7 +32,8 @@ on_watch:
   - { ticker: CKN.L, entry: "3200 GBp", fv: "5200 GBp", notes: "R1 COMPLETE 2026-02-19. QS 83/80 Tier A borderline. PROFIT WARNING. HARD GATE Mar 2026." }
   - { ticker: KLR.L, entry: "1750 GBp", fv: "2600 GBp", notes: "R1 COMPLETE. QS 76/79 Tier A. Gate CLEARED. SO 1700p. Record FY25. UK-listed 55% US rev." }
   - { ticker: GDWN.L, entry: "11500 GBp", fv: "14320 GBp", notes: "R1 COMPLETE. QS 86/80 Tier A. SEVERELY OVERVALUED at 25,761p. Crisis-only." }
-  - { ticker: RMS.PA, entry: "EUR 1200", fv: "EUR 1350", notes: "R1 COMPLETE. QS 78/86 Tier A. Best luxury. SEVERELY OVERVALUED. Crisis-only." }
+  - { ticker: RMS.PA, entry: "EUR 1200", fv: "EUR 1350", notes: "R1 COMPLETE. QS 88/96 Tier A. Best luxury. SEVERELY OVERVALUED at EUR 1905. Crisis-only." }
+  - { ticker: MC.PA, entry: "EUR 430", fv: "EUR 540", notes: "SCORED S145. QS 54/72 Tier B. LVMH #1 luxury. OVERVALUED at EUR 502. EU Pricing Power pipeline. 50% Arnault." }
   - { ticker: BZU.MI, entry_eur: 42, notes: "R1 COMPLETE. QS 73/70 Tier B (cyclical adj). FV EUR 58. 53% family. Net cash EUR 1.1B. CYCLICAL — buy only in downturn." }
   - { ticker: KNEBV.HE, entry_eur: 46, notes: "R1 COMPLETE. QS 72/80 Tier A (+8 adj). FV EUR 54. #2-3 elevator oligopoly. OVERVALUED at EUR 63. -27% away." }
   - { ticker: ADDT-B.ST, entry_sek: 180, notes: "R3 complete. QS 77 Tier A lower. FV SEK 225. Crisis only (-44%)." }

@@ -444,6 +444,35 @@ standing_orders:
 # Requires: Short pipeline S1-S4 complete + investment-committee SHORT_APPROVAL
 # =============================================================================
 short_orders:
+  - ticker: CVNA
+    action: SHORT
+    category: ACTIVE
+    trigger: "$290-$330 range AND VIX < 28"
+    size_eur: 100
+    fair_value_short: "$120 (S3 weighted multi-method)"
+    catalyst: "Q1 2026 earnings (~May 6) — EBITDA margin test: if <10% again = confirmation"
+    catalyst_date: 2026-05-06
+    carry_cost_note: "~7-8% annual on eToro CFD (~EUR 0.63/month). Negligible at 1% sizing."
+    max_duration: "6 months (cover by Sep 2026 if no catalyst materializes)"
+    stop_loss: "$370 (+16% from ~$317 entry midpoint. Max loss EUR ~17 = 0.16% portfolio)"
+    instrument: "CFD short, x1 leverage, no margin"
+    kill_conditions:
+      - "KC#1: EBITDA margin recovers >12% 2 consecutive quarters → COVER"
+      - "KC#2: Stock > $370 → COVER immediately (stop loss)"
+      - "KC#3: Garcia family cleared of all fraud allegations → COVER within 30 days"
+      - "KC#4: FCF > $2B annually → COVER (proves sustainability)"
+      - "KC#5: Carry cost > 8% of position without active catalyst → COVER"
+    entry_conditions:
+      - "Price $290-$330 (currently $317.70 = WITHIN RANGE)"
+      - "VIX < 28 (currently 29.49 = WAIT for VIX to settle)"
+      - "No CVNA-specific event in next 48h"
+      - "Human confirmation required (ALL shorts need confirmation)"
+    notes: "S4 APPROVED CONDITIONAL 2026-03-07. QS 30 Tier D at 62x adj P/E. EBITDA margin compressing 12%→9.1%. $685M DTA inflation. PIK→cash interest transition mid-2026. 1% sizing per LYV precedent. FIRST SHORT POSITION."
+    last_analysis_date: 2026-03-07
+    expiry: 2026-09-01
+    fill_prob_6m: 70
+    staleness_status: FRESH
+
   # LYV — CANCELLED Session 93 (2026-02-20)
   # Reason: KC#3 triggered (organic rev >10% 2Q consecutive). Operational thesis dead.
   # Reverse DCF at 8-10% growth: FV $170-238 >> $130 cancel threshold.
