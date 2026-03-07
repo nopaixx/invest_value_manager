@@ -157,6 +157,18 @@ so_reality_check:
   next_due: 2026-03-08
   last_result: "S142: RACE.MI SO executed (market buy). VRSN SO $210 ACTIVE (R4 approved). HALO R4 approved. SOs updated post-defense batch."
 
+# QUARTERLY — TOOL AUDIT
+tool_fx_audit:
+  frequency: quarterly
+  last_run: 2026-03-07
+  next_due: 2026-06-07
+  last_result: "S143c13: Full audit of 28 tools. 14 CRITICAL stale FX fallbacks fixed (EURUSD 1.04→1.16, GBPEUR 1.19→1.15, CHF 0.95→1.06). 7 HIGH-risk values monitored (rf, erp, sector medians, carry cost). All committed."
+  tool: "grep -rn 'EURUSD\\|GBPEUR\\|fallback' tools/*.py"
+  notes: |
+    Check FX fallback values against live rates. If >5% drift on any major pair, update.
+    Also review: quality_scorer.py rf/erp, forward_return.py carry cost, portfolio_cagr.py cash yield.
+    Trigger: quarterly OR when EUR/USD moves >5% from stored fallback.
+
 # MAINTENANCE
 maintenance:
   last_health_check: 2026-03-02
