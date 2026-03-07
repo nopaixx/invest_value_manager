@@ -1,6 +1,6 @@
 # DOM.L - Domino's Pizza Group PLC
 ## Fundamental Analysis & Investment Thesis v3.0
-**Date:** 2026-02-10 | **Analyst:** Claude (Orchestrator) | **Status:** HOLD LOW CONVICTION | **Review:** 2026-02-20
+**Date:** 2026-02-10 | **Analyst:** Claude (Orchestrator) | **Status:** HOLD LOW CONVICTION | **Review:** 2026-03-10 (earnings)
 **Previous version:** 2026-02-03 (v2.0)
 **Framework version:** 4.0 (Principios Adaptativos + Adversarial lens)
 > **Fair Value:** 240 GBp (v3.0, EV/EBIT 60% + P/E 40%)
@@ -28,7 +28,7 @@ Domino's Pizza Group is the exclusive master franchisee for Domino's in the UK a
 2. **H1 2025 PBT fell 14.8%** to £43.7M confirming FY25 as a trough year — but market share gains accelerated (+560bp)
 3. **Store openings slowed dramatically:** mid-twenties target for FY25 vs 54 in FY24 — growth engine decelerating
 
-Fair value revised to **240p** (v2.0: 294p, -18.4%). At 193.9p, MoS is 19.2% — below Tier B typical 20-25%. Position is marginal. HOLD through FY25 results March 5, decision framework below.
+Fair value revised to **240p** (v2.0: 294p, -18.4%). At 183.6p, MoS is 23.5% — within Tier B 20-25% range. HOLD through FY25 results March 10, decision framework below.
 
 ---
 
@@ -324,14 +324,14 @@ The wide DCF range (170-364p) confirms why DCF is inappropriate as primary metho
 ## SECTION 6: MARGIN OF SAFETY
 
 ```
-Current Price: 193.9p
+Current Price: 183.6p (Mar 7, 2026)
 Fair Value v3.0: 240p
-MoS = (240 - 193.9) / 240 = 19.2%
+MoS = (240 - 183.6) / 240 = 23.5%
 
 Tier B typical MoS: 20-25% (per precedents)
 
-RESULT: 19.2% MoS — marginally below Tier B typical range.
-This is NOT a clear buy. But NOT a sell either.
+RESULT: 23.5% MoS — within Tier B typical range.
+MoS improved from 19.2% (Feb 10) as price drifted lower.
 ```
 
 **Comparison v2.0 vs v3.0:**
@@ -450,8 +450,8 @@ v2.0 said "trending WIDE" — but store opening deceleration suggests franchise 
 ### Current Status: HOLD — LOW CONVICTION
 
 **Rationale:**
-- FV 240p vs 193.9p = 19.2% MoS. Marginally below Tier B 20-25% typical
-- FY25 results March 5 is the decisive moment — 23 days away
+- FV 240p vs 183.6p = 23.5% MoS. Within Tier B 20-25% typical range
+- FY25 results March 10 is the decisive moment — 3 days away
 - New CEO removes key overhang but execution risk remains
 - Position size ~4% is appropriate for current conviction
 - No thesis break: market share growing, moat intact, FCF positive
@@ -505,7 +505,7 @@ v2.0 had +67% expected return — was overly optimistic.
 
 | Date | Event | Impact |
 |------|-------|--------|
-| **Mar 5, 2026** | **FY25 Results** | **CRITICAL — SELL/HOLD decision** |
+| **Mar 10, 2026** | **FY25 Results** | **CRITICAL — SELL/HOLD decision** |
 | Mar 16, 2026 | New CFO Andy Andrea starts | MEDIUM — operational stability |
 | Apr 6, 2026 | New CEO Dominic Paul starts | HIGH — strategic direction |
 | Q2 2026 | H1 2026 trading update | MEDIUM — first read under new management |
@@ -547,7 +547,7 @@ v2.0 had +67% expected return — was overly optimistic.
 - DoorDash/Deliveroo acquisition completion (Oct 2025)
 - UK Autumn Budget 2025 NLW/NIC analysis
 - quality_scorer.py output: 61/100 Tier B
-- price_checker.py: 193.90p (Feb 10, 2026)
+- price_checker.py: 183.60p (Mar 7, 2026)
 - dcf_calculator.py scenario analysis
 
 ---

@@ -353,11 +353,11 @@ MORN trades at a massive discount to peers. Even adjusting for lower margins (MO
 
 | Metric | Value |
 |--------|-------|
-| Current Price | $189.86 (Mar 6) |
+| Current Price | $190.15 (Mar 7) |
 | Fair Value (v4.0) | $195 |
 | Expected Value | $208 |
-| MoS vs FV $195 | **+2.7%** |
-| MoS vs EV | **+9.6%** |
+| MoS vs FV $195 | **+2.5%** |
+| MoS vs EV | **+9.4%** |
 | MoS vs Bear | **-22%** |
 
 **Assessment:** At $155, MoS of 32% vs base and 34% vs EV is excellent for a Tier A compounder. The bear case at $148 is only 5% below current price, providing strong downside protection: even in the bear case, the downside is minimal.
