@@ -80,6 +80,36 @@ events:
   # NVO CagriSema head-to-head: COMPLETED Feb 23. FAILED. KC#1 triggered. See thesis/active/NVO/thesis.md v4.0.
   # Next NVO catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update (no fixed date yet).
 
+  # DOM.L ARCHIVED S145: Position SOLD S143. Monitoring only for potential re-entry.
+
+  - date: 2026-03-29
+    type: regulatory
+    ticker: LNTH
+    event: "LNTH OCTEVY PDUFA (FDA decision) — pipeline catalyst for R1 thesis"
+    priority: medium
+    action: "R1 complete, WATCHLIST at $68 entry. If APPROVED → pipeline thesis strengthens, reconsider entry. If REJECTED → FV drops to $70-75, thesis weakens."
+
+  - date: 2026-03-30
+    type: ex_dividend
+    ticker: NVO
+    event: "NVO ex-dividend date"
+    priority: low
+    action: "Capture dividend. DKK 5.30/share (~$0.71)."
+
+  - date: 2026-04-05
+    type: catalyst
+    ticker: TSLA
+    event: "TSLA Q1 2026 deliveries report (approximate) — SHORT DECISION GATE"
+    priority: high
+    action: "S3 resolved: <370K = ENTER short $270-310. >400K = DEFER. S4 pre-flight ready. Run committee before this date."
+
+  - date: 2026-04-21
+    type: earnings
+    ticker: TSLA
+    event: "TSLA Q1 2026 earnings (approximate) — SHORT CATALYST #2"
+    priority: high
+    action: "Secondary catalyst for short thesis. ROIC, margins, guidance. If short position open, PASS/FAIL determines hold/cover."
+
   - date: 2026-03-18
     type: macro_event
     ticker: PORTFOLIO
