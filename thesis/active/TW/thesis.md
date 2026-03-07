@@ -1,5 +1,6 @@
 # TW - Tradeweb Markets Inc.
 
+> **Fair Value:** $140 (R3 post-DA, was $155-159 R1. DA reduced citing thin edge vs consensus, LSEG overhang.)
 > R1 Fundamental Analysis | 2026-02-23
 > Analyst: fundamental-analyst agent | Framework v4.0
 
@@ -7,7 +8,7 @@
 
 ## TL;DR
 
-Tradeweb is the dominant electronic trading infrastructure platform for fixed income, derivatives, and ETFs, operating in the early-to-mid stages of a massive electronification S-curve. With 67% gross margins, 52% FCF margins, net cash, and 20% revenue CAGR, it is one of the highest-quality businesses in capital markets. At $119.47, the market implies FCF DECLINE of -5%/yr — a profound disconnect from the +26% ADV growth seen in January 2026. Fair value is approximately $148-155, placing the stock at 19-23% MoS and E[CAGR] of 12-14%. This is a Tier A deployment candidate at current prices.
+Tradeweb is the dominant electronic trading infrastructure platform for fixed income, derivatives, and ETFs, operating in the early-to-mid stages of a massive electronification S-curve. With 67% gross margins, 52% FCF margins, net cash, and 20% revenue CAGR, it is one of the highest-quality businesses in capital markets. **R3 Fair Value: $140** (down from R1 $155-159 after DA challenge on valuation convergence with consensus and LSEG overhang). At $125, E[CAGR] ~16% with 12% MoS.
 
 ---
 

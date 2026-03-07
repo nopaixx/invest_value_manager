@@ -1,8 +1,10 @@
 # WKL.AS - Wolters Kluwer NV
 
+> **Fair Value:** EUR 72 (Committee decision, 10-gate formal output. R1 was EUR 94.28, committee reduced -24% citing FV inflation, insufficient MoS at market, no sector view at time of R1.)
+
 ## TL;DR
 
-Global leader in professional information services (legal, tax, health, compliance) trading at EUR 67.70, down 63% from 52-week high on AI disruption fears. The market is pricing in catastrophic AI disruption, but only 10-13% of EBIT comes from the "legal" segment actually threatened by Claude's legal plug-in. The remaining 87-90% of the business is deeply embedded workflow software with extreme switching costs. Quality Score 72 (Tier B). Base case fair value EUR 99 implies +46% upside with 32% MoS.
+Global leader in professional information services (legal, tax, health, compliance) trading at EUR 67.70, down 63% from 52-week high on AI disruption fears. The market is pricing in catastrophic AI disruption, but only 10-13% of EBIT comes from the "legal" segment actually threatened by Claude's legal plug-in. The remaining 87-90% of the business is deeply embedded workflow software with extreme switching costs. Quality Score 72 (Tier B). **Committee fair value EUR 72** (down from R1 EUR 94.28). Bought at EUR 68.52 under market-buy protocol (above committee entry EUR 50-55).
 
 ---
 
