@@ -65,11 +65,11 @@ system:
   # History preserved for consistency checks.
   net_exposure:
     current:
-      long_pct: 84.7
+      long_pct: 80.1
       short_pct: 0.0
-      cash_pct: 15.3  # EUR 1,596
-      net_pct: 84.7
-      gross_pct: 84.7
+      cash_pct: 19.9  # EUR 2,071 (MORN sold +~475)
+      net_pct: 80.1
+      gross_pct: 80.1
     reasoning: |
       Session 143 (2026-03-07): MASSIVE DEPLOYMENT 63/0/37 → 85/0/15.
       S143 restructuring: sold 3 low-quality positions (GL Tier C, BYIT.L Tier B probation, DOM.L Tier B orphan).
@@ -111,6 +111,21 @@ system:
         net_pct: 39.3
         gross_pct: 39.3
         note: "S76. LYV S4 APPROVED CONDITIONAL. Primera documentacion formal. Cash 60.7% excesivo."
+
+  # BASKET WEIGHTS (S143c4, cost-basis proxy, 2026-03-07)
+  # Total portfolio ~EUR 10,846 (invested ~8,775 + cash 2,071)
+  basket_weights:
+    date: 2026-03-07
+    method: "cost-basis proxy (no live prices)"
+    baskets:
+      - { basket: "US Quality Compounders", positions: "ADBE+HLNE+DOCS", eur: 3295, weight_pct: 30.4, target_pct: 33 }
+      - { basket: "UK Digital Platforms", positions: "MONY.L+IHP.L+AUTO.L", eur: 2281, weight_pct: 21.0, target_pct: 22 }
+      - { basket: "Data & Analytics Monopolies", positions: "TW+WKL.AS", eur: 1201, weight_pct: 11.1, target_pct: 12 }
+      - { basket: "Cybersecurity", positions: "FTNT", eur: 908, weight_pct: 8.4, target_pct: 9 }
+      - { basket: "European Pricing Power", positions: "EDEN.PA+RACE.MI", eur: 745, weight_pct: 6.9, target_pct: 7 }
+      - { basket: "GLP-1", positions: "NVO", eur: 345, weight_pct: 3.2, target_pct: 3 }
+      - { basket: "Cash", positions: "", eur: 2071, weight_pct: 19.1, target_pct: 15 }
+    notes: "Cash 4pp above target due to MORN proceeds (+~475). All baskets within 1-3pp of targets. Next deployment priority: SPGI/VRSN to bring cash toward 15%."
 
   # STRATEGIC DIRECTION — Re-evaluate EVERY session start with fresh data.
   # This is NOT a plan. It's a compass bearing. Replace when context changes.

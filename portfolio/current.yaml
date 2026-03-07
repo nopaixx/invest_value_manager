@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 1596  # Updated 2026-03-07. S143: SELL GL+BYIT.L+DOM.L (~EUR 1,136), BUY TW+WKL.AS (-EUR 1,200), ADD IHP.L+HLNE+DOCS+MONY.L+FTNT (-EUR 2,800). Previous: 3985.
+  amount: 2071  # Updated 2026-03-07. S143c4: MORN SOLD (+~EUR 475). Previous: 1596.
   currency: EUR
 
 positions:
@@ -102,18 +102,7 @@ positions:
     exit_plan: "HOLD LOW conviction. April 2026 pricing event = MAKE-OR-BREAK. May 2026 FY results = MANDATORY REVIEW. EXIT if April causes >200 cancellations or dealer count -3%+. EXIT if CMA formal investigation. EXIT if ARPR <3%. If Tier A opportunity needs capital, candidate for rotation."
     notes: "Adversarial + urgent re-eval 2026-02-11: QS 79->71 (Tier A->B). FV 688->617->580p. Moat under active siege (180+ downgrades, Jefferies/Berenberg downgrade). Financial quality 40/40 exceptional. ROIC +42pp. Position small (3.4%), loss manageable (-3.3%)."
 
-  - ticker: MORN
-    name: "Morningstar, Inc."
-    shares: 2.9
-    invested_usd: 466.20
-    avg_cost_usd: 161.00  # Corrected from eToro (was 160.76)
-    date_opened: 2026-02-20
-    thesis: thesis/active/MORN/thesis.md
-    conviction: medium
-    fair_value: "$195 (v4.0. QS Tool 60/83, Adj 78 Tier A. FV raised $180→$195 post-CRSP accretion.)"
-    last_review: 2026-02-20
-    exit_plan: "HOLD. TRIM at $220+. ADD at $140 (MoS 28%). SELL if KC#1 (rev growth negative 2Q) or KC#8 (CRSP regulatory investigation). Next earnings ~April 2026."
-    notes: "FIRST E[CAGR]-framework market buy. E[CAGR] 15.6% at $161.85. MoS 17% (below historical 29-38% Tier A precedent, justified by Expected Return framework S90). 46% insider (Mansueto). Zero portfolio overlap. Financial data/analytics sector."
+  # MORN REMOVED 2026-03-07 - SOLD. S143 restructuring. Data & Analytics Monopolies basket rotation. QS 78 Tier A but lowest E[CAGR] (~5.1%) in basket. Capital redeployed to TW + WKL.AS. P&L ~+2%.
 
   - ticker: IHP.L
     name: "IntegraFin Holdings plc"
@@ -810,3 +799,12 @@ transactions:
     price_gbp: 83.67
     total_eur: 500
     notes: "ADD - S143. Cybersecurity basket anchor. QS 85 Tier A. WIDE moat. Crisis beneficiary. Position doubled."
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: MORN
+    shares: 2.9
+    price_usd: ~164
+    total_eur: ~475
+    pnl_pct: ~2.0
+    notes: "EXIT - S143 restructuring. QS 78 Tier A but lowest E[CAGR] (~5.1%) in Data & Analytics Monopolies basket. Capital redeployed to TW + WKL.AS (higher-quality WIDE moats). 46% insider (Mansueto) validated but rotation to better opportunities."
