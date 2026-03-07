@@ -43,9 +43,9 @@ def load_yaml(path):
 
 
 def get_fx_rates():
-    defaults = {'EURUSD': 1.04, 'GBPEUR': 1.19, 'DKKEUR': 0.134}
+    defaults = {'EURUSD': 1.16, 'GBPEUR': 1.15, 'DKKEUR': 0.134}
     fallbacks, rates = [], {}
-    for pair, key, dflt in [('EURUSD=X','EURUSD',1.04),('GBPEUR=X','GBPEUR',1.19),('DKKEUR=X','DKKEUR',0.134)]:
+    for pair, key, dflt in [('EURUSD=X','EURUSD',1.16),('GBPEUR=X','GBPEUR',1.15),('DKKEUR=X','DKKEUR',0.134)]:
         try:
             v = yf.Ticker(pair).info.get('previousClose')
             if not v: raise ValueError

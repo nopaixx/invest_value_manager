@@ -54,7 +54,7 @@ def get_fx_rates() -> Dict[str, float]:
     rates = {}
     fallbacks_used = []
     pairs = {"USD": "EURUSD=X", "GBP": "GBPEUR=X"}
-    defaults = {"USD": 1.04, "GBP": 1.19}
+    defaults = {"USD": 1.16, "GBP": 1.15}
     for ccy, symbol in pairs.items():
         try:
             rate = yf.Ticker(symbol).info.get("previousClose")
@@ -79,17 +79,17 @@ def to_eur(value: float, currency: str, rates: Dict[str, float]) -> float:
     if currency == "EUR":
         return value
     if currency == "USD":
-        return value / rates.get("USD", 1.04)
+        return value / rates.get("USD", 1.16)
     if currency in ("GBp", "GBX"):
-        return (value / 100) * rates.get("GBP", 1.19)
+        return (value / 100) * rates.get("GBP", 1.15)
     if currency == "GBP":
-        return value * rates.get("GBP", 1.19)
+        return value * rates.get("GBP", 1.15)
     if currency in ("SEK", "NOK", "DKK"):
-        return value * 0.087
+        return value * 0.088
     if currency == "CHF":
-        return value * 0.95
+        return value * 1.06
     if currency == "JPY":
-        return value * 0.0063
+        return value * 0.0067
     return value  # assume EUR-ish
 
 
@@ -1739,7 +1739,7 @@ Examples:
 
     rates = get_fx_rates()
     print(
-        f"FX Rates: EUR/USD={rates.get('USD', 1.04):.4f} | GBP/EUR={rates.get('GBP', 1.19):.4f}\n",
+        f"FX Rates: EUR/USD={rates.get('USD', 1.16):.4f} | GBP/EUR={rates.get('GBP', 1.15):.4f}\n",
         file=sys.stderr,
     )
 

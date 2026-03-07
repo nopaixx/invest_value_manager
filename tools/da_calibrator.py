@@ -53,7 +53,7 @@ def parse_price_string(s):
 def get_fx_rates():
     """Fetch FX rates from yfinance with fallbacks. Returns dict of currency->multiplier_to_USD."""
     pairs = {
-        'EUR': ('EURUSD=X', 1.04),
+        'EUR': ('EURUSD=X', 1.16),
         'GBP': ('GBPUSD=X', 1.26),
         'CHF': ('CHFUSD=X', 1.13),
         'DKK': ('DKKUSD=X', 0.14),

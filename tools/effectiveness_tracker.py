@@ -131,9 +131,9 @@ def load_history() -> Dict:
 def get_fx_rates() -> Tuple[float, float]:
     """Get EUR/USD and GBP/USD rates."""
     try:
-        eurusd = yf.Ticker('EURUSD=X').info.get('previousClose', 1.04)
+        eurusd = yf.Ticker('EURUSD=X').info.get('previousClose', 1.16)
     except:
-        eurusd = 1.04
+        eurusd = 1.16
     try:
         gbpusd = yf.Ticker('GBPUSD=X').info.get('previousClose', 1.26)
     except:

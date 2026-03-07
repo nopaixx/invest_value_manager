@@ -58,7 +58,7 @@ _fx_fallbacks_used = []
 def get_fx_rates():
     """Fetch FX rates, with static fallback."""
     global _fx_cache, _fx_fallbacks_used
-    defaults = {"EURUSD": 1.04, "GBPEUR": 1.19, "USDEUR": 1 / 1.04}
+    defaults = {"EURUSD": 1.16, "GBPEUR": 1.15, "USDEUR": 1 / 1.16}
     fallbacks = []
 
     # EUR/USD
@@ -252,11 +252,11 @@ def price_in_native(price, api_currency, target_currency):
 
     # USD -> EUR
     if api_currency == "USD" and target_currency == "EUR":
-        return price * _fx_cache.get("USDEUR", 1 / 1.04)
+        return price * _fx_cache.get("USDEUR", 1 / 1.16)
 
     # EUR -> USD
     if api_currency == "EUR" and target_currency == "USD":
-        return price * _fx_cache.get("EURUSD", 1.04)
+        return price * _fx_cache.get("EURUSD", 1.16)
 
     # Fallback: return as-is
     return price

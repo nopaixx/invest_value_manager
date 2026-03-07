@@ -58,7 +58,7 @@ def load_portfolio():
         return yaml.safe_load(f)
 
 def get_fx_rates():
-    defaults = {'EURUSD': 1.04, 'GBPEUR': 1.19}
+    defaults = {'EURUSD': 1.16, 'GBPEUR': 1.15}
     fallbacks_used = []
 
     try:

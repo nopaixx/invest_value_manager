@@ -21,7 +21,7 @@ def load_yaml(path):
     with open(path, 'r') as f: return yaml.safe_load(f) or {}
 
 def get_fx():
-    defs = {'EURUSD': 1.04, 'GBPUSD': 1.38}
+    defs = {'EURUSD': 1.16, 'GBPUSD': 1.33}
     fb, eurusd, gbpusd = [], defs['EURUSD'], defs['GBPUSD']
     for pair, key in [('EURUSD=X', 'EURUSD'), ('GBPUSD=X', 'GBPUSD')]:
         try:
