@@ -33,6 +33,8 @@ Adobe cotiza a P/E 16x (-43% de maximos), el mercado teme disrupcion por IA pero
 
 **Nota:** QS 73 = Tier B, pero en el borde superior. La posicion fue comprada como Tier A (QS Tool 76). El ajuste de -3 es conservador y reversible.
 
+**NOTE (Mar 7, 2026 pre-earnings check):** QS Tool now scores **80/100** (up from 76 at thesis date) due to improved trailing financials: ROIC 53% (was ~30%), EPS CAGR 18.2% (was 13%). This is a POSITIVE development that supports the thesis. Post-earnings re-evaluation should update the QS baseline. The adjusted QS would be 77 (80-3 FTC adjustment), solidly Tier A.
+
 ---
 
 ## Business Understanding
@@ -166,7 +168,7 @@ TOTAL expected annual impact: ~$334M/yr = ~3.4% of revenue
 **FV impact: -$15-20/share** (de mis estimaciones base). Este es el ajuste que aplico en la valoracion.
 
 ### Lo que ya ha cambiado (mitigantes)
-1. Adobe mejoró su flujo de cancelacion proactivamente en 2025
+1. Adobe mejoro su flujo de cancelacion proactivamente en 2025
 2. El ETF ahora se muestra mas claramente en el checkout
 3. Adobe ha invertido en mejorar la experiencia del cliente
 4. El mercado ya castiga parcialmente (P/E 16x vs 35x historico incluye este riesgo)
@@ -453,73 +455,131 @@ Constraint check: ADBE a 4.3% OK. Tech exposure single name.
 
 > **Report Date:** Thursday, March 12, 2026 (after close)
 > **Call:** 2-3 PM PT
-> **Current Price:** $283.62 (Mar 7) | **FV:** $390 | **MoS:** 37.5%
-> **Position:** 3.83 shares, $1,014 invested (8.4% portfolio)
+> **Last Updated:** March 7, 2026 (pre-earnings refresh)
+> **Current Price:** $283.62 (Mar 7) | **FV:** $390 | **MoS:** 27.3%
+> **Position:** 3.83 shares, EUR 935 invested (8.9% portfolio)
+> **QS Tool (Mar 7):** 80/100 Tier A (improved from 76 at thesis date; ROIC 53%, EPS CAGR 18.2%)
+> **Macro Context:** Iran crisis Day 7+, oil $92 WTI, VIX 27. Software selling on general risk-off. US CPI Feb SAME DAY (Mar 12). Rate cuts dead H1 2026.
 
-### Consensus Estimates
+### Q4 FY2025 Actuals (Baseline for Q1 Expectations)
 
-| Metric | Consensus | YoY Growth | Our Thesis Implies |
-|--------|-----------|------------|-------------------|
-| Revenue | $6.28B | +9.9% | 6.5-7.5% annual = ~$6.2-6.4B quarterly |
-| EPS | $5.87-5.88 | +15.8% | Consistent with margin expansion thesis |
-| Digital Media ARR | ~$18.5B (est) | +10-11% | Key metric for subscription health |
+| Metric | Q4 FY2025 Actual | Notes |
+|--------|-----------------|-------|
+| Total Revenue | $6.08B | +11% YoY, record quarter |
+| Digital Media Revenue | $4.62B | +11% YoY |
+| Digital Media ARR (ending) | **$19.2B** | +11.5% YoY (CORRECTED from prior $18.5B estimate) |
+| AI-influenced ARR | **>1/3 of total business** | Includes AI-first + AI-enhanced products |
+| Generative Credit Consumption | **Tripled QoQ** | High-value usage indicator |
+| FCF | $9.9B (FY2025 full year) | 41.4% margin |
+| FY2026 Revenue Guide | **$25.9-26.1B** | +~10% YoY |
+| FY2026 ARR Growth Target | **>10%** | |
+
+### Consensus Estimates — Q1 FY2026
+
+| Metric | Consensus | YoY Growth | Management Guide | Our Thesis Implies |
+|--------|-----------|------------|-----------------|-------------------|
+| Revenue | $6.28B | +9.9% | $6.25-6.30B | 6.5-7.5% annual = ~$6.2-6.4B quarterly |
+| EPS | $5.87-5.88 | +15.8% | $5.85-5.90 | Consistent with margin expansion thesis |
+| Digital Media ARR | ~$19.5-19.7B (est) | +10-11% | >10% growth target | Key metric for subscription health |
+
+### Analyst Sentiment (Mar 7, 2026)
+
+| Firm | Action | Target | Prior | Notes |
+|------|--------|--------|-------|-------|
+| HSBC | **Cut** | $302 | $388 | Bearish on AI disruption risk |
+| Baird | **Cut** | $350 | $410 | Lowered expectations |
+| Oppenheimer | **Downgrade** | Perform | Outperform | Removed from buy list |
+| Citi | **Raised** | $387 | $366 | Constructive on AI monetization |
+| **Consensus** | **Buy** | **$403-418** | | 21-51 analysts, range $270-$605 |
+
+Consensus PT $403-418 is close to our FV $390. This means we do NOT have a strong informational edge vs consensus on valuation. Our edge is in conviction that the market is WRONG about AI disruption timing and severity, and that Firefly monetization is underappreciated.
 
 ### Key Metrics to Watch (Priority Order)
 
 | Metric | Why It Matters | Bear Signal | Bull Signal |
 |--------|---------------|-------------|-------------|
 | **1. Digital Media Net New ARR** | Core subscription growth health | <$500M (decelerating) | >$550M (AI-driven acceleration) |
-| **2. Creative Cloud Churn** | KC#6 trigger: FTC forcing easier cancellation | >12% annual rate | <9% (stable despite FTC) |
-| **3. Firefly AI Revenue/Metrics** | Counter-thesis to "AI disrupts Adobe" narrative | No Firefly disclosure or deceleration | >$150M quarter, new enterprise contracts |
-| **4. Document Cloud Growth** | Underappreciated segment, AI opportunity | <10% YoY | >15% YoY (AI-powered Acrobat) |
-| **5. FY2026 Guidance Update** | Forward visibility on growth trajectory | Guidance lowered or narrowed down | Guidance raised or reiterated confidently |
-| **6. FTC/Legal Reserve** | Settlement signals | Large reserve increase (>$500M) = trial expected | Settlement announced or small reserve = manageable |
+| **2. Creative Cloud Churn** | KC#2/#6 trigger: FTC forcing easier cancellation | >12% annual rate | <9% (stable despite FTC) |
+| **3. Firefly AI Revenue/Metrics** | Counter-thesis to "AI disrupts Adobe" narrative | Deceleration in gen credits, no new enterprise disclosures | Gen credits growth sustained, Firefly Foundry enterprise wins, AI-first ARR accelerating |
+| **4. Document Cloud Growth** | Underappreciated segment, AI opportunity | <10% YoY | >15% YoY (AI-powered Acrobat Assistant) |
+| **5. FY2026 Guidance Update** | Forward visibility on growth trajectory | Guidance lowered or narrowed down (oil/macro cited) | Guidance raised or reiterated confidently despite macro |
+| **6. FTC/Legal Commentary** | Settlement signals, reserve changes | Large reserve increase (>$500M) = trial expected | Settlement announced or small reserve = manageable |
 | **7. Operating Margin** | Margin expansion thesis | <35% (cost pressure, legal costs) | >37% (AI efficiency gains) |
-| **8. Buyback Pace** | Capital allocation signal | Reduced buybacks (saving for fine) | Aggressive buybacks at these prices = management confidence |
+| **8. Buyback Pace** | Capital allocation signal | Reduced buybacks (saving for fine or macro caution) | Aggressive buybacks at these depressed prices = management confidence |
 
 ### Scenario Framework
 
 | Scenario | Probability | Revenue | EPS | Key Signals | Action |
 |----------|------------|---------|-----|-------------|--------|
-| **BEAR** | 20% | <$6.15B | <$5.70 | Churn spike >12%, Firefly deceleration, guidance cut, large FTC reserve | **HOLD** — review KC#2 (churn >15%) and KC#6. If KC triggered → EXIT protocol. If not → hold through noise. |
-| **BASE** | 55% | $6.20-6.35B | $5.80-6.00 | ARR growth 10%, stable churn, Firefly on track, guidance maintained | **HOLD** — thesis confirmed. No action. Monitor FTC trial Oct 2026. |
-| **BULL** | 25% | >$6.40B | >$6.05 | ARR acceleration, Firefly beat, enterprise AI adoption surge, FTC settlement hint | **HOLD** — consider TRIM at $350+ pre-trial if rapid appreciation. Thesis strengthened. |
+| **BEAR** | 20% | <$6.15B | <$5.70 | Churn spike >12%, Firefly deceleration, guidance cut, large FTC reserve, macro-driven enterprise slowdown | **HOLD** — review KC#2 (churn >15%) and KC#6. If KC triggered then EXIT protocol. If not, hold through noise. Bear FV floor ~$240. |
+| **BASE** | 55% | $6.20-6.35B | $5.80-6.00 | ARR growth 10%, stable churn, Firefly on track, guidance maintained at $25.9-26.1B | **HOLD** — thesis confirmed. No action. Monitor FTC trial Oct 2026. |
+| **BULL** | 25% | >$6.40B | >$6.05 | ARR acceleration, Firefly beat, enterprise AI adoption surge, FTC settlement hint, guidance raised | **HOLD** — consider TRIM at $350+ pre-trial if rapid appreciation. Thesis strengthened. |
+
+### MISS vs BEAT Analysis
+
+**If MISS (Revenue <$6.15B, EPS <$5.70):**
+- **Floor:** Bear FV $240. At current price $283, a miss could push stock to $240-260 range (52wL was $244.28).
+- **Would we ADD?** Only if miss is macro/timing-driven (not structural) AND price drops below $240. At $240, we are AT bear case FV, meaning all downside (FTC loss + AI threat) is priced in.
+- **Would we TRIM?** No. A miss into weakness is the worst time to sell a quality compounder. Unless kill condition triggered.
+- **KC Watch:** If churn commentary reveals >12% annual rate, KC#2 is approaching. If >15%, KC#2 is triggered -- EXIT.
+- **Risk amplifier:** If US CPI (same day) also surprises hot, double negative catalyst could create oversized selloff. This is OPPORTUNITY, not risk, for long-term holders with thesis intact.
+
+**If BEAT (Revenue >$6.40B, EPS >$6.05):**
+- **FV impact:** A beat with strong AI metrics would support the bull case. FV could justify $420-450 range at next re-eval.
+- **TRIM target:** Consider trim if price rapidly exceeds $350, given FTC trial binary risk in Oct 2026. Taking 25-30% off the table pre-trial makes risk management sense.
+- **ADD consideration:** A beat that confirms AI monetization thesis eliminates one of the key uncertainties. If price stays below $330 after a beat, this is bullish (digesting good news at depressed levels).
 
 ### Kill Condition Watch (from thesis)
 
-| KC | Trigger | Current Status | Earnings Signal |
-|----|---------|---------------|-----------------|
-| KC#1 | ROIC <WACC (12%) 2Q | ROIC ~30% = CLEAR | Monitor operating income trend |
+| KC | Trigger | Current Status (Mar 7) | Earnings Signal |
+|----|---------|----------------------|-----------------|
+| KC#1 | ROIC <WACC (12%) 2Q | ROIC **53%** = CLEAR (improved from ~30%) | Monitor operating income trend |
 | KC#2 | CC churn >15% annual | ~9% = CLEAR | Listen for churn commentary, FTC impact |
-| KC#6 | FTC mandates one-click + churn >5pp | Trial Oct 2026 | Any FTC update on call, legal reserve size |
-| KC#7 | Open-source AI reaches pro quality | Not yet | Firefly competitive positioning commentary |
-| KC#8 | AI agents automate creative end-to-end | Not yet | Enterprise AI agent adoption commentary |
+| KC#3 | FCF negative | FCF $9.9B = CLEAR | Monitor FCF margin, legal costs |
+| KC#4 | Market share loss >5pp/12m | Holding = CLEAR | Competitive positioning commentary |
+| KC#5 | Insider selling >10% | No major selling = CLEAR | Form 4 filings post-earnings |
+| KC#6 | FTC mandates one-click + churn >5pp | Trial Oct 2026 = PENDING | Any FTC update on call, legal reserve size |
+| KC#7 | Open-source AI reaches pro quality | Not yet = CLEAR | Firefly competitive positioning commentary |
+| KC#8 | AI agents automate creative end-to-end | Not yet = CLEAR | Enterprise AI agent adoption commentary |
+
+**All KCs CLEAR.** No approaching triggers. ROIC actually STRENGTHENED significantly (53% vs 12% WACC = 41pp spread).
 
 ### Post-Earnings Decision Tree
 
 ```
-Q1 Results Released
+Q1 Results Released (Mar 12 after close)
 ├─ Revenue MISS (< $6.15B) + Churn UP
 │  ├─ KC#2 triggered (churn >15%)? → EXIT PROTOCOL
-│  ├─ KC not triggered but concerning? → HOLD, lower conviction, reduce FV
+│  ├─ KC not triggered but concerning? → HOLD, lower conviction, reduce FV at re-eval
 │  └─ One-time issue (macro, timing)? → HOLD, monitor Q2
+│      └─ Price drops <$240? → ADD candidate (bear case absorbed)
 ├─ Revenue IN-LINE ($6.20-6.35B)
 │  ├─ Firefly accelerating? → HOLD, thesis strengthened
 │  ├─ FTC settlement hinted? → HOLD, potential re-rate catalyst
 │  └─ Guidance flat? → HOLD, no change
 └─ Revenue BEAT (> $6.40B)
-   ├─ Price spikes >$350? → Consider TRIM (pre-trial risk)
+   ├─ Price spikes >$350? → Consider TRIM (pre-trial binary risk Oct)
    └─ Price stays <$330? → HOLD, accumulating value
 ```
 
 ### What I'm Listening For on the Call
 
-1. **FTC commentary** — Any settlement discussion, legal reserve changes, timeline updates
-2. **Firefly enterprise adoption** — Specific revenue, customer counts, integration depth
-3. **Competitive positioning vs Canva/Figma** — Market share language, enterprise wins
-4. **AI pricing strategy** — How Adobe monetizes AI features (credits, tiers, bundles)
-5. **Buyback authorization** — New program or continuation signal
-6. **Churn/retention language** — Any changes in cancellation flows post-FTC pressure
+1. **FTC commentary** — Any settlement discussion, legal reserve changes, timeline updates. Discovery phase intelligence.
+2. **Firefly enterprise adoption** — Specific revenue, customer counts, integration depth. Firefly Foundry (brand-specific models) uptake.
+3. **Generative credit consumption** — Q4 tripled QoQ. Sustained 2x+ = strong signal. Deceleration = warning.
+4. **AI-first ARR trajectory** — Was >1/3 of total. If growing faster than base = AI monetization thesis confirmed.
+5. **Competitive positioning vs Canva/Figma** — Market share language, enterprise wins, professional vs prosumer segmentation.
+6. **AI pricing strategy** — How Adobe monetizes AI features (credits, tiers, bundles, Creative Cloud Pro uptake).
+7. **Churn/retention language** — Any changes in cancellation flows post-FTC pressure. Critical for KC#2/#6.
+8. **Buyback pace** — Aggressive at these prices = management confidence signal. Reduced = FTC reserve or macro caution.
+9. **Oil/macro impact** — Any commentary on enterprise IT budget impacts from geopolitical crisis.
+
+### Special Considerations for This Earnings
+
+1. **CPI SAME DAY (Mar 12):** If Feb CPI is hot (>2.6% headline), market could selloff before ADBE reports after close. This creates dual-catalyst volatility. Our action: IGNORE short-term price action from CPI. Focus ONLY on ADBE fundamentals.
+2. **Iran crisis context:** Software selling on general risk-off, not sector-specific. ADBE's enterprise customer base (61%) has sticky IT budgets. If management commentary is confident on enterprise demand despite macro, this is bullish.
+3. **SaaSpocalypse narrative:** IGV (software ETF) -30% from peak. If ADBE beats, it could help break the negative sector narrative. Potential for outsized positive reaction.
+4. **QS Tool improvement to 80:** ROIC jump to 53% and EPS CAGR to 18.2% mean the business quality has IMPROVED since our purchase. Post-earnings, re-evaluate if FV should be adjusted upward (not downward).
 
 ---
 
@@ -527,7 +587,7 @@ Q1 Results Released
 
 | Fecha | Evento | Accion |
 |-------|--------|--------|
-| Mar 2026 | Q1 FY26 earnings | Verificar churn, Firefly metrics, legal reserve |
+| Mar 12, 2026 | Q1 FY26 earnings + US CPI | Verificar churn, Firefly metrics, legal reserve. Dual-catalyst day. |
 | Sep 24, 2026 | Ultimo dia mociones dispositivas | Monitor resultado, puede forzar settlement |
 | Oct 7, 2026 | Final Pretrial Conference | Verificar si settlement o trial |
 | **Oct 19, 2026** | **JURY TRIAL** | **DECISION POINT: Resultado informa HOLD/ADD/EXIT** |
@@ -536,23 +596,30 @@ Q1 Results Released
 
 ## META-REFLECTION
 
-### Dudas/Incertidumbres
-1. **Numero exacto de suscriptores APM:** No hay disclosure publico. Mi estimacion de 30% APM (12M suscriptores) es una asuncion. Impacto en multa potencial es muy sensible a este numero.
-2. **FTC under current administration:** La agresividad de la FTC puede cambiar segun clima politico. Si la FTC se suaviza, settlement mas favorable. Si se endurece, trial es mas probable.
-3. **Churn spike:** Mi estimacion de +2pp es moderada. Los bears argumentan +5pp si se fuerza one-click. Pero Adobe ya empezo a facilitar cancelaciones voluntariamente.
+### Cambios detectados desde ultima revision (Feb 10)
+1. **QS Tool improved: 76 -> 80** due to ROIC jump (30% -> 53%) and EPS CAGR improvement (13% -> 18.2%). Business quality IMPROVING, not deteriorating.
+2. **Price declined: $266.90 -> $283.62 (actually recovered from lows)** — was near 52wL $244.28 during Iran crisis. Current MoS ~27% vs FV $390.
+3. **Sector context changed:** Iran crisis created risk-off selling across software. IGV -30% from peak. This is TEMPORARY, not structural for ADBE.
+4. **Analyst actions:** Mixed. HSBC/Baird/Oppenheimer bearish. Citi bullish. Consensus PT $403-418 near our FV.
+5. **Q4 FY2025 actuals confirmed thesis:** DM ARR $19.2B (+11.5%), gen credits tripled QoQ, AI-influenced ARR >1/3 of business. All positive.
+6. **FTC case status:** No new material developments since motion to dismiss was denied. Case proceeding toward Oct trial. No settlement signals.
 
-### Sugerencias de Mejora
-1. **Crear tech/software sector view:** Sigue sin existir. ADBE deberia estar en un sector view de tech para tracking de dependencias.
-2. **Ejecutar devil's-advocate** si se plantea ADD. La v1.0 de la thesis no tuvo contra-analisis adversarial.
+### Incertidumbres
+1. **CPI same-day risk:** Dual catalyst day. Hot CPI + in-line earnings = selloff. Cool CPI + beat = rally. Cannot predict.
+2. **Oil crisis impact on enterprise IT spend:** Unknown if $90+ oil will cause any enterprise customers to defer IT projects. Adobe historically defensive but macro is unusual.
+3. **FTC political dynamics:** Current administration's stance on consumer protection enforcement is evolving. Settlement probability (55-65%) is our best estimate but has wide confidence interval.
+4. **Consensus PT convergence:** Our FV $390 vs consensus $403-418 means we may not have strong informational edge. Our edge is in CONVICTION about timing and thesis validity, not in valuation methodology.
 
-### Anomalias Detectadas
-1. **QS Tool 76 vs thesis original 76:** En este caso el tool y la thesis coinciden (raro en nuestro adversarial review). El ajuste -3 por FTC es nuevo y documentado.
-2. **DCF tool usa WACC 9% default, yo uso 12% derivado.** La diferencia explica por que el tool da $421 y mi estimacion base es $362.
+### Sugerencias
+1. **Post-earnings re-eval should update QS baseline** to reflect Tool score of 80 (with FTC adjustment to 77). This would solidify Tier A classification.
+2. **If beat:** Consider whether FV should be revised upward given improved ROIC trajectory.
+3. **If miss:** Focus on WHETHER the miss was structural or cyclical before making any changes.
 
-### Preguntas para Orchestrator
-1. Anadir al calendario Oct 2026 trial como evento critico?
-2. Crear sector view tech/software?
-3. Ejecutar devil's-advocate para completar Gate 10?
+### Alertas para Orchestrator
+1. **CPI SAME DAY as earnings** -- prepare for elevated volatility regardless of ADBE results.
+2. **All 8 Kill Conditions CLEAR.** No approaching triggers. Business quality improved since purchase.
+3. **Position is 8.9% of portfolio** -- largest single position. Comfortable given QS 80 Tier A quality.
+4. **FTC trial Oct 2026 remains the KEY binary event.** No new signals on settlement likelihood.
 
 ---
 
@@ -578,10 +645,19 @@ Q1 Results Released
 - [ElectroIQ: Adobe Creative Cloud Statistics 2025](https://electroiq.com/stats/adobe-creative-cloud-statistics/)
 - [6sense: Adobe Creative Cloud Market Share](https://6sense.com/tech/application-development/adobe-creative-cloud-market-share)
 
+### Pre-Earnings (Mar 2026)
+- [Blockonomi: ADBE Q1 Earnings Preview](https://blockonomi.com/adobe-adbe-stock-earnings-preview-q1-results-drop-thursday-amid-price-target-cuts/)
+- [Yahoo Finance: ADBE Up 5.1% on AI Optimism](https://finance.yahoo.com/news/why-adobe-adbe-5-1-220735808.html)
+- [Futurum: Adobe Q4 FY2025 Record Revenue](https://futurumgroup.com/insights/adobe-q4-fy-2025-record-revenue-ai-adoption-arr-targets/)
+- [Quantumrun: Adobe Firefly Statistics 2026](https://www.quantumrun.com/consulting/adobe-firefly-statistics/)
+- [MarketBeat: ADBE Earnings](https://www.marketbeat.com/stocks/NASDAQ/ADBE/earnings/)
+- [StockAnalysis: ADBE Forecast](https://stockanalysis.com/stocks/adbe/forecast/)
+
 ---
 
 *Thesis creada: 2026-02-04*
 *v2.0 actualizada: 2026-02-10 (FTC/DOJ risk integration)*
-*Quality Score Tool: 76/100 (Tier A) | QS Ajustado: 73/100 (Tier B borderline)*
+*Section 9 pre-earnings refresh: 2026-03-07*
+*Quality Score Tool: 80/100 (Tier A, improved from 76) | QS Ajustado: 73/100 (pending post-earnings update to 77)*
 *Fair Value: $390 (weighted, FTC-adjusted) | Was $394 pre-adjustment*
 *Status: HOLD | No ADD until trial resolution or price <$240*
