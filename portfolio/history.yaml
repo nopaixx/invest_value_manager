@@ -565,18 +565,33 @@ partial_sells:
     reason: "TRIM - FY2025 earnings MEET-to-SOFT MISS. E[CAGR] 6.0% second worst. MoS 4% fully valued. FY2026 EPS guide EUR 2.20 below beat threshold. Capital freed for higher-E[CAGR] pipeline. Position remains active (10.6 shares for TMUS exposure)."
     # NOTE: Subsequently FULLY EXITED same day — see closed_positions entry for DTE.DE
 
+  - ticker: RACE.MI
+    action: SELL
+    date: 2026-03-07
+    entry_date: 2026-03-05
+    entry_price_eur: 312.80
+    exit_price_eur: 301.60
+    shares: 1.12
+    invested_eur: 350
+    proceeds_eur: 338
+    pnl_eur: -12
+    pnl_pct: -3.4
+    holding_days: 2
+    reason: "T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg 17.4%). QS 84 Tier A but overvalued at EUR 301.60. Capital redeployed to EDEN/NVO/WKL (E[CAGR] 21-27%). Short hold — correction of THREE WAITS mandate buy that deployed into wrong E[CAGR] tier."
+    thesis_accuracy: "Thesis intact (FV EUR 355 > price). Sold for portfolio optimization, not thesis failure."
+
 # Statistics (auto-calculated by effectiveness_tracker.py)
 statistics:
   # Will be populated by the tool
-  total_closed_positions: 20
+  total_closed_positions: 21
   total_partial_sells: 4
-  total_realized_pnl_eur: 566.88  # Previous 552.88 + GL ~3 + BYIT.L ~18 + DOM.L ~-7 = ~566.88
-  winners: 11  # Previous 9 + GL +0.8%, BYIT.L +5.7%
-  losers: 7  # Previous 6 + DOM.L -1.7%
+  total_realized_pnl_eur: 554.88  # Previous 566.88 - 12 (RACE.MI)
+  winners: 11
+  losers: 8  # Previous 7 + RACE.MI -3.4%
   breakeven: 2  # ENEL.MI 0%, VNA.DE 0%
-  win_rate_pct: 55.0
-  avg_win_pct: 7.4  # Diluted by small GL/BYIT gains
-  avg_loss_pct: -3.9  # DOM.L -1.7% lowers avg loss
+  win_rate_pct: 52.4
+  avg_win_pct: 7.4
+  avg_loss_pct: -3.8
   avg_holding_days: 12
   positions_reached_fv: 0
   thesis_accuracy_rate: null

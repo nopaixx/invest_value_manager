@@ -19,8 +19,8 @@ system:
   portfolio_quality_analysis:
     date: 2026-03-07
     summary:
-      total_positions: 12
-      tier_a_count: 9  # MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, RACE.MI, TW, WKL.AS
+      total_positions: 11
+      tier_a_count: 8  # MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, TW, WKL.AS
       tier_b_count: 3  # NVO, AUTO.L, EDEN.PA
       tier_c_count: 0
       tier_d_count: 0
@@ -43,34 +43,36 @@ system:
       - { ticker: HLNE, score: 82, tier: A, status: "FV $110. ADD S143 >10%. US Quality Compounders." }
       - { ticker: DOCS, score: 79, tier: A, status: "FV $32.80. ADD S143. US Quality Compounders." }
       - { ticker: FTNT, score: 85, tier: A, status: "FV $88. ADD S143. Cybersecurity anchor." }
-      - { ticker: RACE.MI, score: 84, tier: A, status: "FV EUR 355. Luxury & Pricing Power." }
+      # RACE.MI — SOLD S143c10. T15 rotation. E[CAGR] 6.6% worst. P&L -3.4%.
       - { ticker: TW, score: 84, tier: A, status: "FV $140. NEW S143. Data & Analytics Monopolies." }
       - { ticker: WKL.AS, score: 80, tier: A, status: "FV EUR 85. NEW S143. Data & Analytics Monopolies." }
 
   last_session_summary: |
-    Session 143c8 (2026-03-07). SIZING REBALANCE — T15 E[CAGR] alignment.
+    Session 143c10 (2026-03-07). T15 ROTATION + MASSIVE PIPELINE VELOCITY.
     DELIVERABLES:
-      1. T15+T16 triggers CREATED: E[CAGR] Optimization (RED) + Strategy Evolution (RED). Framework v4.9.
-      2. SIZING REBALANCE: 4 TRIMs (HLNE -337, MONY -144, DOCS -156, FTNT -169 = EUR 806) → 3 ADDs (EDEN +423, NVO +268, IHP +194 = EUR 885)
-      3. Capital flows: bottom E[CAGR] → top E[CAGR]. Blended E[CAGR] 14.4% → ~15.8% (+1.4pp)
-      4. Conviction upgrades: EDEN MEDIUM→HIGH, NVO LOW→MEDIUM, IHP MEDIUM→HIGH
-      5. BAH R4 CONDITIONAL APPROVE (FV $85, entry $75). Defense basket unlocked.
-      6. LYV DOJ trial update: started Mar 2, 6 weeks. Case narrowed. Thesis PAUSED.
-      7. Smart money: TW (insiders net sellers, 10b5-1), WKL (Mawer 5.7%, shorts -30%)
-      8. Stress test: oil+recession -13.2%, Hormuz reopen +6.4%, ADBE miss -2.6%
-    PORTFOLIO: 12 positions, cash EUR 1,517 (~14.0%). E[CAGR] blended ~15.8%.
-    NEXT: ADBE earnings Mar 12, DOM.L results Mar 10 (no longer held), FOUR.L Mar 18.
+      1. RACE.MI SOLD: E[CAGR] 6.6% worst position. P&L -3.4% (-EUR 12). Capital redeployed.
+      2. DEPLOYED EUR 800: EDEN +300 (27.1%), NVO +300 (23.8%), WKL +200 (20.9%).
+      3. Blended E[CAGR]: 15.4% → ~17.2% (+1.8pp). Cash 14% → 6.6%.
+      4. RMS.PA R1 COMPLETE: QS 96adj (#1 universe). FV EUR 1,350. FANTASY at EUR 1,905.
+      5. BZU.MI R4 APPROVED: 10/10 gates. SO EUR 42, EUR 400. E[CAGR] 15.9%.
+      6. VRSK R1 refreshed: R4 APPROVED confirmed. SO $210. QS 80adj. Data monopoly.
+      7. BVI.PA R1 refreshed: FV EUR 33, entry EUR 25.50. QS 70adj. TIC #2 global.
+      8. SAF.PA R3 COMPLETE: FV EUR 260 (was 277). OVERVALUED. Parked.
+      9. Digital marketplaces sector refreshed (was 29d stale).
+      10. Universe +2: VRSK, BVI.PA. Pipeline velocity 7+ units.
+    PORTFOLIO: 11 positions, cash EUR 717 (~6.6%). E[CAGR] blended ~17.2%.
+    NEXT: ADBE earnings Mar 12 (framework due Mar 10), FOUR.L Mar 18.
 
   # NET EXPOSURE REASONING — Principio 13. Re-evaluate EVERY session.
   # This is NOT a target or range. It's the CONCLUSION of reasoning.
   # History preserved for consistency checks.
   net_exposure:
     current:
-      long_pct: 85.3
+      long_pct: 93.4
       short_pct: 0.0
-      cash_pct: 14.7  # EUR 1,596 (EDEN.PA ADD EUR 475)
-      net_pct: 85.3
-      gross_pct: 85.3
+      cash_pct: 6.6  # EUR 717. S143c10: RACE.MI sold + EUR 800 deployed.
+      net_pct: 93.4
+      gross_pct: 93.4
     reasoning: |
       Session 143 (2026-03-07): MASSIVE DEPLOYMENT 63/0/37 → 85/0/15.
       S143 restructuring: sold 3 low-quality positions (GL Tier C, BYIT.L Tier B probation, DOM.L Tier B orphan).

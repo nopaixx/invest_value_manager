@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 1517  # Updated 2026-03-07. S143c8: sizing rebalance (trims EUR 806 → adds EUR 885). Previous: 1596.
+  amount: 717  # Updated 2026-03-07. S143c10: RACE.MI rotation + EUR 800 deploy. Previous: 1517. RACE sale +338, EDEN -300, NVO -300, WKL -200.
   currency: EUR
 
 positions:
@@ -24,17 +24,17 @@ positions:
 
   - ticker: EDEN.PA
     name: "Edenred SA"
-    shares: 70.00  # 47 + ~23 ADD S143c8 sizing rebalance (EUR 423 at EUR 18.79). Confirm exact from eToro.
-    invested_usd: 1502  # 1011 + ~491 (EUR 423 * 1.1616)
-    avg_cost_usd: 21.46  # Blended estimate
-    avg_cost_eur: 18.20  # Blended: (47*17.93 + 23*18.79) / 70
+    shares: 85.96  # 70 + ~15.96 ADD S143c10 T15 rotation (EUR 300 at EUR 18.79). Confirm exact from eToro.
+    invested_usd: 1850  # 1502 + ~348 (EUR 300 * 1.1616)
+    avg_cost_usd: 21.52  # Blended estimate
+    avg_cost_eur: 18.26  # Blended: (70*18.20 + 15.96*18.79) / 85.96
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
     conviction: high
     last_review: 2026-02-07
     fair_value: "EUR 29.0 (adversarial, was 38.4)"
     exit_plan: "HOLD. EXIT if 2027-28 guidance <5% or France regulation. TRIM if MoS vs revised FV <15%."
-    notes: "ADD S143c8: sizing rebalance +23 shares at EUR 18.79 (EUR 423). T15 alignment: E[CAGR] 27.1% = HIGHEST in portfolio, sized up from 8.1% to 12.0%. Conviction upgraded MEDIUM→HIGH. European Pricing Power basket. Brazil PAT catalyst. Total 3 ADDs."
+    notes: "ADD S143c10: T15 rotation +15.96 shares at EUR 18.79 (EUR 300). RACE.MI proceeds + cash deploy. E[CAGR] 27.1% = HIGHEST. Now ~16% of portfolio. Total 4 ADDs."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
@@ -61,17 +61,17 @@ positions:
 
   - ticker: NVO
     name: "Novo Nordisk A/S"
-    shares: 16.39  # 8.31675 + ~8.07 ADD S143c8 sizing rebalance. Confirm exact from eToro.
-    invested_usd: 711  # 400 + ~311 (EUR 268 * 1.1616)
-    avg_cost_usd: 43.38  # Blended: (8.31675*48.13 + 8.07*38.58) / 16.39
-    avg_cost_dkk: 273.00  # Estimated blended
+    shares: 24.16  # 16.39 + ~7.77 ADD S143c10 T15 rotation. Confirm exact from eToro.
+    invested_usd: 1011  # 711 + ~300 (EUR 300 * 1.1616 / 1.1616 ≈ $348 but NVO priced in USD)
+    avg_cost_usd: 41.84  # Blended: (16.39*43.38 + 7.77*38.58) / 24.16
+    avg_cost_dkk: 263.00  # Estimated blended
     date_opened: 2026-02-05
     conviction: medium
     exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $50. SELL if FY2026 guidance miss >10% OR market share <40% OR gross margin <70%. TRIM at $60+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update."
     fair_value: "$50 (v4.0 post-CagriSema failure. Was $66. Bear case now $35-42. QS Tool 73, Adj 73 Tier B.)"
     last_review: 2026-02-25
     thesis: thesis/active/NVO/thesis.md
-    notes: "ADD S143c8: sizing rebalance +8.07 shares at $38.58 (EUR 268). T15 alignment: E[CAGR] 23.8% = 2nd highest in portfolio, sized up from 2.5% to 5.0%. Conviction upgraded LOW→MEDIUM on Wegovy pill ramp conviction. Position doubled. Avg cost improved $48.13→$43.38."
+    notes: "ADD S143c10: T15 rotation +7.77 shares at $38.58 (EUR 300). RACE.MI proceeds + cash deploy. E[CAGR] 23.8% = 2nd highest. Now ~9% of portfolio. Avg cost improved $43.38→$41.84. Total 3 ADDs."
 
   - ticker: MONY.L
     name: "Mony Group PLC"
@@ -158,18 +158,7 @@ positions:
     notes: "TRIM S143c8: sizing rebalance -2.35 shares at $83.67 (EUR 169). T15 alignment: E[CAGR] 9.7% = 2nd worst, sized down from 8.5% to 7.0%. WIDE moat, QS 85 Tier A, cybersecurity basket anchor. Crisis beneficiary."
     last_review: 2026-02-26
 
-  - ticker: RACE.MI
-    name: "Ferrari N.V."
-    shares: 1.12
-    avg_cost_eur: 312.80
-    invested_eur: 350
-    date_opened: 2026-03-05
-    thesis: thesis/active/RACE.MI/thesis.md
-    conviction: medium
-    fair_value: "EUR 355 (R3 post-DA. QS Tool 82, Adj 84 Tier A.)"
-    exit_plan: "HOLD. TRIM at EUR 400+. ADD at EUR 270 (MoS 24%). SELL if KC triggered (EBIT margin <20% 2Q, F1 exit, EV transition failure, luxury brand dilution). Next earnings ~May 2026."
-    notes: "6th E[CAGR]-framework market buy. E[CAGR] 13.5% at EUR 312.80. THREE WAITS mandate. SO EUR 295 superseded. EU Value Recovery basket 2nd position. 52% ROIC, luxury pricing power, F1 brand moat. AGM Apr 15. EUR 101M buyback active."
-    last_review: 2026-03-05
+  # RACE.MI REMOVED 2026-03-07 - SOLD. S143c10 T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg 17.4%). QS 84 Tier A but overvalued vs FV at EUR 301.60. Capital redeployed to EDEN/NVO/WKL (E[CAGR] 21-27%). P&L ~-3.4% (EUR -12).
 
   # BYIT.L REMOVED 2026-03-07 - SOLD. S143 restructuring. QS 68 Tier B ON PROBATION, orphan (not a platform). Capital rotated to quality ADDs. P&L ~+5.7%.
 
@@ -188,16 +177,16 @@ positions:
 
   - ticker: WKL.AS
     name: "Wolters Kluwer N.V."
-    shares: 8.76  # EUR 600 at ~EUR 68.52. Confirm exact shares from eToro.
-    invested_eur: 600
-    avg_cost_eur: 68.52
+    shares: 11.68  # 8.76 + ~2.92 ADD S143c10 T15 rotation. Confirm exact from eToro.
+    invested_eur: 800  # 600 + 200
+    avg_cost_eur: 68.52  # Unchanged (same price)
     date_opened: 2026-03-07
     thesis: thesis/active/WKL.AS/thesis.md
     conviction: medium
     fair_value: "EUR 85 (R3 post-DA. QS Tool estimate ~80 Tier A.)"
     last_review: 2026-03-07
     exit_plan: "HOLD. TRIM at EUR 100+. ADD at EUR 58 (MoS 32%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, regulatory disruption to legal/tax data monopoly)."
-    notes: "NEW POSITION S143. Data & Analytics Monopolies basket. Legal/tax/health information monopolist. 7th E[CAGR]-framework market buy. 78% recurring revenue. 24% OP margin. Strong pricing power in professional information."
+    notes: "ADD S143c10: T15 rotation +2.92 shares at EUR 68.52 (EUR 200). Data & Analytics Monopolies basket. E[CAGR] 20.9%. Now ~9.5% of portfolio."
 
 # =============================================================================
 # SHORT POSITIONS - CFDs en eToro
@@ -875,3 +864,39 @@ transactions:
     price_gbp: 318.50
     total_eur: 194
     notes: "ADD - S143c8 sizing rebalance. T15: E[CAGR] 20.4% 3rd highest, sized up from 9.2% to 11.0%. Conviction MEDIUM→HIGH."
+
+  # S143c10 T15 ROTATION — RACE.MI out, EDEN/NVO/WKL up (2026-03-07)
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: RACE.MI
+    shares: 1.12
+    price_eur: 301.60
+    total_eur: 338
+    pnl_eur: -12
+    pnl_pct: -3.4
+    notes: "EXIT - S143c10 T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg). QS 84 Tier A but overvalued at EUR 301.60 vs FV EUR 355. Held 2 days. Capital redeployed to top E[CAGR] positions."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: EDEN.PA
+    shares: ~15.96
+    price_eur: 18.79
+    total_eur: 300
+    notes: "ADD - S143c10 T15 rotation. RACE proceeds + cash. E[CAGR] 27.1% HIGHEST. Position now ~16% of portfolio. 4th ADD total."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: NVO
+    shares: ~7.77
+    price_usd: 38.58
+    total_eur: 300
+    notes: "ADD - S143c10 T15 rotation. E[CAGR] 23.8% 2nd highest. Position now ~9%. Avg cost $43→$42. 3rd ADD total."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: WKL.AS
+    shares: ~2.92
+    price_eur: 68.52
+    total_eur: 200
+    notes: "ADD - S143c10 T15 rotation. E[CAGR] 20.9%. Data & Analytics basket. Position now ~9.5%."

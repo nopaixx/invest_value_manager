@@ -100,21 +100,7 @@ standing_orders:
     last_analysis_date: 2026-02-14
     expiry: 2026-07-31
 
-  - ticker: RACE.MI
-    action: ADD
-    category: ACTIVE
-    fill_prob_6m: 25
-    trigger: "<=EUR 270"
-    current_distance: "10.5%"
-    created_date: "2026-02-20"
-    staleness_status: FRESH  # <15% distance
-    size_eur: 350
-    shares_approx: 1
-    fair_value: "EUR 355"
-    mos_at_trigger: "24%"
-    notes: "ADD to full 6% — initial BUY EXECUTED 2026-03-05 at EUR 312.80 (~1.12 shares, EUR 350). Trigger raised EUR 260→270 (Session 90). Current position ~3.4%. RACE.MI at EUR 301.60 (Mar 7) — crisis selloff helping."
-    last_analysis_date: 2026-03-05
-    expiry: 2026-08-01
+  # RACE.MI ADD — ARCHIVED 2026-03-07 (S143c10). POSITION SOLD. T15 rotation — E[CAGR] 6.6% worst in portfolio. Capital redeployed to EDEN/NVO/WKL. P&L -3.4%.
 
   # GL ADD — ARCHIVED 2026-03-07 (S143). POSITION SOLD. S143 restructuring — GL exited (QS 52 Tier C).
 
