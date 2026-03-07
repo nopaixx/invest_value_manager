@@ -256,8 +256,8 @@ baskets:
     last_reviewed: 2026-03-07
     created: 2026-02-22
     notes: >
-      S143: Merged Luxury & Pricing Power + orphan EDEN.PA into European Pricing Power.
-      2 positions = ACTIVE. Theme is PRICING POWER, not geography, but both happen to be EUR.
+      S143c5: EDEN.PA ADD EUR 475 (position doubled, 22→47 shares). E[CAGR] 27.1% = highest in portfolio.
+      MORN proceeds redeployed. Basket now 11.2% of portfolio (overweight vs 7% target — justified by E[CAGR]).
       RACE.MI is quality anchor (QS 84, 52% ROIC). EDEN.PA is return anchor (E[CAGR] 27.1%).
       Pipeline: score RMS.PA (Hermes, likely Tier A) and MC.PA (LVMH, likely Tier B).
 

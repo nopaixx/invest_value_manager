@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 2071  # Updated 2026-03-07. S143c4: MORN SOLD (+~EUR 475). Previous: 1596.
+  amount: 1596  # Updated 2026-03-07. S143c5: EDEN.PA ADD EUR 475. Previous: 2071.
   currency: EUR
 
 positions:
@@ -24,16 +24,17 @@ positions:
 
   - ticker: EDEN.PA
     name: "Edenred SA"
-    shares: 22.00
-    invested_usd: 459.18  # eToro account currency (USD)
-    avg_cost_usd: 20.87  # USD at purchase FX rate
-    avg_cost_eur: 17.610  # REAL entry price in EUR (from eToro, confirmed 2026-02-23)
+    shares: 47.00  # 22 prior + ~25 ADD S143c5 (EUR 475 at ~EUR 18.79). Confirm exact shares from eToro.
+    invested_usd: 1011  # 459.18 + ~552 (EUR 475 * 1.1616)
+    avg_cost_usd: 21.51  # Blended estimate
+    avg_cost_eur: 17.93  # Blended: (22*17.61 + 25*18.79) / 47
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
     conviction: medium
     last_review: 2026-02-07
     fair_value: "EUR 29.0 (adversarial, was 38.4)"
-    exit_plan: "HOLD through earnings Feb 24. EXIT if 2027-28 guidance <5% or France regulation. TRIM if MoS vs revised FV <15%."
+    exit_plan: "HOLD. EXIT if 2027-28 guidance <5% or France regulation. TRIM if MoS vs revised FV <15%."
+    notes: "ADD S143c5 EUR 475 at EUR 18.79. Position more than doubled (22→47 shares). E[CAGR] 27.1% = highest in portfolio. European Pricing Power basket. Brazil PAT catalyst."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
@@ -808,3 +809,11 @@ transactions:
     total_eur: ~475
     pnl_pct: ~2.0
     notes: "EXIT - S143 restructuring. QS 78 Tier A but lowest E[CAGR] (~5.1%) in Data & Analytics Monopolies basket. Capital redeployed to TW + WKL.AS (higher-quality WIDE moats). 46% insider (Mansueto) validated but rotation to better opportunities."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: EDEN.PA
+    shares: ~25
+    price_eur: 18.79
+    total_eur: 475
+    notes: "ADD - S143c5. European Pricing Power basket. MORN proceeds redeployed. E[CAGR] 27.1% = highest in portfolio. Position doubled (22→47 shares). Cash 19.9%→14.7%."

@@ -65,11 +65,11 @@ system:
   # History preserved for consistency checks.
   net_exposure:
     current:
-      long_pct: 80.1
+      long_pct: 85.3
       short_pct: 0.0
-      cash_pct: 19.9  # EUR 2,071 (MORN sold +~475)
-      net_pct: 80.1
-      gross_pct: 80.1
+      cash_pct: 14.7  # EUR 1,596 (EDEN.PA ADD EUR 475)
+      net_pct: 85.3
+      gross_pct: 85.3
     reasoning: |
       Session 143 (2026-03-07): MASSIVE DEPLOYMENT 63/0/37 → 85/0/15.
       S143 restructuring: sold 3 low-quality positions (GL Tier C, BYIT.L Tier B probation, DOM.L Tier B orphan).
@@ -122,10 +122,10 @@ system:
       - { basket: "UK Digital Platforms", positions: "MONY.L+IHP.L+AUTO.L", eur: 2281, weight_pct: 21.0, target_pct: 22 }
       - { basket: "Data & Analytics Monopolies", positions: "TW+WKL.AS", eur: 1201, weight_pct: 11.1, target_pct: 12 }
       - { basket: "Cybersecurity", positions: "FTNT", eur: 908, weight_pct: 8.4, target_pct: 9 }
-      - { basket: "European Pricing Power", positions: "EDEN.PA+RACE.MI", eur: 745, weight_pct: 6.9, target_pct: 7 }
+      - { basket: "European Pricing Power", positions: "EDEN.PA+RACE.MI", eur: 1220, weight_pct: 11.2, target_pct: 7 }
       - { basket: "GLP-1", positions: "NVO", eur: 345, weight_pct: 3.2, target_pct: 3 }
-      - { basket: "Cash", positions: "", eur: 2071, weight_pct: 19.1, target_pct: 15 }
-    notes: "Cash 4pp above target due to MORN proceeds (+~475). All baskets within 1-3pp of targets. Next deployment priority: SPGI/VRSN to bring cash toward 15%."
+      - { basket: "Cash", positions: "", eur: 1596, weight_pct: 14.7, target_pct: 15 }
+    notes: "S143c5: EDEN.PA ADD EUR 475. Cash at target (14.7%). European Pricing Power overweight (11.2% vs 7% target) — justified by 27.1% E[CAGR]."
 
   # STRATEGIC DIRECTION — Re-evaluate EVERY session start with fresh data.
   # This is NOT a plan. It's a compass bearing. Replace when context changes.
