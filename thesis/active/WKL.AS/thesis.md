@@ -1,6 +1,6 @@
 # WKL.AS - Wolters Kluwer NV
 
-> **Fair Value:** EUR 72 (Committee decision, 10-gate formal output. R1 was EUR 94.28, committee reduced -24% citing FV inflation, insufficient MoS at market, no sector view at time of R1.)
+> **Fair Value:** EUR 80 (Re-eval S143c11. Committee EUR 72 pre-FY2025, range 67-80. FY2025 confirmed base: organic 5-6%, GM 73.5% expanding, OP 25%, EPS +24.7%. EUR 80 = top of committee range, conservative vs DCF EUR 88. Sector view MISSING — HARD GATE still open.)
 
 ## TL;DR
 

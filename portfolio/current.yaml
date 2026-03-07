@@ -183,10 +183,10 @@ positions:
     date_opened: 2026-03-07
     thesis: thesis/active/WKL.AS/thesis.md
     conviction: medium
-    fair_value: "EUR 72 (Committee decision, formal 10-gate output. R1 was EUR 94.28, committee reduced -24%. No R3 file exists — prior 'EUR 85 R3 post-DA' label was unsupported. QS Tool ~80 Tier A.)"
+    fair_value: "EUR 80 (Re-eval S143c11. Committee EUR 72 was pre-FY2025 results, range 67-80. FY2025 confirmed base: organic 5-6%, GM 73.5%, OP 25%, EPS +24.7%, FCF EUR 1.4B. EUR 80 = top of committee range. DCF tool EUR 88 base. QS Tool 72 Tier B.)"
     last_review: 2026-03-07
-    exit_plan: "HOLD. TRIM at EUR 85+. ADD at EUR 50-55 (committee entry). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, regulatory disruption to legal/tax data monopoly)."
-    notes: "ADD S143c10: T15 rotation +2.92 shares at EUR 68.52 (EUR 200). Data & Analytics Monopolies basket. FV CORRECTED S143c11: EUR 85→EUR 72 (committee source of truth, no R3 paper trail for EUR 85)."
+    exit_plan: "HOLD. TRIM at EUR 95+. ADD at EUR 55 (MoS 31%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, Harvey AI >$500M ARR, regulatory disruption to legal/tax data monopoly)."
+    notes: "FV HISTORY: R1 EUR 94→committee EUR 72→unsupported EUR 85→corrected EUR 72→re-eval EUR 80 (S143c11 post-FY2025). Sector view MISSING (committee HARD GATE #0). Full re-eval with sector view still needed."
 
 # =============================================================================
 # SHORT POSITIONS - CFDs en eToro

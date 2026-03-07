@@ -106,6 +106,22 @@ Basket approval does NOT skip per-stock R1-R4. Buying 3 stocks because "the bask
 
 ---
 
+## Errores de Integridad de Datos
+
+**#61. FV in current.yaml without documented source (Ghost FV)**
+EVERY fair_value field in current.yaml MUST trace to a specific document: thesis header (R1), r3_resolution.md (R3), committee_decision.md (R4), or re-eval with dated reasoning. If the FV says "R3 post-DA" but no R3 file exists, the FV is FABRICATED. This inflates E[CAGR], distorts sizing decisions, and makes the entire portfolio analytics unreliable. Origin: WKL.AS S143 — "EUR 85 R3 post-DA" had no R3 file. True FV was committee EUR 72. Position was sized based on 20.9% E[CAGR] that was actually 11.3%.
+FIX: After ANY portfolio-ops write, verify: (1) FV in current.yaml matches thesis header, (2) thesis header matches last formal pipeline output (R3/R4/re-eval). If mismatch → STOP and reconcile before proceeding.
+
+**#62. Thesis file not updated after pipeline advancement**
+When R2 (DA) or R3 (resolution) or R4 (committee) changes FV, the thesis.md header MUST be updated. If thesis header still shows R1 FV but committee lowered it, forward_return.py reads the inflated R1 number. Origin: TW thesis showed $155-159 (R1) while R3 resolved to $140; WKL.AS thesis showed EUR 94.28 (R1) while committee said EUR 72.
+FIX: Pipeline protocol MUST include "update thesis header" as final step of each round. The `> **Fair Value:**` line is what the parser reads — if it's wrong, everything downstream is wrong.
+
+**#63. Market-buy protocol bypassing committee HARD GATEs**
+Market-buy protocol allows buying at market price when E[CAGR] justifies. But it does NOT override committee HARD GATEs (sector view required, earnings gate, etc.). If committee said "WATCHLIST with HARD GATE on sector view" and the position is opened without creating the sector view, the committee was overruled without documentation. Origin: WKL.AS committee required sector view creation (Gate 0 FAIL) — position opened without it.
+FIX: Market-buy protocol must check: "Did investment-committee set HARD GATEs? If yes, are they cleared?" If not cleared → cannot market-buy regardless of E[CAGR].
+
+---
+
 ## Errores de Inaccion y Racionalizacion
 
 **#58. Inaction disguised as process**
