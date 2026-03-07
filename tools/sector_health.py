@@ -277,13 +277,14 @@ def parse_sector_header(filepath):
         # Pattern 1: > Ultima actualizacion: 2026-02-13
         # Pattern 2: > Last Updated: 2026-02-19
         # Pattern 3: > Sector view v1.0 | Creado: 2026-02-06
-        date_match = re.search(
-            r"(?:Ultima actualizacion|Last Updated|Creado|Updated):\s*(\d{4}-\d{2}-\d{2})",
+        date_matches = re.findall(
+            r"(?:Ultima actualizacion|Last Updated|Actualizado|Creado|Updated):\s*(\d{4}-\d{2}-\d{2})",
             line, re.IGNORECASE,
         )
-        if date_match and not found_date:
+        if date_matches and not found_date:
             try:
-                found_date = datetime.strptime(date_match.group(1), "%Y-%m-%d").date()
+                # Take the LAST date on the line (Actualizado > Creado)
+                found_date = datetime.strptime(date_matches[-1], "%Y-%m-%d").date()
             except ValueError:
                 pass
 

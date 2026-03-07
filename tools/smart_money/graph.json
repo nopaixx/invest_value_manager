@@ -4177,6 +4177,48 @@
       "full_name": "Buzzi_Family",
       "fund_type": "unknown",
       "id": "buzzi_family"
+    },
+    {
+      "type": "person",
+      "full_name": "Kelly_Richdale",
+      "role": "Board_Member",
+      "id": "kelly_richdale"
+    },
+    {
+      "type": "person",
+      "full_name": "Andrea_Kramer",
+      "role": "COO",
+      "id": "andrea_kramer"
+    },
+    {
+      "type": "person",
+      "full_name": "David_Berkman",
+      "role": "Director",
+      "id": "david_berkman"
+    },
+    {
+      "type": "person",
+      "full_name": "Juan_Delgado-Moreira",
+      "role": "CEO",
+      "id": "juan_delgado-moreira"
+    },
+    {
+      "type": "person",
+      "full_name": "Mario_Giannini",
+      "role": "Chairman",
+      "id": "mario_giannini"
+    },
+    {
+      "type": "person",
+      "full_name": "Alexander_Scott",
+      "role": "CEO",
+      "id": "alexander_scott"
+    },
+    {
+      "type": "person",
+      "full_name": "Euan_Marshall",
+      "role": "Director",
+      "id": "euan_marshall"
     }
   ],
   "edges": [
@@ -13553,11 +13595,88 @@
     {
       "relation": "holds",
       "pct_portfolio": 53.0,
-      "source": "buzzi_family",
       "session_date": "2026-03-07",
       "date_added": "2026-03-07",
       "note": "capture",
+      "source": "buzzi_family",
       "target": "BZU.MI",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 50000.0,
+      "date": "2026-03-07",
+      "role": "Board_Member",
+      "data_source": "live",
+      "date_added": "2026-03-07",
+      "source": "kelly_richdale",
+      "target": "EDEN.PA",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 250000.0,
+      "date": "2026-03-07",
+      "role": "COO",
+      "data_source": "live",
+      "date_added": "2026-03-07",
+      "source": "andrea_kramer",
+      "target": "HLNE",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 1010000.0,
+      "date": "2026-03-07",
+      "role": "Director",
+      "data_source": "live",
+      "date_added": "2026-03-07",
+      "source": "david_berkman",
+      "target": "HLNE",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 1000000.0,
+      "date": "2026-03-07",
+      "role": "CEO",
+      "data_source": "live",
+      "date_added": "2026-03-07",
+      "source": "juan_delgado-moreira",
+      "target": "HLNE",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 990000.0,
+      "date": "2026-03-07",
+      "role": "Chairman",
+      "data_source": "live",
+      "date_added": "2026-03-07",
+      "source": "mario_giannini",
+      "target": "HLNE",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 1500.0,
+      "date": "2026-03-07",
+      "role": "CEO",
+      "data_source": "live",
+      "date_added": "2026-03-07",
+      "source": "alexander_scott",
+      "target": "IHP.L",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 13560.0,
+      "date": "2026-03-07",
+      "role": "Director",
+      "source": "euan_marshall",
+      "data_source": "live",
+      "date_added": "2026-03-07",
+      "target": "IHP.L",
       "key": 0
     }
   ]
