@@ -5148,3 +5148,37 @@ quality_universe:
       basket pipeline. 50% Arnault ownership. EUR 14.2B FCF.'
     r1_session: 145
     r1_verdict: OVERVALUED
+  - ticker: MRL.MC
+    name: MERLIN PROPERTIES SOCIMI, S.A.
+    direction: long
+    qs_tool: 61
+    qs_adj: 61
+    tier: B
+    sector: Real Estate
+    fair_value: 0
+    entry_price: 0
+    currency: EUR
+    current_price: 14.22
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: ''
+    last_scored: '2026-03-07'
+    last_price_check: '2026-03-07'
+    notes: Auto-scored by batch_scorer. Needs R1 analysis.
+  - ticker: KPN.AS
+    name: KPN KON
+    direction: long
+    qs_tool: 56
+    qs_adj: 56
+    tier: B
+    sector: Communication Services
+    fair_value: 0
+    entry_price: 0
+    currency: EUR
+    current_price: 4.738
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: ''
+    last_scored: '2026-03-07'
+    last_price_check: '2026-03-07'
+    notes: Auto-scored by batch_scorer. Needs R1 analysis.
