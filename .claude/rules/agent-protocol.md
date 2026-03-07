@@ -15,7 +15,8 @@
 Que necesito?
 ├─ ANALIZAR empresa nueva LONG (buy-pipeline 4 rondas)
 │  R1: fundamental-analyst + moat-assessor + risk-identifier (PARALELO) → valuation-specialist
-│  R2: devil's-advocate
+│      HARD GATE: thesis header MUST have `> **Expected Growth:**` line (Error #64/#65)
+│  R2: devil's-advocate (MANDATORY within 5 sessions of position opening — Error #65)
 │  R3: Resolucion conflictos (si necesario)
 │  R4: investment-committee (10 gates)
 ├─ ANALIZAR fragilidad SHORT (short-pipeline 4 rondas)

@@ -157,6 +157,20 @@ so_reality_check:
   next_due: 2026-03-08
   last_result: "S148: Active SOs: BZU.MI EUR 42 (R4), VRSK $210 (R4), FOUR.L pending (R3, GATED Mar 18 earnings). CVNA short SO conditional ($290-330, VIX <28)."
 
+# FV CONSISTENCY CHECK (every 10 sessions — Error #65)
+fv_consistency_check:
+  frequency: "every 10 sessions"
+  last_run: 2026-03-07
+  last_session: 148
+  next_due_session: 158
+  last_result: "S148: 3 stale FVs found and fixed in system.yaml (NVO $50→$47, DOCS $32.80→$30, TW $140→$135). All 11 thesis headers verified: Expected Growth present, GrSrc=thesis for all."
+  check_list: |
+    1. forward_return.py --active-only → all GrSrc = "thesis"?
+    2. For each position: thesis header FV == current.yaml FV == system.yaml FV?
+    3. All thesis headers have > **Expected Growth:** line?
+    4. Any position >5 sessions old without DA (R2)? → MANDATORY REVIEW
+  origin: "Error #65 (S148). DA audit revealed systematic FV drift."
+
 # QUARTERLY — TOOL AUDIT
 tool_fx_audit:
   frequency: quarterly

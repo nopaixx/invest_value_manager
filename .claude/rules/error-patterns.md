@@ -141,3 +141,22 @@ Cash >25% for >5 sessions while ALL Inaction Audits PASS = the audit is rubber-s
 Automated tools (thesis_parser.py, forward_return.py, sector_health.py) extract data from thesis files and feed it into portfolio analytics (E[CAGR], sizing, rotation). If the parser extracts WRONG data, ALL downstream decisions are corrupted — and the corruption is SILENT (no error, no warning, just wrong numbers). Origin: DOCS S145 — thesis_parser.py regex matched "Terminal Growth: 2.5%" (DCF terminal rate) instead of actual business growth 10%. This produced E[CAGR] 11.5% (wrong) vs 19.0% (correct). S143c8 TRIM of 7.15 DOCS shares was based on this incorrect E[CAGR]. The trim would have been smaller or zero with correct data. Same session: MONY.L growth fell through to yfinance -0.2% because thesis had range format "5-7%" that didn't match parser regex. Actual growth 1-2%. E[CAGR] showed 10.7% instead of 12.9%.
 **WHY THIS IS THE MOST DANGEROUS ERROR CLASS:** Unlike Ghost FV (#61) or thesis staleness (#62), parser bugs produce data that LOOKS correct — the tool runs, outputs a number, the number feeds into decisions. There is no "missing data" warning. The system trusts its own tools implicitly. A human reviewing the output sees a plausible E[CAGR] and acts on it. The error only surfaces when someone manually cross-checks tool output against source data.
 FIX: (1) After ANY thesis header edit, run `python3 tools/forward_return.py --active-only` and verify the growth% column matches thesis intent for the edited ticker. (2) When portfolio_cagr.py or forward_return.py shows a position with surprisingly low/high E[CAGR], cross-check the growth input — don't assume the tool is right. (3) Regex patterns in thesis_parser.py must use negative lookbehinds and specific anchoring to avoid matching similar-but-wrong fields (e.g., `(?<!Terminal )Growth`). (4) Periodic audit: compare tool-extracted growth vs thesis-stated growth for all positions (quarterly).
+
+**#65. Systematic bullish bias from skipping DA pre-buy**
+Buying positions at R1/R4 without R2 (DA) systematically inflates FVs and E[CAGR]. Origin: S147 DA audit — 10/10 positions received MODERATE COUNTER. ALL showed bullish bias. 3 FVs reduced, 6 growth rates corrected, blended E[CAGR] dropped 19.1%→17.4% (-1.7pp phantom). The market-buy-protocol anti-pattern #2 ("DA correction buffer is built into threshold gap") was empirically falsified — the bias is SYSTEMATIC, not random, so it doesn't cancel out.
+**WHY THIS MATTERS:** R1 thesis is written BY the bull case author. Without adversarial challenge, FVs drift upward, growth assumptions go unchecked, and kill conditions are incomplete. The DA audit added 15+ new kill conditions across 10 positions. The system was flying with incomplete risk maps.
+FIX: (1) DA (R2) must complete within 5 sessions of position opening. Track via session_continuity.yaml promises[]. If not completed by session +5 → MANDATORY REVIEW (position enters probation, no ADD allowed). (2) `> **Expected Growth:**` header line is a HARD GATE for R1 completion and market-buy G1. Without it, forward_return.py falls through to yfinance. (3) Every 10 sessions: quick FV consistency check — thesis header FV vs system.yaml FV vs current.yaml FV. If any mismatch → fix before proceeding.
+
+---
+
+## FV Consistency Check (Periodic — every 10 sessions)
+
+Cross-check FVs across three sources. All must match:
+1. `thesis/active/TICKER/thesis.md` → `> **Fair Value:**` line
+2. `portfolio/current.yaml` → `fair_value` field
+3. `state/system.yaml` → `positions[].status` (contains FV)
+
+If ANY mismatch → reconcile. Thesis header is source of truth (it's what forward_return.py reads).
+Also verify: `> **Expected Growth:**` exists for every active position. If missing → Error #64 risk.
+Tool: `forward_return.py --active-only` → verify GrSrc column shows "thesis" for all positions.
+Origin: S148 — 3 stale FVs found in system.yaml (NVO $50→$47, DOCS $32.80→$30, TW $140→$135).

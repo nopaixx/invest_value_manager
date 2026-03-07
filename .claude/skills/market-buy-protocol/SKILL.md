@@ -37,7 +37,7 @@ FOR each candidate in universe with FV defined:
 
 | Gate | Check | Tool |
 |------|-------|------|
-| G1 | R1 COMPLETE minimum (thesis exists with kill conditions) | Check `pipeline_status` in universe |
+| G1 | R1 COMPLETE minimum (thesis exists with kill conditions + `> **Expected Growth:**` header line) | Check `pipeline_status` in universe + verify thesis header |
 | G2 | No active kill condition approaching | Read thesis kill conditions section |
 | G3 | Sector view exists and < 30d old | `sector_health.py freshness` |
 | G4 | Portfolio constraints pass (concentration, sector, geo) | `constraint_checker.py CHECK TICKER AMT` |
@@ -101,7 +101,7 @@ Sizing also considers:
 ## Anti-Patterns
 
 1. **"Let me wait for earnings"** — If E[CAGR] > 15% and earnings are > 30d away, BUY NOW. Earnings risk is priced in. Waiting 30d costs ~1.2% of E[CAGR].
-2. **"The DA hasn't run yet"** — If R1 thesis is solid and E[CAGR] > 18%, the DA correction buffer is built into the threshold gap.
+2. **"The DA hasn't run yet"** — ~~If R1 thesis is solid and E[CAGR] > 18%, the DA correction buffer is built into the threshold gap.~~ **INVALIDATED by S147 DA audit.** All 10 DAs = MODERATE COUNTER. Bias is systematic, not random. No "buffer" exists. **NEW RULE:** Market buy allowed pre-DA ONLY if DA is scheduled within 5 sessions of position opening. If DA not completed by session +5, position enters MANDATORY REVIEW. Track in session_continuity.yaml → promises[].
 3. **"Let me get a better price"** — This is L-02 and L-05. If E[CAGR] at current price meets threshold, the price IS good enough.
 4. **"I already have 11 positions"** — Rotation handles this. SELL the worst to BUY the best.
 5. **"Cash might be needed for a correction"** — Risk is controlled through quality and kill conditions, not cash. (P15)
