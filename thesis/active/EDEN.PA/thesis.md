@@ -476,6 +476,72 @@ EARNINGS FEB 24
 
 ---
 
+## SHORT INTEREST RISK ASSESSMENT (2026-03-07)
+
+### SI Data: 21.18% (20 funds) — ELEVATED AND RISING
+
+**Critical finding:** SI has INCREASED from 19.3% (27 funds, post-earnings Feb 24) to 21.18% (20 funds, Mar 7). After a BASE+ earnings beat (+21% adj EPS, +8% intraday), shorts are NOT covering — they are ADDING. This is a significant contrarian signal that demands attention.
+
+**Top short positions:**
+| Fund | SI % | Date | Type |
+|------|------|------|------|
+| Citadel | 2.10% | Live | Multi-strategy HF |
+| Canada Pension Plan (CPPIB) | 2.07% | 2026-03-04 | Pension fund |
+| Millennium International | 1.90% | Live | Multi-strategy HF |
+| Marshall Wace | 1.89% | Live | Systematic HF |
+| Two Sigma | 1.31% | 2026-01-22 | Quant HF |
+| D.E. Shaw | 0.92% | Live | Quant HF |
+| AQR Capital | 0.91% | Live | Quant HF |
+| Samlyn Capital | 0.83% | 2026-03-04 | HF |
+| SurgoCap Partners | 0.66% | 2025-12-30 | HF |
+| Gladstone Capital | 0.60% | 2025-11-11 | HF |
+| Voleon Capital | 0.50% | 2026-03-02 | Quant HF |
+
+**Interpretation:**
+1. **Mix of quant + discretionary:** Citadel, Millennium, Marshall Wace, AQR, Two Sigma, D.E. Shaw — this is a who's-who of top HFs. Not just momentum algos.
+2. **CPPIB at 2.07% is unusual:** Pension funds rarely short. This signals deep fundamental conviction against the thesis.
+3. **Post-earnings INCREASE:** The earnings beat did NOT cause covering. Either shorts see the earnings as backward-looking (2025 strong, 2026 will be weak) or they are positioning for regulatory escalation.
+4. **Crowding risk:** 21%+ SI creates squeeze potential if a positive catalyst materializes (injunction confirmed, France regulation off the table). But it also means smart money sees something we may not.
+
+**What shorts likely see that we should consider:**
+- 2026 EBITDA -8/-12% is the REAL story, not the 2025 beat
+- Italy + Brazil = regulatory contagion pattern → France next?
+- Negative equity (-EUR 1,046M) limits financial flexibility
+- Dividend payout at 60% with declining EBITDA = unsustainable
+- Interoperability in Brazil + interchange caps = permanent margin compression
+
+**Impact on thesis:**
+- FV EUR 29.0 UNCHANGED — the SI is a risk signal, not a kill condition
+- The shorts' thesis aligns with our Bear scenario (EUR 20-25), which we weight at 25%
+- If SI rises above 25% or a 3rd major market regulates, reassess bear probability
+- Conversely, if France explicitly rules out regulation, expect violent short squeeze
+- HOLD remains correct: MoS 35.2% vs adversarial FV provides buffer even if shorts are partially right
+
+### Orphan Status Assessment
+
+EDEN.PA is currently an **orphan position** — not assigned to any thematic basket. With E[CAGR] ~29% at EUR 18.79, it has the highest expected return in the portfolio but also the highest regulatory risk profile.
+
+**Basket candidacy:**
+- Potential basket: "EU Value Recovery" (with RACE.MI) — but thesis overlap is minimal
+- Standalone orphan justified because: (a) unique regulatory risk profile, (b) no natural thematic pair, (c) position size small at ~3.8%
+- If a "European regulatory recovery" or "benefits/payments" basket forms with 2+ candidates, EDEN.PA should join
+
+### Position Update (Mar 7)
+
+| Metric | Value |
+|--------|-------|
+| Current Price | EUR 18.79 |
+| FV (Adversarial) | EUR 29.0 |
+| MoS | 35.2% |
+| E[CAGR] | ~29% |
+| P&L | +6.7% (cost EUR 17.61) |
+| SI | 21.18% (20 funds) — RISING |
+| Conviction | MEDIUM |
+| Next catalyst | Injunction appeal resolution Q1-Q2 2026 |
+| Decision | HOLD. SI is risk signal, not sell signal. MoS provides buffer. |
+
+---
+
 ## Sources
 
 - [Edenred Financial Results](https://www.edenred.com/en/investors-shareholders/financial-results)

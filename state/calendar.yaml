@@ -1,6 +1,6 @@
 # CALENDAR - Active and Future Events
 # Past events archived in state/calendar_archive.yaml
-# Updated: 2026-03-02 (S132)
+# Updated: 2026-03-07 (S142)
 
 events:
   # Archived S132: QTCOM.HE FY2025 (ARCHIVED), DTE.DE FY2025 (SOLD), INTU Q2 (monitoring), CS.PA FY2025 (no action), PROX.BR FY2025 (no action), ENGI.PA FY2025 (no action), NTGY.MC FY2025 (passed), LYV DOJ trial (monitoring, no position)
@@ -53,12 +53,15 @@ events:
     priority: low
     action: "Capture dividend. No action needed."
 
-  - date: 2026-03-14
-    type: framework_deadline
-    ticker: LULU
-    event: "LULU pre-earnings framework due (earnings Mar 17). MAKE-OR-BREAK."
-    priority: CRITICAL
-    action: "Create bear/base/bull. KC: GM <57% or negative global comps = SELL. $320M tariff headwind. No permanent CEO."
+  # LULU: ARCHIVED S142. Position EXITED S141 (sold, P&L -1.0%). No longer relevant.
+  # LULU framework deadline Mar 14 and earnings Mar 17 — ARCHIVED.
+
+  - date: 2026-03-12
+    type: macro_event
+    ticker: PORTFOLIO
+    event: "US CPI February 2026 — first data point reflecting partial oil spike"
+    priority: high
+    action: "If headline >2.6% → market selloff likely. Oil spike ($62→$92) captured through mid-Feb only. Mar/Apr CPI will show full damage. Monitor for rate cut repricing."
 
   - date: 2026-03-12
     type: earnings
@@ -70,18 +73,39 @@ events:
   # NVO CagriSema head-to-head: COMPLETED Feb 23. FAILED. KC#1 triggered. See thesis/active/NVO/thesis.md v4.0.
   # Next NVO catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update (no fixed date yet).
 
+  - date: 2026-03-18
+    type: macro_event
+    ticker: PORTFOLIO
+    event: "Fed FOMC rate decision — HOLD certain. Statement language on oil/war crucial."
+    priority: high
+    action: "Any hawkish pivot on inflation = market selloff. Any hint of hike = crash. Dovish tilt unlikely given oil $90+. Watch dot plot if updated."
+
+  - date: 2026-03-19
+    type: macro_event
+    ticker: PORTFOLIO
+    event: "ECB rate decision + new projections. Oil shock center stage."
+    priority: medium
+    action: "BofA expected final 25bp cut but oil $90+ may force HOLD. New projections will incorporate oil spike."
+
   - date: 2026-03-19
     type: earnings
     ticker: ENEL.MI
     event: "Enel FY2025 results"
     priority: medium
 
-  - date: 2026-03-17
-    type: earnings
-    ticker: LULU
-    event: "LULU Q4 FY2025 — MAKE-OR-BREAK (CORRECTED from Mar 31)"
-    priority: CRITICAL
-    action: "ON PROBATION. SELL if negative global comps or GM <57% or poor CEO appointment. Prepare bear/base/bull framework by Mar 14. $320M tariff hit + oil headwind = margin pressure. 12 days, not 26."
+  - date: 2026-03-20
+    type: macro_event
+    ticker: PORTFOLIO
+    event: "BoE rate decision — HOLD expected given oil spike"
+    priority: medium
+    action: "Cut VERY UNLIKELY with oil $90+. Watch for GBP impact on 5 UK positions."
+
+  - date: 2026-03-20
+    type: legal
+    ticker: ERIE
+    event: "ERIE SCOTUS oral arguments (Indemnity v. PricewaterhouseCoopers)"
+    priority: low
+    action: "ERIE SO archived. Monitoring only. SCOTUS ruling could create insurance sector precedent."
 
   # REGULATORY WATCH
   - date: 2026-06-30

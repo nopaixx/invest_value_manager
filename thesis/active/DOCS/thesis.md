@@ -147,6 +147,7 @@ The buyback more than offsets dilution (net shares shrinking), so SBC is being f
 2. **Reverse DCF gap**: Market prices -7.5% decline vs +13% actual growth = 20+pp gap
 3. **AI optionality at zero**: No AI revenue in guidance; commercial AI products launching later FY2026; if monetized even modestly, growth re-accelerates
 4. **MFN is cyclical**: Pharma budget timing shifts happen regularly; they did NOT lose customers, budgets are delayed
+5. **Fundsmith validation (added Mar 2026)**: Terry Smith's Fundsmith holds DOCS at 5.3% portfolio weight -- one of their largest positions. Fundsmith is known for extremely concentrated quality compounder investing (typically 25-30 stocks), requiring businesses with high ROIC, strong moats, and long runways. A 5.3% weight indicates HIGH CONVICTION from one of the most disciplined quality investors globally. This is smart money validation of our monopoly physician network thesis
 
 ---
 
@@ -447,7 +448,7 @@ This is on the EDGE of actionability. The stock needs to drop to ~$27 or below f
 | SBC escalation >15% | 20% | MEDIUM | $500M buyback offsets; track record of share count decline |
 | Competitor achieves significant penetration | 10% | HIGH | 13-year head start; 85%+ penetration; residency pipeline |
 | Single-quarter revenue miss triggers further selloff | 40% | LOW-MEDIUM | Net cash $724M provides floor; buyback active |
-| Insider selling accelerates | 30% | LOW | Institutional ownership 93%; broad holder base |
+| Insider selling accelerates | 30% | LOW | Institutional ownership 93%; broad holder base. Fundsmith (Terry Smith) holds 5.3% portfolio weight -- strong quality investor validation |
 
 ---
 
@@ -487,3 +488,36 @@ This is on the EDGE of actionability. The stock needs to drop to ~$27 or below f
 - [Doximity SBC Data - MacroTrends](https://www.macrotrends.net/stocks/charts/DOCS/doximity/stock-based-compensation)
 - [Doximity SWOT - Investing.com](https://www.investing.com/news/swot-analysis/doximitys-swot-analysis-digital-health-leaders-stock-faces-macro-headwinds-93CH-4095937)
 - [Doximity CEO on AI - FierceHealthcare](https://www.fiercehealthcare.com/ai-and-machine-learning/well-win-ai-market-2026-doximity-ceo-says-medical-ai-assistant-market)
+
+---
+
+## Post-Entry Update (2026-03-07)
+
+### Fundsmith Validation -- 5.3% Portfolio Weight
+
+Terry Smith's Fundsmith holds Doximity at 5.3% portfolio weight, making it one of their top ~15 positions. Fundsmith's investment philosophy:
+- Concentrated portfolio (25-30 stocks)
+- Only buys businesses with high ROIC, strong competitive advantages, and long growth runways
+- Holds for 5-10+ years (average holding period ~7 years)
+- Has outperformed MSCI World since inception
+
+**Significance**: Fundsmith's 5.3% weight is a HIGH CONVICTION position from one of the most respected quality-compounder investors globally. This validates:
+1. The physician network monopoly moat (85%+ penetration)
+2. The quality of the business model (90% GM, 47% FCF margins)
+3. That the current valuation ($25 range) represents opportunity, not permanent impairment
+4. Our thesis that MFN headwinds are temporary and AI optionality is underpriced
+
+**Smart money context**: Fundsmith joining institutional holders like Vanguard, BlackRock strengthens the holder quality profile. Fundsmith is NOT a passive holder -- they actively select based on business quality.
+
+### Position Status (Mar 7, 2026)
+
+| Metric | Value |
+|--------|-------|
+| Avg Cost | $24.07 (19.57 shares) |
+| Current Price | $25.34 |
+| Unrealized | +5.3% |
+| FV | $32.80 |
+| MoS | 29.4% |
+| E[CAGR] | 11.5% (growth component conservative at 2.5%) |
+| QS | 79 Tier A |
+| Next Catalyst | Q4 FY2026 earnings ~May 2026 |

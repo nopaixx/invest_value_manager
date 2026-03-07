@@ -1,6 +1,6 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-06
+> Ultima actualizacion: 2026-03-07
 
 **CAMBIOS CRITICOS desde ultimo update (2-mar):**
 - **CRITICAL: IRAN WAR WEEK 1 COMPLETE -- ESCALATION CONTINUES, MIXED DIPLOMATIC SIGNALS.** Conflict now in Day 7. IRIS Dena (frigate) sunk by US submarine off Sri Lanka (Mar 4, 87 killed). Death toll in Iran surpasses 1,000+. CENTCOM Adm. Cooper: "sinking the entire Iranian Navy." Trump says Iran seeking talks but "too late," demands unconditional surrender. IRGC struck a US oil tanker in Persian Gulf. Hormuz at NEAR-TOTAL HALT (only 2 commercial transits in 24h per JMIC). ~3,200 ships idle in Gulf (Clarksons). House rejected war powers resolution (Mar 5). However: Araghchi told Oman FM Iran "open to de-escalation" -- but also said publicly "not asking for ceasefire." MIXED signals: military escalation + tentative diplomatic feelers.
@@ -12,7 +12,9 @@
 - **MATERIAL: RACE.MI BOUGHT (Mar 5)**: Ferrari EUR 312.80, 1.12 shares, EUR 350. E[CAGR] 13.5%. EU Value Recovery basket 2nd position. 6th E[CAGR]-framework market buy.
 - **MATERIAL: DOM.L FY25 results (Mar 5)**: Results released -- evaluate separately for thesis impact.
 - **MINOR: DXY stable at ~99** (was 98.41). Dollar firming on safe-haven + oil-inflation expectations.
-- **Portfolio: 15 positions** (was 14), EUR 3,692 cash (~36%), 0 shorts.
+- **MATERIAL: VIX SPIKING to 29.49** (was 26.92 Mar 6). Fear rising. +91.4% 3mo change. Approaching 30 = panic threshold.
+- **MATERIAL: Gold RECOVERING to $5,181** (was $5,144). Safe haven demand resuming after brief dip.
+- **Portfolio: 15 positions** (was 14), EUR 3,692 cash (~36%), 0 shorts. MORN rotation candidate (E[CAGR] 4.4%).
 
 ## Resumen Ejecutivo
 
@@ -62,15 +64,15 @@
 - **Recession probability REVISED UP**: Now 40-55% (was 30-35% on Mar 2). Oil >$80 for 3+ months has historically preceded US recessions (1979, 1990, 2007). We are at $92 now.
 - Consumer "bottom half" already in recession. Oil shock hits discretionary spending hardest
 
-**Mercados (6-mar-2026, macro_fragility.py)**:
-- **S&P 500: ~6,752** (down from 7,002 52wH, -3.6%. Down from 6,879 on Mar 2)
-- **VIX: 26.92** (up from 23.52 on Mar 2. +74.7% 3-month change. Was 13.38 at 52wL. ELEVATED but not panic)
-- **DXY: 98.98** (stable, firming on safe haven + oil-inflation expectations. Below 52wH 107.56)
-- **Gold: $5,144** (DOWN from $5,411 ATH on Mar 2. -4.9% retreat. Profit-taking. Still +76.6% YoY)
-- **Oil WTI: $92.12** (SURGED from $72.86 on Mar 2. +26.4% in 4 days. +53.3% 3-month change. Near 52wH $92.61)
-- **US 10Y Yield: 4.12%** (UP from 3.96% on Mar 2. Inflation fears dominating. 2Y-10Y spread +0.64% = curve normalized but steepening)
-- **US 2Y Yield: 3.48%** (unchanged -- front end anchored by Fed hold expectations)
-- **Credit spreads**: HYG/LQD ratio 0.7238 (slight widening from 0.7228). Monitor for acceleration
+**Mercados (7-mar-2026, macro_fragility.py)**:
+- **S&P 500: ~6,740** (down from 7,002 52wH, -3.7%. Continued selling. Down from 6,752 on Mar 6)
+- **VIX: 29.49** (UP SHARPLY from 26.92 on Mar 6. +91.4% 3-month change. Was 13.38 at 52wL. ELEVATED — approaching panic zone. 52wH was 60.13)
+- **DXY: 98.86** (stable)
+- **Gold: $5,181** (RECOVERING from $5,144 on Mar 6. Back up from profit-taking dip. +76.3% YoY)
+- **Oil WTI: $91.27** (slightly down from $92.12 peak. Still near 52wH $92.61. +51.9% 3-month change)
+- **US 10Y Yield: 4.13%** (stable at elevated level. Inflation fears dominant. 2Y-10Y spread +0.65%)
+- **US 2Y Yield: 3.48%** (unchanged — front end anchored by Fed hold expectations)
+- **Credit spreads**: HYG/LQD ratio 0.7234 (slight widening continues). Monitor for acceleration
 
 **Impacto Inversion**: **OIL >$90 TRIGGER HIT -- CRISIS DEEPENS PLAYBOOK ACTIVE.** This means: (1) evaluate rotation from weakest cyclicals, (2) watch for quality compounders at distressed valuations, (3) FTNT/cybersecurity benefits from conflict, (4) cash buffer is proving its value. However: do NOT panic-sell quality. The $90 level may be temporary if diplomacy succeeds. React to data, not fear -- but prepare for sustained elevated oil.
 
@@ -541,4 +543,4 @@ HOLD everything. Evaluate DOM.L post-FY25. Deploy only on extreme value. Monitor
 - [Yahoo Finance: Adobe AI recovery](https://finance.yahoo.com/news/ai-efforts-rich-partner-adobe-155200281.html)
 
 ### Macro Data (live)
-- macro_fragility.py full output 2026-03-06: VIX 26.92, Gold $5,144, WTI $92.12, DXY 98.98, S&P 6,752, 10Y 4.12%, 2Y 3.48%, 2Y-10Y spread +0.64%, HYG/LQD 0.7238
+- macro_fragility.py full output 2026-03-07: VIX 29.49, Gold $5,181, WTI $91.27, DXY 98.86, S&P 6,740, 10Y 4.13%, 2Y 3.48%, 2Y-10Y spread +0.65%, HYG/LQD 0.7234

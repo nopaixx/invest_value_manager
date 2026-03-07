@@ -471,4 +471,27 @@ If earnings are strong: BUY at market. Waiting for $145 may mean missing the opp
 
 **Analysis Date:** 2026-02-12
 **Analyst:** fundamental-analyst (R1)
-**Next Steps:** R2 (devil's-advocate), R3 (conflict resolution if needed), R4 (investment-committee 10 gates)
+**R4 APPROVED:** 2026-02-20 (Session 101). Market buy at $160.76.
+**Thesis refresh:** 2026-03-07 -- Price $190.15. Rotation candidate assessment.
+
+---
+
+## Post-Entry Update (2026-03-07)
+
+### Rotation Candidate Assessment
+
+MORN has the **lowest E[CAGR] in the portfolio** at 4.4%. The thesis has largely played out -- we captured the re-rating from $162 to $190 (+17.5%).
+
+| Metric | At Entry (Feb 20) | Now (Mar 7) | Change |
+|--------|-------------------|-------------|--------|
+| Price | $161.85 | $190.15 | +17.5% |
+| MoS | 17% | 2.5% | Near FV |
+| E[CAGR] | 15.6% | 4.4% | Below 12% threshold |
+
+**Status: ROTATION CANDIDATE #1.** MORN is the first position to rotate out when a superior alternative becomes buyable. Specifically:
+- **Sell MORN and buy VRSN** if VRSN hits $210 (E[CAGR] ~14.5%, QS 86 Tier A)
+- **Sell MORN and buy KNSL** if KNSL hits $355 (E[CAGR] ~15%, QS 75 Tier A)
+- **TRIM at $195+** (at/above FV)
+- **EXIT at $205+** (above expected value)
+
+Capital freed if sold: ~$551. Unrealized gain: +$82 (+17.5%).

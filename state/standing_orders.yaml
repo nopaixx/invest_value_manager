@@ -1,7 +1,7 @@
 # STANDING ORDERS - Price alerts with pre-written thesis
 # NOT autonomous orders. Human alerts Claude when price hits trigger.
 # Claude runs fast-track validation (pre-execution-check + reverse DCF) before recommending.
-# Updated: 2026-03-02 (Session 133 — v4.8 staleness metadata added)
+# Updated: 2026-03-07 (Session 142 — SO audit: distances refreshed, MORN rotation)
 #
 # CATEGORIES:
 # ACTIVE     — trigger <15% away, no unmet gate, prob_fill >25%. Human should watch daily.
@@ -33,7 +33,7 @@ standing_orders:
     category: BORDERLINE
     fill_prob_6m: 25
     trigger: "<=950 GBp"
-    current_distance: "4.8%"
+    current_distance: "1.9%"
     created_date: "2026-02-14"
     staleness_status: FRESH  # <15% distance, but BLOCKED (6th UK position)
     size_eur: 375
@@ -69,7 +69,7 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 50
     trigger: "<=$88"
-    current_distance: "10.5%"
+    current_distance: "9.5%"
     created_date: "2026-02-14"
     staleness_status: FRESH  # <15% distance
     size_eur: 400
@@ -85,14 +85,14 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 25
     trigger: "<=EUR 270"
-    current_distance: "14.0%"
+    current_distance: "10.5%"
     created_date: "2026-02-20"
     staleness_status: FRESH  # <15% distance
     size_eur: 350
     shares_approx: 1
     fair_value: "EUR 355"
     mos_at_trigger: "24%"
-    notes: "ADD to full 6% — initial BUY EXECUTED 2026-03-05 at EUR 312.80 (~1.12 shares, EUR 350). Trigger raised EUR 260→270 (Session 90). Current position ~3.4%."
+    notes: "ADD to full 6% — initial BUY EXECUTED 2026-03-05 at EUR 312.80 (~1.12 shares, EUR 350). Trigger raised EUR 260→270 (Session 90). Current position ~3.4%. RACE.MI at EUR 301.60 (Mar 7) — crisis selloff helping."
     last_analysis_date: 2026-03-05
     expiry: 2026-08-01
 
@@ -101,7 +101,7 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 25
     trigger: "<=$125"
-    current_distance: "13.2%"
+    current_distance: "12.1%"
     created_date: "2026-02-10"
     staleness_status: FRESH  # <15% distance
     size_eur: 300
@@ -121,14 +121,14 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 25
     trigger: "<=$155"
-    current_distance: "13.3%"
+    current_distance: "15.3%"
     created_date: "2026-02-14"
-    staleness_status: FRESH  # <15% distance
+    staleness_status: STALE  # >15% distance, >30d, no dated catalyst. Price rallied from $170→$183.
     size_eur: 200
     fair_value: "$190"
     mos_at_trigger: "18.4%"
     tier: "B (QS 64/68 adj)"
-    notes: "HALF POSITION — Greensill A$7B trial Aug 2026. Ticker changed from MMC to MRSH (Jan 14, 2026). US $143M Greensill claim SETTLED (May 2025). Australian A$7B trial still pending."
+    notes: "HALF POSITION — Greensill A$7B trial Aug 2026. Ticker changed from MMC to MRSH (Jan 14, 2026). US $143M Greensill claim SETTLED (May 2025). Australian A$7B trial still pending. S142: price $183 vs trigger $155 = 15.3%. STALE — recalibrate entry or archive."
     last_analysis_date: 2026-02-14
     expiry: 2026-05-31
 
@@ -148,7 +148,7 @@ standing_orders:
     trigger: "<=$65"
     current_distance: "3.5%"
     created_date: "2026-02-26"
-    staleness_status: FRESH  # <15% distance, dated catalyst (Merck PTAB Jun 2026)
+    staleness_status: FRESH  # <15% distance, dated catalyst (Merck PTAB Jun 2026). NEAR TRIGGER.
     gate: "Merck PTAB ruling (Jun 2026) — binary risk favors patience"
     r4_status: "APPROVED CONDITIONAL (S140, 2026-03-06). 6 PASS, 4 CONDITIONAL PASS, 0 FAIL."
     size_eur: 400
@@ -193,9 +193,9 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 25
     trigger: "<=1,700p"
-    current_distance: "20.4%"
+    current_distance: "19.4%"
     created_date: "2026-02-20"
-    staleness_status: FRESH  # Gate CLEARED Mar 3 — OP 7.1%, OB GBP 1.5B. Now ACTIVE.
+    staleness_status: FRESH  # Gate CLEARED Mar 3. KLR.L rallied to 2110p (ATH zone). Distant but catalysed.
     gate: "CLEARED S136. FY2025: OP margin 7.1% (gate 6.5%), order book GBP 1.5B (gate 1.4B). GBP 100M buyback announced."
     size_eur: 400
     shares_approx: 19
@@ -219,9 +219,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 25
     trigger: "<=$285"
-    current_distance: "14.2%"
+    current_distance: "22.4%"
     created_date: "2026-02-20"
-    staleness_status: FRESH  # <15% distance, dated gate (Q1 2026)
+    staleness_status: STALE  # S142: rallied $313→$368. 22.4% from trigger. DOGE risk + price away. Recalibrate or archive.
     gate: "Q1 2026 organic growth must be >=4%"
     size_eur: 400
     fair_value: "$365"
@@ -237,9 +237,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 10
     trigger: "<=$170"
-    current_distance: "14.5%"
+    current_distance: "24.7%"
     created_date: "2026-02-14"
-    staleness_status: FRESH  # <15% distance, dated gate (Q2 FY2026 Mar 2026)
+    staleness_status: STALE  # S142: rallied $185→$226. 24.7% from trigger = EXTREME. Archive candidate.
     gate: "Q2 FY2026 results (Mar 2026)"
     size_eur: 400
     fair_value: "$210"
@@ -254,9 +254,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 10
     trigger: "<=$80"
-    current_distance: "14.9%"
+    current_distance: "15.2%"
     created_date: "2026-02-14"
-    staleness_status: FRESH  # <15% distance
+    staleness_status: STALE  # S142: crossed 15% threshold. $94 vs $80 trigger.
     gate: "Price drifting away. Need re-eval if stays >$90."
     size_eur: 400
     fair_value: "$100"
@@ -271,9 +271,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 30
     trigger: "<=EUR 17.00"
-    current_distance: "9.4%"
+    current_distance: "9.2%"
     created_date: "2026-02-18"
-    staleness_status: RECALIBRATED  # S133: trigger EUR 14.50→17.00 (was STALE 16.6% away, now 9.4%)
+    staleness_status: RECALIBRATED  # S133: trigger EUR 14.50→17.00. S142: 9.2%, stable.
     gate: "Q1 2026 results must confirm organic growth >=3%"
     size_eur: 330
     fair_value: "EUR 20.00"
@@ -289,9 +289,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 20
     trigger: "<=$355"
-    current_distance: "8.9%"
+    current_distance: "4.6%"
     created_date: "2026-02-18"
-    staleness_status: RECALIBRATED  # S133: trigger $310→$355 (was STALE 17.1% away, now 8.9%)
+    staleness_status: RECALIBRATED  # S133: trigger $310→$355. S142: 4.6% away, NEAR TRIGGER in crisis.
     gate: "Verify Q1 2026 GWP growth trends (ex-property >10%)"
     size_eur: 400
     fair_value: "$458"
@@ -329,9 +329,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 15
     trigger: "<=$82"
-    current_distance: "12.2%"
+    current_distance: "16.9%"
     created_date: "2026-02-27"
-    staleness_status: FRESH  # <15% distance, dated gate (Q1 2026 Apr)
+    staleness_status: STALE  # S142: rallied $85→$99. 16.9% from trigger. Dated gate (Q1 Apr) saves from archive.
     gate: "Q1 2026 billings growth (Apr 2026 earnings). If billings <5% → ARCHIVE. If >8% → consider $85 entry."
     size_eur: 400
     shares_approx: 5
@@ -358,9 +358,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 15
     trigger: "<=$420"
-    current_distance: "5.0%"
+    current_distance: "7.2%"
     created_date: "2026-02-28"
-    staleness_status: FRESH  # 5% distance, dated gate (Q1 late April)
+    staleness_status: FRESH  # <15% distance, dated gate (Q1 late April)
     size_eur: 400
     fair_value: "$470 (R3 post-DA S131, was $511)"
     mos_at_trigger: "10.6%"
@@ -377,9 +377,9 @@ standing_orders:
     category: BORDERLINE
     fill_prob_6m: 30
     trigger: "<=EUR 24.50"
-    current_distance: "8.6%"
+    current_distance: "19.7%"
     created_date: "2026-02-25"
-    staleness_status: FRESH  # <15% distance
+    staleness_status: STALE  # S142: REN.AS rallied to 52wH EUR 30.50. Was 8.6%, now 19.7%. Recalibrate or archive.
     size_eur: 375
     fair_value: "EUR 30"
     mos_at_trigger: "18.3%"
@@ -409,9 +409,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 30
     trigger: "<=$38"
-    current_distance: "12.2%"
+    current_distance: "19.6%"
     created_date: "2026-02-25"
-    staleness_status: FRESH  # <15% distance, dated gate (Appian retrial or Q1 earnings)
+    staleness_status: STALE  # S142: rallied $30→$47. 19.6% from trigger. Approaching EXTREME.
     size_eur: 200
     fair_value: "$50"
     mos_at_trigger: "24%"
@@ -427,15 +427,15 @@ standing_orders:
     category: GATED
     fill_prob_6m: 30
     trigger: "<=$183"
-    current_distance: "7.6%"
+    current_distance: "0.2%"
     created_date: "2026-02-23"
-    staleness_status: FRESH  # <15% distance
-    gate: "Full R1 required before execution"
+    staleness_status: FRESH  # AT TRIGGER! $183.43 vs $183. But R1 required.
+    gate: "Full R1 required before execution — URGENT given price at trigger"
     size_eur: 350
     fair_value: "$215"
     mos_at_trigger: "14.9%"
     tier: "A (QS 76)"
-    notes: "TRIAGE S114. Safety equipment. P/E 27.8. Slow grower (~4% rev CAGR). Narrow moat (regulatory certs). FCF margin 16%. Op margin 21%. Yield 1.1%."
+    notes: "TRIAGE S114. Safety equipment. P/E 27.8. Slow grower (~4% rev CAGR). Narrow moat (regulatory certs). FCF margin 16%. Op margin 21%. Yield 1.1%. S142: PRICE AT TRIGGER ($183.43 vs $183). R1 URGENTLY NEEDED or archive."
     last_analysis_date: 2026-02-23
     expiry: 2026-08-01
 
@@ -444,7 +444,7 @@ standing_orders:
     category: GATED
     fill_prob_6m: 5
     trigger: "<=$190"
-    current_distance: "19.8%"
+    current_distance: "17.1%"
     created_date: "2026-02-25"
     staleness_status: FRESH  # Dated gate (Q1 FY2026 SSS May 2026). R3 complete S135.
     gate: "Q1 FY2026 SSS data (May 2026). R2 COMPLETE S135 (STRONG COUNTER 13/19)."
@@ -462,7 +462,7 @@ standing_orders:
     category: GATED
     fill_prob_6m: 35
     trigger: "<=$76"
-    current_distance: "7.1%"
+    current_distance: "6.7%"
     created_date: "2026-02-23"
     staleness_status: FRESH  # <15% distance
     gate: "Full R1 required before execution"
@@ -479,7 +479,7 @@ standing_orders:
     category: GATED
     fill_prob_6m: 35
     trigger: "<=$110"
-    current_distance: "7.9%"
+    current_distance: "11.7%"
     created_date: "2026-02-23"
     staleness_status: FRESH  # <15% distance, dated gate (Q1 earnings April)
     gate: "Q1 2026 earnings + Elliott/LSEG resolution"
@@ -498,9 +498,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 30
     trigger: "<=$31"
-    current_distance: "12.1%"
+    current_distance: "17.9%"
     created_date: "2026-02-25"
-    staleness_status: FRESH  # <15% distance, dated gate (Q3 FY2026 May/June)
+    staleness_status: STALE  # S142: rallied $34→$38. 17.9% from trigger. Dated gate (Q3 FY2026 May/June) saves from archive.
     size_eur: 400
     fair_value: "$37"
     mos_at_trigger: "16.2%"
@@ -516,9 +516,9 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 40
     trigger: "<=$210"
-    current_distance: "7.1%"
+    current_distance: "13.9%"
     created_date: "2026-02-27"
-    staleness_status: RECALIBRATED  # S133: trigger $190→$210 (was STALE 15.7% away, now 7.1%)
+    staleness_status: RECALIBRATED  # S133: trigger $190→$210. S142: price $244, distance 13.9%. Moving away.
     size_eur: 350
     fair_value: "$240"
     mos_at_trigger: "12.5%"
@@ -535,9 +535,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 20
     trigger: "<=$26"
-    current_distance: "15.9%"
+    current_distance: "18.5%"
     created_date: "2026-02-27"
-    staleness_status: FRESH  # >15% but has dated gate (Q1 late April). RECALIBRATE if still >15% post-Q1.
+    staleness_status: STALE  # S142: rallied $24→$32. 18.5% from trigger. Dated gate (Q1 late April) saves from archive.
     gate: "Q1 2026 earnings (late April). If broadband <150K loss + ARPU stable → execute. If broadband >200K + ARPU negative → DOWNGRADE to PASS."
     size_eur: 350
     fair_value: "$33 (R3 post-DA, was $39.37 R1)"
@@ -590,20 +590,19 @@ review_flags:
   # Trigger lowered $300→$285. FV revised $385→$365. See thesis/research/ROP/review_feb2026.md
 
 # =============================================================================
-# SO SUMMARY (Session 115, 2026-02-23 — Pipeline Sprint + TW R1-R3)
-# ACTIVE:     8 (RACE.MI BUY 3.8%, DNLM.L 2.7%, PEGA 5.2%, HLNE 11.2%,
-#              ACGL 10.5%, RACE.MI ADD 12%, GL ADD 13.2%, MRSH 13.3%)
-# GATED:     14 (NVO, BYIT.L, ROP, FDS, VLTO, DSY.PA, KNSL, SOON.SW, EEFT, STMN.SW,
-#              MSA 7.6%, WING 6.2%, SEIC 7.1%, TW $110 R3-GATED Q1+Elliott)
-# BORDERLINE: 6 (REN.AS 8.6%, UTHR 17.6%, V 18.5%, CPRT 7.3%, VRSN 7.4%)
-# EXTREME:    0 (ARCHIVED)
-# EXECUTED:   IHP.L market buy ~318p (S108), MORN market buy $160.76 (S101),
-#              HLNE market buy $101.75 (S122), DOCS market buy $24.07 (S122)
-# TOTAL:     27 standing + 0 extreme = 27
-# TW R1-R2-R3 COMPLETE: FV $155→$140 post-DA. WIDE moat 20/25. Entry $126→$110.
-#   DA found: Elliott/LSEG divestiture pressure, $26.3M insider selling, growth decel.
-#   Verdict: AT_FV (was ACTIONABLE). Wait Q1 earnings + LSEG resolution.
-# NEW SOs: CPRT $34, VRSN $200. TW revised $126→$110.
-# PEGA: OSINT RED FLAG — CEO selling $35M+. Investigate at R2.
-# CELH: SKIP (P/E 402 = FANTASY). APN.L: SKIP (NOT on eToro). FWONK: SKIP (ROIC<WACC).
+# SO SUMMARY (Session 142, 2026-03-07 — Full distance audit)
+# NEAR TRIGGER: HALO 3.5% (R4 APPROVED, Merck gate), DNLM.L 1.9% (BLOCKED UK),
+#               MSA 0.2% (AT TRIGGER, R1 needed!), KNSL 4.6% (crisis selloff)
+# ACTIVE:    5 (DNLM.L 1.9%, ACGL 9.5%, RACE.MI ADD 10.5%, GL ADD 12.1%, VRSN 13.9%)
+# GATED:   14 (BAH 8.4%, HALO 3.5%, STMN.SW, KLR.L 19.4%, ROP 22.4%*,
+#              FDS 24.7%*, VLTO 15.2%*, DSY.PA 9.2%, KNSL 4.6%, SOON.SW,
+#              QLYS 16.9%*, SPGI 7.2%, WING 17.1%, SEIC 6.7%, TW 11.7%,
+#              CPRT 17.9%*, PEGA 19.6%*, CMCSA 18.5%*, MSA 0.2%)
+# BORDERLINE: 1 (REN.AS 19.7%*)
+# STALE (*): ROP 22.4%, FDS 24.7%, VLTO 15.2%, QLYS 16.9%, CPRT 17.9%,
+#            PEGA 19.6%, CMCSA 18.5%, REN.AS 19.7%, MRSH 15.3%
+#            9 SOs now STALE — market rally moved many away from triggers.
+#            Priority: archive FDS (24.7% = extreme), recalibrate ROP.
+# EXECUTED S141-S142: RACE.MI market buy EUR 312.80 (S140)
+# MORN ROTATION: SELL MORN (E[CAGR] 4.4%), redeploy KNSL $355 or VRSN $210
 # =============================================================================

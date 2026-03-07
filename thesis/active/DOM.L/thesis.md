@@ -420,6 +420,32 @@ v2.0 said "trending WIDE" — but store opening deceleration suggests franchise 
 
 ### **SELL TRIGGER: EBITDA < £125M** (per user instruction + Kill Condition #1)
 
+### Oil Spike / Hormuz Crisis Overlay (Added S142, 2026-03-07)
+
+**NEW RISK: WTI surged to $90 (+17% in 1 day) after Operation Epic Fury re-escalation Mar 6.**
+
+Impact channels on DOM.L:
+1. **Supply chain costs (DIRECT):** DPG's supply chain (67% of revenue) includes packaging,
+   ingredients transport, and franchisee deliveries. Higher diesel/fuel costs flow through
+   within 1-2 quarters. Estimated £2-4M incremental annual cost if oil sustains $85-95.
+2. **UK consumer discretionary squeeze (INDIRECT):** Petrol at pump rises ~10-15p/litre
+   within weeks. UK consumer confidence already fragile — pizza delivery is discretionary.
+   Q3 LFL +1.0% could reverse to negative if sustained.
+3. **Food input inflation re-acceleration:** Wheat, palm oil, dairy transported globally.
+   Shipping costs via non-Hormuz routes add 15-25% to freight. Food inflation forecast
+   of 1.6-2.6% may prove optimistic — could stay 3-4% if crisis persists >30 days.
+4. **FY26 guidance risk:** Board may guide more conservatively if oil/inflation outlook
+   darkens. This could push FY26E EBITDA guide below £135M = near our review threshold.
+
+**Adjusted scenario probabilities (vs pre-crisis):**
+- Bear probability: 25% → **35%** (oil headwind + consumer squeeze)
+- Base probability: 50% → **45%**
+- Bull probability: 25% → **20%**
+
+**Key question for Mar 10:** Does management flag oil/shipping costs as FY26 headwind?
+If YES → FV may need downward revision to 220-230p range.
+If NO (crisis resolves quickly) → original framework intact.
+
 ### Scenario Responses
 
 **If BEAR (EBITDA < £130M, weak FY26 guide):**

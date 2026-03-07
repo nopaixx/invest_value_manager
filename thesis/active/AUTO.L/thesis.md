@@ -343,22 +343,74 @@ AUTO.L earns a CONDITIONAL place in the portfolio -- conditional on the April pr
 
 ---
 
-## Position Details (Updated Mar 6)
+## Position Details (Updated Mar 7)
 
 | Metric | Value |
 |--------|-------|
 | Shares | 65 |
 | Entry Price | 485.80 GBp (~5.58 EUR) |
-| Current Price | 486.54 GBp (Mar 6) |
-| P&L | +0.2% (~flat) |
+| Current Price | 494.80 GBp (Mar 7) |
+| P&L | +1.9% |
 | Total Invested | ~428 EUR |
 | Weight | ~3.5% |
 | Conviction | **LOW** (was MEDIUM -- downgraded due to intensifying dealer revolt) |
 | ADD trigger | **CANCELLED** (was 450p; based on inflated FV) |
 | FV (Re-Eval) | **580p** (was 617p adversarial, 688p original) |
-| MoS | **19.3%** at 486.54p |
+| MoS | **14.7%** at 494.80p |
 | Next review | After April 2026 pricing event implementation |
 | Decision point | **May 2026**: FY results + April pricing reception = HOLD/EXIT decision |
+
+---
+
+## CORPORATE BUYBACK & INSIDER ANALYSIS (2026-03-07)
+
+### Buyback Programme: ~GBP 65-70M in 60 days (Jan-Mar 2026)
+
+**IMPORTANT CORRECTION:** The reported "$95M from 26 insiders" is actually **corporate share buybacks** — 26 separate repurchase transactions by the company, not 26 individual directors buying with personal money. At GBP/USD ~1.28-1.30, GBP 65-70M ≈ $83-91M, close to the reported $95M figure.
+
+**Key buyback transactions (Jan-Mar 2026):**
+
+| Period | Shares Repurchased | Approx Value (GBP) | Avg Price |
+|--------|-------------------|---------------------|-----------|
+| Jan 6-26 | ~2.3M | ~GBP 13.3M | 555-576p |
+| Feb 2-27 | ~7.6M | ~GBP 42M | 475-646p |
+| Mar 2-5 | ~1.6M | ~GBP 7.5M | 469-486p |
+| **Total** | **~11.5M shares** | **~GBP 63M** | **~547p avg** |
+
+**Signal interpretation:**
+- Corporate buyback at depressed prices = POSITIVE capital allocation signal (management believes stock is undervalued)
+- Buying accelerated as price dropped below 500p — suggests management view of intrinsic value well above current levels
+- BUT: corporate buybacks are routine capital allocation, not the high-conviction signal that director open-market purchases would be
+- No significant PDMR (director) open-market purchases found with personal funds
+- CEO Coe holds ~3.3M shares (0.38%) — accumulated via LTIP, not open-market buys
+- Insider ownership remains LOW at ~0.5%
+
+### April 2026 Pricing Event: +5.5% CONFIRMED
+
+- CEO Nathan Coe confirmed 5.5% dealer price increase effective April 1, 2026 (down from 8% in FY2025)
+- This was disclosed on the Car Dealer Podcast in late January 2026
+- Jefferies cited this specifically in their downgrade (BUY→HOLD, 895p→650p)
+- The 5.5% rate is already in the thesis — no change to valuation needed
+- April remains the MAKE-OR-BREAK catalyst: how many dealers cancel/downgrade in response?
+
+### Updated Analyst Consensus (Mar 2026)
+
+| Metric | Value |
+|--------|-------|
+| Mean target | 728p (+47%) |
+| Median target | 750p (+52%) |
+| Low target | 470p (-5%) |
+| High target | 890p (+80%) |
+| Ratings | 3 Strong Buy, 4 Buy, 7 Hold, 1 Sell, 1 Strong Sell |
+| Key change | Jefferies: 895p→650p, downgraded to Hold |
+
+### Impact on Thesis
+
+- FV 580p UNCHANGED — buyback programme does not change fundamental valuation
+- The aggressive buyback is mildly accretive to EPS (reduces share count) but already factored into base case
+- LOW insider ownership (0.5%) remains a weakness vs portfolio quality standards
+- April pricing event remains the decisive catalyst
+- **No upgrade to conviction warranted** — HOLD LOW remains correct
 
 ---
 

@@ -67,7 +67,7 @@ baskets:
       have WIDE moats from switching costs and proprietary technology. Hormuz crisis
       elevates state-sponsored cyber threat = structural tailwind. Global spend
       growing from $188B (2024) to $300B+ (2028).
-    thesis_file: null  # TODO: Create thesis/baskets/cybersecurity/thesis.md
+    thesis_file: thesis/baskets/cybersecurity/thesis.md
     sector_views:
       - world/sectors/cybersecurity.md
     positions:
@@ -175,16 +175,19 @@ baskets:
       CONTRARIAN ANGLE: Most EU defense is 30-85x P/E (momentum, not value). The fund's
       edge is finding quality at reasonable valuations. BAH at P/E 11.8x is the widest
       quality-value gap in the sector.
-    thesis_file: null  # TODO: Create thesis/baskets/defense-rearmament/thesis.md
+    thesis_file: thesis/baskets/defense-rearmament/thesis.md
     sector_views:
       - world/sectors/defense-aerospace.md
     positions: []  # No positions yet — RESEARCHING status
     pipeline:
-      - BAH     # US govcon IT, QS ~65est Tier B, P/E 11.8x, DOGE-crushed. CONTRARIAN. Near $70 entry ($79.80). NEEDS_REVIEW.
-      - RHM.DE  # German ammo/vehicles, QS Tool 70 Tier B. Revenue CAGR +20%, EPS +35%. BUT P/E 84x = EXPENSIVE.
+      - BAH     # US govcon IT, QS ~65est Tier B, P/E 11.8x at $82, DOGE-crushed. CONTRARIAN. -37% from 52wH. PRIORITY #1.
+      - SAF.PA  # French jet engines, NOT SCORED. P/E 18.5x at EUR 318 = cheapest quality EU. CFM JV with GE. PRIORITY #2: SCORE NEXT.
+      - HO.PA   # Thales, QS Tool 65 Tier B. ROIC 12.5%, spread +7.4pp, 56.4% insider (FR state). P/E 47.5 = overpriced post-Hormuz.
+      - AM.PA   # French fighter jets, QS 75 Tier A. P/E 33x at EUR 334. Backlog EUR 46.6B. Near 52wH.
+      - LDO.MI  # Leonardo, QS Tool 54 Tier C. 30.2% insider (IT state). EPS CAGR +22.3%. P/E 29.3. Near 52wH.
+      - RHM.DE  # German ammo/vehicles, QS Tool 70 Tier B. Revenue CAGR +20%, EPS +35%. P/E 84x = EXPENSIVE.
       - BA.L    # UK defense prime, QS Tool 71 Tier B. Backlog GBP 83.6B record. P/E 32x.
-      - AM.PA   # French fighter jets, QS 75 Tier A. Backlog EUR 46.6B. P/E 33x. Near 52wH — needs pullback.
-      - SAF.PA  # French jet engines, QS ~66est Tier B. P/E 18.6x = cheapest quality engine duopolist. NOT SCORED.
+      # ELIMINATED S142: LMT (QS 38 Tier C), RTX (QS 41 Tier C), NOC (QS 40 Tier C), GD (QS 52 Tier C). US primes = low margin govt contractors, all near ATH.
     shared_risks:
       - "Geopolitical de-escalation (Ukraine ceasefire + Iran settlement) reducing urgency"
       - "EU defense at 30-85x P/E = momentum, not value — late entry risk"
@@ -206,10 +209,12 @@ baskets:
       SESSION: RHM.DE QS 70 Tier B (ROIC 15.6%, +9.3pp spread, rev CAGR +20%, EPS +35%,
       but 1.7% insider, GM declining, P/E 84x). BA.L QS 71 Tier B (ROIC 14.8%, +10.3pp
       spread, rev CAGR +11%, FCF consistent 4/4yr, 0.4% insider, P/E 32x).
-      PRIORITY ORDER: (1) BAH — only cheap quality name (P/E 11.8x), needs thesis re-eval
-      for DOGE update, (2) AM.PA — Tier A but near 52wH needs pullback, (3) SAF.PA —
-      not scored yet, P/E 18.6x interesting. RHM.DE and BA.L are Tier B at full price —
-      not deployment candidates at current multiples.
+      PRIORITY ORDER (updated S142 after scoring LMT/RTX/NOC/GD/LDO.MI/HO.PA):
+      (1) BAH $82 — only cheap quality name (P/E 11.8x, -37% from 52wH), needs R1 for DOGE update
+      (2) SAF.PA EUR 318 — NOT SCORED, P/E 18.5x cheapest quality EU, CFM JV duopolist. SCORE NEXT.
+      (3) HO.PA EUR 241 — QS 65 Tier B, best QS of newly scored, 56.4% insider, BUT P/E 47.5 overpriced.
+      US PRIMES ELIMINATED: LMT (QS 38), RTX (41), NOC (40), GD (52) = ALL Tier C, low margins, near ATH.
+      LDO.MI (QS 54 Tier C) = eliminated. RHM.DE + BA.L Tier B at full price — not deployment candidates.
 
   - id: luxury-pricing-power
     name: "Luxury & Pricing Power"

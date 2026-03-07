@@ -449,6 +449,80 @@ Constraint check: ADBE a 4.3% OK. Tech exposure single name.
 
 ---
 
+## Section 9: Pre-Earnings Framework — Q1 FY2026 (Mar 12, 2026)
+
+> **Report Date:** Thursday, March 12, 2026 (after close)
+> **Call:** 2-3 PM PT
+> **Current Price:** $283.62 (Mar 7) | **FV:** $390 | **MoS:** 37.5%
+> **Position:** 3.83 shares, $1,014 invested (8.4% portfolio)
+
+### Consensus Estimates
+
+| Metric | Consensus | YoY Growth | Our Thesis Implies |
+|--------|-----------|------------|-------------------|
+| Revenue | $6.28B | +9.9% | 6.5-7.5% annual = ~$6.2-6.4B quarterly |
+| EPS | $5.87-5.88 | +15.8% | Consistent with margin expansion thesis |
+| Digital Media ARR | ~$18.5B (est) | +10-11% | Key metric for subscription health |
+
+### Key Metrics to Watch (Priority Order)
+
+| Metric | Why It Matters | Bear Signal | Bull Signal |
+|--------|---------------|-------------|-------------|
+| **1. Digital Media Net New ARR** | Core subscription growth health | <$500M (decelerating) | >$550M (AI-driven acceleration) |
+| **2. Creative Cloud Churn** | KC#6 trigger: FTC forcing easier cancellation | >12% annual rate | <9% (stable despite FTC) |
+| **3. Firefly AI Revenue/Metrics** | Counter-thesis to "AI disrupts Adobe" narrative | No Firefly disclosure or deceleration | >$150M quarter, new enterprise contracts |
+| **4. Document Cloud Growth** | Underappreciated segment, AI opportunity | <10% YoY | >15% YoY (AI-powered Acrobat) |
+| **5. FY2026 Guidance Update** | Forward visibility on growth trajectory | Guidance lowered or narrowed down | Guidance raised or reiterated confidently |
+| **6. FTC/Legal Reserve** | Settlement signals | Large reserve increase (>$500M) = trial expected | Settlement announced or small reserve = manageable |
+| **7. Operating Margin** | Margin expansion thesis | <35% (cost pressure, legal costs) | >37% (AI efficiency gains) |
+| **8. Buyback Pace** | Capital allocation signal | Reduced buybacks (saving for fine) | Aggressive buybacks at these prices = management confidence |
+
+### Scenario Framework
+
+| Scenario | Probability | Revenue | EPS | Key Signals | Action |
+|----------|------------|---------|-----|-------------|--------|
+| **BEAR** | 20% | <$6.15B | <$5.70 | Churn spike >12%, Firefly deceleration, guidance cut, large FTC reserve | **HOLD** — review KC#2 (churn >15%) and KC#6. If KC triggered → EXIT protocol. If not → hold through noise. |
+| **BASE** | 55% | $6.20-6.35B | $5.80-6.00 | ARR growth 10%, stable churn, Firefly on track, guidance maintained | **HOLD** — thesis confirmed. No action. Monitor FTC trial Oct 2026. |
+| **BULL** | 25% | >$6.40B | >$6.05 | ARR acceleration, Firefly beat, enterprise AI adoption surge, FTC settlement hint | **HOLD** — consider TRIM at $350+ pre-trial if rapid appreciation. Thesis strengthened. |
+
+### Kill Condition Watch (from thesis)
+
+| KC | Trigger | Current Status | Earnings Signal |
+|----|---------|---------------|-----------------|
+| KC#1 | ROIC <WACC (12%) 2Q | ROIC ~30% = CLEAR | Monitor operating income trend |
+| KC#2 | CC churn >15% annual | ~9% = CLEAR | Listen for churn commentary, FTC impact |
+| KC#6 | FTC mandates one-click + churn >5pp | Trial Oct 2026 | Any FTC update on call, legal reserve size |
+| KC#7 | Open-source AI reaches pro quality | Not yet | Firefly competitive positioning commentary |
+| KC#8 | AI agents automate creative end-to-end | Not yet | Enterprise AI agent adoption commentary |
+
+### Post-Earnings Decision Tree
+
+```
+Q1 Results Released
+├─ Revenue MISS (< $6.15B) + Churn UP
+│  ├─ KC#2 triggered (churn >15%)? → EXIT PROTOCOL
+│  ├─ KC not triggered but concerning? → HOLD, lower conviction, reduce FV
+│  └─ One-time issue (macro, timing)? → HOLD, monitor Q2
+├─ Revenue IN-LINE ($6.20-6.35B)
+│  ├─ Firefly accelerating? → HOLD, thesis strengthened
+│  ├─ FTC settlement hinted? → HOLD, potential re-rate catalyst
+│  └─ Guidance flat? → HOLD, no change
+└─ Revenue BEAT (> $6.40B)
+   ├─ Price spikes >$350? → Consider TRIM (pre-trial risk)
+   └─ Price stays <$330? → HOLD, accumulating value
+```
+
+### What I'm Listening For on the Call
+
+1. **FTC commentary** — Any settlement discussion, legal reserve changes, timeline updates
+2. **Firefly enterprise adoption** — Specific revenue, customer counts, integration depth
+3. **Competitive positioning vs Canva/Figma** — Market share language, enterprise wins
+4. **AI pricing strategy** — How Adobe monetizes AI features (credits, tiers, bundles)
+5. **Buyback authorization** — New program or continuation signal
+6. **Churn/retention language** — Any changes in cancellation flows post-FTC pressure
+
+---
+
 ## Calendar / Monitoring
 
 | Fecha | Evento | Accion |

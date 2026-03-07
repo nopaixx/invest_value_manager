@@ -19,8 +19,8 @@ system:
   portfolio_quality_analysis:
     date: 2026-03-05
     summary:
-      total_positions: 15
-      tier_a_count: 9  # MORN, MONY.L, LULU, ADBE, IHP.L, HLNE, DOCS, FTNT, RACE.MI
+      total_positions: 14
+      tier_a_count: 8  # MORN, MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, RACE.MI
       tier_b_count: 5  # NVO, AUTO.L, BYIT.L, EDEN.PA, DOM.L
       tier_c_count: 1  # GL
       tier_d_count: 0
@@ -35,7 +35,6 @@ system:
     positions:
       - { ticker: MORN, score: 78, tier: A, status: "FV $195. First E[CAGR] buy S101." }
       - { ticker: MONY.L, score: 75, tier: A, status: "HOLD. FV 190 GBp. FY2025 KCs clear. Probation easing." }
-      - { ticker: LULU, score: 78, tier: A, status: "ON PROBATION. FV $196. Mar 17 MAKE-OR-BREAK." }
       - { ticker: ADBE, score: 76, tier: A, status: "FV $390. FTC trial Oct 2026." }
       - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. 2nd E[CAGR] buy + ADD S127 EUR 200 at 320p." }
       - { ticker: NVO, score: 73, tier: B, status: "FV $50 (revised). CagriSema FAILED. KC#1 triggered. HOLD LOW." }
@@ -66,11 +65,11 @@ system:
   # History preserved for consistency checks.
   net_exposure:
     current:
-      long_pct: 60.7
+      long_pct: 63.0
       short_pct: 0.0
-      cash_pct: 39.3  # EUR 4,042
-      net_pct: 60.7
-      gross_pct: 60.7
+      cash_pct: 37.0  # EUR 3,985
+      net_pct: 63.0
+      gross_pct: 63.0
     reasoning: |
       Session 140 (2026-03-05): ~60/0/40 → POTENTIAL 64/0/36 if RACE.MI executes.
       Crisis MODERATING: Oil WTI $76.90 (from $87 peak), VIX 21.15 (from 23.57), S&P 6,870 (resilient).
@@ -142,7 +141,7 @@ system:
 macro_snapshot:
   last_update: 2026-03-03
   themes: ["OPERATION EPIC FURY — ESCALATING. Iran IRGC declares Hormuz CLOSED. Will attack any transiting vessel.", "CONFLICT WIDENING: Qatar LNG suspended (2 facilities hit), US Embassy Riyadh hit by drones, Israel ground incursion southern Lebanon.", "Trump: campaign lasts 'about 4 weeks'. Death toll 787.", "VIX 25.0 (UP from 21.5). Oil WTI $74.94 (+5%). Gold $5,307.", "S&P 6,881 (-1.7% ATH — remarkably resilient). DXY 99.03 (weak USD).", "2Y-10Y +0.57% positive slope. No recession signal yet despite crisis.", "Fed/BCE pausa 4.25-4.50%/2.75%. US 10Y 4.05%.", "Energy supply disruption now MATERIAL: both oil (Hormuz) and LNG (Qatar)."]
-  risks: ["IRAN CRISIS WIDENING — now Qatar, Lebanon, Saudi involved. Supply disruption MATERIAL (oil + LNG).", "Oil shock → UK/EU consumer headwind (lagged Q2-Q3 effect on DOM.L, MONY.L, EDEN.PA)", "DOM.L FY25 Mar 5 — KC#1 EBITDA test + oil/shipping headwind", "LULU tariff 15% + no CEO + Mar 31 MAKE-OR-BREAK", "FTNT class action (Robbins Geller Oct 2025)", "NVO CagriSema FAILED — pharma basket DECLINING", "Multiple UK positions in crisis-exposed economy (5 UK stocks)", "If Hormuz >30 days → global recession risk rises significantly"]
+  risks: ["IRAN CRISIS RE-ESCALATED — Hormuz STILL CLOSED. Oil $90 (+17% 1-day). Now Qatar, Lebanon, Saudi involved. Supply disruption MATERIAL (oil + LNG).", "Oil shock → UK/EU consumer headwind (lagged Q2-Q3 effect on DOM.L, MONY.L, EDEN.PA)", "DOM.L FY25 Mar 10 — KC#1 EBITDA test + oil/shipping headwind from Hormuz", "FTNT class action (Robbins Geller Oct 2025)", "NVO CagriSema FAILED — orphan, HOLD LOW", "Multiple UK positions in crisis-exposed economy (5 UK stocks)", "If Hormuz >30 days → global recession risk rises significantly"]
 
 closing_criteria:
   - "12+ months underperformance >3pp annualized vs MSCI World + MSCI Europe blend"
