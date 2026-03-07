@@ -8,7 +8,7 @@ system:
   system_version: "4.9.0"
   framework_version: "4.9"
   last_session: 2026-03-07
-  session_number: 144
+  session_number: 148
   status: active
 
   framework_v4_status:
@@ -37,39 +37,30 @@ system:
       - { ticker: MONY.L, score: 75, tier: A, status: "FV 190 GBp. ADD S143. UK Digital Platforms." }
       - { ticker: ADBE, score: 76, tier: A, status: "FV $390. US Quality Compounders." }
       - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. ADD S143. UK Digital Platforms quality anchor." }
-      - { ticker: NVO, score: 73, tier: B, status: "FV $50. CagriSema FAILED. HOLD LOW. GLP-1 basket." }
+      - { ticker: NVO, score: 73, tier: B, status: "FV $47. CagriSema FAILED. HOLD LOW. R3 S146c8." }
       - { ticker: AUTO.L, score: 72, tier: B, status: "FV 580p. QS 72 (was 63, EPS data fixed S144). April make-or-break." }
       - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. European Pricing Power basket." }
       - { ticker: HLNE, score: 82, tier: A, status: "FV $110. ADD S143 >10%. US Quality Compounders." }
-      - { ticker: DOCS, score: 79, tier: A, status: "FV $32.80. ADD S143. US Quality Compounders." }
+      - { ticker: DOCS, score: 79, tier: A, status: "FV $30. R3 S146c4. US Quality Compounders." }
       - { ticker: FTNT, score: 87, tier: A, status: "FV $88. QS 87 (was 70, ROIC data fixed S144). Cybersecurity anchor." }
       # RACE.MI — SOLD S143c10. T15 rotation. E[CAGR] 6.6% worst. P&L -3.4%.
-      - { ticker: TW, score: 84, tier: A, status: "FV $140. NEW S143. Data & Analytics Monopolies." }
+      - { ticker: TW, score: 84, tier: A, status: "FV $135. R3 S147c4. Data & Analytics Monopolies." }
       - { ticker: WKL.AS, score: 72, tier: B, status: "FV EUR 80 (re-eval S143c11). Data & Analytics Monopolies. Sector view CREATED S144c2." }
 
   last_session_summary: |
-    Session 144 (2026-03-07). 5 ciclos. First-ever FULL DEPLOYMENT + short pipeline advancement + stress testing.
-    DELIVERABLES BY CICLO:
-      c1: Full deployment — ADD NVO EUR 400 + ADD EDEN.PA EUR 317. Cash 717→0 (0%). FIRST TIME EVER.
-          constraint_checker.py fixed (EUR invested_eur fallback). DOM.L objective scratched (sold S143).
-      c2: WKL.AS professional-information-services sector view CREATED (committee HARD GATE cleared).
-          3 weakest theses identified (AUTO.L, DOCS, FTNT). All 9 positions KCs reviewed — all CLEAR.
-          Top 3 rotation candidates: BEI.DE (R1 complete), HALO (R3), FOUR.L (R3, earnings gate Mar 18).
-          SHORT PIPELINE: APP S1 complete (WATCHLIST, QS 49, no catalyst). CVNA S4 CONDITIONAL APPROVE
-          (EUR 100, entry $290-330, stop $370). T16 RED→YELLOW (61→0 sessions without short work).
-      c3: AUTO.L Section 9 added (April binary framework). QS 63→72 (EPS data resolved).
-          FTNT QS 70→87 (ROIC data resolved). Investor Day framework READY for Mon Mar 10.
-      c4: Smart Money refresh top 5: HLNE $3.25M insider cluster buy (STRONG BULLISH), IHP.L CEO buying
-          (BULLISH), EDEN.PA 21.2% SI (BEARISH). CPI scenario framework built (hot/inline/cool + ADBE
-          dual-catalyst matrix). ADBE earnings prep READY. digital-marketplaces v2.7 (only stale sector).
-          sector_health.py date parsing fix. 30/30 sector views FRESH.
-      c5: Thesis stress test top 3 (EDEN -6.6%, NVO -3.4%, IHP -2.5% portfolio impact at bear).
-          Combined stress -15.1%. Correlation matrix: avg 0.16, max 0.44, 50.8% diversification benefit.
-          MEGP.L pipeline: shares SUSPENDED (audit delay), results expected ~Mar 13.
-    PORTFOLIO: 11 positions, 0% cash. Blended E[CAGR] ~17.0%. 7 Tier A, 4 Tier B.
-    RISKS: EDEN.PA 19% weight + 21% SI = #1 risk. UK concentration 22%. 0% cash = zero flexibility.
-    NEXT S145: FTNT Investor Day processing (Mon Mar 10), ADBE earnings (Wed Mar 12), MEGP.L results (~Mar 13),
-    CVNA short execution monitoring (VIX <28 + price $290-330), FOUR.L earnings (Mar 18).
+    Session 147 (2026-03-07). DA audit 10/11 complete. Blended E[CAGR] 19.1%→17.4% (-1.7pp phantom removed).
+    DELIVERABLES:
+      S146: WKL GATE cleared, DOCS R3 (FV $32.80→$30), EDEN R3, NVO R3 (FV $50→$47), ADBE R2+R3.
+      S147c1: IHP.L R2 DA (MODERATE COUNTER, 1 HIGH sizing) + R3 (FV 390p maintained, KC#8-9 added).
+      S147c2: WKL.AS R2 DA (MODERATE COUNTER, 3 HIGH) + R3 (FV EUR 80 maintained, growth 6% formalized).
+      S147c3: MONY.L R2 DA (MODERATE COUNTER, 5 HIGH) + R3 (FV 190p maintained, FIRST ROTATION CANDIDATE).
+      S147c4: TW R2 DA + R3 (FV $140→$135, growth 12%→10%). HLNE R2 DA + R3 (FV $110 maintained, growth 12%→10%).
+      S148c1: Consistency verification — fixed 3 stale FVs in system.yaml (NVO, DOCS, TW).
+    KEY FINDING: All 10 DAs = MODERATE COUNTER. Systematic bullish bias confirmed. 3 FV reductions, 6 growth
+    formalizations, zero yfinance fallbacks. MONY.L = FIRST ROTATION CANDIDATE (5 HIGH, yield play).
+    Rotation hierarchy: FTNT 9.7% > AUTO.L 12.1% > MONY.L 12.5% > HLNE 13.1% > TW 13.2%.
+    PORTFOLIO: 11 positions, 0% cash. Blended E[CAGR] 17.4% (honest). 7 Tier A, 4 Tier B.
+    NEXT: FTNT Investor Day (Mon Mar 10), DOM.L FY25 (Mon), CPI (Tue), ADBE Q1 (Wed Mar 12).
 
   # NET EXPOSURE REASONING — Principio 13. Re-evaluate EVERY session.
   # This is NOT a target or range. It's the CONCLUSION of reasoning.
