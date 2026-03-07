@@ -1,6 +1,6 @@
 # PIPELINE TRACKER + MAINTENANCE
 # Operational metadata for the fund
-# Updated: 2026-03-07 (S142)
+# Updated: 2026-03-07 (S143)
 
 # PRIORITY #1 - CAPITAL DEPLOYMENT (while cash > 25%)
 capital_deployment:
@@ -9,7 +9,7 @@ capital_deployment:
   trigger: "cash > 25%"
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S142: RACE.MI market buy EUR 312.80 EXECUTED S141. Cash ~37% (EUR 3,985). SAF.PA R1 in progress. VRSN R4 approved SO $210. Defense basket RESEARCHING — BAH priority."
+  last_result: "S143: MASSIVE DEPLOYMENT. Cash 37%→6.6%. Sold GL+BYIT.L+DOM.L+MORN+RACE.MI. Bought TW+WKL.AS. 5 ADDs. EUR 717 remaining. 11 positions."
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/quality_universe.py"
 
@@ -18,7 +18,7 @@ vigilance:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S142: Crisis RE-ESCALATED Mar 6 (Hormuz STILL closed, oil WTI $77→$90). DOM.L earnings Mar 10. ADBE earnings Mar 12. LULU earnings Mar 17."
+  last_result: "S143: Crisis context. DOM.L earnings Mar 10 (no Section 9 — S144 priority). FTNT Investor Day Mar 10. ADBE earnings Mar 12 (framework READY). FOUR.L Mar 18."
   smart_skip:
     same_day_window_hours: 8
     source: "state/session_continuity.yaml → skip_if_same_day"
@@ -27,7 +27,7 @@ rotation_check:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S142: LULU SOLD S141 (orphan EXIT, P&L -1.0%). 5 orphans post-restructure (GL, NVO, EDEN.PA, DOM.L, BYIT.L). Basket restructure S141: 3 killed, 2 born, 1 trimmed."
+  last_result: "S143: RACE.MI SOLD (E[CAGR] 6.6% worst). T15 sizing rebalance (7 positions). Blended E[CAGR] 14.4%→17.0% (+2.6pp). All orphans resolved."
   smart_skip:
     same_day_window_hours: 12
     earnings_blackout: true
@@ -44,7 +44,7 @@ risk_review:
   frequency: weekly
   last_run: 2026-03-07
   next_due: 2026-03-14
-  last_result: "S142: Crisis RE-ESCALATED. Oil WTI $90. 3 HIGH-vulnerability (DOM.L, EDEN.PA, AUTO.L = 11.2% portfolio). LULU sold (risk removed). FTNT = crisis beneficiary. 35.5% cash buffer. DOM.L Mar 10 = key test."
+  last_result: "S143: Cash buffer reduced 37%→6.6% (deployed into quality). 3 HIGH-vulnerability positions remain (DOM.L, EDEN.PA, AUTO.L). FTNT crisis beneficiary. FX fallback audit completed (12 tools fixed)."
 
 # SHORT/FRAGILITY
 fragility_watch:
@@ -108,7 +108,7 @@ r1_processing:
   trigger: "SCORED count > 0 in universe"
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S141-142: BEI.DE ELIMINATED (post-earnings, margins miss). TMO ELIMINATED (pipeline cleanup). HALO R4 APPROVED. VRSN R4 APPROVED (SO $210). BAH R1 DONE (DOGE update, SO recalibrated). SAF.PA R1 IN PROGRESS (QS 73, EPS normalization critical). Defense batch: 8 scored, 4 eliminated (LMT/RTX/NOC/GD Tier C), LDO.MI Tier C eliminated."
+  last_result: "S143: RMS.PA R1 COMPLETE (QS 96adj, FANTASY). BZU.MI R4 APPROVED (SO EUR 42). VRSK R4 confirmed (SO $210). BVI.PA R1 refreshed. SAF.PA R3 COMPLETE (OVERVALUED, parked). WKL.AS re-eval EUR 80. FV alignment audit (2 fixes). Pipeline velocity 7+ units."
   minimum_per_session: "3 velocity units (1 R1=1u, 1 R2→R3=2u, 1 R4=1u)"
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/r1_prioritizer.py"
@@ -131,7 +131,7 @@ sector_health:
   frequency: weekly
   last_run: 2026-03-07
   next_due: 2026-03-14
-  last_result: "S142: 6 STALE (digital-marketplaces 29d, real-estate 27d, business-services 22d, environmental-water 22d, financial-data-analytics 22d, semiconductors 22d). 15 BORDERLINE. 3 stale with portfolio deps: digital-marketplaces (AUTO.L), business-services (EDEN.PA), financial-data-analytics (MORN). Updating top 3."
+  last_result: "S143: Digital marketplaces refreshed (was 29d stale). MORN sold — financial-data-analytics dep removed. professional-information-services sector view MISSING (WKL.AS HARD GATE)."
   tool: "tools/sector_health.py"
   mandatory: true
 
@@ -148,14 +148,14 @@ net_exposure_reasoning:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S142: ~63/0/37. RACE.MI executed S141 (EUR 350). Crisis RE-ESCALATED Mar 6 — oil $90. Cash 37% = buffer justified during crisis but deployment continues into quality."
+  last_result: "S143: 93/0/7. MASSIVE DEPLOYMENT. Cash 37%→6.6%. 11 positions. No shorts (crisis vol too high). Full deployment justified by quality composition (7 Tier A, 4 Tier B)."
 
 # STANDING ORDER REALITY CHECK
 so_reality_check:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S142: RACE.MI SO executed (market buy). VRSN SO $210 ACTIVE (R4 approved). HALO R4 approved. SOs updated post-defense batch."
+  last_result: "S143: RACE.MI sold. Active SOs: BZU.MI EUR 42 (R4 approved), VRSK $210 (R4 approved), FOUR.L pending (R3 complete, R4 after Mar 18 earnings)."
 
 # QUARTERLY — TOOL AUDIT
 tool_fx_audit:
