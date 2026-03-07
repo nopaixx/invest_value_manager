@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 1596  # Updated 2026-03-07. S143c5: EDEN.PA ADD EUR 475. Previous: 2071.
+  amount: 1517  # Updated 2026-03-07. S143c8: sizing rebalance (trims EUR 806 → adds EUR 885). Previous: 1596.
   currency: EUR
 
 positions:
@@ -24,17 +24,17 @@ positions:
 
   - ticker: EDEN.PA
     name: "Edenred SA"
-    shares: 47.00  # 22 prior + ~25 ADD S143c5 (EUR 475 at ~EUR 18.79). Confirm exact shares from eToro.
-    invested_usd: 1011  # 459.18 + ~552 (EUR 475 * 1.1616)
-    avg_cost_usd: 21.51  # Blended estimate
-    avg_cost_eur: 17.93  # Blended: (22*17.61 + 25*18.79) / 47
+    shares: 70.00  # 47 + ~23 ADD S143c8 sizing rebalance (EUR 423 at EUR 18.79). Confirm exact from eToro.
+    invested_usd: 1502  # 1011 + ~491 (EUR 423 * 1.1616)
+    avg_cost_usd: 21.46  # Blended estimate
+    avg_cost_eur: 18.20  # Blended: (47*17.93 + 23*18.79) / 70
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
-    conviction: medium
+    conviction: high
     last_review: 2026-02-07
     fair_value: "EUR 29.0 (adversarial, was 38.4)"
     exit_plan: "HOLD. EXIT if 2027-28 guidance <5% or France regulation. TRIM if MoS vs revised FV <15%."
-    notes: "ADD S143c5 EUR 475 at EUR 18.79. Position more than doubled (22→47 shares). E[CAGR] 27.1% = highest in portfolio. European Pricing Power basket. Brazil PAT catalyst."
+    notes: "ADD S143c8: sizing rebalance +23 shares at EUR 18.79 (EUR 423). T15 alignment: E[CAGR] 27.1% = HIGHEST in portfolio, sized up from 8.1% to 12.0%. Conviction upgraded MEDIUM→HIGH. European Pricing Power basket. Brazil PAT catalyst. Total 3 ADDs."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
@@ -61,27 +61,27 @@ positions:
 
   - ticker: NVO
     name: "Novo Nordisk A/S"
-    shares: 8.31675  # Corrected from eToro (was 8.31)
-    invested_usd: 400.00
-    avg_cost_usd: 48.13  # USD equivalent
-    avg_cost_dkk: 303.00  # REAL entry price in DKK (eToro shows NOVO-B.CO, confirmed 2026-02-23)
+    shares: 16.39  # 8.31675 + ~8.07 ADD S143c8 sizing rebalance. Confirm exact from eToro.
+    invested_usd: 711  # 400 + ~311 (EUR 268 * 1.1616)
+    avg_cost_usd: 43.38  # Blended: (8.31675*48.13 + 8.07*38.58) / 16.39
+    avg_cost_dkk: 273.00  # Estimated blended
     date_opened: 2026-02-05
-    conviction: low
-    exit_plan: "HOLD LOW. CagriSema FAILED (KC#1 triggered Feb 23). FV revised $50. SELL if FY2026 guidance miss >10% OR market share <40% OR gross margin <70%. ADD at $30 only if Wegovy pill data strong. TRIM at $60+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update."
+    conviction: medium
+    exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $50. SELL if FY2026 guidance miss >10% OR market share <40% OR gross margin <70%. TRIM at $60+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, FY2026 guidance update."
     fair_value: "$50 (v4.0 post-CagriSema failure. Was $66. Bear case now $35-42. QS Tool 73, Adj 73 Tier B.)"
     last_review: 2026-02-25
     thesis: thesis/active/NVO/thesis.md
-    notes: "CagriSema REDEFINE 4 FAILED non-inferiority vs Zepbound (23% vs 25.5%). KC#1 triggered. P6 applied: HOLD because Ozempic/Wegovy franchise intact ($42B+ revenue), MoS 22.8% vs $50 FV, E[CAGR] ~18.7%. Conviction MEDIUM→LOW. Position -19.8% unrealized. HOLD CONFIRMED by human S117 (Feb 25). ADD SO cancelled (gate invalidated)."
+    notes: "ADD S143c8: sizing rebalance +8.07 shares at $38.58 (EUR 268). T15 alignment: E[CAGR] 23.8% = 2nd highest in portfolio, sized up from 2.5% to 5.0%. Conviction upgraded LOW→MEDIUM on Wegovy pill ramp conviction. Position doubled. Avg cost improved $48.13→$43.38."
 
   - ticker: MONY.L
     name: "Mony Group PLC"
-    shares: 456  # 204 prior + ~252 ADD S143 (EUR 500 at ~172.90p). Confirm exact shares from eToro.
-    invested_usd: 1054  # 473 + ~581 (EUR 500 * 1.1616)
-    avg_cost_usd: 2.31  # Blended estimate
-    avg_cost_gbp: 171.0  # Blended: (204*169.98 + 252*172.90) / 456
+    shares: 384  # 456 - 72 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
+    invested_usd: 888  # Proportional: 1054 * (384/456)
+    avg_cost_usd: 2.31  # Unchanged
+    avg_cost_gbp: 171.0  # Unchanged
     date_opened: 2026-02-04
     thesis: thesis/active/MONY.L/thesis.md
-    notes: "FY2025 record margins. AI strategy validated. ADD S143 EUR 500 at 172.90p. Position more than doubled. Conviction upgraded LOW→MEDIUM on deployment."
+    notes: "TRIM S143c8: sizing rebalance -72 shares at 172.90p (EUR 144). T15 alignment: E[CAGR] 13.4% = below median, sized down from 8.3% to 7.0%. FY2025 record margins. QS 75 Tier A borderline."
     conviction: medium
     last_review: 2026-02-23
     fair_value: "190 GBp (v3.2 post-FY2025 earnings. QS Tool 83, Adj 75 Tier A borderline.)"
@@ -107,55 +107,55 @@ positions:
 
   - ticker: IHP.L
     name: "IntegraFin Holdings plc"
-    shares: 274  # 110 prior + ~164 ADD S143 (EUR 600 at ~318.50p). Confirm exact shares from eToro.
-    invested_usd: 1165  # 468 + ~697 (EUR 600 * 1.1616)
-    avg_cost_usd: 4.25  # Blended estimate
-    avg_cost_gbp: 320.0  # Blended: (110*323 + 164*318.5) / 274
+    shares: 327  # 274 + ~53 ADD S143c8 sizing rebalance. Confirm exact from eToro.
+    invested_usd: 1390  # 1165 + ~225 (EUR 194 * 1.1616)
+    avg_cost_usd: 4.25  # Unchanged (blended)
+    avg_cost_gbp: 319.6  # Blended: (274*320 + 53*318.5) / 327
     date_opened: 2026-02-24
     thesis: thesis/active/IHP.L/thesis.md
-    conviction: medium
+    conviction: high
     fair_value: "390 GBp (R3 post-DA. QS Tool 80 Tier A. Was 415p pre-DA.)"
     last_review: 2026-02-20
     exit_plan: "HOLD. TRIM at 450p+. ADD at 250p (MoS 36%). SELL if KC triggered (AUM outflows >5% 2Q, platform downtime >48h, FCA investigation). Validate H1 FY26 ops leverage (~June)."
-    notes: "UK #1 independent adviser platform (Transact). ROIC 49%, 24.2% insider, net cash. ADD S143 EUR 600 at 318.50p. Position tripled from original. E[CAGR] ~22% at 318p."
+    notes: "ADD S143c8: sizing rebalance +53 shares at 318.5p (EUR 194). T15 alignment: E[CAGR] 20.4% = 3rd highest, sized up from 9.2% to 11.0%. Conviction upgraded MEDIUM→HIGH. UK #1 independent adviser platform. ROIC 49%, 24.2% insider, net cash. Total 4 ADDs."
 
   - ticker: HLNE
     name: "Hamilton Lane Incorporated"
-    shares: 15.54  # 9.00 prior + ~6.54 ADD S143 (EUR 600 at ~$106.57). Confirm exact shares from eToro.
-    invested_usd: 1641  # 943.88 + ~697 (EUR 600 * 1.1616)
-    avg_cost_usd: 105.60  # Blended estimate
+    shares: 11.87  # 15.54 - 3.67 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
+    invested_usd: 1264  # Proportional: 1641 * (11.87/15.54)
+    avg_cost_usd: 105.60  # Unchanged (blended cost basis)
     date_opened: 2026-02-25
     thesis: thesis/active/HLNE/thesis.md
     conviction: medium
     fair_value: "$110 (R3 post-DA. QS Tool 86, Adj 82 Tier A. Highest QS in portfolio.)"
     last_review: 2026-02-25
     exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Next earnings Q4 FY2026 ~May 2026."
-    notes: "Alt asset management, private markets specialist. QS 82 Tier A highest QS. CEO bought $1M at $130. ADD S143 EUR 600 at $106.57. Position >10% confirmed by human. Total 3 ADDs."
+    notes: "TRIM S143c8: sizing rebalance -3.67 shares at $106.57 (EUR 337). T15 alignment: E[CAGR] 15.0% = mid-range, sized down from 13.1% to 10.0%. QS 82 Tier A, CEO bought at $130."
 
   - ticker: DOCS
     name: "Doximity, Inc."
-    shares: 47.08  # 19.57 prior + ~27.51 ADD S143 (EUR 600 at ~$25.34). Confirm exact shares from eToro.
-    invested_usd: 1168  # 471.16 + ~697 (EUR 600 * 1.1616)
-    avg_cost_usd: 24.81  # Blended estimate
+    shares: 39.93  # 47.08 - 7.15 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
+    invested_usd: 991  # Proportional: 1168 * (39.93/47.08)
+    avg_cost_usd: 24.81  # Unchanged
     date_opened: 2026-02-25
     thesis: thesis/active/DOCS/thesis.md
     conviction: medium
     fair_value: "$32.80 (R3 post-DA. QS Tool 74, Adj 79 Tier A. SBC-adj OEY $24 = floor.)"
     last_review: 2026-02-25
     exit_plan: "HOLD. TRIM at $40+. ADD at $20 (MoS 39%). SELL if KC#1 (NRR <100%) or KC#5 (SBC >15% without buyback offset). Next earnings Q4 FY2026 ~May 2026."
-    notes: "85% US physician monopoly. 90% GM, 47% FCF margin, $724M net cash. ADD S143 EUR 600 at $25.34. Position more than doubled. E[CAGR] ~13% at $25."
+    notes: "TRIM S143c8: sizing rebalance -7.15 shares at $25.34 (EUR 156). T15 alignment: E[CAGR] 11.5% = bottom quartile, sized down from 9.4% to 8.0%. 85% US physician monopoly."
 
   - ticker: FTNT
     name: "Fortinet, Inc."
-    shares: 12.92  # 5.98 prior + ~6.94 ADD S143 (EUR 500 at ~$83.67). Confirm exact shares from eToro.
-    avg_cost_usd: 81.58  # Blended estimate
-    invested_usd: 1054  # 473.14 + ~581 (EUR 500 * 1.1616)
+    shares: 10.57  # 12.92 - 2.35 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
+    avg_cost_usd: 81.58  # Unchanged
+    invested_usd: 862  # Proportional: 1054 * (10.57/12.92)
     conviction: medium
     date_opened: 2026-02-26
     fair_value: "$88 (R3 post-DA resolution. QS Tool 70, Adj 85 Tier A.)"
     thesis: thesis/active/FTNT/thesis.md
     exit_plan: "HOLD. TRIM at $100+. ADD at $65 (MoS 26%). SELL if KC triggered (SEC investigation, 2nd major security incident in 6mo, product rev -10% for 2Q + SASE <15%). Next earnings ~April 2026."
-    notes: "WIDE moat (ASIC + switching costs). QS 85 Tier A. Cybersecurity basket anchor. ADD S143 EUR 500 at $83.67. Position doubled. Crisis beneficiary."
+    notes: "TRIM S143c8: sizing rebalance -2.35 shares at $83.67 (EUR 169). T15 alignment: E[CAGR] 9.7% = 2nd worst, sized down from 8.5% to 7.0%. WIDE moat, QS 85 Tier A, cybersecurity basket anchor. Crisis beneficiary."
     last_review: 2026-02-26
 
   - ticker: RACE.MI
@@ -817,3 +817,61 @@ transactions:
     price_eur: 18.79
     total_eur: 475
     notes: "ADD - S143c5. European Pricing Power basket. MORN proceeds redeployed. E[CAGR] 27.1% = highest in portfolio. Position doubled (22→47 shares). Cash 19.9%→14.7%."
+
+  # S143c8 SIZING REBALANCE — T15 alignment: capital flows toward highest E[CAGR] (2026-03-07)
+
+  - date: 2026-03-07
+    action: TRIM
+    ticker: HLNE
+    shares: 3.67
+    price_usd: 106.57
+    total_eur: 337
+    notes: "TRIM - S143c8 sizing rebalance. T15: E[CAGR] 15.0% mid-range, oversized at 13.1%. Sized down to 10.0%. Capital redeployed to higher E[CAGR] positions."
+
+  - date: 2026-03-07
+    action: TRIM
+    ticker: MONY.L
+    shares: 72
+    price_gbp: 172.90
+    total_eur: 144
+    notes: "TRIM - S143c8 sizing rebalance. T15: E[CAGR] 13.4% below median, oversized at 8.3%. Sized down to 7.0%."
+
+  - date: 2026-03-07
+    action: TRIM
+    ticker: DOCS
+    shares: 7.15
+    price_usd: 25.34
+    total_eur: 156
+    notes: "TRIM - S143c8 sizing rebalance. T15: E[CAGR] 11.5% bottom quartile, oversized at 9.4%. Sized down to 8.0%."
+
+  - date: 2026-03-07
+    action: TRIM
+    ticker: FTNT
+    shares: 2.35
+    price_usd: 83.67
+    total_eur: 169
+    notes: "TRIM - S143c8 sizing rebalance. T15: E[CAGR] 9.7% 2nd worst, oversized at 8.5%. Sized down to 7.0%."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: EDEN.PA
+    shares: ~23
+    price_eur: 18.79
+    total_eur: 423
+    notes: "ADD - S143c8 sizing rebalance. T15: E[CAGR] 27.1% HIGHEST, undersized at 8.1%. Sized up to 12.0%. Conviction MEDIUM→HIGH."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: NVO
+    shares: ~8.07
+    price_usd: 38.58
+    total_eur: 268
+    notes: "ADD - S143c8 sizing rebalance. T15: E[CAGR] 23.8% 2nd highest, undersized at 2.5%. Sized up to 5.0%. Conviction LOW→MEDIUM. Avg cost improved $48→$43."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: IHP.L
+    shares: ~53
+    price_gbp: 318.50
+    total_eur: 194
+    notes: "ADD - S143c8 sizing rebalance. T15: E[CAGR] 20.4% 3rd highest, sized up from 9.2% to 11.0%. Conviction MEDIUM→HIGH."

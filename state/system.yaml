@@ -5,8 +5,8 @@
 # =============================================================================
 
 system:
-  system_version: "4.7.0"
-  framework_version: "4.7"
+  system_version: "4.9.0"
+  framework_version: "4.9"
   last_session: 2026-03-07
   session_number: 143
   status: active
@@ -48,17 +48,18 @@ system:
       - { ticker: WKL.AS, score: 80, tier: A, status: "FV EUR 85. NEW S143. Data & Analytics Monopolies." }
 
   last_session_summary: |
-    Session 143 (2026-03-07). MASSIVE RESTRUCTURING — 3 SELLS + 2 BUYS + 5 ADDS.
+    Session 143c8 (2026-03-07). SIZING REBALANCE — T15 E[CAGR] alignment.
     DELIVERABLES:
-      1. SOLD: GL (QS 52 Tier C, +0.8%), BYIT.L (QS 68 Tier B, +5.7%), DOM.L (QS 61 Tier B, -1.7%)
-      2. BOUGHT: TW (Data & Analytics Monopolies, QS 84 Tier A, EUR 600), WKL.AS (Data & Analytics Monopolies, QS 80 Tier A, EUR 600)
-      3. ADDED: IHP.L EUR 600, HLNE EUR 600 (>10% confirmed), DOCS EUR 600, MONY.L EUR 500, FTNT EUR 500
-      4. Cash: EUR 3,985 → EUR 1,596 (15.3%). Deployed ~EUR 4,000.
-      5. Positions: 14 → 12 (MORN also sold). Tier A count: 8 → 9. Tier C: 1 → 0. ZERO orphans.
-      6. Baskets: 7 baskets (added glp1 for NVO, european-pricing-power for EDEN.PA+RACE.MI). 0 orphans.
-      7. Portfolio quality UPGRADE: 77% Tier A (10/13), 0% Tier C. Best quality composition ever.
-    PORTFOLIO: 13 positions (10 Tier A, 3 Tier B, 0 Tier C). Cash EUR 1,596 (~15.3%).
-    NEXT: ADBE earnings Mar 12, FOUR.L results Mar 18, system check Mar 16.
+      1. T15+T16 triggers CREATED: E[CAGR] Optimization (RED) + Strategy Evolution (RED). Framework v4.9.
+      2. SIZING REBALANCE: 4 TRIMs (HLNE -337, MONY -144, DOCS -156, FTNT -169 = EUR 806) → 3 ADDs (EDEN +423, NVO +268, IHP +194 = EUR 885)
+      3. Capital flows: bottom E[CAGR] → top E[CAGR]. Blended E[CAGR] 14.4% → ~15.8% (+1.4pp)
+      4. Conviction upgrades: EDEN MEDIUM→HIGH, NVO LOW→MEDIUM, IHP MEDIUM→HIGH
+      5. BAH R4 CONDITIONAL APPROVE (FV $85, entry $75). Defense basket unlocked.
+      6. LYV DOJ trial update: started Mar 2, 6 weeks. Case narrowed. Thesis PAUSED.
+      7. Smart money: TW (insiders net sellers, 10b5-1), WKL (Mawer 5.7%, shorts -30%)
+      8. Stress test: oil+recession -13.2%, Hormuz reopen +6.4%, ADBE miss -2.6%
+    PORTFOLIO: 12 positions, cash EUR 1,517 (~14.0%). E[CAGR] blended ~15.8%.
+    NEXT: ADBE earnings Mar 12, DOM.L results Mar 10 (no longer held), FOUR.L Mar 18.
 
   # NET EXPOSURE REASONING — Principio 13. Re-evaluate EVERY session.
   # This is NOT a target or range. It's the CONCLUSION of reasoning.
