@@ -174,13 +174,13 @@ def extract_growth_rate(thesis_content, ticker):
         return None
 
     patterns = [
-        (r'Expected Growth[^:]*:\s*(?:~)?(\d+(?:\.\d+)?)\s*%', 'single'),
+        (r'\*{0,2}Expected Growth\*{0,2}[^:\n]*:\*{0,2}\s*(?:~)?(\d+(?:\.\d+)?)\s*%', 'single'),
         (r'Revenue Growth Base:\s*(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%', 'range'),
         (r'GP Growth[^:]*:\s*(?:~)?(\d+(?:\.\d+)?)\s*%\s*\(base', 'single'),
         (r'=\s*~?(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%\s*GP growth', 'range'),
         (r'GP CAGR[):\s]+(?:~)?(\d+(?:\.\d+)?)\s*%\s*\(base', 'single'),
         (r'Expected Growth \(GP CAGR\):\s*(\d+(?:\.\d+)?)\s*%', 'single'),
-        (r'(?:Expected )?Growth:\s*(\d+(?:\.\d+)?)\s*%', 'single'),
+        (r'(?<!Terminal )(?:Expected )?Growth:\s*(\d+(?:\.\d+)?)\s*%', 'single'),
         (r'Revenue Growth:\s*(?:~)?(\d+(?:\.\d+)?)\s*%', 'single'),
         (r'Revenue Growth\s*=.*?(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%', 'range'),
         (r'growth of\s*(?:~)?(\d+(?:\.\d+)?)\s*%', 'single'),

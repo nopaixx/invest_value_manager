@@ -4,6 +4,7 @@
 > Analyst: fundamental-analyst (R1)
 > Sector View: pharma-healthcare.md (Health Information Services)
 > Pipeline Stage: R1_COMPLETE
+> **Expected Growth:** 10% (sustainable: FY2026 guided 13%, 4yr CAGR 18.4%, base case 12%. Conservative 10%.)
 
 ---
 

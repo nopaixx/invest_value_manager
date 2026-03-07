@@ -2,152 +2,156 @@
 # OVERWRITTEN each session (not accumulated). r1_cooldowns is rolling 30d.
 # Read by: session-planner, r1_prioritizer.py, session-phases
 # Written by: Fase 6 (last operation of each session)
-# Created: 2026-03-05
+# Created: 2026-03-07
 
 session:
-  id: 140
-  date: "2026-03-05"
-  timestamp_cet: "2026-03-05T08:55"
+  id: 145
+  date: "2026-03-07"
+  timestamp_cet: "2026-03-07T12:40"
 
 completed:
   vigilance:
-    news_scan_time: "2026-03-05T08:40"
-    critical_count: 1  # Crisis moderating — Hormuz closed but Iran open to de-escalation, oil retreating
-    material_count: 3  # DOM.L date correction Mar 10, LULU date correction Mar 17, NVO Wegovy pill strong
-    note: "Crisis MODERATING. Oil $76.90 (from $87). Iran diplomatic signals. DOM.L results Mar 10 NOT Mar 5. LULU Mar 17 NOT Mar 31."
+    news_scan_time: "2026-03-07T12:00"
+    critical_count: 1  # Iran/Hormuz crisis ongoing. Oil ~$91. VIX ~29.5.
+    material_count: 2  # MEGP.L suspended (audit delay, results ~Mar 13). HLNE insider cluster buy $3.25M.
+    note: "Crisis RE-ESCALATED since S140. Oil $77→$91. VIX 21→29.5. Hormuz still closed."
   so_check:
-    timestamp: "2026-03-05T08:40"
-    nearest: { ticker: "RACE.MI", distance_pct: 6.0, note: "EUR 312.80 vs EUR 295 trigger. Moved AWAY (was 3.2% S139). THREE WAITS market buy recommended." }
+    timestamp: "2026-03-07T12:00"
+    nearest: { ticker: "DNLM.L", distance_pct: 1.9, note: "932p vs 950p trigger. BLOCKED — would be 5th UK position (already 4: MONY.L, AUTO.L, IHP.L, WKL.AS counts as EU). Revisit if AUTO.L exits." }
     triggered: []
-    executed_this_session: []
+    executed_this_session:
+      - { ticker: "NVO", action: "ADD EUR 400", price: "$38.58", session: 144, ciclo: 1 }
+      - { ticker: "EDEN.PA", action: "ADD EUR 317", price: "EUR 18.79", session: 144, ciclo: 1 }
     other_near:
-      - { ticker: "SPGI", distance_pct: 5.0, note: "GATED Q1 late April. $445.50 vs $420." }
-      - { ticker: "DNLM.L", distance_pct: 1.1, note: "BLOCKED — 6th UK position. 939.50p vs 950p." }
-      - { ticker: "MSA", distance_pct: 7.6, note: "GATED full R1. $198 vs $183." }
-      - { ticker: "SEIC", distance_pct: 7.1, note: "GATED full R1. $81.7 vs $76." }
-      - { ticker: "TW", distance_pct: 7.9, note: "GATED Q1+Elliott. $119 vs $110." }
+      - { ticker: "SPGI", distance_pct: 7.2, note: "GATED Q1 late April. $452 vs $420." }
+      - { ticker: "HALO", distance_pct: 3.6, note: "$67.37 vs $65. R3 complete." }
   earnings_gates:
-    - { ticker: "ANF", status: "CONDITIONAL PASS (processed S139). Hold watchlist $80. Monitor Q1 FY2026 Jun 2026." }
-    - { ticker: "DOM.L", status: "RESCHEDULED to Mar 10. Calendar corrected. Framework ready." }
-    - { ticker: "LULU", status: "RESCHEDULED to Mar 17. Was Mar 31. Framework NEEDED by Mar 14." }
-    - { ticker: "ADBE", status: "Mar 12. Framework NEEDED by Mar 10. Error #13." }
-  pipeline_advancement: []
-  position_reviews: []
+    - { ticker: "DOM.L", status: "SOLD S143. No longer relevant." }
+    - { ticker: "ADBE", status: "Mar 12. Framework READY (verified S144c4). Section 9 + standalone. PASS >= $6.25B/$5.85." }
+    - { ticker: "LULU", status: "SOLD S143. No longer relevant." }
+    - { ticker: "FTNT", status: "Investor Day Mon Mar 10. Section 9 READY. Not earnings — investor briefing." }
+    - { ticker: "FOUR.L", status: "FY2025 results Mar 18. HARD GATE for R4/SO. Framework exists." }
+    - { ticker: "MEGP.L", status: "FY2025 results ~Mar 13. Shares SUSPENDED since Mar 2 (audit delay). R3 complete, FV 180p." }
+  pipeline_advancement:
+    - "S144c2: APP S1 short thesis COMPLETE (WATCHLIST, QS 49, no catalyst P10 FAIL)"
+    - "S144c2: CVNA S4 CONDITIONAL APPROVE (EUR 100, $290-330, stop $370, VIX <28)"
+    - "S144c3: AUTO.L Section 9 added (April binary framework)"
+    - "S144c3: FTNT QS corrected 70→87 (ROIC data gap resolved)"
+    - "S144c3: AUTO.L QS corrected 63→72 (EPS data gap resolved)"
+  position_reviews:
+    - "S144c5: Stress test top 3 (EDEN -6.6%, NVO -3.4%, IHP -2.5% portfolio at bear)"
+    - "S144c3: AUTO.L review agent — HOLD LOW, April make-or-break"
   net_exposure_updated: true
-  net_exposure_note: "60/0/40. If RACE.MI executes → 64/0/36. Crisis moderating. No shorts."
+  net_exposure_note: "100/0/0. First-ever full deployment. Risk via quality+diversification, not cash."
   rotation_check: true
-  rotation_note: "LULU worst (-5.5% E[CAGR]), tiny position ($298). Mar 17 binary (corrected from Mar 31). No rotation — wait for earnings."
+  rotation_note: "FTNT worst (9.7% E[CAGR]). Investor Day Mon = binary. If bear → rotation candidate. No pipeline candidates buyable at market currently."
   crisis_update:
-    - "Hormuz still closed. ~150 ships stranded. IRIS Dena sunk by US sub."
-    - "BUT: Iran 'open to de-escalation' (Araghchi to Oman FM). Mixed signals."
-    - "Oil RETREATING: WTI $76.90 (from $87 peak). Market pricing contained disruption."
-    - "Goldman CEO Solomon: market reaction 'surprisingly benign.'"
-    - "S&P 6,870 resilient. VIX 21.15 (down from 23.57)."
-  velocity_units: 1
-  velocity_note: "S140: 1 unit (ANF gate processing + RACE.MI market buy evaluation). Below target 3. Justified: DOM.L delayed, no Section A advancement candidates above threshold."
+    - "Hormuz RE-ESCALATED. Oil $91. VIX 29.5. Gold $5,152."
+    - "Previous S140 'moderating' assessment was WRONG."
+    - "FTNT = crisis beneficiary (cybersecurity)."
+    - "Consumer exposure reduced (DOM.L, LULU, GL all sold S143)."
+  velocity_units: 5
+  velocity_note: "S144: APP S1 (1), CVNA S4 (1), AUTO.L Section 9 (1), AUTO.L QS fix (0.5), FTNT QS fix (0.5), digital-marketplaces refresh (1). Above target 3."
   deployment_actions:
-    - "THREE WAITS: Market buy RACE.MI EUR 350 recommended at EUR 312-315. AWAITING HUMAN."
+    - "FULL DEPLOYMENT ACHIEVED S144c1. Cash 0%. Any new buy = rotation."
   net_exposure: true
-  net_exposure_reasoning: "60/0/40 → 64/0/36 if RACE.MI executes. Crisis moderating. Cash still strategic but THREE WAITS obligation met."
+  net_exposure_reasoning: "100/0/0. Maximum conviction. Risk managed via quality (7/11 Tier A, avg QS ~78), diversification (avg correlation 0.16, 50.8% risk reduction), geographic spread (US 43%, UK 22%, EU 26%, DK 13%). No shorts active. CVNA conditional approve waiting VIX <28."
   portfolio_ecagr:
-    deployed: 15.1%
-    blended: 10.4%
-    cash_drag: "~4.7pp/yr"
-    worst: "LULU -5.5%"
+    deployed: 18.5%
+    blended: 18.5%
+    cash_drag: "0pp/yr — fully deployed"
+    worst: "FTNT 9.7%"
   fragility_watch:
     completed: false
-    note: "Not run this session — crisis context, other priorities. Due by S142."
+    note: "S144c2 identified short pipeline candidates. APP S1 complete. CVNA S4 conditional. T16 YELLOW."
   evolution:
-    exp_005_review: "MIXED. Extended to S143. 2/4 PASSING (T12, T14), 2/4 FAILING (T2, T11)."
-    t3_status: "RED (rolling avg ~0.8). Need velocity next session."
+    exp_005_review: "Due for review. Extended from S143."
+    t3_status: "IMPROVED — 5 velocity units S144."
+    t16_status: "RED→YELLOW. 61→0 sessions without short work."
 
 # =============================================================================
 # PROMISES — Accountability loop (v4.8, P18)
 # Max 5 active. Tracked: PENDING → KEPT / BROKEN. Same promise broken 3x = T14 RED.
 # =============================================================================
 promises:
-  - promise: "Process DOM.L FY25 earnings — KC#1 EBITDA test (Mar 10)"
-    created_session: 136
-    deadline: "S142"  # Revised from S140 — date corrected to Mar 10
+  - promise: "Process FTNT Investor Day outcome (Mon Mar 10) — update thesis Section 9"
+    created_session: 145
+    deadline: "S146"
     status: PENDING
     broken_count: 0
-  - promise: "Create ADBE Q1 FY2026 pre-earnings framework (Mar 12 earnings)"
+  - promise: "Process ADBE Q1 FY2026 earnings (Wed Mar 12) — PASS/CONDITIONAL/FAIL"
+    created_session: 144
+    deadline: "S146"
+    status: PENDING
+    broken_count: 0
+  - promise: "Review MEGP.L FY2025 results when published (~Mar 13) — advance to R4"
+    created_session: 145
+    deadline: "S147"
+    status: PENDING
+    broken_count: 0
+  - promise: "Process FOUR.L FY2025 results (Mar 18) — HARD GATE for entry"
     created_session: 140
-    deadline: "S142"  # By Mar 10
+    deadline: "S147"
     status: PENDING
     broken_count: 0
-  - promise: "Create LULU Q4/FY2025 pre-earnings framework (Mar 17 earnings)"
-    created_session: 140
-    deadline: "S143"  # By Mar 14
-    status: PENDING
-    broken_count: 0
-  - promise: "Run opportunity_scan (now 15d overdue)"
-    created_session: 138
-    deadline: "S142"
-    status: PENDING
-    broken_count: 0
-  - promise: "Process FOUR.L FY2025 results (Mar 18 CORRECTED) — HARD GATE for entry"
-    created_session: 140
-    deadline: "S145"
+  - promise: "CVNA short execution — monitor VIX <28 + price $290-330 daily"
+    created_session: 144
+    deadline: "S150"
     status: PENDING
     broken_count: 0
 
 # Three Questions tracking (v4.8)
 three_questions:
-  q1_wait_streak: 0  # RESET — market buy recommended (RACE.MI). THREE WAITS obligation met.
-  last_q1_answer: "Market buy RACE.MI at EUR 312-315 recommended. THREE WAITS mandate fulfilled."
-  last_q2_answer: "RACE.MI fills EU Value Recovery basket. If executed → 2nd position saves Mar 31 deadline."
-  last_q3_answer: "Calendar corrections (DOM.L Mar 10, LULU Mar 17). ADBE + LULU framework promises created. Crisis assessment updated."
+  q1_wait_streak: 0  # N/A — cash is 0%. P15 FULLY RESOLVED. No deployment needed.
+  last_q1_answer: "Cash = 0%. Any new buy requires rotation. FTNT (9.7% E[CAGR]) is top rotation candidate if Investor Day disappoints."
+  last_q2_answer: "3 single-position baskets approaching P17 deadline: European Pricing Power (EDEN, 33d), GLP-1 (NVO, 10d), Cybersecurity (FTNT, 10d). Defense empty. Assessing fill-or-kill S145."
+  last_q3_answer: "Stress test top 3 positions (S144c5). Correlation matrix (avg 0.16). DOCS growth review (S145). Session continuity rewrite (S140→S145)."
 
 handoff:
   next_session_priorities:
     P0:
-      - "RACE.MI: Did human execute? If YES → portfolio-ops update. If NO → re-present or adjust."
-      - "ADBE pre-earnings framework: 7 days to Mar 12. Create Section 9 with bear/base/bull."
-      - "CRISIS: Monitor Hormuz, oil trajectory, diplomatic developments."
+      - "FTNT Investor Day (Mon Mar 10): Process outcome. Bull→$95-100, Bear→$75-80 EXIT."
+      - "ADBE Q1 FY2026 earnings (Wed Mar 12): PASS/CONDITIONAL/FAIL. CPI same day."
     P1:
-      - "DOM.L FY25 results Mar 10: Prepare framework by Mar 9."
-      - "FOUR.L FY2025 results Mar 11: HARD GATE for entry."
-      - "LULU earnings Mar 17: Create framework by Mar 14. MAKE-OR-BREAK accelerated."
+      - "MEGP.L FY2025 results (~Mar 13): Review + advance to R4 if PASS. Shares suspended."
+      - "FOUR.L FY2025 results (Mar 18): HARD GATE for SO."
+      - "CPI (Wed Mar 12): Apply scenario framework (hot/inline/cool)."
     P2:
-      - "Opportunity scan (15d overdue). PROMISE deadline S142."
-      - "Pipeline velocity RED. Need 3+ units next session."
-      - "Sector health: digital-marketplaces.md STALE (27d, priority — AUTO.L dep)."
+      - "Single-position baskets: fill-or-kill decision (European Pricing Power at 33d deadline)."
+      - "CVNA short: monitor VIX + price daily."
+      - "DOCS growth review: is 2.5% correct? (S145 agent result pending)"
     P3:
-      - "exp_005 review due S143."
-      - "NVO Wegovy pill: positive but conviction still LOW. Monitor rev data."
-      - "DNLM.L 1.1% from trigger but BLOCKED (6th UK). If DOM.L sells → unblocks."
+      - "exp_005 review still pending."
+      - "HLNE ex-div Mar 20, MONY.L ex-div Mar 26."
   dedup_signals:
-    - "Crisis: Hormuz closed but moderating. Oil $77, VIX 21. Iran diplomatic signals."
-    - "SOs: RACE.MI 6%, SPGI 5%, DNLM.L 1.1% (BLOCKED), SEIC 7.1%."
-    - "ANF: CONDITIONAL PASS. Hold $80. Receivables +40% failed gate."
-    - "DOM.L results Mar 10 (corrected from Mar 5)."
-    - "LULU earnings Mar 17 (corrected from Mar 31). Framework needed by Mar 14."
-    - "ADBE earnings Mar 12. Framework MISSING (Error #13). Create by Mar 10."
-    - "NVO Wegovy pill 246K patients — strongest launch ever. Material positive."
-    - "AUTO.L 26 insiders bought $95M in 60d (STRONG BULL from S139)."
-    - "EDEN.PA SI 23.5% (MONITOR from S139)."
-    - "FOUR.L FY2025 results Mar 11 — HARD GATE for SO."
-    - "exp_005 MIXED. Extended to S143."
+    - "Crisis: Hormuz closed. Oil $91. VIX 29.5. RE-ESCALATED (was 'moderating' S140)."
+    - "Portfolio: 100% deployed, 0% cash. 11 positions, 7 Tier A, 4 Tier B."
+    - "FTNT worst E[CAGR] 9.7%. Investor Day Mon Mar 10 = binary."
+    - "ADBE earnings Wed Mar 12. Framework READY. CPI same day."
+    - "MEGP.L suspended (audit delay). Results ~Mar 13. QS 80 Tier A, R3 complete."
+    - "CVNA short conditional approve: VIX <28, price $290-330."
+    - "EDEN.PA SI 21.2% (declining from 23.5%). Largest position 19%."
+    - "HLNE $3.25M insider cluster buy Feb 2026. STRONG BULLISH."
+    - "IHP.L CEO + director buying multi-month. BULLISH."
+    - "AUTO.L QS 72 (was 63). April pricing event make-or-break."
+    - "UK concentration: 22% (IHP.L + MONY.L + AUTO.L)."
+    - "digital-marketplaces.md refreshed v2.7. 30/30 sectors FRESH."
+    - "Stress test: combined worst -15.1%. Realistic 30d worst -5.9%."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
   ASML.AS: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (OVERVALUED)" }
   EXEL: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (AT_FV)" }
   CELH: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (OVERVALUED)" }
-  UTHR: { date: "2026-02-23", session: 115, verdict: "TRIAGE (AT_FV, SO ARCHIVED S133)" }
   HLNE: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $101.75 (S122)" }
   REN.AS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED (WATCHLIST, SO EUR 24.50)" }
-  ROR.L: { date: "2026-02-22", session: 110, verdict: "R1_COMPLETE (OVERVALUED)" }
   TW: { date: "2026-02-23", session: 115, verdict: "R3_COMPLETE (AT_FV, SO $110)" }
   VRSN: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $240, SO RECALIBRATED $210 S133)" }
   CPRT: { date: "2026-02-25", session: 119, verdict: "R3_COMPLETE (FV $37, entry $31, GATED Q3)" }
   DOCS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $24.07 (S122)" }
   PEGA: { date: "2026-02-25", session: 116, verdict: "R3_COMPLETE GATED (entry $38, FV $50)" }
-  ANF: { date: "2026-03-04", session: 139, verdict: "CONDITIONAL PASS. Hold watchlist $80. Receivables +40% failed. Monitor Q1 FY2026 Jun." }
-  WING: { date: "2026-03-02", session: 135, verdict: "R3_COMPLETE (WATCHLIST, FV $240 revised from $296 -19%, entry $190, GATED Q1 FY2026 SSS May)" }
-  FWONK: { date: "2026-02-25", session: 122, verdict: "TRIAGE PASS (QS 40 Tier C, overvalued)" }
-  IBKR: { date: "2026-02-25", session: 122, verdict: "TRIAGE WATCHLIST ($50-55, QS 96adj, fully priced)" }
+  ANF: { date: "2026-03-04", session: 139, verdict: "CONDITIONAL PASS. Hold watchlist $80. Receivables +40% failed. Monitor Q1 Jun." }
+  WING: { date: "2026-03-02", session: 135, verdict: "R3_COMPLETE (WATCHLIST, FV $240, entry $190, GATED Q1 SSS May)" }
   FTNT: { date: "2026-02-26", session: 126, verdict: "BOUGHT $79.12 (5th E[CAGR] market buy, EUR 400)" }
   CHKP: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, entry $125, FV $160, QS 77 Tier A)" }
   QLYS: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, SO $82, FV $110, QS 81 Tier A. GATED Q1 billings.)" }
@@ -156,3 +160,5 @@ r1_cooldowns:
   CMCSA: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $33, SO $26 GATED Q1 2026.)" }
   SPGI: { date: "2026-02-28", session: 131, verdict: "R3_COMPLETE (WATCHLIST, FV $470 post-DA, SO $420 GATED Q1 2026, QS 76adj Tier A)" }
   MSA: { date: "2026-02-28", session: 131, verdict: "R1_COMPLETE (AT_FV, FV $144, QS 73 Tier B, no SO, PFAS risk)" }
+  APP: { date: "2026-03-07", session: 144, verdict: "S1 SHORT THESIS COMPLETE (WATCHLIST, QS 49, no catalyst P10 FAIL)" }
+  CVNA: { date: "2026-03-07", session: 144, verdict: "S4 CONDITIONAL APPROVE (EUR 100, $290-330, stop $370, VIX <28)" }
