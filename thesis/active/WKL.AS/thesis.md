@@ -1,6 +1,7 @@
 # WKL.AS - Wolters Kluwer NV
 
-> **Fair Value:** EUR 80 (Re-eval S143c11. Committee EUR 72 pre-FY2025, range 67-80. FY2025 confirmed base: organic 5-6%, GM 73.5% expanding, OP 25%, EPS +24.7%. EUR 80 = top of committee range, conservative vs DCF EUR 88. Sector view MISSING — HARD GATE still open.)
+> **Fair Value:** EUR 80 (Re-eval S143c11. Committee EUR 72 pre-FY2025, range 67-80. FY2025 confirmed base: organic 5-6%, GM 73.5% expanding, OP 25%, EPS +24.7%. EUR 80 = top of committee range, conservative vs DCF EUR 88.)
+> **Sector View:** professional-information-services.md (348 lines, COMPLETE — HARD GATE cleared S146)
 
 ## TL;DR
 
