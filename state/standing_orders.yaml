@@ -47,21 +47,22 @@ standing_orders:
 
   - ticker: BAH
     action: BUY
-    category: GATED
+    category: ACTIVE
     fill_prob_6m: 30
     trigger: "<=$75"
     current_distance: "8.3%"
     created_date: "2026-03-06"
     staleness_status: FRESH
-    gate: "R1 complete. R4 required before execution."
+    gate: "CLEARED — R4 CONDITIONAL APPROVE S143c6 (2026-03-07)"
+    r4_status: "CONDITIONAL APPROVE (S143c6, 2026-03-07). 6 PASS, 1 CONDITIONAL PASS (Gate 5 MoS). Committee FV $85."
     size_eur: 400
-    fair_value: "$88"
-    mos_at_trigger: "14.8%"
+    fair_value: "$85 (R4 committee, was $88 R1 / $78 R3)"
+    mos_at_trigger: "13.3%"
     tier: "B (QS 68)"
-    notes: "Booz Allen Hamilton. R1 complete S141. Government IT/consulting. DOGE tail risk priced in. SO $75 = ~15% MoS. E[CAGR] ~13% at trigger."
-    kill_conditions: "DOGE structural contract loss >15% revenue, ROIC <WACC 2yr, security clearance revocation, CEO departure"
-    pre_execution_condition: "R4 committee required. Monitor DOGE impact on federal consulting contracts."
-    last_analysis_date: 2026-03-06
+    notes: "R4 APPROVED S143c6. Defense & Rearmament basket FIRST position. Committee FV $85 (split R1 $88 / R3 $78). Palantir threat: existential for advisory (~30-40% defense rev), manageable for embedded ops. Hegseth creates friction for NEW contracts but $38B backlog = 3-4yr runway. E[CAGR] 16-17% at $75. NOT a market buy at $82 (3.7% MoS insufficient). Conditions: (1) Execute at $75, (2) If Q4 FY2026 (May) shows defense +5% + civil bottoming → recalibrate to $78-80, (3) If Q4 shows defense declining → ARCHIVE."
+    kill_conditions: "KC#1 defense rev >10% decline 2Q, KC#2 book-to-bill <0.9x 2Q, KC#3 cleared workforce <18K, KC#4 DOGE cancellations >$2B, KC#5 dividend cut, KC#6 CEO departure, KC#7 Iran ceasefire + no supplemental + FY2027 budget <$1T"
+    pre_execution_condition: "R4 CLEARED. Execute when price hits $75. Pre-flight reverse DCF before execution."
+    last_analysis_date: 2026-03-07
     expiry: 2026-09-01
 
   - ticker: ACGL
