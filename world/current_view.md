@@ -4,10 +4,10 @@
 
 **CAMBIOS CRITICOS desde ultimo update (7-mar):**
 - **CRITICAL: HORMUZ STILL CLOSED. Oil $90.90, VIX 29.49.** War entering Week 2. No ceasefire. CPI Tuesday will reflect oil spike. FOMC Mar 18 = HOLD certain, rate cuts off table H1 2026.
-- **MATERIAL: PORTFOLIO RESTRUCTURED S143-S149.** 15 positions → 11. SOLD: GL, DTE.DE, DOM.L, BYIT.L, LULU, MORN, RACE.MI. Capital recycled to ADDs (EDEN 5x, ADBE 1x, NVO 1x, WKL 1x). Now 0% cash, fully deployed. Blended E[CAGR] 17.4%.
+- **MATERIAL: PORTFOLIO 10 POSITIONS, EUR 370 CASH (3.5%).** Fully deployed. S143-S150: sold GL, DTE.DE, DOM.L, BYIT.L, LULU, MORN, RACE.MI, AUTO.L. Capital recycled to ADDs + new entries (TW, WKL.AS). Blended E[CAGR] 17.4%.
 - **MATERIAL: S&P 500 at 6,740** (-3.7% from 52wH). VIX 29.49 approaching 30 panic threshold. Gold $5,159 (+73% YoY). 10Y yield 4.13% (inflation fears). DXY 98.86 weakening.
 - **MATERIAL: GDDY R4 APPROVED** — rotation from FTNT if Investor Day BEAR Mon. E[CAGR] 20.2% vs FTNT 9.7%.
-- **MATERIAL: 4 positions NEAR fair value** (MoS <10%): HLNE 3.1%, FTNT 4.9%, TW 7.7%, MONY.L 9.0%. These are rotation candidates.
+- **MATERIAL: THIS WEEK BINARY EVENTS** — FTNT Investor Day Mon (3PM PT), ADBE Q1 earnings Wed (after close), CPI Tue. FOMC Mar 17-18 next week. FOUR.L FY2025 results Mar 18 (hard gate for entry).
 
 **SECTOR IMPACT — Oil $91 / CPI Hot / Hormuz Crisis:**
 
@@ -15,10 +15,10 @@
 |--------|---------|-------------------|--------|
 | **BENEFICIARY** | Energy, Defense, Cybersecurity, Gold miners | FTNT (7%, cyber beneficiary) | FTNT crisis premium partially offsetting low E[CAGR] |
 | **NEUTRAL** | Healthcare, B2B SaaS, Financial data, Payments | NVO, DOCS, WKL.AS, TW, HLNE, IHP.L | Asset-light models insulated from oil. Subscription revenue stable. |
-| **MILD NEGATIVE** | Consumer discretionary, SMB services, Travel | AUTO.L, EDEN.PA, MONY.L, GDDY (pipeline) | Oil tax on consumers = less discretionary spend 60-90 days out |
+| **MILD NEGATIVE** | Consumer discretionary, SMB services, Travel | EDEN.PA, MONY.L, GDDY (pipeline) | Oil tax on consumers = less discretionary spend 60-90 days out |
 | **SEVERE NEGATIVE** | Airlines, autos, logistics, chemicals, retail | None held | Avoid new positions here |
 
-**KEY OBSERVATION:** Our portfolio is 70%+ in NEUTRAL sectors (B2B, healthcare, financial infrastructure). The 3 MILD NEGATIVE positions (AUTO.L, EDEN.PA, MONY.L) are not oil-dependent businesses — the impact is second-order via consumer spending. EDEN.PA's meal voucher business is actually COUNTER-CYCLICAL (more employees eat at work when cutting expenses).
+**KEY OBSERVATION:** Our portfolio is 80%+ in NEUTRAL sectors (B2B SaaS, healthcare, financial infrastructure, asset management). The 2 MILD NEGATIVE positions (EDEN.PA 18.4%, MONY.L 7.3%) are not oil-dependent — impact is second-order via consumer spending. EDEN.PA's meal voucher business is actually COUNTER-CYCLICAL (more employees eat at work when cutting expenses).
 
 ## Resumen Ejecutivo
 
@@ -26,11 +26,11 @@
 
 2. **Ciclo economico US: Mid-cycle under SEVERE STRESS -- OIL >$90 TRIGGER HIT.** Oil at $92 WTI is ABOVE the $90 threshold that historically precedes recessions. The stagflationary scenario we flagged is NOW ACTIVE, not theoretical. CPI will start reflecting oil spike in Mar/Apr prints. Fed FOMC Mar 18 = certain HOLD but language will be critical. Rate cuts effectively OFF THE TABLE for H1 2026. 10Y yield rising to 4.12% signals bond market pricing inflation risk, NOT safe-haven flows.
 
-3. **Portfolio stress-testing LIVE.** 15 positions + 36% cash. The cash buffer has proven its value -- our positions are down ~2-4% from Mar 2 levels but cash prevents forced selling. The RACE.MI deployment (Mar 5) was correct per THREE WAITS mandate. Remaining EUR 3,692 cash = genuine crisis buffer. The "crisis deepens" playbook from Mar 2 (evaluate rotation, FTNT ADD, watch for distressed valuations) is now partially activated.
+3. **Portfolio FULLY DEPLOYED (96.5% invested, EUR 370 cash).** 10 positions, avg QS ~78. S143-S150 restructuring: sold 8 positions (GL, DTE.DE, DOM.L, BYIT.L, LULU, MORN, RACE.MI, AUTO.L), recycled into ADDs and 2 new entries (TW, WKL.AS). Portfolio P&L +0.5%. EDEN.PA largest at 18.4%, fully deployed posture means no crisis buffer — quality + diversification IS the hedge.
 
 4. **Mixed diplomatic signals create BINARY risk.** Araghchi's "open to de-escalation" via Oman is a tentative off-ramp. BUT Iran simultaneously threatens to "avenge IRIS Dena" and IRGC struck a US tanker. Trump says "too late." If diplomacy catches fire, oil drops $20-30 fast and equities V-recover. If it fails, we head toward $100+ oil and recession. The market is pricing the middle -- our job is to be prepared for BOTH tails.
 
-5. **Deployment PAUSED except mandate obligations.** RACE.MI was deployed per THREE WAITS (mandatory). No further deployment until Hormuz situation clarifies or quality compounders hit distressed levels (ADBE <$240, MORN <$160).
+5. **FULLY DEPLOYED (96.5%).** Portfolio restructured S143-S150 from 15→10 positions. EUR 370 cash. Next capital release: MONY.L sell after ex-div Mar 26 (~EUR 888). Rotation lever active, not deployment.
 
 6. **Tariffs OVERSHADOWED by war** but still relevant. EU-US relationship strained. Tariff escalation adds second inflationary impulse ON TOP of oil spike.
 
@@ -95,7 +95,7 @@
 - **Alemania fiscal stimulus**: EUR120B package in play but energy cost shock complicates execution
 - **Defensa EU**: Iran crisis + ongoing Ukraine = defense spending urgency INCREASING. NATO 3%+ spending trajectory
 
-**Impacto Inversion**: EU equities under pressure from oil dependency. Our EU positions: EDEN.PA (domestic services, low energy sensitivity, SAFE), RACE.MI (luxury, pricing power, relatively insulated from oil). EUR strength helps EUR-denominated positions.
+**Impacto Inversion**: EU equities under pressure from oil dependency. Our EU positions: EDEN.PA (domestic services 18.4%, low energy sensitivity, SAFE), WKL.AS (subscriptions 7.6%, very low oil sensitivity). EUR strength helps EUR-denominated positions (26% of portfolio).
 
 ### Reino Unido
 
@@ -107,9 +107,9 @@
 **Economia**:
 - GDP growth 1.4% forecast already weak. Oil shock = DOWNGRADE to 0.5-0.8%
 - **Consumer spending under TRIPLE pressure**: Weak disposable income + oil spike + tariff uncertainty
-- **GBP risk**: Oil shock weakening GBP (net energy importer). Our 5 UK positions (~20% portfolio) have GBP earnings
+- **GBP risk**: Oil shock weakening GBP (net energy importer). Our 2 UK positions (MONY.L 7.3%, IHP.L 11.4% = ~19% portfolio) have GBP earnings
 
-**Impacto Inversion**: UK economy remains weakest link. Oil at $92 makes it WORSE. DOM.L (pizza, discretionary) most exposed -- FY25 results Mar 5 now available. MONY.L somewhat defensive (insurance comparison). BoE decision Mar 20 = key.
+**Impacto Inversion**: UK economy remains weakest link. Oil at $91 makes it WORSE. Our UK positions: MONY.L (7.3%, yield anchor, SELL after ex-div Mar 26), IHP.L (11.4%, platform structural, low oil sensitivity). BoE decision Mar 19 = key.
 
 ### China
 
@@ -175,11 +175,11 @@ Previous assessment (2-mar): "Baseline: Extended conflict 2-4 weeks, Hormuz clos
 - **Assessment**: De-escalation possible in 2-3 weeks but NOT imminent. Market should not price quick resolution.
 
 **Impacto Inversion:**
-- **DIRECT**: None of our 15 positions has Iran/Middle East revenue
-- **INDIRECT -- Oil/Inflation channel**: Oil at $92 NOW ACTIVE. CPI impact in 30-60 days. Rate cuts killed for H1. Consumer spending contraction expected
-- **INDIRECT -- Risk-off channel**: VIX 26.92 compressing multiples. S&P -3.6% from 52wH. Growth/tech hit: ADBE, FTNT, DOCS, MORN, HLNE
-- **INDIRECT -- IRIS Dena diplomatic risk**: Attack in international waters near India/Sri Lanka creates diplomatic complications. Not directly portfolio-relevant but signals US willingness to escalate globally
-- **CASH BUFFER**: EUR 3,692 (36%) remains our primary hedge. Do NOT deploy aggressively until Hormuz/ceasefire clarity emerges
+- **DIRECT**: None of our 10 positions has Iran/Middle East revenue
+- **INDIRECT -- Oil/Inflation channel**: Oil at $91 NOW ACTIVE. CPI impact in 30-60 days. Rate cuts killed for H1. Consumer spending contraction expected
+- **INDIRECT -- Risk-off channel**: VIX 29.49 compressing multiples. S&P -3.7% from 52wH. Growth/tech hit: ADBE, FTNT, DOCS, HLNE
+- **INDIRECT -- IRIS Dena diplomatic risk**: Attack in international waters near India/Sri Lanka creates diplomatic complications
+- **HEDGE**: Fully deployed (3.5% cash). Quality + diversification is the hedge. 80%+ NEUTRAL sectors. Rotation lever via MONY.L (sell Mar 26)
 
 ### 2. Ukraine-Russia: COMPLETELY OVERSHADOWED BY IRAN
 
@@ -232,7 +232,7 @@ Previous assessment (2-mar): "Baseline: Extended conflict 2-4 weeks, Hormuz clos
 
 **Impacto Inversion**:
 - Oil at $92 = INFLATIONARY. Rate cuts dead for H1 2026. Gasoline/transport costs rising 30-60 days
-- If sustained >$90 for 3+ months: Recession probability 50%+. Our defensives (GL, EDEN.PA, DOCS) and cash outperform
+- If sustained >$90 for 3+ months: Recession probability 50%+. Our defensives (EDEN.PA, DOCS, WKL.AS) and subscription models outperform
 - No energy positions to benefit. This was a correct decision for quality portfolio but opportunity cost is real
 - **KEY MONITOR**: US military escort program. If successful, partial Hormuz reopening could cap oil at $85-90
 
@@ -254,19 +254,17 @@ Previous assessment (2-mar): "Baseline: Extended conflict 2-4 weeks, Hormuz clos
 
 | Sector | Sentimiento | Valuacion | Macro Tailwinds/Headwinds | Nuestras Posiciones | Status |
 |--------|-------------|-----------|--------------------------|--------------------|----|
-| **Tech US (Quality)** | BEARISH (Iran risk-off) | Historicamente barata. ADBE, FTNT, DOCS at depressed multiples | Strong FCF + moats / Oil inflation, risk-off | ADBE, FTNT, DOCS | HOLD. War selloff = not thesis-specific. Quality cheap. |
-| **Financial Data/Analytics** | Neutral-CAUTELA | MORN, HLNE | Secular growth / AUM dip on market selloff | MORN, HLNE | HOLD. Low Iran exposure. Fee-based revenue defensive |
-| **UK Adviser Platform** | Neutral-CAUTELA | IHP.L | Platform economics / AUM dip, UK economy weak | IHP.L | HOLD. AUM may dip but structural thesis intact |
-| **Business Services EU** | Ignorado | EDEN.PA P/E ~9x (cheap) | Domestic France, pricing power / Minor oil headwind | EDEN.PA | HOLD. Crisis-resilient. Low oil sensitivity |
-| **Insurance US** | Neutral-FAVORABLE | GL P/E ~10x | DEFENSIVE in crisis / Litigation risk | GL | FAVORABLE. Best macro fit. Class action independent of Iran |
-| **Pharma/GLP-1** | DAMAGED | NVO P/E ~10x | Wegovy franchise / CagriSema FAILED | NVO | CAUTELA. HOLD LOW. Wegovy alone supports $45-50 |
-| **UK Consumer/Services** | WEAK + OIL HEADWIND | DOM.L, MONY.L | BoE cut delayed / Oil + weak consumer | MONY.L, DOM.L | CAUTELA. DOM.L FY25 results released. Oil worsens outlook |
-| **UK Tech/Platforms** | WEAK | AUTO.L, BYIT.L | Digital shift / Risk-off, UK economy | AUTO.L, BYIT.L | CAUTELA. April/May events decisive |
-| **Athleisure US** | En transicion | LULU P/E ~13x | Elliott catalyst / Oil hits discretionary | LULU | HOLD PROBATION. Mar 31 Q4 make-or-break |
-| **Cybersecurity** | FAVORABLE | FTNT | GEOPOLITICAL WAR = cybersecurity spending UP | FTNT | **FAVORABLE.** Direct beneficiary of Iran war / cyberattacks |
-| **Luxury EU** | Mixed | RACE.MI P/E ~35x | Pricing power, scarcity / General risk-off | RACE.MI | HOLD. Luxury insulated from oil. Brand moat |
-| **Defensa EU** | HOT -- surging | Expensive but crisis-justified | Iran + Ukraine + NATO 3%+ | No positions | WATCH. Too expensive to enter now |
-| **Energy** | SURGING | Rally continues, WTI $92 | Iran/Hormuz = massive tailwind | No positions | MISSED. Correct for quality portfolio |
+| **Tech US (Quality)** | BEARISH (Iran risk-off) | Historicamente barata. ADBE, FTNT, DOCS at depressed multiples | Strong FCF + moats / Oil inflation, risk-off | ADBE (8.9%), FTNT (7.2%), DOCS (8.3%) | HOLD. War selloff = not thesis-specific. ADBE earnings Wed. FTNT Investor Day Mon. |
+| **Alt Asset Mgmt** | Neutral-CAUTELA | HLNE secular growth | PE fundraising recovery / AUM dip on selloff | HLNE (10.4%) | HOLD. Insider cluster buy $4.2M strongest signal. Ex-div Mar 20 |
+| **UK Adviser Platform** | Neutral-CAUTELA | IHP.L | Platform economics / AUM dip, UK economy weak | IHP.L (11.4%) | HOLD. AUM may dip but structural thesis intact |
+| **Financial Data EU** | Neutral | WKL.AS P/E ~20x | Sticky subscriptions / Receivables +23% flag | WKL.AS (7.6%) | HOLD. Moderate counter from DA. Receivables gate open |
+| **Electronic Trading** | Neutral | TW P/E ~30x | Electronification secular / RPM compression | TW (5.7%) | HOLD. Bottom tercile E[CAGR]. LSEG risk (KC#9) |
+| **Business Services EU** | Ignorado | EDEN.PA P/E ~9x (cheap) | Domestic France, pricing power / Minor oil headwind | EDEN.PA (18.4%) | HOLD. Largest position. SI 21.2% MONITORING. No ADD |
+| **Pharma/GLP-1** | DAMAGED | NVO P/E ~10x | Wegovy franchise / CagriSema FAILED | NVO (11.4%) | CAUTELA. HOLD. Wegovy pill launched Jan 2026. Oral ramp is catalyst |
+| **UK Insurance Comparison** | WEAK + OIL HEADWIND | MONY.L yield 7.3%+3% buyback | BoE cut delayed / Oil + weak consumer | MONY.L (7.3%) | FIRST ROTATION CANDIDATE. Yield anchor. Sell after ex-div Mar 26 |
+| **Cybersecurity** | FAVORABLE | FTNT | GEOPOLITICAL WAR = cybersecurity spending UP | FTNT (7.2%) | **FAVORABLE.** Investor Day Mon. If BEAR → rotate to GDDY |
+| **Defensa EU** | HOT -- surging | Expensive but crisis-justified | Iran + Ukraine + NATO 3%+ | No positions | WATCH. SAF.PA in pipeline (FV EUR 260, entry EUR 235, 26% away) |
+| **Energy** | SURGING | Rally continues, WTI $91 | Iran/Hormuz = massive tailwind | No positions | MISSED. Correct for quality portfolio |
 | **Auto EU** | Muy odiado | Muy barata | Fiscal aleman / Tariffs + oil + weak demand | No positions | AVOID. Oil shock adds cost pressure |
 | **Bancos EU** | Rolling over | Pulling back | Oil = credit risk | No positions | AVOID. Crisis risk |
 
@@ -287,7 +285,7 @@ Previous assessment (2-mar): "Baseline: Extended conflict 2-4 weeks, Hormuz clos
 - **Probability**: 40-55% (was 30-40%). Oil at $92 WTI = the trigger IS PULLED
 - **Impact**: HIGH. Recession + inflation = worst combo. Quality with pricing power best positioned
 - **Transmission TIMELINE**: Oil at $92 today -> gasoline +$0.50-1.00/gal in 2-4 weeks -> CPI Feb (Mar 12) minimal impact, CPI Mar/Apr WILL show 3.0%+ -> consumer spending down Q2 -> earnings impact Q3
-- **Mitigacion**: Quality portfolio (avg QS ~75). Net cash balance sheets. Cash 36%. No leverage.
+- **Mitigacion**: Quality portfolio (avg QS ~78). Net cash balance sheets. Fully deployed but 80%+ NEUTRAL sectors. No leverage.
 
 ### 3. Inflacion re-acceleration -- NOW ACTIVE (was "ELEVATED")
 - **Probability**: 70-80% (was 50-60%). Oil at $92 = it IS happening. Not a risk, a certainty for near-term
@@ -361,95 +359,93 @@ Previous assessment (2-mar): "Baseline: Extended conflict 2-4 weeks, Hormuz clos
 
 ## ACCION RECOMENDADA PARA PORTFOLIO ACTUAL
 
-### Portfolio actual: 15 posiciones, EUR 3,692 cash (~36%), 0 shorts
+### Portfolio actual: 10 posiciones, EUR 370 cash (3.5%), 0 shorts
 
-| Posicion | Precio Est. 6-Mar | P&L Est. | Tier | Crisis Fit | Accion |
-|----------|-------------------|----------|------|------------|--------|
-| **ADBE** | ~$257 | -3% | A (73) | CAUTELA. Risk-off. P/E ~15x cheap. | HOLD. Do NOT sell into war selloff. Quality undervalued. |
-| **NVO** | ~$36-37 | -23% | B (73) | CAUTELA. CagriSema FAILED + oil. | HOLD LOW. Near bear floor. Wegovy intact. Do NOT panic sell. |
-| **GL** | ~$143-145 | +2% | B (55) | FAVORABLE. Insurance = defensive. | HOLD. Best macro fit in portfolio. |
-| **LULU** | ~$180-185 | +6% | A (78) | CAUTELA. US discretionary + oil. | HOLD PROBATION. Mar 31 Q4 decisive. Oil headwind real. |
-| **EDEN.PA** | ~EUR 20 | +13% | B (62) | NEUTRAL-FAVORABLE. Domestic France. | HOLD. Low oil sensitivity. Good crisis resilience. |
-| **DOM.L** | ~195-200p | +8% | B (61) | CAUTELA. UK consumer + oil headwind. | HOLD LOW. FY25 results evaluate separately. |
-| **MONY.L** | ~165-170p | -2% | A (75 adj) | NEUTRAL. Somewhat defensive. | HOLD. Low oil sensitivity. |
-| **AUTO.L** | ~480p | -2% | B (71) | CAUTELA. UK economy weak. | HOLD LOW. April pricing decisive. |
-| **BYIT.L** | ~295-300p | -1% | B (68) | CAUTELA. UK IT spending. | HOLD PROBATION. May FY results key. |
-| **MORN** | ~$178-183 | +12% | A (78) | NEUTRAL. Financial data, low cyclicality. | HOLD. Fee-based. Crisis-resilient. |
-| **IHP.L** | ~315p | -3% | A (80) | CAUTELA. AUM dip possible. | HOLD. Platform structural thesis intact. |
-| **HLNE** | ~$102-105 | +0% | A (82) | CAUTELA. AUM sensitive short-term. | HOLD. Highest QS. Long-term intact. |
-| **DOCS** | ~$24 | +0% | A (79) | NEUTRAL. Healthcare defensive. | HOLD. 85% physician monopoly = crisis-resilient. |
-| **FTNT** | ~$79-80 | +0% | A (85 adj) | **FAVORABLE**. Cybersecurity surges in war. | HOLD. Best crisis beneficiary. ADD on dip to $65. |
-| **RACE.MI** | ~EUR 313 | 0% | A (84) | NEUTRAL. Luxury insulated from oil. | HOLD. Just entered. Pricing power moat. |
+| Posicion | Alloc | P&L | Tier | Crisis Fit | Accion |
+|----------|-------|-----|------|------------|--------|
+| **EDEN.PA** | 18.4% | +1.2% | B (76/70) | NEUTRAL-FAVORABLE. Domestic France. | HOLD. SI 21.2% MONITORING. No ADD. |
+| **NVO** | 11.4% | -5.4% | B (73) | CAUTELA. CagriSema FAILED + oil. | HOLD. Wegovy pill launched. Q1 ~May catalyst. |
+| **IHP.L** | 11.4% | +0.0% | A (80) | CAUTELA. AUM dip possible. | HOLD. Platform structural thesis intact. |
+| **HLNE** | 10.4% | +0.1% | A (86/82) | CAUTELA. AUM sensitive short-term. | HOLD. Highest QS. Ex-div Mar 20. |
+| **ADBE** | 8.9% | +7.1% | A (80/77) | CAUTELA. Risk-off. ROIC 53%. | HOLD. **Q1 earnings Wed Mar 12.** Section 9 READY. |
+| **DOCS** | 8.3% | +2.1% | A (74/79) | NEUTRAL. Healthcare defensive. | HOLD. 85% physician monopoly. Q4 ~May binary. |
+| **WKL.AS** | 7.6% | +0.0% | B (72) | NEUTRAL. Sticky subscriptions. | HOLD. Receivables +23% flag. |
+| **MONY.L** | 7.3% | -0.2% | A (83/75) | NEUTRAL. Yield anchor. | SELL after ex-div Mar 26. FIRST ROTATION CANDIDATE. |
+| **FTNT** | 7.2% | +2.6% | A (87/85) | **FAVORABLE**. Cyber in war. | HOLD. **Investor Day Mon.** If BEAR → rotate to GDDY. |
+| **TW** | 5.7% | -0.1% | A (76/84) | NEUTRAL. Low cyclicality. | HOLD. Bottom tercile. Rotation candidate if Q1 misses. |
 
-### Crisis Response Strategy (UPDATED for oil >$90)
+### Crisis Response Strategy (UPDATED S150 — fully deployed)
 
-**IMMEDIATE (this week):**
-1. **OIL >$90 TRIGGER HIT.** The "crisis deepens" playbook from Mar 2 is now PARTIALLY ACTIVE. However, do NOT panic. $90 oil may be temporary if Oman-mediated diplomacy succeeds
-2. **EVALUATE DOM.L FY25 results** (Mar 5). If materially weak + oil headwind, DOM.L is first candidate for rotation/trim
-3. **NO FURTHER DEPLOYMENT** beyond RACE.MI. EUR 3,692 cash = crisis buffer. Exception: if ADBE drops below $240 or MORN below $160, those are buy-the-blood opportunities
-4. **Monitor Hormuz daily**: Watch for US military escort program results. If partial reopening + oil drops below $85, crisis mode can ease
+**THIS WEEK (Mar 9-14) — 3 BINARY EVENTS:**
+1. **FTNT Investor Day Mon** — SASE ARR, ASIC SP6, FY27 guide. If BEAR (SASE miss + no guide beat) → rotate to GDDY (R4 approved, E[CAGR] 20.2% vs FTNT 9.7%)
+2. **CPI Tue** — Feb print. If hot (>3.0%) → risk-off, market selloff. If cool (<2.5%) → rate cut hopes revive
+3. **ADBE Q1 Wed** — Section 9 READY. BEAT→ADD if <$240. FAIL→review KC#6. Most critical event this week.
 
-**IF CRISIS CONTINUES 2+ MORE WEEKS (oil stays $85-100+):**
-1. **Rotation evaluation**: DOM.L (weakest cyclical fit) -> cash or GL ADD (defensive)
-2. **FTNT**: If war-driven cybersecurity demand materializes in quarterly data, ADD justified
-3. **Prepare for CPI Mar 12**: If Feb CPI already shows uptick toward 2.7%+, market may selloff further. Opportunity for quality at distressed prices
-4. **Watch for forced institutional selling**: If VIX >35, S&P -7%+, quality compounders will hit levels not seen in years
+**FULLY DEPLOYED POSTURE (3.5% cash):**
+- No crisis buffer. Quality + diversification IS the hedge
+- Rotation is primary lever: MONY.L → GDDY if FTNT BEAR. MONY.L → best pipeline if FTNT PASS
+- MONY.L SELL after ex-div Mar 26 — first rotation capital release (~EUR 888)
+- No forced selling needed. All positions have E[CAGR] >12% except FTNT (9.7% — Investor Day will clarify)
 
-**IF CEASEFIRE/DE-ESCALATION MATERIALIZES:**
+**IF CRISIS CONTINUES (oil stays $85-100+):**
+1. Portfolio is 80%+ NEUTRAL to oil. NVO, DOCS, WKL.AS, HLNE, IHP.L, TW = asset-light, subscription
+2. EDEN.PA (18.4%) has some consumer exposure but meal vouchers are counter-cyclical
+3. If VIX >35, S&P -7%+: quality compounders hit distressed levels. Use MONY.L rotation capital
+
+**IF CEASEFIRE/DE-ESCALATION:**
 1. Oil drops $20-30 rapidly. V-shaped equity recovery
-2. Resume normal deployment. Pipeline candidates at market prices
-3. Rate cut expectations revive. Growth multiples expand. ADBE, FTNT biggest beneficiaries
-4. Gold drops further. DXY weakens. EUR strengthens (good for our EUR-denominated positions)
+2. Rate cut expectations revive. Growth multiples expand. ADBE, FTNT biggest beneficiaries
+3. EUR strengthens (good for EUR positions: EDEN 18.4%, WKL 7.6%)
+4. Pipeline deployment resumes: FOUR.L FY2025 results Mar 18 = hard gate for entry
 
-### Sectores a Buscar
+### Sectores a Buscar (Pipeline Active)
 
-1. **Cybersecurity**: FTNT held. War = structural demand. ADD on dip
-2. **Quality Compounders on war discount**: ADBE <$240, MORN <$160 = screaming buys
-3. **Defense**: If war extends, screen quality defense names at reasonable valuations
-4. **Healthcare/Pharma (defensive)**: Recession hedge if oil stays elevated
-5. **Luxury with pricing power**: RACE.MI just entered. Sector resilient to oil
+1. **SMB SaaS/Internet**: GDDY R4 approved (FV $92, E[CAGR] 20.2%). Rotation target from FTNT if BEAR
+2. **Promotional Products**: FOUR.L R3 complete (FV 4400p, entry 3400p). Hard gate: FY2025 results Mar 18
+3. **Defense/Aerospace**: SAF.PA R3 complete (FV EUR 260, entry EUR 235). 26% away, parking
+4. **Quality Compounders on war discount**: ADBE ADD if Q1 BEAT + price <$240
+5. **Smart Money Convergence targets**: CPRT (4 funds, Akre), CSGP (4 funds, Akre+Polen), IDXX (4 funds, Polen+Fundsmith), LPLA (6 funds), ZTS (6 funds)
 
 ### Sectores a Evitar
 
 1. **Energy pura**: Too late. Oil may reverse sharply on ceasefire
 2. **Airlines / Travel**: Direct war casualties
-3. **Gulf-exposed anything**: Conflict zone
-4. **UK consumer discretionary**: Triple headwind (weak economy + oil + tariff uncertainty)
-5. **Auto EU**: Tariffs + oil + weak demand = triple negative
-6. **Commodity SaaS**: War overshadows recovery. Wait for clarity
+3. **UK consumer discretionary**: Triple headwind (weak economy + oil + tariff uncertainty)
+4. **Auto EU**: Tariffs + oil + weak demand = triple negative
+5. **Commodity SaaS**: War overshadows recovery. Wait for clarity
 
 ---
 
 ## Proximos Eventos Calendario
 
-**ESTA SEMANA (6 mar) -- REMAINING:**
-- **ONGOING**: Iran war Day 7+. Hormuz. Oil. Oman mediation
-- **6 Mar**: DOM.L FY25 results REVIEW (already released Mar 5)
+**ESTA SEMANA (9-14 mar):**
+- **ONGOING**: Iran war entering Week 2+. Hormuz closed. Oil $91. Oman mediation
+- **Mon 10 Mar**: ORCL Q3 (AI/cloud sentiment). **FTNT Accelerate Investor Day** (3PM PT) — CRITICAL for position
+- **Tue 11 Mar**: **US CPI Feb 2026** -- early oil impact. If >3.0% = risk-off
+- **Wed 12 Mar**: **ADBE Q1 FY2026 earnings** (after close) — CRITICAL, Section 9 READY
+- **Thu 13 Mar**: US PPI Feb 2026
 
-**SEMANA 2 (9-13 mar):**
-- **11 Mar**: FOUR.L FY2025 results (pipeline candidate, hard gate)
-- **12 Mar**: **US CPI Feb 2026** -- will show early oil impact. If >2.6% headline = market selloff
-- **13 Mar**: US PPI Feb 2026
+**SEMANA 2 (16-20 mar):**
+- **17-18 Mar**: **Fed FOMC** (hold certain. Statement language on oil/war crucial)
+- **18 Mar**: **FOUR.L FY2025 results** — HARD GATE for entry (R3 complete, FV 4400p)
+- **19 Mar**: **ECB meeting** + **BoE meeting** — FX impact on EUR/GBP positions
+- **20 Mar**: HLNE ex-dividend date
+- **26 Mar**: MONY.L ex-dividend date → SELL AFTER this date
 
-**SEMANA 3 (16-20 mar):**
-- **17-18 Mar**: **Fed FOMC** (hold certain. Statement language on oil/war crucial. Any hint of hike = market crash)
-- **18-19 Mar**: **ECB meeting** (new projections. Oil shock center stage. BofA expected cut but may hold given oil)
-- **20 Mar**: **BoE rate decision** (cut VERY UNLIKELY now given oil. Hold expected. Language on inflation important)
-
-**ABRIL:**
-- Apr 6: DOM.L new CEO Dominic Paul starts
-- Apr 15: RACE.MI AGM
-- Apr: AUTO.L pricing event (MAKE-OR-BREAK)
-- Apr: MORN, HLNE, DOCS Q4 earnings (~late April/May)
+**ABRIL-MAYO:**
 - Apr: FTNT Q1 FY2026 earnings
+- Apr: TW Q1 FY2026 earnings — RPM test
+- Apr: SAF.PA Q1 2026 revenue (pipeline monitoring)
+- ~May: HLNE Q4 FY2026 — Section 9 READY
+- ~May: DOCS Q4 FY2026 — Section 9 READY, binary catalyst
+- May 6: NVO Q1 FY2026 — Section 9 READY, Wegovy pill ramp
 
-**MAYO+:**
+**LATER 2026:**
 - May 15: Powell term expira
-- May: BYIT.L FY2026 full year results
 - Jun: EU tariffs 150-day surcharge review
 - Oct: ADBE FTC trial
 - Nov: US-China trade deal expira
-- Late 2026: NVO CagriSema FDA decision
+- Q4 2026-Q1 2027: NVO CagriSema PDUFA
 
 **IRAN-SPECIFIC TIMELINE (UPDATED):**
 - **Day 1-7 (Feb 28-Mar 6): COMPLETE.** Military operations + retaliation cycle. IRIS Dena sunk. 1,000+ dead in Iran. 6 US soldiers killed. Hormuz at near-total halt. Oil $62->$92.
@@ -461,11 +457,11 @@ Previous assessment (2-mar): "Baseline: Extended conflict 2-4 weeks, Hormuz clos
 
 **Conclusion**: The Iran war has ESCALATED since our Mar 2 assessment, not moderated. Oil breaking $90 WTI activates the stagflationary scenario we flagged as a risk -- it is now REALITY, not theory. The "crisis deepens" playbook is partially active. However, the situation contains genuine binary risk: Araghchi-Oman diplomatic feelers could produce a ceasefire in 2-3 weeks, crashing oil $20-30 and producing a V-recovery. Or Trump's "unconditional surrender" stance could extend the war for 4-5 weeks with oil at $90-110, pushing the economy toward recession.
 
-Our portfolio is CORRECTLY POSITIONED for this uncertainty -- 15 quality positions (avg QS ~76) with zero direct Iran/energy exposure, 36% cash, no leverage. The RACE.MI deployment was mandated by THREE WAITS and correct in context (luxury is oil-insulated). Remaining cash is genuine crisis buffer.
+Our portfolio is FULLY DEPLOYED (10 positions, 96.5% invested, avg QS ~78) with zero direct Iran/energy exposure, no leverage. The restructuring from 15→10 positions (S143-S150) concentrated into higher quality. 80%+ of portfolio in oil-NEUTRAL sectors.
 
-The key decision ahead: DO NOT deploy further into uncertainty. Wait for either (a) ceasefire/Hormuz reopening as signal to resume deployment, or (b) quality compounders at truly distressed levels (ADBE <$240, MORN <$160) as buy-the-blood opportunities. Monitor CPI Feb (Mar 12) and Fed FOMC (Mar 18) for macro confirmation of stagflationary path.
+The key decisions ahead this week: (1) FTNT Investor Day Mon → if BEAR, rotate to GDDY. (2) CPI Tue → macro read. (3) ADBE Q1 Wed → Section 9 framework READY. Next week: FOMC Mar 18 + FOUR.L results Mar 18 (pipeline hard gate).
 
-HOLD everything. Evaluate DOM.L post-FY25. Deploy only on extreme value. Monitor Hormuz and Oman mediation.
+HOLD everything through binary events. SELL MONY.L after ex-div Mar 26 → rotation capital for best pipeline candidate.
 
 ---
 
