@@ -4,7 +4,7 @@
 **Original Date:** 2026-02-01
 **Price at Review:** EUR 17.95
 **Quality Score:** 62/100 -- Tier B
-**Recommendation:** HOLD (FY2025 BASE+ confirmed 2026-02-24. All KCs clear.)
+**Recommendation:** HOLD (FY2025 BASE+ confirmed 2026-02-24. KC#1 MONITORING, KC#7 MONITORING ELEVATED. NO ADD — 21.2% SI unresolved. TRIM at EUR 22+.)
 **Framework Version:** 4.0 (Principios Adaptativos)
 > **Fair Value:** EUR 29.0 (R3 maintained S146c9. Was EUR 38.4 pre-adversarial. DA bear EUR 25.40-30.90 brackets thesis. KC#1 DORMANT.)
 > **Expected Growth:** 6% (R3 resolved: 2026 -10%, 2027-28 +7%. Management guide +8/+12% at 70% probability. Was yf_earn 4.6%.)
@@ -111,11 +111,13 @@ Mi evidencia:
 Probabilidad de equivocado: 30%
 
 Mercado cree: Brasil es precedente para Francia
-Yo creo: Posible pero no seguro -- Francia es mercado maduro con lobby mas fuerte
+Yo creo: Posible pero not seguro -- Francia es mercado maduro con lobby mas fuerte
 Mi evidencia:
   - Italia fue primer precedente, pero Francia no ha actuado en 2+ anos
-  - Politica francesa actual pro-business (vs Brasil populista)
-Probabilidad de equivocado: 30%
+  - Competition Authority RECHAZO caps en Jun 2025 (pro-competencia, no caps)
+  - PERO: social levy 8% propuesta Sep 2025. Fitch downgrade. Deficit fiscal creciente
+  - Flash (BR) crecio 7.5x desde 2021 — fintech amenaza subestimada
+Probabilidad de equivocado: 40% (SUBIO desde 30% — levy 8% propuesta concreta + deficit fiscal)
 ```
 
 ### 2.3 Value Trap Checklist (actualizada v3.0)
@@ -263,11 +265,11 @@ QS Adjusted: 70/100 (Tier B) — Adjustment: -6 (market position +6, ROIC distor
 | Riesgo | Severidad | Probabilidad | Cambio vs v2.0 |
 |--------|-----------|--------------|-----------------|
 | **Regulacion Brasil** | **MUY ALTO** | **MATERIALIZADO** | NEW - era bajo (20%) |
-| Regulacion Francia | ALTO | 30% | Sin cambio |
+| Regulacion Francia | **ALTO** | **35-40%** | SUBIDO: 8% social levy propuesta Sep 2025, Fitch downgrade, deficit fiscal |
 | Regulacion se extiende a otros mercados | ALTO | 25% | NEW |
 | Growth no vuelve a 8%+ en 2027 | MEDIO | 30% | Subio de 25% |
 | Balance deteriora (decreto + menores ingresos) | MEDIO | 20% | Subio de 15% |
-| Fintech disruption | BAJO | 10% | Sin cambio |
+| Fintech disruption | **MEDIO** | **25%** | SUBIDO: Flash 7.5x growth, Caju $25M B, open-loop eliminates network lock-in |
 | Interoperabilidad Brasil erosiona share | MEDIO | 35% | NEW |
 
 ### Kill Conditions (ACTUALIZADAS v3.0)
@@ -284,18 +286,19 @@ QS Adjusted: 70/100 (Tier B) — Adjustment: -6 (market position +6, ROIC distor
 
 | Kill Condition | Status | Notes |
 |---------------|--------|-------|
-| 1. Francia caps | CLEAR | No regulation announced. French politics pro-business. 30% prob unchanged. |
+| 1. Francia caps | **MONITORING** | Commission caps rejected Jun 2025 BUT 8% social levy proposed Sep 2025. Fitch downgrade + deficit fiscal = rising probability (35-40%). |
 | 2. ND/EBITDA >3.0x | CLEAR | FY2025: ~2.3x stable. EBITDA >EUR 1,340M. No deterioration. |
 | 3. FCF <50% 2yr | CLEAR | FY2025 FCF conversion >65%. No concern. |
 | 4. Dividend cut | CLEAR | Dividend RAISED +10% to EUR 1.33. Strong signal. |
 | 5. Share loss >5pp | CLEAR | Leader in 70% markets. No evidence of share loss. |
 | 6. 2027-28 guidance <5% | CLEAR | FY2025 results confirmed 2027-28 at +8/+12%. Management credibility restored by FY2025 beat. |
-| 7. Brasil + spreads | MONITORING | Injunction holds for Ticket SA. Government may appeal. No spread to 3rd market yet. |
+| 7. Brasil + spreads | **MONITORING ELEVATED** | Injunction holds BUT Federal Regional Court confirmed decree applicability Feb 2026. Government appealing. France 8% levy = potential 3rd market. 21.2% SI from 20 funds signals institutional conviction against. |
 | 8. Regulation 3rd market | CLEAR | No new regulatory action in any market beyond Italy + Brazil. |
 | 9. Credit downgrade | CLEAR | No downgrade. Investment grade maintained. |
 | 10. 2027-28 delivered <3% | CLEAR | N/A — 2027 not yet reported. Guide +8/+12%. |
 | 11. Digital wallets model kill | CLEAR | No Apple/Google employer meal benefit launch. Closed-loop intact. |
 | 12. Corp expense platforms absorb | CLEAR | No Brex/Ramp expansion into meal+mobility in FR/LATAM. |
+| 13. France 8% social levy tabled | **MONITORING** | Proposed Sep 2025 but not yet formal bill. Fitch downgrade + deficit = fiscal pressure rising. If tabled → cascade confirmed. |
 
 ---
 
@@ -419,6 +422,7 @@ EARNINGS FEB 24
 | 2.0 | 2026-02-03 | Re-evaluation Framework v2.0. WACC derivado, segundo metodo. FV EUR 51.5 |
 | 3.0 | 2026-02-06 | URGENT review: Brazil decree. FV reducido a EUR 38.4 expected. 2026 guidance -8/-12%. Kill conditions expandidas. Status HOLD pre-earnings Feb 24 |
 | **4.0** | **2026-02-07** | **Adversarial review. FV revised EUR 38.4 → EUR 29.0 (-24.5%). Italy EUR 120M/yr NOT in FV calculation. Brazil 19% not 9.5%. Kill conditions: 7 → 10. Conviction MEDIUM.** |
+| **4.1** | **2026-03-08** | **Bear thesis deep investigation (21.2% SI, 20 funds). France prob 30%→35-40%. Fintech threat 10%→25%. KC#1 CLEAR→MONITORING, KC#7 MONITORING ELEVATED. KC#13 added (France levy). ADD cancelled. TRIM at EUR 22+ considered.** |
 
 ---
 
@@ -466,6 +470,7 @@ EARNINGS FEB 24
 ### Model Disruption Kill Conditions (added 2026-02-11)
 11. **Digital wallets eliminate meal voucher model** — If Apple Pay/Google Wallet or a fintech launches employer-subsidized meal payments directly via wallet (bypassing Edenred's closed-loop network) AND captures >15% of any market where Edenred operates, the intermediation model is broken. The moat IS the closed network; direct wallet payments destroy it. Monitor: Apple/Google employer benefit partnerships, fintech meal benefit startups.
 12. **Corporate expense platforms absorb Edenred's mobility/corporate payments** — If Brex, Ramp, SAP Concur, or similar expand to cover meal+mobility+corporate benefits in a single platform with >10% penetration in France or LATAM, Edenred's multi-product bundle loses cross-sell advantage. Monitor: corporate card platform expansion into benefits.
+13. **France formally tables 8% social levy bill in parliament** — If the proposed 8% tax on meal vouchers and employer-sponsored benefits advances to formal parliamentary vote, the regulatory cascade pattern (Italy→Brazil→France) is confirmed. Impact: ~EUR 75M EBITDA/yr. France = 40% of Benefits revenue. Combined with Italy + Brazil = EUR 315M+ EBITDA headwind on EUR 1,200M base (~26%). This would confirm the shorts' thesis. Monitor: French parliament agenda, budget bills, employer association lobbying. Added 2026-03-08.
 
 ---
 
@@ -566,6 +571,75 @@ EDEN.PA is currently an **orphan position** — not assigned to any thematic bas
 
 ---
 
+## BEAR THESIS DEEP INVESTIGATION (2026-03-08, S149)
+
+> **Trigger:** 21.2% SI from 20 institutional funds (including CPPIB pension). Position = 19% of portfolio.
+> **Objective:** Understand WHY smart money is short. Assess if thesis needs revision.
+
+### The Institutional Bear Thesis: "Regulatory Cascade"
+
+**Timeline of moat erosion:**
+- Italy (Sep 2025): 5% commission cap. EUR 120M EBITDA annualized
+- Brazil (Nov 2025): Lula decree — 2% interchange cap, 15-day settlement, interoperability. EUR 150-200M EBITDA
+- France (Sep 2025, proposed): 8% social levy on meal vouchers. Potential EUR 75M EBITDA/yr
+- **Combined worst case: EUR 315M EBITDA headwind on EUR 1,200M base = -26%**
+
+**Why CPPIB shorts (inferred):** CPPIB manages CAD $700B+. They rarely short. Their thesis: Edenred is a regulatory privilege disguised as a compounder. If governments can destroy 15-20% of EBITDA with a decree, the moat is a revocable privilege, not a structural advantage. Italy was precedent. Brazil confirmed the pattern. France is next.
+
+### Brazil: Deeper Than Thesis Captures
+
+**Legal status (as of Mar 2026):**
+- Ticket SA (Edenred subsidiary) obtained injunction Jan 20, 2026
+- Federal Regional Court CONFIRMED decree applicability Feb 2026
+- Government challenged the suspension seeking reversal
+- **Case NOT resolved.** Supreme Court ruling pending
+
+**Float income destruction:** 15-day settlement (vs 30) directly cuts float income. Brazil generates >50% of LATAM's EUR 78M float income → ~EUR 39M+ at risk.
+
+**Fintech invasion accelerating:**
+- Flash: 1.5M users (2024), 7.5x growth since 2021, open-loop (Mastercard)
+- Caju: $25M Series B, open-loop (Visa), no need to negotiate merchant-by-merchant
+- iFood, Mercado Pago, PicPay: all entering
+- **Key insight:** Interoperability mandate + open-loop fintechs = incumbents lose network lock-in moat
+
+### France: Risk Higher Than Thesis States
+
+**Positive:** Competition Authority rejected commission caps (Jun 2025). Digitalization reform by 2027 benefits Edenred.
+**Negative:** 8% social levy proposed Sep 2025. Fitch downgrade. Rising deficit. Political fragmentation.
+**Impact if levy passes:** EUR 75M EBITDA/yr. Employers would cut non-essential benefits first, but meal vouchers eventually impacted.
+**New probability: 35-40%** (was 30%)
+
+### Italy: Confirmed and Materializing
+
+5% cap effective Sep 2025. EUR 60M impact H2 2025, EUR 120M annualized. Already in FY2025 numbers. Mitigation limited — rebalancing employer discounts faces resistance.
+
+### Medium-Term Target Erosion
+
+Management reduced medium-term EBITDA growth target from >12% to 6-9% (2026-2028 ambition). This is a MOVING GOALPOST. Jefferies notes their estimate sits 4% below even the new guidance for 2026.
+
+### What Changed in My Assessment
+
+| Factor | Before Investigation | After Investigation |
+|--------|---------------------|---------------------|
+| France probability | 30% | **35-40%** |
+| Fintech threat (Brazil) | 10% (low, noise) | **25% (medium, Flash 7.5x growth)** |
+| KC#7 status | MONITORING | **MONITORING ELEVATED** |
+| KC#1 status | CLEAR | **MONITORING** (levy proposal concrete) |
+| ADD plan Monday | SELL AUTO.L → ADD EDEN.PA | **CANCELLED** — no ADD with 21.2% SI unresolved |
+| Sizing comfort | 19% acceptable | **19% excessive for Tier B under regulatory siege** |
+
+### Verdict: HOLD — But No ADD, Consider TRIM at EUR 22+
+
+**HOLD because:** Price EUR ~18.35 already discounts immense pain. FV EUR 29.0 still provides 37% MoS. FY2025 was record. Dividend raised +10%. 90.5% of business ex-Brazil growing. ROIC 15-18% >> WACC.
+
+**No ADD because:** 21.2% SI from most sophisticated funds in the world. Regulatory cascade pattern real. 19% portfolio allocation excessive for Tier B under siege.
+
+**TRIM consideration:** If price reaches EUR 22+, reduce from 19% to 15% max. The position is sized for Tier A conviction but carries Tier B quality + regulatory siege risk.
+
+**New KC#13 added:** France formally tables 8% social levy in parliament → if this happens, cascade confirmed, bear thesis validated.
+
+---
+
 ## Sources
 
 - [Edenred Financial Results](https://www.edenred.com/en/investors-shareholders/financial-results)
@@ -574,6 +648,15 @@ EDEN.PA is currently an **orphan position** — not assigned to any thematic bas
 - [Investing.com: Edenred shares fall 9%](https://www.investing.com/news/earnings/edenred-shares-fall-9-after-brazils-new-meal-voucher-rules-threaten-earnings-4350187)
 - [MarketScreener: Edenred and Pluxee Shine After Suspension](https://www.marketscreener.com/news/edenred-and-pluxee-shine-amid-temporary-suspension-of-meal-voucher-reform-in-brazil-ce7e58ddd080f427)
 - [TradingView: Brazil court suspends meal voucher changes](https://www.tradingview.com/news/reuters.com,2026:newsml_S0N3XN04R:0-brazil-court-suspends-meal-voucher-changes-for-edenred-s-ticket-folha-reports/)
+- [Heavy Moat: I am disappointed in Edenred](https://heavymoatinvestments.substack.com/p/i-am-disappointed-in-edenred-guidance)
+- [Edenred: Why Regulatory Fears Create a Compelling Investment Opportunity](https://thanh1.substack.com/p/edenred-why-regulatory-fears-create)
+- [Deep Dive: Revisiting Edenred](https://www.compoundwithrene.com/p/edenreds-collapse-more-bad-news-worse)
+- [Brazil Prepaid Card Report 2026](https://www.globenewswire.com/news-release/2026/02/20/3241903/28124/en/Brazil-Prepaid-Card-and-Digital-Wallet-Intelligence-Report-2026.html)
+- [Caju Captures $25M Series B](https://www.bloomberglinea.com/english/brazilian-corporate-benefits-startup-caju-captures-25m-in-series-b/)
+- [Edenred France meal voucher reform](https://media.edenred.com/meal-voucher-reform-in-france/?lang=en)
+- [AlphaValue cuts Edenred target to EUR 29.90](https://www.marketscreener.com/news/alphavalue-baader-europe-cuts-edenred-price-target-on-potential-regulatory-impact-ce7e59dedb88f62c)
+- [Edenred FY2025 press release](https://www.edenred.com/system/files/documents/2026-02-24-edenred-fy-2025-pr.pdf)
+- [FinAristo: EDENRED short positions](https://finaristo.com/short-selling/shorted-companies/edenred)
 - [TipRanks: Edenred Regulatory Challenges](https://www.tipranks.com/news/ratings/edenred-faces-regulatory-challenges-and-adjusted-growth-forecasts-amidst-brazils-meal-voucher-industry-changes-ratings)
 - [Il Sole 24 ORE: Edenred slips to 2017 low](https://en.ilsole24ore.com/art/in-paris-edenred-slips-2017-low-ebitda-guidance-cut-2026-AHqkd7gD)
 - [ADVFN: Edenred Brazil Rules Threaten Profitability](https://uk.advfn.com/market-news/article/7941/edenred-shares-slide-as-brazils-new-meal-voucher-rules-threaten-profitability)
