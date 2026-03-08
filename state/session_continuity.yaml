@@ -122,9 +122,9 @@ handoff:
     - "SHORTS READINESS: CVNA S4 approved, WITHIN price range $290-330, VIX 26 BORDERLINE (<28 gate). Execute when VIX settles. TSLA GATED until Apr Q1 deliveries."
     - "30% TARGET ANALYSIS: Math requires EDEN 30%+ allocation OR finding 2-3 more 25%+ E[CAGR] stocks OR crash creating mass entry. Screening rate-limited — retry fresh session."
     - "SCREENER RATE-LIMITED: yfinance rate limits from S149 heavy scanning (914 tickers). Retry sp500/stoxx600 screens in fresh session."
-    - "GDDY SCORED: QS 78 Tier A, FV $150, E[CAGR] 24.6% at $92. #1 domain registrar, FCF 31.8%, ROIC 33%, -52% ATH. FwdPE 13.5x. AI disruption risk real. eToro confirmed. ACTIONABLE — needs R1."
+    - "GDDY R1 COMPLETE: QS 68tool/78adj Tier A. FV $140. E[CAGR] 22.9% at $92. #1 domain registrar 82M domains. FCF 31.8%, ROIC 33%. Reverse DCF implies -8.4% FCF decline vs actual +20% CAGR. Starboard 7.8% activist. AI risk mitigated by Airo. eToro confirmed. WATCHLIST entry $85-95. Rotation candidate for FTNT slot."
     - "FISV KILLED: ROIC 8.5% (spread ~0pp), FCF declining, rev growth 4%. QS ~50 Tier C. Not quality."
-    - "ROTATION UPDATE: GDDY at 24.6% E[CAGR] = 2nd highest after EDEN. If FTNT bear→SELL→GDDY instead of ADBE. +14.9pp vs +8.5pp."
+    - "ROTATION UPDATE: GDDY at 22.9% E[CAGR] replaces ADBE(18.2%) as FTNT rotation target. FTNT(9.7%)→GDDY(22.9%) = +13.2pp. Or market buy GDDY at $92 if cash freed from AUTO.L."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -156,3 +156,4 @@ r1_cooldowns:
   HRB: { date: "2026-03-08", session: 149, verdict: "QS 63 Tier B. Low priority — no R1." }
   SAF.PA: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV EUR 290, QS 79adj Tier A, entry EUR 260. P/E 18.5x MISLEADING — adj forward ~32x. WIDE moat jet engine duopoly.)" }
   MEDI.OL: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV NOK 272, QS 85adj Tier A, entry NOK 205. Cardiac surgery monopoly, 80% GM, eToro confirmed.)" }
+  GDDY: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV $140, QS 78adj Tier A, entry $85-95. #1 domain registrar, FCF 31.8%, ROIC 33%. E[CAGR] 22.9% at $92. Starboard 7.8%. Rotation candidate for FTNT slot.)" }
