@@ -2,15 +2,17 @@
 
 > **Direction:** SHORT
 > **Fair Value:** $XXX (lo que realmente vale)
+> **Expected Growth:** X% (MANDATORY — what the company ACTUALLY grows, for parser. Error #64)
 > **Current Price:** $YYY
 > **Overvaluation:** ZZ% ((Price - FV) / Price)
 > **Catalizador:** [Evento que forzara reconocimiento]
 > **Fecha Catalizador:** YYYY-MM-DD (o rango)
 > **QS Tool:** XX | **QS Ajustado:** XX (Tier X)
+> **Data Integrity:** GrSrc: thesis | FV_source: S1 YYYY-MM-DD | Last_verified: YYYY-MM-DD
 
 ## 1. Por que el precio actual no se sostiene
 
-[Analisis de por que la valoracion actual es insostenible. No basta "esta cara" — necesita fragilidad estructural documentada.]
+[Analisis de por que la valoracion actual es insostenible. No basta "esta cara" — necesita fragilidad estructural documentada (Error #46).]
 
 ## 2. Dependencia oculta
 
@@ -18,7 +20,7 @@
 
 ## 3. Catalizador (Principio 10)
 
-[Evento especifico con fecha que forzara al mercado a reconocer la fragilidad. Sin catalizador identificable = OBSERVAR, no shortear.]
+[Evento especifico con fecha que forzara al mercado a reconocer la fragilidad. Sin catalizador identificable = OBSERVAR, no shortear (Error #44).]
 
 ## 4. Escenarios
 
@@ -37,8 +39,10 @@
 
 ## 6. Kill Conditions (cubrir si...)
 
-- KC#1:
-- KC#2:
+| # | Condition | Status | Notes |
+|---|-----------|--------|-------|
+| 1 | | CLEAR | |
+| 2 | | CLEAR | |
 
 ## 7. Sizing y mecanica
 
@@ -58,10 +62,22 @@
 [dcf_calculator.py --reverse output]
 
 ### Filtro 2: Quien tiene skin in the game
-[insider_tracker.py output]
+[insider_tracker.py + smart_money.py stock-profile output]
 
 ### Filtro 3: Datos primarios vs narrativa
 [narrative_checker.py output]
 
 ### Filtro 4: Asimetria
 [Cuanto pierdo si me equivoco vs cuanto gano si acierto]
+
+## 10. Smart Money
+
+- **Top holders:** [list]
+- **Short interest:** X% (N funds)
+- **Recent insider transactions:** [buys/sells]
+- **Signals:** [from smart_money.py signals]
+
+## Section 11: Earnings Framework
+
+**Next earnings:** YYYY-MM-DD
+**Framework status:** PENDING — populate 7d before earnings (Error #13)
