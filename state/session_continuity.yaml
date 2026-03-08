@@ -135,6 +135,7 @@ handoff:
     - "ADBE FRAMEWORK CONFIRMED: PASS (rev>=6.25B, EPS>=5.85, ARR QoQ up) → HOLD, ADD <$240. CONDITIONAL (slight miss) → HOLD, FV $350-380. FAIL (rev<6.15B, guide cut>5%, ARR<8%) → EXIT protocol. SELL triggers: guide cut >5%, creative MAU <5%, FTC KC#6."
     - "SMART MONEY SCAN S149: (1) EDEN.PA SI flagged but context = short thesis IS our long thesis with diff time horizon. Shorts right about 2026 decline, we're right about 2027+ reaccel. No action. (2) AUTO.L $87M insider cluster buy — strong signal BUT rotation math (+16.5pp E[CAGR]) overrides. SELL Monday confirmed. (3) TW $37M C-suite selling reinforces rotation candidate status. (4) HLNE $3.2M cluster buy confirmed — insiders aligned."
     - "WORLD VIEW S149: Sector impact mapped. 70% portfolio in NEUTRAL sectors. EDEN counter-cyclical. FTNT crisis beneficiary. 4 positions near FV (<10% MoS): HLNE/FTNT/TW/MONY.L. No new KC approaching. NVO KC#1 already processed."
+    - "EU SCREENING S149: No new 'another EDEN' found. WKL.AS (already held) + DSY.PA (already in universe) are the only quality fallen angels. Rejected: IMCD.AS (ROIC<WACC), AFX.DE (ROIC destroying value), AMP.MI (leveraged roll-up). Coverage validated."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
