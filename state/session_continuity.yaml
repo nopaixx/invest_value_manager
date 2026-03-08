@@ -2,140 +2,119 @@
 # OVERWRITTEN each session (not accumulated). r1_cooldowns is rolling 30d.
 # Read by: session-planner, r1_prioritizer.py, session-phases
 # Written by: Fase 6 (last operation of each session)
-# Created: 2026-03-07
+# Created: 2026-03-08
 
 session:
   id: 149
   date: "2026-03-08"
-  timestamp_cet: "2026-03-08T08:30"
+  timestamp_cet: "2026-03-08T16:45"
 
 completed:
   vigilance:
-    news_scan_time: "2026-03-07T12:00"
-    critical_count: 1  # Iran/Hormuz crisis ongoing.
+    news_scan_time: "2026-03-08T08:30"
+    critical_count: 1  # Iran/Hormuz crisis ongoing
     material_count: 0
-    note: "No new vigilance S147 — focused on completing systematic DA audit."
+    note: "No new crisis escalation. Hormuz still closed. Oil ~$91. VIX ~29."
   so_check:
-    timestamp: "2026-03-07T12:00"
-    nearest: { ticker: "DNLM.L", distance_pct: 1.9, note: "932p vs 950p trigger. BLOCKED — 5th UK position." }
-    triggered: []
+    timestamp: "2026-03-08T08:30"
+    nearest: { ticker: "DNLM.L", distance_pct: 1.9, note: "932p vs 950p trigger. R4 re-validated: DO NOT execute. Preferred entry 850-880p." }
+    triggered: ["DNLM.L"]
     executed_this_session: []
+    note: "DNLM.L triggered but committee re-validation said DO NOT execute (E[CAGR] 12.4% marginal, GDDY better at 20.2%)."
   thesis_audit:
-    # S146 work (prior session)
-    - "S146c1-c10: WKL GATE cleared, DOCS/EDEN/NVO/ADBE R2+R3"
-    # S147 work (this session)
-    - "S147c1: IHP.L R2 DA (MODERATE COUNTER, 1 HIGH sizing) + R3 resolution (FV 390p maintained, KC#8-9 added)"
-    - "S147c2: WKL.AS R2 DA (MODERATE COUNTER, 3 HIGH) + R3 resolution (FV EUR 80 maintained, growth 6%, KC#12-13)"
-    - "S147c3: MONY.L R2 DA (MODERATE COUNTER, 5 HIGH) + R3 resolution (FV 190p maintained, FIRST ROTATION CANDIDATE)"
-    - "S147c4: TW R2 DA (MODERATE COUNTER, 4 HIGH) + R3 resolution (FV $140->$135, growth 12%->10%)"
-    - "S147c4: HLNE R2 DA (MODERATE COUNTER, 3 HIGH) + R3 resolution (FV $110 maintained, growth 12%->10%)"
-  key_finding: "DA AUDIT 10/11 COMPLETE. All 10 = MODERATE COUNTER. Systematic bullish bias confirmed: -1.7pp phantom E[CAGR] removed (19.1%->17.4%). 3 FV reductions (DOCS, NVO, TW), 6 growth formalizations, zero yfinance fallbacks. Portfolio is measurably more honest. MONY.L flagged FIRST ROTATION CANDIDATE (5 HIGH findings, 12.5% E[CAGR], yield play)."
+    - "S149: MEGA SESSION 40 commits across 3 context windows"
+    - "RKLB S1 short thesis COMPLETE — SHORT WATCHLIST (Tesla trap, Error #46)"
+    - "COIN S2 bull case challenge — 7/10 strength → ARCHIVE (3 HIGH analytical errors in S1)"
+    - "DNLM.L R4 re-validation — WATCHLIST, do NOT execute SO at 950p"
+    - "GDDY R4 APPROVED CONDITIONAL — rotation from FTNT if Investor Day bear"
+    - "LOPE R4 WATCHLIST — SO $155 GATED on Q1 earnings"
+    - "SAF.PA R1 COMPLETE — FV EUR 290, QS 79adj Tier A, entry EUR 260"
+    - "MEDI.OL R1 COMPLETE — FV NOK 272, QS 85adj Tier A, entry NOK 205"
+    - "PAYC R1 REFRESH — FV $140, QS 78adj Tier A, AT FAIR VALUE, entry $105-115"
+    - "TSLA S4 CONDITIONAL APPROVE — EUR 50, $250-290, stop $380, Q1 deliveries gate"
+    - "Template evolution — 6 improvements applied to long + short templates"
+    - "BEI.DE assessment — FY2025 confirmed deceleration, needs R1 refresh FV ~EUR 90-93"
+    - "KC monitoring — 88 KCs, 14 MONITORING, no new escalations"
+  key_finding: "SYSTEM AT ALL-TIME BEST: 0 RED triggers (was 4). Short pipeline breakthrough (5 theses, 0→operational). Cash 0%. E[CAGR] 17.4%. 28 velocity units. Rotation plan formalized."
   net_exposure_updated: true
-  net_exposure_note: "100/0/0. Unchanged."
+  net_exposure_note: "100/0/0. Fully deployed. No shorts active (CVNA+TSLA conditional, VIX >28). Justified: quality portfolio, crisis vol prevents short execution."
   rotation_check: true
-  rotation_note: "Rotation hierarchy: FTNT 9.7% (worst, investor day Mon) > AUTO.L 12.1% (LOW conviction) > MONY.L 12.5% (yield, FIRST rotation candidate) > HLNE 13.1% > TW 13.2%."
-  velocity_units: 24
-  velocity_note: "Prior 22 + rotation execution plan (1) + short readiness assessment (1) = 24 velocity units."
+  rotation_note: "FORMAL PLAN: R0 SELL AUTO.L Mon → R1 FTNT Investor Day Mon PM → R2 TW Apr Q1 → R3 MONY.L when ready. Delta projections: 17.4%→20.1% blended."
+  velocity_units: 28
+  velocity_note: "Highest single-session velocity ever. ~15 R1/R2/R3/R4/S1/S2 units + system work."
   portfolio_ecagr:
     deployed: 17.4%
     blended: 17.4%
     cash_drag: "0pp/yr"
     worst: "FTNT 9.7%"
-    note: "Corrected from 19.1% pre-audit. -1.7pp phantom removed. All 11 positions thesis-sourced growth."
+    note: "Spearman correlation positive (largest position = highest E[CAGR]). Rotation plan will push toward 19-20%."
 
 # =============================================================================
 # PROMISES — Accountability loop (v4.8, P18)
 # =============================================================================
 promises:
-  - promise: "Process FTNT Investor Day outcome (Mon Mar 10) — update thesis Section 9, DA if data warrants"
+  - promise: "Process FTNT Investor Day outcome (Mon Mar 10) — update thesis Section 9, rotate to GDDY if BEAR"
     created_session: 145
-    deadline: "S149 (Mon Mar 10)"
+    deadline: "S150 (Mon Mar 10)"
     status: PENDING
     broken_count: 0
-  - promise: "Process ADBE Q1 FY2026 earnings (Wed Mar 12) + R3 resolution post-earnings"
+  - promise: "SELL AUTO.L at Monday open — rotation R0, EUR 370 proceeds → hold for ADBE earnings buffer"
+    created_session: 149
+    deadline: "S150 (Mon Mar 10)"
+    status: PENDING
+    broken_count: 0
+  - promise: "Process ADBE Q1 FY2026 earnings (Wed Mar 12) — PASS/CONDITIONAL/FAIL framework ready"
     created_session: 146
-    deadline: "S150 (Wed Mar 12+)"
+    deadline: "S151 (Wed Mar 12+)"
     status: PENDING
     broken_count: 0
-  - promise: "Review MEGP.L FY2025 results when published (~Mar 13) — advance to R4"
-    created_session: 145
-    deadline: "S149"
-    status: PENDING
-    broken_count: 0
-  - promise: "Process FOUR.L FY2025 results (Mar 18) — HARD GATE for entry"
+  - promise: "Process FOUR.L FY2025 results (Mar 18) — HARD GATE for entry, R4 if PASS"
     created_session: 140
-    deadline: "S149"
+    deadline: "S152"
     status: PENDING
     broken_count: 0
-  - promise: "CVNA short execution — monitor VIX <28 + price $290-330 daily"
+  - promise: "CVNA short execution — monitor VIX <28 + price $290-330"
     created_session: 144
-    deadline: "S150"
+    deadline: "S155"
     status: PENDING
     broken_count: 0
 
 three_questions:
   q1_wait_streak: 0  # Cash = 0%. Deployment = rotation only.
-  last_q1_answer: "Cash = 0%. Any new buy = rotation. MONY.L (12.5%) is funding source #1 for long rotation. FTNT (9.7%) if investor day bear."
-  last_q2_answer: "Baskets: European Pricing Power has EDEN only. Cybersecurity has FTNT only. NVO orphan. Defense empty. Pipeline: FOUR.L (Mar 18) could form new basket or join existing."
-  last_q3_answer: "Completed systematic DA audit: 10/11 positions, all MODERATE COUNTER. Removed 1.7pp phantom E[CAGR]. System is measurably more honest."
+  last_q1_answer: "Cash = 0%. Rotation R0 AUTO.L Mon = concrete action. FTNT rotation if Investor Day bear = contingent. No cash drag."
+  last_q2_answer: "Baskets: Cybersecurity has FTNT only (GDDY R4 approved as replacement). European Pricing Power has EDEN only. NVO orphan. Pipeline: SAF.PA, MEDI.OL could form defense/healthcare baskets."
+  last_q3_answer: "Template evolution (6 improvements), RKLB S1 short thesis (Tesla trap identification), COIN S2 archival (saved pipeline bandwidth), KC monitoring (88 KCs scanned)."
 
 handoff:
   next_session_priorities:
     P0:
-      - "ROTATION R0: SELL AUTO.L → ADD ADBE at market open Monday. +6.1pp E[CAGR] improvement."
-      - "ROTATION R1: FTNT Investor Day (Mon Mar 10). If BEAR → SELL same day. If BULL → HOLD."
+      - "ROTATION R0: SELL AUTO.L at open Monday (~EUR 370). CONFIRMED by committee."
+      - "FTNT Investor Day (Mon Mar 10 3PM PT): 5-point checklist. BULL→HOLD. BEAR→SELL same day, proceeds→GDDY rotation."
     P1:
-      - "CPI (Tue Mar 11): Oil $91 = hot CPI risk. Portfolio 22.8% HIGH vulnerability."
-      - "ADBE Q1 FY2026 earnings (Wed Mar 12): PASS/CONDITIONAL/FAIL. Framework 100% ready."
-      - "ROTATION R2: TW — $37M insider selling RED FLAG. If Q1 disappoints (Apr) → rotate to VRSN/pipeline."
+      - "CPI (Tue Mar 11): Oil $91 = hot CPI risk. If hot: DO NOTHING (ADBE earnings 24hr later). Portfolio 22.8% HIGH vulnerability."
+      - "ADBE Q1 FY2026 earnings (Wed Mar 12): Framework 100% ready. PASS/CONDITIONAL/FAIL defined."
     P2:
-      - "ROTATION R3: MONY.L — yield anchor, only rotate when replacement E[CAGR] >15% AND buyable."
-      - "COIN S1 short thesis — agent output pending."
-      - "Score CEG + CCJ (nuclear/AI energy basket seeds). If both QS ≥70 → propose basket."
       - "FOUR.L FY2025 results (Mar 18): HARD GATE for SO."
-    P3:
       - "HLNE ex-div Mar 20, MONY.L ex-div Mar 26."
+      - "CVNA/TSLA short monitoring: VIX needs <28 for CVNA execution."
+      - "BEI.DE R1 refresh — FY2025 data needs incorporation, FV revision to ~EUR 90-93."
+    P3:
       - "Health check due Mar 16."
-      - "TSLA SO active — monitor Q1 deliveries data (early Apr)."
-      - "LOPE SO $155 GATED on Q1 earnings (Apr). No action until then."
-      - "Score remaining EU small-caps: ALFEN.AS, SGN.WA, UBXN.SW."
+      - "MEGP.L FY2025 results when published."
+      - "Score CEG + CCJ (nuclear/AI energy basket seeds)."
+      - "LOPE SO $155 GATED on Q1 earnings (Apr)."
   dedup_signals:
-    - "S149 COMPLETE: 14 velocity units, 8 commits. TSLA S4 + LOPE R1→R4 + FTNT DA + education sector view."
-    - "ROTATION APPROVED: AUTO.L SELL → ADBE ADD. +6.1pp E[CAGR]. Execute Monday market open."
-    - "FTNT DA MODERATE COUNTER: rotation candidate, hold through Investor Day Mon. 2 new KCs added (#8 deferred rev, #9 CISA KEV)."
-    - "LOPE R4 WATCHLIST: SO $155 GATED on Q1 earnings (OP margin 27%+). Committee FAIL Gate 7 (rotation math)."
-    - "11/11 DAs complete — Error #65 fully resolved portfolio-wide."
-    - "CPI stress test: 22.8% HIGH vuln (ADBE, HLNE, AUTO.L), 43.4% LOW vuln. Portfolio avg P/E ~17x."
-    - "NVO KC#1 TRIGGERED (CagriSema failed): HOLD decision. E[CAGR] 16.6%, P/E 10.8x, base intact, Wegovy pill ramp catalyst."
-    - "MEDI.OL manual QS 68-81 (Tier A/B border). Cardiac surgery monopoly. Score formally next session."
-    - "Nuclear/AI Energy basket: 5 candidates ranked (CEG, CCJ, LEU, BWXT, SMR). Score CEG+CCJ next session."
-    - "HALO gate holds: Merck PTAB Jun 2026 = binary. SO $65 GATED correct. Day-after protocol ready."
-    - "SAF.PA R1 COMPLETE: QS 79adj Tier A, FV EUR 290, WATCHLIST EUR 260. P/E 18.5x MISLEADING (adj ~32x). WIDE moat."
-    - "MEDI.OL R1 COMPLETE: QS 85adj Tier A, FV NOK 272, WATCHLIST NOK 205. Cardiac monopoly, eToro confirmed."
-    - "Concentration: HHI 1193, Spearman 0.818. Gap to 30% is quality gap, not concentration."
-    - "Short screen: COIN best new S1 candidate. PLTR/SHOP/UBER = Tesla Trap (improving fundamentals)."
-    - "FORMAL ROTATION PLAN: R0 AUTO.L(Mon) → R1 FTNT(Mon PM) → R2 TW(Apr Q1) → R3 MONY.L(when ready)."
-    - "INSIDER SCAN: HLNE $3.2M cluster buy (HOLD). TW $37M selling RED FLAG (elevated to R2 rotation)."
-    - "MOMENTUM FACTOR: Added Mtm6m column + tiebreaker to r1_prioritizer.py. Quality+momentum."
-    - "Crisis: Hormuz closed. Oil ~$91. VIX ~29."
-    - "ROTATION EXECUTION PLAN: R0 Mon SELL AUTO.L(EUR 370)→ADD EDEN.PA. R0 Mon PM FTNT if bear→SELL→ADD ADBE. R2 TW Apr Q1. R3 MONY.L when ready."
-    - "SHORTS READINESS: CVNA S4 approved, WITHIN price range $290-330, VIX 26 BORDERLINE (<28 gate). Execute when VIX settles. TSLA GATED until Apr Q1 deliveries."
-    - "30% TARGET ANALYSIS: Math requires EDEN 30%+ allocation OR finding 2-3 more 25%+ E[CAGR] stocks OR crash creating mass entry. Screening rate-limited — retry fresh session."
-    - "SCREENER RATE-LIMITED: yfinance rate limits from S149 heavy scanning (914 tickers). Retry sp500/stoxx600 screens in fresh session."
-    - "GDDY R3 COMPLETE: QS 68tool/75adj Tier A borderline. FV $130 (was $140 R1, -7.1%). DA MODERATE COUNTER: 3 HIGH (QS adj, insider selling, SBC). CEO 48 sells 0 buys = RED FLAG. Bear $110. E[CAGR] 20.2% at $92. 12 KCs (5 new from DA). WATCHLIST entry $85-95. R4 committee needed before execution."
-    - "FISV SCORED: QS 57 Tier B. ROIC 8.5% (spread ~0pp), FCF declining $5.2B→$4.3B, rev growth 4%. E[CAGR] ~10% = below 15% Tier B threshold. PASS."
-    - "IT (GARTNER) SCORED: QS 77 Tier A on trailing data BUT business deteriorating — rev DECLINING FY2026, OP margin collapsed 16.6%→5.7%, AI disruption real. E[CAGR] ~5%. PASS. Value trap risk."
-    - "ROTATION UPDATE: GDDY R3 complete, E[CAGR] 20.2% (was 22.9% R1). Still 3rd highest. Needs R4 committee. FISV/IT both killed."
-    - "BLENDED PROJECTION: Current 17.4% → A(AUTO→EDEN) 17.8% → B(+FTNT→GDDY) 18.8% → C(+TW→GDDY) 19.4% → D(+MONY→TBD) 20.1%. Max with known candidates: 20.1%. Gap to 30% = 9.9pp. Needs shorts + crash entries."
-    - "GDDY R4 APPROVED CONDITIONAL: 10/10 gates PASS. ROTATION from FTNT if Investor Day BEAR Mon Mar 10. SO $85-90 if FTNT BULL. FV $130, QS 75adj, E[CAGR] 20.2%. Delta +10.5pp vs FTNT. Committee decision: thesis/research/GDDY/committee_decision.md."
-    - "IT (GARTNER) R1 REFRESH: QS 74/77adj Tier A. FV $195 (was $190 R3). E[CAGR] 10-12% BORDERLINE. -84% from ATH ($1,060→$169). AI disruption real: consulting -15%, deferred rev +1.7%. BUT insider buying 113K shares Feb 2026 + 95% research retention. SI 11.2% surging +42.8% MoM. WATCHLIST $150-160. Q1 May = catalyst."
-    - "SCREENING QS BATCH: PAYC 86 A (STANDOUT — 12.6% insider, ROIC 24.5%, net cash, -48%), TTD 69 B (rev +22% but P/E 32.5x), FOUR.L 69 B (ROIC 85.6%, already R3 GATED Mar 18), DOCU 56 B (ROIC spread +2pp only, PASS), EPAM 36 C (KILLED). PAYC needs R1 REFRESH — stale FV $115 vs implied $170+."
-    - "FTNT NEUTRAL PLAN: DO NOT rotate on neutral. HOLD through Q1 Apr. Set GDDY SO $85-90. Better entry + FTNT Q1 data point. Rotate only on BEAR or Q1 disappoint."
-    - "CPI HOT PLAN: Top 3 vulnerable = ADBE (P/E 34x, -8-12%), HLNE (PE cycle, -5-8%), AUTO.L (UK consumer, -5-8%). Reaction: DO NOTHING on ADBE (earnings 24hr later), DO NOTHING on HLNE (insider cluster buy support), SELL AUTO.L as planned (already R0)."
-    - "ADBE FRAMEWORK CONFIRMED: PASS (rev>=6.25B, EPS>=5.85, ARR QoQ up) → HOLD, ADD <$240. CONDITIONAL (slight miss) → HOLD, FV $350-380. FAIL (rev<6.15B, guide cut>5%, ARR<8%) → EXIT protocol. SELL triggers: guide cut >5%, creative MAU <5%, FTC KC#6."
-    - "SMART MONEY SCAN S149: (1) EDEN.PA SI flagged but context = short thesis IS our long thesis with diff time horizon. Shorts right about 2026 decline, we're right about 2027+ reaccel. No action. (2) AUTO.L $87M insider cluster buy — strong signal BUT rotation math (+16.5pp E[CAGR]) overrides. SELL Monday confirmed. (3) TW $37M C-suite selling reinforces rotation candidate status. (4) HLNE $3.2M cluster buy confirmed — insiders aligned."
-    - "WORLD VIEW S149: Sector impact mapped. 70% portfolio in NEUTRAL sectors. EDEN counter-cyclical. FTNT crisis beneficiary. 4 positions near FV (<10% MoS): HLNE/FTNT/TW/MONY.L. No new KC approaching. NVO KC#1 already processed."
-    - "EU SCREENING S149: No new 'another EDEN' found. WKL.AS (already held) + DSY.PA (already in universe) are the only quality fallen angels. Rejected: IMCD.AS (ROIC<WACC), AFX.DE (ROIC destroying value), AMP.MI (leveraged roll-up). Coverage validated."
+    - "S149 COMPLETE: 40 commits, 28 velocity units, 3 context windows. ALL-TIME BEST trigger state (0 RED)."
+    - "ROTATION PLAN ACTIVE: R0 AUTO.L(Mon) → R1 FTNT(Mon PM) → R2 TW(Apr Q1) → R3 MONY.L(when ready)."
+    - "SHORT PIPELINE: CVNA S4 conditional (VIX <28 gate). TSLA S4 conditional (Q1 deliveries Apr gate). RKLB SHORT WATCHLIST. COIN ARCHIVED."
+    - "DNLM.L SO TRIGGERED but DO NOT EXECUTE (committee re-val: E[CAGR] 12.4% marginal, GDDY better). Preferred entry 850-880p."
+    - "GDDY R4 APPROVED CONDITIONAL: rotation from FTNT if Investor Day BEAR. SO $85-90 if FTNT BULL."
+    - "TEMPLATE EVOLUTION: 6 improvements applied (Data Integrity, Expected Growth, Consensus Divergence, Smart Money, Earnings stub, simplified projections)."
+    - "COIN S2 ARCHIVED: bull case 7/10, 3 HIGH analytical errors in S1 (P/E at trough, contradictory WACC/ROIC, shorting 56% off ATH)."
+    - "RKLB S1 SHORT WATCHLIST: Tesla trap (Error #46). CFO sold $103M. P/S 66x. But SpaceX-level execution risk + defense backlog + potential squeeze."
+    - "BEI.DE: FY2025 confirmed deceleration (NIVEA +0.9%, 2026 guidance FLAT). R1 refresh needed. FV ~EUR 90-93, entry EUR 80-82."
+    - "KC MONITORING: 88 KCs, 14 MONITORING, 0 new escalations. EDEN.PA KC#1/KC#7 elevated (prior session). TW CEO selling (prior session)."
+    - "EVOLUTION STATE: 0 RED triggers (from 4). T2 GREEN (cash 0%), T3 GREEN (velocity 28u), T15 YELLOW (17.4%), T16 GREEN (5 short theses)."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -172,3 +151,6 @@ r1_cooldowns:
   TTD: { date: "2026-03-08", session: 149, verdict: "QS 69 Tier B. Rev +22%, ROIC 17.8%, but P/E 32.5x at $29. Low priority." }
   EPAM: { date: "2026-03-08", session: 149, verdict: "QS 36 Tier C. KILLED. EPS declining, ROIC falling." }
   PAYC: { date: "2026-03-08", session: 149, verdict: "R1 REFRESH COMPLETE. FV $115→$140 (+22%). QS 86tool/78adj Tier A. AT FAIR VALUE at $138 = MoS ~1%. NOT a rotation candidate at market. Entry $105-115. Morningstar moat NONE. SI +41%. Wait Iran + Q1 Apr." }
+  RKLB: { date: "2026-03-08", session: 149, verdict: "S1 SHORT THESIS COMPLETE. SHORT WATCHLIST. Tesla trap (Error #46). FV $18-22, P/S 66x, CFO sold $103M. DO NOT SHORT — defense backlog + Neutron potential + squeeze risk." }
+  COIN: { date: "2026-03-08", session: 149, verdict: "S2 ARCHIVED. Bull case 7/10 kills thesis. 3 HIGH analytical errors in S1 (P/E at trough, contradictory WACC/ROIC, shorting 56% off ATH). Subscription rev grew DURING 2022 crypto winter." }
+  DNLM.L: { date: "2026-03-08", session: 149, verdict: "R4 RE-VALIDATED. DO NOT execute SO at 950p. E[CAGR] 12.4% marginal. GDDY better at 20.2%. Preferred entry 850-880p. 7 PASS, 1 CONDITIONAL, 2 FAIL." }

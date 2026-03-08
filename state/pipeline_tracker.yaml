@@ -1,6 +1,6 @@
 # PIPELINE TRACKER + MAINTENANCE
 # Operational metadata for the fund
-# Updated: 2026-03-07 (S148)
+# Updated: 2026-03-08 (S149)
 
 # PRIORITY #1 - CAPITAL DEPLOYMENT (while cash > 25%)
 capital_deployment:
@@ -9,7 +9,7 @@ capital_deployment:
   trigger: "cash > 25%"
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S144: Full deployment. Cash 6.6%→0%. ADD NVO+EDEN.PA. 11 positions, 0% cash. Deployment = rotation only."
+  last_result: "S149: 0% cash maintained. Deployment = rotation only. R0 AUTO.L Mon."
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/quality_universe.py"
 
@@ -18,7 +18,7 @@ vigilance:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S148: Week ahead brief updated. DOM.L Mon, FTNT Inv Day Mon, CPI Tue, ADBE Wed. All frameworks READY."
+  last_result: "S149: Crisis ongoing (Hormuz, oil $91, VIX 29). No new escalation."
   smart_skip:
     same_day_window_hours: 8
     source: "state/session_continuity.yaml → skip_if_same_day"
@@ -27,7 +27,7 @@ rotation_check:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S147: DA audit corrected blended E[CAGR] 19.1%→17.4%. Rotation hierarchy: FTNT 9.7% > AUTO.L 12.1% > MONY.L 12.5%. MONY.L = FIRST ROTATION CANDIDATE."
+  last_result: "S149: Rotation plan FORMALIZED. R0 AUTO.L(Mon) → R1 FTNT(Mon PM) → R2 TW(Apr Q1) → R3 MONY.L(when ready). Blended 17.4%→projected 20.1%."
   smart_skip:
     same_day_window_hours: 12
     earnings_blackout: true
@@ -108,7 +108,7 @@ r1_processing:
   trigger: "SCORED count > 0 in universe"
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S147: DA audit focused. 10/11 DAs complete (6 R2s + 6 R3s = 12 velocity units). FTNT DA deferred to post-Investor Day. No new R1s this session."
+  last_result: "S149: 28 velocity units. RKLB S1, COIN S2, GDDY R4, LOPE R4, SAF.PA R1, MEDI.OL R1, PAYC R1 refresh, DNLM.L R4 re-val, TSLA S4, templates."
   minimum_per_session: "3 velocity units (1 R1=1u, 1 R2→R3=2u, 1 R4=1u)"
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/r1_prioritizer.py"
@@ -148,14 +148,14 @@ net_exposure_reasoning:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S148: 100/0/0. Fully deployed. No shorts (VIX 29.5, crisis vol). Justified by quality (7 Tier A, 4 Tier B, blended E[CAGR] 17.4%)."
+  last_result: "S149: 100/0/0. Fully deployed. No shorts active (VIX >28). CVNA+TSLA conditional. Justified by quality."
 
 # STANDING ORDER REALITY CHECK
 so_reality_check:
   frequency: daily
   last_run: 2026-03-07
   next_due: 2026-03-08
-  last_result: "S148: Active SOs: BZU.MI EUR 42 (R4), VRSK $210 (R4), FOUR.L pending (R3, GATED Mar 18 earnings). CVNA short SO conditional ($290-330, VIX <28)."
+  last_result: "S149: DNLM.L triggered but DO NOT EXECUTE (re-validated). BZU.MI EUR 42 (R4). VRSK $210 (R4). FOUR.L GATED Mar 18. GDDY SO $85-90 if FTNT bull. CVNA short conditional."
 
 # FV CONSISTENCY CHECK (every 10 sessions — Error #65)
 fv_consistency_check:
