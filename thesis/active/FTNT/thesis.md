@@ -2,7 +2,7 @@
 
 > **Fair Value:** $88 (R3 post-DA resolution)
 > **Expected Growth:** 8% (R3 post-DA. Billings +18%, SASE +40%, rev guide +12%. Buyback ~2%.)
-> Pipeline Stage: R3_COMPLETE (DA pending post-Investor Day Mon Mar 10)
+> Pipeline Stage: R3_COMPLETE (DA complete S149. MODERATE COUNTER. Rotation candidate post-Investor Day.)
 > R1 Fundamental Analysis | Date: 2026-02-26
 > Analyst: fundamental-analyst (opus)
 > Sector View: world/sectors/cybersecurity.md (FRESH, same day)
@@ -146,7 +146,7 @@ DA adjustments: -$3 (refresh fading), -$2 (security crisis), -$3 (edge thinness)
 
 ---
 
-## Kill Conditions (7 total, R3 revised)
+## Kill Conditions (9 total, DA S149 added KC#8-9)
 
 1. Revenue growth <8% for 2 consecutive quarters
 2. Unified SASE ARR growth <15%
@@ -155,6 +155,8 @@ DA adjustments: -$3 (refresh fading), -$2 (security crisis), -$3 (edge thinness)
 5. Either Xie brother <5% ownership
 6. Second major security incident within 6 months causing visible customer attrition
 7. Product revenue decline >10% for 2Q AND SASE growth <15% simultaneously
+8. Deferred revenue growth <8% for 2 consecutive quarters (leading indicator of revenue deceleration — DA S149)
+9. Third CISA KEV entry within 12 months (CVE pattern escalation — DA S149)
 
 **Kill Conditions Status (Pre-Event Review, 2026-03-07):**
 - KC#1: OK. FY2025 revenue +14%. FY2026 guide +12%. No concern.
@@ -165,7 +167,7 @@ DA adjustments: -$3 (refresh fading), -$2 (security crisis), -$3 (edge thinness)
 - KC#6: MONITORING. CVE-2025/2026 crisis is the one incident. No second incident. Clock started ~Jan 2026. 6-month window closes ~Jul 2026. Investor day response to this crisis is a KEY signal.
 - KC#7: OK. Product revenue +16% FY2025 and SASE +40%. Both strong. No concern.
 
-**Assessment: ALL 7 kill conditions remain relevant and NONE are triggered or approaching.**
+**Assessment: ALL 9 kill conditions remain relevant and NONE are triggered. KC#8 (deferred rev) at 11% growth — above 8% threshold but decelerating trend (21%→15%→11%). KC#9 (CISA KEV) — 24 entries total, 8 in 2025 alone. Monitor post-Investor Day.**
 
 ---
 
