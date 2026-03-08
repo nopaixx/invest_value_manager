@@ -10,9 +10,9 @@
 metadata:
   created: 2026-02-03
   last_updated: 2026-03-07
-  total_closed: 20
-  total_pnl_eur: 86.23  # Previous 57.23 + GL ~2 + BYIT.L ~23 + DOM.L ~-7 = ~75. Approximate — confirm from eToro.
-  win_rate: 55.0  # 11 winners / 20 positions (GL +0.6%, BYIT.L +5.7% added as winners)
+  total_closed: 21
+  total_pnl_eur: 94.23  # Previous 86.23 + MORN ~8
+  win_rate: 57.1  # 12 winners / 21 positions (MORN +2% added as winner)
   avg_holding_days: 12
   # Note: DTE.DE had prior partial sells totaling EUR 137.80 realized P&L (see partial_sells section)
 
@@ -497,6 +497,28 @@ closed_positions:
     exit_reason: s143_restructuring_quality_rotation
     lesson_learned: "Low conviction orphans should not be held through binary earnings events when capital can be deployed into confirmed quality positions. Pre-earnings exit avoids the risk of KC#1 triggering (EBITDA < GBP 125M)."
 
+  - ticker: MORN
+    name: "Morningstar, Inc."
+    entry_date: 2026-02-20
+    exit_date: 2026-03-07
+    shares: 2.47
+    entry_price_usd: 162.0
+    exit_price_usd: 165.3
+    entry_currency: USD
+    invested_eur: 400  # ~$400 / 1.0
+    proceeds_eur: 352  # ~$408 / 1.1616
+    pnl_amount_eur: 8
+    pnl_percent: 2.0
+    holding_days: 15
+    thesis_fv_at_entry: 195  # USD - R3 post-CRSP accretion
+    fv_reached: false
+    quality_score: 78  # Tier A
+    thesis_accuracy:
+      correct: null
+      notes: "Thesis intact (FV $195 > price). Sold for portfolio optimization, not thesis failure. FIRST E[CAGR]-framework market buy. E[CAGR] ~5.1% at exit = lowest in Data & Analytics basket. Capital redeployed to TW + WKL.AS (higher E[CAGR]). QS 78 Tier A, WIDE moat (data + switching costs), 46% insider (Mansueto). Small gain (+2%) in 15 days."
+    exit_reason: s143_restructuring_basket_rotation
+    lesson_learned: "Even Tier A positions with WIDE moats should be rotated when E[CAGR] is lowest in basket. P16 (Perpetual Rotation) applies to quality positions too. The basket framework (P17) enables comparing within-theme to optimize allocation. MORN at 5.1% E[CAGR] vs TW at 13% = clear rotation."
+
   - ticker: DTE.DE
     name: "Deutsche Telekom AG"
     entry_date: 2026-01-26
@@ -583,13 +605,13 @@ partial_sells:
 # Statistics (auto-calculated by effectiveness_tracker.py)
 statistics:
   # Will be populated by the tool
-  total_closed_positions: 21
+  total_closed_positions: 22
   total_partial_sells: 4
-  total_realized_pnl_eur: 554.88  # Previous 566.88 - 12 (RACE.MI)
-  winners: 11
-  losers: 8  # Previous 7 + RACE.MI -3.4%
+  total_realized_pnl_eur: 562.88  # Previous 554.88 + MORN ~8
+  winners: 12  # Added MORN +2%
+  losers: 8  # RACE.MI -3.4%, DOM.L -1.7%, LULU -1.0%, SAN.PA, HRB, TEP.PA, A2A, FUTR.L
   breakeven: 2  # ENEL.MI 0%, VNA.DE 0%
-  win_rate_pct: 52.4
+  win_rate_pct: 54.5
   avg_win_pct: 7.4
   avg_loss_pct: -3.8
   avg_holding_days: 12

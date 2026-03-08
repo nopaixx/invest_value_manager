@@ -8,12 +8,175 @@
 # Creado: 2026-02-05 | Framework v4.0
 
 version: "4.0"
-last_updated: 2026-03-05
+last_updated: 2026-03-08
 
 # =============================================================================
 # DECISIONES DE SIZING (BUY/ADD)
 # =============================================================================
 sizing_decisions:
+
+  - date: 2026-03-07
+    ticker: TW
+    action: BUY
+    sizing: "5.7% (EUR 600)"
+    context:
+      quality_score: "76 tool / 84 adjusted (+8)"
+      tier: A
+      mos: "8.4% at $124.59 vs FV $135"
+      ecagr: "13.2%"
+      price_vs_52w: "-24% from ATH, near 52wL"
+      conviction: "Medium"
+      macro: "Hormuz crisis, oil $91, VIX 29"
+      pipeline: "R3 complete"
+    reasoning: |
+      S143 restructuring. Data & Analytics Monopolies basket position #1.
+      WIDE moat 20/25 (bond trading infrastructure, #1 US Treasuries electronic trading).
+      E[CAGR] 13.2% > 12% Tier A threshold. QS 84adj strong.
+      DA findings: RPM compression structural, LSEG governance, insider selling $26.3M.
+      Growth reduced 12%→10%. Bottom tercile — but basket-filling priority (P17).
+      Capital from GL + BYIT.L + DOM.L exits. If falls 50%: -2.85% portfolio.
+      PRECEDENT: Basket-filling buy at lower E[CAGR] justified by thematic conviction.
+    outcome: "Position opened. Q1 earnings April = first test."
+    precedents_cited: "MORN S101 (data monopoly), FTNT S126 (E[CAGR]-framework)"
+
+  - date: 2026-03-07
+    ticker: WKL.AS
+    action: BUY
+    sizing: "7.6% (EUR 800 total)"
+    context:
+      quality_score: "72 tool / ~80 adjusted"
+      tier: B
+      mos: "16.8% at EUR 68.52 vs FV EUR 80"
+      ecagr: "15.0%"
+      price_vs_52w: "-63% from 52wH, deep correction"
+      conviction: "Medium"
+      macro: "Hormuz crisis, AI disruption fears overdone"
+      pipeline: "R3 complete. Committee EUR 72 pre-FY2025, range 67-80."
+    reasoning: |
+      S143 restructuring. Data & Analytics Monopolies basket position #2.
+      Legal/tax/health information monopolist. 78% recurring revenue.
+      Market prices catastrophic AI disruption but only 10-13% of EBIT at risk.
+      FY2025 confirmed thesis (organic 5-6%, cloud +15%, EPS +24.7%).
+      Receivables +23% vs rev +3.5% = yellow flag, not red.
+      Bought above committee entry EUR 50-55. Market-buy protocol justified by E[CAGR] 15%.
+      PRECEDENT: Tier B buy at 15% E[CAGR] with basket-filling rationale.
+    outcome: "Position opened. Monitor receivables + Caywood track record."
+    precedents_cited: "DOCS S118 (market buy above committee entry)"
+
+  - date: 2026-03-07
+    ticker: EDEN.PA
+    action: ADD
+    sizing: "8.1% → 19% (multiple ADDs S143)"
+    context:
+      quality_score: "62 Tier B"
+      tier: B
+      ecagr: "27.1%"
+      conviction: "High (upgraded from Medium)"
+    reasoning: |
+      S143 T15 sizing rebalance + rotation proceeds. Multiple ADDs same day.
+      E[CAGR] 27.1% = HIGHEST in portfolio by wide margin.
+      P/E 8.5x with 7.1% yield. 2026 trough already priced.
+      2027-2028 targets confirmed: 8-12% organic EBITDA growth.
+      19% = large position justified by E[CAGR] dominance and pricing power thesis.
+      If falls 50%: -9.5% portfolio — acceptable for conviction HIGH.
+      PRECEDENT: Largest position at 19% for highest E[CAGR] with LOW valuation.
+    outcome: "5th ADD total. Largest position. Conviction upgraded."
+
+  - date: 2026-03-07
+    ticker: IHP.L
+    action: ADD
+    sizing: "3.9% → 11.4% (multiple ADDs S143)"
+    context:
+      quality_score: "80 Tier A"
+      ecagr: "19.5%"
+      conviction: "High (upgraded from Medium)"
+    reasoning: |
+      S143 restructuring. UK Digital Platforms basket core position.
+      E[CAGR] 19.5% = 3rd highest. QS 80 Tier A. FUA growing, margins expanding.
+      Multiple ADDs from GL/BYIT.L/DOM.L exit proceeds.
+      11.4% = CEILING declared. Do NOT add further.
+      PRECEDENT: Large ADD to highest-conviction basket position.
+    outcome: "At ceiling. Next catalyst H1 FY26 June."
+
+  - date: 2026-03-07
+    ticker: HLNE
+    action: ADD
+    sizing: "4.0% → 10% (multiple ADDs S143)"
+    context:
+      quality_score: "86/82 Tier A"
+      ecagr: "13.1%"
+      conviction: "Medium"
+    reasoning: |
+      S143 restructuring. US Quality Compounders basket.
+      QS 86 = highest in portfolio. CEO bought $1M at $130 (insider alignment).
+      E[CAGR] 13.1% > 12% Tier A threshold. -43% from ATH.
+      Position doubled from rebalance proceeds.
+      PRECEDENT: ADD to high-QS position despite modest E[CAGR].
+    outcome: "Insider buying suggests FV may be conservative. Monitor Q4 May."
+
+  - date: 2026-03-07
+    ticker: DOCS
+    action: ADD
+    sizing: "4.0% → 8.0% (multiple ADDs S143)"
+    context:
+      quality_score: "74/79 Tier A"
+      ecagr: "13.8%"
+      conviction: "Medium"
+    reasoning: |
+      S143 restructuring. US Quality Compounders basket.
+      85% physician monopoly. Net cash $724M. -69% from ATH.
+      E[CAGR] 13.8% > 12% threshold. R3 resolved FV $30.
+      8% position = oversized per DA finding. Do NOT add before Q4 May.
+      PRECEDENT: ADD to monopoly position at deep discount.
+    outcome: "Oversized at 8%. Q4 earnings ~May = binary catalyst."
+
+  - date: 2026-03-07
+    ticker: MONY.L
+    action: ADD
+    sizing: "4.1% → 7.0% (multiple ADDs S143)"
+    context:
+      quality_score: "83/75 Tier A/B"
+      ecagr: "12.5%"
+      conviction: "Medium"
+    reasoning: |
+      S143 restructuring. UK Digital Platforms basket yield anchor.
+      7.3% dividend + 3% buyback = 10.3% total shareholder return.
+      E[CAGR] 12.5% marginal but yield provides floor.
+      FIRST ROTATION CANDIDATE if higher E[CAGR] needs capital.
+      PRECEDENT: Yield anchor ADD at marginal E[CAGR].
+    outcome: "1st rotation candidate. Ex-div Mar 26. Growth 2% = lowest."
+
+  - date: 2026-03-07
+    ticker: FTNT
+    action: ADD
+    sizing: "7.0% → 8.5% → 7.0% (ADD then TRIM same day)"
+    context:
+      quality_score: "87 Tier A"
+      ecagr: "9.7%"
+      conviction: "Medium"
+    reasoning: |
+      S143 restructuring. Cybersecurity basket anchor.
+      WIDE moat QS 87 = 2nd highest. Crisis beneficiary (Hormuz/cyber).
+      ADD from rotation proceeds, then TRIM back in T15 rebalance.
+      Net effect: position stayed ~7%. E[CAGR] 9.7% = 2nd worst.
+      PRECEDENT: ADD + TRIM same day from rebalancing = net neutral.
+    outcome: "Investor Day Mon Mar 10 = MAKE-OR-BREAK for rotation."
+
+  - date: 2026-03-07
+    ticker: NVO
+    action: ADD
+    sizing: "~10% → 12% (ADD S143)"
+    context:
+      quality_score: "73 Tier B"
+      ecagr: "16.6%"
+      conviction: "Medium (downgraded from High)"
+    reasoning: |
+      S143 restructuring. Orphan position (GLP-1 basket killed).
+      KC#1 TRIGGERED (CagriSema failed Feb 23). FV $50→$47.
+      E[CAGR] 16.6% > 15% Tier B threshold — still justified.
+      ADD from rotation proceeds. Wegovy pill ramp Q1-Q2 2026.
+      PRECEDENT: ADD to KC-triggered position when E[CAGR] still above threshold.
+    outcome: "Orphan. Rotation trigger: E[CAGR] <15%. Next catalyst Q1 May."
 
   - date: 2026-03-05
     ticker: RACE.MI
@@ -64,7 +227,7 @@ sizing_decisions:
       Si cae 50%, pierdo 2.4% del portfolio - aceptable para esta convicción.
       Creative Cloud tiene moat fuerte. AI es tailwind, no threat.
       Posición inicial moderada para dejar espacio a ADD si baja más.
-    outcome: "Pendiente - posición recién abierta"
+    outcome: "ACTIVE. FV $390. Q1 FY2026 earnings Mar 12. PASS/CONDITIONAL/FAIL framework ready."
 
   - date: 2026-02-05
     ticker: NVO
@@ -85,7 +248,7 @@ sizing_decisions:
       - Evento catalizador (CagriSema data) en Marzo puede cambiar thesis
       - Quiero dejar espacio para ADD si data es positiva o precio baja más
       Si cae 50%, pierdo 1.7% - muy aceptable.
-    outcome: "Pendiente - posición recién abierta"
+    outcome: "ACTIVE. KC#1 triggered (CagriSema Feb 23). FV $50→$47 R3. E[CAGR] 16.6%. Orphan."
 
   - date: 2026-02-04
     ticker: MONY.L
@@ -103,7 +266,7 @@ sizing_decisions:
       MoS 36% excelente para Tier A.
       UK focus pero negocio defensivo (ahorro del consumidor).
       Similar sizing a ADBE y NVO (quality compounders ~4%).
-    outcome: "Pendiente - posición recién abierta"
+    outcome: "ACTIVE. 4.1%→7.0%. 1st rotation candidate. Ex-div Mar 26. E[CAGR] 12.5%."
 
   - date: 2026-02-05
     ticker: HRB
@@ -125,7 +288,7 @@ sizing_decisions:
       Posición 5.7% es coherente con convicción media-alta para Tier B.
       Si cae 50%, pierdo 2.85% - aceptable para esta convicción.
       Riesgo: AI disruption. Pero timeline es 3-5 años, no inmediato.
-    outcome: "Pendiente"
+    outcome: "SOLD Feb 9 -13.25%. ADD amplified loss. DA 18/24 STRONG COUNTER."
 
   - date: 2026-02-06
     ticker: BYIT.L
@@ -149,7 +312,7 @@ sizing_decisions:
       OEY + Growth = 14.4% >> WACC 9%. 0/10 value trap.
       Capital proviene de rotacion de 3 Tier C (TEP.PA, LIGHT.AS, PFE) con ROIC < WACC.
       ADD trigger: 260p (MoS >43%).
-    outcome: "Pendiente - posicion recien abierta"
+    outcome: "SOLD S143 +5.7%. QS 81→68 (thesis inflation). DA: insider 0.4% not 9.6%."
 
   - date: 2026-02-06
     ticker: AUTO.L
@@ -173,7 +336,7 @@ sizing_decisions:
       Capital viene de rotacion SHEL.L (QS 36, MoS -3.5%) - upgrade masivo en calidad.
       Riesgo principal: IA/ChatGPT disruption largo plazo (kill condition).
       ADD trigger: 450p (MoS >34%).
-    outcome: "Pendiente - posición recién abierta"
+    outcome: "ACTIVE. QS 79→71 (moat siege). FV 688→580p. SELL Mon Mar 10 → EDEN.PA. E[CAGR] 12.1%."
 
   - date: 2026-02-05
     ticker: LULU
@@ -199,7 +362,7 @@ sizing_decisions:
       Si cae 50%, pierdo 1.75% del portfolio - aceptable para conviccion alta.
       CEO transition es riesgo adicional pero manejable (Co-CEOs interim competentes).
       Precedente similar: NVO con guidance shock → compra exitosa.
-    outcome: "Pendiente - posición recién abierta"
+    outcome: "SOLD S141 -1.0%. Governance crisis (CEO departure + dual activist). Orphaned."
 
   - date: 2026-02-20
     ticker: MORN
@@ -228,7 +391,7 @@ sizing_decisions:
       46% insider (Mansueto). 0/10 value trap. WIDE moat (switching costs + data).
       Si cae 50%, pierdo 2.0% del portfolio — aceptable para Tier A at this sizing.
       KEY: This sets precedent for E[CAGR]-justified market buys when MoS < historical range.
-    outcome: "Pendiente - posición recién abierta. Monitor Q1 2026 earnings (~April)."
+    outcome: "SOLD S143 +2%. E[CAGR] 5.1% = worst in basket. Capital → TW + WKL.AS."
 
   - date: 2026-02-24
     ticker: IHP.L
@@ -250,7 +413,7 @@ sizing_decisions:
       2% sizing cap (5th UK position). Half-position for geographic concentration.
       SO at 300p superseded by deployment doctrine. Cash drag more expensive than waiting.
       CONSISTENT with MORN precedent (E[CAGR] >> 12%, market buy above SO).
-    outcome: "Pendiente. Validate H1 FY26 ops leverage (~June)."
+    outcome: "ACTIVE. 2.0%→11.4% (ceiling). E[CAGR] 19.5%. At ceiling, no ADD."
 
   - date: 2026-02-25
     ticker: HLNE
@@ -274,7 +437,7 @@ sizing_decisions:
       Alt AM specialist, private markets. Zero portfolio overlap.
       SO at $95 superseded. Cash at EUR 400 earns 0% while HLNE compounds at 16.7%.
       PRECEDENT: MoS can be as low as 7.5% for Tier A when E[CAGR] >> 12% AND QS >= 80.
-    outcome: "Pendiente. Next earnings Q4 FY2026 ~May 2026."
+    outcome: "ACTIVE. 4.0%→10%. CEO bought $1M at $130. E[CAGR] 13.1%. No ADD."
 
   - date: 2026-02-25
     ticker: DOCS
@@ -299,7 +462,7 @@ sizing_decisions:
       Committee originally chose SO over market buy (Q4 earnings risk May 2026).
       OVERRIDDEN by P15 EMERGENCY (54.9% cash for 8+ sessions) + price below DA bear.
       PRECEDENT: When cash >50% AND price is below DA bear case → deploy.
-    outcome: "Pendiente. Q4 FY2026 earnings ~May 2026. Monitor SBC trajectory."
+    outcome: "ACTIVE. 4.0%→8.0% (DA max). E[CAGR] 13.8%. Q4 ~May = binary catalyst."
 
   - date: 2026-02-27
     ticker: IHP.L
@@ -323,7 +486,7 @@ sizing_decisions:
       Price 320p = essentially same as original buy 326p. If good then, good now.
       Cash 41% → 39.3%. 0 buyable-now candidates at market — ADD to existing quality.
       PRECEDENT: Extends E[CAGR]-framework deployment to ADDs (previously only new buys).
-    outcome: "Pendiente. H1 FY2026 results ~June 2026. Monitor ops leverage."
+    outcome: "ACTIVE. 3.9%→11.4% (ceiling). E[CAGR] 22.6%→19.5%."
 
 # =============================================================================
 # DECISIONES DE TRIM/SELL
@@ -353,6 +516,161 @@ trim_decisions:
       Principio 14 (Capital Ocioso): freed EUR 337 for higher-E[CAGR] deployment.
       Conviction MEDIUM→LOW.
     outcome: "Realized +EUR 67.80 (+25.2% per share). Cash EUR 5,092."
+
+  - date: 2026-03-06
+    ticker: LULU
+    action: "SELL (full exit - orphan governance crisis)"
+    context:
+      quality_score: "78 Tier A (was 82)"
+      position_size: "~3%"
+      pnl: "-1.0%"
+      holding_days: 29
+      ecagr: "-5.5% (worst in portfolio)"
+    reasoning: |
+      Orphaned from US Quality Compounders basket S141. CEO departed Jan 31.
+      Elliott $1B activist + Wilson proxy fight. QS 82→78.
+      ON PROBATION since Feb 12. 3/6 thesis assumptions weakened.
+      E[CAGR] -5.5% = worst position by wide margin.
+      Small loss (-1.0%) confirms disciplined exit rather than waiting for
+      MAKE-OR-BREAK Mar 17 earnings. Capital freed for S143 restructuring.
+      PRECEDENT: Exit orphan governance crisis early, don't wait for binary event.
+    outcome: "P&L -1.0%. Capital to S143 ADDs."
+
+  - date: 2026-03-07
+    ticker: GL
+    action: "SELL (full exit - S143 restructuring quality rotation)"
+    context:
+      quality_score: "52 Tier C"
+      position_size: "~3.7%"
+      pnl: "+0.8%"
+      holding_days: 32
+      ecagr: "~11%"
+    reasoning: |
+      S143 restructuring. QS 52 Tier C = lowest quality in portfolio.
+      Orphaned from specialty-insurance basket (killed S141).
+      SEC/DOJ cleared but class action pending. No path to Tier A.
+      Capital rotated to quality ADDs (IHP.L, HLNE, EDEN.PA).
+      PRECEDENT: Tier C orphan with no basket → rotation candidate.
+    outcome: "P&L +0.8%. 32 days monitoring for <1% = inefficient."
+
+  - date: 2026-03-07
+    ticker: BYIT.L
+    action: "SELL (full exit - S143 restructuring quality rotation)"
+    context:
+      quality_score: "68 Tier B (thesis claimed 81 Tier A)"
+      position_size: "~3.9%"
+      pnl: "+5.7%"
+      holding_days: 28
+    reasoning: |
+      S143 restructuring. QS gap 13pts (81→68) = thesis inflation.
+      Insider ownership 0.4% not 9.6% per DA. Microsoft EA disintermediation.
+      Not a digital platform — misclassified. Orphaned S141.
+      Capital rotated to quality ADDs. +5.7% gain validates disciplined exit.
+      PRECEDENT: Probation position without upgrade path → rotate when capital needed.
+    outcome: "P&L +5.7%. Capital to IHP.L + DOCS ADDs."
+
+  - date: 2026-03-07
+    ticker: DOM.L
+    action: "SELL (full exit - S143 restructuring pre-earnings)"
+    context:
+      quality_score: "61 Tier B"
+      position_size: "~3.8%"
+      pnl: "-1.7%"
+      holding_days: 33
+    reasoning: |
+      S143 restructuring. LOW conviction orphan. QS 61 Tier B.
+      FY25 results due Mar 10 — sold pre-earnings to avoid binary risk.
+      Oil/shipping headwind from Hormuz adds macro risk to UK consumer.
+      Capital rotated to quality ADDs. Small loss (-1.7%).
+      PRECEDENT: Low conviction orphan sold pre-earnings when capital needed.
+    outcome: "P&L -1.7%. FY25 results Mar 10 — monitoring for re-entry pipeline."
+
+  - date: 2026-03-07
+    ticker: MORN
+    action: "SELL (full exit - S143 restructuring lowest E[CAGR] in basket)"
+    context:
+      quality_score: "78 Tier A"
+      position_size: "~3.9%"
+      pnl: "+2%"
+      holding_days: 15
+      ecagr: "~5.1%"
+    reasoning: |
+      S143 restructuring. Data & Analytics Monopolies basket rotation.
+      QS 78 Tier A but E[CAGR] ~5.1% = LOWEST in basket (TW 13%, WKL 15%).
+      Capital redeployed to TW + WKL.AS (both higher E[CAGR]).
+      P16 (Perpetual Rotation): worst basket position → best pipeline candidate.
+      PRECEDENT: Sell Tier A position when E[CAGR] is worst in basket.
+    outcome: "P&L ~+2%. Capital funded TW BUY + WKL.AS BUY."
+
+  - date: 2026-03-07
+    ticker: RACE.MI
+    action: "SELL (full exit - S143 T15 rotation lowest E[CAGR])"
+    context:
+      quality_score: "84 Tier A"
+      position_size: "~3.4%"
+      pnl: "-3.4%"
+      holding_days: 2
+      ecagr: "6.6%"
+    reasoning: |
+      S143 T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg).
+      Bought via THREE WAITS mandate S142. QS 84 but overvalued at EUR 301.60.
+      Capital redeployed to EDEN/NVO/WKL (E[CAGR] 21-27%).
+      2-day hold = clearest mistake. THREE WAITS forced buy into wrong tier.
+      PRECEDENT: Correct forced-deployment error quickly, don't anchor.
+    outcome: "P&L -3.4%. Shortest hold. Lesson: THREE WAITS ≠ buy lowest E[CAGR]."
+
+  - date: 2026-03-07
+    ticker: HLNE
+    action: "TRIM (T15 sizing rebalance)"
+    context:
+      position_size: "~12% → 10%"
+      ecagr: "13.1%"
+    reasoning: |
+      T15 sizing-conviction check. Position oversized relative to E[CAGR] rank.
+      HLNE E[CAGR] 13.1% = bottom tercile. Size 12% inconsistent with conviction.
+      Trimmed to 10%. Capital redeployed to higher-E[CAGR] positions.
+      PRECEDENT: T15 rebalance trims oversized positions with low E[CAGR].
+    outcome: "Proceeds to EDEN.PA ADD."
+
+  - date: 2026-03-07
+    ticker: MONY.L
+    action: "TRIM (T15 sizing rebalance)"
+    context:
+      position_size: "~8% → 7%"
+      ecagr: "12.5%"
+    reasoning: |
+      T15 sizing-conviction check. E[CAGR] 12.5% marginal.
+      Growth 2% = lowest in portfolio. 1st rotation candidate.
+      Trimmed from 8% to 7%. Yield (7.3% div + 3% buyback) justifies HOLD.
+      PRECEDENT: Trim yield anchor to fund higher-growth positions.
+    outcome: "Proceeds to EDEN.PA ADD."
+
+  - date: 2026-03-07
+    ticker: DOCS
+    action: "TRIM (T15 sizing rebalance)"
+    context:
+      position_size: "~9% → 8%"
+      ecagr: "13.8%"
+    reasoning: |
+      T15 sizing-conviction check. Position oversized at 9%.
+      DA flagged 8% as appropriate maximum. E[CAGR] 13.8% mid-range.
+      Trimmed to 8%. Q4 earnings ~May = binary catalyst.
+      PRECEDENT: Honor DA sizing recommendation in rebalance.
+    outcome: "Proceeds to EDEN.PA ADD."
+
+  - date: 2026-03-07
+    ticker: FTNT
+    action: "TRIM (T15 sizing rebalance)"
+    context:
+      position_size: "8.5% → 7.0%"
+      ecagr: "9.7%"
+    reasoning: |
+      T15 sizing-conviction check. E[CAGR] 9.7% = 2nd worst in portfolio.
+      Position oversized at 8.5% relative to E[CAGR] rank.
+      WIDE moat QS 87 justifies HOLD but not overweight.
+      Trimmed -2.35 shares at $83.67 (EUR 169). Sized to 7.0%.
+      PRECEDENT: High-QS position trimmed when E[CAGR] doesn't justify size.
+    outcome: "Proceeds to EDEN.PA ADD. Investor Day Mar 10 = next catalyst."
 
   - date: 2026-02-06
     ticker: TEP.PA
@@ -602,7 +920,7 @@ hold_decisions:
       4. Principio 6: No vender solo por MoS negativo sin argumento
 
       Reconsiderar si: ZIG.L trigger, precio >£30, o dividend cut.
-    outcome: "Pendiente"
+    outcome: "SOLD Feb 6 +2.3%. Capital rotated to AUTO.L (Tier A)."
 
   - date: 2026-02-05
     ticker: TEP.PA
@@ -630,7 +948,7 @@ hold_decisions:
       - "Revenue decline >5% 2Q consecutive"
       - "Major client AI replacement"
       - "Dividend cut"
-    outcome: "Pendiente earnings Feb 26"
+    outcome: "SOLD Feb 6 -6.7%. AI disruption + ROIC<WACC. Capital to BYIT.L."
 
   - date: 2026-02-05
     ticker: ALL
