@@ -1,6 +1,6 @@
 # COIN - Coinbase Global Inc. (SHORT THESIS S1)
 
-> **Pipeline Stage:** S1 COMPLETE
+> **Pipeline Stage:** S3 COMPLETE → ARCHIVED (S2 bull case 7/10, 3 HIGH errors in S1. Do NOT short.)
 > **Date:** 2026-03-08
 > **Analyst:** fundamental-analyst (short-thesis mode)
 > **Price at analysis:** $197.22

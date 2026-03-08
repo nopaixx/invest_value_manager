@@ -105,8 +105,8 @@ baskets:
       - world/sectors/digital-marketplaces.md
     positions:
       - MONY.L   # Price comparison, QS 75 Tier A borderline
-      - AUTO.L   # Auto classifieds, QS 71 Tier B — April pricing MAKE-OR-BREAK
       - IHP.L    # Adviser platform, QS 80 Tier A — quality anchor
+      # AUTO.L SOLD S150 (2026-03-08) — Rotation R0, E[CAGR] 12.1% = 2nd worst
     pipeline:
       - DNLM.L   # Homewares e-commerce, QS 79 Tier A, SO 950p — UNBLOCKED S143 (DOM.L + BYIT.L sold, now 4th UK)
       - ALFA.L   # Auto dealer platform, R4 gated Mar 12
@@ -120,11 +120,11 @@ baskets:
       - "UK enters recession (2 consecutive GDP contractions)"
       - "2+ positions in basket trigger individual KCs simultaneously"
     vitality_signals:
-      positive: ["IHP.L AUM growth + insider buying validating", "MONY.L FY2025 record margins + AI strategy", "Cleaner 3-position basket post-BYIT.L removal"]
-      negative: ["AI disruption accelerating (BCG: marketplaces Breached)", "AUTO.L pricing pushback + April event", "UK macro overlay from Hormuz oil shock"]
-    last_reviewed: 2026-03-06
+      positive: ["IHP.L AUM growth + insider buying validating", "MONY.L FY2025 record margins + AI strategy"]
+      negative: ["AI disruption accelerating (BCG: marketplaces Breached)", "UK macro overlay from Hormuz oil shock", "Basket shrunk to 2 positions after AUTO.L sale"]
+    last_reviewed: 2026-03-08
     created: 2026-02-22
-    notes: "S143: IHP.L TRIPLED (EUR 600 ADD), MONY.L DOUBLED (EUR 500 ADD). Quality concentration in basket. DNLM.L UNBLOCKED (DOM.L + BYIT.L sold, now 4th UK acceptable). AUTO.L April = MAKE-OR-BREAK."
+    notes: "S150: AUTO.L SOLD (rotation R0). Basket now 2 positions — needs pipeline advancement. DNLM.L (SO 950p, UNBLOCKED) + ALFA.L (Mar 12 gate) are candidates. Priority: advance DNLM.L or ALFA.L to fill 3rd slot."
 
   - id: data-analytics-monopolies
     name: "Data & Analytics Monopolies"
@@ -339,8 +339,8 @@ allocation_reasoning:
     Investor Day Mon Mar 10 = binary. Bear → rotation candidate.
     QLYS SO $82 GATED Q1 billings. CHKP entry $125.
 
-    UK Digital Platforms: 3 positions (MONY.L, IHP.L, AUTO.L). ACTIVE.
-    AUTO.L April = MAKE-OR-BREAK. DNLM.L UNBLOCKED (4th UK ok).
+    UK Digital Platforms: 2 positions (MONY.L, IHP.L). ACTIVE.
+    AUTO.L SOLD S150. DNLM.L + ALFA.L in pipeline to fill 3rd slot.
 
     Data & Analytics Monopolies: 2 positions (TW, WKL.AS). ACTIVE.
     MORN sold S143. SPGI in pipeline as 3rd position ($420 SO).
@@ -356,10 +356,10 @@ allocation_reasoning:
 
     ORPHANS (1): NVO (QS 73 Tier B, CagriSema FAILED, LOW conviction).
 
-    CAPITAL FLOW (0% cash — rotation only):
+    CAPITAL FLOW (3.5% cash post-AUTO.L sale):
     1. FTNT (9.7% E[CAGR]) = top rotation candidate if Investor Day disappoints
-    2. AUTO.L = rotation candidate if April bear scenario
-    3. Any new buy requires selling worst E[CAGR] position
+    2. EUR 370 cash for deployment into ADBE (earnings Wed) or FTNT (if Investor Day bull)
+    3. UK Digital Platforms basket needs 3rd position — DNLM.L or ALFA.L pipeline
 
 # =============================================================================
 # THEME DISCOVERY TRACKING
