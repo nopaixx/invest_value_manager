@@ -711,20 +711,20 @@ quality_universe:
     distance_delta: 0.0
   - ticker: IT
     name: Gartner, Inc.
-    qs_tool: 71
-    qs_adj: 71
-    tier: B
+    qs_tool: 74
+    qs_adj: 77
+    tier: A
     sector: Research/Advisory
-    fair_value: 190.0
-    entry_price: 125.0
+    fair_value: 195.0
+    entry_price: 155.0
     currency: USD
     current_price: 169.0
-    distance_to_entry: 35.2
-    pipeline_status: R4_WATCHLIST
+    distance_to_entry: 8.3
+    pipeline_status: R1_REFRESH
     thesis_path: thesis/research/IT/thesis.md
-    last_scored: '2026-02-14'
+    last_scored: '2026-03-08'
     last_price_check: '2026-03-08'
-    notes: R4 WATCHLIST. Entry $120-130 CONDITIONAL on Q1 2026 data (May). No standing order — needs AI disruption confirmation. Bear MoS negative.
+    notes: 'R1 refresh S149. QS 74/77adj. FV $195. E[CAGR] 10-12% borderline. -84% from ATH. AI disruption (consulting -15%). Insider buying 113K shares vs 11.2% SI surge = divergence. Entry $150-160. Q1 May catalyst.'
     direction: long
     distance_delta: 0.0
   - ticker: VEEV

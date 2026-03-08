@@ -128,6 +128,7 @@ handoff:
     - "ROTATION UPDATE: GDDY R3 complete, E[CAGR] 20.2% (was 22.9% R1). Still 3rd highest. Needs R4 committee. FISV/IT both killed."
     - "BLENDED PROJECTION: Current 17.4% → A(AUTO→EDEN) 17.8% → B(+FTNT→GDDY) 18.8% → C(+TW→GDDY) 19.4% → D(+MONY→TBD) 20.1%. Max with known candidates: 20.1%. Gap to 30% = 9.9pp. Needs shorts + crash entries."
     - "GDDY R4 APPROVED CONDITIONAL: 10/10 gates PASS. ROTATION from FTNT if Investor Day BEAR Mon Mar 10. SO $85-90 if FTNT BULL. FV $130, QS 75adj, E[CAGR] 20.2%. Delta +10.5pp vs FTNT. Committee decision: thesis/research/GDDY/committee_decision.md."
+    - "IT (GARTNER) R1 REFRESH: QS 74/77adj Tier A. FV $195 (was $190 R3). E[CAGR] 10-12% BORDERLINE. -84% from ATH ($1,060→$169). AI disruption real: consulting -15%, deferred rev +1.7%. BUT insider buying 113K shares Feb 2026 + 95% research retention. SI 11.2% surging +42.8% MoM. WATCHLIST $150-160. Q1 May = catalyst."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
