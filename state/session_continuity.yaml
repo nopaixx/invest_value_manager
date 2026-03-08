@@ -82,25 +82,27 @@ three_questions:
 handoff:
   next_session_priorities:
     P0:
-      - "FTNT Investor Day (Mon Mar 10): Process outcome with Section 9 framework (100% ready). Bull→$95-100, Base→$88, Bear→$75-80 (rotation out)."
+      - "ROTATION: SELL AUTO.L → ADD ADBE at market open Monday. +6.1pp E[CAGR] improvement."
+      - "FTNT Investor Day (Mon Mar 10): Process outcome with Section 9 framework. DA complete (MODERATE COUNTER, ROTATION CANDIDATE)."
     P1:
-      - "CPI (Tue Mar 11): Context for ADBE earnings. Oil $91 = hot CPI risk."
-      - "ADBE Q1 FY2026 earnings (Wed Mar 12): PASS/CONDITIONAL/FAIL. Framework 100% ready. R3 resolution post-earnings."
+      - "CPI (Tue Mar 11): Oil $91 = hot CPI risk. Portfolio 22.8% HIGH vulnerability (ADBE, HLNE, AUTO.L)."
+      - "ADBE Q1 FY2026 earnings (Wed Mar 12): PASS/CONDITIONAL/FAIL. Framework 100% ready."
     P2:
-      - "FTNT DA: Launch post-investor day. Last position without DA (Error #65)."
-      - "LOPE R2 (DA): Next pipeline step. Needs education sector view first (Error #30)."
       - "FOUR.L FY2025 results (Mar 18): HARD GATE for SO."
+      - "Score EU small-cap candidates: ALFEN.AS, SGN.WA, MEDI.OL, UBXN.SW (yfinance rate-limited today)."
     P3:
       - "HLNE ex-div Mar 20, MONY.L ex-div Mar 26."
       - "Health check due Mar 16."
       - "TSLA SO active — monitor Q1 deliveries data (early Apr)."
+      - "LOPE SO $155 GATED on Q1 earnings (Apr). No action until then."
   dedup_signals:
-    - "TSLA S4 CONDITIONAL APPROVE — EUR 50, $250-290, stop $380, VIX <35, Q1 deliveries <370K gate, 60d max. SO added."
-    - "LOPE R1 COMPLETE — QS 75adj Tier A, FV $205, E[CAGR] 14-16%. WATCHLIST. GATED on education sector view (Error #30)."
-    - "CHE QS 57 Tier B, HRB QS 63 Tier B — low priority, no R1."
-    - "FTNT framework 100% (Section 9, 122 lines). ADBE framework 100% (130 lines). Both ready."
-    - "Blended E[CAGR] 17.4%. Gap to 30% = -12.6pp. Need rotation + higher-growth pipeline."
-    - "Rotation hierarchy: FTNT (9.7%) > AUTO.L (12.1%) > MONY.L (12.5%) > HLNE (13.1%) > TW (13.2%)."
+    - "S149 COMPLETE: 8 velocity units, 7 commits. TSLA S4 + LOPE R1→R4 + FTNT DA + education sector view."
+    - "ROTATION APPROVED: AUTO.L SELL → ADBE ADD. +6.1pp E[CAGR]. Execute Monday market open."
+    - "FTNT DA MODERATE COUNTER: rotation candidate, hold through Investor Day Mon. 2 new KCs added (#8 deferred rev, #9 CISA KEV)."
+    - "LOPE R4 WATCHLIST: SO $155 GATED on Q1 earnings (OP margin 27%+). Committee FAIL Gate 7 (rotation math)."
+    - "11/11 DAs complete — Error #65 fully resolved portfolio-wide."
+    - "CPI stress test: 22.8% HIGH vuln (ADBE, HLNE, AUTO.L), 43.4% LOW vuln. Portfolio avg P/E ~17x."
+    - "EU small-cap candidates identified: ALFEN.AS, SGN.WA, MEDI.OL, UBXN.SW (need QS scoring)."
     - "Crisis: Hormuz closed. Oil ~$91. VIX ~29."
 
 r1_cooldowns:

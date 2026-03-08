@@ -294,6 +294,27 @@ standing_orders:
     last_analysis_date: 2026-02-27
     expiry: 2026-10-01
 
+  - ticker: LOPE
+    action: BUY
+    category: GATED
+    fill_prob_6m: 20
+    trigger: "<=$155"
+    current_distance: "6.9%"
+    created_date: "2026-03-08"
+    staleness_status: FRESH
+    gate: "Q1 2026 earnings must show OP margin 27%+ (validate 2025 compression as temporary)"
+    size_eur: 400
+    shares_approx: 2.6
+    fair_value: "$190 (R3 post-DA, was $205)"
+    mos_at_trigger: "18.4%"
+    tier: "A (QS 78 tool, 75adj)"
+    ecagr_at_trigger: "~15%"
+    notes: "R4 WATCHLIST S149. R1→R3 same session. DA MODERATE COUNTER: GCU 85% concentration (HIGH), growth 10%→8%, FV convergence with consensus. Committee FAIL on Gate 7 (rotation math: +0.4pp vs AUTO.L, better alternatives exist). Asset-light education services, 53% GM, 27% OP, 30%+ ROIC, net cash. Buyback $265M/yr."
+    kill_conditions: "GCU MSA <50%, enrollment decline 2Y, OP margin <22% 2Q, DOE Title IV action, ROIC <20% 2Y, non-GCU rev stalled, MSA renegotiated <55%, buyback <$100M/yr"
+    pre_execution_condition: "GATED: Q1 2026 earnings (est. Apr). OP margin must recover to 27%+. Cash must be available OR rotation source with >3pp E[CAGR] gap."
+    last_analysis_date: 2026-03-08
+    expiry: 2026-10-01
+
   # MEGP.L — ARCHIVED 2026-02-23 (Session 114). NOT AVAILABLE ON ETORO.
   # QS 80 Tier A, FV 180p, great company. But we can't buy it. No point tracking.
   # Thesis preserved at thesis/research/MEGP.L/ if alternative platform found.
