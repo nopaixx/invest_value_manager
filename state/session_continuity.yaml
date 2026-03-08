@@ -127,6 +127,7 @@ handoff:
     - "IT (GARTNER) SCORED: QS 77 Tier A on trailing data BUT business deteriorating — rev DECLINING FY2026, OP margin collapsed 16.6%→5.7%, AI disruption real. E[CAGR] ~5%. PASS. Value trap risk."
     - "ROTATION UPDATE: GDDY R3 complete, E[CAGR] 20.2% (was 22.9% R1). Still 3rd highest. Needs R4 committee. FISV/IT both killed."
     - "BLENDED PROJECTION: Current 17.4% → A(AUTO→EDEN) 17.8% → B(+FTNT→GDDY) 18.8% → C(+TW→GDDY) 19.4% → D(+MONY→TBD) 20.1%. Max with known candidates: 20.1%. Gap to 30% = 9.9pp. Needs shorts + crash entries."
+    - "GDDY R4 APPROVED CONDITIONAL: 10/10 gates PASS. ROTATION from FTNT if Investor Day BEAR Mon Mar 10. SO $85-90 if FTNT BULL. FV $130, QS 75adj, E[CAGR] 20.2%. Delta +10.5pp vs FTNT. Committee decision: thesis/research/GDDY/committee_decision.md."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -158,4 +159,4 @@ r1_cooldowns:
   HRB: { date: "2026-03-08", session: 149, verdict: "QS 63 Tier B. Low priority — no R1." }
   SAF.PA: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV EUR 290, QS 79adj Tier A, entry EUR 260. P/E 18.5x MISLEADING — adj forward ~32x. WIDE moat jet engine duopoly.)" }
   MEDI.OL: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV NOK 272, QS 85adj Tier A, entry NOK 205. Cardiac surgery monopoly, 80% GM, eToro confirmed.)" }
-  GDDY: { date: "2026-03-08", session: 149, verdict: "R3_COMPLETE (WATCHLIST, FV $130 post-DA, QS 75adj Tier A borderline, entry $85-95. DA MODERATE COUNTER: insider RED FLAG, SBC distortion, QS adj. E[CAGR] 20.2% at $92. Bear $110. 12 KCs. R4 needed.)" }
+  GDDY: { date: "2026-03-08", session: 149, verdict: "R4_APPROVED CONDITIONAL (ROTATION from FTNT if Investor Day BEAR. FV $130, QS 75adj, E[CAGR] 20.2%. SO $85-90. 10/10 gates PASS. 12 KCs. Committee file: thesis/research/GDDY/committee_decision.md)" }

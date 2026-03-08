@@ -5131,18 +5131,18 @@ quality_universe:
   - ticker: GDDY
     name: GoDaddy Inc.
     direction: long
-    qs_tool: 78
-    qs_adj: 78
+    qs_tool: 68
+    qs_adj: 75
     tier: A
     sector: technology
-    fair_value: 150.0
-    entry_price: 100.0
+    fair_value: 130.0
+    entry_price: 90.0
     currency: USD
-    current_price: null
-    distance_to_entry: null
-    pipeline_status: TRIAGE_COMPLETE
-    thesis_path: null
+    current_price: 93.95
+    distance_to_entry: -4.4
+    pipeline_status: R4_COMPLETE
+    thesis_path: thesis/research/GDDY/thesis.md
     last_scored: '2026-03-08'
-    last_price_check: null
-    notes: 'Manual QS S149. FCF machine 31.8% margin, ROIC 33%, #1 domain registrar. AI disruption risk but Airo drives 50% new subs. -52% from ATH. FwdPE 13.5x. E[CAGR] ~24.6% at 2.'
+    last_price_check: '2026-03-08'
+    notes: 'R4 APPROVED CONDITIONAL. FV $130 (R3). QS 68/75adj. E[CAGR] 20.2%. Rotation from FTNT if Investor Day BEAR. 12 KCs. DA MODERATE COUNTER. SO $85-90.'
     r1_verdict: ACTIONABLE

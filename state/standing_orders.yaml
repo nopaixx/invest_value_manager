@@ -100,6 +100,25 @@ standing_orders:
     last_analysis_date: 2026-02-14
     expiry: 2026-07-31
 
+  - ticker: GDDY
+    action: BUY
+    category: ACTIVE
+    fill_prob_6m: 50
+    trigger: "<=$90"
+    current_distance: "-4.4%"
+    created_date: "2026-03-08"
+    staleness_status: FRESH
+    r4_status: "APPROVED CONDITIONAL (S149c18, 2026-03-08). 10/10 gates PASS."
+    size_eur: 720
+    fair_value: "$130 (R3 resolved. Bear $110 / Base $130 / Bull $165)"
+    mos_at_trigger: "30.8%"
+    tier: "A (QS 68tool/75adj)"
+    notes: "R4 APPROVED CONDITIONAL. #1 domain registrar 82M domains. FCF $1.58B (31.8%). ROTATION CANDIDATE: SELL FTNT (E[CAGR] 9.7%) → BUY GDDY (E[CAGR] 20.2%). Conditional on FTNT Investor Day Mon Mar 10 being BEAR. Alternative: SO $85-90 passive entry. 12 KCs incl CEO insider selling RED FLAG."
+    kill_conditions: "KC1-7 (R1): FCF margin <25% 2Q, domain renewal <80%, A&C rev negative, leverage >3.5x, Starboard exits, abandons $1.8B FCF guide, data breach. KC8-12 (DA): CEO/CFO net selling accumulated shares, Airo paid sub share <30%, R&D/Rev <15%, ND/EBITDA >3.0x, GDDY domain renewal declines."
+    pre_execution_condition: "CONDITIONAL: (1) If FTNT Investor Day BEAR → SELL FTNT → BUY GDDY at market (~$92-95). (2) If FTNT BULL → SO $85-90 passive entry. (3) MONY.L rotation also viable if E[CAGR] replacement >15%."
+    last_analysis_date: 2026-03-08
+    expiry: 2026-09-01
+
   # RACE.MI ADD — ARCHIVED 2026-03-07 (S143c10). POSITION SOLD. T15 rotation — E[CAGR] 6.6% worst in portfolio. Capital redeployed to EDEN/NVO/WKL. P&L -3.4%.
 
   # GL ADD — ARCHIVED 2026-03-07 (S143). POSITION SOLD. S143 restructuring — GL exited (QS 52 Tier C).
