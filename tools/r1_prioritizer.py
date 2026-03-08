@@ -352,6 +352,42 @@ def compute_ecagr(fair_value, entry_price, div_yield_pct):
     return ecagr
 
 
+def get_momentum_scores(tickers, period="6mo"):
+    """Fetch 6-month price momentum for ranking candidates.
+
+    Returns dict of ticker -> momentum_pct (e.g., -15.0 for -15% over 6 months).
+    Negative momentum = stock is falling = better buy opportunity for value.
+    Positive momentum = stock rising = trend confirmation for quality.
+    """
+    import warnings
+    warnings.filterwarnings('ignore')
+
+    momentum = {}
+    if not tickers:
+        return momentum
+
+    try:
+        import yfinance as yf
+    except ImportError:
+        return momentum
+
+    TICKER_MAP = {'LIGHT.NV': 'LIGHT.AS'}
+
+    for ticker in tickers:
+        yf_ticker = TICKER_MAP.get(ticker, ticker)
+        try:
+            hist = yf.Ticker(yf_ticker).history(period=period)
+            if hist is not None and len(hist) >= 2:
+                start_price = hist['Close'].iloc[0]
+                end_price = hist['Close'].iloc[-1]
+                if start_price > 0:
+                    momentum[ticker] = round(((end_price / start_price) - 1) * 100, 1)
+        except Exception:
+            pass
+
+    return momentum
+
+
 def rank_candidates(companies, args, auto_near_entry_applied=False):
     """Filter and rank SCORED companies for R1 processing."""
     # Filter: only SCORED, only long direction
@@ -412,10 +448,19 @@ def rank_candidates(companies, args, auto_near_entry_applied=False):
                 filtered.append(c)
         scored = filtered
 
+    # Fetch momentum scores if not --no-ecagr (reuses yfinance session)
+    momentum_map = {}
+    if not getattr(args, 'no_ecagr', False):
+        mtm_tickers = [c["ticker"] for c in scored[:args.top + 5]]  # Only top N+5 to save API calls
+        if mtm_tickers:
+            momentum_map = get_momentum_scores(mtm_tickers)
+    args._momentum_map = momentum_map
+
     # Sort by composite priority:
     # 1. QS adjusted (desc) -- quality first
     # 2. Distance to entry (asc) -- closer to buy = higher priority
-    # 3. Non-UK bonus (UK companies rank slightly lower due to concentration)
+    # 3. Momentum bonus: positive 6mo momentum = small rank boost (tiebreaker)
+    # 4. Non-UK bonus (UK companies rank slightly lower due to concentration)
     def sort_key(c):
         qs = c.get("qs_adj") or c.get("qs_tool") or 0
         dist = c.get("distance_to_entry")
@@ -424,8 +469,12 @@ def rank_candidates(companies, args, auto_near_entry_applied=False):
         # UK penalty: +50 to distance for sorting purposes
         uk_penalty = 50 if c["ticker"].endswith(UK_SUFFIX) else 0
 
-        # Primary: QS descending (negate), Secondary: distance ascending
-        return (-qs, dist_val + uk_penalty)
+        # Momentum tiebreaker: positive momentum reduces effective distance by up to 5pts
+        mtm = momentum_map.get(c["ticker"], 0)
+        mtm_bonus = min(max(mtm / 10, -5), 5)  # cap at +/-5 distance points
+
+        # Primary: QS descending (negate), Secondary: distance ascending (momentum-adjusted)
+        return (-qs, dist_val + uk_penalty - mtm_bonus)
 
     scored.sort(key=sort_key)
 
@@ -924,7 +973,12 @@ def main():
 
     sm_col = f" {'SM':>8}" if show_sm else ""
     ecagr_col = f" {'E[CAGR]':>8}" if show_ecagr else ""
-    print(f"{'#':>2} {'Ticker':<12} {'QS':>3} {'Tier':>4} {'Sector':<24} {'Dist%':>7}{ecagr_col}{sm_col} {'Currency':>8} {'Flags'}")
+    momentum_map = getattr(args, '_momentum_map', {})
+    show_mtm = bool(momentum_map)
+    mtm_col = f" {'Mtm6m':>7}" if show_mtm else ""
+    if show_mtm:
+        col_width += 8
+    print(f"{'#':>2} {'Ticker':<12} {'QS':>3} {'Tier':>4} {'Sector':<24} {'Dist%':>7}{ecagr_col}{mtm_col}{sm_col} {'Currency':>8} {'Flags'}")
     print("-" * col_width)
 
     for i, c in enumerate(candidates, 1):
@@ -1003,8 +1057,11 @@ def main():
         flags_str = " | ".join(flags) if flags else ""
 
         ecagr_part = f" {ecagr_str:>8}" if show_ecagr else ""
+        mtm_val = momentum_map.get(c["ticker"])
+        mtm_str = f"{mtm_val:+.0f}%" if mtm_val is not None else "-"
+        mtm_part = f" {mtm_str:>7}" if show_mtm else ""
         sm_part = f" {sm_code:>8}" if show_sm else ""
-        print(f"{i:>2} {c['ticker']:<12} {qs:>3} {tier:>4} {sector:<24} {dist_str:>7}{ecagr_part}{sm_part} {currency:>8}  {flags_str}")
+        print(f"{i:>2} {c['ticker']:<12} {qs:>3} {tier:>4} {sector:<24} {dist_str:>7}{ecagr_part}{mtm_part}{sm_part} {currency:>8}  {flags_str}")
 
     # Summary
     print("-" * col_width)
