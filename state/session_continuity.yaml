@@ -123,8 +123,10 @@ handoff:
     - "30% TARGET ANALYSIS: Math requires EDEN 30%+ allocation OR finding 2-3 more 25%+ E[CAGR] stocks OR crash creating mass entry. Screening rate-limited — retry fresh session."
     - "SCREENER RATE-LIMITED: yfinance rate limits from S149 heavy scanning (914 tickers). Retry sp500/stoxx600 screens in fresh session."
     - "GDDY R1 COMPLETE: QS 68tool/78adj Tier A. FV $140. E[CAGR] 22.9% at $92. #1 domain registrar 82M domains. FCF 31.8%, ROIC 33%. Reverse DCF implies -8.4% FCF decline vs actual +20% CAGR. Starboard 7.8% activist. AI risk mitigated by Airo. eToro confirmed. WATCHLIST entry $85-95. Rotation candidate for FTNT slot."
-    - "FISV KILLED: ROIC 8.5% (spread ~0pp), FCF declining, rev growth 4%. QS ~50 Tier C. Not quality."
-    - "ROTATION UPDATE: GDDY at 22.9% E[CAGR] replaces ADBE(18.2%) as FTNT rotation target. FTNT(9.7%)→GDDY(22.9%) = +13.2pp. Or market buy GDDY at $92 if cash freed from AUTO.L."
+    - "FISV SCORED: QS 57 Tier B. ROIC 8.5% (spread ~0pp), FCF declining $5.2B→$4.3B, rev growth 4%. E[CAGR] ~10% = below 15% Tier B threshold. PASS."
+    - "IT (GARTNER) SCORED: QS 77 Tier A on trailing data BUT business deteriorating — rev DECLINING FY2026, OP margin collapsed 16.6%→5.7%, AI disruption real. E[CAGR] ~5%. PASS. Value trap risk."
+    - "ROTATION UPDATE: GDDY R1+DA running. Only GDDY (22.9%) worthy of rotation from screening. FISV/IT both killed."
+    - "BLENDED PROJECTION: Current 17.4% → A(AUTO→EDEN) 17.8% → B(+FTNT→GDDY) 18.8% → C(+TW→GDDY) 19.4% → D(+MONY→TBD) 20.1%. Max with known candidates: 20.1%. Gap to 30% = 9.9pp. Needs shorts + crash entries."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
