@@ -31,10 +31,10 @@ positions:
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
     conviction: high
-    last_review: 2026-02-07
+    last_review: 2026-03-08
     fair_value: "EUR 29.0 (adversarial, was 38.4)"
-    exit_plan: "HOLD. EXIT if 2027-28 guidance <5% or France regulation. TRIM if MoS vs revised FV <15%."
-    notes: "ADD S144c1: Full deployment +16.87 shares at EUR 18.79 (EUR 317). E[CAGR] 27.1% = HIGHEST. Now ~19% of portfolio. 5th ADD total."
+    exit_plan: "HOLD. NO ADD (21.2% SI, 20 funds). TRIM at EUR 22+ (19%→15%). EXIT if France levy tabled (KC#13) or 2027-28 guide <5%. KC#1 MONITORING, KC#7 MONITORING ELEVATED."
+    notes: "S149c34 bear investigation: 21.2% SI (CPPIB 2.07%, Citadel 2.10%, Millennium 1.90%). France prob 30→40%. Fintech threat 10→25%. ADD CANCELLED. Thesis v4.1."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
