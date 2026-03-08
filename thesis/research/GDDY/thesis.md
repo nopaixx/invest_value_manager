@@ -1,11 +1,11 @@
 # GDDY - GoDaddy Inc.
 
-> **Fair Value:** $140
+> **Fair Value:** $130 (R3 post-DA. Was $140 R1. DA MODERATE COUNTER: QS adj too aggressive, insider selling RED FLAG, SBC distorts FCF. Bear $110.)
 > **Expected Growth:** 8%
-> **Pipeline Stage:** R1_COMPLETE
+> **Pipeline Stage:** R3_COMPLETE
 > **Date:** 2026-03-08
 > **Quality Score Tool:** 68/100 (Tier B)
-> **Quality Score Adjusted:** 78/100 (Tier A)
+> **Quality Score Adjusted:** 75/100 (Tier A borderline, was 78 R1. R3: buyback adj +1 not +3, insider penalty -2)
 
 ---
 

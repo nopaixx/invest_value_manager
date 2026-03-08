@@ -122,10 +122,10 @@ handoff:
     - "SHORTS READINESS: CVNA S4 approved, WITHIN price range $290-330, VIX 26 BORDERLINE (<28 gate). Execute when VIX settles. TSLA GATED until Apr Q1 deliveries."
     - "30% TARGET ANALYSIS: Math requires EDEN 30%+ allocation OR finding 2-3 more 25%+ E[CAGR] stocks OR crash creating mass entry. Screening rate-limited — retry fresh session."
     - "SCREENER RATE-LIMITED: yfinance rate limits from S149 heavy scanning (914 tickers). Retry sp500/stoxx600 screens in fresh session."
-    - "GDDY R1 COMPLETE: QS 68tool/78adj Tier A. FV $140. E[CAGR] 22.9% at $92. #1 domain registrar 82M domains. FCF 31.8%, ROIC 33%. Reverse DCF implies -8.4% FCF decline vs actual +20% CAGR. Starboard 7.8% activist. AI risk mitigated by Airo. eToro confirmed. WATCHLIST entry $85-95. Rotation candidate for FTNT slot."
+    - "GDDY R3 COMPLETE: QS 68tool/75adj Tier A borderline. FV $130 (was $140 R1, -7.1%). DA MODERATE COUNTER: 3 HIGH (QS adj, insider selling, SBC). CEO 48 sells 0 buys = RED FLAG. Bear $110. E[CAGR] 20.2% at $92. 12 KCs (5 new from DA). WATCHLIST entry $85-95. R4 committee needed before execution."
     - "FISV SCORED: QS 57 Tier B. ROIC 8.5% (spread ~0pp), FCF declining $5.2B→$4.3B, rev growth 4%. E[CAGR] ~10% = below 15% Tier B threshold. PASS."
     - "IT (GARTNER) SCORED: QS 77 Tier A on trailing data BUT business deteriorating — rev DECLINING FY2026, OP margin collapsed 16.6%→5.7%, AI disruption real. E[CAGR] ~5%. PASS. Value trap risk."
-    - "ROTATION UPDATE: GDDY R1+DA running. Only GDDY (22.9%) worthy of rotation from screening. FISV/IT both killed."
+    - "ROTATION UPDATE: GDDY R3 complete, E[CAGR] 20.2% (was 22.9% R1). Still 3rd highest. Needs R4 committee. FISV/IT both killed."
     - "BLENDED PROJECTION: Current 17.4% → A(AUTO→EDEN) 17.8% → B(+FTNT→GDDY) 18.8% → C(+TW→GDDY) 19.4% → D(+MONY→TBD) 20.1%. Max with known candidates: 20.1%. Gap to 30% = 9.9pp. Needs shorts + crash entries."
 
 r1_cooldowns:
@@ -158,4 +158,4 @@ r1_cooldowns:
   HRB: { date: "2026-03-08", session: 149, verdict: "QS 63 Tier B. Low priority — no R1." }
   SAF.PA: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV EUR 290, QS 79adj Tier A, entry EUR 260. P/E 18.5x MISLEADING — adj forward ~32x. WIDE moat jet engine duopoly.)" }
   MEDI.OL: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV NOK 272, QS 85adj Tier A, entry NOK 205. Cardiac surgery monopoly, 80% GM, eToro confirmed.)" }
-  GDDY: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV $140, QS 78adj Tier A, entry $85-95. #1 domain registrar, FCF 31.8%, ROIC 33%. E[CAGR] 22.9% at $92. Starboard 7.8%. Rotation candidate for FTNT slot.)" }
+  GDDY: { date: "2026-03-08", session: 149, verdict: "R3_COMPLETE (WATCHLIST, FV $130 post-DA, QS 75adj Tier A borderline, entry $85-95. DA MODERATE COUNTER: insider RED FLAG, SBC distortion, QS adj. E[CAGR] 20.2% at $92. Bear $110. 12 KCs. R4 needed.)" }
