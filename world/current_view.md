@@ -1,20 +1,24 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-08
 
-**CAMBIOS CRITICOS desde ultimo update (2-mar):**
-- **CRITICAL: IRAN WAR WEEK 1 COMPLETE -- ESCALATION CONTINUES, MIXED DIPLOMATIC SIGNALS.** Conflict now in Day 7. IRIS Dena (frigate) sunk by US submarine off Sri Lanka (Mar 4, 87 killed). Death toll in Iran surpasses 1,000+. CENTCOM Adm. Cooper: "sinking the entire Iranian Navy." Trump says Iran seeking talks but "too late," demands unconditional surrender. IRGC struck a US oil tanker in Persian Gulf. Hormuz at NEAR-TOTAL HALT (only 2 commercial transits in 24h per JMIC). ~3,200 ships idle in Gulf (Clarksons). House rejected war powers resolution (Mar 5). However: Araghchi told Oman FM Iran "open to de-escalation" -- but also said publicly "not asking for ceasefire." MIXED signals: military escalation + tentative diplomatic feelers.
-- **CRITICAL: OIL SURGES TO $90+ WTI.** Was $72.86 on Mar 2 -- now $92.12 (macro_fragility.py). Trump's "unconditional surrender" rhetoric pushed oil past $90. CNBC confirms WTI broke $90 on Mar 6. This is the scenario we flagged ("If oil >$90") -- now ACTIVE.
-- **MATERIAL: S&P 500 DOWN to ~6,752** (was 6,879 on Mar 2). -3.6% from 52wH. Risk-off deepening.
-- **MATERIAL: VIX SURGING to 26.92** (was 23.52). Fear index at +74.7% 3-month change.
-- **MATERIAL: Gold RETREATED from ATH to $5,144** (was $5,411 peak). Profit-taking or crisis premium partially unwinding. Still +76.6% YoY.
-- **MATERIAL: 10Y yield RISING to 4.12%** (was 3.96%). Inflation fears now dominating safe-haven flows. Bonds NOT providing shelter.
-- **MATERIAL: RACE.MI BOUGHT (Mar 5)**: Ferrari EUR 312.80, 1.12 shares, EUR 350. E[CAGR] 13.5%. EU Value Recovery basket 2nd position. 6th E[CAGR]-framework market buy.
-- **MATERIAL: DOM.L FY25 results (Mar 5)**: Results released -- evaluate separately for thesis impact.
-- **MINOR: DXY stable at ~99** (was 98.41). Dollar firming on safe-haven + oil-inflation expectations.
-- **MATERIAL: VIX SPIKING to 29.49** (was 26.92 Mar 6). Fear rising. +91.4% 3mo change. Approaching 30 = panic threshold.
-- **MATERIAL: Gold RECOVERING to $5,181** (was $5,144). Safe haven demand resuming after brief dip.
-- **Portfolio: 15 positions** (was 14), EUR 3,692 cash (~36%), 0 shorts. MORN rotation candidate (E[CAGR] 4.4%).
+**CAMBIOS CRITICOS desde ultimo update (7-mar):**
+- **CRITICAL: HORMUZ STILL CLOSED. Oil $90.90, VIX 29.49.** War entering Week 2. No ceasefire. CPI Tuesday will reflect oil spike. FOMC Mar 18 = HOLD certain, rate cuts off table H1 2026.
+- **MATERIAL: PORTFOLIO RESTRUCTURED S143-S149.** 15 positions → 11. SOLD: GL, DTE.DE, DOM.L, BYIT.L, LULU, MORN, RACE.MI. Capital recycled to ADDs (EDEN 5x, ADBE 1x, NVO 1x, WKL 1x). Now 0% cash, fully deployed. Blended E[CAGR] 17.4%.
+- **MATERIAL: S&P 500 at 6,740** (-3.7% from 52wH). VIX 29.49 approaching 30 panic threshold. Gold $5,159 (+73% YoY). 10Y yield 4.13% (inflation fears). DXY 98.86 weakening.
+- **MATERIAL: GDDY R4 APPROVED** — rotation from FTNT if Investor Day BEAR Mon. E[CAGR] 20.2% vs FTNT 9.7%.
+- **MATERIAL: 4 positions NEAR fair value** (MoS <10%): HLNE 3.1%, FTNT 4.9%, TW 7.7%, MONY.L 9.0%. These are rotation candidates.
+
+**SECTOR IMPACT — Oil $91 / CPI Hot / Hormuz Crisis:**
+
+| Impact | Sectors | Portfolio Exposure | Action |
+|--------|---------|-------------------|--------|
+| **BENEFICIARY** | Energy, Defense, Cybersecurity, Gold miners | FTNT (7%, cyber beneficiary) | FTNT crisis premium partially offsetting low E[CAGR] |
+| **NEUTRAL** | Healthcare, B2B SaaS, Financial data, Payments | NVO, DOCS, WKL.AS, TW, HLNE, IHP.L | Asset-light models insulated from oil. Subscription revenue stable. |
+| **MILD NEGATIVE** | Consumer discretionary, SMB services, Travel | AUTO.L, EDEN.PA, MONY.L, GDDY (pipeline) | Oil tax on consumers = less discretionary spend 60-90 days out |
+| **SEVERE NEGATIVE** | Airlines, autos, logistics, chemicals, retail | None held | Avoid new positions here |
+
+**KEY OBSERVATION:** Our portfolio is 70%+ in NEUTRAL sectors (B2B, healthcare, financial infrastructure). The 3 MILD NEGATIVE positions (AUTO.L, EDEN.PA, MONY.L) are not oil-dependent businesses — the impact is second-order via consumer spending. EDEN.PA's meal voucher business is actually COUNTER-CYCLICAL (more employees eat at work when cutting expenses).
 
 ## Resumen Ejecutivo
 
