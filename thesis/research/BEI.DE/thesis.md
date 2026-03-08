@@ -2,6 +2,10 @@
 
 > R1 Fundamental Analysis | Session 103 | 2026-02-20
 > Analyst: fundamental-analyst | Framework v4.0
+> **Fair Value:** EUR 87 (R3 resolved, was EUR 99 R1. -12.1%)
+> **Expected Growth:** 2.5% (was 5%. NIVEA flat, Derma +11%, La Prairie flat)
+> **Data Integrity:** R3 resolution 2026-03-08. FY2025 results incorporated. GATED on H1 2026.
+> Pipeline Stage: R3_COMPLETE — WATCHLIST GATED (H1 2026 Aug)
 
 ---
 

@@ -53,11 +53,11 @@ positions:
     avg_cost_usd: 264.73  # Blended: (2*271.60 + 1.83*259.04) / 3.83
     date_opened: 2026-02-04
     conviction: medium
-    fair_value: "$390 (FTC-adjusted, was $394. QS Tool 76, Adj 73)"
-    exit_plan: "HOLD through trial Oct 2026. EXIT if KC#6 (FTC mandates one-click + churn >5pp). TRIM at $350 pre-trial. Next earnings ~Mar 2026."
-    last_review: 2026-02-10
+    fair_value: "$390 (FTC-adjusted, was $394. QS Tool 80 (up from 76), Adj 77. ROIC 53%.)"
+    exit_plan: "HOLD through trial Oct 2026. EXIT if KC#6 (FTC mandates one-click + churn >5pp). TRIM at $350 pre-trial. Q1 earnings Mar 12."
+    last_review: 2026-03-08
     thesis: thesis/active/ADBE/thesis.md
-    notes: "ADD EUR 400 at $259.04 S126. E[CAGR] 21.6%, MoS 50.6%. FTC trial Oct 2026 priced in. Cash deployment."
+    notes: "Pre-earnings refresh S150: QS 80 confirmed (ROIC 53%, up from 30%). Insiders NET BUYERS (183K bought vs 1.8K sold). SI 3.0% benign. All 8 KCs CLEAR. E[CAGR] 18.2%. Section 9 framework READY. ADD candidate if PASS + price <$240."
 
   - ticker: NVO
     name: "Novo Nordisk A/S"
