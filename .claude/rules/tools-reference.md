@@ -35,6 +35,12 @@
 | `narrative_checker.py` | `python3 tools/narrative_checker.py TICKER` | Tendencias financieras (margins, R&D, SBC, receivables, FCF). Datos crudos. |
 | `opportunity_filter.py` | `python3 tools/opportunity_filter.py --csv FILE [--roic-min N]` | Stage 2 sobre CSV de screener. ROIC, FCF margin, rev CAGR. |
 
+## Fallen Angels & Special Situations
+
+| Tool | Comando | Proposito |
+|------|---------|-----------|
+| `fallen_angels.py` | `python3 tools/fallen_angels.py [--min-qs 60] [--min-drawdown -35]` | Quality companies at trough. Finds QS>=55 stocks fallen >30% from 52wH with ROIC still positive. Anti-complacency: surfaces opportunities the standard screener misses. |
+
 ## Macro & Risk
 
 | Tool | Comando | Proposito |
