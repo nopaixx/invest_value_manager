@@ -509,6 +509,77 @@ Plus dividend: 16.7% + 2.0% = 18.7%
 
 ---
 
+---
+
+## Section 9: Q4 FY2026 Earnings Framework (~May 2026)
+
+*Built: 2026-03-08 (S150). HLNE fiscal year ends March 31. Q4 FY2026 = Jan-Mar 2026. Report expected early-mid May 2026.*
+
+### Context: Why Q4 Matters
+
+HLNE is our highest-adjusted QS position (82 Tier A) but E[CAGR] 13.1% is mid-pack. Q4 is the fiscal year-end — it includes annual AUM reconciliation, final FRE tally, and FY2027 guidance. The insider cluster buy ($4.2M at $101-107) by people who SEE the Q4 numbers is the strongest insider signal in our portfolio. They're buying 2 months before results.
+
+**Q3 FY2026 baseline (reported Feb 3):** Revenue $220M (+29% YoY), FRE $102M (+37%), FEAUM $79B (+11%), AUM $146B (+8%), Evergreen AUM +70%, management fees +14%, OP margin 44.4%, EPS $1.73.
+
+### Key Metrics to Watch
+
+| Metric | Q3 FY2026 | Q4 Expectation | Bull | Bear |
+|--------|-----------|----------------|------|------|
+| Revenue | $220M | $225-240M | >$240M | <$215M |
+| FRE | $102M | $105-115M | >$120M (FY guide beat) | <$95M |
+| FEAUM | $79B | $82-85B | >$87B | <$78B (flat/declining) |
+| AUM | $146B | $150-155B | >$160B | <$145B |
+| Evergreen AUM growth | +70% | +50-60% | >60% | <30% (deceleration) |
+| Fee rate (bps) | 67 | 65-68 | >68 (expansion) | <60 (compression) |
+| OP margin | 44.4% | 43-46% | >46% | <40% |
+| Receivables | +67.5% vs rev | Needs explanation | Resolved (timing) | Growing faster (collection issue) |
+| SBC / revenue | 4.4% | 3.5-4.5% | <3.5% (one-time) | >5% (new normal) |
+
+### Three Questions for Q4
+
+1. **Receivables resolution (Error #63 flag).** Did the 67.5% receivables growth vs 28.7% revenue growth resolve? If it was incentive fee accrual timing, Q4 year-end should show collection. If receivables are STILL growing 2x revenue at year-end, this is a REAL collection problem and warrants FV reduction.
+
+2. **SBC trajectory.** SBC doubled to 4.4% in FY2025. Is this CEO transition one-time or permanent? FY2026 full-year SBC rate determines whether EPS CAGR 10.7% is too generous or conservative.
+
+3. **FY2027 guidance.** This is the real catalyst. If HLNE guides FRE growth >15% for FY2027 (driven by Evergreen scaling + exit recovery), the market will re-rate from 19x to 22-25x P/E. If guide is <10%, the stock stays range-bound.
+
+### Insider Signal Interpretation
+
+$4.2M cluster buy at $101-107 (Jan-Feb 2026) by multiple insiders who have visibility into Q4 trends. They bought BELOW the CEO's $130 entry. This is the most informative data point:
+- Insiders see Q4 numbers in real-time (AUM, fees, pipeline)
+- Buying at 52-week lows suggests Q4 won't disappoint
+- $5M+ total insider accumulation in 4 months = high conviction
+- **Counter-risk:** insiders can be wrong about stock trajectory (CEO bought at $130, now -18%)
+
+### Scenario Matrix
+
+| Scenario | Criteria | FV Impact | Action |
+|----------|----------|-----------|--------|
+| **BEAT** | FRE >$115M, FEAUM >$85B, FY27 guide >15% growth, receivables resolved | FV $110→$120-125 | ADD if price <$110. E[CAGR] jumps to ~20%+ |
+| **PASS** | FRE $105-115M, FEAUM $82-85B, guide 10-15%, receivables partially resolved | FV $110 maintained | HOLD. Position justified at 13.1% E[CAGR] |
+| **CONDITIONAL** | FRE $95-105M, FEAUM flat, guide 5-10%, SBC still elevated | FV $110→$100 | HOLD but monitor. If E[CAGR] drops <10%, rotation candidate |
+| **FAIL** | FRE <$95M OR FEAUM declining OR fee rate <60bps OR guide <5% | FV $110→$85-90 | SELL. KC#1/#2 approaching. Run EXIT Protocol |
+
+### KC Mapping
+
+| Kill Condition | Q4 Signal | Trigger Level |
+|----------------|-----------|---------------|
+| KC#1 (FEAUM negative 2Q) | FEAUM QoQ change | If Q4 FEAUM < Q3 $79B → first warning |
+| KC#2 (Fee rev decline YoY) | Q4 FY2026 vs Q4 FY2025 | If mgmt fees <Q4 FY2025 → TRIGGERED |
+| KC#3 (Fee rate <55bps) | Blended fee calculation | Currently 67bps. <60bps = yellow |
+| KC#4 (Evergreen <20% 3Q) | Evergreen AUM growth | If <30% → decelerating, still above KC |
+| KC#5 (Insider selling >5%) | Insider transactions | Currently OPPOSITE. Monitor for reversal post-earnings |
+| KC#7 (Mega-manager moat breach) | Competitive commentary | BX/KKR Evergreen product announcements |
+
+### FV Revision Logic
+
+- **BEAT + receivables resolved:** FRE multiple 19x on FY2027E FRE ~$145M × 19 = $2,755M ÷ 53.5M diluted shares = $51.50 × 2.3 (historical P/FRE premium for growth) ≈ $118-125
+- **FAIL + receivables worsen:** Bear case $84 (DA floor) becomes base. Exit if E[CAGR] <8%
+
+*Framework prepared: 2026-03-08 (S150c4). Earnings ~May 2026. Update with any Q4 preview data or management commentary at conferences.*
+
+---
+
 *R1 Analysis completed: 2026-02-22*
 *R4 APPROVED: 2026-02-25 (Session 120)*
 *Market buy EXECUTED: 2026-02-25 at $101.75, ADD 2026-02-26 at $108.11*
