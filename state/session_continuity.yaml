@@ -133,6 +133,8 @@ handoff:
     - "FTNT NEUTRAL PLAN: DO NOT rotate on neutral. HOLD through Q1 Apr. Set GDDY SO $85-90. Better entry + FTNT Q1 data point. Rotate only on BEAR or Q1 disappoint."
     - "CPI HOT PLAN: Top 3 vulnerable = ADBE (P/E 34x, -8-12%), HLNE (PE cycle, -5-8%), AUTO.L (UK consumer, -5-8%). Reaction: DO NOTHING on ADBE (earnings 24hr later), DO NOTHING on HLNE (insider cluster buy support), SELL AUTO.L as planned (already R0)."
     - "ADBE FRAMEWORK CONFIRMED: PASS (rev>=6.25B, EPS>=5.85, ARR QoQ up) → HOLD, ADD <$240. CONDITIONAL (slight miss) → HOLD, FV $350-380. FAIL (rev<6.15B, guide cut>5%, ARR<8%) → EXIT protocol. SELL triggers: guide cut >5%, creative MAU <5%, FTC KC#6."
+    - "SMART MONEY SCAN S149: (1) EDEN.PA SI flagged but context = short thesis IS our long thesis with diff time horizon. Shorts right about 2026 decline, we're right about 2027+ reaccel. No action. (2) AUTO.L $87M insider cluster buy — strong signal BUT rotation math (+16.5pp E[CAGR]) overrides. SELL Monday confirmed. (3) TW $37M C-suite selling reinforces rotation candidate status. (4) HLNE $3.2M cluster buy confirmed — insiders aligned."
+    - "WORLD VIEW S149: Sector impact mapped. 70% portfolio in NEUTRAL sectors. EDEN counter-cyclical. FTNT crisis beneficiary. 4 positions near FV (<10% MoS): HLNE/FTNT/TW/MONY.L. No new KC approaching. NVO KC#1 already processed."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
