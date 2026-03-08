@@ -21,8 +21,8 @@ quality_universe:
     distance_delta: 0.0
   - ticker: PAYC
     name: Paycom Software, Inc.
-    qs_tool: 75
-    qs_adj: 75
+    qs_tool: 86
+    qs_adj: 86
     tier: A
     sector: Technology
     fair_value: 115.0
@@ -30,11 +30,11 @@ quality_universe:
     currency: USD
     current_price: 138.01
     distance_to_entry: 56.8
-    pipeline_status: STANDING_ORDER
+    pipeline_status: R1_REFRESH_NEEDED
     thesis_path: thesis/research/PAYC/thesis.md
-    last_scored: '2026-02-14'
+    last_scored: '2026-03-08'
     last_price_check: '2026-03-08'
-    notes: ''
+    notes: 'S149 RESCORE: QS jumped 75→86. ROIC 24.5% (+15.6pp), 12.6% insider, net cash, OP 28%, rev CAGR 14.3%. Reverse DCF implies +4.9% vs actual 14.3% = 9.4pp gap. FV $115 STALE — quick estimate $170+. R1 REFRESH URGENT.'
     direction: long
     distance_delta: 0.0
   - ticker: DSY.PA

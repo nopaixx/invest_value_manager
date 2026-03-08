@@ -129,6 +129,10 @@ handoff:
     - "BLENDED PROJECTION: Current 17.4% → A(AUTO→EDEN) 17.8% → B(+FTNT→GDDY) 18.8% → C(+TW→GDDY) 19.4% → D(+MONY→TBD) 20.1%. Max with known candidates: 20.1%. Gap to 30% = 9.9pp. Needs shorts + crash entries."
     - "GDDY R4 APPROVED CONDITIONAL: 10/10 gates PASS. ROTATION from FTNT if Investor Day BEAR Mon Mar 10. SO $85-90 if FTNT BULL. FV $130, QS 75adj, E[CAGR] 20.2%. Delta +10.5pp vs FTNT. Committee decision: thesis/research/GDDY/committee_decision.md."
     - "IT (GARTNER) R1 REFRESH: QS 74/77adj Tier A. FV $195 (was $190 R3). E[CAGR] 10-12% BORDERLINE. -84% from ATH ($1,060→$169). AI disruption real: consulting -15%, deferred rev +1.7%. BUT insider buying 113K shares Feb 2026 + 95% research retention. SI 11.2% surging +42.8% MoM. WATCHLIST $150-160. Q1 May = catalyst."
+    - "SCREENING QS BATCH: PAYC 86 A (STANDOUT — 12.6% insider, ROIC 24.5%, net cash, -48%), TTD 69 B (rev +22% but P/E 32.5x), FOUR.L 69 B (ROIC 85.6%, already R3 GATED Mar 18), DOCU 56 B (ROIC spread +2pp only, PASS), EPAM 36 C (KILLED). PAYC needs R1 REFRESH — stale FV $115 vs implied $170+."
+    - "FTNT NEUTRAL PLAN: DO NOT rotate on neutral. HOLD through Q1 Apr. Set GDDY SO $85-90. Better entry + FTNT Q1 data point. Rotate only on BEAR or Q1 disappoint."
+    - "CPI HOT PLAN: Top 3 vulnerable = ADBE (P/E 34x, -8-12%), HLNE (PE cycle, -5-8%), AUTO.L (UK consumer, -5-8%). Reaction: DO NOTHING on ADBE (earnings 24hr later), DO NOTHING on HLNE (insider cluster buy support), SELL AUTO.L as planned (already R0)."
+    - "ADBE FRAMEWORK CONFIRMED: PASS (rev>=6.25B, EPS>=5.85, ARR QoQ up) → HOLD, ADD <$240. CONDITIONAL (slight miss) → HOLD, FV $350-380. FAIL (rev<6.15B, guide cut>5%, ARR<8%) → EXIT protocol. SELL triggers: guide cut >5%, creative MAU <5%, FTC KC#6."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -161,3 +165,7 @@ r1_cooldowns:
   SAF.PA: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV EUR 290, QS 79adj Tier A, entry EUR 260. P/E 18.5x MISLEADING — adj forward ~32x. WIDE moat jet engine duopoly.)" }
   MEDI.OL: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV NOK 272, QS 85adj Tier A, entry NOK 205. Cardiac surgery monopoly, 80% GM, eToro confirmed.)" }
   GDDY: { date: "2026-03-08", session: 149, verdict: "R4_APPROVED CONDITIONAL (ROTATION from FTNT if Investor Day BEAR. FV $130, QS 75adj, E[CAGR] 20.2%. SO $85-90. 10/10 gates PASS. 12 KCs. Committee file: thesis/research/GDDY/committee_decision.md)" }
+  DOCU: { date: "2026-03-08", session: 149, verdict: "QS 56 Tier B. ROIC spread +2pp only. PASS — not a compounder." }
+  TTD: { date: "2026-03-08", session: 149, verdict: "QS 69 Tier B. Rev +22%, ROIC 17.8%, but P/E 32.5x at $29. Low priority." }
+  EPAM: { date: "2026-03-08", session: 149, verdict: "QS 36 Tier C. KILLED. EPS declining, ROIC falling." }
+  PAYC: { date: "2026-03-08", session: 149, verdict: "QS 86 Tier A (RESCORE from 75). R1 REFRESH NEEDED — FV $115 stale, implied $170+. 12.6% insider, ROIC 24.5%, net cash. Best quality of all screening candidates." }
