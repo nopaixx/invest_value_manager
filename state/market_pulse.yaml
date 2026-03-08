@@ -1,366 +1,309 @@
 # =============================================================================
-# MARKET PULSE - Session 132 (2026-03-02, Monday INTRADAY)
+# MARKET PULSE — Pre-Market Monday Check
 # =============================================================================
-# GEOPOLITICAL CRISIS: US-Israel "Operation Epic Fury" strikes on Iran Feb 28.
-# Khamenei killed. Iran retaliating. Strait of Hormuz effectively CLOSED.
-# Oil +8-13% (Brent >$80). SPY futures -1.7%. Nasdaq futures -2.0%.
-# FTSE 100 -0.7-0.8%, FTSE 250 -1.7%. Defense/energy UP, everything else DOWN.
-# UK positions already trading Monday — showing -1.4% to -2.4% pullbacks.
-# US positions at Friday close — will GAP DOWN at open.
+# Date: 2026-03-08 (Sunday scan for Monday Mar 9 open)
+# Context: Hormuz crisis ongoing, oil $91, VIX ~29, CPI Tue, ADBE earnings Wed
+# SPY: $672.38 (-3.6% from 52wH $697.84, +39.6% from 52wL $481.80)
+# Previous: Session 132 (2026-03-02) — Hormuz crisis first scan
 # =============================================================================
-# FX: EUR/USD=1.1818 | GBP/EUR=1.1407
-# Portfolio: 14 positions, cash EUR ~4,042 (~39%).
-# =============================================================================
-
-last_scan: "2026-03-02T11:45"
-previous_scan: "2026-02-28T10:10"
 
 market_context:
-  spy_price: "$685.99 (Fri close) / ~$674 futures"
-  spy_futures_change: "-1.7%"
-  nasdaq_futures_change: "-2.0%"
-  ftse100_change: "-0.7% to -0.8%"
-  ftse250_change: "-1.7%"
-  brent_crude: "$79-82 (+8-13% from pre-strike)"
-  gold: "UP ~2% (safe haven)"
-  fx_eurusd: 1.1818
-  fx_gbpeur: 1.1407
-  vix_expected: "ELEVATED — likely 25-30+ at open"
-  market_regime: "RISK-OFF / GEOPOLITICAL CRISIS"
-  market_summary: |
-    CRITICAL GEOPOLITICAL EVENT: US and Israel launched coordinated strikes on Iran
-    ("Operation Epic Fury" / "Operation Roaring Lion") on Feb 28. Supreme Leader
-    Khamenei confirmed dead. Iran retaliated with missiles/drones against Israel, UAE,
-    Qatar, Kuwait, Bahrain, Jordan, Saudi Arabia on Mar 1. Strait of Hormuz effectively
-    CLOSED — Maersk, MSC, Hapag-Lloyd suspended all transit. Oil surged 8-13%.
-
-    Market implications:
-    (1) Oil shock — Brent crossed $80, could go $90-100 if Hormuz stays closed >72h
-    (2) Inflationary pressure — rate cuts now further away, PPI already hot
-    (3) Risk-off rotation — equities down, gold/treasuries up, USD strengthening
-    (4) Sector divergence — energy/defense UP, airlines/consumer/tech DOWN
-    (5) Duration unknown — if conflict contained = V-recovery. If escalates = regime shift.
-
-    Historical comps: Gulf War 1990 (SPY -19.9% peak-trough, recovered in 6mo).
-    Iran tensions 2020 (Soleimani): market dip was 1-2 days then full recovery.
-    THIS IS MORE SEVERE: actual Hormuz closure + leader assassination + retaliation.
+  spy_price: 672.38
+  spy_vs_52wh: "-3.6%"
+  spy_weekly_change: "-2.2%"  # Worst week since Apr 2025 per news
+  vix: 29  # Elevated. CVNA short VIX gate (< 28) NOT met.
+  oil_wti: 91  # +10% weekly. Hormuz closure. 20% global supply disrupted.
+  regime: RISK_OFF  # Elevated VIX, oil shock, jobs contraction
+  key_events_this_week:
+    - "Mon Mar 10: FTNT Investor Day (Accelerate 2026) — CRITICAL for GDDY rotation decision"
+    - "Tue Mar 10: US CPI — if hot + oil = double negative for risk assets"
+    - "Wed Mar 11: ADBE Q1 FY2026 earnings after close — 8.9% position, binary event"
 
 # =============================================================================
-# CHANGES SINCE LAST SCAN (Feb 28 -> Mar 2 intraday)
-# UK/EU stocks: MONDAY intraday prices (reflecting Iran selloff)
-# US stocks: FRIDAY close (have NOT yet repriced Iran event)
-# US will gap down 1.7-2.0% at open based on futures
+# POSITION SUMMARY — All 11 Active Positions
 # =============================================================================
+position_summary:
 
-portfolio_changes:
-  # UK/EU — ALREADY REPRICING Iran event (Monday trading)
-  - { ticker: EDEN.PA, prev: 19.60, now: 19.59, change_pct: "-0.1%", flag: "FLAT. Surprisingly resilient. French services company, limited direct Iran exposure." }
-  - { ticker: DOM.L, prev: 200.80, now: 197.40, change_pct: "-1.7%", flag: "MARKET SELLOFF. Purely market-driven. FY25 results Mar 5 approaching." }
-  - { ticker: MONY.L, prev: 172.00, now: 167.10, change_pct: "-2.9%", flag: "MARKET SELLOFF. Largest UK pullback. Insurance comparison = indirect hit from consumer confidence." }
-  - { ticker: AUTO.L, prev: 492.90, now: 485.00, change_pct: "-1.6%", flag: "MARKET SELLOFF. Car marketplace, consumer discretionary exposure." }
-  - { ticker: IHP.L, prev: 318.00, now: 313.55, change_pct: "-1.4%", flag: "MARKET SELLOFF. Financial platform. General risk-off." }
-  - { ticker: BYIT.L, prev: 303.40, now: 299.20, change_pct: "-1.4%", flag: "MARKET SELLOFF. IT reseller. General risk-off." }
-  - { ticker: KLR.L, prev: 2015, now: 1992, change_pct: "-1.1%", flag: "MARKET + INFRASTRUCTURE. FY2025 results TOMORROW Mar 3. Gate check." }
+  - ticker: EDEN.PA
+    basket: "European Pricing Power"
+    current_price: "EUR 18.79"
+    avg_cost: "EUR 18.35"
+    pnl_pct: "+2.4%"
+    weight_approx: "~19%"
+    fair_value: "EUR 29.0"
+    mos_current: "35.2%"
+    vs_52w_high: "-45.9% (EUR 34.75)"
+    vs_52w_low: "+10.8% (EUR 16.96)"
+    status: NORMAL
+    kc_status: "ALL CLEAR. KC#1 (France caps) DORMANT. KC#8 (3rd market regulation) not triggered."
+    notes: "Largest position. Near 52w low zone. FY2025 results confirmed thesis (Feb 24). 7.1% dividend yield. Oil crisis = neutral."
 
-  # US — FRIDAY CLOSE (not yet repriced for Iran)
-  # EXPECTED MONDAY: all US positions to gap down -1.5% to -3.0%
-  - { ticker: GL, prev: 145.26, now: 145.26, change_pct: "0.0%", flag: "FRIDAY CLOSE. Insurance = relatively defensive. May hold up better." }
-  - { ticker: ADBE, prev: 262.41, now: 262.41, change_pct: "0.0%", flag: "FRIDAY CLOSE. Tech = higher beta. EXPECT -2% to -3% at open." }
-  - { ticker: NVO, prev: 37.45, now: 37.45, change_pct: "0.0%", flag: "FRIDAY CLOSE. AT 52wL $37.31. Pharma defensive BUT idiosyncratic weakness. Could break 52wL." }
-  - { ticker: LULU, prev: 185.17, now: 185.17, change_pct: "0.0%", flag: "FRIDAY CLOSE. Consumer discretionary = VULNERABLE. Expect -2% to -3%." }
-  - { ticker: MORN, prev: 183.14, now: 183.14, change_pct: "0.0%", flag: "FRIDAY CLOSE. Financial data = moderate beta. Expect -1% to -2%." }
-  - { ticker: HLNE, prev: 104.94, now: 104.94, change_pct: "0.0%", flag: "FRIDAY CLOSE. Alt AM = VULNERABLE to risk-off. Near 52wL. Could test $98." }
-  - { ticker: DOCS, prev: 24.53, now: 24.53, change_pct: "0.0%", flag: "FRIDAY CLOSE. Digital health = moderate. Near 52wL. Could test $23.53." }
-  - { ticker: FTNT, prev: 79.03, now: 79.03, change_pct: "0.0%", flag: "FRIDAY CLOSE. Cybersecurity = POTENTIAL BENEFICIARY of geopolitical escalation." }
+  - ticker: ADBE
+    basket: "US Quality Compounders"
+    current_price: "$283.62"
+    avg_cost: "$264.73"
+    pnl_pct: "+7.1%"
+    weight_approx: "~8.9%"
+    fair_value: "$390"
+    mos_current: "27.3%"
+    vs_52w_high: "-36.2% ($444.54)"
+    vs_52w_low: "+16.1% ($244.28)"
+    status: EARNINGS_IMMINENT
+    kc_status: "ALL 8 KCs CLEAR. ROIC 53% = strengthened since purchase."
+    earnings_date: "2026-03-11 (Wed after close)"
+    notes: |
+      CRITICAL EVENT. Q1 FY2026 earnings Wed Mar 11.
+      Consensus EPS $5.87. Market pricing +/-7.7% reaction.
+      CPI same day = potential double catalyst. All KCs CLEAR. QS now 80 (up from 76).
+
+  - ticker: NVO
+    basket: "Standalone (Pharma)"
+    current_price: "$38.58"
+    avg_cost: "$40.76"
+    pnl_pct: "-5.3%"
+    weight_approx: "~12%"
+    fair_value: "$47"
+    mos_current: "17.9%"
+    vs_52w_high: "-53.3% ($82.57)"
+    vs_52w_low: "+7.6% ($35.85)"
+    status: NEAR_52W_LOW
+    kc_status: "KC#1 TRIGGERED (CagriSema). KC#2-7 CLEAR. KC#8 MONITORING (rev decline >10% risk)."
+    notes: |
+      NEAR 52W LOW. Only 7.6% above $35.85 low (Mar 3).
+      KC#1 triggered. KC#8 monitoring: 2026 guidance -5% to -13% sales.
+      Do NOT add. E[CAGR] 16.6% justifies HOLD.
+
+  - ticker: MONY.L
+    basket: "UK Digital Platforms"
+    current_price: "172.90 GBp"
+    avg_cost: "171.0 GBp"
+    pnl_pct: "+1.1%"
+    weight_approx: "~7%"
+    fair_value: "190 GBp"
+    mos_current: "9.0%"
+    vs_52w_high: "-23.1% (224.8 GBp)"
+    vs_52w_low: "+23.8% (139.7 GBp)"
+    status: LOW_MOS
+    kc_status: "ALL CLEAR."
+    notes: "MoS 9.0% — FIRST ROTATION CANDIDATE. Growth 2% = lowest. Yield play. GDDY rotation source after FTNT."
+
+  - ticker: AUTO.L
+    basket: "UK Digital Platforms"
+    current_price: "494.80 GBp"
+    avg_cost: "486.86 GBp"
+    pnl_pct: "+1.6%"
+    weight_approx: "~3.4%"
+    fair_value: "580 GBp"
+    mos_current: "14.7%"
+    vs_52w_high: "-46.2% (920.0 GBp)"
+    vs_52w_low: "+8.9% (454.5 GBp)"
+    status: WATCH
+    kc_status: "ALL CLEAR. April 2026 pricing event = MAKE-OR-BREAK."
+    notes: "LOW conviction. Dealer revolt ongoing. QS 71 Tier B. Small position."
+
+  - ticker: IHP.L
+    basket: "UK Digital Platforms"
+    current_price: "318.50 GBp"
+    avg_cost: "319.6 GBp"
+    pnl_pct: "-0.3%"
+    weight_approx: "~11.4%"
+    fair_value: "390 GBp"
+    mos_current: "18.3%"
+    vs_52w_high: "-19.9% (397.7 GBp)"
+    vs_52w_low: "+21.1% (263.0 GBp)"
+    status: NORMAL
+    kc_status: "ALL CLEAR. DA bear 350p = 10% above current."
+    notes: "2nd largest. At CEILING 11.4%. Do NOT add. H1 FY26 results ~June."
+
+  - ticker: HLNE
+    basket: "US Quality Compounders"
+    current_price: "$106.57"
+    avg_cost: "$105.60"
+    pnl_pct: "+0.9%"
+    weight_approx: "~10%"
+    fair_value: "$110"
+    mos_current: "3.1%"
+    vs_52w_high: "-40.5% ($179.19)"
+    vs_52w_low: "+8.7% ($98.00)"
+    status: LOW_MOS
+    kc_status: "ALL CLEAR. Receivables +67.5% unresolved (Q4 FY2026 ~May)."
+    notes: "MoS 3.1% — near FV. QS 86/82 highest quality. CEO bought $1M at $130. No action."
+
+  - ticker: DOCS
+    basket: "US Quality Compounders"
+    current_price: "$25.34"
+    avg_cost: "$24.81"
+    pnl_pct: "+2.1%"
+    weight_approx: "~8%"
+    fair_value: "$30"
+    mos_current: "15.5%"
+    vs_52w_high: "-66.9% ($76.51)"
+    vs_52w_low: "+7.7% ($23.53)"
+    status: NEAR_52W_LOW
+    kc_status: "ALL CLEAR. NRR 112% > 100% KC#1 threshold."
+    notes: "Near 52w low. MFN drag. Do NOT add before Q4 (~May)."
+
+  - ticker: FTNT
+    basket: "Cybersecurity"
+    current_price: "$83.67"
+    avg_cost: "$81.58"
+    pnl_pct: "+2.6%"
+    weight_approx: "~7%"
+    fair_value: "$88"
+    mos_current: "4.9%"
+    vs_52w_high: "-23.5% ($109.33)"
+    vs_52w_low: "+19.3% ($70.12)"
+    status: INVESTOR_DAY_IMMINENT
+    kc_status: "ALL 9 KCs CLEAR. KC#6 (2nd security incident) MONITORING."
+    notes: |
+      CRITICAL EVENT MONDAY. Investor Day Accelerate 2026 (Mar 10, 3pm PT).
+      GDDY rotation depends on outcome. MoS 4.9%. E[CAGR] 9.7% = 2nd lowest.
+      Oil crisis = TAILWIND (cyber threats from Iran conflict).
+
+  - ticker: TW
+    basket: "Data & Analytics Monopolies"
+    current_price: "$124.59"
+    avg_cost: "$124.59"
+    pnl_pct: "0.0%"
+    weight_approx: "~5.7%"
+    fair_value: "$135"
+    mos_current: "7.7%"
+    vs_52w_high: "-18.4% ($152.65)"
+    vs_52w_low: "+28.4% ($97.06)"
+    status: NORMAL
+    kc_status: "ALL CLEAR. Rev growth 9.9% vs 10% KC — close but clear."
+    notes: "New position (Mar 7). At cost. Oil = mild positive (bond volatility -> higher ADV)."
+
+  - ticker: WKL.AS
+    basket: "Data & Analytics Monopolies"
+    current_price: "EUR 68.52"
+    avg_cost: "EUR 68.52"
+    pnl_pct: "0.0%"
+    weight_approx: "~6.5%"
+    fair_value: "EUR 80"
+    mos_current: "14.4%"
+    vs_52w_high: "-58.1% (EUR 163.65)"
+    vs_52w_low: "+16.1% (EUR 59.00)"
+    status: NORMAL
+    kc_status: "ALL CLEAR. Organic growth 5-6% > 3% KC."
+    notes: "New position (Mar 7). At cost. -58% from 52wH on AI fears. Receivables +23% flag."
 
 # =============================================================================
 # ANOMALIES DETECTED
 # =============================================================================
-
 anomalies:
-  critical:
-    - type: GEOPOLITICAL_CRISIS
-      event: "US-Israel strikes on Iran (Operation Epic Fury)"
-      date: "2026-02-28 to present"
-      severity: CRITICAL
-      impact: |
-        - Global equities -1% to -2% (Monday open)
-        - Oil +8-13% (Strait of Hormuz effectively closed)
-        - Safe havens (gold, USD, treasuries) UP
-        - Airlines, consumer discretionary WORST hit
-        - Defense, energy BENEFICIARIES
-        - Duration/escalation risk is KEY variable
-      portfolio_impact: |
-        DIRECT IMPACT on portfolio: LIMITED (no energy/airline exposure)
-        INDIRECT IMPACT: risk-off sentiment hits ALL positions -1% to -3%
-        ESTIMATED portfolio hit: -1.5% to -2.5% across all positions today
-        On EUR ~6,200 invested = EUR 93-155 paper loss expected
-        WORST CASE if escalation continues: -5% to -10% over days/weeks
-      classification: MARKET
-      already_known: false
-      action: |
-        1. DO NOT PANIC SELL. This is market-wide, not thesis-specific.
-        2. Oil shock is TRANSITORY unless Hormuz stays closed >1 week.
-        3. Historical pattern: geopolitical shocks = V-recoveries in 1-3 months.
-        4. HOWEVER this is more severe than 2020 Soleimani — actual leader killed + Hormuz closed.
-        5. OPPORTUNITY: if quality names drop -5%+ from Iran fears alone, this could bring SOs into range.
-        6. MONITOR: RACE.MI (EUR 313 today, trigger EUR 295 = now only ~5.8% away),
-           SPGI ($441.88, trigger $420 = 5.0% away), pipeline tickers approaching entries.
-        7. FTNT may be relative beneficiary (cybersecurity demand rises with geopolitical tension).
-        8. NVO at risk of breaking 52wL $37.31 if broad selloff compounds idiosyncratic weakness.
+
+  critical: []
+  # No >10% single-day drops detected.
 
   material:
     - ticker: NVO
-      classification: AT_52W_LOW_PLUS_GEOPOLITICAL
-      current_price: "$37.45 (Fri close)"
-      expected_monday: "$36.50-37.00 (estimate based on -1.5% market + idiosyncratic)"
-      vs_52w_low: "+0.4% (TOUCHING)"
-      vs_52w_high: "-59.2%"
-      vs_avg_cost: "-22.2%"
-      change_since_scan: "0.0% (Fri close; expected -1.5% Mon)"
-      cause: |
-        LAYERED: idiosyncratic (CagriSema failure, 50% price cut, guidance miss)
-        PLUS market-wide Iran selloff. Could break through $37.31 52wL on Monday.
-        If $37.31 breaks, next technical support unclear — could accelerate to $35.
-      cause_type: IDIOSYNCRATIC_PLUS_MARKET
-      already_known: "PARTIAL. Idiosyncratic causes known. Iran selloff is NEW overlay."
-      action: |
-        HOLD LOW. DO NOT ADD at current levels. Wait for dust to settle.
-        If breaks $37 decisively, FV re-evaluation is URGENT.
-        Bear case widened to $32-40 with 50% price cut + geopolitical overlay.
-        ADD threshold remains $30. No action until FV re-evaluated for pricing impact.
-
-    - ticker: MONY.L
-      classification: PULLBACK
-      current_price: "167.10p"
-      prev_price: "172.00p"
-      change_since_scan: "-2.9%"
-      vs_avg_cost: "-1.7%"
-      vs_52w_low: "+19.6%"
-      cause: "Market-wide Iran selloff. MONY.L is consumer-facing (insurance comparison), more sensitive to consumer confidence than B2B names."
-      cause_type: MARKET
-      already_known: false
-      action: "HOLD. No thesis change. Consumer comparison is defensive. FV 190p intact. Monitor if drops below 155p."
-
-    - ticker: HLNE
-      classification: NEAR_52W_LOW_PLUS_RISK_OFF
-      current_price: "$104.94 (Fri)"
-      expected_monday: "$103-104 (risk-off alt AM)"
-      vs_52w_low: "+7.1% (could compress to +5%)"
-      vs_avg_cost: "+0.1%"
-      cause: "SECTORIAL (private markets rotation, rate cut repricing) + MARKET (Iran risk-off). Alt AM names vulnerable in risk-off."
-      cause_type: SECTORIAL_PLUS_MARKET
+      type: NEAR_52W_LOW
+      detail: "Only 7.6% above 52w low ($35.85). Down -53% from 52w high."
+      cause: "2026 guidance cut (-5% to -13%), CagriSema failure, Lilly competition"
+      cause_type: IDIOSYNCRATIC
       already_known: true
-      action: "HOLD. QS 82 Tier A. If drops to $98-100 = potential ADD opportunity (MoS >20%). Next earnings May."
-
-    - ticker: DOCS
-      classification: NEAR_52W_LOW_PLUS_RISK_OFF
-      current_price: "$24.53 (Fri)"
-      expected_monday: "$24.00-24.30"
-      vs_52w_low: "+4.3% (could test 52wL $23.53)"
-      vs_avg_cost: "+1.9%"
-      cause: "JPMorgan PT cut + broad risk-off. Near 52wL."
-      cause_type: SECTORIAL_PLUS_MARKET
-      already_known: true
-      action: "HOLD. FV $32.80 intact. Monopoly business not affected by Iran. Could ADD at $20 (MoS 39%)."
+      action: "HOLD. Do NOT add. E[CAGR] 16.6% justifies."
 
   info:
-    - ticker: GL
-      flag: "NEAR 52-WEEK HIGH — may benefit as defensive"
-      price: "$145.26 (Fri)"
-      expected_monday: "$143-145 (insurance = defensive, limited hit)"
-      vs_52wH: "-4.9%"
-      vs_avg_cost: "+2.8%"
-      cause: "Insurance is defensive. May outperform market on Iran day."
-      action: "HOLD. FV $191. Insurance relatively protected from oil/war shock."
+    - ticker: HLNE
+      type: LOW_MOS
+      detail: "MoS 3.1%. Near FV."
+      action: "No action. Highest QS. Insider bought at $130."
+
+    - ticker: MONY.L
+      type: LOW_MOS
+      detail: "MoS 9.0%. Approaching FV."
+      action: "FIRST ROTATION CANDIDATE if GDDY proceeds."
 
     - ticker: FTNT
-      flag: "POTENTIAL BENEFICIARY — cybersecurity demand rises with geopolitical tension"
-      price: "$79.03 (Fri)"
-      expected_monday: "$77-80 (beta drag vs cybersec tailwind)"
-      vs_avg_cost: "-0.1%"
-      cause: "Cybersecurity demand increases during geopolitical conflicts. State-sponsored threats rise."
-      action: "HOLD. May outperform tech peers. WIDE moat intact."
+      type: LOW_MOS_AND_EVENT
+      detail: "MoS 4.9%. E[CAGR] 9.7%. Investor Day Mon."
+      action: "GDDY rotation trigger. If BEAR -> SELL FTNT -> BUY GDDY."
 
-    - ticker: RACE.MI
-      flag: "APPROACHING TRIGGER — Iran selloff could bring to range"
-      price: "EUR 313.00 (Monday intraday)"
-      trigger: "EUR 295"
-      distance: "5.8%"
-      note: |
-        Was 8.2% away on Feb 28. Now 5.8%. FTSE MIB down ~1% on Iran.
-        Ferrari = luxury discretionary. If selloff deepens this week, could approach EUR 295.
-        R4 APPROVED. Keep trigger ACTIVE. Watch closely.
+    - ticker: DOCS
+      type: NEAR_52W_LOW
+      detail: "Only 7.7% above 52w low."
+      action: "HOLD. Do NOT add before Q4."
 
-    - ticker: SPGI
-      flag: "APPROACHING TRIGGER — Iran selloff moves closer"
-      price: "$441.88 (Fri)"
-      trigger: "$420"
-      distance: "5.0%"
-      expected_monday: "$433-438 (moderate beta)"
-      note: "Was 5.0% away. With -1.7% futures, could compress to 3.5-4.0%. GATED on Q1 earnings. Watch."
-
-    - ticker: KLR.L
-      flag: "FY2025 RESULTS TOMORROW (Mar 3)"
-      price: "1992p (Monday, -1.1%)"
-      trigger: "1700p"
-      distance: "14.6%"
-      note: "GATE: OP margin >=6.5% AND order book >=GBP 1.4B. Infrastructure company — could benefit from defense/infrastructure spend narrative. Results Mar 3."
-
-    - ticker: MORN
-      flag: "BEST PERFORMER — resilience test today"
-      price: "$183.14 (Fri)"
-      vs_avg_cost: "+13.8%"
-      note: "Financial data is moderate beta. Expect -1% to -2%. Still best position by P&L."
+    - ticker: WKL.AS
+      type: NEAR_52W_HIGH_DISTANCE
+      detail: "-58% from 52w high. AI disruption narrative."
+      action: "New position. Monitor receivables."
 
 # =============================================================================
-# POSITION SUMMARY (sorted by P&L, based on latest available prices)
-# US: Friday close. UK/EU: Monday intraday.
+# EARNINGS & EVENTS — THIS WEEK
 # =============================================================================
+earnings_events:
 
-position_summary:
-  - { ticker: MORN, price: "$183.14*", avg: "$161.00", pnl: "+13.8%", vs52H: "-42.6%", vs52L: "+22.8%", status: "BEST PERFORMER" }
-  - { ticker: EDEN.PA, price: "EUR 19.59", avg: "EUR 17.61", pnl: "+11.2%", vs52H: "-43.9%", vs52L: "+15.5%", status: "RESILIENT" }
-  - { ticker: DOM.L, price: "197.40p", avg: "182.50p", pnl: "+8.2%", vs52H: "-34.3%", vs52L: "+20.3%", status: "SELLOFF -1.7% — FY25 Mar 5" }
-  - { ticker: LULU, price: "$185.17*", avg: "$171.84", pnl: "+7.8%", vs52H: "-49.5%", vs52L: "+16.3%", status: "ON PROBATION — will gap down" }
-  - { ticker: GL, price: "$145.26*", avg: "$141.35", pnl: "+2.8%", vs52H: "-4.9%", vs52L: "+32.8%", status: "DEFENSIVE — near 52wH" }
-  - { ticker: DOCS, price: "$24.53*", avg: "$24.07", pnl: "+1.9%", vs52H: "-67.9%", vs52L: "+4.3%", status: "NEAR 52wL — will test" }
-  - { ticker: MONY.L, price: "167.10p", avg: "169.98p", pnl: "-1.7%", vs52H: "-25.7%", vs52L: "+19.6%", status: "SELLOFF -2.9% — NOW NEGATIVE" }
-  - { ticker: AUTO.L, price: "485.00p", avg: "486.86p", pnl: "-0.4%", vs52H: "-47.3%", vs52L: "+6.7%", status: "SELLOFF -1.6% — NOW NEGATIVE" }
-  - { ticker: BYIT.L, price: "299.20p", avg: "299.40p", pnl: "-0.1%", vs52H: "-46.9%", vs52L: "+5.6%", status: "SELLOFF -1.4% — NOW NEGATIVE" }
-  - { ticker: FTNT, price: "$79.03*", avg: "$79.12", pnl: "-0.1%", vs52H: "-28.6%", vs52L: "+12.7%", status: "CYBERSEC — may hold up" }
-  - { ticker: HLNE, price: "$104.94*", avg: "$104.88", pnl: "+0.1%", vs52H: "-41.4%", vs52L: "+7.1%", status: "NEAR 52wL — vulnerable" }
-  - { ticker: ADBE, price: "$262.41*", avg: "$264.73", pnl: "-0.9%", vs52H: "-42.1%", vs52L: "+7.4%", status: "TECH — will gap down" }
-  - { ticker: IHP.L, price: "313.55p", avg: "323.00p", pnl: "-2.9%", vs52H: "-21.1%", vs52L: "+19.2%", status: "SELLOFF -1.4%" }
-  - { ticker: NVO, price: "$37.45*", avg: "$48.13", pnl: "-22.2%", vs52H: "-59.2%", vs52L: "+0.4%", status: "AT 52wL — WORST. May break." }
-  # * = Friday close, will update Monday close
+  - ticker: FTNT
+    event: "Investor Day / Accelerate 2026"
+    date: "2026-03-10 (Mon 3pm PT)"
+    impact: CRITICAL
+    framework_ready: true
+    decision: "GDDY rotation depends on outcome."
 
-# =============================================================================
-# STANDING ORDER PROXIMITY (UPDATED for Iran selloff — distances TIGHTER)
-# If selloff continues 2-3 days at -1.5%/day, several SOs approach trigger
-# =============================================================================
+  - event: "US CPI"
+    date: "2026-03-10 (Tue)"
+    impact: HIGH
+    notes: "Oil $91 may feed into CPI. Hot CPI = risk-off amplifier."
 
-standing_order_proximity:
-  nearest_to_trigger:
-    - { ticker: SPGI, price: "$441.88*", trigger: "<=$420", distance: "5.0%*", est_monday_distance: "3.5-4.0%", status: "GATED (Q1 earnings). APPROACHING." }
-    - { ticker: RACE.MI, price: "EUR 313.00", trigger: "<=EUR 295", distance: "5.8%", status: "ACTIVE. APPROACHING. Luxury hit." }
-    - { ticker: DNLM.L, price: "992p", trigger: "<=950p", distance: "4.2%", status: "BORDERLINE. UK#6 gate. Pulled in from 5.8%." }
-    - { ticker: HALO, price: "$69.53*", trigger: "<=$65", distance: "6.5%*", status: "GATED (Merck PTAB Jun). Pharma may hold up." }
-    - { ticker: MSA, price: "$195.41*", trigger: "<=$183", distance: "6.4%*", status: "GATED (needs R1). Safety equip = defensive." }
-    - { ticker: SEIC, price: "$81.32*", trigger: "<=$76", distance: "6.5%*", status: "GATED (needs R1). Moderate beta." }
-    - { ticker: TW, price: "$123.25*", trigger: "<=$110", distance: "10.7%*", status: "GATED (Q1+Elliott). Widened from 7.9%." }
-    - { ticker: ACGL, price: "$100.15*", trigger: "<=$88", distance: "12.1%*", status: "ACTIVE. Insurance = defensive. Widened." }
-    - { ticker: PEGA, price: "$43.73*", trigger: "<=$38", distance: "13.1%*", status: "GATED (Appian). Tech = higher drop." }
-    - { ticker: QLYS, price: "$92.47*", trigger: "<=$82", distance: "11.3%*", status: "GATED (Q1 billings). Cybersec = relative safe." }
-  # * = Friday close; Monday repricing will shift these
+  - ticker: ADBE
+    event: "Q1 FY2026 Earnings"
+    date: "2026-03-11 (Wed after close)"
+    impact: CRITICAL
+    framework_ready: true
+    notes: "8.9% position. Consensus EPS $5.87. Bear/Base/Bull framework ready."
 
 # =============================================================================
-# WATCHLIST TICKERS STATUS
+# STANDING ORDER PROXIMITY
 # =============================================================================
-
-watchlist_status:
-  - { ticker: RACE.MI, price: "EUR 313.00", vs_feb28: "-2.6%", note: "APPROACHING trigger. R4 approved." }
-  - { ticker: SPGI, price: "$441.88*", vs_feb28: "0.0%*", note: "APPROACHING trigger. Will gap down Mon. GATED." }
-  - { ticker: REN.AS, price: "EUR 29.20", trigger: "EUR 24.50", distance: "19.2%", note: "Data = defensive. Far from trigger." }
-  - { ticker: KLR.L, price: "1992p", trigger: "1700p", distance: "14.6%", note: "FY2025 RESULTS TOMORROW. Infrastructure upside from defense narrative." }
-  - { ticker: HALO, price: "$69.53*", trigger: "$65", distance: "6.5%*", note: "GATED on Merck PTAB. Pharma defensive." }
-  - { ticker: PEGA, price: "$43.73*", trigger: "$38", distance: "13.1%*", note: "GATED. Tech = vulnerable. Could approach." }
-  - { ticker: TW, price: "$123.25*", trigger: "$110", distance: "10.7%*", note: "GATED. Trading infrastructure = moderate hit." }
-
-# =============================================================================
-# RISK CLUSTERS
-# =============================================================================
-
-risk_clusters:
-  - name: "GEOPOLITICAL EXPOSURE — ALL POSITIONS"
-    tickers: "ALL 14"
-    note: |
-      No position has DIRECT Iran/oil exposure. Impact is purely risk-off sentiment.
-      Portfolio is defensive-tilted: insurance (GL), comparison (MONY.L), software (ADBE/FTNT),
-      data (MORN/SPGI pipeline). Consumer (LULU, DOM.L) = slightly higher beta.
-      Cybersecurity (FTNT) = potential beneficiary. Pharma (NVO) = defensive but idiosyncratic issues.
-
-  - name: "UK concentration (5 positions) — Iran selloff day 1"
-    tickers: ["DOM.L", "MONY.L", "AUTO.L", "IHP.L", "BYIT.L"]
-    combined_change: "-1.4% to -2.9% (all negative)"
-    note: "Correlated selloff. FTSE 250 -1.7%. UK positions tracking index. DOM.L FY25 results Mar 5."
-
-  - name: "Near 52wL cluster — ELEVATED RISK with selloff"
-    tickers: ["NVO", "DOCS", "HLNE"]
-    note: |
-      All three within 8% of 52wL. Iran selloff adds -1.5% to -2.5%.
-      NVO could BREAK 52wL today. DOCS could test $23.53. HLNE could test $100.
-      These are the positions most at risk of new lows.
-
-  - name: "ON PROBATION — watch for damage"
-    tickers: ["LULU", "BYIT.L"]
-    note: "Iran selloff is temporary but adds pressure. LULU Mar 31 Q4. BYIT.L May FY2026."
+so_proximity:
+  near_trigger:
+    - { ticker: GDDY, distance: "-4.4%", note: "BELOW trigger $90. R4 CONDITIONAL. Depends on FTNT." }
+    - { ticker: DNLM.L, distance: "1.9%", note: "Near 950p. UNBLOCKED." }
+    - { ticker: HALO, distance: "3.5%", note: "Near $65. GATED Merck PTAB Jun 2026." }
+    - { ticker: BZU.MI, distance: "3.7%", note: "Near EUR 42. R4 APPROVED." }
+    - { ticker: KNSL, distance: "4.6%", note: "Near $355. GATED Q1 GWP." }
+    - { ticker: STMN.SW, distance: "5.6%", note: "Near CHF 80. GATED GM >= 70%." }
+  short_orders:
+    - { ticker: CVNA, status: "VIX 29 > 28 gate. Price in range. BLOCKED." }
+    - { ticker: TSLA, status: "GATED. Waiting Q1 deliveries April." }
 
 # =============================================================================
-# DATA QUALITY NOTES
+# HORMUZ CRISIS PORTFOLIO IMPACT
 # =============================================================================
-
-data_corrections:
-  - "GL yield 74.0% — yfinance anomaly (actual ~0.8%)"
-  - "SPGI yield 88.0% — yfinance anomaly"
-  - "PEGA yield 27.0% — yfinance anomaly"
-  - "TW yield 45.0% — yfinance anomaly"
-  - "US prices are FRIDAY CLOSE — have not repriced Iran event yet. Mark with * in summaries."
+hormuz_impact:
+  oil_wti: "$91 (+10% weekly)"
+  strait_status: "Effectively closed. 20% global oil disrupted."
+  portfolio_direct_energy_exposure: ZERO
+  positive: [FTNT, TW]
+  neutral: [EDEN.PA, ADBE, MONY.L, DOCS, WKL.AS]
+  mild_negative: [AUTO.L, NVO, IHP.L, HLNE]
+  net_assessment: "MODERATE risk from sentiment contagion only. No structural oil exposure."
 
 # =============================================================================
 # META-REFLECTION
 # =============================================================================
-
 meta_reflection:
-  movements_without_explanation:
-    - "NONE — all movements explained by Iran geopolitical event (market-wide)."
-    - "MONY.L -2.9% = largest UK position pullback but within FTSE 250 -1.7% range. Consumer-facing = higher beta."
-    - "EDEN.PA -0.1% = surprisingly resilient. French B2B services, limited direct exposure."
+  movements_without_explanation: []
 
-  correlations_detected:
-    - "ALL 5 UK positions correlated negative (-1.4% to -2.9%) — market-wide Iran selloff. FTSE 250 -1.7%."
-    - "EDEN.PA outperforming UK names — different market, B2B vs consumer-facing."
-    - "Expect ALL US positions to gap down -1.5% to -3.0% at Monday open."
-    - "Cybersecurity (FTNT) and insurance (GL) may show relative strength vs discretionary (LULU) and growth (HLNE)."
+  correlations:
+    - "NVO/DOCS/WKL.AS all near 52w lows — DIFFERENT causes. Not correlated."
+    - "4 positions MoS <10%: HLNE 3.1%, FTNT 4.9%, TW 7.7%, MONY.L 9.0% — cluster near FV."
 
-  anomalies_data:
-    - "NVO at $37.45 = 0.4% from 52wL $37.31. With -1.5% market gap down, WILL LIKELY BREAK 52wL."
-    - "DOCS at $24.53 = 4.3% from 52wL. Could test with -2% gap down."
-    - "HLNE at $104.94 = 7.1% from 52wL. Vulnerable but some buffer."
-    - "RACE.MI at EUR 313 — now only 5.8% from BUY trigger EUR 295. Iran selloff bringing it closer."
-    - "DNLM.L at 992p — now 4.2% from trigger 950p (was 5.8%). BUT UK#6 gate applies."
-    - "SPGI at $441.88 — ~5% from trigger $420. Will compress further at US open."
+  data_anomalies:
+    - "TW yield 45.0% — yfinance data issue, not real."
 
-  new_information_since_last_scan:
-    - |
-      CRITICAL: US-Israel launched Operation Epic Fury on Iran (Feb 28). Khamenei killed.
-      Iran retaliating with missiles on Israel + Gulf states. Strait of Hormuz effectively closed.
-      Oil surged 8-13%. Global equities in risk-off mode. SPY futures -1.7%, Nasdaq -2.0%.
-      This is the most significant geopolitical event since Russia-Ukraine Feb 2022.
-    - "KLR.L FY2025 results TOMORROW Mar 3 — HARD GATE for SO."
-    - "DOM.L FY2025 results Mar 5 — KC#1 check (EBITDA >= GBP 125M)."
-    - "RACE.MI moved to EUR 313 (-2.6%) — APPROACHING trigger EUR 295."
-    - "SPGI at $441.88 — nearing $420 SO trigger, especially with Monday gap down."
-
-  key_watchpoints:
-    - "IRAN ESCALATION: if Hormuz stays closed >72h, oil could go $90-100. If resolved quickly, V-recovery."
-    - "NVO 52wL BREAK: $37.31 support likely to break today. Watch for acceleration below $35."
-    - "SO TRIGGERS: RACE.MI (5.8%), SPGI (5.0%), DNLM.L (4.2%) all APPROACHING. If selloff deepens 2-3 more days, one or more could trigger."
-    - "KLR.L results Mar 3: gate check. DOM.L results Mar 5: KC#1 check."
-    - "FTNT relative strength: cybersecurity demand rises during geopolitical tension."
-    - "Monitor duration of crisis — if contained in days, this is a BUYING opportunity. If escalates, reduce exposure."
+  key_risks:
+    - "ADBE earnings Wed — 8.9% position. Bear -7.7% = -0.69% portfolio."
+    - "FTNT Investor Day Mon — GDDY rotation trigger."
+    - "CPI Tue — hot CPI + oil $91 = broad sell-off risk."
+    - "VIX 29 — elevated but not extreme. CVNA short blocked."
 
   suggestions:
-    - |
-      DO NOT SELL into the selloff. Portfolio has ZERO direct Iran/oil exposure. All names are quality
-      businesses with strong moats. Geopolitical selloffs in quality names = historically the best buying
-      opportunities.
-    - |
-      PREPARE TO ACT: if selloff deepens -5% to -10% this week:
-      - RACE.MI could hit EUR 295 trigger = DEPLOY EUR 350
-      - SPGI could approach $420 = monitor gate (Q1 earnings not met yet)
-      - Quality names at 52wL (HLNE, DOCS) could become ADD candidates
-      - EUR 4,042 cash = 39% = AMPLE dry powder for deployment
-    - "FTNT positioning: consider this a relative winner in a geopolitical crisis portfolio."
-    - "NVO re-evaluation STILL needed for 50% price cut. Iran overlay makes timing worse but thesis review remains necessary."
-    - "KLR.L results tomorrow: if PASS (OP margin >=6.5% + OB >=1.4B), SO becomes valid. Infrastructure/defense spend narrative strengthened by Iran."
+    - "No pre-earnings action needed on ADBE. Framework ready."
+    - "Watch FTNT Investor Day closely. GDDY rotation decision immediately after."
+    - "If broad sell-off from CPI: OPPORTUNITY for BZU.MI/DNLM.L/HALO SO fills."
+    - "If VIX drops below 28: CVNA short entry available (price in $290-330 range)."
+    - "4 LOW MoS positions are rotation candidates if pipeline delivers higher E[CAGR] options."
