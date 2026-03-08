@@ -34,8 +34,8 @@ completed:
   net_exposure_note: "100/0/0. Unchanged."
   rotation_check: true
   rotation_note: "Rotation hierarchy: FTNT 9.7% (worst, investor day Mon) > AUTO.L 12.1% (LOW conviction) > MONY.L 12.5% (yield, FIRST rotation candidate) > HLNE 13.1% > TW 13.2%."
-  velocity_units: 22
-  velocity_note: "Prior 18 + rotation plan (1) + momentum impl (1) + insider scan (1) + COIN S1 (1) = 22 velocity units."
+  velocity_units: 24
+  velocity_note: "Prior 22 + rotation execution plan (1) + short readiness assessment (1) = 24 velocity units."
   portfolio_ecagr:
     deployed: 17.4%
     blended: 17.4%
@@ -118,6 +118,10 @@ handoff:
     - "INSIDER SCAN: HLNE $3.2M cluster buy (HOLD). TW $37M selling RED FLAG (elevated to R2 rotation)."
     - "MOMENTUM FACTOR: Added Mtm6m column + tiebreaker to r1_prioritizer.py. Quality+momentum."
     - "Crisis: Hormuz closed. Oil ~$91. VIX ~29."
+    - "ROTATION EXECUTION PLAN: R0 Mon SELL AUTO.L(EUR 370)→ADD EDEN.PA. R0 Mon PM FTNT if bear→SELL→ADD ADBE. R2 TW Apr Q1. R3 MONY.L when ready."
+    - "SHORTS READINESS: CVNA S4 approved, WITHIN price range $290-330, VIX 26 BORDERLINE (<28 gate). Execute when VIX settles. TSLA GATED until Apr Q1 deliveries."
+    - "30% TARGET ANALYSIS: Math requires EDEN 30%+ allocation OR finding 2-3 more 25%+ E[CAGR] stocks OR crash creating mass entry. Screening rate-limited — retry fresh session."
+    - "SCREENER RATE-LIMITED: yfinance rate limits from S149 heavy scanning (914 tickers). Retry sp500/stoxx600 screens in fresh session."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
