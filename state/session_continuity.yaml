@@ -34,8 +34,8 @@ completed:
   net_exposure_note: "100/0/0. Unchanged."
   rotation_check: true
   rotation_note: "Rotation hierarchy: FTNT 9.7% (worst, investor day Mon) > AUTO.L 12.1% (LOW conviction) > MONY.L 12.5% (yield, FIRST rotation candidate) > HLNE 13.1% > TW 13.2%."
-  velocity_units: 18
-  velocity_note: "Prior 14 + SAF.PA R1 (1) + MEDI.OL R1 (1) + concentration analysis (1) + short screen (1) = 18 velocity units."
+  velocity_units: 22
+  velocity_note: "Prior 18 + rotation plan (1) + momentum impl (1) + insider scan (1) + COIN S1 (1) = 22 velocity units."
   portfolio_ecagr:
     deployed: 17.4%
     blended: 17.4%
@@ -82,16 +82,16 @@ three_questions:
 handoff:
   next_session_priorities:
     P0:
-      - "ROTATION: SELL AUTO.L → ADD ADBE at market open Monday. +6.1pp E[CAGR] improvement."
-      - "FTNT Investor Day (Mon Mar 10): Process outcome with Section 9 framework. DA complete (MODERATE COUNTER, ROTATION CANDIDATE)."
+      - "ROTATION R0: SELL AUTO.L → ADD ADBE at market open Monday. +6.1pp E[CAGR] improvement."
+      - "ROTATION R1: FTNT Investor Day (Mon Mar 10). If BEAR → SELL same day. If BULL → HOLD."
     P1:
-      - "CPI (Tue Mar 11): Oil $91 = hot CPI risk. Portfolio 22.8% HIGH vulnerability (ADBE, HLNE, AUTO.L)."
+      - "CPI (Tue Mar 11): Oil $91 = hot CPI risk. Portfolio 22.8% HIGH vulnerability."
       - "ADBE Q1 FY2026 earnings (Wed Mar 12): PASS/CONDITIONAL/FAIL. Framework 100% ready."
+      - "ROTATION R2: TW — $37M insider selling RED FLAG. If Q1 disappoints (Apr) → rotate to VRSN/pipeline."
     P2:
-      - "SAF.PA R1 DONE. WATCHLIST EUR 260. R2 (DA) when approaching entry."
-      - "MEDI.OL R1 DONE. WATCHLIST NOK 205. Monitor for entry. eToro confirmed."
+      - "ROTATION R3: MONY.L — yield anchor, only rotate when replacement E[CAGR] >15% AND buyable."
+      - "COIN S1 short thesis — agent output pending."
       - "Score CEG + CCJ (nuclear/AI energy basket seeds). If both QS ≥70 → propose basket."
-      - "COIN S1 short thesis — crypto fragility + BTC -40%. Next session."
       - "FOUR.L FY2025 results (Mar 18): HARD GATE for SO."
     P3:
       - "HLNE ex-div Mar 20, MONY.L ex-div Mar 26."
@@ -114,6 +114,9 @@ handoff:
     - "MEDI.OL R1 COMPLETE: QS 85adj Tier A, FV NOK 272, WATCHLIST NOK 205. Cardiac monopoly, eToro confirmed."
     - "Concentration: HHI 1193, Spearman 0.818. Gap to 30% is quality gap, not concentration."
     - "Short screen: COIN best new S1 candidate. PLTR/SHOP/UBER = Tesla Trap (improving fundamentals)."
+    - "FORMAL ROTATION PLAN: R0 AUTO.L(Mon) → R1 FTNT(Mon PM) → R2 TW(Apr Q1) → R3 MONY.L(when ready)."
+    - "INSIDER SCAN: HLNE $3.2M cluster buy (HOLD). TW $37M selling RED FLAG (elevated to R2 rotation)."
+    - "MOMENTUM FACTOR: Added Mtm6m column + tiebreaker to r1_prioritizer.py. Quality+momentum."
     - "Crisis: Hormuz closed. Oil ~$91. VIX ~29."
 
 r1_cooldowns:
