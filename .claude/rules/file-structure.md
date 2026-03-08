@@ -52,6 +52,7 @@ Analisis profundos por sector que complementan la vision macro. Ubicados en `wor
 | cybersecurity.md | FTNT (pipeline, R1 complete) |
 | defense-aerospace.md | (pipeline only) |
 | digital-marketplaces.md | MONY.L, AUTO.L |
+| education-services.md | LOPE (R1 complete, R2 pending) |
 | energy.md | (pipeline only) |
 | environmental-water.md | (pipeline only) |
 | financial-data-analytics.md | (pipeline only) |
