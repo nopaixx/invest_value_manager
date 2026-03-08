@@ -537,6 +537,138 @@ This exceeds the 12% threshold for Tier A market buy per E[CAGR] framework (P14,
 
 ---
 
+## 9. Q1 FY2026 EARNINGS FRAMEWORK (April 2026)
+
+> Earnings date: **April 29, 2026** (confirmed)
+> Last updated: 2026-03-08
+> Context: Bought 2026-03-07 at $124.59. FV $135 (R3 refresh). E[CAGR] 13.2%.
+> Macro: Hormuz crisis ongoing, oil $91, VIX ~30. TW is NEUTRAL-to-POSITIVE — fixed income volumes typically rise in crisis environments.
+
+### 9.1 KEY METRICS TO WATCH
+
+**Real-time Q1 read-through (available before earnings):**
+- January 2026 ADV: $3.1T (+26.2% YoY) — RECORD. Revenue +17% YoY.
+- February 2026 ADV: $3.1T (+23.4% YoY) — near-record. Rates derivatives +38.9%, EU govies +34.5%, credit +13-21%.
+- March 2026 data: expected early April. Hormuz crisis should BOOST fixed income volumes.
+
+**Q1 consensus estimates:**
+
+| Metric | Consensus Est. | Thesis Expectation | Bull | Bear |
+|--------|---------------|-------------------|------|------|
+| Revenue | ~$570-580M | $575-590M | $600M+ | $545-555M |
+| Adj. EPS | ~$0.90-0.95 | $0.92-0.98 | $1.00+ | $0.82-0.87 |
+| ADV (avg Q1) | $3.0-3.1T | $3.1-3.2T | $3.3T+ | $2.8-2.9T |
+| Revenue Growth YoY | ~15-17% | 16-19% | 20%+ | 10-12% |
+| CC Revenue Growth | ~13-15% | 14-17% | 18%+ | 8-10% |
+
+**Critical line items:**
+
+| Metric | Q4 2025 | Q1 Expectation | Why It Matters |
+|--------|---------|----------------|----------------|
+| Rates Revenue | $279.1M | $290-310M | Core business. ADV +33.5% Q4, +38.9% Feb. |
+| Credit Revenue | $118.4M | $115-130M | THE DA RISK. Q4 CC low single digits. RPM -14%. |
+| RPM - Rates | Down 5% YoY | -3% to -7% | Structural mix shift. TOLERABLE if volume offsets. |
+| RPM - Credit | Down 14% YoY | -10% to -16% | KC#3 RISK. If credit rev declines despite ADV growth = thesis weakens. |
+| Operating Margin | 53.2% | 52-54% | Mgmt guides "more muted" expansion. Must stay >50%. |
+| Subscription Revenue | $95.8M | $98-102M | Fixed, recurring. Signals platform lock-in. |
+
+### 9.2 SCENARIO MATRIX
+
+**PASS** (Thesis Confirmed — HOLD):
+- Revenue >= $570M (+15% YoY), CC growth >= 12%
+- RPM decline in rates <= 7% AND total rates revenue growth >= 15%
+- Credit revenue does NOT decline YoY
+- Adj EBITDA margin >= 52%
+- No LSEG stake change
+- **Action:** Maintain position. ADD if price dips below $120. FV $135-140.
+
+**CONDITIONAL** (Mixed — HOLD with monitoring):
+- Revenue $545-570M (growth 10-15%)
+- CC growth 8-12% (below thesis, second consecutive Q)
+- RPM compression in credit > 16% (accelerating)
+- EBITDA margin 50-52%
+- **Action:** Do NOT add. FV → $125-130. 90-day review timer. If Q2 also CONDITIONAL → EXIT protocol.
+
+**FAIL** (EXIT protocol triggered):
+- Revenue < $545M (growth < 10%)
+- CC growth < 8% (third deceleration data point)
+- Revenue DECLINES despite ADV growth → KC#3 TRIGGERED
+- Operating margin < 38% → KC#5 TRIGGERED
+- LSEG disorderly sale > 20% → KC#4 TRIGGERED
+- **Action:** EXIT protocol immediately. Sell within 5 days if KC triggered.
+
+### 9.3 KC MAPPING TO Q1 DATA
+
+| KC | Risk Level | Q1 Signal |
+|----|-----------|-----------|
+| KC#1 Electronification reversal | **LOW** | Jan/Feb ADV records. No reversal signal. |
+| KC#2 ADV growth negative 2Q | **NO RISK** | Jan +26%, Feb +23%. Q1 positive virtually certain. |
+| KC#3 Rev declines despite ADV growth | **MEDIUM** | Credit RPM -14% Q4. Watch credit revenue line specifically. |
+| KC#4 LSEG forced sale >20% | **LOW-MEDIUM** | Elliott activism at LSEG is catalyst. Monitor LSEG commentary. |
+| KC#5 Op margin <38% for 2Q | **NO RISK** | 53.2% Q4, 1500bps buffer. |
+| KC#6 Major dealer defection | **LOW** | No competitive signals from Jan/Feb data. |
+| KC#7 Canton Network write-down | **LOW** | $243M position. Below threshold unless total loss. |
+| KC#8 ROIC < WACC (9%) for 2Q | **NO RISK** | ROIC 16.6%. Would require massive earnings collapse. |
+
+### 9.4 FV SENSITIVITY
+
+| Scenario | CC Growth | Growth Assumption | New FV | E[CAGR] | Action |
+|----------|----------|-------------------|--------|---------|--------|
+| BEAR | 8-10% | 7% | $110-115 | 5-7% | EXIT or heavy trim |
+| CONDITIONAL | 10-13% | 8% | $120-130 | 9-12% | HOLD. No ADD. |
+| BASE | 14-17% | 10% | $135 | 13.2% | HOLD. Confirmed. |
+| BULL | 18%+ | 12% | $145-155 | 16-20% | ADD if MoS >15% |
+
+**RPM sensitivity:** If Q1 shows RPM stabilization (rates flat, credit -8% or less) → FV $140-145. If RPM acceleration (-8%+ rates, -18%+ credit) → FV $115-120 regardless of volume.
+
+### 9.5 PRE-EARNINGS DECISION TREE
+
+```
+STEP 0: READ MARCH MONTHLY DATA (early April)
+  ├── March ADV > $3.0T + YoY > 15%? → Pre-bias BULLISH
+  └── March ADV deceleration? → Pre-bias CAUTIOUS
+
+STEP 1: EARNINGS DAY (April 29)
+  ├── CC Growth >= 15% → PASS. HOLD. FV $135 confirmed.
+  ├── CC Growth 10-15% → CONDITIONAL. Check RPM. FV $125-130.
+  └── CC Growth < 10% → FAIL risk. Check all KCs.
+  │
+  ├── RPM improving/stable → Strongest bull signal
+  ├── Credit RPM -14%+ → DA risk materializing
+  └── ALL RPMs accelerating decline → EXIT risk
+  │
+  ├── LSEG: No change → OK
+  ├── LSEG: Orderly secondary <10% → OK
+  └── LSEG: Strategic review / large sale → KC#4 watch. Trim to 2%.
+
+STEP 2: POST-EARNINGS (within 48h)
+  ├── PASS → Confirm $135 FV. ADD if drops >10%.
+  ├── CONDITIONAL → 90-day timer. No ADD. Monitor Q2.
+  └── FAIL → EXIT protocol. Sell within 5 days if KC triggered.
+```
+
+### 9.6 HORMUZ CRISIS IMPACT (Q1-SPECIFIC)
+
+Net POSITIVE for TW Q1 volumes:
+1. **Fixed income flight to quality** — US Treasury ADV elevated (investors rotate equities → bonds)
+2. **Rate volatility** — VIX ~30, oil >$90, CPI uncertainty = more hedging via interest rate swaps (+38.9% Feb)
+3. **Credit widening** — More credit trading, but also more RPM pressure from dealer risk management
+4. **FX hedging** — International revenue (42%) benefits from DXY weakness + increased hedging
+
+**Tail risk:** Credit market freeze (like Mar 2020). Monitor HY CDX index, IG spreads, ETF discounts to NAV.
+
+### 9.7 MONITORING CALENDAR
+
+| Date | Item | Action |
+|------|------|--------|
+| Early April | March 2026 Monthly Activity Report | Calculate Q1 avg ADV. Compare Jan/Feb. |
+| March 18 | FOMC Decision | Rate hold certain. Watch hawkish tone → bond vol → TW tailwind. |
+| Ongoing | LSEG / Elliott updates | Any TW stake commentary. |
+| Pre-earnings | Consensus tracking | If EPS rises above $0.95, beat becomes harder. |
+| April 29 | Q1 2026 Earnings | Execute decision tree above. |
+
+---
+
 ## Sources
 
 - [Tradeweb Q4 and FY2025 Earnings Press Release](https://www.businesswire.com/news/home/20260203654712/en/Tradeweb-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results)
