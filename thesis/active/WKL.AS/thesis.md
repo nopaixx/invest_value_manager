@@ -419,33 +419,31 @@ The 10% that faces structural risk (generic legal research) is already reflected
 2. **Cloud software growth decelerates below 5%** -- would signal AI alternatives gaining traction in the workflow layer.
 3. **CCH Axcess or UpToDate loses a major institutional client to an AI-native competitor** -- would be first concrete evidence of workflow displacement.
 4. **FCF margin contracts below 15%** -- would signal structural margin pressure from competition.
-5. **Management abandons AI integration strategy** or makes value-destructive acquisition to "pivot."
-6. **Net debt exceeds 3.5x EBITDA** -- balance sheet deterioration.
-7. **AI tax/compliance plugins achieve real enterprise adoption** (TR CoCounsel 1M users but mostly legal. Monitor for tax/compliance crossover.)
-8. **ROIC falls below WACC** (~9-11%) -- would signal moat erosion.
-9. **Stock below DA bear FV (EUR 60) for 4+ consecutive weeks** -- market may see something we don't.
-10. **Harvey AI reaches >$500M ARR** -- signals AI legal tools gaining critical mass.
-11. **Claude/GPT gains IRS e-filing certification** -- direct threat to tax compliance workflow.
-12. **Net debt exceeds 2.5x EBITDA** (R3 S147c2 — tighter than KC#6, given capital returns exceeding FCF. Currently 2.0x.)
-13. **OpenEvidence achieves >100 hospital system contracts** (R3 S147c2 — direct threat to UpToDate installed base, 27% of WKL revenue.)
+5. **R&D/Revenue falls below 7% for 2 consecutive years** -- would signal management underinvesting in AI defense (currently ~11%). Replaced vague "abandons AI strategy" with measurable threshold.
+6. **AI tax/compliance plugins achieve real enterprise adoption** (TR CoCounsel ~1M users but mostly legal. Monitor for tax/compliance crossover.)
+7. **ROIC falls below WACC** (~9-11%) -- would signal moat erosion.
+8. **Claude/GPT gains IRS e-filing certification** -- direct threat to tax compliance workflow.
+9. **Net debt exceeds 2.5x EBITDA** (R3 S147c2. Currently 2.0x. Supersedes old KC#6 at 3.5x.)
+10. **Harvey AI reaches >$500M ARR** -- signals AI legal tools gaining critical mass. DORMANT (private company, estimated only).
+11. **OpenEvidence achieves >100 hospital system contracts** (R3 S147c2 — direct threat to UpToDate installed base, 27% of WKL revenue.) DORMANT (private, unverifiable).
 
-### Kill Conditions Status (2026-03-08, post-FY2025 results)
+*Removed: KC#6 old (3.5x debt, superseded by KC#9/new), KC#9 old (price-based KC violated sell-on-thesis-not-price principle).*
+
+### Kill Conditions Status (2026-03-08, post-FY2025 results, consolidated from 13→11)
 
 | KC# | Condition | Status | Notes |
 |-----|-----------|--------|-------|
 | 1 | Organic revenue growth negative 2Q | **CLEAR** | FY2025 organic growth 5-6%. H1 2025 +6%. Consistent with historical range. |
 | 2 | Cloud software growth <5% | **CLEAR** | Cloud software growing +15% organically (H1 2025). Well above threshold. |
-| 3 | CCH Axcess/UpToDate loses major client to AI | **CLEAR** | No reported major client losses. CCH Axcess Expert AI launched Oct 2025. UpToDate Expert AI launched Sep 2025. Both integrating AI. |
+| 3 | CCH Axcess/UpToDate loses major client to AI | **CLEAR** | No reported major client losses. CCH Axcess Expert AI launched Oct 2025. UpToDate Expert AI launched Sep 2025. |
 | 4 | FCF margin <15% | **CLEAR** | FCF margin 22.7% (FY2024). Well above threshold. |
-| 5 | Management abandons AI strategy | **CLEAR** | OPPOSITE — management actively investing in AI (CCH Axcess Expert AI, UpToDate Expert AI). No value-destructive M&A. |
-| 6 | Net debt >3.5x EBITDA | **CLEAR** | Net debt 2.0x EBITDA. Below even tighter KC#12 threshold (2.5x). |
-| 7 | AI tax/compliance plugins achieve enterprise adoption | **MONITORING** | TR CoCounsel ~1M users but mostly legal, not tax/compliance. Claude/GPT not certified for tax filing. Risk real but not yet materialized. |
-| 8 | ROIC <WACC (~9-11%) | **CLEAR** | ROIC 18.1% vs WACC 8.5%. +9.6pp spread. Healthy. |
-| 9 | Stock below DA bear FV (EUR 60) 4+ weeks | **CLEAR** | Current EUR 68.52. Was below EUR 60 briefly in Feb crash but recovered. Not sustained. |
-| 10 | Harvey AI >$500M ARR | **CLEAR** | Harvey estimated ~$100-150M ARR. Growing but well below $500M threshold. Monitor. |
-| 11 | Claude/GPT gains IRS e-filing certification | **CLEAR** | No AI platform has IRS e-filing certification. Regulatory barrier intact. |
-| 12 | Net debt >2.5x EBITDA (tighter) | **CLEAR** | Net debt 2.0x. Capital returns exceeding FCF is yellow flag but ratio still below threshold. |
-| 13 | OpenEvidence >100 hospital contracts | **CLEAR** | OpenEvidence small. Exact contract count unknown but estimated <20. No material threat to UpToDate installed base yet. |
+| 5 | R&D/Revenue <7% for 2yr | **CLEAR** | R&D/Revenue ~11%. Investing actively in AI. Well above threshold. |
+| 6 | AI tax/compliance plugins enterprise adoption | **MONITORING** | TR CoCounsel ~1M users but mostly legal, not tax/compliance. Risk real but not materialized. |
+| 7 | ROIC <WACC (~9-11%) | **CLEAR** | ROIC 18.1% vs WACC 8.5%. +9.6pp spread. Healthy. |
+| 8 | Claude/GPT gains IRS e-filing certification | **CLEAR** | No AI platform has IRS e-filing certification. Regulatory barrier intact. |
+| 9 | Net debt >2.5x EBITDA | **CLEAR** | Net debt 2.0x. Below threshold. Capital returns exceeding FCF = yellow flag. |
+| 10 | Harvey AI >$500M ARR | **DORMANT** | Harvey estimated ~$100-150M ARR. Private, estimated only. Well below threshold. |
+| 11 | OpenEvidence >100 hospital contracts | **DORMANT** | Estimated <20 contracts. Private, unverifiable. No material threat yet. |
 
 ---
 
