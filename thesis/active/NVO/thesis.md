@@ -515,7 +515,7 @@ Given QS 82 (Tier A) but elevated near-term uncertainty:
 | 5. Margin of Safety | PASS | 38% >> 15-20% required |
 | 6. Macro Context | PASS | Healthcare defensive, pharma neutral in world view |
 | 7. Portfolio Fit | TBD | Check vs current holdings |
-| 8. Autocrítica | PASS | See META-REFLECTION below |
+| 8. Autocritica | PASS | See META-REFLECTION below |
 
 ### Recommendation
 
@@ -702,6 +702,159 @@ Principle 6: "Vender Requiere Argumento" — selling needs a positive case for s
 
 ---
 
+## Section 9: Q1 FY2026 Earnings Framework (May 6, 2026)
+
+*Built: 2026-03-08 (S150). Novo Nordisk reports Q1 FY2026 results on May 6, 2026 at 07:30 CEST. This is the FIRST quarter with Wegovy oral pill contribution and the first report since CagriSema REDEFINE 4 failure (Feb 23). Earnings call will be the most important NVO event since position entry.*
+
+### Context: Why Q1 Matters
+
+NVO is our 11.4% position at LOW conviction with KC#1 TRIGGERED (CagriSema inferior to Zepbound). The thesis now rests entirely on the base business -- Ozempic/Wegovy franchise generating $42B+ revenue and $10B+ FCF -- plus Wegovy oral pill as the offset to CagriSema weakness. Q1 is the first real test of whether the "2026 is trough, not trend" counter-thesis holds. Management guided -5% to -13% sales decline for FY2026 (first decline in 25 years). If Q1 comes in at the mild end of guidance (or beats), confidence in the trough narrative increases materially. If Q1 confirms the -13% end, the bear case probability rises and the position needs re-evaluation.
+
+**FY2025 baseline:** Revenue DKK 309.1B (+6% DKK, +10% CER), Operating Income DKK 130B (42% OP margin), Gross Margin ~82% (FY avg, declining from 85%), EPS DKK 23.33.
+
+**FY2026 guidance:** Sales growth -5% to -13% CER (DKK impact ~3pp worse). Operating profit growth -5% to -13% CER. First revenue decline in a decade. Driven by: Most Favoured Nations (MFN) US pricing, semaglutide patent expiry in IO markets, Eli Lilly competitive pressure.
+
+### 1. Key Metrics to Watch
+
+| Metric | FY2025 (Q4 run-rate) | Q1 Expectation | BEAT Threshold | FAIL Threshold | KC Link |
+|--------|---------------------|----------------|----------------|----------------|---------|
+| **Total Revenue (DKK)** | ~DKK 77B/quarter | DKK 70-75B | >DKK 75B (decline <-5%) | <DKK 67B (decline >-13%) | KC#8 proxy |
+| **GLP-1 Revenue** | ~DKK 55B/quarter | DKK 50-54B | >DKK 54B | <DKK 48B | Core franchise health |
+| **Wegovy Revenue (US)** | ~DKK 15B/quarter | DKK 14-17B | >DKK 17B (oral + injectable) | <DKK 12B | Thesis anchor |
+| **Wegovy Revenue (Int'l)** | ~DKK 5B/quarter | DKK 4-5B | >DKK 5.5B (international ramp) | <DKK 3.5B | Geographic diversification |
+| **Ozempic Revenue** | ~DKK 30B/quarter | DKK 27-30B | >DKK 30B (stable) | <DKK 25B (share loss accelerating) | Diabetes base erosion |
+| **Wegovy Oral Pill Rx/week** | ~50K (Jan exit rate) | 60-80K/week | >100K/week sustained | <40K/week (deceleration) | KC#6, conviction upgrade path |
+| **Gross Margin** | 82% (FY2025), 76% (Q3 2025) | 74-78% | >78% (MFN impact lighter than feared) | **<70% = KC#3 TRIGGERED** | KC#3 |
+| **Operating Margin** | 42% (FY2025) | 36-40% | >40% | <35% (cost structure issues) | Profitability trajectory |
+| **GLP-1 Market Share** | ~47-49% (estimated) | 44-48% | >48% (stabilized) | **<42% = KC#2 MONITORING ESCALATION** | KC#2 |
+| **CagriSema FDA Update** | NDA filed Dec 2025 | Any commentary on FDA review | Acceptance + standard review | Complete Response Letter (CRL) | KC#1 related |
+| **FY2026 Guidance** | -5% to -13% CER | Reiterate or narrow | Narrow to -5% to -8% | Widen to -10% to -18% | Thesis validity |
+| **Amycretin Pipeline Update** | Phase 3 initiated Q1 2026 | Enrollment commentary | Enrollment ahead of schedule | Delays / safety signals | Next-gen bridge (post-CagriSema) |
+
+### 2. Wegovy Oral Pill -- The Critical Sub-Metric
+
+The Wegovy oral pill launched January 5, 2026, and is the single most important data point for the Q1 report. Prescription trajectory from IQVIA data:
+
+| Week | Date | Rx/Week | Cumulative | Status |
+|------|------|---------|------------|--------|
+| Partial launch | Jan 5-9 | 3,071 (4 days) | 3,071 | Strong debut |
+| Week 1 | Jan 10-16 | 18,410 | 21,481 | Above internal targets |
+| Week 2 | Jan 17-23 | 26,109 | 47,590 | Accelerating |
+| Week 3+ | Jan 24-Mar | ~50K/week (est.) | ~170K+ cumulative (Feb) | Per NBC News |
+
+**What to watch in Q1 report:**
+- **Rx trajectory through March**: Did 50K/week sustain? Did it accelerate toward 80-100K? Or plateau/decelerate?
+- **Revenue contribution**: At $149/month self-pay, 170K patients = ~$25M/month = ~$75M in Q1. Not material to DKK 77B quarterly revenue yet, but TRAJECTORY matters more than absolute Q1 contribution
+- **Cannibalization signal**: Did Wegovy injectable prescriptions decline as oral ramped? If yes, gross margin drag (oral is lower-margin at $149 vs injectable ~$500+ net). If no, oral is INCREMENTAL -- thesis positive
+- **Insurance coverage rollout**: Payer adoption for oral formulation. Medicare $50/month deal with Lilly starts ~Apr 1 -- does NVO match?
+- **Conviction upgrade path**: >100K Rx/week sustained through Q1 = strongest evidence for conviction upgrade from LOW to MEDIUM
+
+### 3. Scenario Matrix
+
+| Scenario | Revenue | Wegovy Pill | Gross Margin | Share | Guidance | Probability | FV Impact |
+|----------|---------|-------------|--------------|-------|----------|-------------|-----------|
+| **BEAT** | >DKK 75B (-3% or better) | >80K Rx/week, >$100M Q1 | >78% | >47% stable | Narrow to -5% to -8% | 20% | FV $47 → $52-55. Bull reweight. |
+| **PASS** | DKK 70-75B (-5% to -8%) | 50-80K Rx/week, on track | 74-78% | 44-47% | Reiterate -5% to -13% | 45% | FV $47 maintained. HOLD confirmed. |
+| **CONDITIONAL** | DKK 67-70B (-8% to -12%) | 40-50K Rx/week plateau | 72-74% | 42-44% | Reiterate at wider end | 25% | FV $47 → $42-45. HOLD but tighten exit. |
+| **FAIL** | <DKK 67B (>-13%) | <40K Rx/week declining | **<70% = KC#3** | **<42% = KC#2 escalation** | Widen/lower guidance | 10% | FV $47 → $35-38. EXIT evaluation. |
+
+**BEAT definition -- what makes CagriSema failure "priced in"?**
+- Revenue beats the mild end of guidance (-5% or better) PLUS Wegovy pill shows >80K Rx/week trajectory PLUS market share stabilizes >47%. This combination would demonstrate that: (a) the base business is holding, (b) oral GLP-1 is a genuine revenue offset, and (c) Lilly's share gains are decelerating. The market would re-rate from "structural decline" to "trough recovery" narrative. P/E expansion from ~10x to 13-15x plausible.
+
+**FAIL definition -- what triggers further KC activation?**
+- Revenue at the ugly end of guidance (-13% or worse) would confirm the market's worst fears. Gross margin <70% triggers KC#3 directly. Market share <42% puts KC#2 in imminent danger. Guidance widening/lowering would signal management has lost visibility. Any two of these three simultaneously = EXIT evaluation mandatory.
+
+### 4. KC Mapping to Q1 Data
+
+| KC# | Condition | Q1 Data Point | Current Status | Q1 Trigger Level | Action if Triggered |
+|-----|-----------|---------------|----------------|-------------------|---------------------|
+| **KC#1** | CagriSema inferiority | FDA review update, any Advisory Committee scheduling | **TRIGGERED** (REDEFINE 4 failure) | CRL or major safety concern raised | Already triggered. CRL would compound -- consider EXIT |
+| **KC#2** | Market share <40% | Q1 prescription share data (NVO vs LLY) | **MONITORING** (~47-49%) | <42% in Q1 = trajectory to <40% by Q3 | Escalate to YELLOW. Tighten exit to 2 quarters of sub-42% |
+| **KC#3** | Gross margin <70% | Q1 gross margin print | **CLEAR** (76% Q3 2025) | <72% = one quarter from trigger | IF <70% = **TRIGGERED**. Run EXIT Protocol immediately |
+| **KC#6** | Oral GLP-1 at scale cannibalizes injectables | Wegovy injectable Rx trend + oral Rx | **MONITORING** | Injectable Rx down >15% QoQ while oral <50K = NET NEGATIVE | This is the "own goal" risk. Oral cannibalizes without replacing margin. Monitor closely |
+| **KC#8** | FY2026 rev decline >10% | Q1 revenue decline rate (annualized) | N/A (new sub-KC from guidance) | Q1 decline >-10% YoY CER | If Q1 >-10%: raises prob that FY hits ugly end of range. Ramp exit preparation |
+
+**Critical chain: If KC#2 + KC#3 approach triggers simultaneously (share <42% AND margin <72%), the compounding effect is WORSE than either alone -- it means NVO is losing share AND losing pricing power, which is the structural decline scenario. In that case, EXIT regardless of E[CAGR].**
+
+### 5. Position Action by Scenario
+
+| Scenario | Position (currently 11.4%) | Conviction | FV | Specific Actions |
+|----------|---------------------------|------------|-----|-----------------|
+| **BEAT** | HOLD 11.4%. Consider ADD to 13-14% at next deployment opportunity | Upgrade LOW → MEDIUM | $47 → $52-55 | Update thesis header. Recalculate E[CAGR]. If E[CAGR] >20% at post-earnings price, ADD justified. Register upgrade in pipeline_tracker. |
+| **PASS** | HOLD 11.4%. No change | Maintain LOW | $47 maintained | Confirm HOLD. Monitor CagriSema PDUFA (expected Q4 2026-Q1 2027). Next decision point: Q2 earnings or CagriSema FDA action. |
+| **CONDITIONAL** | HOLD 11.4% but SET hard exit trigger | Maintain LOW, tighten monitoring | $47 → $42-45 | Set hard exit: "If Q2 ALSO conditional or worse, TRIM to 7%." Update thesis FV. Calculate new E[CAGR] -- if <12%, becomes rotation candidate. |
+| **FAIL** | TRIM to 7-8% immediately. Full EXIT if 2+ KCs triggered | Downgrade LOW → VERY LOW | $47 → $35-38 | Run EXIT Protocol (6 gates). If GM <70% (KC#3 triggered) + share <42% (KC#2 approaching): SELL entire position. Crystallize loss (-20%+) rather than hold structural decline. If only one FAIL metric but others OK: TRIM to 7-8%, reassess at Q2. |
+
+**The HOLD/SELL line:** The critical question is whether Q1 FAIL represents a temporary overshoot of bad news (price pressure front-loaded in Q1) or the beginning of structural decline. Key differentiators:
+- **Temporary:** Q1 revenue decline -12% but Wegovy pill at >60K Rx/week and management confident on H2 recovery = HOLD, it's front-loaded MFN impact
+- **Structural:** Q1 revenue decline -12% AND Wegovy pill <40K AND share <43% AND management widens guidance = SELL. The base business is eroding, not just repricing
+
+### 6. Competitive Intelligence to Monitor Pre-Earnings
+
+**Eli Lilly (LLY) -- report Q1 ~late April 2026 (before NVO May 6):**
+- **Zepbound supply status**: Lilly launched multi-dose KwikPen (Feb 2026) consolidating a full month into one device. Supply constraints have eased vs 2025. If Zepbound supply is now unconstrained, share gains vs Wegovy accelerate
+- **Medicare $50/month deal**: Starting ~Apr 1, 2026, Medicare patients pay max $50/month for Zepbound. This is BEFORE NVO reports. If NVO doesn't match, Q2+ share loss accelerates in Medicare population
+- **Orforglipron (oral GLP-1)**: Lilly's once-daily oral obesity pill is in late-stage trials. NOT tirzepatide in oral form (it's a GLP-1 only agonist). FDA approval timeline unclear but Lilly flagged it in the Medicare deal. If approved in H2 2026, it competes directly with Wegovy oral pill -- and Lilly has the brand momentum
+- **LLY Q1 earnings**: Watch Mounjaro/Zepbound combined revenue. If >$15B for the quarter, Lilly is pulling away faster than our base case models
+
+**Viking Therapeutics (VKTX):**
+- **VK2735 SC Phase 3 (VANQUISH-1/2)**: Enrollment COMPLETE in VANQUISH-1 (~4,650 patients). VANQUISH-2 nearing completion. Results expected H2 2026. VK2735 is a GLP-1/GIP dual agonist (like tirzepatide). Phase 2 showed 14.7% weight loss in 13 weeks -- potentially superior to semaglutide
+- **VK2735 Oral Phase 3**: Expected to enter Phase 3 in Q3 2026. Phase 2 showed up to 12% weight loss with oral tablet
+- **Maintenance dosing study**: Results expected Q3 2026. If VK2735 shows weight maintenance at lower doses, it challenges the chronic high-dose model
+- **Impact on NVO**: Viking is small but represents the "third entrant" risk. If VANQUISH results are strong, the duopoly thesis weakens. Monitor closely in H2 2026
+
+**Amgen MariTide:**
+- **MARITIME Phase 3 program**: Phase 3 trials (MARITIME-1, MARITIME-2) ongoing in obesity and T2D. ~72-week studies. **Readouts expected 2027**, not 2026
+- **Differentiation**: Monthly dosing (vs weekly for Wegovy/Zepbound). Phase 2 showed up to 20% weight loss at 52 weeks without plateau. However, high discontinuation rates and GI side effects in Phase 2 raise tolerability questions
+- **Impact on NVO**: Not a Q1 2026 risk. But MARITIME Phase 3 results in 2027 could disrupt the duopoly if monthly dosing proves competitive. Low near-term probability but worth tracking
+
+**Other competitors:**
+- **Roche (acquired Carmot Therapeutics)**: CT-996 (oral GLP-1/GIP dual agonist) in Phase 2. Early stage, 2028+ timeline for commercial impact
+- **Pfizer**: Danuglipron (oral GLP-1) Phase 3 ongoing. Efficacy has been mediocre in trials (6-9% weight loss). Low competitive threat
+- **Structure Therapeutics**: Oral GLP-1 in Phase 2. Early stage
+
+### 7. Management Commentary to Parse
+
+During the Q1 earnings call, listen for specific signals on these topics:
+
+| Topic | Bullish Signal | Bearish Signal |
+|-------|----------------|----------------|
+| **Wegovy pill cannibalization** | "Oral is largely incremental to injectable" / "New patient starts" | "Some conversion from injectable to oral" / "Mix shift" |
+| **MFN pricing impact** | "Q1 captures bulk of MFN headwind" / "Front-loaded" | "MFN impact will build through 2026" / "Additional rebate pressure" |
+| **CagriSema FDA** | "Constructive FDA engagement" / "Standard review" | "FDA requested additional data" / "Review timeline extended" |
+| **Amycretin Phase 3** | "Enrollment ahead of plan" / "Phase 2 data very encouraging" | "Enrollment challenges" / "Protocol amendments" |
+| **Market share** | "Share stabilizing" / "New patient starts growing" | "Competitive dynamics intensifying" / "Formulary losses" |
+| **FY2026 guidance** | Narrow range upward (-5% to -8%) | Maintain wide range or widen downward |
+| **Compounded GLP-1 impact** | "FDA enforcement effective" / "Compounders declining" | "Compounded market continues to grow" / "Price matching pressure" |
+| **Capital allocation** | "Maintaining dividend" / "Share buybacks" | "Redirecting capital to R&D" / "Dividend flat" |
+
+### 8. Pre-Earnings Preparation Checklist
+
+Complete BEFORE May 6, 2026:
+
+```
+[ ] Check Lilly Q1 results (late April) -- Zepbound/Mounjaro revenue + share data
+[ ] Check IQVIA/Symphony weekly Rx data for Wegovy pill (April trajectory)
+[ ] Check NVO price and calculate current E[CAGR] at market
+[ ] Run price_checker.py NVO and update current price
+[ ] Run forward_return.py --active-only to see NVO E[CAGR] in portfolio context
+[ ] Check smart_money.py stock-profile NVO for any institutional changes pre-earnings
+[ ] Review any CagriSema FDA correspondence (FDA letters, Advisory Committee scheduling)
+[ ] Set alert: May 6 07:30 CEST (01:30 ET) for results release
+[ ] Prepare bear/base/bull post-earnings actions (this framework)
+```
+
+### 9. FV Revision Logic
+
+- **BEAT + guidance narrows up:** P/E re-rating justified. FV moves from $47 to $52-55 range. Methodology: P/E 16-18x on improved 2026E EPS (DKK 21-23) = DKK 340-410 = $47-57 ADR. Use midpoint $52. E[CAGR] at current price would jump to 22%+ making NVO one of the highest-return positions.
+- **PASS:** FV $47 maintained. No change to scenarios or probabilities. The thesis is surviving, not thriving.
+- **CONDITIONAL:** FV drops to $42-45. Bear probability increases to 35% (from 30%). Revised EV = ($37 * 0.35) + ($45 * 0.50) + ($62 * 0.15) = $12.95 + $22.50 + $9.30 = $44.75. E[CAGR] at current price needs recalculation -- if <12%, becomes rotation candidate vs pipeline stocks.
+- **FAIL + multiple KC approach:** FV drops to $35-38 (bear case becomes base). This is the "structural decline confirmed" scenario. At $35-38 FV and current price ~$38, MoS is effectively zero or negative. EXIT justified.
+
+*Framework prepared: 2026-03-08 (S150). Earnings May 6, 2026. Update with Lilly Q1 data (late April), IQVIA Wegovy pill trajectory (April), and any CagriSema FDA developments.*
+
+---
+
 ## Sources
 
 - [Novo Nordisk 2025 Annual Results Press Release](https://www.globenewswire.com/news-release/2026/02/03/3231383/0/en/Novo-Nordisk-s-sales-increased-by-6-in-Danish-kroner-and-by-10-at-constant-exchange-rates-to-DKK-309-1-billion-in-2025.html)
@@ -715,3 +868,15 @@ Principle 6: "Vender Requiere Argumento" — selling needs a positive case for s
 - [CagriSema Phase 3 Results - Clinical Trials Arena](https://www.clinicaltrialsarena.com/news/novo-nordisks-cagrisema-outperforms-ozempic-in-phase-iii-trial/)
 - [Novo Nordisk Dividend History](https://www.novonordisk.com/investors/stock-information/dividend.html)
 - [Alpha Spread: NVO WACC](https://www.alphaspread.com/security/nyse/nvo/discount-rate)
+- [Novo Nordisk Q1 2026 Earnings Date - MarketBeat](https://www.marketbeat.com/stocks/NYSE/NVO/earnings/)
+- [Novo Nordisk Financial Results and Events](https://www.novonordisk.com/investors/financial-results.html)
+- [NBC News: 170,000 people taking Wegovy pill](https://www.nbcnews.com/health/health-news/170000-people-us-are-taking-wegovy-pill-novo-nordisk-says-rcna257395)
+- [CNBC: Novo Nordisk shares rise 8% on Wegovy pill launch](https://www.cnbc.com/2026/01/16/novo-nordisk-shares-wegovy-obesity-pill-launch.html)
+- [Novo Nordisk CagriSema NDA Filing](https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645862.html)
+- [CNBC: What's next for CagriSema after trial miss](https://www.cnbc.com/2026/02/24/healthy-returns-whats-next-for-novo-nordisks-obesity-drug-cagrisema.html)
+- [CNBC: Eli Lilly's GLP-1 growth vs Novo Nordisk decline](https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html)
+- [Novo Nordisk 2026 Sales Outlook](https://capital.com/en-int/market-updates/novo-nordisk-stock-forecast-06-03-2026)
+- [Viking Therapeutics VANQUISH-1 Enrollment Complete](https://www.prnewswire.com/news-releases/viking-therapeutics-announces-completion-of-enrollment-in-phase-3-vanquish-1-trial-of-vk2735-302619296.html)
+- [Amgen MariTide Phase 2 Results](https://www.amgen.com/newsroom/press-releases/2025/06/results-from-amgens-phase-2-obesity-study-of-monthly-maritide-presented-at-the-american-diabetes-association-85th-scientific-sessions)
+- [Eli Lilly Medicare Access Deal](https://investor.lilly.com/news-releases/news-release-details/lilly-and-us-government-agree-expand-access-obesity-medicines)
+- [Eli Lilly Zepbound KwikPen Launch](https://investor.lilly.com/news-releases/news-release-details/zepbound-tirzepatide-most-prescribed-weight-management)

@@ -56,7 +56,7 @@
       "so_trigger": "<=$125",
       "so_tier": "",
       "so_fair_value": "$191",
-      "short_pct_float": 1.96,
+      "short_pct_float": 2.28,
       "id": "GL"
     },
     {
@@ -70,7 +70,7 @@
       "has_standing_order": false,
       "so_category": null,
       "so_action": null,
-      "short_pct_float": 2.91,
+      "short_pct_float": 3.02,
       "id": "ADBE"
     },
     {
@@ -87,7 +87,7 @@
       "so_trigger": "CANCELLED \u2014 CagriSema FAILED Feb 23. Gate invalidated.",
       "so_tier": "",
       "so_fair_value": "$50 (revised from $66)",
-      "short_pct_float": 0.94,
+      "short_pct_float": 0.84,
       "id": "NVO"
     },
     {
@@ -114,7 +114,7 @@
       "has_standing_order": false,
       "so_category": null,
       "so_action": null,
-      "short_pct_float": 5.01,
+      "short_pct_float": 5.39,
       "id": "LULU"
     },
     {
@@ -141,7 +141,7 @@
       "has_standing_order": false,
       "so_category": null,
       "so_action": null,
-      "short_pct_float": 2.89,
+      "short_pct_float": 5.82,
       "id": "MORN"
     },
     {
@@ -7210,7 +7210,7 @@
       "date": "2026-01-27",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "durn-daniel-j",
       "target": "ADBE",
       "key": 0
@@ -7222,7 +7222,7 @@
       "date": "2025-03-20",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "durn-daniel-j",
       "target": "ADBE",
       "key": 1
@@ -7234,7 +7234,7 @@
       "date": "2024-09-17",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "durn-daniel-j",
       "target": "ADBE",
       "key": 2
@@ -7246,7 +7246,7 @@
       "date": "2025-10-31",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "forusz-jillian",
       "target": "ADBE",
       "key": 0
@@ -7258,7 +7258,7 @@
       "date": "2025-05-02",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "forusz-jillian",
       "target": "ADBE",
       "key": 1
@@ -7270,7 +7270,7 @@
       "date": "2025-01-28",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "forusz-jillian",
       "target": "ADBE",
       "key": 2
@@ -7282,7 +7282,7 @@
       "date": "2024-10-29",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "forusz-jillian",
       "target": "ADBE",
       "key": 3
@@ -7294,7 +7294,7 @@
       "date": "2025-01-28",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "ricks-david-a",
       "target": "ADBE",
       "key": 0
@@ -7306,7 +7306,7 @@
       "date": "2025-01-27",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 0
@@ -7318,7 +7318,7 @@
       "date": "2024-10-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 1
@@ -7330,7 +7330,7 @@
       "date": "2024-10-16",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 2
@@ -7342,7 +7342,7 @@
       "date": "2024-07-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 3
@@ -7354,7 +7354,7 @@
       "date": "2024-07-16",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 4
@@ -7366,7 +7366,7 @@
       "date": "2024-05-02",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 5
@@ -7378,7 +7378,7 @@
       "date": "2024-12-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "banse-amy-l",
       "target": "ADBE",
       "key": 0
@@ -7390,7 +7390,7 @@
       "date": "2024-09-25",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "narayen-shantanu",
       "target": "ADBE",
       "key": 0
@@ -7402,7 +7402,7 @@
       "date": "2024-06-27",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "narayen-shantanu",
       "target": "ADBE",
       "key": 1
@@ -7414,7 +7414,7 @@
       "date": "2024-07-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 0
@@ -7426,7 +7426,7 @@
       "date": "2024-07-16",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 1
@@ -7438,7 +7438,7 @@
       "date": "2024-06-17",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 2
@@ -7450,7 +7450,7 @@
       "date": "2024-06-03",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 3
@@ -7462,7 +7462,7 @@
       "date": "2024-05-06",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 4
@@ -7474,7 +7474,7 @@
       "date": "2024-04-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 5
@@ -7486,7 +7486,7 @@
       "date": "2024-06-17",
       "role": "General Counsel",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "rao-dana-jd",
       "target": "ADBE",
       "key": 0
@@ -7498,7 +7498,7 @@
       "date": "2026-02-17",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 0
@@ -7510,7 +7510,7 @@
       "date": "2025-12-16",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 1
@@ -7522,7 +7522,7 @@
       "date": "2025-07-31",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 2
@@ -7534,7 +7534,7 @@
       "date": "2025-06-04",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 3
@@ -7546,7 +7546,7 @@
       "date": "2025-05-20",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 4
@@ -7558,7 +7558,7 @@
       "date": "2025-02-14",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 5
@@ -7570,7 +7570,7 @@
       "date": "2025-02-11",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 6
@@ -7582,7 +7582,7 @@
       "date": "2025-01-06",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 7
@@ -7594,7 +7594,7 @@
       "date": "2024-12-03",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 8
@@ -7606,7 +7606,7 @@
       "date": "2024-05-21",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 9
@@ -7618,10 +7618,22 @@
       "date": "2024-05-20",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "svoboda-frank-m",
       "target": "GL",
       "key": 10
+    },
+    {
+      "relation": "insider_sell",
+      "shares": 10500,
+      "value": 1525495.0,
+      "date": "2026-02-27",
+      "role": "Officer",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "haworth-jennifer-allison",
+      "target": "GL",
+      "key": 0
     },
     {
       "relation": "insider_sell",
@@ -7630,10 +7642,10 @@
       "date": "2026-02-12",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "haworth-jennifer-allison",
       "target": "GL",
-      "key": 0
+      "key": 1
     },
     {
       "relation": "insider_sell",
@@ -7642,10 +7654,10 @@
       "date": "2025-01-06",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "haworth-jennifer-allison",
       "target": "GL",
-      "key": 1
+      "key": 2
     },
     {
       "relation": "insider_sell",
@@ -7654,10 +7666,10 @@
       "date": "2025-01-06",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "haworth-jennifer-allison",
       "target": "GL",
-      "key": 2
+      "key": 3
     },
     {
       "relation": "insider_sell",
@@ -7666,7 +7678,7 @@
       "date": "2026-02-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "blinn-mark-a",
       "target": "GL",
       "key": 0
@@ -7678,7 +7690,7 @@
       "date": "2025-01-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "blinn-mark-a",
       "target": "GL",
       "key": 1
@@ -7690,7 +7702,7 @@
       "date": "2025-01-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "blinn-mark-a",
       "target": "GL",
       "key": 2
@@ -7702,7 +7714,7 @@
       "date": "2024-04-25",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "blinn-mark-a",
       "target": "GL",
       "key": 3
@@ -7714,7 +7726,7 @@
       "date": "2024-04-25",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "blinn-mark-a",
       "target": "GL",
       "key": 4
@@ -7726,7 +7738,7 @@
       "date": "2026-02-06",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "majors-michael-clay",
       "target": "GL",
       "key": 0
@@ -7738,7 +7750,7 @@
       "date": "2025-08-01",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "majors-michael-clay",
       "target": "GL",
       "key": 1
@@ -7750,7 +7762,7 @@
       "date": "2025-12-12",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "henrie-michael-shane",
       "target": "GL",
       "key": 0
@@ -7762,7 +7774,7 @@
       "date": "2025-07-29",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "henrie-michael-shane",
       "target": "GL",
       "key": 1
@@ -7774,7 +7786,7 @@
       "date": "2025-07-29",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "henrie-michael-shane",
       "target": "GL",
       "key": 2
@@ -7786,7 +7798,7 @@
       "date": "2025-03-19",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "henrie-michael-shane",
       "target": "GL",
       "key": 3
@@ -7798,7 +7810,7 @@
       "date": "2025-02-07",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "henrie-michael-shane",
       "target": "GL",
       "key": 4
@@ -7810,7 +7822,7 @@
       "date": "2025-02-07",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "henrie-michael-shane",
       "target": "GL",
       "key": 5
@@ -7822,7 +7834,7 @@
       "date": "2025-01-06",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "henrie-michael-shane",
       "target": "GL",
       "key": 6
@@ -7834,7 +7846,7 @@
       "date": "2025-10-24",
       "role": "General Counsel",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mitchell-robert-brian",
       "target": "GL",
       "key": 0
@@ -7846,7 +7858,7 @@
       "date": "2025-02-07",
       "role": "General Counsel",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mitchell-robert-brian",
       "target": "GL",
       "key": 1
@@ -7858,7 +7870,7 @@
       "date": "2024-11-07",
       "role": "General Counsel",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mitchell-robert-brian",
       "target": "GL",
       "key": 2
@@ -7870,7 +7882,7 @@
       "date": "2025-09-12",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "skarjune-dolores-l",
       "target": "GL",
       "key": 0
@@ -7882,7 +7894,7 @@
       "date": "2025-09-10",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "skarjune-dolores-l",
       "target": "GL",
       "key": 1
@@ -7894,7 +7906,7 @@
       "date": "2025-07-29",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "kalmbach-thomas-peter",
       "target": "GL",
       "key": 0
@@ -7906,7 +7918,7 @@
       "date": "2024-05-17",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "kalmbach-thomas-peter",
       "target": "GL",
       "key": 1
@@ -7918,7 +7930,7 @@
       "date": "2025-07-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "zorn-rebecca-e",
       "target": "GL",
       "key": 0
@@ -7930,7 +7942,7 @@
       "date": "2025-05-12",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "zorn-rebecca-e",
       "target": "GL",
       "key": 1
@@ -7942,10 +7954,34 @@
       "date": "2024-04-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "zorn-rebecca-e",
       "target": "GL",
       "key": 2
+    },
+    {
+      "relation": "insider_sell",
+      "shares": 18318,
+      "value": 2657995.0,
+      "date": "2026-03-04",
+      "role": "Chief Executive Officer",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "darden-james-matthew",
+      "target": "GL",
+      "key": 0
+    },
+    {
+      "relation": "insider_sell",
+      "shares": 9527,
+      "value": 1375110.0,
+      "date": "2026-02-27",
+      "role": "Chief Executive Officer",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "darden-james-matthew",
+      "target": "GL",
+      "key": 1
     },
     {
       "relation": "insider_sell",
@@ -7954,10 +7990,10 @@
       "date": "2025-07-25",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "darden-james-matthew",
       "target": "GL",
-      "key": 0
+      "key": 2
     },
     {
       "relation": "insider_sell",
@@ -7966,10 +8002,10 @@
       "date": "2025-02-11",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "darden-james-matthew",
       "target": "GL",
-      "key": 1
+      "key": 3
     },
     {
       "relation": "insider_buy",
@@ -7978,10 +8014,10 @@
       "date": "2024-05-21",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "darden-james-matthew",
       "target": "GL",
-      "key": 2
+      "key": 4
     },
     {
       "relation": "insider_buy",
@@ -7990,10 +8026,34 @@
       "date": "2024-05-16",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "darden-james-matthew",
       "target": "GL",
-      "key": 3
+      "key": 5
+    },
+    {
+      "relation": "insider_sell",
+      "shares": 2569,
+      "value": 372620.0,
+      "date": "2026-03-02",
+      "role": "Chief Investment Officer",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "hensley-robert-edward",
+      "target": "GL",
+      "key": 0
+    },
+    {
+      "relation": "insider_sell",
+      "shares": 712,
+      "value": 101524.0,
+      "date": "2026-02-25",
+      "role": "Chief Investment Officer",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "hensley-robert-edward",
+      "target": "GL",
+      "key": 1
     },
     {
       "relation": "insider_sell",
@@ -8002,10 +8062,10 @@
       "date": "2025-03-04",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "hensley-robert-edward",
       "target": "GL",
-      "key": 0
+      "key": 2
     },
     {
       "relation": "insider_buy",
@@ -8014,10 +8074,10 @@
       "date": "2024-05-28",
       "role": "Chief Investment Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "hensley-robert-edward",
       "target": "GL",
-      "key": 1
+      "key": 3
     },
     {
       "relation": "insider_buy",
@@ -8026,7 +8086,7 @@
       "date": "2024-07-26",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "thigpen-mary-e",
       "target": "GL",
       "key": 0
@@ -8038,7 +8098,7 @@
       "date": "2024-04-24",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "brannen-james-patrick",
       "target": "GL",
       "key": 0
@@ -8050,7 +8110,7 @@
       "date": "2024-04-24",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "rodriguez-david-a",
       "target": "GL",
       "key": 0
@@ -8062,7 +8122,7 @@
       "date": "2024-04-24",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "johnson-steven-paul",
       "target": "GL",
       "key": 0
@@ -8330,15 +8390,123 @@
     },
     {
       "relation": "insider_buy",
+      "shares": 531493,
+      "value": 3364350.0,
+      "date": "2026-03-05",
+      "role": "",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "auto-trader-group-plc",
+      "target": "AUTO.L",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "shares": 535000,
+      "value": 3354985.0,
+      "date": "2026-03-04",
+      "role": "",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "auto-trader-group-plc",
+      "target": "AUTO.L",
+      "key": 1
+    },
+    {
+      "relation": "insider_buy",
+      "shares": 520000,
+      "value": 3298360.0,
+      "date": "2026-03-03",
+      "role": "",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "auto-trader-group-plc",
+      "target": "AUTO.L",
+      "key": 2
+    },
+    {
+      "relation": "insider_buy",
+      "shares": 515000,
+      "value": 3348015.0,
+      "date": "2026-03-02",
+      "role": "",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "auto-trader-group-plc",
+      "target": "AUTO.L",
+      "key": 3
+    },
+    {
+      "relation": "insider_buy",
+      "shares": 384671,
+      "value": 2541136.0,
+      "date": "2026-02-26",
+      "role": "",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "auto-trader-group-plc",
+      "target": "AUTO.L",
+      "key": 4
+    },
+    {
+      "relation": "insider_buy",
+      "shares": 625000,
+      "value": 4024375.0,
+      "date": "2026-02-25",
+      "role": "",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "auto-trader-group-plc",
+      "target": "AUTO.L",
+      "key": 5
+    },
+    {
+      "relation": "insider_buy",
+      "shares": 640000,
+      "value": 4074240.0,
+      "date": "2026-02-24",
+      "role": "",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "auto-trader-group-plc",
+      "target": "AUTO.L",
+      "key": 6
+    },
+    {
+      "relation": "insider_buy",
+      "shares": 625000,
+      "value": 4013125.0,
+      "date": "2026-02-23",
+      "role": "",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "auto-trader-group-plc",
+      "target": "AUTO.L",
+      "key": 7
+    },
+    {
+      "relation": "insider_buy",
+      "shares": 537076,
+      "value": 3420099.0,
+      "date": "2026-02-19",
+      "role": "",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "auto-trader-group-plc",
+      "target": "AUTO.L",
+      "key": 8
+    },
+    {
+      "relation": "insider_buy",
       "shares": 540000,
       "value": 3394980.0,
       "date": "2026-02-18",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 0
+      "key": 9
     },
     {
       "relation": "insider_buy",
@@ -8347,10 +8515,10 @@
       "date": "2026-02-17",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 1
+      "key": 10
     },
     {
       "relation": "insider_buy",
@@ -8359,10 +8527,10 @@
       "date": "2026-02-16",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 2
+      "key": 11
     },
     {
       "relation": "insider_buy",
@@ -8371,10 +8539,10 @@
       "date": "2026-02-11",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 3
+      "key": 12
     },
     {
       "relation": "insider_buy",
@@ -8383,10 +8551,10 @@
       "date": "2026-02-11",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 4
+      "key": 13
     },
     {
       "relation": "insider_buy",
@@ -8395,10 +8563,10 @@
       "date": "2026-02-10",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 5
+      "key": 14
     },
     {
       "relation": "insider_buy",
@@ -8407,10 +8575,10 @@
       "date": "2026-02-09",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 6
+      "key": 15
     },
     {
       "relation": "insider_buy",
@@ -8419,10 +8587,10 @@
       "date": "2026-02-04",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 7
+      "key": 16
     },
     {
       "relation": "insider_buy",
@@ -8431,10 +8599,10 @@
       "date": "2026-02-03",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 8
+      "key": 17
     },
     {
       "relation": "insider_buy",
@@ -8443,10 +8611,10 @@
       "date": "2026-02-02",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 9
+      "key": 18
     },
     {
       "relation": "insider_buy",
@@ -8455,10 +8623,10 @@
       "date": "2026-01-28",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 10
+      "key": 19
     },
     {
       "relation": "insider_buy",
@@ -8467,10 +8635,10 @@
       "date": "2026-01-27",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 11
+      "key": 20
     },
     {
       "relation": "insider_buy",
@@ -8479,10 +8647,10 @@
       "date": "2026-01-26",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 12
+      "key": 21
     },
     {
       "relation": "insider_buy",
@@ -8491,10 +8659,10 @@
       "date": "2026-01-21",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 13
+      "key": 22
     },
     {
       "relation": "insider_buy",
@@ -8503,10 +8671,10 @@
       "date": "2026-01-20",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 14
+      "key": 23
     },
     {
       "relation": "insider_buy",
@@ -8515,10 +8683,10 @@
       "date": "2026-01-19",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 15
+      "key": 24
     },
     {
       "relation": "insider_buy",
@@ -8527,10 +8695,10 @@
       "date": "2026-01-16",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 16
+      "key": 25
     },
     {
       "relation": "insider_buy",
@@ -8539,10 +8707,10 @@
       "date": "2026-01-15",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 17
+      "key": 26
     },
     {
       "relation": "insider_buy",
@@ -8551,10 +8719,10 @@
       "date": "2026-01-14",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 18
+      "key": 27
     },
     {
       "relation": "insider_buy",
@@ -8563,10 +8731,10 @@
       "date": "2026-01-13",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 19
+      "key": 28
     },
     {
       "relation": "insider_buy",
@@ -8575,10 +8743,10 @@
       "date": "2026-01-12",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 20
+      "key": 29
     },
     {
       "relation": "insider_buy",
@@ -8587,10 +8755,10 @@
       "date": "2026-01-09",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 21
+      "key": 30
     },
     {
       "relation": "insider_buy",
@@ -8599,10 +8767,10 @@
       "date": "2026-01-08",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 22
+      "key": 31
     },
     {
       "relation": "insider_buy",
@@ -8611,10 +8779,10 @@
       "date": "2026-01-07",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 23
+      "key": 32
     },
     {
       "relation": "insider_buy",
@@ -8623,10 +8791,10 @@
       "date": "2026-01-06",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 24
+      "key": 33
     },
     {
       "relation": "insider_buy",
@@ -8635,10 +8803,10 @@
       "date": "2026-01-05",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 25
+      "key": 34
     },
     {
       "relation": "insider_buy",
@@ -8647,10 +8815,10 @@
       "date": "2025-12-18",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 26
+      "key": 35
     },
     {
       "relation": "insider_buy",
@@ -8659,10 +8827,10 @@
       "date": "2025-12-17",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 27
+      "key": 36
     },
     {
       "relation": "insider_buy",
@@ -8671,10 +8839,10 @@
       "date": "2025-12-16",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 28
+      "key": 37
     },
     {
       "relation": "insider_buy",
@@ -8683,10 +8851,10 @@
       "date": "2025-12-15",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 29
+      "key": 38
     },
     {
       "relation": "insider_buy",
@@ -8695,10 +8863,10 @@
       "date": "2025-12-12",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 30
+      "key": 39
     },
     {
       "relation": "insider_buy",
@@ -8707,10 +8875,10 @@
       "date": "2025-12-11",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 31
+      "key": 40
     },
     {
       "relation": "insider_buy",
@@ -8719,10 +8887,10 @@
       "date": "2025-12-10",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 32
+      "key": 41
     },
     {
       "relation": "insider_buy",
@@ -8731,10 +8899,10 @@
       "date": "2025-12-09",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 33
+      "key": 42
     },
     {
       "relation": "insider_buy",
@@ -8743,10 +8911,10 @@
       "date": "2025-12-08",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 34
+      "key": 43
     },
     {
       "relation": "insider_buy",
@@ -8755,10 +8923,10 @@
       "date": "2025-12-05",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 35
+      "key": 44
     },
     {
       "relation": "insider_buy",
@@ -8767,10 +8935,10 @@
       "date": "2025-12-04",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 36
+      "key": 45
     },
     {
       "relation": "insider_buy",
@@ -8779,10 +8947,10 @@
       "date": "2025-12-03",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 37
+      "key": 46
     },
     {
       "relation": "insider_buy",
@@ -8791,10 +8959,10 @@
       "date": "2025-12-02",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 38
+      "key": 47
     },
     {
       "relation": "insider_buy",
@@ -8803,10 +8971,10 @@
       "date": "2025-12-01",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 39
+      "key": 48
     },
     {
       "relation": "insider_buy",
@@ -8815,10 +8983,10 @@
       "date": "2025-11-28",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 40
+      "key": 49
     },
     {
       "relation": "insider_buy",
@@ -8827,10 +8995,10 @@
       "date": "2025-11-27",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 41
+      "key": 50
     },
     {
       "relation": "insider_buy",
@@ -8839,10 +9007,10 @@
       "date": "2025-11-26",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 42
+      "key": 51
     },
     {
       "relation": "insider_buy",
@@ -8851,10 +9019,10 @@
       "date": "2025-11-25",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 43
+      "key": 52
     },
     {
       "relation": "insider_buy",
@@ -8863,10 +9031,10 @@
       "date": "2025-11-24",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 44
+      "key": 53
     },
     {
       "relation": "insider_buy",
@@ -8875,10 +9043,10 @@
       "date": "2025-11-21",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 45
+      "key": 54
     },
     {
       "relation": "insider_buy",
@@ -8887,10 +9055,10 @@
       "date": "2025-11-20",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 46
+      "key": 55
     },
     {
       "relation": "insider_buy",
@@ -8899,10 +9067,10 @@
       "date": "2025-11-19",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 47
+      "key": 56
     },
     {
       "relation": "insider_buy",
@@ -8911,10 +9079,10 @@
       "date": "2025-11-18",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 48
+      "key": 57
     },
     {
       "relation": "insider_buy",
@@ -8923,10 +9091,10 @@
       "date": "2025-11-17",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 49
+      "key": 58
     },
     {
       "relation": "insider_buy",
@@ -8935,10 +9103,10 @@
       "date": "2025-11-14",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 50
+      "key": 59
     },
     {
       "relation": "insider_buy",
@@ -8947,10 +9115,10 @@
       "date": "2025-11-13",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 51
+      "key": 60
     },
     {
       "relation": "insider_buy",
@@ -8959,10 +9127,10 @@
       "date": "2025-11-12",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 52
+      "key": 61
     },
     {
       "relation": "insider_buy",
@@ -8971,10 +9139,10 @@
       "date": "2025-11-11",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 53
+      "key": 62
     },
     {
       "relation": "insider_buy",
@@ -8983,10 +9151,10 @@
       "date": "2025-11-10",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 54
+      "key": 63
     },
     {
       "relation": "insider_buy",
@@ -8995,10 +9163,10 @@
       "date": "2025-10-30",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 55
+      "key": 64
     },
     {
       "relation": "insider_buy",
@@ -9007,10 +9175,10 @@
       "date": "2025-10-29",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 56
+      "key": 65
     },
     {
       "relation": "insider_buy",
@@ -9019,10 +9187,10 @@
       "date": "2025-10-22",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 57
+      "key": 66
     },
     {
       "relation": "insider_buy",
@@ -9031,10 +9199,10 @@
       "date": "2025-10-21",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 58
+      "key": 67
     },
     {
       "relation": "insider_buy",
@@ -9043,10 +9211,10 @@
       "date": "2025-10-20",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 59
+      "key": 68
     },
     {
       "relation": "insider_buy",
@@ -9055,10 +9223,10 @@
       "date": "2025-10-17",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 60
+      "key": 69
     },
     {
       "relation": "insider_buy",
@@ -9067,10 +9235,10 @@
       "date": "2025-10-16",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 61
+      "key": 70
     },
     {
       "relation": "insider_buy",
@@ -9079,10 +9247,10 @@
       "date": "2025-10-15",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 62
+      "key": 71
     },
     {
       "relation": "insider_buy",
@@ -9091,10 +9259,10 @@
       "date": "2025-10-14",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 63
+      "key": 72
     },
     {
       "relation": "insider_buy",
@@ -9103,10 +9271,10 @@
       "date": "2025-10-13",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 64
+      "key": 73
     },
     {
       "relation": "insider_buy",
@@ -9115,10 +9283,10 @@
       "date": "2025-10-10",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 65
+      "key": 74
     },
     {
       "relation": "insider_buy",
@@ -9127,10 +9295,10 @@
       "date": "2025-10-09",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 66
+      "key": 75
     },
     {
       "relation": "insider_buy",
@@ -9139,10 +9307,10 @@
       "date": "2025-10-08",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 67
+      "key": 76
     },
     {
       "relation": "insider_buy",
@@ -9151,10 +9319,10 @@
       "date": "2025-10-07",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 68
+      "key": 77
     },
     {
       "relation": "insider_buy",
@@ -9163,10 +9331,10 @@
       "date": "2025-10-06",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 69
+      "key": 78
     },
     {
       "relation": "insider_buy",
@@ -9175,10 +9343,10 @@
       "date": "2025-10-03",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 70
+      "key": 79
     },
     {
       "relation": "insider_buy",
@@ -9187,10 +9355,10 @@
       "date": "2025-10-02",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 71
+      "key": 80
     },
     {
       "relation": "insider_buy",
@@ -9199,10 +9367,10 @@
       "date": "2025-10-01",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 72
+      "key": 81
     },
     {
       "relation": "insider_buy",
@@ -9211,10 +9379,10 @@
       "date": "2025-09-26",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 73
+      "key": 82
     },
     {
       "relation": "insider_buy",
@@ -9223,10 +9391,10 @@
       "date": "2025-09-25",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 74
+      "key": 83
     },
     {
       "relation": "insider_buy",
@@ -9235,10 +9403,10 @@
       "date": "2025-09-24",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 75
+      "key": 84
     },
     {
       "relation": "insider_buy",
@@ -9247,10 +9415,10 @@
       "date": "2025-09-23",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 76
+      "key": 85
     },
     {
       "relation": "insider_buy",
@@ -9259,10 +9427,10 @@
       "date": "2025-09-22",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 77
+      "key": 86
     },
     {
       "relation": "insider_buy",
@@ -9271,10 +9439,10 @@
       "date": "2025-09-16",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 78
+      "key": 87
     },
     {
       "relation": "insider_buy",
@@ -9283,10 +9451,10 @@
       "date": "2025-09-15",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 79
+      "key": 88
     },
     {
       "relation": "insider_buy",
@@ -9295,10 +9463,10 @@
       "date": "2025-09-12",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 80
+      "key": 89
     },
     {
       "relation": "insider_buy",
@@ -9307,10 +9475,10 @@
       "date": "2025-09-11",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 81
+      "key": 90
     },
     {
       "relation": "insider_buy",
@@ -9319,10 +9487,10 @@
       "date": "2025-09-10",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 82
+      "key": 91
     },
     {
       "relation": "insider_buy",
@@ -9331,10 +9499,10 @@
       "date": "2025-09-09",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 83
+      "key": 92
     },
     {
       "relation": "insider_buy",
@@ -9343,10 +9511,10 @@
       "date": "2025-09-08",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 84
+      "key": 93
     },
     {
       "relation": "insider_buy",
@@ -9355,10 +9523,10 @@
       "date": "2025-09-05",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 85
+      "key": 94
     },
     {
       "relation": "insider_buy",
@@ -9367,10 +9535,10 @@
       "date": "2025-09-04",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 86
+      "key": 95
     },
     {
       "relation": "insider_buy",
@@ -9379,10 +9547,10 @@
       "date": "2025-09-03",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 87
+      "key": 96
     },
     {
       "relation": "insider_buy",
@@ -9391,10 +9559,10 @@
       "date": "2025-09-02",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 88
+      "key": 97
     },
     {
       "relation": "insider_buy",
@@ -9403,10 +9571,10 @@
       "date": "2025-09-01",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 89
+      "key": 98
     },
     {
       "relation": "insider_buy",
@@ -9415,10 +9583,10 @@
       "date": "2025-07-03",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 90
+      "key": 99
     },
     {
       "relation": "insider_buy",
@@ -9427,10 +9595,10 @@
       "date": "2025-07-02",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 91
+      "key": 100
     },
     {
       "relation": "insider_buy",
@@ -9439,10 +9607,10 @@
       "date": "2025-07-01",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 92
+      "key": 101
     },
     {
       "relation": "insider_buy",
@@ -9451,10 +9619,10 @@
       "date": "2025-06-30",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 93
+      "key": 102
     },
     {
       "relation": "insider_buy",
@@ -9463,10 +9631,10 @@
       "date": "2025-06-12",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 94
+      "key": 103
     },
     {
       "relation": "insider_buy",
@@ -9475,10 +9643,10 @@
       "date": "2025-06-11",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 95
+      "key": 104
     },
     {
       "relation": "insider_buy",
@@ -9487,10 +9655,10 @@
       "date": "2025-06-10",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 96
+      "key": 105
     },
     {
       "relation": "insider_buy",
@@ -9499,10 +9667,10 @@
       "date": "2025-06-09",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 97
+      "key": 106
     },
     {
       "relation": "insider_buy",
@@ -9511,10 +9679,10 @@
       "date": "2025-06-05",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 98
+      "key": 107
     },
     {
       "relation": "insider_buy",
@@ -9523,10 +9691,10 @@
       "date": "2025-06-04",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 99
+      "key": 108
     },
     {
       "relation": "insider_buy",
@@ -9535,10 +9703,10 @@
       "date": "2025-06-03",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 100
+      "key": 109
     },
     {
       "relation": "insider_buy",
@@ -9547,10 +9715,10 @@
       "date": "2025-06-02",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 101
+      "key": 110
     },
     {
       "relation": "insider_buy",
@@ -9559,10 +9727,10 @@
       "date": "2025-05-13",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 102
+      "key": 111
     },
     {
       "relation": "insider_buy",
@@ -9571,10 +9739,10 @@
       "date": "2025-05-12",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 103
+      "key": 112
     },
     {
       "relation": "insider_buy",
@@ -9583,10 +9751,10 @@
       "date": "2025-05-01",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 104
+      "key": 113
     },
     {
       "relation": "insider_buy",
@@ -9595,10 +9763,10 @@
       "date": "2025-04-30",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 105
+      "key": 114
     },
     {
       "relation": "insider_buy",
@@ -9607,10 +9775,10 @@
       "date": "2025-04-29",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 106
+      "key": 115
     },
     {
       "relation": "insider_buy",
@@ -9619,10 +9787,10 @@
       "date": "2025-04-28",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 107
+      "key": 116
     },
     {
       "relation": "insider_buy",
@@ -9631,10 +9799,10 @@
       "date": "2025-04-24",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 108
+      "key": 117
     },
     {
       "relation": "insider_buy",
@@ -9643,10 +9811,10 @@
       "date": "2025-04-23",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 109
+      "key": 118
     },
     {
       "relation": "insider_buy",
@@ -9655,10 +9823,10 @@
       "date": "2025-04-22",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 110
+      "key": 119
     },
     {
       "relation": "insider_buy",
@@ -9667,94 +9835,10 @@
       "date": "2025-04-17",
       "role": "",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "auto-trader-group-plc",
       "target": "AUTO.L",
-      "key": 111
-    },
-    {
-      "relation": "insider_buy",
-      "shares": 156762,
-      "value": 1613551.0,
-      "date": "2025-04-15",
-      "role": "",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "auto-trader-group-plc",
-      "target": "AUTO.L",
-      "key": 112
-    },
-    {
-      "relation": "insider_buy",
-      "shares": 85427,
-      "value": 867511.0,
-      "date": "2025-04-14",
-      "role": "",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "auto-trader-group-plc",
-      "target": "AUTO.L",
-      "key": 113
-    },
-    {
-      "relation": "insider_buy",
-      "shares": 80000,
-      "value": 784240.0,
-      "date": "2025-04-10",
-      "role": "",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "auto-trader-group-plc",
-      "target": "AUTO.L",
-      "key": 114
-    },
-    {
-      "relation": "insider_buy",
-      "shares": 192000,
-      "value": 1795968.0,
-      "date": "2025-04-09",
-      "role": "",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "auto-trader-group-plc",
-      "target": "AUTO.L",
-      "key": 115
-    },
-    {
-      "relation": "insider_buy",
-      "shares": 192000,
-      "value": 1781760.0,
-      "date": "2025-04-08",
-      "role": "",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "auto-trader-group-plc",
-      "target": "AUTO.L",
-      "key": 116
-    },
-    {
-      "relation": "insider_buy",
-      "shares": 200000,
-      "value": 1826200.0,
-      "date": "2025-04-07",
-      "role": "",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "auto-trader-group-plc",
-      "target": "AUTO.L",
-      "key": 117
-    },
-    {
-      "relation": "insider_buy",
-      "shares": 271200,
-      "value": 2617351.0,
-      "date": "2025-03-26",
-      "role": "",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "auto-trader-group-plc",
-      "target": "AUTO.L",
-      "key": 118
+      "key": 120
     },
     {
       "relation": "insider_sell",
@@ -9763,7 +9847,7 @@
       "date": "2025-12-30",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "frank-meghan",
       "target": "LULU",
       "key": 0
@@ -9775,7 +9859,7 @@
       "date": "2025-12-16",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "burgoyne-celeste",
       "target": "LULU",
       "key": 0
@@ -9787,7 +9871,7 @@
       "date": "2024-12-09",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "burgoyne-celeste",
       "target": "LULU",
       "key": 1
@@ -9799,7 +9883,7 @@
       "date": "2025-09-30",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "neuburger-nicole",
       "target": "LULU",
       "key": 0
@@ -9811,7 +9895,7 @@
       "date": "2024-12-26",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "neuburger-nicole",
       "target": "LULU",
       "key": 1
@@ -9823,7 +9907,7 @@
       "date": "2024-09-26",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "neuburger-nicole",
       "target": "LULU",
       "key": 2
@@ -9835,7 +9919,7 @@
       "date": "2025-06-27",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mcdonald-calvin",
       "target": "LULU",
       "key": 0
@@ -9847,7 +9931,7 @@
       "date": "2024-09-03",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mcdonald-calvin",
       "target": "LULU",
       "key": 1
@@ -9859,10 +9943,46 @@
       "date": "2024-03-27",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "morfitt-martha-a-m",
       "target": "LULU",
       "key": 0
+    },
+    {
+      "relation": "insider_sell",
+      "shares": 3122,
+      "value": 569191.0,
+      "date": "2026-03-02",
+      "role": "Officer, Director and Beneficial Owner",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "mansueto-joseph-d",
+      "target": "MORN",
+      "key": 0
+    },
+    {
+      "relation": "insider_sell",
+      "shares": 14500,
+      "value": 2607117.0,
+      "date": "2026-02-27",
+      "role": "Officer, Director and Beneficial Owner",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "mansueto-joseph-d",
+      "target": "MORN",
+      "key": 1
+    },
+    {
+      "relation": "insider_sell",
+      "shares": 14500,
+      "value": 2351702.0,
+      "date": "2026-02-25",
+      "role": "Officer, Director and Beneficial Owner",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "mansueto-joseph-d",
+      "target": "MORN",
+      "key": 2
     },
     {
       "relation": "insider_sell",
@@ -9871,10 +9991,10 @@
       "date": "2026-02-20",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 0
+      "key": 3
     },
     {
       "relation": "insider_sell",
@@ -9883,10 +10003,10 @@
       "date": "2026-02-18",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 1
+      "key": 4
     },
     {
       "relation": "insider_sell",
@@ -9895,10 +10015,10 @@
       "date": "2026-02-13",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 2
+      "key": 5
     },
     {
       "relation": "insider_sell",
@@ -9907,10 +10027,10 @@
       "date": "2026-02-10",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 3
+      "key": 6
     },
     {
       "relation": "insider_sell",
@@ -9919,10 +10039,10 @@
       "date": "2026-02-06",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 4
+      "key": 7
     },
     {
       "relation": "insider_sell",
@@ -9931,10 +10051,10 @@
       "date": "2026-02-02",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 5
+      "key": 8
     },
     {
       "relation": "insider_sell",
@@ -9943,10 +10063,10 @@
       "date": "2025-11-25",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 6
+      "key": 9
     },
     {
       "relation": "insider_sell",
@@ -9955,10 +10075,10 @@
       "date": "2025-11-21",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 7
+      "key": 10
     },
     {
       "relation": "insider_sell",
@@ -9967,10 +10087,10 @@
       "date": "2025-11-19",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 8
+      "key": 11
     },
     {
       "relation": "insider_sell",
@@ -9979,10 +10099,10 @@
       "date": "2025-11-17",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 9
+      "key": 12
     },
     {
       "relation": "insider_sell",
@@ -9991,10 +10111,10 @@
       "date": "2025-11-13",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 10
+      "key": 13
     },
     {
       "relation": "insider_sell",
@@ -10003,10 +10123,10 @@
       "date": "2025-11-11",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 11
+      "key": 14
     },
     {
       "relation": "insider_sell",
@@ -10015,10 +10135,10 @@
       "date": "2025-11-06",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 12
+      "key": 15
     },
     {
       "relation": "insider_sell",
@@ -10027,10 +10147,10 @@
       "date": "2025-11-04",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 13
+      "key": 16
     },
     {
       "relation": "insider_sell",
@@ -10039,10 +10159,10 @@
       "date": "2025-08-27",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 14
+      "key": 17
     },
     {
       "relation": "insider_sell",
@@ -10051,10 +10171,10 @@
       "date": "2025-08-22",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 15
+      "key": 18
     },
     {
       "relation": "insider_sell",
@@ -10063,10 +10183,10 @@
       "date": "2025-08-19",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 16
+      "key": 19
     },
     {
       "relation": "insider_sell",
@@ -10075,10 +10195,10 @@
       "date": "2025-08-14",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 17
+      "key": 20
     },
     {
       "relation": "insider_sell",
@@ -10087,10 +10207,10 @@
       "date": "2025-08-11",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 18
+      "key": 21
     },
     {
       "relation": "insider_sell",
@@ -10099,10 +10219,10 @@
       "date": "2025-08-06",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 19
+      "key": 22
     },
     {
       "relation": "insider_sell",
@@ -10111,10 +10231,10 @@
       "date": "2025-05-27",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 20
+      "key": 23
     },
     {
       "relation": "insider_sell",
@@ -10123,10 +10243,10 @@
       "date": "2025-05-20",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 21
+      "key": 24
     },
     {
       "relation": "insider_sell",
@@ -10135,10 +10255,10 @@
       "date": "2025-05-16",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 22
+      "key": 25
     },
     {
       "relation": "insider_sell",
@@ -10147,10 +10267,10 @@
       "date": "2025-05-14",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 23
+      "key": 26
     },
     {
       "relation": "insider_sell",
@@ -10159,10 +10279,10 @@
       "date": "2025-05-12",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 24
+      "key": 27
     },
     {
       "relation": "insider_sell",
@@ -10171,10 +10291,10 @@
       "date": "2025-05-08",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 25
+      "key": 28
     },
     {
       "relation": "insider_sell",
@@ -10183,10 +10303,10 @@
       "date": "2025-05-06",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 26
+      "key": 29
     },
     {
       "relation": "insider_sell",
@@ -10195,10 +10315,10 @@
       "date": "2025-05-02",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 27
+      "key": 30
     },
     {
       "relation": "insider_sell",
@@ -10207,10 +10327,10 @@
       "date": "2025-03-14",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 28
+      "key": 31
     },
     {
       "relation": "insider_sell",
@@ -10219,10 +10339,10 @@
       "date": "2025-03-12",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 29
+      "key": 32
     },
     {
       "relation": "insider_sell",
@@ -10231,10 +10351,10 @@
       "date": "2025-03-05",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 30
+      "key": 33
     },
     {
       "relation": "insider_sell",
@@ -10243,10 +10363,10 @@
       "date": "2025-03-03",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 31
+      "key": 34
     },
     {
       "relation": "insider_sell",
@@ -10255,10 +10375,10 @@
       "date": "2025-02-27",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 32
+      "key": 35
     },
     {
       "relation": "insider_sell",
@@ -10267,10 +10387,10 @@
       "date": "2025-02-25",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 33
+      "key": 36
     },
     {
       "relation": "insider_sell",
@@ -10279,10 +10399,10 @@
       "date": "2025-02-21",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 34
+      "key": 37
     },
     {
       "relation": "insider_sell",
@@ -10291,10 +10411,10 @@
       "date": "2025-02-19",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 35
+      "key": 38
     },
     {
       "relation": "insider_sell",
@@ -10303,10 +10423,10 @@
       "date": "2025-02-14",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 36
+      "key": 39
     },
     {
       "relation": "insider_sell",
@@ -10315,10 +10435,10 @@
       "date": "2025-02-13",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 37
+      "key": 40
     },
     {
       "relation": "insider_sell",
@@ -10327,10 +10447,10 @@
       "date": "2025-02-10",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 38
+      "key": 41
     },
     {
       "relation": "insider_sell",
@@ -10339,10 +10459,10 @@
       "date": "2025-02-07",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 39
+      "key": 42
     },
     {
       "relation": "insider_sell",
@@ -10351,10 +10471,10 @@
       "date": "2025-02-05",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 40
+      "key": 43
     },
     {
       "relation": "insider_sell",
@@ -10363,10 +10483,10 @@
       "date": "2025-02-03",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 41
+      "key": 44
     },
     {
       "relation": "insider_sell",
@@ -10375,10 +10495,10 @@
       "date": "2024-12-02",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 42
+      "key": 45
     },
     {
       "relation": "insider_sell",
@@ -10387,10 +10507,10 @@
       "date": "2024-11-27",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 43
+      "key": 46
     },
     {
       "relation": "insider_sell",
@@ -10399,10 +10519,10 @@
       "date": "2024-11-25",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 44
+      "key": 47
     },
     {
       "relation": "insider_sell",
@@ -10411,10 +10531,10 @@
       "date": "2024-11-21",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 45
+      "key": 48
     },
     {
       "relation": "insider_sell",
@@ -10423,10 +10543,10 @@
       "date": "2024-11-19",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 46
+      "key": 49
     },
     {
       "relation": "insider_sell",
@@ -10435,10 +10555,10 @@
       "date": "2024-11-15",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 47
+      "key": 50
     },
     {
       "relation": "insider_sell",
@@ -10447,10 +10567,10 @@
       "date": "2024-11-13",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 48
+      "key": 51
     },
     {
       "relation": "insider_sell",
@@ -10459,10 +10579,10 @@
       "date": "2024-11-11",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 49
+      "key": 52
     },
     {
       "relation": "insider_sell",
@@ -10471,10 +10591,10 @@
       "date": "2024-11-07",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 50
+      "key": 53
     },
     {
       "relation": "insider_sell",
@@ -10483,10 +10603,10 @@
       "date": "2024-11-05",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 51
+      "key": 54
     },
     {
       "relation": "insider_sell",
@@ -10495,10 +10615,10 @@
       "date": "2024-11-01",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 52
+      "key": 55
     },
     {
       "relation": "insider_sell",
@@ -10507,10 +10627,10 @@
       "date": "2024-09-10",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 53
+      "key": 56
     },
     {
       "relation": "insider_sell",
@@ -10519,10 +10639,10 @@
       "date": "2024-09-09",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 54
+      "key": 57
     },
     {
       "relation": "insider_sell",
@@ -10531,10 +10651,10 @@
       "date": "2024-09-05",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 55
+      "key": 58
     },
     {
       "relation": "insider_sell",
@@ -10543,10 +10663,10 @@
       "date": "2024-08-30",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 56
+      "key": 59
     },
     {
       "relation": "insider_sell",
@@ -10555,10 +10675,10 @@
       "date": "2024-08-28",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 57
+      "key": 60
     },
     {
       "relation": "insider_sell",
@@ -10567,10 +10687,10 @@
       "date": "2024-08-26",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 58
+      "key": 61
     },
     {
       "relation": "insider_sell",
@@ -10579,10 +10699,10 @@
       "date": "2024-08-22",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 59
+      "key": 62
     },
     {
       "relation": "insider_sell",
@@ -10591,10 +10711,10 @@
       "date": "2024-08-20",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 60
+      "key": 63
     },
     {
       "relation": "insider_sell",
@@ -10603,10 +10723,10 @@
       "date": "2024-08-16",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 61
+      "key": 64
     },
     {
       "relation": "insider_sell",
@@ -10615,10 +10735,10 @@
       "date": "2024-08-14",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 62
+      "key": 65
     },
     {
       "relation": "insider_sell",
@@ -10627,10 +10747,10 @@
       "date": "2024-08-12",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 63
+      "key": 66
     },
     {
       "relation": "insider_sell",
@@ -10639,10 +10759,10 @@
       "date": "2024-08-08",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 64
+      "key": 67
     },
     {
       "relation": "insider_sell",
@@ -10651,10 +10771,10 @@
       "date": "2024-08-06",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 65
+      "key": 68
     },
     {
       "relation": "insider_sell",
@@ -10663,10 +10783,10 @@
       "date": "2024-08-01",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 66
+      "key": 69
     },
     {
       "relation": "insider_sell",
@@ -10675,10 +10795,10 @@
       "date": "2024-06-05",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 67
+      "key": 70
     },
     {
       "relation": "insider_sell",
@@ -10687,10 +10807,10 @@
       "date": "2024-06-03",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 68
+      "key": 71
     },
     {
       "relation": "insider_sell",
@@ -10699,10 +10819,10 @@
       "date": "2024-05-30",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 69
+      "key": 72
     },
     {
       "relation": "insider_sell",
@@ -10711,10 +10831,10 @@
       "date": "2024-05-28",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 70
+      "key": 73
     },
     {
       "relation": "insider_sell",
@@ -10723,10 +10843,10 @@
       "date": "2024-05-24",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 71
+      "key": 74
     },
     {
       "relation": "insider_sell",
@@ -10735,10 +10855,10 @@
       "date": "2024-05-22",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 72
+      "key": 75
     },
     {
       "relation": "insider_sell",
@@ -10747,10 +10867,10 @@
       "date": "2024-05-20",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 73
+      "key": 76
     },
     {
       "relation": "insider_sell",
@@ -10759,10 +10879,10 @@
       "date": "2024-05-16",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 74
+      "key": 77
     },
     {
       "relation": "insider_sell",
@@ -10771,10 +10891,10 @@
       "date": "2024-05-14",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 75
+      "key": 78
     },
     {
       "relation": "insider_sell",
@@ -10783,10 +10903,10 @@
       "date": "2024-05-10",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 76
+      "key": 79
     },
     {
       "relation": "insider_sell",
@@ -10795,10 +10915,10 @@
       "date": "2024-05-08",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 77
+      "key": 80
     },
     {
       "relation": "insider_sell",
@@ -10807,10 +10927,10 @@
       "date": "2024-05-06",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
-      "key": 78
+      "key": 81
     },
     {
       "relation": "insider_sell",
@@ -10819,70 +10939,10 @@
       "date": "2024-05-02",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "mansueto-joseph-d",
-      "target": "MORN",
-      "key": 79
-    },
-    {
-      "relation": "insider_sell",
-      "shares": 8614,
-      "value": 2650789.0,
-      "date": "2024-03-12",
-      "role": "Officer, Director and Beneficial Owner",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "mansueto-joseph-d",
-      "target": "MORN",
-      "key": 80
-    },
-    {
-      "relation": "insider_sell",
-      "shares": 5972,
-      "value": 1853324.0,
-      "date": "2024-03-11",
-      "role": "Officer, Director and Beneficial Owner",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "mansueto-joseph-d",
-      "target": "MORN",
-      "key": 81
-    },
-    {
-      "relation": "insider_sell",
-      "shares": 18515,
-      "value": 5745836.0,
-      "date": "2024-03-07",
-      "role": "Officer, Director and Beneficial Owner",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "mansueto-joseph-d",
       "target": "MORN",
       "key": 82
-    },
-    {
-      "relation": "insider_sell",
-      "shares": 21578,
-      "value": 6549054.0,
-      "date": "2024-03-05",
-      "role": "Officer, Director and Beneficial Owner",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "mansueto-joseph-d",
-      "target": "MORN",
-      "key": 83
-    },
-    {
-      "relation": "insider_sell",
-      "shares": 10423,
-      "value": 3111146.0,
-      "date": "2024-03-01",
-      "role": "Officer, Director and Beneficial Owner",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "mansueto-joseph-d",
-      "target": "MORN",
-      "key": 84
     },
     {
       "relation": "insider_sell",
@@ -10891,7 +10951,7 @@
       "date": "2025-12-29",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "tsay-caroline-j",
       "target": "MORN",
       "key": 0
@@ -10903,7 +10963,7 @@
       "date": "2025-05-16",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "tsay-caroline-j",
       "target": "MORN",
       "key": 1
@@ -10915,10 +10975,22 @@
       "date": "2024-06-24",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "tsay-caroline-j",
       "target": "MORN",
       "key": 2
+    },
+    {
+      "relation": "insider_buy",
+      "shares": 1000,
+      "value": 186590.0,
+      "date": "2026-03-04",
+      "role": "Chief Financial Officer",
+      "data_source": "yfinance",
+      "date_added": "2026-03-08",
+      "source": "holt-michael-cfa",
+      "target": "MORN",
+      "key": 0
     },
     {
       "relation": "insider_sell",
@@ -10927,10 +10999,10 @@
       "date": "2025-05-12",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "holt-michael-cfa",
       "target": "MORN",
-      "key": 0
+      "key": 1
     },
     {
       "relation": "insider_sell",
@@ -10939,7 +11011,7 @@
       "date": "2024-12-13",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "dubinsky-jason",
       "target": "MORN",
       "key": 0
@@ -10951,7 +11023,7 @@
       "date": "2024-07-02",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "dubinsky-jason",
       "target": "MORN",
       "key": 1
@@ -10963,7 +11035,7 @@
       "date": "2024-10-30",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "lyons-william-m",
       "target": "MORN",
       "key": 0
@@ -10975,7 +11047,7 @@
       "date": "2024-09-30",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "lyons-william-m",
       "target": "MORN",
       "key": 1
@@ -10987,7 +11059,7 @@
       "date": "2024-08-30",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "lyons-william-m",
       "target": "MORN",
       "key": 2
@@ -10999,7 +11071,7 @@
       "date": "2024-07-30",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "lyons-william-m",
       "target": "MORN",
       "key": 3
@@ -11011,7 +11083,7 @@
       "date": "2024-06-28",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "lyons-william-m",
       "target": "MORN",
       "key": 4
@@ -11023,7 +11095,7 @@
       "date": "2024-06-04",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "lyons-william-m",
       "target": "MORN",
       "key": 5
@@ -11035,7 +11107,7 @@
       "date": "2024-07-31",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "dunn-daniel-joseph",
       "target": "MORN",
       "key": 0
@@ -11047,22 +11119,10 @@
       "date": "2024-05-10",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-02-25",
+      "date_added": "2026-03-08",
       "source": "kaplan-steven-n",
       "target": "MORN",
       "key": 0
-    },
-    {
-      "relation": "insider_sell",
-      "shares": 1250,
-      "value": 383516.0,
-      "date": "2024-03-11",
-      "role": "Director",
-      "data_source": "yfinance",
-      "date_added": "2026-02-25",
-      "source": "kaplan-steven-n",
-      "target": "MORN",
-      "key": 1
     },
     {
       "relation": "shorts",
@@ -13120,17 +13180,6 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
-      "value": 1310000.0,
-      "date": "2026-02-25",
-      "role": "CEO",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "hottges",
-      "target": "DTE.DE",
-      "key": 0
-    },
-    {
       "relation": "holds",
       "pct_portfolio": 5.27,
       "session_date": "2026-02-25",
@@ -13201,28 +13250,6 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
-      "value": 1500.0,
-      "date": "2026-02-25",
-      "role": "CEO",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "alexander-scott",
-      "target": "IHP.L",
-      "key": 0
-    },
-    {
-      "relation": "insider_buy",
-      "value": 8500.0,
-      "date": "2026-02-25",
-      "role": "Director",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "marshall",
-      "target": "IHP.L",
-      "key": 0
-    },
-    {
       "relation": "holds",
       "pct_portfolio": 10.02,
       "session_date": "2026-02-25",
@@ -13283,17 +13310,6 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
-      "value": 20000.0,
-      "date": "2026-02-25",
-      "role": "NED",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "sharma",
-      "target": "MONY.L",
-      "key": 0
-    },
-    {
       "relation": "holds",
       "pct_portfolio": 7.0,
       "session_date": "2026-02-25",
@@ -13314,28 +13330,6 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
-      "value": 34000.0,
-      "date": "2026-02-25",
-      "role": "Chair",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "bull",
-      "target": "DOM.L",
-      "key": 0
-    },
-    {
-      "relation": "insider_buy",
-      "value": 50000.0,
-      "date": "2026-02-25",
-      "role": "CEO",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "frampton",
-      "target": "DOM.L",
-      "key": 0
-    },
-    {
       "relation": "holds",
       "pct_portfolio": 5.21,
       "session_date": "2026-02-25",
@@ -13352,50 +13346,6 @@
       "date_added": "2026-02-25",
       "note": "capture",
       "source": "quilter-cheviot",
-      "target": "BYIT.L",
-      "key": 0
-    },
-    {
-      "relation": "insider_buy",
-      "value": 99000.0,
-      "date": "2026-02-25",
-      "role": "CEO",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "mudd",
-      "target": "BYIT.L",
-      "key": 0
-    },
-    {
-      "relation": "insider_buy",
-      "value": 40000.0,
-      "date": "2026-02-25",
-      "role": "NED",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "paterson",
-      "target": "BYIT.L",
-      "key": 0
-    },
-    {
-      "relation": "insider_buy",
-      "value": 50000.0,
-      "date": "2026-02-25",
-      "role": "NED",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "desmedt",
-      "target": "BYIT.L",
-      "key": 0
-    },
-    {
-      "relation": "insider_buy",
-      "value": 50000.0,
-      "date": "2026-02-25",
-      "role": "NED",
-      "data_source": "live",
-      "date_added": "2026-02-25",
-      "source": "persson",
       "target": "BYIT.L",
       "key": 0
     },
@@ -13604,17 +13554,6 @@
     },
     {
       "relation": "insider_buy",
-      "value": 50000.0,
-      "date": "2026-03-07",
-      "role": "Board_Member",
-      "data_source": "live",
-      "date_added": "2026-03-07",
-      "source": "kelly_richdale",
-      "target": "EDEN.PA",
-      "key": 0
-    },
-    {
-      "relation": "insider_buy",
       "value": 250000.0,
       "date": "2026-03-07",
       "role": "COO",
@@ -13655,28 +13594,6 @@
       "date_added": "2026-03-07",
       "source": "mario_giannini",
       "target": "HLNE",
-      "key": 0
-    },
-    {
-      "relation": "insider_buy",
-      "value": 1500.0,
-      "date": "2026-03-07",
-      "role": "CEO",
-      "data_source": "live",
-      "date_added": "2026-03-07",
-      "source": "alexander_scott",
-      "target": "IHP.L",
-      "key": 0
-    },
-    {
-      "relation": "insider_buy",
-      "value": 13560.0,
-      "date": "2026-03-07",
-      "role": "Director",
-      "source": "euan_marshall",
-      "data_source": "live",
-      "date_added": "2026-03-07",
-      "target": "IHP.L",
       "key": 0
     }
   ]

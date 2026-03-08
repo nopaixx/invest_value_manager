@@ -465,6 +465,118 @@ This is on the EDGE of actionability. The stock needs to drop to ~$27 or below f
 
 ---
 
+## Section 9: Q4 FY2026 Earnings Framework (~May 2026)
+
+*Built: 2026-03-08 (S150). DOCS fiscal year ends March 31. Q4 FY2026 = Jan-Mar 2026. Report expected mid-May 2026.*
+
+### Context: Why Q4 Matters
+
+Q4 FY2026 is a BINARY CATALYST for our 8% position (OVERSIZED relative to 13.8% E[CAGR]). This is the quarter management guided to just 4% growth ($143-144M), triggering a 17% single-day selloff. The question is whether the guidance was sandbagged (management cited "record January bookings" in the same breath as 4% guidance) or whether MFN-driven pharma budget delays are deeper than disclosed. The answer determines whether DOCS belongs at 8% of portfolio or should be trimmed to 5%.
+
+**Q3 FY2026 baseline (reported Feb 5, 2026):** Revenue $185.1M (+10% YoY, beat $181.6M consensus). Adjusted EPS $0.46 (beat $0.45). NRR 112% TTM (117% top 20). Gross margin 91% non-GAAP. 3M registered members (record). 126 large customers ($500K+, up 10% YoY). SBC/Revenue ~12.7%. $196.8M buyback in Q3 alone.
+
+**FY2026 full-year guidance (updated Q3):** Revenue $642.5-643.5M (implies Q4 $143-144M at 4% growth). Adjusted EBITDA $333-345M midpoint $339M.
+
+### Veeva (VEEV) Q4 FY2026 Read-Through (Reported Mar 4, 2026)
+
+Veeva is the closest pharma-tech comparable to Doximity. Their Q4 FY2026 results provide critical read-through:
+
+- **Revenue $836M (+16% YoY)**: Strong pharma IT spending confirmed. Pharma budgets are NOT frozen across the board -- MFN is affecting MARKETING budgets specifically, not enterprise software/CRM
+- **FY2027 guidance 13% growth**: Pharma companies investing in technology. Vault CRM migration accelerating (7 of top 20 pharma committed). This signals pharma cost optimization is shifting spend from marketing to technology/operations -- a NEGATIVE read for DOCS
+- **AI commentary**: "Customer interest in AI is high but not yet the primary demand driver." Token-based pricing for FY2027 but "without material financial contribution." This validates Doximity's cautious AI revenue guidance approach
+- **Key concern for DOCS**: If pharma is spending MORE on CRM/operations (Veeva) while cutting marketing (Doximity), the MFN headwind may be a permanent reallocation of pharma budgets, not a temporary freeze. This is the single most important read-through -- watch for DOCS management commentary on whether budgets are returning to marketing or being redirected
+
+### Key Metrics to Watch
+
+| Metric | Q3 FY2026 Actual | Q4 Guidance/Expectation | BEAT Threshold | FAIL Threshold |
+|--------|------------------|------------------------|----------------|----------------|
+| Revenue | $185.1M | $143-144M (co. guide) | >$150M (+9% YoY) | <$140M (below guide) |
+| NRR (TTM) | 112% | 108-115% | >115% (re-acceleration) | <105% (KC#1 watch) |
+| NRR (Top 20 clients) | 117% | 110-118% | >118% (upsell working) | <100% (**KC#1 TRIGGERED**) |
+| Gross Margin (non-GAAP) | 91% | 89-92% | >92% (AI cost peak past) | <88% (margin erosion) |
+| Operating Margin | 46.6% Q3 / 40.3% FY | 38-42% | >42% (leverage intact) | <35% (cost pressure) |
+| Large Customers ($500K+) | 126 | 125-135 | >135 (+15% YoY) | <120 (client losses) |
+| SBC/Revenue | 12.7% | 11-14% | <11% (declining) | >14% (KC#4 approaching) |
+| Buyback Executed ($M) | $196.8M | $100-200M | >$150M (aggressive floor) | <$50M (slowing support) |
+| FY2027 Revenue Guidance | N/A | $680-720M (10-12% growth) | >$720M (>12% growth) | <$670M (<5% growth) |
+| FY2027 EBITDA Guidance | N/A | $350-380M | >$380M (margin expansion) | <$340M (margin compression) |
+
+**Implied Q4 math**: FY2026 guide $642.5-643.5M minus Q1-Q3 actual ($141.9M + $188.6M + $185.1M = $515.6M) = Q4 implied $127-128M. BUT management guided Q4 specifically to $143-144M, meaning they either front-loaded conservatism in earlier quarters or Q4 guide embeds substantial cushion. The $143-144M guide vs the $127-128M implied gap suggests management is guiding ABOVE what strict math implies -- bullish signal or accounting timing.
+
+### Three Critical Questions for the Earnings Call
+
+**1. MFN Budget Recovery Status**
+- "Of your 16 top-20 clients with MFN agreements, how many have finalized their FY2027 marketing budgets? Are budgets returning to pre-MFN levels, or are clients structurally reallocating toward operations/CRM (as Veeva's results suggest)?"
+- Why it matters: If budgets are being PERMANENTLY reallocated from marketing to operations, the MFN headwind is structural. Our thesis assumes temporary delay. Veeva's +16% vs DOCS's +4% in the same quarter from the same customer base is the key data point.
+
+**2. AI Monetization Timeline and Model**
+- "You mentioned no AI revenue in FY2026 guidance. What is the earliest quarter you expect material AI revenue contribution? Will pricing be subscription, per-use, or CPM-integrated?"
+- Why it matters: AI is the bull case catalyst ($55 FV). If monetization is pushed to FY2028+, the bull case probability drops. If a clear product/pricing model is announced, the narrative shifts from "margin compression investment" to "new revenue stream."
+
+**3. Client Concentration and Hiring Portal Traction**
+- "Top 20 clients represent ~84% of revenue. What is the growth trajectory for hiring solutions and health system workflow tools? Is there a path to reducing pharma concentration below 80%?"
+- Why it matters: Revenue diversification away from pharma marketing reduces MFN vulnerability. Hiring portal is a completely different buyer (hospital HR) with independent budget cycles. If hiring + health systems reach 15%+ of revenue, the pharma budget risk is structurally lower.
+
+### Scenario Matrix
+
+| Scenario | Criteria | FV Impact | Position Action |
+|----------|----------|-----------|-----------------|
+| **BEAT** | Revenue >$150M AND NRR >115% AND FY2027 guide >12% growth AND MFN commentary indicates budget recovery | FV $30 -> $33-35 (R1 level restored) | HOLD 8%. Consider ADD if price drops <$22 post-earnings dip. Thesis fully validated. |
+| **PASS** | Revenue $143-150M AND NRR 108-115% AND FY2027 guide 8-12% AND mixed MFN commentary ("some recovery, some structural") | FV $30 maintained | HOLD but evaluate sizing. 8% is OVERSIZED for 13.8% E[CAGR]. If E[CAGR] stays <15%, TRIM to 5-6% and rotate capital to higher E[CAGR] positions. |
+| **CONDITIONAL** | Revenue $140-143M AND NRR 100-108% AND FY2027 guide 5-8% AND MFN commentary suggests 12+ months to resolve AND Veeva-like reallocation confirmed | FV $30 -> $25-28 | TRIM to 5%. Position on probation. Monitor Q1 FY2027 for recovery. If NRR <105% at next report, run EXIT Protocol. KC#1 entering yellow zone. |
+| **FAIL** | Revenue <$140M (below guide) OR NRR <100% (KC#1 TRIGGERED) OR FY2027 guide <5% growth OR client count declining OR SBC >15% | FV $30 -> $20-22 (bear case territory) | **SELL 50%+ immediately** (reduce to 3-4% max). If NRR <100%, KC#1 is triggered -- run full EXIT Protocol. At bear FV $22 vs $24.81 cost = permanent capital impairment. |
+
+### KC Mapping to Q4 Data
+
+| Kill Condition | Q4 Data Point | Trigger Level | Current Distance |
+|----------------|---------------|---------------|------------------|
+| **KC#1: NRR <100%** | NRR TTM reported in earnings | NRR <100% = TRIGGERED | 112% now, 12pp buffer. Deceleration trend: 118% -> 117% -> 112%. At current trajectory, could breach 100% by Q2 FY2027 if deceleration persists at -3pp/quarter |
+| KC#2: Physician engagement -10% | User metrics, registered members | <2.7M registered (was 3M) | 3M and growing. Very far from trigger. |
+| KC#3: Revenue decline 2 consecutive FY | Q4 actual + FY2026 full year vs FY2025 | FY2026 < FY2025 ($570M) | FY2026 guided $643M, well above. NOT at risk. Would require FY2027 decline too. |
+| KC#4: SBC/Revenue >15% | SBC line in earnings + revenue | >15% | Currently 12.7%. +2.3pp buffer. Watch if Q4 SBC spikes. |
+| **KC#7 (NEW, implicit)**: Q4 actual + FY2027 guide signal structural decline | Revenue miss + weak guide | Revenue <$140M AND FY2027 guide <5% | This combination would signal the MFN headwind is structural, not temporary. Effectively triggers thesis re-evaluation. |
+
+**KC#1 is the critical one to watch.** The NRR deceleration trend (118% -> 117% -> 112%) is the fastest-moving risk. If Q4 reports NRR 105-108%, we are on a trajectory to breach 100% within 2-3 quarters. At NRR <105%, the position enters mandatory probation regardless of other metrics.
+
+### FV Revision Logic
+
+- **BEAT**: FV could return toward R1 level ($32-35). At $30 FV with beat, E[CAGR] jumps to ~16-18%. 8% sizing becomes JUSTIFIED
+- **PASS**: FV $30 maintained. But at current E[CAGR] 13.8% and 8% sizing, position is oversized per sizing-conviction alignment. Right-size to 5-6%
+- **CONDITIONAL**: FV drops to $25-28. E[CAGR] drops to 8-12%. At <12% E[CAGR] for Tier A, position becomes rotation candidate. Trim to 5%
+- **FAIL**: FV drops to bear case $20-22. At cost $24.81, this means permanent capital loss. EXIT Protocol gates. Sell at least 50%
+
+### Insider Activity Context (Pre-Earnings)
+
+- **Director Kira Scherer Wampler** sold 2,000 shares at $26 on March 3, 2026 under a pre-arranged Rule 10b5-1 plan. This is ROUTINE (scheduled sale, not discretionary)
+- **Insider ownership remains low at 2.7%** -- no significant insider buying to provide conviction signal. Compare to HLNE where insiders bought $4.2M at the lows
+- **Fundsmith (Terry Smith) holds 5.3%** -- this is the strongest external conviction signal. If Fundsmith reduces post-earnings, it is a SIGNIFICANT negative signal worth more than any analyst downgrade
+- **Key watch**: Any 13F/form 4 filing showing Fundsmith reduction would be a SELL signal. Monitor within 45 days post-quarter-end (mid-May filing deadline for Q1 2026 13F)
+
+### Position Sizing Assessment
+
+DOCS at 8% of portfolio is OVERSIZED for its current conviction profile:
+- E[CAGR] 13.8% ranks mid-pack in portfolio
+- NRR deceleration trend is concerning (not KC-breaching, but the direction matters)
+- MFN headwind duration is genuinely uncertain (LEVEL 2 evidence only)
+- Insider ownership 2.7% is the lowest in portfolio for a position this size
+
+**Pre-earnings recommendation**: Do NOT trim before earnings -- the guidance bar is low ($143-144M) and "record January bookings" suggests sandbagging. But post-earnings:
+- BEAT: maintain 8%, thesis validated
+- Anything else: right-size to 5-6% (sell ~$250 worth, ~10 shares), rotate capital to higher E[CAGR] positions
+- FAIL: aggressive trim to 3-4%
+
+### Macro Overlay: Iran/Oil Crisis Impact on Q4 Results
+
+DOCS reports Q4 FY2026 (Jan-Mar 2026). The Iran war started Feb 28, affecting ~1 month of the quarter:
+- **Direct impact**: ZERO. Doximity is US domestic, digital, pharma advertising. No oil, no supply chain, no international exposure
+- **Indirect impact**: If pharma clients freeze ALL discretionary spending due to macro uncertainty (not just MFN), Q4 could miss even the low guidance. However, pharma advertising budgets are typically committed quarterly in advance -- March spending was likely locked in before the war started
+- **FY2027 guidance impact**: Management may use Iran/macro uncertainty as ADDITIONAL reason for conservative FY2027 guidance. If they guide conservatively AND cite macro (not just MFN), the sandbagging thesis is STRENGTHENED -- they are layering conservatism on top of conservatism
+- **Net assessment**: Iran crisis is NEUTRAL to SLIGHTLY POSITIVE for our DOCS thesis. It provides cover for conservative guidance and delays any pharma budget acceleration, but it also lowers the bar further for what constitutes a "beat"
+
+*Framework prepared: 2026-03-08 (S150). Q4 FY2026 earnings expected mid-May 2026. Update with any pre-earnings data, conference commentary, or insider activity. Key pre-earnings monitor: Fundsmith Q1 2026 13F filing (mid-May), any DOCS management appearances at healthcare conferences in April.*
+
+---
+
 ## META-REFLECTION
 
 ### Incertidumbres/Dudas
@@ -501,6 +613,10 @@ This is on the EDGE of actionability. The stock needs to drop to ~$27 or below f
 - [Doximity SBC Data - MacroTrends](https://www.macrotrends.net/stocks/charts/DOCS/doximity/stock-based-compensation)
 - [Doximity SWOT - Investing.com](https://www.investing.com/news/swot-analysis/doximitys-swot-analysis-digital-health-leaders-stock-faces-macro-headwinds-93CH-4095937)
 - [Doximity CEO on AI - FierceHealthcare](https://www.fiercehealthcare.com/ai-and-machine-learning/well-win-ai-market-2026-doximity-ceo-says-medical-ai-assistant-market)
+- [Veeva Q4 FY2026 Results - PRNewswire](https://www.prnewswire.com/news-releases/veeva-announces-fourth-quarter-and-fiscal-year-2026-results-302704492.html)
+- [Veeva Q4 FY2026 Earnings Call - Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/03/04/veeva-veev-q4-2026-earnings-call-transcript/)
+- [DOCS Q4 Deep Dive - StockStory](https://markets.financialcontent.com/stocks/article/stockstory-2026-2-6-docs-q4-deep-dive-ai-momentum-overshadowed-by-pharma-budget-delays-and-cautious-guidance)
+- [Doximity Director Insider Sale - StockTitan](https://www.stocktitan.net/sec-filings/DOCS/form-4-doximity-inc-insider-trading-activity-ca7948916688.html)
 
 ---
 
