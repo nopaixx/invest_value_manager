@@ -34,8 +34,8 @@ completed:
   net_exposure_note: "100/0/0. Unchanged."
   rotation_check: true
   rotation_note: "Rotation hierarchy: FTNT 9.7% (worst, investor day Mon) > AUTO.L 12.1% (LOW conviction) > MONY.L 12.5% (yield, FIRST rotation candidate) > HLNE 13.1% > TW 13.2%."
-  velocity_units: 12
-  velocity_note: "6 R2 DAs (6 units) + 3 R3 resolutions (6 units) = 12 velocity units. Well above 3 minimum."
+  velocity_units: 14
+  velocity_note: "Prior 12 + NVO KC review (1) + MEDI.OL manual QS (1) = 14 velocity units."
   portfolio_ecagr:
     deployed: 17.4%
     blended: 17.4%
@@ -88,21 +88,28 @@ handoff:
       - "CPI (Tue Mar 11): Oil $91 = hot CPI risk. Portfolio 22.8% HIGH vulnerability (ADBE, HLNE, AUTO.L)."
       - "ADBE Q1 FY2026 earnings (Wed Mar 12): PASS/CONDITIONAL/FAIL. Framework 100% ready."
     P2:
+      - "Score SAF.PA (defense basket PRIORITY #1, P/E 18.5x) + launch R1 if QS ≥72."
+      - "Score CEG + CCJ (nuclear/AI energy basket seeds). If both QS ≥70 → propose basket."
+      - "Score MEDI.OL formally (manual QS 68-81, cardiac surgery monopoly)."
       - "FOUR.L FY2025 results (Mar 18): HARD GATE for SO."
-      - "Score EU small-cap candidates: ALFEN.AS, SGN.WA, MEDI.OL, UBXN.SW (yfinance rate-limited today)."
     P3:
       - "HLNE ex-div Mar 20, MONY.L ex-div Mar 26."
       - "Health check due Mar 16."
       - "TSLA SO active — monitor Q1 deliveries data (early Apr)."
       - "LOPE SO $155 GATED on Q1 earnings (Apr). No action until then."
+      - "Score remaining EU small-caps: ALFEN.AS, SGN.WA, UBXN.SW."
   dedup_signals:
-    - "S149 COMPLETE: 8 velocity units, 7 commits. TSLA S4 + LOPE R1→R4 + FTNT DA + education sector view."
+    - "S149 COMPLETE: 14 velocity units, 8 commits. TSLA S4 + LOPE R1→R4 + FTNT DA + education sector view."
     - "ROTATION APPROVED: AUTO.L SELL → ADBE ADD. +6.1pp E[CAGR]. Execute Monday market open."
     - "FTNT DA MODERATE COUNTER: rotation candidate, hold through Investor Day Mon. 2 new KCs added (#8 deferred rev, #9 CISA KEV)."
     - "LOPE R4 WATCHLIST: SO $155 GATED on Q1 earnings (OP margin 27%+). Committee FAIL Gate 7 (rotation math)."
     - "11/11 DAs complete — Error #65 fully resolved portfolio-wide."
     - "CPI stress test: 22.8% HIGH vuln (ADBE, HLNE, AUTO.L), 43.4% LOW vuln. Portfolio avg P/E ~17x."
-    - "EU small-cap candidates identified: ALFEN.AS, SGN.WA, MEDI.OL, UBXN.SW (need QS scoring)."
+    - "NVO KC#1 TRIGGERED (CagriSema failed): HOLD decision. E[CAGR] 16.6%, P/E 10.8x, base intact, Wegovy pill ramp catalyst."
+    - "MEDI.OL manual QS 68-81 (Tier A/B border). Cardiac surgery monopoly. Score formally next session."
+    - "Nuclear/AI Energy basket: 5 candidates ranked (CEG, CCJ, LEU, BWXT, SMR). Score CEG+CCJ next session."
+    - "HALO gate holds: Merck PTAB Jun 2026 = binary. SO $65 GATED correct. Day-after protocol ready."
+    - "Defense basket: SAF.PA = PRIORITY #1 (P/E 18.5x, cheapest quality EU). Score + R1 next session."
     - "Crisis: Hormuz closed. Oil ~$91. VIX ~29."
 
 r1_cooldowns:
