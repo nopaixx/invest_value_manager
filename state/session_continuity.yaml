@@ -128,6 +128,6 @@ r1_cooldowns:
   APP: { date: "2026-03-07", session: 144, verdict: "S1 SHORT THESIS COMPLETE (WATCHLIST, QS 49, no catalyst P10 FAIL)" }
   CVNA: { date: "2026-03-07", session: 144, verdict: "S4 CONDITIONAL APPROVE (EUR 100, $290-330, stop $370, VIX <28)" }
   TSLA: { date: "2026-03-08", session: 149, verdict: "S4 CONDITIONAL APPROVE (EUR 50, $250-290, stop $380, VIX <35, Q1 deliveries <370K gate, 60d max)" }
-  LOPE: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV $205, QS 75adj Tier A, E[CAGR] 14-16%. GATED: education sector view Error #30)" }
+  LOPE: { date: "2026-03-08", session: 149, verdict: "R3_COMPLETE (WATCHLIST, FV $190 post-DA, QS 75adj Tier A, E[CAGR] 11-13%. Growth 8%. DA MODERATE COUNTER. 3 new KCs.)" }
   CHE: { date: "2026-03-08", session: 149, verdict: "QS 57 Tier B. Low priority — no R1." }
   HRB: { date: "2026-03-08", session: 149, verdict: "QS 63 Tier B. Low priority — no R1." }

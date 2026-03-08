@@ -1,8 +1,8 @@
 # LOPE - Grand Canyon Education, Inc.
 
-> **Fair Value:** $205
-> **Expected Growth:** 10%
-> **Pipeline Stage:** R1_COMPLETE
+> **Fair Value:** $190 (R3 post-DA. Was $205 R1. DA MODERATE COUNTER: MSA concentration risk, growth 10%→8%, FV convergence with consensus.)
+> **Expected Growth:** 8% (R3 post-DA. Rev CAGR 6-7% + margin expansion 0-25bps + net buyback 1-2%. Was 10%.)
+> **Pipeline Stage:** R2_COMPLETE (DA S149. R3 resolution applied same session.)
 > **Date:** 2026-03-08
 > **QS Tool:** 78/100 (Tier A)
 > **QS Adjusted:** 75/100 (Tier A) -- Adjustment: -3 pts for single-client concentration risk (GCU ~85% of revenue) and regulatory headline risk history
@@ -295,6 +295,9 @@ For a Tier A compounder (QS 75), precedents suggest ~10-15% MoS is sufficient. A
 6. **New partner revenue fails to exceed 20% of total by 2028.** Diversification away from GCU is critical for long-term sustainability. If diversification stalls entirely, concentration risk remains permanent.
 
 7. **Short interest exceeds 15% of float with credible short thesis.** Currently 4.2%. A dramatic increase with institutional backing would signal material risk I may be missing.
+8. **MSA revenue share renegotiated below 55%.** (DA S149) A move from 60% to 55% would signal GCU asserting independence. More sensitive than KC#1 (50%).
+9. **Non-GCU partner revenue fails to grow >10% annually for 2 consecutive years.** (DA S149) Diversification is the only structural hedge against concentration.
+10. **Management buyback intensity drops below $100M/year without debt increase.** (DA S149) Would signal FCF deterioration or capital allocation shift.
 
 ---
 
