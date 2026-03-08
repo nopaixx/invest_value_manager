@@ -1,9 +1,11 @@
 # SAF.PA R3 Resolution — Safran SA
 
-> Date: 2026-03-07 | Session: S143
+> Date: 2026-03-07 | Session: S143 | **R3 Refresh: S150 (2026-03-08)**
 > R1 FV: EUR 277 (weighted) / EUR 290 (expected value) | QS: 73/79adj Tier A
-> R2 DA FV: EUR 215 (bear) / EUR 240-255 (adjusted range)
+> R2 DA FV (S143): EUR 215 (bear) / EUR 240-255 (adjusted range)
+> **R2 DA FV (S150 refresh): EUR 222 (bear) / EUR 255 (adjusted)** — 5 HIGH, MODERATE COUNTER
 > Current Price: EUR 317.70
+> **R3 Resolved FV: EUR 260** | Entry: EUR 235 | Verdict: WATCHLIST (OVERVALUED)
 
 ---
 
@@ -128,9 +130,45 @@ Good practice. Will implement when analyzing ASML, Airbus, or other EU companies
 
 ---
 
+---
+
+## 7. R3 Refresh (S150, 2026-03-08)
+
+New R2 DA (r2_devils_advocate.md) independently confirmed S143 findings with additional detail:
+
+### New Evidence Incorporated
+1. **LEAP HPT disk life capped at 10,000 vs 17,500 cycles** — Southwest Airlines publicly concerned. CEO admits "still suffering." More specific than S143 DA.
+2. **EUR/USD KO barrier ALREADY triggered Jan 2026** — reduced hedge book by <$1B. This was NOT known at S143. Confirms FX tail risk is REAL, not theoretical.
+3. **French surtax quantified: EUR 500M/yr** — management explicitly excluded from 2027-2028 guidance. S143 R3 didn't model this.
+4. **Adjusted P/E 32x forward** — DA correctly argues IFRS P/E 18.5x is misleading. Must use adjusted in all comparisons.
+5. **Glider count**: 17→60 engineless airframes at Airbus. Concrete evidence of Rate 75 delay.
+6. **Elliott Management pressuring LSEG** — not directly relevant but shows activist pressure on financial infrastructure names.
+
+### FV Impact of New Evidence
+- S143 R3 FV: EUR 260
+- New R2 DA FV: EUR 255
+- **R3 refresh verdict: MAINTAIN EUR 260.** The delta is only EUR 5 (2%). New evidence is confirming, not contradicting. The FX KO trigger is the most material new data point but was already probability-weighted in S143 R3.
+
+### Entry Adjustment
+- S143 R3: EUR 240-250
+- New R2: EUR 230
+- **R3 refresh: EUR 235** (tightened slightly given confirmed FX trigger event). At EUR 235: MoS 10% vs FV EUR 260, E[CAGR] = (260/235)^(1/3) - 1 + 10% + 1.1% ≈ 14.5%.
+
+### Kill Conditions Added (from S150 R2)
+6. **KC#6:** FX KO barrier breach >$5B on hedge book → immediate FV revision to bear
+7. **KC#7:** French surtax extended to 2028 at >EUR 400M/yr → reduce FCF estimates
+8. **KC#8:** LEAP A320neo win rate declining trend (PW GTF HS+ upgrade gaining share)
+
+### Pipeline Status
+**R3_COMPLETE (refreshed). R4 NOT warranted at EUR 317.70.**
+Distance to entry EUR 235 = -26%. No near-term catalyst. Monitor Q1 2026 revenue (April).
+
+---
+
 ## Sources
 
-- R1: thesis/research/SAF.PA/thesis.md (2026-03-07)
-- R2: thesis/research/SAF.PA/counter_analysis.md (2026-03-07)
+- R1: thesis/research/SAF.PA/thesis.md (2026-03-08)
+- R2 (S143): thesis/research/SAF.PA/counter_analysis.md (2026-03-07)
+- R2 (S150): thesis/research/SAF.PA/r2_devils_advocate.md (2026-03-08)
 - Moat: thesis/research/SAF.PA/moat_assessment.md (2026-03-07)
 - Risk: thesis/research/SAF.PA/risk_assessment.md (2026-03-07)

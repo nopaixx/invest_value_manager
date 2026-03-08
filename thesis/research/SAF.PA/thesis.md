@@ -6,7 +6,7 @@
 > **Fair Value:** EUR 290 (Expected Value weighted scenarios)
 > **Expected Growth:** 12-15% (revenue low-to-mid teens; ROI CAGR ~18% to 2028; long-term 8-10%)
 > **Quality Score:** 73 tool / 79 adjusted (Tier A) | **Verdict:** WATCHLIST at EUR 260
-> **Pipeline Stage:** R1_COMPLETE
+> **Pipeline Stage:** R3_COMPLETE (S143 R3 + S150 R2 refresh. FV EUR 260, entry EUR 235. R4 NOT warranted at EUR 317.70.)
 
 ---
 

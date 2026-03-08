@@ -164,6 +164,37 @@ Q4 2025 revenue grew 12.5% YoY — a deceleration from FY2025's 19% growth. But 
 - **Mitigant:** LSEG has synergies with TW (data distribution, Workspace integration, Canton Network). Selling TW would sever these. Elliott Investment Management building LSEG stake adds activist pressure that could either accelerate or defer TW decisions.
 - **My assessment:** LSEG overhang is REAL but manageable. It creates the discount that creates our opportunity. If LSEG sells a portion, the float increases (good for liquidity) and any dip would be buyable.
 
+### LSEG Block Trade Risk — Quantified (S150 peer review finding)
+
+**Context:** Elliott Management built a stake in LSEG (Feb 2026), pushing for £5B buyback + portfolio review. UBS identifies 4 LSEG assets that could be sold: FTSE Russell, Risk Intelligence, **51% Tradeweb stake (~$13B)**, and LCH. LSEG management resists, calling units "great trophy assets" with integration value.
+
+**Scenario modeling (if LSEG sells TW stake):**
+
+| Scenario | LSEG Action | Size | Price Impact | Duration | Probability |
+|----------|------------|------|-------------|----------|-------------|
+| A: Orderly secondary (10-15%) | Block trade, negotiated | ~$2.5-3.8B | -5 to -8% | 1-3 days, recovers in 2-4 weeks | 20% (12mo) |
+| B: Large secondary (20-30%) | Accelerated bookbuild | ~$5-7.5B | -8 to -15% | 1 week, recovers in 1-3 months | 10% (12mo) |
+| C: Full exit (50.8%) | Staged over 12-24 months | ~$13B | -15 to -25% initial, permanent governance shift | Multi-year process | 5% (12mo) |
+
+**Precedents:**
+- SoftBank/Alibaba: Sold $7.2B via prepaid forward contracts. BABA dropped ~4.7% in HK on news, recovered within weeks. Forward contracts meant market impact was already absorbed at signing.
+- Thomson Reuters/Refinitiv: Exited stakes in orderly tranches over years. Managed via structured secondaries.
+- Block trade academic evidence (Kellogg): Large blocks typically trade at 3-7% discount to market. $2-5B blocks can cause -5 to -12% temporary impact on mid-cap names.
+
+**TW-specific factors:**
+- TW market cap: ~$28B. Free float currently ~49% (~$13.7B). Daily volume ~$100M.
+- A 10% LSEG sale = ~$2.5B = 25 days of average volume. Manageable with underwriter support.
+- A 50% sale = ~$13B = 130 days of volume. Would require staged approach over 12+ months.
+- **Governance flip:** If LSEG drops below 50%, voting control changes. Board reconstitution, strategic independence. This could be POSITIVE long-term (removes overhang, governance discount disappears) but disruptive short-term.
+
+**Expected impact on our position (5.7% portfolio, $697 invested):**
+- Scenario A (20% prob): -5 to -8% on $697 = -$35 to -$56. Recoverable. ADD opportunity.
+- Scenario B (10% prob): -8 to -15% = -$56 to -$105. Significant but temporary. Strong ADD signal.
+- Scenario C (5% prob): -15 to -25% = -$105 to -$174. Material. Reassess thesis fundamentals.
+- Probability-weighted expected loss: ~$17 (2.4% of position). Manageable.
+
+**Conclusion:** KC#4 already covers "LSEG forced sale >20%." Adding KC#9 for the more likely orderly scenario and a monitoring trigger.
+
 ---
 
 ## Financial Deep Dive
@@ -428,6 +459,8 @@ This exceeds the 12% threshold for Tier A market buy per E[CAGR] framework (P14,
 
 8. **KC#8: ROIC falls below WACC.** If ROIC drops below 9% for 2 consecutive quarters. Currently at 16.6% — would require massive deterioration.
 
+9. **KC#9: LSEG orderly stake reduction below 30%.** (Added S150 — peer review gap). If LSEG announces structured secondary reducing stake below 30%, governance shift is imminent. Evaluate: (a) board reconstitution risk, (b) strategic integration loss (data licensing, Workspace), (c) voting control flip. Action: if price drops >10% on announcement → evaluate as ADD opportunity (overhang removal is long-term positive). If fundamentals unchanged → BUY the dip.
+
 ### Kill Conditions Status (2026-03-08)
 
 | KC# | Condition | Status | Notes |
@@ -440,6 +473,7 @@ This exceeds the 12% threshold for Tier A market buy per E[CAGR] framework (P14,
 | 6 | Major dealer defection | **CLEAR** | No competitive signals. Top-5 dealers all active on platform. |
 | 7 | Canton Network write-down >$200M | **CLEAR** | Canton at ~$243M. Generating $6.6M/quarter revenue. No write-down signal. |
 | 8 | ROIC <WACC (9%) 2Q | **CLEAR** | ROIC 16.6%. +7.8pp spread. Would require massive earnings collapse. |
+| 9 | LSEG orderly reduction <30% | **MONITORING** | Elliott built LSEG stake (Feb 2026), pushing for £5B buyback + portfolio review. UBS values TW stake at ~$13B. No announcement yet but activist pressure real. Monitor LSEG quarterly reports + any secondary filing. |
 
 ---
 
