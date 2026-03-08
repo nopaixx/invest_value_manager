@@ -1,8 +1,12 @@
 # SAF.PA - Safran SA
 
-> R1 Fundamental Analysis | Date: 2026-03-07 | Session: S142
+> R1 Fundamental Analysis | Date: 2026-03-08 | Session: S149
 > Analyst: fundamental-analyst | Basket: Defense & Rearmament
 > Price at analysis: EUR 317.70 | Market Cap: EUR 132.3B
+> **Fair Value:** EUR 290 (Expected Value weighted scenarios)
+> **Expected Growth:** 12-15% (revenue low-to-mid teens; ROI CAGR ~18% to 2028; long-term 8-10%)
+> **Quality Score:** 73 tool / 79 adjusted (Tier A) | **Verdict:** WATCHLIST at EUR 260
+> **Pipeline Stage:** R1_COMPLETE
 
 ---
 
@@ -76,7 +80,7 @@ Safran is a French aerospace and defense company operating through three divisio
 - Seats (former Zodiac Aerospace, acquired 2018)
 - Cabin systems, galleys, lavatories
 - Historically troubled (Zodiac integration issues), now improving
-- Lowest margin division, turnaround ongoing
+- Lowest margin division, turnaround ongoing -- Safran divesting non-core interiors assets
 
 ### 2. Revenue Model and Unit Economics
 
@@ -129,7 +133,7 @@ The "cheap" P/E 18.5x is an IFRS artifact. On adjusted metrics, Safran trades at
 2. 26% ROI CAGR with management guiding continued mid-teens growth to 2028
 3. 11,600 LEAP engine backlog = decades of captive aftermarket revenue
 4. Net cash balance sheet (EUR 1.5B net cash)
-5. 17.4% insider ownership (primarily French state via GIMD)
+5. 17.4% insider ownership (primarily French state ~11% via GIMD + employees ~7-8%)
 
 **Value Trap Checklist: 0/10** -- Safran has NONE of the value trap indicators.
 
@@ -144,12 +148,21 @@ Receivables growth 36.4% vs Revenue growth 12.5% (flagged by narrative_checker.p
 - This is typical for aerospace OEMs during production ramp periods
 - **Monitor but NOT a concern** -- will normalize as Airbus reaches Rate 75
 
+### 6. Ownership Structure
+
+- **French State (APE):** ~11.2% direct -- strategic anchor shareholder, provides national defense alignment
+- **Employees:** ~7-8% via corporate savings plans -- strong skin in the game
+- **TCI Fund Management:** ~5.2% -- activist fund, supportive of shareholder returns
+- **Free float:** ~80%
+- **Double voting rights:** for registered shares held 2+ years (state, employees benefit)
+- **Governance:** 16-member board with 7 independent directors (58.3%), 1 state representative
+
 ---
 
 ## Growth Drivers
 
 ### Primary: LEAP Engine Ramp-Up
-- 2,000+ LEAP engines delivered in 2025 (+20% YoY)
+- 2,000+ LEAP engines delivered in 2025 (+28% YoY)
 - Targeting 2,000+ in 2026, 2,500 by 2028
 - Each engine = 25-30 years of aftermarket revenue
 - Airbus targeting Rate 75/month for A320neo by 2027 (currently ~50-55)
@@ -159,17 +172,23 @@ Receivables growth 36.4% vs Revenue growth 12.5% (flagged by narrative_checker.p
 - ~22,000 CFM56 engines in service, average age increasing
 - Older engines = MORE maintenance = HIGHER aftermarket revenue
 - Airlines extending fleet life rather than replacing = tailwind for MRO
-- This installed base provides EUR 4-5B+ annual aftermarket revenue today
+- Shop visits at peak levels: 2,300-2,400/yr through 2028
+- CFM56 aftermarket revenue grew +17.6% in 2025
 
-### Tertiary: Defense Revenue Growth
+### Tertiary: LEAP Aftermarket Inflection
+- LEAP aftermarket revenue projected to MORE THAN TRIPLE between 2024 and 2028
+- LEAP-1B RPFH contracts becoming profitable in H1 2026 (MAVERICK blade introduction)
+- This is the MOST IMPORTANT long-term growth driver -- as the 6,000+ LEAP installed base ages, aftermarket revenue compounds for 25+ years
+
+### Quaternary: Defense Revenue Growth
 - Safran defense products (navigation, optronics, drones) benefiting from European rearmament
 - Equipment & Defense segment growing, margin expanding
 - Rafale fighter aircraft advance payments flowing through
 
-### Quaternary: Aircraft Interiors Turnaround
-- Zodiac acquisition turnaround finally gaining traction
+### Quinary: Aircraft Interiors Turnaround
+- Zodiac acquisition turnaround gaining traction
 - Targeting high single-digit margins by 2028 (from low single digits)
-- Revenue growing with aircraft deliveries
+- Divesting non-core assets (Safran Passenger Innovations divested, EZAir pending mid-2026)
 
 ---
 
@@ -182,9 +201,9 @@ Receivables growth 36.4% vs Revenue growth 12.5% (flagged by narrative_checker.p
 | TAM: narrowbody engines | ~$40-45B annually, growing 5-7% | IATA fleet forecast, Airbus/Boeing backlogs |
 | Market share (LEAP) | Maintaining 60%+ A320neo, 100% 737 MAX | No new entrant possible before 2035 |
 | Pricing power | 2-3% annual escalators in contracts | Standard aerospace contract terms |
-| Revenue growth 2026-2028 | ~10% CAGR | Management guidance (CMD'24, raised Feb 2026) |
+| Revenue growth 2026-2028 | ~12-14% CAGR | Management guidance: low-to-mid teens (2026), ~10% CAGR to 2028 base |
 
-**Revenue trajectory (adjusted):**
+**Revenue trajectory:**
 - FY2025 actual: EUR 31.3B
 - FY2026E: EUR 35.5-36.5B (management: low-to-mid teens growth)
 - FY2027E: EUR 39-41B
@@ -194,7 +213,7 @@ Receivables growth 36.4% vs Revenue growth 12.5% (flagged by narrative_checker.p
 
 | Metric | FY2025 | FY2026E | FY2028E Target | Basis |
 |--------|--------|---------|----------------|-------|
-| Recurring OI margin | 16.6% | ~17.0-17.5% | ~17-18% | Propulsion 22-24%, E&D mid-teens, Interiors high single digits |
+| Recurring OI margin | 16.6% | ~17.0-17.5% | ~17-18% | Propulsion 22-24%, E&D mid-teens, Interiors HSD |
 | FCF margin | 12.6% | ~12.5-13.0% | ~13-14% | 70% EBIT-to-FCF conversion target |
 
 ### WACC Derivation
@@ -203,9 +222,9 @@ Receivables growth 36.4% vs Revenue growth 12.5% (flagged by narrative_checker.p
 |-----------|-------|--------|
 | Risk-Free Rate | 3.2% | French OAT 10Y |
 | Equity Risk Premium | 5.5% | Damodaran EU |
-| Beta | 1.15 | yfinance (aerospace/defense supplier) |
+| Beta | 1.15 | yfinance (aerospace/defense) |
 | Cost of Equity | 9.5% | Rf + Beta * ERP |
-| Cost of Debt | 2.5% pre-tax, 1.9% post-tax | Low leverage, investment grade |
+| Cost of Debt | 2.5% pre-tax, 1.9% post-tax | Investment grade, low leverage |
 | E/V | 97% | Net cash, minimal debt |
 | D/V | 3% | Minimal net impact |
 | **WACC** | **9.3%** | Weighted |
@@ -283,15 +302,21 @@ Range: EUR 299 - EUR 372. Midpoint: **EUR 335**
 
 ### DCF Tool Cross-Check
 
-The DCF tool produced Base FV of EUR 169 -- significantly below my estimate. This is because:
-1. The tool uses 5-year historical FCF CAGR (~14%) projected forward, then applies terminal growth
-2. It does NOT account for the acceleration in growth (2025 FCF EUR 3.9B is ALREADY 22% above prior year)
-3. TV as % of EV: 74.5% -- HIGH sensitivity
-4. FV Spread: 75% -- HIGH sensitivity
+The DCF tool produced a Reverse DCF showing market implies 20.9% FCF growth for 5 years vs historical 13.7%. This is because:
+1. The tool uses 5-year historical FCF CAGR (~14%) projected forward
+2. It does NOT account for the acceleration in growth (2025 FCF EUR 3.9B is 22% above prior year)
+3. TV as % of EV: HIGH sensitivity
+4. FV Spread: HIGH sensitivity
 
 **Sensitivity assessment: HIGH.** The wide FV spread and high TV dependence mean the DCF is unreliable as a point estimate. The OEY + EV/EBIT approach is more appropriate for this business.
 
 **Reverse DCF insight:** Market implies 20.9% FCF growth for 5 years. Management guides ~15% ROI growth + improving FCF conversion. If management delivers, the implied growth is achievable but not conservative. The market is pricing in execution of the 2028 plan -- not excess optimism, but not a discount either.
+
+**Asymmetry analysis (from tool):**
+- Bull case (P10): FV EUR 425 (+34%)
+- Bear case (P90): FV EUR 173 (-45%)
+- Asymmetry ratio: 0.74x (unfavorable -- downside exceeds upside at current price)
+- This CONFIRMS the stock is fairly valued to slightly overvalued at EUR 317.70
 
 ---
 
@@ -299,7 +324,7 @@ The DCF tool produced Base FV of EUR 169 -- significantly below my estimate. Thi
 
 | | Bear (25%) | Base (50%) | Bull (25%) |
 |--|-----------|-----------|-----------|
-| **Assumption** | Airbus ramp delays, Boeing MAX issues persist, margin miss | Management delivers 2028 plan, steady ramp | Airbus Rate 75+ achieved, interiors turnaround faster, defense accelerates |
+| **Assumption** | Airbus ramp delays, Boeing MAX issues persist, margin miss, EUR/USD KO barriers breached | Management delivers 2028 plan, steady ramp | Airbus Rate 75+ achieved, interiors turnaround faster, defense accelerates |
 | **2028 ROI** | EUR 5.5B | EUR 7.0B | EUR 7.5B+ |
 | **2028 FCF** | EUR 3.8B | EUR 5.0B | EUR 5.5B+ |
 | **Terminal EV/EBIT** | 18x | 22x | 26x |
@@ -333,10 +358,27 @@ The DCF tool produced Base FV of EUR 169 -- significantly below my estimate. Thi
 | Target | EUR 260 | 10.3% | Adequate MoS for Tier A compounder |
 | Conservative | EUR 240 | 17.2% | Strong MoS, would require meaningful pullback |
 
-**Recommended Entry: EUR 260** (10.3% MoS vs EV, ~23% below 52wH)
+**Recommended Entry: EUR 260** (10.3% MoS vs EV, ~26% below 52wH)
 - This represents ~18% below current price
 - Would need a catalyst (general market correction, specific earnings miss, Airbus ramp delay)
 - At EUR 260, forward P/E on 2026E adjusted EPS ~EUR 9.50 = 27.4x -- reasonable for a duopolist
+
+---
+
+## E[CAGR] at Current Price
+
+```
+E[CAGR] = (FV/Price)^(1/3) - 1 + Sustainable_Growth + Dividend_Yield
+E[CAGR] = (290/317.70)^(1/3) - 1 + 12% + 1.1%
+E[CAGR] = -3.0% + 12% + 1.1% = 10.1%
+
+At EUR 260 entry:
+E[CAGR] = (290/260)^(1/3) - 1 + 12% + 1.1%
+E[CAGR] = 3.7% + 12% + 1.1% = 16.8%
+```
+
+At current price EUR 317.70: E[CAGR] ~10.1% -- below 12% Tier A deployment threshold.
+At EUR 260 entry: E[CAGR] ~16.8% -- well above 12% threshold.
 
 ---
 
@@ -348,6 +390,8 @@ The DCF tool produced Base FV of EUR 169 -- significantly below my estimate. Thi
 4. **2028 ROI miss by >15%**: If recurring OI trajectory clearly trends below EUR 6.0B for 2028 (vs EUR 7.0-7.5B target)
 5. **FCF conversion deterioration**: If EBIT-to-FCF ratio drops below 55% for 2 consecutive years (vs 70% target)
 6. **Management integrity**: CEO/CFO departure, accounting restatement, or material governance issue
+7. **LEAP safety grounding order**: FAA/EASA airworthiness directive requiring fleet-wide grounding (similar to GTF situation)
+8. **EUR/USD KO barrier breach**: EUR/USD sustains above 1.25 for 6+ months AND Safran discloses material hedging losses
 
 ---
 
@@ -395,6 +439,10 @@ Safran is a world-class business -- one of the best competitive positions in any
 - [Safran Hails Outstanding 2025 - Leeham News](https://leehamnews.com/2026/02/13/safran-hails-outstanding-2025-prepares-for-airbus-ramp-up/)
 - [FlightGlobal: Safran Forecasts 2,000 LEAP Deliveries in 2026](https://www.flightglobal.com/engines/safran-forecasts-2000-leap-deliveries-in-2026-with-further-increases-to-come/161009.article)
 - [Goldman Sachs: Defense Spending Boost](https://www.goldmansachs.com/insights/articles/how-much-will-rising-defense-spending-boost-europes-economy)
+- [Safran FY2025 FY Presentation - Investing.com](https://www.investing.com/news/company-news/safran-fy-2025-presentation-record-engine-deliveries-drive-147-revenue-growth-93CH-4504626)
+- [CFM Addresses Durability Issues](https://www.eplaneai.com/news/cfm-addresses-durability-issues-in-initial-leap-engine-models)
+- [FlightGlobal: Safran LEAP-1B HPT Blades](https://www.flightglobal.com/engines/safran-anticipates-approval-for-enhanced-leap-1b-hpt-blades-this-year/161812.article)
+- [Safran Shareholders - MarketScreener](https://www.marketscreener.com/quote/stock/SAFRAN-4696/company-shareholders/)
 
 ---
 
@@ -403,16 +451,19 @@ Safran is a world-class business -- one of the best competitive positions in any
 ### Incertidumbres/Dudas
 - The OEY method produced EUR 238 while EV/EBIT produced EUR 335 -- significant divergence (40%). This reflects the fundamental uncertainty: the OEY/DCF approach discounts the high growth phase heavily (WACC 9.3%), while multiples capture peer comparisons better. The weighted average (EUR 277) is my best estimate but has wide uncertainty bands.
 - The IFRS vs adjusted EPS gap is MASSIVE (~EUR 8-9 per share in 2022/2024). While the adjustment is well-justified, investors who rely on screener data (IFRS EPS) may not see the true earnings power -- this could be a source of edge OR a source of permanent discount.
-- Receivables growth 36.4% vs revenue 12.5% -- I assessed this as ramp-related and structural, but it bears monitoring. If receivables continue growing 3x faster than revenue beyond 2027, it could signal collection issues or aggressive revenue recognition.
+- Receivables growth 36.4% vs revenue 12.5% -- assessed as ramp-related and structural, but it bears monitoring. If receivables continue growing 3x faster than revenue beyond 2027, it could signal collection issues.
+- The "P/E 18.5x" is MISLEADING -- this is the screener P/E based on IFRS EPS. The REAL P/E on adjusted earnings is ~42x trailing / ~32x forward. Any comparison with "sector P/E of 30-85x" must use the ADJUSTED P/E, not the IFRS one.
+- EUR/USD KO barriers (1.21-1.30) represent a tail risk that could materially impact earnings if the Iran crisis resolves quickly and EUR strengthens.
 
 ### Sugerencias para el Sistema
-- The quality_scorer.py should have a way to accept "adjusted EPS" as override when IFRS EPS is demonstrably distorted by PPA amortization. Safran is not the only company with this issue (any major acquirer will have it).
-- The DCF tool's base case (EUR 169) is significantly below any reasonable estimate, suggesting the tool may not handle high-growth-transitioning-to-moderate-growth companies well. The sensitivity note (TV 74.5%, spread 75%) correctly flags unreliability.
+- The quality_scorer.py should have a way to accept "adjusted EPS" as override when IFRS EPS is demonstrably distorted by PPA amortization. Safran is not the only company with this issue.
+- The DCF tool's reverse DCF reports EBIT margin as 33.4% -- this appears to conflate operating income with EBITDA or use a non-standard definition. Safran's actual recurring OI margin is 16.6%. This discrepancy should be investigated and fixed.
 
 ### Anomalias Detectadas
-- The tool reports EBIT margin as 33.4% in the reverse DCF -- this seems too high and may be conflating operating income with EBIT after adding back D&A. Safran's recurring OI margin is 16.6% for FY2025. The tool may be using a non-standard EBIT definition.
-- OCF/Net Income ratio of -7.1x in 2024 and -1.4x in 2022 -- these extreme values are artifacts of the IFRS net income distortion, not cash flow problems. OCF itself is stable and growing.
+- The reverse DCF EBIT margin of 33.4% does NOT match Safran's reported 16.6% recurring OI margin. The tool may be using EBIT = operating income + D&A or using an alternate definition.
+- OCF/Net Income ratio of -7.1x in 2024 is an artifact of IFRS distortion, not a cash flow issue.
+- The QS tool Market Position component scores 0/8 (requires manual input) but should be 8/8 for a narrowbody jet engine duopolist.
 
 ### Preguntas para Orchestrator
 1. Given the EUR 260 entry target is 18% below current price, should this go on the standing orders list immediately, or wait for R2 adversarial challenge first?
-2. Within the Defense & Rearmament basket, SAF.PA at EUR 260 entry and BAH at $70-80 entry -- which should be prioritized for capital deployment if both hit entry? My preliminary view: BAH first (cheaper, higher E[CAGR] at entry), SAF.PA second.
+2. Within the Defense & Rearmament basket, SAF.PA at EUR 260 entry and BAH at $70-80 entry -- which should be prioritized for capital deployment if both hit entry? Preliminary view: BAH first (cheaper, higher E[CAGR] at entry), SAF.PA second.
