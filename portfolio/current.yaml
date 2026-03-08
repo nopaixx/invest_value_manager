@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 0  # Updated 2026-03-07. S144c1: Full deployment. NVO +400, EDEN +317. Previous: 717.
+  amount: 370  # Updated 2026-03-08. SELL AUTO.L 65 shares at 494.80 GBp. Proceeds ~EUR 370. HOLD for ADBE earnings buffer.
   currency: EUR
 
 positions:
@@ -89,19 +89,7 @@ positions:
 
   # LULU REMOVED 2026-03-06 - SOLD. Orphan EXIT. No CEO 34+ days, dual activist pressure (Wilson + Elliott), worst E[CAGR] in portfolio (-5.5%). P&L -1.0%.
 
-  - ticker: AUTO.L
-    name: "AutoTrader Group plc"
-    shares: 65
-    invested_usd: 427.60  # 362.70 EUR * 1.1789
-    avg_cost_usd: 6.58  # USD at purchase FX rate
-    avg_cost_gbp: 486.86  # REAL entry price in GBp (from eToro, confirmed 2026-02-23)
-    date_opened: 2026-02-06
-    thesis: thesis/active/AUTO.L/thesis.md
-    conviction: low
-    fair_value: "580 GBp (re-eval Feb 11, was 617p adversarial, 688p original. QS Tool 63, Adj 71 Tier B. Was 79 Tier A.)"
-    last_review: 2026-02-11
-    exit_plan: "HOLD LOW conviction. April 2026 pricing event = MAKE-OR-BREAK. May 2026 FY results = MANDATORY REVIEW. EXIT if April causes >200 cancellations or dealer count -3%+. EXIT if CMA formal investigation. EXIT if ARPR <3%. If Tier A opportunity needs capital, candidate for rotation."
-    notes: "Adversarial + urgent re-eval 2026-02-11: QS 79->71 (Tier A->B). FV 688->617->580p. Moat under active siege (180+ downgrades, Jefferies/Berenberg downgrade). Financial quality 40/40 exceptional. ROIC +42pp. Position small (3.4%), loss manageable (-3.3%)."
+  # AUTO.L REMOVED 2026-03-08 - SOLD. S150 rotation R0. E[CAGR] 12.1% = 2nd worst. LOW conviction Tier B. Moat under siege. Capital held as ADBE earnings buffer. P&L ~+1.6%.
 
   # MORN REMOVED 2026-03-07 - SOLD. S143 restructuring. Data & Analytics Monopolies basket rotation. QS 78 Tier A but lowest E[CAGR] (~5.1%) in basket. Capital redeployed to TW + WKL.AS. P&L ~+2%.
 
@@ -918,3 +906,15 @@ transactions:
     price_eur: 18.79
     total_eur: 317
     notes: "ADD - S144c1 full deployment. E[CAGR] 27.1% HIGHEST. Position 15.4%→~19%. 5th ADD total. Remaining cash deployed."
+
+  # S150 ROTATION R0 — SELL AUTO.L (2026-03-08)
+
+  - date: 2026-03-08
+    action: SELL
+    ticker: AUTO.L
+    shares: 65
+    price_gbp: 494.80
+    total_eur: ~370
+    pnl_eur: ~7
+    pnl_pct: ~1.6
+    notes: "EXIT - S150 rotation R0. E[CAGR] 12.1% = 2nd worst position. LOW conviction Tier B (QS 71). Moat under active siege (180+ dealer downgrades). Held 30 days. +1.6% gain. Proceeds held as cash buffer for ADBE earnings Wed Mar 12. Next deployment: FTNT rotation (if Investor Day bear → GDDY) or ADBE ADD (if earnings PASS)."

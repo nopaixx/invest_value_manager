@@ -9,11 +9,11 @@
 # Metadata
 metadata:
   created: 2026-02-03
-  last_updated: 2026-03-07
-  total_closed: 21
-  total_pnl_eur: 94.23  # Previous 86.23 + MORN ~8
-  win_rate: 57.1  # 12 winners / 21 positions (MORN +2% added as winner)
-  avg_holding_days: 12
+  last_updated: 2026-03-08
+  total_closed: 22
+  total_pnl_eur: 101.23  # Previous 94.23 + AUTO.L ~7
+  win_rate: 59.1  # 13 winners / 22 positions (AUTO.L +1.6% added as winner)
+  avg_holding_days: 13
   # Note: DTE.DE had prior partial sells totaling EUR 137.80 realized P&L (see partial_sells section)
 
 # ADVERSARIAL FV ACCURACY TRACKING (added Session 53 per Devil's Advocate)
