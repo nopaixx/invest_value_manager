@@ -340,3 +340,86 @@ FTNT at 9.7% E[CAGR] is tied for 2nd worst in the portfolio. This investor day i
 
 *Position opened: 2026-02-26. 5.98 shares @ $79.12 (EUR 400). Added 6.94 shares @ ~$83.70. Trimmed 2.35 shares @ $83.67 (S143c8 T15 sizing rebalance). Current: 10.57 shares @ avg $81.58.*
 *R1->R2->R3->R4 pipeline completed S123. 5th E[CAGR]-framework market buy.*
+
+---
+
+## Section 10: Q1 CY2026 Earnings Framework (~Late April 2026)
+
+*Built: 2026-03-08 (S149). Pre-Investor Day (Mar 10). This framework is INDEPENDENT of Investor Day outcome — Q1 fundamentals must stand on their own. Update post-Investor Day with any new guidance baseline.*
+
+### Context: Why Q1 Matters
+
+FTNT is 2nd worst E[CAGR] (9.7%) in portfolio. Investor Day Mon Mar 10 will either rescue or condemn the position. But Q1 earnings (~late April) is the FIRST quarterly data point of FY2026. It tests whether FY2026 guidance ($7.5-7.7B revenue) is on track, whether the firewall refresh cycle has legs, and whether SASE can sustain +40% billings growth.
+
+**FY2025 actuals (baseline):** Revenue $6.8B (+14%), Billings $7.55B (+16%), Q4 billings $2.37B (+18% = acceleration), Services rev $4.58B (+13%), Product rev $2.22B (+16%), GM 81.3%, OP margin 35.5% non-GAAP, FCF $2.21B (32.5% margin), Deferred rev $7.1B (+15%), EPS $2.37 non-GAAP.
+
+**FY2026 guidance:** Revenue $7.5-7.7B (+10-13%), Billings $8.0-8.3B (+6-10%), OP margin 33-34% non-GAAP, EPS $2.43-2.53.
+
+### Key Metrics for Q1
+
+| Metric | Q1 FY2025 Actual | Q1 FY2026 Needed | PASS | FAIL |
+|--------|-----------------|-----------------|------|------|
+| **Revenue** | $1.54B | $1.72-1.77B | >=12% YoY | <10% YoY |
+| **Billings** | $1.58B | $1.74-1.82B | >=10% YoY | <6% YoY (guide floor) |
+| **Product revenue** | $454M | $500M+ | >=10% YoY (refresh cycle) | <5% (refresh fading) |
+| **Services revenue** | $1.09B | $1.22B+ | >=12% YoY | <10% (decel) |
+| **Unified SASE billings** | ~$300M est | ~$400M+ | >=30% YoY | <20% (KC#2 risk) |
+| **Gross margin** | 80.2% | >=80% | Stable/expanding | <78% (structural) |
+| **Operating margin** | 33.1% non-GAAP | >=32% | On guide | <30% (investment overshoot) |
+| **FCF** | $818M | >=35% margin | Strong conversion | <25% (concern) |
+| **Deferred revenue** | $6.43B | $7.2B+ | >=12% growth | <8% (KC#8 risk) |
+| **EPS non-GAAP** | $0.57 | $0.58-0.62 | On guide | <$0.55 |
+
+### Decision Tree
+
+| Scenario | Criteria | Action |
+|----------|----------|--------|
+| **PASS** | Revenue >=12%, billings >=10%, SASE >=30%, GM >=80%, guide maintained/raised | **HOLD.** If Investor Day was BULL, this confirms FV $95-100. If BASE, confirms $88. |
+| **CONDITIONAL** | Revenue 10-12%, billings 6-10% (guide floor), SASE 20-30%, GM 78-80% | **HOLD but review.** Monitor Q2 closely. If E[CAGR] still <12% and pipeline has rotation candidate → prepare EXIT. |
+| **FAIL** | Revenue <10% OR billings <6% OR SASE <20% OR GM <78% OR guide cut | **EXIT.** KC#1 approaching (rev <8% 2Q), KC#2 risk (SASE <15%), or KC#8 (deferred rev <8%). Run EXIT Protocol 6 gates. FTNT → GDDY rotation activated. |
+
+### KC Mapping to Q1 Data Points
+
+| KC | Q1 Trigger Signal | Pre-Trigger Alert |
+|----|-------------------|-------------------|
+| KC#1 (rev <8% 2Q) | Q1 rev growth <10% = first flag | Two weak Qs = TRIGGERED |
+| KC#2 (SASE <15%) | Unified SASE billings growth disclosed <20% | If <25% → APPROACHING |
+| KC#3 (FCF <25%) | FCF margin <25% in Q1 | One Q can be seasonal; 2Q = KC |
+| KC#6 (2nd incident) | Any new CVE in Q1 | Check CISA KEV post-earnings |
+| KC#7 (product -10% + SASE <15%) | Product rev negative + SASE <20% | Combined weakness = thesis-breaking |
+| KC#8 (deferred rev <8% 2Q) | Deferred rev growth <10% | Was 15% FY2025, decel to <10% = concern |
+| KC#9 (3rd CISA KEV/12mo) | New CISA KEV entry in Q1 | Check post-event |
+
+### FV Sensitivity to Q1 Outcome
+
+| Q1 Outcome | Impact on FV | E[CAGR] at ~$84 |
+|------------|-------------|-----------------|
+| Strong PASS + guide raise | FV $88 → $95-100 | 14-16% (justified HOLD) |
+| PASS + guide maintained | FV $88 unchanged | 9.7% (rotation candidate) |
+| CONDITIONAL + guide maintained | FV $88 → $83-85 | 7-9% (EXIT candidate) |
+| FAIL + guide cut | FV $88 → $70-75 | Negative (EXIT immediately) |
+
+### What Changes if Investor Day Already Happened
+
+- **If Investor Day BULL:** Q1 PASS = double confirmation. FV already at $95-100. Q1 validates. HOLD firm.
+- **If Investor Day NEUTRAL:** Q1 becomes the deciding quarter. PASS = HOLD at $88. CONDITIONAL = last chance.
+- **If Investor Day BEAR:** Position may already be sold (→ GDDY rotation). Framework is MOOT unless still holding.
+- **If FTNT SOLD before Q1:** Monitor Q1 for re-entry signal. If Q1 PASS + price <$75, consider SO.
+
+### Refresh Cycle Risk
+
+The FY2025 product revenue surge (+16%) was partly driven by FortiGate firewall refresh cycle (enterprises replacing aging units). Q1 tests whether this cycle has legs or was a one-quarter phenomenon. Key signals:
+- Product revenue growth >=10% = cycle continuing
+- Product revenue growth <5% = cycle exhausting (FY2026 product rev at risk)
+- FortiGate unit shipments (if disclosed) vs ASP growth = volume vs pricing decomposition
+
+### Competitive Context
+
+Monitor earnings/commentary from:
+- **PANW** (Q2 FY2026 ~Feb, already reported) — platformization momentum, NGS ARR
+- **CRWD** (Q4 FY2026 ~Mar, if available by Q1 FTNT) — endpoint market health
+- **ZS** (Q2 FY2026 ~Mar) — SASE/SSE pure-play trajectory
+
+If PANW shows accelerating platformization while FTNT decelerates → moat under siege.
+
+*Framework prepared: 2026-03-08 (S149c29). Independent of Investor Day outcome. Update with Investor Day baseline adjustments post-Mar 10.*
