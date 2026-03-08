@@ -428,6 +428,19 @@ This exceeds the 12% threshold for Tier A market buy per E[CAGR] framework (P14,
 
 8. **KC#8: ROIC falls below WACC.** If ROIC drops below 9% for 2 consecutive quarters. Currently at 16.6% — would require massive deterioration.
 
+### Kill Conditions Status (2026-03-08)
+
+| KC# | Condition | Status | Notes |
+|-----|-----------|--------|-------|
+| 1 | Electronification reversal >2pp 2Q | **CLEAR** | Jan/Feb 2026 ADV records ($3.1T). Electronic share expanding across all asset classes. |
+| 2 | ADV growth negative 2Q | **CLEAR** | Jan +26%, Feb +23% YoY. Record volumes. No risk. |
+| 3 | Revenue decline despite ADV growth | **MONITORING** | Credit RPM -14% Q4. Total revenue still +18.9% but credit line bears watching. If credit rev declines YoY in Q1 despite ADV growth = first flag. |
+| 4 | LSEG forced sale >20% | **CLEAR** | No LSEG sale activity. Elliott activism at LSEG could accelerate but no imminent signal. |
+| 5 | Operating margin <38% 2Q | **CLEAR** | Operating margin 41.2% (Q4 53.2%). 1500bps buffer above threshold. |
+| 6 | Major dealer defection | **CLEAR** | No competitive signals. Top-5 dealers all active on platform. |
+| 7 | Canton Network write-down >$200M | **CLEAR** | Canton at ~$243M. Generating $6.6M/quarter revenue. No write-down signal. |
+| 8 | ROIC <WACC (9%) 2Q | **CLEAR** | ROIC 16.6%. +7.8pp spread. Would require massive earnings collapse. |
+
 ---
 
 ## Smart Money Overlay

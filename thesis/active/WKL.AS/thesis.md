@@ -429,6 +429,24 @@ The 10% that faces structural risk (generic legal research) is already reflected
 12. **Net debt exceeds 2.5x EBITDA** (R3 S147c2 — tighter than KC#6, given capital returns exceeding FCF. Currently 2.0x.)
 13. **OpenEvidence achieves >100 hospital system contracts** (R3 S147c2 — direct threat to UpToDate installed base, 27% of WKL revenue.)
 
+### Kill Conditions Status (2026-03-08, post-FY2025 results)
+
+| KC# | Condition | Status | Notes |
+|-----|-----------|--------|-------|
+| 1 | Organic revenue growth negative 2Q | **CLEAR** | FY2025 organic growth 5-6%. H1 2025 +6%. Consistent with historical range. |
+| 2 | Cloud software growth <5% | **CLEAR** | Cloud software growing +15% organically (H1 2025). Well above threshold. |
+| 3 | CCH Axcess/UpToDate loses major client to AI | **CLEAR** | No reported major client losses. CCH Axcess Expert AI launched Oct 2025. UpToDate Expert AI launched Sep 2025. Both integrating AI. |
+| 4 | FCF margin <15% | **CLEAR** | FCF margin 22.7% (FY2024). Well above threshold. |
+| 5 | Management abandons AI strategy | **CLEAR** | OPPOSITE — management actively investing in AI (CCH Axcess Expert AI, UpToDate Expert AI). No value-destructive M&A. |
+| 6 | Net debt >3.5x EBITDA | **CLEAR** | Net debt 2.0x EBITDA. Below even tighter KC#12 threshold (2.5x). |
+| 7 | AI tax/compliance plugins achieve enterprise adoption | **MONITORING** | TR CoCounsel ~1M users but mostly legal, not tax/compliance. Claude/GPT not certified for tax filing. Risk real but not yet materialized. |
+| 8 | ROIC <WACC (~9-11%) | **CLEAR** | ROIC 18.1% vs WACC 8.5%. +9.6pp spread. Healthy. |
+| 9 | Stock below DA bear FV (EUR 60) 4+ weeks | **CLEAR** | Current EUR 68.52. Was below EUR 60 briefly in Feb crash but recovered. Not sustained. |
+| 10 | Harvey AI >$500M ARR | **CLEAR** | Harvey estimated ~$100-150M ARR. Growing but well below $500M threshold. Monitor. |
+| 11 | Claude/GPT gains IRS e-filing certification | **CLEAR** | No AI platform has IRS e-filing certification. Regulatory barrier intact. |
+| 12 | Net debt >2.5x EBITDA (tighter) | **CLEAR** | Net debt 2.0x. Capital returns exceeding FCF is yellow flag but ratio still below threshold. |
+| 13 | OpenEvidence >100 hospital contracts | **CLEAR** | OpenEvidence small. Exact contract count unknown but estimated <20. No material threat to UpToDate installed base yet. |
+
 ---
 
 ## Catalizadores

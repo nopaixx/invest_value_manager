@@ -158,16 +158,19 @@ DA adjustments: -$3 (refresh fading), -$2 (security crisis), -$3 (edge thinness)
 8. Deferred revenue growth <8% for 2 consecutive quarters (leading indicator of revenue deceleration — DA S149)
 9. Third CISA KEV entry within 12 months (CVE pattern escalation — DA S149)
 
-**Kill Conditions Status (Pre-Event Review, 2026-03-07):**
-- KC#1: OK. FY2025 revenue +14%. FY2026 guide +12%. No concern.
-- KC#2: OK. Unified SASE billings +40% Q4. Well above 15% threshold. KEY METRIC for investor day.
-- KC#3: OK. FCF margin 32.5%, stable 4 years. No concern.
-- KC#4: OK. Class action early stage. No SEC involvement. LOW probability.
-- KC#5: OK. Ken Xie 8.3%, Michael Xie 7.4%. Well above 5%. Monitor 10b5-1 selling patterns.
-- KC#6: MONITORING. CVE-2025/2026 crisis is the one incident. No second incident. Clock started ~Jan 2026. 6-month window closes ~Jul 2026. Investor day response to this crisis is a KEY signal.
-- KC#7: OK. Product revenue +16% FY2025 and SASE +40%. Both strong. No concern.
+### Kill Conditions Status (2026-03-08, pre-Investor Day)
 
-**Assessment: ALL 9 kill conditions remain relevant and NONE are triggered. KC#8 (deferred rev) at 11% growth — above 8% threshold but decelerating trend (21%→15%→11%). KC#9 (CISA KEV) — 24 entries total, 8 in 2025 alone. Monitor post-Investor Day.**
+| KC# | Condition | Status | Notes |
+|-----|-----------|--------|-------|
+| 1 | Revenue growth <8% 2Q | **CLEAR** | FY2025 revenue +14%. FY2026 guide +12%. No concern. |
+| 2 | Unified SASE ARR <15% | **CLEAR** | Unified SASE billings +40% Q4. Well above threshold. KEY metric for Investor Day. |
+| 3 | FCF margin <25% | **CLEAR** | FCF margin 32.5%, stable 4 years. No concern. |
+| 4 | SEC formal investigation | **CLEAR** | Class action early stage. No SEC involvement. LOW probability. |
+| 5 | Either Xie brother <5% ownership | **CLEAR** | Ken Xie 8.3%, Michael Xie 7.4%. Well above 5%. Monitor 10b5-1 selling. |
+| 6 | 2nd major security incident in 6mo | **MONITORING** | CVE-2025/2026 crisis = first incident. Clock started ~Jan 2026, 6-month window closes ~Jul 2026. Investor Day response to CVE is KEY signal. |
+| 7 | Product rev -10% 2Q + SASE <15% | **CLEAR** | Product revenue +16% FY2025, SASE +40%. Both strong. |
+| 8 | Deferred rev growth <8% 2Q | **MONITORING** | Deferred rev +11% — above 8% but decelerating (21%→15%→11%). Approaching territory. |
+| 9 | 3rd CISA KEV entry in 12mo | **MONITORING** | 24 total entries, 8 in 2025 alone. Pattern concerning. Monitor post-Investor Day. |
 
 ---
 

@@ -388,6 +388,17 @@ This is on the EDGE of actionability. The stock needs to drop to ~$27 or below f
 5. **Major competitor achieves >30% physician penetration** -- would break the network effect monopoly
 6. **Pharma digital advertising TAM contracts for 2+ years** -- secular change in how pharma reaches physicians
 
+### Kill Conditions Status (2026-03-08)
+
+| KC# | Condition | Status | Notes |
+|-----|-----------|--------|-------|
+| 1 | NRR <100% | **CLEAR** | NRR 112% TTM (117% for top 20). Decelerating from 118% Q2 but well above 100%. |
+| 2 | Physician engagement decline >10% YoY | **CLEAR** | 85%+ penetration maintained. No competitor gaining share. Platform engagement stable. |
+| 3 | Revenue decline 2 consecutive FY | **CLEAR** | FY2025 revenue +13%. Q3 FY2026 +10%. Q4 guided +4% (MFN timing, not structural decline). |
+| 4 | SBC/Revenue >15% | **MONITORING** | SBC 12.7% of revenue, trending up (was 9.2%). Buybacks offsetting dilution but ratio approaching. |
+| 5 | Competitor >30% physician penetration | **CLEAR** | No competitor above ~10%. Sermo at ~800K claimed. Moat intact. |
+| 6 | Pharma digital ad TAM contracts 2yr | **CLEAR** | TAM growing ~10-13% annually. Digital shift structural. No contraction signal. |
+
 ---
 
 ## Catalizadores

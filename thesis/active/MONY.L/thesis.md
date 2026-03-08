@@ -423,6 +423,19 @@ MoS vs Bear: 11%
 5. **Market share loss significativo**: Si cae de #2 a #4 o peor
 6. **Regulatory change UK**: Si UK prohibe comisiones de comparison websites
 
+### Kill Conditions Status (2026-03-08, post-FY2025 earnings)
+
+| KC# | Condition | Status | Notes |
+|-----|-----------|--------|-------|
+| 1 | Revenue decline >5% FY | **CLEAR** | FY2025 revenue GBP 446.3M (+2% YoY). Above threshold. |
+| 2 | Insurance segment -5%+ | **CLEAR** | H2 2025 Insurance -1%. Better than H1. Not triggered. |
+| 3 | Dividend cut | **CLEAR** | Dividend increased +1%. 17+ years consecutive. 7.3% yield. |
+| 4 | Organic traffic -15% YoY 2Q | **MONITORING** | Nov 2025 was -8.82% MoM. Need sustained YoY data. Approaching but not triggered. |
+| 5 | ROIC <WACC 2yr | **CLEAR** | ROIC 31.8% vs WACC 9.2%. +22.6pp spread. No risk. |
+| 6 | Google AI Overviews >25% queries | **MONITORING** | No reliable measurement. UK deployment growing. Existential risk but unquantified. |
+
+*Note: Updated KCs 7-9 defined later in thesis (Model Disruption section). KC#7 (embedded insurance): CLEAR (no UK deployment). KC#8 (agentic AI brokers): CLEAR (Insurify US-only, 0% UK adoption). KC#9 (AI strategy at earnings): CLEAR (OpenAI deal announced, products shown).*
+
 ---
 
 ## Catalizadores
