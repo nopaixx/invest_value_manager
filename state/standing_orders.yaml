@@ -473,6 +473,40 @@ short_orders:
     fill_prob_6m: 70
     staleness_status: FRESH
 
+  - ticker: TSLA
+    action: SHORT
+    category: GATED
+    trigger: "$250-$290 range AND VIX < 35"
+    size_eur: 50
+    fair_value_short: "$80 (S3 prob-weighted SOTP: bear $39, base $69, bull $114)"
+    catalyst: "Q1 2026 deliveries <370K (early April) + Q1 earnings (~Apr 21)"
+    catalyst_date: 2026-04-05
+    carry_cost_note: "~EUR 3-4/year at EUR 50 sizing. Negligible."
+    max_duration: "60 days from entry (cover by ~June 2026)"
+    stop_loss: "$380 HARD (max loss EUR 15.50 = 0.15% portfolio)"
+    instrument: "CFD short, x1 leverage"
+    kill_conditions:
+      - "KC#1: Price > $380 -> COVER immediately (stop loss HARD)"
+      - "KC#2: Q1 deliveries > 450K -> CANCEL standing order"
+      - "KC#3: Auto GM > 22% 2 consecutive quarters -> COVER in 30 days"
+      - "KC#4: FSD approved unsupervised 5+ US states -> COVER in 30 days"
+      - "KC#5: 60 days elapsed without catalyst -> COVER (hard deadline)"
+    entry_conditions:
+      - "Q1 2026 deliveries <370K confirmed (early April)"
+      - "VIX < 35 at time of entry"
+      - "Stock trading $250-290 range post-Q1 delivery data"
+      - "Human confirmation required (ALL shorts need confirmation)"
+    notes: |
+      S4 CONDITIONAL APPROVE 2026-03-08. FIRST-EVER SHORT. QS 29 Tier D at 371x P/E.
+      Committee tightened ALL parameters from S3: sizing -33% (EUR 75->50), entry lowered
+      ($270-310 -> $250-290), stop tightened ($420->$380), duration shortened (90->60d),
+      VIX gate added (<35). If Q1 deliveries >400K: CANCEL entirely.
+      Conviction 6/10. Edge = trade structure, not information.
+    last_analysis_date: 2026-03-08
+    expiry: 2026-06-30
+    fill_prob_6m: 15
+    staleness_status: FRESH
+
   # LYV — CANCELLED Session 93 (2026-02-20)
   # Reason: KC#3 triggered (organic rev >10% 2Q consecutive). Operational thesis dead.
   # Reverse DCF at 8-10% growth: FV $170-238 >> $130 cancel threshold.
