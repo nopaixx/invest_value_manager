@@ -34,8 +34,8 @@ completed:
   net_exposure_note: "100/0/0. Unchanged."
   rotation_check: true
   rotation_note: "Rotation hierarchy: FTNT 9.7% (worst, investor day Mon) > AUTO.L 12.1% (LOW conviction) > MONY.L 12.5% (yield, FIRST rotation candidate) > HLNE 13.1% > TW 13.2%."
-  velocity_units: 14
-  velocity_note: "Prior 12 + NVO KC review (1) + MEDI.OL manual QS (1) = 14 velocity units."
+  velocity_units: 18
+  velocity_note: "Prior 14 + SAF.PA R1 (1) + MEDI.OL R1 (1) + concentration analysis (1) + short screen (1) = 18 velocity units."
   portfolio_ecagr:
     deployed: 17.4%
     blended: 17.4%
@@ -88,9 +88,10 @@ handoff:
       - "CPI (Tue Mar 11): Oil $91 = hot CPI risk. Portfolio 22.8% HIGH vulnerability (ADBE, HLNE, AUTO.L)."
       - "ADBE Q1 FY2026 earnings (Wed Mar 12): PASS/CONDITIONAL/FAIL. Framework 100% ready."
     P2:
-      - "Score SAF.PA (defense basket PRIORITY #1, P/E 18.5x) + launch R1 if QS ≥72."
+      - "SAF.PA R1 DONE. WATCHLIST EUR 260. R2 (DA) when approaching entry."
+      - "MEDI.OL R1 DONE. WATCHLIST NOK 205. Monitor for entry. eToro confirmed."
       - "Score CEG + CCJ (nuclear/AI energy basket seeds). If both QS ≥70 → propose basket."
-      - "Score MEDI.OL formally (manual QS 68-81, cardiac surgery monopoly)."
+      - "COIN S1 short thesis — crypto fragility + BTC -40%. Next session."
       - "FOUR.L FY2025 results (Mar 18): HARD GATE for SO."
     P3:
       - "HLNE ex-div Mar 20, MONY.L ex-div Mar 26."
@@ -109,7 +110,10 @@ handoff:
     - "MEDI.OL manual QS 68-81 (Tier A/B border). Cardiac surgery monopoly. Score formally next session."
     - "Nuclear/AI Energy basket: 5 candidates ranked (CEG, CCJ, LEU, BWXT, SMR). Score CEG+CCJ next session."
     - "HALO gate holds: Merck PTAB Jun 2026 = binary. SO $65 GATED correct. Day-after protocol ready."
-    - "Defense basket: SAF.PA = PRIORITY #1 (P/E 18.5x, cheapest quality EU). Score + R1 next session."
+    - "SAF.PA R1 COMPLETE: QS 79adj Tier A, FV EUR 290, WATCHLIST EUR 260. P/E 18.5x MISLEADING (adj ~32x). WIDE moat."
+    - "MEDI.OL R1 COMPLETE: QS 85adj Tier A, FV NOK 272, WATCHLIST NOK 205. Cardiac monopoly, eToro confirmed."
+    - "Concentration: HHI 1193, Spearman 0.818. Gap to 30% is quality gap, not concentration."
+    - "Short screen: COIN best new S1 candidate. PLTR/SHOP/UBER = Tesla Trap (improving fundamentals)."
     - "Crisis: Hormuz closed. Oil ~$91. VIX ~29."
 
 r1_cooldowns:
@@ -140,3 +144,5 @@ r1_cooldowns:
   LOPE: { date: "2026-03-08", session: 149, verdict: "R3_COMPLETE (WATCHLIST, FV $190 post-DA, QS 75adj Tier A, E[CAGR] 11-13%. Growth 8%. DA MODERATE COUNTER. 3 new KCs.)" }
   CHE: { date: "2026-03-08", session: 149, verdict: "QS 57 Tier B. Low priority — no R1." }
   HRB: { date: "2026-03-08", session: 149, verdict: "QS 63 Tier B. Low priority — no R1." }
+  SAF.PA: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV EUR 290, QS 79adj Tier A, entry EUR 260. P/E 18.5x MISLEADING — adj forward ~32x. WIDE moat jet engine duopoly.)" }
+  MEDI.OL: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV NOK 272, QS 85adj Tier A, entry NOK 205. Cardiac surgery monopoly, 80% GM, eToro confirmed.)" }
