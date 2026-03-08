@@ -416,6 +416,20 @@ E[CAGR] of 13.2% exceeds 12% threshold for Tier A deployment per framework.
 8. **IHT pension reform (April 2027) triggers SIPP net outflows >GBP 0.5bn in any quarter** (R3 S147c1 — blind spot identified by DA refresh. Monitor adviser surveys, IHP management commentary, HMRC guidance.)
 9. **AJ Bell P/E durably below IHP by >3pp for 6+ months** (DORMANT — would indicate market pricing IHP as inferior quality. Currently AJ Bell 17.2x vs IHP 19.9x.)
 
+### Kill Conditions Status (2026-03-08)
+
+| KC# | Status | Notes |
+|-----|--------|-------|
+| 1 | CLEAR | Revenue margin compressing but FUA growth ~10% well above 8%. Both conditions required — only one present. |
+| 2 | CLEAR | Net inflows positive. Transact FUA growing. No adviser disengagement signal. |
+| 3 | CLEAR | Insiders BUYING (opposite of KC trigger). CEO/CFO purchases in recent months. |
+| 4 | CLEAR | No IHT/ISA/SIPP regulatory change announced. Budget stable. |
+| 5 | CLEAR | Costs guided at 3%. No evidence of abandonment. H1 FY26 (~June) will confirm. |
+| 6 | CLEAR | AI disruption of advice is 5-10yr risk. No near-term signal. Monitor quarterly. |
+| 7 | CLEAR | UK equity market down ~10% from highs but not sustained >25%. FUA resilient. |
+| 8 | MONITORING | IHT pension reform April 2027. No SIPP outflows yet but reform is LAW. Monitor adviser surveys, HMRC guidance. 12 months to implementation. |
+| 9 | DORMANT | AJ Bell P/E gap not inverted. Currently AJ Bell 17.2x vs IHP 19.9x = IHP premium intact. |
+
 ---
 
 ## Catalizadores

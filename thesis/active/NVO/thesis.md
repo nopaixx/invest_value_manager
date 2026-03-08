@@ -183,6 +183,18 @@ LTV/CAC: Estimated >10x (exceptional)
 6. **Oral GLP-1 achieves comparable efficacy to injectable at scale** — If Novo's own oral semaglutide OR a competitor's oral GLP-1 (Pfizer danuglipron, Viking VKTX, etc.) achieves >80% of injectable weight loss efficacy with better convenience, the premium injectable franchise faces margin compression. Oral is cheaper to manufacture and distribute. Paradoxically, even Novo's OWN oral success could cannibalize higher-margin injectable revenue. Monitor: oral GLP-1 Phase III data, Rybelsus vs Wegovy head-to-head, pricing differentials.
 7. **Gene therapy or one-shot obesity cure eliminates chronic dosing model** — NVO's entire revenue model depends on CHRONIC treatment (patients take GLP-1 indefinitely). If a gene therapy, one-time injection, or surgical innovation achieves permanent weight loss, the recurring revenue model collapses. Low probability (<5% in 5 years) but catastrophic impact. Monitor: obesity gene therapy trials, bariatric surgery innovation, GLP-1 discontinuation studies.
 
+### Kill Conditions Status (2026-03-08)
+
+| KC# | Condition | Status | Notes |
+|-----|-----------|--------|-------|
+| 1 | CagriSema head-to-head inferiority | **TRIGGERED** | REDEFINE 4 trial FAILED non-inferiority vs Zepbound (23.0% vs 25.5%). Triggered Feb 23, 2026. P6 applied: HOLD justified by base business + valuation. |
+| 2 | Market share <40% | **MONITORING** | Currently ~49% but declining. Was 55% in 2024. Base case projects 42% by 2028. If accelerates below 40% = structural disadvantage. |
+| 3 | Gross margin <70% | **CLEAR** | GM 76% (Q3 2025). Declining from 85% but well above 70% threshold. Trend bears watching. |
+| 4 | Dividend cut | **CLEAR** | Dividend growing. DKK 5.30/share. Payout ~49%, well covered by FCF. No cut expected. |
+| 5 | ROIC <WACC 2yr | **CLEAR** | ROIC 22% vs WACC 6.8%. Spread +15pp. No risk of breaching. |
+| 6 | Oral GLP-1 comparable efficacy at scale | **MONITORING** | Wegovy pill launch exceeding expectations (~50K scripts/week). Paradoxically, Novo's OWN oral success validates this KC path — oral could cannibalize higher-margin injectables long-term. No competitor oral at comparable efficacy yet. |
+| 7 | Gene therapy one-shot cure | **DORMANT** | No obesity gene therapy in advanced trials. Probability <5% in 5 years. Theoretical risk only. |
+
 ---
 
 ## Projection Framework

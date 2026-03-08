@@ -280,17 +280,22 @@ QS Adjusted: 70/100 (Tier B) — Adjustment: -6 (market position +6, ROIC distor
 6. **NEW**: 2027-2028 EBITDA guidance reducido a <+5% (indicaria que impacto Brasil NO esta contenido)
 7. **NEW**: Decreto Brasil plenamente ratificado por Supreme Court Y regulacion se extiende a 2+ mercados adicionales
 
-### Kill Conditions Status (2026-02-06)
+### Kill Conditions Status (2026-03-08, post-FY2025 results)
 
 | Kill Condition | Status | Notes |
 |---------------|--------|-------|
-| 1. Francia caps | OK | No regulacion anunciada |
-| 2. ND/EBITDA >3.0x | OK | Actualmente ~2.3x. Si EBITDA -12%: ~2.6x |
-| 3. FCF <50% 2yr | OK | Still >65% |
-| 4. Dividend cut | OK | No cut, payout sostenible |
-| 5. Share loss >5pp | OK | No evidencia |
-| 6. 2027-28 guidance <5% | OK | Mantenido +8/+12% |
-| 7. Brasil + spreads | MONITORING | Injunction activa, gobierno puede apelar |
+| 1. Francia caps | CLEAR | No regulation announced. French politics pro-business. 30% prob unchanged. |
+| 2. ND/EBITDA >3.0x | CLEAR | FY2025: ~2.3x stable. EBITDA >EUR 1,340M. No deterioration. |
+| 3. FCF <50% 2yr | CLEAR | FY2025 FCF conversion >65%. No concern. |
+| 4. Dividend cut | CLEAR | Dividend RAISED +10% to EUR 1.33. Strong signal. |
+| 5. Share loss >5pp | CLEAR | Leader in 70% markets. No evidence of share loss. |
+| 6. 2027-28 guidance <5% | CLEAR | FY2025 results confirmed 2027-28 at +8/+12%. Management credibility restored by FY2025 beat. |
+| 7. Brasil + spreads | MONITORING | Injunction holds for Ticket SA. Government may appeal. No spread to 3rd market yet. |
+| 8. Regulation 3rd market | CLEAR | No new regulatory action in any market beyond Italy + Brazil. |
+| 9. Credit downgrade | CLEAR | No downgrade. Investment grade maintained. |
+| 10. 2027-28 delivered <3% | CLEAR | N/A — 2027 not yet reported. Guide +8/+12%. |
+| 11. Digital wallets model kill | CLEAR | No Apple/Google employer meal benefit launch. Closed-loop intact. |
+| 12. Corp expense platforms absorb | CLEAR | No Brex/Ramp expansion into meal+mobility in FR/LATAM. |
 
 ---
 

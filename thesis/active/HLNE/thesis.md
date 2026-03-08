@@ -400,6 +400,18 @@ Plus dividend: 16.7% + 2.0% = 18.7%
 6. **ROIC falls below WACC (11%)** -- value destruction
 7. **Mega-managers (BX/KKR/APO) launch directly competitive Evergreen products that capture >30% of HLNE's addressable private wealth TAM** -- structural moat breach
 
+### Kill Conditions Status (2026-03-08)
+
+| KC# | Condition | Status | Notes |
+|-----|-----------|--------|-------|
+| 1 | FEAUM negative 2Q | **CLEAR** | FEAUM $79B, +11% YoY. Strong growth, nowhere near negative. |
+| 2 | Fee revenue decline YoY | **CLEAR** | Management & advisory fees +14% YoY. Accelerating, not declining. |
+| 3 | Blended fee <55bps | **CLEAR** | Blended fee rate 67bps. EXPANDING from 56bps in 2017. Moving away from threshold. |
+| 4 | Evergreen <20% growth 3Q | **CLEAR** | Evergreen AUM +70% in Q3 FY2026. Far above 20% threshold. Growth engine firing. |
+| 5 | Net insider selling >5% | **CLEAR** | OPPOSITE signal — $4.2M insider CLUSTER BUY + CEO $1M purchase at $130. Zero significant selling. Maximally far from triggering. |
+| 6 | ROIC <WACC (11%) | **CLEAR** | ROIC 29% vs WACC 11.1%. Spread +18pp. Accelerating trajectory. |
+| 7 | Mega-managers moat breach | **MONITORING** | BX/KKR/APO all building private wealth products. No single competitor >30% of HLNE's addressable TAM yet, but trend is directionally concerning. Monitor quarterly. |
+
 ---
 
 ## Catalizadores
