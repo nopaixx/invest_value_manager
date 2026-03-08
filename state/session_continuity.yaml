@@ -168,4 +168,4 @@ r1_cooldowns:
   DOCU: { date: "2026-03-08", session: 149, verdict: "QS 56 Tier B. ROIC spread +2pp only. PASS — not a compounder." }
   TTD: { date: "2026-03-08", session: 149, verdict: "QS 69 Tier B. Rev +22%, ROIC 17.8%, but P/E 32.5x at $29. Low priority." }
   EPAM: { date: "2026-03-08", session: 149, verdict: "QS 36 Tier C. KILLED. EPS declining, ROIC falling." }
-  PAYC: { date: "2026-03-08", session: 149, verdict: "QS 86 Tier A (RESCORE from 75). R1 REFRESH NEEDED — FV $115 stale, implied $170+. 12.6% insider, ROIC 24.5%, net cash. Best quality of all screening candidates." }
+  PAYC: { date: "2026-03-08", session: 149, verdict: "R1 REFRESH COMPLETE. FV $115→$140 (+22%). QS 86tool/78adj Tier A. AT FAIR VALUE at $138 = MoS ~1%. NOT a rotation candidate at market. Entry $105-115. Morningstar moat NONE. SI +41%. Wait Iran + Q1 Apr." }
