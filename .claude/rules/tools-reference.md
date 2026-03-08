@@ -24,6 +24,7 @@
 | `outcome_tracker.py` | `python3 tools/outcome_tracker.py [--active-only]` | Buy decision outcome tracker. P&L, days held, win rate for active + closed positions. |
 | `basket_dashboard.py` | `python3 tools/basket_dashboard.py [--metrics\|--rotation\|--health\|--rebalance\|--lifecycle]` | Thematic basket aggregation. Metrics, health flags, rotation, allocation vs targets. `--lifecycle` = v4.8 integrity checks (MISLABELED, STAGNANT, NO_PATH, DEATH_WATCH, DEADLINE). |
 | `kc_monitor.py` | `python3 tools/kc_monitor.py [--triggered-only\|--ticker TICKER\|--compact]` | Kill condition monitor. Parses KCs from thesis files, shows status dashboard. `--compact` = one-line-per-ticker for session use. Run EVERY session Fase 0. |
+| `thesis_summary.py` | `python3 tools/thesis_summary.py TICKER [--all\|--pipeline\|--compact\|--shorts]` | Extract thesis header/KCs/FV/E[CAGR] in ~20 lines. Saves 90% context vs full thesis read. `--compact` = one-liner table. `--all` = active positions. `--pipeline` = research pipeline. NO network calls — reads local files only. |
 
 ## Screening & Valuation
 
