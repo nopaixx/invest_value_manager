@@ -1,7 +1,9 @@
 # CPRT - Copart, Inc.
 
-> R1 Fundamental Analysis | Date: 2026-02-25
-> Analyst: fundamental-analyst | Pipeline: R1_COMPLETE
+> **Fair Value:** $37 (R3 resolved, was $40 R1)
+> **Expected Growth:** 8%
+> **Date:** 2026-02-25 (R1/R2/R3)
+> **Status:** R3_COMPLETE (FV $37, entry $31. GATED on Q3 FY2026 May/June. QS 75/83adj Tier A.)
 > Price at analysis: $35.28 (EUR 29.95) | 52wH: $63.85 | 52wL: $33.81
 
 ---
