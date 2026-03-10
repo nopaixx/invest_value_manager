@@ -1,8 +1,9 @@
 # FOUR.L - 4imprint Group plc
 
-> **Fair Value:** 5300 GBp
-> **Date:** 2026-02-14
-> **Status:** R1 COMPLETE - Pending R2 (Devil's Advocate)
+> **Fair Value:** 4400 GBp (R3 resolved, was 5300 R1)
+> **Expected Growth:** 4% (R3: tariffs persistent, mktg efficiency drag -0.5%)
+> **Date:** 2026-02-14 (R1), R3 2026-02-14, Section 9 2026-03-10
+> **Status:** R3_COMPLETE (FV 4400p, entry 3400p. FY2025 results Mar 18 HARD GATE for R4.)
 
 ## TL;DR
 
@@ -431,18 +432,93 @@ This means even in the bear case, the downside is limited to ~9% from current le
 
 ---
 
-## Veredicto: WATCHLIST --- PENDING EARNINGS (Mar 11)
+## Section 9: FY2025 Results Framework (March 18, 2026)
+
+> **Status:** PIPELINE (not active position). Decision: PASS gates → R4 same session → SO 3400p
+> **Current price:** 3850p | **R3 FV:** 4400p | **R3 Entry:** 3400p | **QS:** 69 Tier B
+> **Context:** War/oil selloff has NOT brought price to entry. 13.2% above 3400p target.
+
+### 9.1 Key Metrics
+
+| Metric | BEAT | PASS | FAIL | KC Link |
+|--------|------|------|------|---------|
+| **Revenue FY2025** | >$1.37B (flat-ish) | $1.33-1.37B | <$1.33B | KC#5 (market share) |
+| **Operating Margin** | >11.0% | 10.0-11.0% | <10.0% | KC#7 (tariffs) |
+| **Gross Margin** | >32.0% | 30.0-32.0% | <30.0% | KC#3 |
+| **Q4 Revenue Sequential** | Q4 > Q3 by >3% | Q4 ≈ Q3 (±1%) | Q4 < Q3 | Industry participation |
+| **New Customer Orders H2** | Decline <5% | Decline 5-12% | Decline >15% | KC#1 (Year 2 gate) |
+| **Marketing Efficiency** | >$7.80/$ | $7.00-7.80/$ | <$7.00/$ | KC#8 |
+| **2026 Revenue Guide** | >$1.40B (+4%) | $1.35-1.40B (flat-ish) | <$1.35B (decline) | Thesis validation |
+| **Cash Position** | >$140M | $120-140M | <$100M | Capital allocation |
+| **Dividend/Buyback** | Special div or buyback announced | Maintained | Cut | Capital allocation |
+
+### 9.2 The Critical Question: Industry Recovery Participation
+
+R3's #1 unresolved issue: industry recovered H2 2025 (+5.1% Q4) but 4imprint did NOT participate per R1 data. FY2025 results will RESOLVE this:
+
+- **If Q4 sequential improvement visible:** Timing-lag thesis validated (4imprint's SMB direct model lags 2-3Q). Recovery coming in H1-H2 2026. BULLISH.
+- **If Q4 flat/negative while industry +5.1%:** Company-specific problem. Marketing engine impaired OR competitive displacement. BEARISH. Re-evaluate thesis fundamentals.
+
+This single data point is more important than any other metric.
+
+### 9.3 Scenario Matrix
+
+| Scenario | Criteria | Probability | FV Impact | Action |
+|----------|----------|-------------|-----------|--------|
+| **BEAT** | Q4 seq improvement + OM >11% + guide >$1.40B + new cust decline <5% | 15% | FV 4,400→4,800p. Entry revise UP to 3,600-3,800p. | Run R4 immediately. Set SO at revised entry. Market buy justified if price <3,800p. |
+| **PASS** | OM 10-11% + Q4 ≈ Q3 + guide $1.35-1.40B + mktg efficiency >$7.00 | 40% | FV 4,400p maintained. Entry 3,400p. | Run R4 if no KC triggered. Set SO 3,400p. Wait for price to come to us. |
+| **CONDITIONAL** | OM 10-11% BUT Q4 weak AND guide flat AND mktg efficiency declining | 30% | FV 4,400→4,000p. Entry 3,000-3,200p. | Defer R4. Revise FV. Monitor Q1 2026 before committing. |
+| **FAIL** | OM <10% OR GM <30% OR new cust -15%+ OR guide decline | 15% | FV 4,400→3,500p or AVOID. | ARCHIVE. The cyclical-vs-structural debate resolved to structural. |
+
+### 9.4 KC Mapping
+
+| KC | Current Status | FY2025 Trigger | If Triggered |
+|----|---------------|----------------|--------------|
+| KC#1: New customer -15% 2 consecutive yrs | Year 2 watch (-12% in 2024) | H2 2025 new cust data | If -15%+: Year 2 of 2 = **KC FIRED**. AVOID. |
+| KC#3: Gross margin <28% | CLEAR (32% LTM) | FY2025 GM data | If <30%: ELEVATED. If <28%: FIRED. |
+| KC#5: Market share loss 2yr | Year 1 triggered | FY2025 vs industry FY2025 | If industry grew and FOUR declined again: Year 2 of 2. One more year → FIRED. |
+| KC#7: Tariff supply chain disruption | MONITORING | GM trend + 2026 guide | If GM <30% + guide down: FIRED. |
+| KC#8: Mktg efficiency <$7.00 | MONITORING ($7.50 est) | FY2025 mktg spend data | If <$7.00: FIRED. Growth engine uneconomic. |
+
+### 9.5 Position Action
+
+**We have NO position.** This is a pipeline decision:
+
+- **BEAT:** Warrants R4 same session. If approved + price ≤3,800p → market buy justified. If price >3,800p → SO at 3,600p.
+- **PASS:** Run R4. Set SO at 3,400p. Wait for pullback.
+- **CONDITIONAL:** Defer. Revise FV downward. Reassess in 3 months post-Q1.
+- **FAIL:** ARCHIVE. Remove from pipeline.
+
+### 9.6 Tariff Context (Critical for 2026 Guide)
+
+Since R3 (Feb 14), tariff landscape has WORSENED:
+- Iran war + oil at $91 = additional inflationary pressure on supply chains
+- US-China tariff extension only through Nov 2026 (temporary)
+- De minimis elimination permanent
+- If 2026 guide incorporates further tariff escalation → lower end of scenarios
+
+### 9.7 Competitive Intelligence
+
+**During results call, listen for:**
+- HALO / other large distributors: are they gaining share via digital channels?
+- Industry association data: Q4 2025 order volume breakdown (pricing vs units)
+- Supply chain diversification: % of sourcing shifted from China to Vietnam/Mexico
+- Any mention of AI/automation in customer acquisition (could help or hurt marketing efficiency)
+
+---
+
+## Veredicto: WATCHLIST --- PENDING EARNINGS (Mar 18, corrected from Mar 11)
 
 **Rationale:**
 - QS 72 Tier B with 38% MoS is WELL within precedent range for a BUY
 - Business quality is exceptional (85% ROIC, net cash, #1 market position, 0/10 value trap)
 - Risk/reward is asymmetric: 38% upside to base, only 10% downside to bear
-- BUT: Full year results on March 11 will provide critical clarity on:
+- BUT: Full year results on March 18 will provide critical clarity on:
   - 2026 guidance and tariff impact visibility
   - Marketing efficiency trends
   - Cash position and capital allocation plans (buyback?)
 
-**HARD GATE: FY2025 results (March 11, 2026).** This is 4 weeks away. The data will be far more informative than anything I can estimate. Given our 57% cash position and no urgency to deploy, WAITING for this data is the disciplined approach.
+**HARD GATE: FY2025 results (March 18, 2026).** This is 4 weeks away. The data will be far more informative than anything I can estimate. Given our 57% cash position and no urgency to deploy, WAITING for this data is the disciplined approach.
 
 **Entry guidance if results are solid:**
 - BUY trigger: 3800-4000p (current levels) if Mar 11 results confirm: (a) margins held, (b) 2026 outlook is stable-to-positive, (c) no kill conditions triggered
