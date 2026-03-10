@@ -214,17 +214,17 @@ baskets:
       SESSION: RHM.DE QS 70 Tier B (ROIC 15.6%, +9.3pp spread, rev CAGR +20%, EPS +35%,
       but 1.7% insider, GM declining, P/E 84x). BA.L QS 71 Tier B (ROIC 14.8%, +10.3pp
       spread, rev CAGR +11%, FCF consistent 4/4yr, 0.4% insider, P/E 32x).
-      PRIORITY ORDER (updated S142 after scoring LMT/RTX/NOC/GD/LDO.MI/HO.PA):
-      (1) BAH $82 — only cheap quality name (P/E 11.8x, -37% from 52wH), needs R1 for DOGE update
-      (2) SAF.PA EUR 318 — NOT SCORED, P/E 18.5x cheapest quality EU, CFM JV duopolist. SCORE NEXT.
-      (3) HO.PA EUR 241 — QS 65 Tier B, best QS of newly scored, 56.4% insider, BUT P/E 47.5 overpriced.
-      US PRIMES ELIMINATED: LMT (QS 38), RTX (41), NOC (40), GD (52) = ALL Tier C, low margins, near ATH.
-      LDO.MI (QS 54 Tier C) = eliminated. RHM.DE + BA.L Tier B at full price — not deployment candidates.
+      S150c13: BAH R1 LAUNCHED. Price $77.57 (-41% from 52wH), P/E 11.5x, QS 73 Tier B.
+      DOGE risk = market overreaction thesis. ~50% intel (classified), ~30% defense (Iran war),
+      ~20% civilian (DOGE-exposed). Worst case 6% rev hit vs 41% stock drop.
+      SAF.PA R3 COMPLETE (FV EUR 260, entry EUR 235, currently EUR 318 = 26% away).
+      PRIORITY ORDER: (1) BAH R1 in progress, (2) SAF.PA parking at entry, (3) HO.PA overpriced.
+      US PRIMES ELIMINATED: LMT/RTX/NOC/GD all Tier C. RHM.DE + BA.L Tier B at full price.
 
   - id: european-pricing-power
     name: "European Pricing Power"
-    status: BUILDING  # Downgraded S145: RACE.MI sold S143, single position (EDEN.PA only)
-    theme_vitality: ALIVE
+    status: DEATH_WATCH  # S150: Accepted death ~Apr 6. MC.PA EUR 504 (17% above entry), RMS.PA 62% above. No viable 2nd position.
+    theme_vitality: DYING
     thesis: >
       European companies with exceptional pricing power and competitive moats trading at
       depressed multiples. EDEN.PA (regulated employee benefits with structural floor)
@@ -254,13 +254,11 @@ baskets:
     last_reviewed: 2026-03-07
     created: 2026-02-22
     notes: >
-      S145: RACE.MI SOLD S143. Basket downgraded ACTIVE→BUILDING. Single position (EDEN.PA).
-      E[CAGR] 27.1% = highest in portfolio. Need 2nd position to regain ACTIVE.
-      P17 deadline: ~Apr 6 (60d from RACE.MI sale). KILL at deadline accepted.
-      RMS.PA QS 96adj (highest in universe) but EUR 1905 = 41% above FV. Crisis-only.
-      MC.PA SCORED S145: QS 72 Tier B, FV EUR 540, entry EUR 430. 7% above entry.
-      Neither candidate is deployable at current prices. Basket will die at deadline.
-      EDEN.PA stays on E[CAGR] merit (27.1%). It doesn't need a basket to justify hold.
+      S150c13: DEATH ACCEPTED ~Apr 6. MC.PA EUR 504 (17% above entry EUR 430).
+      RMS.PA EUR 1948 (62% above entry EUR 1200). Neither deployable.
+      EDEN.PA reverts to orphan on E[CAGR] merit (28.2% = highest in portfolio).
+      EDEN.PA does NOT need a basket to justify — hold on quality alone.
+      If MC.PA drops to EUR 430-440 (another -14%), reconsider. Not counting on it.
 
 # =============================================================================
 # GLP-1 & Obesity Basket — KILLED S145
@@ -327,39 +325,42 @@ killed_baskets:
 # =============================================================================
 
 allocation_reasoning:
-  date: 2026-03-07
+  date: 2026-03-10
   reasoning: |
-    S145 UPDATE. 11 positions, 0% cash (full deployment S144). 7 Tier A, 4 Tier B.
+    S150c13 UPDATE. 10 positions, EUR 370 cash (3.5%). 7 Tier A, 3 Tier B. 1 orphan (NVO).
 
-    BASKET STATUS POST-S145:
-    US Quality Compounders: 3 positions (ADBE, HLNE, DOCS). ACTIVE.
-    Total basket ~30% of portfolio. VRSN SO $210 = pipeline.
+    BASKET STATUS:
+    US Quality Compounders: 3 positions (ADBE, HLNE, DOCS). ACTIVE. ~27% of portfolio.
+    ADBE Q1 earnings Wed Mar 12. VRSN SO $210.
 
-    Cybersecurity: 1 position (FTNT QS 87). BUILDING.
-    Investor Day Mon Mar 10 = binary. Bear → rotation candidate.
-    QLYS SO $82 GATED Q1 billings. CHKP entry $125.
+    Cybersecurity: 1 position (FTNT 7.2%). BUILDING.
+    Investor Day tonight (3PM PT). QLYS SO $82 GATED. CHKP $125 entry.
 
-    UK Digital Platforms: 2 positions (MONY.L, IHP.L). ACTIVE.
-    AUTO.L SOLD S150. DNLM.L + ALFA.L in pipeline to fill 3rd slot.
+    UK Digital Platforms: 2 positions (MONY.L 7.3%, IHP.L 11.4%). ACTIVE.
+    MONY.L SELL after ex-div Mar 26 → ~EUR 888 rotation capital.
+    DNLM.L + ALFA.L in pipeline.
 
-    Data & Analytics Monopolies: 2 positions (TW, WKL.AS). ACTIVE.
-    MORN sold S143. SPGI in pipeline as 3rd position ($420 SO).
+    Data & Analytics Monopolies: 2 positions (TW 5.7%, WKL.AS 7.6%). ACTIVE.
+    SPGI $420 in pipeline.
 
     Defense & Rearmament: 0 positions. RESEARCHING.
-    BAH (P/E 11.8x) is the contrarian entry. Pipeline intact.
+    BAH R1 IN PROGRESS ($77.57, P/E 11.5x, -41% from 52wH). Priority #1.
 
-    European Pricing Power: 1 position (EDEN.PA). BUILDING.
-    RACE.MI sold S143. Need 2nd position by ~Apr 6 or kill.
-    Score RMS.PA + MC.PA urgently.
+    European Pricing Power: 1 position (EDEN.PA 18.4%). DEATH_WATCH.
+    Accepted death ~Apr 6. EDEN.PA reverts to orphan on E[CAGR] merit (28.2%).
 
-    GLP-1: KILLED S145. NVO reverted to orphan.
+    ORPHANS (1): NVO (QS 73 Tier B, CagriSema FAILED, 11.4%).
 
-    ORPHANS (1): NVO (QS 73 Tier B, CagriSema FAILED, LOW conviction).
+    MONY.L CAPITAL DESTINATION (EUR 888, ~Mar 26):
+    1. BAH (if R1 approved + R4 cleared) — defense basket gap filler, P/E 11.5x
+    2. FOUR.L (if Mar 18 PASS + price ≤3400p) — promotional products
+    3. GDDY (R4 approved but at FV $92, no MoS) — only if FTNT BEAR
+    4. Hold for best rotation opportunity
 
-    CAPITAL FLOW (3.5% cash post-AUTO.L sale):
-    1. FTNT (9.7% E[CAGR]) = top rotation candidate if Investor Day disappoints
-    2. EUR 370 cash for deployment into ADBE (earnings Wed) or FTNT (if Investor Day bull)
-    3. UK Digital Platforms basket needs 3rd position — DNLM.L or ALFA.L pipeline
+    SMART MONEY DISCOVERY (S150c13):
+    CPRT QS 75 Tier A, $36.31 (-43% from 52wH), 4-fund convergence (Akre x2, Wedgewood).
+    Vehicle auction duopoly. Net cash. FCF 26.5%. Worth R1 if capacity allows.
+    CSGP eliminated (QS 35 Tier C). IDXX parking (QS 75 but P/E 46).
 
 # =============================================================================
 # THEME DISCOVERY TRACKING
@@ -395,6 +396,9 @@ theme_discovery:
     - theme: "India Digital & Consumption"
       evidence: "Fastest major economy 7%+ GDP. UPI digital payments. 500M middle class growth 2020-2040."
       status: "NOT SCORED. Score INFY + HDFCBANK as test cases. 20-year theme we're blind to."
+    - theme: "Vehicle Salvage & Auction Duopoly"
+      evidence: "CPRT QS 75 Tier A, $36.31 (-43% from 52wH). Akre x2 + Wedgewood convergence. ROIC 20.9%, FCF 26.5%, net cash. Duopoly with IAA (now Ritchie Bros). Total loss rates rising structurally (ADAS repair costs, EV battery damage)."
+      status: "SCORED S150. Worth R1 if pipeline capacity available. Could anchor asset-light services basket."
   rejected_themes:
     - theme: "European Telecom"
       reason: "DTE.DE sold. Low ROIC sector. Structural decline. No candidates with QS >70."
