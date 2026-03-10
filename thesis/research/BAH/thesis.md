@@ -1,9 +1,9 @@
 # BAH - Booz Allen Hamilton Holding Corporation
 
-> **Fair Value:** $105
-> **Expected Growth:** 8%
-> **Date:** 2026-03-10
-> **Status:** R1_COMPLETE
+> **Fair Value:** $78 (R3 resolved, was $105 R1)
+> **Expected Growth:** 5% (R3: DOGE 60% structural, civil -25% permanent, AI relabeled 50%)
+> **Date:** 2026-03-10 (R1/R2/R3/R4)
+> **Status:** R4_DEPRIORITIZED (FV $78, entry $55. FROZEN — needs catalyst. Committee CONDITIONAL at $75. QS 73→68 Tier B.)
 
 ## TL;DR
 
