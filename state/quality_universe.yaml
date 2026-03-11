@@ -1,5 +1,5 @@
 quality_universe:
-  last_updated: '2026-03-10'
+  last_updated: '2026-03-11'
   companies:
   - ticker: INTU
     name: Intuit Inc.
@@ -720,23 +720,22 @@ quality_universe:
     distance_delta: 0.0
   - ticker: IT
     name: Gartner, Inc.
-    qs_tool: 74
-    qs_adj: 77
-    tier: A
-    sector: Research/Advisory
-    fair_value: 195.0
-    entry_price: 155.0
-    currency: USD
-    current_price: 169.0
-    distance_to_entry: 8.3
-    pipeline_status: R1_REFRESH
-    thesis_path: thesis/research/IT/thesis.md
-    last_scored: '2026-03-08'
-    last_price_check: '2026-03-08'
-    notes: R1 refresh S149. QS 74/77adj. FV $195. E[CAGR] 10-12% borderline. -84% from ATH. AI disruption (consulting -15%).
-      Insider buying 113K shares vs 11.2% SI surge = divergence. Entry $150-160. Q1 May catalyst.
     direction: long
-    distance_delta: 0.0
+    qs_tool: 64
+    qs_adj: 64
+    tier: B
+    sector: Research/Advisory
+    fair_value: 220.0
+    entry_price: 140.0
+    currency: USD
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: 'S151 RESCORED: QS 64 Tier B (was 74/77adj). EPS CAGR -1.3%, OP margin declining 4yr. Revenue CAGR 5.9%
+      decelerating. DOGE risk to federal consulting. Universe entry STALE. DEPRIORITIZED.'
+    thesis_path: null
+    last_scored: '2026-03-11'
+    last_price_check: null
+    notes: ''
   - ticker: VEEV
     name: Veeva Systems Inc.
     qs_tool: 72
