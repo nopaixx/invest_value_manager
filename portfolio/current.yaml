@@ -182,7 +182,20 @@ positions:
 # Carry cost: ~7-8% anual sobre el valor nocional (overnight fee eToro)
 # P&L short: (entry_price - current_price) * shares - carry_cost_accrued
 # ESMA: negative balance protection para retail
-short_positions: []
+short_positions:
+  - ticker: CVNA
+    name: "Carvana Co."
+    shares: 0.31
+    entry_price_usd: 318.77
+    date_opened: 2026-03-11
+    carry_cost_accrued: 0.00
+    catalyst_date: 2026-05-06
+    thesis: thesis/short/active/CVNA/thesis.md
+    conviction: medium
+    stop_loss: "$370"
+    fair_value_short: "$120"
+    exit_plan: "COVER if Q1 EBITDA margin >12% 2Q consecutive. COVER at $370 stop loss. COVER if Garcia family cleared. COVER if carry >8% without catalyst. Max 6mo (Sep 2026)."
+    last_review: 2026-03-11
 # Ejemplo de formato:
 #  - ticker: XYZ
 #    name: "Company Name"
@@ -918,3 +931,11 @@ transactions:
     pnl_eur: ~7
     pnl_pct: ~1.6
     notes: "EXIT - S150 rotation R0. E[CAGR] 12.1% = 2nd worst position. LOW conviction Tier B (QS 71). Moat under active siege (180+ dealer downgrades). Held 30 days. +1.6% gain. Proceeds held as cash buffer for ADBE earnings Wed Mar 12. Next deployment: FTNT rotation (if Investor Day bear → GDDY) or ADBE ADD (if earnings PASS)."
+
+  - date: 2026-03-11
+    action: SHORT
+    ticker: CVNA
+    shares: 0.31
+    price_usd: 318.77
+    total_eur: 100
+    notes: "SHORT - FIRST SHORT POSITION. CFD x1 leverage, no margin. S4 APPROVED CONDITIONAL S143. QS 30 Tier D at 62x adj P/E. EBITDA margin compressing 12%->9.1%. $685M DTA inflation. PIK->cash interest transition mid-2026. 1% sizing. Stop loss $370 (+16%). Catalyst: Q1 earnings ~May 6. Max duration 6mo (Sep 2026)."
