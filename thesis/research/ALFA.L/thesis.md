@@ -481,6 +481,70 @@ GBP 600M market cap. Low daily volumes. Wide bid-ask spreads possible. Our typic
 
 ---
 
+## Section 9: FY2025 Full Year Results Framework (Mar 12, 2026)
+
+*Built: 2026-03-11 (S151). R3 FV 235 GBp, entry 165 GBp. Current 194p (17% above entry).*
+
+### 9.1 Key Metrics
+
+| Metric | BEAT | PASS | FAIL | KC Link |
+|--------|------|------|------|---------|
+| **Revenue** | >GBP 130M (+18%) | GBP 126-130M (+15-18%) | <GBP 124M | KC#3 (client wins) |
+| **Operating Profit** | >GBP 42M (OP margin >32%) | GBP 38-42M (OP 30-32%) | <GBP 36M (OP <29%) | KC#4 (OP <25%) |
+| **FCF** | >GBP 35M (cash conv >90%) | GBP 28-35M | <GBP 25M | Revenue quality |
+| **Receivables/Revenue** | Ratio DECLINES vs FY2024 | Ratio stable | Ratio INCREASES further | KC#6 (receivables) |
+| **NRR** | >115% | 108-115% | <105% | KC#1 (NRR <100%) |
+| **Subscription rev mix** | >45% of total | 40-45% | <38% | SaaS re-rating |
+| **FY2026 guidance** | Rev >GBP 145M (+15%+) | GBP 135-145M (+8-14%) | <GBP 130M or no guide | Growth trajectory |
+| **CHP stake update** | No further disposals announced | Unchanged | Large block sale planned | KC#2 (CHP <40%) |
+| **Dividend** | Special div + ordinary raised | Ordinary maintained | Cut | Capital allocation |
+
+### 9.2 The Critical Question: Receivables Normalization
+
+FY2024 receivables grew 54% vs revenue 8% — the biggest anomaly in the thesis. FY2025 results MUST resolve this:
+- **If receivables/revenue ratio DECLINES:** Timing issue confirmed. Revenue quality validated. BULLISH.
+- **If receivables/revenue ratio INCREASES again:** Potential channel stuffing, stretched payment terms, or revenue recognition concerns. BEARISH. KC#6 approaches.
+
+This single data point determines whether FV stays at 235 GBp or drops to 180-200 GBp.
+
+### 9.3 Scenario Matrix
+
+| Scenario | Criteria | Probability | FV Impact | Action |
+|----------|----------|-------------|-----------|--------|
+| **BEAT** | Rev >130M + OP >32% + receivables normalized + guide >145M + NRR >115% | 20% | FV 235→260p. Entry revise UP to 180-190p. | R4 immediately. Market buy if ≤194p. |
+| **PASS** | Rev 126-130M + OP 30-32% + receivables stable + guide 135-145M | 45% | FV 235p maintained. Entry 165p. | R4 if no KC triggered. SO 165p. Wait. |
+| **CONDITIONAL** | Rev 126-130M BUT receivables worse OR no guidance OR OP <30% | 25% | FV 235→200p. Entry 140-150p. | Defer R4. Revise FV. Monitor H1 2026. |
+| **FAIL** | Rev <124M OR OP <29% OR receivables crisis OR NRR <105% | 10% | FV 235→150p or ARCHIVE. | ARCHIVE. Quality thesis broken. |
+
+### 9.4 KC Mapping
+
+| KC | Current Status | FY2025 Trigger | If Triggered |
+|----|---------------|----------------|--------------|
+| KC#1 (NRR <100%) | CLEAR (112% H1) | FY2025 NRR disclosure | If <105%: ELEVATED. If <100%: FIRED. |
+| KC#3 (No wins 2yr) | CLEAR (new wins in FY2025) | Win count in results | If 0 wins FY2025: Year 1 started. |
+| KC#4 (OP <25% 2yr) | CLEAR (31.2% FY2024) | FY2025 OP margin | If <29%: MONITORING. If <25%: Year 1. |
+| KC#6 (Receivables) | MONITORING (54% growth) | FY2025 receivables data | If ratio worse: ELEVATED to near-FIRED. |
+
+### 9.5 Position Action
+
+**We have NO position.** Price 194p is 17% above entry 165p. Not buyable at market unless BEAT scenario materializes with revised entry 180-190p.
+
+- **BEAT:** If price ≤194p post-results → consider market buy. R4 fast-track.
+- **PASS:** SO at 165p. Wait for pullback. This is the base case.
+- **CONDITIONAL:** Lower entry to 140-150p. DNLM.L becomes preferred UK candidate.
+- **FAIL:** ARCHIVE. Remove from UK Digital Platforms pipeline.
+
+### 9.6 UK Portfolio Context
+
+Currently 2 UK positions (MONY.L selling Mar 26, IHP.L). Post-MONY.L: 1 UK position. Adding ALFA.L OR DNLM.L (not both) would bring to 2 UK = comfortable. Both are pipeline candidates for 3rd UK Digital Platforms slot, but compete for the same capital (EUR 888 from MONY.L).
+
+- ALFA.L: QS 80/83 Tier A, FV 235p, entry 165p. Higher quality, less actionable (17% above entry).
+- DNLM.L: QS 79 Tier A, FV 1008p, entry 950p (TRIGGERED at 921p). Lower quality, more actionable.
+
+*Framework prepared: 2026-03-11 (S151). Results Mar 12 = HARD GATE for R4.*
+
+---
+
 ## Sources
 
 - [Alfa Financial Software H1 2025 Results](https://www.investegate.co.uk/announcement/rns/alfa-financial-software-holdings--alfa/2025-half-year-report/9087867)
