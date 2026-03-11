@@ -739,24 +739,22 @@ quality_universe:
     notes: ''
   - ticker: VEEV
     name: Veeva Systems Inc.
-    qs_tool: 72
-    qs_adj: 78
-    tier: A
-    sector: Health IT/SaaS
-    fair_value: 190.0
-    entry_price: 145.0
-    currency: USD
-    current_price: 195.49
-    distance_to_entry: 34.8
-    pipeline_status: R3_COMPLETE
-    thesis_path: thesis/research/VEEV/thesis.md
-    last_scored: '2026-02-18'
-    last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE. DA MODERATE COUNTER -8%: FV $205→$190, entry $145. CRM share eroding (18→14 top-20), SBC 15.9% distorts
-      FCF, LLM risk to eTMF. $2B buyback Jan 2026 (thesis missed, positive). QS 80→78 (CRM adj +6 not +8). Wait Mar 4 Q4 FY2026
-      earnings. R2 deferred.'
     direction: long
-    distance_delta: 0.0
+    qs_tool: 74
+    qs_adj: 74
+    tier: B
+    sector: pharma-healthcare
+    fair_value: 240.0
+    entry_price: 175.0
+    currency: USD
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: SCORED S151. Pharma/life sci vertical SaaS. QS 74 Tier B. ROIC 13.3% (low for SaaS), FCF 33%, GM 74.5%.
+      Net cash 6.5B. Rev CAGR 12.9%, EPS 20.9%. -39% from 52wH at P/E 34.9x. PARKED — ROIC-WACC spread only 2.7pp is concerning.
+    thesis_path: null
+    last_scored: '2026-03-11'
+    last_price_check: null
+    notes: ''
   - ticker: ISRG
     name: Intuitive Surgical, Inc.
     qs_tool: 55
@@ -3333,25 +3331,25 @@ quality_universe:
       Entry $80.'
     distance_delta: 0.0
   - ticker: MANH
-    name: Manhattan Associates Inc.
+    name: Manhattan Associates, Inc.
     direction: long
     qs_tool: 75
-    qs_adj: 80
+    qs_adj: 75
     tier: A
     sector: technology
-    fair_value: 140.0
-    entry_price: 110.0
+    fair_value: 180.0
+    entry_price: 130.0
     currency: USD
-    current_price: 152.45
-    distance_to_entry: 38.6
-    pipeline_status: R3_COMPLETE
-    last_price_check: '2026-03-08'
-    notes: 'R1 S112. #1 cloud WMS. WIDE moat (21/25). ROIC 397%. AT_FV. Entry 20. SAP migration wave catalyst.'
-    thesis_path: thesis/research/MANH/thesis.md
-    last_scored: '2026-02-22'
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: SCORED S151. Supply chain mgmt SaaS. QS 75 Tier A. ROIC 397% (asset-light), FCF 34.6%, GM expanding 56%,
+      OP 26%. Rev CAGR 12%, EPS 21%. Net cash. -41% from 52wH at P/E 40x. R1 candidate when capacity allows.
+    thesis_path: null
+    last_scored: '2026-03-11'
+    last_price_check: null
+    notes: ''
     r1_session: 112
     r1_verdict: AT_FV
-    distance_delta: 0.0
   - ticker: DBX
     name: Dropbox, Inc.
     direction: long

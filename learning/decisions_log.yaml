@@ -1353,3 +1353,46 @@ lessons:
       3) it bypasses the meta-reflection protocol that catches anomalies.
       Rule reinforced: ANY information gathering from external sources → delegate to appropriate agent.
       No exceptions for "quick" or "simple" lookups.
+
+  - date: 2026-03-10
+    lesson: "Full R1-R4 pipeline can dramatically change investment conclusion — R1 alone is insufficient for decision"
+    from_decision: "BAH R1 FV $105 (attractive) → R3 FV $78 (zero MoS) → Committee CONDITIONAL at $75. DEPRIORITIZED."
+    impact: |
+      BAH R1 thesis showed contrarian opportunity: P/E 11.5x vs sector 30-85x, DOGE impact ~6%.
+      R3 resolution lowered FV 26% ($105→$78): DOGE assessed 60% structural (not cyclical),
+      Palantir existential threat for advisory, AI revenue 50% relabeled. Committee adjusted QS 73→68.
+      At $77.52, zero MoS vs R3 FV. Entry requires -30% decline to $55.
+      Lesson: R1 by nature is the BULL case. Without adversarial pipeline, FVs systematically inflated.
+      This validates Error #65 (systematic bullish bias from skipping DA).
+
+  - date: 2026-03-11
+    lesson: "Investor day briefings rarely change thesis — incremental updates are the norm"
+    from_decision: "FTNT Accelerate 2026 Investor Day: NEUTRAL verdict, FV $88 unchanged"
+    impact: |
+      SASE +40% Q4 confirmed but was KNOWN from Q4 earnings. FortiOS 8.0 and FortiSOC
+      are substantive but don't change near-term financials. No FY27 guide raise, no SASE ARR
+      disclosure, no SP6 timeline. Stock flat ($81-$85 range). Market agrees — nothing new.
+      Lesson: Don't overweight investor day outcomes. Q1 actuals (May 6) matter more than
+      forward-looking product announcements. Position decisions should wait for financial data.
+
+  - date: 2026-03-11
+    lesson: "Preserve cash optionality before binary earnings events"
+    from_decision: "DNLM.L TRIGGERED at 921p (<950p SO) but NOT executed. EUR 370 cash reserved for ADBE Q1 tonight."
+    impact: |
+      DNLM.L R4 approved, FV 1008p, QS 79 Tier A. E[CAGR] ~14.5% at 921p. Meets threshold.
+      BUT: EUR 370 cash = one position only. ADBE Q1 earnings tonight = potential ADD opportunity
+      to existing position (QS 80, E[CAGR] 19.3%). Adding to known compounder > opening new position.
+      MONY.L sells Mar 26 → EUR 888 for DNLM.L then. Opportunity cost of 15 days < risk of
+      being unable to ADD ADBE on a BEAT.
+      Precedent: When cash is tight and binary event is hours away, preserve optionality.
+
+  - date: 2026-03-11
+    lesson: "Fallen angels scan estimates can differ significantly from actual tool scores"
+    from_decision: "IT (Gartner) fallen_angels.py showed QS 77 but quality_scorer.py gave QS 64 Tier B"
+    impact: |
+      13-point discrepancy. Fallen angels tool uses cached/estimated scores. Always rescore
+      with quality_scorer.py before making decisions. IT at QS 64 has negative EPS CAGR,
+      compressing OP margins, and deferred revenue growth collapsed 8.1%→1.7%.
+      At QS 64 Tier B, the 15% MoS requirement is much harder to meet.
+      Lesson: Tool output must be validated. TOOL-FIRST means running the actual tool,
+      not trusting secondary references to it.
