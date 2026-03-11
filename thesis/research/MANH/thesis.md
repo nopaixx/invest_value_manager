@@ -2,7 +2,9 @@
 
 > R1 Fundamental Analysis | Date: 2026-02-22 | Analyst: fundamental-analyst
 > Sector: Technology / Supply Chain Software | Geography: US (NASDAQ)
-> Pipeline Stage: R1 COMPLETE
+> Pipeline Stage: R3 COMPLETE
+> **Fair Value:** $140 (R3 post-DA weighted)
+> **Expected Growth:** 8-10% (cloud 20% on increasing mix, offset by legacy decline, R3 revised from R1 10-12%)
 
 ---
 
