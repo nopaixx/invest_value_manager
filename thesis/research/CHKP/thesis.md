@@ -1,9 +1,10 @@
 # CHKP - Check Point Software Technologies Ltd.
 
-> R1 Fundamental Analysis | Date: 2026-02-26
-> Analyst: fundamental-analyst (opus)
-> Sector View: world/sectors/cybersecurity.md (FRESH, created 2026-02-26)
-> Price at analysis: $152.84 (EUR 129.33) | 52wH: $234.36 | 52wL: $150.17 (1.8% away)
+> **Fair Value:** $174 (R1 weighted multi-method)
+> **Expected Growth:** 7%
+> **Date:** 2026-02-26 (R1)
+> **Status:** R1_COMPLETE (FV $174, entry $125. QS 60/73adj Tier B. Cybersecurity basket candidate #2.)
+> Price at analysis: $152.84 (EUR 129.33) | 52wH: $234.36 | 52wL: $150.17
 
 ---
 

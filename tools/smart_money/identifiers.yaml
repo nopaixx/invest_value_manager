@@ -81,7 +81,7 @@ identifiers:
     source: regulatory_harvest
   RACE.MI:
     country: IT
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   FICO:
     country: US
@@ -236,7 +236,7 @@ identifiers:
     cik: '84839'
   WKL.AS:
     country: NL
-    resolved_at: '2026-02-22'
+    resolved_at: '2026-03-11'
     isin: null
   ASML:
     country: US
@@ -428,11 +428,11 @@ identifiers:
     source: regulatory_harvest
   STMN.SW:
     country: CH
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   SOON.SW:
     country: CH
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   ITRK.L:
     country: UK
@@ -540,7 +540,7 @@ identifiers:
     isin: null
   BZU.MI:
     country: IT
-    resolved_at: '2026-02-21'
+    resolved_at: '2026-03-11'
     isin: null
   BC.MI:
     country: IT
@@ -605,7 +605,7 @@ identifiers:
     source: regulatory_harvest
   REN.AS:
     country: NL
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   BCG.L:
     country: UK
@@ -943,12 +943,12 @@ identifiers:
     source: regulatory_harvest
   ABNB:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1559720'
     isin: null
   ALC:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1167379'
     isin: null
   AMAT:
@@ -959,12 +959,12 @@ identifiers:
     cik: '6951'
   ANF:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1018840'
     isin: null
   ASML.AS:
     country: NL
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   ATS:
     country: US
@@ -980,16 +980,16 @@ identifiers:
     cik: '1730168'
   BKNG:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1075531'
     isin: null
   BLND.L:
     country: UK
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   BN:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1001085'
     isin: null
   BNZL.L:
@@ -1009,7 +1009,7 @@ identifiers:
     cusip: 084670702
   CB:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '896159'
     isin: null
   CBRE:
@@ -1020,7 +1020,7 @@ identifiers:
     cik: '1138118'
   CCCS:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   CCO:
     country: US
@@ -1036,7 +1036,7 @@ identifiers:
     cik: '1402057'
   CNHI:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   CP:
     country: US
@@ -1046,7 +1046,7 @@ identifiers:
     cik: '16875'
   CPNG:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1834584'
     isin: null
   CPRT:
@@ -1074,7 +1074,7 @@ identifiers:
     source: regulatory_harvest
   ENT.L:
     country: UK
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   ENTG:
     country: US
@@ -1084,17 +1084,17 @@ identifiers:
     cik: '1101302'
   EW:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1099800'
     isin: null
   FAST:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '815556'
     isin: null
   FWONK:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1560385'
     isin: null
   GBG.L:
@@ -1110,7 +1110,7 @@ identifiers:
     cik: '1652044'
   GRF.MC:
     country: ES
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   HIK.L:
     country: UK
@@ -1136,7 +1136,7 @@ identifiers:
     cik: '1381197'
   ICE:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1571949'
     isin: null
   INF.L:
@@ -1196,12 +1196,12 @@ identifiers:
     cik: '1056696'
   MCO:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1059556'
     isin: null
   MDRX:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   MELI:
     country: US
@@ -1217,7 +1217,7 @@ identifiers:
     cik: '1326801'
   MKS.L:
     country: UK
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   MSA:
     country: US
@@ -1239,12 +1239,12 @@ identifiers:
     cik: '1037646'
   NU:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1691493'
     isin: null
   ORLY:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '898173'
     isin: null
   PEGA:
@@ -1270,16 +1270,16 @@ identifiers:
     source: regulatory_harvest
   SBRY.L:
     country: UK
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   SE:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1703399'
     isin: null
   SEIC:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '350894'
     isin: null
   SGE.L:
@@ -1301,7 +1301,7 @@ identifiers:
     cik: '1402436'
   TCOM:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1269238'
     isin: null
   TME:
@@ -1317,7 +1317,7 @@ identifiers:
     source: regulatory_harvest
   TSCO:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '916365'
     isin: null
   TSM:
@@ -1328,7 +1328,7 @@ identifiers:
     cik: '1046179'
   TW:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1758730'
     isin: null
   TW.L:
@@ -1344,7 +1344,7 @@ identifiers:
     cik: '1543151'
   UNF:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '717954'
     isin: null
   URI:
@@ -1360,12 +1360,12 @@ identifiers:
     source: regulatory_harvest
   UTHR:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1082554'
     isin: null
   VALEO:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   VRSN:
     country: US
@@ -1375,7 +1375,7 @@ identifiers:
     cik: '1014473'
   WAT:
     country: US
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     cik: '1000697'
     isin: null
   WING:
@@ -1386,7 +1386,7 @@ identifiers:
     cik: '1636222'
   WPP.L:
     country: UK
-    resolved_at: '2026-02-25'
+    resolved_at: '2026-03-11'
     isin: null
   WTB.L:
     country: UK
@@ -1399,6 +1399,36 @@ identifiers:
     isin: US40637H1095
     cusip: 40637H109
     cik: '1159036'
+  ERIE:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US29530P1021
+    cusip: 29530P102
+    cik: '922621'
+  FTNT:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US34959E1091
+    cusip: 34959E109
+    cik: '1262039'
+  GDDY:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US3802371076
+    cusip: '380237107'
+    cik: '1609711'
+  LOPE:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US38526M1062
+    cusip: 38526M106
+    cik: '1434588'
+  QLYS:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US74758T3032
+    cusip: 74758T303
+    cik: '1107843'
 failed_resolutions:
 - BEI.DE
 - CCH.L

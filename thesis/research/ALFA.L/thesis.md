@@ -1,10 +1,11 @@
 # ALFA.L - Alfa Financial Software Holdings PLC
 
 > **Fair Value:** 235 GBp (R3 revised, was 265 GBp. DA -11.3%: CHP structural overhang + liquidity discount)
+> **Expected Growth:** 8%
 > **Entry Price:** 165 GBp (R3 revised, was 175-180 GBp)
 > **Date:** 2026-02-19
 > **Analyst:** fundamental-analyst (R1) + devil's-advocate (R2) + orchestrator (R3)
-> **Status:** R3 COMPLETE -- WATCHLIST. HARD GATE Mar 12 FY2025 results.
+> **Status:** R3 COMPLETE -- WATCHLIST. HARD GATE Mar 12 FY2025 results. FY2025 results TOMORROW.
 
 ---
 
