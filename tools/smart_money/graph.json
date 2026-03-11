@@ -4625,23 +4625,23 @@
     {
       "relation": "shorts",
       "pct_shares": 1.19,
+      "session_date": "2026-03-11",
+      "date_added": "2026-03-11",
+      "data_source": "live",
+      "note": "capture",
+      "source": "marshall-wace",
+      "target": "EDEN.PA",
+      "key": 3
+    },
+    {
+      "relation": "shorts",
+      "pct_shares": 1.19,
       "date": "2026-03-04",
       "data_source": "amf",
       "date_added": "2026-03-11",
       "source": "marshall-wace",
       "target": "EDEN.PA",
       "key": 2
-    },
-    {
-      "relation": "shorts",
-      "pct_shares": 1.19,
-      "source": "marshall-wace",
-      "session_date": "2026-03-11",
-      "date_added": "2026-03-11",
-      "data_source": "live",
-      "note": "capture",
-      "target": "EDEN.PA",
-      "key": 3
     },
     {
       "relation": "shorts",
