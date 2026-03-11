@@ -4,7 +4,7 @@
 **Original Date:** 2026-02-01
 **Price at Review:** EUR 17.95
 **Quality Score:** 62/100 -- Tier B
-**Recommendation:** HOLD (FY2025 BASE+ confirmed 2026-02-24. KC#1 MONITORING, KC#7 MONITORING ELEVATED. NO ADD — 21.2% SI unresolved. TRIM at EUR 22+.)
+**Recommendation:** HOLD (FY2025 BASE+ confirmed 2026-02-24. KC#1 MONITORING, KC#7 MONITORING ELEVATED. SI declining: 21.2%→9.64% AMF (Citadel COVERED, Millennium reduced). ADD prohibition RELAXED — reconsider at EUR 17 or below. TRIM at EUR 22+.)
 **Framework Version:** 4.0 (Principios Adaptativos)
 > **Fair Value:** EUR 29.0 (R3 maintained S146c9. Was EUR 38.4 pre-adversarial. DA bear EUR 25.40-30.90 brackets thesis. KC#1 DORMANT.)
 > **Expected Growth:** 6% (R3 resolved: 2026 -10%, 2027-28 +7%. Management guide +8/+12% at 70% probability. Was yf_earn 4.6%.)
@@ -292,7 +292,7 @@ QS Adjusted: 70/100 (Tier B) — Adjustment: -6 (market position +6, ROIC distor
 | 4. Dividend cut | CLEAR | Dividend RAISED +10% to EUR 1.33. Strong signal. |
 | 5. Share loss >5pp | CLEAR | Leader in 70% markets. No evidence of share loss. |
 | 6. 2027-28 guidance <5% | CLEAR | FY2025 results confirmed 2027-28 at +8/+12%. Management credibility restored by FY2025 beat. |
-| 7. Brasil + spreads | **MONITORING ELEVATED** | Injunction holds BUT Federal Regional Court confirmed decree applicability Feb 2026. Government appealing. France 8% levy = potential 3rd market. 21.2% SI from 20 funds signals institutional conviction against. |
+| 7. Brasil + spreads | **MONITORING ELEVATED** | Injunction holds BUT Federal Regional Court confirmed decree applicability Feb 2026. Government appealing. France 8% levy = potential 3rd market. SI declining: AMF shows 9.64% from 10 funds (Mar 2026). Citadel COVERED (was 2.10%), Millennium REDUCED (1.90%→0.71%). Smart money conviction weakening. |
 | 8. Regulation 3rd market | CLEAR | No new regulatory action in any market beyond Italy + Brazil. |
 | 9. Credit downgrade | CLEAR | No downgrade. Investment grade maintained. |
 | 10. 2027-28 delivered <3% | CLEAR | N/A — 2027 not yet reported. Guide +8/+12%. |
@@ -423,6 +423,7 @@ EARNINGS FEB 24
 | 3.0 | 2026-02-06 | URGENT review: Brazil decree. FV reducido a EUR 38.4 expected. 2026 guidance -8/-12%. Kill conditions expandidas. Status HOLD pre-earnings Feb 24 |
 | **4.0** | **2026-02-07** | **Adversarial review. FV revised EUR 38.4 → EUR 29.0 (-24.5%). Italy EUR 120M/yr NOT in FV calculation. Brazil 19% not 9.5%. Kill conditions: 7 → 10. Conviction MEDIUM.** |
 | **4.1** | **2026-03-08** | **Bear thesis deep investigation (21.2% SI, 20 funds). France prob 30%→35-40%. Fintech threat 10%→25%. KC#1 CLEAR→MONITORING, KC#7 MONITORING ELEVATED. KC#13 added (France levy). ADD cancelled. TRIM at EUR 22+ considered.** |
+| **4.2** | **2026-03-11** | **Short covering update. AMF data: SI declined 21.2%→9.64% (10 funds). Citadel COVERED below 0.50% (was 2.10%). Millennium reduced 1.90%→0.71%. Remaining shorts (CPPIB 1.98%, Two Sigma 1.31%, Marshall Wace 1.19%, etc.) holding steady. ADD prohibition relaxed — SI risk materially reduced. No KC changes.** |
 
 ---
 

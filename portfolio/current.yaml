@@ -33,8 +33,8 @@ positions:
     conviction: high
     last_review: 2026-03-08
     fair_value: "EUR 29.0 (adversarial, was 38.4)"
-    exit_plan: "HOLD. NO ADD (21.2% SI, 20 funds). TRIM at EUR 22+ (19%→15%). EXIT if France levy tabled (KC#13) or 2027-28 guide <5%. KC#1 MONITORING, KC#7 MONITORING ELEVATED."
-    notes: "S149c34 bear investigation: 21.2% SI (CPPIB 2.07%, Citadel 2.10%, Millennium 1.90%). France prob 30→40%. Fintech threat 10→25%. ADD CANCELLED. Thesis v4.1."
+    exit_plan: "HOLD. SI declining (21.2%→9.64% AMF, Citadel COVERED, Millennium reduced). ADD prohibition RELAXED — reconsider at EUR 17. TRIM at EUR 22+ (19%→15%). EXIT if France levy tabled (KC#13) or 2027-28 guide <5%. KC#1 MONITORING, KC#7 MONITORING ELEVATED."
+    notes: "S151: SI update — Citadel covered below 0.50% (was 2.10%), Millennium 1.90%→0.71%. AMF total 9.64% from 10 funds (was 21.2%/20 funds). Smart money covering = moderately bullish. ADD restriction relaxed. Thesis v4.2."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
