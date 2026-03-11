@@ -1,11 +1,12 @@
 # PAYC - Paycom Software, Inc.
 
-> **Fair Value:** $140
-> **Expected Growth:** 7-8% revenue, 10-12% EBITDA/EPS (margin expansion + buybacks)
-> **Status:** R1 REFRESH | Date: 2026-03-08
-> **Pipeline:** R1 -> R2 (DA) -> R3 DONE (Feb 13) -> R1 REFRESH (Mar 8). R2 REFRESH needed.
-> **Entry:** $105-115 (18-25% MoS vs $140 FV). Wait for Iran crisis clarity + Q1 FY2026 (Apr).
-> **QS Tool:** 86 | **QS Adjusted:** 78 (Tier A) | Adjustment: -8 (see below)
+> **Fair Value:** $135 (R3 resolved, was $140 R1 REFRESH, $115 R3 original)
+> **Expected Growth:** 7%
+> **Date:** 2026-03-11 (R1/R2/R3)
+> **Status:** R3_COMPLETE (FV $135, entry $105-115. GATED on Q1 FY2026 Apr. QS 86/78adj Tier A.)
+> **Pipeline:** R1 (Feb 11) → R3 (Feb 13) → R1 REFRESH (Mar 8) → R2 DA (Mar 11) → R3 Resolution (Mar 11)
+> **Entry:** $105-115 (18-22% MoS vs $135 FV). Gated: Q1 FY2026 rev ≥6% + retention ≥91% + price ≤$115.
+> **QS Tool:** 86 | **QS Adjusted:** 78 (Tier A) | Adjustment: -8 (moat -5, governance -3)
 
 ---
 
