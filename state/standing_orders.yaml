@@ -40,8 +40,8 @@ standing_orders:
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
     tier: "A (QS 79)"
-    notes: "S151 UPDATE: AUTO.L also sold. Now 2 UK positions (MONY.L, IHP.L — MONY.L selling Mar 26). Would be 3rd UK = fine. DNLM.L 921p, BELOW 950p trigger. TRIGGERED. E[CAGR] 13.6% at 950p = marginal Tier A. At 921p E[CAGR] ~14.5%. FV 1008p. MoS 8.6%. Pre-flight needed before execution."
-    conditions: "TRIGGERED at 921p < 950p. 2 UK positions (3rd = acceptable). Pre-flight reverse DCF required."
+    notes: "S151 UPDATE: TRIGGERED at 916.50p (below 950p). Pre-flight COMPLETE: constraint_checker 3.6% allocation, UK 22.3%. Reverse DCF: market pricing -7.9% FCF CAGR decline vs historical -2.5%. At historical rate FV=1211p (32% MoS at 918p). E[CAGR] ~14.5% at current price. CASH BLOCKED: EUR 370 insufficient. PLAN: execute post-MONY.L sell Mar 26 (EUR 888 freed). If still ≤950p then → deploy EUR 375."
+    conditions: "TRIGGERED at 916.50p < 950p. Pre-flight DONE. CASH BLOCKED until Mar 26 (MONY.L ex-div + sell). 2 UK positions (3rd = acceptable post-MONY.L exit)."
     last_analysis_date: 2026-02-27
     expiry: 2026-06-01
 
@@ -503,11 +503,11 @@ short_orders:
       - "KC#4: FCF > $2B annually → COVER (proves sustainability)"
       - "KC#5: Carry cost > 8% of position without active catalyst → COVER"
     entry_conditions:
-      - "Price $290-$330 (currently $317.70 = WITHIN RANGE)"
-      - "VIX < 28 (currently 29.49 = WAIT for VIX to settle)"
+      - "Price $290-$330 (currently $318.77 = WITHIN RANGE ✓)"
+      - "VIX < 28 (currently 25.06 = CLEAR ✓)"
       - "No CVNA-specific event in next 48h"
       - "Human confirmation required (ALL shorts need confirmation)"
-    notes: "S4 APPROVED CONDITIONAL 2026-03-07. QS 30 Tier D at 62x adj P/E. EBITDA margin compressing 12%→9.1%. $685M DTA inflation. PIK→cash interest transition mid-2026. 1% sizing per LYV precedent. FIRST SHORT POSITION."
+    notes: "S4 APPROVED CONDITIONAL 2026-03-07. QS 30 Tier D at 62x adj P/E. EBITDA margin compressing 12%→9.1%. $685M DTA inflation. PIK→cash interest transition mid-2026. 1% sizing per LYV precedent. FIRST SHORT POSITION. S151 UPDATE: BOTH GATES CLEAR — price $318.77 IN range + VIX 25.06 < 28. CPI today could move VIX. ADBE earnings tonight. Check 48h event window before executing."
     last_analysis_date: 2026-03-07
     expiry: 2026-09-01
     fill_prob_6m: 70
@@ -532,9 +532,9 @@ short_orders:
       - "KC#4: FSD approved unsupervised 5+ US states -> COVER in 30 days"
       - "KC#5: 60 days elapsed without catalyst -> COVER (hard deadline)"
     entry_conditions:
-      - "Q1 2026 deliveries <370K confirmed (early April)"
-      - "VIX < 35 at time of entry"
-      - "Stock trading $250-290 range post-Q1 delivery data"
+      - "Q1 2026 deliveries <370K confirmed (early April) — WAIT"
+      - "VIX < 35 at time of entry (currently 25.06 = CLEAR ✓)"
+      - "Stock trading $250-290 range post-Q1 delivery data (currently $399.24 = FAR, -33% needed)"
       - "Human confirmation required (ALL shorts need confirmation)"
     notes: |
       S4 CONDITIONAL APPROVE 2026-03-08. FIRST-EVER SHORT. QS 29 Tier D at 371x P/E.
