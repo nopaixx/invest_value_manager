@@ -2,7 +2,7 @@
 
 > **Fair Value:** $88 (R3 post-DA resolution)
 > **Expected Growth:** 8% (R3 post-DA. Billings +18%, SASE +40%, rev guide +12%. Buyback ~2%.)
-> Pipeline Stage: R3_COMPLETE (DA complete S149. MODERATE COUNTER. Rotation candidate post-Investor Day.)
+> Pipeline Stage: R3_COMPLETE (DA complete S149. Investor Day S151: NEUTRAL, FV $88 unchanged. Q1 May 6 = next catalyst.)
 > R1 Fundamental Analysis | Date: 2026-02-26
 > Analyst: fundamental-analyst (opus)
 > Sector View: world/sectors/cybersecurity.md (FRESH, same day)
@@ -320,24 +320,52 @@ The Iran/Hormuz crisis (Operation Epic Fury, Day 7+) creates a structural cybers
 
 ### Pre-Event Checklist
 
-- [ ] Check FTNT price morning of Mar 10 (currently $83.67, +5.7% from cost basis $79.12)
-- [ ] Monitor live webcast at 3:00 PM PT via investor.fortinet.com
-- [ ] Post-event: update thesis Section 9 with actuals vs framework
-- [ ] If any KC approaches: trigger review-agent
-- [ ] Specifically look for: next-gen ASIC timeline, SASE ARR number, products/customer, FY27 guide, CVE response
-- [ ] If BULL scenario materializes: recalculate FV and E[CAGR]. If FV rises to $95+, document reasoning for maintaining/adding position
-- [ ] If BEAR scenario materializes: run EXIT Protocol 6 gates. FTNT is already lowest E[CAGR] in portfolio -- bear case makes it a clear rotation candidate
-- [ ] Note: this is an investor BRIEFING (listen-only, ~1 hour), not a full analyst day. Temper expectations for depth of disclosures. Material surprises are possible but incremental updates are more likely.
+- [x] Check FTNT price morning of Mar 10 ($84.20, +3.2% from cost basis $81.58)
+- [x] Monitor live webcast at 3:00 PM PT via investor.fortinet.com
+- [x] Post-event: update thesis Section 9 with actuals vs framework
+- [x] If any KC approaches: NO KCs approached. All clear.
+- [x] Specifically look for: ASIC ($1B+ invested, 60% unit share, 2x apps), SASE ARR (not disclosed — gap), products/customer (not disclosed — gap), FY27 guide (no specific raise — $9.2B rev by FY28 projected), CVE response (addressed in briefing, no churn data)
+- [x] BULL/BEAR assessment: NEUTRAL/SLIGHT BULL — not enough for FV raise, nothing bearish
 
-### Portfolio Context: E[CAGR] Position
+### Post-Event Assessment (2026-03-11)
 
-FTNT at 9.7% E[CAGR] is tied for 2nd worst in the portfolio. This investor day is consequential because:
-- If FV stays at $88 and price stays ~$84: FTNT remains a rotation candidate if pipeline matures better alternatives
-- If FV rises to $95-100: FTNT moves to mid-pack E[CAGR] and position is justified
-- If FV drops to $78-80: FTNT becomes a clear EXIT candidate
-- The investor day outcome materially affects whether this position survives the next rotation check
+**VERDICT: NEUTRAL with BULL leanings. FV $88 UNCHANGED.**
 
-*Framework prepared: 2026-03-06 (Session 141). KC mapping added 2026-03-07 (Session 142). Pre-event review completed 2026-03-07 (Session 143): kill conditions verified, FV sensitivity added, geopolitical context, conference details, Lacework/FortiCNAPP context. QS updated 87 (was 70): ROIC data gap resolved (S144c3).*
+**What was disclosed:**
+- FortiOS 8.0 launched: AI-driven security, next-gen SASE, quantum-safe protection. Substantive.
+- FortiSOC launched: new cloud SecOps platform, consolidates tools. Real product substance.
+- FortiASIC: >$1B invested, 60% unit share, 2x more apps than prior gen. Moat confirmed.
+- SASE billings: +40% Q4, +24% FY, now 27% of total billings. ABOVE framework threshold.
+- Business segments: Secure Networking +12%, Unified SASE +24%, AI-Driven SecOps +22%.
+- TAM: >$300B addressable, <20% penetration. OT expanding >20%.
+- Sovereign SASE, AI/quantum-safe positioned as greenfield opportunities.
+- 75% enterprise digital sovereignty adoption expected by 2030.
+- FY2028 projected: $9.2B revenue, $2.4B earnings (implies ~12% revenue CAGR from FY2025).
+
+**What was NOT disclosed (gaps):**
+- No specific SASE ARR figure (needed >$1B for BULL)
+- No specific FY2027 revenue guide raise
+- No next-gen ASIC (SP6) timeline
+- No products/customer attach rate
+- No CVE churn metrics
+- No margin guidance update
+
+**Why FV stays at $88:**
+- FY2028 $9.2B revenue = ~12% CAGR from FY2025 $6.8B. Already in our Base case.
+- SASE +40% Q4 is strong but was KNOWN from Q4 earnings (Feb 5). Not new information.
+- FortiOS 8.0 and FortiSOC are encouraging for moat durability but don't change near-term financials.
+- No data point forces FV upward. Need Q1 FY2026 actuals (~May 6) to validate trajectory.
+
+**KCs status post-event:**
+- KC#2 (SASE <15%): CLEAR, very clear — +40% Q4, +24% FY
+- KC#6 (2nd security incident): MONITORING — CVE addressed but no resolution metrics
+- KC#9 (3rd CISA KEV): MONITORING — not discussed
+
+**E[CAGR]: 9.5% at $84.20 vs FV $88.** Still bottom of portfolio. Not a rotation trigger but first to go if better candidate matures. Q1 earnings May 6 is next catalyst.
+
+**Stock reaction: flat** ($81.62-$84.86 range). Market agrees — nothing surprising.
+
+*Framework prepared: 2026-03-06 (S141). KC mapping added 2026-03-07 (S142). Pre-event review completed 2026-03-07 (S143). QS updated 87 (S144c3). Post-event assessment: 2026-03-11 (S151).*
 
 ---
 
@@ -348,7 +376,7 @@ FTNT at 9.7% E[CAGR] is tied for 2nd worst in the portfolio. This investor day i
 
 ## Section 10: Q1 CY2026 Earnings Framework (~Late April 2026)
 
-*Built: 2026-03-08 (S149). Pre-Investor Day (Mar 10). This framework is INDEPENDENT of Investor Day outcome — Q1 fundamentals must stand on their own. Update post-Investor Day with any new guidance baseline.*
+*Built: 2026-03-08 (S149). Updated post-Investor Day 2026-03-11 (S151): Investor Day was NEUTRAL — no guidance change. FV $88 unchanged. Framework baseline unchanged. Q1 is now the deciding data point for position survival.*
 
 ### Context: Why Q1 Matters
 

@@ -1,5 +1,5 @@
 quality_universe:
-  last_updated: '2026-03-08'
+  last_updated: '2026-03-10'
   companies:
   - ticker: INTU
     name: Intuit Inc.
@@ -16,7 +16,8 @@ quality_universe:
     thesis_path: thesis/research/INTU/thesis.md
     last_scored: '2026-02-13'
     last_price_check: '2026-03-08'
-    notes: 'R3: DA STRONG COUNTER 14/19. FV $465->$395 (-15%). QS 75->72 (Tier A->B). SBC-adjusted FCF. Entry $285-300. WAIT Feb 26 Q2 earnings.'
+    notes: 'R3: DA STRONG COUNTER 14/19. FV $465->$395 (-15%). QS 75->72 (Tier A->B). SBC-adjusted FCF. Entry $285-300. WAIT
+      Feb 26 Q2 earnings.'
     direction: long
     distance_delta: 0.0
   - ticker: PAYC
@@ -34,7 +35,8 @@ quality_universe:
     thesis_path: thesis/research/PAYC/thesis.md
     last_scored: '2026-03-08'
     last_price_check: '2026-03-08'
-    notes: 'R1 REFRESH S149. FV $115→$140 (+22%). QS 86tool/78adj. AT FAIR VALUE at $138. MoS ~1%. Entry $105-115. Wait Iran clarity + Q1 Apr. Morningstar moat NONE downgrade. SI +41% MoM to 10.6%.'
+    notes: R1 REFRESH S149. FV $115→$140 (+22%). QS 86tool/78adj. AT FAIR VALUE at $138. MoS ~1%. Entry $105-115. Wait Iran
+      clarity + Q1 Apr. Morningstar moat NONE downgrade. SI +41% MoM to 10.6%.
     direction: long
     distance_delta: 0.0
   - ticker: DSY.PA
@@ -52,8 +54,8 @@ quality_universe:
     thesis_path: thesis/research/DSY.PA/thesis.md
     last_scored: '2026-02-10'
     last_price_check: '2026-03-08'
-    notes: 'SO revised Feb 18: trigger EUR 15.50→14.50 post -21% crash. FV EUR 20 unchanged. Q4 miss = growth deceleration not structural. SaaSpocalypse misapplied. KC5/KC6 WATCHING. Wait Q1 2026 (>=3%
-      growth).'
+    notes: 'SO revised Feb 18: trigger EUR 15.50→14.50 post -21% crash. FV EUR 20 unchanged. Q4 miss = growth deceleration
+      not structural. SaaSpocalypse misapplied. KC5/KC6 WATCHING. Wait Q1 2026 (>=3% growth).'
     direction: long
     distance_delta: 0.0
   - ticker: DNLM.L
@@ -145,7 +147,8 @@ quality_universe:
     thesis_path: thesis/research/V/thesis.md
     last_scored: '2026-02-15'
     last_price_check: '2026-03-08'
-    notes: R4 APPROVED. FV $305. Entry $260 (14.8% MoS). 4 hard gates (DOJ, CCCA, rev growth, incentives). MA first priority. ADD $235.
+    notes: R4 APPROVED. FV $305. Entry $260 (14.8% MoS). 4 hard gates (DOJ, CCCA, rev growth, incentives). MA first priority.
+      ADD $235.
     direction: long
     distance_delta: 0.0
   - ticker: ROP
@@ -163,7 +166,8 @@ quality_universe:
     thesis_path: thesis/research/ROP/thesis.md
     last_scored: '2026-02-12'
     last_price_check: '2026-03-08'
-    notes: R3 DONE. QS 48->70 (+22 serial acquirer adj). FV $385. WIDE moat 20/25. HIGH risk. Standing order $300 pending R4. SaaSpocalypse + DOGE risks.
+    notes: R3 DONE. QS 48->70 (+22 serial acquirer adj). FV $385. WIDE moat 20/25. HIGH risk. Standing order $300 pending
+      R4. SaaSpocalypse + DOGE risks.
     direction: long
     distance_delta: 0.0
   - ticker: GGG
@@ -181,7 +185,8 @@ quality_universe:
     thesis_path: thesis/research/GGG/thesis.md
     last_scored: '2026-02-20'
     last_price_check: '2026-03-08'
-    notes: R1 S92. QS 69→77 adj (Tier A). FV $78. Overvalued at $93. Wide moat, 100yr, 53% GM. Entry $66 (crisis-only). Price alerts $80/$75.
+    notes: R1 S92. QS 69→77 adj (Tier A). FV $78. Overvalued at $93. Wide moat, 100yr, 53% GM. Entry $66 (crisis-only). Price
+      alerts $80/$75.
     direction: long
     r1_verdict: OVERVALUED
     r1_session: 92
@@ -202,7 +207,8 @@ quality_universe:
     thesis_path: thesis/research/ROR.L/thesis.md
     last_scored: '2026-02-20'
     last_price_check: '2026-03-08'
-    notes: 'QS 73/78adj Tier A. #1-2 global valve actuators. ROIC 22%, GM 49.3%, net cash. FV 320p, OVERVALUED at 386p. FY2025 results Mar 10.'
+    notes: 'QS 73/78adj Tier A. #1-2 global valve actuators. ROIC 22%, GM 49.3%, net cash. FV 320p, OVERVALUED at 386p. FY2025
+      results Mar 10.'
     r1_session: 105
     r1_verdict: OVERVALUED
     distance_delta: 0.0
@@ -222,8 +228,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-03-07'
     last_price_check: '2026-03-08'
-    notes: 'R1 refresh post-FY2025. TIC #2 global. WIDE moat (regulatory mandates). FV EUR 33, entry EUR 25.50. E[CAGR] 13.8% at EUR 28.80. QS 70adj. Governance risk (-3 haircut). EU Pricing Power basket
-      candidate.'
+    notes: 'R1 refresh post-FY2025. TIC #2 global. WIDE moat (regulatory mandates). FV EUR 33, entry EUR 25.50. E[CAGR] 13.8%
+      at EUR 28.80. QS 70adj. Governance risk (-3 haircut). EU Pricing Power basket candidate.'
     r1_session: 143
     r1_verdict: AT_FV
     distance_delta: 0.0
@@ -260,7 +266,8 @@ quality_universe:
     thesis_path: thesis/research/AON/thesis.md
     last_scored: '2026-02-20'
     last_price_check: '2026-03-08'
-    notes: 'R3 complete. QS 62→70 adj. FV $361. Entry $300 (7.5% below, near 52wL $305). #2 global broker. AI selloff overblown. Insiders net buyers 17.7:1.'
+    notes: 'R3 complete. QS 62→70 adj. FV $361. Entry $300 (7.5% below, near 52wL $305). #2 global broker. AI selloff overblown.
+      Insiders net buyers 17.7:1.'
     direction: long
     r1_verdict: ACTIONABLE
     r1_session: 92
@@ -392,8 +399,8 @@ quality_universe:
     thesis_path: thesis/research/GMAB/thesis.md
     last_scored: '2026-02-13'
     last_price_check: '2026-03-08'
-    notes: R3 COMPLETE. DA 14/20 STRONG COUNTER (highest ever). FV $36->$28 (-22%). QS 65->60 transformation discount. Entry $25->$20. Risk HIGH. Moat NARROW. DEPRIORITIZED — special situation, not quality
-      compounder. Effectively Tier C forward-looking.
+    notes: R3 COMPLETE. DA 14/20 STRONG COUNTER (highest ever). FV $36->$28 (-22%). QS 65->60 transformation discount. Entry
+      $25->$20. Risk HIGH. Moat NARROW. DEPRIORITIZED — special situation, not quality compounder. Effectively Tier C forward-looking.
     direction: long
     distance_delta: 0.0
   - ticker: MNST
@@ -487,7 +494,8 @@ quality_universe:
     thesis_path: thesis/research/BEI.DE/thesis.md
     last_scored: '2026-02-12'
     last_price_check: '2026-03-08'
-    notes: 'R1 S104. QS 70/75adj Tier A. FV EUR 99. OVERVALUED -7.6%. NIVEA #1, 53% Herz family. Entry EUR 85-90. Watch FY2025 Mar 3.'
+    notes: 'R1 S104. QS 70/75adj Tier A. FV EUR 99. OVERVALUED -7.6%. NIVEA #1, 53% Herz family. Entry EUR 85-90. Watch FY2025
+      Mar 3.'
     direction: long
     distance_delta: 0.0
   - ticker: CCH.L
@@ -578,7 +586,8 @@ quality_universe:
     thesis_path: thesis/research/ROL/thesis.md
     last_scored: '2026-02-20'
     last_price_check: '2026-03-08'
-    notes: 'R1 S95: WIDE moat 22/25. QS 82 tool, adj 79. OVERVALUED at 61 (-37.5%). Entry 38 FANTASY. Pipeline quality Tier A.'
+    notes: 'R1 S95: WIDE moat 22/25. QS 82 tool, adj 79. OVERVALUED at 61 (-37.5%). Entry 38 FANTASY. Pipeline quality Tier
+      A.'
     r1_verdict: FANTASY
     r1_session: 95
     distance_delta: 0.0
@@ -633,8 +642,8 @@ quality_universe:
     thesis_path: thesis/research/CDNS/thesis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3: DA MODERATE COUNTER -11.5%. FV $260->$230. Entry $235->$200. SBC $455M (75x SBC-adj FCF). Reverse DCF: 41% implied vs 2.6% historical. SNPS-Ansys $35B competitive threat. Moat WIDE confirmed.
-      Q4 beat. 41.7% above entry.'
+    notes: 'R3: DA MODERATE COUNTER -11.5%. FV $260->$230. Entry $235->$200. SBC $455M (75x SBC-adj FCF). Reverse DCF: 41%
+      implied vs 2.6% historical. SNPS-Ansys $35B competitive threat. Moat WIDE confirmed. Q4 beat. 41.7% above entry.'
     direction: long
     distance_delta: 0.0
   - ticker: KLAC
@@ -724,7 +733,8 @@ quality_universe:
     thesis_path: thesis/research/IT/thesis.md
     last_scored: '2026-03-08'
     last_price_check: '2026-03-08'
-    notes: 'R1 refresh S149. QS 74/77adj. FV $195. E[CAGR] 10-12% borderline. -84% from ATH. AI disruption (consulting -15%). Insider buying 113K shares vs 11.2% SI surge = divergence. Entry $150-160. Q1 May catalyst.'
+    notes: R1 refresh S149. QS 74/77adj. FV $195. E[CAGR] 10-12% borderline. -84% from ATH. AI disruption (consulting -15%).
+      Insider buying 113K shares vs 11.2% SI surge = divergence. Entry $150-160. Q1 May catalyst.
     direction: long
     distance_delta: 0.0
   - ticker: VEEV
@@ -742,8 +752,9 @@ quality_universe:
     thesis_path: thesis/research/VEEV/thesis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE. DA MODERATE COUNTER -8%: FV $205→$190, entry $145. CRM share eroding (18→14 top-20), SBC 15.9% distorts FCF, LLM risk to eTMF. $2B buyback Jan 2026 (thesis missed, positive). QS
-      80→78 (CRM adj +6 not +8). Wait Mar 4 Q4 FY2026 earnings. R2 deferred.'
+    notes: 'R3 COMPLETE. DA MODERATE COUNTER -8%: FV $205→$190, entry $145. CRM share eroding (18→14 top-20), SBC 15.9% distorts
+      FCF, LLM risk to eTMF. $2B buyback Jan 2026 (thesis missed, positive). QS 80→78 (CRM adj +6 not +8). Wait Mar 4 Q4 FY2026
+      earnings. R2 deferred.'
     direction: long
     distance_delta: 0.0
   - ticker: ISRG
@@ -761,7 +772,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-13'
     last_price_check: '2026-03-08'
-    notes: QS 55->71 (+8 surgical robotics monopoly, +8 market position). ROIC 17%, ROIC-WACC +3.3pp, GM 66%, net cash. 17% rev CAGR. P/E 61x too expensive. Need -35% correction.
+    notes: QS 55->71 (+8 surgical robotics monopoly, +8 market position). ROIC 17%, ROIC-WACC +3.3pp, GM 66%, net cash. 17%
+      rev CAGR. P/E 61x too expensive. Need -35% correction.
     direction: long
     distance_delta: 0.0
   - ticker: SYK
@@ -779,7 +791,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-13'
     last_price_check: '2026-03-08'
-    notes: QS 59->67 (+8 ortho oligopoly market position). ROIC 11-14% improving, GM 64%, 5.4% insider, 11% organic growth. P/E 44x. Need -25% correction.
+    notes: QS 59->67 (+8 ortho oligopoly market position). ROIC 11-14% improving, GM 64%, 5.4% insider, 11% organic growth.
+      P/E 44x. Need -25% correction.
     direction: long
     distance_delta: 0.0
   - ticker: PODD
@@ -797,7 +810,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-13'
     last_price_check: '2026-03-08'
-    notes: 'QS 61->66 (+5 Omnipod market position). Fastest medtech grower: 24% rev CAGR, ROIC 16%, GM 70%. FCF just turning positive. P/E 70x. Near 52wL (-32%). Still too expensive.'
+    notes: 'QS 61->66 (+5 Omnipod market position). Fastest medtech grower: 24% rev CAGR, ROIC 16%, GM 70%. FCF just turning
+      positive. P/E 70x. Near 52wL (-32%). Still too expensive.'
     direction: long
     distance_delta: 0.0
   - ticker: ACGL
@@ -815,7 +829,8 @@ quality_universe:
     thesis_path: thesis/research/ACGL/thesis.md
     last_scored: '2026-02-13'
     last_price_check: '2026-03-08'
-    notes: R4 APPROVED 2026-02-14. Standing order $88, EUR 400 (4%). 10/10 gates. FV $110. DA 12/19 MODERATE. QS 57->68 (insurer adj). WIDE moat 22/25. Conviction MEDIUM-LOW. Valid until Q2 2026.
+    notes: R4 APPROVED 2026-02-14. Standing order $88, EUR 400 (4%). 10/10 gates. FV $110. DA 12/19 MODERATE. QS 57->68 (insurer
+      adj). WIDE moat 22/25. Conviction MEDIUM-LOW. Valid until Q2 2026.
     direction: long
     distance_delta: 0.0
   - ticker: ZTS
@@ -852,7 +867,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-03-07'
     last_price_check: '2026-03-08'
-    notes: 'R4 APPROVED. Insurance data monopoly (ISO). QS 80adj. SO 10. E[CAGR] at market ~8%. Data & Analytics Monopolies basket. Q4 FY2025 confirmed: rev +6.6% OCC, EBITDA margin 56.2%, ROIC 60.6%.'
+    notes: 'R4 APPROVED. Insurance data monopoly (ISO). QS 80adj. SO 10. E[CAGR] at market ~8%. Data & Analytics Monopolies
+      basket. Q4 FY2025 confirmed: rev +6.6% OCC, EBITDA margin 56.2%, ROIC 60.6%.'
     r1_session: 143
     r1_verdict: AT_FV
     distance_delta: 0.0
@@ -909,7 +925,8 @@ quality_universe:
     last_scored: '2026-02-13'
     last_price_check: '2026-03-08'
     on_etoro: true
-    notes: 'Triage S114: FANTASY. P/E 91, EV/EBIT ~55x. Real defense tailwind but astronomically priced. Even 2x revenue + margin expansion doesnt justify. Skip.'
+    notes: 'Triage S114: FANTASY. P/E 91, EV/EBIT ~55x. Real defense tailwind but astronomically priced. Even 2x revenue +
+      margin expansion doesnt justify. Skip.'
     direction: long
     distance_delta: 0.0
   - ticker: HWM
@@ -1015,7 +1032,8 @@ quality_universe:
     thesis_path: thesis/research/RSG/thesis.md
     last_scored: '2026-02-13'
     last_price_check: '2026-03-08'
-    notes: R3 complete. FV $225 (revised from $255 post-DA + Q4 earnings). 15-15.5x on $5.5B guided EBITDA. Entry $185 (from $210). Resume R4 if price approaches $200.
+    notes: R3 complete. FV $225 (revised from $255 post-DA + Q4 earnings). 15-15.5x on $5.5B guided EBITDA. Entry $185 (from
+      $210). Resume R4 if price approaches $200.
     direction: long
     distance_delta: 0.0
   - ticker: ECL
@@ -1106,8 +1124,10 @@ quality_universe:
     thesis_path: thesis/research/CMCSA/thesis.md
     last_scored: '2026-02-27'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE S127. FV $39.37→$33 post-DA (-16.2%). Two DAs converged (MODERATE+STRONG). QS 60 Tier B. Moat NARROW 3.0/5 eroding. Risk HIGH (3 CRITICAL correlated). Parks 12x (was 14x), FCF norm
-      $14B (was $15B), governance 12% disc. Edge THIN (Error #49). SO $26 GATED Q1 2026 earnings. E[CAGR] ~16.5% at $26 (incl buyback). 4 value fund convergence. 8 KCs.'
+    notes: 'R3 COMPLETE S127. FV $39.37→$33 post-DA (-16.2%). Two DAs converged (MODERATE+STRONG). QS 60 Tier B. Moat NARROW
+      3.0/5 eroding. Risk HIGH (3 CRITICAL correlated). Parks 12x (was 14x), FCF norm $14B (was $15B), governance 12% disc.
+      Edge THIN (Error #49). SO $26 GATED Q1 2026 earnings. E[CAGR] ~16.5% at $26 (incl buyback). 4 value fund convergence.
+      8 KCs.'
     distance_delta: 0.0
   - ticker: ORNBV.HE
     name: Orion Corporation B
@@ -1124,7 +1144,8 @@ quality_universe:
     thesis_path: thesis/research/ORNBV.HE/thesis.md
     last_scored: '2026-02-14'
     last_price_check: '2026-03-08'
-    notes: R1 COMPLETE. QS 78->72 adj (-6 Nubeqa concentration). FV EUR 55. OVERVALUED at EUR 67.85. Entry EUR 45-48. Nubeqa royalty supercycle.
+    notes: R1 COMPLETE. QS 78->72 adj (-6 Nubeqa concentration). FV EUR 55. OVERVALUED at EUR 67.85. Entry EUR 45-48. Nubeqa
+      royalty supercycle.
     direction: long
     r1_verdict: OVERVALUED
     r1_session: 89
@@ -1145,8 +1166,9 @@ quality_universe:
     thesis_path: thesis/research/MSCI/fundamental_analysis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE. DA STRONG COUNTER -24.5%: FV $530→$450, entry $440→$350. OEY 3.5%→4.0% (leverage), organic growth 7.7% not 10%, fee compression structural (2.8→2.41 bps). WIDE 22/25 intact but
-      price not. CEO bought $6.7M. Deep patience play — $350 = -33% from current.'
+    notes: 'R3 COMPLETE. DA STRONG COUNTER -24.5%: FV $530→$450, entry $440→$350. OEY 3.5%→4.0% (leverage), organic growth
+      7.7% not 10%, fee compression structural (2.8→2.41 bps). WIDE 22/25 intact but price not. CEO bought $6.7M. Deep patience
+      play — $350 = -33% from current.'
     distance_delta: 0.0
   - ticker: KCR.HE
     name: Konecranes Plc
@@ -1163,8 +1185,9 @@ quality_universe:
     thesis_path: thesis/research/KCR.HE/fundamental_analysis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE. DA STRONG COUNTER -17%: FV EUR 114→95, entry EUR 85→75. Peak margins (14% EBITA = ATH) treated as permanent (CRITICAL). Mid-cycle P/E 24-26x, not cheap. Solidium 19.6% not aligned
-      insider. ZPMC tailwind overstated. NARROW moat 17/25. Net cash. Entry EUR 75 (21% MoS).'
+    notes: 'R3 COMPLETE. DA STRONG COUNTER -17%: FV EUR 114→95, entry EUR 85→75. Peak margins (14% EBITA = ATH) treated as
+      permanent (CRITICAL). Mid-cycle P/E 24-26x, not cheap. Solidium 19.6% not aligned insider. ZPMC tailwind overstated.
+      NARROW moat 17/25. Net cash. Entry EUR 75 (21% MoS).'
     direction: long
     distance_delta: 0.0
   - ticker: RMS.PA
@@ -1183,8 +1206,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-03-07'
     last_price_check: '2026-03-08'
-    notes: 'R1 complete. QS 96adj HIGHEST in universe. WIDE moat (Birkin scarcity). FANTASY at EUR 1905 (-29% overvalued). Entry EUR 1200 requires 37% decline. Patience path: multiple compression 44x→22x
-      over 2-3yr. Monitor EUR 1500.'
+    notes: 'R1 complete. QS 96adj HIGHEST in universe. WIDE moat (Birkin scarcity). FANTASY at EUR 1905 (-29% overvalued).
+      Entry EUR 1200 requires 37% decline. Patience path: multiple compression 44x→22x over 2-3yr. Monitor EUR 1500.'
     r1_session: 143
     r1_verdict: FANTASY
     distance_delta: 0.0
@@ -1203,7 +1226,8 @@ quality_universe:
     thesis_path: thesis/research/FOUR.L/thesis.md
     last_scored: '2026-02-15'
     last_price_check: '2026-03-08'
-    notes: R3 COMPLETE. FV 5300->4400 (-17%). DA 14/21 MODERATE. Market share LOST in 2025. Tariffs semi-structural. Entry 3400p. HARD GATE Mar 11 results. No SO until then.
+    notes: R3 COMPLETE. FV 5300->4400 (-17%). DA 14/21 MODERATE. Market share LOST in 2025. Tariffs semi-structural. Entry
+      3400p. HARD GATE Mar 11 results. No SO until then.
     direction: long
     distance_delta: 0.0
   - ticker: STMN.SW
@@ -1222,7 +1246,8 @@ quality_universe:
     thesis_path: thesis/research/STMN.SW/thesis.md
     last_scored: '2026-02-20'
     last_price_check: '2026-03-08'
-    notes: 'R3 resolved: FV CHF 118→110, entry CHF 85→80, bear CHF 92. GM kill condition AMBER (70.1%). R4 pending with GM condition.'
+    notes: 'R3 resolved: FV CHF 118→110, entry CHF 85→80, bear CHF 92. GM kill condition AMBER (70.1%). R4 pending with GM
+      condition.'
     r1_session: 102
     r1_verdict: ACTIONABLE
     distance_delta: 0.0
@@ -1242,8 +1267,9 @@ quality_universe:
     thesis_path: thesis/research/SOON.SW/fundamental_analysis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE. DA STRONG COUNTER -31.4%: FV CHF 255->200, entry CHF 180->160. Error #49 confirmed (FV=consensus). CHF permanent drag. Margin decline 22.6->17.9%. HARD GATE: May 2026 FY results
-      before execution. QS 61->67 (DA reduced adj).'
+    notes: 'R3 COMPLETE. DA STRONG COUNTER -31.4%: FV CHF 255->200, entry CHF 180->160. Error #49 confirmed (FV=consensus).
+      CHF permanent drag. Margin decline 22.6->17.9%. HARD GATE: May 2026 FY results before execution. QS 61->67 (DA reduced
+      adj).'
     distance_delta: 0.0
   - ticker: ITRK.L
     name: INTERTEK GROUP PLC ORD 1P
@@ -1260,8 +1286,9 @@ quality_universe:
     thesis_path: thesis/research/ITRK.L/fundamental_analysis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE. DA MODERATE COUNTER -15%: FV 5400→4700p, entry 4000→3700p. WACC 7.3%→9.0% (CRITICAL), Error #49 confirmed (FV≈consensus), AAA margin BULL not BASE, FX widening. NARROW moat. QS
-      63/68 adj. BVI.PA preferred for TIC sector. HARD GATE FY2025 results Mar 3.'
+    notes: 'R3 COMPLETE. DA MODERATE COUNTER -15%: FV 5400→4700p, entry 4000→3700p. WACC 7.3%→9.0% (CRITICAL), Error #49 confirmed
+      (FV≈consensus), AAA margin BULL not BASE, FX widening. NARROW moat. QS 63/68 adj. BVI.PA preferred for TIC sector. HARD
+      GATE FY2025 results Mar 3.'
     direction: long
     distance_delta: 0.0
   - ticker: ADP
@@ -1279,8 +1306,9 @@ quality_universe:
     thesis_path: thesis/research/ADP/fundamental_analysis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE. DA STRONG COUNTER: FV $255->$215 (-16%), entry $185->$170. QS 78 Tier A but apply Tier B MoS (correlated Triple Squeeze risk). Float income = 24% of OP (not 6% of EPS). CEO selling
-      $9.5M, 0 purchases. P/E 20x appropriate for 6% grower. Sector view CREATED. Hard gates: PPC>=0% in Q3 FY2026.'
+    notes: 'R3 COMPLETE. DA STRONG COUNTER: FV $255->$215 (-16%), entry $185->$170. QS 78 Tier A but apply Tier B MoS (correlated
+      Triple Squeeze risk). Float income = 24% of OP (not 6% of EPS). CEO selling $9.5M, 0 purchases. P/E 20x appropriate
+      for 6% grower. Sector view CREATED. Hard gates: PPC>=0% in Q3 FY2026.'
     direction: long
     distance_delta: 0.0
   - ticker: ODFL
@@ -1318,8 +1346,9 @@ quality_universe:
     thesis_path: thesis/research/ALLE/fundamental_analysis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE. DA STRONG COUNTER: FV $190->$160 (-16%), entry $145->$125. QS 79->71 (A->B, +8 adj rejected per DA: tier boundary crossing). Smart lock share only 8-9% (not #1-2). Mexico tariff
-      20-25% COGS unquantified. Consensus = our FV = no edge (Error #49). WIDE mechanical moat, NARROW electronics moat.'
+    notes: 'R3 COMPLETE. DA STRONG COUNTER: FV $190->$160 (-16%), entry $145->$125. QS 79->71 (A->B, +8 adj rejected per DA:
+      tier boundary crossing). Smart lock share only 8-9% (not #1-2). Mexico tariff 20-25% COGS unquantified. Consensus =
+      our FV = no edge (Error #49). WIDE mechanical moat, NARROW electronics moat.'
     direction: long
     distance_delta: 0.0
   - ticker: SHW
@@ -1337,7 +1366,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-15'
     last_price_check: '2026-03-08'
-    notes: 'US paint #1. 4800+ company stores = distribution moat. ROIC 18.1%, ROIC-WACC +7.8pp, GM expanding 48.5%, 7.2% insider. EPS CAGR 14.6%. Leverage 2.9x. NEW SECTOR.'
+    notes: 'US paint #1. 4800+ company stores = distribution moat. ROIC 18.1%, ROIC-WACC +7.8pp, GM expanding 48.5%, 7.2%
+      insider. EPS CAGR 14.6%. Leverage 2.9x. NEW SECTOR.'
     direction: long
     distance_delta: 0.0
   - ticker: IHG
@@ -1355,7 +1385,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-15'
     last_price_check: '2026-03-08'
-    notes: Asset-light hotel franchise (Holiday Inn, IHG). ROIC 40.4%, ROIC-WACC +31.2pp. 200M+ loyalty members. Rev CAGR 19%. Near 52wH, need correction. NEW SECTOR.
+    notes: Asset-light hotel franchise (Holiday Inn, IHG). ROIC 40.4%, ROIC-WACC +31.2pp. 200M+ loyalty members. Rev CAGR
+      19%. Near 52wH, need correction. NEW SECTOR.
     direction: long
     distance_delta: 0.0
   - ticker: EEFT
@@ -1374,8 +1405,9 @@ quality_universe:
     thesis_path: thesis/research/EEFT/fundamental_analysis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3: DA STRONG COUNTER -36%. FV $133->$85 (9x normalized $9.50 EPS). QS 73->68 (ROIC artifact). Risk VERY HIGH. EPS growth buyback-engineered (NI +1.1% vs EPS +11.6%). 1% remittance tax structural.
-      CEO selling. HARD GATE Q1 2026 remittance tax data. SO REVOKED.'
+    notes: 'R3: DA STRONG COUNTER -36%. FV $133->$85 (9x normalized $9.50 EPS). QS 73->68 (ROIC artifact). Risk VERY HIGH.
+      EPS growth buyback-engineered (NI +1.1% vs EPS +11.6%). 1% remittance tax structural. CEO selling. HARD GATE Q1 2026
+      remittance tax data. SO REVOKED.'
     distance_delta: 0.0
   - ticker: KNSL
     name: Kinsale Capital Group, Inc.
@@ -1411,7 +1443,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-19'
     last_price_check: '2026-03-08'
-    notes: ARCHIVED S127. 3rd negative signal (FY2025 Feb 26). IAR SaaS transition extends trough. QS 62 Tier B fwd. Previously R3_COMPLETE.
+    notes: ARCHIVED S127. 3rd negative signal (FY2025 Feb 26). IAR SaaS transition extends trough. QS 62 Tier B fwd. Previously
+      R3_COMPLETE.
     distance_delta: 0.0
   - ticker: ALFA.ST
     name: Alfa Laval AB
@@ -1429,7 +1462,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-19'
     last_price_check: '2026-03-08'
-    notes: R1 2026-02-18. FV SEK 420, entry SEK 345. Overvalued at SEK 522 (-19.5% MoS). Energy transition tailwinds. WAIT correction.
+    notes: R1 2026-02-18. FV SEK 420, entry SEK 345. Overvalued at SEK 522 (-19.5% MoS). Energy transition tailwinds. WAIT
+      correction.
     r1_verdict: OVERVALUED
     r1_session: 90
     distance_delta: 0.0
@@ -1585,7 +1619,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-19'
     last_price_check: '2026-03-08'
-    notes: 'SCORED 2026-02-19. QS 65+7=72 (est: +4 ROIC partial-goodwill, +3 market pos). Best margins (GM 44%, OP 18.3%), 47.6% insider (!). P/E 40x. Crisis only (+69% above entry).'
+    notes: 'SCORED 2026-02-19. QS 65+7=72 (est: +4 ROIC partial-goodwill, +3 market pos). Best margins (GM 44%, OP 18.3%),
+      47.6% insider (!). P/E 40x. Crisis only (+69% above entry).'
     distance_delta: 0.0
   - ticker: MONC.MI
     name: Moncler S.p.A.
@@ -1603,8 +1638,8 @@ quality_universe:
     thesis_path: thesis/research/MONC.MI/
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE S89. FV 58→52 (-10.3%), entry 48→42. DA MODERATE COUNTER. Growth 4.5%, WACC 9.0%. FY2025 BASE-BULL. 3 hard gates for R4: earnings call, RACE.MI priority, Q1 2026 growth >=5%. R4
-      deferred ~Apr 2026.'
+    notes: 'R3 COMPLETE S89. FV 58→52 (-10.3%), entry 48→42. DA MODERATE COUNTER. Growth 4.5%, WACC 9.0%. FY2025 BASE-BULL.
+      3 hard gates for R4: earnings call, RACE.MI priority, Q1 2026 growth >=5%. R4 deferred ~Apr 2026.'
     distance_delta: 0.0
   - ticker: BZU.MI
     name: BUZZI
@@ -1622,7 +1657,8 @@ quality_universe:
     thesis_path: thesis/research/BZU.MI/thesis.md
     last_scored: '2026-02-20'
     last_price_check: '2026-03-08'
-    notes: 'R1 S92. QS 73→70 adj (gross margin data issue, cyclical peak). FV EUR 58 through-cycle. Entry EUR 42 (cyclical correction). 53% family, best margins in cement. Sector view: building-materials-cement.md.'
+    notes: 'R1 S92. QS 73→70 adj (gross margin data issue, cyclical peak). FV EUR 58 through-cycle. Entry EUR 42 (cyclical
+      correction). 53% family, best margins in cement. Sector view: building-materials-cement.md.'
     r1_verdict: OVERVALUED
     r1_session: 92
     distance_delta: 0.0
@@ -1780,7 +1816,8 @@ quality_universe:
     thesis_path: thesis/research/IHP.L/thesis.md
     last_scored: '2026-02-20'
     last_price_check: '2026-03-08'
-    notes: R4 APPROVED S100. QS 80 Tier A. UK investment platform (Transact). FV 415→390p post-DA (-6%). ROIC 49%, 24.2% insider. SO at 300p.
+    notes: R4 APPROVED S100. QS 80 Tier A. UK investment platform (Transact). FV 415→390p post-DA (-6%). ROIC 49%, 24.2% insider.
+      SO at 300p.
     r1_verdict: ACTIONABLE
     r1_session: 92
     distance_delta: 0.0
@@ -1800,7 +1837,8 @@ quality_universe:
     r1_verdict: ACTIONABLE
     thesis_path: thesis/research/KLR.L/r1_thesis.md
     last_scored: '2026-02-20'
-    notes: 'R1 S93. QS 76/79 adj (+3 market position). FV 2,600p. #1 global geotechnical. Entry 1,700-1,800p. FY2025 Mar 3 = hard gate before SO.'
+    notes: 'R1 S93. QS 76/79 adj (+3 market position). FV 2,600p. #1 global geotechnical. Entry 1,700-1,800p. FY2025 Mar 3
+      = hard gate before SO.'
     last_price_check: '2026-03-08'
     r1_session: 93
     distance_delta: 0.0
@@ -1871,7 +1909,8 @@ quality_universe:
     thesis_path: thesis/research/NOS.LS/r1_thesis.md
     last_scored: '2026-02-18'
     last_price_check: '2026-03-08'
-    notes: 'R2 S106: DO NOT ADVANCE. Digi risk MORE severe (Spain: 10% share, -11.6% ARPU). FCF overstated (EUR 360M not 446M). E[CAGR] 12% below 15% threshold. DTE.DE superior. Revised entry EUR 3.50.'
+    notes: 'R2 S106: DO NOT ADVANCE. Digi risk MORE severe (Spain: 10% share, -11.6% ARPU). FCF overstated (EUR 360M not 446M).
+      E[CAGR] 12% below 15% threshold. DTE.DE superior. Revised entry EUR 3.50.'
     r1_verdict: OVERVALUED
     r1_session: 94
     r2_session: 106
@@ -1911,7 +1950,8 @@ quality_universe:
     thesis_path: thesis/research/REN.AS/thesis.md
     last_scored: '2026-02-20'
     last_price_check: '2026-03-08'
-    notes: R3 COMPLETE S110. DA MODERATE COUNTER. FV EUR 33.50 (was 38.0). QS 78 adj Tier A. Entry EUR 23.50. E[CAGR] 10.6% at market.
+    notes: R3 COMPLETE S110. DA MODERATE COUNTER. FV EUR 33.50 (was 38.0). QS 78 adj Tier A. Entry EUR 23.50. E[CAGR] 10.6%
+      at market.
     r1_session: 102
     r1_verdict: AT_FV
     distance_delta: 0.0
@@ -2496,7 +2536,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-19'
     last_price_check: '2026-03-08'
-    notes: QS 56 Tier B (ROIC data gap → true QS likely 71+). ROIC 46-63% when avail, GM 61% expanding, FCF 19.8%, low leverage 0.4x.
+    notes: QS 56 Tier B (ROIC data gap → true QS likely 71+). ROIC 46-63% when avail, GM 61% expanding, FCF 19.8%, low leverage
+      0.4x.
   - ticker: LRE.L
     name: Lancashire Holdings
     direction: long
@@ -2530,7 +2571,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-19'
     last_price_check: '2026-03-08'
-    notes: QS 54 Tool, Adj ~63 (insurer protocol +9). ROE 24.7%, net cash EUR 15.2B, insider 5/5. Pure P&C post-Nordea. eToro unverified.
+    notes: QS 54 Tool, Adj ~63 (insurer protocol +9). ROE 24.7%, net cash EUR 15.2B, insider 5/5. Pure P&C post-Nordea. eToro
+      unverified.
   - ticker: IMI.L
     name: IMI PLC
     direction: long
@@ -2634,7 +2676,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-19'
     last_price_check: '2026-03-08'
-    notes: QS 59 Tier B. AT 52wL but structural headwinds (EV adoption -22% EPS YoY). Entry lowered to EUR 30 (PASS on R1 — EV disruption).
+    notes: QS 59 Tier B. AT 52wL but structural headwinds (EV adoption -22% EPS YoY). Entry lowered to EUR 30 (PASS on R1
+      — EV disruption).
     distance_delta: 0.0
   - ticker: RAA.DE
     name: Rational AG
@@ -2652,8 +2695,8 @@ quality_universe:
     thesis_path: thesis/research/RAA.DE
     last_scored: '2026-02-19'
     last_price_check: '2026-03-08'
-    notes: 'R3 COMPLETE 2026-02-19. QS 92 Tier A (HIGHEST). WIDE moat 21-22/25. FV EUR 600→570 (margin/FCF correction). Entry EUR 540→485. R4 HARD GATE: March 19 FY2025 results. Prob reaching entry: LOW
-      (10-15%, crisis only).'
+    notes: 'R3 COMPLETE 2026-02-19. QS 92 Tier A (HIGHEST). WIDE moat 21-22/25. FV EUR 600→570 (margin/FCF correction). Entry
+      EUR 540→485. R4 HARD GATE: March 19 FY2025 results. Prob reaching entry: LOW (10-15%, crisis only).'
     distance_delta: 0.0
   - ticker: AM.PA
     name: DASSAULT AVIATION
@@ -2729,7 +2772,8 @@ quality_universe:
     thesis_path: thesis/research/FSG.L/thesis.md
     last_scored: '2026-02-19'
     last_price_check: '2026-03-08'
-    notes: 'R2 PAUSED S106. DA: P/E 13x overstated (peers 5-9x trailing), FV revised 408p base. VCT tax cut Apr 2026 = 13-19% revenue risk. Revisit Dec 2026.'
+    notes: 'R2 PAUSED S106. DA: P/E 13x overstated (peers 5-9x trailing), FV revised 408p base. VCT tax cut Apr 2026 = 13-19%
+      revenue risk. Revisit Dec 2026.'
     r1_verdict: AT_FV
     r1_session: 88
     r2_session: 106
@@ -3165,7 +3209,8 @@ quality_universe:
     thesis_path: thesis/research/HLNE/thesis.md
     last_scored: '2026-02-22'
     last_price_check: '2026-03-08'
-    notes: R3 COMPLETE S111. DA MODERATE COUNTER 17/19. FV $120->$110 (-8.3%). Moat NARROW (distribution weakness). SO $95. E[CAGR] ~13% at market.
+    notes: R3 COMPLETE S111. DA MODERATE COUNTER 17/19. FV $120->$110 (-8.3%). Moat NARROW (distribution weakness). SO $95.
+      E[CAGR] ~13% at market.
     r1_session: 110
     r1_verdict: WATCHLIST
     distance_delta: 0.0
@@ -3222,7 +3267,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-23'
     last_price_check: '2026-03-08'
-    notes: 'TRIAGE ACTIONABLE. PAH monopoly + xenotransplant optionality. ROIC 25%, 50% EBIT margins, net cash .8B. GATED: earnings Feb 25 + TETON-1 H1 2026.'
+    notes: 'TRIAGE ACTIONABLE. PAH monopoly + xenotransplant optionality. ROIC 25%, 50% EBIT margins, net cash .8B. GATED:
+      earnings Feb 25 + TETON-1 H1 2026.'
     r1_session: 115
     r1_verdict: ACTIONABLE
     distance_delta: 0.0
@@ -3242,7 +3288,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-28'
     last_price_check: '2026-03-08'
-    notes: 'R1 S131. Safety equipment. #1 SCBA. PFAS litigation risk. AT_FV at 95. Entry 20 FANTASY (38% away). No SO. Ruane Cunniff 4.7%.'
+    notes: 'R1 S131. Safety equipment. #1 SCBA. PFAS litigation risk. AT_FV at 95. Entry 20 FANTASY (38% away). No SO. Ruane
+      Cunniff 4.7%.'
     distance_delta: 0.0
   - ticker: WING
     name: Wingstop Inc.
@@ -3281,8 +3328,9 @@ quality_universe:
     last_scored: '2026-02-25'
     last_price_check: '2026-03-08'
     on_etoro: true
-    notes: 'R1 S117: QS 75→65 (Tier B). NARROW moat (13/25). FV $107. Bear $65/Bull $155. Turnaround at cyclical peak. CEO sold 56% of holdings ($40M). Tariffs $90M+. GATED: Q4 earnings Mar 4 + LULU overlap.
-      E[CAGR] 9-11% at $95 = BELOW threshold. Entry $80.'
+    notes: 'R1 S117: QS 75→65 (Tier B). NARROW moat (13/25). FV $107. Bear $65/Bull $155. Turnaround at cyclical peak. CEO
+      sold 56% of holdings ($40M). Tariffs $90M+. GATED: Q4 earnings Mar 4 + LULU overlap. E[CAGR] 9-11% at $95 = BELOW threshold.
+      Entry $80.'
     distance_delta: 0.0
   - ticker: MANH
     name: Manhattan Associates Inc.
@@ -3378,7 +3426,8 @@ quality_universe:
     last_scored: '2026-02-23'
     last_price_check: '2026-03-08'
     on_etoro: true
-    notes: R3 COMPLETE S116 GATED. FV $53→$50. Entry $43→$38. DA MODERATE COUNTER 4 HIGH. Appian retrial gate. Half-position EUR 200.
+    notes: R3 COMPLETE S116 GATED. FV $53→$50. Entry $43→$38. DA MODERATE COUNTER 4 HIGH. Appian retrial gate. Half-position
+      EUR 200.
     distance_delta: 0.0
   - ticker: HALO
     name: Halozyme Therapeutics, Inc.
@@ -3397,7 +3446,8 @@ quality_universe:
     last_scored: '2026-02-26'
     last_price_check: '2026-03-08'
     on_etoro: true
-    notes: 'R3 S126: FV $90 (was $110 R1, DA -18.2%). QS 73/79adj Tier A (bottom). NARROW-to-WIDE moat. SO $65 GATED Merck PTAB Jun 2026. Wait Merck PTAB Jun 2026. CMS/IRA risk.'
+    notes: 'R3 S126: FV $90 (was $110 R1, DA -18.2%). QS 73/79adj Tier A (bottom). NARROW-to-WIDE moat. SO $65 GATED Merck
+      PTAB Jun 2026. Wait Merck PTAB Jun 2026. CMS/IRA risk.'
     distance_delta: 0.0
     entry: 65.0
     pipeline: R3_COMPLETE
@@ -4650,7 +4700,8 @@ quality_universe:
     thesis_path: thesis/research/ASML.AS/thesis.md
     last_scored: '2026-02-22'
     last_price_check: '2026-03-08'
-    notes: R1 S112. EUV monopoly. ROIC 70%. OVERVALUED at EUR 1256 (76% above FV). Entry EUR 600-650. Insiders bought EUR 740.
+    notes: R1 S112. EUV monopoly. ROIC 70%. OVERVALUED at EUR 1256 (76% above FV). Entry EUR 600-650. Insiders bought EUR
+      740.
     r1_session: 112
     r1_verdict: OVERVALUED
     distance_delta: 0.0
@@ -4670,8 +4721,9 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-23'
     last_price_check: '2026-03-08'
-    notes: 'R3 RESOLVED S115. FV 148→140 (-5.4%). Entry 126→110 (-12.7%). WIDE moat 20/25 STRENGTHENING. DA MODERATE COUNTER: growth decel (CC 9.9%), Elliott/LSEG overhang, FV→consensus. Insider selling
-      6.3M Feb 10. Cantillon +39% Q4. Wait Q1 2026 + LSEG resolution.'
+    notes: 'R3 RESOLVED S115. FV 148→140 (-5.4%). Entry 126→110 (-12.7%). WIDE moat 20/25 STRENGTHENING. DA MODERATE COUNTER:
+      growth decel (CC 9.9%), Elliott/LSEG overhang, FV→consensus. Insider selling 6.3M Feb 10. Cantillon +39% Q4. Wait Q1
+      2026 + LSEG resolution.'
     r1_session: 115
     r1_verdict: AT_FV
     distance_delta: 0.0
@@ -4691,7 +4743,8 @@ quality_universe:
     thesis_path: thesis/research/VRSN/thesis.md
     last_scored: '2026-02-27'
     last_price_check: '2026-03-08'
-    notes: TRIAGE AT_FV. .com/.net monopoly (ICANN contract to 2034). ROIC 275%, 88% GM, 65% FCF margin. Fundsmith holds. Near 52w low.
+    notes: TRIAGE AT_FV. .com/.net monopoly (ICANN contract to 2034). ROIC 275%, 88% GM, 65% FCF margin. Fundsmith holds.
+      Near 52w low.
     r1_session: 115
     r1_verdict: AT_FV
     distance_delta: 0.0
@@ -4783,7 +4836,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-26'
     last_price_check: '2026-03-08'
-    notes: 'WIDE moat, ASIC, ROIC 83%, SBC 4.3%, class action risk, E[CAGR] ~16%. R3 S123. DA STRONG COUNTER: security crisis + refresh fade. SO 3.'
+    notes: 'WIDE moat, ASIC, ROIC 83%, SBC 4.3%, class action risk, E[CAGR] ~16%. R3 S123. DA STRONG COUNTER: security crisis
+      + refresh fade. SO 3.'
     r1_session: 123
     r1_verdict: ACTIONABLE
     distance_delta: 0.0
@@ -4823,7 +4877,8 @@ quality_universe:
     thesis_path: thesis/research/ERIE/thesis.md
     last_scored: '2026-02-26'
     last_price_check: '2026-03-08'
-    notes: 'R1 S126: FV $313, QS 65/85adj Tier A. Monopoly fee business. 45.5% insider. SO $250 (7.3% below mkt). -41% drawdown explained by one-time $100M donation + premium deceleration.'
+    notes: 'R1 S126: FV $313, QS 65/85adj Tier A. Monopoly fee business. 45.5% insider. SO $250 (7.3% below mkt). -41% drawdown
+      explained by one-time $100M donation + premium deceleration.'
     entry: 250.0
     pipeline: R1_COMPLETE
     r1_session: 126
@@ -4862,7 +4917,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-27'
     last_price_check: '2026-03-08'
-    notes: QS 65 Tier B. ROIC 36.8%, ROE 25.6%, zero debt, net cash >1B. Only 2 analysts. Hidden compounder. Discovered S127 screener.
+    notes: QS 65 Tier B. ROIC 36.8%, ROE 25.6%, zero debt, net cash >1B. Only 2 analysts. Hidden compounder. Discovered S127
+      screener.
   - ticker: WTM
     name: White Mountains Insurance Group
     direction: long
@@ -4879,7 +4935,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-27'
     last_price_check: '2026-03-08'
-    notes: QS 45 Tier C raw. Insurance holding adj +8-11 → ~55 Tier B. P/E 5.2x, ROE 21%, ZERO analysts. Berkshire-like. Price ~2228 — check fractional.
+    notes: QS 45 Tier C raw. Insurance holding adj +8-11 → ~55 Tier B. P/E 5.2x, ROE 21%, ZERO analysts. Berkshire-like. Price
+      ~2228 — check fractional.
   - ticker: SPGI
     name: S&P Global Inc.
     direction: long
@@ -4896,7 +4953,8 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-02-28'
     last_price_check: '2026-03-08'
-    notes: QS 60 raw, adj +18 serial acquirer (IHS Markit goodwill). ROIC distorted. GM 70%, OP margin 40%, FCF .5B. Duopoly ratings + S&P index monopoly.
+    notes: QS 60 raw, adj +18 serial acquirer (IHS Markit goodwill). ROIC distorted. GM 70%, OP margin 40%, FCF .5B. Duopoly
+      ratings + S&P index monopoly.
     distance_delta: 0.0
   - ticker: ICE
     name: Intercontinental Exchange
@@ -4986,25 +5044,25 @@ quality_universe:
     last_price_check: '2026-03-08'
     notes: Auto-scored by batch_scorer. Needs R1 analysis.
   - ticker: SAF.PA
-    name: Safran SA
+    name: SAFRAN
     direction: long
-    qs_tool: 78
-    qs_adj: 78
-    tier: A
+    qs_tool: 73
+    qs_adj: 73
+    tier: B
     sector: defense-aerospace
-    fair_value: 260.0
-    entry_price: 245.0
-    currency: USD
-    current_price: 369.03
-    distance_to_entry: 50.6
-    pipeline_status: R3_COMPLETE
+    fair_value: 380.0
+    entry_price: 270.0
+    currency: EUR
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: 'SCORED. Defense basket pipeline #1 (post-BAH deprioritization). P/E 18.7x = cheapest quality EU defense.
+      Near 52wH — needs pullback. ROIC 53.7%, net cash, 17.4% insider.'
     thesis_path: null
-    last_scored: '2026-03-07'
-    last_price_check: '2026-03-08'
-    notes: R3 complete. Jet engine duopolist (CFM JV). WIDE moat. OVERVALUED at EUR 317.70 (-22% above FV). Entry EUR 240-250. Rate 75 delayed to 2029. FX KO barrier risk. Parked.
+    last_scored: '2026-03-10'
+    last_price_check: null
+    notes: ''
     r1_session: 143
     r1_verdict: OVERVALUED
-    distance_delta: 0.0
   - ticker: SAAB-B.ST
     name: SAAB AB ser. B
     direction: long
@@ -5089,8 +5147,9 @@ quality_universe:
     thesis_path: thesis/research/RMS.PA/thesis.md
     last_scored: '2026-03-07'
     last_price_check: '2026-03-08'
-    notes: 'Luxury conglomerate #1 globally. QS Tool 54, Adj 72 Tier B (+18: market position 8/8, cyclical distortion +8, GM stability +3). FV EUR 540. Entry EUR 430. SEVERELY OVERVALUED at EUR 502 (7%
-      above entry). European Pricing Power basket pipeline. 50% Arnault ownership. EUR 14.2B FCF.'
+    notes: 'Luxury conglomerate #1 globally. QS Tool 54, Adj 72 Tier B (+18: market position 8/8, cyclical distortion +8,
+      GM stability +3). FV EUR 540. Entry EUR 430. SEVERELY OVERVALUED at EUR 502 (7% above entry). European Pricing Power
+      basket pipeline. 50% Arnault ownership. EUR 14.2B FCF.'
     r1_session: 145
     r1_verdict: OVERVALUED
     distance_delta: 0.0
@@ -5144,5 +5203,6 @@ quality_universe:
     thesis_path: thesis/research/GDDY/thesis.md
     last_scored: '2026-03-08'
     last_price_check: '2026-03-08'
-    notes: 'R4 APPROVED CONDITIONAL. FV $130 (R3). QS 68/75adj. E[CAGR] 20.2%. Rotation from FTNT if Investor Day BEAR. 12 KCs. DA MODERATE COUNTER. SO $85-90.'
+    notes: R4 APPROVED CONDITIONAL. FV $130 (R3). QS 68/75adj. E[CAGR] 20.2%. Rotation from FTNT if Investor Day BEAR. 12
+      KCs. DA MODERATE COUNTER. SO $85-90.
     r1_verdict: ACTIONABLE
