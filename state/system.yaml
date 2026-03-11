@@ -19,9 +19,9 @@ system:
   portfolio_quality_analysis:
     date: 2026-03-07
     summary:
-      total_positions: 11
-      tier_a_count: 7  # MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, TW
-      tier_b_count: 4  # NVO, AUTO.L, EDEN.PA, WKL.AS
+      total_positions: 10
+      tier_a_count: 8  # MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, TW, EDEN.PA
+      tier_b_count: 2  # NVO, WKL.AS
       tier_c_count: 0
       tier_d_count: 0
     short_positions: 0
@@ -38,8 +38,8 @@ system:
       - { ticker: ADBE, score: 76, tier: A, status: "FV $390. US Quality Compounders." }
       - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. ADD S143. UK Digital Platforms quality anchor." }
       - { ticker: NVO, score: 73, tier: B, status: "FV $47. CagriSema FAILED. HOLD LOW. R3 S146c8." }
-      - { ticker: AUTO.L, score: 72, tier: B, status: "FV 580p. QS 72 (was 63, EPS data fixed S144). April make-or-break." }
-      - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. European Pricing Power basket." }
+      # AUTO.L — SOLD S150 (executed at open). P&L +1.6%.
+      - { ticker: EDEN.PA, score: 76, tier: A, status: "FV EUR 29. QS Tool 76 Tier A (was 62 stale). European Pricing Power → orphan ~Apr 6." }
       - { ticker: HLNE, score: 82, tier: A, status: "FV $110. ADD S143 >10%. US Quality Compounders." }
       - { ticker: DOCS, score: 79, tier: A, status: "FV $30. R3 S146c4. US Quality Compounders." }
       - { ticker: FTNT, score: 87, tier: A, status: "FV $88. QS 87 (was 70, ROIC data fixed S144). Cybersecurity anchor." }

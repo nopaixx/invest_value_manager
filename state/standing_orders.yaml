@@ -40,8 +40,8 @@ standing_orders:
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
     tier: "A (QS 79)"
-    notes: "S143 UPDATE: UNBLOCKED. DOM.L + BYIT.L sold. Now 3 UK positions (MONY.L, IHP.L, AUTO.L). Would be 4th UK = acceptable. E[CAGR] 13.6% at trigger marginal for Tier A. Price ~968p, 1.9% from 950p trigger."
-    conditions: "UNBLOCKED S143. Previously 6th UK position, now would be 4th (DOM.L + BYIT.L sold)."
+    notes: "S151 UPDATE: AUTO.L also sold. Now 2 UK positions (MONY.L, IHP.L — MONY.L selling Mar 26). Would be 3rd UK = fine. DNLM.L 921p, BELOW 950p trigger. TRIGGERED. E[CAGR] 13.6% at 950p = marginal Tier A. At 921p E[CAGR] ~14.5%. FV 1008p. MoS 8.6%. Pre-flight needed before execution."
+    conditions: "TRIGGERED at 921p < 950p. 2 UK positions (3rd = acceptable). Pre-flight reverse DCF required."
     last_analysis_date: 2026-02-27
     expiry: 2026-06-01
 
@@ -59,7 +59,7 @@ standing_orders:
     fair_value: "$85 (R4 committee, was $88 R1 / $78 R3)"
     mos_at_trigger: "13.3%"
     tier: "B (QS 68)"
-    notes: "R4 APPROVED S143c6. Defense & Rearmament basket FIRST position. Committee FV $85 (split R1 $88 / R3 $78). Palantir threat: existential for advisory (~30-40% defense rev), manageable for embedded ops. Hegseth creates friction for NEW contracts but $38B backlog = 3-4yr runway. E[CAGR] 16-17% at $75. NOT a market buy at $82 (3.7% MoS insufficient). Conditions: (1) Execute at $75, (2) If Q4 FY2026 (May) shows defense +5% + civil bottoming → recalibrate to $78-80, (3) If Q4 shows defense declining → ARCHIVE."
+    notes: "S151 UPDATE: R1-R4 COMPLETE. R3 FV $78 (was $105 R1). DEPRIORITIZED — zero MoS at $77.52. Entry $55 requires -30%. QS adjusted 73→68 Tier B. DOGE 60% structural, Palantir existential for advisory. FROZEN — revisit May 2026 if Q4 shows civil bottoming. SO at $75 is essentially AT R3 FV = inadequate MoS for Tier B."
     kill_conditions: "KC#1 defense rev >10% decline 2Q, KC#2 book-to-bill <0.9x 2Q, KC#3 cleared workforce <18K, KC#4 DOGE cancellations >$2B, KC#5 dividend cut, KC#6 CEO departure, KC#7 Iran ceasefire + no supplemental + FY2027 budget <$1T"
     pre_execution_condition: "R4 CLEARED. Execute when price hits $75. Pre-flight reverse DCF before execution."
     last_analysis_date: 2026-03-07
@@ -113,9 +113,9 @@ standing_orders:
     fair_value: "$130 (R3 resolved. Bear $110 / Base $130 / Bull $165)"
     mos_at_trigger: "30.8%"
     tier: "A (QS 68tool/75adj)"
-    notes: "R4 APPROVED CONDITIONAL. #1 domain registrar 82M domains. FCF $1.58B (31.8%). ROTATION CANDIDATE: SELL FTNT (E[CAGR] 9.7%) → BUY GDDY (E[CAGR] 20.2%). Conditional on FTNT Investor Day Mon Mar 10 being BEAR. Alternative: SO $85-90 passive entry. 12 KCs incl CEO insider selling RED FLAG."
+    notes: "S151 UPDATE: FTNT Investor Day was NEUTRAL (not BEAR). Rotation condition NOT met. GDDY SO $90 remains as passive entry. At $90.21 = essentially AT trigger. E[CAGR] ~20% at $90. R4 APPROVED. BUT: no cash to deploy (3.5% = EUR 370 only). Would need MONY.L rotation capital (~Mar 26) or trim. 12 KCs incl CEO insider selling RED FLAG."
     kill_conditions: "KC1-7 (R1): FCF margin <25% 2Q, domain renewal <80%, A&C rev negative, leverage >3.5x, Starboard exits, abandons $1.8B FCF guide, data breach. KC8-12 (DA): CEO/CFO net selling accumulated shares, Airo paid sub share <30%, R&D/Rev <15%, ND/EBITDA >3.0x, GDDY domain renewal declines."
-    pre_execution_condition: "CONDITIONAL: (1) If FTNT Investor Day BEAR → SELL FTNT → BUY GDDY at market (~$92-95). (2) If FTNT BULL → SO $85-90 passive entry. (3) MONY.L rotation also viable if E[CAGR] replacement >15%."
+    pre_execution_condition: "S151: FTNT Investor Day was NEUTRAL. Rotation NOT triggered. SO $90 passive entry only. Capital source: MONY.L post ex-div ~Mar 26 (EUR 888). If GDDY still ≤$90 then → deploy MONY.L capital into GDDY."
     last_analysis_date: 2026-03-08
     expiry: 2026-09-01
 
