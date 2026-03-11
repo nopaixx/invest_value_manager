@@ -1,38 +1,41 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-08
+> Ultima actualizacion: 2026-03-11
 
-**CAMBIOS CRITICOS desde ultimo update (7-mar):**
-- **CRITICAL: HORMUZ STILL CLOSED. Oil $90.90, VIX 29.49.** War entering Week 2. No ceasefire. CPI Tuesday will reflect oil spike. FOMC Mar 18 = HOLD certain, rate cuts off table H1 2026.
-- **MATERIAL: PORTFOLIO 10 POSITIONS, EUR 370 CASH (3.5%).** Fully deployed. S143-S150: sold GL, DTE.DE, DOM.L, BYIT.L, LULU, MORN, RACE.MI, AUTO.L. Capital recycled to ADDs + new entries (TW, WKL.AS). Blended E[CAGR] 17.4%.
-- **MATERIAL: S&P 500 at 6,740** (-3.7% from 52wH). VIX 29.49 approaching 30 panic threshold. Gold $5,159 (+73% YoY). 10Y yield 4.13% (inflation fears). DXY 98.86 weakening.
-- **MATERIAL: GDDY R4 APPROVED** — rotation from FTNT if Investor Day BEAR Mon. E[CAGR] 20.2% vs FTNT 9.7%.
-- **MATERIAL: THIS WEEK BINARY EVENTS** — FTNT Investor Day Mon (3PM PT), ADBE Q1 earnings Wed (after close), CPI Tue. FOMC Mar 17-18 next week. FOUR.L FY2025 results Mar 18 (hard gate for entry).
+**CAMBIOS MATERIALES desde ultimo update (8-mar):**
+- **MATERIAL: OIL DROPPED $91 to $85 -- NOT DE-ESCALATION.** Chris Wright (Energy Sec) false tweet about US Navy Hormuz escort caused 19% intraday flash crash to $77 on Mar 10, then recovered to $89 close. Today at $85.24. Hormuz now TWO-TIER: Iran allows Chinese ships only, West still blocked. France + allies "preparing mission to reopen." Oil volatility EXTREME but fundamentally still $85-90 range.
+- **MATERIAL: WAR DAY 11, NO CEASEFIRE.** Iran FM Araghchi rejects ceasefire ("continue fighting as long as necessary"). Trump says "hasn't won enough." Death toll 1,255+ Iran. US struck 5,000+ targets. China/Russia/France contacted Iran re ceasefire but no progress.
+- **MATERIAL: VIX EASED 29.5 to 25.5.** Still elevated (+71.7% 3mo) but below panic zone. S&P recovered to 6,781 (-3.2% from 52wH vs -3.7% on Mar 8). Market tentatively pricing partial normalization.
+- **MATERIAL: CPI FEB DUE TODAY (Mar 11).** Consensus 2.4% YoY headline, 2.5% core. Pre-oil-shock data (captures through mid-Feb). Will NOT reflect oil spike. Mar/Apr CPI will show the damage.
+- **MATERIAL: CVNA SHORT OPENED (Mar 11).** First short in portfolio history. 0.31 shares @ $318.77, 0.8% sizing. CVNA SHORT THESIS: EBITDA inflation via DTA, PIK-to-cash transition, 62x adj P/E. Catalyst: Q1 earnings ~May 6.
+- **MATERIAL: FOMC Mar 18 with dot plot.** 92%+ hold probability. But this is FIRST meeting where projections incorporate oil shock + tariffs. Dot plot shift (1 cut vs 0 vs 2) will move markets significantly.
+- **PORTFOLIO: 10 longs + 1 short, EUR 370 cash (3.5%).** ADBE earnings Wed Mar 12 = CRITICAL.
 
-**SECTOR IMPACT — Oil $91 / CPI Hot / Hormuz Crisis:**
+**SECTOR IMPACT -- Oil $85 / Hormuz Two-Tier / Crisis Stabilizing:**
 
 | Impact | Sectors | Portfolio Exposure | Action |
 |--------|---------|-------------------|--------|
-| **BENEFICIARY** | Energy, Defense, Cybersecurity, Gold miners | FTNT (7%, cyber beneficiary) | FTNT crisis premium partially offsetting low E[CAGR] |
-| **NEUTRAL** | Healthcare, B2B SaaS, Financial data, Payments | NVO, DOCS, WKL.AS, TW, HLNE, IHP.L | Asset-light models insulated from oil. Subscription revenue stable. |
-| **MILD NEGATIVE** | Consumer discretionary, SMB services, Travel | EDEN.PA, MONY.L, GDDY (pipeline) | Oil tax on consumers = less discretionary spend 60-90 days out |
+| **BENEFICIARY** | Energy, Defense, Cybersecurity, Gold miners | FTNT (7.3%, cyber beneficiary) | FTNT crisis premium still active |
+| **NEUTRAL** | Healthcare, B2B SaaS, Financial data, Payments | NVO, DOCS, WKL.AS, TW, HLNE, IHP.L | Asset-light models insulated. Subscription revenue stable. |
+| **MILD NEGATIVE** | Consumer discretionary, SMB services, Travel | EDEN.PA (18.7%), MONY.L (7.2%) | Oil tax on consumers = less discretionary spend 60-90 days out |
 | **SEVERE NEGATIVE** | Airlines, autos, logistics, chemicals, retail | None held | Avoid new positions here |
+| **SHORT BENEFICIARY** | Used cars (oil cost + rate sensitivity) | CVNA SHORT (0.8%) | Higher gas costs + persistent rates hurt CVNA demand |
 
-**KEY OBSERVATION:** Our portfolio is 80%+ in NEUTRAL sectors (B2B SaaS, healthcare, financial infrastructure, asset management). The 2 MILD NEGATIVE positions (EDEN.PA 18.4%, MONY.L 7.3%) are not oil-dependent — impact is second-order via consumer spending. EDEN.PA's meal voucher business is actually COUNTER-CYCLICAL (more employees eat at work when cutting expenses).
+**KEY OBSERVATION:** Oil at $85 vs $91 is a MEANINGFUL easing for our consumer-exposed positions (EDEN.PA, MONY.L). Portfolio remains 80%+ in NEUTRAL sectors. CVNA short BENEFITS from sustained oil -- higher gas costs hurt used car demand at margins.
 
 ## Resumen Ejecutivo
 
-1. **IRAN WAR ENTERS SECOND WEEK -- WORSE THAN EXPECTED.** The conflict has ESCALATED since our Mar 2 assessment, not moderated. Oil broke $90 WTI (our "crisis deepens" threshold), the US sunk an Iranian frigate in the Indian Ocean (first US warship sinking since WWII), death toll exceeds 1,000 in Iran, and Trump is demanding unconditional surrender. Diplomatic feelers exist (Araghchi-Oman channel) but Iran simultaneously says it is "not asking for ceasefire." The baseline scenario has shifted from "extended conflict 2-4 weeks" to "prolonged war with uncertain endpoint" -- Trump himself suggested "4-5 weeks." Hormuz remains at near-total halt.
+1. **IRAN WAR DAY 11 -- STALEMATE WITH EXTREME OIL VOLATILITY.** The conflict has NOT de-escalated. Iran rejects ceasefire, Trump demands more. But the situation has STABILIZED somewhat: no new major escalation events since IRIS Dena (Mar 4), VIX eased from 29.5 to 25.5, S&P recovered modestly. The oil flash crash on Mar 10 (Chris Wright false tweet, -19% intraday) revealed how FRAGILE the oil premium is -- one credible Hormuz-reopening headline can crash oil $15-20 in minutes. This is textbook binary risk.
 
-2. **Ciclo economico US: Mid-cycle under SEVERE STRESS -- OIL >$90 TRIGGER HIT.** Oil at $92 WTI is ABOVE the $90 threshold that historically precedes recessions. The stagflationary scenario we flagged is NOW ACTIVE, not theoretical. CPI will start reflecting oil spike in Mar/Apr prints. Fed FOMC Mar 18 = certain HOLD but language will be critical. Rate cuts effectively OFF THE TABLE for H1 2026. 10Y yield rising to 4.12% signals bond market pricing inflation risk, NOT safe-haven flows.
+2. **Hormuz enters TWO-TIER regime.** Iran allows Chinese-flagged vessels; blocks Western shipping. Iran shipping ~1.22M bpd to China (down from pre-war levels). France + allies preparing mission to reopen. This is a STRUCTURAL CHANGE from "total closure" -- partial flow exists, but Western oil supply still severely disrupted. Oil pricing reflects this partial-but-incomplete blockade.
 
-3. **Portfolio FULLY DEPLOYED (96.5% invested, EUR 370 cash).** 10 positions, avg QS ~78. S143-S150 restructuring: sold 8 positions (GL, DTE.DE, DOM.L, BYIT.L, LULU, MORN, RACE.MI, AUTO.L), recycled into ADDs and 2 new entries (TW, WKL.AS). Portfolio P&L +0.5%. EDEN.PA largest at 18.4%, fully deployed posture means no crisis buffer — quality + diversification IS the hedge.
+3. **Oil at $85 vs $91 = meaningful difference for macro.** $85 is BELOW our $90 recession-trigger threshold. If oil stabilizes $80-90, stagflation risk remains elevated but recession is NOT certain. The difference between $85 and $92 is enormous for consumer spending, CPI trajectory, and Fed calculus. The Mar 10 flash crash showed the market believes oil SHOULD be lower if Hormuz partially reopens.
 
-4. **Mixed diplomatic signals create BINARY risk.** Araghchi's "open to de-escalation" via Oman is a tentative off-ramp. BUT Iran simultaneously threatens to "avenge IRIS Dena" and IRGC struck a US tanker. Trump says "too late." If diplomacy catches fire, oil drops $20-30 fast and equities V-recover. If it fails, we head toward $100+ oil and recession. The market is pricing the middle -- our job is to be prepared for BOTH tails.
+4. **CPI Feb (today) will be benign -- the REAL test is Mar/Apr CPI.** Consensus 2.4% YoY. This is PRE-oil data. The market knows this. The reaction will be muted unless there is a major surprise. The REAL inflation test comes in April (Mar CPI) when oil spike flows through.
 
-5. **FULLY DEPLOYED (96.5%).** Portfolio restructured S143-S150 from 15→10 positions. EUR 370 cash. Next capital release: MONY.L sell after ex-div Mar 26 (~EUR 888). Rotation lever active, not deployment.
+5. **FOMC Mar 18 = CRITICAL for rate trajectory.** First projections incorporating oil shock + tariffs. Dot plot is the key: if median shifts from 1 cut to 0 cuts for 2026, rate-sensitive assets suffer. If 2 cuts (oil seen as transitory), massive relief rally. Powell press conference language on "transitory vs structural" oil inflation will be the most important communication since Jackson Hole.
 
-6. **Tariffs OVERSHADOWED by war** but still relevant. EU-US relationship strained. Tariff escalation adds second inflationary impulse ON TOP of oil spike.
+6. **Portfolio positioned well for BOTH tails.** 80%+ oil-neutral. CVNA short benefits from sustained elevated oil/rates. ADBE earnings Wed = most consequential position event this week.
 
 ---
 
@@ -42,285 +45,265 @@
 
 **Politica Monetaria**:
 - **Fed mantiene tipos en 3.50-3.75%** (FOMC 28-ene, votacion 10-2)
-- **Proxima reunion: 18 marzo 2026** - Hold CERTAIN. Statement language on oil/inflation crucial
-- **Rate cuts effectively OFF TABLE for H1 2026.** Oil at $90+ makes any cut impossible. Market now pricing first cut Q4 2026 at earliest
-- **Powell term expira 15 mayo 2026** - Succession uncertainty compounded by active war + stagflation management
-- **STAGFLATION SCENARIO NOW ACTIVE**: Oil $92 WTI is the trigger level. CPI will reflect this in Mar/Apr prints. Fed trapped: economy weakening + inflation rising = no good options. Hold is the only credible path.
+- **Proxima reunion: 17-18 marzo 2026** -- HOLD 92%+ probability. **DOT PLOT + PROJECTIONS = CRITICAL.** First to incorporate oil shock + tariffs
+- **Rate cuts likely OFF TABLE for H1 2026.** Oil at $85 (vs $92 last week) reduces urgency slightly but still inflationary. Market pricing first cut Q4 2026
+- **Powell term expira 15 mayo 2026** -- Succession uncertainty during active war + stagflation management
+- **STAGFLATION SCENARIO**: Oil at $85 is BELOW the $90 recession trigger, but only marginally. If oil drifts back to $90+ (which it could on any escalation headline), the trigger re-activates. The scenario is LATENT, not active at $85.
 
 **Empleo**:
 - **Jan 2026 NFP: +130,000** (vs 55K consenso, fuerte sorpresa positiva)
 - **Unemployment: 4.3%** (vs 4.4% esperado, mejora)
-- Pre-crisis: labor market resiliente pero desacelerando
-- **Post-crisis risk NOW ELEVATED**: Oil at $90+ = meaningful tax on consumers. Discretionary spending contraction EXPECTED within 60-90 days. Energy-sensitive sector layoffs possible if sustained
+- **Post-crisis risk ELEVATED but not acute**: Oil at $85 (vs $92) gives consumers slightly more breathing room. Discretionary spending contraction still expected within 60-90 days but less severe than at $92
 
 **Inflacion**:
 - **CPI Jan 2026: +2.4% YoY (headline), +2.5% YoY (core)** -- was trending favorably
-- **OIL SHOCK NOW AT $92 WTI** (was $62 three weeks ago, +48.4%). This WILL flow through to gasoline, transport, food costs within 30-60 days
-- **CPI Feb 2026 (due Mar 12)**: Will NOT yet fully reflect oil spike (captures through mid-Feb). Mar/Apr CPI will show the damage
-- PCE ~3%, already above 2% target. Oil shock could push toward 3.5-4.0%+
+- **CPI Feb 2026 (TODAY Mar 11)**: Consensus 2.4% YoY headline, 2.5% core. Pre-oil-shock data. Will NOT reflect oil spike
+- **OIL NOW AT $85 WTI** (down from $92 peak). If sustained at $85, CPI Mar/Apr likely 2.7-3.0%. If oil returns to $90+, CPI trajectory worsens to 3.0-3.5%+
 - Tariffs (15% EU surcharge) add second inflationary impulse
-- **Inflation trajectory: REACCELERATING.** Not a risk -- it is happening.
+- **Inflation trajectory: ELEVATED but oil pullback provides some relief vs Mar 8 assessment**
 
 **Crecimiento**:
 - Q4 2025 GDP: ~2.2% (desaceleracion from Q3 +4.4%)
 - Proyeccion 2026 PRE-CRISIS: ~2-2.3%
-- **Post-crisis (UPDATED)**: With oil >$90 and Hormuz closed 7+ days, GDP projection drops to 0.8-1.2% for 2026. Recession probability ELEVATED.
-- **Recession probability REVISED UP**: Now 40-55% (was 30-35% on Mar 2). Oil >$80 for 3+ months has historically preceded US recessions (1979, 1990, 2007). We are at $92 now.
-- Consumer "bottom half" already in recession. Oil shock hits discretionary spending hardest
+- **Post-crisis (UPDATED)**: With oil at $85 (vs $92), GDP projection IMPROVES SLIGHTLY to 1.0-1.5% for 2026 (was 0.8-1.2%)
+- **Recession probability REVISED DOWN slightly**: Now 35-45% (was 40-55% on Mar 8). $85 oil is below historical recession trigger. But if oil returns >$90 for sustained period, probability re-escalates
+- Consumer "bottom half" still under pressure. Oil shock hit is real but less severe at $85
 
-**Mercados (7-mar-2026, macro_fragility.py)**:
-- **S&P 500: ~6,740** (down from 7,002 52wH, -3.7%. Continued selling. Down from 6,752 on Mar 6)
-- **VIX: 29.49** (UP SHARPLY from 26.92 on Mar 6. +91.4% 3-month change. Was 13.38 at 52wL. ELEVATED — approaching panic zone. 52wH was 60.13)
-- **DXY: 98.86** (stable)
-- **Gold: $5,181** (RECOVERING from $5,144 on Mar 6. Back up from profit-taking dip. +76.3% YoY)
-- **Oil WTI: $91.27** (slightly down from $92.12 peak. Still near 52wH $92.61. +51.9% 3-month change)
-- **US 10Y Yield: 4.13%** (stable at elevated level. Inflation fears dominant. 2Y-10Y spread +0.65%)
-- **US 2Y Yield: 3.48%** (unchanged — front end anchored by Fed hold expectations)
-- **Credit spreads**: HYG/LQD ratio 0.7234 (slight widening continues). Monitor for acceleration
+**Mercados (11-mar-2026, macro_fragility.py)**:
+- **S&P 500: 6,781** (recovered from 6,740 on Mar 8. -3.2% from 52wH 7,002)
+- **VIX: 25.50** (DOWN from 29.49 on Mar 8. Still elevated +71.7% 3mo. Below 30 panic zone)
+- **DXY: 98.98** (stable, essentially unchanged)
+- **Gold: $5,188** (stable near ATH $5,586. +73.3% YoY. Safe-haven bid intact but not panicking)
+- **Oil WTI: $85.24** (DOWN from $91.27 on Mar 8. -28.7% from 52wH $119.48. Flash crashed to $77 on Mar 10 on false Wright tweet, recovered $89)
+- **US 10Y Yield: 4.14%** (stable. No change from Mar 8.)
+- **US 2Y Yield: 3.37%** (down from 3.48%. 2Y-10Y spread WIDENED to +0.76% from +0.65%. Curve steepening = growth concerns)
+- **Credit spreads**: HYG/LQD ratio 0.7272 (slightly wider than 0.7234 on Mar 8. Mild credit stress, not accelerating)
 
-**Impacto Inversion**: **OIL >$90 TRIGGER HIT -- CRISIS DEEPENS PLAYBOOK ACTIVE.** This means: (1) evaluate rotation from weakest cyclicals, (2) watch for quality compounders at distressed valuations, (3) FTNT/cybersecurity benefits from conflict, (4) cash buffer is proving its value. However: do NOT panic-sell quality. The $90 level may be temporary if diplomacy succeeds. React to data, not fear -- but prepare for sustained elevated oil.
+**Impacto Inversion**: **OIL PULLBACK FROM $91 to $85 = MODESTLY POSITIVE.** Below our $90 recession trigger. Reduces pressure on consumer-facing positions (EDEN.PA, MONY.L). But Hormuz still not open to West -- any escalation headline sends oil right back to $90+. Do NOT interpret this as "crisis over." This is a BREATHING ROOM in the crisis, not resolution. The Chris Wright flash crash showed oil can drop $15 in minutes on credible reopening news -- and recover $12 just as fast when denied.
 
 ### Europa
 
 **Politica Monetaria**:
 - **BCE mantiene deposit rate 2.00%** - Fifth consecutive hold (Feb 5 decision)
-- **Proxima reunion: 18-19 marzo 2026** (12 days away)
-- **Post-crisis UPDATE**: ECB faces WORSE dilemma than on Mar 2. Oil at $92 WTI (Brent likely $95-100) will push EZ headline inflation from 1.7% back toward 2.5-3.0%. Economy already fragile. Stagflation trap deepening.
-- **BofA expects final 25bp cut in March** but this was PRE-oil-surge analysis. Oil at $92+ may force ECB to HOLD
-- **EUR/USD at ~1.18** (stable). Could weaken if ECB perceived as more dovish than Fed
+- **Proxima reunion: 18-19 marzo 2026** (7 days away)
+- **Post-crisis UPDATE**: Oil pullback to $85 from $92 gives ECB SLIGHTLY more room. But Brent still elevated (~$88-93 estimated). Economy fragile. Stagflation trap continues
+- **ECB March decision**: 25bp cut possible again with oil easing. Watch closely -- if ECB cuts while Fed holds, EUR could weaken (negative for our EUR positions at margins, but earnings in EUR)
 
 **Crecimiento**:
 - Proyeccion 2026 PRE-CRISIS: 1.2% (EC)
-- **Post-crisis risk WORSE**: Brent likely at $95-100 given WTI $92. EU as net energy importer hit harder than US. Growth could stall to 0.3-0.6%
-- **Alemania fiscal stimulus**: EUR120B package in play but energy cost shock complicates execution
-- **Defensa EU**: Iran crisis + ongoing Ukraine = defense spending urgency INCREASING. NATO 3%+ spending trajectory
+- **Post-crisis**: Brent easing helps EU (net energy importer). Growth estimate IMPROVES SLIGHTLY to 0.5-0.8% (was 0.3-0.6%)
+- **Alemania fiscal stimulus**: EUR120B package in play. Energy cost shock less severe at $85 oil
+- **Defensa EU**: Iran crisis + Ukraine = defense spending urgency INCREASING. France leading Hormuz reopening mission. NATO 3%+ spending trajectory
 
-**Impacto Inversion**: EU equities under pressure from oil dependency. Our EU positions: EDEN.PA (domestic services 18.4%, low energy sensitivity, SAFE), WKL.AS (subscriptions 7.6%, very low oil sensitivity). EUR strength helps EUR-denominated positions (26% of portfolio).
+**Impacto Inversion**: Oil pullback is POSITIVE for EU equities. Our EU positions: EDEN.PA (domestic services 18.7%, low energy sensitivity, SAFE), WKL.AS (subscriptions 7.5%, very low oil sensitivity). EUR strength helps EUR-denominated positions (26.2% of portfolio). ECB cut possibility = positive for growth.
 
 ### Reino Unido
 
 **Politica Monetaria**:
 - **BoE mantiene Bank Rate 3.75%** (feb 2026, votacion 5-4)
-- **Proxima reunion: 20 marzo 2026** (14 days away)
-- **Post-crisis UPDATE**: Oil at $92 WTI makes BoE cut in March VERY UNLIKELY. Inflation re-acceleration from energy costs. Vote likely shifts to hold. ING still expects 2 cuts in 2026 total (to 3.25%) but timing pushed back
+- **Proxima reunion: 20 marzo 2026** (9 days away)
+- **Post-crisis UPDATE**: Oil pullback to $85 from $92 makes BoE cut in March slightly MORE LIKELY. Still uncertain. UK inflation re-acceleration from energy costs is the constraint
 
 **Economia**:
-- GDP growth 1.4% forecast already weak. Oil shock = DOWNGRADE to 0.5-0.8%
-- **Consumer spending under TRIPLE pressure**: Weak disposable income + oil spike + tariff uncertainty
-- **GBP risk**: Oil shock weakening GBP (net energy importer). Our 2 UK positions (MONY.L 7.3%, IHP.L 11.4% = ~19% portfolio) have GBP earnings
+- GDP growth forecast: 0.8-1.2% (oil at $85 slightly better than at $92)
+- **Consumer spending**: Still under pressure but less acute than at $92 oil
+- **GBP**: Modest strengthening on lower oil (UK net energy importer). Good for our GBP earnings
 
-**Impacto Inversion**: UK economy remains weakest link. Oil at $91 makes it WORSE. Our UK positions: MONY.L (7.3%, yield anchor, SELL after ex-div Mar 26), IHP.L (11.4%, platform structural, low oil sensitivity). BoE decision Mar 19 = key.
+**Impacto Inversion**: UK outlook SLIGHTLY IMPROVED from Mar 8. Our UK positions: MONY.L (7.2%, yield anchor, SELL after ex-div Mar 26), IHP.L (11.4%, platform structural). BoE decision Mar 20 = key.
 
 ### China
 
 - **Crecimiento proyectado 4.5-4.8% en 2026** (Goldman 4.8%)
-- **China in talks with Iran** to allow safe oil/gas passage through Hormuz (Jerusalem Post). China is Iran's largest oil buyer and seeking preferential treatment
-- **Tariffs US-China: 10%** (deal extendido a Nov 2026)
-- **Impacto**: Limited direct exposure. If China-Iran deal secures Hormuz passage for Chinese vessels, it creates two-tier shipping that disadvantages Western importers more
+- **China IS shipping through Hormuz.** Iran allowing Chinese-flagged vessels. ~1.22M bpd (down from pre-war). Bulk carrier "Iron Maiden" (Chinese-operated) transited Mar 5
+- **Two-tier Hormuz**: China gets preferential access. Western allies blocked. This creates STRUCTURAL advantage for Chinese energy costs vs European competitors
+- **Tariffs US-China: 10%** (deal extended to Nov 2026)
+- **Impacto**: Two-tier Hormuz disadvantages European companies more than Chinese. Our EU positions (EDEN.PA, WKL.AS) are domestic-focused, not energy-intensive -- minimal direct impact
 
 ### Japon y Otros
 
-- Japon: BoJ managing yen. Oil shock = imported inflation pressure. Japan heavily dependent on Gulf oil
-- India: IRIS Dena sunk 40nm off Sri Lanka -- diplomatic incident with India. Energy-dependent. Oil shock hits growth
-- Gulf states: UAE, Saudi rebuilding from missile damage. Aramco Ras Tanura contained. Gulf exchanges reopened but volatile
+- Japon: BoJ managing yen. Oil pullback to $85 provides relief (Japan heavily dependent on Gulf oil)
+- India: IRIS Dena diplomatic fallout ongoing. Energy-dependent. Oil pullback helps
+- Gulf states: Rebuilding from missile damage. Gulf exchanges stabilizing
 
 ---
 
 ## Geopolitica
 
-### 1. IRAN-US: ACTIVE WAR -- DAY 7 (CRITICAL -- #1 RISK)
+### 1. IRAN-US: ACTIVE WAR -- DAY 11 (CRITICAL -- #1 RISK)
 
-**STATUS: WAR ESCALATING, TENTATIVE DIPLOMATIC FEELERS**
+**STATUS: STALEMATE. NO CEASEFIRE. EXTREME OIL VOLATILITY.**
 
-Previous assessment (2-mar): "Baseline: Extended conflict 2-4 weeks, Hormuz closed."
-**UPDATE: Situation has ESCALATED beyond Mar 2 baseline.** Oil broke $90, US sinking Iranian Navy vessels in Indian Ocean, death toll 1,000+. But diplomatic channels emerging (Oman mediation).
+Previous assessment (8-mar): "War escalating. Oil $91. Hormuz near-total halt."
+**UPDATE (11-mar): Situation has STABILIZED but NOT de-escalated.** No new major escalation events since IRIS Dena. Oil pulled back $91 to $85 on false Chris Wright tweet volatility + partial Hormuz flow (China only). But Iran rejects ceasefire and US demands "more victory." War continues with intense Tehran bombardment.
 
-**What happened (Mar 2-6, 2026):**
+**What happened (Mar 7-11, 2026):**
 
-**Day 4-5 (Mar 3-4):**
-- 6 US soldiers killed in Iranian drone strike on Kuwait base
-- Death toll in Iran reaches 1,000+ (Al Jazeera tracker)
-- **IRIS Dena (Iranian frigate) TORPEDOED by US submarine** off Sri Lanka (Mar 4). 87 killed, 61 missing, 32 rescued. First US warship sinking since WWII. The Dena was returning from Indian naval exercise -- controversial attack in international waters
-- CENTCOM Adm. Brad Cooper: "sinking the Iranian Navy -- the entire Navy. Not a single Iranian ship underway in Arabian Gulf, Strait of Hormuz or Gulf of Oman"
-- IRGC struck a US oil tanker in northern Persian Gulf (state media)
-- Israel strikes Lebanon -- 31 killed, Hezbollah front ACTIVE
+**Day 8-10 (Mar 7-9):**
+- Brent broke $100 per barrel on Mar 8 (first time in 4 years), peaked near $126 before settling
+- Iran formalized TWO-TIER Hormuz: Chinese ships allowed, Western ships blocked (IRGC announcement Mar 5, confirmed Mar 8)
+- Tehran experiencing "most intense bombardments" overnight (CNN, Day 10 summary)
+- Trump: US struck 5,000+ targets, claims destruction of Iran's navy, air force, 80-90% of missile launchers
+- Iran death toll surpasses 1,255 with ~10,000 injured
 
-**Day 5-6 (Mar 5-6):**
-- Trump says Iran reached out to CIA for talks but "it's too late"
-- Trump demands unconditional surrender. Campaign could last "4-5 weeks"
-- House REJECTS war powers resolution to rein in Trump on Iran (Mar 5)
-- Araghchi tells Oman FM Iran "open to de-escalation" -- BUT also publicly said "not asking for ceasefire"
-- Iran FM: "US will come to bitterly regret this precedent" (re: IRIS Dena)
-- Hormuz at NEAR-TOTAL HALT: only 2 commercial transits in 24h (JMIC/Bloomberg)
-- ~3,200 ships idle in Gulf (Clarksons, though ~1,230 normally only operate within Gulf)
-- Trump announces US will offer insurance to ships + military escort through Hormuz
-- Maritime insurers CANCEL war risk cover in Gulf
+**Day 10-11 (Mar 10-11):**
+- **OIL FLASH CRASH Mar 10**: Energy Secretary Chris Wright posted on X that "US Navy successfully escorted an oil tanker through Hormuz." WTI crashed 19% to $77. White House DENIED the claim. Post deleted. DOE blamed "incorrectly captioned video." Oil recovered to $89 by close. TODAY at $85
+- **France + allies preparing Hormuz reopening mission** (Macron announcement Day 11)
+- **Trump threatened to INTENSIFY attacks if Iran halts oil shipments** -- contradictory signal (wants Hormuz open but war continues)
+- **Iran FM Araghchi: "continue fighting as long as necessary"** -- rejects ceasefire calls from China/Russia/France
+- **Iran top official warns: "prepared for a long war"** (exclusive CNN interview)
 
 **Escalation scenarios (UPDATED probability-weighted):**
 | Scenario | Probability | Oil Impact | Market Impact |
 |----------|------------|------------|---------------|
-| Quick ceasefire/de-escalation (<2 weeks total) | 10-15% (was 10-15%) | WTI falls to $70-75 | V-shaped recovery |
-| Extended war 4-5 weeks as Trump suggests, Hormuz disrupted | 45-55% (was 40-50%) | WTI $90-110 | -5 to -10% equities, stagflation |
-| Regional escalation (Hezbollah active, wider proxy war) | 20-25% (was 20-25%) | WTI $110-130+ | -10 to -20% equities, recession |
-| Quick US victory, Iranian regime collapses | 10-15% (was 15-20%) | WTI drops to $65-70 | Strong recovery |
+| Ceasefire in 1-2 weeks (international pressure succeeds) | 15-20% (UP from 10-15%) | WTI drops to $65-75 | V-shaped recovery, +5-10% equities |
+| Extended war 3-4 more weeks, partial Hormuz reopening | 40-50% (was 45-55%) | WTI $80-95 | -3 to -7% equities, mild stagflation |
+| Regional escalation (Hezbollah, wider proxy war) | 15-20% (was 20-25%) | WTI $100-130+ | -10 to -20% equities, recession |
+| Quick US victory, Iranian regime collapses | 10-15% (unchanged) | WTI drops to $65-70 | Strong recovery |
+| Prolonged war 2-3 months, Hormuz contested | 10-15% (NEW) | WTI $90-110 sustained | Recession likely |
 
-**BASELINE SCENARIO (45-55%): Extended war ~4-5 weeks. Hormuz partially disrupted (US escort attempts, sporadic attacks). Oil $90-110.** This is WORSE than our Mar 2 baseline.
+**KEY CHANGE IN BASELINE**: The Chris Wright incident + two-tier Hormuz + France mission suggest the MARKET and GOVERNMENTS are actively working toward partial Hormuz reopening. This lowers the baseline oil scenario from $90-110 to $80-95. But the war itself shows no signs of ending. The ceasefire probability has SLIGHTLY INCREASED (15-20% vs 10-15%) because: (a) multiple countries now mediating (China, Russia, France, Oman), (b) Iran starting to signal flexibility through diplomatic channels even while publicly defiant, (c) France leading military mission to reopen Hormuz -- creates pressure on Iran.
 
-**De-escalation signals (NEW):**
-- Araghchi-Oman channel suggests Iran's civilian government wants off-ramp
-- But IRGC (military) continuing strikes independently
-- US position hardening ("too late," unconditional surrender)
-- Oman mediating actively (same FM who mediated pre-war talks)
-- Key question: can civilian Iran leaders override IRGC?
-- **Assessment**: De-escalation possible in 2-3 weeks but NOT imminent. Market should not price quick resolution.
+**BASELINE SCENARIO (40-50%): Extended war ~3-4 more weeks. Partial Hormuz reopening via international escort (France-led). Oil $80-95.** This is an IMPROVEMENT from Mar 8 baseline ($90-110).
 
 **Impacto Inversion:**
-- **DIRECT**: None of our 10 positions has Iran/Middle East revenue
-- **INDIRECT -- Oil/Inflation channel**: Oil at $91 NOW ACTIVE. CPI impact in 30-60 days. Rate cuts killed for H1. Consumer spending contraction expected
-- **INDIRECT -- Risk-off channel**: VIX 29.49 compressing multiples. S&P -3.7% from 52wH. Growth/tech hit: ADBE, FTNT, DOCS, HLNE
-- **INDIRECT -- IRIS Dena diplomatic risk**: Attack in international waters near India/Sri Lanka creates diplomatic complications
-- **HEDGE**: Fully deployed (3.5% cash). Quality + diversification is the hedge. 80%+ NEUTRAL sectors. Rotation lever via MONY.L (sell Mar 26)
+- **DIRECT**: None of our 10 long positions has Iran/Middle East revenue
+- **INDIRECT -- Oil/Inflation channel**: Oil at $85 vs $91 = MEANINGFUL improvement. Below $90 recession trigger. CPI Mar/Apr will be elevated but less severe
+- **INDIRECT -- Risk-off channel**: VIX eased to 25.5 (from 29.5). Equities modestly recovering. Still elevated but not panic
+- **CVNA SHORT**: BENEFITS from sustained elevated oil + rates. Higher gas costs hurt used car demand. Persistent rates hurt financing
+- **HEDGE**: Fully deployed (3.5% cash). CVNA short provides partial hedge. Quality + diversification is the primary hedge
 
 ### 2. Ukraine-Russia: COMPLETELY OVERSHADOWED BY IRAN
 
-**Situacion (6-mar-2026)**:
-- Round 4 Abu Dhabi: Status unclear. US diplomatic bandwidth consumed by Iran
-- Russia weighing halt to peace talks. US distraction = opportunity for Russia
-- **Probability of breakthrough**: Near-zero in near term
-- Risk of Russian escalation while US distracted = ELEVATED
-
-**Impacto Inversion**: Unchanged. Defense spending trend reinforced. No direct portfolio impact.
+**No change from Mar 8 assessment.** US diplomatic bandwidth fully consumed by Iran. Russia may exploit distraction.
 
 ### 3. Tariffs: OVERSHADOWED BUT STILL RELEVANT
 
-**No material change from Mar 2 assessment.** 15% EU surcharge in effect. Turnberry suspended. Direction remains "escalation." But all attention on Iran war. Tariff talks effectively frozen during active conflict.
-
-**Impacto Inversion**: Second-order inflationary impulse ON TOP of oil. Our positions have near-zero direct tariff exposure.
+**No material change.** 15% EU surcharge in effect. Frozen during Iran war. Second-order inflationary impulse.
 
 ### 4. Tension US-China: Taiwan
 
-- US-Taiwan trade deal vigente ($250B)
-- China seeking preferential Hormuz access via direct negotiations with Iran
-- **Probability of Taiwan move**: Still low (10-15%) but US military engagement in Middle East is exactly the scenario that could embolden
-- **NEW**: IRIS Dena incident near Sri Lanka signals US naval power projection in Indian Ocean -- this cuts BOTH ways for China deterrence
+- Two-tier Hormuz creates US-China friction point. China getting preferential energy access
+- US military stretched. But Trump threatened Iran directly over oil flow -- signals protecting global energy supply is priority
+- Probability of Taiwan move: Still low (10-15%)
 
-### Petroleo y Energia -- CRISIS INTENSIFYING
+### Petroleo y Energia -- VOLATILE BUT EASING
 
-**Precios (6-mar-2026, macro_fragility.py)**:
-- **WTI: $92.12** (was $72.86 on Mar 2. +26.4% in 4 days. +53.3% 3-month. Near 52wH)
-- **Brent: estimated $95-100** (based on typical WTI-Brent spread)
-- **Gold: $5,144** (DOWN from $5,411 peak. Profit-taking or partial de-escalation pricing)
+**Precios (11-mar-2026, macro_fragility.py)**:
+- **WTI: $85.24** (down from $91.27 on Mar 8. Flash crashed to $77 on Mar 10. 52wH $119.48)
+- **Brent: estimated $88-93** (based on WTI-Brent spread)
+- **Gold: $5,188** (stable near ATH. +73.3% YoY. Safe-haven bid sustained but not expanding)
 
-**Drivers -- CRISIS INTENSIFIED since Mar 2:**
-- **Hormuz at NEAR-TOTAL HALT**: Only 2 commercial transits in 24h (Bloomberg/JMIC). No oil tankers
-- **~3,200 ships idle** in Gulf area (Clarksons). ~200 compliant tankers stranded (Lloyd's List)
-- **US Navy "sinking entire Iranian Navy"** = escalation, not de-escalation of maritime domain
-- **IRGC struck US oil tanker** in Persian Gulf = direct attacks on energy infrastructure continue
-- **Maritime insurers CANCEL war risk cover** = even if Hormuz partially reopens, insurance costs make transit prohibitive
-- **Trump offering US government insurance + military escort** = suggests path to partial reopening but contested
-- **China negotiating separate access** with Iran = fragmented Hormuz regime, not full reopening
+**Drivers -- CRISIS EVOLVING (from closure to two-tier):**
+- **Hormuz TWO-TIER**: Iran allows Chinese ships. Western blocked. ~1.22M bpd flowing to China (vs 0 on Mar 6)
+- **Chris Wright false tweet (Mar 10)**: Proved oil has $15-20 downside on credible Hormuz reopening headline
+- **France + allies preparing military mission to reopen Hormuz** -- creates real possibility of Western escort within 1-2 weeks
+- **Insurance still cancelled** for Gulf war zone -- even with escorts, cost of transit elevated
+- **Trump threatened Iran over oil flow** -- complicates Iran's Hormuz blockade calculus
 
 **Price scenarios UPDATED:**
 | Duration of Hormuz Disruption | WTI Range | Brent Range |
 |-------------------------------|-----------|-------------|
-| Ceasefire <2 weeks (diplomacy works) | $70-80 | $75-85 |
-| Extended war 4-5 weeks, partial escorts | $85-105 | $90-110 |
-| Prolonged disruption 2-3 months | $100-120+ | $110-130+ |
-| Full regional war / permanent disruption | $120-150+ | $130-160+ |
+| Ceasefire or successful escort (1-2 weeks) | $65-80 | $70-85 |
+| Extended war, partial escorts successful | $78-92 | $82-97 |
+| Prolonged disruption 2-3 months | $95-115 | $100-120 |
+| Full regional war | $115-150+ | $120-160+ |
 
-**CURRENT SCENARIO**: Extended war with oil $90-110 range. Partial Hormuz reopening via US military escort possible in coming weeks but contested and expensive (insurance).
+**CURRENT SCENARIO**: Extended war with partial Hormuz flow (China + potential Western escort). Oil $78-92 range (IMPROVED from $90-110 on Mar 8).
 
 **Impacto Inversion**:
-- Oil at $92 = INFLATIONARY. Rate cuts dead for H1 2026. Gasoline/transport costs rising 30-60 days
-- If sustained >$90 for 3+ months: Recession probability 50%+. Our defensives (EDEN.PA, DOCS, WKL.AS) and subscription models outperform
-- No energy positions to benefit. This was a correct decision for quality portfolio but opportunity cost is real
-- **KEY MONITOR**: US military escort program. If successful, partial Hormuz reopening could cap oil at $85-90
+- Oil at $85 = ELEVATED but below recession trigger. Rate cuts still unlikely H1 but less impossible than at $92
+- If France-led escort succeeds: oil could drop to $75-80 even without ceasefire. VERY positive for equities
+- If new escalation (Hezbollah, second IRIS Dena): oil back above $90 quickly. Monitor hourly during events
+- CVNA short: sustained $80+ oil = headwind for used car demand (gas costs matter for lower-income buyers who are CVNA's customer base)
 
 ---
 
-## TEMA ESPECIAL: SaaSpocalypse -- UPDATE (OVERSHADOWED BY WAR)
+## TEMA ESPECIAL: SaaSpocalypse -- UPDATE
 
-### Status as of Mar 6
+### Status as of Mar 11
 
-- SaaSpocalypse narrative FULLY ECLIPSED by Iran war
-- Software selling off on GENERAL risk-off, NOT sector-specific AI disruption fears
-- ADBE at ~$257 (estimated, down from $262 on Mar 2). Iran risk-off not SaaS-specific
+- SaaSpocalypse narrative STILL ECLIPSED by Iran war
+- Software rebounding modestly with broader market (VIX 29.5 to 25.5)
+- **ADBE Q1 earnings TOMORROW (Wed Mar 12 after close)** -- CRITICAL test. Section 9 READY
 - Institutional underweight at 2021 levels = structural buying opportunity WHEN risk clears
-- **No change to thesis**: Quality SaaS with moats (ADBE) remains one of best risk/reward when macro normalizes
+- **No change to thesis**: Quality SaaS with moats (ADBE, DOCS, FTNT) remains best risk/reward when macro normalizes
 
 ---
 
-## Analisis Sectorial (Actualizado 6-Mar-2026)
+## Analisis Sectorial (Actualizado 11-Mar-2026)
 
 | Sector | Sentimiento | Valuacion | Macro Tailwinds/Headwinds | Nuestras Posiciones | Status |
 |--------|-------------|-----------|--------------------------|--------------------|----|
-| **Tech US (Quality)** | BEARISH (Iran risk-off) | Historicamente barata. ADBE, FTNT, DOCS at depressed multiples | Strong FCF + moats / Oil inflation, risk-off | ADBE (8.9%), FTNT (7.2%), DOCS (8.3%) | HOLD. War selloff = not thesis-specific. ADBE earnings Wed. FTNT Investor Day Mon. |
-| **Alt Asset Mgmt** | Neutral-CAUTELA | HLNE secular growth | PE fundraising recovery / AUM dip on selloff | HLNE (10.4%) | HOLD. Insider cluster buy $4.2M strongest signal. Ex-div Mar 20 |
-| **UK Adviser Platform** | Neutral-CAUTELA | IHP.L | Platform economics / AUM dip, UK economy weak | IHP.L (11.4%) | HOLD. AUM may dip but structural thesis intact |
-| **Financial Data EU** | Neutral | WKL.AS P/E ~20x | Sticky subscriptions / Receivables +23% flag | WKL.AS (7.6%) | HOLD. Moderate counter from DA. Receivables gate open |
-| **Electronic Trading** | Neutral | TW P/E ~30x | Electronification secular / RPM compression | TW (5.7%) | HOLD. Bottom tercile E[CAGR]. LSEG risk (KC#9) |
-| **Business Services EU** | Ignorado | EDEN.PA P/E ~9x (cheap) | Domestic France, pricing power / Minor oil headwind | EDEN.PA (18.4%) | HOLD. Largest position. SI 21.2% MONITORING. No ADD |
-| **Pharma/GLP-1** | DAMAGED | NVO P/E ~10x | Wegovy franchise / CagriSema FAILED | NVO (11.4%) | CAUTELA. HOLD. Wegovy pill launched Jan 2026. Oral ramp is catalyst |
-| **UK Insurance Comparison** | WEAK + OIL HEADWIND | MONY.L yield 7.3%+3% buyback | BoE cut delayed / Oil + weak consumer | MONY.L (7.3%) | FIRST ROTATION CANDIDATE. Yield anchor. Sell after ex-div Mar 26 |
-| **Cybersecurity** | FAVORABLE | FTNT | GEOPOLITICAL WAR = cybersecurity spending UP | FTNT (7.2%) | **FAVORABLE.** Investor Day Mon. If BEAR → rotate to GDDY |
-| **Defensa EU** | HOT -- surging | Expensive but crisis-justified | Iran + Ukraine + NATO 3%+ | No positions | WATCH. SAF.PA in pipeline (FV EUR 260, entry EUR 235, 26% away) |
-| **Energy** | SURGING | Rally continues, WTI $91 | Iran/Hormuz = massive tailwind | No positions | MISSED. Correct for quality portfolio |
-| **Auto EU** | Muy odiado | Muy barata | Fiscal aleman / Tariffs + oil + weak demand | No positions | AVOID. Oil shock adds cost pressure |
-| **Bancos EU** | Rolling over | Pulling back | Oil = credit risk | No positions | AVOID. Crisis risk |
+| **Tech US (Quality)** | RECOVERING (VIX easing) | Still depressed. ADBE, FTNT, DOCS below FV | Strong FCF + moats / Oil inflation easing slightly | ADBE (8.7%), FTNT (7.3%), DOCS (8.2%) | HOLD. **ADBE earnings Wed = CRITICAL.** FTNT Investor Day was Mon. |
+| **Alt Asset Mgmt** | Neutral | HLNE secular growth | PE fundraising recovery / AUM dip on selloff | HLNE (10.2%) | HOLD. Highest QS. Ex-div Mar 20 |
+| **UK Adviser Platform** | Neutral | IHP.L | Platform economics / AUM recovering slightly | IHP.L (11.4%) | HOLD. Platform structural thesis intact |
+| **Financial Data EU** | Neutral | WKL.AS P/E ~20x | Sticky subscriptions / Receivables flag | WKL.AS (7.5%) | HOLD. Oil pullback helps EU sentiment |
+| **Electronic Trading** | Neutral-FAVORABLE | TW | Volatility = HIGHER trading volumes | TW (5.8%) | HOLD. Volatility actually HELPS TW (more bond trading) |
+| **Business Services EU** | Ignorado | EDEN.PA P/E ~9x (cheap) | Domestic France, pricing power / Oil easing | EDEN.PA (18.7%) | HOLD. SI 21.2% MONITORING. Oil pullback modestly positive |
+| **Pharma/GLP-1** | DAMAGED | NVO P/E ~10x | Wegovy franchise / CagriSema FAILED | NVO (11.6%) | CAUTELA. HOLD. Wegovy pill ramp. Q1 ~May catalyst |
+| **UK Insurance Comparison** | WEAK | MONY.L yield 7.3%+3% buyback | BoE cut more likely / Oil easing | MONY.L (7.2%) | FIRST ROTATION CANDIDATE. Yield anchor. Sell after ex-div Mar 26 |
+| **Cybersecurity** | FAVORABLE | FTNT | War = cybersecurity spending UP | FTNT (7.3%) | **FAVORABLE.** Crisis premium active |
+| **Used Cars (SHORT)** | NEGATIVE | CVNA 62x adj P/E | Oil + rates hurt demand. EBITDA inflation | CVNA SHORT (0.8%) | SHORT OPEN. Catalyst Q1 earnings ~May 6 |
+| **Defensa EU** | HOT | Expensive but crisis-justified | Iran + Ukraine + France Hormuz mission | No positions | WATCH. SAF.PA in pipeline |
+| **Energy** | VOLATILE | WTI $85, down from $92 | Hormuz two-tier, escort possibility | No positions | TOO VOLATILE. Correct to avoid |
+| **Auto EU** | Muy odiado | Muy barata | Fiscal aleman / Tariffs + oil | No positions | AVOID |
+| **Bancos EU** | Rolling over | Pulling back | Oil = credit risk easing slightly | No positions | NEUTRAL-CAUTELA |
 
 ---
 
-## Riesgos Principales (RERANKED 6-Mar-2026)
+## Riesgos Principales (RERANKED 11-Mar-2026)
 
-### 1. IRAN-US WAR / HORMUZ CLOSURE -- CRITICAL, ESCALATING
-- **STATUS**: ACTIVE WAR, Day 7. ESCALATING (IRIS Dena, Trump "unconditional surrender")
-- **Probability of sustained disruption (>4 weeks)**: 60-70% (was 55-65% on Mar 2)
-- **Probability of regional escalation (Hezbollah/proxies)**: 25-30% (was 20-25%). Israel already striking Lebanon
-- **Impact**: VERY HIGH. Oil $90-110+, inflation reaccelerating, rate cuts dead, recession risk 40-55%
-- **De-escalation path**: Araghchi-Oman channel exists but not yielding results yet. Trump says "too late"
-- **Our exposure**: INDIRECT. Oil/inflation channel + risk-off + FX. Cash 36% is buffer
-- **Key monitors**: Hormuz transits (JMIC daily), oil, US military escort program, Oman mediation, Iranian regime stability
+### 1. IRAN-US WAR / HORMUZ TWO-TIER -- CRITICAL, STABILIZING BUT NOT DE-ESCALATING
+- **STATUS**: ACTIVE WAR, Day 11. Stalemate. No ceasefire. Two-tier Hormuz (China yes, West no)
+- **Probability of sustained disruption (>4 weeks from now)**: 50-60% (was 60-70%)
+- **Probability of regional escalation (Hezbollah/proxies)**: 15-20% (was 25-30%). No new front opened
+- **Impact**: HIGH. Oil $80-95, inflation elevated, rate cuts unlikely H1
+- **De-escalation paths**: France Hormuz mission, China/Russia/Oman mediation, Trump "soon" signals
+- **Our exposure**: INDIRECT. Oil/inflation channel + risk-off + FX. CVNA short benefits from sustained stress
+- **Key monitors**: France Hormuz mission progress, CPI today, FOMC Mar 18, oil price, ceasefire signals
 
-### 2. Oil Shock -> Stagflation -> Recession -- NOW ACTIVE (was "ELEVATED")
-- **Probability**: 40-55% (was 30-40%). Oil at $92 WTI = the trigger IS PULLED
-- **Impact**: HIGH. Recession + inflation = worst combo. Quality with pricing power best positioned
-- **Transmission TIMELINE**: Oil at $92 today -> gasoline +$0.50-1.00/gal in 2-4 weeks -> CPI Feb (Mar 12) minimal impact, CPI Mar/Apr WILL show 3.0%+ -> consumer spending down Q2 -> earnings impact Q3
-- **Mitigacion**: Quality portfolio (avg QS ~78). Net cash balance sheets. Fully deployed but 80%+ NEUTRAL sectors. No leverage.
+### 2. Oil Shock -> Stagflation -> Recession -- ELEVATED (was "NOW ACTIVE")
+- **STATUS DOWNGRADED from "NOW ACTIVE" to "ELEVATED"**: Oil at $85 is BELOW $90 recession trigger
+- **Probability**: 30-40% (was 40-55%). Oil pullback meaningfully reduces near-term recession risk
+- **Impact**: HIGH if oil returns >$90 sustained. Quality with pricing power best positioned
+- **Transmission TIMELINE**: Oil $85 today -> gasoline elevated but less extreme -> CPI Feb (today) benign (pre-shock), CPI Mar/Apr 2.7-3.0% -> consumer spending under pressure Q2 but less severe
+- **Mitigacion**: Quality portfolio (avg QS ~78). Net cash balance sheets. 80%+ NEUTRAL sectors. CVNA short as partial hedge
 
-### 3. Inflacion re-acceleration -- NOW ACTIVE (was "ELEVATED")
-- **Probability**: 70-80% (was 50-60%). Oil at $92 = it IS happening. Not a risk, a certainty for near-term
-- **CPI trajectory**: Jan 2.4% YoY -> Feb (Mar 12) likely 2.5-2.7% -> Mar/Apr will show 3.0-3.5%
-- **Impact**: Rate cuts killed. Growth multiples under pressure. Rate-sensitive sectors hurt
+### 3. Inflacion re-acceleration -- ELEVATED (was "NOW ACTIVE")
+- **STATUS DOWNGRADED**: Oil at $85 vs $92 makes a meaningful difference in CPI trajectory
+- **Probability of >3% CPI by June**: 50-60% (was 70-80%). Still likely elevated but less certain
+- **CPI trajectory**: Jan 2.4% -> Feb (today) likely 2.4-2.5% -> Mar/Apr 2.7-3.0% (vs 3.0-3.5% at $92 oil)
+- **Impact**: Rate cuts still unlikely H1. But FOMC dot plot may still show 1 cut for 2026
 - **Mitigacion**: Portfolio value-oriented, not dependent on multiple expansion
 
-### 4. SaaSpocalypse / AI Disruption de Software -- RIESGO MATERIAL (no change)
-- Narrative eclipsed by war. Software selling on risk-off not AI fears
-- Underlying disruption risk unchanged: medium for commodity SaaS, low-medium for quality
-- **Mitigacion**: KC monitoring. ADBE/BYIT.L/DOCS have moats
+### 4. FOMC Dot Plot Shift (NEW risk for this week)
+- **FOMC Mar 18**: First projections with oil shock + tariffs. If dots shift to 0 cuts = hawkish surprise = -3%+ equities
+- **Probability of 0-cut dot**: 30-40%. Oil at $85 (not $92) gives some room for 1-cut median
+- **Impact on portfolio**: Rate-sensitive positions (IHP.L AUM, HLNE AUM, TW volumes) would benefit from dovish surprise
+- **Monitoring**: Watch CPI today. If hot (>2.6%) = 0-cut dot more likely
 
-### 5. Recesion US -- ELEVATED FURTHER
-- **Probability**: 40-55% (was 35-50%). Oil >$90 = the historical recession trigger
-- **Impact**: HIGH -- markets -20-30%, earnings down 15-20%
-- **Key monitors**: Jobless claims (watch for spike), consumer sentiment, PMI, oil duration
-- **Mitigacion**: Quality positions. Cash buffer. Low leverage. Our companies have pricing power
+### 5. SaaSpocalypse / AI Disruption de Software -- RIESGO MATERIAL (no change)
+- Narrative eclipsed by war. Software rebounding modestly
+- Underlying disruption risk unchanged
+- **ADBE Q1 earnings Wed = key test**
 
-### 6. Guerra comercial (tariffs) -- OVERSHADOWED
-- **Probability of further escalation**: 50-60% (unchanged)
-- Frozen during Iran war but 15% EU surcharge still active. Second-order inflationary impulse
-- **Impact**: Medium. Our positions domestic/services. Indirect via confidence
-- **Mitigacion**: Near-zero direct tariff exposure
+### 6. Recesion US -- MODERATED (was "ELEVATED FURTHER")
+- **Probability**: 30-40% (was 40-55%). Oil pullback to $85 meaningful
+- **Impact**: HIGH if triggered
+- **Mitigacion**: Quality positions, low leverage, pricing power
 
-### 7. UK Consumer Recession -- ELEVATED
-- **Probability**: 40-50% (was 35-45%). Oil at $92 = energy costs crushing UK consumer
-- **Impact**: Medium -- DOM.L most exposed. MONY.L somewhat defensive. AUTO.L, BYIT.L, IHP.L less direct
-- **DOM.L FY25 results Mar 5**: Evaluate impact separately
-- **Mitigacion**: Small positions. BoE may delay cuts but GBP may weaken (mixed for us)
+### 7. Guerra comercial (tariffs) -- OVERSHADOWED
+- Unchanged. 15% EU surcharge active. Second-order inflationary impulse
 
-### 8. Escalada US-China (Taiwan) -- SLIGHTLY ELEVATED
-- US military engaged in Middle East. IRIS Dena attack shows global naval reach but also stretched resources
-- Probability: 10-15% (unchanged)
+### 8. UK Consumer Recession -- SLIGHTLY IMPROVED
+- **Probability**: 35-45% (was 40-50%). Oil pullback helps UK consumers
+- **Impact**: Medium. MONY.L scheduled rotation. IHP.L structural
+- **Mitigacion**: MONY.L selling after ex-div Mar 26
 
-### 9. Hard landing China -- sin cambio (25-35%)
+### 9. Escalada US-China (Taiwan) -- SLIGHTLY ELEVATED
+- Two-tier Hormuz creates friction. US stretched. Probability: 10-15%
+
+### 10. Hard landing China -- sin cambio (25-35%)
 
 ---
 
@@ -329,16 +312,15 @@ Previous assessment (2-mar): "Baseline: Extended conflict 2-4 weeks, Hormuz clos
 | Tendencia | Timeframe | Beneficiados | Perjudicados | Iran Crisis Impact |
 |-----------|-----------|--------------|--------------|-------------------|
 | AI/Automation + SaaSpocalypse | 3-10y | AI-native tools, ADBE (if adapts), platform companies | Commodity SaaS, MONY.L (comparison disruption risk) | Neutral -- secular, unaffected |
-| Obesidad/GLP-1 | 5-15y | NVO (Wegovy franchise, CagriSema damaged), Lilly dominates | Fast food (DOM.L marginal), healthcare costs | Neutral -- secular |
+| Obesidad/GLP-1 | 5-15y | NVO (Wegovy franchise, CagriSema damaged), Lilly dominates | Fast food, healthcare costs | Neutral -- secular |
 | Cybersecurity spending surge | 3-10y | **FTNT** (direct beneficiary), CrowdStrike, Palo Alto | Legacy IT security | **STRONGLY POSITIVE** -- active war = state cyberattacks surging |
-| Desglobalizacion/Nearshoring | 3-10y | EDEN.PA (domestic), US domestic services | Global exporters | **ACCELERATED** by Iran crisis. Hormuz proves supply chain fragility |
-| Defense/Military spending | 2-10y | BAE, Rheinmetall, Saab, Leonardo | Peace-dependent sectors | **STRONGLY POSITIVE** -- active war + $bn in munitions consumed |
-| Demographics aging | 5-20y | Healthcare, insurance (GL), pharma | Consumer discretionary | Neutral |
-| Fiscal aleman + Defensa EU | 2-5y | Infrastructure EU, defense contractors | Execution risk | Reinforced by security concerns |
-| Energy security/transition | 5-15y | Renewables (long-term), oil majors (short-term) | Energy importers (EU, Japan) | **STRONGLY ACCELERATED** -- Hormuz closure = existential energy security wake-up call |
+| Desglobalizacion/Nearshoring | 3-10y | EDEN.PA (domestic), US domestic services | Global exporters | **ACCELERATED** by Hormuz crisis. Supply chain fragility proven |
+| Defense/Military spending | 2-10y | BAE, Rheinmetall, Saab, Leonardo | Peace-dependent sectors | **STRONGLY POSITIVE** -- France Hormuz mission = EU defense autonomy accelerating |
+| Demographics aging | 5-20y | Healthcare, pharma | Consumer discretionary | Neutral |
+| Fiscal aleman + Defensa EU | 2-5y | Infrastructure EU, defense contractors | Execution risk | Reinforced by Hormuz mission |
+| Energy security/transition | 5-15y | Renewables (long-term), oil majors (short-term) | Energy importers (EU, Japan) | **STRONGLY ACCELERATED** -- two-tier Hormuz = existential energy security wake-up call |
 | Alternative Asset Management | 5-15y | **HLNE** (private markets secular growth) | Traditional asset managers | Neutral -- institutional allocation structural |
-| Financial data infrastructure | 5-15y | **MORN** (data/index monopoly), SPGI, MSCI | Legacy data providers | Neutral -- secular |
-| **Luxury resilience (NEW)** | 5-15y | **RACE.MI**, Hermes, LVMH | Mass-market consumer | Neutral -- luxury consumers insulated from oil shock |
+| Financial data infrastructure | 5-15y | SPGI, MSCI, WKL.AS, TW | Legacy data providers | Neutral -- secular |
 
 ---
 
@@ -347,121 +329,128 @@ Previous assessment (2-mar): "Baseline: Extended conflict 2-4 weeks, Hormuz clos
 | Riesgo | Probabilidad | Impacto si Ocurre | Hedge |
 |--------|-------------|-------------------|-------|
 | Iran nuclear retaliation (dirty bomb / nuclear facility breach) | <5% | Catastrophic. Markets -20%+. Oil $150+. | Cash. Nothing else works. |
-| Hezbollah full-scale war on Israel (second front) | 20-25% (UP from 15-20%, Israel already striking Lebanon) | Very High. Regional war. Oil $110+. | Cash + quality defensives |
+| Hezbollah full-scale war on Israel (second front) | 15-20% (DOWN from 20-25%, no new front opened) | Very High. Regional war. Oil $110+. | Cash + quality defensives |
 | Russia exploits US distraction in Ukraine (major offensive) | 10-15% | High. Dual-front geopolitical crisis. | Cash + USD exposure |
 | China moves on Taiwan during US Middle East engagement | 5-10% | Catastrophic. Semiconductor crisis. Markets -30%+. | Cash. Extreme scenario. |
-| Hormuz mined / long-term closure (>3 months) | 15-20% (UP from 10-15%, given near-total halt) | Very High. Oil $120-150. Global recession. | Cash + energy (we have none) |
-| Cyber escalation (Iran state-sponsored attacks on US infrastructure) | 20-30% (UP from 15-25%, war now active) | Medium-High. Infrastructure disruption. | FTNT benefits. Cash for rest. |
-| US military overreach / second IRIS Dena incident in international waters | 10-15% (NEW) | Medium. Diplomatic isolation, India/non-aligned backlash. | Reputational, not directly portfolio |
-| Oil sustained >$100 for 6+ months | 20-30% (NEW) | Very High. Global recession certain. | Cash. Defensive quality. |
+| Hormuz fully re-closed (Iran retaliates against French mission) | 15-20% (NEW) | Very High. Oil $100-120. Undoes partial reopening progress | Cash + energy (we have none) |
+| Cyber escalation (Iran state-sponsored attacks on US infrastructure) | 20-30% | Medium-High. Infrastructure disruption. | FTNT benefits. Cash for rest. |
+| Oil flash crash on credible ceasefire/reopening news | 30-40% (LIKELY) | POSITIVE for our portfolio. Oil -$15-20 fast. | Already positioned correctly (no energy exposure) |
+| FOMC 0-cut dot plot shift | 30-40% | Medium. Rate-sensitive assets sell off. Growth multiples compress further | CVNA short benefits from sustained rates |
+| Oil sustained >$100 for 6+ months | 15-20% (DOWN from 20-30%) | Very High. Global recession certain. | Cash. Defensive quality. |
 
 ---
 
 ## ACCION RECOMENDADA PARA PORTFOLIO ACTUAL
 
-### Portfolio actual: 10 posiciones, EUR 370 cash (3.5%), 0 shorts
+### Portfolio actual: 10 longs + 1 short, EUR 370 cash (3.5%)
 
-| Posicion | Alloc | P&L | Tier | Crisis Fit | Accion |
-|----------|-------|-----|------|------------|--------|
-| **EDEN.PA** | 18.4% | +1.2% | B (76/70) | NEUTRAL-FAVORABLE. Domestic France. | HOLD. SI 21.2% MONITORING. No ADD. |
-| **NVO** | 11.4% | -5.4% | B (73) | CAUTELA. CagriSema FAILED + oil. | HOLD. Wegovy pill launched. Q1 ~May catalyst. |
-| **IHP.L** | 11.4% | +0.0% | A (80) | CAUTELA. AUM dip possible. | HOLD. Platform structural thesis intact. |
-| **HLNE** | 10.4% | +0.1% | A (86/82) | CAUTELA. AUM sensitive short-term. | HOLD. Highest QS. Ex-div Mar 20. |
-| **ADBE** | 8.9% | +7.1% | A (80/77) | CAUTELA. Risk-off. ROIC 53%. | HOLD. **Q1 earnings Wed Mar 12.** Section 9 READY. |
-| **DOCS** | 8.3% | +2.1% | A (74/79) | NEUTRAL. Healthcare defensive. | HOLD. 85% physician monopoly. Q4 ~May binary. |
-| **WKL.AS** | 7.6% | +0.0% | B (72) | NEUTRAL. Sticky subscriptions. | HOLD. Receivables +23% flag. |
-| **MONY.L** | 7.3% | -0.2% | A (83/75) | NEUTRAL. Yield anchor. | SELL after ex-div Mar 26. FIRST ROTATION CANDIDATE. |
-| **FTNT** | 7.2% | +2.6% | A (87/85) | **FAVORABLE**. Cyber in war. | HOLD. **Investor Day Mon.** If BEAR → rotate to GDDY. |
-| **TW** | 5.7% | -0.1% | A (76/84) | NEUTRAL. Low cyclicality. | HOLD. Bottom tercile. Rotation candidate if Q1 misses. |
+| Posicion | Alloc | Tier | Crisis Fit | Oil $85 Impact | Accion |
+|----------|-------|------|------------|----------------|--------|
+| **EDEN.PA** | 18.7% | B (76/70) | NEUTRAL-FAVORABLE | POSITIVE (less consumer pressure) | HOLD. SI 21.2% MONITORING. No ADD. |
+| **NVO** | 11.6% | B (73) | CAUTELA | NEUTRAL (pharma insulated) | HOLD. Wegovy pill ramp. Q1 ~May |
+| **IHP.L** | 11.4% | A (80) | CAUTELA | POSITIVE (AUM recovers with market) | HOLD. Platform structural. BoE cut more likely |
+| **HLNE** | 10.2% | A (86/82) | CAUTELA | POSITIVE (AUM sensitive to market) | HOLD. Highest QS. Ex-div Mar 20 |
+| **ADBE** | 8.7% | A (80/77) | CAUTELA | NEUTRAL (software, not oil) | HOLD. **Q1 EARNINGS WED.** Section 9 READY |
+| **DOCS** | 8.2% | A (74/79) | NEUTRAL | NEUTRAL (healthcare defensive) | HOLD. 85% physician monopoly |
+| **WKL.AS** | 7.5% | B (72) | NEUTRAL | POSITIVE (EU sentiment improving) | HOLD. Receivables flag. ECB cut helps |
+| **FTNT** | 7.3% | A (87/85) | FAVORABLE | FAVORABLE (cyber war premium) | HOLD. Crisis beneficiary |
+| **MONY.L** | 7.2% | A (83/75) | NEUTRAL | POSITIVE (BoE cut more likely) | SELL after ex-div Mar 26. ROTATION CANDIDATE |
+| **TW** | 5.8% | A (76/84) | NEUTRAL-FAVORABLE | FAVORABLE (volatility = trading volumes) | HOLD. War volatility actually HELPS bond trading |
+| **CVNA SHORT** | 0.8% | D (30) | FAVORABLE | FAVORABLE (oil + rates hurt demand) | HOLD. Q1 earnings ~May 6 catalyst |
 
-### Crisis Response Strategy (UPDATED S150 — fully deployed)
+### Oil $91 to $85: NET POSITIVE for Portfolio
 
-**THIS WEEK (Mar 9-14) — 3 BINARY EVENTS:**
-1. **FTNT Investor Day Mon** — SASE ARR, ASIC SP6, FY27 guide. If BEAR (SASE miss + no guide beat) → rotate to GDDY (R4 approved, E[CAGR] 20.2% vs FTNT 9.7%)
-2. **CPI Tue** — Feb print. If hot (>3.0%) → risk-off, market selloff. If cool (<2.5%) → rate cut hopes revive
-3. **ADBE Q1 Wed** — Section 9 READY. BEAT→ADD if <$240. FAIL→review KC#6. Most critical event this week.
+The $6 oil pullback is a NET POSITIVE for our portfolio:
+1. **EDEN.PA (18.7%)**: Less pressure on French consumer spending. Meal vouchers still counter-cyclical
+2. **MONY.L (7.2%)**: Less pressure on UK consumer. BoE cut more likely = insurance comparison volumes improve
+3. **IHP.L (11.4%)**: UK market sentiment improves. AUM recovers with markets
+4. **HLNE (10.2%)**: Risk asset recovery = AUM recovery. Oil-insensitive business
+5. **CVNA SHORT (0.8%)**: Oil STILL at $85 = elevated gas costs for CVNA's lower-income customer base. Short thesis intact
+6. **TW (5.8%)**: Bond market VOLATILITY (from oil swings) = MORE trading = MORE revenue. Counterintuitive beneficiary
 
-**FULLY DEPLOYED POSTURE (3.5% cash):**
-- No crisis buffer. Quality + diversification IS the hedge
-- Rotation is primary lever: MONY.L → GDDY if FTNT BEAR. MONY.L → best pipeline if FTNT PASS
-- MONY.L SELL after ex-div Mar 26 — first rotation capital release (~EUR 888)
-- No forced selling needed. All positions have E[CAGR] >12% except FTNT (9.7% — Investor Day will clarify)
+### Crisis Response Strategy (UPDATED for Mar 11)
 
-**IF CRISIS CONTINUES (oil stays $85-100+):**
-1. Portfolio is 80%+ NEUTRAL to oil. NVO, DOCS, WKL.AS, HLNE, IHP.L, TW = asset-light, subscription
-2. EDEN.PA (18.4%) has some consumer exposure but meal vouchers are counter-cyclical
-3. If VIX >35, S&P -7%+: quality compounders hit distressed levels. Use MONY.L rotation capital
+**THIS WEEK -- 2 BINARY EVENTS REMAINING:**
+1. **CPI TODAY (Mar 11)** -- Consensus 2.4% YoY. Pre-oil data. If hot (>2.7%) = surprise, risk-off. If in-line = non-event.
+2. **ADBE Q1 Wed (Mar 12)** -- Section 9 READY. BEAT = ADD if <$240. FAIL = review KC#6. Most critical event this week.
 
-**IF CEASEFIRE/DE-ESCALATION:**
-1. Oil drops $20-30 rapidly. V-shaped equity recovery
-2. Rate cut expectations revive. Growth multiples expand. ADBE, FTNT biggest beneficiaries
-3. EUR strengthens (good for EUR positions: EDEN 18.4%, WKL 7.6%)
-4. Pipeline deployment resumes: FOUR.L FY2025 results Mar 18 = hard gate for entry
+**NEXT WEEK -- 3 EVENTS:**
+1. **FOMC Mar 17-18** -- Dot plot + projections CRITICAL. 1-cut vs 0-cut median
+2. **FOUR.L FY2025 results Mar 18** -- Hard gate for entry (R3 complete, FV 4400p)
+3. **ECB + BoE Mar 19-20** -- ECB cut? BoE hold? FX implications for EUR/GBP positions
+
+**OIL MONITORING FRAMEWORK:**
+- Oil <$80: Crisis moderating significantly. Rate cut hopes revive. Equities rally. Reduce short sizing consideration
+- Oil $80-90: Current range. Manageable. Portfolio well-positioned
+- Oil >$90: Recession trigger re-activates. Re-read Mar 8 world view crisis playbook
+- Oil >$100: Emergency review all positions for second-order effects
 
 ### Sectores a Buscar (Pipeline Active)
 
-1. **SMB SaaS/Internet**: GDDY R4 approved (FV $92, E[CAGR] 20.2%). Rotation target from FTNT if BEAR
-2. **Promotional Products**: FOUR.L R3 complete (FV 4400p, entry 3400p). Hard gate: FY2025 results Mar 18
-3. **Defense/Aerospace**: SAF.PA R3 complete (FV EUR 260, entry EUR 235). 26% away, parking
-4. **Quality Compounders on war discount**: ADBE ADD if Q1 BEAT + price <$240
-5. **Smart Money Convergence targets**: CPRT (4 funds, Akre), CSGP (4 funds, Akre+Polen), IDXX (4 funds, Polen+Fundsmith), LPLA (6 funds), ZTS (6 funds)
+1. **ADBE ADD**: If Q1 BEAT + price <$240. Section 9 READY
+2. **FOUR.L**: FY2025 results Mar 18 = hard gate (R3 complete, FV 4400p)
+3. **GDDY**: R4 approved (FV $92, E[CAGR] 20.2%). Available for rotation if needed
+4. **SAF.PA**: R3 complete (FV EUR 260, entry EUR 235). 26% away, parking
+5. **Smart Money targets**: CPRT, CSGP, IDXX, LPLA, ZTS
 
 ### Sectores a Evitar
 
-1. **Energy pura**: Too late. Oil may reverse sharply on ceasefire
+1. **Energy**: TOO VOLATILE. Oil swings $15 intraday. No edge
 2. **Airlines / Travel**: Direct war casualties
-3. **UK consumer discretionary**: Triple headwind (weak economy + oil + tariff uncertainty)
-4. **Auto EU**: Tariffs + oil + weak demand = triple negative
-5. **Commodity SaaS**: War overshadows recovery. Wait for clarity
+3. **UK consumer discretionary**: Triple headwind (weaker but still present)
+4. **Auto EU**: Tariffs + oil + weak demand
+5. **Commodity SaaS**: War overshadows recovery
 
 ---
 
 ## Proximos Eventos Calendario
 
-**ESTA SEMANA (9-14 mar):**
-- **ONGOING**: Iran war entering Week 2+. Hormuz closed. Oil $91. Oman mediation
-- **Mon 10 Mar**: ORCL Q3 (AI/cloud sentiment). **FTNT Accelerate Investor Day** (3PM PT) — CRITICAL for position
-- **Tue 11 Mar**: **US CPI Feb 2026** -- early oil impact. If >3.0% = risk-off
-- **Wed 12 Mar**: **ADBE Q1 FY2026 earnings** (after close) — CRITICAL, Section 9 READY
+**HOY (11 mar):**
+- **US CPI Feb 2026** -- 8:30am ET. Consensus 2.4% YoY headline, 2.5% core. Pre-oil data.
+
+**ESTA SEMANA (12-14 mar):**
+- **Wed 12 Mar**: **ADBE Q1 FY2026 earnings** (after close) -- CRITICAL, Section 9 READY
 - **Thu 13 Mar**: US PPI Feb 2026
 
 **SEMANA 2 (16-20 mar):**
-- **17-18 Mar**: **Fed FOMC** (hold certain. Statement language on oil/war crucial)
-- **18 Mar**: **FOUR.L FY2025 results** — HARD GATE for entry (R3 complete, FV 4400p)
-- **19 Mar**: **ECB meeting** + **BoE meeting** — FX impact on EUR/GBP positions
+- **17-18 Mar**: **Fed FOMC** (hold certain. DOT PLOT + PROJECTIONS = key. First to incorporate oil shock)
+- **18 Mar**: **FOUR.L FY2025 results** -- HARD GATE for entry (R3 complete, FV 4400p)
+- **19 Mar**: **ECB meeting** + **BoE meeting** (FX impact on EUR/GBP positions)
 - **20 Mar**: HLNE ex-dividend date
-- **26 Mar**: MONY.L ex-dividend date → SELL AFTER this date
+- **26 Mar**: MONY.L ex-dividend date -- SELL AFTER this date
 
 **ABRIL-MAYO:**
 - Apr: FTNT Q1 FY2026 earnings
-- Apr: TW Q1 FY2026 earnings — RPM test
+- Apr: TW Q1 FY2026 earnings -- RPM test
 - Apr: SAF.PA Q1 2026 revenue (pipeline monitoring)
-- ~May: HLNE Q4 FY2026 — Section 9 READY
-- ~May: DOCS Q4 FY2026 — Section 9 READY, binary catalyst
-- May 6: NVO Q1 FY2026 — Section 9 READY, Wegovy pill ramp
+- ~May: HLNE Q4 FY2026 -- Section 9 READY
+- ~May: DOCS Q4 FY2026 -- Section 9 READY, binary catalyst
+- May 6: NVO Q1 FY2026 -- Section 9 READY, Wegovy pill ramp
+- May 6: CVNA Q1 FY2026 -- SHORT CATALYST
 
 **LATER 2026:**
 - May 15: Powell term expira
 - Jun: EU tariffs 150-day surcharge review
+- Sep: CVNA short max duration
 - Oct: ADBE FTC trial
 - Nov: US-China trade deal expira
 - Q4 2026-Q1 2027: NVO CagriSema PDUFA
 
 **IRAN-SPECIFIC TIMELINE (UPDATED):**
-- **Day 1-7 (Feb 28-Mar 6): COMPLETE.** Military operations + retaliation cycle. IRIS Dena sunk. 1,000+ dead in Iran. 6 US soldiers killed. Hormuz at near-total halt. Oil $62->$92.
-- **Week 2 (Mar 7-13)**: Diplomatic window? Oman mediation. UN Security Council. US military escort program. CPI Feb (Mar 12) first macro data point.
-- **Week 3-4 (Mar 14-27)**: Fed/ECB/BoE decisions. Iranian leadership dynamics. Partial Hormuz reopening via escort? Oil trajectory.
-- **Month 2+ (Apr+)**: Trump's "4-5 weeks" timeline. Ceasefire or sustained conflict. Oil normalization or structural regime change.
+- **Day 1-7 (Feb 28-Mar 6): COMPLETE.** Escalation phase. IRIS Dena. 1,000+ dead. Hormuz closed.
+- **Day 8-11 (Mar 7-11): CURRENT.** Stalemate. Two-tier Hormuz (China only). Oil volatile $77-92. Chris Wright false tweet. France preparing mission. No ceasefire.
+- **Week 3-4 (Mar 12-27)**: FOMC/ECB/BoE decisions. France Hormuz escort? Oil trajectory. Ceasefire window?
+- **Month 2+ (Apr+)**: Trump's timeline ending. Ceasefire or sustained conflict. Oil normalization or structural disruption.
 
 ---
 
-**Conclusion**: The Iran war has ESCALATED since our Mar 2 assessment, not moderated. Oil breaking $90 WTI activates the stagflationary scenario we flagged as a risk -- it is now REALITY, not theory. The "crisis deepens" playbook is partially active. However, the situation contains genuine binary risk: Araghchi-Oman diplomatic feelers could produce a ceasefire in 2-3 weeks, crashing oil $20-30 and producing a V-recovery. Or Trump's "unconditional surrender" stance could extend the war for 4-5 weeks with oil at $90-110, pushing the economy toward recession.
+**Conclusion**: The macro picture has MODESTLY IMPROVED since Mar 8 but the Iran war is NOT over and the improvement is FRAGILE. Oil pulling back from $91 to $85 is the key change -- it takes us BELOW the $90 recession trigger and reduces the stagflationary impulse. The Chris Wright flash crash proved the oil premium is sitting on a knife edge: one credible Hormuz-reopening headline can crash oil $15 in minutes.
 
-Our portfolio is FULLY DEPLOYED (10 positions, 96.5% invested, avg QS ~78) with zero direct Iran/energy exposure, no leverage. The restructuring from 15→10 positions (S143-S150) concentrated into higher quality. 80%+ of portfolio in oil-NEUTRAL sectors.
+Our portfolio is well-positioned: 80%+ oil-neutral, CVNA short benefits from sustained stress, and oil easing helps our consumer-exposed positions (EDEN.PA 18.7%, MONY.L 7.2%). The two events that matter this week: CPI today (consensus benign) and ADBE earnings Wed.
 
-The key decisions ahead this week: (1) FTNT Investor Day Mon → if BEAR, rotate to GDDY. (2) CPI Tue → macro read. (3) ADBE Q1 Wed → Section 9 framework READY. Next week: FOMC Mar 18 + FOUR.L results Mar 18 (pipeline hard gate).
+The REAL macro test is FOMC Mar 18. If the dot plot shows 0 cuts (hawkish), growth multiples compress further. If 1-cut maintained, the market exhales. Watch CPI today for clues about which way the dots go.
 
-HOLD everything through binary events. SELL MONY.L after ex-div Mar 26 → rotation capital for best pipeline candidate.
+HOLD everything. ADBE earnings Wed is the portfolio's biggest near-term catalyst. SELL MONY.L after ex-div Mar 26 for rotation capital.
 
 ---
 
@@ -474,73 +463,36 @@ HOLD everything through binary events. SELL MONY.L after ex-div Mar 26 → rotat
 - [NPR: Trump launches Operation Epic Fury](https://www.npr.org/2026/02/28/nx-s1-5730333/the-u-s-and-israel-launch-a-major-attack-on-iran)
 - [USNI News: US, Israel Launch Operation Epic Fury](https://news.usni.org/2026/02/28/u-s-israel-launch-operation-epic-fury-against-iran-tehran-retaliates-across-region)
 - [Atlantic Council: Experts react to Iran strikes](https://www.atlanticcouncil.org/dispatches/experts-react-the-us-and-israel-just-unleashed-a-major-attack-on-iran-whats-next/)
-- [Stimson Center: What Epic Fury signals](https://www.stimson.org/2026/experts-react-what-the-epic-fury-iran-strikes-signal-to-the-world/)
-- [Times of Israel: Iran targets 6 Arab countries](https://www.timesofisrael.com/1-killed-in-uae-as-iran-targets-5-arab-countries-with-missiles-riyadh-slams-brutal-iranian-aggression/)
-- [CNBC: Tehran strikes back at Gulf states](https://www.cnbc.com/2026/02/28/trump-us-military-iran-strikes-middle-east-oil.html)
-- [CNBC: Iran may lash out harder](https://www.cnbc.com/2026/03/01/us-israel-attacks-strikes-iran-retaliate-china-russia-allies.html)
 
 ### IRIS Dena / Naval Operations (Mar 4-6, 2026)
 - [Al Jazeera: US submarine sank Iran warship off Sri Lanka](https://www.aljazeera.com/news/2026/3/4/at-least-100-missing-after-iranian-military-ship-sinks-off-sri-lanka-coast)
 - [CNN: IRIS Dena -- US Navy sinks warship, first since WWII](https://www.cnn.com/2026/03/05/middleeast/us-iran-submarine-warship-analysis-intl-hnk-ml)
-- [USNI News: US attack boat torpedoes Iranian frigate](https://news.usni.org/2026/03/04/video-u-s-attack-boat-torpedoes-iranian-frigate-off-sri-lanka)
-- [Euronews: US submarine sinks Iranian warship, killing 87](https://www.euronews.com/2026/03/04/us-submarine-sinks-iranian-warship-in-the-indian-ocean-killing-87-people)
-- [TIME: Iran issues grave warning after ship struck](https://time.com/7382652/iran-warns-united-states-conflict-escalates-struck-warship/)
 
-### Diplomacy / De-escalation (Mar 5-6, 2026)
-- [Times of Israel: Oman FM urges ceasefire, Araghchi says Iran open to de-escalation](https://www.timesofisrael.com/liveblog_entry/omans-fm-who-mediated-us-iran-talks-urges-ceasefire-araghchi-says-iran-open-to-de-escalation/)
-- [Iran International: Trump says Iran wants talks but "too late"](https://www.iranintl.com/en/202603054889)
-- [JPost: Iran reached out to CIA, Trump says too late](https://www.jpost.com/middle-east/iran-news/article-888816)
-- [NBC: Iran vows revenge after warship sunk, rejects negotiations](https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-israel-warship-attack-middle-east-rcna261866)
-- [CNBC: House rejects war powers resolution](https://www.cnbc.com/2026/03/05/house-iran-rejects-war-powers-resolution-trump.html)
+### War Day 10-11 Updates (Mar 10-11, 2026)
+- [CNN: What we know on Day 10 of the US-Israel war with Iran](https://www.cnn.com/2026/03/08/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk)
+- [Al Jazeera: Day 11 -- Iran war, what is happening](https://www.aljazeera.com/news/2026/3/10/iran-war-what-is-happening-on-day-11-of-us-israel-attacks)
+- [Al Jazeera: Tehran chides 'Operation Epic Mistake'](https://www.aljazeera.com/news/liveblog/2026/3/10/iran-war-live-trump-says-conflict-will-be-over-soon-40-killed-in-tehran)
+- [NBC: Trump sends mixed signals on when Iran war might end](https://www.nbcwashington.com/news/national-international/iran-us-israel-middle-east-conflict-march-10-2026/4073152/)
+- [NBC: Iran FM rejects ceasefire calls](https://www.nbcnews.com/world/iran/irans-foreign-minister-rejects-calls-ceasefire-continue-fighting-rcna262291)
+- [TIME: Trump's War With Iran Explained](https://time.com/7382631/iran-israel-us-war-explainer-trump-middle-east/)
 
-### Death Toll
-- [Al Jazeera: Death toll in Iran surpasses 1,000](https://www.aljazeera.com/news/2026/3/4/death-toll-in-iran-surpasses-1000-as-israel-us-strikes-continue)
-- [CNN: 6 US troops killed in Kuwait strike](https://www.cnn.com/2026/03/03/politics/pentagon-identifies-four-soldiers-killed-war-iran)
-- [CBS: US death toll rises to 6](https://www.cbsnews.com/live-updates/iran-us-war-day-3-american-deaths-israel-gulf-allies-hit-missile-strikes/)
+### Oil Volatility / Chris Wright Incident (Mar 10, 2026)
+- [NBC: Oil prices volatile on conflicting reports about Hormuz](https://www.nbcnews.com/business/markets/oil-price-iran-war-markets-rcna262697)
+- [CNBC: Iran ships oil to China through Hormuz even as war chokes waterway](https://www.cnbc.com/2026/03/11/iran-ships-oil-china-strait-hormuz-closure-.html)
 
-### Oil / Hormuz (Mar 3-6, 2026)
-- [Bloomberg: Hormuz shipping at near-total halt (JMIC)](https://www.bloomberg.com/news/articles/2026-03-06/strait-of-hormuz-shipping-traffic-at-near-total-halt-jmic-says)
-- [CNBC: Oil tops $90 after Trump demands unconditional surrender](https://www.cnbc.com/2026/03/06/iran-us-war-oil-prices-brent-wti-barrel-futures.html)
-- [Kpler: Hormuz disruption -- which vessels trapped](https://www.kpler.com/blog/strait-of-hormuz-disruption-which-container-vessels-are-trapped-waiting-or-diverting)
-- [Marine Insight: Hundreds of ships stranded for fifth day](https://www.marineinsight.com/shipping-news/hundreds-of-ships-stranded-on-both-sides-of-strait-of-hormuz-for-fifth-consecutive-day/)
-- [Lloyd's List: ~200 compliant tankers stranded](https://www.lloydslist.com/LL1156500/Around-200-compliant-tankers-stranded-as-Strait-of-Hormuz-closure-freezes-Gulf-traffic)
-- [Al Jazeera: Maritime insurers cancel war risk cover](https://www.aljazeera.com/economy/2026/3/3/maritime-insurers-cancel-war-risk-cover-in-gulf-will-it-spike-energy-cost)
-- [JPost: China in talks with Iran for Hormuz access](https://www.jpost.com/middle-east/iran-news/article-889028)
-- [NPR: How traffic dried up in Hormuz](https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis)
-- [CNBC: Oil soars amid Hormuz fears](https://www.cnbc.com/2026/03/02/iran-us-oil-strait-hormuz-war-middle-east-energy-brent-crude-wti-conflict.html)
-- [Al Jazeera: How Hormuz closure impacts oil markets](https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets)
-- [Fortune: Oil prices soar 10%](https://fortune.com/2026/03/01/oil-prices-tanker-traffic-strait-of-hormuz-iran-attacks-us-israel-irgc-warning/)
+### Hormuz Two-Tier / Shipping
+- [Wikipedia: 2026 Strait of Hormuz crisis](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis)
+- [Kpler: Hormuz crisis reshapes global oil markets](https://www.kpler.com/blog/us-iran-conflict-strait-of-hormuz-crisis-reshapes-global-oil-markets)
 
-### Market Reaction
-- [CNBC: European stocks fall sharply on Iran strikes](https://www.cnbc.com/2026/03/02/european-markets-stoxx-600-ftse-dax-cac-iran-strikes-reaction.html)
-- [CNBC: Markets after Iran strikes](https://www.cnbc.com/2026/03/02/global-markets-after-iran-strikes-oil-surges-airlines-sink-bonds-defy-safe-haven-playbook.html)
+### CPI / Fed / Central Banks
+- [Kiplinger: February CPI Watch](https://www.kiplinger.com/investing/economy/cpi-report-february-2026-what-to-expect)
+- [Morningstar: February CPI Report Forecasts](https://www.morningstar.com/economy/february-cpi-report-forecasts-call-slight-inflation-uptick-oil-spike-impact-awaited)
+- [FactSet: CPI February 2026 projected 2.5% YoY](https://insight.factset.com/consumer-price-index-cpi-for-february-2026-is-projected-to-rise-2.5-year-over-year)
+- [JPMorgan: Fed leaves rates unchanged](https://www.jpmorgan.com/insights/markets-and-economy/economy/fed-meeting-january-2026)
 
 ### Gold / Safe Haven
-- [Bloomberg: Gold climbs on Middle East war](https://www.bloomberg.com/news/articles/2026-03-01/gold-climbs-as-middle-east-war-drives-investor-rush-to-safety)
-- [Yahoo Finance: Gold surges above $5,400](https://finance.yahoo.com/news/gold-surges-above-5400-as-demand-for-safe-haven-asset-jumps-amid-iran-conflict-102241371.html)
-
-### NVO CagriSema
-- [GlobeNewswire: CagriSema REDEFINE 4 results](https://www.globenewswire.com/news-release/2026/02/23/3242381/0/en/Novo-Nordisk-A-S-CagriSema-demonstrated-23-weight-loss-in-an-open-label-head-to-head-REDEFINE-4-trial-in-people-with-obesity-the-primary-endpoint-was-not-achieved.html)
-- [CNBC: Novo Nordisk sinks 16% after CagriSema fails](https://www.cnbc.com/2026/02/23/novo-nordisk-stock-cagrisema-trial-fails-weight-loss.html)
-
-### Ukraine-Russia
-- [France 24: Next round of talks set for early March](https://www.france24.com/en/europe/20260226-live-russia-ukraine-missiles-drones-us-ukraine-talks)
-- [Bloomberg: Russia weighs halt to peace talks](https://www.bloomberg.com/news/articles/2026-02-28/russia-weighs-halt-to-peace-talks-unless-ukraine-cedes-territory)
-
-### Tariffs
-- [Bloomberg: EU expects US to ease steel/aluminum tariffs](https://www.bloomberg.com/news/articles/2026-02-24/eu-expects-us-to-ease-impact-of-metals-tariffs-in-coming-weeks)
-- [CNBC: EU postpones Turnberry vote after Trump 15% tariff threat](https://www.cnbc.com/2026/02/23/trump-15percent-global-tariff-europe-eu-uk-reaction.html)
-
-### Fed & Central Banks
-- [Federal Reserve FOMC Statement Jan 28](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm)
-- [JPMorgan: Fed leaves rates unchanged](https://www.jpmorgan.com/insights/markets-and-economy/economy/fed-meeting-january-2026)
-- [ECB Monetary Policy Decisions Feb 2026](https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260205~001d26959b.en.html)
-- [Bank of England: Monetary Policy Report Feb 2026](https://www.bankofengland.co.uk/monetary-policy-report/2026/february-2026)
-- [ING: Central banks in 2026 predictions](https://think.ing.com/articles/central-banks-predictions-for-2026/)
-
-### SaaSpocalypse / Software
-- [Seeking Alpha: Adobe SaaS Apocalypse Valuation Check](https://seekingalpha.com/article/4871096-adobe-the-saas-apocalypse-is-about-to-meet-a-valuation-check)
-- [Yahoo Finance: Adobe AI recovery](https://finance.yahoo.com/news/ai-efforts-rich-partner-adobe-155200281.html)
+- [FX Leaders: Gold price forecast $5,020 support](https://www.fxleaders.com/news/2026/03/09/gold-price-forecast-will-the-5020-support-hold-as-the-middle-east-risk-off-premium-fades/)
+- [Fortune: Current price of gold Mar 10](https://fortune.com/article/current-price-of-gold-03-10-2026/)
 
 ### Macro Data (live)
-- macro_fragility.py full output 2026-03-07: VIX 29.49, Gold $5,181, WTI $91.27, DXY 98.86, S&P 6,740, 10Y 4.13%, 2Y 3.48%, 2Y-10Y spread +0.65%, HYG/LQD 0.7234
+- macro_fragility.py output 2026-03-11: VIX 25.50, Gold $5,188, WTI $85.24, DXY 98.98, S&P 6,781, 10Y 4.14%, 2Y 3.37%, 2Y-10Y spread +0.76%, HYG/LQD 0.7272

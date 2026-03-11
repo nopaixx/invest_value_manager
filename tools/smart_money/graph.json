@@ -4608,6 +4608,12 @@
       "full_name": "YARED RANA",
       "role": "Director",
       "id": "yared-rana"
+    },
+    {
+      "type": "fund",
+      "full_name": "Millennium",
+      "fund_type": "unknown",
+      "id": "millennium"
     }
   ],
   "edges": [
@@ -15555,6 +15561,17 @@
       "date_added": "2026-03-11",
       "source": "yared-rana",
       "target": "TW",
+      "key": 0
+    },
+    {
+      "relation": "shorts",
+      "pct_shares": 0.71,
+      "source": "millennium",
+      "session_date": "2026-03-11",
+      "date_added": "2026-03-11",
+      "data_source": "live",
+      "note": "capture",
+      "target": "EDEN.PA",
       "key": 0
     }
   ]
