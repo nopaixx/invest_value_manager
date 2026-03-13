@@ -516,7 +516,83 @@ The theme thesis: Global financialization (growing AUM, regulatory complexity, p
 
 ### Incertidumbres/Dudas
 - **Receivables anomaly**: 20% growth vs 7.9% revenue growth is a yellow flag. Need to verify if this is Q4 timing (late billings from issuance surge) or deterioration in credit quality/collection. This should be a priority question for R2.
-- **Mobility spinoff impact on valuation**: The Form 10 in Q2 2026 will change the business composition. Post-spinoff SPGI (without Mobility's $1.8B revenue and 35% margins) may deserve a different multiple. Need to model both scenarios.
+- **Mobility spinoff impact on valuation**: MODELED BELOW (S152). Form 10 expected Q2 2026. Net impact: +$6-15/share value unlock potential. Post-spinoff RemainCo deserves higher multiple (purer financial infrastructure). Mobility standalone "high teens" EV/EBIT. Our FV $470 is CONSERVATIVE for post-spinoff sum-of-parts ($485-520).
+
+## Mobility Spinoff Analysis (S152, 2026-03-13)
+
+**Overview:** S&P Global will spin off its Mobility segment ("Mobility Global, Inc.") as a standalone public company via tax-free distribution, expected mid-to-late 2026. Form 10 filing in Q2 2026.
+
+### Mobility Standalone Valuation
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Revenue 2025 | $1.75B | 10-K FY2025 (+8% YoY) |
+| Adj OP Margin | 40% | Q4 2025 earnings |
+| Adj Operating Profit | ~$700M | $1.75B × 40% |
+| Revenue weight in SPGI | ~12% | $1.75B / $15.3B |
+| Growth rate | 7-9% | Vehicle data + dealer solutions |
+| TAM | $30B+ | Management estimate |
+| Brands | CARFAX, Polk, automotiveMastermind, Market Scan | |
+
+**Multiple selection:**
+- Comparable data/analytics companies: IHS Markit pre-merger 20-22x, Verisk 25x, CoreLogic 18x
+- Mobility is lower-margin (40% vs SPGI avg 50%) and more cyclical (auto industry exposure)
+- Analysts suggest "high teens" multiple
+- My estimate: **16-18x adjusted EBIT** (below SPGI parent multiple of 24x)
+
+**Mobility standalone value:**
+| Scenario | EV/EBIT | Equity Value | Per SPGI Share |
+|----------|---------|-------------|---------------|
+| Bear | 14x | $9.8B | ~$32 |
+| Base | 17x | $11.9B | ~$39 |
+| Bull | 20x | $14.0B | ~$46 |
+
+### Post-Spinoff RemainCo (SPGI ex-Mobility)
+
+| Metric | Value | Reasoning |
+|--------|-------|-----------|
+| Revenue | ~$13.6B | $15.3B - $1.75B |
+| Adj OP Margin | ~52.5% | Removing lower-margin Mobility improves mix |
+| Adj Operating Profit | ~$7.1B | $7.7B - $0.7B + mix improvement |
+| Growth rate | 7% | Unchanged (Mobility was close to blended avg) |
+
+**Multiple re-rating rationale:**
+Post-spinoff SPGI is a PURER financial infrastructure play:
+- 100% financial markets (Ratings + Indices + MI + Commodity Insights)
+- Higher margins (52.5% vs 50.4% pre-spinoff)
+- More predictable/recurring revenue mix
+- Closer comp to MSCI (30x), MCO (25x)
+- Should command 25-27x vs current 24x
+
+**RemainCo value:**
+| Scenario | EV/EBIT | RemainCo Equity Value | Per Share |
+|----------|---------|----------------------|-----------|
+| Bear | 23x | $151.4B | ~$500 |
+| Base | 25x | $165.6B | ~$547 |
+| Bull | 27x | $179.8B | ~$593 |
+
+### Sum-of-Parts vs Current FV
+
+| Component | Bear | Base | Bull |
+|-----------|------|------|------|
+| RemainCo | $500 | $547 | $593 |
+| Mobility spinoff shares | $32 | $39 | $46 |
+| **Total** | **$532** | **$586** | **$639** |
+| vs Current FV $470 | +$62 (+13%) | +$116 (+25%) | +$169 (+36%) |
+
+**Key conclusions:**
+1. Our FV $470 is CONSERVATIVE relative to SOTP ($532-639 range)
+2. The spinoff is VALUE-ACCRETIVE (unlocks $62-169/share of hidden value)
+3. The main risk is execution — separation costs, stranded costs, management distraction
+4. Mobility as standalone may attract PE interest (data businesses at 17-20x EBIT)
+5. RemainCo multiple re-rating is the primary value driver (not Mobility's standalone value)
+
+**Impact on investment decision:**
+- The spinoff STRENGTHENS the SPGI thesis, not weakens it
+- Post-spinoff SPGI is a higher-quality, higher-margin business that deserves a premium multiple
+- Our entry at $420 (pre-spinoff) captures the value unlock at no additional cost
+- KC: "Mobility spinoff destroys >20% of value" — probability LOW based on SOTP analysis
+- Timeline risk: Form 10 Q2 2026, completion mid-to-late 2026. If delayed >12 months, no impact on FV $470 (which doesn't include spinoff premium)
 - **Market Intelligence competitive position vs Bloomberg + AI**: MI is the weakest moat segment. If AI tools can replicate Capital IQ's data access at lower cost, this segment's 32% margins could compress. The 85% subscription retention is reassuring but needs monitoring.
 - **DCF sensitivity is HIGH** (88% FV spread, 74.5% TV). This means any fair value point estimate should be treated with healthy skepticism. The range ($350-570) is more meaningful than the midpoint.
 

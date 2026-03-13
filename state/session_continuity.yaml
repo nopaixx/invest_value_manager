@@ -73,7 +73,7 @@ promises:
   - promise: "Model SPGI Mobility spinoff before Q1 gate date (pre-late April)"
     created_session: 152
     deadline: "S155"
-    status: PENDING
+    status: COMPLETED  # S152c7: SOTP analysis added to thesis. FV $470 conservative vs SOTP $532-639. Spinoff value-accretive.
     broken_count: 0
 
 three_questions:
