@@ -2,11 +2,12 @@
 
 > **Fair Value:** $88 (R3 post-DA resolution)
 > **Expected Growth:** 8% (R3 post-DA. Billings +18%, SASE +40%, rev guide +12%. Buyback ~2%.)
-> Pipeline Stage: R3_COMPLETE (DA complete S149. Investor Day S151: NEUTRAL, FV $88 unchanged. Q1 May 6 = next catalyst.)
+> Pipeline Stage: EXIT APPROVED S152. Committee APPROVE. Late April sell. SPGI rotation target.
 > R1 Fundamental Analysis | Date: 2026-02-26
 > Analyst: fundamental-analyst (opus)
 > Sector View: world/sectors/cybersecurity.md (FRESH, same day)
 > Stage: R4 APPROVED — POSITION OPENED 2026-02-26 (5.98 shares @ $79.12, EUR 400)
+> EXIT: APPROVED S152 (2026-03-13). E[CAGR] 9.4% worst, 3 KCs MONITORING, 4.3% MoS. Rotate to SPGI EUR 400 + best available EUR 375. Late April timing.
 
 ---
 

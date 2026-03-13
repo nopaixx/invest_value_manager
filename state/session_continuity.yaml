@@ -29,14 +29,16 @@ completed:
     - "CPRT SO REACTIVATED: Was ARCHIVED at $38, now $33.97 at 52wL. R3 COMPLETE. Entry $31."
     - "FTNT rotation plan REVISED: MRSH drops out at $170 (below threshold). Secondary: ALFA.L (if ≤165p) > MRSH (if ≤$160) > CPRT (if ≤$31)."
     - "Correction opportunity ranking: ALFA.L #1 (19.4%), DECK #2 (17.5%), CPRT #3 (16%)."
-    - "FDS universe FV data quality issue: shows $400, thesis says $210. Flagged for fix."
-  key_finding: "S152: MRSH R1 reveals $170 is NOT deployment-grade (E[CAGR] 13.6% < 15% Tier B). FTNT rotation plan revised — ALFA.L now primary secondary target. SPGI R4 APPROVED CONDITIONAL (10/10). SPGI thesis header fixed (Error #62). CPRT SO reactivated at 52wL. Correction deepening: WING 1.6%, KNSL 1.9%, STMN.SW at 52wL."
+    - "FDS universe FV FIXED: was $400 (batch scorer error), corrected to $210 (thesis R4). Removed phantom 27% E[CAGR] from rotation candidates."
+    - "FTNT EXIT PROTOCOL COMPLETE: 6-gate analysis + committee APPROVE. Late April sell. E[CAGR] 9.4% worst, 3 KCs MONITORING, 4.3% MoS. SPGI + best available rotation."
+    - "Fallen angels scan: 66 companies with QS≥60 at ≥30% drawdown. Broadest correction since inception."
+  key_finding: "S152: MRSH R1 reveals $170 NOT deployment-grade. SPGI R4 APPROVED (10/10). FTNT EXIT APPROVED by committee — late April, rotate to SPGI EUR 400 + best available EUR 375. FDS FV corrected ($400→$210). 66 fallen angels identified. Correction deepening: WING 1.6%, KNSL 1.9%, STMN.SW at 52wL."
   net_exposure_updated: true
   net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). Same as S151. Macro unchanged intraday. Full deployment in quality per P15. No new short catalysts identified."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: TW 13.5%, BZU.MI 11.8%, FTNT 9.4%. FTNT exit CONFIRMED S151, R4-ready target SPGI APPROVED. Post-FTNT: SPGI EUR 400 + best available EUR 375."
-  velocity_units: 5  # MRSH R1 3-agent (3) + SPGI R4 committee (1) + CPRT SO reactivation (1)
-  velocity_note: "MRSH R1 complete (FA+moat+risk). SPGI R4 APPROVED CONDITIONAL. CPRT SO reactivated. SPGI thesis header fixed. Fallen angels + smart money agents still running."
+  velocity_units: 7  # MRSH R1 3-agent (3) + SPGI R4 committee (1) + CPRT SO reactivation (1) + FTNT EXIT committee (1) + FDS fix (0.5) + fallen angels scan (0.5)
+  velocity_note: "MRSH R1 (FA+moat+risk). SPGI R4 APPROVED. CPRT SO reactivated. SPGI header fixed. FTNT EXIT APPROVED (6-gate + committee). FDS FV corrected. Fallen angels scan 66 companies."
   portfolio_ecagr:
     deployed: 18.6%
     blended: 18.6%
@@ -95,18 +97,20 @@ handoff:
       - "HALO PTAB oral hearings March (exact date TBD)."
       - "CVNA short — oil $97 tailwind. Hold through Q1 May 6."
       - "SPGI: R4 APPROVED CONDITIONAL. Model Mobility spinoff before Q1 gate."
-      - "FTNT EXIT: Committee EXIT Protocol 6 gates needed. Schedule S153/S154."
+      - "FTNT EXIT: COMPLETE. Committee APPROVED. Late April sell. exit_analysis.md + committee_decision_exit.md written."
       - "ALFA.L: Monitor. If drops to 165p → becomes #1 rotation target for FTNT capital."
     P3:
       - "CORRECTION WATCHLIST: CPRT $33.97 (SO $31 reactivated), DECK $100.69 (at entry, R3 done, LULU gate Mar 31), WING $193 (1.6% from trigger, gated May), KNSL $362 (1.9%, gated), STMN.SW CHF 81 (at 52wL, gated)."
-      - "Smart money + fallen angels agent results to process (may complete post-session)."
-      - "FDS universe FV needs correction ($400→$210)."
+      - "SPGI: R4 APPROVED CONDITIONAL. Model Mobility spinoff before Q1 gate date (pre-late April)."
   dedup_signals:
     - "S152: MRSH R1 complete — FV $195, entry $160 (not $170). SO revised. E[CAGR] 13.6% at market < Tier B."
     - "S152: SPGI R4 APPROVED CONDITIONAL. 10/10 gates. EUR 400 when Q1 clears."
     - "S152: SPGI thesis header fixed — Error #62 (FV $511→$470 in parser)."
     - "S152: CPRT SO reactivated at $31. Near 52wL $33.97. R3 COMPLETE, QS 83 Tier A."
     - "S152: FTNT rotation plan revised — MRSH out at $170. ALFA.L primary secondary (if ≤165p)."
+    - "S152: FTNT EXIT APPROVED. 6-gate protocol + committee. Late April. Rotate to SPGI + best available."
+    - "S152: FDS FV corrected $400→$210 in universe (batch scorer error). Entry $175."
+    - "S152: Fallen angels scan: 66 stocks QS≥60 at ≥30% drawdown. Broadest correction since inception."
     - "S152: Portfolio -2.7%. E[CAGR] 18.6%. 0% cash. 99.2% net long."
 
 r1_cooldowns:

@@ -608,7 +608,7 @@ review_flags:
 #     - Buffer/cash if no candidate meets threshold
 #   FALLBACK (if SPGI gate FAILS): SELL FTNT → BUY ALFA.L (EUR 400) + BUY best other (EUR 375)
 #   ACCELERATE TO MAR 26 IF: FTNT drops below $78 (cost basis protection)
-#   REQUIRES: SPGI R4 PENDING (committee launched S152). EXIT Protocol 6 gates needed.
-#   BASKET: Cybersecurity DIES (1→0). Accepted.
-#   SPGI R4: investment-committee running. R3 FV $470. Thesis header FIXED (Error #62).
+#   SPGI R4: APPROVED CONDITIONAL (10/10 gates PASS). committee_decision.md written S152.
+#   FTNT EXIT: 6-gate protocol COMPLETE. exit_analysis.md written S152. Committee running.
+#   BASKET: Cybersecurity DIES (1→0). Accepted. Pipeline: CHKP $125, QLYS $82.
 # =============================================================================
