@@ -37,8 +37,8 @@ completed:
   net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). Same as S151. Macro unchanged intraday. Full deployment in quality per P15. No new short catalysts identified."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: TW 13.5%, BZU.MI 11.8%, FTNT 9.4%. FTNT exit CONFIRMED S151, R4-ready target SPGI APPROVED. Post-FTNT: SPGI EUR 400 + best available EUR 375."
-  velocity_units: 9  # MRSH R1 3-agent (3) + SPGI R4 committee (1) + CPRT SO reactivation (1) + FTNT EXIT committee (1) + FDS fix (0.5) + fallen angels scan (0.5) + ALFA.L R2→R3 advancement (2)
-  velocity_note: "MRSH R1 (FA+moat+risk). SPGI R4 APPROVED. CPRT SO reactivated. SPGI header fixed. FTNT EXIT APPROVED (6-gate + committee). FDS FV corrected. Fallen angels 66. ALFA.L R2→R3 resolved (FV 215p). SPGI Mobility spinoff modeled."
+  velocity_units: 13  # Prior 9 + MRSH R2→R3 (4). Total: MRSH R1(3)+R2→R3(4), SPGI R4(1)+pre-flight(1), ALFA.L R3(2), FTNT EXIT(1), FDS(0.5), fallen angels(0.5)
+  velocity_note: "S152 total (13 units): MRSH full pipeline R1→R2→R3 (7). SPGI R4+pre-flight+Mobility SOTP (2). ALFA.L R3 (2). FTNT EXIT committee (1). FDS fix+fallen angels (1). Form 4 first-ever ingest 1128 txns. Insurance sector view updated."
   portfolio_ecagr:
     deployed: 18.6%
     blended: 18.6%
@@ -96,12 +96,12 @@ handoff:
       - "NVO FDA response (~Mar 19) — review adequacy."
       - "HALO PTAB oral hearings March (exact date TBD)."
       - "CVNA short — oil $97 tailwind. Hold through Q1 May 6."
-      - "SPGI: R4 APPROVED CONDITIONAL. Model Mobility spinoff before Q1 gate."
-      - "FTNT EXIT: COMPLETE. Committee APPROVED. Late April sell. exit_analysis.md + committee_decision_exit.md written."
-      - "ALFA.L: R3 COMPLETE S152. FV 215p, entry 165p. R4 when price approaches entry. #1 secondary target for FTNT exit capital (if ≤165p late April)."
+      - "SPGI: R4 APPROVED. Pre-flight DETAILED. Q1 confirmed May 5. FY2025 gates 2/3 PASS. Mobility spinoff modeled. Execute late April."
+      - "FTNT EXIT: ALL COMPLETE. Committee + exit_analysis + calendar Apr 21. No work needed until execution."
+      - "ALFA.L: R3 COMPLETE. FV 215p, entry 165p. #1 secondary for FTNT capital."
+      - "MRSH: R3 COMPLETE (new). FV $195→$180. Entry $160→$150. DA MODERATE COUNTER. #3 secondary."
     P3:
-      - "CORRECTION WATCHLIST: CPRT $33.97 (SO $31 reactivated), DECK $100.69 (at entry, R3 done, LULU gate Mar 31), WING $193 (1.6% from trigger, gated May), KNSL $362 (1.9%, gated), STMN.SW CHF 81 (at 52wL, gated)."
-      - "SPGI: R4 APPROVED CONDITIONAL. Model Mobility spinoff before Q1 gate date (pre-late April)."
+      - "CORRECTION WATCHLIST: CPRT $33.97 (SO $31), DECK $100.69 (at entry, gated LULU Mar 31), WING $193 (1.6%, gated May), KNSL $362 (1.9%, gated), STMN.SW CHF 81 (52wL, gated)."
   dedup_signals:
     - "S152: MRSH R1 complete — FV $195, entry $160 (not $170). SO revised. E[CAGR] 13.6% at market < Tier B."
     - "S152: SPGI R4 APPROVED CONDITIONAL. 10/10 gates. EUR 400 when Q1 clears."
@@ -121,7 +121,13 @@ handoff:
     - "S152c10: Smart money — HLNE insider cluster $3.24M STRONG BULL. EDEN.PA SI +0.68pp (noise). SPGI 7 quality funds (validation). CPRT Akre $308M."
     - "S152c10: Basket recalibration — UK Digital Platforms renamed UK Quality Leaders (DNLM.L retail). GDDY → US QC. SPGI → Data & Analytics. Cybersecurity → RESEARCHING."
     - "S152c10: Thesis staleness audit — ALL positions <7 days since last review. No refresh needed. Portfolio at peak freshness post-DA audit cycle."
-    - "S152c11: ALFA.L R3 COMPLETE. FV 235p→215p (-8.5%, cumulative -18.9% from R1). Growth 8%→6%. Thesis header updated. r3_resolution.md updated. E[CAGR] 13.6% at market, ~17% at entry 165p."
+    - "S152c11: ALFA.L R3 COMPLETE. FV 235p→215p (-8.5%, cumulative -18.9% from R1). Growth 8%→6%. E[CAGR] 13.6% at market, ~17% at entry 165p."
+    - "S152c11: SPGI pre-flight DETAILED. Q1 CONFIRMED May 5. FY2025 gates: FCF 35.9% PASS, MI organic 5-7% PASS, receivables PENDING. Execute late April."
+    - "S152c11: Form 4 insider data FIRST-EVER ingest. 1128 txns across 61 tickers. DNLM.L 13 insiders $19.9M cluster buy = STRONG BULL. HLNE 4 insiders $3.24M. CPRT Akre+Wedgewood convergence."
+    - "S152c11: Calendar updated — SPGI Q1 May 5 confirmed. FTNT EXIT WINDOW Apr 21 added."
+    - "S152c12: MRSH R2 DA COMPLETE. MODERATE COUNTER (7 HIGH/0 CRITICAL). FV recommendation $175-180. Greensill $650M→$1.15B. AI disruption for MMA. Growth 7%→5-6%."
+    - "S152c13: MRSH R3 COMPLETE. FV $195→$180 (-7.7%). Entry $160→$150. Growth 5%. 15.5x EV/EBIT. KC#9 added (MMA AI). HALF position pre-trial. #3 for FTNT exit capital."
+    - "S152c14: Insurance sector view updated — MRSH FV/entry/ticker corrected. Historial entry added."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
