@@ -116,19 +116,19 @@ standing_orders:
   - ticker: MRSH
     action: BUY
     category: GATED
-    fill_prob_6m: 20
-    trigger: "<=$160"
-    current_distance: "6.4%"
+    fill_prob_6m: 15
+    trigger: "<=$150"
+    current_distance: "12.2%"
     created_date: "2026-02-14"
-    staleness_status: RECALIBRATED  # S152 R1 COMPLETE: FV $195 (was $190), entry revised $170→$160. E[CAGR] at $170=13.6% < 15% Tier B threshold.
+    staleness_status: RECALIBRATED  # S152 R3 COMPLETE: FV $195→$180 (DA -7.7%), entry $160→$150. E[CAGR] at $150=15.9% ≥ 15% Tier B.
     gate: "Greensill trial Aug 2026. Half-position pre-trial. If adverse >$3B → CANCEL."
     size_eur: 200
-    fair_value: "$195 (R1 S152, was $190)"
-    mos_at_trigger: "17.9%"
+    fair_value: "$180 (R3 S152, was $195 R1. DA: 15.5x EV/EBIT, growth 5%, Greensill $900M.)"
+    mos_at_trigger: "16.7%"
     tier: "B (QS 64/68 adj)"
     ecagr_at_trigger: "~15.9%"
-    notes: "R1 COMPLETE S152. WIDE moat (#1 global broker, switching costs, data moat). HIGH risk (Greensill A$7B trial Aug 2026, P&C rate softening, leverage 2.4x, $18.8B net debt). FV $195 multi-method (P/E 24x=$193, EV/EBIT 17.5x=$189, P/FCF 30x=$199). Entry $160 for 15.9% E[CAGR] > 15% Tier B threshold. At $170.88 (current), E[CAGR] only 13.6% = BELOW threshold. HALF POSITION — Greensill binary. KC#4: adverse >$3B = CANCEL."
-    kill_conditions: "KC1-8: organic rev negative 2Q, ND/EBITDA >3x, ROIC<WACC 2yr, Greensill judgment >$3B, McGriff rev leakage >20%, regulatory fiduciary action, consulting -5% organic 2Q, CEO/CFO departure"
+    notes: "R3 COMPLETE S152. DA MODERATE COUNTER (7 HIGH). FV $195→$180: organic 4% doesn't justify 17x EV/EBIT, Greensill $650M→$900M expected, M&A constrained. Entry $160→$150 for 16.7% MoS. At $170.88, E[CAGR] ~10.6% = BELOW 15% Tier B threshold. HALF POSITION — Greensill binary. KC#9 added (MMA AI disruption). #3 candidate for FTNT exit capital after ALFA.L and CPRT."
+    kill_conditions: "KC1-9: organic rev negative 2Q, ND/EBITDA >3.5x, ROIC<WACC 2yr, Greensill judgment >$3B, McGriff rev leakage >20%, regulatory fiduciary action, consulting -5% organic 3Q, CEO/CFO departure, MMA organic <2% 2Q (AI disruption)"
     last_analysis_date: 2026-03-13
     expiry: 2026-10-01
 
@@ -598,13 +598,13 @@ review_flags:
 #   EXIT IS UNCONDITIONAL — not contingent on FTNT Q1 May outcome.
 #   TIMING: late April, simultaneous with SPGI Q1 gate clearance.
 #
-#   ** S152 REVISION: MRSH at $170 is BELOW Tier B threshold (E[CAGR] 13.6% < 15%). **
-#   ** R1 COMPLETE: FV $195, entry $160. MRSH needs to drop another 6% to be buyable. **
+#   ** S152 R3: MRSH FV $195→$180, entry $160→$150. DA MODERATE COUNTER (7 HIGH). **
+#   ** At $170.88, E[CAGR] 10.6% = BELOW 15% Tier B. Needs 12.2% decline to reach $150. **
 #
 #   PRIMARY: SELL FTNT (~EUR 775) → BUY SPGI (EUR 400) + BEST AVAILABLE (EUR 375)
 #     "Best available" at late April prices:
 #     - ALFA.L (if <=165p, E[CAGR] ~17%, FV 215p R3 updated S152) — R3 complete, DA MODERATE COUNTER
-#     - MRSH (if <=$160, E[CAGR] 15.9%) — Greensill binary, half-position
+#     - MRSH (if <=$150, E[CAGR] ~15.9%) — R3 COMPLETE, FV $180, Greensill binary, half-position
 #     - CPRT (if <=$31, E[CAGR] ~16%) — Salvage duopoly, R3 complete
 #     - Buffer/cash if no candidate meets threshold
 #   FALLBACK (if SPGI gate FAILS): SELL FTNT → BUY ALFA.L (EUR 400) + BUY best other (EUR 375)

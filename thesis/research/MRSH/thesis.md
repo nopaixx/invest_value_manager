@@ -1,8 +1,8 @@
-> **Fair Value:** $195
-> **Entry:** $160
-> **Expected Growth:** 7%
-> **Pipeline Stage:** R1_COMPLETE
-> **Standing Order:** WATCHLIST — not yet. See Greensill sizing constraint.
+> **Fair Value:** $180 (R3 resolved S152. Was $195 R1. DA -7.7%: organic 4% doesn't justify 17x, Greensill $900M expected, M&A capacity constrained.)
+> **Entry:** $150 (R3 revised from $160. MoS 16.7% vs $180 FV.)
+> **Expected Growth:** 5%
+> **Pipeline Stage:** R3_COMPLETE
+> **Standing Order:** WATCHLIST — SO $150. HALF position (~EUR 200) pre-Greensill trial (Aug 2026). Full after resolution.
 > **QS Tool:** 64/100 (Tier B)
 > **QS Adjusted:** 68/100 (Tier B) — +4 for market position (#1 globally, 0/8 in tool)
 

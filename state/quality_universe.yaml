@@ -270,24 +270,24 @@ quality_universe:
     r1_verdict: ACTIONABLE
     r1_session: 92
     distance_delta: -8.2
-  - ticker: MMC
-    name: Marsh & McLennan Companies, Inc
-    qs_tool: 68
+  - ticker: MRSH
+    name: Marsh (fka Marsh & McLennan)
+    qs_tool: 64
     qs_adj: 68
     tier: B
     sector: Insurance (Broker)
-    fair_value: 190.0
-    entry_price: 155.0
+    fair_value: 180.0
+    entry_price: 150.0
     currency: USD
-    current_price: 182.7
-    distance_to_entry: 17.9
-    pipeline_status: STANDING_ORDER
-    thesis_path: thesis/research/MMC/thesis.md
-    last_scored: '2026-02-14'
+    current_price: 170.88
+    distance_to_entry: 12.2
+    pipeline_status: R3_COMPLETE
+    thesis_path: thesis/research/MRSH/thesis.md
+    last_scored: '2026-03-13'
     last_price_check: '2026-03-13'
-    notes: R4 APPROVED. Standing order $155 HALF POSITION (EUR 200). Greensill A$7B trial Aug 2026. 7 KCs.
+    notes: 'R3 COMPLETE S152. FV $195→$180 (DA -7.7%). Entry $160→$150. Growth 5%. Greensill $900M expected. HALF position (EUR 200) pre-trial Aug 2026. 9 KCs.'
     direction: long
-    distance_delta: 0.0
+    distance_delta: -8.2
   - ticker: WRB
     name: W.R. Berkley Corporation
     direction: long

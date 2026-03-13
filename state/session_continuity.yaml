@@ -159,5 +159,5 @@ r1_cooldowns:
   BZU.MI: { date: "2026-03-13", session: 151, verdict: "R2 DA COMPLETE. MODERATE COUNTER, FV EUR 57→51. 3 HIGH. KC#6 added. E[CAGR] 12.1%. HOLD at 3.5%." }
   FOUR.L: { date: "2026-03-13", session: 151, verdict: "FY2025 CONDITIONAL PASS. FV 4400→4000p. DEFERRED. Monitor Q1 Jun 2026." }
   ZTS: { date: "2026-03-13", session: 151, verdict: "R1 REFRESH CIO CORRECTED. FV $130 (was $155). QS 78 Tier A. WATCHLIST $105. Apoquel patent Nov 2026 CRITICAL." }
-  MRSH: { date: "2026-03-13", session: 152, verdict: "R1 COMPLETE. FV $195, entry $160, QS 64/68 Tier B. WIDE moat. HIGH risk (Greensill). SO revised $170→$160." }
+  MRSH: { date: "2026-03-13", session: 152, verdict: "R3 COMPLETE. FV $195→$180 (-7.7%). DA MODERATE COUNTER (7 HIGH). Entry $160→$150. Growth 7%→5%. Greensill $650M→$900M. 15.5x EV/EBIT. KC#9 added (MMA AI). HALF position pre-trial." }
   ALFA.L: { date: "2026-03-13", session: 152, verdict: "R3 COMPLETE. FV 235p→215p (-8.5%). DA MODERATE COUNTER resolved. NRR 109% (KC#9 added). Receivables RESOLVED. UK concentration RESOLVED (2nd post-MONY.L). Entry 165p. E[CAGR] ~17% at entry, ~14% at market. R4 when price ≤165p." }
