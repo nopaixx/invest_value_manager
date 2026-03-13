@@ -29,13 +29,15 @@ completed:
     - "Insider scan: HLNE cluster $3.2M STRONG (all below current cost). TW CEO selling $9.1M (ongoing, in thesis). DOCS/ADBE immaterial."
     - "Pipeline: LOPE R4 WATCHLIST, MRSH R3 GATED, ALFA.L R3 approaching, ZTS R1 at 52w low (gated May), KNSL R1 near trigger (caution: insider selling + SI surge)."
     - "ZTS committee/SO discrepancy: R4 said $95 entry (Feb 14 on $120 FV), SO says $105 (Mar 13 on $130 FV refresh). Both GATED on Q1 May."
-  key_finding: "S155: NYSE open scan — correction positions well-held (8/11 thesis improvements via MoS expansion). CVNA short +5.5%. FOMC prep complete. Pipeline deep but gated. Post-Apr FTNT capital (~EUR 775) targets ALFA.L 165p and SPGI $420."
+    - "Nuclear/AI energy basket: CEG QS 24, VST QS 26 = Tier D. ROIC < WACC. Narrative stocks, not quality. Theme KILLED."
+    - "Tools audit: rf 4.5%, erp 5.5%, carry 7.5%, WACC default 9%. All acceptable for current conditions. No critical hardcoded staleness."
+  key_finding: "S155: NYSE open scan — CVNA short +5.5%, FOMC prep complete, pipeline deep but gated. Nuclear basket killed (Tier D). Tools clean. Correction expanding MoS. Post-Apr FTNT capital targets ALFA.L 165p + SPGI $420."
   net_exposure_updated: true
   net_exposure_reasoning: "99.2% net long + 0.8% short. Correction deepening but all theses hold. Quality positions benefiting from MoS expansion. No cash to deploy. FOMC Tue = key risk event. Portfolio 80%+ oil-neutral."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: FTNT 9.5% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26. All consistent with plan."
-  velocity_units: 3  # NYSE open scan + SO audit (1u), insider Form4 scan (1u), pipeline assessment (1u)
-  velocity_note: "S155: Real-time market scan with prices. CVNA checked. FOMC verified. Insider data refreshed. Pipeline depth confirmed. Tools + baskets agents running background."
+  velocity_units: 4  # NYSE open scan + SO audit (1u), insider Form4 scan (1u), pipeline assessment (1u), nuclear basket QS killed (1u)
+  velocity_note: "S155: Real-time scan all positions + CVNA. FOMC verified. Insider data refreshed. Pipeline depth confirmed. Nuclear basket killed (CEG/VST Tier D). Tools audited clean."
   portfolio_ecagr:
     deployed: 18.4%
     blended: 18.4%
