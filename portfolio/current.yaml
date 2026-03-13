@@ -184,10 +184,10 @@ positions:
     date_opened: 2026-03-13
     thesis: thesis/active/BZU.MI/thesis.md
     conviction: medium
-    fair_value: "EUR 57 (R4 committee weighted. R3 post-DA. QS 73/75adj Tier B.)"
+    fair_value: "EUR 51 (R3 post-DA resolution S151. Was EUR 57 R4. DA: through-cycle EBIT EUR 780M, oil $97 headwind, US demand 3yr decline. QS 73/75adj Tier B.)"
     last_review: 2026-03-13
-    exit_plan: "HOLD. TRIM at EUR 55+. ADD at EUR 35 (MoS 39%). SELL if KC triggered (US EBITDA margin <30% 2yr, net debt >2x EBITDA, family <40%, Russia writedown >EUR 500M, ROIC <WACC 2yr). Through-cycle EBIT EUR 850M at 10.5x. Next catalyst: FY2025 full results."
-    notes: "BUY S151. R4 APPROVED S143c10 (10/10 gates PASS). Italian cement, Buzzi family 53%. EUR 200M buyback active. Standalone (no basket). E[CAGR] 15.9% at EUR 42. DA MODERATE COUNTER (3 HIGH resolved). Edge thin (~5% vs consensus)."
+    exit_plan: "HOLD. TRIM at EUR 50+. ADD at EUR 35 (MoS 31%). SELL if KC triggered (US EBITDA margin <30% 2yr, net debt >2x EBITDA, family <40%, Russia writedown >EUR 500M, ROIC <WACC 2yr, Brent >$95 6mo + margin -5pp). Through-cycle EBIT EUR 780M at 10x. No ADD until FY2025 formal results."
+    notes: "S151 DA RESOLUTION: FV EUR 57→51 (-10.5%). DA MODERATE COUNTER (3 HIGH: US demand 3yr decline, oil $97 headwind, timing premature). Edge limited (~5% vs consensus). E[CAGR] ~11.8% at EUR 41.50 — below 15% Tier B but position small (3.5%), defensible as cyclical recovery bet. KC#6 added (oil). DO NOT ADD."
 
 # =============================================================================
 # SHORT POSITIONS - CFDs en eToro

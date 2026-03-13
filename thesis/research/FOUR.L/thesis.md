@@ -507,7 +507,45 @@ Since R3 (Feb 14), tariff landscape has WORSENED:
 
 ---
 
-## Veredicto: WATCHLIST --- PENDING EARNINGS (Mar 18, corrected from Mar 11)
+## Section 9.8: FY2025 Results Assessment (Released Mar 11, 2026)
+
+> **Scored S151 (2026-03-13). Results released Mar 11, NOT Mar 18 as calendar indicated.**
+
+### Actual Results vs Section 9 Framework
+
+| Metric | BEAT | PASS | FAIL | **Actual** | **Score** |
+|--------|------|------|------|-----------|-----------|
+| Revenue FY2025 | >$1.37B | $1.33-1.37B | <$1.33B | **$1.35B (-1.5%)** | **PASS** |
+| Operating Margin | >11.0% | 10.0-11.0% | <10.0% | **10.8%** | **PASS** |
+| Gross Margin | >32.0% | 30.0-32.0% | <30.0% | **~32%** | **PASS (borderline)** |
+| New Customer Orders | <-5% | -5% to -12% | >-15% | **-12%** | **PASS (bottom)** |
+| Cash Position | >$140M | $120-140M | <$100M | **$132.8M** | **PASS** |
+| 2026 Revenue Guide | >$1.40B | $1.35-1.40B | <$1.35B | **"slightly down vs 2025"** | **CONDITIONAL** |
+| Dividend | Special/buyback | Maintained | Cut | **240.0c** | **PASS** |
+
+### Verdict: CONDITIONAL PASS (Scenario 3, 30% probability)
+
+**Key findings:**
+1. **OM held at 10.8%** — above the 10% gate. Business model functioning.
+2. **New customers -12%** = bottom of PASS range. KC#5 Year 2 watch. If -12%+ continues in H1 2026 → KC#1 Year 2 = FIRED.
+3. **2026 guidance weak** — "slightly down vs 2025" with tariff uncertainty. Does NOT meet PASS criteria ($1.35-1.40B). Board cautious.
+4. **Cash declined** $147.6M→$132.8M (still PASS range). No buyback announced.
+5. **New Chair** Paul Forman effective Mar 16.
+6. **Industry recovery participation** — UNRESOLVED. "Orders and revenue slightly down" in early 2026 = industry is recovering but 4imprint is NOT yet participating. This is the BEARISH reading of Section 9.2.
+
+### Action per Section 9.3 CONDITIONAL:
+- **DEFER R4.** Do NOT run committee.
+- **Revise FV:** 4,400→4,000p (reflect weaker guide + tariff risk + mktg efficiency concern).
+- **Revised entry:** 3,000-3,200p (from 3,400p).
+- **Monitor Q1 2026** results (~June 2026) before committing.
+- **KC#5 Year 2 ESCALATED.** If H1 2026 new customer decline continues → FIRED → AVOID.
+
+### Price Context:
+Current 3,490p is ABOVE revised entry range 3,000-3,200p. No action. Would need ~10-13% decline to reach entry.
+
+---
+
+## Veredicto: WATCHLIST --- CONDITIONAL PASS, DEFERRED (originally PENDING EARNINGS)
 
 **Rationale:**
 - QS 72 Tier B with 38% MoS is WELL within precedent range for a BUY

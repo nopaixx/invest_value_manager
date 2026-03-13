@@ -183,7 +183,9 @@ LTV/CAC: Estimated >10x (exceptional)
 6. **Oral GLP-1 achieves comparable efficacy to injectable at scale** — If Novo's own oral semaglutide OR a competitor's oral GLP-1 (Pfizer danuglipron, Viking VKTX, etc.) achieves >80% of injectable weight loss efficacy with better convenience, the premium injectable franchise faces margin compression. Oral is cheaper to manufacture and distribute. Paradoxically, even Novo's OWN oral success could cannibalize higher-margin injectable revenue. Monitor: oral GLP-1 Phase III data, Rybelsus vs Wegovy head-to-head, pricing differentials.
 7. **Gene therapy or one-shot obesity cure eliminates chronic dosing model** — NVO's entire revenue model depends on CHRONIC treatment (patients take GLP-1 indefinitely). If a gene therapy, one-time injection, or surgical innovation achieves permanent weight loss, the recurring revenue model collapses. Low probability (<5% in 5 years) but catastrophic impact. Monitor: obesity gene therapy trials, bariatric surgery innovation, GLP-1 discontinuation studies.
 
-### Kill Conditions Status (2026-03-08)
+### Kill Conditions Status (2026-03-13)
+
+> **S151 UPDATE:** FDA warning letter (Mar 5, published Mar 10) for adverse event reporting violations. 3 unreported deaths including suicide on semaglutide. PROCEDURAL, not drug safety — requires corrective action, not product recall. Company responding within 2 weeks (by Mar 19). Hims & Hers partnership announced Mar 9 — POSITIVE (eliminates compounder threat, new distribution channel). Neither changes KCs.
 
 | KC# | Condition | Status | Notes |
 |-----|-----------|--------|-------|

@@ -4,10 +4,10 @@
 
 Buzzi is the most profitable cement company globally, with 53% family ownership, net cash balance sheet, and 30-year 15% EPS CAGR. US operations (38% EBITDA margin) alone may be worth close to the entire enterprise value. At 6.8x EV/EBITDA vs peers at 9-12x, Kerrisdale Capital targets EUR 85. However, cement is deeply CYCLICAL and current margins are near cyclical peaks -- the P/E of 9.8x may reflect peak earnings rather than cheapness. Through-cycle EV/EBIT analysis suggests fair value of EUR 51-55, meaning limited MoS at current EUR 49.54.
 
-> **Fair Value:** EUR 57 (R4 committee weighted: EV/EBIT 60% + EV/EBITDA 40%. R3 post-DA.)
+> **Fair Value:** EUR 51 (R3 post-DA resolution S151. Was EUR 57 R4. DA MODERATE COUNTER: through-cycle EBIT EUR 780M not 850M, oil $97 headwind, US demand 3yr decline.)
 > **Expected Growth:** 3% (GDP-level cement organic + 2.1% buyback accretion)
 > **QS:** 73 tool / 75 adjusted (Tier B treatment)
-> **Kill Conditions:** KC#1 US EBITDA margin <30% 2yr, KC#2 net debt >2x EBITDA, KC#3 family <40%, KC#4 Russia writedown >EUR 500M, KC#5 ROIC <WACC 2yr
+> **Kill Conditions:** KC#1 US EBITDA margin <30% 2yr, KC#2 net debt >2x EBITDA, KC#3 family <40%, KC#4 Russia writedown >EUR 500M, KC#5 ROIC <WACC 2yr, KC#6 Brent >$95 sustained 6mo AND EBITDA margin compression >5pp (oil cost headwind)
 
 ## Quality Score
 

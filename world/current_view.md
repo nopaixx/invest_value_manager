@@ -12,7 +12,7 @@
 - **MATERIAL: BZU.MI EXECUTED.** Market buy EUR 370 at EUR 42. 11th long. Italian cement, R4 approved.
 - **UPCOMING: FOMC Mar 18 + dot plot** — NOW EVEN MORE CRITICAL with oil at $97. 0 cuts for 2026 = further selloff.
 - **UPCOMING: FOUR.L FY2025 Mar 18, BoE Mar 20, HLNE ex-div Mar 20, MONY.L ex-div+sell Mar 26.**
-- **PORTFOLIO: 11 longs + 1 short, EUR 0 cash.** GDDY deeply triggered ($80.75 vs $90 SO). 7 SOs triggered/near. MONY.L sell Mar 26 = EUR 888 capital event.
+- **PORTFOLIO: 11 longs + 1 short, EUR 0 cash.** GDDY deeply triggered ($80.75 vs $90 SO). 7 SOs triggered/near. Mar 26 capital event: MONY.L sell (~EUR 716) + NVO trim (~EUR 472) = ~EUR 1,190 → GDDY EUR 720 + DNLM.L ~EUR 440.
 
 **SECTOR IMPACT -- Oil $85 / Hormuz Two-Tier / Crisis Stabilizing:**
 

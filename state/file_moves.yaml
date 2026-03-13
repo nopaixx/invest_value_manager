@@ -170,6 +170,14 @@ moves:
     triggered_by: "portfolio-ops: BUY confirmation (human confirmed execution S151)"
     note: "Active copies created with updated thesis header (FV, Expected Growth, KCs added). Research originals DELETED to avoid duplicates."
 
+  - date: 2026-03-13
+    file: thesis/short/research/CVNA/* (committee_decision.md, q4_2025_results_analysis.md, s3_resolution.md)
+    from: thesis/short/research/CVNA/
+    to: thesis/short/active/CVNA/
+    reason: "Short position OPEN (0.31 shares @ $318.77) but thesis never moved from research to active. Corrective housekeeping."
+    triggered_by: "CIO direct instruction via file-system-manager"
+    note: "Research originals DELETED to avoid duplicates."
+
 # Format:
 #   - date: 2026-01-31
 #     file: thesis/research/SHEL/thesis.md

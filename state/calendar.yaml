@@ -34,12 +34,9 @@ events:
     priority: high
     action: "ACTIVE POSITION (10.57 shares, EUR 862). FV $88. E[CAGR] 9.7% = 2nd worst. Section 9 Investor Day Framework READY in thesis. Key: SASE ARR, ASIC roadmap, CVE response, FY27 guide. Bull→FV $95-100, Bear→FV $75-80 (rotation candidate)."
 
-  - date: 2026-03-18
-    type: earnings_pipeline
-    ticker: FOUR.L
-    event: "4imprint FY2025 Results — HARD GATE for entry (CORRECTED from Mar 11)"
-    priority: high
-    action: "R3 complete (FV 4400p, entry 3400p, QS 69 Tier B). HARD GATE: must review results before R4/SO. PASS criteria: OP margin >=10%, Q4 sequential improvement, 2026 guidance stable, no KCs triggered, marketing efficiency clarity. KC#5 Year 1 of 2 ACTIVE (market share loss). If PASS → run R4 same session → set SO 3400p."
+  # FOUR.L ARCHIVED S151: FY2025 results released Mar 11 (not Mar 18). CONDITIONAL PASS.
+  # Revenue $1.35B PASS. OM 10.8% PASS. New cust -12% PASS (bottom). 2026 guide "slightly down" = CONDITIONAL.
+  # FV revised 4,400→4,000p. Entry 3,000-3,200p. Price 3,490p = ABOVE revised entry. DEFER R4. Monitor Q1 2026 (~Jun).
 
   - date: 2026-03-20
     type: ex_dividend
@@ -54,14 +51,16 @@ events:
     event: "CAPITAL DEPLOYMENT DAY — MONY.L sell + NVO trim + GDDY buy + DNLM.L buy"
     priority: CRITICAL
     action: |
-      EXECUTION PLAN (4 trades, EUR 1,362 capital):
-      1. MONY.L: SELL 384 shares post ex-div (~168p). Proceeds ~EUR 888.
-      2. NVO: TRIM 14.3 shares at market (~$38). Proceeds ~EUR 474. KC#1 triggered orphan.
-      3. GDDY: BUY EUR 720 at market if ≤$90 (R4 APPROVED, E[CAGR] 25.2%, 12/12 KCs clear).
-      4. DNLM.L: BUY EUR 388 at market if ≤950p (pre-flight DONE, E[CAGR] 14.5%).
-      Buffer: ~EUR 254. If GDDY >$90: reallocate to DNLM.L full + ALFA.L if 165p.
-      NVO ex-div Mar 30 — trim BEFORE ex-div (DKK 5.30/share = $0.71 = ~$10 on 14.3 shares = negligible vs rotation E[CAGR] gain).
+      EXECUTION PLAN (4 trades, EUR ~1,190 capital) — CORRECTED S151c17:
+      1. MONY.L: SELL 384 shares post ex-div (~161p). Proceeds ~EUR 716. Dividend ~EUR 28 arrives ~Apr.
+         CORRECTION: Original EUR 888 was USD invested amount, not EUR proceeds. Actual GBP 618 × 1.16 = EUR 716.
+      2. NVO: TRIM 14.3 shares at market (~$38). Proceeds ~EUR 472. KC#1 triggered orphan.
+      3. GDDY: BUY EUR 720 at market if ≤$90 (R4 APPROVED, E[CAGR] 25.2%, 12/12 KCs clear). PRIORITY #1.
+      4. DNLM.L: BUY EUR ~440 at market if ≤950p (pre-flight DONE, E[CAGR] 15.7% at 855p). Gets remainder after GDDY.
+      Buffer: ~EUR 30. If GDDY >$90: reallocate full remaining to DNLM.L (~EUR 1,160).
+      NVO ex-div Mar 30 — trim BEFORE ex-div.
       CONTINGENCY: If FOMC Mar 18 DOVISH → reconsider NVO trim (growth re-rates).
+      FX SENSITIVITY: GBP/EUR and EUR/USD rates on Mar 26 will affect exact amounts. Prices are Mar 13 snapshots.
 
   # LULU: ARCHIVED S142. Position EXITED S141 (sold, P&L -1.0%). No longer relevant.
   # LULU framework deadline Mar 14 and earnings Mar 17 — ARCHIVED.
