@@ -3207,9 +3207,9 @@ quality_universe:
   - ticker: CELH
     name: Celsius Holdings, Inc.
     direction: long
-    qs_tool: 79
-    qs_adj: 79
-    tier: A
+    qs_tool: 55
+    qs_adj: 55
+    tier: B
     sector: Consumer Defensive
     fair_value: 0
     entry_price: 0
@@ -3809,9 +3809,9 @@ quality_universe:
   - ticker: MEDP
     name: Medpace Holdings, Inc.
     direction: long
-    qs_tool: 65
-    qs_adj: 65
-    tier: B
+    qs_tool: 75
+    qs_adj: 75
+    tier: A
     sector: Healthcare
     fair_value: 0
     entry_price: 0
