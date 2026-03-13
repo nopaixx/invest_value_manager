@@ -154,4 +154,4 @@ r1_cooldowns:
   FOUR.L: { date: "2026-03-13", session: 151, verdict: "FY2025 CONDITIONAL PASS. FV 4400→4000p. DEFERRED. Monitor Q1 Jun 2026." }
   ZTS: { date: "2026-03-13", session: 151, verdict: "R1 REFRESH CIO CORRECTED. FV $130 (was $155). QS 78 Tier A. WATCHLIST $105. Apoquel patent Nov 2026 CRITICAL." }
   MRSH: { date: "2026-03-13", session: 152, verdict: "R1 COMPLETE. FV $195, entry $160, QS 64/68 Tier B. WIDE moat. HIGH risk (Greensill). SO revised $170→$160." }
-  ALFA.L: { date: "2026-03-13", session: 152, verdict: "R2 DA LAUNCHED. R1: FV 235p, QS 80/83 Tier A. E[CAGR] 19.4% at 176p. #1 secondary target for FTNT capital." }
+  ALFA.L: { date: "2026-03-13", session: 152, verdict: "R2 DA COMPLETE. MODERATE COUNTER. FV 235p→210-225p (NRR decline, FX, SE rev down). Bear 169p. Entry 165p maintained. E[CAGR] ~15% at DA-adjusted FV. Receivables RESOLVED. CHP overhang HIGH. Do NOT market-buy at 177p." }

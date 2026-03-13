@@ -38,24 +38,27 @@ baskets:
     sector_views:
       - world/sectors/technology.md
     positions:
-      - ADBE    # Creative/document cloud, QS 76 Tier A (FTC headwind). Earnings Mar 12.
+      - ADBE    # Creative/document cloud, QS 76 Tier A (FTC headwind). Q1 beat Mar 12.
       - HLNE    # Alt asset management, QS 82 Tier A — highest QS in portfolio
       - DOCS    # Physician network, QS 79 Tier A — 85% monopoly
+    entering:
+      - GDDY    # BUY Mar 26. SMB domain + hosting, QS 75adj Tier A. R4 APPROVED. 31.8% FCF margin.
     pipeline:
       - VRSN    # Domain registry, QS 86adj Tier A, R4 APPROVED, SO $210
     shared_risks:
       - "USD strength reducing EUR-denominated returns"
       - "US market multiple compression"
       - "FTC antitrust actions (ADBE active trial Oct 2026)"
+      - "Insider selling pattern (GDDY CEO 48 sells, 0 buys)"
     kill_conditions:
       - "US enters stagflation (GDP <0% + inflation >5%)"
       - "2+ positions hit individual KCs simultaneously"
     vitality_signals:
-      positive: ["HLNE highest QS 82, Q3 beat", "DOCS 85% physician monopoly", "VRSN QS 86adj in pipeline"]
-      negative: ["ADBE FTC trial Oct 2026", "DOCS MFN risk (16/20 clients)", "Slimmed from 5 to 3 — less diversified"]
-    last_reviewed: 2026-03-06
+      positive: ["HLNE highest QS 82, insider cluster $3.2M", "DOCS 85% physician monopoly", "GDDY entering Mar 26 = 4 positions", "VRSN QS 86adj in pipeline", "ADBE Q1 beat, AI ARR tripled"]
+      negative: ["ADBE FTC trial Oct 2026", "DOCS MFN risk (16/20 clients)", "GDDY insider selling pattern"]
+    last_reviewed: 2026-03-13
     created: 2026-02-22
-    notes: "S143: HLNE ADD EUR 600 (>10% confirmed), DOCS ADD EUR 600. Positions significantly sized. VRSN (QS 86adj) is priority pipeline. Basket total ~30% of portfolio."
+    notes: "S152: GDDY entering Mar 26 as 4th position (R4 APPROVED, E[CAGR] 25.2% at $80.75). ADBE post-Q1 beat confirmed. Basket will be 4 positions (~34% portfolio) = largest basket. VRSN (QS 86adj) at $210 SO is priority pipeline for 5th slot."
 
   - id: cybersecurity
     name: "Cybersecurity"
@@ -91,41 +94,45 @@ baskets:
     created: 2026-03-06
     notes: "S152: FTNT EXIT APPROVED. Downgraded BUILDING→RESEARCHING. CHKP SO $125 (24.6% away), QLYS SO $82 (16.9%). If neither reaches entry by Sep 2026, evaluate basket death. FTNT re-entry possible at $73 (E[CAGR] ~14%)."
 
-  - id: uk-digital-platforms
-    name: "UK Digital Platforms"
+  - id: uk-quality-leaders
+    name: "UK Quality Leaders"
     status: ACTIVE
     theme_vitality: ALIVE
     thesis: >
-      UK digital platforms with dominant market positions (>50% share), high ROIC
-      (>20%), recurring revenue models, and structural tailwinds from offline-to-online
-      migration. GBP exposure is a shared risk. UK consumer confidence is the shared
-      macro driver. AI disruption is the shared structural risk (varying by sub-sector).
-      BYIT.L removed S141 — it's a Microsoft VAR, not a digital platform.
+      UK-listed companies with dominant market positions (>30% share), high ROIC
+      (>15%), recurring/habitual revenue, and structural tailwinds. GBP exposure is
+      shared risk. UK consumer confidence is shared macro driver.
+      S152: Renamed from "UK Digital Platforms" — DNLM.L (homewares retail, not digital)
+      joining Mar 26. Broader name accommodates quality UK leaders across sub-sectors.
+      MONY.L selling Mar 26 (rotation, E[CAGR] 13.7% = lowest in basket). IHP.L is
+      quality anchor. DNLM.L adds consumer retail diversification. ALFA.L in pipeline.
     thesis_file: thesis/baskets/uk-digital-platforms/thesis.md
     sector_views:
       - world/sectors/digital-marketplaces.md
+      - world/sectors/consumer-discretionary.md
     positions:
-      - MONY.L   # Price comparison, QS 75 Tier A borderline
+      - MONY.L   # SELLING Mar 26. Price comparison, QS 75.
       - IHP.L    # Adviser platform, QS 80 Tier A — quality anchor
-      # AUTO.L SOLD S150 (2026-03-08) — Rotation R0, E[CAGR] 12.1% = 2nd worst
+      # AUTO.L SOLD S150 (2026-03-08) — Rotation R0
+    entering:
+      - DNLM.L   # BUY Mar 26. UK homewares #1, QS 79 Tier A, 38.5% insider
     pipeline:
-      - DNLM.L   # Homewares e-commerce, QS 79 Tier A, SO 950p — UNBLOCKED S143 (DOM.L + BYIT.L sold, now 4th UK)
-      - ALFA.L   # Auto dealer platform, R4 gated Mar 12
+      - ALFA.L   # Auto dealer platform, QS 83 Tier A, R1 COMPLETE, entry 165p
     shared_risks:
       - "GBP depreciation (all revenues GBP-denominated)"
       - "UK consumer spending slowdown"
-      - "UK digital services tax increase"
-      - "AI disruption of comparison/marketplace models"
+      - "UK fiscal tightening (IHT/pension reform impacting IHP.L)"
+      - "Tariff/import risk for retailers (DNLM.L sources globally)"
     kill_conditions:
       - "GBP/EUR drops >15% in 3 months (currency shock)"
       - "UK enters recession (2 consecutive GDP contractions)"
       - "2+ positions in basket trigger individual KCs simultaneously"
     vitality_signals:
-      positive: ["IHP.L AUM growth + insider buying validating", "MONY.L FY2025 record margins + AI strategy"]
-      negative: ["AI disruption accelerating (BCG: marketplaces Breached)", "UK macro overlay from Hormuz oil shock", "Basket shrunk to 2 positions after AUTO.L sale"]
-    last_reviewed: 2026-03-08
+      positive: ["IHP.L AUM growth + strong H1", "DNLM.L R4 APPROVED, entering Mar 26", "ALFA.L QS 83 in pipeline", "3 positions post-Mar 26 (IHP.L, DNLM.L + pipeline ALFA.L)"]
+      negative: ["UK macro overlay from Hormuz oil shock", "MONY.L exiting = losing yield anchor", "DNLM.L cyclically exposed (homewares discretionary)"]
+    last_reviewed: 2026-03-13
     created: 2026-02-22
-    notes: "S150: AUTO.L SOLD (rotation R0). Basket now 2 positions — needs pipeline advancement. DNLM.L (SO 950p, UNBLOCKED) + ALFA.L (Mar 12 gate) are candidates. Priority: advance DNLM.L or ALFA.L to fill 3rd slot."
+    notes: "S152: RENAMED UK Digital Platforms → UK Quality Leaders (DNLM.L is retail, not digital). MONY.L SELLING Mar 26, DNLM.L BUYING Mar 26. Post-Mar 26: IHP.L + DNLM.L (2 positions). ALFA.L (QS 83, entry 165p) is priority pipeline for 3rd slot."
 
   - id: data-analytics-monopolies
     name: "Data & Analytics Monopolies"
@@ -146,9 +153,10 @@ baskets:
       - world/sectors/professional-information-services.md
     positions:
       - TW      # Bond trading platform, QS 84adj Tier A — NEW S143
-      - WKL.AS  # Legal/tax/health information monopolist, QS ~80 Tier A — NEW S143
+      - WKL.AS  # Legal/tax/health information monopolist, QS 72 Tier B — NEW S143
+    entering:
+      - SPGI    # BUY late April (post-FTNT exit). Ratings duopoly, QS 76adj Tier A, R4 APPROVED. FV $470.
     pipeline:
-      - SPGI    # Ratings duopoly + S&P index monopoly, QS 78adj Tier A, SO $420
       - ICE     # Exchange + data monopoly, QS 65adj Tier B, SCORED
       - NDAQ    # Exchange + data, QS 67adj Tier B, 11% insider, SCORED
     shared_risks:
@@ -162,11 +170,11 @@ baskets:
       - "Major regulatory restructuring of credit ratings industry"
       - "2+ positions hit individual KCs simultaneously"
     vitality_signals:
-      positive: ["2 positions (TW + WKL.AS) — ACTIVE status", "WIDE moats across both", "Global AUM at ATH", "WKL.AS 78% recurring revenue", "TW WIDE moat 20/25 STRENGTHENING"]
-      negative: ["Sector trades at premium multiples (P/E 28-35x)", "MORN sold — need SPGI to fill 3rd slot", "TW insider selling $26.3M in Feb"]
-    last_reviewed: 2026-03-07
+      positive: ["SPGI R4 APPROVED, entering late April = 3 positions", "WIDE moats across all three", "Global AUM at ATH", "7 quality funds hold SPGI (Markel, Dodge & Cox)", "TW WIDE moat 20/25"]
+      negative: ["Sector trades at premium multiples (P/E 28-35x)", "TW insider selling $26.3M in Feb", "WKL.AS receivables +23% vs rev +3.5%"]
+    last_reviewed: 2026-03-13
     created: 2026-02-28
-    notes: "S143 UPGRADED: BUILDING→ACTIVE. Renamed from Financial Market Infrastructure to Data & Analytics Monopolies. Added TW (bond trading) + WKL.AS (professional information). MORN SOLD S143. Now 2 positions (TW, WKL.AS). SPGI in pipeline as 3rd position."
+    notes: "S152: SPGI R4 APPROVED, entering late April via FTNT rotation (EUR 400). Post-entry: 3 positions (TW, WKL.AS, SPGI) = strongest basket by moat quality. All WIDE moats. Basket ~17% of portfolio post-SPGI. ICE/NDAQ in scored pipeline."
 
   - id: defense-rearmament
     name: "Defense & European Rearmament"
