@@ -1,33 +1,33 @@
 # PIPELINE TRACKER + MAINTENANCE
 # Operational metadata for the fund
-# Updated: 2026-03-08 (S149)
+# Updated: 2026-03-13 (S155)
 
 # PRIORITY #1 - CAPITAL DEPLOYMENT (while cash > 25%)
 capital_deployment:
   frequency: daily
   priority: 1
   trigger: "cash > 25%"
-  last_run: 2026-03-07
-  next_due: 2026-03-08
-  last_result: "S149: 0% cash maintained. Deployment = rotation only. R0 AUTO.L Mon."
+  last_run: 2026-03-13
+  next_due: 2026-03-14
+  last_result: "S155: 0% cash. Deployment = rotation only. Mar 26: SELL MONY.L + TRIM NVO → BUY GDDY + DNLM.L. Late Apr: EXIT FTNT → SPGI + best."
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/quality_universe.py"
 
 # DAILY
 vigilance:
   frequency: daily
-  last_run: 2026-03-07
-  next_due: 2026-03-08
-  last_result: "S149: Crisis ongoing (Hormuz, oil $91, VIX 29). No new escalation."
+  last_run: 2026-03-13
+  next_due: 2026-03-14
+  last_result: "S155: Crisis ongoing (oil $100 Brent, naval mines). 0 CRITICAL. CVNA short +6.5%. FOMC Mar 18."
   smart_skip:
     same_day_window_hours: 8
     source: "state/session_continuity.yaml → skip_if_same_day"
 
 rotation_check:
   frequency: daily
-  last_run: 2026-03-07
-  next_due: 2026-03-08
-  last_result: "S149: Rotation plan FORMALIZED. R0 AUTO.L(Mon) → R1 FTNT(Mon PM) → R2 TW(Apr Q1) → R3 MONY.L(when ready). Blended 17.4%→projected 20.1%."
+  last_run: 2026-03-13
+  next_due: 2026-03-14
+  last_result: "S155: Bottom 3 = FTNT 9.9% (exit Apr), BZU.MI 11.1%, TW 13.3%. Mar 26 rotation locked. Post-Apr: FTNT→SPGI+ALFA.L. Blended 18.4%→projected 19.2%."
   smart_skip:
     same_day_window_hours: 12
     earnings_blackout: true
@@ -106,9 +106,9 @@ r1_processing:
   frequency: daily
   priority: 1
   trigger: "SCORED count > 0 in universe"
-  last_run: 2026-03-07
-  next_due: 2026-03-08
-  last_result: "S149: 28 velocity units. RKLB S1, COIN S2, GDDY R4, LOPE R4, SAF.PA R1, MEDI.OL R1, PAYC R1 refresh, DNLM.L R4 re-val, TSLA S4, templates."
+  last_run: 2026-03-13
+  next_due: 2026-03-14
+  last_result: "S155: 6 velocity units. HLNE thesis refreshed, SAF.PA Error #62 fix, nuclear basket killed, system state updated, DA calibrated. Pipeline: 22 R1, 3 R3, 7 R4."
   minimum_per_session: "3 velocity units (1 R1=1u, 1 R2→R3=2u, 1 R4=1u)"
   skill: ".claude/skills/capital-deployment/SKILL.md"
   tool: "tools/r1_prioritizer.py"
@@ -146,16 +146,16 @@ drift_detection:
 # NET EXPOSURE REASONING (P13, mandatory)
 net_exposure_reasoning:
   frequency: daily
-  last_run: 2026-03-07
-  next_due: 2026-03-08
-  last_result: "S149: 100/0/0. Fully deployed. No shorts active (VIX >28). CVNA+TSLA conditional. Justified by quality."
+  last_run: 2026-03-13
+  next_due: 2026-03-14
+  last_result: "S155: 99.2% net long, 0.8% short (CVNA). 0% cash. Oil $100 but portfolio 80%+ oil-neutral. FOMC Mar 18 = key risk."
 
 # STANDING ORDER REALITY CHECK
 so_reality_check:
   frequency: daily
-  last_run: 2026-03-07
-  next_due: 2026-03-08
-  last_result: "S149: DNLM.L triggered but DO NOT EXECUTE (re-validated). BZU.MI EUR 42 (R4). VRSK $210 (R4). FOUR.L GATED Mar 18. GDDY SO $85-90 if FTNT bull. CVNA short conditional."
+  last_run: 2026-03-13
+  next_due: 2026-03-14
+  last_result: "S155: HALO $64 TRIGGERED (GATED PTAB Jun). GDDY $81 TRIGGERED (buying Mar 26). SPGI $423 0.8% from $420. ACGL false trigger FIXED. 3 triggered, 3 near."
 
 # FV CONSISTENCY CHECK (every 10 sessions — Error #65)
 fv_consistency_check:
@@ -185,9 +185,9 @@ tool_fx_audit:
 
 # MAINTENANCE
 maintenance:
-  last_health_check: 2026-03-02
-  next_health_check_due: 2026-03-16
-  health_score: 6.5/10
+  last_health_check: 2026-03-13
+  next_health_check_due: 2026-03-27
+  health_score: 7.5/10
   last_compact: 2026-02-01
   memory_status: ok
   agents_count: 24
