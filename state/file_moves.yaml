@@ -162,6 +162,14 @@ moves:
     triggered_by: "portfolio-ops: BUY confirmation (human confirmed execution S140)"
     note: "Active copies created with updated headers (thesis.md full, others summarized). DELETE thesis/research/RACE.MI/ directory manually to avoid duplicates."
 
+  - date: 2026-03-13
+    file: thesis/research/BZU.MI/* (thesis.md, r2_devils_advocate.md, r3_resolution.md, committee_decision.md)
+    from: thesis/research/BZU.MI/
+    to: thesis/active/BZU.MI/
+    reason: "Position OPENED - BUY ~8.81 shares @ EUR 42.00 (EUR 370). SO triggered at EUR 42. R4 APPROVED S143c10 (10/10 PASS). QS 73/75adj Tier B. Italian cement. Standalone."
+    triggered_by: "portfolio-ops: BUY confirmation (human confirmed execution S151)"
+    note: "Active copies created with updated thesis header (FV, Expected Growth, KCs added). Research originals DELETED to avoid duplicates."
+
 # Format:
 #   - date: 2026-01-31
 #     file: thesis/research/SHEL/thesis.md

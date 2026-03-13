@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 370  # Updated 2026-03-08. SELL AUTO.L 65 shares at 494.80 GBp. Proceeds ~EUR 370. HOLD for ADBE earnings buffer.
+  amount: 0  # Updated 2026-03-13. BUY BZU.MI EUR 370 at EUR 42.00. Cash fully deployed.
   currency: EUR
 
 positions:
@@ -175,6 +175,19 @@ positions:
     last_review: 2026-03-07
     exit_plan: "HOLD. TRIM at EUR 95+. ADD at EUR 55 (MoS 31%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, Harvey AI >$500M ARR, net debt >2.5x, OpenEvidence >100 hospital contracts)."
     notes: "R3 S147c2: FV EUR 80 maintained. DA MODERATE COUNTER (was STRONG Feb 11). FY2025 confirmed thesis. Receivables +23% vs rev +3.5% yellow flag. Growth 6% formalized (Error #64 fix). KC#12-13 added. No ADD until receivables explained + Caywood track record. Sector view cleared S146."
+
+  - ticker: BZU.MI
+    name: "Buzzi SpA"
+    shares: 8.81  # EUR 370 / EUR 42.00. Confirm exact from eToro.
+    invested_eur: 370
+    avg_cost_eur: 42.00
+    date_opened: 2026-03-13
+    thesis: thesis/active/BZU.MI/thesis.md
+    conviction: medium
+    fair_value: "EUR 57 (R4 committee weighted. R3 post-DA. QS 73/75adj Tier B.)"
+    last_review: 2026-03-13
+    exit_plan: "HOLD. TRIM at EUR 55+. ADD at EUR 35 (MoS 39%). SELL if KC triggered (US EBITDA margin <30% 2yr, net debt >2x EBITDA, family <40%, Russia writedown >EUR 500M, ROIC <WACC 2yr). Through-cycle EBIT EUR 850M at 10.5x. Next catalyst: FY2025 full results."
+    notes: "BUY S151. R4 APPROVED S143c10 (10/10 gates PASS). Italian cement, Buzzi family 53%. EUR 200M buyback active. Standalone (no basket). E[CAGR] 15.9% at EUR 42. DA MODERATE COUNTER (3 HIGH resolved). Edge thin (~5% vs consensus)."
 
 # =============================================================================
 # SHORT POSITIONS - CFDs en eToro
@@ -939,3 +952,11 @@ transactions:
     price_usd: 318.77
     total_eur: 100
     notes: "SHORT - FIRST SHORT POSITION. CFD x1 leverage, no margin. S4 APPROVED CONDITIONAL S143. QS 30 Tier D at 62x adj P/E. EBITDA margin compressing 12%->9.1%. $685M DTA inflation. PIK->cash interest transition mid-2026. 1% sizing. Stop loss $370 (+16%). Catalyst: Q1 earnings ~May 6. Max duration 6mo (Sep 2026)."
+
+  - date: 2026-03-13
+    action: BUY
+    ticker: BZU.MI
+    shares: 8.81
+    price_eur: 42.00
+    total_eur: 370
+    notes: "BUY - S151. R4 APPROVED S143c10 (10/10 PASS). QS 73/75adj Tier B. FV EUR 57 (R3 post-DA). MoS 35.7% at EUR 42. E[CAGR] 15.9% > 15% Tier B threshold. SO triggered at EUR 42.00 = exactly at trigger. Italian cement, Buzzi family 53%, net cash, best margins in industry. EUR 200M buyback active. Standalone (no basket). Through-cycle EBIT EUR 850M at 10.5x."

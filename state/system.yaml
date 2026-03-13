@@ -17,14 +17,14 @@ system:
     implementation_date: 2026-02-05
 
   portfolio_quality_analysis:
-    date: 2026-03-07
+    date: 2026-03-13
     summary:
-      total_positions: 10
+      total_positions: 11
       tier_a_count: 8  # MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, TW, EDEN.PA
-      tier_b_count: 2  # NVO, WKL.AS
+      tier_b_count: 3  # NVO, WKL.AS, BZU.MI
       tier_c_count: 0
       tier_d_count: 0
-    short_positions: 0
+    short_positions: 1  # CVNA
     exposure:
       long_value_eur: 0  # Calculated by portfolio_stats.py
       short_value_eur: 0
@@ -46,6 +46,7 @@ system:
       # RACE.MI — SOLD S143c10. T15 rotation. E[CAGR] 6.6% worst. P&L -3.4%.
       - { ticker: TW, score: 84, tier: A, status: "FV $135. R3 S147c4. Data & Analytics Monopolies." }
       - { ticker: WKL.AS, score: 72, tier: B, status: "FV EUR 80 (re-eval S143c11). Data & Analytics Monopolies. Sector view CREATED S144c2." }
+      - { ticker: BZU.MI, score: 73, tier: B, status: "FV EUR 57. R4 S143c10. Italian cement. Standalone. BUY S151." }
 
   last_session_summary: |
     Session 147 (2026-03-07). DA audit 10/11 complete. Blended E[CAGR] 19.1%→17.4% (-1.7pp phantom removed).
@@ -69,7 +70,7 @@ system:
     current:
       long_pct: 100.0
       short_pct: 0.0
-      cash_pct: 0.0  # EUR 0. S144c1: Full deployment. NVO +400, EDEN +317.
+      cash_pct: 0.0  # EUR 0. S151: BUY BZU.MI EUR 370. Cash fully deployed.
       net_pct: 100.0
       gross_pct: 100.0
     reasoning: |

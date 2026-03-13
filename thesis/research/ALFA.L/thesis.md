@@ -5,7 +5,7 @@
 > **Entry Price:** 165 GBp (R3 revised, was 175-180 GBp)
 > **Date:** 2026-02-19
 > **Analyst:** fundamental-analyst (R1) + devil's-advocate (R2) + orchestrator (R3)
-> **Status:** R3 COMPLETE -- WATCHLIST. FY2025 PASS (low end). SO 165p. Receivables unresolved. Price 173.80p (52wL, 5.3% above entry).
+> **Status:** R3 COMPLETE — WATCHLIST. FY2025 PASS (low end, S151). SO 165p. Receivables UNRESOLVED (annual report pending). Price 173.80p (52wL, 5.3% above entry). UK Digital Platforms: competes with DNLM.L for MONY.L capital (Mar 26).
 
 ---
 
