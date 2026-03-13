@@ -34,8 +34,8 @@ completed:
   net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). Oil $100 = headwind for EDEN.PA (19%), BZU.MI (3.6%). But 77%+ of portfolio is oil-NEUTRAL (SaaS, data, platforms). CVNA short BENEFITS from $100 oil. Not adding short exposure — FOMC Mar 18 is binary. Wait for clarity."
   rotation_check: true
   rotation_note: "Bottom 3: FTNT 9.4% (exit locked Apr), BZU.MI 11.4%, MONY.L 13.6% (selling Mar 26). Post-Mar 26: BZU.MI becomes new bottom at 11.4% but tiny (3.6%). TW 13.5% is rotation candidate if Q1 disappoints."
-  velocity_units: 5  # Error #61 audit (2 units: 5 fixes = systematic data integrity), basket health (1), world view material update (1), insider data ingest + SM signals (1)
-  velocity_note: "S153: Error #61 audit found 5 phantom FVs — most impactful pipeline work this session. Cleaned rotation/deployment inputs. World view material escalation documented. Basket health analyzed. Smart money insider ingest (Form4 first time). HLNE cluster buy $3.2M confirmed. T15 sizing-conviction positive alignment. Net exposure 99.2% justified. Health check running (due Mar 16, executed early)."
+  velocity_units: 6  # Error #61 audit (2u), basket health (1u), world view update (1u), insider ingest + SM (1u), health check + cleanup (1u)
+  velocity_note: "S153: 9 commits across 2 context windows. Error #61 audit (5 phantom FVs). World view material escalation ($100 Brent). Basket health. Form4 insider ingest (HLNE cluster $3.2M). T15/P13 checks. Health check 7.5/10 (up from 6.5). 13 ephemeral reports archived. Calendar cleaned."
   portfolio_ecagr:
     deployed: 18.5%
     blended: 18.5%
@@ -65,7 +65,7 @@ promises:
   - promise: "Health check due Mar 16 — run before FOMC"
     created_session: 151
     deadline: "S154"
-    status: IN_PROGRESS  # S153c7: Health check agent launched. Results pending.
+    status: COMPLETED  # S153c9: Score 7.5/10 (up from 6.5). Data consistency 10/10. 13 reports archived. Calendar cleaned.
     broken_count: 0
   - promise: "Model SPGI Mobility spinoff before Q1 gate date (pre-late April)"
     created_session: 152
