@@ -51,14 +51,18 @@ events:
     event: "CAPITAL DEPLOYMENT DAY — MONY.L sell + NVO trim + GDDY buy + DNLM.L buy"
     priority: CRITICAL
     action: |
-      EXECUTION PLAN (4 trades, EUR ~1,190 capital) — CORRECTED S151c17:
-      1. MONY.L: SELL 384 shares post ex-div (~161p). Proceeds ~EUR 716. Dividend ~EUR 28 arrives ~Apr.
-         CORRECTION: Original EUR 888 was USD invested amount, not EUR proceeds. Actual GBP 618 × 1.16 = EUR 716.
+      EXECUTION PLAN (4 trades, EUR ~1,190 capital) — S152c17 PRE-FLIGHT VERIFIED:
+      1. MONY.L: SELL 384 shares. EX-DIV CONFIRMED MAR 26 — sell on ex-div day, dividend captured.
+         Price Mar 13: 168.5p. Proceeds ~EUR 716. Dividend ~EUR 28 arrives ~Apr via eToro.
       2. NVO: TRIM 14.3 shares at market (~$38). Proceeds ~EUR 472. KC#1 triggered orphan.
-      3. GDDY: BUY EUR 720 at market if ≤$90 (R4 APPROVED, E[CAGR] 25.2%, 12/12 KCs clear). PRIORITY #1.
-      4. DNLM.L: BUY EUR ~440 at market if ≤950p (pre-flight DONE, E[CAGR] 15.7% at 855p). Gets remainder after GDDY.
-      Buffer: ~EUR 30. If GDDY >$90: reallocate full remaining to DNLM.L (~EUR 1,160).
-      NVO ex-div Mar 30 — trim BEFORE ex-div.
+         NVO ex-div ~Mar 30 — trim BEFORE ex-div to avoid capturing then losing.
+      3. GDDY: BUY EUR 720 at market if ≤$90 (R4 APPROVED, E[CAGR] 25.2%, 11/12 KCs CLEAR, 1 MON). PRIORITY #1.
+         Price Mar 13: $80.75. MoS 37.9%. Pre-flight complete (thesis/research/GDDY/pre_flight_mar26.md).
+      4. DNLM.L: BUY EUR ~440 at market if ≤950p. E[CAGR] ~15.5% at 864p. Gets remainder after GDDY.
+         Price Mar 13: 864p. Ex-div PASSED Mar 12 (clean price). Pre-flight complete (thesis/research/DNLM.L/pre_flight_mar26.md).
+         13 insiders $19.9M cluster buy = STRONG BULL signal.
+      Buffer: ~EUR 30. If GDDY >$90 on Mar 26: reallocate full remaining to DNLM.L (~EUR 1,160).
+      POST-EXECUTION: 12 positions, E[CAGR] 19.2% (+0.7pp improvement). FTNT worst (9.4%) → exit late April.
       CONTINGENCY: If FOMC Mar 18 DOVISH → reconsider NVO trim (growth re-rates).
       FX SENSITIVITY: GBP/EUR and EUR/USD rates on Mar 26 will affect exact amounts. Prices are Mar 13 snapshots.
 
