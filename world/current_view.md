@@ -1,15 +1,18 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-11
+> Ultima actualizacion: 2026-03-13
 
-**CAMBIOS MATERIALES desde ultimo update (8-mar):**
-- **MATERIAL: OIL DROPPED $91 to $85 -- NOT DE-ESCALATION.** Chris Wright (Energy Sec) false tweet about US Navy Hormuz escort caused 19% intraday flash crash to $77 on Mar 10, then recovered to $89 close. Today at $85.24. Hormuz now TWO-TIER: Iran allows Chinese ships only, West still blocked. France + allies "preparing mission to reopen." Oil volatility EXTREME but fundamentally still $85-90 range.
-- **MATERIAL: WAR DAY 11, NO CEASEFIRE.** Iran FM Araghchi rejects ceasefire ("continue fighting as long as necessary"). Trump says "hasn't won enough." Death toll 1,255+ Iran. US struck 5,000+ targets. China/Russia/France contacted Iran re ceasefire but no progress.
-- **MATERIAL: VIX EASED 29.5 to 25.5.** Still elevated (+71.7% 3mo) but below panic zone. S&P recovered to 6,781 (-3.2% from 52wH vs -3.7% on Mar 8). Market tentatively pricing partial normalization.
-- **MATERIAL: CPI FEB DUE TODAY (Mar 11).** Consensus 2.4% YoY headline, 2.5% core. Pre-oil-shock data (captures through mid-Feb). Will NOT reflect oil spike. Mar/Apr CPI will show the damage.
-- **MATERIAL: CVNA SHORT OPENED (Mar 11).** First short in portfolio history. 0.31 shares @ $318.77, 0.8% sizing. CVNA SHORT THESIS: EBITDA inflation via DTA, PIK-to-cash transition, 62x adj P/E. Catalyst: Q1 earnings ~May 6.
-- **MATERIAL: FOMC Mar 18 with dot plot.** 92%+ hold probability. But this is FIRST meeting where projections incorporate oil shock + tariffs. Dot plot shift (1 cut vs 0 vs 2) will move markets significantly.
-- **PORTFOLIO: 10 longs + 1 short, EUR 370 cash (3.5%).** ADBE earnings Wed Mar 12 = CRITICAL.
+**CAMBIOS MATERIALES desde ultimo update (11-mar):**
+- **CRITICAL: OIL SURGED $85 to $97 WTI (Mar 11→13).** Relief from Chris Wright false tweet FULLY REVERSED. Back ABOVE $90 recession trigger. Hormuz remains TWO-TIER (China through, West blocked). France escort not yet launched. Oil range NOW $90-100. Stagflation scenario RE-ACTIVATED. Mar/Apr CPI will be worse than expected with oil at $97.
+- **MATERIAL: WAR ~DAY 13.** No ceasefire progress. Oil surge suggests either new escalation or failed diplomatic effort. Monitor for France Hormuz mission updates.
+- **MATERIAL: VIX BACK TO 27.7 (was 25.5).** Relief REVERSED. S&P 6,673 (-4.7% from 52wH). Market re-pricing sustained disruption.
+- **MATERIAL: CPI FEB IN LINE.** 2.4% headline, 2.5% core (Mar 12 release). Non-event — pre-oil data. Mar/Apr CPI is the real test — NOW WORSE with oil at $97.
+- **MATERIAL: ADBE Q1 FY2026 CONDITIONAL BEAT.** Revenue $6.40B (+12%) BULL. EPS $6.06 BULL. AI-first ARR tripled YoY. CEO Narayen stepping down (stays Chair). Successor TBD. KC#9 added. FV $390 unchanged. Stock $269.78.
+- **MATERIAL: ALFA.L FY2025 PASS (low end).** Revenue £126.7M (+17% CC), OP 31.6%, NRR 109%, cash conv 97%. Receivables NOT DISCLOSED. Stock crashed 173.80p (52wL). Gate partially cleared.
+- **MATERIAL: BZU.MI EXECUTED.** Market buy EUR 370 at EUR 42. 11th long. Italian cement, R4 approved.
+- **UPCOMING: FOMC Mar 18 + dot plot** — NOW EVEN MORE CRITICAL with oil at $97. 0 cuts for 2026 = further selloff.
+- **UPCOMING: FOUR.L FY2025 Mar 18, BoE Mar 20, HLNE ex-div Mar 20, MONY.L ex-div+sell Mar 26.**
+- **PORTFOLIO: 11 longs + 1 short, EUR 0 cash.** GDDY deeply triggered ($80.75 vs $90 SO). 7 SOs triggered/near. MONY.L sell Mar 26 = EUR 888 capital event.
 
 **SECTOR IMPACT -- Oil $85 / Hormuz Two-Tier / Crisis Stabilizing:**
 
@@ -21,7 +24,7 @@
 | **SEVERE NEGATIVE** | Airlines, autos, logistics, chemicals, retail | None held | Avoid new positions here |
 | **SHORT BENEFICIARY** | Used cars (oil cost + rate sensitivity) | CVNA SHORT (0.8%) | Higher gas costs + persistent rates hurt CVNA demand |
 
-**KEY OBSERVATION:** Oil at $85 vs $91 is a MEANINGFUL easing for our consumer-exposed positions (EDEN.PA, MONY.L). Portfolio remains 80%+ in NEUTRAL sectors. CVNA short BENEFITS from sustained oil -- higher gas costs hurt used car demand at margins.
+**KEY OBSERVATION (UPDATED 13-Mar):** Oil BACK to $97 RE-ACTIVATES pressure on consumer-exposed positions (EDEN.PA, MONY.L). But portfolio remains 80%+ in NEUTRAL sectors. CVNA short BENEFITS EVEN MORE from $97 oil — higher gas costs directly hurt used car demand. FTNT benefits as crisis cybersecurity spend increases.
 
 ## Resumen Ejecutivo
 
@@ -65,21 +68,21 @@
 **Crecimiento**:
 - Q4 2025 GDP: ~2.2% (desaceleracion from Q3 +4.4%)
 - Proyeccion 2026 PRE-CRISIS: ~2-2.3%
-- **Post-crisis (UPDATED)**: With oil at $85 (vs $92), GDP projection IMPROVES SLIGHTLY to 1.0-1.5% for 2026 (was 0.8-1.2%)
-- **Recession probability REVISED DOWN slightly**: Now 35-45% (was 40-55% on Mar 8). $85 oil is below historical recession trigger. But if oil returns >$90 for sustained period, probability re-escalates
-- Consumer "bottom half" still under pressure. Oil shock hit is real but less severe at $85
+- **Post-crisis (UPDATED 13-Mar)**: Oil at $97 REVERSES the improvement. GDP projection WORSENS back to 0.8-1.2% for 2026
+- **Recession probability RE-ESCALATED**: Now 40-55% (was 35-45% on Mar 11). $97 oil is ABOVE historical recession trigger. Sustained $95+ for 4+ weeks = probability rises toward 50-60%
+- Consumer "bottom half" under INCREASING pressure. Oil at $97 = ~$3.80/gal gas. Discretionary contraction expected within 60-90 days
 
-**Mercados (11-mar-2026, macro_fragility.py)**:
-- **S&P 500: 6,781** (recovered from 6,740 on Mar 8. -3.2% from 52wH 7,002)
-- **VIX: 25.50** (DOWN from 29.49 on Mar 8. Still elevated +71.7% 3mo. Below 30 panic zone)
-- **DXY: 98.98** (stable, essentially unchanged)
-- **Gold: $5,188** (stable near ATH $5,586. +73.3% YoY. Safe-haven bid intact but not panicking)
-- **Oil WTI: $85.24** (DOWN from $91.27 on Mar 8. -28.7% from 52wH $119.48. Flash crashed to $77 on Mar 10 on false Wright tweet, recovered $89)
-- **US 10Y Yield: 4.14%** (stable. No change from Mar 8.)
-- **US 2Y Yield: 3.37%** (down from 3.48%. 2Y-10Y spread WIDENED to +0.76% from +0.65%. Curve steepening = growth concerns)
-- **Credit spreads**: HYG/LQD ratio 0.7272 (slightly wider than 0.7234 on Mar 8. Mild credit stress, not accelerating)
+**Mercados (13-mar-2026, macro_fragility.py)**:
+- **S&P 500: 6,673** (DOWN from 6,781 on Mar 11. -4.7% from 52wH 7,002. Correction territory)
+- **VIX: 27.69** (BACK UP from 25.50. Relief reversed. +75.9% 3mo)
+- **DXY: 100.05** (up from 98.98. Dollar strengthening on risk-off)
+- **Gold: $5,096** (down from $5,188. Safe-haven bid easing slightly)
+- **Oil WTI: $96.77** (SURGED from $85.24. Back ABOVE $90 recession trigger. +68.5% 3mo)
+- **US 10Y Yield: 4.27%** (up from 4.14%. Inflation expectations rising with oil)
+- **US 2Y Yield: 3.37%** (unchanged. 2Y-10Y spread WIDENED to +0.90% from +0.76%. Steepening accelerating = growth concerns intensifying)
+- **Credit spreads**: HYG/LQD ratio 0.7309 (wider from 0.7272. Credit stress building slowly)
 
-**Impacto Inversion**: **OIL PULLBACK FROM $91 to $85 = MODESTLY POSITIVE.** Below our $90 recession trigger. Reduces pressure on consumer-facing positions (EDEN.PA, MONY.L). But Hormuz still not open to West -- any escalation headline sends oil right back to $90+. Do NOT interpret this as "crisis over." This is a BREATHING ROOM in the crisis, not resolution. The Chris Wright flash crash showed oil can drop $15 in minutes on credible reopening news -- and recover $12 just as fast when denied.
+**Impacto Inversion**: **OIL BACK TO $97 = RECESSION TRIGGER RE-ACTIVATED.** Above our $90 threshold. Sustained $95+ for 4+ weeks = recession probability rises to 45-55%. Consumer positions (EDEN.PA 18.8%, MONY.L 7.3%) under renewed pressure. CVNA short benefits (gas costs + rates). GDDY SMB customers potentially affected (small business = oil-sensitive). However: our portfolio is 80%+ subscription/B2B/asset-light — direct oil exposure is LOW. The risk is INDIRECT via consumer spending contraction 60-90 days out.
 
 ### Europa
 
@@ -188,10 +191,10 @@ Previous assessment (8-mar): "War escalating. Oil $91. Hormuz near-total halt."
 
 ### Petroleo y Energia -- VOLATILE BUT EASING
 
-**Precios (11-mar-2026, macro_fragility.py)**:
-- **WTI: $85.24** (down from $91.27 on Mar 8. Flash crashed to $77 on Mar 10. 52wH $119.48)
-- **Brent: estimated $88-93** (based on WTI-Brent spread)
-- **Gold: $5,188** (stable near ATH. +73.3% YoY. Safe-haven bid sustained but not expanding)
+**Precios (13-mar-2026, macro_fragility.py)**:
+- **WTI: $96.77** (SURGED from $85.24 on Mar 11. Back above $90 recession trigger. 52wH $119.48)
+- **Brent: estimated $100-105** (based on WTI-Brent spread ~$4-5)
+- **Gold: $5,096** (slight pullback from $5,188. +67.9% YoY. Safe-haven bid easing slightly on dollar strength)
 
 **Drivers -- CRISIS EVOLVING (from closure to two-tier):**
 - **Hormuz TWO-TIER**: Iran allows Chinese ships. Western blocked. ~1.22M bpd flowing to China (vs 0 on Mar 6)
@@ -220,13 +223,13 @@ Previous assessment (8-mar): "War escalating. Oil $91. Hormuz near-total halt."
 
 ## TEMA ESPECIAL: SaaSpocalypse -- UPDATE
 
-### Status as of Mar 11
+### Status as of Mar 13
 
-- SaaSpocalypse narrative STILL ECLIPSED by Iran war
-- Software rebounding modestly with broader market (VIX 29.5 to 25.5)
-- **ADBE Q1 earnings TOMORROW (Wed Mar 12 after close)** -- CRITICAL test. Section 9 READY
+- **ADBE Q1 CONDITIONAL BEAT — SaaSpocalypse thesis WEAKENED by data.** Revenue +12%, AI-first ARR tripled. Quality SaaS IS monetizing AI, not being destroyed by it. CEO departure overshadowed the beat.
+- Software still selling off with broader market (VIX 27.7, oil $97 = risk-off)
+- But ADBE proves the strongest SaaS moats are WIDENING with AI, not narrowing
 - Institutional underweight at 2021 levels = structural buying opportunity WHEN risk clears
-- **No change to thesis**: Quality SaaS with moats (ADBE, DOCS, FTNT) remains best risk/reward when macro normalizes
+- **Updated thesis**: Quality SaaS with AI integration (ADBE, FTNT, DOCS) remains best risk/reward. Crisis is creating entry points (GDDY $80.75 = E[CAGR] 25.2%)
 
 ---
 
