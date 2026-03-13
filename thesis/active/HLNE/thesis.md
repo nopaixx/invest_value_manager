@@ -400,7 +400,7 @@ Plus dividend: 16.7% + 2.0% = 18.7%
 6. **ROIC falls below WACC (11%)** -- value destruction
 7. **Mega-managers (BX/KKR/APO) launch directly competitive Evergreen products that capture >30% of HLNE's addressable private wealth TAM** -- structural moat breach
 
-### Kill Conditions Status (2026-03-08)
+### Kill Conditions Status (2026-03-13)
 
 | KC# | Condition | Status | Notes |
 |-----|-----------|--------|-------|
@@ -584,6 +584,7 @@ $4.2M cluster buy at $101-107 (Jan-Feb 2026) by multiple insiders who have visib
 *R4 APPROVED: 2026-02-25 (Session 120)*
 *Market buy EXECUTED: 2026-02-25 at $101.75, ADD 2026-02-26 at $108.11*
 *Thesis refresh: 2026-03-07 -- Insider cluster buy $4.2M added. Price $106.57.*
+*Thesis refresh: 2026-03-13 -- Market correction check. Price $96.89. FV $110 maintained. All KCs CLEAR.*
 
 ---
 
@@ -607,9 +608,66 @@ Multiple insiders purchased shares in a coordinated cluster buy totaling $4.2M. 
 | Metric | Value |
 |--------|-------|
 | Avg Cost | $104.88 (9.0 shares) |
-| Current Price | $106.57 |
-| Unrealized | +1.6% |
-| FV | $110 |
-| MoS | 3.2% |
-| E[CAGR] | 15.0% (FRE growth 12% + dividend 2% + rerating 1%) |
+| Current Price | $97.45 (S154 refresh, was $106.57) |
+| Unrealized | -7.2% |
+| FV | $110 (maintained — no fundamental deterioration) |
+| MoS | 12.9% |
+| E[CAGR] | 16.4% (FRE growth 10% + dividend 2.3% + rerating ~4%) |
 | QS | 82 Tier A (highest adjusted QS in portfolio) |
+| S154 Refresh | Price down 9.1% (market correction, not HLNE-specific). All 7 KCs CLEAR. Insider cluster buy $3.2M (4 insiders Feb 2026) = STRONGEST conviction signal in portfolio. Oil $100 = minimal impact (asset-light). ADD at $85 maintained. No thesis change. |
+
+---
+
+## Post-Entry Update (2026-03-13) -- Market Correction Check
+
+### Context
+
+Broad market correction driven by Iran-Hormuz oil crisis (Brent $100), rate cut repricing, and risk-off sentiment. S&P -4.7% from highs, YTD -2.3%. HLNE down -9.1% in 5 days ($106.57 to $96.89), now approaching 52wL of $92.77 (-46% from ATH $179).
+
+**This is NOT HLNE-specific deterioration.** No new fundamental information since Q3 FY2026 (reported Feb 3). No insider selling. No negative news. Pure beta/sentiment-driven decline in risk assets.
+
+### Oil Impact Assessment
+
+HLNE is an asset-light alternative asset management firm. Direct oil exposure: ZERO. Indirect risk:
+- Higher-for-longer rates could slow PE fundraising -- but HLNE is GAINING share in a flat market
+- Risk-off sentiment compresses multiples -- but P/E 17.3x already at trough multiples
+- Recession risk could slow AUM growth -- but 72% of revenue is contractually locked management fees
+- **Net assessment:** Oil at $100 has MINIMAL direct impact on HLNE's business model
+
+### Updated Metrics (Mar 13)
+
+| Metric | Mar 7 | Mar 13 | Change |
+|--------|-------|--------|--------|
+| Price | $106.57 | $96.89 | -9.1% |
+| P/E | 19.1x | 17.3x | Compressed |
+| MoS vs FV $110 | 3.2% | 13.5% | IMPROVED |
+| MoS vs Bear $92 | -15.8% | -5.3% | Approaching bear floor |
+| E[CAGR] (tool) | 15.0% | 16.6% | IMPROVED |
+| Dividend Yield | 2.0% | 2.3% | Higher at lower price |
+| QS | 82 Tier A | 82 Tier A | UNCHANGED |
+| All 7 KCs | CLEAR | CLEAR | NO change |
+
+### Macro Sensitivity Note
+
+The catalyst "Fed rate cuts -> PE allocation increases" (H2 2026, 60% prob) is now LESS LIKELY with oil at $100 pushing rate cuts being priced out. However:
+- HLNE's private credit products BENEFIT from higher rates
+- Evergreen platform targets private wealth, not rate-sensitive institutional LPs
+- The fundraising drought thesis was ALREADY in the price at $107
+
+### Verdict
+
+**HOLD. FV $110 MAINTAINED. No action required.**
+
+The correction is providing the margin of safety that was borderline at $107. At $96.89, HLNE offers 13.5% MoS and 16.6% E[CAGR] with QS 82 Tier A. ADD warranted at $85 IF capital available (currently EUR 0). Next catalyst: Q4 FY2026 earnings ~May 2026.
+
+| Metric | Value |
+|--------|-------|
+| Shares | 11.87 (post-TRIM S143c8) |
+| Avg Cost | $105.60 |
+| Current Price | $96.89 |
+| Unrealized | -8.2% |
+| FV | $110 |
+| MoS | 13.5% |
+| E[CAGR] | 16.6% (forward_return tool) |
+| QS | 82 Tier A |
+| Next Catalyst | Q4 FY2026 earnings ~May 2026 |
