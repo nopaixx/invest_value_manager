@@ -37,8 +37,8 @@ completed:
   net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). Same as S151. Macro unchanged intraday. Full deployment in quality per P15. No new short catalysts identified."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: TW 13.5%, BZU.MI 11.8%, FTNT 9.4%. FTNT exit CONFIRMED S151, R4-ready target SPGI APPROVED. Post-FTNT: SPGI EUR 400 + best available EUR 375."
-  velocity_units: 13  # Prior 9 + MRSH R2→R3 (4). Total: MRSH R1(3)+R2→R3(4), SPGI R4(1)+pre-flight(1), ALFA.L R3(2), FTNT EXIT(1), FDS(0.5), fallen angels(0.5)
-  velocity_note: "S152 total (13 units): MRSH full pipeline R1→R2→R3 (7). SPGI R4+pre-flight+Mobility SOTP (2). ALFA.L R3 (2). FTNT EXIT committee (1). FDS fix+fallen angels (1). Form 4 first-ever ingest 1128 txns. Insurance sector view updated."
+  velocity_units: 16  # Prior 14 + GDDY pre-flight (1) + DNLM.L pre-flight (1). Total: MRSH R1→R3 (7), SPGI full (3), ALFA.L R3 (2), FTNT EXIT (1), misc (1), Mar 26 pre-flights (2).
+  velocity_note: "S152 total (16 units): MRSH full pipeline R1→R2→R3 (7). SPGI R4+pre-flight+Mobility SOTP+G1 verify+G1 resolution (3). ALFA.L R3 (2). FTNT EXIT committee (1). FDS fix+fallen angels+sector snapshot (1). GDDY pre-flight (1). DNLM.L pre-flight (1). Form 4 first-ever ingest. Insurance sector updated. KC sweep. 80 fallen angels scanned."
   portfolio_ecagr:
     deployed: 18.6%
     blended: 18.6%
@@ -131,6 +131,14 @@ handoff:
     - "S152c16: SPGI G1 receivables gate CONDITIONAL FAIL. AR +20% vs rev +8% (12pp gap > 5pp threshold). Mitigated by FCF 35.9%. Likely acquisition-driven. KC added: AR gap >10pp 2Q = EXIT. Pre-flight updated."
     - "S152c16: Fallen angels scan processed — 64 stocks QS≥60 at ≥30% drawdown. All Tier A names already in pipeline. Good coverage validation."
     - "S152c16: Price check — GDDY $80.75 (well below $90 ceiling), DNLM.L 855p (below 950p), CPRT $33.97 (9.6% above $31 SO), HALO $63.56 (2.3% above $65 SO). Mar 26 entries improving."
+    - "S152c17: GDDY PRE-FLIGHT COMPLETE. R1-R4 all files, 12 KCs (11 CLEAR, 1 MON), $80.75 E[CAGR] 25.2%. FTNT exit condition RESOLVED (unconditional). Thesis header updated. Every metric improved since R4."
+    - "S152c17: DNLM.L PRE-FLIGHT COMPLETE. R1-R4 all files, 8/8 KCs CLEAR, 864p in committee preferred 850-880p zone. E[CAGR] ~15.5%. 13 insiders $19.9M cluster buy (post-committee). Feb 10 interims ALL CONFIRMED. Ex-div passed Mar 12."
+    - "S152c17: MONY.L EX-DIV CONFIRMED MAR 26. Perfect timing — sell on ex-div day, capture dividend (~EUR 28), deploy proceeds."
+    - "S152c17: DNLM.L ex-div PASSED Mar 12. 864p = clean post-dividend price."
+    - "S152c17: SPGI G1 DEFINITIVELY RESOLVED. Not a blocker. Acquisition-driven AR (Visible Alpha) + Q4 timing + FCF 35.9% = healthy collection. WKL.AS comparison proves different pattern. KC tightened: AR gap >10pp 2Q + FCF <33% = EXIT."
+    - "S152c17: KC SWEEP: 1 TRIGGERED (NVO KC#1 known), 17 MONITORING, NO NEW TRIGGERS. Portfolio KCs clean."
+    - "S152c17: FALLEN ANGELS (80 QS≥55 at ≥30% DD). All Tier A names in pipeline. Coverage validation PASS. ADP $207 (near 52wL) worth monitoring."
+    - "S152c17: POST-MAR26 SIMULATION: 12 positions, E[CAGR] 19.2% (+0.7pp). GDDY contributes 1.77% vs MONY.L was 0.99%. FTNT still worst (9.4%) → late April exit adds another ~0.5pp."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
