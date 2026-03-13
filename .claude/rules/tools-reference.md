@@ -37,6 +37,12 @@
 | `narrative_checker.py` | `python3 tools/narrative_checker.py TICKER` | Tendencias financieras (margins, R&D, SBC, receivables, FCF). Datos crudos. |
 | `opportunity_filter.py` | `python3 tools/opportunity_filter.py --csv FILE [--roic-min N]` | Stage 2 sobre CSV de screener. ROIC, FCF margin, rev CAGR. |
 
+## Accuracy & Calibration
+
+| Tool | Comando | Proposito |
+|------|---------|-----------|
+| `fv_accuracy.py` | `python3 tools/fv_accuracy.py [--detail\|--bias\|--active-only\|--ticker TICKER]` | FV prediction accuracy. Compares historical FVs (from git+thesis) vs actual prices. Convergence rate, directional bias, MAE, tier breakdown, closed position analysis. Quarterly (every 30 sessions). |
+
 ## Fallen Angels & Special Situations
 
 | Tool | Comando | Proposito |

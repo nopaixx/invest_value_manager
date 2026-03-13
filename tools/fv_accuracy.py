@@ -211,27 +211,61 @@ def get_fv_revisions_from_git(ticker):
 # ---------------------------------------------------------------------------
 
 def extract_thesis_date(content):
-    """Extract the analysis date from thesis content."""
+    """Extract the analysis date from thesis content.
+    Searches header area (first 2000 chars) for various date formats.
+    Returns the EARLIEST date found (original analysis date)."""
+    # Search only the header area to avoid matching dates deep in the document
+    header = content[:2000]
     patterns = [
-        r'(?:Analysis Date|Date|Original Date)[:\s]+(\d{4}-\d{2}-\d{2})',
+        # Explicit date fields: "Analysis Date:", "Date:", "Fecha:", "Original Date:"
+        r'(?:Analysis Date|Original Date|Fecha|\*\*Date\*\*)[:\s*]+(\d{4}-\d{2}-\d{2})',
+        # "Original:" field (common in updated theses)
+        r'\*\*Original:\*\*\s*(\d{4}-\d{2}-\d{2})',
         r'(?:Original)[:\s]+(\d{4}-\d{2}-\d{2})',
+        # R1 header line: "R1 Fundamental Analysis | Date: 2026-02-26" or "R1 ... | 2026-02-23"
+        r'R1 Fundamental Analysis\s*\|\s*(?:Date:\s*)?(\d{4}-\d{2}-\d{2})',
+        # Generic "Date: YYYY-MM-DD" in blockquote
+        r'>\s*(?:\*\*)?Date(?:\*\*)?[:\s]+(\d{4}-\d{2}-\d{2})',
     ]
+    dates_found = []
     for pat in patterns:
-        m = re.search(pat, content, re.IGNORECASE)
-        if m:
+        for m in re.finditer(pat, header, re.IGNORECASE):
             try:
-                return datetime.strptime(m.group(1), '%Y-%m-%d').date()
+                d = datetime.strptime(m.group(1), '%Y-%m-%d').date()
+                dates_found.append(d)
             except ValueError:
                 continue
+    if dates_found:
+        return min(dates_found)  # Return earliest = original analysis date
+    return None
+
+
+def get_git_first_commit_date(rel_path):
+    """Get the date of the first git commit for a file.
+    Used as fallback when thesis content has no parseable date.
+    Returns datetime.date or None."""
+    try:
+        result = subprocess.run(
+            ['git', 'log', '--follow', '--diff-filter=A', '--format=%ai', '--', rel_path],
+            capture_output=True, text=True, cwd=BASE_DIR, timeout=10
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            # Take last line (oldest commit)
+            lines = result.stdout.strip().split('\n')
+            date_str = lines[-1].strip().split()[0]  # "2026-02-04"
+            return datetime.strptime(date_str, '%Y-%m-%d').date()
+    except Exception:
+        pass
     return None
 
 
 def extract_quality_score(content):
     """Extract QS from thesis content. Returns (score, tier) or (None, None)."""
     patterns = [
-        r'QS\s+(?:Tool\s+)?(\d+)',
-        r'Quality Score[:\s]+(\d+)',
-        r'QS[:\s]+(\d+)',
+        r'QS\s+(?:Tool[:\s]+)?(\d+)',        # "QS Tool: 74" or "QS Tool 74" or "QS 74"
+        r'QS\*{0,2}[:\s]\s*(\d+)',            # "**QS:** 73" or "QS: 73"
+        r'Quality Score[:\s]+(\d+)',            # "Quality Score: 74"
+        r'QS\s+Tool[:\s]+\s*(\d+)',            # "QS Tool: 74/100"
     ]
     for pat in patterns:
         m = re.search(pat, content, re.IGNORECASE)
@@ -418,6 +452,10 @@ def collect_thesis_fv_records(ticker_filter=None, active_only=False):
 
             thesis_date = extract_thesis_date(content)
             if thesis_date is None:
+                # Fallback: use git first commit date
+                rel_path = os.path.relpath(thesis_path, BASE_DIR)
+                thesis_date = get_git_first_commit_date(rel_path)
+            if thesis_date is None:
                 continue
 
             qs, tier = extract_quality_score(content)
@@ -569,7 +607,7 @@ def compute_accuracy(records, today=None):
         if price_at_set is None or price_at_set <= 0:
             continue
 
-        mos_at_set = (fv - price_at_set) / fv * 100
+        mos_at_set = (fv - price_at_set) / price_at_set * 100
         fv_above = fv > price_at_set
 
         entry = dict(rec)
@@ -1160,7 +1198,7 @@ def print_bias_report(results, agg, closed_records, closed_agg):
             bias = (r['fv'] - r['price_current']) / r['price_current'] * 100
             biases.append(bias)
             direction = 'BULLISH' if bias > 0 else 'BEARISH'
-            tier = r.get('tier', '?')
+            tier = r.get('tier') or '?'
             print(f'{r["ticker"]:<10} {r["fv"]:>8.0f} {r["currency"]:<4} '
                   f'{r["price_current"]:>8.2f} {bias:>+7.1f}% {direction:<8} {tier:<3}')
 
