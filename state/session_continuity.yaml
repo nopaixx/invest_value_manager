@@ -36,8 +36,8 @@ completed:
   net_exposure_reasoning: "99.2% net long + 0.8% short. Correction deepening but all theses hold. Quality positions benefiting from MoS expansion. No cash to deploy. FOMC Tue = key risk event. Portfolio 80%+ oil-neutral."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: FTNT 9.5% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26. All consistent with plan."
-  velocity_units: 4  # NYSE open scan + SO audit (1u), insider Form4 scan (1u), pipeline assessment (1u), nuclear basket QS killed (1u)
-  velocity_note: "S155: Real-time scan all positions + CVNA. FOMC verified. Insider data refreshed. Pipeline depth confirmed. Nuclear basket killed (CEG/VST Tier D). Tools audited clean."
+  velocity_units: 6  # NYSE open scan + SO audit (1u), insider Form4 scan (1u), pipeline assessment (1u), nuclear basket QS killed (1u), system.yaml full update (1u), DA calibrator + drift detector (1u)
+  velocity_note: "S155: Real-time scan all positions + CVNA. FOMC verified. Insider data refreshed. Pipeline depth confirmed. Nuclear basket killed (CEG/VST Tier D). Tools audited clean. system.yaml updated (strategic direction, macro, baskets, session summary). DA calibrator: 88% DA INSUFFICIENT — correction expanding MoS beyond pipeline estimates."
   portfolio_ecagr:
     deployed: 18.4%
     blended: 18.4%
@@ -108,6 +108,9 @@ handoff:
     - "S155: Fallen angels scan — 35 quality names -25%+ but all already in pipeline. Entries are bottleneck, not candidates."
     - "S155: BZU.MI KC#6 oil clock started (~2 weeks). Needs 6mo sustained + margin compression to trigger."
     - "S155: CPRT $33.66 at 52w low. FV $37. E[CAGR] only 4% at market. Needs $31 for threshold."
+    - "S155c6: system.yaml full update — session 155, strategic direction, macro snapshot, basket weights (live), BZU.MI FV 57→51, FTNT EXIT status."
+    - "S155c6: DA calibrator 88% DA INSUFFICIENT (22/25). Prices falling below post-DA FVs. Edge analysis 4/4 our FV closer than consensus. Drift detector clean."
+    - "S155c6: Portfolio P&L -2.4% ($-287). CVNA short +6.5%. SM signals: HLNE insider cluster STRONG BULL, ADBE 6-fund convergence BULL, EDEN.PA SI 23.1% yfinance (AMF 9.64% declining)."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
