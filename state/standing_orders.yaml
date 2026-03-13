@@ -33,9 +33,9 @@ standing_orders:
     category: BORDERLINE
     fill_prob_6m: 25
     trigger: "<=950 GBp"
-    current_distance: "1.9%"
+    current_distance: "-9.2%"
     created_date: "2026-02-14"
-    staleness_status: FRESH  # <15% distance, but BLOCKED (6th UK position)
+    staleness_status: FRESH  # TRIGGERED. Cash blocked until MONY.L ex-div Mar 26.
     size_eur: 375
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
@@ -50,9 +50,9 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 30
     trigger: "<=$75"
-    current_distance: "8.3%"
+    current_distance: "-2.8%"
     created_date: "2026-03-06"
-    staleness_status: FRESH
+    staleness_status: FRESH  # NEAR TRIGGER. Deprioritized — zero MoS at R3 FV $78.
     gate: "CLEARED — R4 CONDITIONAL APPROVE S143c6 (2026-03-07)"
     r4_status: "CONDITIONAL APPROVE (S143c6, 2026-03-07). 6 PASS, 1 CONDITIONAL PASS (Gate 5 MoS). Committee FV $85."
     size_eur: 400
@@ -70,9 +70,9 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 40
     trigger: "<=EUR 42"
-    current_distance: "3.7%"
+    current_distance: "0.0%"
     created_date: "2026-03-07"
-    staleness_status: FRESH
+    staleness_status: FRESH  # AT TRIGGER. EUR 42.00 = exactly EUR 42 trigger.
     r4_status: "APPROVED S143c10 (2026-03-07). 10/10 gates PASS."
     size_eur: 400
     fair_value: "EUR 57 (weighted), EUR 55 (EV)"
@@ -89,9 +89,9 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 50
     trigger: "<=$88"
-    current_distance: "9.5%"
+    current_distance: "-7.1%"
     created_date: "2026-02-14"
-    staleness_status: FRESH  # <15% distance
+    staleness_status: FRESH  # TRIGGERED. Below $88 trigger. But no R4 yet.
     size_eur: 400
     fair_value: "$110"
     mos_at_trigger: "20%"
@@ -105,7 +105,7 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 50
     trigger: "<=$90"
-    current_distance: "-4.4%"
+    current_distance: "-10.3%"
     created_date: "2026-03-08"
     staleness_status: FRESH
     r4_status: "APPROVED CONDITIONAL (S149c18, 2026-03-08). 10/10 gates PASS."
@@ -113,9 +113,9 @@ standing_orders:
     fair_value: "$130 (R3 resolved. Bear $110 / Base $130 / Bull $165)"
     mos_at_trigger: "30.8%"
     tier: "A (QS 68tool/75adj)"
-    notes: "S151 UPDATE: FTNT Investor Day was NEUTRAL (not BEAR). Rotation condition NOT met. GDDY SO $90 remains as passive entry. At $90.21 = essentially AT trigger. E[CAGR] ~20% at $90. R4 APPROVED. BUT: no cash to deploy (3.5% = EUR 370 only). Would need MONY.L rotation capital (~Mar 26) or trim. 12 KCs incl CEO insider selling RED FLAG."
+    notes: "S151 Mar-13: DEEPLY TRIGGERED at $80.75 (10.3% BELOW $90 trigger). MoS 37.9% vs $130 FV. E[CAGR] ~24% at $80.75. R4 APPROVED. CASH BLOCKED (EUR 370 only, SO is EUR 720). PLAN: MONY.L ex-div Mar 26 → sell → EUR 888 freed. If GDDY still <$90 → deploy partial (EUR 400-500). Market in crisis mode (VIX 27) may push lower. 12 KCs incl CEO insider selling."
     kill_conditions: "KC1-7 (R1): FCF margin <25% 2Q, domain renewal <80%, A&C rev negative, leverage >3.5x, Starboard exits, abandons $1.8B FCF guide, data breach. KC8-12 (DA): CEO/CFO net selling accumulated shares, Airo paid sub share <30%, R&D/Rev <15%, ND/EBITDA >3.0x, GDDY domain renewal declines."
-    pre_execution_condition: "S151: FTNT Investor Day was NEUTRAL. Rotation NOT triggered. SO $90 passive entry only. Capital source: MONY.L post ex-div ~Mar 26 (EUR 888). If GDDY still ≤$90 then → deploy MONY.L capital into GDDY."
+    pre_execution_condition: "S151 Mar-13: TRIGGERED at $80.75. Cash BLOCKED. Capital source: MONY.L post ex-div ~Mar 26 (EUR 888). If GDDY still ≤$90 then → deploy EUR 400-500 of MONY.L capital into GDDY. Pre-flight reverse DCF before execution."
     last_analysis_date: 2026-03-08
     expiry: 2026-09-01
 
@@ -132,9 +132,9 @@ standing_orders:
     category: ACTIVE
     fill_prob_6m: 30
     trigger: "<=$170"
-    current_distance: "7.1%"
+    current_distance: "-0.5%"
     created_date: "2026-02-14"
-    staleness_status: RECALIBRATED  # S143c4: trigger $155→$170. Closer to market ($183). Greensill Aug 2026 = dated catalyst.
+    staleness_status: RECALIBRATED  # AT TRIGGER. $170.88 ≈ $170. Greensill Aug 2026 catalyst.
     size_eur: 200
     fair_value: "$190"
     mos_at_trigger: "10.5%"
@@ -157,9 +157,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 30
     trigger: "<=$65"
-    current_distance: "3.5%"
+    current_distance: "-2.2%"
     created_date: "2026-02-26"
-    staleness_status: FRESH  # <15% distance, dated catalyst (Merck PTAB Jun 2026). NEAR TRIGGER.
+    staleness_status: FRESH  # TRIGGERED but GATED on Merck PTAB Jun 2026.
     gate: "Merck PTAB ruling (Jun 2026) — binary risk favors patience"
     r4_status: "APPROVED CONDITIONAL (S140, 2026-03-06). 6 PASS, 4 CONDITIONAL PASS, 0 FAIL."
     size_eur: 400
