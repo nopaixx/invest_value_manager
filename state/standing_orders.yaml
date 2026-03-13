@@ -165,6 +165,23 @@ standing_orders:
   # GATED — Cannot execute until pre-execution condition is met.
   # ═══════════════════════════════════════════════════════════════════════
 
+  - ticker: ZTS
+    action: BUY
+    category: GATED
+    fill_prob_6m: 30
+    trigger: "<=$105"
+    current_distance: "9.9%"
+    created_date: "2026-03-13"
+    staleness_status: FRESH
+    gate: "Q1 2026 earnings (May 2026). Clarify: (1) Apoquel generic competitive landscape post-Nov 2026 patent, (2) Librela trajectory (stabilizing or declining further?), (3) receivables gap explanation."
+    size_eur: 400
+    fair_value: "$130"
+    mos_at_trigger: "19.2%"
+    tier: "A (QS 78)"
+    ecagr_at_trigger: "~15%"
+    notes: "R1 COMPLETE S151. WIDE moat (regulatory + switching costs). Double franchise headwind: Librela safety (4.5% of rev) + Apoquel patent Nov 2026 (7% of rev). Risk-identifier found 2 CRITICAL + 9 HIGH risks. FA inflated FV to $155 (corrected to $130). Polen Capital $700M + Fundsmith $491M + Cantillon = quality fund convergence. Entry $100-110 for ~15% E[CAGR]."
+    kill_conditions: "FDA Librela restriction, core franchise -5% 2Q organic, ROIC <15% 2yr, OP margin <34% 2Q, receivables/rev >20% 2Q, Apoquel generic erosion >30% within 18mo of Nov 2026"
+
   - ticker: STMN.SW
     action: BUY
     category: GATED

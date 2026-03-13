@@ -124,7 +124,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 ### Para analisis profundo
 | Ticker | Razon | Priority |
 |--------|-------|----------|
-| ZTS | #1 global, QS 78 Tier A, at 52wL, Librela de-rating = opportunity | ALTA |
+| ZTS | R1 COMPLETE. QS 78 Tier A, FV $130, entry $100-110. WATCHLIST. Double franchise headwind (Librela + Apoquel Nov 2026 patent). Needs Q1 May. | DONE — WATCHLIST |
 | IDXX | Diagnostics monopoly, QS 83, but P/E ~45x still | Media |
 | ELAN | Low quality (debt-heavy), but deep value play | Baja |
 

@@ -832,17 +832,19 @@ quality_universe:
     qs_adj: 78
     tier: A
     sector: animal-health
-    fair_value: 170.0
-    entry_price: 120.0
+    fair_value: 130.0
+    entry_price: 110.0
     currency: USD
     current_price: null
     distance_to_entry: null
-    pipeline_status: SCORED
+    pipeline_status: R1_COMPLETE
     thesis_path: null
     last_scored: '2026-03-13'
     last_price_check: null
-    notes: 'CORRECTED S151: QS Tool 78 (was 80). ROIC 26.1%, GM 71.8%, FCF 24%. At 52wL 15.23. P/E 19.2x. Animal health monopoly.
-      R1 PRIORITY.'
+    notes: 'R1 REFRESH S151 CIO CORRECTED: FV 55→30. Apoquel patent Nov 2026 (not 2032). Double headwind (Librela + Apoquel).
+      WIDE moat. WATCHLIST entry 00-110. E[CAGR] ~12% at 15. Needs Q1 May data.'
+    r1_session: 151
+    r1_verdict: ACTIONABLE
   - ticker: VRSK
     name: Verisk Analytics, Inc.
     direction: long
