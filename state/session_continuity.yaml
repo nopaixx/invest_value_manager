@@ -101,13 +101,13 @@ handoff:
       - "Pipeline depth: 22 R1_COMPLETE, 3 R3_COMPLETE, 7 R4_COMPLETE. Post-correction deployment optionality HIGH."
       - "Defense basket: SAF.PA EUR 235 entry (23.5% away). Keep RESEARCHING."
   dedup_signals:
-    - "S154c1: HLNE thesis refresh — $107→$97, MoS 13%, all KCs CLEAR. Insider cluster $3.2M."
-    - "S154c2: Standing orders summary — correction deepening, 4 triggered + 5 near."
-    - "S154c3: System state — session 154, net exposure 99.2% justified."
-    - "S154c4: SAF.PA Error #62 — thesis header EUR 290→260, universe EUR 380→260."
-    - "S154c5: TW + SPGI Error #61 — universe FVs corrected to match thesis."
-    - "S154: Tools audit clean. NEU FV $850 deprioritized. All sector views FRESH."
-    - "S154: Insider activity — HLNE cluster BUY, TW CEO selling $26.3M, DOCS/ADBE neutral."
+    - "S155c1: NYSE open scan — all 11 positions + CVNA short. FOMC Section 9 verified. Insider Form4 refreshed."
+    - "S155c2: Nuclear/AI energy basket KILLED (CEG QS 24, VST QS 26 = Tier D). Tools audit clean."
+    - "S155c3: Theme discovery updated. Capital destination corrected to GDDY + DNLM.L LOCKED."
+    - "S155c4: SO distances refreshed. ACGL false trigger FIXED ($94 > $88). STMN.SW 3.3%, SPGI 0.7% approaching."
+    - "S155: Fallen angels scan — 35 quality names -25%+ but all already in pipeline. Entries are bottleneck, not candidates."
+    - "S155: BZU.MI KC#6 oil clock started (~2 weeks). Needs 6mo sustained + margin compression to trigger."
+    - "S155: CPRT $33.66 at 52w low. FV $37. E[CAGR] only 4% at market. Needs $31 for threshold."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
