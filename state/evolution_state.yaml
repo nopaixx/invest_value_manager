@@ -10,7 +10,7 @@
 last_updated:
   session: 151
   date: "2026-03-13"
-  note: "S151: 18 commits, 4 context windows, 3 days (Mar 7-13). BZU.MI executed + DA same-day (MODERATE COUNTER, FV 57→51). FOUR.L FY2025 scored (CONDITIONAL PASS, deferred). Mar 26 execution plan CORRECTED (MONY.L EUR 888→716). CVNA moved to short/active/. Oil re-escalated to $97. Fallen angels screening: 72 found, top 10 curated. Pipeline: DECK at entry, WING below SO. E[CAGR] 18.6% (+1.2pp). 4 velocity units."
+  note: "S151: 24 commits, 5 context windows, 3 days (Mar 7-13). BZU.MI executed + DA same-day (MODERATE COUNTER, FV 57→51). FOUR.L FY2025 scored (CONDITIONAL PASS, deferred). Mar 26 execution plan CORRECTED (MONY.L EUR 888→716). CVNA moved to short/active/. Oil re-escalated to $97. Fallen angels screening: 72 found, top 10 curated. ZTS R1 COMPLETE (3 agents parallel, CIO corrected FA's $155→$130, Apoquel patent error caught). Animal-health sector view CREATED. 4 SOs triggered + 3 near (correction broadest since inception). Pipeline: 7 velocity units (BZU.MI DA 2u + FOUR.L 1u + news 1u + ZTS R1 3u)."
 
 # =============================================================================
 # 14 AUTO-FIRE TRIGGERS — RED / YELLOW / GREEN (v4.8: +T12, T13, T14)
@@ -43,12 +43,12 @@ triggers:
   T3_pipeline_velocity:
     metric: "Pipeline Velocity (5-session rolling average, units/session)"
     current_value: 10.4
-    current_detail: "S145:2, S146:12, S147:6, S149:28, S151:4 — rolling 5-session avg ~10.4. S151: BZU.MI DA (2u) + FOUR.L scoring (1u) + news scan (1u) = 4 units."
+    current_detail: "S145:2, S146:12, S147:6, S149:28, S151:7 — rolling 5-session avg ~11. S151: BZU.MI DA (2u) + FOUR.L scoring (1u) + news scan (1u) + ZTS R1 3-agent (3u) = 7 units."
     red_threshold: "< 1.5"
     yellow_threshold: "< 2.5"
     status: GREEN
     last_measured: "S151"
-    note: "T3 GREEN sustained. S151 = 4 velocity units (BZU.MI DA mandatory + FOUR.L results + news scan). Rolling avg 10.4 = well above 2.5 threshold. S149 mega session (28u) still in window."
+    note: "T3 GREEN sustained. S151 = 7 velocity units (BZU.MI DA + FOUR.L results + news scan + ZTS R1 3-agent). Rolling avg ~11 = well above 2.5 threshold. ZTS R1 with CIO correction = quality pipeline work."
 
   T4_error_recurrence:
     metric: "Same error pattern recurring 3+ times in last 10 sessions"
@@ -205,7 +205,7 @@ trigger_summary:
   yellow_count: 3
   green_count: 12
   unknown_count: 1
-  assessment: "S151: 16 triggers. 0 RED (maintained). 3 YELLOW (T9 changelog 50%, T11 basket health 3 single-pos improving post-Mar 26, T15 E[CAGR] 18.6% rising but below 30%). 12 GREEN (T1-T8, T12-T14, T16). 1 UNKNOWN (T10). E[CAGR] trend: 14.4→17.4→18.6 (+1.2pp). Mar 26 rotation projects 19.5-20%. Fallen angels screening produced 10 quality gap-fillers."
+  assessment: "S151 FINAL: 16 triggers. 0 RED. 3 YELLOW (T9, T11, T15). 12 GREEN. 1 UNKNOWN (T10). 7 velocity units. ZTS R1 complete (CIO caught FA Apoquel patent error = Error #65 validation). Animal-health sector view created. 4 SOs triggered + 3 near in correction — broadest since inception. Mar 26 rotation locked. Post-rotation E[CAGR] ~19.5-20%."
 
 # =============================================================================
 # ACTIVE EXPERIMENTS — Changes being measured
