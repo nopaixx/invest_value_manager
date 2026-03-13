@@ -40,7 +40,7 @@ standing_orders:
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
     tier: "A (QS 79)"
-    notes: "S151 UPDATE: TRIGGERED at 916.50p (below 950p). Pre-flight COMPLETE: constraint_checker 3.6% allocation, UK 22.3%. Reverse DCF: market pricing -7.9% FCF CAGR decline vs historical -2.5%. At historical rate FV=1211p (32% MoS at 918p). E[CAGR] ~14.5% at current price. CASH BLOCKED: EUR 370 insufficient. PLAN: execute post-MONY.L sell Mar 26 (EUR 888 freed). If still ≤950p then → deploy EUR 375."
+    notes: "S151 UPDATE: TRIGGERED at 863p (below 950p, deeper than before). Pre-flight COMPLETE: constraint_checker 3.6% allocation, UK drops to 1 position post-MONY.L exit (IHP.L only). Reverse DCF: market pricing -7.9% FCF CAGR decline vs historical -2.5%. At historical rate FV=1211p (32% MoS at 863p). E[CAGR] ~14.5%. CASH BLOCKED until MONY.L ex-div Mar 26. PLAN: EUR 388 from MONY.L (after EUR 500 to GDDY). If GDDY rallies >$90 → EUR 375 DNLM.L gets priority. Near 52wL 836p."
     conditions: "TRIGGERED at 916.50p < 950p. Pre-flight DONE. CASH BLOCKED until Mar 26 (MONY.L ex-div + sell). 2 UK positions (3rd = acceptable post-MONY.L exit)."
     last_analysis_date: 2026-02-27
     expiry: 2026-06-01
@@ -99,7 +99,7 @@ standing_orders:
     fair_value: "$130 (R3 resolved. Bear $110 / Base $130 / Bull $165)"
     mos_at_trigger: "30.8%"
     tier: "A (QS 68tool/75adj)"
-    notes: "S151 Mar-13: DEEPLY TRIGGERED at $80.75 (10.3% BELOW $90 trigger). MoS 37.9% vs $130 FV. E[CAGR] ~24% at $80.75. R4 APPROVED. CASH BLOCKED (EUR 370 only, SO is EUR 720). PLAN: MONY.L ex-div Mar 26 → sell → EUR 888 freed. If GDDY still <$90 → deploy partial (EUR 400-500). Market in crisis mode (VIX 27) may push lower. 12 KCs incl CEO insider selling."
+    notes: "S151 Mar-13 PRE-FLIGHT COMPLETE: DEEPLY TRIGGERED $80.75 (10.3% below $90). Reverse DCF: EV/FCF 8.7x, market pricing -2% perpetuity DECLINE vs actual +20% FCF CAGR. FCF yield 14.7%. MoS 37.9%, E[CAGR] 25.2%. R4 APPROVED. CASH BLOCKED until MONY.L ex-div Mar 26 (EUR 888). Constraint check: 4.9% allocation, Tech 21.1%, US 44.5% — ALL CLEAR. CAO sold 1,310 shares at $90.15 (Mar 10) — small, KC#8 tracks accumulation not singles. BNP Paribas increasing stake. DEPLOY EUR 500 into GDDY on Mar 26 if ≤$90. Remaining EUR 388 → DNLM.L."
     kill_conditions: "KC1-7 (R1): FCF margin <25% 2Q, domain renewal <80%, A&C rev negative, leverage >3.5x, Starboard exits, abandons $1.8B FCF guide, data breach. KC8-12 (DA): CEO/CFO net selling accumulated shares, Airo paid sub share <30%, R&D/Rev <15%, ND/EBITDA >3.0x, GDDY domain renewal declines."
     pre_execution_condition: "S151 Mar-13: TRIGGERED at $80.75. Cash BLOCKED. Capital source: MONY.L post ex-div ~Mar 26 (EUR 888). If GDDY still ≤$90 then → deploy EUR 400-500 of MONY.L capital into GDDY. Pre-flight reverse DCF before execution."
     last_analysis_date: 2026-03-08
@@ -152,7 +152,7 @@ standing_orders:
     fair_value: "$90 (R3 post-DA, was $110 R1)"
     mos_at_trigger: "27.8%"
     tier: "A (QS 79adj, R4 APPROVED)"
-    notes: "R4 APPROVED S140. 10-gate: 6 PASS, 4 CONDITIONAL. S142 UPDATE: PTAB dispute is about Keytruda SC (MDASE patents), NOT DARZALEX/ENHANZE royalties. Existing royalties (DARZALEX $483M, Phesgo, Vyvgart) NOT at risk. German injunction WON Dec 2025 (Keytruda SC blocked in Germany). PTAB oral hearings Mar 2026, final ruling June 2. FY2025 record $1.4B rev (+38%). 2026 guidance $1.8B. Goldman SELL $56. Conditions: (1) CANCEL if Merck PTAB broadly adverse Jun 2026, (2) RECALIBRATE to $55 if CMS finalizes combination product guidance, (3) RECLASSIFY Tier B if Alteogen signs 3+ more major deals."
+    notes: "R4 APPROVED S140. S151 PTAB UPDATE: PTAB GRANTED Merck's review — determined 'more likely than not' Merck prevails on claims 1-4 and 8-21 of patent 11,952,600. Industry data: 70% of PTAB reviews that reach trial result in FULL patent invalidation. This INCREASES probability of adverse ruling from ~40% to ~60-70%. German injunction still WON (Dec 2025). Existing royalties (DARZALEX $483M, Phesgo, Vyvgart) NOT at risk — only Keytruda SC opportunity. BUT: if PTAB invalidates, Keytruda SC royalty (~$2-4B TAM) is lost. Gate STRENGTHENED: do NOT buy before Jun 2 PTAB final ruling. If adverse → CANCEL. If favorable → execute immediately at market (massive re-rate expected). Goldman SELL $56."
     kill_conditions: "Merck PTAB full loss (Keytruda SC royalty opportunity voided), CMS/IRA final guidance kills DARZALEX pricing, Alteogen wins 3+ new partners in 12mo, ROIC <WACC 2yr"
     pre_execution_condition: "Merck PTAB ruling June 2, 2026 must resolve favorably. If partial adverse → reassess at lower entry ($55). If full adverse → CANCEL. PTAB oral hearings in progress Mar 2026."
     last_analysis_date: 2026-03-06
