@@ -158,7 +158,7 @@ DA adjustments: -$3 (refresh fading), -$2 (security crisis), -$3 (edge thinness)
 8. Deferred revenue growth <8% for 2 consecutive quarters (leading indicator of revenue deceleration — DA S149)
 9. Third CISA KEV entry within 12 months (CVE pattern escalation — DA S149)
 
-### Kill Conditions Status (2026-03-08, pre-Investor Day)
+### Kill Conditions Status (2026-03-13, post-Investor Day + CVE update)
 
 | KC# | Condition | Status | Notes |
 |-----|-----------|--------|-------|
@@ -167,10 +167,10 @@ DA adjustments: -$3 (refresh fading), -$2 (security crisis), -$3 (edge thinness)
 | 3 | FCF margin <25% | **CLEAR** | FCF margin 32.5%, stable 4 years. No concern. |
 | 4 | SEC formal investigation | **CLEAR** | Class action early stage. No SEC involvement. LOW probability. |
 | 5 | Either Xie brother <5% ownership | **CLEAR** | Ken Xie 8.3%, Michael Xie 7.4%. Well above 5%. Monitor 10b5-1 selling. |
-| 6 | 2nd major security incident in 6mo | **MONITORING** | CVE-2025/2026 crisis = first incident. Clock started ~Jan 2026, 6-month window closes ~Jul 2026. Investor Day response to CVE is KEY signal. |
+| 6 | 2nd major security incident in 6mo | **MONITORING ELEVATED** | CVE pattern escalating: 11 new vulns Mar 10 (same day as investor briefing), active exploitation confirmed (CVE-2025-59718/59719, CVE-2026-24858), MFA bypass CVE-2026-22572. Not yet customer-attrition-level but PATTERN is concerning. |
 | 7 | Product rev -10% 2Q + SASE <15% | **CLEAR** | Product revenue +16% FY2025, SASE +40%. Both strong. |
 | 8 | Deferred rev growth <8% 2Q | **MONITORING** | Deferred rev +11% — above 8% but decelerating (21%→15%→11%). Approaching territory. |
-| 9 | 3rd CISA KEV entry in 12mo | **MONITORING** | 24 total entries, 8 in 2025 alone. Pattern concerning. Monitor post-Investor Day. |
+| 9 | 3rd CISA KEV entry in 12mo | **MONITORING ELEVATED** | CISA issued guidance on CVE-2026-24858 (Mar 10). Need precise 12mo KEV count. 24 total entries historically, 8 in 2025 alone. If 3rd 2026 KEV confirmed → TRIGGERED. |
 
 ---
 
@@ -358,14 +358,23 @@ The Iran/Hormuz crisis (Operation Epic Fury, Day 7+) creates a structural cybers
 
 **KCs status post-event:**
 - KC#2 (SASE <15%): CLEAR, very clear — +40% Q4, +24% FY
-- KC#6 (2nd security incident): MONITORING — CVE addressed but no resolution metrics
-- KC#9 (3rd CISA KEV): MONITORING — not discussed
+- KC#6 (2nd security incident): MONITORING ELEVATED — CVE pattern escalating (11 new vulns Mar 10, active exploitation confirmed, MFA bypass CVE-2026-22572)
+- KC#9 (3rd CISA KEV): MONITORING ELEVATED — CISA guidance issued on CVE-2026-24858. Need precise 12mo KEV count.
 
-**E[CAGR]: 9.5% at $84.20 vs FV $88.** Still bottom of portfolio. Not a rotation trigger but first to go if better candidate matures. Q1 earnings May 6 is next catalyst.
+**CVE ESCALATION UPDATE (S151c28, 2026-03-13):**
+On the SAME DAY as the investor briefing (Mar 10), 11 new vulnerabilities were disclosed including:
+- CVE-2025-54820: HIGH severity RCE in FortiManager (remote unauthenticated)
+- CVE-2026-22572: Authentication bypass that bypasses MFA entirely (FUNDAMENTAL security failure)
+- Active exploitation confirmed: CVE-2025-59718, CVE-2025-59719, CVE-2026-24858
+- CISA issued guidance on ongoing exploitation
+This is NOT a one-off — it's a PATTERN. KC#6 and KC#9 both ELEVATED. FV $88 unchanged but conviction WEAKENING.
+See: state/ftnt_accelerate_2026.md for full report.
+
+**E[CAGR]: 9.4% at $84.40 vs FV $88.** Worst in portfolio. ROTATION CANDIDATE — first out when better candidate matures + capital available. Q1 earnings May 6 is next catalyst. If Q1 FAIL → EXIT Protocol triggered.
 
 **Stock reaction: flat** ($81.62-$84.86 range). Market agrees — nothing surprising.
 
-*Framework prepared: 2026-03-06 (S141). KC mapping added 2026-03-07 (S142). Pre-event review completed 2026-03-07 (S143). QS updated 87 (S144c3). Post-event assessment: 2026-03-11 (S151).*
+*Framework prepared: 2026-03-06 (S141). KC mapping added 2026-03-07 (S142). Pre-event review completed 2026-03-07 (S143). QS updated 87 (S144c3). Post-event assessment: 2026-03-11 (S151). CVE escalation update: 2026-03-13 (S151c28).*
 
 ---
 
