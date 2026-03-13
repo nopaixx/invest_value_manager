@@ -243,9 +243,9 @@ standing_orders:
     category: GATED
     fill_prob_6m: 20
     trigger: "<=$355"
-    current_distance: "4.6%"
+    current_distance: "1.9%"
     created_date: "2026-02-18"
-    staleness_status: RECALIBRATED  # S133: trigger $310→$355. S142: 4.6% away, NEAR TRIGGER in crisis.
+    staleness_status: RECALIBRATED  # S133: trigger $310→$355. S151: 1.9% away ($361.86), correction deepening.
     gate: "Verify Q1 2026 GWP growth trends (ex-property >10%)"
     size_eur: 400
     fair_value: "$458"
@@ -380,11 +380,11 @@ standing_orders:
   - ticker: WING
     action: BUY
     category: GATED
-    fill_prob_6m: 5
+    fill_prob_6m: 30
     trigger: "<=$190"
-    current_distance: "17.1%"
+    current_distance: "1.6%"
     created_date: "2026-02-25"
-    staleness_status: FRESH  # Dated gate (Q1 FY2026 SSS May 2026). R3 complete S135.
+    staleness_status: FRESH  # Dated gate (Q1 FY2026 SSS May 2026). R3 complete S135. S151: 1.6% from trigger, correction deepening.
     gate: "Q1 FY2026 SSS data (May 2026). R2 COMPLETE S135 (STRONG COUNTER 13/19)."
     size_eur: 300
     fair_value: "$240 (R3 revised from $296, -19%)"
@@ -537,12 +537,12 @@ review_flags:
   # Trigger lowered $300→$285. FV revised $385→$365. See thesis/research/ROP/review_feb2026.md
 
 # =============================================================================
-# SO SUMMARY (S143c4, 2026-03-07 — Post-stale cleanup)
-# ARCHIVED S143c4: ROP, FDS, REN.AS, VLTO, PEGA, CPRT (6 stale SOs removed)
-# RECALIBRATED S143c4: MRSH $155→$170, SEIC $76→$72
-# MORN SOLD: cash EUR 2,071 (+475 proceeds)
-# NEAR TRIGGER: HALO 3.5%, DNLM.L 1.9% (UNBLOCKED), KNSL 4.6%, STMN.SW 5.6%
-# ACTIVE:    5 (DNLM.L 1.9%, ACGL 9.5%, RACE.MI ADD 10.5%, MRSH 7.1%, VRSN 13.9%)
-# GATED:    7 (BAH, HALO, STMN.SW, KLR.L, DSY.PA, KNSL, SOON.SW, QLYS, SPGI, WING, SEIC, CMCSA)
-# Cash EUR 2,071. Prioritize SPGI, VRSN, DNLM.L.
+# SO SUMMARY (S151c21, 2026-03-13 — Correction deepening update)
+# Cash EUR 0. All capital deployed. Mar 26 rotation locked (GDDY+DNLM.L).
+# CORRECTION WATCH: KNSL 1.9% from trigger ($362 vs $355), WING 1.6% from trigger ($193 vs $190)
+# Both GATED (KNSL: Q1 GWP, WING: Q1 SSS May). Would need cash + gate clearance.
+# Pipeline approaching hard: DECK at entry ($100 vs $95-100), CPRT near 52wL ($34 vs $31)
+# ACTIVE:    5 (DNLM.L locked Mar 26, ACGL, RACE.MI ADD, MRSH, VRSN)
+# GATED:    7+ (BAH, HALO, STMN.SW, KLR.L, DSY.PA, KNSL, SOON.SW, QLYS, SPGI, WING, SEIC, CMCSA)
+# POST-MAR 26: FTNT (9.4% E[CAGR]) = next rotation candidate. ZTS R1 in progress.
 # =============================================================================
