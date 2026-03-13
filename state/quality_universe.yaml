@@ -4698,17 +4698,18 @@ quality_universe:
     name: Tradeweb Markets Inc.
     direction: long
     qs_tool: 76
-    qs_adj: 76
+    qs_adj: 84
     tier: A
     sector: Financial Infrastructure
-    fair_value: 140.0
-    entry_price: 110.0
+    fair_value: 135.0
+    entry_price: 105.0
     currency: USD
-    current_price: 123.5
-    distance_to_entry: 12.3
-    pipeline_status: SCORED
-    thesis_path: null
-    last_scored: '2026-02-23'
+    current_price: 124.3
+    distance_to_entry: 18.4
+    pipeline_status: ACTIVE_POSITION
+    thesis_path: thesis/active/TW/thesis.md
+    last_scored: '2026-03-08'
+    notes: "R3 refresh S147c4. FV $140→$135. Growth 12%→10%. Insider selling $26.3M Feb-Mar."
     last_price_check: '2026-03-13'
     notes: 'R3 RESOLVED S115. FV 148→140 (-5.4%). Entry 126→110 (-12.7%). WIDE moat 20/25 STRENGTHENING. DA MODERATE COUNTER:
       growth decel (CC 9.9%), Elliott/LSEG overhang, FV→consensus. Insider selling 6.3M Feb 10. Cantillon +39% Q4. Wait Q1
@@ -4933,14 +4934,15 @@ quality_universe:
     qs_adj: 78
     tier: A
     sector: Financial Data & Stock Exchanges
-    fair_value: 500.0
-    entry_price: 400.0
+    fair_value: 470.0
+    entry_price: 420.0
     currency: USD
-    current_price: 419.7
-    distance_to_entry: 4.9
-    pipeline_status: SCORED
-    thesis_path: null
-    last_scored: '2026-02-28'
+    current_price: 423.4
+    distance_to_entry: 0.8
+    pipeline_status: R4_COMPLETE
+    thesis_path: thesis/research/SPGI/thesis.md
+    last_scored: '2026-03-13'
+    notes: "R4 APPROVED CONDITIONAL S152. FV $470 (was $500 batch scorer). SO $420 GATED Q1 May 5. 10/10 gates PASS. AR +20% CONDITIONAL FAIL = monitoring."
     last_price_check: '2026-03-13'
     notes: QS 60 raw, adj +18 serial acquirer (IHS Markit goodwill). ROIC distorted. GM 70%, OP margin 40%, FCF .5B. Duopoly
       ratings + S&P index monopoly.
