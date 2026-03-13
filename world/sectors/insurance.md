@@ -167,10 +167,11 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 - **Status**: SO ARCHIVED (S133). $259.85 > FV $225 = OVERVALUED. SCOTUS No. 25-834 + Spruce Point STRONG SELL + 2x fee comparable created strong counter in DA
 - **Action**: Monitor. Re-evaluate if price <$200. SCOTUS cert disposition is hard gate
 
-### Marsh McLennan (MMC) -- #1 Global Broker -- WATCHLIST
-- **Entry target**: $160 | **Current**: $182.70 | **QS**: 68adj Tier B | **FV**: $220
+### Marsh (MRSH, fka MMC) -- #1 Global Broker -- WATCHLIST
+- **Entry target**: $150 | **Current**: $170.88 | **QS**: 68adj Tier B | **FV**: $180 (R3 S152)
 - **Q4 2025 (Jan 29)**: Revenue +9%, organic +4%, adj EPS $2.12 (+10%). FY26 guidance similar
-- **Status**: R1 COMPLETE. Current price above entry. Monitor for crisis-driven pullback
+- **R3 S152**: FV $220→$195(R1)→$180(R3). DA MODERATE COUNTER: organic 4% doesn't justify 17x EV/EBIT, Greensill $900M expected, AI disruption risk for MMA. Entry $160→$150. HALF position pre-trial (Aug 2026). KC#9 added (MMA AI disruption)
+- **Status**: R3 COMPLETE. 12.2% above entry. Prob fill 15-20%. #3 for FTNT exit capital
 
 ### Aon (AON) -- #2 Global Broker -- WATCHLIST
 - **Entry target**: $300 | **QS**: 70adj Tier B | **FV**: TBD
@@ -237,7 +238,7 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 2. **ACGL is #1 insurance pipeline priority -- CLOSING IN.** SO at $88 (9.5% away, was 12.6% five days ago). Iran crisis risk-off is bringing ACGL toward entry zone. If broad selloff continues, $88 fill becomes realistic within weeks. MONITOR DAILY
 3. **KNSL is #2 insurance pipeline priority -- APPROACHING TRIGGER.** SO at $355 (4.6% away, was 8.7% five days ago). May fill BEFORE ACGL at current trajectory. BMO downgrade creating selling pressure. GATED on Q1 GWP verification but proximity demands attention
 4. **ERIE ARCHIVED.** $259.85, still above FV $225. SCOTUS hard gate. Revisit below $200
-5. **MMC/AON too expensive.** $182.70/$entry. Watchlist. Wait for crisis-driven pullback to $160/$300 respectively
+5. **MRSH (fka MMC) R3 COMPLETE.** $170.88, entry $150 (12.2% away). FV revised $220→$180. DA: organic deceleration, Greensill, AI risk. Half position pre-trial. AON watchlist $300
 6. **Sector allocation ~3.4% (GL only).** Room to grow to 8-10% if ACGL+KNSL entries fill. Insurance is a CORRECT defensive allocation in current crisis environment. Both pipeline names are CLOSER to trigger than 5 days ago
 
 ---
@@ -262,6 +263,7 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 | 2026-03-02 | **Q1 2026 full update.** Status NEUTRAL->NEUTRAL-FAVORABLE. GL Q4 beat + guidance raised. KNSL Q4 beat (CR 71.7%). Soft market data updated. Iran/Hormuz crisis impact assessed (minimal for our names). Social inflation data added. ACGL/KNSL pipeline updated with fresh prices. ERIE archived. ALL removed (sold Feb 14). | 17-day staleness update. Crisis context |
 | 2026-02-26 | ERIE R3 COMPLETE -- DA STRONG COUNTER | FV $313->$225 (-28.1%). SCOTUS gated |
 | 2026-02-14 | ALL SOLD | Tier C, MoS insufficient, peak cycle. P&L +5.9% |
+| 2026-03-13 | MRSH R3 COMPLETE (fka MMC) | FV $220→$195→$180. DA -7.7%. Entry $160→$150. KC#9 added (MMA AI) |
 | 2026-02-13 | Added MMC R1 analysis | QS 68 adj Tier B, FV $220, entry $160 |
 | 2026-02-12 | Added ACGL R1 analysis | QS 68 adj Tier B, FV $120, entry $92 |
 | 2026-02-03 | Status inicial: NEUTRAL | Sector en transicion hard->soft market |
