@@ -5,45 +5,44 @@
 # Created: 2026-03-13
 
 session:
-  id: 155
+  id: 156
   date: "2026-03-13"
-  timestamp_cet: "2026-03-13T15:33"
+  timestamp_cet: "2026-03-13T16:33"
 
 completed:
   vigilance:
-    news_scan_time: "2026-03-13T15:34"
+    news_scan_time: "2026-03-13T16:34"
     critical_count: 0
     material_count: 0
-    note: "S155: 3rd session today. NYSE just opened. Real-time price scan on all 11 positions + CVNA short + 9 pipeline SOs. No new events since S154."
+    note: "S156: 4th session today. NYSE +1hr. Mid-day price check all 19 tickers. Correction broadening, no bounce. CVNA short improving."
   so_check:
-    timestamp: "2026-03-13T15:35"
+    timestamp: "2026-03-13T16:35"
     nearest: { ticker: "HALO", distance_pct: -1.3, note: "$64.14 vs $65 trigger. TRIGGERED but GATED on PTAB Jun 2026." }
-    triggered: ["GDDY ($82.71 vs $90, buying Mar 26)", "DNLM.L (861p vs 950p, buying Mar 26)", "HALO ($64.14 vs $65, gated PTAB Jun)"]
-    near: ["KNSL $361 1.7% (gated Q1)", "ALFA.L 175.8p 6.5% (R3 complete)", "ZTS $116 10.6% (gated Q1 May)"]
+    triggered: ["GDDY ($81.38 vs $90, buying Mar 26)", "DNLM.L (863p vs 950p, buying Mar 26)", "HALO ($64.14 vs $65, gated PTAB Jun)"]
+    near: ["ZTS $97.53 near R4 entry $95 (+2.7%, gated Q1 May)", "SPGI $420 at trigger $420 (0%, gated Q1)"]
     executed_this_session: []
-    note: "KNSL approaching trigger at 52w low territory. ZTS also near 52w low ($116 vs $115.23). EUR 0 cash. FOMC Tue could push both below entry."
+    note: "ZTS approaching R4 entry. SPGI AT trigger but gated. EUR 0 cash."
   thesis_audit:
-    - "Portfolio P&L: EDEN +1.2%, FTNT +3.5%, BZU +0.5% | HLNE -7.7%, NVO -5.4%, ADBE -4.1%. Correction broad."
-    - "CVNA short: Entry $318.77 → $301.20 = +5.5% unrealized. Oil $100 = tailwind. Catalyst May 6."
-    - "FOMC Section 9 framework VERIFIED complete. 4 scenarios, portfolio action tree, KC impact. No gaps."
-    - "Insider scan: HLNE cluster $3.2M STRONG (all below current cost). TW CEO selling $9.1M (ongoing, in thesis). DOCS/ADBE immaterial."
-    - "Pipeline: LOPE R4 WATCHLIST, MRSH R3 GATED, ALFA.L R3 approaching, ZTS R1 at 52w low (gated May), KNSL R1 near trigger (caution: insider selling + SI surge)."
-    - "ZTS committee/SO discrepancy: R4 said $95 entry (Feb 14 on $120 FV), SO says $105 (Mar 13 on $130 FV refresh). Both GATED on Q1 May."
-    - "Nuclear/AI energy basket: CEG QS 24, VST QS 26 = Tier D. ROIC < WACC. Narrative stocks, not quality. Theme KILLED."
-    - "Tools audit: rf 4.5%, erp 5.5%, carry 7.5%, WACC default 9%. All acceptable for current conditions. No critical hardcoded staleness."
-  key_finding: "S155: NYSE open scan — CVNA short +5.5%, FOMC prep complete, pipeline deep but gated. Nuclear basket killed (Tier D). Tools clean. Correction expanding MoS. Post-Apr FTNT capital targets ALFA.L 165p + SPGI $420."
+    - "Portfolio -2.9% ($11,793). CVNA short +8.0% ($318.77→$293.14). Correction day 2, no bounce."
+    - "MANH reassessed: R3 FV $140, price $139. -43% from ATH but AT FV not below. E[CAGR] 9.2% = NOT actionable. Needs $110 (-21%)."
+    - "FICO triaged: QS 70 Tier B, ROIC 86%, P/E 42x, 3x leverage. FV ~$915-1,068 vs $1,145. Still overvalued despite -48% correction."
+    - "Pipeline: 22 R1 + 3 R3 + 7 R4 DEEP. No candidate actionable at market. Entries are bottleneck."
+    - "FOUR.L FY2025 scored against R3 gates: CONDITIONAL PASS. Buy condition (c) FAILS (2026 guidance weak). FV 4400→4000p (Error #62 fix). E[CAGR] 14.4% < 15% Tier B. Entry revised 3400→3200p."
+    - "FOMC Section 9 updated: HAWKISH prob 35→40% (oil $96 WTI, $101 Brent). Oil $100 Fed dilemma analysis added. Position-level impact mapped."
+    - "Tools audit (S155 bg): FX rates in 4 files (maintenance backlog). No critical staleness. rf 4.5%, erp 5.5% acceptable."
+  key_finding: "S156: FOUR.L earnings gate NOT cleared (weak 2026 guidance). MANH/FICO still overvalued post-correction. FOMC hawkish risk elevated (oil $101 Brent, gold ATH). CVNA short strengthening. Mar 26 plan firm."
   net_exposure_updated: true
-  net_exposure_reasoning: "99.2% net long + 0.8% short. Correction deepening but all theses hold. Quality positions benefiting from MoS expansion. No cash to deploy. FOMC Tue = key risk event. Portfolio 80%+ oil-neutral."
+  net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged. Correction deepening further. All theses intact. No cash. FOMC Tue is primary risk — oil $100 + gold ATH suggest hawkish lean. Portfolio action tree ready."
   rotation_check: true
-  rotation_note: "Bottom 3 unchanged: FTNT 9.5% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26. All consistent with plan."
-  velocity_units: 6  # NYSE open scan + SO audit (1u), insider Form4 scan (1u), pipeline assessment (1u), nuclear basket QS killed (1u), system.yaml full update (1u), DA calibrator + drift detector (1u)
-  velocity_note: "S155: Real-time scan all positions + CVNA. FOMC verified. Insider data refreshed. Pipeline depth confirmed. Nuclear basket killed (CEG/VST Tier D). Tools audited clean. system.yaml updated (strategic direction, macro, baskets, session summary). DA calibrator: 88% DA INSUFFICIENT — correction expanding MoS beyond pipeline estimates."
+  rotation_note: "Bottom 3 unchanged: FTNT 9.9% (exit locked Apr), BZU.MI 11.2%, TW 13.4%. MONY.L 13.7% selling Mar 26."
+  velocity_units: 3  # FOUR.L scoring (2u: R3 gate check + thesis update), FOMC refresh (1u)
+  velocity_note: "S156: FOUR.L FY2025 scored vs R3 (CONDITIONAL PASS, FV reduced, entry revised). FOMC probabilities updated with oil $100 analysis. MANH/FICO/PAYC pipeline assessed (none actionable). Mid-day price check."
   portfolio_ecagr:
-    deployed: 18.4%
-    blended: 18.4%
+    deployed: 18.0%
+    blended: 18.0%
     cash_drag: "0pp/yr"
-    worst: "FTNT 9.5%"
-    note: "Stable vs S154. Correction expanding MoS across portfolio without degrading thesis quality."
+    worst: "FTNT 9.9%"
+    note: "Slight improvement as FTNT rose to $83. Correction MoS widening across portfolio."
 
 # =============================================================================
 # PROMISES — Accountability loop (v4.8, P18)
@@ -77,40 +76,36 @@ promises:
 
 three_questions:
   q1_wait_streak: 0  # Cash = 0%. Deployment via rotation only.
-  last_q1_answer: "Cash = 0%. Mar 26 rotation locked (4 trades). FTNT exit late April frees EUR 775. Correction expanding MoS."
-  last_q2_answer: "Defense basket RESEARCHING (SAF.PA EUR 235, 23.5% away). Cybersecurity post-FTNT empty. ALFA.L 175.8p, 6.5% from 165p entry — fastest approaching. KNSL $361, 1.7% from $355."
-  last_q3_answer: "NYSE open real-time scan. CVNA short +5.5%. FOMC Section 9 verified. Insider Form4 refresh (no new flags). ZTS/KNSL near 52w lows identified."
+  last_q1_answer: "Cash = 0%. Mar 26 execution locked (4 trades). FOMC Tue may create opportunities. FTNT exit late April frees EUR 775 → SPGI + best available."
+  last_q2_answer: "Defense basket RESEARCHING (SAF.PA 23.5% away). FOUR.L hard gate NOT cleared — entry revised to 3,200p. ZTS $97.53, 2.7% from $95 entry (gated Q1 May)."
+  last_q3_answer: "FOUR.L FY2025 scored against R3 gates (Error #62 fixed). FOMC oil $100 analysis added. MANH/FICO triage saves time (both overvalued at market)."
 
 handoff:
   next_session_priorities:
     P0:
-      - "FOMC Mar 18 — Section 9 READY. Score dot plot immediately. Execute portfolio action per scenario."
+      - "FOMC Mar 18 — Section 9 READY (updated S156 with oil $100). Score dot plot immediately. Execute portfolio action per scenario."
       - "ECB Mar 19 + BoE Mar 20 — frameworks ready in current_view.md."
     P1:
       - "HLNE ex-div Mar 20 — capture dividend."
       - "MONY.L ex-div Mar 26 — SELL same day. EUR 716 proceeds."
       - "Mar 26 EXECUTION DAY: 4 trades locked. Pre-flight complete. FX rates needed day-of."
     P2:
-      - "CVNA short +5.5% — hold through Q1 May 6. Oil $100 tailwind."
+      - "CVNA short +8.0% — hold through Q1 May 6. Oil $100 tailwind."
       - "FTNT EXIT: Calendar Apr 21. Execute → SPGI EUR 400 + best available EUR 375."
-      - "ALFA.L 175.8p, 6.5% from 165p entry. If FOMC hawkish → could trigger within days."
-      - "KNSL $361, 1.7% from $355. BUT insider selling + SI surge = caution. Gated Q1."
-      - "ZTS $116, near 52w low $115. Gated Q1 May. If drops to $105 and Q1 clears → deploy."
+      - "ZTS $97.53, 2.7% from $95 R4 entry. Gated Q1 May. APPROACHING."
+      - "SPGI $420, AT trigger $420. Gated Q1. If FOMC hawkish → could dip further."
+      - "FOUR.L 3,440p. FV 4,000p. Entry revised 3,200p (-7% needed). Wait Q1 Jun."
     P3:
       - "HALO $64, TRIGGERED below $65 but GATED on PTAB Jun 2. Oral hearings Mar."
       - "Pipeline depth: 22 R1_COMPLETE, 3 R3_COMPLETE, 7 R4_COMPLETE. Post-correction deployment optionality HIGH."
-      - "Defense basket: SAF.PA EUR 235 entry (23.5% away). Keep RESEARCHING."
+      - "MANH/FICO assessed: both overvalued at market despite -43%/-48% corrections. No action."
   dedup_signals:
-    - "S155c1: NYSE open scan — all 11 positions + CVNA short. FOMC Section 9 verified. Insider Form4 refreshed."
-    - "S155c2: Nuclear/AI energy basket KILLED (CEG QS 24, VST QS 26 = Tier D). Tools audit clean."
-    - "S155c3: Theme discovery updated. Capital destination corrected to GDDY + DNLM.L LOCKED."
-    - "S155c4: SO distances refreshed. ACGL false trigger FIXED ($94 > $88). STMN.SW 3.3%, SPGI 0.7% approaching."
-    - "S155: Fallen angels scan — 35 quality names -25%+ but all already in pipeline. Entries are bottleneck, not candidates."
-    - "S155: BZU.MI KC#6 oil clock started (~2 weeks). Needs 6mo sustained + margin compression to trigger."
-    - "S155: CPRT $33.66 at 52w low. FV $37. E[CAGR] only 4% at market. Needs $31 for threshold."
-    - "S155c6: system.yaml full update — session 155, strategic direction, macro snapshot, basket weights (live), BZU.MI FV 57→51, FTNT EXIT status."
-    - "S155c6: DA calibrator 88% DA INSUFFICIENT (22/25). Prices falling below post-DA FVs. Edge analysis 4/4 our FV closer than consensus. Drift detector clean."
-    - "S155c6: Portfolio P&L -2.4% ($-287). CVNA short +6.5%. SM signals: HLNE insider cluster STRONG BULL, ADBE 6-fund convergence BULL, EDEN.PA SI 23.1% yfinance (AMF 9.64% declining)."
+    - "S156c1: FOUR.L FY2025 scored vs R3 gates — CONDITIONAL PASS. Buy condition (c) FAILS. FV 4400→4000p (Error #62 fix). Entry 3400→3200p."
+    - "S156c1: FOMC Section 9 — HAWKISH prob 35→40%. Oil $100 Brent Fed dilemma analysis added. Position-level oil impact mapped."
+    - "S156: MANH at $139 = AT FV (R3 $140). Not actionable despite -43% from ATH. Needs $110."
+    - "S156: FICO QS 70 Tier B, P/E 42x. FV ~$915-1,068 vs $1,145. Still overvalued. Not worth R1."
+    - "S156: Pipeline 22 R1 + 3 R3 + 7 R4 deep. No candidate actionable at market. Entries are bottleneck."
+    - "S156: Portfolio -2.9%, CVNA short +8.0% (improving). ZTS $97.53 near $95 entry. SPGI $420 AT trigger (gated Q1)."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -146,7 +141,7 @@ r1_cooldowns:
   COIN: { date: "2026-03-08", session: 149, verdict: "S2 ARCHIVED. Bull case 7/10 kills thesis." }
   DNLM.L: { date: "2026-03-08", session: 149, verdict: "R4 RE-VALIDATED. Preferred entry 850-880p. Mar 26 BUY EUR 440 locked." }
   BZU.MI: { date: "2026-03-13", session: 151, verdict: "R2 DA COMPLETE. MODERATE COUNTER, FV EUR 57→51. 3 HIGH. KC#6 added. E[CAGR] 12.1%. HOLD at 3.5%." }
-  FOUR.L: { date: "2026-03-13", session: 151, verdict: "FY2025 CONDITIONAL PASS. FV 4400→4000p. DEFERRED. Monitor Q1 Jun 2026." }
+  FOUR.L: { date: "2026-03-13", session: 156, verdict: "FY2025 scored vs R3 gates S156. CONDITIONAL PASS (buy cond c FAILS). FV 4000p. Entry revised 3200p. E[CAGR] 14.4% < 15% Tier B. Wait Q1." }
   ZTS: { date: "2026-03-13", session: 151, verdict: "R1 REFRESH CIO CORRECTED. FV $130 (was $155). QS 78 Tier A. WATCHLIST $105. Apoquel patent Nov 2026 CRITICAL." }
   MRSH: { date: "2026-03-13", session: 152, verdict: "R3 COMPLETE. FV $195→$180 (-7.7%). DA MODERATE COUNTER (7 HIGH). Entry $160→$150. Growth 7%→5%. Greensill $650M→$900M. 15.5x EV/EBIT. KC#9 added (MMA AI). HALF position pre-trial." }
   ALFA.L: { date: "2026-03-13", session: 152, verdict: "R3 COMPLETE. FV 235p→215p (-8.5%). DA MODERATE COUNTER resolved. NRR 109% (KC#9 added). Receivables RESOLVED. UK concentration RESOLVED (2nd post-MONY.L). Entry 165p. E[CAGR] ~17% at entry, ~14% at market. R4 when price ≤165p." }
