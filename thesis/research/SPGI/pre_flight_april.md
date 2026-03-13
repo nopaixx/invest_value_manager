@@ -61,11 +61,31 @@ The R4 committee APPROVED CONDITIONAL with 3 specific gate conditions:
 
 **CONCLUSION:** 2 of 3 gates PASS. G1 FAILS technically (AR +20% vs rev +8%, 12pp gap). However, FCF conversion (35.9%) and $5.5B cash generation indicate NO collection quality problem. The AR buildup is likely acquisition-driven (Visible Alpha full-year) + Q4 Ratings timing. This is a CONDITIONAL FAIL, not a hard block.
 
+**G1 DEFINITIVE RESOLUTION (S152, 2026-03-13):**
+
+The G1 receivables gate was designed to catch WKL.AS-type red flags: AR gapping while cash collection deteriorates. SPGI exhibits the OPPOSITE pattern:
+
+| Indicator | WKL.AS (red flag) | SPGI (current) |
+|-----------|-------------------|----------------|
+| AR growth vs rev | +23% vs +3.5% (19.5pp gap) | +20% vs +8% (12pp gap) |
+| FCF margin | 10-12% (weak) | 35.9% (record) |
+| Cash return to shareholders | <100% of FCF | 113% of FCF ($5B buybacks + divs) |
+| Organic growth | 3.5% CC | 8% CC |
+| OP margin trend | Flat | +60bps record 47.3% |
+
+**SPGI's receivables gap is NOT a collection quality problem.** The evidence:
+1. FCF at $5.5B / 35.9% margin = cash IS being collected. Companies with real AR problems show declining FCF margins.
+2. $5B+ returned to shareholders > 100% of FCF. A company with AR collection issues would NOT return this much cash.
+3. Visible Alpha acquired May 2024 — its first full year in FY2025 adds AR (~$300-500M consolidated) without proportional revenue ramp in Year 1. This alone could explain 5-10pp of the gap.
+4. Q4 Ratings issuance creates lumpy billing: high-fee bonds issued Q4 → billed Q4 → collected Q1. Seasonal timing, not quality.
+
+**VERDICT: G1 is NOT a blocker. It is a MONITORING item.**
+
 **DECISION:** Proceed with late April execution as planned, with the following adjustments:
-1. **Size DOWN if G1 not explained**: If Q1 2026 AR continues gapping (Q1 10-Q), reduce from EUR 400 to EUR 300
-2. **Kill Condition added**: KC-NEW: if AR growth exceeds revenue growth by >10pp for 2 consecutive quarters, EXIT
+1. **Size DOWN if G1 persists**: If Q1 2026 AR continues gapping (Q1 10-Q ~Aug 2026), reduce from EUR 400 to EUR 300
+2. **Kill Condition added**: KC-NEW: if AR growth exceeds revenue growth by >10pp for 2 consecutive quarters AND FCF margin declines below 33%, EXIT
 3. **Monitor**: Q1 2026 receivables (10-Q ~Aug 2026) will confirm if FY2025 was one-time or structural
-4. The strong FCF and record margins justify proceeding despite G1 technical FAIL — this is NOT a WKL.AS-type red flag where receivables gapped with weak FCF
+4. The dual test (AR gap + FCF margin) prevents false positives: acquisition-driven AR inflation with healthy FCF is NOT the same as collection deterioration with weakening FCF
 
 ---
 

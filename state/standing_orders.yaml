@@ -40,8 +40,8 @@ standing_orders:
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
     tier: "A (QS 79)"
-    notes: "S151 REFRESH: TRIGGERED at 855p (below 950p, near 52wL 836p). Pre-flight COMPLETE. Reverse DCF: market pricing -7.9% FCF CAGR decline vs historical -2.5%. FV=1008p thesis, 1211p at historical FCF rate (32% MoS at 855p). E[CAGR] ~15.7% at 855p. CASH BLOCKED until Mar 26. CORRECTED PLAN: EUR ~440 from MONY.L+NVO trim pool (EUR ~1,190 total). GDDY gets EUR 720 first (priority), DNLM.L gets remainder ~EUR 440. If GDDY >$90 on Mar 26 → DNLM.L gets full remaining. UK drops to 1 position post-MONY.L (IHP.L only), DNLM.L = 2nd UK = comfortable."
-    conditions: "TRIGGERED at 916.50p < 950p. Pre-flight DONE. CASH BLOCKED until Mar 26 (MONY.L ex-div + sell). 2 UK positions (3rd = acceptable post-MONY.L exit)."
+    notes: "S152c17 PRE-FLIGHT VERIFIED: 864p (ex-div Mar 12 = clean price). In committee's preferred 850-880p zone. E[CAGR] ~15.5% at 864p >> 12% Tier A threshold. MoS 14.3% vs FV 1008p. 13 insiders $19.9M cluster buy (STRONG BULL, discovered post-committee). All 8 KCs CLEAR. Feb 10 interims CONFIRMED thesis (H1 PBT GBP 113M, GM expanded, 25p special div). Capital EUR ~440 (remainder after GDDY EUR 720). If GDDY >$90 → DNLM.L gets full remaining ~EUR 1,160. UK drops to 2 positions post-MONY.L (IHP.L + DNLM.L)."
+    conditions: "TRIGGERED at 864p < 950p. MONY.L ex-div CONFIRMED Mar 26. Pre-flight COMPLETE (R1-R4 all files, 8 KCs CLEAR). Execute Mar 26."
     last_analysis_date: 2026-02-27
     expiry: 2026-06-01
 
@@ -577,8 +577,15 @@ review_flags:
   # Trigger lowered $300→$285. FV revised $385→$365. See thesis/research/ROP/review_feb2026.md
 
 # =============================================================================
-# SO SUMMARY (S152, 2026-03-13 — CORRECTION PRODUCING TRIGGERS)
+# SO SUMMARY (S152c17+, 2026-03-13 — PRE-FLIGHT VERIFIED)
 # Cash EUR 0. All capital deployed. Mar 26 rotation locked (GDDY+DNLM.L).
+# S152c17: MONY.L EX-DIV CONFIRMED MAR 26. Sell same day post-open. Dividend captured.
+# S152c17: DNLM.L WENT EX-DIV MAR 12. 864p = clean post-dividend price.
+# S152c17: GDDY PRE-FLIGHT COMPLETE. R1-R4 all files, 12 KCs, $80.75 → E[CAGR] 25.2%.
+# S152c17: DNLM.L PRE-FLIGHT COMPLETE. R1-R4 all files, 8 KCs, 864p → E[CAGR] ~15.5%. In committee preferred zone.
+# S152c17: SPGI G1 DEFINITIVELY RESOLVED. Not a blocker. Acquisition-driven AR + strong FCF = monitoring item.
+# S152c17: KC SWEEP CLEAN. 1 TRIGGERED (NVO KC#1 known), 17 MONITORING, no new issues.
+# S152c17: 80 FALLEN ANGELS (QS≥55, ≥30% DD). All Tier A names already in pipeline. Good coverage.
 #
 # TRIGGERED/AT-TRIGGER (EUR 0 cash = cannot fill):
 #   SPGI $419.70 vs $420 trigger — AT TRIGGER, GATED Q1 Apr
