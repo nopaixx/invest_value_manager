@@ -8,9 +8,9 @@
 # =============================================================================
 
 last_updated:
-  session: 149
-  date: "2026-03-08"
-  note: "S149: MEGA SESSION (40 commits, 3 context windows, ~28 velocity units). Short pipeline BREAKTHROUGH: 5 short theses worked (APP S1, CVNA S4, TSLA S4, RKLB S1, COIN S2). Cash 0% (full deployment since S144). Template improvements. Rotation plan formalized. Portfolio 11 positions, blended E[CAGR] 17.4%."
+  session: 151
+  date: "2026-03-13"
+  note: "S151: 18 commits, 4 context windows, 3 days (Mar 7-13). BZU.MI executed + DA same-day (MODERATE COUNTER, FV 57→51). FOUR.L FY2025 scored (CONDITIONAL PASS, deferred). Mar 26 execution plan CORRECTED (MONY.L EUR 888→716). CVNA moved to short/active/. Oil re-escalated to $97. Fallen angels screening: 72 found, top 10 curated. Pipeline: DECK at entry, WING below SO. E[CAGR] 18.6% (+1.2pp). 4 velocity units."
 
 # =============================================================================
 # 14 AUTO-FIRE TRIGGERS — RED / YELLOW / GREEN (v4.8: +T12, T13, T14)
@@ -32,23 +32,23 @@ triggers:
   T2_cash_sustained:
     metric: "Cash % sustained above 25% (consecutive sessions) WITH deployable candidates in universe"
     current_value: 0.0
-    current_detail: "0% cash. 11 positions. FULLY DEPLOYED since S144. Deployment = rotation only. exp_002 hypothesis MET (cash <25%). Cash went 56.7%→0% over S107-S144 (37 sessions)."
+    current_detail: "0% cash. 11 positions. FULLY DEPLOYED since S144. BZU.MI added S151. Mar 26 rotation locked (MONY.L sell + NVO trim → GDDY + DNLM.L). Deployment = rotation only."
     red_threshold: "> 25% for 3+ sessions WITH deployable candidates in universe"
     yellow_threshold: "> 15% for 3+ sessions"
     consequence: "RED triggers mandatory Inaction Audit in Fase 2.5. Must deploy or document why every candidate is uninvestable."
     status: GREEN
-    last_measured: "S149"
-    note: "T2 RED→GREEN. Cash 0% = FULLY DEPLOYED. The longest-running RED trigger is RESOLVED. Deployment doctrine (exp_002) achieved its ultimate goal. Future deployment = rotation."
+    last_measured: "S151"
+    note: "T2 GREEN sustained. Cash 0%. BZU.MI added (EUR 370). Mar 26 rotation will recycle EUR ~1,190 (MONY.L sell + NVO trim → GDDY + DNLM.L). Net portfolio count 11→12 post-rotation."
 
   T3_pipeline_velocity:
     metric: "Pipeline Velocity (5-session rolling average, units/session)"
-    current_value: 5.6
-    current_detail: "S144:4, S145:2, S146:12, S147:6, S149:28 — rolling 5-session avg ~10.4. S149 alone = 28 units (RKLB S1, COIN S2, GDDY R4, LOPE R4, SAF.PA R1, MEDI.OL R1, PAYC R1, DNLM.L R4 re-val, + many more)."
+    current_value: 10.4
+    current_detail: "S145:2, S146:12, S147:6, S149:28, S151:4 — rolling 5-session avg ~10.4. S151: BZU.MI DA (2u) + FOUR.L scoring (1u) + news scan (1u) = 4 units."
     red_threshold: "< 1.5"
     yellow_threshold: "< 2.5"
     status: GREEN
-    last_measured: "S149"
-    note: "T3 RED→GREEN. Massive pipeline velocity explosion S144-S149. S149 single session = 28 velocity units (highest ever). Rolling average well above 2.5 threshold."
+    last_measured: "S151"
+    note: "T3 GREEN sustained. S151 = 4 velocity units (BZU.MI DA mandatory + FOUR.L results + news scan). Rolling avg 10.4 = well above 2.5 threshold. S149 mega session (28u) still in window."
 
   T4_error_recurrence:
     metric: "Same error pattern recurring 3+ times in last 10 sessions"
@@ -123,12 +123,12 @@ triggers:
   T11_basket_health:
     metric: "Basket health: single-position baskets, underfunded baskets, basket KC active, lifecycle integrity"
     current_value: 3
-    current_detail: "3 baskets with integrity issues: eu-value-recovery (RESEARCHING, 1 pos, deadline Mar 31), pharma-biotech (DECLINING, 1 pos, deadline Jun 30), specialty-insurance (BUILDING, 1 pos, deadline Apr 15). v4.8 reclassified."
+    current_detail: "3 single-pos baskets: eu-value-recovery (BZU.MI only, RESEARCHING, deadline Mar 31), pharma-biotech (NVO only, DECLINING, trimming Mar 26), specialty-insurance (HLNE only, BUILDING, deadline Apr 15). Post-Mar 26: MONY.L exits digital-marketplaces (DEATH_WATCH), GDDY needs basket, DNLM.L joins eu-value-recovery (2 pos = resolved)."
     red_threshold: "3+ health flags or basket KC triggered or lifecycle deadline missed"
     yellow_threshold: "2 single-position baskets with lifecycle deadlines or 50% baskets underfunded"
     status: YELLOW
-    last_measured: "S133"
-    note: "v4.8 reclassification: eu-value-recovery ACTIVE→RESEARCHING, pharma-biotech BUILDING→DECLINING. All 3 single-position baskets now have deadlines. T11 YELLOW maintained — 3 flags but all actively managed with deadlines."
+    last_measured: "S151"
+    note: "T11 YELLOW maintained. Post-Mar 26 rotation will IMPROVE: eu-value-recovery gets DNLM.L (2 pos = exits single-pos), digital-marketplaces loses MONY.L (DEATH_WATCH). Pharma-biotech NVO being trimmed = DECLINING confirmed. HLNE still solo in specialty-insurance. Fallen angels screening found gap-fillers (ZTS animal health, VRSK data, BEI.DE consumer)."
 
   T12_so_staleness:
     metric: "Standing Order staleness: % of SOs that are STALE (>15% distance, >30d, no dated catalyst)"
@@ -162,14 +162,14 @@ triggers:
 
   T15_ecagr_optimization:
     metric: "Portfolio E[CAGR] blended trend AND sizing-conviction alignment"
-    current_value: 17.4
-    current_detail: "S149: Blended 17.4% (+3.0pp from S143). EDEN 28.6% = #1 at 18.4% (largest = highest E[CAGR] = ALIGNED). Top-3 E[CAGR] (EDEN 18.4%, IHP 11.4%, ADBE 8.9%) = 38.7% of capital. Bottom-3 (AUTO.L 3.5%, FTNT 7.2%, MONY.L 7.3%) = 18.0% of capital. Sizing-conviction correlation POSITIVE. Rotation plan will improve further."
+    current_value: 18.6
+    current_detail: "S151: Blended 18.6% (+1.2pp from S149). Deployed 18.6% (0% cash). EDEN still largest + highest E[CAGR]. Bottom 3: TW 13.5%, BZU.MI 12.1%, FTNT 9.4%. Post-Mar 26 rotation projects 19.5-20% (MONY.L 13.9% and NVO 17.2% partial exit → GDDY 25.2% + DNLM.L 15.7% = net +7pp E[CAGR] upgrade)."
     red_threshold: "Blended E[CAGR] declining for 3+ sessions AND sizing-conviction correlation < 0 (inverted)"
     yellow_threshold: "Blended E[CAGR] < 15% OR sizing-conviction correlation < 0.3"
     consequence: "RED triggers mandatory rotation proposal: move capital from bottom E[CAGR] to top, or explain why not. YELLOW triggers sizing review."
     status: YELLOW
-    last_measured: "S149"
-    note: "T15 RED→YELLOW. Blended E[CAGR] improved 14.4%→17.4% (+3.0pp). Sizing alignment improved: EDEN largest AND highest E[CAGR]. Still YELLOW because 17.4% < 30% target. Rotation plan (SELL AUTO.L Mon, FTNT if bear) will push to ~18-19%. Gap to 30% requires shorts + crash entries."
+    last_measured: "S151"
+    note: "T15 YELLOW maintained. Blended E[CAGR] rising: 14.4%→17.4%→18.6% (3 consecutive improvements). Still YELLOW (18.6% < 30% target). Mar 26 rotation will push to ~19.5-20%. Gap to 30% requires: (a) crash entries at deeper discounts, (b) post-Mar 26 second rotation (FTNT 9.4% = next candidate), (c) fallen angels screening found high-E[CAGR] candidates (ZTS, VRSK, BEAN.SW)."
     how_to_measure: |
       Each session in Fase 2.5:
       1. Run portfolio_cagr.py → record blended E[CAGR]
@@ -205,7 +205,7 @@ trigger_summary:
   yellow_count: 3
   green_count: 12
   unknown_count: 1
-  assessment: "S149: 16 triggers. 0 RED (HISTORIC LOW — was 4). 3 YELLOW (T9 changelog 50%, T11 basket health 3 single-pos, T15 E[CAGR] 17.4% below 30% target). 12 GREEN (T1-T8, T12-T14, T16). 1 UNKNOWN (T10). FOUR triggers flipped GREEN this session: T2 (cash 39%→0%), T3 (velocity 0.6→10.4), T15 (14.4%→17.4%, sizing aligned), T16 (0→5 short theses). System health at all-time best."
+  assessment: "S151: 16 triggers. 0 RED (maintained). 3 YELLOW (T9 changelog 50%, T11 basket health 3 single-pos improving post-Mar 26, T15 E[CAGR] 18.6% rising but below 30%). 12 GREEN (T1-T8, T12-T14, T16). 1 UNKNOWN (T10). E[CAGR] trend: 14.4→17.4→18.6 (+1.2pp). Mar 26 rotation projects 19.5-20%. Fallen angels screening produced 10 quality gap-fillers."
 
 # =============================================================================
 # ACTIVE EXPERIMENTS — Changes being measured
@@ -333,6 +333,11 @@ scheduled_reviews:
 # =============================================================================
 # Last 10 entries only. Older entries → changelog.yaml archive.
 evolution_log:
+  - session: 151
+    date: "2026-03-13"
+    change: "S151: 18 commits, 4 context windows (Mar 7-13). BZU.MI DA same-day (MODERATE COUNTER, FV 57→51, 3 HIGH, KC#6 added). FOUR.L FY2025 scored CONDITIONAL PASS (FV 4400→4000p, deferred). Mar 26 plan CORRECTED (MONY.L EUR 888→716). CVNA moved short/active/. Oil $97 re-escalation. News scan 6-day gap (0 CRITICAL, 3 MATERIAL: NVO FDA + Hims + HLNE 52wL). Fallen angels screening: 72 found, top 10 curated (ZTS, VRSK, BEI.DE, BEAN.SW = Tier A gap-fillers). FV consistency check: 11/11 PASS. SM signals: HLNE insider cluster buy strongest. E[CAGR] 17.4→18.6%. Pipeline: DECK at entry, WING below SO."
+    type: "pipeline+deployment+screening"
+    triggers_addressed: ["T2", "T3", "T11", "T15"]
   - session: 149
     date: "2026-03-08"
     change: "S149 MEGA SESSION (40 commits, 3 context windows). FOUR triggers flipped GREEN: T2 (cash 0%), T3 (velocity 28u), T15 (E[CAGR] 17.4%), T16 (5 short theses). RED count 4→0 = all-time best. Short pipeline breakthrough: APP/CVNA/TSLA/RKLB/COIN all worked. Pipeline: GDDY R4, LOPE R4, SAF.PA R1, MEDI.OL R1, PAYC R1 refresh, DNLM.L R4 re-val. Template evolution (6 improvements). COIN S2 ARCHIVED (bull 7/10). RKLB SHORT WATCHLIST (Tesla trap). Rotation plan formalized: R0 AUTO.L→R1 FTNT→R2 TW→R3 MONY.L."

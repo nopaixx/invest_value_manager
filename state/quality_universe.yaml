@@ -1,5 +1,5 @@
 quality_universe:
-  last_updated: '2026-03-11'
+  last_updated: '2026-03-13'
   companies:
   - ticker: INTU
     name: Intuit Inc.
@@ -153,23 +153,21 @@ quality_universe:
     distance_delta: 0.0
   - ticker: ROP
     name: Roper Technologies, Inc.
-    qs_tool: 48
+    direction: long
+    qs_tool: 70
     qs_adj: 70
     tier: B
-    sector: Industrial Technology
-    fair_value: 385.0
-    entry_price: 300.0
+    sector: industrial-technology
+    fair_value: 550.0
+    entry_price: 370.0
     currency: USD
-    current_price: 367.5
-    distance_to_entry: 22.5
-    pipeline_status: R4_APPROVED
-    thesis_path: thesis/research/ROP/thesis.md
-    last_scored: '2026-02-12'
-    last_price_check: '2026-03-08'
-    notes: R3 DONE. QS 48->70 (+22 serial acquirer adj). FV $385. WIDE moat 20/25. HIGH risk. Standing order $300 pending
-      R4. SaaSpocalypse + DOGE risks.
-    direction: long
-    distance_delta: 0.0
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: null
+    last_scored: '2026-03-13'
+    last_price_check: null
+    notes: 'Fallen angel S151: -41% from 52wH at 47. Vertical market monopolies. 70%+ recurring.'
   - ticker: GGG
     name: Graco Inc.
     qs_tool: 69
@@ -480,24 +478,22 @@ quality_universe:
     direction: long
     distance_delta: 0.0
   - ticker: BEI.DE
-    name: Beiersdorf AG
-    qs_tool: 70
+    name: BEIERSDORF AG                 I
+    direction: long
+    qs_tool: 75
     qs_adj: 75
     tier: A
-    sector: Consumer Staples
-    fair_value: 99.0
-    entry_price: 87.5
+    sector: consumer-staples
+    fair_value: 110.0
+    entry_price: 80.0
     currency: EUR
-    current_price: 84.1
-    distance_to_entry: -3.9
-    pipeline_status: R1_COMPLETE
-    thesis_path: thesis/research/BEI.DE/thesis.md
-    last_scored: '2026-02-12'
-    last_price_check: '2026-03-08'
-    notes: 'R1 S104. QS 70/75adj Tier A. FV EUR 99. OVERVALUED -7.6%. NIVEA #1, 53% Herz family. Entry EUR 85-90. Watch FY2025
-      Mar 3.'
-    direction: long
-    distance_delta: 0.0
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: null
+    last_scored: '2026-03-13'
+    last_price_check: null
+    notes: 'Fallen angel S151: -42% from 52wH at EUR 78. Nivea/Eucerin. Family 51%. ZERO staples exposure.'
   - ticker: CCH.L
     name: COCA-COLA HBC AG ORD CHF6.70 (C
     qs_tool: 69
@@ -795,23 +791,21 @@ quality_universe:
     distance_delta: 0.0
   - ticker: PODD
     name: Insulet Corporation
-    qs_tool: 61
+    direction: long
+    qs_tool: 66
     qs_adj: 66
     tier: B
-    sector: Healthcare Equipment
-    fair_value: 200.0
-    entry_price: 170.0
+    sector: healthcare-equipment
+    fair_value: 340.0
+    entry_price: 240.0
     currency: USD
-    current_price: 237.01
-    distance_to_entry: 39.4
+    current_price: null
+    distance_to_entry: null
     pipeline_status: SCORED
     thesis_path: null
-    last_scored: '2026-02-13'
-    last_price_check: '2026-03-08'
-    notes: 'QS 61->66 (+5 Omnipod market position). Fastest medtech grower: 24% rev CAGR, ROIC 16%, GM 70%. FCF just turning
-      positive. P/E 70x. Near 52wL (-32%). Still too expensive.'
-    direction: long
-    distance_delta: 0.0
+    last_scored: '2026-03-13'
+    last_price_check: null
+    notes: 'Fallen angel S151: -33% from 52wH at 36. Omnipod insulin pump duopoly. Intl growth 40%+.'
   - ticker: ACGL
     name: Arch Capital Group Ltd.
     qs_tool: 57
@@ -833,43 +827,40 @@ quality_universe:
     distance_delta: 0.0
   - ticker: ZTS
     name: Zoetis Inc.
+    direction: long
     qs_tool: 80
     qs_adj: 80
     tier: A
-    sector: Animal Health
-    fair_value: 120.0
-    entry_price: 95.0
+    sector: animal-health
+    fair_value: 170.0
+    entry_price: 120.0
     currency: USD
-    current_price: 121.43
-    distance_to_entry: 27.8
-    pipeline_status: STANDING_ORDER
-    thesis_path: thesis/research/ZTS/thesis.md
-    last_scored: '2026-02-14'
-    last_price_check: '2026-03-08'
-    notes: ''
-    direction: long
-    distance_delta: 0.0
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: null
+    last_scored: '2026-03-13'
+    last_price_check: null
+    notes: 'Fallen angel S151: -32% from 52wH at 15. WIDE moat vet pharma. ROIC 15.3%. ZERO overlap.'
   - ticker: VRSK
-    name: Verisk Analytics
+    name: Verisk Analytics, Inc.
     direction: long
     qs_tool: 80
     qs_adj: 80
     tier: A
     sector: financial-data-analytics
-    fair_value: 210.0
-    entry_price: 195.0
+    fair_value: 300.0
+    entry_price: 210.0
     currency: USD
-    current_price: 214.84
-    distance_to_entry: 10.2
-    pipeline_status: R4_APPROVED
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: SCORED
     thesis_path: null
-    last_scored: '2026-03-07'
-    last_price_check: '2026-03-08'
-    notes: 'R4 APPROVED. Insurance data monopoly (ISO). QS 80adj. SO 10. E[CAGR] at market ~8%. Data & Analytics Monopolies
-      basket. Q4 FY2025 confirmed: rev +6.6% OCC, EBITDA margin 56.2%, ROIC 60.6%.'
+    last_scored: '2026-03-13'
+    last_price_check: null
+    notes: 'Fallen angel S151: -38% from 52wH at 98. Insurance data monopoly. ROIC 16.5%.'
     r1_session: 143
     r1_verdict: AT_FV
-    distance_delta: 0.0
   - ticker: TDG
     name: Transdigm Group Incorporated
     qs_tool: 69
@@ -1089,23 +1080,22 @@ quality_universe:
     notes: R3 2026-02-18. FV 95→78. Entry 70→55. DEPRIORITIZED. DOGE structural, Palantir threat. Revisit May 2026.
     distance_delta: 0.0
   - ticker: FDS
-    name: FactSet Research Systems
+    name: FactSet Research Systems Inc.
+    direction: long
     qs_tool: 73
     qs_adj: 73
     tier: B
-    sector: Financial Data
-    fair_value: 210.0
-    entry_price: 170.0
+    sector: financial-data-analytics
+    fair_value: 400.0
+    entry_price: 220.0
     currency: USD
-    current_price: 225.87
-    distance_to_entry: 32.9
-    pipeline_status: STANDING_ORDER
-    thesis_path: thesis/research/FDS/thesis.md
-    last_scored: '2026-02-14'
-    last_price_check: '2026-03-08'
-    notes: ''
-    direction: long
-    distance_delta: 0.0
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: SCORED
+    thesis_path: null
+    last_scored: '2026-03-13'
+    last_price_check: null
+    notes: 'Fallen angel S151: -56% from 52wH at 04. Subscription data. 95%+ retention. Deep value.'
   - ticker: CMCSA
     name: Comcast Corporation
     direction: long
@@ -2723,19 +2713,18 @@ quality_universe:
     qs_adj: 75
     tier: A
     sector: industrial-technology
-    fair_value: 470.0
-    entry_price: 400.0
-    currency: USD
-    current_price: 689.0
-    distance_to_entry: 72.2
+    fair_value: 900.0
+    entry_price: 700.0
+    currency: CHF
+    current_price: null
+    distance_to_entry: null
     pipeline_status: SCORED
     thesis_path: null
-    last_scored: '2026-02-20'
-    last_price_check: '2026-03-08'
-    notes: 'R1 S97: QS 80 adj. #1 HVAC actuators. P/E 65.2. Buy zone CHF 400.'
+    last_scored: '2026-03-13'
+    last_price_check: null
+    notes: 'Fallen angel S151: -29% from 52wH at CHF 695. Swiss HVAC monopolist. ROIC 17.7%.'
     r1_session: 97
     r1_verdict: FANTASY
-    distance_delta: 0.0
   - ticker: ALFA.L
     name: ALFA FINANCIAL SOFTWARE HOLDING
     direction: long
@@ -3684,17 +3673,17 @@ quality_universe:
     qs_tool: 68
     qs_adj: 68
     tier: B
-    sector: Basic Materials
-    fair_value: 0
-    entry_price: 0
+    sector: specialty-chemicals
+    fair_value: 850.0
+    entry_price: 600.0
     currency: USD
-    current_price: 641.32
+    current_price: null
     distance_to_entry: null
     pipeline_status: SCORED
-    thesis_path: ''
-    last_scored: '2026-02-22'
-    last_price_check: '2026-03-08'
-    notes: Auto-scored by batch_scorer. Needs R1 analysis.
+    thesis_path: null
+    last_scored: '2026-03-13'
+    last_price_check: null
+    notes: 'Fallen angel S151: -33% from 52wH at 88. Petroleum additives duopoly. Zero analyst coverage.'
   - ticker: NTNX
     name: Nutanix, Inc.
     direction: long
