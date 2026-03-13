@@ -37,8 +37,8 @@ completed:
   net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). Same as S151. Macro unchanged intraday. Full deployment in quality per P15. No new short catalysts identified."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: TW 13.5%, BZU.MI 11.8%, FTNT 9.4%. FTNT exit CONFIRMED S151, R4-ready target SPGI APPROVED. Post-FTNT: SPGI EUR 400 + best available EUR 375."
-  velocity_units: 7  # MRSH R1 3-agent (3) + SPGI R4 committee (1) + CPRT SO reactivation (1) + FTNT EXIT committee (1) + FDS fix (0.5) + fallen angels scan (0.5)
-  velocity_note: "MRSH R1 (FA+moat+risk). SPGI R4 APPROVED. CPRT SO reactivated. SPGI header fixed. FTNT EXIT APPROVED (6-gate + committee). FDS FV corrected. Fallen angels scan 66 companies."
+  velocity_units: 9  # MRSH R1 3-agent (3) + SPGI R4 committee (1) + CPRT SO reactivation (1) + FTNT EXIT committee (1) + FDS fix (0.5) + fallen angels scan (0.5) + ALFA.L R2→R3 advancement (2)
+  velocity_note: "MRSH R1 (FA+moat+risk). SPGI R4 APPROVED. CPRT SO reactivated. SPGI header fixed. FTNT EXIT APPROVED (6-gate + committee). FDS FV corrected. Fallen angels 66. ALFA.L R2→R3 resolved (FV 215p). SPGI Mobility spinoff modeled."
   portfolio_ecagr:
     deployed: 18.6%
     blended: 18.6%
@@ -98,7 +98,7 @@ handoff:
       - "CVNA short — oil $97 tailwind. Hold through Q1 May 6."
       - "SPGI: R4 APPROVED CONDITIONAL. Model Mobility spinoff before Q1 gate."
       - "FTNT EXIT: COMPLETE. Committee APPROVED. Late April sell. exit_analysis.md + committee_decision_exit.md written."
-      - "ALFA.L: R2 DA LAUNCHED S152. Process results → R3 resolution → R4 committee. #1 secondary target for FTNT exit capital."
+      - "ALFA.L: R3 COMPLETE S152. FV 215p, entry 165p. R4 when price approaches entry. #1 secondary target for FTNT exit capital (if ≤165p late April)."
     P3:
       - "CORRECTION WATCHLIST: CPRT $33.97 (SO $31 reactivated), DECK $100.69 (at entry, R3 done, LULU gate Mar 31), WING $193 (1.6% from trigger, gated May), KNSL $362 (1.9%, gated), STMN.SW CHF 81 (at 52wL, gated)."
       - "SPGI: R4 APPROVED CONDITIONAL. Model Mobility spinoff before Q1 gate date (pre-late April)."
@@ -121,6 +121,7 @@ handoff:
     - "S152c10: Smart money — HLNE insider cluster $3.24M STRONG BULL. EDEN.PA SI +0.68pp (noise). SPGI 7 quality funds (validation). CPRT Akre $308M."
     - "S152c10: Basket recalibration — UK Digital Platforms renamed UK Quality Leaders (DNLM.L retail). GDDY → US QC. SPGI → Data & Analytics. Cybersecurity → RESEARCHING."
     - "S152c10: Thesis staleness audit — ALL positions <7 days since last review. No refresh needed. Portfolio at peak freshness post-DA audit cycle."
+    - "S152c11: ALFA.L R3 COMPLETE. FV 235p→215p (-8.5%, cumulative -18.9% from R1). Growth 8%→6%. Thesis header updated. r3_resolution.md updated. E[CAGR] 13.6% at market, ~17% at entry 165p."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -159,4 +160,4 @@ r1_cooldowns:
   FOUR.L: { date: "2026-03-13", session: 151, verdict: "FY2025 CONDITIONAL PASS. FV 4400→4000p. DEFERRED. Monitor Q1 Jun 2026." }
   ZTS: { date: "2026-03-13", session: 151, verdict: "R1 REFRESH CIO CORRECTED. FV $130 (was $155). QS 78 Tier A. WATCHLIST $105. Apoquel patent Nov 2026 CRITICAL." }
   MRSH: { date: "2026-03-13", session: 152, verdict: "R1 COMPLETE. FV $195, entry $160, QS 64/68 Tier B. WIDE moat. HIGH risk (Greensill). SO revised $170→$160." }
-  ALFA.L: { date: "2026-03-13", session: 152, verdict: "R2 DA COMPLETE. MODERATE COUNTER. FV 235p→210-225p (NRR decline, FX, SE rev down). Bear 169p. Entry 165p maintained. E[CAGR] ~15% at DA-adjusted FV. Receivables RESOLVED. CHP overhang HIGH. Do NOT market-buy at 177p." }
+  ALFA.L: { date: "2026-03-13", session: 152, verdict: "R3 COMPLETE. FV 235p→215p (-8.5%). DA MODERATE COUNTER resolved. NRR 109% (KC#9 added). Receivables RESOLVED. UK concentration RESOLVED (2nd post-MONY.L). Entry 165p. E[CAGR] ~17% at entry, ~14% at market. R4 when price ≤165p." }
