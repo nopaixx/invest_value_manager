@@ -1636,20 +1636,19 @@ quality_universe:
     name: BUZZI
     direction: long
     qs_tool: 73
-    qs_adj: 70
+    qs_adj: 75
     tier: B
     sector: Building Materials/Cement
-    fair_value: 58.0
+    fair_value: 51.0
     entry_price: 42.0
     currency: EUR
     current_price: 41.3
     distance_to_entry: -1.7
-    pipeline_status: R1_COMPLETE
-    thesis_path: thesis/research/BZU.MI/thesis.md
+    pipeline_status: ACTIVE_POSITION
+    thesis_path: thesis/active/BZU.MI/thesis.md
     last_scored: '2026-02-20'
     last_price_check: '2026-03-13'
-    notes: 'R1 S92. QS 73→70 adj (gross margin data issue, cyclical peak). FV EUR 58 through-cycle. Entry EUR 42 (cyclical
-      correction). 53% family, best margins in cement. Sector view: building-materials-cement.md.'
+    notes: 'S153 FIX Error #61: FV was EUR 58 (R1/R4), corrected to EUR 51 (R3 post-DA S151). DA MODERATE COUNTER — through-cycle EBIT EUR 780M, oil headwind, US demand 3yr decline. QS adj 70→75 per thesis. ACTIVE position (8.81 shares, EUR 370). thesis_path corrected to active/.'
     r1_verdict: OVERVALUED
     r1_session: 92
     distance_delta: -5.6
@@ -2735,16 +2734,16 @@ quality_universe:
     qs_adj: 83
     tier: A
     sector: technology
-    fair_value: 235.0
+    fair_value: 215.0
     entry_price: 165.0
     currency: GBp
     current_price: 174.4
     distance_to_entry: 5.7
     pipeline_status: R3_COMPLETE
-    thesis_path: null
+    thesis_path: thesis/research/ALFA.L/thesis.md
     last_scored: '2026-02-19'
     last_price_check: '2026-03-13'
-    notes: ''
+    notes: 'S153 FIX Error #61: FV was 235p (R1), corrected to 215p (R3 S152). DA -8.5%, growth 8%→6%. Receivables RESOLVED (cash conv 97%). UK Quality Leaders pipeline. Entry 165p maintained.'
     distance_delta: -13.7
   - ticker: FSG.L
     name: FORESIGHT GROUP HOLDINGS LIMITE
@@ -3368,17 +3367,17 @@ quality_universe:
     qs_adj: 79
     tier: A
     sector: Healthcare
-    fair_value: 32.8
+    fair_value: 30.0
     entry_price: 23.0
     currency: USD
     current_price: 24.28
     distance_to_entry: 5.6
     pipeline_status: R3_COMPLETE
-    thesis_path: thesis/research/DOCS/thesis.md
+    thesis_path: thesis/active/DOCS/thesis.md
     last_scored: '2026-02-23'
     last_price_check: '2026-03-13'
     on_etoro: true
-    notes: R3 COMPLETE S116. FV $34.50→$32.8. DA MODERATE COUNTER 0 HIGH. Insider 27% (dual-class). Entry $23.
+    notes: 'S153 FIX Error #61: FV was $32.80 (pre-R3 S146c4), corrected to $30 (R3 resolved). TAM corrected 13%→7%, growth 10%→8%. ACTIVE position. thesis_path corrected to active/.'
     distance_delta: -4.6
   - ticker: NBIX
     name: Neurocrine Biosciences, Inc.
