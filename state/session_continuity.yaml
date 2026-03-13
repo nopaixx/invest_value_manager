@@ -98,7 +98,7 @@ handoff:
       - "HALO PTAB oral hearings March (exact date TBD)."
       - "CVNA short — oil $97 tailwind. Hold through Q1 May 6."
       - "CORRECTION ALERT: 4 SOs TRIGGERED (MRSH, SPGI, HALO, STMN.SW) + 3 near (KNSL, WING, DECK). All blocked by EUR 0 cash."
-      - "FTNT EXIT OPTION: if correction continues, consider adding FTNT sell to Mar 26 rotation (EUR ~775 frees capital for triggered SOs). FTNT 9.4% E[CAGR] = worst. Needs committee."
+      - "FTNT EXIT PROPOSAL (STRENGTHENED S151c28): CVE escalation KC#6/KC#9 ELEVATED. E[CAGR] 9.4% worst. Rotation: wait for SPGI Q1 gate (late Apr) → simultaneous SELL FTNT + BUY SPGI (EUR 400) + BUY MRSH (EUR 200). Alt: wait May for WING (+6.6pp). Needs committee EXIT approval. Cybersecurity basket DIES."
     P3:
       - "ZTS R1 COMPLETE: WATCHLIST FV $130 entry $100-110. CIO corrected FA's $155 (Apoquel patent error, bullish OEY). WIDE moat. SO GATED $105 (Q1 May). Next: R2 (DA) when approaching entry."
       - "Pipeline: SPGI AT $420 trigger (GATED Q1). KNSL 1.9% (GATED). WING 1.6% (GATED). DECK at entry (GATED)."
@@ -117,7 +117,8 @@ handoff:
     - "FOMC/ECB/BoE Section 9 frameworks all built and committed."
     - "FALLEN ANGELS SCREENING: 72 found, TOP 10 curated. ZTS (#1, QS 78 Tier A, at 52wL $115, animal health monopoly), BEI.DE (QS 63 Tier B, near 52wL EUR 78), VRSK (QS 72 Tier B). 8 added to universe."
     - "Evolution state S151: 0 RED, 3 YELLOW, 12 GREEN. E[CAGR] 14.4→17.4→18.6% (3 sessions rising)."
-    - "POST-MAR 26 ROTATION: FTNT (9.4%) = next exit candidate. ZTS R1 PRIORITY for rotation target. Needs animal-health sector view."
+    - "POST-MAR 26 ROTATION: FTNT (9.4%) = next exit candidate. CVE escalation STRENGTHENS case (KC#6/KC#9 ELEVATED). Target: SPGI+MRSH when Q1 gate clears (late Apr). ZTS WATCHLIST $105 (gated Q1 May)."
+    - "FTNT ACCELERATE 2026: NEUTRAL, FV $88 UNCHANGED. 11 new CVEs Mar 10 + active exploitation. Full report: state/ftnt_accelerate_2026.md."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
