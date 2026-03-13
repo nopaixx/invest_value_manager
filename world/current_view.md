@@ -298,6 +298,58 @@ No existing KC in any active position is triggered by an FOMC hold. The risk is 
 
 ---
 
+## Section 9: ECB March 19, 2026 — Portfolio Impact Framework
+
+> **Decision Date:** Thursday, March 19. New staff projections.
+> **Context:** Oil $97, Iran war Day ~15, EU defense spending surge, EUR/USD 1.15
+> **Portfolio EU exposure:** EDEN.PA (18.8%), WKL.AS (7.6%), BZU.MI (3.6%) = 30.0% EUR-denominated
+
+### Rate Decision Scenarios
+
+| Scenario | Rate | Probability | Rationale | Portfolio Impact |
+|----------|------|-------------|-----------|-----------------|
+| **HOLD at 2.00%** | No cut | 55% | Oil $97 Brent ~$103 = inflationary. Lagarde cannot cut INTO rising energy inflation. Staff projections likely RAISE 2026 inflation forecast. | NEUTRAL. EUR may strengthen slightly (hawkish surprise vs market expectation of cut). EUR positions gain FX tailwind. |
+| **CUT 25bp to 1.75%** | -25bp | 40% | ECB sees oil as supply shock, looks through it. Growth concerns dominate. German fiscal stimulus coming = monetary easing less risky. | MILD POSITIVE. Lower rates help EU equities. EDEN.PA, BZU.MI benefit from lower discount rates. EUR weakens slightly. |
+| **CUT 50bp to 1.50%** | -50bp | 5% | Emergency response to war + oil. Very unlikely but tail risk. | STRONG POSITIVE for EU equities. EUR drops. Our EUR positions rally in local currency but FX offset. |
+
+### What to Watch
+- **Staff GDP forecast:** If cut from 1.1% → below 0.5%, signals recession fear
+- **Inflation forecast:** If raised above 2.5% for 2026, cuts unlikely for months
+- **Defense spending language:** If ECB acknowledges fiscal expansion from defense → may tolerate higher rates
+- **Fragmentation:** Any mention of peripheral spreads (Italy) = relevant for BZU.MI
+
+### Portfolio Action: NONE regardless of outcome
+- ECB decision changes discount rates for EU positions by ~50bp max. FV impact: 3-5% on EDEN.PA, WKL.AS, BZU.MI. Not material enough to trigger any action.
+- We are EUR 0 cash. No deployment possible.
+
+---
+
+## Section 9: BoE March 20, 2026 — Portfolio Impact Framework
+
+> **Decision Date:** Thursday, March 20 (12:00 GMT)
+> **Context:** Oil $97, UK CPI likely rising, GBP stable, BoE split 5-4 at last meeting
+> **Portfolio UK exposure:** MONY.L (7.3%), IHP.L (11.5%) = 18.8% GBP-denominated. DNLM.L in pipeline.
+
+### Rate Decision Scenarios
+
+| Scenario | Rate | Probability | Rationale | Portfolio Impact |
+|----------|------|-------------|-----------|-----------------|
+| **HOLD at 3.75%** | No cut | 65% | Oil $97 = CPI rising. BoE historically more hawkish on inflation than ECB/Fed. 5-4 split likely becomes 6-3 or 5-4 for hold. | NEUTRAL. GBP stable. IHP.L, MONY.L unaffected. DNLM.L entry unchanged. |
+| **CUT 25bp to 3.50%** | -25bp | 30% | Doves argue UK economy fragile, oil is supply shock, housing market needs support. BoE has cut before during supply shocks. | MILD POSITIVE. GBP weakens. IHP.L benefits (lower discount rate + platform model recession-resilient). MONY.L irrelevant (selling Mar 26). |
+| **CUT 50bp** | -50bp | 5% | Emergency. Very unlikely. | STRONG POSITIVE for UK equities. |
+
+### Key for DNLM.L Pipeline
+- BoE CUT → UK consumer sentiment improves → DNLM.L entry may be at higher prices (less discount)
+- BoE HOLD → UK consumer pressure continues → DNLM.L may dip further toward 836p 52wL
+- Either way: DNLM.L buy is planned for Mar 26 if ≤950p. Currently 863p. No action pre-BoE.
+
+### Portfolio Action: NONE regardless of outcome
+- MONY.L selling Mar 26 regardless of BoE
+- IHP.L HOLD regardless — platform thesis is structural, not rate-dependent
+- HLNE ex-div same day (Mar 20) — capture dividend, no action
+
+---
+
 ## TEMA ESPECIAL: SaaSpocalypse -- UPDATE
 
 ### Status as of Mar 13

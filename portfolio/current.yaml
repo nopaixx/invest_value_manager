@@ -208,7 +208,8 @@ short_positions:
     stop_loss: "$370"
     fair_value_short: "$120"
     exit_plan: "COVER if Q1 EBITDA margin >12% 2Q consecutive. COVER at $370 stop loss. COVER if Garcia family cleared. COVER if carry >8% without catalyst. Max 6mo (Sep 2026)."
-    last_review: 2026-03-11
+    notes: "S151 MACRO UPDATE: Oil $97 = STRONG TAILWIND. Gas ~$3.80/gal hurts CVNA's lower-income buyer base DIRECTLY. Higher gas costs → fewer miles driven → less used car demand → volume decline. Combined with persistent rates (no FOMC cuts 2026) → auto financing remains expensive. P&L: +8.2% ($318.77→$292.64). 2 days held. Q1 earnings ~May 6 = primary catalyst. Thesis strengthening with macro."
+    last_review: 2026-03-13
 # Ejemplo de formato:
 #  - ticker: XYZ
 #    name: "Company Name"
