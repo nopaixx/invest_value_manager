@@ -350,16 +350,17 @@ standing_orders:
     category: GATED
     fill_prob_6m: 15
     trigger: "<=$420"
-    current_distance: "7.2%"
+    current_distance: "0.1%"
     created_date: "2026-02-28"
-    staleness_status: FRESH  # <15% distance, dated gate (Q1 late April)
+    staleness_status: FRESH  # AT TRIGGER $419.70 vs $420. Gated Q1 late April.
+    fill_prob_6m: 40
     size_eur: 400
     fair_value: "$470 (R3 post-DA S131, was $511)"
     mos_at_trigger: "10.6%"
     tier: "A (QS 60/76 adj — serial acquirer +16)"
     ecagr_at_trigger: "12.1%"
     gate: "Q1 2026 earnings (late April/May). Must clear: (1) receivables growth normalizes <5pp above rev, (2) FCF margin >=35%, (3) MI organic growth >=5%."
-    notes: "R3 COMPLETE S131. Post-DA FV $511→$470 (-8.0%). MODERATE COUNTER: no informational edge (Error #49), FCF contraction 2025, receivables +20% vs rev +8%. TCI Fund (Chris Hohn) adding — smart money validation. Ratings duopoly near-impenetrable. Financial Market Infrastructure basket anchor."
+    notes: "R3 COMPLETE S131. Post-DA FV $511→$470 (-8.0%). MODERATE COUNTER: no informational edge (Error #49), FCF contraction 2025, receivables +20% vs rev +8%. TCI Fund (Chris Hohn) adding — smart money validation. Ratings duopoly near-impenetrable. S151c32 PRE-FLIGHT: AT TRIGGER $419.70. Reverse DCF: market prices 13.7% FCF growth vs 29.5% historical (15.8pp gap). 7 quality funds (Cantillon $848M, Markel, D&C, Wedgewood, Coronation). 0% SI. Constraints PASS: 3.9%, US 43.7%. FTNT exit → SPGI = PRIMARY rotation target. Capital source: FTNT ~EUR 775."
     kill_conditions: "Ratings market share <30%, regulatory break of duopoly, ROIC<WACC 3yr, revenue decline >5% 2Q, receivables >10pp gap 2Q, Mobility spinoff destroys >20% of value"
     last_analysis_date: 2026-02-28
     expiry: 2026-10-01
@@ -571,12 +572,15 @@ review_flags:
 # IMPLICATION: Correction is broadest since portfolio inception. 4 triggers + 3 near.
 # EUR 0 cash means ALL of these are academic unless rotation frees capital.
 # PRIORITY: (1) Mar 26 rotation (GDDY+DNLM.L), (2) FTNT exit → next best trigger
-# POST-MAR 26 ROTATION PROPOSAL (S151c28):
-#   SELL FTNT (9.4% E[CAGR], worst) → ~EUR 775 proceeds
-#   CVE escalation STRENGTHENS case: KC#6 ELEVATED, KC#9 APPROACHING
-#   Timing: wait until SPGI Q1 gate clears (late April) for simultaneous rotation
-#   Target: SELL FTNT → BUY SPGI (EUR 400) + BUY MRSH (EUR 200) + buffer EUR 175
-#   Or: wait until May for WING (EUR 300, +6.6pp E[CAGR] upgrade) + MRSH
-#   Needs: investment-committee EXIT approval
-#   Cybersecurity basket: DIES (1→0). QLYS/CHKP not near entry. Accept death.
+# POST-MAR 26 ROTATION — DECIDED S151c32 (2026-03-13):
+#   FTNT EXIT CONFIRMED. E[CAGR] 9.4% worst, CVE escalation, 4.3% MoS only.
+#   EXIT IS UNCONDITIONAL — not contingent on FTNT Q1 May outcome.
+#   TIMING: late April, simultaneous with SPGI Q1 gate clearance.
+#   PRIMARY: SELL FTNT (~EUR 775) → BUY SPGI (EUR 400) + BUY MRSH (EUR 200) + EUR 175 buffer
+#   FALLBACK (if SPGI gate FAILS): SELL FTNT → BUY WING (EUR 300) + BUY MRSH (EUR 200) + EUR 275 buffer
+#   ACCELERATE TO MAR 26 IF: FTNT drops below $78 (cost basis protection)
+#   REQUIRES: investment-committee EXIT Protocol 6 gates (schedule for S152/S153)
+#   BASKET: Cybersecurity DIES (1→0). Accepted — QLYS/CHKP not near entry.
+#   SM VALIDATION: SPGI 7 quality funds (Cantillon $848M), 0% SI.
+#   Reverse DCF: market pricing 13.7% FCF growth vs 29.5% historical (15.8pp gap).
 # =============================================================================
