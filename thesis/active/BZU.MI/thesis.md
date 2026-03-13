@@ -7,7 +7,7 @@ Buzzi is the most profitable cement company globally, with 53% family ownership,
 > **Fair Value:** EUR 51 (R3 post-DA resolution S151. Was EUR 57 R4. DA MODERATE COUNTER: through-cycle EBIT EUR 780M not 850M, oil $97 headwind, US demand 3yr decline.)
 > **Expected Growth:** 3% (GDP-level cement organic + 2.1% buyback accretion)
 > **QS:** 73 tool / 75 adjusted (Tier B treatment)
-> **Kill Conditions:** KC#1 US EBITDA margin <30% 2yr, KC#2 net debt >2x EBITDA, KC#3 family <40%, KC#4 Russia writedown >EUR 500M, KC#5 ROIC <WACC 2yr, KC#6 Brent >$95 sustained 6mo AND EBITDA margin compression >5pp (oil cost headwind)
+> **Kill Conditions:** KC#1 MONITORING US EBITDA margin <30% 2yr, KC#2 CLEAR net debt >2x EBITDA, KC#3 CLEAR family <40%, KC#4 CLEAR Russia writedown >EUR 500M, KC#5 CLEAR ROIC <WACC 2yr, KC#6 MONITORING Brent >$95 sustained 6mo AND EBITDA margin compression >5pp
 
 ## Quality Score
 
@@ -162,11 +162,12 @@ Cement unit economics are straightforward:
 
 ### Kill Conditions
 
-1. US EBITDA margin falls below 30% for 2 consecutive years (indicates structural, not cyclical, margin compression)
-2. Net debt exceeds 2x EBITDA (currently net cash -- would signal reckless M&A)
-3. Family ownership drops below 40% (alignment loss)
-4. Russia forced exit with >EUR 500M writedown
-5. ROIC falls below WACC for 2 consecutive years (through-cycle, not single-year)
+1. MONITORING — US EBITDA margin falls below 30% for 2 consecutive years (indicates structural, not cyclical, margin compression)
+2. CLEAR — Net debt exceeds 2x EBITDA (currently net cash -- would signal reckless M&A)
+3. CLEAR — Family ownership drops below 40% (alignment loss)
+4. CLEAR — Russia forced exit with >EUR 500M writedown
+5. CLEAR — ROIC falls below WACC for 2 consecutive years (through-cycle, not single-year)
+6. MONITORING — Brent >$95 sustained 6mo AND EBITDA margin compression >5pp (oil cost headwind). Added S151 DA.
 
 ---
 
