@@ -228,8 +228,9 @@ Previous assessment (8-mar): "War escalating. Oil $91. Hormuz near-total halt."
 
 > **Decision Date:** Wednesday, March 18, 2:00 PM ET
 > **Key Output:** Rate decision + Summary of Economic Projections (SEP) + dot plot + Powell presser
-> **Context:** First SEP incorporating oil $97 WTI + 15% EU tariffs + Iran war (Day ~15)
+> **Context:** First SEP incorporating oil $96 WTI ($101 Brent) + 15% EU tariffs + Iran war (Day ~17). VIX 26.6, 10Y 4.27%, Gold $5,064 (+67% 12m = extreme risk-off).
 > **Portfolio:** 11 longs + 1 short, EUR 0 cash, 99.2% net exposure
+> **S156 Update (Mar 13):** Oil WTI $95.78, Brent ~$101. Gold at ATH signals fear. 2s10s +90bp (normal curve). S&P -5% from ATH. Market already pricing some hawkishness.
 
 ### Rate Decision: HOLD CERTAIN (3.50-3.75%)
 Fed funds futures price 97%+ hold probability. No surprise expected. The statement language matters more.
@@ -238,10 +239,10 @@ Fed funds futures price 97%+ hold probability. No surprise expected. The stateme
 
 | Scenario | Median 2026 Dots | Probability | Market Reaction | Portfolio Impact |
 |----------|-----------------|-------------|-----------------|-----------------|
-| **HAWKISH** | **0 cuts for 2026** (shift from 1) | 35% | S&P -2 to -4%. Bond yields UP. Dollar UP. | NEGATIVE for most positions. GDDY entry improves. CVNA short benefits (higher rates = worse auto financing). TW benefits (vol spike = more trading). |
-| **NEUTRAL** | **1 cut for 2026** (unchanged from Dec) | 45% | Flat to -1%. Market prices this already. | MINIMAL impact. Thesis unchanged. Status quo for Mar 26 plan. |
-| **DOVISH** | **2 cuts for 2026** (oil seen as transitory) | 15% | S&P +2 to +3%. Yields DOWN. | POSITIVE. All positions benefit. GDDY may rally above $90 (reduces urgency). CVNA short hurt (lower rates = better for CVNA). |
-| **SHOCK** | **Rate hike language** or inflation panic | 5% | S&P -5%+. VIX >35. | CRISIS. GDDY to $70s (even better entry). CVNA short excellent. Cash generation from panic selloff entries. |
+| **HAWKISH** | **0 cuts for 2026** (shift from 1) | 40% ↑ | S&P -2 to -4%. Bond yields UP. Dollar UP. | NEGATIVE for most positions. GDDY entry improves. CVNA short benefits (higher rates = worse auto financing). TW benefits (vol spike = more trading). |
+| **NEUTRAL** | **1 cut for 2026** (unchanged from Dec) | 40% ↓ | Flat to -1%. Market prices this already. | MINIMAL impact. Thesis unchanged. Status quo for Mar 26 plan. |
+| **DOVISH** | **2 cuts for 2026** (oil seen as transitory) | 13% ↓ | S&P +2 to +3%. Yields DOWN. | POSITIVE. All positions benefit. GDDY may rally above $90 (reduces urgency). CVNA short hurt (lower rates = better for CVNA). |
+| **SHOCK** | **Rate hike language** or inflation panic | 7% ↑ | S&P -5%+. VIX >35. | CRISIS. GDDY to $70s (even better entry). CVNA short excellent. Cash generation from panic selloff entries. |
 
 ### Powell Language — What to Listen For
 
@@ -292,6 +293,33 @@ No existing KC in any active position is triggered by an FOMC hold. The risk is 
 - IF 10Y rises above 4.5% sustained → recalculate WACC in all DCFs (+0.5% WACC = ~5-10% FV reduction)
 - This is a RE-EVAL trigger, not a KC trigger
 
+### Oil $100 Brent — Fed Dilemma (S156 Analysis)
+
+The Iran naval mines in Strait of Hormuz pushed Brent to ~$101. This creates a genuine Fed dilemma:
+
+**Why the Fed MIGHT turn hawkish (40% probability):**
+- Oil $100 feeds directly into CPI via gasoline, shipping costs, input costs
+- Feb CPI was 2.5% (pre-oil spike). Mar CPI will capture the full oil shock → likely 3.0%+
+- If SEP raises 2026 PCE inflation forecast from 2.5% to 2.8-3.0% → 0 cuts becomes median
+- Powell has been burned by "transitory" narrative in 2021-22. Won't repeat.
+- Gold at $5,064 (+67% 12m) = markets pricing monetary debasement/inflation persistence
+
+**Why the Fed MIGHT look through it (40% probability):**
+- Supply shocks are classically "transitory" — the Fed's textbook says don't respond
+- IEA released 400M barrel emergency reserve. If successful, oil drops back to $85-90
+- Core PCE (ex-food/energy) may not move much if oil is truly supply-side
+- Employment data still strong — no stagflation signal YET
+- Hiking into a supply shock would be policy error
+
+**Portfolio-specific oil $100 impact:**
+- **BZU.MI** (3.6%): KC#6 clock running — Brent >$95 since ~Feb 28. Needs 6 months sustained + margin -5pp. Currently 2 weeks in. LOW RISK for now but MONITORING.
+- **CVNA short** (0.8%): Oil $100 = higher gas prices = LESS driving = LESS used car demand = BEARISH for CVNA. Also higher financing costs. TAILWIND for our short.
+- **NVO** (11.6%): Oil irrelevant to pharma demand. Only risk: higher discount rates compress FV.
+- **EDEN.PA** (18.8%): Minimal direct oil exposure. Employee benefits demand is employment-driven, not oil-driven.
+- **FOUR.L pipeline**: Promotional products supply chain from China → oil raises shipping costs → tariff + oil double headwind. NEGATIVE for already-weak 2026 guidance.
+
+**Net assessment:** Oil $100 is a MODERATE NEGATIVE for the portfolio via discount rate compression, but a POSITIVE for CVNA short. The Mar 26 plan is UNCHANGED — we're buying into the correction, not hiding from it.
+
 ### What We're NOT Doing
 
 - NOT selling into FOMC fear (P6: selling requires argument, not event)
@@ -304,7 +332,7 @@ No existing KC in any active position is triggered by an FOMC hold. The risk is 
 ## Section 9: ECB March 19, 2026 — Portfolio Impact Framework
 
 > **Decision Date:** Thursday, March 19. New staff projections.
-> **Context:** Oil $97, Iran war Day ~15, EU defense spending surge, EUR/USD 1.15
+> **Context:** Oil Brent ~$101 (WTI $96), Iran war Day ~17, EU defense spending surge, EUR/USD 1.15. Gold $5,064 ATH.
 > **Portfolio EU exposure:** EDEN.PA (18.8%), WKL.AS (7.6%), BZU.MI (3.6%) = 30.0% EUR-denominated
 
 ### Rate Decision Scenarios

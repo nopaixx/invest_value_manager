@@ -1,9 +1,9 @@
 # FOUR.L - 4imprint Group plc
 
-> **Fair Value:** 4400 GBp (R3 resolved, was 5300 R1)
+> **Fair Value:** 4000 GBp (S151 post-FY2025, was 4400 R3, was 5300 R1. Weak 2026 guidance → recovery delayed 1yr.)
 > **Expected Growth:** 4% (R3: tariffs persistent, mktg efficiency drag -0.5%)
 > **Date:** 2026-02-14 (R1), R3 2026-02-14, Section 9 2026-03-10
-> **Status:** R3_COMPLETE (FV 4400p, entry 3400p. FY2025 results Mar 18 HARD GATE for R4.)
+> **Status:** R3_COMPLETE (FV 4400p, entry 3400p. FY2025 results Mar 11 — CONDITIONAL PASS. Hard gate NOT fully cleared: 2026 guidance weak.)
 
 ## TL;DR
 
@@ -570,6 +570,80 @@ Current 3,490p is ABOVE revised entry range 3,000-3,200p. No action. Would need 
 - The declining marketing efficiency ($8.30 -> $7.88 revenue per marketing dollar) is the single biggest unresolved question. Is this a temporary saturation effect as 4imprint increased spend by 9% in a soft market? Or is it a structural diminishing return as the addressable market for direct marketing reaches natural limits?
 - The FY2025 full results (Mar 11) are critical. My estimates are based on the Jan 2026 trading update, not audited financials. Actual margins and cash flow may differ.
 - I have limited visibility into 2026 tariff trajectory. The current tariff regime is fluid and unpredictable.
+
+---
+
+## Post-Entry Update: FY2025 Results Scored (2026-03-13, S156)
+
+### Results Summary (FY2025, released Mar 11, 2026)
+- **Revenue:** $1.35B (-1.5% vs $1.37B 2024) — matches BASE
+- **PBT:** $150.8M (vs $154.4M 2024) — matches BASE
+- **OP Margin:** 10.8% — ABOVE BASE expectation (10-10.5%)
+- **Gross Margin:** 32% — ABOVE BASE (expected 30-31%)
+- **Total orders:** 2.06M (-3% vs 2.12M) — matches BASE
+- **New customer orders:** -12% (full year) — at R3 threshold, not -15%+ bear
+- **Avg order value:** +1% — slight positive
+- **Cash:** $133M (vs $148M 2024) — still net cash, capital return ongoing
+- **2026 trading:** First 2 months "slightly down" vs 2025. Tariff costs phasing in.
+
+### Scored Against R3 Buy Conditions
+
+| Condition | Result | Verdict |
+|-----------|--------|---------|
+| (a) OP margin 10%+ | 10.8% | **PASS** |
+| (b) Q4 sequential improvement vs Q3 | No quarterly breakout disclosed | **INCONCLUSIVE** |
+| (c) 2026 guidance stable-to-positive | "Slightly down" first 2 months | **FAIL** |
+| (d) No new KCs triggered | None | **PASS** |
+| (e) Marketing efficiency clarity | Not specifically disclosed | **INCONCLUSIVE** |
+
+### Scored Against R3 Avoid Conditions
+
+| Condition | Threshold | Result | Verdict |
+|-----------|-----------|--------|---------|
+| OP margin | < 9.5% | 10.8% | **CLEAR** |
+| Q4 flat while industry grew | Industry Q4 +5.1% | Not disclosed | **UNKNOWN** |
+| New customer -15%+ H2 | -15% threshold | -12% FY | **CLEAR** |
+| Revenue decline guide 2026 | Any further decline | "Slightly down" 2mo | **AMBER** |
+| Gross margin | < 30% | 32% | **CLEAR** |
+| Marketing eff | < $7.00/$ | Not disclosed | **UNKNOWN** |
+
+### Assessment: CONDITIONAL PASS — Hard Gate NOT Cleared
+
+The operational metrics are BASE to slightly-above-BASE. The business is resilient:
+- GM 32% (held, above R3 bear expectation of 30%)
+- OM 10.8% (above R3 expectation, showing cost discipline)
+- New customer decline at -12% (not accelerating to -15%+ bear threshold)
+- ROIC structurally high, net cash maintained
+
+**However, buy condition (c) FAILS.** 2026 guidance is "slightly down" — not stable-to-positive. This means:
+- The cyclical vs structural question remains UNRESOLVED
+- 4imprint still has not shown recovery momentum
+- Tariff costs are INCREASING, not diminishing
+
+### Revised E[CAGR] at Current Price (3,440p)
+
+With S151 FV revision to 4,000p (from 4,400p, weak 2026 guidance → recovery delayed 1yr):
+E[CAGR] = (4000/3440)^(1/3) - 1 + 4% growth + 5.2% yield = 5.2% + 9.2% = **~14.4%**
+
+At 14.4%, this is BELOW the 15% Tier B threshold. The E[CAGR] is insufficient at current price.
+Would need ~3,200p for E[CAGR] to clear 15%: (4000/3200)^(1/3)-1 + 4% + 5.2% = 7.7% + 9.2% = 16.9%.
+
+### Decision: WATCHLIST MAINTAINED
+
+**Do NOT buy.** The E[CAGR] is BELOW threshold AND the R3 hard gate is not cleared:
+- 2026 guidance weak → KC#5 risk (Year 2 of market share loss if industry grows while 4imprint doesn't)
+- No Q3/Q4 breakout → cannot confirm timing-lag vs structural thesis
+- Marketing efficiency not disclosed → key variable remains blind
+
+**Next action:** Wait for Q1 2026 trading update (likely May/June). If Q1 shows stabilization or recovery → CLEAR gate, set standing order. If Q1 confirms continued decline → KC#5 Year 2 likely, move to AVOID.
+
+**Entry revised:** 3,200p (from 3,400p). At 3,200p: MoS 20% vs FV 4,000p, E[CAGR] 16.9%. Requires -7% drop from current 3,440p.
+**Price alert:** If price drops to 3,000p (MoS 25% vs FV 4,000p), the risk/reward becomes compelling — E[CAGR] 19.2% even with reduced FV.
+
+### KC Status Post-Results
+- KC#1 (new customer -15% 2yr): -9% (2024), -12% (2025). NOT triggered. MONITORING.
+- KC#5 (market share loss 2yr): Year 1 TRIGGERED (2025). Year 2 pending (need 2026 industry data). MONITORING.
+- KC#7 (tariff margin compression): GM held at 32%. NOT triggered. MONITORING (tariff costs phasing in for 2026).
 
 ### Sugerencias para el Sistema
 - **quality_scorer.py** misclassifies FOUR.L sector as "Advertising Agencies" (50% median GM). Should be "Promotional Products Distribution" or "Direct Marketing" with a much lower GM median (~25-30%). Consider adding sector override capability.
