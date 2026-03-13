@@ -158,16 +158,16 @@ quality_universe:
     qs_adj: 70
     tier: B
     sector: industrial-technology
-    fair_value: 550.0
-    entry_price: 370.0
+    fair_value: 385.0
+    entry_price: 300.0
     currency: USD
     current_price: 346.78
-    distance_to_entry: -6.3
-    pipeline_status: SCORED
-    thesis_path: null
+    distance_to_entry: -13.5
+    pipeline_status: R4_COMPLETE
+    thesis_path: thesis/research/ROP/thesis.md
     last_scored: '2026-03-13'
     last_price_check: '2026-03-13'
-    notes: 'Fallen angel S151: -41% from 52wH at 47. Vertical market monopolies. 70%+ recurring.'
+    notes: 'S153 FIX Error #61: FV was $550 (batch scorer phantom), corrected to $385 (thesis R4 FV). Entry was $370, corrected to $300 (thesis SO). QS 70 Tier B. At $347, E[CAGR] at market ~5% = NOT buyable. Needs drop to $300 (-13.5%). Vertical market monopolies. 70%+ recurring.'
   - ticker: GGG
     name: Graco Inc.
     qs_tool: 69
@@ -849,19 +849,19 @@ quality_universe:
     name: Verisk Analytics, Inc.
     direction: long
     qs_tool: 72
-    qs_adj: 72
-    tier: B
+    qs_adj: 80
+    tier: A
     sector: financial-data-analytics
-    fair_value: 300.0
-    entry_price: 210.0
+    fair_value: 210.0
+    entry_price: 195.0
     currency: USD
     current_price: 198.04
-    distance_to_entry: -5.7
-    pipeline_status: SCORED
-    thesis_path: null
+    distance_to_entry: 1.5
+    pipeline_status: R4_COMPLETE
+    thesis_path: thesis/research/VRSK/thesis.md
     last_scored: '2026-03-13'
     last_price_check: '2026-03-13'
-    notes: 'CORRECTED S151: QS Tool 72 (was 80). EPS CAGR 2.5% disappointing. Tier B not A. Rev CAGR 7.2%.'
+    notes: 'S153 FIX Error #61: FV was $300 (batch scorer phantom), corrected to $210 (thesis R4 FV). QS adj 80 per thesis (72 tool + ISO monopoly adj). Entry $195 (~10% MoS for Tier A near-monopoly). At $198 = 1.5% ABOVE entry. Near entry in correction. Data & Analytics Monopolies basket candidate.'
     r1_session: 143
     r1_verdict: AT_FV
   - ticker: TDG
