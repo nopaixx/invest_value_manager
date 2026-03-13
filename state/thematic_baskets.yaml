@@ -361,12 +361,10 @@ allocation_reasoning:
 
     ORPHANS (1): NVO (QS 73 Tier B, CagriSema FAILED, 11.4%).
 
-    MONY.L CAPITAL DESTINATION (EUR 888, ~Mar 26) — UPDATED POST-BAH:
-    1. FOUR.L (if Mar 18 PASS + price ≤3400p) — promotional products, most actionable
-    2. CPRT (needs R1, QS 75 Tier A, -43% from 52wH) — vehicle salvage duopoly
-    3. GDDY (R4 approved but at FV $92, no MoS) — only if FTNT BEAR
-    4. Hold for best rotation opportunity
-    BAH dropped: R3 FV $78, entry $55 requires -30% — not actionable.
+    MONY.L + NVO CAPITAL DESTINATION (EUR ~1,190, Mar 26) — LOCKED:
+    1. GDDY EUR 720 at market (R4 APPROVED, $82.71, MoS 37.9%, E[CAGR] 25.2%) — PRIORITY #1
+    2. DNLM.L EUR ~440 remainder (R4 CONDITIONAL, 861p, MoS 14.3%, E[CAGR] ~15.5%) — UK basket
+    Pre-flights COMPLETE for both. FOMC Mar 18 contingency: if DOVISH → reconsider NVO trim.
 
     SMART MONEY DISCOVERY (S150c13):
     CPRT QS 75 Tier A, $36.31 (-43% from 52wH), 4-fund convergence (Akre x2, Wedgewood).
@@ -377,8 +375,8 @@ allocation_reasoning:
 # THEME DISCOVERY TRACKING
 # =============================================================================
 theme_discovery:
-  last_scan: 2026-03-06
-  last_scan_session: 141
+  last_scan: 2026-03-13
+  last_scan_session: 155
   scan_frequency: "weekly minimum, or when cash >15%, or when basket count <3"
   sources_used:
     - "S140 Basket Strategy Review (docs/basket_strategy_review.md)"
@@ -417,3 +415,6 @@ theme_discovery:
     - theme: "Waste Management"
       reason: "WM at 52wH ($240, P/E 36), very expensive. Low growth (~8%). Quality business but no entry opportunity."
       date: 2026-02-28
+    - theme: "Nuclear / AI Energy Infrastructure"
+      reason: "CEG QS 24 Tier D (ROIC 5.8% vs WACC 10% = -4.2pp spread, FCF negative 3/4 years). VST QS 26 Tier D. Capital-intensive utility businesses. Popular narrative (AI data center demand) but fail quality screen entirely. Error #7 — popularity bias."
+      date: 2026-03-13
