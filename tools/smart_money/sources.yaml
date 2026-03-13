@@ -1,11 +1,11 @@
 amf_france_shorts:
   cadence_days: 3
-  last_download: '2026-03-11'
-  path: /home/angel/value_invest2/tools/smart_money/data/shorts/amf_france_2026-03-11.csv
+  last_download: '2026-03-14'
+  path: /home/angel/value_invest2/tools/smart_money/data/shorts/amf_france_2026-03-14.csv
 fca_uk_shorts:
   cadence_days: 3
-  last_download: '2026-03-11'
-  path: /home/angel/value_invest2/tools/smart_money/data/shorts/fca_uk_2026-03-11.xlsx
+  last_download: '2026-03-14'
+  path: /home/angel/value_invest2/tools/smart_money/data/shorts/fca_uk_2026-03-14.xlsx
 sec_13f:
   cadence_days: 90
   last_download: '2026-02-25'
