@@ -58,7 +58,7 @@ baskets:
       negative: ["ADBE FTC trial Oct 2026", "DOCS MFN risk (16/20 clients)", "GDDY insider selling pattern"]
     last_reviewed: 2026-03-13
     created: 2026-02-22
-    notes: "S152: GDDY entering Mar 26 as 4th position (R4 APPROVED, E[CAGR] 25.2% at $80.75). ADBE post-Q1 beat confirmed. Basket will be 4 positions (~34% portfolio) = largest basket. VRSN (QS 86adj) at $210 SO is priority pipeline for 5th slot."
+    notes: "S153: STRONGEST basket. 4 positions post-Mar 26 (~33% portfolio). E[CAGR] avg 17.7%. GDDY E[CAGR] 25.2% = 2nd highest in entire portfolio. Oil at $100 Brent is NEUTRAL for this basket (all SaaS/FCF machines, not energy-sensitive). CONCENTRATION WATCH: 33% is high but justified by quality (avg QS 78, all Tier A) and E[CAGR]. VRSN $235 vs $210 SO = 12% away, approaching in correction."
 
   - id: cybersecurity
     name: "Cybersecurity"
@@ -92,7 +92,7 @@ baskets:
       negative: ["0 positions post-FTNT exit", "Both pipeline candidates gated", "FTNT CVE pattern weakened anchor thesis"]
     last_reviewed: 2026-03-13
     created: 2026-03-06
-    notes: "S152: FTNT EXIT APPROVED. Downgraded BUILDING→RESEARCHING. CHKP SO $125 (24.6% away), QLYS SO $82 (16.9%). If neither reaches entry by Sep 2026, evaluate basket death. FTNT re-entry possible at $73 (E[CAGR] ~14%)."
+    notes: "S153: FTNT still held pending late April exit. Post-exit: 0 positions. QLYS $97 vs $82 (18.3% away), CHKP $156 vs $125 (24.6% away). Both FAR from entry. If correction deepens to -15% S&P, QLYS could approach. Hormuz crisis = STRUCTURAL tailwind for theme but basket has no anchor. DEATH CLOCK: Sep 2026 if no entry. Re-entry FTNT at $73 remains possible if drops further."
 
   - id: uk-quality-leaders
     name: "UK Quality Leaders"
@@ -132,7 +132,7 @@ baskets:
       negative: ["UK macro overlay from Hormuz oil shock", "MONY.L exiting = losing yield anchor", "DNLM.L cyclically exposed (homewares discretionary)"]
     last_reviewed: 2026-03-13
     created: 2026-02-22
-    notes: "S152: RENAMED UK Digital Platforms → UK Quality Leaders (DNLM.L is retail, not digital). MONY.L SELLING Mar 26, DNLM.L BUYING Mar 26. Post-Mar 26: IHP.L + DNLM.L (2 positions). ALFA.L (QS 83, entry 165p) is priority pipeline for 3rd slot."
+    notes: "S153: Post-Mar 26: IHP.L (11.5%) + DNLM.L (~4.2%) = ~16% portfolio. Oil at $100 = HEADWIND for DNLM.L (consumer disc) but NOT for IHP.L (adviser platform, asset-light). ALFA.L 177p vs 165p entry (7.3% away, delta -13.7pp — FAST approaching). If ALFA.L hits 165p, deploy from FTNT exit remainder. 3-position basket would be strong (IHP.L QS 80 + DNLM.L QS 79 + ALFA.L QS 83)."
 
   - id: data-analytics-monopolies
     name: "Data & Analytics Monopolies"
@@ -174,7 +174,7 @@ baskets:
       negative: ["Sector trades at premium multiples (P/E 28-35x)", "TW insider selling $26.3M in Feb", "WKL.AS receivables +23% vs rev +3.5%"]
     last_reviewed: 2026-03-13
     created: 2026-02-28
-    notes: "S152: SPGI R4 APPROVED, entering late April via FTNT rotation (EUR 400). Post-entry: 3 positions (TW, WKL.AS, SPGI) = strongest basket by moat quality. All WIDE moats. Basket ~17% of portfolio post-SPGI. ICE/NDAQ in scored pipeline."
+    notes: "S153: SPGI entering late April via FTNT rotation (EUR 400). Post-entry: 3 positions (TW 5.8%, WKL.AS 7.6%, SPGI ~3.9%) = ~17% portfolio. STRONGEST by moat quality (all WIDE). Oil-NEUTRAL (all data/subscription). E[CAGR] avg 15.0%. SPGI $420 = at $420 trigger, Q1 May 5. TW bottom-tercile E[CAGR] 13.5% but WIDE moat justifies. WKL.AS receivables +23% still unresolved — monitor Q1."
 
   - id: defense-rearmament
     name: "Defense & European Rearmament"
@@ -282,7 +282,8 @@ baskets:
 # S143: ALL orphans resolved. NVO → glp1 basket. EDEN.PA → european-pricing-power basket.
 
 orphans:
-  - NVO     # GLP-1 duopolist, QS 73 Tier B. Reverted from glp1 basket (KILLED S145). CagriSema FAILED. HOLD LOW conviction.
+  - NVO     # GLP-1 duopolist, QS 73 Tier B. Reverted from glp1 basket (KILLED S145). CagriSema FAILED (KC#1). TRIMMING 14.3 shares Mar 26 (~EUR 472). Remaining ~21.9 shares (~8.4% portfolio). Wegovy pill ramp Q1-Q2 is next catalyst.
+  - BZU.MI  # Italian cement, QS 73/75adj Tier B. No thematic basket (standalone cyclical). 3.6% portfolio. E[CAGR] 11.4% = lowest non-FTNT. Oil at $100 = headwind (energy-intensive). DO NOT ADD. KC#6 monitors oil >$95 6mo.
   # LULU — SOLD 2026-03-06. Orphan EXIT. P&L -1.0%.
   # GL — SOLD 2026-03-07. S143 restructuring. Tier C orphan rotated to quality. P&L +0.8%.
   # DOM.L — SOLD 2026-03-07. S143 restructuring. Tier B orphan, pre-earnings exit. P&L -1.7%.
