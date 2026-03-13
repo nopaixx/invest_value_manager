@@ -8,9 +8,9 @@
 # =============================================================================
 
 last_updated:
-  session: 151
+  session: 153
   date: "2026-03-13"
-  note: "S151: 24 commits, 5 context windows, 3 days (Mar 7-13). BZU.MI executed + DA same-day (MODERATE COUNTER, FV 57→51). FOUR.L FY2025 scored (CONDITIONAL PASS, deferred). Mar 26 execution plan CORRECTED (MONY.L EUR 888→716). CVNA moved to short/active/. Oil re-escalated to $97. Fallen angels screening: 72 found, top 10 curated. ZTS R1 COMPLETE (3 agents parallel, CIO corrected FA's $155→$130, Apoquel patent error caught). Animal-health sector view CREATED. 4 SOs triggered + 3 near (correction broadest since inception). Pipeline: 7 velocity units (BZU.MI DA 2u + FOUR.L 1u + news 1u + ZTS R1 3u)."
+  note: "S153: 6 commits (same-day continuation from S152). World view MATERIAL UPDATE — oil $100 Brent, Hormuz mined, IEA 400M bbl release. Error #61 AUDIT: 5 phantom FVs corrected in quality_universe.yaml (VRSK $300→$210, ROP $550→$385, DOCS $32.80→$30, ALFA.L 235p→215p, BZU.MI EUR 58→51). Basket health with oil impact assessed. Net exposure 99.2% JUSTIFIED (oil-neutral portfolio). Smart money insider ingest — HLNE cluster buy $3.2M confirmed. T15 sizing-conviction check: positive correlation, NVO+FTNT misalignments have corrections scheduled."
 
 # =============================================================================
 # 14 AUTO-FIRE TRIGGERS — RED / YELLOW / GREEN (v4.8: +T12, T13, T14)
@@ -163,7 +163,7 @@ triggers:
   T15_ecagr_optimization:
     metric: "Portfolio E[CAGR] blended trend AND sizing-conviction alignment"
     current_value: 18.6
-    current_detail: "S151: Blended 18.6% (+1.2pp from S149). Deployed 18.6% (0% cash). EDEN still largest + highest E[CAGR]. Bottom 3: TW 13.5%, BZU.MI 12.1%, FTNT 9.4%. Post-Mar 26 rotation projects 19.5-20% (MONY.L 13.9% and NVO 17.2% partial exit → GDDY 25.2% + DNLM.L 15.7% = net +7pp E[CAGR] upgrade)."
+    current_detail: "S153: Blended 18.5% (flat from S151). Deployed 18.5% (0% cash). EDEN still largest + highest E[CAGR] 28.8%. Bottom 3: TW 13.5%, BZU.MI 11.4%, FTNT 9.4%. HLNE dropped to $94 (-11.5% cost) but E[CAGR] rose to 17.6% — insiders cluster buying $3.2M. Post-Mar 26 rotation projects 19.5-20%."
     red_threshold: "Blended E[CAGR] declining for 3+ sessions AND sizing-conviction correlation < 0 (inverted)"
     yellow_threshold: "Blended E[CAGR] < 15% OR sizing-conviction correlation < 0.3"
     consequence: "RED triggers mandatory rotation proposal: move capital from bottom E[CAGR] to top, or explain why not. YELLOW triggers sizing review."
@@ -205,7 +205,7 @@ trigger_summary:
   yellow_count: 3
   green_count: 12
   unknown_count: 1
-  assessment: "S151 FINAL: 16 triggers. 0 RED. 3 YELLOW (T9, T11, T15). 12 GREEN. 1 UNKNOWN (T10). 7 velocity units. ZTS R1 complete (CIO caught FA Apoquel patent error = Error #65 validation). Animal-health sector view created. 4 SOs triggered + 3 near in correction — broadest since inception. Mar 26 rotation locked. Post-rotation E[CAGR] ~19.5-20%."
+  assessment: "S153: 16 triggers. 0 RED. 3 YELLOW (T9, T11, T15). 12 GREEN. 1 UNKNOWN (T10). Error #61 audit = highest-value pipeline work (5 phantom FVs silently corrupting rotation decisions). World view updated for $100 oil. Net exposure 99.2% justified. HLNE insider cluster buy confirmed. Mar 26 execution on track."
 
 # =============================================================================
 # ACTIVE EXPERIMENTS — Changes being measured
