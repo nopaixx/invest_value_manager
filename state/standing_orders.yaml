@@ -577,15 +577,15 @@ review_flags:
   # Trigger lowered $300→$285. FV revised $385→$365. See thesis/research/ROP/review_feb2026.md
 
 # =============================================================================
-# SO SUMMARY (S152c17+, 2026-03-13 — PRE-FLIGHT VERIFIED)
+# SO SUMMARY (S153, 2026-03-13 — MACRO ESCALATION UPDATE)
 # Cash EUR 0. All capital deployed. Mar 26 rotation locked (GDDY+DNLM.L).
-# S152c17: MONY.L EX-DIV CONFIRMED MAR 26. Sell same day post-open. Dividend captured.
-# S152c17: DNLM.L WENT EX-DIV MAR 12. 864p = clean post-dividend price.
-# S152c17: GDDY PRE-FLIGHT COMPLETE. R1-R4 all files, 12 KCs, $80.75 → E[CAGR] 25.2%.
-# S152c17: DNLM.L PRE-FLIGHT COMPLETE. R1-R4 all files, 8 KCs, 864p → E[CAGR] ~15.5%. In committee preferred zone.
-# S152c17: SPGI G1 DEFINITIVELY RESOLVED. Not a blocker. Acquisition-driven AR + strong FCF = monitoring item.
-# S152c17: KC SWEEP CLEAN. 1 TRIGGERED (NVO KC#1 known), 17 MONITORING, no new issues.
-# S152c17: 80 FALLEN ANGELS (QS≥55, ≥30% DD). All Tier A names already in pipeline. Good coverage.
+# S153: CRITICAL MACRO UPDATE — Oil Brent $100, WTI $94. Iran naval mines + 3 ships hit.
+# S153: IEA 400M barrel strategic release (largest ever). New Supreme Leader vows Hormuz stays closed.
+# S153: S&P at 3-month low, YTD -2.3%. Rate cuts being priced OUT. FOMC Mar 18 = critical.
+# S153: Pre-flights RE-VERIFIED: GDDY $80.75 (E[CAGR] 25.2%), DNLM.L 864p (E[CAGR] ~15.5%). Both READY.
+# S153: 4 SOs triggered + 3 near entry but EUR 0 cash. Correction broadening.
+# S153: HALO below entry ($63.56 < $65) but GATED PTAB Jun 2. WING 1.6% from entry but GATED Q1 SSS.
+# S153: World view MATERIALLY UPDATED — body text coherence fixed (was mixing $85/$97, now $94-100).
 #
 # TRIGGERED/AT-TRIGGER (EUR 0 cash = cannot fill):
 #   SPGI $419.70 vs $420 trigger — AT TRIGGER, GATED Q1 Apr

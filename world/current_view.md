@@ -1,20 +1,23 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-13
+> Ultima actualizacion: 2026-03-13 (S153 refresh)
 
-**CAMBIOS MATERIALES desde ultimo update (11-mar):**
-- **CRITICAL: OIL SURGED $85 to $97 WTI (Mar 11→13).** Relief from Chris Wright false tweet FULLY REVERSED. Back ABOVE $90 recession trigger. Hormuz remains TWO-TIER (China through, West blocked). France escort not yet launched. Oil range NOW $90-100. Stagflation scenario RE-ACTIVATED. Mar/Apr CPI will be worse than expected with oil at $97.
-- **MATERIAL: WAR ~DAY 13.** No ceasefire progress. Oil surge suggests either new escalation or failed diplomatic effort. Monitor for France Hormuz mission updates.
-- **MATERIAL: VIX BACK TO 27.7 (was 25.5).** Relief REVERSED. S&P 6,673 (-4.7% from 52wH). Market re-pricing sustained disruption.
-- **MATERIAL: CPI FEB IN LINE.** 2.4% headline, 2.5% core (Mar 12 release). Non-event — pre-oil data. Mar/Apr CPI is the real test — NOW WORSE with oil at $97.
-- **MATERIAL: ADBE Q1 FY2026 CONDITIONAL BEAT.** Revenue $6.40B (+12%) BULL. EPS $6.06 BULL. AI-first ARR tripled YoY. CEO Narayen stepping down (stays Chair). Successor TBD. KC#9 added. FV $390 unchanged. Stock $269.78.
-- **MATERIAL: ALFA.L FY2025 PASS (low end).** Revenue £126.7M (+17% CC), OP 31.6%, NRR 109%, cash conv 97%. Receivables NOT DISCLOSED. Stock crashed 173.80p (52wL). Gate partially cleared.
-- **MATERIAL: BZU.MI EXECUTED.** Market buy EUR 370 at EUR 42. 11th long. Italian cement, R4 approved.
-- **UPCOMING: FOMC Mar 18 + dot plot** — NOW EVEN MORE CRITICAL with oil at $97. 0 cuts for 2026 = further selloff.
-- **UPCOMING: FOUR.L FY2025 Mar 18, BoE Mar 20, HLNE ex-div Mar 20, MONY.L ex-div+sell Mar 26.**
-- **PORTFOLIO: 11 longs + 1 short, EUR 0 cash.** GDDY deeply triggered ($80.75 vs $90 SO). 7 SOs triggered/near. Mar 26 capital event: MONY.L sell (~EUR 716) + NVO trim (~EUR 472) = ~EUR 1,190 → GDDY EUR 720 + DNLM.L ~EUR 440.
+**CAMBIOS MATERIALES desde ultimo update (11-mar → 13-mar):**
+- **CRITICAL: OIL SURGES TO $100 BRENT / $94 WTI.** Iran's NEW Supreme Leader Mojtaba Khamenei (son of killed Ali Khamenei) vows Hormuz STAYS CLOSED. Three ships hit by projectiles in Hormuz Mar 12-13. Iran planting NAVAL MINES (US intel, Mar 10). IEA coordinating 400M barrel strategic reserve release (LARGEST EVER, 32 countries). Despite this, Brent hit $100. Oil range NOW $94-100 WTI. RECESSION TRIGGER FIRMLY ACTIVATED ($90+ sustained).
+- **CRITICAL: WAR ~DAY 14 — ESCALATING, NOT STABILIZING.** New Supreme Leader = regime continuity. Naval mines = structural escalation. Ship attacks continuing. France Hormuz mission not yet launched. The "stabilizing" narrative from Mar 10-11 was WRONG. The crisis is DEEPENING.
+- **MATERIAL: S&P AT 3-MONTH LOW.** -4.7% from 52wH. YTD returns now NEGATIVE (-2.3%). 3 consecutive down sessions. Broad selloff sparing only energy. Banks, tech, consumer disc all hit.
+- **MATERIAL: VIX 25.92 (was 25.5 → 27.7 intraday).** Elevated but not panic. Credit spreads widening slowly (HYG/LQD 0.7309).
+- **MATERIAL: FED CUTS BEING PRICED OUT.** With oil at $94-100, rate cuts "likelihood quickly dwindling." FOMC Mar 18 dot plot = CRITICAL. If 0 cuts for 2026 = further selloff.
+- **MATERIAL: CPI FEB IN LINE (2.4%/2.5%).** Non-event — pre-oil data. Mar/Apr CPI is the REAL test. With oil at $94-100, expect 2.7-3.0%+ headline. Stagflation scenario ACTIVE.
+- **MATERIAL: ADBE Q1 FY2026 CONDITIONAL BEAT.** Revenue $6.40B (+12%) BULL. EPS $6.06 BULL. AI-first ARR tripled YoY. CEO Narayen stepping down (stays Chair). KC#9 added. FV $390. Stock $269.78.
+- **MATERIAL: ALFA.L FY2025 PASS (low end).** Revenue £126.7M (+17% CC), OP 31.6%, NRR 109%, cash conv 97%. Stock at 52wL. Gate partially cleared.
+- **MATERIAL: BZU.MI EXECUTED S151.** Market buy EUR 370 at EUR 42. 11th long. Oil at $94 = headwind for cement (energy intensive). KC#6 monitors.
+- **UPCOMING: FOMC Mar 18 + dot plot** — MOST IMPORTANT SINCE JACKSON HOLE. Oil at $100 Brent forces dot plot hawkish. 0 cuts = selloff. 1+ cut = relief rally.
+- **UPCOMING: ECB Mar 19, BoE Mar 20, HLNE ex-div Mar 20, MONY.L ex-div+sell Mar 26.**
+- **PORTFOLIO: 11 longs + 1 short, EUR 0 cash.** GDDY deeply triggered ($80.75 vs $90 SO). Mar 26 capital event: MONY.L sell (~EUR 716) + NVO trim (~EUR 472) = ~EUR 1,190 → GDDY EUR 720 + DNLM.L ~EUR 440.
+- **NEW DATA: IEA 400M barrel release.** Biggest ever coordinated release. If effective, oil could pullback to $85-90. If insufficient (Iran mines disrupt further), $100+ sustained. Binary.
 
-**SECTOR IMPACT -- Oil $85 / Hormuz Two-Tier / Crisis Stabilizing:**
+**SECTOR IMPACT -- Oil $94-100 / Hormuz MINED / Crisis ESCALATING:**
 
 | Impact | Sectors | Portfolio Exposure | Action |
 |--------|---------|-------------------|--------|
@@ -28,17 +31,17 @@
 
 ## Resumen Ejecutivo
 
-1. **IRAN WAR DAY 11 -- STALEMATE WITH EXTREME OIL VOLATILITY.** The conflict has NOT de-escalated. Iran rejects ceasefire, Trump demands more. But the situation has STABILIZED somewhat: no new major escalation events since IRIS Dena (Mar 4), VIX eased from 29.5 to 25.5, S&P recovered modestly. The oil flash crash on Mar 10 (Chris Wright false tweet, -19% intraday) revealed how FRAGILE the oil premium is -- one credible Hormuz-reopening headline can crash oil $15-20 in minutes. This is textbook binary risk.
+1. **IRAN WAR DAY 14 -- ESCALATING, NOT STABILIZING.** The "stabilization" narrative from Mar 10-11 (oil flash crash to $70, VIX easing) was WRONG. Iran's new Supreme Leader Mojtaba Khamenei (son of killed Ali Khamenei) vows to keep Hormuz CLOSED. Naval mines being planted (US intel Mar 10). Three ships hit by projectiles Mar 12-13. The crisis is DEEPENING, not resolving. Oil WTI $94, Brent $100. This is the LARGEST supply disruption in the history of the global oil market per IEA.
 
-2. **Hormuz enters TWO-TIER regime.** Iran allows Chinese-flagged vessels; blocks Western shipping. Iran shipping ~1.22M bpd to China (down from pre-war levels). France + allies preparing mission to reopen. This is a STRUCTURAL CHANGE from "total closure" -- partial flow exists, but Western oil supply still severely disrupted. Oil pricing reflects this partial-but-incomplete blockade.
+2. **Hormuz: TWO-TIER + MINES = structural escalation.** Iran still allows Chinese-flagged vessels but has MINED the strait and is actively attacking other ships. IEA coordinating 400M barrel strategic reserve release (32 countries, largest ever). This is a WARTIME supply measure — the fact that it's needed shows how severe the disruption is. France + allies mission to reopen has NOT launched. Even if it does, mines take months to clear.
 
-3. **Oil at $85 vs $91 = meaningful difference for macro.** $85 is BELOW our $90 recession-trigger threshold. If oil stabilizes $80-90, stagflation risk remains elevated but recession is NOT certain. The difference between $85 and $92 is enormous for consumer spending, CPI trajectory, and Fed calculus. The Mar 10 flash crash showed the market believes oil SHOULD be lower if Hormuz partially reopens.
+3. **Oil at $94-100 = ABOVE recession trigger ($90). FIRMLY.** The $85 level from Mar 10-11 was a flash crash anomaly, not the new equilibrium. Oil has rebounded above $94 and Brent hit $100. Sustained $95+ for 4+ weeks = recession probability 45-55%. The IEA release may cap upside at $100-105 but floor is now $90+ absent ceasefire. Gas at ~$3.80-4.00/gal. Consumer spending contraction expected within 30-60 days.
 
-4. **CPI Feb (today) will be benign -- the REAL test is Mar/Apr CPI.** Consensus 2.4% YoY. This is PRE-oil data. The market knows this. The reaction will be muted unless there is a major surprise. The REAL inflation test comes in April (Mar CPI) when oil spike flows through.
+4. **CPI Feb: 2.4% headline, 2.5% core (Mar 12 release).** Pre-oil data, non-event as expected. Mar CPI (released Apr) will be the REAL test. With oil at $94-100 for 2+ weeks, expect 2.7-3.0%+ headline. Core should stay contained (oil = headline not core) but shelter + food will feel secondary effects.
 
-5. **FOMC Mar 18 = CRITICAL for rate trajectory.** First projections incorporating oil shock + tariffs. Dot plot is the key: if median shifts from 1 cut to 0 cuts for 2026, rate-sensitive assets suffer. If 2 cuts (oil seen as transitory), massive relief rally. Powell press conference language on "transitory vs structural" oil inflation will be the most important communication since Jackson Hole.
+5. **FOMC Mar 18 = MOST IMPORTANT SINCE JACKSON HOLE.** Dot plot will be first to formally incorporate oil shock + tariffs + war. At $100 Brent: 0 cuts for 2026 is the BASE CASE. Powell's language on "transitory vs structural" oil inflation is the key signal. If "structural" → higher-for-longer confirmed → financials/consumer hit. If "transitory, war-driven" → 1-2 cuts later = relief rally. The market is pricing in rate cuts "quickly dwindling."
 
-6. **Portfolio positioned well for BOTH tails.** 80%+ oil-neutral. CVNA short benefits from sustained elevated oil/rates. ADBE earnings Wed = most consequential position event this week.
+6. **Portfolio: 80%+ oil-neutral, positioned for BOTH tails.** CVNA short benefits from $94+ oil (gas costs + rates hurt used car demand). FTNT benefits as crisis cybersecurity spend increases. EDEN.PA (18.7%) and BZU.MI (3.6%) = most oil-exposed. Mar 26 execution locked: MONY.L sell + NVO trim → GDDY + DNLM.L.
 
 ---
 
@@ -49,21 +52,21 @@
 **Politica Monetaria**:
 - **Fed mantiene tipos en 3.50-3.75%** (FOMC 28-ene, votacion 10-2)
 - **Proxima reunion: 17-18 marzo 2026** -- HOLD 92%+ probability. **DOT PLOT + PROJECTIONS = CRITICAL.** First to incorporate oil shock + tariffs
-- **Rate cuts likely OFF TABLE for H1 2026.** Oil at $85 (vs $92 last week) reduces urgency slightly but still inflationary. Market pricing first cut Q4 2026
+- **Rate cuts likely OFF TABLE for 2026.** Oil at $94-100 eliminates any cut rationale. Market pricing first cut pushed to 2027. Fed in impossible position: economy weakening but inflation rising from oil shock
 - **Powell term expira 15 mayo 2026** -- Succession uncertainty during active war + stagflation management
-- **STAGFLATION SCENARIO**: Oil at $85 is BELOW the $90 recession trigger, but only marginally. If oil drifts back to $90+ (which it could on any escalation headline), the trigger re-activates. The scenario is LATENT, not active at $85.
+- **STAGFLATION SCENARIO**: Oil at $94-100 is ABOVE the $90 recession trigger. SCENARIO IS ACTIVE, NOT LATENT. Sustained $95+ = recession probability 45-55%. IEA 400M barrel release is the policy response — if insufficient, $100+ becomes new normal and recession becomes BASE CASE.
 
 **Empleo**:
 - **Jan 2026 NFP: +130,000** (vs 55K consenso, fuerte sorpresa positiva)
 - **Unemployment: 4.3%** (vs 4.4% esperado, mejora)
-- **Post-crisis risk ELEVATED but not acute**: Oil at $85 (vs $92) gives consumers slightly more breathing room. Discretionary spending contraction still expected within 60-90 days but less severe than at $92
+- **Post-crisis risk ELEVATED and ACUTE**: Oil at $94-100 = gas ~$3.80-4.00/gal. Consumers under DIRECT pressure. Discretionary spending contraction expected within 30-60 days. Lower-income segment first to cut. Oil well above pre-crisis levels = STRUCTURAL pressure, not temporary
 
 **Inflacion**:
 - **CPI Jan 2026: +2.4% YoY (headline), +2.5% YoY (core)** -- was trending favorably
-- **CPI Feb 2026 (TODAY Mar 11)**: Consensus 2.4% YoY headline, 2.5% core. Pre-oil-shock data. Will NOT reflect oil spike
-- **OIL NOW AT $85 WTI** (down from $92 peak). If sustained at $85, CPI Mar/Apr likely 2.7-3.0%. If oil returns to $90+, CPI trajectory worsens to 3.0-3.5%+
+- **CPI Feb 2026 (released Mar 12)**: 2.4% YoY headline, 2.5% core. Pre-oil-shock data. NON-EVENT as expected
+- **OIL AT $94-100 WTI/Brent** = CPI Mar/Apr likely 2.7-3.0%+ headline. Core sheltered (oil = headline) but secondary effects (food, transport) will lift core toward 2.6-2.8%
 - Tariffs (15% EU surcharge) add second inflationary impulse
-- **Inflation trajectory: ELEVATED but oil pullback provides some relief vs Mar 8 assessment**
+- **Inflation trajectory: ACCELERATING. Dual shock (oil + tariffs) = worst combination since 2022. Fed trapped: cut to help growth → inflation rises; hold → recession deepens**
 
 **Crecimiento**:
 - Q4 2025 GDP: ~2.2% (desaceleracion from Q3 +4.4%)
@@ -89,13 +92,13 @@
 **Politica Monetaria**:
 - **BCE mantiene deposit rate 2.00%** - Fifth consecutive hold (Feb 5 decision)
 - **Proxima reunion: 18-19 marzo 2026** (7 days away)
-- **Post-crisis UPDATE**: Oil pullback to $85 from $92 gives ECB SLIGHTLY more room. But Brent still elevated (~$88-93 estimated). Economy fragile. Stagflation trap continues
-- **ECB March decision**: 25bp cut possible again with oil easing. Watch closely -- if ECB cuts while Fed holds, EUR could weaken (negative for our EUR positions at margins, but earnings in EUR)
+- **Post-crisis UPDATE**: Oil at Brent $100 = NO ROOM for ECB cuts. Energy-importing EU under severe pressure. Stagflation trap DEEPENING. German stimulus package partially offset by energy costs
+- **ECB March 19 decision**: CUT unlikely with Brent at $100. If ECB holds while Fed holds, EUR/USD stays range-bound (~1.15). If ECB signals concern about growth → market reads as stagflation admission
 
 **Crecimiento**:
 - Proyeccion 2026 PRE-CRISIS: 1.2% (EC)
-- **Post-crisis**: Brent easing helps EU (net energy importer). Growth estimate IMPROVES SLIGHTLY to 0.5-0.8% (was 0.3-0.6%)
-- **Alemania fiscal stimulus**: EUR120B package in play. Energy cost shock less severe at $85 oil
+- **Post-crisis**: Brent at $100 = EU growth WORSENS. Net energy importer taking full hit. Growth estimate 0.2-0.5% (recession territory for periphery)
+- **Alemania fiscal stimulus**: EUR120B package partially OFFSET by energy cost surge. Net positive but much less impactful with Brent at $100
 - **Defensa EU**: Iran crisis + Ukraine = defense spending urgency INCREASING. France leading Hormuz reopening mission. NATO 3%+ spending trajectory
 
 **Impacto Inversion**: Oil pullback is POSITIVE for EU equities. Our EU positions: EDEN.PA (domestic services 18.7%, low energy sensitivity, SAFE), WKL.AS (subscriptions 7.5%, very low oil sensitivity). EUR strength helps EUR-denominated positions (26.2% of portfolio). ECB cut possibility = positive for growth.
