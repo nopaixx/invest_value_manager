@@ -103,10 +103,11 @@ handoff:
       - "ZTS R1 COMPLETE: WATCHLIST FV $130 entry $100-110. CIO corrected FA's $155 (Apoquel patent error, bullish OEY). WIDE moat. SO GATED $105 (Q1 May). Next: R2 (DA) when approaching entry."
       - "Pipeline: SPGI AT $420 trigger (GATED Q1). KNSL 1.9% (GATED). WING 1.6% (GATED). DECK at entry (GATED)."
       - "Fallen angels universe: 8 added (ZTS, VRSK, BEI.DE, BEAN.SW, FDS, ROP, NEU, PODD). All SCORED, need R1."
+      - "CORRECTION DEEPENING: 35 fallen angels (QS>=70, -30%+). CPRT now 9% from entry ($33.97 vs $31, R3_COMPLETE). PAYC $126 approaching $105-115 entry. MANH $140 may be near value (was overvalued). CHKP $155 = potential FTNT cybersec replacement (entry $125)."
       - "BZU.MI: DO NOT ADD. FV EUR 51, E[CAGR] 12.1%. Monitor FY2025 formal results."
       - "FOUR.L: DEFERRED. FV 4,000p. Monitor Q1 Jun 2026."
   dedup_signals:
-    - "S151 ONGOING: 26+ commits across 7 context windows over 3 days (Mar 7-13)."
+    - "S151 ONGOING: 29+ commits across 8 context windows over 3 days (Mar 7-13)."
     - "BZU.MI DA: MODERATE COUNTER, FV EUR 57→51, KC#6 added (oil). E[CAGR] 12.1%."
     - "FOUR.L FY2025 CONDITIONAL PASS: OM 10.8%, rev $1.35B, guide weak. FV 4400→4000p. DEFERRED."
     - "Mar 26 CORRECTED: MONY.L proceeds EUR 716 (not 888). Total EUR 1,190. GDDY EUR 720 + DNLM.L EUR 440."
