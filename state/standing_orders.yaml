@@ -1,7 +1,7 @@
 # STANDING ORDERS - Price alerts with pre-written thesis
 # NOT autonomous orders. Human alerts Claude when price hits trigger.
 # Claude runs fast-track validation (pre-execution-check + reverse DCF) before recommending.
-# Updated: 2026-03-07 (Session 142 — SO audit: distances refreshed, MORN rotation)
+# Updated: 2026-03-13 (Session 155 — SO distances refreshed at NYSE open)
 #
 # CATEGORIES:
 # ACTIVE     — trigger <15% away, no unmet gate, prob_fill >25%. Human should watch daily.
@@ -77,12 +77,13 @@ standing_orders:
     trigger: "<=$88"
     current_distance: "-7.1%"
     created_date: "2026-02-14"
-    staleness_status: FRESH  # TRIGGERED. Below $88 trigger. But no R4 yet.
+    staleness_status: STALE  # S155: $94.13 is ABOVE $88 trigger (not triggered). Was incorrectly marked TRIGGERED. No R4 — needs R1 first. QS 57 Tier C = below threshold. Distance +7.0%.
+    current_distance: "+7.0%"
     size_eur: 400
     fair_value: "$110"
     mos_at_trigger: "20%"
-    tier: "B (QS 57/68 adj)"
-    notes: "Bermuda specialty insurer. Entering soft market."
+    tier: "C (QS 57/68 adj)"
+    notes: "S155 UPDATE: Price $94.13, NOT triggered (was incorrectly marked). QS 57 is TIER C = below buy threshold. Needs R1 to verify if QS adj brings it to Tier B. Bermuda specialty insurer. Entering soft market. DEPRIORITIZE until QS verified."
     last_analysis_date: 2026-02-14
     expiry: 2026-07-31
 
@@ -148,7 +149,8 @@ standing_orders:
     trigger: "<=$65"
     current_distance: "-2.2%"
     created_date: "2026-02-26"
-    staleness_status: FRESH  # TRIGGERED but GATED on Merck PTAB Jun 2026.
+    staleness_status: FRESH  # S155: $64.14 TRIGGERED (-1.3% below $65). GATED on Merck PTAB Jun 2026.
+    current_distance: "-1.3%"
     gate: "Merck PTAB ruling (Jun 2026) — binary risk favors patience"
     r4_status: "APPROVED CONDITIONAL (S140, 2026-03-06). 6 PASS, 4 CONDITIONAL PASS, 0 FAIL."
     size_eur: 400
@@ -192,7 +194,8 @@ standing_orders:
     trigger: "<=CHF 80"
     current_distance: "5.6%"
     created_date: "2026-02-20"
-    staleness_status: FRESH  # <15% distance, dated gate (GM at next report). NEAR TRIGGER.
+    staleness_status: FRESH  # S155: CHF 82.66, +3.3% from CHF 80. APPROACHING. Dated gate (GM at next report).
+    current_distance: "+3.3%"
     gate: "GM >=70% at most recent reporting date (R4 APPROVED S103)"
     size_eur: 400
     shares_approx: 5
@@ -265,7 +268,7 @@ standing_orders:
     trigger: "<=$355"
     current_distance: "1.9%"
     created_date: "2026-02-18"
-    staleness_status: RECALIBRATED  # S133: trigger $310→$355. S151: 1.9% away ($361.86), correction deepening.
+    staleness_status: RECALIBRATED  # S155: $361.04, +1.7% from $355. Near 52w low $341. Insider selling + SI surge = CAUTION.
     gate: "Verify Q1 2026 GWP growth trends (ex-property >10%)"
     size_eur: 400
     fair_value: "$458"
@@ -324,7 +327,7 @@ standing_orders:
     category: GATED
     fill_prob_6m: 20
     trigger: "<=$155"
-    current_distance: "6.9%"
+    current_distance: "+7.6%"  # S155: $166.75
     created_date: "2026-03-08"
     staleness_status: FRESH
     gate: "Q1 2026 earnings must show OP margin 27%+ (validate 2025 compression as temporary)"
@@ -355,7 +358,7 @@ standing_orders:
     trigger: "<=$420"
     current_distance: "0.1%"
     created_date: "2026-02-28"
-    staleness_status: FRESH  # AT TRIGGER $419.70 vs $420. Gated Q1 late April.
+    staleness_status: FRESH  # S155: $422.80, +0.7% from $420 trigger. APPROACHING. Gated Q1 late April.
     fill_prob_6m: 40
     size_eur: 400
     fair_value: "$470 (R3 post-DA S131, was $511)"
@@ -404,7 +407,7 @@ standing_orders:
     category: GATED
     fill_prob_6m: 30
     trigger: "<=$190"
-    current_distance: "1.6%"
+    current_distance: "7.1%"  # S155: $203.46 vs $190. Was 1.6% (stale data).
     created_date: "2026-02-25"
     staleness_status: FRESH  # Dated gate (Q1 FY2026 SSS May 2026). R3 complete S135. S151: 1.6% from trigger, correction deepening.
     gate: "Q1 FY2026 SSS data (May 2026). R2 COMPLETE S135 (STRONG COUNTER 13/19)."
