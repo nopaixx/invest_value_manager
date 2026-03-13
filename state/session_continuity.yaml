@@ -34,8 +34,9 @@ completed:
     - "SO distances updated: 4 TRIGGERED (MRSH, SPGI, HALO, STMN.SW) + 3 NEAR (KNSL, WING, DECK). All blocked EUR 0 cash."
     - "FV consistency check: 11/11 positions CONSISTENT"
     - "Smart money signals: HLNE insider cluster buy ($3.2M/60d), ADBE/NVO convergence"
-  key_finding: "S151 = most productive session: 25 commits, 5 context windows, 7 velocity units. Key: ZTS R1 caught FA Apoquel patent error via CIO adversarial review (Error #65 validation). Correction producing unprecedented SO triggers (4+3) but EUR 0 cash = all blocked. Mar 26 rotation = next capital deployment event."
-  net_exposure_updated: false  # No change from prior session — still 100/0.8/0 (long/short/cash)
+  key_finding: "S151 = most productive session: 34+ commits, 11 context windows, 8 velocity units across 3 days (Mar 7-13). Key: ZTS R1 caught FA Apoquel patent error via CIO adversarial review (Error #65 validation). FTNT CVE escalation case built → EXIT CONFIRMED. Correction producing 9 stocks at/near entry. Mar 26 = next capital deployment event (4 trades, EUR 1,190)."
+  net_exposure_updated: true
+  net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). VIX 27 elevated, oil $96 crisis premium, S&P -4.7% from highs. JUSTIFIED: 8/11 positions Tier A, blended E[CAGR] 18.6%, Mar 26 rotation upgrades +7pp. Full deployment in quality per P15. Short side: CVNA only live short, monitoring RKLB S2 ARCHIVED. VIX 27 = correction territory but not panic — quality names recover. Oil $96 risk concentrated in EDEN.PA (19% rev) and BZU.MI (cost) — both small positions. No additional shorts warranted absent specific catalysts (P10)."
   rotation_check: true
   rotation_note: "Bottom 3: TW 13.5%, BZU.MI 12.1%, FTNT 9.4%. Mar 26 rotation: SELL MONY.L (13.9%) + TRIM NVO (17.2%) → BUY GDDY (25.2%) + DNLM.L (15.7%). Net +7pp E[CAGR] upgrade."
   velocity_units: 8  # BZU.MI DA (2) + FOUR.L scoring (1) + news scan (1) + ZTS R1 3-agent (3) + FTNT CVE intelligence (1)
@@ -107,7 +108,7 @@ handoff:
       - "BZU.MI: DO NOT ADD. FV EUR 51, E[CAGR] 12.1%. Monitor FY2025 formal results."
       - "FOUR.L: DEFERRED. FV 4,000p. Monitor Q1 Jun 2026."
   dedup_signals:
-    - "S151 ONGOING: 29+ commits across 8 context windows over 3 days (Mar 7-13)."
+    - "S151 CLOSED: 34+ commits across 11 context windows over 3 days (Mar 7-13). Most productive session in fund history."
     - "BZU.MI DA: MODERATE COUNTER, FV EUR 57→51, KC#6 added (oil). E[CAGR] 12.1%."
     - "FOUR.L FY2025 CONDITIONAL PASS: OM 10.8%, rev $1.35B, guide weak. FV 4400→4000p. DEFERRED."
     - "Mar 26 CORRECTED: MONY.L proceeds EUR 716 (not 888). Total EUR 1,190. GDDY EUR 720 + DNLM.L EUR 440."
