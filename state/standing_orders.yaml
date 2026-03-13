@@ -363,9 +363,10 @@ standing_orders:
     tier: "A (QS 60/76 adj — serial acquirer +16)"
     ecagr_at_trigger: "12.1%"
     gate: "Q1 2026 earnings (late April/May). Must clear: (1) receivables growth normalizes <5pp above rev, (2) FCF margin >=35%, (3) MI organic growth >=5%."
-    notes: "R3 COMPLETE S131. Post-DA FV $511→$470 (-8.0%). MODERATE COUNTER: no informational edge (Error #49), FCF contraction 2025, receivables +20% vs rev +8%. TCI Fund (Chris Hohn) adding — smart money validation. Ratings duopoly near-impenetrable. S151c32 PRE-FLIGHT: AT TRIGGER $419.70. Reverse DCF: market prices 13.7% FCF growth vs 29.5% historical (15.8pp gap). 7 quality funds (Cantillon $848M, Markel, D&C, Wedgewood, Coronation). 0% SI. Constraints PASS: 3.9%, US 43.7%. FTNT exit → SPGI = PRIMARY rotation target. Capital source: FTNT ~EUR 775."
+    r4_status: "APPROVED CONDITIONAL (S152, 2026-03-13). 10/10 gates PASS. committee_decision.md written."
+    notes: "R4 APPROVED S152. R3 FV $470 (-8.0% from R1 $511). Thesis header FIXED (Error #62 — was showing R1 FV). Pre-flight S151c32: AT TRIGGER $419.70. Reverse DCF: market prices 13.7% FCF growth vs 29.5% historical. 7 quality funds (Cantillon $848M, Markel, D&C, Wedgewood, Coronation). 0% SI. FTNT exit → SPGI PRIMARY rotation target (EUR 400). ALFA.L vs SPGI debate resolved: not mutually exclusive. Mobility spinoff modeling needed before Q1 gate date."
     kill_conditions: "Ratings market share <30%, regulatory break of duopoly, ROIC<WACC 3yr, revenue decline >5% 2Q, receivables >10pp gap 2Q, Mobility spinoff destroys >20% of value"
-    last_analysis_date: 2026-02-28
+    last_analysis_date: 2026-03-13
     expiry: 2026-10-01
 
   # REN.AS — ARCHIVED 2026-03-07 (S143c4). STALE: 19.7% from trigger, rallied to 52wH EUR 30.50.

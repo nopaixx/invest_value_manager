@@ -59,19 +59,21 @@ baskets:
 
   - id: cybersecurity
     name: "Cybersecurity"
-    status: BUILDING
-    theme_vitality: STRENGTHENING  # Hormuz crisis = elevated state cyber threats, non-discretionary spend
+    status: RESEARCHING  # S152: FTNT EXIT APPROVED late April. 0 positions post-exit.
+    theme_vitality: ALIVE  # Theme strong but basket has no anchor post-FTNT exit
     thesis: >
       Every organization needs to defend against increasingly sophisticated cyber
       threats. Spending is non-discretionary and growing 12-15% CAGR. Best companies
       have WIDE moats from switching costs and proprietary technology. Hormuz crisis
       elevates state-sponsored cyber threat = structural tailwind. Global spend
       growing from $188B (2024) to $300B+ (2028).
+      S152: FTNT EXIT APPROVED (E[CAGR] 9.4% worst, 3 KCs MONITORING CVE pattern).
+      Basket goes to 0 positions post-exit. Pipeline active for future re-entry.
     thesis_file: thesis/baskets/cybersecurity/thesis.md
     sector_views:
       - world/sectors/cybersecurity.md
     positions:
-      - FTNT    # Cybersecurity, QS 87 Tier A — WIDE moat (proprietary ASICs). Spun from US QC.
+      - FTNT    # EXIT APPROVED S152. SELL late April. Still held until execution.
     pipeline:
       - QLYS    # Cloud security, QS 80adj Tier A, SO $82 GATED Q1 billings
       - CHKP    # Cybersecurity, QS 77adj Tier A, entry $125
@@ -79,16 +81,15 @@ baskets:
       - "Competitive intensity (CrowdStrike, Palo Alto, Zscaler fighting for share)"
       - "Platform consolidation risk (customers may consolidate to 1-2 vendors)"
       - "Open-source security tools gaining traction"
-      - "FTNT CVE pattern (CVE-2026-24858 Jan 2026 = incident #1)"
     kill_conditions:
       - "Global cyber spending growth decelerates to <5% CAGR for 2 consecutive years"
-      - "2+ positions hit individual KCs simultaneously"
+      - "No pipeline candidate reaches entry within 6 months of FTNT exit (basket death)"
     vitality_signals:
-      positive: ["FTNT QS 85 = highest quality anchor", "Hormuz/Iran = elevated cyber threat environment", "Spend non-discretionary", "QLYS + CHKP both Tier A in pipeline"]
-      negative: ["FTNT class action active", "CVE-2026-24858 pattern concerning", "Need 2nd position to justify basket"]
-    last_reviewed: 2026-03-06
+      positive: ["Hormuz/Iran = elevated cyber threat", "Spend non-discretionary", "QLYS + CHKP both Tier A in pipeline"]
+      negative: ["0 positions post-FTNT exit", "Both pipeline candidates gated", "FTNT CVE pattern weakened anchor thesis"]
+    last_reviewed: 2026-03-13
     created: 2026-03-06
-    notes: "S143: FTNT ADD EUR 500. Position DOUBLED. Crisis beneficiary. QLYS SO $82 GATED on Q1 billings. CHKP at $125 entry. Need 2nd position to upgrade from BUILDING."
+    notes: "S152: FTNT EXIT APPROVED. Downgraded BUILDING→RESEARCHING. CHKP SO $125 (24.6% away), QLYS SO $82 (16.9%). If neither reaches entry by Sep 2026, evaluate basket death. FTNT re-entry possible at $73 (E[CAGR] ~14%)."
 
   - id: uk-digital-platforms
     name: "UK Digital Platforms"

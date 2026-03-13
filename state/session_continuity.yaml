@@ -98,7 +98,7 @@ handoff:
       - "CVNA short — oil $97 tailwind. Hold through Q1 May 6."
       - "SPGI: R4 APPROVED CONDITIONAL. Model Mobility spinoff before Q1 gate."
       - "FTNT EXIT: COMPLETE. Committee APPROVED. Late April sell. exit_analysis.md + committee_decision_exit.md written."
-      - "ALFA.L: Monitor. If drops to 165p → becomes #1 rotation target for FTNT capital."
+      - "ALFA.L: R2 DA LAUNCHED S152. Process results → R3 resolution → R4 committee. #1 secondary target for FTNT exit capital."
     P3:
       - "CORRECTION WATCHLIST: CPRT $33.97 (SO $31 reactivated), DECK $100.69 (at entry, R3 done, LULU gate Mar 31), WING $193 (1.6% from trigger, gated May), KNSL $362 (1.9%, gated), STMN.SW CHF 81 (at 52wL, gated)."
       - "SPGI: R4 APPROVED CONDITIONAL. Model Mobility spinoff before Q1 gate date (pre-late April)."
@@ -112,6 +112,10 @@ handoff:
     - "S152: FDS FV corrected $400→$210 in universe (batch scorer error). Entry $175."
     - "S152: Fallen angels scan: 66 stocks QS≥60 at ≥30% drawdown. Broadest correction since inception."
     - "S152: Portfolio -2.7%. E[CAGR] 18.6%. 0% cash. 99.2% net long."
+    - "S152c5: FTNT EXIT committee enriched — full 6-gate eval, 3 precedents, 4 Q&A, kill conditions for EXIT decision."
+    - "S152c5: Cybersecurity basket downgraded BUILDING→RESEARCHING (per committee meta-reflection)."
+    - "S152c5: SPGI SO updated with R4 APPROVED status + last_analysis_date refreshed."
+    - "S152c5: ALFA.L R2 DA launched — primary secondary deployment target for FTNT exit proceeds."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -150,3 +154,4 @@ r1_cooldowns:
   FOUR.L: { date: "2026-03-13", session: 151, verdict: "FY2025 CONDITIONAL PASS. FV 4400→4000p. DEFERRED. Monitor Q1 Jun 2026." }
   ZTS: { date: "2026-03-13", session: 151, verdict: "R1 REFRESH CIO CORRECTED. FV $130 (was $155). QS 78 Tier A. WATCHLIST $105. Apoquel patent Nov 2026 CRITICAL." }
   MRSH: { date: "2026-03-13", session: 152, verdict: "R1 COMPLETE. FV $195, entry $160, QS 64/68 Tier B. WIDE moat. HIGH risk (Greensill). SO revised $170→$160." }
+  ALFA.L: { date: "2026-03-13", session: 152, verdict: "R2 DA LAUNCHED. R1: FV 235p, QS 80/83 Tier A. E[CAGR] 19.4% at 176p. #1 secondary target for FTNT capital." }
