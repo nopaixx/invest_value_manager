@@ -577,25 +577,22 @@ review_flags:
   # Trigger lowered $300→$285. FV revised $385→$365. See thesis/research/ROP/review_feb2026.md
 
 # =============================================================================
-# SO SUMMARY (S153, 2026-03-13 — MACRO ESCALATION UPDATE)
-# Cash EUR 0. All capital deployed. Mar 26 rotation locked (GDDY+DNLM.L).
-# S153: CRITICAL MACRO UPDATE — Oil Brent $100, WTI $94. Iran naval mines + 3 ships hit.
-# S153: IEA 400M barrel strategic release (largest ever). New Supreme Leader vows Hormuz stays closed.
-# S153: S&P at 3-month low, YTD -2.3%. Rate cuts being priced OUT. FOMC Mar 18 = critical.
-# S153: Pre-flights RE-VERIFIED: GDDY $80.75 (E[CAGR] 25.2%), DNLM.L 864p (E[CAGR] ~15.5%). Both READY.
-# S153: 4 SOs triggered + 3 near entry but EUR 0 cash. Correction broadening.
-# S153: HALO below entry ($63.56 < $65) but GATED PTAB Jun 2. WING 1.6% from entry but GATED Q1 SSS.
-# S153: World view MATERIALLY UPDATED — body text coherence fixed (was mixing $85/$97, now $94-100).
+# SO SUMMARY (S154, 2026-03-13 — CORRECTION DEEPENING)
+# Cash EUR 0. Mar 26 rotation locked (GDDY+DNLM.L). FOMC Mar 18 = binary event.
+# S154: Oil WTI $93, Brent ~$100. VIX 25.5. S&P -4.1% from high. Correction broadening.
+# S154: Correction pushing MORE candidates toward entry. 4 triggered + 5 near.
+# S154: HLNE thesis refreshed — $107→$97, MoS 13%, all KCs CLEAR. ADD at $85.
+# S154: Pipeline deep (41 deployment-ready). SAF.PA R3 COMPLETE (EUR 260), ALFA.L R3 (165p).
+# S154: NEU FV $850 likely Error #61 (flat revenue, batch scorer). DEPRIORITIZED.
 #
 # TRIGGERED/AT-TRIGGER (EUR 0 cash = cannot fill):
-#   SPGI $419.70 vs $420 trigger — AT TRIGGER, GATED Q1 Apr
-#   HALO $63.56 vs $65 trigger — TRIGGERED, GATED PTAB Jun 2
-#   STMN.SW CHF 81.46 vs ~82 trigger — AT TRIGGER, GATED
+#   SPGI $423 vs $420 trigger — 0.8% above, GATED Q1 May 5
+#   HALO $63.43 vs $65 trigger — TRIGGERED, GATED PTAB Jun 2
+#   KNSL $367 vs $360 — 2.1% above, GATED
 #
 # NEAR TRIGGER (<5%):
-#   KNSL $361.86 vs $355 (1.9%) — GATED Q1 GWP
-#   WING $193.11 vs $190 (1.6%) — GATED Q1 SSS May
-#   DECK $100.69 vs $95-100 (at entry) — GATED LULU Mar 31
+#   WING $198 vs $190 (4.3%) — GATED Q1 SSS May
+#   ALFA.L 178p vs 165p (7.9%) — approaching FAST, R3 complete
 #
 # IMPLICATION: Correction is broadest since portfolio inception. 4 triggers + 3 near.
 # EUR 0 cash means ALL of these are academic unless rotation frees capital.
