@@ -537,12 +537,22 @@ review_flags:
   # Trigger lowered $300→$285. FV revised $385→$365. See thesis/research/ROP/review_feb2026.md
 
 # =============================================================================
-# SO SUMMARY (S151c21, 2026-03-13 — Correction deepening update)
+# SO SUMMARY (S151c21, 2026-03-13 — CORRECTION PRODUCING TRIGGERS)
 # Cash EUR 0. All capital deployed. Mar 26 rotation locked (GDDY+DNLM.L).
-# CORRECTION WATCH: KNSL 1.9% from trigger ($362 vs $355), WING 1.6% from trigger ($193 vs $190)
-# Both GATED (KNSL: Q1 GWP, WING: Q1 SSS May). Would need cash + gate clearance.
-# Pipeline approaching hard: DECK at entry ($100 vs $95-100), CPRT near 52wL ($34 vs $31)
-# ACTIVE:    5 (DNLM.L locked Mar 26, ACGL, RACE.MI ADD, MRSH, VRSN)
-# GATED:    7+ (BAH, HALO, STMN.SW, KLR.L, DSY.PA, KNSL, SOON.SW, QLYS, SPGI, WING, SEIC, CMCSA)
+#
+# TRIGGERED/AT-TRIGGER (EUR 0 cash = cannot fill):
+#   MRSH $170.88 vs $170 trigger — TRIGGERED, ACTIVE SO, EUR 200 needed
+#   SPGI $419.70 vs $420 trigger — AT TRIGGER, GATED Q1 Apr
+#   HALO $63.56 vs $65 trigger — TRIGGERED, GATED PTAB Jun 2
+#   STMN.SW CHF 81.46 vs ~82 trigger — AT TRIGGER, GATED
+#
+# NEAR TRIGGER (<5%):
+#   KNSL $361.86 vs $355 (1.9%) — GATED Q1 GWP
+#   WING $193.11 vs $190 (1.6%) — GATED Q1 SSS May
+#   DECK $100.69 vs $95-100 (at entry) — GATED LULU Mar 31
+#
+# IMPLICATION: Correction is broadest since portfolio inception. 4 triggers + 3 near.
+# EUR 0 cash means ALL of these are academic unless rotation frees capital.
+# PRIORITY: (1) Mar 26 rotation (GDDY+DNLM.L), (2) FTNT exit → next best trigger
 # POST-MAR 26: FTNT (9.4% E[CAGR]) = next rotation candidate. ZTS R1 in progress.
 # =============================================================================
