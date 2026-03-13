@@ -379,13 +379,16 @@ Through-cycle EBITDA: EUR 1,100M (25% margin on EUR 4,400M, R3 revised)
 
 ---
 
-## Kill Conditions
+## Kill Conditions (Status 2026-03-13)
 
-1. US EBITDA margin falls below 30% for 2 consecutive years
-2. Net debt exceeds 2x EBITDA
-3. Family ownership drops below 40%
-4. Russia forced exit with >EUR 500M writedown
-5. ROIC falls below WACC for 2 consecutive years
+| KC# | Condition | Status | Notes |
+|-----|-----------|--------|-------|
+| 1 | US EBITDA margin <30% for 2yr | MONITORING | FY2025 US margin ~38%. Declining from 40%+ peak but well above 30%. Oil $97 = headwind. |
+| 2 | Net debt >2x EBITDA | CLEAR | Net CASH EUR 1.13B. No debt risk. |
+| 3 | Family ownership <40% | CLEAR | Buzzi family 53%. No signals of stake reduction. |
+| 4 | Russia writedown >EUR 500M | CLEAR | Russia rev EUR 303M (+3.1% FY2025). No forced exit yet. |
+| 5 | ROIC <WACC for 2yr | CLEAR | ROIC 15.4% vs WACC 10.1%. Even at trough, spread should stay positive. |
+| 6 | Brent >$95 sustained 6mo + EBITDA margin compression >5pp | MONITORING | Oil at $97 NOW. Clock starts. If sustained to Sep 2026 AND margins compress → TRIGGERED. Added post-DA S151. |
 
 ---
 
