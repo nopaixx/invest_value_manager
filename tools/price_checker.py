@@ -6,9 +6,10 @@ Usage: python3 tools/price_checker.py TICKER1 TICKER2 ...
 """
 import sys
 import yfinance as yf
+from fx_defaults import FX_DEFAULTS
 
 def get_fx_rates():
-    defaults = {'EURUSD': 1.16, 'GBPEUR': 1.15}
+    defaults = FX_DEFAULTS
     fallbacks_used = []
 
     try:

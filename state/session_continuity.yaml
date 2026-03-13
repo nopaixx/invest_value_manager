@@ -24,8 +24,8 @@ completed:
     note: "ZTS approaching R4 entry. SPGI AT trigger but gated. EUR 0 cash."
   thesis_audit:
     - "S158: ALFA.L R4 committee agent LAUNCHED. 5.3% from entry. Committee decision being written."
-    - "S158: ZTS R2 DA agent LAUNCHED. 2.7% from entry. Adversarial review of R1 refresh."
-    - "S158: FX centralization agent LAUNCHED. 4 files → 1 shared fx_defaults.py module."
+    - "S158: ZTS R2 DA COMPLETE. MODERATE COUNTER (7 HIGH/17). FV $130→$120. Growth 7%→5%. Entry $105→$95. E[CAGR] below threshold — ZTS deprioritized vs GDDY/ALFA.L."
+    - "S158: FX centralization COMPLETE. 4 tools now import from tools/fx_defaults.py. Maintenance burden reduced."
     - "S158: Post-Mar-26 modeling COMPLETE. 12 positions, E[CAGR] 18.9% (+0.4pp). GDDY 24.4% replaces MONY.L 13.7%. UK 2 positions, US 5, EU 3."
     - "S158: Post-FTNT projection: 13 positions, E[CAGR] ~19.5%. BZU.MI becomes worst (11.2%). 3 UK positions (IHP.L, DNLM.L, ALFA.L)."
     - "S158: Stale thesis check — all 11 active theses <7 days fresh. Next staleness trigger Mar 22."
@@ -101,8 +101,8 @@ handoff:
       - "FOUR.L 3,475p. FV 4,000p. Entry 3,200p (-7.9%). Wait Q1 Jun."
   dedup_signals:
     - "S158: ALFA.L R4 committee agent launched — 10-gate review, committee_decision.md being written."
-    - "S158: ZTS R2 DA agent launched — adversarial review, devils_advocate.md being written."
-    - "S158: FX centralization agent launched — fx_defaults.py shared module, 4 tools updating."
+    - "S158: ZTS R2 DA COMPLETE — MODERATE COUNTER, FV $120 (committee confirmed), entry $95, HARD GATE Q1 May."
+    - "S158: FX centralization COMPLETE — fx_defaults.py created, 4 tools updated (dcf_calculator, portfolio_cagr, price_checker, quality_universe)."
     - "S158: Post-Mar-26 model: 12 positions, E[CAGR] 18.9%. Post-FTNT: 13 pos, 19.5%. GDDY 24.4% biggest add."
     - "S158: All theses <7d fresh. Next staleness Mar 22."
     - "S157c1: EDEN.PA refreshed. Weekly summary 97 commits."
@@ -143,6 +143,6 @@ r1_cooldowns:
   DNLM.L: { date: "2026-03-08", session: 149, verdict: "R4 RE-VALIDATED. Preferred entry 850-880p. Mar 26 BUY EUR 440 locked." }
   BZU.MI: { date: "2026-03-13", session: 151, verdict: "R2 DA COMPLETE. MODERATE COUNTER, FV EUR 57→51. 3 HIGH. KC#6 added. E[CAGR] 12.1%. HOLD at 3.5%." }
   FOUR.L: { date: "2026-03-13", session: 156, verdict: "FY2025 scored vs R3 gates S156. CONDITIONAL PASS (buy cond c FAILS). FV 4000p. Entry revised 3200p. E[CAGR] 14.4% < 15% Tier B. Wait Q1." }
-  ZTS: { date: "2026-03-13", session: 151, verdict: "R1 REFRESH CIO CORRECTED. FV $130 (was $155). QS 78 Tier A. WATCHLIST $105. Apoquel patent Nov 2026 CRITICAL." }
+  ZTS: { date: "2026-03-13", session: 158, verdict: "R2 DA COMPLETE. MODERATE COUNTER (7 HIGH/17). FV $130→$120 (committee confirmed). Growth 7%→5%. Entry $105→$95. E[CAGR]@$105=6.3% < 12% threshold. HARD GATE Q1 May. Compound franchise risk KC added." }
   MRSH: { date: "2026-03-13", session: 152, verdict: "R3 COMPLETE. FV $195→$180 (-7.7%). DA MODERATE COUNTER (7 HIGH). Entry $160→$150. Growth 7%→5%. Greensill $650M→$900M. 15.5x EV/EBIT. KC#9 added (MMA AI). HALF position pre-trial." }
-  ALFA.L: { date: "2026-03-13", session: 152, verdict: "R3 COMPLETE. FV 235p→215p (-8.5%). DA MODERATE COUNTER resolved. NRR 109% (KC#9 added). Receivables RESOLVED. UK concentration RESOLVED (2nd post-MONY.L). Entry 165p. E[CAGR] ~17% at entry, ~14% at market. R4 when price ≤165p." }
+  ALFA.L: { date: "2026-03-13", session: 158, verdict: "R4 BUY CONDITIONAL. 10/10 gates PASS. SO 165p, EUR 400-450 from FTNT exit (late Apr). QS 83 Tier A, FV 215p, bear 169p. Market buy ≤170p if annual report confirms receivables." }

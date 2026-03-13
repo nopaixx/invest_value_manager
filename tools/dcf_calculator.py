@@ -42,6 +42,7 @@ import math
 from typing import Optional, Dict, List, Tuple
 
 import yfinance as yf
+from fx_defaults import FX_DEFAULTS
 import pandas as pd
 
 
@@ -54,7 +55,7 @@ def get_fx_rates() -> Dict[str, float]:
     rates = {}
     fallbacks_used = []
     pairs = {"USD": "EURUSD=X", "GBP": "GBPEUR=X"}
-    defaults = {"USD": 1.16, "GBP": 1.15}
+    defaults = {"USD": FX_DEFAULTS["EURUSD"], "GBP": FX_DEFAULTS["GBPEUR"]}
     for ccy, symbol in pairs.items():
         try:
             rate = yf.Ticker(symbol).info.get("previousClose")

@@ -36,6 +36,7 @@ from datetime import date, datetime
 
 import yaml
 import yfinance as yf
+from fx_defaults import FX_DEFAULTS
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -58,7 +59,7 @@ _fx_fallbacks_used = []
 def get_fx_rates():
     """Fetch FX rates, with static fallback."""
     global _fx_cache, _fx_fallbacks_used
-    defaults = {"EURUSD": 1.16, "GBPEUR": 1.15, "USDEUR": 1 / 1.16}
+    defaults = FX_DEFAULTS
     fallbacks = []
 
     # EUR/USD

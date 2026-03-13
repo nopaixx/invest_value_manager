@@ -20,6 +20,7 @@ sys.path.insert(0, os.path.join(BASE, 'tools'))
 from thesis_parser import (extract_growth_rate, read_thesis, find_thesis_path,
                            parse_portfolio_fv, compute_ecagr,
                            convert_fv_to_price_currency)
+from fx_defaults import FX_DEFAULTS
 
 PORTFOLIO_FILE = os.path.join(BASE, 'portfolio', 'current.yaml')
 UNIVERSE_FILE = os.path.join(BASE, 'state', 'quality_universe.yaml')
@@ -35,9 +36,9 @@ def load_yaml(path):
         print(f"ERROR loading {path}: {e}"); return None
 
 def get_fx_rates():
-    defaults = {'EURUSD': 1.16, 'GBPEUR': 1.15, 'DKKEUR': 0.134}
+    defaults = FX_DEFAULTS
     fallbacks, rates = [], {}
-    for pair, key, dflt in [('EURUSD=X','EURUSD',1.16),('GBPEUR=X','GBPEUR',1.15),('DKKEUR=X','DKKEUR',0.134)]:
+    for pair, key, dflt in [('EURUSD=X','EURUSD',defaults['EURUSD']),('GBPEUR=X','GBPEUR',defaults['GBPEUR']),('DKKEUR=X','DKKEUR',defaults['DKKEUR'])]:
         try:
             v = yf.Ticker(pair).info.get('previousClose')
             if not v: raise ValueError

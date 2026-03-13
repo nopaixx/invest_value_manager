@@ -1,16 +1,16 @@
 # ZTS - Zoetis Inc.
 
-> **Status:** R1 COMPLETE — CIO CORRECTED (see corrections below)
-> **Date:** 2026-03-13
-> **Quality Score:** 78/100 (Tier A) — Tool 78. Market position adj +4→82 rejected (tool gives 0/8 for data limitation, not opinion-adjustable to +4 without strong precedent).
-> **Fair Value:** $130 (CIO corrected from FA's $155. See CIO CORRECTIONS. EV/EBIT 18x primary.)
-> **Expected Growth:** 7%
+> **Status:** R2 DA COMPLETE — MODERATE COUNTER. FV corrected to committee $120.
+> **Date:** 2026-03-13 (R2 DA refresh)
+> **Quality Score:** 78/100 (Tier A) — Tool 78.
+> **Fair Value:** $120 (Committee R4 Feb 14, DA-confirmed S158. Was $130 R1 refresh — unjustified FV inflation.)
+> **Expected Growth:** 5% (DA-corrected from 7%. Revenue 3-5% guidance + margin 0.5% + buyback 0.5%.)
 > **Current Price:** $115.46 (52-week low, -33% from highs)
-> **MoS vs Base:** 11.2%
-> **E[CAGR 3yr]:** ~12% (FV/P appreciation 4% + growth 7% + div 1.8% - multiple headwind ~1%)
-> **Verdict:** WATCHLIST — Entry $100-110. Needs Q1 2026 earnings (May) to clarify Apoquel generic entry + Librela trajectory. Interesting but double franchise headwind unresolved.
-> **Previous R3 (2026-02-13):** FV $120, entry $95. R3 FV was more honest than FA refresh $155.
-> **Pipeline:** R1 ✓ (CIO corrected) | R2 PENDING | R3 PENDING | R4 PENDING
+> **MoS vs Base:** 3.8% (at market vs $120 FV — near fair value)
+> **E[CAGR 3yr]:** ~8.3% at market (FV/P 1.4% + growth 5% + div 1.8%). Below 12% Tier A threshold.
+> **Verdict:** WATCHLIST — Entry $95 (HARD GATE Q1 May). E[CAGR] at $95 = ~9.9% — still below 12%. Only actionable if Q1 clears franchise headwinds AND price reaches $95.
+> **Previous R3 (2026-02-13):** FV $120, entry $95. Committee FV confirmed by DA.
+> **Pipeline:** R1 ✓ (CIO corrected) | R2 ✓ (DA MODERATE COUNTER S158) | R3 PENDING | R4 PENDING
 >
 > **CIO CORRECTIONS (Error #65 compliance — adversarial check on FA output):**
 > 1. **Apoquel patent: FA claims "expires 2032" — WRONG.** Original tablet patent expires Nov 2026 (8 months). Chewable formulation patents extend to 2033. Generic oclacitinib tablets possible from late 2026. FA conflated tablet and chewable patents. Risk-identifier correctly identified this as CRITICAL.
@@ -26,6 +26,7 @@
 |------|-------|-----|-------|--------|
 | 2026-02-13 | R1+R2+R3 complete. DA 14/19 STRONG COUNTER. FV $140->$120. | $120 | $95 | WATCHLIST |
 | 2026-03-13 | R1 REFRESH. Price dropped to $115.46 (52wL). Updated valuation with fresh data, OEY-primary method. | $155 | $112 | BUY |
+| 2026-03-13 | R2 DA REFRESH. MODERATE COUNTER (7 HIGH/17). FV $130→$120 (committee confirmed). Growth 7%→5%. Entry $105→$95. E[CAGR] at $105=6.3% < 12% threshold. Q1 May HARD GATE. | $120 | $95 | WATCHLIST |
 
 **Why FV changed from $120 to $155:** The R3 FV of $120 was driven by heavy DCF weighting (25%) that mechanically undervalued the compounder. With Tier A methodology (OEY primary at 60%), the valuation properly captures the compounding engine. EV/EBIT at 18x ($130) provides a conservative floor. The business fundamentals have NOT changed since R3 — margins expanded further (OP 38%), FCF remained at record $2.3B, and the core business ex-Librela continues to execute. The R3 DA correctly identified risks but the FV was over-penalized by DCF sensitivity.
 

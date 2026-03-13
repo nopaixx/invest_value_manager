@@ -832,19 +832,18 @@ quality_universe:
     qs_adj: 78
     tier: A
     sector: animal-health
-    fair_value: 130.0
-    entry_price: 110.0
+    fair_value: 120.0
+    entry_price: 95.0
     currency: USD
     current_price: 115.46
-    distance_to_entry: 5.0
-    pipeline_status: R1_COMPLETE
-    thesis_path: null
+    distance_to_entry: 17.3
+    pipeline_status: R2_DA_COMPLETE
+    thesis_path: thesis/research/ZTS/thesis.md
     last_scored: '2026-03-13'
     last_price_check: '2026-03-13'
-    notes: 'R1 REFRESH S151 CIO CORRECTED: FV 55→30. Apoquel patent Nov 2026 (not 2032). Double headwind (Librela + Apoquel).
-      WIDE moat. WATCHLIST entry 00-110. E[CAGR] ~12% at 15. Needs Q1 May data.'
+    notes: 'R2 DA S158 MODERATE COUNTER (7 HIGH/17). FV $130→$120 (committee confirmed). Growth 7%→5%. Entry $105→$95. E[CAGR]@$105=6.3% < 12% threshold. HARD GATE Q1 May. Apoquel Nov 2026 + Librela compound risk.'
     r1_session: 151
-    r1_verdict: ACTIONABLE
+    r1_verdict: WATCHLIST_GATED
   - ticker: VRSK
     name: Verisk Analytics, Inc.
     direction: long

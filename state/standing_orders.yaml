@@ -173,19 +173,19 @@ standing_orders:
   - ticker: ZTS
     action: BUY
     category: GATED
-    fill_prob_6m: 30
-    trigger: "<=$105"
-    current_distance: "9.9%"
+    fill_prob_6m: 15
+    trigger: "<=$95"
+    current_distance: "17.3%"
     created_date: "2026-03-13"
     staleness_status: FRESH
-    gate: "Q1 2026 earnings (May 2026). Clarify: (1) Apoquel generic competitive landscape post-Nov 2026 patent, (2) Librela trajectory (stabilizing or declining further?), (3) receivables gap explanation."
+    gate: "HARD GATE: Q1 2026 earnings (May 2026). NO entry regardless of price until Q1 clarifies: (1) Apoquel pre-generic growth trajectory, (2) Librela stabilization or continued decline, (3) receivables gap explanation, (4) vet visit recovery signal."
     size_eur: 400
-    fair_value: "$130"
-    mos_at_trigger: "19.2%"
+    fair_value: "$120"
+    mos_at_trigger: "20.8%"
     tier: "A (QS 78)"
-    ecagr_at_trigger: "~15%"
-    notes: "R1 COMPLETE S151. WIDE moat (regulatory + switching costs). Double franchise headwind: Librela safety (4.5% of rev) + Apoquel patent Nov 2026 (7% of rev). Risk-identifier found 2 CRITICAL + 9 HIGH risks. FA inflated FV to $155 (corrected to $130). Polen Capital $700M + Fundsmith $491M + Cantillon = quality fund convergence. Entry $100-110 for ~15% E[CAGR]."
-    kill_conditions: "FDA Librela restriction, core franchise -5% 2Q organic, ROIC <15% 2yr, OP margin <34% 2Q, receivables/rev >20% 2Q, Apoquel generic erosion >30% within 18mo of Nov 2026"
+    ecagr_at_trigger: "~9.9% (below 12% Tier A threshold — only actionable if Q1 clears headwinds)"
+    notes: "R2 DA COMPLETE S158. MODERATE COUNTER (7 HIGH/17). FV $130→$120 (committee confirmed, DA validated). Growth 7%→5%. WIDE moat but NARROWING (double franchise headwind). E[CAGR] at $105 = 6.3% < 12% = NOT actionable. At $95 = 9.9% — marginal. Apoquel generics Nov 2026 + Librela -32% US Q4 = compound risk. Polen + Fundsmith + Cantillon holders."
+    kill_conditions: "FDA Librela restriction, core franchise -5% 2Q organic, ROIC <15% 2yr, OP margin <34% 2Q, receivables/rev >20% 2Q, Apoquel generic erosion >30% within 18mo of Nov 2026, OA Pain + Dermatology combined rev decline >10% YoY any quarter"
 
   - ticker: STMN.SW
     action: BUY
