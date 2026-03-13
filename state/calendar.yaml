@@ -49,11 +49,19 @@ events:
     action: "Capture dividend. No action needed."
 
   - date: 2026-03-26
-    type: ex_dividend
-    ticker: MONY.L
-    event: "MONY.L ex-dividend date"
-    priority: low
-    action: "Capture dividend. No action needed."
+    type: execution
+    ticker: PORTFOLIO
+    event: "CAPITAL DEPLOYMENT DAY — MONY.L sell + NVO trim + GDDY buy + DNLM.L buy"
+    priority: CRITICAL
+    action: |
+      EXECUTION PLAN (4 trades, EUR 1,362 capital):
+      1. MONY.L: SELL 384 shares post ex-div (~168p). Proceeds ~EUR 888.
+      2. NVO: TRIM 14.3 shares at market (~$38). Proceeds ~EUR 474. KC#1 triggered orphan.
+      3. GDDY: BUY EUR 720 at market if ≤$90 (R4 APPROVED, E[CAGR] 25.2%, 12/12 KCs clear).
+      4. DNLM.L: BUY EUR 388 at market if ≤950p (pre-flight DONE, E[CAGR] 14.5%).
+      Buffer: ~EUR 254. If GDDY >$90: reallocate to DNLM.L full + ALFA.L if 165p.
+      NVO ex-div Mar 30 — trim BEFORE ex-div (DKK 5.30/share = $0.71 = ~$10 on 14.3 shares = negligible vs rotation E[CAGR] gain).
+      CONTINGENCY: If FOMC Mar 18 DOVISH → reconsider NVO trim (growth re-rates).
 
   # LULU: ARCHIVED S142. Position EXITED S141 (sold, P&L -1.0%). No longer relevant.
   # LULU framework deadline Mar 14 and earnings Mar 17 — ARCHIVED.
@@ -108,9 +116,9 @@ events:
   - date: 2026-03-18
     type: macro_event
     ticker: PORTFOLIO
-    event: "Fed FOMC rate decision — HOLD certain. Statement language on oil/war crucial."
-    priority: high
-    action: "Any hawkish pivot on inflation = market selloff. Any hint of hike = crash. Dovish tilt unlikely given oil $90+. Watch dot plot if updated."
+    event: "Fed FOMC rate decision + SEP/dot plot — CRITICAL with oil $97"
+    priority: CRITICAL
+    action: "Section 9 FOMC framework in world/current_view.md. HOLD certain. Dot plot is key: 0 cuts 2026 = selloff, 1 cut = neutral, 2 cuts = rally. Powell language on oil (transitory vs structural) = most important signal. This is first SEP incorporating $90+ oil + tariffs. Portfolio action tree defined."
 
   - date: 2026-03-19
     type: macro_event

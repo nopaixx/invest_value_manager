@@ -221,6 +221,83 @@ Previous assessment (8-mar): "War escalating. Oil $91. Hormuz near-total halt."
 
 ---
 
+## Section 9: FOMC March 18, 2026 — Portfolio Impact Framework
+
+> **Decision Date:** Wednesday, March 18, 2:00 PM ET
+> **Key Output:** Rate decision + Summary of Economic Projections (SEP) + dot plot + Powell presser
+> **Context:** First SEP incorporating oil $97 WTI + 15% EU tariffs + Iran war (Day ~15)
+> **Portfolio:** 11 longs + 1 short, EUR 0 cash, 99.2% net exposure
+
+### Rate Decision: HOLD CERTAIN (3.50-3.75%)
+Fed funds futures price 97%+ hold probability. No surprise expected. The statement language matters more.
+
+### Dot Plot Scenarios — THE KEY VARIABLE
+
+| Scenario | Median 2026 Dots | Probability | Market Reaction | Portfolio Impact |
+|----------|-----------------|-------------|-----------------|-----------------|
+| **HAWKISH** | **0 cuts for 2026** (shift from 1) | 35% | S&P -2 to -4%. Bond yields UP. Dollar UP. | NEGATIVE for most positions. GDDY entry improves. CVNA short benefits (higher rates = worse auto financing). TW benefits (vol spike = more trading). |
+| **NEUTRAL** | **1 cut for 2026** (unchanged from Dec) | 45% | Flat to -1%. Market prices this already. | MINIMAL impact. Thesis unchanged. Status quo for Mar 26 plan. |
+| **DOVISH** | **2 cuts for 2026** (oil seen as transitory) | 15% | S&P +2 to +3%. Yields DOWN. | POSITIVE. All positions benefit. GDDY may rally above $90 (reduces urgency). CVNA short hurt (lower rates = better for CVNA). |
+| **SHOCK** | **Rate hike language** or inflation panic | 5% | S&P -5%+. VIX >35. | CRISIS. GDDY to $70s (even better entry). CVNA short excellent. Cash generation from panic selloff entries. |
+
+### Powell Language — What to Listen For
+
+| Topic | Hawkish Signal | Dovish Signal | Impact |
+|-------|---------------|---------------|--------|
+| **Oil/inflation** | "Structural" or "second-round effects" | "Transitory supply shock" or "monitoring" | Hawkish = 10Y above 4.5%, hurt growth stocks |
+| **Employment** | "Labor market remains strong" | "Seeing cooling" or "balance" | Dovish = rate cut expectations rise |
+| **Oil scenario planning** | "We must respond if inflation persists" | "We look through supply shocks" | Critical — determines if oil $97 changes policy |
+| **War/geopolitics** | "Uncertainty requires caution" | "We don't set policy based on events" | Hawkish caution = hold longer |
+| **Balance sheet** | QT pace unchanged | QT slowdown or pause | Dovish = liquidity positive |
+
+### Portfolio Action Tree (Post-FOMC)
+
+```
+FOMC Decision Released (Mar 18 2:00 PM ET)
+├─ HAWKISH (0 cuts, inflation concern)
+│  ├─ Market sells off -2 to -4%
+│  ├─ GDDY drops further → EVEN BETTER entry Mar 26
+│  ├─ CVNA short benefits → let run
+│  ├─ FTNT benefits (cybersecurity = crisis beneficiary)
+│  ├─ NVO hurt (rate-sensitive pharma growth story)
+│  ├─ ACTION: Accelerate NVO trim. Mar 26 plan UNCHANGED — deploy into weakness
+│  └─ MONITOR: If VIX >35 → consider HALO gate override (risk/reward extreme)
+├─ NEUTRAL (1 cut maintained)
+│  ├─ Market flat to -1%
+│  ├─ No change to any thesis or plan
+│  └─ ACTION: Mar 26 plan UNCHANGED. Execute as planned.
+├─ DOVISH (2 cuts signaled)
+│  ├─ Market rallies +2 to +3%
+│  ├─ GDDY may rally above $90 → less discount at entry
+│  ├─ CVNA short hurt → tighter monitoring
+│  ├─ NVO benefits (growth rerate)
+│  ├─ ACTION: If GDDY >$95, reallocate EUR 720 → DNLM.L primary + add ALPHA
+│  └─ RECONSIDER: NVO trim may not be needed if growth re-rates
+└─ SHOCK (hike language)
+   ├─ Market crashes -5%+
+   ├─ ALL positions down but thesis unchanged (quality + moats)
+   ├─ GDDY could hit $70s → E[CAGR] 30%+
+   ├─ ACTION: Deploy EVERYTHING into GDDY on Mar 26. Consider emergency trim of low-E[CAGR] (FTNT, TW) for more capital.
+   └─ CVNA short: cover some if VIX >40 (short squeeze risk in panic)
+```
+
+### KC Impact Assessment
+
+No existing KC in any active position is triggered by an FOMC hold. The risk is INDIRECT:
+- Oil at $97 + 0 cuts = sustained higher rates = lower multiples for growth stocks
+- This compresses FVs for: ADBE ($390), HLNE ($110), DOCS ($30), FTNT ($88) — all use DCF with rate-sensitive WACC
+- IF 10Y rises above 4.5% sustained → recalculate WACC in all DCFs (+0.5% WACC = ~5-10% FV reduction)
+- This is a RE-EVAL trigger, not a KC trigger
+
+### What We're NOT Doing
+
+- NOT selling into FOMC fear (P6: selling requires argument, not event)
+- NOT changing Mar 26 plan unless DOVISH scenario materializes (GDDY >$95)
+- NOT hedging with options (not available on eToro CFDs for most positions)
+- NOT adding pre-FOMC (EUR 0 cash)
+
+---
+
 ## TEMA ESPECIAL: SaaSpocalypse -- UPDATE
 
 ### Status as of Mar 13
