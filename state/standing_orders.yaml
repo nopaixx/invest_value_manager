@@ -40,7 +40,7 @@ standing_orders:
     fair_value: "1008 GBp"
     mos_at_trigger: "5.8%"
     tier: "A (QS 79)"
-    notes: "S151 UPDATE: TRIGGERED at 863p (below 950p, deeper than before). Pre-flight COMPLETE: constraint_checker 3.6% allocation, UK drops to 1 position post-MONY.L exit (IHP.L only). Reverse DCF: market pricing -7.9% FCF CAGR decline vs historical -2.5%. At historical rate FV=1211p (32% MoS at 863p). E[CAGR] ~14.5%. CASH BLOCKED until MONY.L ex-div Mar 26. PLAN: EUR 388 from MONY.L (after EUR 500 to GDDY). If GDDY rallies >$90 → EUR 375 DNLM.L gets priority. Near 52wL 836p."
+    notes: "S151 REFRESH: TRIGGERED at 863p (below 950p, near 52wL 836p). Pre-flight COMPLETE. Reverse DCF: market pricing -7.9% FCF CAGR decline vs historical -2.5%. FV=1008p thesis, 1211p at historical FCF rate (32% MoS at 863p). E[CAGR] ~14.5%. CASH BLOCKED until MONY.L ex-div Mar 26. UPGRADED PLAN: EUR 388 from MONY.L+NVO trim pool (EUR 1,362 total). GDDY gets EUR 720 first, DNLM.L gets EUR 388. If GDDY >$90 on Mar 26 → DNLM.L gets full EUR 720+. UK drops to 1 position post-MONY.L (IHP.L only), DNLM.L = 2nd UK = comfortable."
     conditions: "TRIGGERED at 916.50p < 950p. Pre-flight DONE. CASH BLOCKED until Mar 26 (MONY.L ex-div + sell). 2 UK positions (3rd = acceptable post-MONY.L exit)."
     last_analysis_date: 2026-02-27
     expiry: 2026-06-01
@@ -101,7 +101,7 @@ standing_orders:
     tier: "A (QS 68tool/75adj)"
     notes: "S151 Mar-13 PRE-FLIGHT COMPLETE: DEEPLY TRIGGERED $80.75 (10.3% below $90). Reverse DCF: EV/FCF 8.7x, market pricing -2% perpetuity DECLINE vs actual +20% FCF CAGR. FCF yield 14.7%. MoS 37.9%, E[CAGR] 25.2%. R4 APPROVED. CASH BLOCKED until MONY.L ex-div Mar 26 (EUR 888). Constraint check: 4.9% allocation, Tech 21.1%, US 44.5% — ALL CLEAR. CAO sold 1,310 shares at $90.15 (Mar 10) — small, KC#8 tracks accumulation not singles. BNP Paribas increasing stake. DEPLOY EUR 500 into GDDY on Mar 26 if ≤$90. Remaining EUR 388 → DNLM.L."
     kill_conditions: "KC1-7 (R1): FCF margin <25% 2Q, domain renewal <80%, A&C rev negative, leverage >3.5x, Starboard exits, abandons $1.8B FCF guide, data breach. KC8-12 (DA): CEO/CFO net selling accumulated shares, Airo paid sub share <30%, R&D/Rev <15%, ND/EBITDA >3.0x, GDDY domain renewal declines."
-    pre_execution_condition: "S151 Mar-13: TRIGGERED at $80.75. Cash BLOCKED. Capital source: MONY.L post ex-div ~Mar 26 (EUR 888). If GDDY still ≤$90 then → deploy EUR 400-500 of MONY.L capital into GDDY. Pre-flight reverse DCF before execution."
+    pre_execution_condition: "S151 Mar-13 REFRESH: DEEPLY TRIGGERED $80.75. PRE-FLIGHT COMPLETE. No material changes since R4 (Mar 8). Insider selling systematic (CEO $3M, CFO $1.6M RSU vesting Mar 3-4) — KC#8 MONITORING not TRIGGERED. Securities litigation = ambulance-chasing. Macro IMPROVED (oil $85 vs $92). 12 KCs: 11 CLEAR, 1 MONITORING. Capital source UPGRADED: MONY.L EUR 888 + NVO trim EUR 474 = EUR 1,362 total. Deploy EUR 720 (full SO size) into GDDY if ≤$90 on Mar 26. Remaining EUR 388 → DNLM.L. Buffer EUR 254."
     last_analysis_date: 2026-03-08
     expiry: 2026-09-01
 
