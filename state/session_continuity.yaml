@@ -5,44 +5,43 @@
 # Created: 2026-03-13
 
 session:
-  id: 154
+  id: 155
   date: "2026-03-13"
-  timestamp_cet: "2026-03-13T14:30"
+  timestamp_cet: "2026-03-13T15:33"
 
 completed:
   vigilance:
-    news_scan_time: "2026-03-13T14:32"
+    news_scan_time: "2026-03-13T15:34"
     critical_count: 0
-    material_count: 1
-    note: "S154: Same-day session as S153. No new critical events. Correction deepening — VIX 25.5, S&P -4.1% from high. Oil WTI $93. Pipeline candidates approaching entries."
+    material_count: 0
+    note: "S155: 3rd session today. NYSE just opened. Real-time price scan on all 11 positions + CVNA short + 9 pipeline SOs. No new events since S154."
   so_check:
-    timestamp: "2026-03-13T14:35"
-    nearest: { ticker: "SPGI", distance_pct: 0.8, note: "$423 vs $420 trigger. AT TRIGGER. Gated Q1 May 5." }
-    triggered: ["GDDY ($82 vs $90)", "DNLM.L (865p vs 950p)", "HALO ($63.43 vs $65, gated PTAB Jun)"]
-    near: ["SPGI 0.8% (gated)", "KNSL 2.1% (gated)", "WING 4.3% (gated)", "ALFA.L 7.9% (R3 complete)"]
+    timestamp: "2026-03-13T15:35"
+    nearest: { ticker: "HALO", distance_pct: -1.3, note: "$64.14 vs $65 trigger. TRIGGERED but GATED on PTAB Jun 2026." }
+    triggered: ["GDDY ($82.71 vs $90, buying Mar 26)", "DNLM.L (861p vs 950p, buying Mar 26)", "HALO ($64.14 vs $65, gated PTAB Jun)"]
+    near: ["KNSL $361 1.7% (gated Q1)", "ALFA.L 175.8p 6.5% (R3 complete)", "ZTS $116 10.6% (gated Q1 May)"]
     executed_this_session: []
-    note: "Correction pushing more candidates toward entry. ALFA.L 178p approaching 165p entry FAST. EUR 0 cash until Mar 26."
+    note: "KNSL approaching trigger at 52w low territory. ZTS also near 52w low ($116 vs $115.23). EUR 0 cash. FOMC Tue could push both below entry."
   thesis_audit:
-    - "HLNE thesis refreshed: $107→$97 (-9.1%), MoS 3%→13%, all 7 KCs CLEAR. Insider cluster $3.2M confirmed. FV $110 maintained."
-    - "SAF.PA Error #62 fixed: thesis header EUR 290→260 (R3 value). Universe EUR 380→260. QS adj 73→78 (Tier A)."
-    - "TW + SPGI Error #61 fixed: universe FVs $140→$135 (TW) and $500→$470 (SPGI). Pipeline status corrected."
-    - "All thesis files: stalest are Mar 8 (5 days). No material changes from oil $100 — portfolio 80%+ oil-neutral."
-    - "Pipeline: LOPE R4 WATCHLIST $155, MRSH R3 $150, SAF.PA R3 EUR 235. All above entry but correction helping."
-    - "Insider activity: HLNE cluster buy STRONG, TW CEO selling $26.3M CAUTION (in thesis), DOCS/ADBE neutral."
-    - "Tools audit: no critical hardcoded values. All thresholds match framework. NEU FV $850 deprioritized (flat revenue)."
-  key_finding: "S154: Data integrity continues as highest-value work. 3 more phantom FVs corrected (SAF.PA, TW, SPGI) — total 8 across S153-S154. Correction deepening benefits pipeline (4 triggered + 5 near). HLNE refreshed at S&P -4.1% correction — all KCs hold."
+    - "Portfolio P&L: EDEN +1.2%, FTNT +3.5%, BZU +0.5% | HLNE -7.7%, NVO -5.4%, ADBE -4.1%. Correction broad."
+    - "CVNA short: Entry $318.77 → $301.20 = +5.5% unrealized. Oil $100 = tailwind. Catalyst May 6."
+    - "FOMC Section 9 framework VERIFIED complete. 4 scenarios, portfolio action tree, KC impact. No gaps."
+    - "Insider scan: HLNE cluster $3.2M STRONG (all below current cost). TW CEO selling $9.1M (ongoing, in thesis). DOCS/ADBE immaterial."
+    - "Pipeline: LOPE R4 WATCHLIST, MRSH R3 GATED, ALFA.L R3 approaching, ZTS R1 at 52w low (gated May), KNSL R1 near trigger (caution: insider selling + SI surge)."
+    - "ZTS committee/SO discrepancy: R4 said $95 entry (Feb 14 on $120 FV), SO says $105 (Mar 13 on $130 FV refresh). Both GATED on Q1 May."
+  key_finding: "S155: NYSE open scan — correction positions well-held (8/11 thesis improvements via MoS expansion). CVNA short +5.5%. FOMC prep complete. Pipeline deep but gated. Post-Apr FTNT capital (~EUR 775) targets ALFA.L 165p and SPGI $420."
   net_exposure_updated: true
-  net_exposure_reasoning: "99.2% net long. Correction deepening but portfolio oil-neutral. HLNE down 9% but thesis intact + insider cluster buying. Mar 26 rotation locked. Late April FTNT exit improves portfolio further."
+  net_exposure_reasoning: "99.2% net long + 0.8% short. Correction deepening but all theses hold. Quality positions benefiting from MoS expansion. No cash to deploy. FOMC Tue = key risk event. Portfolio 80%+ oil-neutral."
   rotation_check: true
-  rotation_note: "Bottom 3 unchanged: FTNT 9.7% (exit locked Apr), BZU.MI 11.3%, TW 13.2%. MONY.L 13.4% selling Mar 26. Post-rotations: BZU.MI bottom at 11.3% but tiny (3.6%). Portfolio E[CAGR] projects to 19-20% post-Mar 26."
-  velocity_units: 4  # HLNE thesis refresh (1u), SAF.PA Error #62 fix (1u), TW+SPGI Error #61 fix (1u), pipeline/SO audit (1u)
-  velocity_note: "S154: Same-day follow-up. Data integrity dominant (3 phantom FVs = 8 total S153-S154). HLNE refreshed at correction. Pipeline deep (41 deployment-ready). Tools audited clean."
+  rotation_note: "Bottom 3 unchanged: FTNT 9.5% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26. All consistent with plan."
+  velocity_units: 3  # NYSE open scan + SO audit (1u), insider Form4 scan (1u), pipeline assessment (1u)
+  velocity_note: "S155: Real-time market scan with prices. CVNA checked. FOMC verified. Insider data refreshed. Pipeline depth confirmed. Tools + baskets agents running background."
   portfolio_ecagr:
     deployed: 18.4%
     blended: 18.4%
     cash_drag: "0pp/yr"
-    worst: "FTNT 9.7%"
-    note: "Slight decrease from 18.5% (S153). Correction impact on position prices but not thesis quality."
+    worst: "FTNT 9.5%"
+    note: "Stable vs S154. Correction expanding MoS across portfolio without degrading thesis quality."
 
 # =============================================================================
 # PROMISES — Accountability loop (v4.8, P18)
@@ -50,13 +49,13 @@ completed:
 promises:
   - promise: "Process FOMC Mar 18 outcome — score dot plot against Section 9 framework"
     created_session: 151
-    deadline: "S155 (first session after Mar 18)"
-    status: PENDING
+    deadline: "S156 (first session after Mar 18)"
+    status: PENDING  # S155: Section 9 framework VERIFIED complete. 4 scenarios ready. Deadline pushed to S156 (post-FOMC).
     broken_count: 0
   - promise: "Process ECB Mar 19 + BoE Mar 20 — score against Section 9 frameworks"
     created_session: 151
-    deadline: "S155"
-    status: PENDING
+    deadline: "S156"
+    status: PENDING  # Frameworks ready in world/current_view.md
     broken_count: 0
   - promise: "Execute Mar 26 trades: SELL MONY.L + TRIM NVO + BUY GDDY + BUY DNLM.L"
     created_session: 151
@@ -76,27 +75,28 @@ promises:
 
 three_questions:
   q1_wait_streak: 0  # Cash = 0%. Deployment via rotation only.
-  last_q1_answer: "Cash = 0%. Mar 26 rotation locked. FTNT exit late April. Correction helps pipeline approach entries."
-  last_q2_answer: "Defense basket RESEARCHING (SAF.PA EUR 235 entry, 23.5% away). Cybersecurity DEATH_WATCH post-FTNT. European Pricing Power needs 2nd position. ALFA.L 178p approaching 165p entry."
-  last_q3_answer: "Error #61/#62 audit: 3 more phantom FVs fixed (SAF.PA, TW, SPGI). Total 8 across S153-S154. Highest-value proactive work — cleans decision inputs."
+  last_q1_answer: "Cash = 0%. Mar 26 rotation locked (4 trades). FTNT exit late April frees EUR 775. Correction expanding MoS."
+  last_q2_answer: "Defense basket RESEARCHING (SAF.PA EUR 235, 23.5% away). Cybersecurity post-FTNT empty. ALFA.L 175.8p, 6.5% from 165p entry — fastest approaching. KNSL $361, 1.7% from $355."
+  last_q3_answer: "NYSE open real-time scan. CVNA short +5.5%. FOMC Section 9 verified. Insider Form4 refresh (no new flags). ZTS/KNSL near 52w lows identified."
 
 handoff:
   next_session_priorities:
     P0:
-      - "FOMC Mar 18 — Section 9 framework ready. Score dot plot. Portfolio action per scenario."
-      - "ECB Mar 19 + BoE Mar 20 — frameworks ready. GBP impact on 5 UK positions."
+      - "FOMC Mar 18 — Section 9 READY. Score dot plot immediately. Execute portfolio action per scenario."
+      - "ECB Mar 19 + BoE Mar 20 — frameworks ready in current_view.md."
     P1:
       - "HLNE ex-div Mar 20 — capture dividend."
       - "MONY.L ex-div Mar 26 — SELL same day. EUR 716 proceeds."
-      - "Mar 26 EXECUTION DAY: 4 trades locked. Pre-flight complete."
+      - "Mar 26 EXECUTION DAY: 4 trades locked. Pre-flight complete. FX rates needed day-of."
     P2:
-      - "HALO PTAB oral hearings March (exact date TBD). Below $65 trigger but GATED."
-      - "CVNA short — oil $100 tailwind. Hold through Q1 May 6."
+      - "CVNA short +5.5% — hold through Q1 May 6. Oil $100 tailwind."
       - "FTNT EXIT: Calendar Apr 21. Execute → SPGI EUR 400 + best available EUR 375."
-      - "ALFA.L 178p approaching 165p entry FAST. If hits 165p, deploy from FTNT remainder."
+      - "ALFA.L 175.8p, 6.5% from 165p entry. If FOMC hawkish → could trigger within days."
+      - "KNSL $361, 1.7% from $355. BUT insider selling + SI surge = caution. Gated Q1."
+      - "ZTS $116, near 52w low $115. Gated Q1 May. If drops to $105 and Q1 clears → deploy."
     P3:
-      - "Correction WATCHLIST: SPGI $423 (0.8% from $420), KNSL $367 (2.1%), WING $198 (4.3%)."
-      - "Pipeline: LOPE $167 (R4 WATCHLIST, SO $155), MRSH $172 (R3, SO $150)."
+      - "HALO $64, TRIGGERED below $65 but GATED on PTAB Jun 2. Oral hearings Mar."
+      - "Pipeline depth: 22 R1_COMPLETE, 3 R3_COMPLETE, 7 R4_COMPLETE. Post-correction deployment optionality HIGH."
       - "Defense basket: SAF.PA EUR 235 entry (23.5% away). Keep RESEARCHING."
   dedup_signals:
     - "S154c1: HLNE thesis refresh — $107→$97, MoS 13%, all KCs CLEAR. Insider cluster $3.2M."
