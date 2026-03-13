@@ -372,6 +372,48 @@ standing_orders:
     last_analysis_date: 2026-03-13
     expiry: 2026-10-01
 
+  - ticker: VRSK
+    action: BUY
+    category: GATED
+    fill_prob_6m: 35
+    trigger: "<=$195"
+    current_distance: "2.9%"
+    created_date: "2026-03-13"
+    staleness_status: FRESH
+    gate: "FTNT exit capital needed (~late April). Also verify Q1 2026 organic growth >=4%."
+    r4_status: "APPROVED (S143, 2026-03-07). R4 complete."
+    size_eur: 400
+    fair_value: "$210 (R4, post-Q4 2025 earnings update)"
+    mos_at_trigger: "7.1%"
+    tier: "A (QS 72/80 adj)"
+    ecagr_at_trigger: "~12.4%"
+    notes: "R4 APPROVED. Insurance data monopoly — ISO designated statistical agent all 50 US states. ROIC 60.6%, FCF margin 38.8%, 70% GM. Near-monopoly moat. At $200.61, 2.9% from $195 entry. Data & Analytics Monopolies basket candidate (alongside TW, WKL.AS). Capital from FTNT exit (~EUR 775 total, EUR 400 ALFA.L + EUR 375 VRSK or SPGI). SPGI is primary FTNT rotation target; VRSK is alternative if SPGI gate fails."
+    kill_conditions: "Subscription rev negative 2Q, ROIC <25% 2Q, ISO mandate eliminated, 3+ top-10 insurers replace Verisk, mega-M&A >$5B, FCF margin <25% 2Q, FTC enforcement on core data"
+    pre_execution_condition: "Needs FTNT exit capital. If SPGI takes primary EUR 400 slot, VRSK gets EUR 375 remainder. If SPGI gate fails, VRSK upgrades to EUR 400."
+    last_analysis_date: 2026-03-07
+    expiry: 2026-10-01
+
+  - ticker: ALFA.L
+    action: BUY
+    category: GATED
+    fill_prob_6m: 30
+    trigger: "<=165 GBp"
+    current_distance: "4.8%"
+    created_date: "2026-03-13"
+    staleness_status: FRESH
+    gate: "FTNT exit capital needed (~late April). Market buy <=170p if annual report confirms receivables normalization."
+    r4_status: "BUY CONDITIONAL (S158, 2026-03-13). 10/10 gates PASS. Gate 5 CONDITIONAL (bear 169p tight vs 165p entry)."
+    size_eur: 400
+    fair_value: "215 GBp (R3 updated S152. Was 235p. DA -8.5%. Cumulative -18.9% from R1 265p.)"
+    mos_at_trigger: "23.3%"
+    tier: "A (QS 83)"
+    ecagr_at_trigger: "~17%"
+    notes: "R4 BUY CONDITIONAL S158. Vertical SaaS monopoly — asset finance software, 50%+ market share. ROIC 71%, FCF margin 21-30%, net cash. CHP (founder, 55% stake) disposals create overhang. 10 KCs (KC#6 receivables DE-RISKED by FY2025 cash conv 97%). NRR declining 112→109% (KC#9 monitors <105%). Annual report late April/early May. 3 committee questions resolved: stick to 165p SO, market buy <=170p if annual confirms, Mar 26 plan unchanged."
+    kill_conditions: "KC#1 NRR<100%, KC#2 CHP<40% accelerating, KC#3 no wins 2yr, KC#4 OP<25% 2yr, KC#5 top-5 client loss, KC#6 receivables/rev rising (DE-RISKED), KC#7 pricing erosion >10%, KC#8 UK regulatory, KC#9 NRR<105% H1 2026, KC#10 analyst coverage <2"
+    pre_execution_condition: "Needs FTNT exit capital. PRIMARY allocation from FTNT: EUR 400. If annual report confirms receivables AND price 170-175p → raise SO to 175p and market buy."
+    last_analysis_date: 2026-03-13
+    expiry: 2026-10-01
+
   # REN.AS — ARCHIVED 2026-03-07 (S143c4). STALE: 19.7% from trigger, rallied to 52wH EUR 30.50.
   # R4 APPROVED S122. WIDE moat. Re-eval if price <EUR 27 (closer to realistic entry).
 
