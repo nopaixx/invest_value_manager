@@ -5,46 +5,43 @@
 # Created: 2026-03-13
 
 session:
-  id: 152
+  id: 153
   date: "2026-03-13"
-  timestamp_cet: "2026-03-13T11:30"
+  timestamp_cet: "2026-03-13T13:30"
 
 completed:
   vigilance:
-    news_scan_time: "2026-03-13T10:56"
-    critical_count: 0
-    material_count: 0
-    note: "S152 same-day as S151. No new news. KC scan: 1 TRIGGERED (NVO KC#1 known), 17 MONITORING."
+    news_scan_time: "2026-03-13T13:34"
+    critical_count: 1
+    material_count: 3
+    note: "S153: CRITICAL — Iran naval mines in Hormuz + 3 ships hit + new Supreme Leader vows closure. Oil Brent $100, WTI $94. IEA 400M barrel release. S&P at 3-month low. KC scan: 1 TRIGGERED (NVO KC#1), 17 MONITORING."
   so_check:
-    timestamp: "2026-03-13T10:57"
-    nearest: { ticker: "SPGI", distance_pct: 0.1, note: "$419.70 vs $420 trigger. AT TRIGGER. Gated Q1 Apr." }
-    triggered: ["GDDY", "DNLM.L", "HALO (gated)"]
-    near: ["SPGI 0.1% (gated)", "KNSL 1.9% (gated)", "WING 1.6% (gated)", "MRSH 6.4% (revised)"]
+    timestamp: "2026-03-13T13:35"
+    nearest: { ticker: "SPGI", distance_pct: 0.1, note: "$419.70 vs $420 trigger. AT TRIGGER. Gated Q1 May 5." }
+    triggered: ["GDDY ($80.75 vs $90)", "DNLM.L (864p vs 950p)", "HALO ($63.56 vs $65, gated PTAB Jun)"]
+    near: ["SPGI 0.1% (gated)", "KNSL 1.9% (gated)", "WING 1.6% (gated)"]
     executed_this_session: []
-    note: "MRSH SO revised $170→$160 based on R1 (E[CAGR] 13.6% at $170 < 15% Tier B). CPRT SO reactivated at $31. SPGI R4 APPROVED CONDITIONAL."
+    note: "Same as S152. 4 triggered + 3 near. EUR 0 cash = all academic until Mar 26. Correction broadening."
   thesis_audit:
-    - "MRSH R1 COMPLETE: 3 agents (FA+moat+risk). FV $195, entry $160, QS 64/68 Tier B. WIDE moat. HIGH risk (Greensill A$7B Aug 2026). SO revised $170→$160."
-    - "SPGI R4 APPROVE CONDITIONAL: 10/10 gates PASS. EUR 400 when Q1 gate clears. FV $470, E[CAGR] 12.1% at $420."
-    - "SPGI thesis header FIXED: Error #62 — FV was $511 (R1) in parser, corrected to $470 (R3)."
-    - "CPRT SO REACTIVATED: Was ARCHIVED at $38, now $33.97 at 52wL. R3 COMPLETE. Entry $31."
-    - "FTNT rotation plan REVISED: MRSH drops out at $170 (below threshold). Secondary: ALFA.L (if ≤165p) > MRSH (if ≤$160) > CPRT (if ≤$31)."
-    - "Correction opportunity ranking: ALFA.L #1 (19.4%), DECK #2 (17.5%), CPRT #3 (16%)."
-    - "FDS universe FV FIXED: was $400 (batch scorer error), corrected to $210 (thesis R4). Removed phantom 27% E[CAGR] from rotation candidates."
-    - "FTNT EXIT PROTOCOL COMPLETE: 6-gate analysis + committee APPROVE. Late April sell. E[CAGR] 9.4% worst, 3 KCs MONITORING, 4.3% MoS. SPGI + best available rotation."
-    - "Fallen angels scan: 66 companies with QS≥60 at ≥30% drawdown. Broadest correction since inception."
-  key_finding: "S152: MRSH R1 reveals $170 NOT deployment-grade. SPGI R4 APPROVED (10/10). FTNT EXIT APPROVED by committee — late April, rotate to SPGI EUR 400 + best available EUR 375. FDS FV corrected ($400→$210). 66 fallen angels identified. Correction deepening: WING 1.6%, KNSL 1.9%, STMN.SW at 52wL."
+    - "World view MATERIAL UPDATE: Oil $94-100 (Brent $100). Iran escalating not stabilizing. Naval mines + ship attacks. IEA 400M barrel release. Rate cuts priced out."
+    - "Error #61 AUDIT: 5 phantom FVs corrected (VRSK, ROP, DOCS, ALFA.L, BZU.MI). Buyable-now list shrunk 6→4."
+    - "GDDY PRE-FLIGHT RE-VERIFIED: $80.75, E[CAGR] 25.2%, all 12 KCs clear, oil-neutral. READY Mar 26."
+    - "DNLM.L PRE-FLIGHT RE-VERIFIED: 864p, E[CAGR] ~15.5%, in preferred zone, 13 insiders $19.9M. READY Mar 26."
+    - "Basket health analyzed: US QC strongest (33%, avg E[CAGR] 17.7%). Cybersecurity → 0 positions post-FTNT. EDEN.PA 19% in DYING basket."
+    - "Smart money: HLNE insider cluster $3.2M (STRONG BULL), CPRT Akre+Wedgewood convergence, GL Tweedy Browne, EDEN.PA SI 23.1% (22 funds)."
+  key_finding: "S153: Crisis ESCALATING — oil Brent $100, naval mines, IEA emergency release. Error #61 audit found 5 phantom FVs corrupting rotation candidates (ROP, VRSK showed as buyable but weren't). Portfolio 18.5% E[CAGR], 0% cash. Mar 26 execution READY. All thesis files <5 days old."
   net_exposure_updated: true
-  net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). Same as S151. Macro unchanged intraday. Full deployment in quality per P15. No new short catalysts identified."
+  net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). Oil $100 = headwind for EDEN.PA (19%), BZU.MI (3.6%). But 77%+ of portfolio is oil-NEUTRAL (SaaS, data, platforms). CVNA short BENEFITS from $100 oil. Not adding short exposure — FOMC Mar 18 is binary. Wait for clarity."
   rotation_check: true
-  rotation_note: "Bottom 3 unchanged: TW 13.5%, BZU.MI 11.8%, FTNT 9.4%. FTNT exit CONFIRMED S151, R4-ready target SPGI APPROVED. Post-FTNT: SPGI EUR 400 + best available EUR 375."
-  velocity_units: 16  # Prior 14 + GDDY pre-flight (1) + DNLM.L pre-flight (1). Total: MRSH R1→R3 (7), SPGI full (3), ALFA.L R3 (2), FTNT EXIT (1), misc (1), Mar 26 pre-flights (2).
-  velocity_note: "S152 total (16 units): MRSH full pipeline R1→R2→R3 (7). SPGI R4+pre-flight+Mobility SOTP+G1 verify+G1 resolution (3). ALFA.L R3 (2). FTNT EXIT committee (1). FDS fix+fallen angels+sector snapshot (1). GDDY pre-flight (1). DNLM.L pre-flight (1). Form 4 first-ever ingest. Insurance sector updated. KC sweep. 80 fallen angels scanned."
+  rotation_note: "Bottom 3: FTNT 9.4% (exit locked Apr), BZU.MI 11.4%, MONY.L 13.6% (selling Mar 26). Post-Mar 26: BZU.MI becomes new bottom at 11.4% but tiny (3.6%). TW 13.5% is rotation candidate if Q1 disappoints."
+  velocity_units: 4  # Error #61 audit (2 units: 5 fixes = systematic data integrity), basket health (1), world view material update (1)
+  velocity_note: "S153: Error #61 audit found 5 phantom FVs — most impactful pipeline work this session. Cleaned rotation/deployment inputs. World view material escalation documented. Basket health analyzed. Smart money signals processed."
   portfolio_ecagr:
-    deployed: 18.6%
-    blended: 18.6%
+    deployed: 18.5%
+    blended: 18.5%
     cash_drag: "0pp/yr"
     worst: "FTNT 9.4%"
-    note: "Unchanged from S151. No trades. Correction deepening but positions stable."
+    note: "Slight decrease from 18.6% (S152). Correction impact on positions. Portfolio structure unchanged."
 
 # =============================================================================
 # PROMISES — Accountability loop (v4.8, P18)
@@ -52,22 +49,22 @@ completed:
 promises:
   - promise: "Process FOMC Mar 18 outcome — score dot plot against Section 9 framework"
     created_session: 151
-    deadline: "S153 (first session after Mar 18)"
+    deadline: "S154 (first session after Mar 18)"
     status: PENDING
     broken_count: 0
   - promise: "Process ECB Mar 19 + BoE Mar 20 — score against Section 9 frameworks"
     created_session: 151
-    deadline: "S153"
+    deadline: "S154"
     status: PENDING
     broken_count: 0
   - promise: "Execute Mar 26 trades: SELL MONY.L + TRIM NVO + BUY GDDY + BUY DNLM.L"
     created_session: 151
-    deadline: "S154 (Mar 26+)"
+    deadline: "S155 (Mar 26+)"
     status: PENDING
     broken_count: 0
   - promise: "Health check due Mar 16 — run before FOMC"
     created_session: 151
-    deadline: "S153"
+    deadline: "S154"
     status: PENDING
     broken_count: 0
   - promise: "Model SPGI Mobility spinoff before Q1 gate date (pre-late April)"
@@ -78,67 +75,39 @@ promises:
 
 three_questions:
   q1_wait_streak: 0  # Cash = 0%. No deployment possible. Mar 26 + FTNT rotation locked.
-  last_q1_answer: "Cash = 0%. Mar 26 deployment locked (GDDY+DNLM.L). FTNT exit late April → SPGI + best available. Corrected: MRSH NOT buyable at $170."
-  last_q2_answer: "Cybersecurity basket still single (FTNT → DIES post-exit). GDDY Mar 26 fills US Quality Compounders. SPGI R4 approved → Data & Analytics anchor."
-  last_q3_answer: "MRSH R1 revealed SO was too aggressive ($170 vs proper $160). Fixed before deployment. SPGI Error #62 caught and fixed. CPRT reactivated. FDS universe data quality flagged."
+  last_q1_answer: "Cash = 0%. Mar 26 deployment locked (GDDY+DNLM.L). FTNT exit late April → SPGI + best available. Oil at $100 doesn't change plan — GDDY/DNLM.L both oil-neutral or resilient."
+  last_q2_answer: "Cybersecurity basket → 0 positions post-FTNT. QLYS 18.3% away, CHKP 24.6%. Death Sep 2026 if no entry. US QC gets GDDY Mar 26 (4th position). Data & Analytics gets SPGI late Apr."
+  last_q3_answer: "Error #61 audit (5 phantom FVs) = highest-value proactive work. Cleaned deployment inputs that were silently corrupting rotation decisions. World view material update with naval mine escalation."
 
 handoff:
   next_session_priorities:
     P0:
-      - "FOMC Mar 18 — Section 9 framework ready. Score dot plot. Portfolio action per scenario."
+      - "FOMC Mar 18 — Section 9 framework ready. Score dot plot. 0 cuts = selloff, 1+ = relief. Portfolio action per scenario."
       - "ECB Mar 19 + BoE Mar 20 — frameworks ready."
     P1:
       - "Health check due Mar 16."
       - "HLNE ex-div Mar 20 — capture dividend."
       - "MONY.L ex-div Mar 26 — SELL same day. EUR 716 proceeds."
-      - "Mar 26 EXECUTION DAY: 4 trades locked. Pre-flight complete."
+      - "Mar 26 EXECUTION DAY: 4 trades locked. Pre-flight complete. Both buys RE-VERIFIED S153."
     P2:
       - "NVO FDA response (~Mar 19) — review adequacy."
       - "HALO PTAB oral hearings March (exact date TBD)."
-      - "CVNA short — oil $97 tailwind. Hold through Q1 May 6."
-      - "SPGI: R4 APPROVED. Pre-flight DETAILED. Q1 confirmed May 5. FY2025 gates: G1 CONDITIONAL FAIL (AR +20% vs rev +8%), G2 PASS (FCF 35.9%), G3 PASS (MI 5-7%). Proceed with caution. Execute late April."
-      - "FTNT EXIT: ALL COMPLETE. Committee + exit_analysis + calendar Apr 21. No work needed until execution."
-      - "ALFA.L: R3 COMPLETE. FV 215p, entry 165p. #1 secondary for FTNT capital."
-      - "MRSH: R3 COMPLETE (new). FV $195→$180. Entry $160→$150. DA MODERATE COUNTER. #3 secondary."
+      - "CVNA short — oil $100 is strong tailwind. Hold through Q1 May 6."
+      - "SPGI: R4 APPROVED. Pre-flight DETAILED. Q1 May 5. Gates 2/3 PASS. G1 CONDITIONAL FAIL = monitoring. Execute late April."
+      - "FTNT EXIT: ALL COMPLETE. Calendar Apr 21. No work needed until execution."
+      - "ALFA.L: R3 COMPLETE (215p). 177p = 5.7% above 165p entry. FAST approaching (delta -13.7pp). If hits 165p, deploy from FTNT remainder."
+      - "MRSH: R3 COMPLETE. $180 FV, $150 entry. 12.2% away. Greensill trial Aug. #3 FTNT capital."
     P3:
-      - "CORRECTION WATCHLIST: CPRT $33.97 (SO $31), DECK $100.69 (at entry, gated LULU Mar 31), WING $193 (1.6%, gated May), KNSL $362 (1.9%, gated), STMN.SW CHF 81 (52wL, gated)."
+      - "CORRECTION WATCHLIST: CPRT $33.97 (SO $31), WING $193 (1.6%, gated May), KNSL $362 (1.9%, gated), VRSK $198 (1.5% above $195 entry, R4 APPROVED)."
+      - "NEU $588 (SCORED only, FV $850 = needs R1 verification before trusting)."
   dedup_signals:
-    - "S152: MRSH R1 complete — FV $195, entry $160 (not $170). SO revised. E[CAGR] 13.6% at market < Tier B."
-    - "S152: SPGI R4 APPROVED CONDITIONAL. 10/10 gates. EUR 400 when Q1 clears."
-    - "S152: SPGI thesis header fixed — Error #62 (FV $511→$470 in parser)."
-    - "S152: CPRT SO reactivated at $31. Near 52wL $33.97. R3 COMPLETE, QS 83 Tier A."
-    - "S152: FTNT rotation plan revised — MRSH out at $170. ALFA.L primary secondary (if ≤165p)."
-    - "S152: FTNT EXIT APPROVED. 6-gate protocol + committee. Late April. Rotate to SPGI + best available."
-    - "S152: FDS FV corrected $400→$210 in universe (batch scorer error). Entry $175."
-    - "S152: Fallen angels scan: 66 stocks QS≥60 at ≥30% drawdown. Broadest correction since inception."
-    - "S152: Portfolio -2.7%. E[CAGR] 18.6%. 0% cash. 99.2% net long."
-    - "S152c5: FTNT EXIT committee enriched — full 6-gate eval, 3 precedents, 4 Q&A, kill conditions for EXIT decision."
-    - "S152c5: Cybersecurity basket downgraded BUILDING→RESEARCHING (per committee meta-reflection)."
-    - "S152c5: SPGI SO updated with R4 APPROVED status + last_analysis_date refreshed."
-    - "S152c5: ALFA.L R2 DA launched — primary secondary deployment target for FTNT exit proceeds."
-    - "S152c10: Mar 26 pre-flight VERIFIED — GDDY $80.75 (MoS 37.9%), DNLM.L 852p (MoS 15.5%), all constraints pass."
-    - "S152c10: KC deep review — NVO KC#1 only TRIGGERED (known, trimming Mar 26). 17 MONITORING, none approaching trigger."
-    - "S152c10: Smart money — HLNE insider cluster $3.24M STRONG BULL. EDEN.PA SI +0.68pp (noise). SPGI 7 quality funds (validation). CPRT Akre $308M."
-    - "S152c10: Basket recalibration — UK Digital Platforms renamed UK Quality Leaders (DNLM.L retail). GDDY → US QC. SPGI → Data & Analytics. Cybersecurity → RESEARCHING."
-    - "S152c10: Thesis staleness audit — ALL positions <7 days since last review. No refresh needed. Portfolio at peak freshness post-DA audit cycle."
-    - "S152c11: ALFA.L R3 COMPLETE. FV 235p→215p (-8.5%, cumulative -18.9% from R1). Growth 8%→6%. E[CAGR] 13.6% at market, ~17% at entry 165p."
-    - "S152c11: SPGI pre-flight DETAILED. Q1 CONFIRMED May 5. FY2025 gates: FCF 35.9% PASS, MI organic 5-7% PASS, receivables PENDING. Execute late April."
-    - "S152c11: Form 4 insider data FIRST-EVER ingest. 1128 txns across 61 tickers. DNLM.L 13 insiders $19.9M cluster buy = STRONG BULL. HLNE 4 insiders $3.24M. CPRT Akre+Wedgewood convergence."
-    - "S152c11: Calendar updated — SPGI Q1 May 5 confirmed. FTNT EXIT WINDOW Apr 21 added."
-    - "S152c12: MRSH R2 DA COMPLETE. MODERATE COUNTER (7 HIGH/0 CRITICAL). FV recommendation $175-180. Greensill $650M→$1.15B. AI disruption for MMA. Growth 7%→5-6%."
-    - "S152c13: MRSH R3 COMPLETE. FV $195→$180 (-7.7%). Entry $160→$150. Growth 5%. 15.5x EV/EBIT. KC#9 added (MMA AI). HALF position pre-trial. #3 for FTNT exit capital."
-    - "S152c14: Insurance sector view updated — MRSH FV/entry/ticker corrected. Historial entry added."
-    - "S152c16: SPGI G1 receivables gate CONDITIONAL FAIL. AR +20% vs rev +8% (12pp gap > 5pp threshold). Mitigated by FCF 35.9%. Likely acquisition-driven. KC added: AR gap >10pp 2Q = EXIT. Pre-flight updated."
-    - "S152c16: Fallen angels scan processed — 64 stocks QS≥60 at ≥30% drawdown. All Tier A names already in pipeline. Good coverage validation."
-    - "S152c16: Price check — GDDY $80.75 (well below $90 ceiling), DNLM.L 855p (below 950p), CPRT $33.97 (9.6% above $31 SO), HALO $63.56 (2.3% above $65 SO). Mar 26 entries improving."
-    - "S152c17: GDDY PRE-FLIGHT COMPLETE. R1-R4 all files, 12 KCs (11 CLEAR, 1 MON), $80.75 E[CAGR] 25.2%. FTNT exit condition RESOLVED (unconditional). Thesis header updated. Every metric improved since R4."
-    - "S152c17: DNLM.L PRE-FLIGHT COMPLETE. R1-R4 all files, 8/8 KCs CLEAR, 864p in committee preferred 850-880p zone. E[CAGR] ~15.5%. 13 insiders $19.9M cluster buy (post-committee). Feb 10 interims ALL CONFIRMED. Ex-div passed Mar 12."
-    - "S152c17: MONY.L EX-DIV CONFIRMED MAR 26. Perfect timing — sell on ex-div day, capture dividend (~EUR 28), deploy proceeds."
-    - "S152c17: DNLM.L ex-div PASSED Mar 12. 864p = clean post-dividend price."
-    - "S152c17: SPGI G1 DEFINITIVELY RESOLVED. Not a blocker. Acquisition-driven AR (Visible Alpha) + Q4 timing + FCF 35.9% = healthy collection. WKL.AS comparison proves different pattern. KC tightened: AR gap >10pp 2Q + FCF <33% = EXIT."
-    - "S152c17: KC SWEEP: 1 TRIGGERED (NVO KC#1 known), 17 MONITORING, NO NEW TRIGGERS. Portfolio KCs clean."
-    - "S152c17: FALLEN ANGELS (80 QS≥55 at ≥30% DD). All Tier A names in pipeline. Coverage validation PASS. ADP $207 (near 52wL) worth monitoring."
-    - "S152c17: POST-MAR26 SIMULATION: 12 positions, E[CAGR] 19.2% (+0.7pp). GDDY contributes 1.77% vs MONY.L was 0.99%. FTNT still worst (9.4%) → late April exit adds another ~0.5pp."
+    - "S153c1: World view MATERIAL update — oil Brent $100, naval mines, 3 ships hit, IEA 400M barrel release. S&P 3-month low. Body text coherence fixed."
+    - "S153c2: Basket health — US QC strongest 33%, cybersecurity → RESEARCHING post-FTNT, EDEN.PA DYING basket 19%. Orphans flagged (NVO, BZU.MI)."
+    - "S153c3-c4: Error #61 AUDIT — 5 phantom FVs: VRSK $300→$210, ROP $550→$385, DOCS $32.80→$30, ALFA.L 235p→215p, BZU.MI EUR 58→EUR 51. Buyable-now shrunk 6→4."
+    - "S153: Smart money — HLNE insider cluster, CPRT Akre+Wedgewood, GL Tweedy Browne, EDEN.PA SI 23.1%. MRSH: Markel holds $141M."
+    - "S153: Pre-flights re-verified. GDDY $80.75 (25.2%) + DNLM.L 864p (15.5%). Both READY Mar 26."
+    - "S153: Thesis staleness audit — ALL 11 positions <5 days since last update. No refresh needed."
+    - "S153: FOMC/ECB/BoE Mar 18-20 = next critical macro events. Frameworks ready."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -148,7 +117,7 @@ r1_cooldowns:
   HLNE: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $101.75 (S122)" }
   REN.AS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED (WATCHLIST, SO EUR 24.50)" }
   TW: { date: "2026-02-23", session: 115, verdict: "R3_COMPLETE (AT_FV, SO $110)" }
-  VRSN: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $240, SO RECALIBRATED $210 S133)" }
+  VRSN: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $240→$210 corrected S153, SO $210)" }
   CPRT: { date: "2026-02-25", session: 119, verdict: "R3_COMPLETE (FV $37, entry $31, GATED Q1. SO REACTIVATED S152.)" }
   DOCS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $24.07 (S122)" }
   PEGA: { date: "2026-02-25", session: 116, verdict: "R3_COMPLETE GATED (entry $38, FV $50)" }
