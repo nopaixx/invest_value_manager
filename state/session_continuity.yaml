@@ -5,43 +5,42 @@
 # Created: 2026-03-13
 
 session:
-  id: 158
+  id: 160
   date: "2026-03-13"
-  timestamp_cet: "2026-03-13T18:34"
+  timestamp_cet: "2026-03-13T20:45"
 
 completed:
   vigilance:
-    news_scan_time: "2026-03-13T16:34"
+    news_scan_time: "2026-03-13T20:35"
     critical_count: 0
     material_count: 0
-    note: "S158: 6th session today. NYSE +3hr. 3 background agents: ALFA.L R4, ZTS R2 DA, FX centralization. Post-Mar-26 modeling complete."
+    note: "S160: Week-close session. NYSE closing in 75min. 10 sessions today (S150-S160). Fallen angels scan, CVNA short review, DOCS integrity check, VRSK discovery (already R4!), weekly summary updated."
   so_check:
-    timestamp: "2026-03-13T16:35"
-    nearest: { ticker: "HALO", distance_pct: -1.3, note: "$64.14 vs $65 trigger. TRIGGERED but GATED on PTAB Jun 2026." }
-    triggered: ["GDDY ($81.38 vs $90, buying Mar 26)", "DNLM.L (863p vs 950p, buying Mar 26)", "HALO ($64.14 vs $65, gated PTAB Jun)"]
-    near: ["ZTS $97.53 near R4 entry $95 (+2.7%, gated Q1 May)", "SPGI $420 at trigger $420 (0%, gated Q1)"]
+    timestamp: "2026-03-13T20:35"
+    nearest: { ticker: "SPGI", distance_pct: 0.5, note: "$422.07 vs $420 trigger. AT TRIGGER but GATED Q1 May 5." }
+    triggered: ["GDDY ($81.28 vs $90, buying Mar 26)", "DNLM.L (863.5p vs 950p, buying Mar 26)", "HALO ($63.80 vs $65, gated PTAB Jun)", "SPGI ($422.07 vs $420, gated Q1 May 5)"]
+    near: ["KNSL ($363.62 vs $355, +2.4%, gated Q1)", "BAH ($77.32 vs $75, +3.1%)", "ALFA.L (173p vs 165p, +4.8%, R4 approved)", "WING (~$199 vs $190, +4.7%, gated Q1)"]
     executed_this_session: []
-    note: "ZTS approaching R4 entry. SPGI AT trigger but gated. EUR 0 cash."
+    note: "SPGI now AT TRIGGER. 4 triggered + 4 near. EUR 0 cash. Correction deepening = more triggers approaching. All academic until Mar 26."
   thesis_audit:
-    - "S158: ALFA.L R4 committee agent LAUNCHED. 5.3% from entry. Committee decision being written."
-    - "S158: ZTS R2 DA COMPLETE. MODERATE COUNTER (7 HIGH/17). FV $130→$120. Growth 7%→5%. Entry $105→$95. E[CAGR] below threshold — ZTS deprioritized vs GDDY/ALFA.L."
-    - "S158: FX centralization COMPLETE. 4 tools now import from tools/fx_defaults.py. Maintenance burden reduced."
-    - "S158: Post-Mar-26 modeling COMPLETE. 12 positions, E[CAGR] 18.9% (+0.4pp). GDDY 24.4% replaces MONY.L 13.7%. UK 2 positions, US 5, EU 3."
-    - "S158: Post-FTNT projection: 13 positions, E[CAGR] ~19.5%. BZU.MI becomes worst (11.2%). 3 UK positions (IHP.L, DNLM.L, ALFA.L)."
-    - "S158: Stale thesis check — all 11 active theses <7 days fresh. Next staleness trigger Mar 22."
-  key_finding: "S158: Pipeline advancing — ALFA.L R4 + ZTS R2 in flight. Post-Mar-26 modeled: 18.9% E[CAGR] (+0.4pp). FX tools being centralized."
+    - "S160: Fallen angels scan — 45 QS≥60 stocks ≥35% below ATH. VRSK -37.4% flagged but already R4 APPROVED (SO missing from standing_orders.yaml). New candidates: BRBR, CVLT, NTNX, APPF (already in universe at entry)."
+    - "S160: CVNA short +7.5% ($297.11 vs $318.77 entry). Oil $101 + correction = tailwinds. Stop $370. Catalyst Q1 May 6. HOLD SHORT."
+    - "S160: DOCS integrity check — thesis 6 days fresh, FV $30, E[CAGR] 15.2%, 5/6 KCs CLEAR, 1 MONITORING. NO refresh needed."
+    - "S160: VRSK SO needs formalization in standing_orders.yaml — R4 approved, FV $210, at $200.61 = 2.9% above $195 entry."
+    - "S160: Weekly summary updated with S158-S160 work. Gaps updated: ALFA.L R4 DONE, ZTS DA DONE."
+  key_finding: "S160: Correction deepening — 4 SOs triggered + 4 near. SPGI now AT trigger ($422 vs $420). Portfolio -2.8%. CVNA short working (+7.5%). Pipeline advancing but EUR 0 cash blocks execution. VRSK R4 forgotten SO found."
   net_exposure_updated: true
-  net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged. Correction deepening further. All theses intact. No cash. FOMC Tue is primary risk — oil $100 + gold ATH suggest hawkish lean. Portfolio action tree ready."
+  net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged from S158. No cash, no trades possible until Mar 26. Oil $101 + VIX 26.6 + gold ATH = macro stress continuing. FOMC Tue is binary."
   rotation_check: true
-  rotation_note: "Bottom 3 unchanged: FTNT 9.9% (exit locked Apr), BZU.MI 11.2%, TW 13.4%. MONY.L 13.7% selling Mar 26."
-  velocity_units: 6  # ALFA.L R4 complete (2u), ZTS R2 DA complete+resolved (2u), post-Mar-26 modeling (1u), FX centralization (1u)
-  velocity_note: "S158: ALFA.L R4 BUY CONDITIONAL (10/10 gates). ZTS R2 DA MODERATE COUNTER (FV $130→$120, entry $105→$95, E[CAGR] below threshold). Post-Mar-26 modeled: 18.9% E[CAGR]. FX centralization done. 6 velocity units — all weekend priorities COMPLETED in S158."
+  rotation_note: "Bottom 3 unchanged: FTNT 9.8% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26."
+  velocity_units: 2  # Fallen angels scan (1u), weekly summary update (1u)
+  velocity_note: "S160: Light session — week close, price snapshot, fallen angels review. VRSK rediscovery (already R4). No new R1/R2/R3/R4 work."
   portfolio_ecagr:
     deployed: 18.0%
     blended: 18.0%
     cash_drag: "0pp/yr"
-    worst: "FTNT 9.9%"
-    note: "Slight improvement as FTNT rose to $83. Correction MoS widening across portfolio."
+    worst: "FTNT 9.8%"
+    note: "Correction widening MoS across portfolio. Avg MoS +23.9%. 6 positions with MoS >20%."
 
 # =============================================================================
 # PROMISES — Accountability loop (v4.8, P18)
@@ -49,35 +48,35 @@ completed:
 promises:
   - promise: "Process FOMC Mar 18 outcome — score dot plot against Section 9 framework"
     created_session: 151
-    deadline: "S156 (first session after Mar 18)"
-    status: PENDING  # S155: Section 9 framework VERIFIED complete. 4 scenarios ready. Deadline pushed to S156 (post-FOMC).
+    deadline: "first session after Mar 18"
+    status: PENDING
     broken_count: 0
   - promise: "Process ECB Mar 19 + BoE Mar 20 — score against Section 9 frameworks"
     created_session: 151
-    deadline: "S156"
-    status: PENDING  # Frameworks ready in world/current_view.md
+    deadline: "first session after Mar 20"
+    status: PENDING
     broken_count: 0
   - promise: "Execute Mar 26 trades: SELL MONY.L + TRIM NVO + BUY GDDY + BUY DNLM.L"
     created_session: 151
-    deadline: "S156 (Mar 26+)"
+    deadline: "Mar 26"
     status: PENDING
     broken_count: 0
-  - promise: "Health check due Mar 16 — run before FOMC"
-    created_session: 151
-    deadline: "S154"
-    status: COMPLETED  # S153c9: Score 7.5/10 (up from 6.5). Data consistency 10/10. 13 reports archived.
+  - promise: "Formalize VRSK SO in standing_orders.yaml (R4 approved, entry $195, FV $210)"
+    created_session: 160
+    deadline: "S161"
+    status: PENDING
     broken_count: 0
-  - promise: "Model SPGI Mobility spinoff before Q1 gate date (pre-late April)"
-    created_session: 152
-    deadline: "S155"
-    status: COMPLETED  # S152c7: SOTP analysis added to thesis. FV $470 conservative vs SOTP $532-639.
+  - promise: "FV consistency check (last S148, now S160 = 12 sessions overdue)"
+    created_session: 160
+    deadline: "S161"
+    status: PENDING
     broken_count: 0
 
 three_questions:
   q1_wait_streak: 0  # Cash = 0%. Deployment via rotation only.
-  last_q1_answer: "Cash = 0%. Mar 26 plan firm. FOMC Tue is next event. Correction makes targets cheaper."
-  last_q2_answer: "ALFA.L 5.3% from entry — R4 prep is priority #1 for weekend. ZTS 2.7% from entry but gated Q1."
-  last_q3_answer: "EU close analysis, defensive KC scan (no weekend risk), weekly summary (97 commits), EDEN.PA thesis refresh, weekend research plan."
+  last_q1_answer: "Cash = 0%. Mar 26 plan firm. 4 SOs triggered but no capital. Next deployment Mar 26."
+  last_q2_answer: "Baskets: Cybersecurity 0 positions (FTNT exiting Apr), Defense empty. VRSK could join Data & Analytics. ALFA.L fills UK basket post-FTNT."
+  last_q3_answer: "Fallen angels scan — VRSK rediscovered (R4 approved, SO missing). New candidates flagged (BRBR, CVLT). DOCS integrity confirmed. CVNA short reviewed."
 
 handoff:
   next_session_priorities:
@@ -87,24 +86,27 @@ handoff:
     P1:
       - "HLNE ex-div Mar 20 — capture dividend."
       - "Mar 26 EXECUTION: 4 trades locked. SELL MONY.L + TRIM NVO + BUY GDDY + BUY DNLM.L."
-      - "FV consistency check (due ~S158, last S148). Run forward_return.py cross-check."
+      - "FV consistency check (OVERDUE 12 sessions). Run forward_return.py cross-check."
+      - "Formalize VRSK SO in standing_orders.yaml (R4 approved, $200.61 vs $195 entry, 2.9% above)."
       - "Smart money refresh: FCA shorts (UK), signals --portfolio-only."
     P2:
-      - "CVNA short +8.0% — hold through Q1 May 6. Oil $100 tailwind."
+      - "CVNA short +7.5% — hold through Q1 May 6. Oil $101 tailwind."
       - "FTNT EXIT: Late April. → SPGI EUR 400 + ALFA.L EUR 400-450."
-      - "ALFA.L 173.7p, 5.3% from 165p entry. R4 BUY CONDITIONAL approved. If FOMC hawkish → could trigger within days."
+      - "SPGI $422 AT TRIGGER $420. Gated Q1 May 5. Monitor daily."
+      - "ALFA.L 173p, 4.8% from 165p entry. R4 BUY CONDITIONAL approved."
     P3:
-      - "Insurance sector view freshness — GL basket."
       - "FOUR.L 3,475p. FV 4,000p. Entry 3,200p (-7.9%). Wait Q1 Jun."
-      - "ZTS — R2 DA resolved. FV $120, entry $95. HARD GATE Q1 May. E[CAGR] below threshold — low priority."
+      - "ZTS — R2 DA resolved. FV $120, entry $95. HARD GATE Q1 May."
+      - "Fallen angel candidates: BRBR (-78.8%), CVLT (-60.6%). Consider adding to universe."
   dedup_signals:
-    - "S158: ALFA.L R4 BUY CONDITIONAL — 10/10 gates PASS. SO 165p, EUR 400-450 from FTNT exit. Market buy ≤170p if annual report confirms."
-    - "S158: ZTS R2 DA COMPLETE — MODERATE COUNTER, FV $120 (committee confirmed), entry $95, HARD GATE Q1 May."
-    - "S158: FX centralization COMPLETE — fx_defaults.py created, 4 tools updated (dcf_calculator, portfolio_cagr, price_checker, quality_universe)."
-    - "S158: Post-Mar-26 model: 12 positions, E[CAGR] 18.9%. Post-FTNT: 13 pos, 19.5%. GDDY 24.4% biggest add."
-    - "S158: All theses <7d fresh. Next staleness Mar 22."
-    - "S157c1: EDEN.PA refreshed. Weekly summary 97 commits."
-    - "S156c1: FOUR.L scored (CONDITIONAL PASS). FOMC HAWKISH 40%."
+    - "S160: Fallen angels scan — VRSK already R4 (SO missing). APPF at entry. IT/ANF in universe."
+    - "S160: SPGI AT TRIGGER $422 vs $420 (0.5%). GATED Q1 May 5."
+    - "S160: CVNA short +7.5%. HOLD. Oil $101 tailwind."
+    - "S160: DOCS 6 days fresh, all KCs clear. NO refresh needed."
+    - "S160: Weekly summary updated with S158-S160 pipeline advances."
+    - "S158: ALFA.L R4 BUY CONDITIONAL — 10/10 gates PASS."
+    - "S158: ZTS R2 DA COMPLETE — FV $120, entry $95, GATED Q1 May."
+    - "S158: FX centralization COMPLETE — fx_defaults.py."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
