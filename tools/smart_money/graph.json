@@ -265,11 +265,11 @@
       "in_portfolio": false,
       "in_universe": false,
       "has_standing_order": true,
-      "so_category": "ACTIVE",
+      "so_category": "GATED",
       "so_action": "BUY",
-      "so_trigger": "<=$170",
+      "so_trigger": "<=$160",
       "so_tier": "B (QS 64/68 adj)",
-      "so_fair_value": "$190",
+      "so_fair_value": "$195 (R1 S152, was $190)",
       "id": "MRSH"
     },
     {
@@ -858,9 +858,12 @@
       "country": "US",
       "in_portfolio": false,
       "in_universe": true,
-      "has_standing_order": false,
-      "so_category": null,
-      "so_action": null,
+      "has_standing_order": true,
+      "so_category": "GATED",
+      "so_action": "BUY",
+      "so_trigger": "<=$105",
+      "so_tier": "A (QS 78)",
+      "so_fair_value": "$130",
       "id": "ZTS"
     },
     {
@@ -2448,12 +2451,12 @@
       "type": "stock",
       "country": "US",
       "in_portfolio": false,
-      "has_standing_order": false,
-      "so_category": null,
-      "so_action": null,
-      "so_trigger": "<=$33",
-      "so_tier": "A (QS 75/83 adj)",
-      "so_fair_value": "$40",
+      "has_standing_order": true,
+      "so_category": "GATED",
+      "so_action": "BUY",
+      "so_trigger": "<=$31",
+      "so_tier": "A (QS 75/83adj)",
+      "so_fair_value": "$37 (R3 resolved)",
       "id": "CPRT"
     },
     {
@@ -4312,13 +4315,15 @@
     {
       "type": "stock",
       "country": "IT",
-      "in_portfolio": false,
-      "has_standing_order": true,
-      "so_category": "ACTIVE",
-      "so_action": "BUY",
+      "in_portfolio": true,
+      "has_standing_order": false,
+      "so_category": null,
+      "so_action": null,
       "so_trigger": "<=EUR 42",
       "so_tier": "B (QS 73/75adj)",
       "so_fair_value": "EUR 57 (weighted), EUR 55 (EV)",
+      "name": "Buzzi SpA",
+      "conviction": "medium",
       "id": "BZU.MI"
     },
     {
@@ -15566,11 +15571,11 @@
     {
       "relation": "shorts",
       "pct_shares": 0.71,
-      "source": "millennium",
       "session_date": "2026-03-11",
       "date_added": "2026-03-11",
       "data_source": "live",
       "note": "capture",
+      "source": "millennium",
       "target": "EDEN.PA",
       "key": 0
     }

@@ -1,97 +1,142 @@
 # ALFA.L R3 Resolution — Orchestrator Decision
 
-> **Date:** 2026-02-19
-> **Orchestrator:** Claude (Session 88)
-> **Status:** R3 COMPLETE — WATCHLIST with HARD GATE Mar 12
+> **Date:** 2026-03-13 (S152, updated from 2026-02-19 S88)
+> **Orchestrator:** Claude
+> **Status:** R3 COMPLETE — WATCHLIST. SO 165p. FV 215p.
+> **Prior R3:** FV 265p → 235p (-11.3%, Feb 19)
+> **This update:** FV 235p → 215p (-8.5%, post-FY2025 DA refresh)
 
 ---
 
-## R1 vs R2 Conflict Summary
+## R1 vs R2 (Updated) Conflict Summary
 
-| Item | R1 (Thesis) | R2 (Counter-Analysis) | R3 Resolution |
+| Item | R1 (Thesis) | R2 Updated (Mar 13 DA) | R3 Resolution |
 |------|-------------|----------------------|---------------|
-| **FV** | 265p | 220-235p (liquidity/overhang discount) | **235p** — 10% discount accepted for CHP structural overhang + illiquidity. Business quality (96% retention, ROIC 71%) limits discount. |
-| **Entry** | 175-180p | 160-170p | **165p** — MoS 29.8% vs 235p FV. Consistent with AJB.L precedent (28% MoS Tier A). |
-| **Growth** | 10-12% | 8% | **9%** — FY2025 +15% includes SE spike (non-recurring). Subscription +17% is strong. NRR 112% supports 8-10%. |
-| **QS** | 83 Tier A | 83 Tier A | **83 Tier A** — Agreement. +3 for market position (niche #1). |
-| **CHP selling** | Transient liquidity event | Structural multi-year overhang | **Structural** — R2 evidence compelling: 3 sales GBP 57M+, accepted EQT 208p exit, pace accelerating. |
-| **Competitive moat** | "Monopoly" / WIDE | "Niche leader" / WIDE-to-NARROW | **Niche leader, WIDE (14/25)** — Solifi threat real but not yet manifested in losses. Monitor. |
-| **Consensus** | 8/8 BUY supportive | 8/8 BUY at 52wL = red flag | **Ignore consensus** — Error #49 risk. FV must stand on independent analysis. |
-| **Bear case** | 180p (3.7% MoS) | Too thin, adjust to 150-160p | **155p** — Accounts for CHP event, Solifi win, SE decline. |
+| **FV** | 265p | 210-225p | **215p** — midpoint. NRR decline, FX, SE revenue drag justify further -8.5%. |
+| **Entry** | 175-180p | 165p (maintain) | **165p** — 23.3% MoS vs 215p. 2.4% above DA bear 169p. |
+| **Growth** | 10-12% | 6% FY2026, 8% normalized | **6% near-term, 8% normalized** — SE decline + FX headwinds real. Subscription 16% growth partially compensates. |
+| **QS** | 83 Tier A | 83 Tier A | **83 Tier A** — Agreement. |
+| **CHP selling** | Transient | Structural (3+ years more) | **Structural** — unchanged. No new CHP activity = marginally positive but overhang persists. |
+| **NRR** | 112% | 109% (declining) | **109%, MONITORING** — 3pp decline signals slowing expansion. New KC#9 added (<105% trigger). |
+| **Receivables** | Anomaly (54% growth) | RESOLVED (cash conv 97%) | **RESOLVED** — KC#6 de-risked. FY2025 receivables declined. |
+| **Competitive moat** | "Monopoly" / WIDE | "Niche leader" / WIDE | **Niche leader, WIDE** — Solifi acquiring but no Alfa client losses. |
+| **Bear case** | 180p | 169p (12x EV/EBIT) | **169p** — DA's bear is better-calibrated. |
+| **UK concentration** | 5th UK position risk | Post-MONY.L = 2nd UK | **RESOLVED** — only 1 UK position after Mar 26. Adding ALFA.L = 2 UK = comfortable. |
 
 ---
 
-## DA Correction: -11.3%
+## DA Corrections Applied
 
-FV 265p → 235p = -11.3% correction. This is a MODERATE correction, consistent with DA accuracy tracker patterns for R1 FV adjustments.
+### Correction 1: FV 235p → 215p (-8.5%)
 
-**Entry adjusted**: 180p → 165p (-8.3%). Driven by bear case thinness and CHP structural overhang.
+| Factor | Impact | Rationale |
+|--------|--------|-----------|
+| NRR decline 112→109% | -3% | Expansion momentum slowing |
+| FX headwind GBP 2.4M | -2% | Direct FY2026 profit impact |
+| SE revenue material decline | -2% | ~GBP 6-7M revenue headwind |
+| Receivables RESOLVED | +2% | De-risked KC#6, cash conversion 97% |
+| Illiquidity/CHP discount | -3.5% | CHP structural, 43% free float |
+| **Net** | **-8.5%** | 235p × 0.915 = **215p** |
+
+### Validation Cross-Check
+
+| Method | FV | vs 215p |
+|--------|-----|---------|
+| OEY (18x FY2027E OE, adj growth) | 220p | +2% |
+| EV/EBIT (15x FY2026E) | 210p | -2% |
+| DCF (7.5% WACC, 8% growth) | 205p | -5% |
+| DA bear (12x EV/EBIT) | 169p | -21% |
+| Analyst consensus (3 analysts) | 275p | +28% |
 
 ---
 
-## KEY DECISIONS
+## HARD GATE Resolution (FY2025 Results Mar 12)
 
-### 1. CHP Overhang — STRUCTURAL (R2 wins)
-- Page accepted EQT 208p (willing to exit at 10% above current). Deal failed.
-- 3+ rounds of selling, GBP 57M+, pace accelerating
-- Creates multi-year supply pressure — NOT transient
-- Entry must account for 12-18 more months of periodic selling
+| Gate | Result | Assessment |
+|------|--------|------------|
+| Receivables normalized | YES — receivables declined, cash conv 97% | **PASS** |
+| SE revenue FY2026 guidance | ~10% of rev (from ~15-17%) — material decline | **CONDITIONAL** |
+| FCF margin improved | YES — FY2025 FCF GBP 44.5M, margin ~35% | **PASS** |
+| CHP selling activity | No new disposals announced | **PASS** |
+| Solifi client wins | No evidence of Alfa client losses | **PASS** |
 
-### 2. Solifi Competitive Threat — MONITOR (partially R2)
-- TA Associates backing + 650 employees + 2 acquisitions in 2025 = serious
-- BUT: no client losses documented, Alfa's 96% retention intact
-- Assign 15-20% probability of becoming Tier 1 competitor within 5 years
-- **Not material enough to change moat from WIDE yet**
+**HARD GATE: PASSED (4/5, 1 CONDITIONAL).** R4 eligible when price approaches entry.
 
-### 3. Growth Rate — 9% (compromise)
-- R1's 10-12% relies on non-recurring SE spike
-- R2's 8% may be too conservative given subscription momentum
-- 9% better reflects: NRR 112%, TAM growth ~10%, SE normalization
+---
 
-### 4. UK Concentration — EXPLICIT CONSTRAINT
-- Would be 5th UK position (AUTO.L, MONY.L, BYIT.L, DOM.L)
-- FSG.L and CKN.L also in UK pipeline
-- Requires exceptional justification OR a UK position to rotate out first
-- At 165p entry, the MoS is adequate but geographic risk is elevated
+## Kill Condition Updates
 
-### 5. HARD GATE — FY2025 Results Mar 12
-Must confirm BEFORE any R4 committee:
-- [ ] Receivables normalized or explained (54% growth vs 8% revenue = anomaly)
-- [ ] SE revenue FY2026 guidance quantified (management guided lower)
-- [ ] FCF margin improved from FY2024's 20.7% (or decline explained)
-- [ ] CHP selling activity in 2025 disclosed/confirmed
-- [ ] No material Solifi client wins from Alfa pipeline
+| KC | Status | Change |
+|----|--------|--------|
+| KC#1 (NRR <100%) | MONITORING | Was CLEAR. NRR 109% declining. |
+| KC#2 (CHP <40%) | CLEAR | ~55% still. |
+| KC#3 (No wins 2yr) | CLEAR | New wins in FY2025. |
+| KC#4 (OP <25% 2yr) | CLEAR | 31.6% FY2025. |
+| KC#5 (Major client loss) | CLEAR | No losses. |
+| KC#6 (Receivables) | DE-RISKED | Cash conv 97%. RESOLVED. |
+| KC#7 (Pricing erosion) | CLEAR | No evidence. |
+| KC#8 (UK regulatory) | CLEAR | No changes. |
+| KC#9 (NRR <105%) | NEW | If H1 2026 <105% → ELEVATED. |
+| KC#10 (Analyst coverage <2) | NEW | Currently 3. Monitor. |
+
+---
+
+## DA Questions Resolved
+
+### Q1: FV revision 235p → 210-225p?
+**YES → 215p.** Midpoint. NRR decline, FX, SE decline are quantifiable.
+
+### Q2: Lower SO from 165p to 160p?
+**NO. Keep 165p.** 23.3% MoS to 215p FV. DA bear 169p only 2.4% above. Lower SO reduces fill probability without proportionate risk reduction.
+
+### Q3: Analyst coverage decline (8→3)?
+**MONITORING.** Not material for our thesis. Added KC#10 (<2 analysts). Our edge is patience, not sell-side coverage.
+
+### Q4: UK concentration post-MONY.L?
+**RESOLVED.** Post-MONY.L sale (Mar 26): 1 UK position (IHP.L). Adding ALFA.L = 2 UK = comfortable. The original 5th-UK-position concern is no longer valid.
 
 ---
 
 ## FINAL PARAMETERS
 
-| Parameter | Value |
-|-----------|-------|
-| **FV** | 235p (R3 revised, was 265p) |
-| **Entry** | 165p (R3 revised, was 175-180p) |
-| **Bear FV** | 155p |
-| **Bull FV** | 320p |
-| **MoS at entry** | 29.8% |
-| **QS** | 83 Tier A |
-| **Growth base** | 9% |
-| **Status** | WATCHLIST — HARD GATE Mar 12 FY2025 results |
-| **Standing order** | NO — too far from entry (188.6p vs 165p = +14.3%) |
-| **UK constraint** | 5th UK position risk — requires justification |
-| **Current price** | 188.6p (+14.3% above entry) |
-| **Prob of reaching entry 12m** | 25-30% (CHP sale event + general UK small-cap weakness needed) |
+| Parameter | Value | Change |
+|-----------|-------|--------|
+| **FV** | 215p | was 235p (-8.5%) |
+| **Entry (SO)** | 165p | unchanged |
+| **Bear FV** | 169p | was 155p (DA-calibrated) |
+| **Bull FV** | 280p | was 320p (FX/growth adjusted) |
+| **MoS at entry** | 23.3% | was 29.8% |
+| **MoS at market (177.60p)** | 17.4% | |
+| **E[CAGR] at entry** | ~17% | |
+| **E[CAGR] at market** | ~14% | |
+| **QS** | 83 Tier A | unchanged |
+| **Growth (thesis header)** | 6% FY2026, 8% normalized | was 9% |
+| **Status** | WATCHLIST — SO 165p | |
+| **UK constraint** | RESOLVED (2nd UK post-MONY.L) | was 5th UK risk |
+| **Current price** | 177.60p (+7.6% above entry) | |
+| **Prob reaching entry 12m** | 35-40% | up from 25-30% (growth deceleration + CHP) |
 
 ---
 
-## META-REFLECTION RESPONSES
+## Edge Assessment
 
-### R2 Questions:
-1. **CHP 2025 sales?** — Cannot confirm with available data. HARD GATE Mar 12 will clarify.
-2. **Entry 160-170p vs 175-180p?** — Split at 165p. Bear case (155p) provides 6% downside protection (vs R1's 3.7%).
-3. **Moat WIDE vs NARROW-WIDE?** — Maintain WIDE. Solifi threat is forward-looking, not yet realized.
-4. **UK concentration MoS premium?** — Implicitly applied: 29.8% MoS is at the low end of Tier A range but acceptable if UK rotation happens.
+**NARROW — patience edge, not insight edge.**
+- Our FV (215p) is BELOW consensus (275p) — we are more conservative than sell-side
+- Edge: CHP overhang creates episodic dips; we wait for 165p entry on a WIDE-moat business
+- Risk: if CHP stops selling and NRR re-accelerates, stock may never reach 165p
+- If stock recovers above 200p without us entering → opportunity cost accepted
 
 ---
 
-*R3 Resolution Date: 2026-02-19*
-*Next Step: WAIT for FY2025 results Mar 12. If results pass HARD GATE → R4 committee.*
+## Next Steps
+
+1. Update thesis header: FV 235p → 215p, Growth 8% → 6%
+2. Keep SO at 165p in standing_orders.yaml
+3. Pre-R4: Solifi competitive intelligence check (DA recommendation)
+4. R4 when price approaches 165p or H1 2026 results show NRR recovery
+5. Capital allocation: competes with DNLM.L for post-MONY.L EUR 888
+
+---
+
+*R3 Resolution: 2026-03-13 (S152). Updated from 2026-02-19.*
+*DA correction this round: -8.5%. Cumulative from R1: -18.9% (265p → 215p).*

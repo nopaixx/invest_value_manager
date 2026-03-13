@@ -116,6 +116,11 @@ handoff:
     - "S152c5: Cybersecurity basket downgraded BUILDING→RESEARCHING (per committee meta-reflection)."
     - "S152c5: SPGI SO updated with R4 APPROVED status + last_analysis_date refreshed."
     - "S152c5: ALFA.L R2 DA launched — primary secondary deployment target for FTNT exit proceeds."
+    - "S152c10: Mar 26 pre-flight VERIFIED — GDDY $80.75 (MoS 37.9%), DNLM.L 852p (MoS 15.5%), all constraints pass."
+    - "S152c10: KC deep review — NVO KC#1 only TRIGGERED (known, trimming Mar 26). 17 MONITORING, none approaching trigger."
+    - "S152c10: Smart money — HLNE insider cluster $3.24M STRONG BULL. EDEN.PA SI +0.68pp (noise). SPGI 7 quality funds (validation). CPRT Akre $308M."
+    - "S152c10: Basket recalibration — UK Digital Platforms renamed UK Quality Leaders (DNLM.L retail). GDDY → US QC. SPGI → Data & Analytics. Cybersecurity → RESEARCHING."
+    - "S152c10: Thesis staleness audit — ALL positions <7 days since last review. No refresh needed. Portfolio at peak freshness post-DA audit cycle."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }

@@ -603,7 +603,7 @@ review_flags:
 #
 #   PRIMARY: SELL FTNT (~EUR 775) → BUY SPGI (EUR 400) + BEST AVAILABLE (EUR 375)
 #     "Best available" at late April prices:
-#     - ALFA.L (if <=165p, E[CAGR] 19.4%) — HIGHEST RETURN, no gate, R3 complete
+#     - ALFA.L (if <=165p, E[CAGR] ~17%, FV 215p R3 updated S152) — R3 complete, DA MODERATE COUNTER
 #     - MRSH (if <=$160, E[CAGR] 15.9%) — Greensill binary, half-position
 #     - CPRT (if <=$31, E[CAGR] ~16%) — Salvage duopoly, R3 complete
 #     - Buffer/cash if no candidate meets threshold

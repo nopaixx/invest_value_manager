@@ -1,11 +1,11 @@
 # ALFA.L - Alfa Financial Software Holdings PLC
 
-> **Fair Value:** 235 GBp (R3 revised, was 265 GBp. DA -11.3%: CHP structural overhang + liquidity discount)
-> **Expected Growth:** 8%
+> **Fair Value:** 215 GBp (R3 updated S152, was 235p. DA -8.5%: NRR decline 112→109%, FX headwind, SE rev guided lower. Cumulative -18.9% from R1 265p.)
+> **Expected Growth:** 6%
 > **Entry Price:** 165 GBp (R3 revised, was 175-180 GBp)
-> **Date:** 2026-02-19
-> **Analyst:** fundamental-analyst (R1) + devil's-advocate (R2) + orchestrator (R3)
-> **Status:** R3 COMPLETE — WATCHLIST. FY2025 PASS (low end, S151). SO 165p. Receivables UNRESOLVED (annual report pending). Price 173.80p (52wL, 5.3% above entry). UK Digital Platforms: competes with DNLM.L for MONY.L capital (Mar 26).
+> **Date:** 2026-03-13 (updated from 2026-02-19)
+> **Analyst:** fundamental-analyst (R1) + devil's-advocate (R2 updated) + orchestrator (R3 updated)
+> **Status:** R3 COMPLETE — WATCHLIST. FY2025 PASS (low end). SO 165p. Receivables RESOLVED (cash conv 97%). NRR declining (109%, KC#9 added). UK concentration RESOLVED (2nd UK post-MONY.L). Competes with DNLM.L for MONY.L capital (Mar 26).
 
 ---
 
