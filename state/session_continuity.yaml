@@ -34,8 +34,8 @@ completed:
   net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged. Correction deepening further. All theses intact. No cash. FOMC Tue is primary risk — oil $100 + gold ATH suggest hawkish lean. Portfolio action tree ready."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: FTNT 9.9% (exit locked Apr), BZU.MI 11.2%, TW 13.4%. MONY.L 13.7% selling Mar 26."
-  velocity_units: 5  # ALFA.L R4 launched (2u), ZTS R2 DA launched (2u), post-Mar-26 modeling (1u)
-  velocity_note: "S158: ALFA.L R4 committee + ZTS R2 DA agents launched (weekend priorities done TODAY). Post-Mar-26 modeled: 12→13 positions, E[CAGR] 18.5→19.5%. FX centralization in progress."
+  velocity_units: 6  # ALFA.L R4 complete (2u), ZTS R2 DA complete+resolved (2u), post-Mar-26 modeling (1u), FX centralization (1u)
+  velocity_note: "S158: ALFA.L R4 BUY CONDITIONAL (10/10 gates). ZTS R2 DA MODERATE COUNTER (FV $130→$120, entry $105→$95, E[CAGR] below threshold). Post-Mar-26 modeled: 18.9% E[CAGR]. FX centralization done. 6 velocity units — all weekend priorities COMPLETED in S158."
   portfolio_ecagr:
     deployed: 18.0%
     blended: 18.0%
@@ -82,25 +82,23 @@ three_questions:
 handoff:
   next_session_priorities:
     P0:
-      - "PROCESS ALFA.L R4 output — review committee_decision.md, verify 10 gates, set SO if approved."
-      - "PROCESS ZTS R2 DA output — review devils_advocate.md, resolve conflicts, update thesis."
       - "FOMC Mar 18 — Section 9 READY. Score dot plot immediately. Execute portfolio action tree."
       - "ECB Mar 19 + BoE Mar 20 — frameworks ready."
     P1:
       - "HLNE ex-div Mar 20 — capture dividend."
       - "Mar 26 EXECUTION: 4 trades locked. SELL MONY.L + TRIM NVO + BUY GDDY + BUY DNLM.L."
       - "FV consistency check (due ~S158, last S148). Run forward_return.py cross-check."
+      - "Smart money refresh: FCA shorts (UK), signals --portfolio-only."
     P2:
       - "CVNA short +8.0% — hold through Q1 May 6. Oil $100 tailwind."
-      - "FTNT EXIT: Late April. → SPGI + best available."
-      - "ALFA.L 173.7p, 5.3% from 165p entry. If FOMC hawkish → could trigger within days."
-      - "Smart money refresh: FCA shorts (UK), signals --portfolio-only."
+      - "FTNT EXIT: Late April. → SPGI EUR 400 + ALFA.L EUR 400-450."
+      - "ALFA.L 173.7p, 5.3% from 165p entry. R4 BUY CONDITIONAL approved. If FOMC hawkish → could trigger within days."
     P3:
       - "Insurance sector view freshness — GL basket."
-      - "Post-Mar-26 portfolio modeling (E[CAGR], baskets, geography post-rotation)."
       - "FOUR.L 3,475p. FV 4,000p. Entry 3,200p (-7.9%). Wait Q1 Jun."
+      - "ZTS — R2 DA resolved. FV $120, entry $95. HARD GATE Q1 May. E[CAGR] below threshold — low priority."
   dedup_signals:
-    - "S158: ALFA.L R4 committee agent launched — 10-gate review, committee_decision.md being written."
+    - "S158: ALFA.L R4 BUY CONDITIONAL — 10/10 gates PASS. SO 165p, EUR 400-450 from FTNT exit. Market buy ≤170p if annual report confirms."
     - "S158: ZTS R2 DA COMPLETE — MODERATE COUNTER, FV $120 (committee confirmed), entry $95, HARD GATE Q1 May."
     - "S158: FX centralization COMPLETE — fx_defaults.py created, 4 tools updated (dcf_calculator, portfolio_cagr, price_checker, quality_universe)."
     - "S158: Post-Mar-26 model: 12 positions, E[CAGR] 18.9%. Post-FTNT: 13 pos, 19.5%. GDDY 24.4% biggest add."
