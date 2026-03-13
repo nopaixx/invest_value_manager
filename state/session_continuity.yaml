@@ -38,7 +38,7 @@ completed:
   net_exposure_updated: false  # No change from prior session — still 100/0.8/0 (long/short/cash)
   rotation_check: true
   rotation_note: "Bottom 3: TW 13.5%, BZU.MI 12.1%, FTNT 9.4%. Mar 26 rotation: SELL MONY.L (13.9%) + TRIM NVO (17.2%) → BUY GDDY (25.2%) + DNLM.L (15.7%). Net +7pp E[CAGR] upgrade."
-  velocity_units: 7  # BZU.MI DA (2) + FOUR.L scoring (1) + news scan (1) + ZTS R1 3-agent (3)
+  velocity_units: 8  # BZU.MI DA (2) + FOUR.L scoring (1) + news scan (1) + ZTS R1 3-agent (3) + FTNT CVE intelligence (1)
   velocity_note: "BZU.MI DA mandatory post-buy. FOUR.L results unexpected early release scored. News scan covered 6-day gap. Fallen angels screening: 72 found, 8 added to universe. ZTS R1 COMPLETE (3 agents parallel, CIO corrected FA Apoquel patent error, FV $155→$130, WATCHLIST $105 entry). Animal-health sector view CREATED. 4 SOs triggered + 3 near in correction."
   portfolio_ecagr:
     deployed: 18.6%
@@ -120,6 +120,8 @@ handoff:
     - "Evolution state S151: 0 RED, 3 YELLOW, 12 GREEN. E[CAGR] 14.4→17.4→18.6% (3 sessions rising)."
     - "POST-MAR 26 ROTATION: FTNT (9.4%) = next exit candidate. CVE escalation STRENGTHENS case (KC#6/KC#9 ELEVATED). Target: SPGI+MRSH when Q1 gate clears (late Apr). ZTS WATCHLIST $105 (gated Q1 May)."
     - "FTNT ACCELERATE 2026: NEUTRAL, FV $88 UNCHANGED. 11 new CVEs Mar 10 + active exploitation. Full report: state/ftnt_accelerate_2026.md."
+    - "EDEN.PA SI data quality: smart_money.py double-counts live+amf entries → shows 23.1% but real AMF SI is ~9.6%. Citadel covered, Millennium reduced. SI DECLINING. SHORT_ESCALATION signal is tool artifact."
+    - "CPRT Q3 FY2026 MIXED: Rev flat (2.1% miss), EPS beat, OP margin 37.3% (+190bps). Now $33.97 = 9% from $31 entry (R3_COMPLETE). Gate data available but needs reassessment."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
