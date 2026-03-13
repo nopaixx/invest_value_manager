@@ -8,7 +8,7 @@ system:
   system_version: "4.9.0"
   framework_version: "4.9"
   last_session: 2026-03-13
-  session_number: 153
+  session_number: 154
   status: active
 
   framework_v4_status:
@@ -74,17 +74,17 @@ system:
       net_pct: 100.0
       gross_pct: 100.0
     reasoning: |
-      Session 153 (2026-03-13): 99.2% net long, 0.8% short (CVNA token), 0% cash.
-      OIL $100 BRENT CRISIS — Hormuz mined, IEA 400M bbl emergency release. Elevated risk.
-      BUT portfolio is 80%+ OIL-NEUTRAL by design: tech (ADBE, DOCS, FTNT), data (TW, WKL.AS),
-      fintech (HLNE), UK platforms (IHP.L, MONY.L). Only BZU.MI (3.6%) directly oil-vulnerable.
-      11 positions, 8 Tier A, 3 Tier B. Blended E[CAGR] 18.5%. CVNA short 0.31 shares = token.
+      Session 154 (2026-03-13 14:30 CET): 99.2% net long, 0.8% short (CVNA token), 0% cash.
+      CORRECTION DEEPENING: VIX 25.5, S&P -4.1% from high, oil WTI $93. FOMC Mar 18 = binary.
+      Portfolio 80%+ OIL-NEUTRAL by design. BZU.MI (3.6%) only direct oil exposure.
+      11 positions, 8 Tier A, 3 Tier B. Blended E[CAGR] 18.4%. All KCs clear except NVO KC#1.
+      Correction is POSITIVE for pipeline: 4 SOs triggered + 5 near. 41 deployment-ready.
       Mar 26 rotation: SELL MONY.L + TRIM NVO → BUY GDDY (25.2%) + DNLM.L (15.5%).
-      Late April: EXIT FTNT (9.4%) → SPGI + best available. Portfolio improves each rotation.
-      99% net long JUSTIFIED: quality portfolio, oil-neutral, clear rotation path.
-      Risk: HLNE -11.5% drawdown near 52wL — thesis intact, E[CAGR] 17.6%, monitor.
-      Risk: EDEN.PA 18.7% with 9.6% SI (down from 21.2%). Citadel covered. Moderately bullish.
-      Inaction Audit: N/A — 0% cash. P15 FULLY RESOLVED. Deployment via rotation only.
+      Late April: EXIT FTNT → SPGI EUR 400 + ALFA.L/LOPE/best EUR 375.
+      99% net long JUSTIFIED: quality portfolio, oil-neutral, rotation path improving.
+      Risk: HLNE -9.1% (refreshed S154, FV $110 maintained, all KCs CLEAR, insider cluster $3.2M).
+      Risk: TW insider selling $26.3M (Feb-Mar) — already in thesis, monitoring.
+      Inaction Audit: N/A — 0% cash, deployment via rotation only.
     last_updated: 2026-03-13
     history:
       - date: 2026-03-03
