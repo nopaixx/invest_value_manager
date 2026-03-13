@@ -5,48 +5,44 @@
 # Created: 2026-03-13
 
 session:
-  id: 151
+  id: 152
   date: "2026-03-13"
-  timestamp_cet: "2026-03-13T09:30"
+  timestamp_cet: "2026-03-13T11:30"
 
 completed:
   vigilance:
-    news_scan_time: "2026-03-13T09:25"
+    news_scan_time: "2026-03-13T10:56"
     critical_count: 0
-    material_count: 3  # NVO FDA warning, NVO Hims partnership, HLNE 52wL
-    note: "6-day gap scan complete. NVO FDA warning letter (procedural, not safety). Hims partnership positive. HLNE hitting new lows."
+    material_count: 0
+    note: "S152 same-day as S151. No new news. KC scan: 1 TRIGGERED (NVO KC#1 known), 17 MONITORING."
   so_check:
-    timestamp: "2026-03-13T09:18"
-    nearest: { ticker: "GDDY", distance_pct: -10.3, note: "$80.75 vs $90 trigger. DEEPLY TRIGGERED. Mar 26 buy locked." }
+    timestamp: "2026-03-13T10:57"
+    nearest: { ticker: "SPGI", distance_pct: 0.1, note: "$419.70 vs $420 trigger. AT TRIGGER. Gated Q1 Apr." }
     triggered: ["GDDY", "DNLM.L", "HALO (gated)"]
-    executed_this_session: ["BZU.MI"]
-    note: "BZU.MI executed earlier in S151. GDDY/DNLM.L locked for Mar 26. HALO gated on PTAB Jun 2."
+    near: ["SPGI 0.1% (gated)", "KNSL 1.9% (gated)", "WING 1.6% (gated)", "MRSH 6.4% (revised)"]
+    executed_this_session: []
+    note: "MRSH SO revised $170→$160 based on R1 (E[CAGR] 13.6% at $170 < 15% Tier B). CPRT SO reactivated at $31. SPGI R4 APPROVED CONDITIONAL."
   thesis_audit:
-    - "BZU.MI: R2 DA complete — MODERATE COUNTER, FV EUR 57→51, 3 HIGH findings"
-    - "FOUR.L: FY2025 results scored — CONDITIONAL PASS, FV 4400→4000p, DEFER R4, Q1 Jun 2026"
-    - "Mar 26 execution plan CORRECTED: MONY.L proceeds EUR 716 (not 888). Total EUR 1,190."
-    - "CVNA thesis moved research→active"
-    - "NVO: FDA warning letter + Hims partnership documented"
-    - "News scan: 0 CRITICAL, 3 MATERIAL"
-    - "ZTS R1 COMPLETE: 3 agents (FA+moat+risk). CIO corrected FA FV $155→$130 (Apoquel patent error). WIDE moat. WATCHLIST $105."
-    - "Animal-health sector view CREATED (Error #30 cleared)"
-    - "Fallen angels screening: 72 found, top 10 curated, 8 added to universe (ZTS, VRSK, BEI.DE, BEAN.SW, FDS, ROP, NEU, PODD)"
-    - "SO distances updated: 4 TRIGGERED (MRSH, SPGI, HALO, STMN.SW) + 3 NEAR (KNSL, WING, DECK). All blocked EUR 0 cash."
-    - "FV consistency check: 11/11 positions CONSISTENT"
-    - "Smart money signals: HLNE insider cluster buy ($3.2M/60d), ADBE/NVO convergence"
-  key_finding: "S151 = most productive session: 34+ commits, 11 context windows, 8 velocity units across 3 days (Mar 7-13). Key: ZTS R1 caught FA Apoquel patent error via CIO adversarial review (Error #65 validation). FTNT CVE escalation case built → EXIT CONFIRMED. Correction producing 9 stocks at/near entry. Mar 26 = next capital deployment event (4 trades, EUR 1,190)."
+    - "MRSH R1 COMPLETE: 3 agents (FA+moat+risk). FV $195, entry $160, QS 64/68 Tier B. WIDE moat. HIGH risk (Greensill A$7B Aug 2026). SO revised $170→$160."
+    - "SPGI R4 APPROVE CONDITIONAL: 10/10 gates PASS. EUR 400 when Q1 gate clears. FV $470, E[CAGR] 12.1% at $420."
+    - "SPGI thesis header FIXED: Error #62 — FV was $511 (R1) in parser, corrected to $470 (R3)."
+    - "CPRT SO REACTIVATED: Was ARCHIVED at $38, now $33.97 at 52wL. R3 COMPLETE. Entry $31."
+    - "FTNT rotation plan REVISED: MRSH drops out at $170 (below threshold). Secondary: ALFA.L (if ≤165p) > MRSH (if ≤$160) > CPRT (if ≤$31)."
+    - "Correction opportunity ranking: ALFA.L #1 (19.4%), DECK #2 (17.5%), CPRT #3 (16%)."
+    - "FDS universe FV data quality issue: shows $400, thesis says $210. Flagged for fix."
+  key_finding: "S152: MRSH R1 reveals $170 is NOT deployment-grade (E[CAGR] 13.6% < 15% Tier B). FTNT rotation plan revised — ALFA.L now primary secondary target. SPGI R4 APPROVED CONDITIONAL (10/10). SPGI thesis header fixed (Error #62). CPRT SO reactivated at 52wL. Correction deepening: WING 1.6%, KNSL 1.9%, STMN.SW at 52wL."
   net_exposure_updated: true
-  net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). VIX 27 elevated, oil $96 crisis premium, S&P -4.7% from highs. JUSTIFIED: 8/11 positions Tier A, blended E[CAGR] 18.6%, Mar 26 rotation upgrades +7pp. Full deployment in quality per P15. Short side: CVNA only live short, monitoring RKLB S2 ARCHIVED. VIX 27 = correction territory but not panic — quality names recover. Oil $96 risk concentrated in EDEN.PA (19% rev) and BZU.MI (cost) — both small positions. No additional shorts warranted absent specific catalysts (P10)."
+  net_exposure_reasoning: "99.2% net long (100% long, 0.8% short CVNA). Same as S151. Macro unchanged intraday. Full deployment in quality per P15. No new short catalysts identified."
   rotation_check: true
-  rotation_note: "Bottom 3: TW 13.5%, BZU.MI 12.1%, FTNT 9.4%. Mar 26 rotation: SELL MONY.L (13.9%) + TRIM NVO (17.2%) → BUY GDDY (25.2%) + DNLM.L (15.7%). Net +7pp E[CAGR] upgrade."
-  velocity_units: 8  # BZU.MI DA (2) + FOUR.L scoring (1) + news scan (1) + ZTS R1 3-agent (3) + FTNT CVE intelligence (1)
-  velocity_note: "BZU.MI DA mandatory post-buy. FOUR.L results unexpected early release scored. News scan covered 6-day gap. Fallen angels screening: 72 found, 8 added to universe. ZTS R1 COMPLETE (3 agents parallel, CIO corrected FA Apoquel patent error, FV $155→$130, WATCHLIST $105 entry). Animal-health sector view CREATED. 4 SOs triggered + 3 near in correction."
+  rotation_note: "Bottom 3 unchanged: TW 13.5%, BZU.MI 11.8%, FTNT 9.4%. FTNT exit CONFIRMED S151, R4-ready target SPGI APPROVED. Post-FTNT: SPGI EUR 400 + best available EUR 375."
+  velocity_units: 5  # MRSH R1 3-agent (3) + SPGI R4 committee (1) + CPRT SO reactivation (1)
+  velocity_note: "MRSH R1 complete (FA+moat+risk). SPGI R4 APPROVED CONDITIONAL. CPRT SO reactivated. SPGI thesis header fixed. Fallen angels + smart money agents still running."
   portfolio_ecagr:
     deployed: 18.6%
     blended: 18.6%
     cash_drag: "0pp/yr"
     worst: "FTNT 9.4%"
-    note: "BZU.MI DA reduced E[CAGR] 15.8→12.1% but weight only 3.5% = negligible portfolio impact."
+    note: "Unchanged from S151. No trades. Correction deepening but positions stable."
 
 # =============================================================================
 # PROMISES — Accountability loop (v4.8, P18)
@@ -54,35 +50,35 @@ completed:
 promises:
   - promise: "Process FOMC Mar 18 outcome — score dot plot against Section 9 framework"
     created_session: 151
-    deadline: "S152 (first session after Mar 18)"
+    deadline: "S153 (first session after Mar 18)"
     status: PENDING
     broken_count: 0
   - promise: "Process ECB Mar 19 + BoE Mar 20 — score against Section 9 frameworks"
     created_session: 151
-    deadline: "S152"
+    deadline: "S153"
     status: PENDING
     broken_count: 0
   - promise: "Execute Mar 26 trades: SELL MONY.L + TRIM NVO + BUY GDDY + BUY DNLM.L"
     created_session: 151
-    deadline: "S153 (Mar 26+)"
+    deadline: "S154 (Mar 26+)"
     status: PENDING
     broken_count: 0
   - promise: "Health check due Mar 16 — run before FOMC"
     created_session: 151
-    deadline: "S152"
+    deadline: "S153"
     status: PENDING
     broken_count: 0
-  - promise: "NVO FDA response review — company responding by ~Mar 19"
-    created_session: 151
-    deadline: "S153"
+  - promise: "Model SPGI Mobility spinoff before Q1 gate date (pre-late April)"
+    created_session: 152
+    deadline: "S155"
     status: PENDING
     broken_count: 0
 
 three_questions:
-  q1_wait_streak: 0  # Cash = 0%. BZU.MI executed. Mar 26 deployment locked.
-  last_q1_answer: "Cash = 0%. BZU.MI executed this session. Mar 26 deployment locked (GDDY+DNLM.L). No cash drag."
-  last_q2_answer: "Cybersecurity basket still single (FTNT). GDDY Mar 26 buy FILLS it to 2 positions. NVO orphan being trimmed. BZU.MI unassigned."
-  last_q3_answer: "Discovered MONY.L proceeds calculation error (EUR 888→716). Corrected before Mar 26. Scored FOUR.L results early. BZU.MI DA mandatory done same day as buy."
+  q1_wait_streak: 0  # Cash = 0%. No deployment possible. Mar 26 + FTNT rotation locked.
+  last_q1_answer: "Cash = 0%. Mar 26 deployment locked (GDDY+DNLM.L). FTNT exit late April → SPGI + best available. Corrected: MRSH NOT buyable at $170."
+  last_q2_answer: "Cybersecurity basket still single (FTNT → DIES post-exit). GDDY Mar 26 fills US Quality Compounders. SPGI R4 approved → Data & Analytics anchor."
+  last_q3_answer: "MRSH R1 revealed SO was too aggressive ($170 vs proper $160). Fixed before deployment. SPGI Error #62 caught and fixed. CPRT reactivated. FDS universe data quality flagged."
 
 handoff:
   next_session_priorities:
@@ -90,39 +86,28 @@ handoff:
       - "FOMC Mar 18 — Section 9 framework ready. Score dot plot. Portfolio action per scenario."
       - "ECB Mar 19 + BoE Mar 20 — frameworks ready."
     P1:
-      - "HLNE ex-div Mar 20 — capture dividend. At $94, near 52wL. Monitor for ADD at $85."
+      - "Health check due Mar 16."
+      - "HLNE ex-div Mar 20 — capture dividend."
       - "MONY.L ex-div Mar 26 — SELL same day. EUR 716 proceeds."
       - "Mar 26 EXECUTION DAY: 4 trades locked. Pre-flight complete."
     P2:
-      - "Health check due Mar 16."
       - "NVO FDA response (~Mar 19) — review adequacy."
       - "HALO PTAB oral hearings March (exact date TBD)."
       - "CVNA short — oil $97 tailwind. Hold through Q1 May 6."
-      - "CORRECTION ALERT: 4 SOs TRIGGERED (MRSH, SPGI, HALO, STMN.SW) + 3 near (KNSL, WING, DECK). All blocked by EUR 0 cash."
-      - "FTNT EXIT PROPOSAL (STRENGTHENED S151c28): CVE escalation KC#6/KC#9 ELEVATED. E[CAGR] 9.4% worst. ROTATION TARGET DEBATE: SPGI (12.1%, WIDE moat duopoly, gated Q1 Apr) vs ALFA.L (19.4%, R3 COMPLETE, niche SaaS monopoly, 5.5% above entry, UK concentration risk). Both + MRSH (EUR 200). Needs committee EXIT approval. Cybersecurity basket DIES."
+      - "SPGI: R4 APPROVED CONDITIONAL. Model Mobility spinoff before Q1 gate."
+      - "FTNT EXIT: Committee EXIT Protocol 6 gates needed. Schedule S153/S154."
+      - "ALFA.L: Monitor. If drops to 165p → becomes #1 rotation target for FTNT capital."
     P3:
-      - "ZTS R1 COMPLETE: WATCHLIST FV $130 entry $100-110. CIO corrected FA's $155 (Apoquel patent error, bullish OEY). WIDE moat. SO GATED $105 (Q1 May). Next: R2 (DA) when approaching entry."
-      - "Pipeline: SPGI AT $420 trigger (GATED Q1). KNSL 1.9% (GATED). WING 1.6% (GATED). DECK at entry (GATED)."
-      - "Fallen angels universe: 8 added (ZTS, VRSK, BEI.DE, BEAN.SW, FDS, ROP, NEU, PODD). All SCORED, need R1."
-      - "CORRECTION DEEPENING: 9 stocks within 10% of entry/trigger. ALFA.L 174p AT ENTRY (QS 83, E[CAGR] 19%), DECK $100 AT ENTRY (E[CAGR] 17.5%), plus MRSH/SPGI/HALO/STMN.SW/WING/KNSL/CPRT. EUR 0 cash = all blocked. Post-FTNT EUR 775 can fill max 2-3. PRIORITIZE by E[CAGR] + gate timing."
-      - "BZU.MI: DO NOT ADD. FV EUR 51, E[CAGR] 12.1%. Monitor FY2025 formal results."
-      - "FOUR.L: DEFERRED. FV 4,000p. Monitor Q1 Jun 2026."
+      - "CORRECTION WATCHLIST: CPRT $33.97 (SO $31 reactivated), DECK $100.69 (at entry, R3 done, LULU gate Mar 31), WING $193 (1.6% from trigger, gated May), KNSL $362 (1.9%, gated), STMN.SW CHF 81 (at 52wL, gated)."
+      - "Smart money + fallen angels agent results to process (may complete post-session)."
+      - "FDS universe FV needs correction ($400→$210)."
   dedup_signals:
-    - "S151 CLOSED: 34+ commits across 11 context windows over 3 days (Mar 7-13). Most productive session in fund history."
-    - "BZU.MI DA: MODERATE COUNTER, FV EUR 57→51, KC#6 added (oil). E[CAGR] 12.1%."
-    - "FOUR.L FY2025 CONDITIONAL PASS: OM 10.8%, rev $1.35B, guide weak. FV 4400→4000p. DEFERRED."
-    - "Mar 26 CORRECTED: MONY.L proceeds EUR 716 (not 888). Total EUR 1,190. GDDY EUR 720 + DNLM.L EUR 440."
-    - "NVO: FDA warning letter (procedural) + Hims partnership (positive). KC unchanged."
-    - "CVNA thesis moved to short/active/. Short +8.2%."
-    - "Oil $97 re-escalation — portfolio 80%+ neutral. CVNA benefits. EDEN.PA mild negative."
-    - "Pipeline approaching: SPGI AT $420 (gated Q1), KNSL near $355 (gated), STMN.SW AT 52wL, ALFA.L AT 52wL."
-    - "FOMC/ECB/BoE Section 9 frameworks all built and committed."
-    - "FALLEN ANGELS SCREENING: 72 found, TOP 10 curated. ZTS (#1, QS 78 Tier A, at 52wL $115, animal health monopoly), BEI.DE (QS 63 Tier B, near 52wL EUR 78), VRSK (QS 72 Tier B). 8 added to universe."
-    - "Evolution state S151: 0 RED, 3 YELLOW, 12 GREEN. E[CAGR] 14.4→17.4→18.6% (3 sessions rising)."
-    - "POST-MAR 26 ROTATION: FTNT (9.4%) = next exit candidate. CVE escalation STRENGTHENS case (KC#6/KC#9 ELEVATED). Target: SPGI+MRSH when Q1 gate clears (late Apr). ZTS WATCHLIST $105 (gated Q1 May)."
-    - "FTNT ACCELERATE 2026: NEUTRAL, FV $88 UNCHANGED. 11 new CVEs Mar 10 + active exploitation. Full report: state/ftnt_accelerate_2026.md."
-    - "EDEN.PA SI data quality: smart_money.py double-counts live+amf entries → shows 23.1% but real AMF SI is ~9.6%. Citadel covered, Millennium reduced. SI DECLINING. SHORT_ESCALATION signal is tool artifact."
-    - "CPRT Q3 FY2026 MIXED: Rev flat (2.1% miss), EPS beat, OP margin 37.3% (+190bps). Now $33.97 = 9% from $31 entry (R3_COMPLETE). Gate data available but needs reassessment."
+    - "S152: MRSH R1 complete — FV $195, entry $160 (not $170). SO revised. E[CAGR] 13.6% at market < Tier B."
+    - "S152: SPGI R4 APPROVED CONDITIONAL. 10/10 gates. EUR 400 when Q1 clears."
+    - "S152: SPGI thesis header fixed — Error #62 (FV $511→$470 in parser)."
+    - "S152: CPRT SO reactivated at $31. Near 52wL $33.97. R3 COMPLETE, QS 83 Tier A."
+    - "S152: FTNT rotation plan revised — MRSH out at $170. ALFA.L primary secondary (if ≤165p)."
+    - "S152: Portfolio -2.7%. E[CAGR] 18.6%. 0% cash. 99.2% net long."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
@@ -133,30 +118,31 @@ r1_cooldowns:
   REN.AS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED (WATCHLIST, SO EUR 24.50)" }
   TW: { date: "2026-02-23", session: 115, verdict: "R3_COMPLETE (AT_FV, SO $110)" }
   VRSN: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $240, SO RECALIBRATED $210 S133)" }
-  CPRT: { date: "2026-02-25", session: 119, verdict: "R3_COMPLETE (FV $37, entry $31, GATED Q1)" }
+  CPRT: { date: "2026-02-25", session: 119, verdict: "R3_COMPLETE (FV $37, entry $31, GATED Q1. SO REACTIVATED S152.)" }
   DOCS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $24.07 (S122)" }
   PEGA: { date: "2026-02-25", session: 116, verdict: "R3_COMPLETE GATED (entry $38, FV $50)" }
   ANF: { date: "2026-03-04", session: 139, verdict: "CONDITIONAL PASS. Hold watchlist $80. Receivables +40% failed. Monitor Q1 Jun." }
   WING: { date: "2026-03-02", session: 135, verdict: "R3_COMPLETE (WATCHLIST, FV $240, entry $190, GATED Q1 SSS May)" }
-  FTNT: { date: "2026-02-26", session: 126, verdict: "BOUGHT $79.12 (5th E[CAGR] market buy, EUR 400)" }
+  FTNT: { date: "2026-02-26", session: 126, verdict: "BOUGHT $79.12. EXIT CONFIRMED S151 (CVE escalation, 9.4% E[CAGR] worst). Late April." }
   CHKP: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, entry $125, FV $160, QS 77 Tier A)" }
   QLYS: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, SO $82, FV $110, QS 81 Tier A. GATED Q1 billings.)" }
   HALO: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, SO $65, FV $90 post-DA, QS 79adj Tier A)" }
   ERIE: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (SO ARCHIVED S133 — above FV, SCOTUS undated)" }
   CMCSA: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $33, SO $26 GATED Q1 2026.)" }
-  SPGI: { date: "2026-02-28", session: 131, verdict: "R3_COMPLETE (WATCHLIST, FV $470 post-DA, SO $420 GATED Q1 2026, QS 76adj Tier A)" }
+  SPGI: { date: "2026-02-28", session: 131, verdict: "R4_APPROVED CONDITIONAL S152. FV $470, SO $420 GATED Q1. 10/10 gates PASS." }
   MSA: { date: "2026-02-28", session: 131, verdict: "R1_COMPLETE (AT_FV, FV $144, QS 73 Tier B, no SO, PFAS risk)" }
   APP: { date: "2026-03-07", session: 144, verdict: "S1 SHORT THESIS COMPLETE (WATCHLIST, QS 49, no catalyst P10 FAIL)" }
   CVNA: { date: "2026-03-07", session: 144, verdict: "S4 CONDITIONAL APPROVE (EUR 100, $290-330, stop $370, VIX <28)" }
   TSLA: { date: "2026-03-08", session: 149, verdict: "S4 CONDITIONAL APPROVE (EUR 50, $250-290, stop $380, VIX <35, Q1 deliveries <370K gate, 60d max)" }
   LOPE: { date: "2026-03-08", session: 149, verdict: "R3_COMPLETE (WATCHLIST, FV $190 post-DA, QS 75adj Tier A, E[CAGR] 11-13%. Growth 8%. DA MODERATE COUNTER. 3 new KCs.)" }
-  SAF.PA: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV EUR 290, QS 79adj Tier A, entry EUR 260. P/E 18.5x MISLEADING — adj forward ~32x. WIDE moat jet engine duopoly.)" }
+  SAF.PA: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV EUR 290, QS 79adj Tier A, entry EUR 260. WIDE moat jet engine duopoly.)" }
   MEDI.OL: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV NOK 272, QS 85adj Tier A, entry NOK 205. Cardiac surgery monopoly, 80% GM, eToro confirmed.)" }
   GDDY: { date: "2026-03-08", session: 149, verdict: "R4_APPROVED CONDITIONAL (FV $130, QS 75adj, E[CAGR] 25.2%. Mar 26 BUY EUR 720 locked. 10/10 gates PASS.)" }
   PAYC: { date: "2026-03-08", session: 149, verdict: "R1 REFRESH COMPLETE. FV $115→$140 (+22%). QS 86tool/78adj Tier A. AT FAIR VALUE at $138 = MoS ~1%. NOT a rotation candidate at market. Entry $105-115." }
   RKLB: { date: "2026-03-08", session: 149, verdict: "S1 SHORT THESIS COMPLETE. SHORT WATCHLIST. Tesla trap (Error #46)." }
   COIN: { date: "2026-03-08", session: 149, verdict: "S2 ARCHIVED. Bull case 7/10 kills thesis." }
   DNLM.L: { date: "2026-03-08", session: 149, verdict: "R4 RE-VALIDATED. Preferred entry 850-880p. Mar 26 BUY EUR 440 locked." }
-  BZU.MI: { date: "2026-03-13", session: 151, verdict: "R2 DA COMPLETE. MODERATE COUNTER, FV EUR 57→51. 3 HIGH (US demand, oil, timing). KC#6 added. E[CAGR] 12.1%. HOLD at 3.5%." }
+  BZU.MI: { date: "2026-03-13", session: 151, verdict: "R2 DA COMPLETE. MODERATE COUNTER, FV EUR 57→51. 3 HIGH. KC#6 added. E[CAGR] 12.1%. HOLD at 3.5%." }
   FOUR.L: { date: "2026-03-13", session: 151, verdict: "FY2025 CONDITIONAL PASS. FV 4400→4000p. DEFERRED. Monitor Q1 Jun 2026." }
-  ZTS: { date: "2026-03-13", session: 151, verdict: "R1 REFRESH CIO CORRECTED. FV $130 (was $155). QS 78 Tier A. WATCHLIST entry $100-110. Apoquel patent Nov 2026 CRITICAL. Double franchise headwind. Needs Q1 May. E[CAGR] ~12%." }
+  ZTS: { date: "2026-03-13", session: 151, verdict: "R1 REFRESH CIO CORRECTED. FV $130 (was $155). QS 78 Tier A. WATCHLIST $105. Apoquel patent Nov 2026 CRITICAL." }
+  MRSH: { date: "2026-03-13", session: 152, verdict: "R1 COMPLETE. FV $195, entry $160, QS 64/68 Tier B. WIDE moat. HIGH risk (Greensill). SO revised $170→$160." }

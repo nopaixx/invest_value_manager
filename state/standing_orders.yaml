@@ -115,19 +115,22 @@ standing_orders:
 
   - ticker: MRSH
     action: BUY
-    category: ACTIVE
-    fill_prob_6m: 30
-    trigger: "<=$170"
-    current_distance: "-0.5%"
+    category: GATED
+    fill_prob_6m: 20
+    trigger: "<=$160"
+    current_distance: "6.4%"
     created_date: "2026-02-14"
-    staleness_status: RECALIBRATED  # AT TRIGGER. $170.88 ≈ $170. Greensill Aug 2026 catalyst.
+    staleness_status: RECALIBRATED  # S152 R1 COMPLETE: FV $195 (was $190), entry revised $170→$160. E[CAGR] at $170=13.6% < 15% Tier B threshold.
+    gate: "Greensill trial Aug 2026. Half-position pre-trial. If adverse >$3B → CANCEL."
     size_eur: 200
-    fair_value: "$190"
-    mos_at_trigger: "10.5%"
+    fair_value: "$195 (R1 S152, was $190)"
+    mos_at_trigger: "17.9%"
     tier: "B (QS 64/68 adj)"
-    notes: "RECALIBRATED S143c4: trigger $155→$170 (P18 action bias). HALF POSITION — Greensill A$7B trial Aug 2026. Ticker changed from MMC to MRSH (Jan 14, 2026). US $143M claim SETTLED. MoS 10.5% acceptable for Tier B with dated catalyst. E[CAGR] ~12% at $170."
-    last_analysis_date: 2026-02-14
-    expiry: 2026-08-31
+    ecagr_at_trigger: "~15.9%"
+    notes: "R1 COMPLETE S152. WIDE moat (#1 global broker, switching costs, data moat). HIGH risk (Greensill A$7B trial Aug 2026, P&C rate softening, leverage 2.4x, $18.8B net debt). FV $195 multi-method (P/E 24x=$193, EV/EBIT 17.5x=$189, P/FCF 30x=$199). Entry $160 for 15.9% E[CAGR] > 15% Tier B threshold. At $170.88 (current), E[CAGR] only 13.6% = BELOW threshold. HALF POSITION — Greensill binary. KC#4: adverse >$3B = CANCEL."
+    kill_conditions: "KC1-8: organic rev negative 2Q, ND/EBITDA >3x, ROIC<WACC 2yr, Greensill judgment >$3B, McGriff rev leakage >20%, regulatory fiduciary action, consulting -5% organic 2Q, CEO/CFO departure"
+    last_analysis_date: 2026-03-13
+    expiry: 2026-10-01
 
   # HLNE — EXECUTED 2026-02-25 (Session 122). Market buy at $101.75, ~4.63 shares, EUR 400.
   # Third E[CAGR]-framework market buy. E[CAGR] 16.7% at $101.75 >> 12% threshold. MoS 7.5%.
@@ -434,8 +437,26 @@ standing_orders:
   # S143 restructuring. Data & Analytics Monopolies basket. SO $110 superseded by market buy.
   # E[CAGR] ~12% at $125. QS 84adj Tier A. WIDE moat 20/25.
 
-  # CPRT — ARCHIVED 2026-03-07 (S143c4). STALE: 17.9% from trigger, rallied $34→$38.
-  # R2 complete. Dated gate Q3 FY2026 May/June. Re-eval if price <$33 post Q3 results.
+  # CPRT — REACTIVATED S152 (2026-03-13). Was ARCHIVED S143c4 at $38. Now $33.97 = near 52wL.
+  # Q3 FY2026 gate DATA now available (S151): rev flat, EPS beat, OP margin 35.4%→37.3%, ASP ATH.
+  - ticker: CPRT
+    action: BUY
+    category: GATED
+    fill_prob_6m: 35
+    trigger: "<=$31"
+    current_distance: "9.6%"
+    created_date: "2026-03-13"
+    staleness_status: FRESH
+    gate: "Q3 FY2026 data available — needs formal gate evaluation (OP margin, TLF trend, ASP sustainability)"
+    size_eur: 400
+    fair_value: "$37 (R3 resolved)"
+    mos_at_trigger: "16.2%"
+    tier: "A (QS 75/83adj)"
+    ecagr_at_trigger: "~16%"
+    notes: "REACTIVATED S152. R3 COMPLETE. Salvage duopoly #1, ROIC 21%, $5.1B net cash. Q3 FY2026: rev flat (CAT comp), EPS beat, OP margin improved 37.3% (ATH), ASP ATH (+6.8%). Insurance unit volumes declining offset by ASP. At $33.97 = 52wL zone. Entry $31 = 9.6% away. If correction deepens, high-conviction deploy candidate. Capital blocked until post-FTNT exit (~late April)."
+    kill_conditions: "TLF reversal, ROIC <15% 2yr, IAA +5pp share, insurance structural decline, management capital misallocation, CEO/CFO departure"
+    last_analysis_date: 2026-02-25
+    expiry: 2026-10-01
 
   - ticker: VRSN
     action: BUY
@@ -555,11 +576,10 @@ review_flags:
   # Trigger lowered $300→$285. FV revised $385→$365. See thesis/research/ROP/review_feb2026.md
 
 # =============================================================================
-# SO SUMMARY (S151c21, 2026-03-13 — CORRECTION PRODUCING TRIGGERS)
+# SO SUMMARY (S152, 2026-03-13 — CORRECTION PRODUCING TRIGGERS)
 # Cash EUR 0. All capital deployed. Mar 26 rotation locked (GDDY+DNLM.L).
 #
 # TRIGGERED/AT-TRIGGER (EUR 0 cash = cannot fill):
-#   MRSH $170.88 vs $170 trigger — TRIGGERED, ACTIVE SO, EUR 200 needed
 #   SPGI $419.70 vs $420 trigger — AT TRIGGER, GATED Q1 Apr
 #   HALO $63.56 vs $65 trigger — TRIGGERED, GATED PTAB Jun 2
 #   STMN.SW CHF 81.46 vs ~82 trigger — AT TRIGGER, GATED
@@ -572,15 +592,23 @@ review_flags:
 # IMPLICATION: Correction is broadest since portfolio inception. 4 triggers + 3 near.
 # EUR 0 cash means ALL of these are academic unless rotation frees capital.
 # PRIORITY: (1) Mar 26 rotation (GDDY+DNLM.L), (2) FTNT exit → next best trigger
-# POST-MAR 26 ROTATION — DECIDED S151c32 (2026-03-13):
-#   FTNT EXIT CONFIRMED. E[CAGR] 9.4% worst, CVE escalation, 4.3% MoS only.
+# POST-MAR 26 ROTATION — REVISED S152 (2026-03-13):
+#   FTNT EXIT CONFIRMED (S151c32). E[CAGR] 9.4% worst, CVE escalation, 4.3% MoS only.
 #   EXIT IS UNCONDITIONAL — not contingent on FTNT Q1 May outcome.
 #   TIMING: late April, simultaneous with SPGI Q1 gate clearance.
-#   PRIMARY: SELL FTNT (~EUR 775) → BUY SPGI (EUR 400) + BUY MRSH (EUR 200) + EUR 175 buffer
-#   FALLBACK (if SPGI gate FAILS): SELL FTNT → BUY WING (EUR 300) + BUY MRSH (EUR 200) + EUR 275 buffer
+#
+#   ** S152 REVISION: MRSH at $170 is BELOW Tier B threshold (E[CAGR] 13.6% < 15%). **
+#   ** R1 COMPLETE: FV $195, entry $160. MRSH needs to drop another 6% to be buyable. **
+#
+#   PRIMARY: SELL FTNT (~EUR 775) → BUY SPGI (EUR 400) + BEST AVAILABLE (EUR 375)
+#     "Best available" at late April prices:
+#     - ALFA.L (if <=165p, E[CAGR] 19.4%) — HIGHEST RETURN, no gate, R3 complete
+#     - MRSH (if <=$160, E[CAGR] 15.9%) — Greensill binary, half-position
+#     - CPRT (if <=$31, E[CAGR] ~16%) — Salvage duopoly, R3 complete
+#     - Buffer/cash if no candidate meets threshold
+#   FALLBACK (if SPGI gate FAILS): SELL FTNT → BUY ALFA.L (EUR 400) + BUY best other (EUR 375)
 #   ACCELERATE TO MAR 26 IF: FTNT drops below $78 (cost basis protection)
-#   REQUIRES: investment-committee EXIT Protocol 6 gates (schedule for S152/S153)
-#   BASKET: Cybersecurity DIES (1→0). Accepted — QLYS/CHKP not near entry.
-#   SM VALIDATION: SPGI 7 quality funds (Cantillon $848M), 0% SI.
-#   Reverse DCF: market pricing 13.7% FCF growth vs 29.5% historical (15.8pp gap).
+#   REQUIRES: SPGI R4 PENDING (committee launched S152). EXIT Protocol 6 gates needed.
+#   BASKET: Cybersecurity DIES (1→0). Accepted.
+#   SPGI R4: investment-committee running. R3 FV $470. Thesis header FIXED (Error #62).
 # =============================================================================

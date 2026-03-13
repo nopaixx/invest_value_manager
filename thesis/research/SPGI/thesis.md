@@ -1,7 +1,10 @@
 # SPGI - S&P Global Inc.
 
-> R1 Fundamental Analysis | Date: 2026-02-28
-> Agent: fundamental-analyst | Pipeline Stage: R1 COMPLETE
+> **Fair Value:** $470 (R3 resolved S131, was $511 R1. DA MODERATE COUNTER -8.0%.)
+> **Expected Growth:** 7% (6.5% organic + 0.5% M&A)
+> **Date:** 2026-02-28 (R1/R2/R3)
+> **Status:** R3_COMPLETE (FV $470, entry $420. GATED Q1 2026. QS 60/76adj Tier A.)
+> Price at analysis: $442 (EUR 384) | 52wH: $579.05 | 52wL: $381.61
 
 ---
 
