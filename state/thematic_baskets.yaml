@@ -1,0 +1,420 @@
+# =============================================================================
+# THEMATIC BASKETS — The Fund IS Its Baskets (P17 v4.7)
+# =============================================================================
+# RESTRUCTURED: 2026-03-06 (S141)
+# Based on: docs/basket_strategy_review.md (S140 honest critique)
+#
+# CHANGES THIS SESSION:
+#   KILLED: pharma-biotech (NVO → orphan), specialty-insurance (GL → orphan)
+#   KILLED: eu-value-recovery (geographic label, not theme → RACE.MI + EDEN.PA orphaned)
+#   SPLIT: us-quality-compounders slimmed (FTNT → cybersecurity, LULU → orphan)
+#   BORN: cybersecurity (FTNT anchor + CHKP/QLYS pipeline)
+#   BORN: defense-rearmament (RESEARCHING — RHM.DE/BA.L/BAH pipeline)
+#   TRIMMED: uk-digital-platforms (BYIT.L → orphan, not a platform)
+#
+# CIO's primary job:
+#   1. DISCOVER best secular themes (>30% CAGR potential over 10+ years)
+#   2. BUILD baskets around those themes with highest-quality companies
+#   3. MONITOR each basket as a living entity
+#   4. KILL baskets when themes die, BIRTH new ones when superior themes emerge
+#
+# SAFETY: Per-stock R1-R4 gates stay intact. Max 2 new positions/session/basket.
+# NO FIXED ALLOCATION TARGETS. Allocation is REASONED each session.
+# =============================================================================
+
+baskets:
+
+  - id: us-quality-compounders
+    name: "US Quality Compounders"
+    status: ACTIVE
+    theme_vitality: ALIVE
+    thesis: >
+      US-listed quality compounders with wide/narrow moats, high ROIC (>15%),
+      strong FCF generation. Slimmed from 5 to 3 positions after spinning off
+      FTNT to cybersecurity basket and orphaning LULU (governance crisis).
+      Remaining positions: financial data/analytics (HLNE), physician monopoly
+      (DOCS), creative software (ADBE). Diverse sub-sectors reduce correlation.
+    thesis_file: thesis/baskets/quality-compounders-us/thesis.md
+    sector_views:
+      - world/sectors/technology.md
+    positions:
+      - ADBE    # Creative/document cloud, QS 76 Tier A (FTC headwind). Q1 beat Mar 12.
+      - HLNE    # Alt asset management, QS 82 Tier A — highest QS in portfolio
+      - DOCS    # Physician network, QS 79 Tier A — 85% monopoly
+    entering:
+      - GDDY    # BUY Mar 26. SMB domain + hosting, QS 75adj Tier A. R4 APPROVED. 31.8% FCF margin.
+    pipeline:
+      - VRSN    # Domain registry, QS 86adj Tier A, R4 APPROVED, SO $210
+    shared_risks:
+      - "USD strength reducing EUR-denominated returns"
+      - "US market multiple compression"
+      - "FTC antitrust actions (ADBE active trial Oct 2026)"
+      - "Insider selling pattern (GDDY CEO 48 sells, 0 buys)"
+    kill_conditions:
+      - "US enters stagflation (GDP <0% + inflation >5%)"
+      - "2+ positions hit individual KCs simultaneously"
+    vitality_signals:
+      positive: ["HLNE highest QS 82, insider cluster $3.2M", "DOCS 85% physician monopoly", "GDDY entering Mar 26 = 4 positions", "VRSN QS 86adj in pipeline", "ADBE Q1 beat, AI ARR tripled"]
+      negative: ["ADBE FTC trial Oct 2026", "DOCS MFN risk (16/20 clients)", "GDDY insider selling pattern"]
+    last_reviewed: 2026-03-13
+    created: 2026-02-22
+    notes: "S153: STRONGEST basket. 4 positions post-Mar 26 (~33% portfolio). E[CAGR] avg 17.7%. GDDY E[CAGR] 25.2% = 2nd highest in entire portfolio. Oil at $100 Brent is NEUTRAL for this basket (all SaaS/FCF machines, not energy-sensitive). CONCENTRATION WATCH: 33% is high but justified by quality (avg QS 78, all Tier A) and E[CAGR]. VRSN $235 vs $210 SO = 12% away, approaching in correction."
+
+  - id: cybersecurity
+    name: "Cybersecurity"
+    status: RESEARCHING  # S152: FTNT EXIT APPROVED late April. 0 positions post-exit.
+    theme_vitality: ALIVE  # Theme strong but basket has no anchor post-FTNT exit
+    thesis: >
+      Every organization needs to defend against increasingly sophisticated cyber
+      threats. Spending is non-discretionary and growing 12-15% CAGR. Best companies
+      have WIDE moats from switching costs and proprietary technology. Hormuz crisis
+      elevates state-sponsored cyber threat = structural tailwind. Global spend
+      growing from $188B (2024) to $300B+ (2028).
+      S152: FTNT EXIT APPROVED (E[CAGR] 9.4% worst, 3 KCs MONITORING CVE pattern).
+      Basket goes to 0 positions post-exit. Pipeline active for future re-entry.
+    thesis_file: thesis/baskets/cybersecurity/thesis.md
+    sector_views:
+      - world/sectors/cybersecurity.md
+    positions:
+      - FTNT    # EXIT APPROVED S152. SELL late April. Still held until execution.
+    pipeline:
+      - QLYS    # Cloud security, QS 80adj Tier A, SO $82 GATED Q1 billings
+      - CHKP    # Cybersecurity, QS 77adj Tier A, entry $125
+    shared_risks:
+      - "Competitive intensity (CrowdStrike, Palo Alto, Zscaler fighting for share)"
+      - "Platform consolidation risk (customers may consolidate to 1-2 vendors)"
+      - "Open-source security tools gaining traction"
+    kill_conditions:
+      - "Global cyber spending growth decelerates to <5% CAGR for 2 consecutive years"
+      - "No pipeline candidate reaches entry within 6 months of FTNT exit (basket death)"
+    vitality_signals:
+      positive: ["Hormuz/Iran = elevated cyber threat", "Spend non-discretionary", "QLYS + CHKP both Tier A in pipeline"]
+      negative: ["0 positions post-FTNT exit", "Both pipeline candidates gated", "FTNT CVE pattern weakened anchor thesis"]
+    last_reviewed: 2026-03-13
+    created: 2026-03-06
+    notes: "S153: FTNT still held pending late April exit. Post-exit: 0 positions. QLYS $97 vs $82 (18.3% away), CHKP $156 vs $125 (24.6% away). Both FAR from entry. If correction deepens to -15% S&P, QLYS could approach. Hormuz crisis = STRUCTURAL tailwind for theme but basket has no anchor. DEATH CLOCK: Sep 2026 if no entry. Re-entry FTNT at $73 remains possible if drops further."
+
+  - id: uk-quality-leaders
+    name: "UK Quality Leaders"
+    status: ACTIVE
+    theme_vitality: ALIVE
+    thesis: >
+      UK-listed companies with dominant market positions (>30% share), high ROIC
+      (>15%), recurring/habitual revenue, and structural tailwinds. GBP exposure is
+      shared risk. UK consumer confidence is shared macro driver.
+      S152: Renamed from "UK Digital Platforms" — DNLM.L (homewares retail, not digital)
+      joining Mar 26. Broader name accommodates quality UK leaders across sub-sectors.
+      MONY.L selling Mar 26 (rotation, E[CAGR] 13.7% = lowest in basket). IHP.L is
+      quality anchor. DNLM.L adds consumer retail diversification. ALFA.L in pipeline.
+    thesis_file: thesis/baskets/uk-digital-platforms/thesis.md
+    sector_views:
+      - world/sectors/digital-marketplaces.md
+      - world/sectors/consumer-discretionary.md
+    positions:
+      - MONY.L   # SELLING Mar 26. Price comparison, QS 75.
+      - IHP.L    # Adviser platform, QS 80 Tier A — quality anchor
+      # AUTO.L SOLD S150 (2026-03-08) — Rotation R0
+    entering:
+      - DNLM.L   # BUY Mar 26. UK homewares #1, QS 79 Tier A, 38.5% insider
+    pipeline:
+      - ALFA.L   # Auto dealer platform, QS 83 Tier A, R1 COMPLETE, entry 165p
+    shared_risks:
+      - "GBP depreciation (all revenues GBP-denominated)"
+      - "UK consumer spending slowdown"
+      - "UK fiscal tightening (IHT/pension reform impacting IHP.L)"
+      - "Tariff/import risk for retailers (DNLM.L sources globally)"
+    kill_conditions:
+      - "GBP/EUR drops >15% in 3 months (currency shock)"
+      - "UK enters recession (2 consecutive GDP contractions)"
+      - "2+ positions in basket trigger individual KCs simultaneously"
+    vitality_signals:
+      positive: ["IHP.L AUM growth + strong H1", "DNLM.L R4 APPROVED, entering Mar 26", "ALFA.L QS 83 in pipeline", "3 positions post-Mar 26 (IHP.L, DNLM.L + pipeline ALFA.L)"]
+      negative: ["UK macro overlay from Hormuz oil shock", "MONY.L exiting = losing yield anchor", "DNLM.L cyclically exposed (homewares discretionary)"]
+    last_reviewed: 2026-03-13
+    created: 2026-02-22
+    notes: "S153: Post-Mar 26: IHP.L (11.5%) + DNLM.L (~4.2%) = ~16% portfolio. Oil at $100 = HEADWIND for DNLM.L (consumer disc) but NOT for IHP.L (adviser platform, asset-light). ALFA.L 177p vs 165p entry (7.3% away, delta -13.7pp — FAST approaching). If ALFA.L hits 165p, deploy from FTNT exit remainder. 3-position basket would be strong (IHP.L QS 80 + DNLM.L QS 79 + ALFA.L QS 83)."
+
+  - id: data-analytics-monopolies
+    name: "Data & Analytics Monopolies"
+    status: ACTIVE
+    theme_vitality: STRENGTHENING
+    thesis: >
+      Toll-booth monopolies in data, analytics, and professional information. These companies
+      own irreplaceable data assets or market infrastructure that every participant MUST use.
+      Secular drivers: global AUM growth (7-10% CAGR), regulatory complexity increasing,
+      passive investing growth, professional information consumption, electronification of
+      markets. WIDE moats from regulatory barriers (ratings), network effects (exchanges/trading),
+      data lock-in (indices, legal/tax databases), and switching costs (embedded workflows).
+      Renamed from Financial Market Infrastructure to reflect broader theme including
+      professional information monopolists (WKL.AS).
+    thesis_file: thesis/baskets/data-analytics-monopolies/thesis.md
+    sector_views:
+      - world/sectors/financial-data-analytics.md
+      - world/sectors/professional-information-services.md
+    positions:
+      - TW      # Bond trading platform, QS 84adj Tier A — NEW S143
+      - WKL.AS  # Legal/tax/health information monopolist, QS 72 Tier B — NEW S143
+    entering:
+      - SPGI    # BUY late April (post-FTNT exit). Ratings duopoly, QS 76adj Tier A, R4 APPROVED. FV $470.
+    pipeline:
+      - ICE     # Exchange + data monopoly, QS 65adj Tier B, SCORED
+      - NDAQ    # Exchange + data, QS 67adj Tier B, 11% insider, SCORED
+    shared_risks:
+      - "Global AUM contraction (recession, market crash)"
+      - "Regulatory break of ratings duopoly"
+      - "Exchange fee compression from competition or regulation"
+      - "AI disruption of data/analytics business models"
+      - "High multiples across sector (P/E 28-35x) — market knows these are monopolies"
+    kill_conditions:
+      - "Global AUM declines >15% sustained 2+ years"
+      - "Major regulatory restructuring of credit ratings industry"
+      - "2+ positions hit individual KCs simultaneously"
+    vitality_signals:
+      positive: ["SPGI R4 APPROVED, entering late April = 3 positions", "WIDE moats across all three", "Global AUM at ATH", "7 quality funds hold SPGI (Markel, Dodge & Cox)", "TW WIDE moat 20/25"]
+      negative: ["Sector trades at premium multiples (P/E 28-35x)", "TW insider selling $26.3M in Feb", "WKL.AS receivables +23% vs rev +3.5%"]
+    last_reviewed: 2026-03-13
+    created: 2026-02-28
+    notes: "S153: SPGI entering late April via FTNT rotation (EUR 400). Post-entry: 3 positions (TW 5.8%, WKL.AS 7.6%, SPGI ~3.9%) = ~17% portfolio. STRONGEST by moat quality (all WIDE). Oil-NEUTRAL (all data/subscription). E[CAGR] avg 15.0%. SPGI $420 = at $420 trigger, Q1 May 5. TW bottom-tercile E[CAGR] 13.5% but WIDE moat justifies. WKL.AS receivables +23% still unresolved — monitor Q1."
+
+  - id: defense-rearmament
+    name: "Defense & European Rearmament"
+    status: RESEARCHING
+    theme_vitality: STRENGTHENING  # NATO 5% GDP, Hormuz, record backlogs, strong earnings
+    thesis: >
+      Multi-decade structural rearmament driven by NATO 5% GDP target (Hague Summit Jun
+      2025), Russia-Ukraine conflict persistence, and Iran/Hormuz crisis (Operation Epic
+      Fury Feb 28 2026). European defense budgets to roughly TRIPLE over 9 years. This is
+      NOT a cycle — it's a regime change in global defense spending. Germany alone EUR 82.69B
+      budget, targeting 3.5% GDP by 2029. Global defense hit $2.63T in 2025.
+      CONTRARIAN ANGLE: Most EU defense is 30-85x P/E (momentum, not value). The fund's
+      edge is finding quality at reasonable valuations. BAH at P/E 11.8x is the widest
+      quality-value gap in the sector.
+    thesis_file: thesis/baskets/defense-rearmament/thesis.md
+    sector_views:
+      - world/sectors/defense-aerospace.md
+    positions: []  # No positions yet — RESEARCHING status
+    pipeline:
+      - BAH     # R1-R4 COMPLETE S150. R3 FV $78 (R1 was $105). DEPRIORITIZED — zero MoS at $77.52. Entry $55 (-30%). Revisit May 2026 if Q4 shows civil bottoming. QS 68 Tier B.
+      - SAF.PA  # French jet engines, NOT SCORED. P/E 18.5x at EUR 318 = cheapest quality EU. CFM JV with GE. PRIORITY #1 for basket: SCORE NEXT.
+      - HO.PA   # Thales, QS Tool 65 Tier B. ROIC 12.5%, spread +7.4pp, 56.4% insider (FR state). P/E 47.5 = overpriced post-Hormuz.
+      - AM.PA   # French fighter jets, QS 75 Tier A. P/E 33x at EUR 334. Backlog EUR 46.6B. Near 52wH.
+      - LDO.MI  # Leonardo, QS Tool 54 Tier C. 30.2% insider (IT state). EPS CAGR +22.3%. P/E 29.3. Near 52wH.
+      - RHM.DE  # German ammo/vehicles, QS Tool 70 Tier B. Revenue CAGR +20%, EPS +35%. P/E 84x = EXPENSIVE.
+      - BA.L    # UK defense prime, QS Tool 71 Tier B. Backlog GBP 83.6B record. P/E 32x.
+      # ELIMINATED S142: LMT (QS 38 Tier C), RTX (QS 41 Tier C), NOC (QS 40 Tier C), GD (QS 52 Tier C). US primes = low margin govt contractors, all near ATH.
+    shared_risks:
+      - "Geopolitical de-escalation (Ukraine ceasefire + Iran settlement) reducing urgency"
+      - "EU defense at 30-85x P/E = momentum, not value — late entry risk"
+      - "Budget execution delays (procurement bureaucracy, industrial capacity constraints)"
+      - "DOGE impact on US govcon IT (BAH-specific)"
+      - "Currency risk (GBP for BA.L, EUR for continental names)"
+    kill_conditions:
+      - "NATO collectively reverses 5% GDP commitment"
+      - "Major geopolitical settlement (Ukraine + Iran) that deflates defense urgency >2 years"
+      - "All pipeline candidates remain >30% above entry for >90 days (theme overpriced)"
+    vitality_signals:
+      positive: ["NATO 5% GDP by 2035 COMMITTED", "Operation Epic Fury = spending catalyst", "Record backlogs across sector (BAE GBP 83.6B, Dassault EUR 46.6B, RHM EUR 63B)", "BAH at P/E 11.8x = 3x multiple gap vs sector", "Strong FY2025 earnings (Thales +66% profit, Safran 'outstanding')"]
+      negative: ["Most names 30-85x P/E = all growth priced in", "No position yet (RESEARCHING)", "BAH DOGE impact deeper than expected (Goldman downgrade)", "RHM.DE at 84x = buying 5+ years of growth"]
+    last_reviewed: 2026-03-06
+    created: 2026-03-06
+    notes: >
+      S141 NEW BASKET. Biggest strategic gap identified in S140 basket review. Secular
+      theme with 15-20 year visibility. Hormuz crisis is active catalyst. SCORED THIS
+      SESSION: RHM.DE QS 70 Tier B (ROIC 15.6%, +9.3pp spread, rev CAGR +20%, EPS +35%,
+      but 1.7% insider, GM declining, P/E 84x). BA.L QS 71 Tier B (ROIC 14.8%, +10.3pp
+      spread, rev CAGR +11%, FCF consistent 4/4yr, 0.4% insider, P/E 32x).
+      S150c14: BAH R1-R4 COMPLETE. DEPRIORITIZED. R3 FV $78 (was $105 R1). DOGE 60% structural,
+      Palantir existential for advisory. Entry $55 = -30% from $77.52. Committee CONDITIONAL at $75.
+      QS adjusted 73→68. Revisit May 2026. SAF.PA now PRIORITY #1 for basket scoring.
+      SAF.PA R3 COMPLETE (FV EUR 260, entry EUR 235, currently EUR 318 = 26% away).
+      PRIORITY ORDER: (1) BAH R1 in progress, (2) SAF.PA parking at entry, (3) HO.PA overpriced.
+      US PRIMES ELIMINATED: LMT/RTX/NOC/GD all Tier C. RHM.DE + BA.L Tier B at full price.
+
+  - id: european-pricing-power
+    name: "European Pricing Power"
+    status: DEATH_WATCH  # S150: Accepted death ~Apr 6. MC.PA EUR 504 (17% above entry), RMS.PA 62% above. No viable 2nd position.
+    theme_vitality: DYING
+    thesis: >
+      European companies with exceptional pricing power and competitive moats trading at
+      depressed multiples. EDEN.PA (regulated employee benefits with structural floor)
+      possesses pricing power that insulates from macro cycles. EUR-denominated, natural
+      for the portfolio. RACE.MI sold S143 — basket needs 2nd position to regain ACTIVE.
+      Pipeline: luxury names (RMS.PA, MC.PA) or other EUR pricing-power companies.
+    thesis_file: thesis/baskets/european-pricing-power/thesis.md
+    sector_views:
+      - world/sectors/luxury-goods.md
+      - world/sectors/business-services.md
+    positions:
+      - EDEN.PA   # Employee benefits, QS 62 Tier B, highest E[CAGR] 27.1%. Promoted from orphan S143.
+    pipeline:
+      - RMS.PA   # Hermes — QS 88/96 Tier A. SEVERELY OVERVALUED EUR 1905 vs entry EUR 1200. Crisis-only.
+      - MC.PA    # LVMH — QS 54/72 Tier B. SCORED S145. FV EUR 540, entry EUR 430. OVERVALUED at EUR 502 (7% above entry).
+    shared_risks:
+      - "EUR depreciation vs USD"
+      - "EU regulatory tightening (EDEN.PA France regulation)"
+      - "Single position concentration — all basket risk in EDEN.PA"
+    kill_conditions:
+      - "EU GDP contracts >2% annualized for 2Q consecutive"
+      - "France regulatory action hits EDEN.PA >15% revenue"
+      - "P17: single position >60d without 2nd → kill"
+    vitality_signals:
+      positive: ["EDEN.PA highest E[CAGR] 27.1%", "Sector de-rated 30% from 2023 peak", "Pipeline has strong candidates (RMS.PA, MC.PA)"]
+      negative: ["Single position after RACE.MI sold S143", "EDEN.PA QS 62 Tier B (lowest QS)", "RMS.PA + MC.PA not scored yet", "P17 deadline: need 2nd position by ~Apr 6 (60d from S143)"]
+    last_reviewed: 2026-03-07
+    created: 2026-02-22
+    notes: >
+      S150c13: DEATH ACCEPTED ~Apr 6. MC.PA EUR 504 (17% above entry EUR 430).
+      RMS.PA EUR 1948 (62% above entry EUR 1200). Neither deployable.
+      EDEN.PA reverts to orphan on E[CAGR] merit (28.2% = highest in portfolio).
+      EDEN.PA does NOT need a basket to justify — hold on quality alone.
+      If MC.PA drops to EUR 430-440 (another -14%), reconsider. Not counting on it.
+
+# =============================================================================
+# GLP-1 & Obesity Basket — KILLED S145
+# =============================================================================
+# MOVED TO killed_baskets section below. NVO reverts to orphan.
+
+# =============================================================================
+# ORPHAN POSITIONS (honest labels for positions without thematic basket)
+# =============================================================================
+# Orphans are NOT failures — they are positions where honesty about thematic
+# fit is more important than forcing them into a fake basket.
+# S143: ALL orphans resolved. NVO → glp1 basket. EDEN.PA → european-pricing-power basket.
+
+orphans:
+  - NVO     # GLP-1 duopolist, QS 73 Tier B. Reverted from glp1 basket (KILLED S145). CagriSema FAILED (KC#1). TRIMMING 14.3 shares Mar 26 (~EUR 472). Remaining ~21.9 shares (~8.4% portfolio). Wegovy pill ramp Q1-Q2 is next catalyst.
+  - BZU.MI  # Italian cement, QS 73/75adj Tier B. No thematic basket (standalone cyclical). 3.6% portfolio. E[CAGR] 11.4% = lowest non-FTNT. Oil at $100 = headwind (energy-intensive). DO NOT ADD. KC#6 monitors oil >$95 6mo.
+  # LULU — SOLD 2026-03-06. Orphan EXIT. P&L -1.0%.
+  # GL — SOLD 2026-03-07. S143 restructuring. Tier C orphan rotated to quality. P&L +0.8%.
+  # DOM.L — SOLD 2026-03-07. S143 restructuring. Tier B orphan, pre-earnings exit. P&L -1.7%.
+  # BYIT.L — SOLD 2026-03-07. S143 restructuring. Tier B probation orphan. P&L +5.7%.
+  # NVO — ASSIGNED to glp1 basket S143. REVERTED to orphan S145 (basket killed).
+  # EDEN.PA — ASSIGNED to european-pricing-power basket S143.
+
+# =============================================================================
+# KILLED BASKETS (archived for reference)
+# =============================================================================
+killed_baskets:
+  - id: pharma-biotech
+    killed_date: 2026-03-06
+    killed_session: 141
+    reason: "DECLINING theme, single LOW-conviction position with KC#1 triggered, pipeline gated 3+ months (HALO PTAB Jun 2026). Not a basket — a position we hadn't admitted was orphaned."
+    former_positions: [NVO]
+    condition_for_rebirth: "HALO PTAB resolves positively Jun 2026 + NVO KCs hold + Wegovy pill data strong → consider GLP-1/Obesity basket."
+
+  - id: specialty-insurance
+    killed_date: 2026-03-06
+    killed_session: 141
+    reason: "Single Tier C position (GL QS 52). Pipeline entirely needs R2. No candidate near entry. Insurance is cyclical, not secular. Apr 15 deadline unreachable."
+    former_positions: [GL]
+    condition_for_rebirth: "KNSL or ERIE triggers + GL upgrades to Tier B + underwriting cycle thesis strengthens → reconsider."
+
+  - id: eu-value-recovery
+    killed_date: 2026-03-06
+    killed_session: 141
+    reason: "Geographic label, not a theme. Renamed/reborn as european-pricing-power S143 with EDEN.PA + RACE.MI. Theme is PRICING POWER, not geography."
+    former_positions: [EDEN.PA, RACE.MI]
+    condition_for_rebirth: "REBORN as european-pricing-power S143."
+
+  - id: luxury-pricing-power
+    killed_date: 2026-03-07
+    killed_session: 143
+    reason: "Merged into european-pricing-power basket S143. EDEN.PA promoted from orphan to join RACE.MI. Both share EUR + pricing power thesis."
+    former_positions: [RACE.MI]
+    condition_for_rebirth: "Merged into european-pricing-power."
+
+  - id: glp1
+    killed_date: 2026-03-07
+    killed_session: 145
+    reason: "DECLINING theme vitality. Single position (NVO). CagriSema FAILED (KC#1). Pipeline empty — gated until HALO PTAB Jun 2026 (3+ months). No viable 2nd candidate globally at reasonable valuation. P17 violation: single position >30d without second. NVO reverts to orphan."
+    former_positions: [NVO]
+    condition_for_rebirth: "HALO PTAB positive Jun 2026 + NVO stabilizes above $45 + Wegovy pill data strong + identify 2nd candidate with QS >= 55 at entry → reconsider pharma/obesity basket."
+
+# =============================================================================
+# ALLOCATION REASONING (replaces fixed target_allocations)
+# =============================================================================
+
+allocation_reasoning:
+  date: 2026-03-10
+  reasoning: |
+    S150c13 UPDATE. 10 positions, EUR 370 cash (3.5%). 7 Tier A, 3 Tier B. 1 orphan (NVO).
+
+    BASKET STATUS:
+    US Quality Compounders: 3 positions (ADBE, HLNE, DOCS). ACTIVE. ~27% of portfolio.
+    ADBE Q1 earnings Wed Mar 12. VRSN SO $210.
+
+    Cybersecurity: 1 position (FTNT 7.2%). BUILDING.
+    Investor Day tonight (3PM PT). QLYS SO $82 GATED. CHKP $125 entry.
+
+    UK Digital Platforms: 2 positions (MONY.L 7.3%, IHP.L 11.4%). ACTIVE.
+    MONY.L SELL after ex-div Mar 26 → ~EUR 888 rotation capital.
+    DNLM.L + ALFA.L in pipeline.
+
+    Data & Analytics Monopolies: 2 positions (TW 5.7%, WKL.AS 7.6%). ACTIVE.
+    SPGI $420 in pipeline.
+
+    Defense & Rearmament: 0 positions. RESEARCHING.
+    BAH R1-R4 COMPLETE — DEPRIORITIZED (R3 FV $78, zero MoS). SAF.PA = new #1.
+
+    European Pricing Power: 1 position (EDEN.PA 18.4%). DEATH_WATCH.
+    Accepted death ~Apr 6. EDEN.PA reverts to orphan on E[CAGR] merit (28.2%).
+
+    ORPHANS (1): NVO (QS 73 Tier B, CagriSema FAILED, 11.4%).
+
+    MONY.L + NVO CAPITAL DESTINATION (EUR ~1,190, Mar 26) — LOCKED:
+    1. GDDY EUR 720 at market (R4 APPROVED, $82.71, MoS 37.9%, E[CAGR] 25.2%) — PRIORITY #1
+    2. DNLM.L EUR ~440 remainder (R4 CONDITIONAL, 861p, MoS 14.3%, E[CAGR] ~15.5%) — UK basket
+    Pre-flights COMPLETE for both. FOMC Mar 18 contingency: if DOVISH → reconsider NVO trim.
+
+    SMART MONEY DISCOVERY (S150c13):
+    CPRT QS 75 Tier A, $36.31 (-43% from 52wH), 4-fund convergence (Akre x2, Wedgewood).
+    Vehicle auction duopoly. Net cash. FCF 26.5%. Worth R1 if capacity allows.
+    CSGP eliminated (QS 35 Tier C). IDXX parking (QS 75 but P/E 46).
+
+# =============================================================================
+# THEME DISCOVERY TRACKING
+# =============================================================================
+theme_discovery:
+  last_scan: 2026-03-13
+  last_scan_session: 155
+  scan_frequency: "weekly minimum, or when cash >15%, or when basket count <3"
+  sources_used:
+    - "S140 Basket Strategy Review (docs/basket_strategy_review.md)"
+    - "S&P 500 + FTSE 250 screening (S126)"
+    - "macro_fragility.py world (S127)"
+    - "sector views scan (27 sectors documented)"
+    - "smart_money.py discover (cross-fund convergence)"
+    - "defense-aerospace.md sector view MATERIAL UPDATE (S141)"
+    - "QS scoring RHM.DE (70) + BA.L (71) for defense basket (S141)"
+  emerging_themes:
+    - theme: "Defense & European Rearmament"
+      evidence: "BASKET CREATED S141. NATO 5% GDP, Hormuz crisis, record backlogs. BAH P/E 11.8x contrarian. RHM.DE QS 70, BA.L QS 71, AM.PA QS 75."
+      status: "BASKET defense-rearmament CREATED (RESEARCHING). BAH re-eval is immediate priority."
+    - theme: "Cybersecurity/SASE"
+      evidence: "BASKET CREATED S141. FTNT (deployed QS 85), CHKP (R1, QS 77adj), QLYS (R1, QS 80adj, SO GATED). 3 Tier A candidates."
+      status: "BASKET cybersecurity CREATED (BUILDING). FTNT anchor. Need 2nd position."
+    - theme: "Life Sciences Tools & Diagnostics"
+      evidence: "TMO $521 (19% below ATH, P/E 29), DHR $210 (P/E 42). Picks-and-shovels of biotech. High switching costs, consumables."
+      status: "NOT SCORED. TMO more promising than DHR on valuation. Action: score TMO."
+    - theme: "Alternative Asset Management"
+      evidence: "HLNE (deployed QS 82), plus universe candidates. Private markets secular growth 15%+ CAGR."
+      status: "HLNE in US QC basket. Need 2+ more candidates for dedicated basket."
+    - theme: "Luxury / Pricing Power Monopolies"
+      evidence: "RACE.MI (QS 84, orphaned from EU Value Recovery). Hermes RMS.PA (QS likely >80, not scored). LVMH possible."
+      status: "BASKET luxury-pricing-power CREATED (RESEARCHING). RACE.MI anchor. Score RMS.PA + MC.PA."
+    - theme: "India Digital & Consumption"
+      evidence: "Fastest major economy 7%+ GDP. UPI digital payments. 500M middle class growth 2020-2040."
+      status: "NOT SCORED. Score INFY + HDFCBANK as test cases. 20-year theme we're blind to."
+    - theme: "Vehicle Salvage & Auction Duopoly"
+      evidence: "CPRT QS 75 Tier A, $36.31 (-43% from 52wH). Akre x2 + Wedgewood convergence. ROIC 20.9%, FCF 26.5%, net cash. Duopoly with IAA (now Ritchie Bros). Total loss rates rising structurally (ADAS repair costs, EV battery damage)."
+      status: "SCORED S150. Worth R1 if pipeline capacity available. Could anchor asset-light services basket."
+  rejected_themes:
+    - theme: "European Telecom"
+      reason: "DTE.DE sold. Low ROIC sector. Structural decline. No candidates with QS >70."
+      date: 2026-02-27
+    - theme: "Waste Management"
+      reason: "WM at 52wH ($240, P/E 36), very expensive. Low growth (~8%). Quality business but no entry opportunity."
+      date: 2026-02-28
+    - theme: "Nuclear / AI Energy Infrastructure"
+      reason: "CEG QS 24 Tier D (ROIC 5.8% vs WACC 10% = -4.2pp spread, FCF negative 3/4 years). VST QS 26 Tier D. Capital-intensive utility businesses. Popular narrative (AI data center demand) but fail quality screen entirely. Error #7 — popularity bias."
+      date: 2026-03-13

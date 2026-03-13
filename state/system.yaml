@@ -1,14 +1,14 @@
 # =============================================================================
 # SYSTEM STATE - Value Investor v4.0 (Slim Core)
 # Split files: calendar.yaml, standing_orders.yaml, watchlist.yaml, pipeline_tracker.yaml
-# Updated: 2026-02-14
+# Updated: 2026-02-20
 # =============================================================================
 
 system:
-  system_version: "4.0.0"
-  framework_version: "4.0"
-  last_session: 2026-02-15
-  session_number: 72
+  system_version: "4.9.0"
+  framework_version: "4.9"
+  last_session: 2026-03-13
+  session_number: 155
   status: active
 
   framework_v4_status:
@@ -17,42 +17,123 @@ system:
     implementation_date: 2026-02-05
 
   portfolio_quality_analysis:
-    date: 2026-02-15
+    date: 2026-03-13
     summary:
-      total_positions: 10
-      tier_a_count: 3
-      tier_b_count: 6
-      tier_c_count: 1
+      total_positions: 11
+      tier_a_count: 8  # MONY.L, ADBE, IHP.L, HLNE, DOCS, FTNT, TW, EDEN.PA
+      tier_b_count: 3  # NVO, WKL.AS, BZU.MI
+      tier_c_count: 0
       tier_d_count: 0
+    short_positions: 1  # CVNA
+    exposure:
+      long_value_eur: 0  # Calculated by portfolio_stats.py
+      short_value_eur: 0
+      net_exposure_eur: 0
+      gross_exposure_eur: 0
+      net_pct: 0
+      gross_pct: 0
     positions:
-      - { ticker: MONY.L, score: 75, tier: A, status: "ON PROBATION. FV 190 GBp. Feb 23 earnings." }
-      - { ticker: LULU, score: 78, tier: A, status: "ON PROBATION. FV $196. Mar 31 MAKE-OR-BREAK." }
-      - { ticker: ADBE, score: 76, tier: A, status: "FV $390. FTC trial Oct 2026." }
-      - { ticker: NVO, score: 73, tier: B, status: "FV $66. CagriSema March." }
-      - { ticker: AUTO.L, score: 71, tier: B, status: "FV 580p. April pricing make-or-break." }
-      - { ticker: BYIT.L, score: 68, tier: B, status: "FV 345 GBp. HOLD LOW." }
-      - { ticker: EDEN.PA, score: 62, tier: B, status: "FV EUR 29. Feb 24 earnings." }
-      - { ticker: DOM.L, score: 61, tier: B, status: "FV 240 GBp. Mar 5 results." }
-      - { ticker: DTE.DE, score: 69, tier: B, status: "FV EUR 35. Feb 26 earnings." }
-      - { ticker: GL, score: 52, tier: C, status: "FV $191. SEC+DOJ cleared." }
+      # MORN — SOLD S143. Moved to thesis/archive/MORN/.
+      - { ticker: MONY.L, score: 75, tier: A, status: "FV 190 GBp. ADD S143. UK Digital Platforms." }
+      - { ticker: ADBE, score: 76, tier: A, status: "FV $390. US Quality Compounders." }
+      - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. ADD S143. UK Digital Platforms quality anchor." }
+      - { ticker: NVO, score: 73, tier: B, status: "FV $47. CagriSema FAILED. HOLD LOW. R3 S146c8." }
+      # AUTO.L — SOLD S150 (executed at open). P&L +1.6%.
+      - { ticker: EDEN.PA, score: 76, tier: A, status: "FV EUR 29. QS Tool 76 Tier A (was 62 stale). European Pricing Power → orphan ~Apr 6." }
+      - { ticker: HLNE, score: 82, tier: A, status: "FV $110. ADD S143 >10%. US Quality Compounders." }
+      - { ticker: DOCS, score: 79, tier: A, status: "FV $30. R3 S146c4. US Quality Compounders." }
+      - { ticker: FTNT, score: 87, tier: A, status: "FV $88. EXIT APPROVED S152 (late April). Rotate to SPGI + best available." }
+      # RACE.MI — SOLD S143c10. T15 rotation. E[CAGR] 6.6% worst. P&L -3.4%.
+      - { ticker: TW, score: 84, tier: A, status: "FV $135. R3 S147c4. Data & Analytics Monopolies." }
+      - { ticker: WKL.AS, score: 72, tier: B, status: "FV EUR 80 (re-eval S143c11). Data & Analytics Monopolies. Sector view CREATED S144c2." }
+      - { ticker: BZU.MI, score: 73, tier: B, status: "FV EUR 51 (DA resolution S151). Italian cement. Standalone. KC#6 oil MONITORING." }
 
   last_session_summary: |
-    Session 72 - CRASH RECOVERY + PIPELINE + SYSTEM IMPROVEMENTS (2026-02-15)
-    CRASH RECOVERY: Diagnosed S72a crash (7 agents overflow). Recovered all state files.
-    PIPELINE: V R3 done (FV $305, entry $260). V R4 APPROVED (4 hard gates). FOUR.L R3 done (FV 4400p).
-    ORNBV.HE R1 complete (FV EUR 55, OVERVALUED at EUR 67.85). Universe expanded to 76 (5 new sectors).
-    Standing orders: V BUY $260 + ADD $235 created. 22 total active.
-    SYSTEM: Pre-execution-check skill created (6 gates). Fixed vs principles.md (removed 5% fixed threshold).
-    Strategic direction system added to system.yaml with mandatory re-evaluation protocol.
-    KEY LEARNING: Skills must be audited against principles.md before deployment. No fixed numbers.
+    Session 155 (2026-03-13 15:30 CET). NYSE open check + pipeline + sector views + FOMC prep.
+    DELIVERABLES:
+      S153: 10 commits. Phantom FVs corrected (TW, SPGI). World view v3.5.4 (FOMC/ECB/BoE frameworks).
+      S154: HLNE thesis refreshed ($107→$97, FV $110, all KCs CLEAR, insider cluster $3.2M). SAF.PA Error #62 fix.
+        Nuclear/AI energy basket KILLED (CEG QS 24, VST QS 26 = Tier D). Pipeline deep (22 R1 + 3 R3 + 7 R4).
+      S155: NYSE open — all 11 positions priced. ACGL false trigger FIXED (was "TRIGGERED" at $94 > $88 trigger).
+        CVNA short +6.5%. FOMC Section 9 VERIFIED complete. SO distances refreshed.
+    PORTFOLIO: 11 positions + 1 short, 0% cash. Blended E[CAGR] 18.4%. P&L -2.4% ($-287).
+    ROTATION LOCKED: Mar 26 SELL MONY.L + TRIM NVO → BUY GDDY + DNLM.L. Apr: EXIT FTNT → SPGI + best.
+    NEXT: FOMC Mar 18, ECB Mar 19, BoE Mar 20. HLNE ex-div Mar 20. Mar 26 execution day.
+
+  # NET EXPOSURE REASONING — Principio 13. Re-evaluate EVERY session.
+  # This is NOT a target or range. It's the CONCLUSION of reasoning.
+  # History preserved for consistency checks.
+  net_exposure:
+    current:
+      long_pct: 100.0
+      short_pct: 0.0
+      cash_pct: 0.0  # EUR 0. S151: BUY BZU.MI EUR 370. Cash fully deployed.
+      net_pct: 100.0
+      gross_pct: 100.0
+    reasoning: |
+      Session 154 (2026-03-13 14:30 CET): 99.2% net long, 0.8% short (CVNA token), 0% cash.
+      CORRECTION DEEPENING: VIX 25.5, S&P -4.1% from high, oil WTI $93. FOMC Mar 18 = binary.
+      Portfolio 80%+ OIL-NEUTRAL by design. BZU.MI (3.6%) only direct oil exposure.
+      11 positions, 8 Tier A, 3 Tier B. Blended E[CAGR] 18.4%. All KCs clear except NVO KC#1.
+      Correction is POSITIVE for pipeline: 4 SOs triggered + 5 near. 41 deployment-ready.
+      Mar 26 rotation: SELL MONY.L + TRIM NVO → BUY GDDY (25.2%) + DNLM.L (15.5%).
+      Late April: EXIT FTNT → SPGI EUR 400 + ALFA.L/LOPE/best EUR 375.
+      99% net long JUSTIFIED: quality portfolio, oil-neutral, rotation path improving.
+      Risk: HLNE -9.1% (refreshed S154, FV $110 maintained, all KCs CLEAR, insider cluster $3.2M).
+      Risk: TW insider selling $26.3M (Feb-Mar) — already in thesis, monitoring.
+      Inaction Audit: N/A — 0% cash, deployment via rotation only.
+    last_updated: 2026-03-13
+    history:
+      - date: 2026-03-03
+        net_pct: 60.7
+        note: "S136. 60/0/40 MAINTAINED. Crisis escalating. RACE.MI 3.3%. SOs are deployment mechanism."
+      - date: 2026-02-25
+        net_pct: 45.1
+        note: "S118. Cash 54.9% EMERGENCY (5th session >50%). NVO HOLD confirmed. DOCS R4 in progress. DTE.DE TRIM tomorrow if >EUR 34. Inaction Audit PASS."
+      - date: 2026-02-25
+        net_pct: 45.1
+        note: "S117. Cash 54.9% EMERGENCY (4th session >50%). ANF R1 COMPLETE (WATCHLIST, entry $80). Digital marketplaces v2.1 updated. DTE.DE earnings TODAY. No deployment target at market. Inaction Audit PASS."
+      - date: 2026-02-25
+        net_pct: 44.0
+        note: "S116. NVO CagriSema FAILED. KC#1 triggered. HOLD recommended (P6). Position -19.8%. Cash ratio worsened to ~56%. DOCS R3 + PEGA R3 completed. DTE.DE earnings tomorrow."
+      - date: 2026-02-22
+        net_pct: 45.4
+        gross_pct: 45.4
+        note: "S109. IHP.L market buy S108 increased long 43.3→45.4%. Cash 56.7→54.6%. Fair-Value regime confirmed. Earnings week deployment conditional (MONY.L→DNLM.L). 0 shorts justified (LYV cancelled, no pipeline). REN.AS R3 WATCHLIST EUR 24.50."
+      - date: 2026-02-20
+        net_pct: 43.3
+        gross_pct: 43.3
+        note: "S105. No change from S102. Cash 56.7% still above target. Earnings week = deployment opportunity. 0 shorts justified (LYV paused, CVNA no catalyst). Anti-fantasy protocol deployed."
+      - date: 2026-02-20
+        net_pct: 43.3
+        gross_pct: 43.3
+        note: "S102. MORN market buy reduced cash 60.6→56.7%. First E[CAGR]-framework deployment."
+      - date: 2026-02-18
+        net_pct: 39.3
+        gross_pct: 39.3
+        note: "S76. LYV S4 APPROVED CONDITIONAL. Primera documentacion formal. Cash 60.7% excesivo."
+
+  # BASKET WEIGHTS (S143c4, cost-basis proxy, 2026-03-07)
+  # Total portfolio ~EUR 10,846 (invested ~8,775 + cash 2,071)
+  basket_weights:
+    date: 2026-03-13
+    method: "live market values from portfolio_cagr.py"
+    baskets:
+      - { basket: "US Quality Compounders", positions: "ADBE+HLNE+DOCS", eur: 2709, weight_pct: 26.3, target_pct: 30 }
+      - { basket: "UK Quality Leaders", positions: "MONY.L+IHP.L", eur: 1935, weight_pct: 18.8, target_pct: 18 }
+      - { basket: "Data & Analytics Monopolies", positions: "TW+WKL.AS", eur: 1387, weight_pct: 13.5, target_pct: 13 }
+      - { basket: "Cybersecurity", positions: "FTNT", eur: 763, weight_pct: 7.4, target_pct: 0, note: "EXIT late April" }
+      - { basket: "European Pricing Power", positions: "EDEN.PA", eur: 1926, weight_pct: 18.7, target_pct: 15 }
+      - { basket: "Unassigned", positions: "NVO+BZU.MI", eur: 1573, weight_pct: 15.3, target_pct: 0, note: "NVO orphan (trim Mar 26), BZU.MI standalone cyclical" }
+    notes: "S155: 0% cash. AUTO.L sold S150. BZU.MI added S151 (standalone). Mar 26: MONY.L SELL + NVO TRIM → GDDY + DNLM.L. UK basket renamed from 'UK Digital Platforms' to 'UK Quality Leaders' (post-AUTO.L). FTNT EXIT → Cybersecurity basket dies, capital to SPGI + best."
 
   # STRATEGIC DIRECTION — Re-evaluate EVERY session start with fresh data.
   # This is NOT a plan. It's a compass bearing. Replace when context changes.
   # Ask: "Given what I know TODAY, is this still the right priority?"
   strategic_direction:
-    current: "Capital deployment — expand universe + advance pipeline + standing orders"
-    rationale: "57% cash is drag. 22 standing orders active. Pipeline bottleneck at R3→R4."
-    set_date: 2026-02-15
+    current: "BASKETS ARE THE FUND (v4.7). Descubrir mejores temas seculares, construir baskets, mantener como entes vivos. Deployment via basket priorities. Theme discovery continuo."
+    rationale: "FULLY DEPLOYED. 0% cash. Rotation is the only lever. Mar 26: SELL MONY.L + TRIM NVO → BUY GDDY (E[CAGR] 25.2%) + DNLM.L (15.5%). Late April: EXIT FTNT → SPGI + best available. Oil $100 (Epic Fury naval mines) = headwind for BZU.MI KC#6 (6mo clock ~2wk in). FOMC Mar 18 = binary event for rates/growth. Pipeline deep (32 candidates) but entries are bottleneck. Theme discovery: nuclear KILLED (Tier D), defense RESEARCHING (SAF.PA 23.5% away). Focus: protect existing, execute rotation calendar, advance pipeline for FTNT capital deployment."
+    set_date: 2026-03-13
     review_protocol: |
       Every Fase 0, BEFORE executing anything, ask:
       1. Has something changed that invalidates this direction?
@@ -66,9 +147,15 @@ system:
     anti_bias: "This direction was set Feb 15. Do NOT anchor to it. Fresh eyes each session."
 
 macro_snapshot:
-  last_update: 2026-02-02
-  themes: ["Fed/BCE pausa 3.5%/2.0%", "Europa barata", "Tariffs escalando", "Iran tension up", "China mejora 4.5%"]
-  risks: ["US-Iran guerra 30-40%", "Tariff war 40-50%", "Recesion US 25-35%", "Oil shock >$90 15-25%"]
+  last_update: 2026-03-13
+  themes: ["OPERATION EPIC FURY — ESCALATING. Iran naval mines in Hormuz. IEA 400M barrel emergency release.", "OIL CRISIS: Brent $100, WTI $94.59. Supply disruption ongoing (Hormuz + Qatar LNG).", "VIX ~25. S&P correcting from highs. DXY weakening.", "Fed/BCE pausa 4.25-4.50%/2.75%. FOMC Mar 18 = binary (dot plot scenarios).", "ECB Mar 19 + BoE Mar 20 = central bank triple header.", "Correction deepening: quality names pulling back (ADBE -4.3%, HLNE -7.5% from cost).", "Pipeline entries approaching: HALO below trigger (GATED), SPGI +0.7% from $420."]
+  risks: ["OIL $100 sustained >6mo → BZU.MI KC#6 trigger + global recession risk.", "FOMC hawkish surprise (0 cuts) → growth compression for ADBE/DOCS/TW/HLNE.", "CVNA short: earnings May 6, stop $370. Currently +6.5% unrealized.", "NVO KC#1 TRIGGERED (CagriSema failed). Orphan, HOLD LOW, trim 14.3 shares Mar 26.", "FTNT EXIT late April — timing risk if correction deepens (sell lower).", "EDEN.PA SI 23.1% yfinance (AMF 9.64% — declining, Citadel covered). Monitor.", "Mar 26 execution risk: 4 trades in one day, FX sensitivity GBP/EUR/USD."]
+
+closing_criteria:
+  - "12+ months underperformance >3pp annualized vs MSCI World + MSCI Europe blend"
+  - "<3 sessions/week sustained for 1+ month"
+  - "Portfolio >EUR 100K and eToro limitations prevent proper execution"
+  - "DA calibrator >70% insufficient for >50+ corrections = systematic FV bias"
 
 # Cross-references to split files:
 # Calendar events:     state/calendar.yaml

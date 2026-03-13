@@ -1,8 +1,9 @@
 # FOUR.L - 4imprint Group plc
 
-> **Fair Value:** 5300 GBp
-> **Date:** 2026-02-14
-> **Status:** R1 COMPLETE - Pending R2 (Devil's Advocate)
+> **Fair Value:** 4000 GBp (S151 post-FY2025, was 4400 R3, was 5300 R1. Weak 2026 guidance → recovery delayed 1yr.)
+> **Expected Growth:** 4% (R3: tariffs persistent, mktg efficiency drag -0.5%)
+> **Date:** 2026-02-14 (R1), R3 2026-02-14, Section 9 2026-03-10
+> **Status:** R3_COMPLETE (FV 4400p, entry 3400p. FY2025 results Mar 11 — CONDITIONAL PASS. Hard gate NOT fully cleared: 2026 guidance weak.)
 
 ## TL;DR
 
@@ -431,18 +432,131 @@ This means even in the bear case, the downside is limited to ~9% from current le
 
 ---
 
-## Veredicto: WATCHLIST --- PENDING EARNINGS (Mar 11)
+## Section 9: FY2025 Results Framework (March 18, 2026)
+
+> **Status:** PIPELINE (not active position). Decision: PASS gates → R4 same session → SO 3400p
+> **Current price:** 3850p | **R3 FV:** 4400p | **R3 Entry:** 3400p | **QS:** 69 Tier B
+> **Context:** War/oil selloff has NOT brought price to entry. 13.2% above 3400p target.
+
+### 9.1 Key Metrics
+
+| Metric | BEAT | PASS | FAIL | KC Link |
+|--------|------|------|------|---------|
+| **Revenue FY2025** | >$1.37B (flat-ish) | $1.33-1.37B | <$1.33B | KC#5 (market share) |
+| **Operating Margin** | >11.0% | 10.0-11.0% | <10.0% | KC#7 (tariffs) |
+| **Gross Margin** | >32.0% | 30.0-32.0% | <30.0% | KC#3 |
+| **Q4 Revenue Sequential** | Q4 > Q3 by >3% | Q4 ≈ Q3 (±1%) | Q4 < Q3 | Industry participation |
+| **New Customer Orders H2** | Decline <5% | Decline 5-12% | Decline >15% | KC#1 (Year 2 gate) |
+| **Marketing Efficiency** | >$7.80/$ | $7.00-7.80/$ | <$7.00/$ | KC#8 |
+| **2026 Revenue Guide** | >$1.40B (+4%) | $1.35-1.40B (flat-ish) | <$1.35B (decline) | Thesis validation |
+| **Cash Position** | >$140M | $120-140M | <$100M | Capital allocation |
+| **Dividend/Buyback** | Special div or buyback announced | Maintained | Cut | Capital allocation |
+
+### 9.2 The Critical Question: Industry Recovery Participation
+
+R3's #1 unresolved issue: industry recovered H2 2025 (+5.1% Q4) but 4imprint did NOT participate per R1 data. FY2025 results will RESOLVE this:
+
+- **If Q4 sequential improvement visible:** Timing-lag thesis validated (4imprint's SMB direct model lags 2-3Q). Recovery coming in H1-H2 2026. BULLISH.
+- **If Q4 flat/negative while industry +5.1%:** Company-specific problem. Marketing engine impaired OR competitive displacement. BEARISH. Re-evaluate thesis fundamentals.
+
+This single data point is more important than any other metric.
+
+### 9.3 Scenario Matrix
+
+| Scenario | Criteria | Probability | FV Impact | Action |
+|----------|----------|-------------|-----------|--------|
+| **BEAT** | Q4 seq improvement + OM >11% + guide >$1.40B + new cust decline <5% | 15% | FV 4,400→4,800p. Entry revise UP to 3,600-3,800p. | Run R4 immediately. Set SO at revised entry. Market buy justified if price <3,800p. |
+| **PASS** | OM 10-11% + Q4 ≈ Q3 + guide $1.35-1.40B + mktg efficiency >$7.00 | 40% | FV 4,400p maintained. Entry 3,400p. | Run R4 if no KC triggered. Set SO 3,400p. Wait for price to come to us. |
+| **CONDITIONAL** | OM 10-11% BUT Q4 weak AND guide flat AND mktg efficiency declining | 30% | FV 4,400→4,000p. Entry 3,000-3,200p. | Defer R4. Revise FV. Monitor Q1 2026 before committing. |
+| **FAIL** | OM <10% OR GM <30% OR new cust -15%+ OR guide decline | 15% | FV 4,400→3,500p or AVOID. | ARCHIVE. The cyclical-vs-structural debate resolved to structural. |
+
+### 9.4 KC Mapping
+
+| KC | Current Status | FY2025 Trigger | If Triggered |
+|----|---------------|----------------|--------------|
+| KC#1: New customer -15% 2 consecutive yrs | Year 2 watch (-12% in 2024) | H2 2025 new cust data | If -15%+: Year 2 of 2 = **KC FIRED**. AVOID. |
+| KC#3: Gross margin <28% | CLEAR (32% LTM) | FY2025 GM data | If <30%: ELEVATED. If <28%: FIRED. |
+| KC#5: Market share loss 2yr | Year 1 triggered | FY2025 vs industry FY2025 | If industry grew and FOUR declined again: Year 2 of 2. One more year → FIRED. |
+| KC#7: Tariff supply chain disruption | MONITORING | GM trend + 2026 guide | If GM <30% + guide down: FIRED. |
+| KC#8: Mktg efficiency <$7.00 | MONITORING ($7.50 est) | FY2025 mktg spend data | If <$7.00: FIRED. Growth engine uneconomic. |
+
+### 9.5 Position Action
+
+**We have NO position.** This is a pipeline decision:
+
+- **BEAT:** Warrants R4 same session. If approved + price ≤3,800p → market buy justified. If price >3,800p → SO at 3,600p.
+- **PASS:** Run R4. Set SO at 3,400p. Wait for pullback.
+- **CONDITIONAL:** Defer. Revise FV downward. Reassess in 3 months post-Q1.
+- **FAIL:** ARCHIVE. Remove from pipeline.
+
+### 9.6 Tariff Context (Critical for 2026 Guide)
+
+Since R3 (Feb 14), tariff landscape has WORSENED:
+- Iran war + oil at $91 = additional inflationary pressure on supply chains
+- US-China tariff extension only through Nov 2026 (temporary)
+- De minimis elimination permanent
+- If 2026 guide incorporates further tariff escalation → lower end of scenarios
+
+### 9.7 Competitive Intelligence
+
+**During results call, listen for:**
+- HALO / other large distributors: are they gaining share via digital channels?
+- Industry association data: Q4 2025 order volume breakdown (pricing vs units)
+- Supply chain diversification: % of sourcing shifted from China to Vietnam/Mexico
+- Any mention of AI/automation in customer acquisition (could help or hurt marketing efficiency)
+
+---
+
+## Section 9.8: FY2025 Results Assessment (Released Mar 11, 2026)
+
+> **Scored S151 (2026-03-13). Results released Mar 11, NOT Mar 18 as calendar indicated.**
+
+### Actual Results vs Section 9 Framework
+
+| Metric | BEAT | PASS | FAIL | **Actual** | **Score** |
+|--------|------|------|------|-----------|-----------|
+| Revenue FY2025 | >$1.37B | $1.33-1.37B | <$1.33B | **$1.35B (-1.5%)** | **PASS** |
+| Operating Margin | >11.0% | 10.0-11.0% | <10.0% | **10.8%** | **PASS** |
+| Gross Margin | >32.0% | 30.0-32.0% | <30.0% | **~32%** | **PASS (borderline)** |
+| New Customer Orders | <-5% | -5% to -12% | >-15% | **-12%** | **PASS (bottom)** |
+| Cash Position | >$140M | $120-140M | <$100M | **$132.8M** | **PASS** |
+| 2026 Revenue Guide | >$1.40B | $1.35-1.40B | <$1.35B | **"slightly down vs 2025"** | **CONDITIONAL** |
+| Dividend | Special/buyback | Maintained | Cut | **240.0c** | **PASS** |
+
+### Verdict: CONDITIONAL PASS (Scenario 3, 30% probability)
+
+**Key findings:**
+1. **OM held at 10.8%** — above the 10% gate. Business model functioning.
+2. **New customers -12%** = bottom of PASS range. KC#5 Year 2 watch. If -12%+ continues in H1 2026 → KC#1 Year 2 = FIRED.
+3. **2026 guidance weak** — "slightly down vs 2025" with tariff uncertainty. Does NOT meet PASS criteria ($1.35-1.40B). Board cautious.
+4. **Cash declined** $147.6M→$132.8M (still PASS range). No buyback announced.
+5. **New Chair** Paul Forman effective Mar 16.
+6. **Industry recovery participation** — UNRESOLVED. "Orders and revenue slightly down" in early 2026 = industry is recovering but 4imprint is NOT yet participating. This is the BEARISH reading of Section 9.2.
+
+### Action per Section 9.3 CONDITIONAL:
+- **DEFER R4.** Do NOT run committee.
+- **Revise FV:** 4,400→4,000p (reflect weaker guide + tariff risk + mktg efficiency concern).
+- **Revised entry:** 3,000-3,200p (from 3,400p).
+- **Monitor Q1 2026** results (~June 2026) before committing.
+- **KC#5 Year 2 ESCALATED.** If H1 2026 new customer decline continues → FIRED → AVOID.
+
+### Price Context:
+Current 3,490p is ABOVE revised entry range 3,000-3,200p. No action. Would need ~10-13% decline to reach entry.
+
+---
+
+## Veredicto: WATCHLIST --- CONDITIONAL PASS, DEFERRED (originally PENDING EARNINGS)
 
 **Rationale:**
 - QS 72 Tier B with 38% MoS is WELL within precedent range for a BUY
 - Business quality is exceptional (85% ROIC, net cash, #1 market position, 0/10 value trap)
 - Risk/reward is asymmetric: 38% upside to base, only 10% downside to bear
-- BUT: Full year results on March 11 will provide critical clarity on:
+- BUT: Full year results on March 18 will provide critical clarity on:
   - 2026 guidance and tariff impact visibility
   - Marketing efficiency trends
   - Cash position and capital allocation plans (buyback?)
 
-**HARD GATE: FY2025 results (March 11, 2026).** This is 4 weeks away. The data will be far more informative than anything I can estimate. Given our 57% cash position and no urgency to deploy, WAITING for this data is the disciplined approach.
+**HARD GATE: FY2025 results (March 18, 2026).** This is 4 weeks away. The data will be far more informative than anything I can estimate. Given our 57% cash position and no urgency to deploy, WAITING for this data is the disciplined approach.
 
 **Entry guidance if results are solid:**
 - BUY trigger: 3800-4000p (current levels) if Mar 11 results confirm: (a) margins held, (b) 2026 outlook is stable-to-positive, (c) no kill conditions triggered
@@ -456,6 +570,80 @@ This means even in the bear case, the downside is limited to ~9% from current le
 - The declining marketing efficiency ($8.30 -> $7.88 revenue per marketing dollar) is the single biggest unresolved question. Is this a temporary saturation effect as 4imprint increased spend by 9% in a soft market? Or is it a structural diminishing return as the addressable market for direct marketing reaches natural limits?
 - The FY2025 full results (Mar 11) are critical. My estimates are based on the Jan 2026 trading update, not audited financials. Actual margins and cash flow may differ.
 - I have limited visibility into 2026 tariff trajectory. The current tariff regime is fluid and unpredictable.
+
+---
+
+## Post-Entry Update: FY2025 Results Scored (2026-03-13, S156)
+
+### Results Summary (FY2025, released Mar 11, 2026)
+- **Revenue:** $1.35B (-1.5% vs $1.37B 2024) — matches BASE
+- **PBT:** $150.8M (vs $154.4M 2024) — matches BASE
+- **OP Margin:** 10.8% — ABOVE BASE expectation (10-10.5%)
+- **Gross Margin:** 32% — ABOVE BASE (expected 30-31%)
+- **Total orders:** 2.06M (-3% vs 2.12M) — matches BASE
+- **New customer orders:** -12% (full year) — at R3 threshold, not -15%+ bear
+- **Avg order value:** +1% — slight positive
+- **Cash:** $133M (vs $148M 2024) — still net cash, capital return ongoing
+- **2026 trading:** First 2 months "slightly down" vs 2025. Tariff costs phasing in.
+
+### Scored Against R3 Buy Conditions
+
+| Condition | Result | Verdict |
+|-----------|--------|---------|
+| (a) OP margin 10%+ | 10.8% | **PASS** |
+| (b) Q4 sequential improvement vs Q3 | No quarterly breakout disclosed | **INCONCLUSIVE** |
+| (c) 2026 guidance stable-to-positive | "Slightly down" first 2 months | **FAIL** |
+| (d) No new KCs triggered | None | **PASS** |
+| (e) Marketing efficiency clarity | Not specifically disclosed | **INCONCLUSIVE** |
+
+### Scored Against R3 Avoid Conditions
+
+| Condition | Threshold | Result | Verdict |
+|-----------|-----------|--------|---------|
+| OP margin | < 9.5% | 10.8% | **CLEAR** |
+| Q4 flat while industry grew | Industry Q4 +5.1% | Not disclosed | **UNKNOWN** |
+| New customer -15%+ H2 | -15% threshold | -12% FY | **CLEAR** |
+| Revenue decline guide 2026 | Any further decline | "Slightly down" 2mo | **AMBER** |
+| Gross margin | < 30% | 32% | **CLEAR** |
+| Marketing eff | < $7.00/$ | Not disclosed | **UNKNOWN** |
+
+### Assessment: CONDITIONAL PASS — Hard Gate NOT Cleared
+
+The operational metrics are BASE to slightly-above-BASE. The business is resilient:
+- GM 32% (held, above R3 bear expectation of 30%)
+- OM 10.8% (above R3 expectation, showing cost discipline)
+- New customer decline at -12% (not accelerating to -15%+ bear threshold)
+- ROIC structurally high, net cash maintained
+
+**However, buy condition (c) FAILS.** 2026 guidance is "slightly down" — not stable-to-positive. This means:
+- The cyclical vs structural question remains UNRESOLVED
+- 4imprint still has not shown recovery momentum
+- Tariff costs are INCREASING, not diminishing
+
+### Revised E[CAGR] at Current Price (3,440p)
+
+With S151 FV revision to 4,000p (from 4,400p, weak 2026 guidance → recovery delayed 1yr):
+E[CAGR] = (4000/3440)^(1/3) - 1 + 4% growth + 5.2% yield = 5.2% + 9.2% = **~14.4%**
+
+At 14.4%, this is BELOW the 15% Tier B threshold. The E[CAGR] is insufficient at current price.
+Would need ~3,200p for E[CAGR] to clear 15%: (4000/3200)^(1/3)-1 + 4% + 5.2% = 7.7% + 9.2% = 16.9%.
+
+### Decision: WATCHLIST MAINTAINED
+
+**Do NOT buy.** The E[CAGR] is BELOW threshold AND the R3 hard gate is not cleared:
+- 2026 guidance weak → KC#5 risk (Year 2 of market share loss if industry grows while 4imprint doesn't)
+- No Q3/Q4 breakout → cannot confirm timing-lag vs structural thesis
+- Marketing efficiency not disclosed → key variable remains blind
+
+**Next action:** Wait for Q1 2026 trading update (likely May/June). If Q1 shows stabilization or recovery → CLEAR gate, set standing order. If Q1 confirms continued decline → KC#5 Year 2 likely, move to AVOID.
+
+**Entry revised:** 3,200p (from 3,400p). At 3,200p: MoS 20% vs FV 4,000p, E[CAGR] 16.9%. Requires -7% drop from current 3,440p.
+**Price alert:** If price drops to 3,000p (MoS 25% vs FV 4,000p), the risk/reward becomes compelling — E[CAGR] 19.2% even with reduced FV.
+
+### KC Status Post-Results
+- KC#1 (new customer -15% 2yr): -9% (2024), -12% (2025). NOT triggered. MONITORING.
+- KC#5 (market share loss 2yr): Year 1 TRIGGERED (2025). Year 2 pending (need 2026 industry data). MONITORING.
+- KC#7 (tariff margin compression): GM held at 32%. NOT triggered. MONITORING (tariff costs phasing in for 2026).
 
 ### Sugerencias para el Sistema
 - **quality_scorer.py** misclassifies FOUR.L sector as "Advertising Agencies" (50% median GM). Should be "Promotional Products Distribution" or "Direct Marketing" with a much lower GM median (~25-30%). Consider adding sector override capability.

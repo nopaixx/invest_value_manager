@@ -1,9 +1,11 @@
 # MONY.L - MONY Group PLC (MoneySupermarket)
 
-> Fecha: 2026-02-04
+> Fecha: 2026-02-04 | Updated: 2026-03-07 (S147c3)
 > Analista: Claude (fundamental-analyst)
-> Status: RESEARCH - Pendiente Investment Committee
-> **Fair Value:** 190 GBp (v3.0, updated 2026-02-12)
+> Status: ACTIVE HOLD — 384 shares @ 171.0p avg, 7.3% portfolio. FIRST ROTATION CANDIDATE.
+> **Expected Growth:** 2% (post-DA actual 1-2%. Lowest growth in portfolio. Insurance premium decline structural but cyclical recovery expected 2026.)
+> **Fair Value:** 190 GBp (R3 S147c3, maintained. DA MODERATE COUNTER, 5 HIGH. DA bear 155p. Only 10% upside — yield play.)
+> Pipeline Stage: R3_COMPLETE
 
 ---
 
@@ -420,6 +422,19 @@ MoS vs Bear: 11%
 4. **Insider selling masivo**: Si insiders venden >5% en 12 meses
 5. **Market share loss significativo**: Si cae de #2 a #4 o peor
 6. **Regulatory change UK**: Si UK prohibe comisiones de comparison websites
+
+### Kill Conditions Status (2026-03-08, post-FY2025 earnings)
+
+| KC# | Condition | Status | Notes |
+|-----|-----------|--------|-------|
+| 1 | Revenue decline >5% FY | **CLEAR** | FY2025 revenue GBP 446.3M (+2% YoY). Above threshold. |
+| 2 | Insurance segment -5%+ | **CLEAR** | H2 2025 Insurance -1%. Better than H1. Not triggered. |
+| 3 | Dividend cut | **CLEAR** | Dividend increased +1%. 17+ years consecutive. 7.3% yield. |
+| 4 | Organic traffic -15% YoY 2Q | **MONITORING** | Nov 2025 was -8.82% MoM. Need sustained YoY data. Approaching but not triggered. |
+| 5 | ROIC <WACC 2yr | **CLEAR** | ROIC 31.8% vs WACC 9.2%. +22.6pp spread. No risk. |
+| 6 | Google AI Overviews >25% queries | **MONITORING** | No reliable measurement. UK deployment growing. Existential risk but unquantified. |
+
+*Note: Updated KCs 7-9 defined later in thesis (Model Disruption section). KC#7 (embedded insurance): CLEAR (no UK deployment). KC#8 (agentic AI brokers): CLEAR (Insurify US-only, 0% UK adoption). KC#9 (AI strategy at earnings): CLEAR (OpenAI deal announced, products shown).*
 
 ---
 
@@ -1101,18 +1116,56 @@ EARNINGS RELEASE (Feb 23)
 |--------|-------|
 | Shares | 204 |
 | Avg Cost | 232 GBp |
-| Current Price | 146.1 GBp |
-| Unrealized P&L | -37.1% |
-| Position Size | ~3.2% of portfolio |
+| Current Price | 152.9 GBp |
+| Unrealized P&L | -34.1% |
+| Position Size | ~3.5% of portfolio |
 | QS Tool | 83/100 (Tier A) |
 | QS Adjusted | 75/100 (Tier A borderline) |
-| Working FV | 190 GBp (v3.0, replaces 201 GBp) |
-| MoS vs FV | 23.1% |
-| MoS vs Bear | -9.8% |
-| Conviction | LOW |
-| Status | ON PROBATION |
-| Next Review | Feb 23 (earnings) |
-| Standing Order ADD | CANCELLED (was 150p; no ADD while on probation) |
+| Working FV | 190 GBp (v3.0, maintained post-FY2025) |
+| MoS vs FV | 24.3% |
+| E[CAGR] | 18.2% |
+| Conviction | LOW (was ON PROBATION, easing) |
+| Status | HOLD — PROBATION EASING |
+| Next Review | Next quarter or if price >180p |
+| Standing Order ADD | CANCELLED (no ADD while conviction LOW) |
+
+### FY2025 Earnings Results (2026-02-23)
+
+**Revenue: GBP 446.3M (+2% YoY)** — Above KC#1 floor of GBP 435M by GBP 11.3M.
+
+| Segment | FY2025 | FY2024 | Change |
+|---------|--------|--------|--------|
+| Insurance | GBP 232.5M | GBP 235.0M | -1% |
+| Money | GBP 105.7M | GBP 97.9M | +8% |
+| Home Services | GBP 48.2M | GBP 36.2M | +33% |
+| Travel | GBP 17.6M | GBP 19.6M | -10% |
+| Cashback | GBP 52.7M | GBP 60.6M | -13% |
+
+**Profitability:** Adj EBITDA GBP 145.1M (+2%, margin 33% record). Adj EPS 17.9p (+5%). PAT GBP 80.7M.
+**Capital returns:** GBP 30M buyback completed, GBP 25M for 2026. Dividend 12.63p (+1%).
+**2026 Guidance:** EBITDA in line with consensus GBP 146M (range 142-153M). Maintained.
+
+**AI Strategy Assessment (KC#9):**
+- Enterprise OpenAI agreement signed
+- MoneySuperMarket ChatGPT app launched (first UK financial services company)
+- New products: Price Optimiser, Savings by MoneySuperMarket
+- "Agentic mesh" architecture described
+- AI used for 60% customer contacts already
+- **Verdict: KC#9 CLEAR. AI strategy is Tier 1-2 (credible, funded, product-level). Not exploration — actual products in market.**
+
+**SuperSaveClub:** 2.1M members (doubled from 1M). 16% of group revenue. ARPU GBP 35 vs GBP 20 non-members. Cross-enquiry rate 45% vs 25%. Incremental margin 75% vs 62%.
+
+**Kill Condition Assessment:**
+| KC | Threshold | Result | Status |
+|----|-----------|--------|--------|
+| KC#1 Revenue | <GBP 435M | GBP 446.3M | CLEAR |
+| KC#2 Insurance H2 | -5%+ | -1% H2 | CLEAR |
+| KC#3 Dividend | Cut | +1% increase | CLEAR |
+| KC#9 AI Strategy | None | OpenAI deal + products | CLEAR |
+
+**Decision:** HOLD. All KCs cleared. Revenue between 435-450M = base case. Guidance maintained. AI strategy validated. Probation easing — KC#9 was the existential concern and it's addressed. Conviction stays LOW (not MEDIUM) because: revenue growth only +2%, Insurance flat, Cashback declining -13%, Travel -10%. Need to see revenue acceleration toward 5%+ or SuperSaveClub driving >20% of revenue for upgrade.
+
+**FV 190 GBp MAINTAINED.** Results confirm base case, not bull case. EBITDA GBP 145M growing to 146M = ~1% growth. Need structural improvement for FV upgrade.
 
 ### Version History Update
 
@@ -1120,7 +1173,9 @@ EARNINGS RELEASE (Feb 23)
 |---------|------|--------|
 | 1.0 | 2026-02-04 | Thesis original. FV 240-280 GBp |
 | 2.0 | 2026-02-07 | Adversarial review. FV revised to 201 GBp. Conviction LOW. HOLD pre-earnings. |
-| **3.0** | **2026-02-12** | **AI Disruption Re-evaluation. FV revised to 190 GBp. QS adjusted 83->75 (borderline Tier A). Bear probability +10pp. Insurify US-only, car-only, cannot transact. UK regulatory moat intact. HOLD through Feb 23 earnings. Added KC#9 (AI strategy requirement). Post-earnings decision tree tightened.** |
+| 3.0 | 2026-02-12 | AI Disruption Re-evaluation. FV revised to 190 GBp. QS adjusted 83->75. |
+| 3.1 | 2026-02-20 | Pre-earnings update. ChatGPT app launched. KC#9 partially pre-addressed. |
+| **3.2** | **2026-02-23** | **FY2025 earnings. Revenue GBP 446.3M (+2%). All KCs CLEAR. AI strategy validated (KC#9). Probation easing. FV 190 GBp maintained. Conviction LOW (base case confirmed, not bull). Next: quarterly review or price >180p.** |
 
 ---
 

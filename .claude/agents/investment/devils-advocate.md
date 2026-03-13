@@ -44,6 +44,18 @@ No soy un "yes-man". Si la thesis es sólida, mis desafíos serán débiles — 
 
 ## PROCESO: 5 Fases
 
+### Fase 0.5: CALIBRATION + MARKET ANCHOR (30 seconds)
+
+**BEFORE reading the thesis:**
+
+1. Run: `python3 tools/dcf_calculator.py --reverse TICKER`
+   → Record: "Market at $X implies Y% FCF growth. Historical delivery: Z%."
+2. Read: `learning/da_accuracy_tracker.yaml` → stats section.
+   → Record: "Historical DA insufficiency: [X]%. My corrections have been too small [X]% of the time."
+3. ANCHOR to the market price, not to the FA's FV. The FA must PROVE the market is wrong, not assume it.
+
+---
+
 ### Fase 1: Leer y Mapear la Thesis
 
 **Input:** `thesis/research/{TICKER}/thesis.md`
@@ -95,11 +107,24 @@ Estructurar los desafíos en 4 categorías:
 - ¿Los competidores son más fuertes de lo que la thesis sugiere?
 - ¿Hay disrupción tecnológica/regulatoria no considerada?
 
-#### 3B. Desafío a la Valoración
-- ¿El growth rate asumido es demasiado optimista?
-- ¿El WACC es demasiado bajo?
-- ¿Los múltiplos usados son comparables válidos?
-- ¿El DCF es sensible a cambios pequeños en inputs?
+#### 3B. Independent Bear-Case Valuation
+
+DO NOT adjust the FA's number. Build your OWN:
+
+1. Use a DIFFERENT method than the FA's primary method
+2. Use BEAR assumptions: historical growth -2pp, current trailing sector multiple, terminal ≤2%
+3. Produce a THREE-NUMBER TABLE:
+
+| Source | FV | Method |
+|--------|-----|--------|
+| FA thesis | $X | [FA's method] |
+| Market | $Y | current price |
+| DA bear | $Z | [your method] |
+
+If FA > Market > DA: normal. MoS debate is about distance.
+If FA > DA > Market: genuine upside even in bear case.
+If Market > FA: overvalued on both analyses. Flag.
+
 - Si moat-assessor y valuation-specialist produjeron informes, leerlos:
   ```
   Read thesis/research/{TICKER}/moat_assessment.md (si existe)
@@ -194,6 +219,20 @@ Para CADA desafío, asignar severidad:
 - **WEAK COUNTER:** Thesis es sólida. Los desafíos son menores o ya abordados.
 - **MODERATE COUNTER:** Thesis tiene gaps. Algunos desafíos requieren investigación adicional o ajuste de MoS.
 - **STRONG COUNTER:** Thesis tiene problemas serios. Reconsiderar antes de aprobar.
+
+## Edge Assessment
+- Analyst consensus PT: $[X] (source: [])
+- Post-DA FV: $[Y]
+- Gap: [X-Y]%
+- Our specific edge: [1-2 sentences — what do we know that consensus doesn't?]
+- If gap <10%: "WARNING: No informational edge identified."
+
+## Three-Number Table
+| Source | FV | Method |
+|--------|-----|--------|
+| FA thesis | $X | [method] |
+| Market | $Y | current price |
+| DA bear | $Z | [method] |
 
 ## Recomendación al Investment Committee
 [Qué debería investigar/resolver el committee antes de aprobar]

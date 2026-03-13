@@ -1,0 +1,1532 @@
+identifiers:
+  ADBE:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US00724F1012
+    cusip: 00724F101
+    cik: '796343'
+  GL:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US37959E1029
+    cusip: 37959E102
+    cik: '320335'
+  EDEN.PA:
+    country: FR
+    resolved_at: '2026-02-21'
+    isin: FR0010908533
+  AUTO.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BVYVFW23
+  DOM.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BYN59130
+  DTE.DE:
+    country: DE
+    resolved_at: '2026-02-21'
+    isin: DE0005557508
+  NVO:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US6701002056
+    cusip: '670100205'
+    cik: '353278'
+  LULU:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US5500211090
+    cusip: '550021109'
+    cik: '1397187'
+  MORN:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US6177001095
+    cusip: '617700109'
+    cik: '1289419'
+  IHP.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BD45SH49
+  BYIT.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BMH18Q19
+  MONY.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00B1ZBKY84
+  INTU:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US4612021034
+    cusip: '461202103'
+    cik: '896878'
+  PAYC:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US70432V1026
+    cusip: 70432V102
+    cik: '1590955'
+  DSY.PA:
+    country: FR
+    resolved_at: '2026-02-22'
+    isin: FR0000130650
+    source: regulatory_harvest
+  DNLM.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B1CKQ739
+    source: regulatory_harvest
+  RACE.MI:
+    country: IT
+    resolved_at: '2026-03-13'
+    isin: null
+  FICO:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '303308102'
+    isin: US3033081023
+    source: manual_cusip
+    cik: '814547'
+  MA:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: 57636Q104
+    isin: US57636Q1040
+    source: manual_cusip
+    cik: '1141391'
+  V:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US92826C8394
+    cusip: 92826C839
+    cik: '1403161'
+  ROP:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US7766961061
+    cusip: '776696106'
+    cik: '882835'
+  GGG:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US3841091040
+    cusip: '384109104'
+    cik: '42888'
+  ROR.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BVFNZH21
+    source: regulatory_harvest
+  BVI.PA:
+    country: FR
+    resolved_at: '2026-02-21'
+    isin: FR0006174348
+    source: regulatory_harvest
+  RMD:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US7611521078
+    cusip: '761152107'
+    cik: '943819'
+  AON:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: IE00BLP1HW54
+    cusip: 00BLP1HW5
+    cik: '315293'
+  MMC:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '571748102'
+    isin: US5717481023
+    source: manual_cusip
+  WRB:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: 084423102
+    isin: US0844231029
+    source: manual_cusip
+    cik: '11544'
+  BRO:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US1152361010
+    cusip: '115236101'
+    cik: '79282'
+  ADM.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00B02J6398
+    source: regulatory_harvest
+  RO.SW:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: null
+    cusip: '001334417'
+  AZN:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: GB0009895292
+    cusip: 000989529
+    cik: '901832'
+  GMAB:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US3723032062
+    cusip: '372303206'
+    cik: '1434265'
+  MNST:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: 61174X109
+    isin: US61174X1090
+    source: manual_cusip
+    cik: '865752'
+  OR.PA:
+    country: FR
+    resolved_at: '2026-02-21'
+    isin: FR0011149590
+  CL:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '194162103'
+    isin: US1941621039
+    source: manual_cusip
+    cik: '21665'
+  HSY:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '427866108'
+    isin: US4278661081
+    source: manual_cusip
+    cik: '47111'
+  BEI.DE:
+    country: DE
+    resolved_at: '2026-02-22'
+    isin: null
+  CCH.L:
+    country: UK
+    resolved_at: '2026-02-22'
+    isin: null
+  LOTB.BR:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  PM:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: null
+    cusip: 036113688
+    cik: '1413329'
+  COKE:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '191098102'
+    isin: US1910981026
+    source: manual_cusip
+    cik: '317540'
+  ROL:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US7757111049
+    cusip: '775711104'
+    cik: '84839'
+  WKL.AS:
+    country: NL
+    resolved_at: '2026-03-13'
+    isin: null
+  ASML:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: USN070592100
+    cusip: N07059210
+    cik: '937966'
+  CDNS:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US1273871087
+    cusip: '127387108'
+    cik: '813672'
+  KLAC:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US4824801009
+    cusip: '482480100'
+    cik: '319201'
+  MPWR:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US6098391054
+    cusip: '609839105'
+    cik: '1280452'
+  LRCX:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '512807108'
+    isin: US5128071082
+    source: manual_cusip
+    cik: '707549'
+  IT:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US3666511072
+    cusip: '366651107'
+    cik: '749251'
+  VEEV:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US9224751084
+    cusip: '922475108'
+    cik: '1393052'
+  ISRG:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US46120E6023
+    cusip: 46120E602
+    cik: '1035267'
+  SYK:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '863667101'
+    isin: US8636671013
+    source: manual_cusip
+    cik: '310764'
+  PODD:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: 45765Y101
+    isin: US45765Y1014
+    source: manual_cusip
+    cik: '1145197'
+  ACGL:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: BMG0450A1053
+    cusip: G0450A105
+    cik: '947484'
+  ZTS:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US98978V1035
+    cusip: 98978V103
+    cik: '1555280'
+  VRSK:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US92345Y1064
+    cusip: 92345Y106
+    cik: '1442145'
+  TDG:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '893641100'
+    isin: US8936411003
+    source: manual_cusip
+    cik: '1260221'
+  HEI:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '422806109'
+    isin: US4228061093
+    source: manual_cusip
+    cik: '46619'
+  RHM.DE:
+    country: DE
+    resolved_at: '2026-02-22'
+    isin: null
+  HWM:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '443052104'
+    isin: US4430521041
+    source: manual_cusip
+    cik: '4281'
+  GE:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US3696043013
+    cusip: '369604301'
+    cik: '40545'
+  IDR.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  HO.PA:
+    country: FR
+    resolved_at: '2026-02-25'
+    isin: FR0000121329
+    source: regulatory_harvest
+  CTAS:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '177340102'
+    isin: US1773401021
+    source: manual_cusip
+    cik: '723254'
+  RSG:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US7607591002
+    cusip: '760759100'
+    cik: '1060391'
+  ECL:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US2788651006
+    cusip: '278865100'
+    cik: '31462'
+  VLTO:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US92338C1036
+    cusip: 92338C103
+    cik: '1967680'
+  BAH:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US0995021062
+    cusip: 099502106
+    cik: '1443646'
+  FDS:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US3030751057
+    cusip: '303075105'
+    cik: '1013237'
+  CMCSA:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: 20030N101
+    isin: US20030N1019
+    source: manual_cusip
+    cik: '1166691'
+  ORNBV.HE:
+    country: FI
+    resolved_at: '2026-02-22'
+    isin: null
+  MSCI:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US55354G1004
+    cusip: 55354G100
+    cik: '1408198'
+  KCR.HE:
+    country: FI
+    resolved_at: '2026-02-22'
+    isin: null
+  RMS.PA:
+    country: FR
+    resolved_at: '2026-02-22'
+    isin: null
+  FOUR.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB0006640972
+    source: regulatory_harvest
+  STMN.SW:
+    country: CH
+    resolved_at: '2026-03-13'
+    isin: null
+  SOON.SW:
+    country: CH
+    resolved_at: '2026-03-13'
+    isin: null
+  ITRK.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0031638363
+    source: regulatory_harvest
+  ADP:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US0530151036
+    cusip: '053015103'
+    cik: '8670'
+  ODFL:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US6795801009
+    cusip: '679580100'
+    cik: '878927'
+  ALLE:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: IE00BFRT3W74
+    cusip: 00BFRT3W7
+    cik: '1579241'
+  SHW:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '824348106'
+    isin: US8243481061
+    source: manual_cusip
+    cik: '89800'
+  IHG:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US45857P8068
+    cusip: 45857P806
+    cik: '858446'
+  MEGP.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0008481250
+    source: regulatory_harvest
+  EEFT:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US2987361092
+    cusip: '298736109'
+    cik: '1029199'
+  KNSL:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US49714P1084
+    cusip: 49714P108
+    cik: '1669162'
+  QTCOM.HE:
+    country: FI
+    resolved_at: '2026-02-22'
+    isin: null
+  ALFA.ST:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  KNEBV.HE:
+    country: FI
+    resolved_at: '2026-02-22'
+    isin: null
+  ABB.ST:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: null
+    cusip: E07Y70101
+  WRT1V.HE:
+    country: FI
+    resolved_at: '2026-02-22'
+    isin: null
+  EQT.ST:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: null
+    cusip: E365O0102
+  EVO.ST:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  HIAB.HE:
+    country: FI
+    resolved_at: '2026-02-22'
+    isin: null
+  AZN.ST:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: null
+    cusip: DEUT11248
+  ATCO-A.ST:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  LIFCO-B.ST:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  MONC.MI:
+    country: IT
+    resolved_at: '2026-02-22'
+    isin: null
+  BZU.MI:
+    country: IT
+    resolved_at: '2026-03-13'
+    isin: null
+  BC.MI:
+    country: IT
+    resolved_at: '2026-02-22'
+    isin: null
+  TEN.MI:
+    country: IT
+    resolved_at: '2026-02-21'
+    isin: null
+  ITX.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  AENA.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  ROVI.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  AMS.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  IAG.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  AJB.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BFZNLB60
+    source: regulatory_harvest
+  KLR.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0004866223
+    source: regulatory_harvest
+  APN.L:
+    country: UK
+    resolved_at: '2026-02-22'
+    isin: null
+  XPS.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BDDN1T20
+    source: regulatory_harvest
+  CMCX.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B14SKR37
+    source: regulatory_harvest
+  NOS.LS:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  NXT.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB0030026057
+    source: regulatory_harvest
+  REN.AS:
+    country: NL
+    resolved_at: '2026-03-13'
+    isin: null
+  BCG.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BN44P254
+    source: regulatory_harvest
+  IHG.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BHJYC057
+    source: regulatory_harvest
+  BESI.AS:
+    country: NL
+    resolved_at: '2026-02-22'
+    isin: null
+  N91.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BJHPLV88
+    source: regulatory_harvest
+  TRN.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BKDTK925
+    source: regulatory_harvest
+  ROG.SW:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  PAF.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0004300496
+    source: regulatory_harvest
+  G24.DE:
+    country: DE
+    resolved_at: '2026-02-22'
+    isin: null
+  HILS.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0004270301
+    source: regulatory_harvest
+  SCT.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BYZDVK82
+  PGHN.SW:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: null
+    cusip: '386993000'
+  AZN.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0009895292
+    source: regulatory_harvest
+  HOLN.SW:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  IAG.L:
+    country: UK
+    resolved_at: '2026-02-22'
+    isin: null
+  PIRC.MI:
+    country: IT
+    resolved_at: '2026-02-21'
+    isin: null
+  PRY.MI:
+    country: IT
+    resolved_at: '2026-02-22'
+    isin: null
+  DIA.MI:
+    country: IT
+    resolved_at: '2026-02-22'
+    isin: null
+  ELISA.HE:
+    country: FI
+    resolved_at: '2026-02-22'
+    isin: null
+  ESSITY-B.ST:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  METSO.HE:
+    country: FI
+    resolved_at: '2026-02-22'
+    isin: null
+  EPI-A.ST:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  ASM.AS:
+    country: NL
+    resolved_at: '2026-02-22'
+    isin: null
+  UMG.AS:
+    country: NL
+    resolved_at: '2026-02-22'
+    isin: null
+  PRX.AS:
+    country: NL
+    resolved_at: '2026-02-22'
+    isin: null
+  ADYEN.AS:
+    country: NL
+    resolved_at: '2026-02-21'
+    isin: null
+  FER.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  LOG.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  ACS.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  NTGY.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  PUIG.MC:
+    country: ES
+    resolved_at: '2026-02-22'
+    isin: null
+  HLMA.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0004052071
+    source: regulatory_harvest
+  DPLM.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0001826634
+    source: regulatory_harvest
+  DECK:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: '243537107'
+    isin: US2435371073
+    source: manual_cusip
+    cik: '910521'
+  IDXX:
+    country: US
+    resolved_at: '2026-02-21'
+    cusip: 45168D104
+    isin: US45168D1046
+    source: manual_cusip
+    cik: '874716'
+  LRE.L:
+    country: UK
+    resolved_at: '2026-02-22'
+    isin: null
+  SAMPO.HE:
+    country: FI
+    resolved_at: '2026-02-22'
+    isin: null
+  IMI.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BGLP8L22
+    source: regulatory_harvest
+  G1A.DE:
+    country: DE
+    resolved_at: '2026-02-22'
+    isin: null
+  SPX.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BWFGQN14
+    source: regulatory_harvest
+  LAGR-B.ST:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  ADDT-B.ST:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  FPE3.DE:
+    country: DE
+    resolved_at: '2026-02-22'
+    isin: null
+  RAA.DE:
+    country: DE
+    resolved_at: '2026-02-22'
+    isin: null
+  AM.PA:
+    country: FR
+    resolved_at: '2026-02-21'
+    isin: FR0000130650
+    source: regulatory_harvest
+  BEAN.SW:
+    country: US
+    resolved_at: '2026-02-22'
+    isin: null
+  ALFA.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BDHXPG30
+  FSG.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GG00BMD8MJ76
+  CKN.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0002018363
+    source: regulatory_harvest
+  GDWN.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0003781050
+    source: regulatory_harvest
+  IGG.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B06QFB75
+    source: regulatory_harvest
+  FAN.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BN3ZZ526
+    source: regulatory_harvest
+  TEP.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB0008794710
+    source: regulatory_harvest
+  GAMA.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BQS10J50
+    source: regulatory_harvest
+  BAG.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB0000811801
+    source: regulatory_harvest
+  GRG.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00B63QSB39
+    source: regulatory_harvest
+  MGNS.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0008085614
+    source: regulatory_harvest
+  JSG.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB0004762810
+    source: regulatory_harvest
+  KNOS.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BZ0D6727
+    source: regulatory_harvest
+  MOON.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BMT9K014
+    source: regulatory_harvest
+  CCC.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BV9FP302
+    source: regulatory_harvest
+  PFD.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B7N0K053
+    source: regulatory_harvest
+  ASHM.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00B132NW22
+    source: regulatory_harvest
+  FGP.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB0003452173
+    source: regulatory_harvest
+  INCH.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B61TVQ02
+    source: regulatory_harvest
+  ENOG.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BG12Y042
+    source: regulatory_harvest
+  HBR.L:
+    country: UK
+    resolved_at: '2026-02-21'
+    isin: GB00BMBVGQ36
+    source: regulatory_harvest
+  HOC.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B1FW5029
+    source: regulatory_harvest
+  MTO.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0004657408
+    source: regulatory_harvest
+  MRSH:
+    country: US
+    resolved_at: '2026-02-21'
+    isin: US5717481023
+    cusip: '571748102'
+    cik: '62709'
+  A:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US00846U1016
+    cusip: 00846U101
+    cik: '1090872'
+  ABDN.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BMF19B58
+    source: regulatory_harvest
+  ABF.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0006731235
+    source: regulatory_harvest
+  ABNB:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1559720'
+    isin: null
+  ALC:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1167379'
+    isin: null
+  AMAT:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US0382221051
+    cusip: 038222105
+    cik: '6951'
+  ANF:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1018840'
+    isin: null
+  ASML.AS:
+    country: NL
+    resolved_at: '2026-03-13'
+    isin: null
+  ATS:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: CA00217Y1043
+    cusip: 00217Y104
+    cik: '1394832'
+  AVGO:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: CA11134P1009
+    cusip: 11134P100
+    cik: '1730168'
+  BKNG:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1075531'
+    isin: null
+  BLND.L:
+    country: UK
+    resolved_at: '2026-03-13'
+    isin: null
+  BN:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1001085'
+    isin: null
+  BNZL.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B0744B38
+    source: regulatory_harvest
+  BRBY.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0031743007
+    source: regulatory_harvest
+  BRK.B:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US0846707026
+    cusip: 084670702
+  CB:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '896159'
+    isin: null
+  CBRE:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US12504L1098
+    cusip: 12504L109
+    cik: '1138118'
+  CCCS:
+    country: US
+    resolved_at: '2026-03-13'
+    isin: null
+  CCO:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US18453H1068
+    cusip: 18453H106
+    cik: '1334978'
+  CDW:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US12514G1085
+    cusip: 12514G108
+    cik: '1402057'
+  CNHI:
+    country: US
+    resolved_at: '2026-03-13'
+    isin: null
+  CP:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: CA13646K1084
+    cusip: 13646K108
+    cik: '16875'
+  CPNG:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1834584'
+    isin: null
+  CPRT:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US2172041061
+    cusip: '217204106'
+    cik: '900075'
+  CSGP:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US22160N1090
+    cusip: 22160N109
+    cik: '1057352'
+  DOCS:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US26622P1075
+    cusip: 26622P107
+    cik: '1516513'
+  DSCV.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0000055888
+    source: regulatory_harvest
+  ENT.L:
+    country: UK
+    resolved_at: '2026-03-13'
+    isin: null
+  ENTG:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US29362U1043
+    cusip: 29362U104
+    cik: '1101302'
+  EW:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1099800'
+    isin: null
+  FAST:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '815556'
+    isin: null
+  FWONK:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1560385'
+    isin: null
+  GBG.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0006870611
+    source: regulatory_harvest
+  GOOGL:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: CA02080M1005
+    cusip: 02080M100
+    cik: '1652044'
+  GRF.MC:
+    country: ES
+    resolved_at: '2026-03-13'
+    isin: null
+  HIK.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B0LCW083
+    source: regulatory_harvest
+  HLNE:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US4074971064
+    cusip: '407497106'
+    cik: '1433642'
+  HWDN.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0005576813
+    source: regulatory_harvest
+  IBKR:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US45841N1072
+    cusip: 45841N107
+    cik: '1381197'
+  ICE:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1571949'
+    isin: null
+  INF.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BMJ6DW54
+    source: regulatory_harvest
+  JDG.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0032398678
+    source: regulatory_harvest
+  KGF.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0033195214
+    source: regulatory_harvest
+  KKR:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US48251W1045
+    cusip: 48251W104
+    cik: '1404912'
+  LAND.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BYW0PQ60
+    source: regulatory_harvest
+  LOAR:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US53947R1059
+    cusip: 53947R105
+    cik: '2000178'
+  LPLA:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US50212V1008
+    cusip: 50212V100
+    cik: '1397911'
+  LUCE.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BZC0LP49
+    source: regulatory_harvest
+  LYV:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US5380341090
+    cusip: '538034109'
+    cik: '1335258'
+  MANH:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US5627501092
+    cusip: '562750109'
+    cik: '1056696'
+  MCO:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1059556'
+    isin: null
+  MDRX:
+    country: US
+    resolved_at: '2026-03-13'
+    isin: null
+  MELI:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US58733R1023
+    cusip: 58733R102
+    cik: '1099590'
+  META:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US30303M1027
+    cusip: 30303M102
+    cik: '1326801'
+  MKS.L:
+    country: UK
+    resolved_at: '2026-03-13'
+    isin: null
+  MSA:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US5534981064
+    cusip: '553498106'
+    cik: '66570'
+  MSI:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US6200763075
+    cusip: '620076307'
+    cik: '68505'
+  MTD:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US5926881054
+    cusip: '592688105'
+    cik: '1037646'
+  NU:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1691493'
+    isin: null
+  ORLY:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '898173'
+    isin: null
+  PEGA:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US7055731035
+    cusip: '705573103'
+    cik: '1013857'
+  PSN.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0006825383
+    source: regulatory_harvest
+  PSON.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0006776081
+    source: regulatory_harvest
+  RMV.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BGDT3G23
+    source: regulatory_harvest
+  SBRY.L:
+    country: UK
+    resolved_at: '2026-03-13'
+    isin: null
+  SE:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1703399'
+    isin: null
+  SEIC:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '350894'
+    isin: null
+  SGE.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B8C3BL03
+    source: regulatory_harvest
+  SPGI:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US78409V1044
+    cusip: 78409V104
+    cik: '64040'
+  SSNC:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US78467J1007
+    cusip: 78467J100
+    cik: '1402436'
+  TCOM:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1269238'
+    isin: null
+  TME:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US88034P1093
+    cusip: 88034P109
+    cik: '1744676'
+  TRST.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00BNK9TP58
+    source: regulatory_harvest
+  TSCO:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '916365'
+    isin: null
+  TSM:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US8740391003
+    cusip: '874039100'
+    cik: '1046179'
+  TW:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1758730'
+    isin: null
+  TW.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0008782301
+    source: regulatory_harvest
+  UBER:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US90353T1007
+    cusip: 90353T100
+    cik: '1543151'
+  UNF:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '717954'
+    isin: null
+  URI:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US9113631090
+    cusip: '911363109'
+    cik: '1067701'
+  UTG.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB0006928617
+    source: regulatory_harvest
+  UTHR:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1082554'
+    isin: null
+  VALEO:
+    country: US
+    resolved_at: '2026-03-13'
+    isin: null
+  VRSN:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US92343E1029
+    cusip: 92343E102
+    cik: '1014473'
+  WAT:
+    country: US
+    resolved_at: '2026-03-13'
+    cik: '1000697'
+    isin: null
+  WING:
+    country: US
+    resolved_at: '2026-02-25'
+    isin: US9741551033
+    cusip: '974155103'
+    cik: '1636222'
+  WPP.L:
+    country: UK
+    resolved_at: '2026-03-13'
+    isin: null
+  WTB.L:
+    country: UK
+    resolved_at: '2026-02-25'
+    isin: GB00B1KJJ408
+    source: regulatory_harvest
+  HALO:
+    country: US
+    resolved_at: '2026-03-06'
+    isin: US40637H1095
+    cusip: 40637H109
+    cik: '1159036'
+  ERIE:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US29530P1021
+    cusip: 29530P102
+    cik: '922621'
+  FTNT:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US34959E1091
+    cusip: 34959E109
+    cik: '1262039'
+  GDDY:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US3802371076
+    cusip: '380237107'
+    cik: '1609711'
+  LOPE:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US38526M1062
+    cusip: 38526M106
+    cik: '1434588'
+  QLYS:
+    country: US
+    resolved_at: '2026-03-11'
+    isin: US74758T3032
+    cusip: 74758T303
+    cik: '1107843'
+failed_resolutions:
+- BEI.DE
+- CCH.L
+- LOTB.BR
+- WKL.AS
+- RHM.DE
+- IDR.MC
+- ORNBV.HE
+- KCR.HE
+- RMS.PA
+- STMN.SW
+- SOON.SW
+- QTCOM.HE
+- ALFA.ST
+- KNEBV.HE
+- WRT1V.HE
+- EVO.ST
+- HIAB.HE
+- ATCO-A.ST
+- LIFCO-B.ST
+- MONC.MI
+- BC.MI
+- ITX.MC
+- AENA.MC
+- ROVI.MC
+- AMS.MC
+- IAG.MC
+- APN.L
+- NOS.LS
+- BESI.AS
+- ROG.SW
+- G24.DE
+- HOLN.SW
+- IAG.L
+- PRY.MI
+- DIA.MI
+- ELISA.HE
+- ESSITY-B.ST
+- METSO.HE
+- EPI-A.ST
+- ASM.AS
+- UMG.AS
+- PRX.AS
+- FER.MC
+- LOG.MC
+- ACS.MC
+- NTGY.MC
+- PUIG.MC
+- LRE.L
+- SAMPO.HE
+- G1A.DE
+- LAGR-B.ST
+- ADDT-B.ST
+- FPE3.DE
+- RAA.DE
+- BEAN.SW
+- RACE.MI
+- RO.SW
+- PM
+- ABB.ST
+- EQT.ST
+- AZN.ST
+- BZU.MI
+- TEN.MI
+- REN.AS
+- PGHN.SW
+- PIRC.MI
+- ADYEN.AS
+- ABNB
+- ALC
+- ANF
+- ASML.AS
+- BKNG
+- BLND.L
+- BN
+- CB
+- CCCS
+- CNHI
+- CPNG
+- ENT.L
+- EW
+- FAST
+- FWONK
+- GRF.MC
+- ICE
+- MCO
+- MDRX
+- MKS.L
+- NU
+- ORLY
+- SBRY.L
+- SE
+- SEIC
+- TCOM
+- TSCO
+- TW
+- UNF
+- UTHR
+- VALEO
+- WAT
+- WPP.L

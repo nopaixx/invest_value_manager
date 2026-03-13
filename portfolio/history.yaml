@@ -9,11 +9,12 @@
 # Metadata
 metadata:
   created: 2026-02-03
-  last_updated: 2026-02-14
-  total_closed: 15
-  total_pnl_eur: -3.85  # Previous -26.85 + ALL +23 = ~-3.85
-  win_rate: 53.3  # 8 winners / 15 positions (ALL +5.9% is a winner)
-  avg_holding_days: 8
+  last_updated: 2026-03-08
+  total_closed: 22
+  total_pnl_eur: 101.23  # Previous 94.23 + AUTO.L ~7
+  win_rate: 59.1  # 13 winners / 22 positions (AUTO.L +1.6% added as winner)
+  avg_holding_days: 13
+  # Note: DTE.DE had prior partial sells totaling EUR 137.80 realized P&L (see partial_sells section)
 
 # ADVERSARIAL FV ACCURACY TRACKING (added Session 53 per Devil's Advocate)
 # Purpose: Track whether adversarial FVs are accurate or systematically pessimistic
@@ -403,6 +404,149 @@ closed_positions:
     exit_reason: adversarial_review_roic_below_wacc
     lesson_learned: "D&A assumptions MUST be cross-checked against actual EBITDA-to-EBIT bridge in results. Post-acquisition D&A (intangible amortization) can be dramatically higher than pre-acquisition baseline. EV/EBIT multiples must anchor to actual peer trading levels, not theoretical ranges. For leveraged mid-caps, EV/EBIT is more reliable than DCF (which had 76% terminal value dependency)."
 
+  - ticker: LULU
+    name: "Lululemon Athletica Inc."
+    entry_date: 2026-02-05
+    exit_date: 2026-03-06
+    shares: 2
+    entry_price_usd: 171.84
+    exit_price_usd: 170.12
+    entry_currency: USD
+    invested_eur: 291  # ~$343.24 / 1.18
+    proceeds_eur: 293  # ~$340.24 / 1.1616
+    pnl_amount_usd: -3.44
+    pnl_percent: -1.0
+    holding_days: 29
+    thesis_fv_at_entry: 261  # USD - original thesis
+    thesis_fv_adversarial: 202  # USD - adversarial review
+    thesis_fv_v3: 196  # USD - governance re-eval (Feb 12)
+    fv_reached: false
+    quality_score: 78  # Tier A low-end (Tool 80, Adj 78)
+    thesis_accuracy:
+      correct: false
+      notes: "Original FV $261 inflated 25% — governance re-eval Feb 12 lowered to $196 after CEO departure Jan 31, Elliott $1B activist, Wilson proxy fight. QS 82→78. Position ON PROBATION since Feb 12. Thesis weakened 3/6 assumptions. ROIC 47% exceptional but no CEO for 34+ days, dual activist pressure, worst E[CAGR] in portfolio (-5.5%). Orphaned from US Quality Compounders basket S141. Small loss (-1.0%) confirms disciplined exit rather than waiting for MAKE-OR-BREAK Mar 17 earnings."
+    exit_reason: orphan_exit_governance_crisis
+    lesson_learned: "Governance crises (CEO departure + activist pressure) can crater thesis even when QS and ROIC are strong. Probation periods should have clearer time limits. Position was too small ($343) to justify the monitoring overhead. Sell early when thesis weakens on multiple assumptions rather than waiting for a binary event."
+
+  - ticker: GL
+    name: "Globe Life Inc."
+    entry_date: 2026-02-03
+    exit_date: 2026-03-07
+    shares: 3
+    entry_price_usd: 141.35
+    exit_price_usd: 142.18
+    entry_currency: USD
+    invested_eur: 364  # ~$423.18 / 1.1616
+    proceeds_eur: 367  # ~$426.54 / 1.1616
+    pnl_amount_eur: 3
+    pnl_percent: 0.8
+    holding_days: 32
+    thesis_fv_at_entry: 174  # USD - original v2.0
+    thesis_fv_adversarial: 191  # USD - v3.0 post-DA
+    fv_reached: false
+    quality_score: 52  # Tier C
+    thesis_accuracy:
+      correct: null
+      notes: "SEC/DOJ cleared Jul 2025. Class action still pending. QS 52 Tier C — lowest quality in portfolio. Orphaned from specialty-insurance basket (killed S141). Position exited as part of S143 restructuring — capital rotated to quality ADDs. Small gain (+0.8%) but position had no path to Tier A."
+    exit_reason: s143_restructuring_quality_rotation
+    lesson_learned: "Tier C positions without basket fit should be rotated sooner. 32 days of monitoring overhead for <1% gain is not efficient capital allocation."
+
+  - ticker: BYIT.L
+    name: "Bytes Technology Group plc"
+    entry_date: 2026-02-07
+    exit_date: 2026-03-07
+    shares: 110
+    entry_price_gbp: 299.40
+    exit_price_gbp: 316.40
+    entry_currency: GBp
+    invested_eur: 382  # ~$444 / 1.1616
+    proceeds_eur: 400  # ~GBP 348 * 1.1496
+    pnl_amount_eur: 18
+    pnl_percent: 5.7
+    holding_days: 28
+    thesis_fv_at_entry: 455  # GBp - original
+    thesis_fv_adversarial: 345  # GBp - adversarial (Feb 11)
+    fv_reached: false
+    quality_score: 68  # Tier B (thesis claimed Tier A QS 81, WRONG)
+    thesis_accuracy:
+      correct: false
+      notes: "Original thesis claimed QS 81 Tier A with 9.6% insider ownership. Adversarial review Feb 11 corrected: QS 68 Tier B, insider 0.4% (not 9.6%), FV 455→345 (-24.2%). Microsoft EA disintermediation structural risk. Not a digital platform — misclassified in UK Digital Platforms basket. Orphaned S141. Sold S143 as part of restructuring — capital rotated to quality ADDs."
+    exit_reason: s143_restructuring_quality_rotation
+    lesson_learned: "Insider ownership claims must be verified with tool data. QS gap of 13 points (81→68) shows thesis inflation risk. Probation positions without clear path to upgrade should be rotated when capital needed for Tier A ADDs."
+
+  - ticker: DOM.L
+    name: "Domino's Pizza Group PLC"
+    entry_date: 2026-02-02
+    exit_date: 2026-03-07
+    shares: 175
+    entry_price_gbp: 182.50
+    exit_price_gbp: 183.60
+    entry_currency: GBp
+    invested_eur: 376  # ~$436.52 / 1.1616
+    proceeds_eur: 369  # ~GBP 321.30 * 1.1496
+    pnl_amount_eur: -7
+    pnl_percent: -1.7
+    holding_days: 33
+    thesis_fv_at_entry: 280  # GBp - original v1.0
+    thesis_fv_v3: 240  # GBp - v3.0 (revised)
+    fv_reached: false
+    quality_score: 61  # Tier B
+    thesis_accuracy:
+      correct: null
+      notes: "QS 61 Tier B. LOW conviction orphan. FY25 results due Mar 10 but sold pre-earnings as part of S143 restructuring. Oil/shipping headwind from Hormuz crisis added macro risk to UK consumer. Capital rotated to quality ADDs. Small loss (-1.7%)."
+    exit_reason: s143_restructuring_quality_rotation
+    lesson_learned: "Low conviction orphans should not be held through binary earnings events when capital can be deployed into confirmed quality positions. Pre-earnings exit avoids the risk of KC#1 triggering (EBITDA < GBP 125M)."
+
+  - ticker: MORN
+    name: "Morningstar, Inc."
+    entry_date: 2026-02-20
+    exit_date: 2026-03-07
+    shares: 2.47
+    entry_price_usd: 162.0
+    exit_price_usd: 165.3
+    entry_currency: USD
+    invested_eur: 400  # ~$400 / 1.0
+    proceeds_eur: 352  # ~$408 / 1.1616
+    pnl_amount_eur: 8
+    pnl_percent: 2.0
+    holding_days: 15
+    thesis_fv_at_entry: 195  # USD - R3 post-CRSP accretion
+    fv_reached: false
+    quality_score: 78  # Tier A
+    thesis_accuracy:
+      correct: null
+      notes: "Thesis intact (FV $195 > price). Sold for portfolio optimization, not thesis failure. FIRST E[CAGR]-framework market buy. E[CAGR] ~5.1% at exit = lowest in Data & Analytics basket. Capital redeployed to TW + WKL.AS (higher E[CAGR]). QS 78 Tier A, WIDE moat (data + switching costs), 46% insider (Mansueto). Small gain (+2%) in 15 days."
+    exit_reason: s143_restructuring_basket_rotation
+    lesson_learned: "Even Tier A positions with WIDE moats should be rotated when E[CAGR] is lowest in basket. P16 (Perpetual Rotation) applies to quality positions too. The basket framework (P17) enables comparing within-theme to optimize allocation. MORN at 5.1% E[CAGR] vs TW at 13% = clear rotation."
+
+  - ticker: DTE.DE
+    name: "Deutsche Telekom AG"
+    entry_date: 2026-01-26
+    exit_date: 2026-02-26
+    shares: 10.624621  # Final tranche (remaining after 3 prior trims: 14 + 3 + 10 shares)
+    entry_price_eur: 26.88  # Avg cost EUR
+    exit_price_eur: 32.91
+    entry_currency: EUR
+    invested_eur: 285.59  # Prorated: 10.624621 * 26.88
+    proceeds_eur: 349.66
+    pnl_amount_eur: 64.08  # (32.91 - 26.88) * 10.624621
+    pnl_percent: 22.4
+    holding_days: 31
+    thesis_fv_at_entry: 35.00  # EUR - v3.1 post-TMUS Q4 beat
+    thesis_fv_adversarial: null  # No formal adversarial review
+    fv_reached: false  # FV EUR 35 not reached at exit
+    quality_score: 69  # Tier B (Tool 61, Adj 69)
+    thesis_accuracy:
+      correct: true
+      notes: "Thesis was directionally correct: TMUS as hidden value driver, capex peak passing, consolidation catalysts materializing. FV EUR 35 reasonable (stock reached EUR 33.66 intraday = 96% of FV). FY2025 earnings MEET-to-SOFT MISS on Feb 26: EBITDA AL EUR 45.3B in-line, FY2026 EPS guide EUR 2.20 (below EUR 2.30 beat threshold). Stock has been a solid performer (+22-25% from cost) but E[CAGR] of 6.7% was lowest in portfolio, making it the correct rotation candidate under P16."
+    exit_reason: p16_rotation_lowest_ecagr
+    lesson_learned: "DTE.DE was a successful position (+22.4% in 31 days on final tranche) but demonstrates P16 rotation discipline: even profitable positions should be sold when E[CAGR] is the lowest in the portfolio and pipeline has higher-return alternatives. Total DTE.DE P&L across all tranches (37.62 shares original): TRIM 14 shares (~+EUR 70), TRIM 3 shares (~+EUR 10), TRIM 10 shares (+EUR 67.80), EXIT 10.62 shares (+EUR 64.08) = ~EUR 212 total realized. The position funded several rotations into Tier A compounders."
+    total_dteDE_pnl_all_tranches:
+      original_shares: 37.62
+      original_cost_eur: 26.88
+      total_realized_eur: ~212  # Sum of all trim + exit P&L across all DTE.DE trades
+      note: "DTE.DE was the second position opened (Jan 26). Trimmed 3 times for concentration + rotation, then fully exited. Net profitable across all tranches."
+
 # Partial Sells (Trims) - Not full exits, but record for P&L tracking
 partial_sells:
   - ticker: SHEL.L
@@ -432,18 +576,44 @@ partial_sells:
     pnl_approx_eur: 70.00  # Estimated gain
     reason: "TRIM - Position 11.3% exceeded 7% max limit"
 
+  - ticker: DTE.DE
+    date: 2026-02-26
+    shares_sold: 10
+    shares_remaining: 10.624621
+    price_eur: 33.66
+    proceeds_eur: 336.60
+    pnl_eur: 67.80  # (33.66 - 26.88) * 10 = EUR 67.80
+    pnl_pct: 25.2  # Per share gain vs avg cost EUR 26.88
+    reason: "TRIM - FY2025 earnings MEET-to-SOFT MISS. E[CAGR] 6.0% second worst. MoS 4% fully valued. FY2026 EPS guide EUR 2.20 below beat threshold. Capital freed for higher-E[CAGR] pipeline. Position remains active (10.6 shares for TMUS exposure)."
+    # NOTE: Subsequently FULLY EXITED same day — see closed_positions entry for DTE.DE
+
+  - ticker: RACE.MI
+    action: SELL
+    date: 2026-03-07
+    entry_date: 2026-03-05
+    entry_price_eur: 312.80
+    exit_price_eur: 301.60
+    shares: 1.12
+    invested_eur: 350
+    proceeds_eur: 338
+    pnl_eur: -12
+    pnl_pct: -3.4
+    holding_days: 2
+    reason: "T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg 17.4%). QS 84 Tier A but overvalued at EUR 301.60. Capital redeployed to EDEN/NVO/WKL (E[CAGR] 21-27%). Short hold — correction of THREE WAITS mandate buy that deployed into wrong E[CAGR] tier."
+    thesis_accuracy: "Thesis intact (FV EUR 355 > price). Sold for portfolio optimization, not thesis failure."
+
 # Statistics (auto-calculated by effectiveness_tracker.py)
 statistics:
   # Will be populated by the tool
-  total_closed_positions: 15
-  total_partial_sells: 3
-  total_realized_pnl_eur: 424.00  # Previous 401 + ALL +23 = ~424
-  winners: 8  # SHEL.L +2.3%, LIGHT.AS +13.7%, PFE +1.8%, TATE.L +3.5%, IMB.L +6.9%, UHS +16.2%, VICI +1.7%, ALL +5.9%
-  losers: 5  # FUTR.L -2.8%, TEP.PA -6.7%, A2A.MI -1.5%, SAN.PA -0.84%, HRB -13.25%
+  total_closed_positions: 22
+  total_partial_sells: 4
+  total_realized_pnl_eur: 562.88  # Previous 554.88 + MORN ~8
+  winners: 12  # Added MORN +2%
+  losers: 8  # RACE.MI -3.4%, DOM.L -1.7%, LULU -1.0%, SAN.PA, HRB, TEP.PA, A2A, FUTR.L
   breakeven: 2  # ENEL.MI 0%, VNA.DE 0%
-  win_rate_pct: 53.3
-  avg_win_pct: 6.4  # (2.3 + 13.7 + 1.8 + 3.5 + 6.9 + 16.2 + 1.7 + 5.9) / 8 = 6.5, rounding
-  avg_loss_pct: -4.9  # (-2.8 + -6.7 + -1.5 + -0.84 + -13.25) / 5
-  avg_holding_days: 8
+  win_rate_pct: 54.5
+  avg_win_pct: 7.4
+  avg_loss_pct: -3.8
+  avg_holding_days: 12
   positions_reached_fv: 0
   thesis_accuracy_rate: null

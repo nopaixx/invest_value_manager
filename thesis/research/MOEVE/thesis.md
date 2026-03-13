@@ -1,9 +1,10 @@
 # Thesis: Moeve S.A. (antigua Cepsa)
 
-> **Fecha:** 2026-02-07
+> **Fecha:** 2026-02-07 | **Actualizada:** 2026-03-02 (S132 — Iran crisis context)
 > **Analista:** Orchestrator (manual - agentes no disponibles por rate limit)
 > **Status:** RESEARCH (empresa no cotizada, prueba de pipeline)
 > **Quality Score:** 45 (Tier C - Special Situation)
+> **Iran Crisis Impact:** Ver documento dedicado `iran_conflict_impact.md`
 
 ---
 
@@ -100,13 +101,22 @@ La apuesta estrategica de Moeve:
 
 **Riesgo central:** Ninguna de estas lineas genera ingresos significativos HOY. Son inversiones a 5-10 anos con retorno incierto. El hidrogeno verde en particular esta en fase embrionaria globalmente.
 
-### 3.4 Merger con Galp (Enero 2026)
+### 3.4 Merger con Galp (actualizado Mar 2026)
 
-- Non-binding agreement para fusionar downstream
+- Non-binding agreement (Enero 2026) para fusionar downstream
 - **IndustrialCo:** Refino + quimicos + trading + green molecules. Mubadala/Carlyle 80%, Galp 20%.
-- **RetailCo:** 3,500 estaciones combinadas (50:50). Competiria con Repsol (3,700).
+- **RetailCo:** ~3,500 estaciones combinadas (50:50). Competiria con Repsol (~3,700).
 - Capacidad combinada: ~710,000 bpd
-- Sujeto a reguladores y acuerdos definitivos (esperado mid-2026)
+- **Timeline actualizado:** Acuerdo vinculante esperado mid-2026. Due diligence en curso.
+- **Crisis Iran implicacion:** La fusion gana urgencia estrategica — escala en refino europeo es critica cuando el suministro de crudo via Hormuz esta interrumpido. Poder de negociacion combinado para asegurar crudo alternativo (Noruega, Libia, WAFR) vs hacerlo por separado.
+
+### 3.5 Proyectos de Transicion (actualizado Mar 2026)
+
+- **Planta Hidrogeno Verde Huelva:** Start-up previsto 2026. Primera produccion comercial de H2 verde a escala industrial en Espana.
+- **Planta Hidrogeno Verde Gibraltar (San Roque):** Start-up previsto 2027. Estrategicamente ubicada en corredor maritimo.
+- **Planta Biocombustibles 2G Huelva:** EUR 1.2B, 1M ton/ano SAF + HVO. La mayor del sur de Europa.
+- **RetailCo red combinada:** ~3,500 estaciones con infraestructura de carga EV.
+- **Nota crisis:** El shock petrolero de Iran REFUERZA el caso estrategico de la transicion verde — dependencia de crudo del Golfo es exactamente el riesgo que Moeve intenta mitigar.
 
 ---
 
@@ -167,11 +177,12 @@ Nota: Carlyle compro 38.4% en 2019 a valoracion ~$12B EV (EUR ~11B). El equity v
 ## 5. Tesis de Inversion: Argumentos a Favor
 
 1. **Duopolio refino Espana:** Posicion de mercado solida en un mercado con barreras de entrada insuperables
-2. **Ubicacion estrategica:** Gibraltar-San Roque es irreplicable
-3. **Transicion energetica:** Si el hydrogen/biofuels plan funciona, podria crear valor significativo
-4. **Merger Galp:** Crearia escala y sinergias en Iberia
-5. **Deuda manejable:** 1.4x EBITDA no es preocupante
+2. **Ubicacion estrategica:** Gibraltar-San Roque es irreplicable. En crisis Iran, AUMENTA su valor como hub Mediterraneo alternativo a rutas del Golfo.
+3. **Transicion energetica:** Si el hydrogen/biofuels plan funciona, podria crear valor significativo. La crisis Iran REFUERZA el caso: Europa necesita reducir dependencia de crudo del Golfo.
+4. **Merger Galp:** Crearia escala y sinergias en Iberia. Acuerdo vinculante esperado mid-2026.
+5. **Deuda manejable:** 1.4x EBITDA no es preocupante (actualizar: puede subir a 1.7-2.0x si capex continua)
 6. **Potencial IPO/exit:** Si Mubadala/Carlyle listan la empresa, podria haber catalizador de valor
+7. **Crisis Iran beneficio corto plazo (Mar 2026):** Refining margins Mediterraneo en expansion. Cracks de gasoleo europeo en $18-22/bbl (vs $8-10 pre-crisis). Moeve como refineria atlantica esta menos expuesta a la disrupcion de suministro que competidores asiaticos (84% del crudo de Hormuz va a Asia).
 
 ---
 
@@ -182,19 +193,22 @@ Nota: Carlyle compro 38.4% en 2019 a valoracion ~$12B EV (EUR ~11B). El equity v
 3. **ROIC mediocre:** 3-6% vs WACC 8-9%. Destruye valor economico
 4. **Net income contable vs ajustado:** Gap EUR 92M vs EUR 444M es ENORME. Los ajustes incluyen inventory effects, impairments y reestructuracion - senales de stress
 5. **Transicion de EUR 8B sin retorno probado:** Green hydrogen es embrionario. SAF no tiene mercado maduro. ROI no demostrado.
-6. **Ciclicidad refining:** Margins pueden colapsar (como Q3 2024: $4.8/bbl)
+6. **Ciclicidad refining:** Margins pueden colapsar (como Q3 2024: $4.8/bbl). La crisis Iran artificialmente INFLA margenes actuales — no confundir viento de cola ciclico con mejora estructural.
 7. **Retirada rating S&P:** Senales de opacidad - empresa privada sin presion de disclosure
-8. **IPO fallida en 2018:** Ya intentaron listar y fallaron. Carlyle lleva 7 anos sin exit.
+8. **IPO fallida en 2018:** Ya intentaron listar y fallaron. Carlyle lleva 7+ anos sin exit.
+9. **Crisis Iran riesgo upstream (Mar 2026):** Moeve mantiene activos upstream en Argelia. Si el conflicto se extiende por MENA, riesgo de contagio a Argelia (proveedor clave de gas a Europa). Ademas, costes de crudo para las refinerias SUBEN con la crisis — el beneficio de mayores cracks se compensa parcialmente con mayores input costs y primas de seguro maritimo.
 
 ---
 
 ## 7. Kill Conditions
 
-1. Net Debt/EBITDA > 3.0x (actualmente 1.4-1.7x)
-2. FCF negativo por >3 anos consecutivos (ya 1+ ano)
+1. Net Debt/EBITDA > 3.0x (actualmente 1.4-1.7x, tendencia alcista)
+2. FCF negativo por >3 anos consecutivos (ya 1+ ano — KC#2 APPROACHING)
 3. Cancelacion del merger con Galp + abandono de IPO plans
 4. Impuesto windfall permanente en Espana
 5. Colapso de refining margins prolongado (<$3/bbl por >12 meses)
+6. **[NUEVO — S132]** Cierre prolongado de Hormuz (>30 dias) que cause crisis de suministro de crudo a refinerias europeas, elevando input costs por encima de lo que los cracks pueden absorber
+7. **[NUEVO — S132]** Contagio geopolitico a Argelia que amenace produccion upstream residual (34,400 bpd)
 
 ---
 
@@ -208,6 +222,20 @@ Nota: Carlyle compro 38.4% en 2019 a valoracion ~$12B EV (EUR ~11B). El equity v
 4. **No cumple Principio 9** (Quality Gravitation) - este capital estaria mejor en cualquier Tier A del portfolio
 
 **Recommendation:** AVOID. Interesante como caso de estudio de transicion energetica, pero no como inversion.
+
+### Actualizacion S132 — Crisis Iran (Operation Epic Fury)
+
+La crisis Iran (Feb 28 - Mar 1, 2026) tiene implicaciones mixtas para Moeve:
+
+**Positivo corto plazo:** Refining margins Mediterraneo expandiendose significativamente. Cracks de gasoleo europeo $18-22/bbl vs $8-10 pre-crisis. Moeve como refineria atlantica/mediterranea se beneficia de su posicion fuera de la zona de conflicto directo. Gibraltar-San Roque gana relevancia como hub alternativo.
+
+**Negativo medio plazo:** Costes de crudo subiendo (Brent $78.41, +7.6%). Primas de seguro maritimo disparadas. Si Hormuz permanece cerrado >7 dias, el suministro de crudo a TODAS las refinerias europeas se tensiona, independientemente de su ubicacion. Moeve depende de importaciones de crudo — no tiene suficiente produccion propia.
+
+**Riesgo especifico:** Activos upstream en Argelia. Si el conflicto MENA se extiende, Argelia (vecino de Libia, relaciones complejas con Iran) podria verse afectada.
+
+**Estrategico:** La crisis VALIDA la estrategia de transicion verde de Moeve — la dependencia de crudo del Golfo es exactamente el riesgo que el plan "Positive Motion" intenta mitigar. Los proyectos de hidrogeno verde en Huelva (2026) y Gibraltar (2027) ganan relevancia politica y posibilidad de financiacion publica acelerada.
+
+**Veredicto actualizado:** AVOID se mantiene (no cotiza). Pero la tesis de valor estrategico de la transicion se fortalece con esta crisis. Ver analisis completo en `iran_conflict_impact.md`.
 
 ---
 

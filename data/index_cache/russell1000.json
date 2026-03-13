@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-11T14:31:31.295244",
+  "timestamp": "2026-03-07T14:03:01.067713",
   "tickers": [
     "MMM",
     "AOS",
@@ -347,6 +347,7 @@
     "EVR",
     "EG",
     "EVRG",
+    "PSTG",
     "ES",
     "ECG",
     "EXAS",
@@ -735,7 +736,6 @@
     "PSA",
     "PEG",
     "PHM",
-    "PSTG",
     "PVH",
     "QGEN",
     "Q",

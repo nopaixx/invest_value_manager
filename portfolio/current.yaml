@@ -7,22 +7,12 @@
 # =============================================================================
 
 cash:
-  amount: 6151  # Updated 2026-02-15. Confirmed post-ALL sale (+~399 EUR).
+  amount: 0  # Updated 2026-03-13. BUY BZU.MI EUR 370 at EUR 42.00. Cash fully deployed.
   currency: EUR
 
 positions:
   # DATOS SINCRONIZADOS CON eToro 2026-02-02
-  - ticker: DTE.DE
-    name: "Deutsche Telekom AG"
-    shares: 20.624621  # Trimmed from 23.62 on 2026-02-04
-    invested_usd: 699.56  # Prorated: 801.26 * (20.62/23.62)
-    avg_cost_usd: 33.91  # Unchanged (original cost basis)
-    date_opened: 2026-01-26
-    thesis: thesis/active/DTE.DE/thesis.md
-    conviction: medium
-    fair_value: "EUR 35.00 (v3.1 post-TMUS Q4 beat. QS Tool 61, Adj 69 Tier B. Was 48 Tier C.)"
-    last_review: 2026-02-11
-    exit_plan: "HOLD through Feb 26 DTE earnings. TRIM >EUR 34. ADD <EUR 28. SELL if div cut or FY2026 EPS guide <EUR 2.00."
+  # DTE.DE REMOVED 2026-02-26 - SOLD remaining 10.624621 shares at EUR 32.91. P16 rotation. E[CAGR] 6.7% lowest productive position. Total P&L across all DTE.DE trades: +22.4% on final tranche. Cash earmarked for FTNT/DNLM.L/RACE.MI SOs.
 
   # ALL REMOVED 2026-02-14 - SOLD. Tier C ON PROBATION, MoS insufficient (11.3% vs 30% required), peak cycle, 6/6 SELL precedent consistency. P&L +5.9%.
 
@@ -34,118 +24,204 @@ positions:
 
   - ticker: EDEN.PA
     name: "Edenred SA"
-    shares: 22.00
-    invested_usd: 459.18  # eToro: 461.91 - 2.73 P&L
-    avg_cost_usd: 20.87  # 459.18 / 22
+    shares: 102.83  # 85.96 + ~16.87 ADD S144c1 (EUR 317 at EUR 18.79). Confirm exact from eToro.
+    invested_usd: 2218  # 1850 + ~368 (EUR 317 * 1.1616)
+    avg_cost_usd: 21.57  # Blended estimate
+    avg_cost_eur: 18.35  # Blended: (85.96*18.26 + 16.87*18.79) / 102.83
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
-    conviction: medium
-    last_review: 2026-02-07
+    conviction: high
+    last_review: 2026-03-08
     fair_value: "EUR 29.0 (adversarial, was 38.4)"
-    exit_plan: "HOLD through earnings Feb 24. EXIT if 2027-28 guidance <5% or France regulation. TRIM if MoS vs revised FV <15%."
+    exit_plan: "HOLD. SI declining (21.2%→9.64% AMF, Citadel COVERED, Millennium reduced). ADD prohibition RELAXED — reconsider at EUR 17. TRIM at EUR 22+ (19%→15%). EXIT if France levy tabled (KC#13) or 2027-28 guide <5%. KC#1 MONITORING, KC#7 MONITORING ELEVATED."
+    notes: "S151: SI update — Citadel covered below 0.50% (was 2.10%), Millennium 1.90%→0.71%. AMF total 9.64% from 10 funds (was 21.2%/20 funds). Smart money covering = moderately bullish. ADD restriction relaxed. Thesis v4.2."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
-  - ticker: DOM.L
-    name: "Domino's Pizza Group PLC"
-    shares: 175
-    invested_usd: 436.52
-    avg_cost_usd: 2.49  # 436.52 / 175
-    date_opened: 2026-02-02
-    thesis: thesis/active/DOM.L/thesis.md
-    conviction: low
-    fair_value: "240 GBp (v3.0. QS Tool 61 Tier B, no adj. Was 294p v2.0, -18.4%. EV/EBIT 60% + P/E 40%)"
-    last_review: 2026-02-10
-    exit_plan: "HOLD through FY25 results Mar 5. SELL if EBITDA <GBP125M (KC#1). HOLD if base (GBP130-137M). Conviction LOW -- MoS 19.2% marginal for Tier B. New CEO Dominic Paul starts Apr 6."
+  # DOM.L REMOVED 2026-03-07 - SOLD. S143 restructuring. Orphan, LOW conviction, Tier B. Rotated capital to higher-quality ADDs. P&L ~-1.7%.
 
   # UHS REMOVED 2026-02-13 - SOLD. EXIT analysis: ABOVE FV -9% ($234 vs $213), BofA UNDERPERFORM PT $185, Medicaid cuts structural. 5/5 precedents Tier C MoS<=0 = SOLD. P&L +16.2%.
 
-  - ticker: GL
-    name: "Globe Life Inc."
-    shares: 3
-    invested_usd: 423.18
-    avg_cost_usd: 141.06  # 423.18 / 3
-    date_opened: 2026-02-03
-    thesis: thesis/active/GL/thesis.md
-    conviction: medium
-    fair_value: "$191 (v3.0. QS Tool 52, Adj 55 Tier B borderline. Was $185 adversarial, $174 v2.0)"
-    last_review: 2026-02-10
-    exit_plan: "HOLD through class action resolution. TRIM at $185+. ADD at $125 (MoS 34.5%). EXIT if KC#1 (new fraud) or KC#4 (new investigation). SEC+DOJ cleared Jul 2025."
+  # GL REMOVED 2026-03-07 - SOLD. S143 restructuring. QS 52 Tier C, lowest quality in portfolio. Orphan, no basket. Capital rotated to quality ADDs. P&L ~+0.6%.
 
   # HRB REMOVED 2026-02-09 - SOLD. Adversarial review: Intuit 600 offices + $100M OpenAI = moat breach. FCF -20% 3yr. Counter 18/24 STRONG. P&L -13.25%.
 
   - ticker: ADBE
     name: "Adobe Inc."
-    shares: 2
-    invested_usd: 541.20
-    avg_cost_usd: 270.60  # 541.20 / 2
+    shares: 3.83  # 2 original + 1.83 ADD S126. Confirm exact shares from eToro.
+    invested_usd: 1013.92  # $541.20 + $472.72 (EUR 400 * 1.1818)
+    avg_cost_usd: 264.73  # Blended: (2*271.60 + 1.83*259.04) / 3.83
     date_opened: 2026-02-04
     conviction: medium
-    fair_value: "$390 (FTC-adjusted, was $394. QS Tool 76, Adj 73)"
-    exit_plan: "HOLD through trial Oct 2026. EXIT if KC#6 (FTC mandates one-click + churn >5pp). TRIM at $350 pre-trial. ADD only if <$240 (bear absorbed). No ADD until trial clarity."
-    last_review: 2026-02-10
+    fair_value: "$390 (FTC-adjusted, was $394. QS Tool 80 (up from 76), Adj 77. ROIC 53%.)"
+    exit_plan: "HOLD through trial Oct 2026. EXIT if KC#6 (FTC mandates one-click + churn >5pp) or KC#9 (successor fails, rev growth <8% 2Q). TRIM at $350 pre-trial."
+    last_review: 2026-03-08
     thesis: thesis/active/ADBE/thesis.md
+    notes: "S151 Post-earnings: Q1 FY2026 CONDITIONAL BEAT. Rev $6.40B (+12%) BULL. EPS $6.06 BULL. AI-first ARR tripled. Cash from ops $2.96B record. CEO Narayen stepping down (stays Chair). KC#9 added (successor risk). FV $390 MAINTAINED. All 9 KCs CLEAR. HOLD."
 
   - ticker: NVO
     name: "Novo Nordisk A/S"
-    shares: 8.31
-    invested_usd: 400.00
-    avg_cost_usd: 48.13  # 400 / 8.31
+    shares: 36.20  # 24.16 + ~12.04 ADD S144c1 (EUR 400 at $38.58). Confirm exact from eToro.
+    invested_usd: 1476  # 1011 + ~465 (EUR 400 * 1.1616)
+    avg_cost_usd: 40.76  # Blended: (24.16*41.84 + 12.04*38.58) / 36.20
+    avg_cost_dkk: 256.00  # Estimated blended
     date_opened: 2026-02-05
+    conviction: medium
+    exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $47. SELL if FY2026 rev decline >10% (KC#8) OR market share <40% OR gross margin <70%. TRIM at $55+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, Q1 FY2026 ~May."
+    fair_value: "$47 (R3 resolved S146c8. Was $50 v4.0. DA: FCF stale, P/E 16x. Bear $37/Base $48/Bull $62. QS 73 Tier B.)"
+    last_review: 2026-03-07
     thesis: thesis/active/NVO/thesis.md
-    notes: "Framework v3.0 validation. Tier A QS 82. MoS 38%. Phased entry 4%."
+    notes: "R3 S146c8: FV $50->$47, growth 10%->5%, E[CAGR] 23.8%->16.6%. OEY inputs stale (DKK 72B vs actual 29B), P/E now primary method. KC#8/#9 added. Position justified (16.6% > 15% Tier B) but do NOT add."
 
   - ticker: MONY.L
     name: "Mony Group PLC"
-    shares: 204
-    invested_usd: 473.00  # ~400 EUR at 1.1826 rate
-    avg_cost_usd: 2.32  # 473 / 204 (169 GBp in USD)
+    shares: 384  # 456 - 72 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
+    invested_usd: 888  # Proportional: 1054 * (384/456)
+    avg_cost_usd: 2.31  # Unchanged
+    avg_cost_gbp: 171.0  # Unchanged
     date_opened: 2026-02-04
     thesis: thesis/active/MONY.L/thesis.md
-    notes: "AI Disruption Re-eval 2026-02-12: QS Tool 83, Adj 75 (borderline Tier A). Moat NARROW, erosion prob 30-35%. Insurify ChatGPT proof-of-concept (US-only). ROIC 31.8% >> WACC 9.2%. Financial quality 40/40. CEO bought 170.6p Feb 5."
-    conviction: low
-    last_review: 2026-02-12
-    fair_value: "190 GBp (v3.0 AI disruption re-eval, was 201 adversarial, 277 original)"
-    exit_plan: "HOLD ON PROBATION through Feb 23 earnings. SELL if revenue <435M (KC#1) or Insurance -5%+ H2 (KC#2) or dividend cut (KC#3). SELL if management has no AI strategy (KC#9). If earnings base/bull + AI strategy: maintain. If cautious guidance: 60-day probation with exit at 130p. No ADD while on probation."
+    notes: "R3 S147c3: FV 190p maintained. DA MODERATE COUNTER, 5 HIGH (AI live disruption, P/E re-rating unlikely, narrow upside 10%). FIRST ROTATION CANDIDATE. Yield play (7.3% div + 3% buyback). Growth 2% = lowest in portfolio."
+    conviction: medium
+    last_review: 2026-03-07
+    fair_value: "190 GBp (R3 S147c3, maintained. DA MODERATE COUNTER, 5 HIGH. DA bear 155p. QS 83/75.)"
+    exit_plan: "HOLD yield anchor. FIRST ROTATION CANDIDATE if higher E[CAGR] needs capital. SELL if revenue declines YoY, Insurance -5%+, dividend cut, or AI adoption >5% of quotes. TRIM at >180p."
 
-  - ticker: LULU
-    name: "Lululemon Athletica Inc."
-    shares: 2
-    invested_usd: 343.24
-    avg_cost_usd: 171.62  # 343.24 / 2
-    date_opened: 2026-02-05
-    thesis: thesis/active/LULU/thesis.md
-    conviction: low
-    last_review: 2026-02-12
-    fair_value: "$196 (governance re-eval Feb 12, was $202 adversarial, $261 original. QS Tool 80, Adj 78 Tier A low-end.)"
-    exit_plan: "HOLD ON PROBATION through Mar 31 Q4 earnings. No ADD. SELL if negative global comps or GM <57% or poor CEO appointment. UPGRADE if US improves + GM stable + credible CEO. Kill conditions: 8 active, 2 approaching/elevated."
-    notes: "Governance Re-eval 2026-02-12: QS 82→78, FV $261→$196 (-25%). CEO out Jan 31, Elliott $1B activist, Wilson proxy fight, bonuses below target. ROIC 47% exceptional but thesis weakened on 3/6 assumptions. Position small ($343). Mar 31 MAKE-OR-BREAK."
+  # LULU REMOVED 2026-03-06 - SOLD. Orphan EXIT. No CEO 34+ days, dual activist pressure (Wilson + Elliott), worst E[CAGR] in portfolio (-5.5%). P&L -1.0%.
 
-  - ticker: AUTO.L
-    name: "AutoTrader Group plc"
-    shares: 65
-    invested_usd: 427.60  # 362.70 EUR * 1.1789
-    avg_cost_usd: 6.58  # 427.60 / 65
-    date_opened: 2026-02-06
-    thesis: thesis/active/AUTO.L/thesis.md
-    conviction: low
-    fair_value: "580 GBp (re-eval Feb 11, was 617p adversarial, 688p original. QS Tool 63, Adj 71 Tier B. Was 79 Tier A.)"
-    last_review: 2026-02-11
-    exit_plan: "HOLD LOW conviction. April 2026 pricing event = MAKE-OR-BREAK. May 2026 FY results = MANDATORY REVIEW. EXIT if April causes >200 cancellations or dealer count -3%+. EXIT if CMA formal investigation. EXIT if ARPR <3%. If Tier A opportunity needs capital, candidate for rotation."
-    notes: "Adversarial + urgent re-eval 2026-02-11: QS 79->71 (Tier A->B). FV 688->617->580p. Moat under active siege (180+ downgrades, Jefferies/Berenberg downgrade). Financial quality 40/40 exceptional. ROIC +42pp. Position small (3.4%), loss manageable (-3.3%)."
+  # AUTO.L REMOVED 2026-03-08 - SOLD. S150 rotation R0. E[CAGR] 12.1% = 2nd worst. LOW conviction Tier B. Moat under siege. Capital held as ADBE earnings buffer. P&L ~+1.6%.
 
-  - ticker: BYIT.L
-    name: "Bytes Technology Group plc"
-    shares: 110
-    invested_usd: 444
-    avg_cost_usd: 4.04  # 444 / 110
-    date_opened: 2026-02-07
-    thesis: thesis/active/BYIT.L/thesis.md
-    conviction: low
-    fair_value: "345 GBp (adversarial, was 455. QS Tool 68, Adj 69-72 Tier B. Was 81 Tier A.)"
-    exit_plan: "HOLD ON PROBATION. EXIT if FY2026 full-year OP < GBP 66M (~May 2026). ADD at 240p. SELL if Tier A needs capital and better opportunity exists."
-    last_review: 2026-02-11
-    notes: "Adversarial review 2026-02-11: FV 455->345 (-24.2%), QS 81->68-72 (Tier A->B). Insider ownership 0.4% not 9.6%. Microsoft EA disintermediation structural. Moat NARROW (14/25). HOLD because ROIC>>WACC, net cash, small position."
+  # MORN REMOVED 2026-03-07 - SOLD. S143 restructuring. Data & Analytics Monopolies basket rotation. QS 78 Tier A but lowest E[CAGR] (~5.1%) in basket. Capital redeployed to TW + WKL.AS. P&L ~+2%.
+
+  - ticker: IHP.L
+    name: "IntegraFin Holdings plc"
+    shares: 327  # 274 + ~53 ADD S143c8 sizing rebalance. Confirm exact from eToro.
+    invested_usd: 1390  # 1165 + ~225 (EUR 194 * 1.1616)
+    avg_cost_usd: 4.25  # Unchanged (blended)
+    avg_cost_gbp: 319.6  # Blended: (274*320 + 53*318.5) / 327
+    date_opened: 2026-02-24
+    thesis: thesis/active/IHP.L/thesis.md
+    conviction: high
+    fair_value: "390 GBp (R3 refresh S147c1, maintained. DA bear 350p still 10% above market. QS Tool 80 Tier A.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD. 11.4% = CEILING, do NOT add. TRIM at 450p+. SELL if KC triggered (margin <20bps + FUA <8%, outflows 2Q, insider selling >5%, IHT SIPP outflows >0.5bn/Q). Validate H1 FY26 ops leverage (~June)."
+    notes: "R3 refresh S147c1: FV 390p maintained. DA MODERATE COUNTER — sizing concern (11.4% = 5.7x original 2%), IHT pension reform blind spot (KC#8 added), competition incrementally worse. E[CAGR] 19.5%. No add, no trim."
+
+  - ticker: HLNE
+    name: "Hamilton Lane Incorporated"
+    shares: 11.87  # 15.54 - 3.67 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
+    invested_usd: 1264  # Proportional: 1641 * (11.87/15.54)
+    avg_cost_usd: 105.60  # Unchanged (blended cost basis)
+    date_opened: 2026-02-25
+    thesis: thesis/active/HLNE/thesis.md
+    conviction: medium
+    fair_value: "$110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Resolve receivables gate Q4 FY2026 ~May 2026."
+    notes: "R3 refresh S147c4: FV $110 maintained. Growth 12%->10% (EPS CAGR basis). DA: PE fundraising -32%, mega-managers accelerating, receivables +67.5% unresolved (Error #63 flag). Insider cluster buy $4.2M = strongest in portfolio. No ADD."
+
+  - ticker: DOCS
+    name: "Doximity, Inc."
+    shares: 39.93  # 47.08 - 7.15 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
+    invested_usd: 991  # Proportional: 1168 * (39.93/47.08)
+    avg_cost_usd: 24.81  # Unchanged
+    date_opened: 2026-02-25
+    thesis: thesis/active/DOCS/thesis.md
+    conviction: medium
+    fair_value: "$30 (R3 resolved S146c4. Was $32.80. DA: TAM 13%->7%, growth 10%->8%, MFN structural. QS 74/79 Tier A.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD 8%. Do NOT add before Q4 (~May 2026). TRIM to 5% if Q4 misses + FY27 guide <8%. TRIM at $38+. SELL if KC#1 (NRR <100%) or KC#7 (Q4 rev <$140M + FY27 guide <6%)."
+    notes: "R3 S146c4: FV $32.80->$30, growth 10%->8%, E[CAGR] 19%->13.8%. TAM corrected 13%->7%. 3 HIGH DA findings resolved. Position justified (E[CAGR] 13.8% > 12% threshold) but oversized at 8%. Q4 earnings = binary catalyst."
+
+  - ticker: FTNT
+    name: "Fortinet, Inc."
+    shares: 10.57  # 12.92 - 2.35 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
+    avg_cost_usd: 81.58  # Unchanged
+    invested_usd: 862  # Proportional: 1054 * (10.57/12.92)
+    conviction: medium
+    date_opened: 2026-02-26
+    fair_value: "$88 (R3 post-DA resolution. QS Tool 87 Tier A. Was 70 pre-ROIC data fix.)"
+    thesis: thesis/active/FTNT/thesis.md
+    exit_plan: "EXIT APPROVED S152. SELL late April. E[CAGR] 9.4% worst, 3 KCs MONITORING (CVE pattern), 4.3% MoS. Rotate to SPGI EUR 400 + best available EUR 375. CANCEL exit if: price drops to $73 OR Q1 PASS + guide raise (FV $95-100). Accelerate if drops below $78 (cost basis)."
+    notes: "S152: EXIT Protocol 6 gates + Committee APPROVE. 15-day hold on QS 87 = short but precedented (RACE.MI 2d, MORN 15d). Rotation improves portfolio E[CAGR] by ~0.5pp. Cybersecurity basket goes to 0 positions → RESEARCHING."
+    last_review: 2026-03-13
+
+  # RACE.MI REMOVED 2026-03-07 - SOLD. S143c10 T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg 17.4%). QS 84 Tier A but overvalued vs FV at EUR 301.60. Capital redeployed to EDEN/NVO/WKL (E[CAGR] 21-27%). P&L ~-3.4% (EUR -12).
+
+  # BYIT.L REMOVED 2026-03-07 - SOLD. S143 restructuring. QS 68 Tier B ON PROBATION, orphan (not a platform). Capital rotated to quality ADDs. P&L ~+5.7%.
+
+  - ticker: TW
+    name: "Tradeweb Markets Inc."
+    shares: 5.59  # EUR 600 at ~$124.59. Confirm exact shares from eToro.
+    invested_usd: 697  # EUR 600 * 1.1616
+    avg_cost_usd: 124.59
+    date_opened: 2026-03-07
+    thesis: thesis/active/TW/thesis.md
+    conviction: medium
+    fair_value: "$135 (R3 refresh S147c4, reduced from $140. DA MODERATE COUNTER, 4 HIGH. DA bear $104. QS 76/84 Tier A.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD. TRIM at $155+. ADD at $105 (MoS 22%). SELL if KC triggered (rev growth <10% 2Q, LSEG disorderly sale >20%, OP margin <38% 2Q, insider selling >$50M/6mo). Q1 earnings April = key test."
+    notes: "R3 refresh S147c4: FV $140->$135, growth 12%->10%. DA: Q4 CC 9.9% below thesis, RPM compression structural, LSEG governance, insider selling $26.3M. E[CAGR] 13.0%. Bottom tercile — rotation candidate if Q1 disappoints."
+
+  - ticker: WKL.AS
+    name: "Wolters Kluwer N.V."
+    shares: 11.68  # 8.76 + ~2.92 ADD S143c10 T15 rotation. Confirm exact from eToro.
+    invested_eur: 800  # 600 + 200
+    avg_cost_eur: 68.52  # Unchanged (same price)
+    date_opened: 2026-03-07
+    thesis: thesis/active/WKL.AS/thesis.md
+    conviction: medium
+    fair_value: "EUR 80 (R3 S147c2, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear EUR 67. QS 72 Tier B.)"
+    last_review: 2026-03-07
+    exit_plan: "HOLD. TRIM at EUR 95+. ADD at EUR 55 (MoS 31%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, Harvey AI >$500M ARR, net debt >2.5x, OpenEvidence >100 hospital contracts)."
+    notes: "R3 S147c2: FV EUR 80 maintained. DA MODERATE COUNTER (was STRONG Feb 11). FY2025 confirmed thesis. Receivables +23% vs rev +3.5% yellow flag. Growth 6% formalized (Error #64 fix). KC#12-13 added. No ADD until receivables explained + Caywood track record. Sector view cleared S146."
+
+  - ticker: BZU.MI
+    name: "Buzzi SpA"
+    shares: 8.81  # EUR 370 / EUR 42.00. Confirm exact from eToro.
+    invested_eur: 370
+    avg_cost_eur: 42.00
+    date_opened: 2026-03-13
+    thesis: thesis/active/BZU.MI/thesis.md
+    conviction: medium
+    fair_value: "EUR 51 (R3 post-DA resolution S151. Was EUR 57 R4. DA: through-cycle EBIT EUR 780M, oil $97 headwind, US demand 3yr decline. QS 73/75adj Tier B.)"
+    last_review: 2026-03-13
+    exit_plan: "HOLD. TRIM at EUR 50+. ADD at EUR 35 (MoS 31%). SELL if KC triggered (US EBITDA margin <30% 2yr, net debt >2x EBITDA, family <40%, Russia writedown >EUR 500M, ROIC <WACC 2yr, Brent >$95 6mo + margin -5pp). Through-cycle EBIT EUR 780M at 10x. No ADD until FY2025 formal results."
+    notes: "S151 DA RESOLUTION: FV EUR 57→51 (-10.5%). DA MODERATE COUNTER (3 HIGH: US demand 3yr decline, oil $97 headwind, timing premature). Edge limited (~5% vs consensus). E[CAGR] ~11.8% at EUR 41.50 — below 15% Tier B but position small (3.5%), defensible as cyclical recovery bet. KC#6 added (oil). DO NOT ADD."
+
+# =============================================================================
+# SHORT POSITIONS - CFDs en eToro
+# =============================================================================
+# Carry cost: ~7-8% anual sobre el valor nocional (overnight fee eToro)
+# P&L short: (entry_price - current_price) * shares - carry_cost_accrued
+# ESMA: negative balance protection para retail
+short_positions:
+  - ticker: CVNA
+    name: "Carvana Co."
+    shares: 0.31
+    entry_price_usd: 318.77
+    date_opened: 2026-03-11
+    carry_cost_accrued: 0.00
+    catalyst_date: 2026-05-06
+    thesis: thesis/short/active/CVNA/thesis.md
+    conviction: medium
+    stop_loss: "$370"
+    fair_value_short: "$120"
+    exit_plan: "COVER if Q1 EBITDA margin >12% 2Q consecutive. COVER at $370 stop loss. COVER if Garcia family cleared. COVER if carry >8% without catalyst. Max 6mo (Sep 2026)."
+    notes: "S151 MACRO UPDATE: Oil $97 = STRONG TAILWIND. Gas ~$3.80/gal hurts CVNA's lower-income buyer base DIRECTLY. Higher gas costs → fewer miles driven → less used car demand → volume decline. Combined with persistent rates (no FOMC cuts 2026) → auto financing remains expensive. P&L: +8.2% ($318.77→$292.64). 2 days held. Q1 earnings ~May 6 = primary catalyst. Thesis strengthening with macro."
+    last_review: 2026-03-13
+# Ejemplo de formato:
+#  - ticker: XYZ
+#    name: "Company Name"
+#    shares: 10
+#    entry_price_usd: 150.00
+#    date_opened: 2026-02-18
+#    carry_cost_accrued: 0.00
+#    catalyst_date: 2026-06-30
+#    thesis: thesis/short/active/XYZ/thesis.md
+#    conviction: medium
+#    exit_plan: "COVER if catalyst passes without effect. COVER if price drops 30%+."
+#    last_review: 2026-02-18
 
 transactions:
   - date: 2026-01-26
@@ -541,3 +617,347 @@ transactions:
     pnl_eur: ~23
     pnl_pct: 5.9
     notes: "EXIT - Tier C ON PROBATION (QS 56). MoS insufficient (11.3% vs 30% required for Tier C). Peak cycle (CR 85.2% best in 15 years, not sustainable). 6/6 SELL precedent consistency. Freed capital to deploy in pipeline R4-approved opportunities."
+
+  - date: 2026-02-20
+    action: BUY
+    ticker: MORN
+    shares: 2.9
+    price_usd: 160.76
+    total_usd: 466.20
+    notes: "BUY - FIRST E[CAGR]-framework market buy (new precedent). QS 78 Tier A. FV $195. MoS 17% (below historical 29-38%, justified by E[CAGR] 15.6% >> 12% threshold). 46% insider. Zero portfolio overlap. Financial data/analytics. SO at $150 replaced by market execution."
+
+  - date: 2026-02-24
+    action: BUY
+    ticker: IHP.L
+    shares: 55
+    price_gbp: 318
+    total_eur: 200.00
+    notes: "BUY - SECOND E[CAGR]-framework market buy. QS 80 Tier A. FV 390p. MoS 18.5% at market. E[CAGR] ~19%. R4 approved S100. UK #1 independent adviser platform (Transact). ROIC 49%, 24.2% insider, net cash. 2% sizing cap (5th UK position, UK total 16.6%). SO at 300p superseded by deployment doctrine."
+
+  - date: 2026-02-25
+    action: BUY
+    ticker: HLNE
+    shares: 4.63
+    price_usd: 101.75
+    total_eur: 400
+    notes: "BUY - THIRD E[CAGR]-framework market buy. QS 86/82adj Tier A (highest QS in portfolio). FV $110 (R3 post-DA). MoS 7.5%. E[CAGR] 16.7% >> 12% threshold. R4 APPROVED S120. SO at $95 superseded. CEO bought $1M at $130. Alt AM, private markets specialist. Zero portfolio overlap."
+
+  - date: 2026-02-25
+    action: BUY
+    ticker: DOCS
+    shares: 19.57
+    price_usd: 24.07
+    total_eur: 400
+    notes: "BUY - FOURTH E[CAGR]-framework market buy. QS 74/79adj Tier A. FV $32.80 (R3 post-DA). MoS 26.6%. E[CAGR] 13.4% > 12% threshold. R4 APPROVED S118. Price BELOW DA bear ($25-26). SO at $23 superseded. 85% US physician monopoly. 90% GM, 47% FCF, $724M net cash."
+
+  - date: 2026-02-26
+    action: TRIM
+    ticker: DTE.DE
+    shares: 10
+    price_eur: 33.66
+    total_eur: 336.60
+    pnl_eur: 67.80
+    pnl_pct: 25.2
+    notes: "TRIM - FY2025 earnings MEET-to-SOFT MISS. E[CAGR] 6.0% = second worst position. MoS 4% (EUR 33.66 vs FV EUR 35) = fully valued. FY2026 EPS guide EUR 2.20 (below EUR 2.30 beat threshold). +25.2% gain per share locked (EUR 33.66 vs EUR 26.88 cost). Capital freed for higher-E[CAGR] pipeline (DNLM.L 3.7%, FTNT 5.6%, RACE.MI 7.6% from triggers). Remaining 10.6 shares maintains TMUS exposure. Conviction MEDIUM→LOW."
+
+  - date: 2026-02-26
+    action: SELL
+    ticker: DTE.DE
+    shares: 10.624621
+    price_eur: 32.91
+    total_eur: 349.66
+    pnl_eur: 64.08
+    pnl_pct: 22.4
+    notes: "EXIT - FULL EXIT remaining 10.624621 shares. P16 rotation. E[CAGR] 6.7% lowest productive position. Conviction LOW. Already trimmed 10 shares earlier today at EUR 33.66. Combined DTE.DE P&L: TRIM +EUR 67.80 (25.2%) + EXIT +EUR 64.08 (22.4%) = total realized +EUR 131.88. Cash earmarked for FTNT SO $73, DNLM.L SO 950p, RACE.MI SO EUR 295."
+
+  - date: 2026-02-26
+    action: BUY
+    ticker: FTNT
+    shares: 5.98
+    price_usd: 79.12
+    total_eur: 400
+    notes: "BUY - FIFTH E[CAGR]-framework market buy. QS 85adj Tier A (Tool 70, +15 for ROIC NaN + market position). FV $88 (R3 post-DA). MoS 10.0%. E[CAGR] ~13.6% > 12% threshold. R4 APPROVED S123. SO $78 raised from $73 (1.6% away, essentially at market). WIDE moat (ASIC 83% ROIC + FortiOS switching costs). #1 firewall 55% unit share. 4.3% SBC (vs peers 15-30%). Net cash $2.6B. Cybersecurity sector diversifier (new). EUR/USD 1.1818."
+
+  - date: 2026-02-26
+    action: ADD
+    ticker: HLNE
+    shares: 4.37
+    price_usd: 108.11
+    total_eur: 400
+    notes: "ADD - Position doubled. E[CAGR] 14.6% at ADD price. QS 82 Tier A (highest in portfolio). FV $110, MoS 1.7% at ADD price. Cash drag avoidance — deploying into highest-quality position. Total shares 4.63→9.00. EUR/USD 1.1818."
+
+  - date: 2026-02-27
+    action: ADD
+    ticker: IHP.L
+    shares: 55  # Estimate at 320p. Confirm exact from eToro.
+    price_gbp: 320
+    total_eur: 200
+    notes: "ADD - Position doubled. E[CAGR] 22.6% at 320p (best Tier A risk-adjusted in portfolio). QS 80 Tier A. FV 390p, MoS 17.9%. 6th E[CAGR]-framework deployment. Position 1.9%→3.9%. UK concentration justified (5 UK positions in uncorrelated sectors: adviser platform, pizza, auto marketplace, insurance comparison, tech reseller). Sizing cap 2% removed — P1 reasoning: -50% = -2.0% portfolio = manageable."
+
+  - date: 2026-02-26
+    action: ADD
+    ticker: ADBE
+    shares: 1.83
+    price_usd: 259.04
+    total_eur: 400
+    notes: "ADD - E[CAGR] 21.6%, MoS 50.6%. FTC trial Oct 2026 priced in. QS 76adj Tier A. FV $390. Cash deployment into deeply undervalued compounder. Total shares 2→3.83. EUR/USD 1.1818."
+
+  - date: 2026-03-05
+    action: BUY
+    ticker: RACE.MI
+    shares: 1.12
+    price_eur: 312.80
+    total_eur: 350
+    notes: "BUY - SIXTH E[CAGR]-framework market buy. QS 82/84adj Tier A. FV EUR 355 (R3 post-DA). MoS 11.9%. E[CAGR] ~13.5% > 12% threshold. THREE WAITS mandate (3 consecutive Q1 'wait' answers). SO EUR 295 superseded by market buy (EUR 17.80 difference = noise vs 4.8pp/yr cash drag). R4 approved S90. EU Value Recovery basket 2nd position — saves from Mar 31 death deadline. WIDE moat (brand + scarcity + pricing power). 52% ROIC, net cash, 2-yr order book. AGM Apr 15."
+
+  - date: 2026-03-06
+    action: SELL
+    ticker: LULU
+    shares: 2
+    price_usd: 170.12
+    total_usd: 340.24
+    pnl_usd: -3.44
+    pnl_pct: -1.0
+    notes: "EXIT - Orphan position. No CEO 34+ days (Christine Day out Jan 31). Dual activist pressure (Wilson proxy fight + Elliott $1B stake). Worst E[CAGR] in portfolio (-5.5%). ON PROBATION since Feb 12 governance re-eval. QS 78 Tier A low-end but thesis weakened 3/6 assumptions. Capital freed for deployment into stronger baskets."
+
+  # S143 RESTRUCTURING — 3 SELLS + 2 BUYS + 5 ADDS (2026-03-07)
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: GL
+    shares: 3
+    price_usd: 142.18
+    total_eur: ~367
+    pnl_pct: ~0.6
+    notes: "EXIT - S143 restructuring. QS 52 Tier C, lowest quality in portfolio. Orphan without basket. SEC/DOJ cleared but class action overhang. Capital rotated to quality ADDs (IHP.L, HLNE, DOCS, MONY.L, FTNT)."
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: BYIT.L
+    shares: 110
+    price_gbp: 316.40
+    total_eur: ~400
+    pnl_pct: ~5.7
+    notes: "EXIT - S143 restructuring. QS 68 Tier B ON PROBATION. Orphan (not a digital platform). 0.4% insider, Microsoft EA disintermediation structural. Capital rotated to quality ADDs."
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: DOM.L
+    shares: 175
+    price_gbp: 183.60
+    total_eur: ~369
+    pnl_pct: ~-1.7
+    notes: "EXIT - S143 restructuring. QS 61 Tier B LOW conviction. Orphan without basket. Pre-earnings exit (results Mar 10). Capital rotated to quality ADDs."
+
+  - date: 2026-03-07
+    action: BUY
+    ticker: TW
+    shares: 5.59
+    price_usd: 124.59
+    total_eur: 600
+    notes: "BUY - S143. Data & Analytics Monopolies basket. WIDE moat 20/25. Bond trading platform monopoly. R3 complete. QS 84adj Tier A."
+
+  - date: 2026-03-07
+    action: BUY
+    ticker: WKL.AS
+    shares: 8.76
+    price_eur: 68.52
+    total_eur: 600
+    notes: "BUY - S143. Data & Analytics Monopolies basket. Legal/tax/health information monopolist. QS ~80 Tier A. 78% recurring revenue."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: IHP.L
+    shares: ~164
+    price_gbp: 318.50
+    total_eur: 600
+    notes: "ADD - S143. UK Digital Platforms basket quality anchor. QS 80 Tier A. E[CAGR] ~22% at 318p. Position tripled."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: HLNE
+    shares: ~6.54
+    price_usd: 106.57
+    total_eur: 600
+    notes: "ADD - S143. US Quality Compounders basket. QS 82 Tier A highest QS. Position >10% confirmed by human. CEO bought $1M at $130."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: DOCS
+    shares: ~27.51
+    price_usd: 25.34
+    total_eur: 600
+    notes: "ADD - S143. US Quality Compounders basket. 85% US physician monopoly. QS 79 Tier A. Position more than doubled."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: MONY.L
+    shares: ~252
+    price_gbp: 172.90
+    total_eur: 500
+    notes: "ADD - S143. UK Digital Platforms basket. QS 75 Tier A borderline. FY2025 record margins. AI strategy validated. Position more than doubled."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: FTNT
+    shares: ~6.94
+    price_gbp: 83.67
+    total_eur: 500
+    notes: "ADD - S143. Cybersecurity basket anchor. QS 85 Tier A. WIDE moat. Crisis beneficiary. Position doubled."
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: MORN
+    shares: 2.9
+    price_usd: ~164
+    total_eur: ~475
+    pnl_pct: ~2.0
+    notes: "EXIT - S143 restructuring. QS 78 Tier A but lowest E[CAGR] (~5.1%) in Data & Analytics Monopolies basket. Capital redeployed to TW + WKL.AS (higher-quality WIDE moats). 46% insider (Mansueto) validated but rotation to better opportunities."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: EDEN.PA
+    shares: ~25
+    price_eur: 18.79
+    total_eur: 475
+    notes: "ADD - S143c5. European Pricing Power basket. MORN proceeds redeployed. E[CAGR] 27.1% = highest in portfolio. Position doubled (22→47 shares). Cash 19.9%→14.7%."
+
+  # S143c8 SIZING REBALANCE — T15 alignment: capital flows toward highest E[CAGR] (2026-03-07)
+
+  - date: 2026-03-07
+    action: TRIM
+    ticker: HLNE
+    shares: 3.67
+    price_usd: 106.57
+    total_eur: 337
+    notes: "TRIM - S143c8 sizing rebalance. T15: E[CAGR] 15.0% mid-range, oversized at 13.1%. Sized down to 10.0%. Capital redeployed to higher E[CAGR] positions."
+
+  - date: 2026-03-07
+    action: TRIM
+    ticker: MONY.L
+    shares: 72
+    price_gbp: 172.90
+    total_eur: 144
+    notes: "TRIM - S143c8 sizing rebalance. T15: E[CAGR] 13.4% below median, oversized at 8.3%. Sized down to 7.0%."
+
+  - date: 2026-03-07
+    action: TRIM
+    ticker: DOCS
+    shares: 7.15
+    price_usd: 25.34
+    total_eur: 156
+    notes: "TRIM - S143c8 sizing rebalance. T15: E[CAGR] 11.5% bottom quartile, oversized at 9.4%. Sized down to 8.0%."
+
+  - date: 2026-03-07
+    action: TRIM
+    ticker: FTNT
+    shares: 2.35
+    price_usd: 83.67
+    total_eur: 169
+    notes: "TRIM - S143c8 sizing rebalance. T15: E[CAGR] 9.7% 2nd worst, oversized at 8.5%. Sized down to 7.0%."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: EDEN.PA
+    shares: ~23
+    price_eur: 18.79
+    total_eur: 423
+    notes: "ADD - S143c8 sizing rebalance. T15: E[CAGR] 27.1% HIGHEST, undersized at 8.1%. Sized up to 12.0%. Conviction MEDIUM→HIGH."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: NVO
+    shares: ~8.07
+    price_usd: 38.58
+    total_eur: 268
+    notes: "ADD - S143c8 sizing rebalance. T15: E[CAGR] 23.8% 2nd highest, undersized at 2.5%. Sized up to 5.0%. Conviction LOW→MEDIUM. Avg cost improved $48→$43."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: IHP.L
+    shares: ~53
+    price_gbp: 318.50
+    total_eur: 194
+    notes: "ADD - S143c8 sizing rebalance. T15: E[CAGR] 20.4% 3rd highest, sized up from 9.2% to 11.0%. Conviction MEDIUM→HIGH."
+
+  # S143c10 T15 ROTATION — RACE.MI out, EDEN/NVO/WKL up (2026-03-07)
+
+  - date: 2026-03-07
+    action: SELL
+    ticker: RACE.MI
+    shares: 1.12
+    price_eur: 301.60
+    total_eur: 338
+    pnl_eur: -12
+    pnl_pct: -3.4
+    notes: "EXIT - S143c10 T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg). QS 84 Tier A but overvalued at EUR 301.60 vs FV EUR 355. Held 2 days. Capital redeployed to top E[CAGR] positions."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: EDEN.PA
+    shares: ~15.96
+    price_eur: 18.79
+    total_eur: 300
+    notes: "ADD - S143c10 T15 rotation. RACE proceeds + cash. E[CAGR] 27.1% HIGHEST. Position now ~16% of portfolio. 4th ADD total."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: NVO
+    shares: ~7.77
+    price_usd: 38.58
+    total_eur: 300
+    notes: "ADD - S143c10 T15 rotation. E[CAGR] 23.8% 2nd highest. Position now ~9%. Avg cost $43→$42. 3rd ADD total."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: WKL.AS
+    shares: ~2.92
+    price_eur: 68.52
+    total_eur: 200
+    notes: "ADD - S143c10 T15 rotation. E[CAGR] 20.9%. Data & Analytics basket. Position now ~9.5%."
+
+  # S144c1 FULL DEPLOYMENT — Cash EUR 717 → EUR 0 (2026-03-07)
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: NVO
+    shares: ~12.04
+    price_usd: 38.58
+    total_eur: 400
+    notes: "ADD - S144c1 full deployment. E[CAGR] 23.8% 2nd highest. Position 7.6%→~13%. Avg cost $41.84→$40.76. 4th ADD total."
+
+  - date: 2026-03-07
+    action: ADD
+    ticker: EDEN.PA
+    shares: ~16.87
+    price_eur: 18.79
+    total_eur: 317
+    notes: "ADD - S144c1 full deployment. E[CAGR] 27.1% HIGHEST. Position 15.4%→~19%. 5th ADD total. Remaining cash deployed."
+
+  # S150 ROTATION R0 — SELL AUTO.L (2026-03-08)
+
+  - date: 2026-03-08
+    action: SELL
+    ticker: AUTO.L
+    shares: 65
+    price_gbp: 494.80
+    total_eur: ~370
+    pnl_eur: ~7
+    pnl_pct: ~1.6
+    notes: "EXIT - S150 rotation R0. E[CAGR] 12.1% = 2nd worst position. LOW conviction Tier B (QS 71). Moat under active siege (180+ dealer downgrades). Held 30 days. +1.6% gain. Proceeds held as cash buffer for ADBE earnings Wed Mar 12. Next deployment: FTNT rotation (if Investor Day bear → GDDY) or ADBE ADD (if earnings PASS)."
+
+  - date: 2026-03-11
+    action: SHORT
+    ticker: CVNA
+    shares: 0.31
+    price_usd: 318.77
+    total_eur: 100
+    notes: "SHORT - FIRST SHORT POSITION. CFD x1 leverage, no margin. S4 APPROVED CONDITIONAL S143. QS 30 Tier D at 62x adj P/E. EBITDA margin compressing 12%->9.1%. $685M DTA inflation. PIK->cash interest transition mid-2026. 1% sizing. Stop loss $370 (+16%). Catalyst: Q1 earnings ~May 6. Max duration 6mo (Sep 2026)."
+
+  - date: 2026-03-13
+    action: BUY
+    ticker: BZU.MI
+    shares: 8.81
+    price_eur: 42.00
+    total_eur: 370
+    notes: "BUY - S151. R4 APPROVED S143c10 (10/10 PASS). QS 73/75adj Tier B. FV EUR 57 (R3 post-DA). MoS 35.7% at EUR 42. E[CAGR] 15.9% > 15% Tier B threshold. SO triggered at EUR 42.00 = exactly at trigger. Italian cement, Buzzi family 53%, net cash, best margins in industry. EUR 200M buyback active. Standalone (no basket). Through-cycle EBIT EUR 850M at 10.5x."

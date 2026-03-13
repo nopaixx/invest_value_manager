@@ -178,6 +178,27 @@ FVs inflados, riesgos omitidos y errores factuales (como se demostro con DNLM.L:
 
 ---
 
+### 6c. `fv-accuracy` | TRIMESTRAL (cada 30 sesiones, alinear con zero-base review)
+
+**Objetivo:** Medir la calidad predictiva de las estimaciones de Fair Value. Auto-calibración.
+
+| Paso | Accion | Ejecutor | Input | Output |
+|------|--------|----------|-------|--------|
+| 1 | Run FV accuracy report | `fv_accuracy.py --summary` | thesis files + yfinance | Accuracy metrics |
+| 2 | Analyze systematic bias | `fv_accuracy.py --bias` | Same | Bias by source (active/archive/research) |
+| 3 | Identify worst misses | `fv_accuracy.py` (full) | Same | Per-ticker convergence table |
+| 4 | Calibration decision | Orchestrator | Accuracy data | Adjust methodology if needed |
+| 5 | Record in evolution_state | Orchestrator | Findings | T15 FV_ACCURACY trigger |
+
+**Thresholds (derived from data, not hardcoded):**
+- Directional accuracy <50% → FV methodology broken, investigate
+- Systematic bias >25% bullish → E[CAGR] framework overstates, recalibrate
+- Convergence <20% at 180d → FVs are not predictive, reassess valuation approach
+
+**Condicion de salida:** Accuracy report generated. Bias documented. Methodology adjusted if warranted.
+
+---
+
 ### 7. `deep-performance` | MENSUAL
 
 **Objetivo:** Evaluar si la estrategia funciona.
@@ -286,7 +307,70 @@ thesis/research/{TICKER}/
 
 ---
 
-### 11. `earnings-pipeline` | Trigger: earnings en proximos 7 dias
+### 11. `short-pipeline` | Trigger: fragilidad detectada o catalizador inminente
+
+**Objetivo:** Proceso completo desde short thesis hasta apertura de posicion short. Espejo del buy-pipeline.
+
+**Estructura de ficheros:**
+```
+thesis/short/research/{TICKER}/
+  thesis.md              ← fundamental-analyst (--short-thesis)
+  moat_assessment.md     ← moat-assessor
+  risk_assessment.md     ← risk-identifier
+  valuation_report.md    ← valuation-specialist
+  counter_analysis.md    ← devil's-advocate (BULL case)
+  committee_decision.md  ← investment-committee (SHORT_APPROVAL)
+```
+
+#### RONDA S1: ANALISIS DE FRAGILIDAD (paralelo)
+| Paso | Accion | Ejecutor | Input | Output |
+|------|--------|----------|-------|--------|
+| S1A | Thesis de fragilidad | `fundamental-analyst` (--short-thesis) | short-thesis-framework skill | thesis.md |
+| S1B | Evaluacion de moat (que tan fuerte es realmente?) | `moat-assessor` | Ticker | moat_assessment.md |
+| S1C | Riesgos del SHORT (que puede salir mal para nosotros?) | `risk-identifier` | Ticker + P11 | risk_assessment.md |
+| | **S1A, S1B, S1C en PARALELO** | | | |
+| S1D | Valoracion (fair value real vs precio) | `valuation-specialist` | thesis + moat + risk | valuation_report.md |
+
+#### RONDA S2: DESAFIO BULL
+| Paso | Accion | Ejecutor | Input | Output |
+|------|--------|----------|-------|--------|
+| S2 | Devil's advocate BULL: por que el precio podria tener razon? | `devil's-advocate` | Todos los reports | counter_analysis.md |
+
+#### RONDA S3: RESOLUCION
+| Paso | Accion | Ejecutor | Input | Output |
+|------|--------|----------|-------|--------|
+| S3 | Resolver conflictos entre thesis short y bull case | Orchestrator | thesis + counter | Ajustes si necesario |
+
+#### RONDA S4: APROBACION
+| Paso | Accion | Ejecutor | Input | Output |
+|------|--------|----------|-------|--------|
+| S4 | Gate de aprobacion SHORT_APPROVAL | `investment-committee` | TODO | committee_decision.md |
+| | Gates extra: SHORT-1 (catalizador), SHORT-2 (asimetria), SHORT-3 (servicio portfolio) | | | |
+| S5 | Sizing + carry estimation | `position-calculator` | P1 + P11 + precedentes | Sizing |
+| S6 | Presentar al humano | Orchestrator | Todo | Recomendacion SHORT |
+| S7 | Si confirma → actualizar state | `portfolio-ops` | Confirmacion | portfolio short_positions + state |
+
+**Condicion de salida:** Decision tomada con audit trail (6 ficheros en thesis/short/research/{TICKER}/).
+
+---
+
+### 12. `fragility-watch` | SEMANAL
+
+**Objetivo:** Monitorear shorts activos y candidatos short en el universe.
+
+| Paso | Accion | Ejecutor | Input | Output |
+|------|--------|----------|-------|--------|
+| 1 | Verificar catalizadores vigentes de shorts activos | Orchestrator | thesis/short/active/ | Catalizadores ok/vencidos |
+| 2 | Calcular carry acumulado por short | Orchestrator | portfolio/current.yaml short_positions | Carry total vs beneficio |
+| 3 | Cover-protocol check para cada short activo | cover-protocol skill | Thesis + datos | HOLD/COVER verdict |
+| 4 | Scan fragility entries en quality universe | `quality_universe.py --fragility` | quality_universe.yaml | Short candidates near trigger |
+| 5 | Si catalizador paso sin efecto → flag COVER | Orchestrator | Calendar + results | Recomendacion |
+
+**Condicion de salida:** Shorts activos revisados. Carry reported. Catalysts verified.
+
+---
+
+### 13. `earnings-pipeline` | Trigger: earnings en proximos 7 dias
 
 **Objetivo:** Preparar antes, evaluar despues de earnings.
 

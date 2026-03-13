@@ -1,9 +1,10 @@
 # DNLM.L - Dunelm Group plc
 
 > **Fair Value:** 1,008p
+> **Expected Growth:** 5%
 > **Pipeline Stage:** R4_APPROVED
-> **Status:** R4 APPROVED | Committee-adopted FV (was 1,328p thesis, -24% correction)
-> **Standing Order:** 780p (22.6% MoS). Entry approved by investment-committee.
+> **Status:** R4 APPROVED | Committee-adopted FV (was 1,328p thesis, -24% correction). Mar 26 execution locked at market ≤950p.
+> **Standing Order:** 950p (5.8% MoS vs FV). Entry approved. Mar 26 execution: EUR ~440 (remainder after GDDY EUR 720).
 
 ## TL;DR
 

@@ -226,7 +226,7 @@ Precedente sizing similar: [ticker, sizing, contexto]
 
 ---
 
-### Gate 9: Autocrítica
+### Gate 9: Autocrítica + Edge
 
 ```
 [ ] Asunciones no validadas listadas
@@ -236,6 +236,8 @@ Precedente sizing similar: [ticker, sizing, contexto]
     [ ] Recency bias
 [ ] Kill conditions definidas
 [ ] Qué me haría cambiar de opinión
+[ ] Edge Test: What do I know that market doesn't? [specific answer]
+[ ] Falsifiability: What would make this thesis wrong? [specific answer]
 ```
 
 ---

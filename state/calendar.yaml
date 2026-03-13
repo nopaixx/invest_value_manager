@@ -1,142 +1,84 @@
 # CALENDAR - Active and Future Events
 # Past events archived in state/calendar_archive.yaml
-# Updated: 2026-02-14
+# Updated: 2026-03-13 (S153)
 
 events:
-  # EARNINGS WEEK FEB 17-18
-  - date: 2026-02-17
-    type: earnings_pipeline
-    ticker: RSG
-    event: "RSG Q4 2025 earnings (after close)"
-    priority: high
-    action: "HARD GATE before R2. R1 FV $255, entry $210. Framework: thesis/research/RSG/earnings_framework_feb17.md"
+  # Archived S153: Epic Fury Mar 6 (ESCALATING — now $100 Brent, naval mines), ADBE framework Mar 10 (DONE),
+  # FTNT Accelerate Mar 10 (DONE — CVE confirmed, exit locked), ADBE Q1 Mar 12 (CONDITIONAL BEAT, CEO stepping down),
+  # CPI Feb Mar 12 (inline 2.5%, pre-oil), FOUR.L FY2025 (CONDITIONAL PASS, deferred).
+  # Archived S148: DOM.L (sold S143). S140: VEEV, ANF. S136: KLR.L, ITRK.L, ASM.AS, BEI.DE. S132: batch.
 
-  - date: 2026-02-17
-    type: earnings_pipeline
-    ticker: CDNS
-    event: "CDNS Q4 2025 earnings (after close)"
-    priority: high
-    action: "HARD GATE before R2. R1 FV $260, entry $230-240. At $299 = far from entry. Framework: thesis/research/CDNS/earnings_framework_feb17.md"
+  - date: 2026-03-20
+    type: ex_dividend
+    ticker: HLNE
+    event: "HLNE ex-dividend date"
+    priority: low
+    action: "Capture dividend. No action needed."
 
-  - date: 2026-02-18
-    type: earnings_pipeline
-    ticker: VRSK
-    event: "VRSK Q4 2025 earnings (after close)"
-    priority: high
-    action: "HARD GATE before R4. R3 FV $185, entry $135-140. Framework: thesis/research/VRSK/earnings_framework_feb18.md"
-
-  - date: 2026-02-19
-    type: earnings
-    ticker: AGN.NV
-    event: "Aegon FY2025"
-    priority: high
-    action: "Watch OCG 1.2B, solvency >180%. Si precio cae 5.90 - BUY."
-
-  # EARNINGS WEEK FEB 23-26
-  - date: 2026-02-23
-    type: earnings
-    ticker: MONY.L
-    event: "MONY.L FY2025 Results — ON PROBATION"
-    priority: high
-    action: "KC#9: SELL if no AI strategy. FV 190 GBp. SELL if rev <435M or Insurance -5%+."
-
-  - date: 2026-02-23
-    type: strategy
-    ticker: ENEL.MI
-    event: "Enel Capital Markets Day"
-    priority: high
-    action: "Si FV sube 11-12 - entry 8.50."
-
-  - date: 2026-02-24
-    type: earnings
-    ticker: EDEN.PA
-    event: "EDEN.PA FY2025 Results"
-    priority: high
-    action: "Framework ready. See thesis/active/EDEN.PA/earnings_framework_feb2026.md"
-
-  - date: 2026-02-24
-    type: earnings
-    ticker: UTG.L
-    event: "Unite Group FY2025 Preliminary Results"
-    priority: high
-    action: "Watch occupancy FY2027 reservations, Empiric synergies."
-
-  - date: 2026-02-25
-    type: watchlist_review
-    ticker: WKL.AS
-    event: "WKL.AS FY2025 Results — review trigger"
-    priority: high
-    action: "Committee: entry EUR 50-55 post results. See thesis/research/WKL.AS/committee_decision.md"
-
-  - date: 2026-02-25
-    type: earnings
-    ticker: BVI.PA
-    event: "BVI.PA FY2025 — R3 complete"
-    priority: high
-    action: "Pipeline candidate. R3 complete."
-
-  - date: 2026-02-26
-    type: earnings
-    ticker: DTE.DE
-    event: "Deutsche Telekom FY2025"
-    priority: high
-    action: "FV EUR 35.00 (v3.1). Watch EBITDA vs EUR 48.5B, FCF vs EUR 20.1B."
-
-  - date: 2026-02-26
-    type: earnings_pipeline
-    ticker: INTU
-    event: "INTU Q2 FY2026 earnings (after close)"
-    priority: high
-    action: "Pipeline candidate. QS 75. FV $465, entry $330-365. R1 complete. Framework ready."
-
-  - date: 2026-02-26
-    type: earnings
-    ticker: CS.PA
-    event: "AXA FY2025 results"
-    priority: high
-    action: "Si precio cae a 34.50-35.50 - BUY."
-
-  - date: 2026-02-27
-    type: earnings
-    ticker: PROX.BR
-    event: "Proximus FY2025 + Strategic Plan"
-    priority: high
-    action: "Si capex decline + plan creible - BUY 3% a 7.50-7.70."
-
-  - date: 2026-02-28
-    type: earnings
-    ticker: ENGI.PA
-    event: "Engie FY2025"
-    priority: high
-    action: "Watch FCF yield >5%, payout <80%."
-
-  # MARCH
-  - date: 2026-03-01
-    type: earnings
-    ticker: NTGY.MC
-    event: "Naturgy FY2025"
-    priority: high
-
-  - date: 2026-03-04
-    type: earnings
-    ticker: VEEV
-    event: "VEEV Q4 FY2026 — thesis catalyst"
-    priority: high
-    action: "R1 complete. QS 80 Tier A. FV $205. Entry $140-150."
-
-  - date: 2026-03-05
-    type: earnings
-    ticker: DOM.L
-    event: "Dominos Pizza Group FY25 results"
-    priority: high
-    action: "Kill: ND/EBITDA >3x, FCF <60M, share <45%."
-
-  - date: 2026-03-15
-    type: catalyst
-    ticker: NVO
-    event: "CagriSema vs Zepbound head-to-head data"
+  - date: 2026-03-26
+    type: execution
+    ticker: PORTFOLIO
+    event: "CAPITAL DEPLOYMENT DAY — MONY.L sell + NVO trim + GDDY buy + DNLM.L buy"
     priority: CRITICAL
-    action: "If positive: ADD 2%. If inferior: evaluate kill conditions."
+    action: |
+      EXECUTION PLAN (4 trades, EUR ~1,190 capital) — S152c17 PRE-FLIGHT VERIFIED:
+      1. MONY.L: SELL 384 shares. EX-DIV CONFIRMED MAR 26 — sell on ex-div day, dividend captured.
+         Price Mar 13: 168.5p. Proceeds ~EUR 716. Dividend ~EUR 28 arrives ~Apr via eToro.
+      2. NVO: TRIM 14.3 shares at market (~$38). Proceeds ~EUR 472. KC#1 triggered orphan.
+         NVO ex-div ~Mar 30 — trim BEFORE ex-div to avoid capturing then losing.
+      3. GDDY: BUY EUR 720 at market if ≤$90 (R4 APPROVED, E[CAGR] 25.2%, 11/12 KCs CLEAR, 1 MON). PRIORITY #1.
+         Price Mar 13: $80.75. MoS 37.9%. Pre-flight complete (thesis/research/GDDY/pre_flight_mar26.md).
+      4. DNLM.L: BUY EUR ~440 at market if ≤950p. E[CAGR] ~15.5% at 864p. Gets remainder after GDDY.
+         Price Mar 13: 864p. Ex-div PASSED Mar 12 (clean price). Pre-flight complete (thesis/research/DNLM.L/pre_flight_mar26.md).
+         13 insiders $19.9M cluster buy = STRONG BULL signal.
+      Buffer: ~EUR 30. If GDDY >$90 on Mar 26: reallocate full remaining to DNLM.L (~EUR 1,160).
+      POST-EXECUTION: 12 positions, E[CAGR] 19.2% (+0.7pp improvement). FTNT worst (9.4%) → exit late April.
+      CONTINGENCY: If FOMC Mar 18 DOVISH → reconsider NVO trim (growth re-rates).
+      FX SENSITIVITY: GBP/EUR and EUR/USD rates on Mar 26 will affect exact amounts. Prices are Mar 13 snapshots.
+
+  # NVO CagriSema: COMPLETED Feb 23. FAILED. KC#1 triggered. Next: Wegovy pill ramp Q1-Q2 2026.
+
+  - date: 2026-03-29
+    type: regulatory
+    ticker: LNTH
+    event: "LNTH OCTEVY PDUFA (FDA decision) — pipeline catalyst for R1 thesis"
+    priority: medium
+    action: "R1 complete, WATCHLIST at $68 entry. If APPROVED → pipeline thesis strengthens, reconsider entry. If REJECTED → FV drops to $70-75, thesis weakens."
+
+  - date: 2026-03-30
+    type: ex_dividend
+    ticker: NVO
+    event: "NVO ex-dividend date"
+    priority: low
+    action: "Capture dividend. DKK 5.30/share (~$0.71)."
+
+  - date: 2026-04-05
+    type: catalyst
+    ticker: TSLA
+    event: "TSLA Q1 2026 deliveries report (approximate) — SHORT DECISION GATE"
+    priority: high
+    action: "S3 resolved: <370K = ENTER short $270-310. >400K = DEFER. S4 pre-flight ready. Run committee before this date."
+
+  - date: 2026-04-21
+    type: earnings
+    ticker: TSLA
+    event: "TSLA Q1 2026 earnings (approximate) — SHORT CATALYST #2"
+    priority: high
+    action: "Secondary catalyst for short thesis. ROIC, margins, guidance. If short position open, PASS/FAIL determines hold/cover."
+
+  - date: 2026-03-18
+    type: macro_event
+    ticker: PORTFOLIO
+    event: "Fed FOMC rate decision + SEP/dot plot — CRITICAL with oil $97"
+    priority: CRITICAL
+    action: "Section 9 FOMC framework in world/current_view.md. HOLD certain. Dot plot is key: 0 cuts 2026 = selloff, 1 cut = neutral, 2 cuts = rally. Powell language on oil (transitory vs structural) = most important signal. This is first SEP incorporating $90+ oil + tariffs. Portfolio action tree defined."
+
+  - date: 2026-03-19
+    type: macro_event
+    ticker: PORTFOLIO
+    event: "ECB rate decision + new projections. Oil shock center stage."
+    priority: medium
+    action: "BofA expected final 25bp cut but oil $90+ may force HOLD. New projections will incorporate oil spike."
 
   - date: 2026-03-19
     type: earnings
@@ -144,12 +86,19 @@ events:
     event: "Enel FY2025 results"
     priority: medium
 
-  - date: 2026-03-31
-    type: earnings
-    ticker: LULU
-    event: "LULU Q4 — MAKE-OR-BREAK"
-    priority: CRITICAL
-    action: "ON PROBATION. SELL if negative global comps or GM <57%."
+  - date: 2026-03-20
+    type: macro_event
+    ticker: PORTFOLIO
+    event: "BoE rate decision — HOLD expected given oil spike"
+    priority: medium
+    action: "Cut VERY UNLIKELY with oil $90+. Watch for GBP impact on 5 UK positions."
+
+  - date: 2026-03-20
+    type: legal
+    ticker: ERIE
+    event: "ERIE SCOTUS oral arguments (Indemnity v. PricewaterhouseCoopers)"
+    priority: low
+    action: "ERIE SO archived. Monitoring only. SCOTUS ruling could create insurance sector precedent."
 
   # REGULATORY WATCH
   - date: 2026-06-30
@@ -160,12 +109,53 @@ events:
     action: "Trump endorsed Jan 2026, bipartisan. Could reduce US scheme fees 15-25%. Affects MA + V standing orders. Re-evaluate if committee vote scheduled."
 
   # Q2+ (major events only)
+  - date: 2026-03-31
+    type: legal
+    ticker: HALO
+    event: "HALO PTAB oral hearings (March 2026, exact date TBD)"
+    priority: high
+    action: "Merck vs Halozyme MDASE patent oral hearings. This is about Keytruda SC, NOT DARZALEX royalties. Final ruling June 2. Monitor for hearing outcome signals."
+
+  - date: 2026-06-02
+    type: legal
+    ticker: HALO
+    event: "HALO PTAB final decision — Merck vs Halozyme MDASE patents"
+    priority: CRITICAL
+    action: "BINARY EVENT. SO $65 GATED on this. If HALO wins → execute SO. If partial adverse → reassess at $55. If full adverse → CANCEL SO. Existing ENHANZE royalties (DARZALEX, Phesgo, Vyvgart) NOT at risk — only Keytruda SC royalty opportunity."
+
   - date: 2026-04-15
     type: watchlist_review
     ticker: DSY.PA
     event: "DSY.PA Q1 2026 — standing order review"
     priority: high
     action: "Cancel if Q1 growth <3%. See thesis/research/DSY.PA/committee_decision.md"
+
+  - date: 2026-05-05
+    type: earnings
+    ticker: SPGI
+    event: "SPGI Q1 2026 earnings (CONFIRMED May 5) — first position earnings test"
+    priority: high
+    action: |
+      R4 APPROVED CONDITIONAL (S152). FY2025 gate evaluation (S152c16):
+      G1 (receivables): CONDITIONAL FAIL — AR +20% vs rev +8% (12pp gap). Mitigated by FCF 35.9%. Likely acquisition-driven.
+      G2 (FCF ≥35%): PASS (35.9%). G3 (MI organic ≥5%): PASS (5-7%).
+      EXECUTION PLAN: SELL FTNT late April → BUY SPGI EUR 400 BEFORE May 5 earnings.
+      If G1 gap unexplained by Q1: size down EUR 400→300. KC added: AR gap >10pp 2Q = EXIT.
+      7 quality fund holders. 0% SI. Mobility spinoff = upside optionality (SOTP $532-639 vs FV $470).
+
+  - date: 2026-04-21
+    type: execution
+    ticker: FTNT
+    event: "FTNT EXIT WINDOW OPENS — sell 10.57 shares, rotate to SPGI + best available"
+    priority: CRITICAL
+    action: |
+      EXIT APPROVED S152 (committee + 6-gate protocol). Timing: late April, before FTNT Q1 May 6.
+      SELL FTNT 10.57 shares (~EUR 775). Deploy: SPGI EUR 400 + best available EUR 375.
+      Best available: ALFA.L (if ≤165p) > CPRT (if ≤$31) > cash buffer.
+      KILL CONDITIONS FOR EXIT (can REVERSE):
+      - KC-EXIT-1: FTNT drops to $73 → E[CAGR] ~14%, reassess.
+      - KC-EXIT-2: Q1 PASS + guide raise → FV $95-100, CANCEL exit.
+      - KC-EXIT-3: SPGI drops >15% → rotation math improves, accelerate.
 
   - date: 2026-05-01
     type: earnings_pipeline

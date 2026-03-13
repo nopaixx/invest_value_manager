@@ -1,51 +1,64 @@
 # INVESTMENT COMMITTEE DECISION: DNLM.L (Dunelm Group plc)
 
-**Date:** 2026-02-07
+**Date:** 2026-03-08 (RE-VALIDATION of 2026-02-07 R4)
 **Committee:** Investment Committee (10 Gates v4.0)
-**Framework:** v4.0 -- Principios Adaptativos
-**Buy-Pipeline Round:** 4 of 4 (Final Gate)
+**Framework:** v4.9 -- Principios Adaptativos
+**Type:** Standing Order Trigger Re-Validation
+**Trigger:** SO at 950p TRIGGERED (current price 932p, below 950p)
 
 ---
 
-## VERDICT: WATCHLIST -- Entry trigger 750-800p
+## VERDICT: WATCHLIST -- Do NOT execute SO. Maintain at 950p with conditions.
 
-**NOT a BUY at 936.5p. NOT a BUY at 900p (thesis trigger). Entry lowered to 750-800p.**
+**NOT a BUY at 932p despite SO trigger.** The quality is real (QS 79 Tier A), but three factors prevent execution:
 
-Dunelm is a genuinely high-quality business (QS 79, Tier A, 0-1/10 value trap) that fails the valuation gate at current prices. The 4-round adversarial process exposed five material issues in the thesis: (1) a factual error on insider selling, (2) omission of GBP 18M NIC/NLW structural headwind, (3) omission of Temu/Amazon competitive threat, (4) omission of CEO transition risk, and (5) systematic optimism in the FV calculation resulting in a 24% overstatement vs the independent valuation.
+1. **Capital scarcity:** EUR 0 cash today. EUR ~370 expected Monday from AUTO.L sale. Deploying 100% of available capital into a single consumer discretionary position during an oil crisis is imprudent.
 
-The risk-adjusted FV of 1,008p (valuation-specialist) yields only 7.1% MoS at 936.5p -- grossly insufficient vs our Tier A precedent range of 29-38%. Even the thesis's 900p entry target delivers only 10.7% MoS against the independent FV. The entry trigger is lowered to 750-800p (MoS 20-26%) to bring the trade closer to framework consistency.
+2. **Macro deterioration since SO was set:** Iran war Week 2, Hormuz STILL CLOSED, oil $91 (+17% surge), VIX 29. Consumer discretionary sector downgraded to CAUTELA. Oil at $90+ is a MATERIAL headwind for UK consumer spending -- higher energy bills, transport costs, inflation resurgence risk. This was NOT priced into the SO when set on Feb 14.
 
-Wait for interim results on 10 February before setting any standing order.
+3. **E[CAGR] is marginal:** At 932p, E[CAGR] ~12.4% is barely at the 12% Tier A threshold. Recent E[CAGR]-framework buys (HLNE 16.7%, RACE.MI 13.5%, FTNT 13.6%) were all ABOVE threshold with margin. DNLM.L at 12.4% is the weakest E[CAGR]-framework case we would have executed.
 
----
-
-## INDEPENDENT REPORTS RECEIVED
-
-| Report | Agent | Key Finding |
-|--------|-------|-------------|
-| thesis.md | fundamental-analyst | QS 79 Tier A, FV 1,328p, MoS 29.5%, WATCHLIST 900p |
-| moat_assessment.md | moat-assessor | NARROW moat (not WIDE), trending toward WIDE |
-| risk_assessment.md | risk-identifier | MEDIUM risk, 1 CRITICAL + 3 HIGH, correlated UK macro |
-| valuation_report.md | valuation-specialist | FV 1,008p (risk-adjusted), MoS 7.1% |
-| counter_analysis.md | devil's-advocate | STRONG COUNTER, 9/19 challenges HIGH/CRITICAL |
-
-**Conflict resolution (Round 3):**
-- FV adopted: 1,008p (valuation-specialist, risk-adjusted)
-- Thesis FV of 1,328p REJECTED (5 specific methodological/omission flaws)
-- Moat classification: NARROW (moat-assessor)
-- Entry trigger: 750-800p (committee, lowered from thesis 900p)
+4. **Better alternatives exist for limited capital:** GDDY SO at $90 is 4.4% BELOW trigger (already executable) with E[CAGR] 20.2% and QS 75adj Tier A. BZU.MI at 3.7% from trigger with E[CAGR] 15.9%. Both offer materially superior risk-adjusted returns.
 
 ---
 
-## GATE-BY-GATE EVALUATION
+## PRECEDENTS CONSULTED (PASO 0.5)
+
+### Most Similar Precedents
+
+| Precedent | Tier | MoS | E[CAGR] | Sizing | Outcome | Relevance |
+|-----------|------|-----|---------|--------|---------|-----------|
+| HLNE S122 | A (QS 86) | 7.5% | 16.7% | 3.8% | HOLD, insider buying confirmed | Same low MoS, but E[CAGR] 4.3pp higher than DNLM.L |
+| TW S143 | A (QS 84) | 8.4% | 13.2% | 5.7% | HOLD, Q1 pending | Closest MoS match. But TW = WIDE moat monopoly, basket-filling priority |
+| FTNT S126 | A (QS 85) | 10.0% | 13.6% | 3.8% | HOLD, Investor Day Monday | Similar E[CAGR]. But FTNT = WIDE moat, crisis beneficiary |
+| RACE.MI S140 | A (QS 84) | 11.9% | 13.5% | 3.4% | SOLD S143 (E[CAGR] dropped to 6.6%) | THREE WAITS mandate forced buy. DNLM.L has no such mandate |
+
+### Key Precedent Insight
+
+All four low-MoS buys share characteristics DNLM.L lacks:
+- HLNE: QS 86 (highest in portfolio) + insider cluster buy + zero overlap
+- TW: WIDE moat monopoly + basket-filling priority (P17)
+- FTNT: WIDE moat + crisis beneficiary + cybersecurity sector fill
+- RACE.MI: THREE WAITS mandate + WIDE moat + basket salvation
+
+DNLM.L has: QS 79 (lower), NARROW moat (weaker), no basket context, no mandate, UK consumer discretionary exposure during oil crisis (worse macro fit).
+
+**Deviation from precedents: JUSTIFIED. The context is materially different in DNLM.L's disfavor.**
+
+---
+
+## GATE-BY-GATE EVALUATION (RE-VALIDATION)
 
 ### Gate 0: Sector View Exists (HARD GATE)
 
 ```
 [PASS] Sector view: world/sectors/consumer-discretionary.md
-       Updated: 2026-02-07 with UK Homewares sub-section
-       DNLM.L in Watchlist and Dependencias Activas
+       Updated: 2026-03-07. Status: CAUTELA (downgraded from NEUTRAL)
+       DNLM.L listed in Watchlist section with SO 950p
+       Sector view reflects oil crisis impact on UK consumer
 ```
+
+**Gate 0: PASS**
 
 ---
 
@@ -57,17 +70,9 @@ Wait for interim results on 10 February before setting any standing order.
 [N/A]  Tier D check: NOT Tier D, proceed
 ```
 
-Verified via `quality_scorer.py` tool on 2026-02-07.
+Quality Score unchanged from Feb 7. Tool-verified. No new data to alter QS.
 
-| Category | Score | Max | Key Metrics |
-|----------|-------|-----|-------------|
-| Financial Quality | 32 | 40 | ROIC spread +16.8pp, FCF margin 11.9%, leverage 0.33x ex-leases, 4/5 FCF |
-| Growth Quality | 15 | 25 | Revenue CAGR ~5%, EPS CAGR ~5%, GM expanding +60bp YoY |
-| Moat Evidence | 22 | 25 | GM premium +17.4pp vs sector, #1 UK homewares, ROIC persistent |
-| Capital Allocation | 10 | 10 | 10+ yr dividends, 37.6% insider (Adderley family, corrected) |
-| **TOTAL** | **79** | **100** | **Tier A - Quality Compounder** |
-
-Quality is genuine and undisputed by all four independent reports. Would be the 7th Tier A in portfolio (ADBE, NVO, MONY.L, LULU, AUTO.L, BYIT.L), advancing Principio 9 (Quality Gravitates Upward).
+Feb 10 interims: H1 revenue GBP 926M (+3.6%), gross margin expanded, 25p special dividend announced. These CONFIRM quality but do not change QS materially (already scored on these fundamentals).
 
 **Gate 1: PASS**
 
@@ -76,112 +81,58 @@ Quality is genuine and undisputed by all four independent reports. Would be the 
 ### Gate 2: Business Understanding
 
 ```
-[PASS] Business Analysis Framework completed
-[PASS] 2-minute explanation:
-       Dunelm is the UK's #1 homewares specialist retailer (200+ stores, 41% digital).
-       Revenue from own-brand and curated homewares (curtains, bedding, kitchenware, furniture).
-       52.4% gross margin (+17pp vs sector) driven by ~30% private label penetration.
-       Gaining market share (7.7% to 7.9%, targeting 10%) during consumer downturn.
-       Down 25% from high after Q2 deceleration and profit guidance to low end.
-
-[PASS with CAVEATS] Why cheap + counter-thesis understood:
-       Market prices prolonged UK consumer weakness (correct concern).
-       Market conflates Dunelm-specific performance with sector-wide weakness (my edge).
-       GM improved 60bp DURING competitor discounting = pricing power evidence.
-       BUT thesis overstates defensive characteristics ("consumer staple in disguise").
-       CORRECTED classification: "defensive discretionary" per moat-assessor.
-
-[PASS] Value trap checklist: 1/10 (corrected from thesis 0/10 for insider selling)
-       Well below 3 threshold. No value trap concern.
-
-[PASS with CAVEAT] Informational edge identified: longer time horizon + margin resilience
-       misread by market. Edge partially offset by thesis errors exposed by adversarial process.
+[PASS] Business Analysis Framework completed (Feb 7, unchanged)
+[PASS] 2-minute explanation ability verified
+[PASS] Why cheap understood: UK consumer weakness + oil crisis overlay
+[PASS] Counter-thesis understood: STRONG COUNTER absorbed, FV corrected to 1,008p
+[PASS] Value trap checklist: 1/10 (corrected for insider selling)
 ```
 
-**Gate 2: CONDITIONAL PASS** -- Business understanding is solid. Thesis contained a factual error (insider selling: family sold 5% at 1,140p in Jul 2025, thesis stated "no recent sales") and three material omissions (NIC/NLW, Temu, CEO transition) corrected by independent agents.
+**NEW since Feb 7:** Feb 10 interim results confirmed:
+- H1 PBT ~GBP 113M (in the 112-114M guided range)
+- Gross margin expanded despite competitive discounting
+- 25p special dividend announced (as thesis predicted)
+- Mobile app launched Feb 2026
+- Management cautious on H2 but no profit warning
+
+These CONFIRM the business quality thesis. However, they do NOT change the FV of 1,008p -- the valuation-specialist already incorporated these expectations.
+
+**Gate 2: PASS**
 
 ---
 
 ### Gate 3: Projections
 
 ```
-[PASS] Revenue growth derived (not default):
-       TAM 3.5% + Share 0.5% + Pricing 1% = 5% (thesis base)
-       Risk-adjusted: 3% year 1 (consumer weakness + NIC/NLW), 5% from year 2
-       Derivation: KPMG/Fitch/RSM project UK weakness through end 2026
+[PASS] Revenue growth: 5% base (TAM 3.5% + share 0.5% + pricing 1%)
+       Risk-adjusted: 3% year 1 (consumer weakness + NIC/NLW + OIL SHOCK)
+       NOTE: Oil at $91 adds ADDITIONAL headwind not in original projection
+       UK consumer facing higher energy costs + inflation resurgence risk
 
-[PASS] WACC calculated (not default):
-       Thesis: 9.0% (Rf 4.2% + Beta 0.9 x ERP 5.5%)
-       Risk-adjusted: 9.5% (+0.5pp for correlated UK macro risks)
-       ADOPTED: 9.5% -- consumer + NIC/NLW + fiscal risks are the same bet
+[PASS] WACC: 9.5% (risk-adjusted, includes correlated UK macro risks)
+       NOTE: Should arguably be higher now with oil shock. 10% defensible.
 
-[PASS] Terminal growth justified: 2.0% (conservative, below UK long-term GDP)
-
-[PASS] Scenarios documented:
-       Bear (25%): 0% rev growth 2yr, 11% OpM, 10.5% WACC -> FV 736p
-       Base (50%): 3%/5% rev growth, 11.8-12% OpM, 9.5% WACC -> FV 1,008p
-       Bull (25%): 6% rev growth, 12.5-13% OpM, 9.0% WACC -> FV 1,423p
-       Expected Value: 1,044p
+[PASS] Terminal growth: 2.0%
+[PASS] Scenarios: Bear 736p / Base 1,008p / Bull 1,423p
+       NOTE: Oil crisis may shift probabilities toward bear (25% -> 30%)
 ```
 
-**Gate 3: PASS** -- Using valuation-specialist risk-adjusted projections.
+**Gate 3: CONDITIONAL PASS** -- Projections still valid but bear probability arguably higher given oil crisis. Not enough to change FV but enough to justify CAUTION on entry timing.
 
 ---
 
 ### Gate 4: Valuation Multi-Method
 
 ```
-[PASS] Methods appropriate for Tier A:
-       Primary (50%): Owner Earnings Yield -- correct per skill
-       Secondary (30%): EV/EBIT Normalized -- correct for stable retailer
-       Tertiary (20%): DDM -- appropriate cross-check given 4.8% yield
+[PASS] FV adopted: 1,008p (3-method, 6% convergence)
+       OEY: 1,036p (50%) | EV/EBIT 10x: 977p (30%) | DDM: 987p (20%)
+[PASS] MoS at 932p: 7.5%
+[PASS] MoS at bear (736p): -21.0% (NEGATIVE)
 ```
 
-#### Thesis vs Valuation-Specialist Divergence
+FV of 1,008p has NOT been updated post-interims. The interims broadly confirmed expectations (H1 PBT in guided range, special div announced). No material upward revision justified. No material downward revision needed either -- the oil crisis is a NEW overlay but not yet impacting Dunelm's actual results.
 
-| Method | Thesis FV | Valuation-Specialist FV | Delta |
-|--------|-----------|------------------------|-------|
-| OEY | 1,491p | 1,036p | -30% |
-| EV/EBIT | 1,156p | 977p | -15% |
-| DDM | 1,175p | 987p | -16% |
-| **Weighted** | **1,328p** | **1,008p** | **-24%** |
-
-#### FV Adopted: 1,008p (Valuation-Specialist)
-
-Five specific reasons the thesis FV of 1,328p was rejected:
-
-1. **OEY calculation error:** Thesis used raw FCF (GBP 211M). The valuation-methods skill defines OEY as Owner Earnings (FCF minus maintenance capex) / Market Cap. Forward Owner Earnings = GBP 152M (after NIC/NLW and maintenance capex). This single error inflated the OEY-derived FV by ~40%.
-
-2. **GBP 18M NIC/NLW omission:** Confirmed structural regulatory cost (employer NIC up 1.2pp to 15%, threshold lowered; NLW up 4.1% from April 2026). Not mentioned anywhere in thesis. Reduces forward PBT by ~GBP 9M net (50% offset assumed via productivity/pricing).
-
-3. **WIDE moat premium applied to NARROW moat:** Thesis used 11x EV/EBIT (+2x quality premium). Moat-assessor independently classified NARROW (zero switching costs, online commoditization threat). 10x is appropriate.
-
-4. **WACC too low:** 9.0% does not reflect correlated UK macro risks (consumer weakness + NIC/NLW + fiscal contraction are the same bet). 9.5% justified.
-
-5. **Insider reality check:** Adderley family sold GBP 114M at 1,140p (Jul 2025). FV of 1,328p implies informed 47-year insiders left 17% on the table. 1,008p is more consistent with insider behavior.
-
-#### Method Convergence (Valuation-Specialist)
-
-| Method | FV | Weight | Weighted |
-|--------|-----|--------|----------|
-| OEY (risk-adjusted, forward) | 1,036p | 50% | 518p |
-| EV/EBIT 10x (normalized) | 977p | 30% | 293p |
-| DDM (weighted ordinary + specials) | 987p | 20% | 197p |
-| **Weighted Average** | | **100%** | **1,008p** |
-
-Divergence between methods: 6.0% (well below 30% threshold). High confidence.
-
-#### MoS at Various Prices
-
-| Price | MoS vs 1,008p | MoS vs Bear (736p) |
-|-------|--------------|---------------------|
-| 936.5p (current) | 7.1% | -21.4% |
-| 900p (thesis entry) | 10.7% | -18.2% |
-| 800p | 20.6% | -8.0% |
-| 750p | 25.6% | -1.9% |
-| 715p | 29.1% | +2.9% |
-
-**Gate 4: PASS on methodology. MoS assessment in Gate 5.**
+**Gate 4: PASS on methodology**
 
 ---
 
@@ -189,127 +140,87 @@ Divergence between methods: 6.0% (well below 30% threshold). High confidence.
 
 ```
 Tier: A (QS 79)
-MoS Actual vs Base (1,008p): 7.1%
-MoS Actual vs Bear (736p): -21.4% (NEGATIVE)
+MoS Actual vs Base (1,008p): 7.5%
+MoS Actual vs Bear (736p): -21.0% (NEGATIVE)
 ```
 
-#### Precedent Analysis
+#### Updated Precedent Analysis (Post-E[CAGR] Framework Evolution)
 
-| Ticker | QS | MoS at Entry | Price Context | Verdict |
-|--------|-----|-------------|---------------|---------|
-| NVO | 82 | 38% | -49% from high, -17% in 2 days | BUY |
-| MONY.L | 81 | 36% | At 52-week low | BUY |
-| BYIT.L | 81 | 35% | -47% from high | BUY |
-| LULU | 82 | 34% | -58% from high | BUY |
-| ADBE | 76 | 31% | At 52-week low | BUY |
-| AUTO.L | 79 | 29% | -47% from high | BUY |
-| **DNLM.L at 936.5p** | **79** | **7.1%** | **-25% from high** | **INSUFFICIENT** |
-| **DNLM.L at 900p** | **79** | **10.7%** | | **INSUFFICIENT** |
-| **DNLM.L at 800p** | **79** | **20.6%** | | **Approaching** |
-| **DNLM.L at 750p** | **79** | **25.6%** | | **Acceptable** |
+The original Feb 7 committee used precedents from the HIGH-MoS era (29-38%). Since then, the framework evolved to E[CAGR]-based deployment:
 
-**Closest precedent:** AUTO.L -- same QS (79), same Tier A. Bought at 29% MoS.
+| Ticker | QS | MoS at Entry | E[CAGR] | Moat | Context |
+|--------|-----|-------------|---------|------|---------|
+| HLNE | 86 | 7.5% | 16.7% | NARROW | Insider cluster buy, highest QS |
+| TW | 84 | 8.4% | 13.2% | WIDE | Monopoly, basket-fill |
+| FTNT | 85 | 10.0% | 13.6% | WIDE | Crisis beneficiary, sector fill |
+| RACE.MI | 84 | 11.9% | 13.5% | WIDE | THREE WAITS mandate |
+| **DNLM.L** | **79** | **7.5%** | **12.4%** | **NARROW** | **Oil crisis, consumer headwind** |
 
-**Deviation from precedent:** YES -- 22pp gap at current price. NOT approved.
+**DNLM.L ranks WORST on every dimension except MoS (tied with HLNE):**
+- Lowest QS of the group (79 vs 84-86)
+- Lowest E[CAGR] (12.4% vs 13.2-16.7%)
+- Weakest moat (NARROW vs WIDE for 3 of 4)
+- Worst macro context (oil crisis + consumer discretionary vs crisis-beneficiary or monopoly)
 
-#### Reasoning
+**The E[CAGR]-framework precedents do NOT support buying DNLM.L at 932p.** Every precedent at low MoS had compensating factors (higher QS, WIDE moat, insider signal, basket mandate, or crisis beneficiary status) that DNLM.L lacks.
 
-1. **7.1% MoS provides no buffer** against the bear case (-21% downside). If even ONE of the correlated UK macro risks materializes fully (consumer recession, NIC/NLW unmitigated, fiscal contraction), the stock trades below current price.
-
-2. **7.1% is below the minimum typical** for ANY tier per decisions_log pattern ("10-15% minimum typical" for Tier A).
-
-3. **The thesis's 29.5% MoS was based on a flawed FV** of 1,328p. The corrected FV transforms this from "at precedent" to "well below precedent."
-
-4. **Binary event in 3 days** (10 Feb interims). No reason to commit capital before a potential entry-creating event.
-
-5. **Even at 900p, MoS is only 10.7%** -- still far below any Tier A precedent.
-
-#### Entry Trigger: 750-800p
-
-- At 750p, MoS 25.6% is within 4pp of minimum precedent (AUTO.L 29%)
-- Deviation justifiable because Dunelm has the strongest OEY+Growth vs WACC spread (12-13% at these prices) of any Tier A candidate in our pipeline
-- Below 800p, the 4.8%+ dividend yield provides real compensation while waiting
-- 750p is plausible if interims disappoint and/or UK consumer weakness continues
-- Going to 715p (full precedent match) may be overly demanding and could result in missing a genuinely excellent business
-
-900p is NOT acceptable because 10.7% MoS provides no meaningful buffer and represents a massive unjustified deviation from all 6 Tier A precedents.
-
-**Gate 5: FAIL at 936.5p. FAIL at 900p. CONDITIONAL PASS at 750-800p.**
+**Gate 5: FAIL at 932p**
 
 ---
 
 ### Gate 6: Macro Context
 
 ```
-[PASS with CAUTION] World view reviewed (2026-02-05):
-       UK GDP: +1.2% 2026 (stagnation, not recession)
-       UK inflation: 2% (target achieved)
-       Consumer confidence: -16 (weak, barely improving)
-       BCE/Fed: Holding rates
-       Tariffs: UK less exposed than US
-       Iran-US: De-escalating (positive)
+[UPDATED] World view reviewed (2026-03-08):
+       CRITICAL CHANGE: Iran war Week 2, Hormuz CLOSED
+       Oil WTI $91 (+17% surge), VIX 29.49, Gold $5,152
+       UK consumer now under "TRIPLE pressure" per world view
+       Consumer discretionary sector: CAUTELA (downgraded)
 
-Cycle: LATE CYCLE for consumer discretionary
-       UK consumer weakness projected through end 2026 (KPMG, Fitch, RSM)
-       NIC/NLW costs hitting UK retailers from April 2025/2026
-       Only 13% of consumers expect higher discretionary spending in 2026
-       Dunelm management: "yet to see signs of sustained consumer recovery"
+[FAIL] Fit empresa-ciclo:
+       UK consumer discretionary is the WORST sector to enter during oil crisis
+       Higher energy bills -> less discretionary spending
+       Inflation resurgence risk from oil -> BoE holds rates longer
+       Dunelm explicitly consumer discretionary (homewares = deferrable)
+       Even "defensive discretionary" classification does NOT protect vs $90 oil
 
-Fit empresa-ciclo:
-       Dunelm is defensive WITHIN discretionary (homewares refresh/replace)
-       NOT a consumer staple -- would be affected by genuine UK recession
-       Late-cycle NOT ideal for consumer discretionary entry
-       BUT stock already discounts significant pessimism (0% FCF growth implied)
-
-Megatrends:
-       AI: Neutral | Demographics: Slightly positive | Omnichannel: Positive
-       Temu/Amazon: Negative (commodity category competition)
+[CHANGED] Megatrends: Oil crisis = NEW NEGATIVE for consumer discretionary
 ```
 
-**Gate 6: PASS** -- Macro supports WATCHLIST. Late-cycle caution appropriate.
+This is the most material change since the Feb 7 R4. The original committee noted "Iran-US: De-escalating (positive)" -- now it is RE-ESCALATED with Hormuz closed. This directly impacts UK consumer spending power and is the PRIMARY macro risk for Dunelm.
+
+**Gate 6: CONDITIONAL PASS** -- Not a structural change to the thesis (Dunelm still gains share, margins still expanding), but TIMING is wrong for a consumer discretionary entry.
 
 ---
 
 ### Gate 7: Portfolio Fit (Razonado v4.0)
 
 ```
-Portfolio context:
-  19 positions, ~EUR 1,979 cash (~20%)
-  6 Tier A: ADBE, NVO, MONY.L, LULU, AUTO.L, BYIT.L
-  UK positions: AUTO.L, MONY.L, IMB.L, TATE.L, DOM.L, BYIT.L = 6
+[UPDATED] Portfolio context:
+  11 positions (was 19 at Feb 7 R4), EUR 0 cash
+  AUTO.L sale Monday -> ~EUR 370 + reduces UK to 2 positions
+  DNLM.L would be 3rd UK = ACCEPTABLE (vs 7th UK at original R4)
 
-Sizing (if entry triggered at 750-800p):
-  Proposed: 3.0-3.5% initial (~EUR 300-350)
-  Consistent with Tier A precedents (3.4-4.8%, median 3.5%)
-  At 50% loss: 1.5-1.75% portfolio impact -- acceptable for high conviction Tier A
-  Precedent: AUTO.L 3.4%, BYIT.L 3.5%, LULU 3.5% (same tier, similar context)
+Sizing: EUR 375 = ~3.6% of portfolio
+  Consistent with precedents (RACE.MI 3.4%, AUTO.L 3.4%)
+  At 50% loss: -1.8% portfolio impact = acceptable
 
-UK geographic concentration:
-  Current: 6 UK positions (~25-28% of portfolio)
-  Post-DNLM.L: 7 UK positions (~28-31%)
-  Sub-sectors: auto classifieds, price comparison, tobacco, food ingredients,
-               pubs/restaurants, IT services, homewares -- LOW correlation
-  Macro correlation: HIGH -- all exposed to UK GDP, confidence, NIC/NLW, GBP, BoE
-  Assessment: ACCEPTABLE BUT AT THE MARGIN
-  Constraint: No further UK consumer-facing positions after DNLM.L
-
-Sectoral concentration:
-  Consumer Discretionary: currently LULU only (~3%)
-  Post-DNLM.L: ~6% -- well within reason
-  Different sub-sectors (athleisure vs homewares), low correlation
-
-Cash deployment:
-  Current: ~EUR 1,979 (~20%)
-  Post-purchase: ~EUR 1,629-1,679 (~16-17%)
-  Adequate dry powder remains (Principio 4)
-
-Correlation with existing:
-  LOW: most positions (different sectors/geographies)
-  MEDIUM: DOM.L (both UK consumer-facing)
-  LOW: MONY.L, AUTO.L, BYIT.L (different consumer segments)
+CONSTRAINT CHECK (from previous session data):
+  Position post-compra: 3.6% -> coherent with Tier A starter
+  UK post-compra: ~25.7% (MONY.L ~7% + IHP.L ~11.4% + DNLM.L ~3.6% + AUTO.L ~3.7% pre-sell)
+  UK post-AUTO.L-sell: ~22% (MONY.L + IHP.L + DNLM.L only) -> IMPROVED
+  Cash post-compra: ~EUR 0 -> ZERO BUFFER
 ```
 
-**Gate 7: CONDITIONAL PASS** -- Sizing at 3-3.5% appropriate. UK concentration at 7 positions is the margin. No further UK consumer-facing additions.
+**CRITICAL ISSUE:** Deploying EUR 375 into DNLM.L consumes 100% of AUTO.L sale proceeds. This leaves EUR 0 cash in a crisis environment (Hormuz, VIX 29). No buffer for:
+- GDDY at $90 (ALREADY below trigger, E[CAGR] 20.2%)
+- BZU.MI at EUR 42 (3.7% away, E[CAGR] 15.9%)
+- BAH at $75 (8.3% away, E[CAGR] 16-17%)
+- Any crisis-driven opportunities
+
+**The opportunity cost of deploying into DNLM.L (E[CAGR] 12.4%) vs GDDY (E[CAGR] 20.2%) is 7.8pp.** That is an enormous gap.
+
+**Gate 7: FAIL** -- Capital allocation. Limited capital should flow to the highest E[CAGR] opportunity, not the marginal one.
 
 ---
 
@@ -317,12 +228,9 @@ Correlation with existing:
 
 ```
 [PASS] Sector view exists: world/sectors/consumer-discretionary.md
-[PASS] Updated 2026-02-07 with UK Homewares sub-section
-[PASS] TAM: ~GBP 17B UK homewares + furniture, ~4.2% CAGR
-[PASS] Competitive dynamics: Dunelm #1 specialist, IKEA #1 overall,
-       fragmented market, Temu/Amazon emerging threat documented
-[PASS] Disruption risks: Temu/Amazon commoditization (5-10yr horizon)
-[PASS] Sector position: NEUTRAL
+[PASS] Updated: 2026-03-07 (post-oil-crisis)
+[PASS] Status: CAUTELA (downgraded from NEUTRAL)
+[PASS] Oil shock impact on UK consumer documented
 ```
 
 **Gate 8: PASS**
@@ -331,32 +239,31 @@ Correlation with existing:
 
 ### Gate 9: Autocritica
 
-#### Assumptions Not Validated
-1. NIC/NLW offset rate: 50% assumed (range 30-70%). Need management commentary at 10 Feb interims.
-2. Consumer weakness duration: adopted KPMG/Fitch/RSM consensus (through end 2026), but forecasters have poor track records at calling turning points.
-3. Adderley family selling motive: assumed informational (bearish signal), could be purely personal (benign).
-4. Temu competitive overlap with Dunelm: extrapolated from platform-level data, actual category overlap uncertain.
+#### Assumptions Not Validated (Updated)
+1. NIC/NLW offset rate: Feb 10 interims showed management absorbed H1 well (GM expanded). But H2 faces full NIC/NLW impact + oil shock.
+2. Oil crisis duration: If Hormuz reopens, oil drops, consumer pressure eases -- DNLM.L could re-rate fast. If Hormuz stays closed, $100+ oil = consumer recession risk.
+3. Consumer weakness duration: Extends beyond KPMG/Fitch consensus if oil stays $90+.
 
 #### Biases Recognized
-- **Popularity bias:** Mitigated -- DNLM.L identified through systematic screening, not training data familiarity.
-- **Confirmation bias:** Actively countered -- adopted STRONG COUNTER findings and lower FV despite compelling business quality.
-- **Recency bias:** Aware that recent successful Tier A purchases could create momentum to "keep buying Tier A" at lower standards.
+- **Sunk cost bias on SO:** The SO at 950p was set pre-crisis. Executing it now because "it triggered" ignores the changed context. The trigger is a signal to RE-EVALUATE, not an automatic buy order.
+- **Recency bias toward action:** P18 (action bias) and recent deployment momentum could push toward buying when the evidence says WAIT. Action bias applies to deployment into best opportunities, not into marginal ones during crises.
+- **UK home bias:** Already significant UK exposure (MONY.L 7%, IHP.L 11.4%). Adding more UK consumer-facing exposure during UK-specific macro stress is correlation-increasing.
 
-#### Kill Conditions (expanded from thesis + risk-identifier suggestions)
+#### Kill Conditions (Unchanged)
 1. Gross Margin falls below 48% (currently 52.4%)
-2. Market share declines 2 consecutive years (currently gaining)
+2. Market share declines 2 consecutive years
 3. FCF negative 2 consecutive years
-4. Adderley family holding drops below 30% (currently ~37.6%)
-5. Operating margin falls below 10.5% for 2 consecutive periods (currently 12.5%)
-6. Digital sales penetration stalls or declines (currently 41%, growing 3pp/yr)
+4. Adderley family holding drops below 30%
+5. Operating margin falls below 10.5% for 2 consecutive periods
+6. Digital sales penetration stalls or declines
 7. Dividend cut >30%
-8. Net debt ex-leases exceeds 2.0x EBITDA (currently 0.33x)
+8. Net debt ex-leases exceeds 2.0x EBITDA
 
 #### What Would Change My Mind
-- Interim results 10 Feb showing H1 PBT >= 114M, GM expanding, special dividend, positive H2 commentary -- could justify 850-900p entry with updated FV
-- Stock falls to 750-800p -- entry per standing order
-- UK consumer confidence improves materially above -10 for 2 consecutive months
-- NIC/NLW impact proves smaller than feared (management guidance at interims)
+- Hormuz reopens -> oil drops below $80 -> consumer pressure eases -> RE-EVALUATE at market price
+- Price falls to 850-880p (MoS 13-16%, E[CAGR] ~14-15%) -> materially better risk/reward
+- Cash available >EUR 700 (from rotation or additional AUTO.L + MONY.L sell) -> can allocate without opportunity cost
+- FY26 results (June/July) confirm margin resilience through NIC/NLW + oil -> FV revision upward possible
 
 **Gate 9: PASS**
 
@@ -364,127 +271,117 @@ Correlation with existing:
 
 ### Gate 10: Counter-Analysis & Independent Assessments
 
-#### Counter-Analysis (devil's-advocate)
 ```
-[YES] counter_analysis.md exists
-[STRONG COUNTER] Verdict: 19 total challenges, 1 CRITICAL + 8 HIGH
-```
-
-**Resolution of each HIGH/CRITICAL challenge:**
-
-| # | Challenge | Severity | Resolution |
-|---|-----------|----------|------------|
-| 1 | Thesis FV 1,328p is 24% above independent 1,008p | CRITICAL | RESOLVED: Adopted 1,008p |
-| 2 | MoS 7.1% grossly insufficient for Tier A | HIGH | RESOLVED: Entry lowered to 750-800p |
-| 3 | OEY calculation uses raw FCF not Owner Earnings | HIGH | RESOLVED: Adopted valuation-specialist OEY |
-| 4 | NIC/NLW GBP 18M headwind not in thesis | HIGH | RESOLVED: Incorporated in risk-adjusted FV |
-| 5 | "Consumer staple" claim unsupported | HIGH | RESOLVED: Reclassified "defensive discretionary" |
-| 6 | Insider selling factual error | HIGH | RESOLVED: Corrected to 37.6%, VT score 1/10 |
-| 7 | Three risks correlated (UK macro theme) | HIGH | RESOLVED: WACC +0.5pp, WATCHLIST buffer |
-| 8 | Consumer weakness duration understated | HIGH | RESOLVED: Adopted KPMG/Fitch/RSM consensus |
-| 9 | Interim results binary event in 3 days | HIGH | RESOLVED: WAIT for results before committing |
-
-**Unresolved CRITICAL challenges: ZERO.**
-
-#### Moat Assessment (moat-assessor)
-```
-[YES] moat_assessment.md exists
-[NARROW] Classification -- differs from thesis "Medium-High"
-ADOPTED: NARROW. Zero switching costs + online commoditization prevent WIDE.
+[YES] All independent analyses exist (counter_analysis.md, moat_assessment.md,
+      risk_assessment.md, valuation_report.md)
+[STRONG COUNTER] All HIGH/CRITICAL challenges from DA were resolved in Feb 7 R4
+[NO NEW DA REQUIRED] -- thesis fundamentals unchanged. New factor is MACRO.
 ```
 
-| Moat Source | Rating | Durability |
-|-------------|--------|------------|
-| Cost advantage (private label + scale) | 4/5 | 15-20 years |
-| Intangible assets (brand + Dorma) | 4/5 | 15-20 years |
-| Efficient scale | 3/5 | 10-15 years |
-| Switching costs | 1/5 | N/A |
-| Network effects | 1/5 | N/A |
+The existing STRONG COUNTER was fully resolved. No new DA is needed because the decision to NOT BUY is driven by macro context and capital allocation, not by thesis flaws.
 
-#### Risk Assessment (risk-identifier)
-```
-[YES] risk_assessment.md exists
-[MEDIUM] Overall risk score
-4 HIGH/CRITICAL risks identified:
-  - UK consumer prolonged weakness (CRITICAL)
-  - NIC/NLW GBP 18M headwind (HIGH)
-  - Temu/Amazon disruption (HIGH)
-  - UK macro stagnation (HIGH)
+**Gate 10: PASS**
 
-Risks NOT in thesis: NIC/NLW, insider selling error, Temu, CEO transition
-Additional kill conditions adopted: OpM <10.5%, Adderley <30%, digital stalls
-```
+---
 
-#### Valuation Report (valuation-specialist)
-```
-[YES] valuation_report.md exists
-[YES] FV diverges >15% vs thesis: 1,008p vs 1,328p = 24% -- INVESTIGATED
-      Root causes identified (5 flaws). 1,008p adopted.
-[YES] Sensitivity documented: 736p (bear) to 1,423p (bull)
-      Bear case downside -21% is material.
-```
+## GATE SUMMARY
 
-#### Systematic Finding
+| Gate | Status | Key Issue |
+|------|--------|-----------|
+| 0. Sector View | PASS | consumer-discretionary.md exists, updated |
+| 1. Quality Score | PASS | QS 79, Tier A confirmed |
+| 2. Business Understanding | PASS | Interims confirmed quality |
+| 3. Projections | CONDITIONAL PASS | Oil crisis adds headwind to bear probability |
+| 4. Valuation | PASS | FV 1,008p, 3-method convergence |
+| 5. Margin of Safety | **FAIL** | 7.5% MoS with NARROW moat, worst E[CAGR] of precedent group |
+| 6. Macro Context | CONDITIONAL PASS | Oil crisis = timing headwind for consumer discretionary |
+| 7. Portfolio Fit | **FAIL** | Capital allocation: EUR 370 better deployed at GDDY (E[CAGR] +7.8pp higher) |
+| 8. Sector Understanding | PASS | Sector at CAUTELA |
+| 9. Autocritica | PASS | Biases identified, KCs intact |
+| 10. Counter-Analysis | PASS | STRONG COUNTER fully resolved |
 
-All three independent reports (moat, risk, valuation) reached MORE CONSERVATIVE conclusions than the thesis. This consistent directional bias toward optimism in the thesis is itself a finding that informed the committee's decision to adopt conservative parameters throughout.
-
-**Gate 10: PASS** -- All CRITICAL/HIGH challenges resolved.
+**Result: 7 PASS, 1 CONDITIONAL, 2 FAIL (Gate 5 + Gate 7)**
 
 ---
 
 ## FINAL RECOMMENDATION
 
 ```
-WATCHLIST: DNLM.L (Dunelm Group plc)
+WATCHLIST: DNLM.L (Dunelm Group plc) -- SO MAINTAINED at 950p but DO NOT EXECUTE
 
 Quality Score: 79/100 -- Tier A (Quality Compounder)
-Fair Value (committee-adopted): 1,008p
+Fair Value (committee-adopted): 1,008p (unchanged)
 Moat: NARROW (moat-assessor)
-Risk: MEDIUM (1 CRITICAL + 3 HIGH, correlated UK macro theme)
+Risk: MEDIUM-HIGH (original MEDIUM + oil crisis overlay)
 
-Current Price: 936.5p | MoS: 7.1% -- INSUFFICIENT
-Thesis Entry 900p: MoS 10.7% -- INSUFFICIENT
+Current Price: 932p | MoS: 7.5% -- INSUFFICIENT for current context
+E[CAGR]: 12.4% -- MARGINAL (threshold 12%, weakest of any E[CAGR]-framework precedent)
 
-ENTRY TRIGGER: 750-800p (MoS 20-26%)
-SIZING: 3.0-3.5% initial (~EUR 300-350)
-ADD TRIGGER: 650p (MoS 35%+)
+WHY NOT EXECUTE THE SO:
+  1. E[CAGR] 12.4% is the weakest case we would approve -- and every prior
+     low-MoS buy had compensating factors (higher QS, WIDE moat, insider signal,
+     basket mandate) that DNLM.L lacks
+  2. EUR 370 of capital is better deployed at GDDY (E[CAGR] 20.2%, +7.8pp)
+  3. Oil crisis creates timing headwind for UK consumer discretionary entry
+  4. MoS vs bear case is -21% (NEGATIVE) -- no downside buffer
 
-CONDITIONS FOR ENTRY:
-  Path A: Price reaches 750-800p (after 10 Feb interims)
-  Path B: Interim results on 10 Feb significantly de-risk thesis:
-          H1 PBT >= 114M confirmed
-          Management quantifies NIC/NLW showing <50% PBT impact
-          Special dividend announced
-          Positive H2 commentary with recovery indicators
-          IF all four met, reconsider entry at 850-900p with updated FV
+STANDING ORDER: MAINTAIN at 950p. Do NOT execute at current price.
+  Execution conditions (ALL must be met):
+    (a) Hormuz reopened OR oil below $80 (crisis de-escalation)
+    (b) Cash available >EUR 375 WITHOUT consuming GDDY/BZU.MI capital
+    (c) No better E[CAGR] opportunity available at market price
 
-STANDING ORDER: Do NOT set until AFTER 10 Feb interim results.
-Post-results: set at 800p if neutral, 750p if disappointing.
+REVISED PREFERRED ENTRY: 850-880p (MoS 13-16%, E[CAGR] ~14-15%)
+  At 850p: MoS 15.7%, E[CAGR] ~15.6% -- materially better risk/reward
+  At 880p: MoS 12.7%, E[CAGR] ~14.0% -- still above threshold with margin
 
-NEXT ACTION: Monitor interim results 10 February 2026. Re-evaluate.
+ALTERNATIVE PATH: If oil crisis deepens and DNLM.L falls to 800-850p,
+  it becomes a STRONG BUY (MoS 16-21%, E[CAGR] 15-18%, crisis discount)
+
+NEXT REVIEW: When Hormuz situation resolves OR price reaches 850p
 ```
 
 ---
 
-## SCENARIOS SUMMARY
+## SCENARIOS SUMMARY (at 932p)
 
-| Scenario | FV | Probability | Upside/Downside from 936.5p |
-|----------|-----|------------|---------------------------|
-| Bear | 736p | 25% | -21.4% |
-| Base | 1,008p | 50% | +7.6% |
-| Bull | 1,423p | 25% | +51.9% |
-| **Expected** | **1,044p** | **100%** | **+11.5%** |
+| Scenario | FV | Probability (crisis-adjusted) | Upside/Downside |
+|----------|-----|------|---------------------------|
+| Bear | 736p | 30% (+5pp for oil crisis) | -21.0% |
+| Base | 1,008p | 50% | +8.2% |
+| Bull | 1,423p | 20% (-5pp for oil crisis) | +52.7% |
+| **Expected** | **1,017p** | **100%** | **+9.1%** |
 
-At 750p entry, the scenarios transform:
+At 850p entry (revised preferred):
 
-| Scenario | FV | Upside/Downside from 750p |
+| Scenario | FV | Upside/Downside |
 |----------|-----|--------------------------|
-| Bear | 736p | -1.9% |
-| Base | 1,008p | +34.4% |
-| Bull | 1,423p | +89.7% |
-| **Expected** | **1,044p** | **+39.2%** |
+| Bear | 736p | -13.4% |
+| Base | 1,008p | +18.6% |
+| Bull | 1,423p | +67.4% |
+| **Expected** | **1,017p** | **+19.6%** |
 
-The asymmetry at 750p is dramatically superior: -2% down vs +90% up (Bull), +34% up (Base).
+---
+
+## PRECEDENTES CONSULTADOS
+
+```
+Precedentes consultados:
+  - HLNE: Tier A, 7.5% MoS, 3.8% sizing, HOLD. Relevance: same MoS level.
+    DIFFERENCE: HLNE had QS 86 (highest), insider cluster buy $4.2M, E[CAGR] 16.7%.
+    DNLM.L has QS 79 (lower), no insider signal, E[CAGR] 12.4% (4.3pp lower).
+  - TW: Tier A, 8.4% MoS, 5.7% sizing, HOLD. Relevance: similar MoS, similar sector context.
+    DIFFERENCE: TW had WIDE moat monopoly, basket-filling priority, E[CAGR] 13.2%.
+    DNLM.L has NARROW moat, no basket context, E[CAGR] 12.4%.
+  - RACE.MI: Tier A, 11.9% MoS, 3.4% sizing, SOLD (E[CAGR] collapsed).
+    DIFFERENCE: RACE.MI had THREE WAITS mandate + WIDE moat + basket salvation.
+    DNLM.L has no mandate and RACE.MI was subsequently SOLD as E[CAGR] worst.
+
+  Deviation from precedents: YES, I am NOT buying at 7.5% MoS despite HLNE/TW precedent.
+  WHY: DNLM.L lacks every compensating factor those precedents had. This is the
+  weakest low-MoS case by every metric. Additionally, capital is severely constrained
+  (EUR 370 total) with a materially better alternative available (GDDY E[CAGR] 20.2%).
+```
 
 ---
 
@@ -492,54 +389,47 @@ The asymmetry at 750p is dramatically superior: -2% down vs +90% up (Bull), +34%
 
 ### Dudas sobre esta decision
 
-- **Am I being too demanding on MoS?** The OEY+Growth vs WACC spread at current prices is the best in our pipeline. When three independent methods converge tightly (6% divergence), perhaps less MoS is justified because valuation uncertainty is lower. Counter-argument: MoS protects against risks we have not identified, not just valuation errors.
+- **Am I being too cautious after the framework evolved toward deployment?** P18 says risk of inaction > risk of acting wrong. But P18 also says to act on the BEST opportunity, not just any opportunity. GDDY at E[CAGR] 20.2% is clearly the better deployment of EUR 370.
 
-- **Adderley family selling is ambiguous.** If purely personal diversification (benign), using their 1,140p sell price as a FV ceiling is overly conservative. We cannot know their actual motive.
+- **Is the oil crisis priced in?** DNLM.L at 932p is only -25% from high. If oil crisis is truly material for UK consumer, there may be another 10-15% downside, which would CREATE the entry we want at 800-850p. Waiting is the correct play IF the crisis persists.
 
-- **Consumer recovery could come faster than KPMG/Fitch project.** If Q3 2026 recovery materializes, stock re-rates to 1,100-1,200p before reaching 750-800p trigger, and we miss a genuine quality compounder. This is the real risk of the WATCHLIST decision -- missing the opportunity.
+- **What if Hormuz reopens Monday and stock bounces?** If oil drops to $75 and DNLM.L pops to 980-1000p, we miss the entry entirely. This is the omission risk. But even then, E[CAGR] would drop below 12% threshold and the case would be even weaker.
 
-- **The interims on 10 Feb (3 days) are the key swing factor.** Strong results with NIC/NLW management commentary could materially change the FV estimate upward. Path B (conditional entry at 850-900p post-results) may become the operative path.
+### Debilidades del analisis
 
-### Debilidades del analisis recibido
+- **No fresh quality_scorer.py run.** Using Feb 7 QS of 79. Should re-run to capture any data changes from interims. RISK: QS could have improved given confirmed margin expansion + special dividend.
 
-- **Factual error in thesis (insider selling):** The buy-pipeline adversarial process caught it (validating the system design), but this should not have reached Round 4. The fundamental-analyst should have searched for insider transactions as a mandatory step.
+- **FV of 1,008p may be stale.** The Feb 10 interims confirmed thesis expectations, and the 25p special dividend was announced. A modest FV revision to 1,020-1,040p is defensible. But this would only marginally improve the case (MoS ~9-10%, E[CAGR] ~13%).
 
-- **OEY calculation inconsistency:** Thesis used raw FCF / Market Cap; valuation-specialist correctly used (FCF - Maintenance Capex) / Market Cap per the skill. This discrepancy reveals a standardization gap in the valuation-methods skill that needs explicit enforcement.
-
-- **Backward-looking FCF for forward-looking valuation:** Thesis used FY25 actual FCF for a company facing known forward cost headwinds. When material structural changes to earnings exist (NIC/NLW), forward estimates should be mandatory.
+- **No management commentary on oil impact.** The thesis does not address how oil at $90+ affects Dunelm specifically (energy costs for stores, logistics, consumer spending power). This is a gap.
 
 ### Sugerencias de mejora
 
-1. **Standardize OEY in valuation-methods skill:** Add: "OEY = (FCF - D&A x 1.1) / Market Cap. NEVER use raw FCF / Market Cap."
-2. **Mandatory insider selling check in fundamental-analyst:** Add to PASO 0: "WebSearch '[company] insider selling [current year - 1]' before writing thesis."
-3. **Forward vs backward requirement:** When known material cost changes exist, valuation MUST use forward estimates.
-4. **DCF tool IFRS 16 flag:** For lease-heavy businesses, note distortion. Consider --ex-leases option.
-5. **UK macro correlation auto-flag:** When evaluating 6th+ UK position, constraint_checker should flag correlated macro exposure as a data point.
+1. When an SO triggers during a crisis event, the pre-execution check should automatically flag macro deterioration since SO creation date.
+2. Capital allocation gate (Gate 7) should include explicit E[CAGR] comparison with other available deployment options.
 
 ### Preguntas para Orchestrator
 
-1. Should we set 800p standing order NOW (pre-interims) in case stock gaps down on results? Risk: results disappoint, stock opens at 800p, bounces before we act. Counter-risk: results are good, stock goes up, order never fills (which is the correct outcome).
-2. Thesis needs correction (insider error, NIC/NLW). Should this wait until after interims when we have more data?
-3. Is 7 UK positions genuinely the limit? Should we formalize this constraint?
+1. Should we LOWER the SO to 850p to reflect crisis-adjusted entry, or MAINTAIN at 950p for when crisis passes?
+2. Is GDDY the correct first-priority deployment for AUTO.L proceeds, or should it be BZU.MI (also near trigger)?
+3. Should we archive the DNLM.L SO entirely if Hormuz stays closed for >30 days?
 
 ---
 
 ## AUDIT TRAIL
 
-| Round | Agent | Output | Key Decision |
-|-------|-------|--------|-------------|
-| 1 (parallel) | fundamental-analyst | thesis.md | FV 1,328p, WATCHLIST 900p |
-| 1 (parallel) | moat-assessor | moat_assessment.md | NARROW moat |
-| 1 (parallel) | risk-identifier | risk_assessment.md | MEDIUM risk, 1C+3H |
-| 1 (sequential) | valuation-specialist | valuation_report.md | FV 1,008p, MoS 7.1% |
-| 2 | devil's-advocate | counter_analysis.md | STRONG COUNTER |
-| 3 | orchestrator | Conflict resolution | Adopted 1,008p FV, 750-800p entry |
-| 4 | investment-committee | committee_decision.md | WATCHLIST 750-800p |
+| Round | Date | Output | Key Decision |
+|-------|------|--------|-------------|
+| R1 (parallel) | 2026-02-07 | thesis.md + moat/risk/valuation | FV 1,008p, WATCHLIST |
+| R2 | 2026-02-07 | counter_analysis.md | STRONG COUNTER |
+| R3 | 2026-02-07 | Conflict resolution | Adopted 1,008p, entry 750-800p |
+| R4 | 2026-02-07 | committee_decision.md | WATCHLIST 750-800p |
+| R4 RE-VAL | 2026-03-08 | committee_decision.md (this) | WATCHLIST MAINTAINED. SO 950p triggered but NOT executed. |
 
 ---
 
-**Committee Decision Date:** 2026-02-07
-**Framework:** v4.0
-**Gates Passed:** 8 PASS, 1 CONDITIONAL, 1 FAIL-at-current-price (PASS at 750-800p)
-**Verdict:** WATCHLIST -- Entry 750-800p post-interims
-**Next Review:** After 10 February 2026 interim results
+**Committee Decision Date:** 2026-03-08
+**Framework:** v4.9
+**Gates Passed:** 7 PASS, 1 CONDITIONAL, 2 FAIL (Gate 5 MoS + Gate 7 Capital Allocation)
+**Verdict:** WATCHLIST MAINTAINED -- Do NOT execute SO at 932p. Preferred entry 850-880p with crisis de-escalation.
+**Next Review:** Hormuz resolution OR price reaches 850p

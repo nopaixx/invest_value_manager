@@ -1,6 +1,6 @@
 # Sector: Promotional Products
 
-> Ultima actualizacion: 2026-02-14
+> Ultima actualizacion: 2026-03-07
 > Status: NEUTRAL
 
 ## Resumen Ejecutivo
@@ -101,7 +101,7 @@ Current headwinds include US tariff disruption (90-95% of hard goods sourced fro
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Pipeline | FOUR.L | thesis/research/FOUR.L | 2026-02-14 | R1 Analysis |
+| Pipeline | FOUR.L | thesis/research/FOUR.L | 2026-02-14 | R3 COMPLETE. FV 4,400p. Entry 3,400p. HARD GATE: FY2025 results Mar 18. |
 
 ### Protocolo de Cambio Material
 Cuando actualices este sector view con cambio MATERIAL:
@@ -116,7 +116,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 ### Para analisis profundo
 | Ticker | Razon | Priority |
 |--------|-------|----------|
-| FOUR.L | #1 direct marketer, 85% ROIC, -34% from high, net cash | Alta |
+| FOUR.L | #1 direct marketer, 85% ROIC, -34% from high, net cash. R3 COMPLETE (FV 4,400p, entry 3,400p). GATED on Mar 18 results: market share loss confirmed (-28bp 2025), tariffs persistent, new customer softness. KC#5 Year 1 of 2. | Alta — GATED |
 
 ### Evitar
 | Ticker | Razon |
@@ -137,7 +137,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| 11-Mar-2026 | 4imprint FY2025 Full Results | Detailed financials, 2026 guidance |
+| 18-Mar-2026 | 4imprint FY2025 Full Results (CORRECTED date) | Detailed financials, 2026 guidance. HARD GATE for pipeline entry. |
 | Mid-2026 | Tariff resolution/escalation | Clarity on China sourcing costs |
 
 ---
@@ -147,6 +147,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
 | 2026-02-14 | Status inicial: NEUTRAL | New sector view created for FOUR.L analysis |
+| 2026-03-07 | Refresh: FOUR.L R3 complete, results date corrected to Mar 18 | R3 found market share LOST (-28bp), tariffs persistent. FOUR.L remains only pipeline candidate. Sector still NEUTRAL — low priority until FOUR.L results clarify. |
 
 ---
 

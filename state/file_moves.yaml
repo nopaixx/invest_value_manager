@@ -110,6 +110,74 @@ moves:
     triggered_by: "portfolio-ops: SELL confirmation"
     note: "Active files replaced with redirect stubs. Delete thesis/active/ALL/ directory manually."
 
+  - date: 2026-02-26
+    file: state/quality_universe.yaml (MEGP.L entry removed)
+    from: state/quality_universe.yaml
+    to: N/A (entry deleted, not moved)
+    reason: "MEGP.L not available on eToro. Removed from quality universe. SO already archived. Calendar annotated. Thesis preserved at thesis/research/MEGP.L/."
+    triggered_by: "CIO direct instruction via file-system-manager"
+
+  - date: 2026-02-26
+    file: thesis/active/DTE.DE/* (thesis.md, risk_assessment.md, valuation_report.md, earnings_framework_feb2026.md)
+    from: thesis/active/DTE.DE/
+    to: thesis/archive/DTE.DE/
+    reason: "Position FULLY CLOSED - SELL remaining 10.624621 shares @ EUR 32.91. P16 rotation. E[CAGR] 6.7% lowest position. Total P&L ~EUR 212 across all tranches. Cash earmarked for FTNT/DNLM.L/RACE.MI SOs."
+    triggered_by: "portfolio-ops: SELL confirmation (human confirmed full exit)"
+    note: "Archive copies created with CLOSED/ARCHIVED headers. Delete thesis/active/DTE.DE/ directory manually."
+
+  - date: 2026-02-26
+    file: thesis/research/FTNT/* (thesis.md, moat_assessment.md, risk_assessment.md, r2_devils_advocate.md, r3_resolution.md, committee_decision.md, triage.md)
+    from: thesis/research/FTNT/
+    to: thesis/active/FTNT/
+    reason: "Position OPENED - BUY 5.98 shares @ $79.12 (EUR 400). 5th E[CAGR]-framework market buy. QS 85adj Tier A. WIDE moat. R4 approved S123."
+    triggered_by: "portfolio-ops: BUY confirmation (human confirmed execution)"
+    note: "Active copies created with updated headers (position info, R3 revisions). Delete thesis/research/FTNT/ directory manually."
+
+  - date: 2026-02-28
+    file: thesis/research/IHP.L/* (thesis.md, committee_decision.md, r2_devils_advocate.md, r3_resolution.md)
+    from: thesis/research/IHP.L/
+    to: thesis/active/IHP.L/
+    reason: "Active position since S108 (BUY Feb 24). Thesis was never moved from research to active after purchase. Corrective housekeeping. portfolio/current.yaml thesis path updated."
+    triggered_by: "CIO direct instruction via file-system-manager"
+
+  - date: 2026-02-28
+    file: thesis/research/HLNE/* (thesis.md, committee_decision.md, r2_devils_advocate.md, r3_resolution.md)
+    from: thesis/research/HLNE/
+    to: thesis/active/HLNE/
+    reason: "Active position since S122 (BUY Feb 25). Thesis was never moved from research to active after purchase. Corrective housekeeping. portfolio/current.yaml thesis path updated."
+    triggered_by: "CIO direct instruction via file-system-manager"
+
+  - date: 2026-02-28
+    file: thesis/research/DOCS/* (thesis.md, committee_decision.md, r2_devils_advocate.md, r3_resolution.md)
+    from: thesis/research/DOCS/
+    to: thesis/active/DOCS/
+    reason: "Active position since S122 (BUY Feb 25). Thesis was never moved from research to active after purchase. Corrective housekeeping. portfolio/current.yaml thesis path updated."
+    triggered_by: "CIO direct instruction via file-system-manager"
+
+  - date: 2026-03-05
+    file: thesis/research/RACE.MI/* (thesis.md, moat_assessment.md, committee_decision.md, devils_advocate.md, valuation_report.md, risk_assessment.md)
+    from: thesis/research/RACE.MI/
+    to: thesis/active/RACE.MI/
+    reason: "Position OPENED - BUY ~1.12 shares @ EUR 312.80 (EUR 350). 6th E[CAGR]-framework market buy. THREE WAITS mandate. QS 84adj Tier A. R4 approved. EU Value Recovery basket 2nd position."
+    triggered_by: "portfolio-ops: BUY confirmation (human confirmed execution S140)"
+    note: "Active copies created with updated headers (thesis.md full, others summarized). DELETE thesis/research/RACE.MI/ directory manually to avoid duplicates."
+
+  - date: 2026-03-13
+    file: thesis/research/BZU.MI/* (thesis.md, r2_devils_advocate.md, r3_resolution.md, committee_decision.md)
+    from: thesis/research/BZU.MI/
+    to: thesis/active/BZU.MI/
+    reason: "Position OPENED - BUY ~8.81 shares @ EUR 42.00 (EUR 370). SO triggered at EUR 42. R4 APPROVED S143c10 (10/10 PASS). QS 73/75adj Tier B. Italian cement. Standalone."
+    triggered_by: "portfolio-ops: BUY confirmation (human confirmed execution S151)"
+    note: "Active copies created with updated thesis header (FV, Expected Growth, KCs added). Research originals DELETED to avoid duplicates."
+
+  - date: 2026-03-13
+    file: thesis/short/research/CVNA/* (committee_decision.md, q4_2025_results_analysis.md, s3_resolution.md)
+    from: thesis/short/research/CVNA/
+    to: thesis/short/active/CVNA/
+    reason: "Short position OPEN (0.31 shares @ $318.77) but thesis never moved from research to active. Corrective housekeeping."
+    triggered_by: "CIO direct instruction via file-system-manager"
+    note: "Research originals DELETED to avoid duplicates."
+
 # Format:
 #   - date: 2026-01-31
 #     file: thesis/research/SHEL/thesis.md

@@ -1,0 +1,120 @@
+# Tracked Funds — Value/Activist/Quality investors to monitor via 13F
+# CIK = SEC Central Index Key (unique per filer)
+# Update: add funds as discovered in letters, filings, or research
+
+funds:
+  # VALUE / DEEP VALUE
+  - name: "Berkshire Hathaway"
+    cik: "1067983"
+    fund_type: value
+    notes: "Warren Buffett. Ultimate quality compounder signal."
+
+  - name: "Greenlight Capital (DME Advisors)"
+    cik: "1300763"
+    fund_type: value
+    notes: "David Einhorn. Concentrated value + shorts. Files as DME Advisors LP. Old CIK 1079114 stopped 2024."
+
+  - name: "Baupost Group"
+    cik: "1061768"
+    fund_type: value
+    notes: "Seth Klarman. Deep value, distressed."
+
+  - name: "Third Point"
+    cik: "1040273"
+    fund_type: activist
+    notes: "Dan Loeb. Activist + event-driven."
+
+  - name: "Pershing Square"
+    cik: "1336528"
+    fund_type: activist
+    notes: "Bill Ackman. Concentrated activist."
+
+  - name: "ValueAct Capital"
+    cik: "1418814"
+    fund_type: activist
+    notes: "Constructive activist. Focus on quality businesses. Files as ValueAct Holdings LP."
+
+  # QUALITY / GROWTH AT REASONABLE PRICE
+  - name: "Fundsmith"
+    cik: "1569205"
+    fund_type: quality
+    notes: "Terry Smith. $17B quality compounders. 37 holdings. Holds DOM.L (5.4%), DOCS, MORN, MANH, PAYC. Files as Fundsmith LLP."
+
+  - name: "Cantillon Capital"
+    cik: "1279936"
+    fund_type: quality
+    notes: "William von Mueffling. $18.5B quality compounders. Concentrated 37 holdings. Top adds Q4 2025: TW +39%, FWONK +46%, ADBE +16%."
+
+  - name: "Coronation Fund Managers"
+    cik: "1594320"
+    fund_type: value
+    notes: "South African AM, $1.7B US 13F. Largest BYIT.L holder (26%). Holds emerging market + quality names."
+
+  - name: "Akre Capital"
+    cik: "1112520"
+    fund_type: quality
+    notes: "Quality compounders. Concentrated. Files as Akre Capital Management LLC."
+
+  - name: "Polen Capital"
+    cik: "1034524"
+    fund_type: quality
+    notes: "Quality growth. High ROIC focus. Files as Polen Capital Management LLC."
+
+  - name: "Wedgewood Partners"
+    cik: "859804"
+    fund_type: quality
+    notes: "Focused growth. ~20 positions. Files as Wedgewood Partners Inc."
+
+  # ACTIVIST
+  - name: "Elliott Management"
+    cik: "1791786"
+    fund_type: activist
+    notes: "Paul Singer. Aggressive activist. Currently in LULU. Files as Elliott Investment Management LP."
+
+  - name: "Icahn Enterprises"
+    cik: "921669"
+    fund_type: activist
+    notes: "Carl Icahn. Activist + deep value. Files 13F as Icahn Carl C."
+
+  - name: "Trian Fund Management"
+    cik: "1345471"
+    fund_type: activist
+    notes: "Nelson Peltz. Constructive activist."
+
+  # CONCENTRATED VALUE
+  - name: "Pabrai Investment Funds"
+    cik: "1549575"
+    fund_type: value
+    notes: "Mohnish Pabrai. Concentrated, Buffett-style. Files as Dalal Street LLC."
+
+  - name: "Fairholme Capital"
+    cik: "1056831"
+    fund_type: value
+    notes: "Bruce Berkowitz. Deep value, concentrated."
+
+  - name: "Longleaf Partners"
+    cik: "807985"
+    fund_type: value
+    notes: "Mason Hawkins. Absolute value. Contrarian. Files as Southeastern Asset Management Inc."
+
+  - name: "Dodge & Cox"
+    cik: "200217"
+    fund_type: value
+    notes: "Long-term value. Patient capital. Files as Dodge & Cox."
+
+  # INSURANCE / SPECIALTY (relevant for GL position)
+  - name: "Markel Group"
+    cik: "1096343"
+    fund_type: value
+    notes: "Tom Gayner. Insurance + equity portfolio. Mini-Berkshire. Files as Markel Group Inc."
+
+  # EUROPEAN-FOCUSED (may not file 13F for EU holdings)
+  - name: "Tweedy Browne"
+    cik: "732905"
+    fund_type: value
+    notes: "Global value. US+Europe. Ben Graham school."
+
+  - name: "First Eagle"
+    cik: "1325447"
+    fund_type: value
+    notes: "Global value. Defensive + gold. Jean-Marie Eveillard legacy. Files as First Eagle Investment Management LLC."

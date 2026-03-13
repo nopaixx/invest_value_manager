@@ -1,10 +1,9 @@
 # WATCHLIST - Companies being monitored for entry
-# Updated: 2026-02-14
+# Updated: 2026-03-07 (S142 — cleanup: removed in-portfolio tickers, archived stale)
 
 quality_compounders:
   - { ticker: MA, qs: 86, tier: A, entry: "$315", fv: "$420", status: "SUSPENDED_PRE_PIPELINE", notes: "ROIC 44%. Wait ~41% decline." }
   - { ticker: V, qs: 80, tier: A, entry: "$220/$200", fv: "$275-290", status: "SUSPENDED_PRE_PIPELINE", notes: "ROIC 50%+. Wait ~33% decline." }
-  - { ticker: ADBE, qs: 76, tier: A, status: "IN PORTFOLIO", notes: "2 shares @ $270.60" }
   - { ticker: GOOGL, qs: 76, tier: A, entry: "pullback", notes: "P/E 33.6x. Near 52w high." }
 
 quality_value:
@@ -17,69 +16,100 @@ ready_to_buy:
   - { ticker: EVO.ST, entry_sek: "480-650", fv_sek: 1009, status: "Wait UKGC" }
 
 on_watch:
-  - { ticker: RACE.MI, entry: "EUR 260-290", fv: "EUR 355", notes: "R3 complete. QS 82/84. R4 approved." }
   - { ticker: FICO, entry: "$700-850", fv: "$900", notes: "R1 complete. QS 75/70. Far from entry. Deferred." }
   - { ticker: INTU, entry: "$330-365", fv: "$465", notes: "R1 complete. QS 77/75. Feb 26 earnings." }
   - { ticker: VEEV, entry: "$140-150", fv: "$205", notes: "R1 complete. QS 72/80. Mar 4 earnings." }
-  - { ticker: ENEL.MI, entry: "7.00-7.50", notes: "CMD 23-feb catalyst." }
   - { ticker: CVS, entry: "$70", notes: "Turnaround. Binary." }
   - { ticker: AMT, entry: "$160-165", notes: "Infrastructure REIT." }
-  - { ticker: WPP.L, entry: "200 GBp", notes: "5-6/10 trap. Rose plan Feb 26." }
   - { ticker: UTG.L, entry: "540 GBp", fv: "745 GBp", notes: "v2.0 validated. Earnings Feb 24." }
-  - { ticker: MEGP.L, entry: "131 GBp", fv: "175 GBp", notes: "Only 2 analysts. Monopoly kiosks." }
+  - { ticker: MEGP.L, entry: "131 GBp", fv: "175 GBp", notes: "Only 2 analysts. Monopoly kiosks. NOT ON ETORO." }
   - { ticker: WKL.AS, entry: "EUR 50-55", fv: "EUR 72", notes: "Revised. Post FY2025 results Feb 25." }
+  - { ticker: DECK, entry: "$95-100", fv: "$125", notes: "R3 COMPLETE 2026-02-19. QS 81/77->74fwd Tier B. FV $135->$125. Entry $100->$95. R4 DEFERRED. Moat NARROW. -48% from peak." }
+  - { ticker: RAA.DE, entry: "EUR 485 (15% MoS)", fv: "EUR 570 (CONDITIONAL Mar 19)", notes: "R3 COMPLETE 2026-02-19. QS 92/92 Tier A (HIGHEST). Moat WIDE 21-22/25. FV EUR 600->570. R4 HARD GATE: March 19 FY2025. Prob entry: LOW (crisis only)." }
+  - { ticker: AJB.L, entry: "375 GBp", fv: "520 GBp", notes: "R3 COMPLETE 2026-02-18. QS 82 Tier A. FV 600->520p. WAIT H1 FY2026 (Apr/May). Fee war risk." }
+  - { ticker: ALFA.L, entry: "165 GBp", fv: "235 GBp", notes: "R3 COMPLETE 2026-02-19. QS 80/83 Tier A. HARD GATE: Mar 12 FY2025 results. UK #5 risk." }
+  - { ticker: FSG.L, entry: "375 GBp", fv: "530 GBp", notes: "R1 COMPLETE 2026-02-19. QS 83/70 Tier B (AM adj). VCT tax cut Apr 2026 CRITICAL." }
+  - { ticker: CKN.L, entry: "3200 GBp", fv: "5200 GBp", notes: "R1 COMPLETE 2026-02-19. QS 83/80 Tier A borderline. PROFIT WARNING. HARD GATE Mar 2026." }
+  - { ticker: KLR.L, entry: "1750 GBp", fv: "2600 GBp", notes: "R1 COMPLETE. QS 76/79 Tier A. Gate CLEARED. SO 1700p. Record FY25. UK-listed 55% US rev." }
+  - { ticker: GDWN.L, entry: "11500 GBp", fv: "14320 GBp", notes: "R1 COMPLETE. QS 86/80 Tier A. SEVERELY OVERVALUED at 25,761p. Crisis-only." }
+  - { ticker: RMS.PA, entry: "EUR 1200", fv: "EUR 1350", notes: "R1 COMPLETE. QS 88/96 Tier A. Best luxury. SEVERELY OVERVALUED at EUR 1905. Crisis-only." }
+  - { ticker: MC.PA, entry: "EUR 430", fv: "EUR 540", notes: "SCORED S145. QS 54/72 Tier B. LVMH #1 luxury. OVERVALUED at EUR 502. EU Pricing Power pipeline. 50% Arnault." }
+  - { ticker: BZU.MI, entry_eur: 42, notes: "R1 COMPLETE. QS 73/70 Tier B (cyclical adj). FV EUR 58. 53% family. Net cash EUR 1.1B. CYCLICAL — buy only in downturn." }
+  - { ticker: KNEBV.HE, entry_eur: 46, notes: "R1 COMPLETE. QS 72/80 Tier A (+8 adj). FV EUR 54. #2-3 elevator oligopoly. OVERVALUED at EUR 63. -27% away." }
+  - { ticker: ADDT-B.ST, entry_sek: 180, notes: "R3 complete. QS 77 Tier A lower. FV SEK 225. Crisis only (-44%)." }
+  - { ticker: AON, entry_usd: 285, notes: "R3 COMPLETE. QS 62/70 Tier B. FV $350. GATE: Q1 2026 earnings. SO DEFERRED." }
+  - { ticker: CELH, entry_usd: 35, notes: "R1 COMPLETE. QS 79/62 Tier B (adj -17). FV $44. P/E 402x trailing. Entry $33-36." }
 
 tier_2:
-  - { ticker: AGN.NV, entry: "5.90-6.10", notes: "Earnings 19-Feb." }
   - { ticker: MBG.DE, entry: "48-52", notes: "Q4 catalyst." }
-  - { ticker: CS.PA, entry: "34.50-35.50", notes: "AXA. FV 40.50. Earnings 26-feb." }
   - { ticker: RIO.L, entry: "120", notes: "Materials diversification." }
-  - { ticker: ENGI.PA, entry: "22", notes: "Yield 6.6%." }
-  - { ticker: NTGY.MC, entry: "19-21", notes: "Needs validation." }
-  - { ticker: CMCSA, entry: "$25-26", notes: "Broadband eroding. Theme parks star." }
   - { ticker: GIS, entry: "$34-38", notes: "DCF ~$41. D/E 147%." }
-  - { ticker: AZM.MI, entry: "32-33", notes: "Asset manager. P/E 9.8x." }
-  - { ticker: PROX.BR, entry: "7.50-7.70", notes: "Telecom belga. WAIT strategic plan 27-feb." }
   - { ticker: BME.L, entry: "169 GBp", notes: "B&M discount retail." }
   - { ticker: TBCG.L, entry: "3500 GBp", notes: "TBC Bank Georgia. Frontier." }
   - { ticker: BGEO.L, entry: "7000 GBp", notes: "Near ATH, wait correction." }
+
+# =============================================================================
+# SHORT CANDIDATES - Companies monitored for short entry
+# =============================================================================
+short_candidates:
+  - ticker: CVNA
+    qs_gap: "QS 24 (Tier D) at adj P/E 62x. DTA release $685M inflates GAAP."
+    catalyst: "Q1 2026 earnings (~May 2026). Class action discovery H1-H2 2026."
+    catalyst_date: 2026-05-15
+    entry: ">=$300"
+    status: "S3 COMPLETE — S4 DEFERRED. Stock -20% post-Q4. If bounces >$300, proceed S4."
+    notes: "S3 COMPLETE (Session 80). FV $120. Adj P/E 62x. EBITDA margin DECLINING."
+
+  - ticker: LYV
+    qs_gap: "QS 41 (Tier C) at 114x P/E, 37x EV/EBIT"
+    catalyst: "DOJ antitrust trial Mar 2 2026"
+    catalyst_date: 2026-03-02
+    entry: "$145-160"
+    status: "S4 APPROVED CONDITIONAL. Trial underway."
+    notes: "S1->S4 COMPLETE (S76). FV $85. Trial ongoing Mar 2026."
 
 archived_rejected:
   - { ticker: HPQ, date: 2026-02-03, reason: "VALUE TRAP 4/10" }
   - { ticker: MEGP.L, date: 2026-02-03, reason: "NOT AVAILABLE ON ETORO" }
   - { ticker: CAG, date: 2026-02-04, reason: "VALUE TRAP 5/10" }
-
-# Active monitoring moved inline to portfolio/current.yaml positions
-# Historical price monitors consolidated here
+  # S142 ARCHIVED (in portfolio or stale):
+  - { ticker: ADBE, date: 2026-03-07, reason: "IN PORTFOLIO" }
+  - { ticker: RACE.MI, date: 2026-03-07, reason: "IN PORTFOLIO — bought S140" }
+  - { ticker: HLNE, date: 2026-03-07, reason: "IN PORTFOLIO — bought S122+S126" }
+  - { ticker: IHP.L, date: 2026-03-07, reason: "IN PORTFOLIO — bought S108+S127" }
+  - { ticker: MORN, date: 2026-03-07, reason: "IN PORTFOLIO — bought S101" }
+  - { ticker: LULU, date: 2026-03-07, reason: "EXITED S141. No longer relevant." }
+  - { ticker: PAYC, date: 2026-03-07, reason: "SO archived. Deferred indefinitely." }
+  - { ticker: ENEL.MI, date: 2026-03-07, reason: "STALE >30d. CMD passed. No follow-up." }
+  - { ticker: AGN.NV, date: 2026-03-07, reason: "STALE >30d. Earnings passed. No action." }
+  - { ticker: CS.PA, date: 2026-03-07, reason: "STALE >30d. Earnings passed. No action." }
+  - { ticker: ENGI.PA, date: 2026-03-07, reason: "STALE >30d. No thesis." }
+  - { ticker: NTGY.MC, date: 2026-03-07, reason: "STALE. Passed." }
+  - { ticker: PROX.BR, date: 2026-03-07, reason: "STALE >30d. Strategic plan passed." }
+  - { ticker: AZM.MI, date: 2026-03-07, reason: "STALE >30d. No follow-up." }
+  - { ticker: CMCSA, date: 2026-03-07, reason: "STALE tier_2 entry. SO exists — use SO instead." }
+  - { ticker: DSY.PA, date: 2026-03-07, reason: "STALE price_monitor. SO exists — use SO instead." }
+  # Archived short candidates (deprioritized):
+  - { ticker: ENR.DE, date: 2026-03-07, reason: "DEPRIORITIZED S76. Stock at ATH. Narrative too strong." }
+  - { ticker: RAND.AS, date: 2026-03-07, reason: "DEPRIORITIZED. Stock -42% from entry. Poor risk-reward." }
+  - { ticker: PLTR, date: 2026-03-07, reason: "DEPRIORITIZED. Q4 blowout invalidates DOGE thesis." }
+  - { ticker: APP, date: 2026-03-07, reason: "SHORT REJECTED S88. S2 STRONG BULL 7.0/10. P10 violated." }
+  - { ticker: IONQ, date: 2026-03-07, reason: "WATCH only. 21% SI = squeeze risk. Do not short." }
+  - { ticker: REZI, date: 2026-03-07, reason: "Low conviction. Needs more research." }
+  - { ticker: BA, date: 2026-03-07, reason: "No binary catalyst with date. Duopoly floor." }
 
 price_monitors:
   - { ticker: TTE, entry_eur: 45 }
   - { ticker: LGEN.L, entry_gbp: 215 }
   - { ticker: MBG.DE, entry_eur: 50 }
-  - { ticker: ENEL.MI, entry_eur: 7.50 }
-  - { ticker: AGN.NV, entry_eur: 5.90 }
   - { ticker: CVS, entry_usd: 70 }
-  - { ticker: T, entry_usd: 22.50 }
-  - { ticker: BNP.PA, entry_eur: 78 }
-  - { ticker: ENGI.PA, entry_eur: 22 }
-  - { ticker: CS.PA, entry_eur: 35.50 }
   - { ticker: TBCG.L, entry_gbp: 3500 }
   - { ticker: BGEO.L, entry_gbp: 7000 }
-  - { ticker: WPP.L, entry_gbp: 200 }
   - { ticker: DGE.L, entry_gbp: 1300 }
   - { ticker: EVO.ST, entry_sek: 530, condition: "ONLY if UKGC favorable" }
-  - { ticker: GL, entry_usd: 130, note: "ADD trigger" }
   - { ticker: SRE.L, entry_gbp: 75 }
   - { ticker: GIS, entry_usd: 38 }
   - { ticker: BATS.L, entry_gbp: 4200 }
   - { ticker: V, entry_usd: 220 }
   - { ticker: INGR, entry_usd: 105 }
-  - { ticker: DBX, entry_usd: 20, note: "LOW PRIORITY" }
   - { ticker: GSK.L, entry_gbp: 1850 }
-  - { ticker: LULU, add_trigger_usd: 155, note: "POSITION - conditional Q4+CEO" }
-  - { ticker: BYIT.L, add_trigger_gbp: 240, note: "POSITION - after H2 OP confirm" }
-  - { ticker: DNLM.L, entry_gbp: 780 }
-  - { ticker: WKL.AS, entry_eur: "50-55" }
-  - { ticker: DSY.PA, entry_eur: 15.50, condition: "WAIT Q1" }
-  - { ticker: PAYC, entry_usd: 92, note: "R3 complete. Deferred." }
-  - { ticker: MORN, entry_usd: 133, note: "R3 complete. Deferred." }

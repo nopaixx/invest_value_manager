@@ -1,0 +1,148 @@
+# SESSION CONTINUITY — Inter-session contract
+# OVERWRITTEN each session (not accumulated). r1_cooldowns is rolling 30d.
+# Read by: session-planner, r1_prioritizer.py, session-phases
+# Written by: Fase 6 (last operation of each session)
+# Created: 2026-03-13
+
+session:
+  id: 160
+  date: "2026-03-13"
+  timestamp_cet: "2026-03-13T20:45"
+
+completed:
+  vigilance:
+    news_scan_time: "2026-03-13T20:35"
+    critical_count: 0
+    material_count: 0
+    note: "S160: Week-close session. NYSE closing in 75min. 10 sessions today (S150-S160). Fallen angels scan, CVNA short review, DOCS integrity check, VRSK discovery (already R4!), weekly summary updated."
+  so_check:
+    timestamp: "2026-03-13T20:35"
+    nearest: { ticker: "SPGI", distance_pct: 0.5, note: "$422.07 vs $420 trigger. AT TRIGGER but GATED Q1 May 5." }
+    triggered: ["GDDY ($81.28 vs $90, buying Mar 26)", "DNLM.L (863.5p vs 950p, buying Mar 26)", "HALO ($63.80 vs $65, gated PTAB Jun)", "SPGI ($422.07 vs $420, gated Q1 May 5)"]
+    near: ["KNSL ($363.62 vs $355, +2.4%, gated Q1)", "BAH ($77.32 vs $75, +3.1%)", "ALFA.L (173p vs 165p, +4.8%, R4 approved)", "WING (~$199 vs $190, +4.7%, gated Q1)"]
+    executed_this_session: []
+    note: "SPGI now AT TRIGGER. 4 triggered + 4 near. EUR 0 cash. Correction deepening = more triggers approaching. All academic until Mar 26."
+  thesis_audit:
+    - "S160: Fallen angels scan — 45 QS≥60 stocks ≥35% below ATH. VRSK -37.4% flagged but already R4 APPROVED (SO missing from standing_orders.yaml). New candidates: BRBR, CVLT, NTNX, APPF (already in universe at entry)."
+    - "S160: CVNA short +7.5% ($297.11 vs $318.77 entry). Oil $101 + correction = tailwinds. Stop $370. Catalyst Q1 May 6. HOLD SHORT."
+    - "S160: DOCS integrity check — thesis 6 days fresh, FV $30, E[CAGR] 15.2%, 5/6 KCs CLEAR, 1 MONITORING. NO refresh needed."
+    - "S160: VRSK SO needs formalization in standing_orders.yaml — R4 approved, FV $210, at $200.61 = 2.9% above $195 entry."
+    - "S160: Weekly summary updated with S158-S160 work. Gaps updated: ALFA.L R4 DONE, ZTS DA DONE."
+  key_finding: "S160: Correction deepening — 4 SOs triggered + 4 near. SPGI now AT trigger ($422 vs $420). Portfolio -2.8%. CVNA short working (+7.5%). Pipeline advancing but EUR 0 cash blocks execution. VRSK R4 forgotten SO found."
+  net_exposure_updated: true
+  net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged from S158. No cash, no trades possible until Mar 26. Oil $101 + VIX 26.6 + gold ATH = macro stress continuing. FOMC Tue is binary."
+  rotation_check: true
+  rotation_note: "Bottom 3 unchanged: FTNT 9.8% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26."
+  velocity_units: 2  # Fallen angels scan (1u), weekly summary update (1u)
+  velocity_note: "S160: Light session — week close, price snapshot, fallen angels review. VRSK rediscovery (already R4). No new R1/R2/R3/R4 work."
+  portfolio_ecagr:
+    deployed: 18.0%
+    blended: 18.0%
+    cash_drag: "0pp/yr"
+    worst: "FTNT 9.8%"
+    note: "Correction widening MoS across portfolio. Avg MoS +23.9%. 6 positions with MoS >20%."
+
+# =============================================================================
+# PROMISES — Accountability loop (v4.8, P18)
+# =============================================================================
+promises:
+  - promise: "Process FOMC Mar 18 outcome — score dot plot against Section 9 framework"
+    created_session: 151
+    deadline: "first session after Mar 18"
+    status: PENDING
+    broken_count: 0
+  - promise: "Process ECB Mar 19 + BoE Mar 20 — score against Section 9 frameworks"
+    created_session: 151
+    deadline: "first session after Mar 20"
+    status: PENDING
+    broken_count: 0
+  - promise: "Execute Mar 26 trades: SELL MONY.L + TRIM NVO + BUY GDDY + BUY DNLM.L"
+    created_session: 151
+    deadline: "Mar 26"
+    status: PENDING
+    broken_count: 0
+  - promise: "Formalize VRSK SO in standing_orders.yaml (R4 approved, entry $195, FV $210)"
+    created_session: 160
+    deadline: "S161"
+    status: PENDING
+    broken_count: 0
+  - promise: "FV consistency check (last S148, now S160 = 12 sessions overdue)"
+    created_session: 160
+    deadline: "S161"
+    status: PENDING
+    broken_count: 0
+
+three_questions:
+  q1_wait_streak: 0  # Cash = 0%. Deployment via rotation only.
+  last_q1_answer: "Cash = 0%. Mar 26 plan firm. 4 SOs triggered but no capital. Next deployment Mar 26."
+  last_q2_answer: "Baskets: Cybersecurity 0 positions (FTNT exiting Apr), Defense empty. VRSK could join Data & Analytics. ALFA.L fills UK basket post-FTNT."
+  last_q3_answer: "Fallen angels scan — VRSK rediscovered (R4 approved, SO missing). New candidates flagged (BRBR, CVLT). DOCS integrity confirmed. CVNA short reviewed."
+
+handoff:
+  next_session_priorities:
+    P0:
+      - "FOMC Mar 18 — Section 9 READY. Score dot plot immediately. Execute portfolio action tree."
+      - "ECB Mar 19 + BoE Mar 20 — frameworks ready."
+    P1:
+      - "HLNE ex-div Mar 20 — capture dividend."
+      - "Mar 26 EXECUTION: 4 trades locked. SELL MONY.L + TRIM NVO + BUY GDDY + BUY DNLM.L."
+      - "FV consistency check (OVERDUE 12 sessions). Run forward_return.py cross-check."
+      - "Formalize VRSK SO in standing_orders.yaml (R4 approved, $200.61 vs $195 entry, 2.9% above)."
+      - "Smart money refresh: FCA shorts (UK), signals --portfolio-only."
+    P2:
+      - "CVNA short +7.5% — hold through Q1 May 6. Oil $101 tailwind."
+      - "FTNT EXIT: Late April. → SPGI EUR 400 + ALFA.L EUR 400-450."
+      - "SPGI $422 AT TRIGGER $420. Gated Q1 May 5. Monitor daily."
+      - "ALFA.L 173p, 4.8% from 165p entry. R4 BUY CONDITIONAL approved."
+    P3:
+      - "FOUR.L 3,475p. FV 4,000p. Entry 3,200p (-7.9%). Wait Q1 Jun."
+      - "ZTS — R2 DA resolved. FV $120, entry $95. HARD GATE Q1 May."
+      - "Fallen angel candidates: BRBR (-78.8%), CVLT (-60.6%). Consider adding to universe."
+  dedup_signals:
+    - "S160: Fallen angels scan — VRSK already R4 (SO missing). APPF at entry. IT/ANF in universe."
+    - "S160: SPGI AT TRIGGER $422 vs $420 (0.5%). GATED Q1 May 5."
+    - "S160: CVNA short +7.5%. HOLD. Oil $101 tailwind."
+    - "S160: DOCS 6 days fresh, all KCs clear. NO refresh needed."
+    - "S160: Weekly summary updated with S158-S160 pipeline advances."
+    - "S158: ALFA.L R4 BUY CONDITIONAL — 10/10 gates PASS."
+    - "S158: ZTS R2 DA COMPLETE — FV $120, entry $95, GATED Q1 May."
+    - "S158: FX centralization COMPLETE — fx_defaults.py."
+
+r1_cooldowns:
+  MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
+  ASML.AS: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (OVERVALUED)" }
+  EXEL: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (AT_FV)" }
+  CELH: { date: "2026-02-22", session: 112, verdict: "R1_COMPLETE (OVERVALUED)" }
+  HLNE: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $101.75 (S122)" }
+  REN.AS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED (WATCHLIST, SO EUR 24.50)" }
+  TW: { date: "2026-02-23", session: 115, verdict: "R3_COMPLETE (AT_FV, SO $110)" }
+  VRSN: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $240→$210 corrected S153, SO $210)" }
+  CPRT: { date: "2026-02-25", session: 119, verdict: "R3_COMPLETE (FV $37, entry $31, GATED Q1. SO REACTIVATED S152.)" }
+  DOCS: { date: "2026-02-25", session: 122, verdict: "R4_APPROVED → MARKET BUY $24.07 (S122)" }
+  PEGA: { date: "2026-02-25", session: 116, verdict: "R3_COMPLETE GATED (entry $38, FV $50)" }
+  ANF: { date: "2026-03-04", session: 139, verdict: "CONDITIONAL PASS. Hold watchlist $80. Receivables +40% failed. Monitor Q1 Jun." }
+  WING: { date: "2026-03-02", session: 135, verdict: "R3_COMPLETE (WATCHLIST, FV $240, entry $190, GATED Q1 SSS May)" }
+  FTNT: { date: "2026-02-26", session: 126, verdict: "BOUGHT $79.12. EXIT CONFIRMED S151 (CVE escalation, 9.4% E[CAGR] worst). Late April." }
+  CHKP: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, entry $125, FV $160, QS 77 Tier A)" }
+  QLYS: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, SO $82, FV $110, QS 81 Tier A. GATED Q1 billings.)" }
+  HALO: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (WATCHLIST, SO $65, FV $90 post-DA, QS 79adj Tier A)" }
+  ERIE: { date: "2026-02-26", session: 126, verdict: "R3_COMPLETE (SO ARCHIVED S133 — above FV, SCOTUS undated)" }
+  CMCSA: { date: "2026-02-27", session: 127, verdict: "R3_COMPLETE (WATCHLIST, FV $33, SO $26 GATED Q1 2026.)" }
+  SPGI: { date: "2026-02-28", session: 131, verdict: "R4_APPROVED CONDITIONAL S152. FV $470, SO $420 GATED Q1. 10/10 gates PASS." }
+  MSA: { date: "2026-02-28", session: 131, verdict: "R1_COMPLETE (AT_FV, FV $144, QS 73 Tier B, no SO, PFAS risk)" }
+  APP: { date: "2026-03-07", session: 144, verdict: "S1 SHORT THESIS COMPLETE (WATCHLIST, QS 49, no catalyst P10 FAIL)" }
+  CVNA: { date: "2026-03-07", session: 144, verdict: "S4 CONDITIONAL APPROVE (EUR 100, $290-330, stop $370, VIX <28)" }
+  TSLA: { date: "2026-03-08", session: 149, verdict: "S4 CONDITIONAL APPROVE (EUR 50, $250-290, stop $380, VIX <35, Q1 deliveries <370K gate, 60d max)" }
+  LOPE: { date: "2026-03-08", session: 149, verdict: "R3_COMPLETE (WATCHLIST, FV $190 post-DA, QS 75adj Tier A, E[CAGR] 11-13%. Growth 8%. DA MODERATE COUNTER. 3 new KCs.)" }
+  SAF.PA: { date: "2026-03-08", session: 149, verdict: "R3_COMPLETE (WATCHLIST, FV EUR 260 (Error #62 fixed S154), QS 78adj Tier A, entry EUR 235. WIDE moat jet engine duopoly.)" }
+  MEDI.OL: { date: "2026-03-08", session: 149, verdict: "R1_COMPLETE (WATCHLIST, FV NOK 272, QS 85adj Tier A, entry NOK 205. Cardiac surgery monopoly, 80% GM, eToro confirmed.)" }
+  GDDY: { date: "2026-03-08", session: 149, verdict: "R4_APPROVED CONDITIONAL (FV $130, QS 75adj, E[CAGR] 25.2%. Mar 26 BUY EUR 720 locked. 10/10 gates PASS.)" }
+  PAYC: { date: "2026-03-08", session: 149, verdict: "R1 REFRESH COMPLETE. FV $115→$140 (+22%). QS 86tool/78adj Tier A. AT FAIR VALUE at $138 = MoS ~1%. NOT a rotation candidate at market. Entry $105-115." }
+  RKLB: { date: "2026-03-08", session: 149, verdict: "S1 SHORT THESIS COMPLETE. SHORT WATCHLIST. Tesla trap (Error #46)." }
+  COIN: { date: "2026-03-08", session: 149, verdict: "S2 ARCHIVED. Bull case 7/10 kills thesis." }
+  DNLM.L: { date: "2026-03-08", session: 149, verdict: "R4 RE-VALIDATED. Preferred entry 850-880p. Mar 26 BUY EUR 440 locked." }
+  BZU.MI: { date: "2026-03-13", session: 151, verdict: "R2 DA COMPLETE. MODERATE COUNTER, FV EUR 57→51. 3 HIGH. KC#6 added. E[CAGR] 12.1%. HOLD at 3.5%." }
+  FOUR.L: { date: "2026-03-13", session: 156, verdict: "FY2025 scored vs R3 gates S156. CONDITIONAL PASS (buy cond c FAILS). FV 4000p. Entry revised 3200p. E[CAGR] 14.4% < 15% Tier B. Wait Q1." }
+  ZTS: { date: "2026-03-13", session: 158, verdict: "R2 DA COMPLETE. MODERATE COUNTER (7 HIGH/17). FV $130→$120 (committee confirmed). Growth 7%→5%. Entry $105→$95. E[CAGR]@$105=6.3% < 12% threshold. HARD GATE Q1 May. Compound franchise risk KC added." }
+  MRSH: { date: "2026-03-13", session: 152, verdict: "R3 COMPLETE. FV $195→$180 (-7.7%). DA MODERATE COUNTER (7 HIGH). Entry $160→$150. Growth 7%→5%. Greensill $650M→$900M. 15.5x EV/EBIT. KC#9 added (MMA AI). HALF position pre-trial." }
+  ALFA.L: { date: "2026-03-13", session: 158, verdict: "R4 BUY CONDITIONAL. 10/10 gates PASS. SO 165p, EUR 400-450 from FTNT exit (late Apr). QS 83 Tier A, FV 215p, bear 169p. Market buy ≤170p if annual report confirms receivables." }
