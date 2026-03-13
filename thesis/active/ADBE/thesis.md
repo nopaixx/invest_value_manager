@@ -11,7 +11,7 @@ Adobe cotiza a P/E 16x (-43% de maximos), el mercado teme disrupcion por IA pero
 > **Expected Growth:** 7% (adjusted from 8%. R3 pending post-earnings Mar 12.)
 > **Data Integrity:** FV matches current.yaml ($390). QS Tool 80 (Mar 8, up from 76). Growth 7% sourced from projection framework.
 > Pipeline Stage: R2_COMPLETE (DA S146c9-10. R3 after Q1 earnings.)
-> **Pre-Earnings Note (Mar 8):** QS Tool 80 confirmed. ROIC 53% (+23pp since thesis). Insiders NET BUYERS (183K shares purchased, only 1.8K sold). SI 3.0% (+3.3% MoM, benign). All 8 KCs CLEAR. Earnings framework in Section 9 FULLY READY.
+> **Post-Earnings (Mar 13):** Q1 FY2026 CONDITIONAL BEAT. Rev $6.40B (+12%) BULL. EPS $6.06 BULL. AI-first ARR tripled. Cash from ops $2.96B record. CEO Narayen stepping down (stays Chair). KC#9 added (successor risk). FV $390 MAINTAINED. All 9 KCs CLEAR.
 
 ---
 
@@ -597,6 +597,60 @@ Q1 Results Released (Mar 12 after close)
 2. **Iran crisis context:** Software selling on general risk-off, not sector-specific. ADBE's enterprise customer base (61%) has sticky IT budgets. If management commentary is confident on enterprise demand despite macro, this is bullish.
 3. **SaaSpocalypse narrative:** IGV (software ETF) -30% from peak. If ADBE beats, it could help break the negative sector narrative. Potential for outsized positive reaction.
 4. **QS Tool improvement to 80:** ROIC jump to 53% and EPS CAGR to 18.2% mean the business quality has IMPROVED since our purchase. Post-earnings, re-evaluate if FV should be adjusted upward (not downward).
+
+---
+
+## Section 9 Post-Earnings Assessment: Q1 FY2026
+
+*Assessed: 2026-03-13 (S151). Earnings released Mar 12 after close.*
+
+### Actual Results vs Framework
+
+| Metric | Actual | vs Framework | Scenario |
+|--------|--------|-------------|----------|
+| **Revenue** | **$6.40B** (+12% YoY) | vs $6.28B consensus | **BULL** (>$6.40B) |
+| **EPS** | **$6.06** | vs $5.87 consensus (+3.2%) | **BULL** (>$6.05) |
+| **Digital Media ARR** | +12% YoY | vs >10% target | **BULL** |
+| **AI-first ARR** | **Tripled YoY** | Acceleration confirmed | **BULL** |
+| **Cash from Ops** | **$2.96B** (record quarter) | FCF machine intact | **BULL** |
+| **Generative Credits** | Sustained high growth | Post-tripling QoQ in Q4 | **BULL** |
+| **FY2026 Guidance** | Maintained $25.9-26.1B | Not raised but confident | **BASE** |
+| **CEO Transition** | **Narayen stepping down** (stays Chair) | NOT IN FRAMEWORK | **NEW RISK** |
+
+### Scoring: CONDITIONAL BEAT
+
+Every quantitative metric hit BULL thresholds. Revenue, EPS, ARR growth, AI monetization, and cash generation all exceeded expectations. The business is executing at the highest level since the AI narrative began.
+
+**However:** CEO Shantanu Narayen announced he is stepping down as CEO (remaining as Executive Chairman). This was NOT anticipated in any scenario framework. CEO transitions at companies with 15+ year tenured leaders introduce execution risk during the handoff period, even when the predecessor stays as Chair.
+
+**Verdict: BULL on business fundamentals, CONDITIONAL due to CEO transition.** The CEO departure is a governance event, not a business deterioration signal — Narayen is leaving on top (record quarter, AI strategy working). But succession quality matters. Until successor is named and has 1-2 quarters of execution, we add a new KC.
+
+### KC Update
+
+| KC | Status Post-Earnings |
+|----|---------------------|
+| KC#1 (ROIC <WACC) | CLEAR — ROIC 53% vs 12% WACC |
+| KC#2 (CC churn >15%) | CLEAR — no churn spike reported |
+| KC#3 (FCF negative) | CLEAR — $2.96B record quarter |
+| KC#4 (Market share loss >5pp) | CLEAR |
+| KC#5 (Insider selling >10%) | CLEAR |
+| KC#6 (FTC one-click + churn >5pp) | PENDING — trial Oct 2026 |
+| KC#7 (Open-source AI pro quality) | CLEAR — Firefly accelerating |
+| KC#8 (AI agents automate creative) | CLEAR |
+| **KC#9 (NEW)** | **CEO successor fails to maintain growth trajectory (rev growth <8% for 2Q under new CEO). Monitoring starts when successor takes role.** |
+
+### Action: HOLD
+
+At $269.78, MoS is 31% vs $390 FV. Business results STRENGTHEN the thesis — every doubt about AI disruption was answered by tripling AI-first ARR. But:
+- CEO transition adds uncertainty (6-12 month monitoring period)
+- FTC trial Oct 2026 remains binary risk
+- No ADD at current price unless successor announcement is strong + price <$240
+
+**FV unchanged at $390.** Business beat supports current FV; CEO transition is a -$0 impact (Chair retention + strong bench) unless successor disappoints.
+
+### Stock Reaction
+
+Stock dipped ~6% initially on CEO news, then recovered. At $269.78, market is pricing in CEO risk at ~$20 discount vs pre-earnings. This is reasonable.
 
 ---
 

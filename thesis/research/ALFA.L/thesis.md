@@ -5,7 +5,7 @@
 > **Entry Price:** 165 GBp (R3 revised, was 175-180 GBp)
 > **Date:** 2026-02-19
 > **Analyst:** fundamental-analyst (R1) + devil's-advocate (R2) + orchestrator (R3)
-> **Status:** R3 COMPLETE -- WATCHLIST. HARD GATE Mar 12 FY2025 results. FY2025 results TOMORROW.
+> **Status:** R3 COMPLETE -- WATCHLIST. FY2025 PASS (low end). SO 165p. Receivables unresolved. Price 173.80p (52wL, 5.3% above entry).
 
 ---
 
@@ -542,6 +542,42 @@ Currently 2 UK positions (MONY.L selling Mar 26, IHP.L). Post-MONY.L: 1 UK posit
 - DNLM.L: QS 79 Tier A, FV 1008p, entry 950p (TRIGGERED at 921p). Lower quality, more actionable.
 
 *Framework prepared: 2026-03-11 (S151). Results Mar 12 = HARD GATE for R4.*
+
+### 9.7 Post-Results Assessment (2026-03-13)
+
+**Actual Results:**
+
+| Metric | Actual | vs Framework | Scenario |
+|--------|--------|-------------|----------|
+| **Revenue** | **£126.7M** (+17% CC) | In GBP 126-130M range | **PASS** |
+| **Operating Profit** | **£40.0M** (OP margin 31.6%) | OP 30-32% range | **PASS** |
+| **NRR** | **109%** | 108-115% range | **PASS** |
+| **Cash conversion** | **97%** | Strong | **PASS** |
+| **Subscription mix** | Growing (exact % TBD from annual report) | On trajectory | **PASS** |
+| **Receivables/Revenue** | **NOT DISCLOSED** | Critical question UNRESOLVED | **UNSCORED** |
+| **FY2026 guidance** | Soft/cautious (FX headwinds cited) | Below guide >145M threshold | **CONDITIONAL** |
+| **CHP stake** | No further disposals announced | No change | **PASS** |
+
+**Scoring: PASS at low end.**
+
+Revenue, OP margin, NRR, and cash conversion all hit PASS thresholds. The business is executing well. However:
+
+1. **Receivables question UNRESOLVED:** The single most important data point (KC#6, receivables/revenue ratio) was not disclosed in the preliminary results. Full annual report needed. This was the thesis's critical gate, and it remains open.
+
+2. **Guidance cautious:** FX headwinds from strong GBP + Iran crisis oil impact on macro. Market interpreted guidance as soft — stock crashed to **173.80p** (52-week low), just **5.3% above our 165p entry**.
+
+3. **Stock reaction:** From 194p to 173.80p = -10.4%. Market clearly disappointed despite PASS metrics. This suggests either: (a) guidance was weaker than expected, (b) FX headwinds concern, or (c) CHP overhang continues.
+
+**Verdict: PASS — gate PARTIALLY cleared.**
+
+Quantitative metrics justify R4 progression. But receivables data gap means we cannot fully validate revenue quality (KC#6). Two options:
+
+- **Conservative:** Wait for annual report (receivables disclosure) before R4. Entry at 165p SO.
+- **Aggressive:** At 173.80p, price is 5.3% above entry and 26% below R3 FV (235p). If receivables normalize (45% probability per prior assessment), this is near-optimal entry. E[CAGR] at 173.80p ≈ 17%.
+
+**Decision: Set SO at 165p. If price hits 165p BEFORE annual report, buy (FV 235p implies sufficient MoS even with receivables uncertainty). If annual report reveals receivables normalized, raise entry to 175p and market buy.** The stock's 52-week low creates time pressure — quality at trough. But receivables risk justifies the 165p cushion.
+
+**UK Digital Platforms basket context:** Post-MONY.L sale (ex-div Mar 26, EUR 888 freed), ALFA.L and DNLM.L compete for same capital. ALFA.L QS 83 > DNLM.L QS 79, but DNLM.L at 863p is more actionable (below 950p trigger). Capital allocation decision deferred to post-MONY.L session.
 
 ---
 
