@@ -8,7 +8,7 @@
 # Creado: 2026-02-05 | Framework v4.0
 
 version: "4.0"
-last_updated: 2026-03-08
+last_updated: 2026-03-13
 
 # =============================================================================
 # DECISIONES DE SIZING (BUY/ADD)
@@ -535,6 +535,31 @@ trim_decisions:
       MAKE-OR-BREAK Mar 17 earnings. Capital freed for S143 restructuring.
       PRECEDENT: Exit orphan governance crisis early, don't wait for binary event.
     outcome: "P&L -1.0%. Capital to S143 ADDs."
+
+  - date: 2026-03-13
+    ticker: FTNT
+    action: "SELL APPROVED (EXIT Protocol + committee - P16 planned rotation to SPGI)"
+    context:
+      quality_score: "87 Tier A"
+      position_size: "7.5% (EUR 775)"
+      pnl: "+6.7%"
+      holding_days: 15
+      ecagr: "9.4%"
+      mos: "4.3%"
+    reasoning: |
+      EXIT Protocol 6-gate analysis + committee APPROVE (S152).
+      E[CAGR] 9.4% = WORST in portfolio, 2.6pp below 12% Tier A threshold.
+      MoS 4.3% = LOWEST in portfolio. Essentially at fair value.
+      3 KCs in MONITORING simultaneously (KC#6, KC#8, KC#9 — all CVE-related).
+      Thesis DEBILITATED: refresh cycle fading, CVE escalation, Investor Day NEUTRAL.
+      Rotation target: SPGI EUR 400 (R4 APPROVED, E[CAGR] 12.1%) + best available EUR 375.
+      OS 2.15 vs SPGI. Expected 3yr gain: FTNT EUR 232 vs rotation EUR 447 (+93%).
+      Timing: late April (before Q1 May 6). SPGI Q1 gate should clear by then.
+      EXIT KCs: FTNT drops to $73 → reassess; Q1 guide raise → cancel exit.
+      PRECEDENT: QS 87 Tier A can be rotated after 15 days when E[CAGR] is worst
+      and better alternatives exist. Quality ≠ mandate to hold. P16 overrides.
+      PRECEDENT: First planned future rotation (vs same-day rotations like RACE.MI).
+    outcome: "PENDING execution late April. Committee decision + exit_analysis on file."
 
   - date: 2026-03-07
     ticker: GL
