@@ -178,6 +178,27 @@ FVs inflados, riesgos omitidos y errores factuales (como se demostro con DNLM.L:
 
 ---
 
+### 6c. `fv-accuracy` | TRIMESTRAL (cada 30 sesiones, alinear con zero-base review)
+
+**Objetivo:** Medir la calidad predictiva de las estimaciones de Fair Value. Auto-calibración.
+
+| Paso | Accion | Ejecutor | Input | Output |
+|------|--------|----------|-------|--------|
+| 1 | Run FV accuracy report | `fv_accuracy.py --summary` | thesis files + yfinance | Accuracy metrics |
+| 2 | Analyze systematic bias | `fv_accuracy.py --bias` | Same | Bias by source (active/archive/research) |
+| 3 | Identify worst misses | `fv_accuracy.py` (full) | Same | Per-ticker convergence table |
+| 4 | Calibration decision | Orchestrator | Accuracy data | Adjust methodology if needed |
+| 5 | Record in evolution_state | Orchestrator | Findings | T15 FV_ACCURACY trigger |
+
+**Thresholds (derived from data, not hardcoded):**
+- Directional accuracy <50% → FV methodology broken, investigate
+- Systematic bias >25% bullish → E[CAGR] framework overstates, recalibrate
+- Convergence <20% at 180d → FVs are not predictive, reassess valuation approach
+
+**Condicion de salida:** Accuracy report generated. Bias documented. Methodology adjusted if warranted.
+
+---
+
 ### 7. `deep-performance` | MENSUAL
 
 **Objetivo:** Evaluar si la estrategia funciona.

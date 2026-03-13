@@ -218,6 +218,17 @@ FASE 5: Meta-Reflexion + Promise Registration (OBLIGATORIO al final)
     → Delta = measure of path dependency
     → If >40% of current positions would NOT be in the zero-base portfolio → investigate why they're still held
     → This prevents state files from becoming anchors instead of context
+  → **FV ACCURACY CHECK (quarterly — every 30 sessions, align with zero-base review)**
+    → Run `python3 tools/fv_accuracy.py --active-only`
+    → Key questions:
+      1. Directional accuracy >60%? If not → valuation methodology needs recalibration
+      2. Systematic bias: am I consistently BULLISH (FVs above market)? By how much?
+      3. Convergence rate: are prices actually moving toward my FVs over 90/180d?
+      4. Worst misses: which FVs were most wrong? What pattern do they share?
+    → If bias >25% bullish consistently → E[CAGR] framework is overstating returns
+    → If directional accuracy <50% → FV estimates no better than random → investigate
+    → Record findings in evolution_state.yaml (new trigger T15: FV_ACCURACY)
+    → This is SELF-CALIBRATION — the system measuring its own predictive quality
 
 FASE 6: Evolution Micro-Step (ULTIMA operacion — see evolution-protocol skill)
   → **UPDATE `state/evolution_state.yaml`:**

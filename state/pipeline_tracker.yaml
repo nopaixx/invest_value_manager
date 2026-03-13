@@ -183,6 +183,19 @@ tool_fx_audit:
     Also review: quality_scorer.py rf/erp, forward_return.py carry cost, portfolio_cagr.py cash yield.
     Trigger: quarterly OR when EUR/USD moves >5% from stored fallback.
 
+fv_accuracy_check:
+  frequency: quarterly
+  last_run: never
+  next_due: 2026-03-14  # First run — baseline measurement
+  last_result: "Never run. Tool created S160 (2026-03-13)."
+  tool: "tools/fv_accuracy.py --active-only"
+  notes: |
+    Quarterly self-calibration of FV estimation quality.
+    Measures: directional accuracy, systematic bias, convergence rates, hit rates.
+    Align with zero-base review (every 30 sessions).
+    If directional accuracy <50% or bias >25% bullish → recalibrate valuation methodology.
+    Record findings in evolution_state.yaml T15.
+
 # MAINTENANCE
 maintenance:
   last_health_check: 2026-03-13
