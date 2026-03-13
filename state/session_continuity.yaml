@@ -32,8 +32,8 @@ completed:
   net_exposure_updated: false  # No change from prior session — still 100/0.8/0 (long/short/cash)
   rotation_check: true
   rotation_note: "Bottom 3: TW 13.5%, BZU.MI 12.1%, FTNT 9.4%. Mar 26 rotation: SELL MONY.L (13.9%) + TRIM NVO (17.2%) → BUY GDDY (25.2%) + DNLM.L (15.7%). Net +7pp E[CAGR] upgrade."
-  velocity_units: 4  # BZU.MI DA (2) + FOUR.L scoring (1) + news scan (1)
-  velocity_note: "BZU.MI DA mandatory post-buy. FOUR.L results unexpected early release scored. News scan covered 6-day gap."
+  velocity_units: 5  # BZU.MI DA (2) + FOUR.L scoring (1) + news scan (1) + fallen angels screening (1)
+  velocity_note: "BZU.MI DA mandatory post-buy. FOUR.L results unexpected early release scored. News scan covered 6-day gap. Fallen angels screening: 72 found, 8 added to universe, ZTS R1 priority identified."
   portfolio_ecagr:
     deployed: 18.6%
     blended: 18.6%
@@ -92,11 +92,13 @@ handoff:
       - "HALO PTAB oral hearings March (exact date TBD)."
       - "CVNA short — oil $97 tailwind. Hold through Q1 May 6."
     P3:
-      - "Pipeline: ALFA.L at 52wL (173p vs 165p trigger). SPGI AT trigger ($420). KNSL near ($362 vs $355)."
+      - "ZTS R1 PRIORITY: QS 78 Tier A, at 52wL $115.46. Animal health monopoly. ROIC 26%. Needs animal-health sector view FIRST (Error #30). Potential FTNT rotation target."
+      - "Pipeline: ALFA.L at 52wL (173p vs 165p trigger). SPGI AT trigger ($420). KNSL near ($362 vs $355). DECK at entry ($100-105, gated LULU Mar 31)."
+      - "Fallen angels universe: 8 added (ZTS, VRSK, BEI.DE, BEAN.SW, FDS, ROP, NEU, PODD). All SCORED, need R1."
       - "BZU.MI: DO NOT ADD. FV EUR 51, E[CAGR] 12.1%. Monitor FY2025 formal results."
       - "FOUR.L: DEFERRED. FV 4,000p. Monitor Q1 Jun 2026."
   dedup_signals:
-    - "S151 COMPLETE: 17 commits across 4 context windows over 3 days (Mar 7-13)."
+    - "S151 COMPLETE: 19 commits across 5 context windows over 3 days (Mar 7-13)."
     - "BZU.MI DA: MODERATE COUNTER, FV EUR 57→51, KC#6 added (oil). E[CAGR] 12.1%."
     - "FOUR.L FY2025 CONDITIONAL PASS: OM 10.8%, rev $1.35B, guide weak. FV 4400→4000p. DEFERRED."
     - "Mar 26 CORRECTED: MONY.L proceeds EUR 716 (not 888). Total EUR 1,190. GDDY EUR 720 + DNLM.L EUR 440."
@@ -105,6 +107,9 @@ handoff:
     - "Oil $97 re-escalation — portfolio 80%+ neutral. CVNA benefits. EDEN.PA mild negative."
     - "Pipeline approaching: SPGI AT $420 (gated Q1), KNSL near $355 (gated), STMN.SW AT 52wL, ALFA.L AT 52wL."
     - "FOMC/ECB/BoE Section 9 frameworks all built and committed."
+    - "FALLEN ANGELS SCREENING: 72 found, TOP 10 curated. ZTS (#1, QS 78 Tier A, at 52wL $115, animal health monopoly), BEI.DE (QS 63 Tier B, near 52wL EUR 78), VRSK (QS 72 Tier B). 8 added to universe."
+    - "Evolution state S151: 0 RED, 3 YELLOW, 12 GREEN. E[CAGR] 14.4→17.4→18.6% (3 sessions rising)."
+    - "POST-MAR 26 ROTATION: FTNT (9.4%) = next exit candidate. ZTS R1 PRIORITY for rotation target. Needs animal-health sector view."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }

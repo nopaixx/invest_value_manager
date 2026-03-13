@@ -480,9 +480,9 @@ quality_universe:
   - ticker: BEI.DE
     name: BEIERSDORF AG                 I
     direction: long
-    qs_tool: 75
-    qs_adj: 75
-    tier: A
+    qs_tool: 63
+    qs_adj: 63
+    tier: B
     sector: consumer-staples
     fair_value: 110.0
     entry_price: 80.0
@@ -493,7 +493,7 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-03-13'
     last_price_check: null
-    notes: 'Fallen angel S151: -42% from 52wH at EUR 78. Nivea/Eucerin. Family 51%. ZERO staples exposure.'
+    notes: 'CORRECTED S151: QS Tool 63 (was 75). ROIC 12.1%, FCF volatile. Tier B not A. Near 52wL EUR 77.64. Insider 53%.'
   - ticker: CCH.L
     name: COCA-COLA HBC AG ORD CHF6.70 (C
     qs_tool: 69
@@ -828,8 +828,8 @@ quality_universe:
   - ticker: ZTS
     name: Zoetis Inc.
     direction: long
-    qs_tool: 80
-    qs_adj: 80
+    qs_tool: 78
+    qs_adj: 78
     tier: A
     sector: animal-health
     fair_value: 170.0
@@ -841,13 +841,14 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-03-13'
     last_price_check: null
-    notes: 'Fallen angel S151: -32% from 52wH at 15. WIDE moat vet pharma. ROIC 15.3%. ZERO overlap.'
+    notes: 'CORRECTED S151: QS Tool 78 (was 80). ROIC 26.1%, GM 71.8%, FCF 24%. At 52wL 15.23. P/E 19.2x. Animal health monopoly.
+      R1 PRIORITY.'
   - ticker: VRSK
     name: Verisk Analytics, Inc.
     direction: long
-    qs_tool: 80
-    qs_adj: 80
-    tier: A
+    qs_tool: 72
+    qs_adj: 72
+    tier: B
     sector: financial-data-analytics
     fair_value: 300.0
     entry_price: 210.0
@@ -858,7 +859,7 @@ quality_universe:
     thesis_path: null
     last_scored: '2026-03-13'
     last_price_check: null
-    notes: 'Fallen angel S151: -38% from 52wH at 98. Insurance data monopoly. ROIC 16.5%.'
+    notes: 'CORRECTED S151: QS Tool 72 (was 80). EPS CAGR 2.5% disappointing. Tier B not A. Rev CAGR 7.2%.'
     r1_session: 143
     r1_verdict: AT_FV
   - ticker: TDG
