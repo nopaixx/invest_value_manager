@@ -1,13 +1,13 @@
 # Edenred SE (EDEN.PA) - Investment Thesis v3.0
 
-**Date:** 2026-02-06 (Framework v4.0 Re-evaluation - Brazil Decree Impact)
-**Original Date:** 2026-02-01
-**Price at Review:** EUR 17.95
-**Quality Score:** 62/100 -- Tier B
-**Recommendation:** HOLD (FY2025 BASE+ confirmed 2026-02-24. KC#1 MONITORING, KC#7 MONITORING ELEVATED. SI declining: 21.2%→9.64% AMF (Citadel COVERED, Millennium reduced). ADD prohibition RELAXED — reconsider at EUR 17 or below. TRIM at EUR 22+.)
+**Date:** 2026-02-06 (R1) | Last Update: **2026-03-13 (S157 refresh)**
+**Original Date:** 2026-02-01 | Versions: v1.0→v4.2 (see Historial de Cambios)
+**Price at Review:** EUR 18.61 (S157) | Cost: EUR 18.35
+**Quality Score:** 62/100 (tool) / 76 adj (Tier B) -- Adjustment: +14 for market position, network effects, regulatory moat in non-IT/BR markets
+**Recommendation:** HOLD (FY2025 BASE+ confirmed. KC#1 MONITORING, KC#7 MONITORING ELEVATED. SI collapsed 21.2%→9.64% (Citadel COVERED). ADD at EUR 17. TRIM at EUR 22+.)
 **Framework Version:** 4.0 (Principios Adaptativos)
-> **Fair Value:** EUR 29.0 (R3 maintained S146c9. Was EUR 38.4 pre-adversarial. DA bear EUR 25.40-30.90 brackets thesis. KC#1 DORMANT.)
-> **Expected Growth:** 6% (R3 resolved: 2026 -10%, 2027-28 +7%. Management guide +8/+12% at 70% probability. Was yf_earn 4.6%.)
+> **Fair Value:** EUR 29.0 (R3 maintained S146c9. Was EUR 38.4 pre-adversarial. DA bear EUR 25.40-30.90 brackets thesis.)
+> **Expected Growth:** 6% (R3 resolved: 2026 -10%, 2027-28 +7%. Management guide +8/+12% at 70% probability.)
 > Pipeline Stage: R3_COMPLETE
 
 ---
@@ -657,6 +657,42 @@ Management reduced medium-term EBITDA growth target from >12% to 6-9% (2026-2028
 - [Edenred France meal voucher reform](https://media.edenred.com/meal-voucher-reform-in-france/?lang=en)
 - [AlphaValue cuts Edenred target to EUR 29.90](https://www.marketscreener.com/news/alphavalue-baader-europe-cuts-edenred-price-target-on-potential-regulatory-impact-ce7e59dedb88f62c)
 - [Edenred FY2025 press release](https://www.edenred.com/system/files/documents/2026-02-24-edenred-fy-2025-pr.pdf)
+
+---
+
+## S157 REFRESH (2026-03-13)
+
+### Position Snapshot
+
+| Metric | S149 (Mar 8) | S157 (Mar 13) | Delta |
+|--------|-------------|---------------|-------|
+| Price | EUR 18.79 | EUR 18.61 | -1.0% |
+| FV | EUR 29.0 | EUR 29.0 | unchanged |
+| MoS | 35.2% | 35.8% | +0.6pp |
+| E[CAGR] | ~29% | ~29% | unchanged |
+| P&L | +6.7% | +1.4% | -5.3pp (correction) |
+| SI (AMF) | 21.18% (20 funds) | 9.64% (10 funds) | **-11.5pp (covering)** |
+| Conviction | MEDIUM | MEDIUM | unchanged |
+| Allocation | 18.8% | 18.8% | unchanged |
+
+### Key Changes Since Last Full Update (v4.2, Mar 11)
+1. **SI dramatic decline confirmed:** 21.2% → 9.64%. Citadel covered (2.10%→<0.50%). Millennium reduced (1.90%→0.71%). This is the most material positive development since FY2025 beat. 10 funds remaining (was 20).
+2. **Price drifted lower:** EUR 18.79 → 18.61 (-1%). Broader correction, not EDEN-specific. MoS actually IMPROVED.
+3. **Oil $101 Brent:** No direct impact on Edenred. Business is employer benefits (meals, mobility cards, incentives) — not oil-sensitive.
+4. **FOMC Mar 18:** Minimal direct impact. EUR positions may benefit if Fed hawkish → EUR/USD strengthens. Edenred revenues are multi-currency (40% France, ~20% LATAM, ~15% Italy).
+5. **No new KC triggers.** KC#1 (France levy) MONITORING — no parliamentary action since Mar 8. KC#7 (fintech) MONITORING ELEVATED — no new data.
+
+### FV Validation Check
+- FV EUR 29.0 based on R3 adversarial (includes Italy EUR 120M, Brazil 19% exposure, France 35-40% prob)
+- Current P/E 8.4x, yield 7.0% — deep value territory for a business with ROIC 28.6% >> WACC 5.4%
+- Even bear scenario (EUR 20-25) provides -7% to +34% from current price
+- No FV revision warranted. R3 captured all material risks.
+
+### Decision: HOLD. No changes.
+- SI covering is moderately bullish (smart money reducing conviction against thesis)
+- Correction broadening but EDEN holding well relative to portfolio (-1% vs portfolio -2.9%)
+- Largest position (18.8%) but justified by highest E[CAGR] (29%) — sizing-conviction aligned
+- Next catalyst: Brazil Supreme Court ruling (Q1-Q2 2026), France budget cycle (Sep 2026)
 - [FinAristo: EDENRED short positions](https://finaristo.com/short-selling/shorted-companies/edenred)
 - [TipRanks: Edenred Regulatory Challenges](https://www.tipranks.com/news/ratings/edenred-faces-regulatory-challenges-and-adjusted-growth-forecasts-amidst-brazils-meal-voucher-industry-changes-ratings)
 - [Il Sole 24 ORE: Edenred slips to 2017 low](https://en.ilsole24ore.com/art/in-paris-edenred-slips-2017-low-ebitda-guidance-cut-2026-AHqkd7gD)
