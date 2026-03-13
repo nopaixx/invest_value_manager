@@ -1,15 +1,22 @@
 # ZTS - Zoetis Inc.
 
-> **Status:** R1 REFRESHED (price reached entry zone)
+> **Status:** R1 COMPLETE — CIO CORRECTED (see corrections below)
 > **Date:** 2026-03-13
-> **Quality Score:** 82/100 (Tier A) — Tool 78, adjusted +4 for market position
-> **Fair Value:** $155
-> **Expected Growth:** 8%
+> **Quality Score:** 78/100 (Tier A) — Tool 78. Market position adj +4→82 rejected (tool gives 0/8 for data limitation, not opinion-adjustable to +4 without strong precedent).
+> **Fair Value:** $130 (CIO corrected from FA's $155. See CIO CORRECTIONS. EV/EBIT 18x primary.)
+> **Expected Growth:** 7%
 > **Current Price:** $115.46 (52-week low, -33% from highs)
-> **MoS vs Base:** 25.6%
-> **E[CAGR 3yr]:** ~12%
-> **Verdict:** BUY — at entry zone. Standing Order $112 or Market Buy at current levels
-> **Previous R3 (2026-02-13):** FV $120, entry $95. SUPERSEDED by this refresh with updated valuation.
+> **MoS vs Base:** 11.2%
+> **E[CAGR 3yr]:** ~12% (FV/P appreciation 4% + growth 7% + div 1.8% - multiple headwind ~1%)
+> **Verdict:** WATCHLIST — Entry $100-110. Needs Q1 2026 earnings (May) to clarify Apoquel generic entry + Librela trajectory. Interesting but double franchise headwind unresolved.
+> **Previous R3 (2026-02-13):** FV $120, entry $95. R3 FV was more honest than FA refresh $155.
+> **Pipeline:** R1 ✓ (CIO corrected) | R2 PENDING | R3 PENDING | R4 PENDING
+>
+> **CIO CORRECTIONS (Error #65 compliance — adversarial check on FA output):**
+> 1. **Apoquel patent: FA claims "expires 2032" — WRONG.** Original tablet patent expires Nov 2026 (8 months). Chewable formulation patents extend to 2033. Generic oclacitinib tablets possible from late 2026. FA conflated tablet and chewable patents. Risk-identifier correctly identified this as CRITICAL.
+> 2. **FV $155 → $130:** FA's OEY method at 3.3% target yield for a company facing double franchise headwind is aggressive. EV/EBIT at 18x ($130) is more appropriate given near-term uncertainty. The R3 FV of $120 was if anything too conservative; $130 balances the two.
+> 3. **KC#7 "generics launch before 2032" — CORRECTED:** Apoquel generics CAN launch after Nov 2026 for tablet formulation. KC should be "Apoquel generic erosion >30% within 18 months of Nov 2026 patent expiry."
+> 4. **Receivables gap (20.8% vs 2.3% rev growth):** FA dismissed too quickly. Risk-identifier's analysis more thorough. Needs Q1 2026 data to resolve.
 
 ---
 
