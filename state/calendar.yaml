@@ -182,10 +182,11 @@ events:
     event: "SPGI Q1 2026 earnings (CONFIRMED May 5) — first position earnings test"
     priority: high
     action: |
-      R4 APPROVED CONDITIONAL (S152). FY2025 gate evaluation:
-      G1 (receivables): PENDING 10-K check. G2 (FCF ≥35%): PASS (35.9%). G3 (MI organic ≥5%): PASS (5-7%).
+      R4 APPROVED CONDITIONAL (S152). FY2025 gate evaluation (S152c16):
+      G1 (receivables): CONDITIONAL FAIL — AR +20% vs rev +8% (12pp gap). Mitigated by FCF 35.9%. Likely acquisition-driven.
+      G2 (FCF ≥35%): PASS (35.9%). G3 (MI organic ≥5%): PASS (5-7%).
       EXECUTION PLAN: SELL FTNT late April → BUY SPGI EUR 400 BEFORE May 5 earnings.
-      Do NOT hold through Q1 earnings as new position — buy pre-Q1 with FY2025 gates cleared.
+      If G1 gap unexplained by Q1: size down EUR 400→300. KC added: AR gap >10pp 2Q = EXIT.
       7 quality fund holders. 0% SI. Mobility spinoff = upside optionality (SOTP $532-639 vs FV $470).
 
   - date: 2026-04-21

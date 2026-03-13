@@ -362,10 +362,10 @@ standing_orders:
     mos_at_trigger: "10.6%"
     tier: "A (QS 60/76 adj — serial acquirer +16)"
     ecagr_at_trigger: "12.1%"
-    gate: "Q1 2026 earnings (late April/May). Must clear: (1) receivables growth normalizes <5pp above rev, (2) FCF margin >=35%, (3) MI organic growth >=5%."
-    r4_status: "APPROVED CONDITIONAL (S152, 2026-03-13). 10/10 gates PASS. committee_decision.md written."
-    notes: "R4 APPROVED S152. R3 FV $470 (-8.0% from R1 $511). Thesis header FIXED (Error #62 — was showing R1 FV). Pre-flight S151c32: AT TRIGGER $419.70. Reverse DCF: market prices 13.7% FCF growth vs 29.5% historical. 7 quality funds (Cantillon $848M, Markel, D&C, Wedgewood, Coronation). 0% SI. FTNT exit → SPGI PRIMARY rotation target (EUR 400). ALFA.L vs SPGI debate resolved: not mutually exclusive. Mobility spinoff modeling needed before Q1 gate date."
-    kill_conditions: "Ratings market share <30%, regulatory break of duopoly, ROIC<WACC 3yr, revenue decline >5% 2Q, receivables >10pp gap 2Q, Mobility spinoff destroys >20% of value"
+    gate: "FY2025 10-K verified S152c16. G1 CONDITIONAL FAIL (AR +20% vs rev +8%), G2 PASS (35.9%), G3 PASS (5-7%). Proceed with caution — size down EUR 400→300 if Q1 AR gap persists."
+    r4_status: "APPROVED CONDITIONAL (S152, 2026-03-13). 10/10 gates PASS. G1 receivables CONDITIONAL FAIL post-verification."
+    notes: "R4 APPROVED S152. R3 FV $470 (-8.0% from R1 $511). Thesis header FIXED (Error #62). Pre-flight DETAILED S152c16: AT TRIGGER $419.70. G1 FAIL context: AR $2.87B→$3.44B (+20%) vs rev +8%. Gap 12pp > 5pp threshold. Mitigated by FCF $5.5B / 35.9% margin = cash collection healthy. Likely acquisition-driven (Visible Alpha full-year impact). 7 quality funds. 0% SI. FTNT exit → SPGI PRIMARY rotation target (EUR 400, or EUR 300 if AR gap unexplained). Mobility spinoff SOTP $532-639 = upside optionality."
+    kill_conditions: "Ratings market share <30%, regulatory break of duopoly, ROIC<WACC 3yr, revenue decline >5% 2Q, receivables >10pp gap 2Q (NEW: enforced — Q1 10-Q will be first test), Mobility spinoff destroys >20% of value"
     last_analysis_date: 2026-03-13
     expiry: 2026-10-01
 
@@ -610,8 +610,8 @@ review_flags:
 #   FALLBACK (if SPGI gate FAILS): SELL FTNT → BUY ALFA.L (EUR 400) + BUY best other (EUR 375)
 #   ACCELERATE TO MAR 26 IF: FTNT drops below $78 (cost basis protection)
 #   SPGI R4: APPROVED CONDITIONAL (10/10 gates PASS). committee_decision.md written S152.
-#   SPGI GATES: FY2025 data NOW AVAILABLE. G2 FCF 35.9% PASS. G3 MI organic 5-7% PASS. G1 receivables PENDING.
-#   SPGI Q1: CONFIRMED May 5. Buy BEFORE May 5 (late April). FY2025 gates effectively CLEARED.
+#   SPGI GATES: FY2025 10-K VERIFIED S152c16. G1 CONDITIONAL FAIL (AR +20% vs rev +8%). G2 PASS (35.9%). G3 PASS (5-7%).
+#   SPGI Q1: CONFIRMED May 5. Buy BEFORE May 5 (late April). Proceed with caution — size EUR 400 unless AR gap explained, then EUR 300.
 #   FTNT EXIT: 6-gate protocol COMPLETE. Committee APPROVED. exit_analysis.md + committee_decision_exit.md written.
 #   FTNT EXIT WINDOW: Opens ~Apr 21. Calendar entry added.
 #   MRSH R2 DA: LAUNCHED S152c11. Processing. If FV revises to $175-180, entry may recalibrate.

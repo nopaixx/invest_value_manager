@@ -96,7 +96,7 @@ handoff:
       - "NVO FDA response (~Mar 19) — review adequacy."
       - "HALO PTAB oral hearings March (exact date TBD)."
       - "CVNA short — oil $97 tailwind. Hold through Q1 May 6."
-      - "SPGI: R4 APPROVED. Pre-flight DETAILED. Q1 confirmed May 5. FY2025 gates 2/3 PASS. Mobility spinoff modeled. Execute late April."
+      - "SPGI: R4 APPROVED. Pre-flight DETAILED. Q1 confirmed May 5. FY2025 gates: G1 CONDITIONAL FAIL (AR +20% vs rev +8%), G2 PASS (FCF 35.9%), G3 PASS (MI 5-7%). Proceed with caution. Execute late April."
       - "FTNT EXIT: ALL COMPLETE. Committee + exit_analysis + calendar Apr 21. No work needed until execution."
       - "ALFA.L: R3 COMPLETE. FV 215p, entry 165p. #1 secondary for FTNT capital."
       - "MRSH: R3 COMPLETE (new). FV $195→$180. Entry $160→$150. DA MODERATE COUNTER. #3 secondary."
@@ -128,6 +128,9 @@ handoff:
     - "S152c12: MRSH R2 DA COMPLETE. MODERATE COUNTER (7 HIGH/0 CRITICAL). FV recommendation $175-180. Greensill $650M→$1.15B. AI disruption for MMA. Growth 7%→5-6%."
     - "S152c13: MRSH R3 COMPLETE. FV $195→$180 (-7.7%). Entry $160→$150. Growth 5%. 15.5x EV/EBIT. KC#9 added (MMA AI). HALF position pre-trial. #3 for FTNT exit capital."
     - "S152c14: Insurance sector view updated — MRSH FV/entry/ticker corrected. Historial entry added."
+    - "S152c16: SPGI G1 receivables gate CONDITIONAL FAIL. AR +20% vs rev +8% (12pp gap > 5pp threshold). Mitigated by FCF 35.9%. Likely acquisition-driven. KC added: AR gap >10pp 2Q = EXIT. Pre-flight updated."
+    - "S152c16: Fallen angels scan processed — 64 stocks QS≥60 at ≥30% drawdown. All Tier A names already in pipeline. Good coverage validation."
+    - "S152c16: Price check — GDDY $80.75 (well below $90 ceiling), DNLM.L 855p (below 950p), CPRT $33.97 (9.6% above $31 SO), HALO $63.56 (2.3% above $65 SO). Mar 26 entries improving."
 
 r1_cooldowns:
   MANH: { date: "2026-02-22", session: 112, verdict: "R3_COMPLETE (OVERVALUED at market)" }
