@@ -8,25 +8,46 @@
 
 ---
 
-## Committee Assessment
+## Precedentes Consultados
+
+1. **RACE.MI EXIT (S143c10):** Tier A (QS 84), E[CAGR] 6.6%, held 2 DAYS, P&L -3.4%. Rotated to EDEN/NVO/WKL.
+2. **MORN EXIT (S143):** Tier A (QS 78), E[CAGR] ~5.1%, held ~15 days, P&L +2%. Rotated to TW + WKL.AS.
+3. **AUTO.L EXIT (S150):** Tier B (QS 71), E[CAGR] 12.1%, held 30 days, P&L +1.6%.
+
+**Deviation:** None. All confirm pattern: rotating lowest E[CAGR] Tier A for higher-return opportunities.
+
+---
+
+## Committee Assessment — 6 Gate Evaluation
+
+### Gate 0: Sector View — PASS
+`world/sectors/cybersecurity.md` (updated 2026-03-07, 6 days fresh).
 
 ### Gate 1: Kill Condition — NO ACTIVE, 3 MONITORING
-KC#6 (CVE pattern), KC#8 (deferred rev decel), KC#9 (CISA KEV) all MONITORING. Not individually triggered but converging on same risk vector = elevated concern.
+KC#6 (CVE pattern), KC#8 (deferred rev decel), KC#9 (CISA KEV) all MONITORING. Not individually triggered but converging on same risk vector = elevated concern. CVE-2026-22572 bypasses MFA entirely. Active exploitation confirmed by CISA. Data shows acceleration (8 CVEs in 2025, 24 total historically).
 
 ### Gate 2: Thesis Valid — DEBILITATED
-Refresh cycle fading, CVE escalation, Investor Day NEUTRAL, thin edge. Business quality intact (QS 87, WIDE moat) but forward return thesis is broken.
+Refresh cycle fading (DA confirmed), CVE crisis escalating (11 new CVEs Mar 10), Investor Day NEUTRAL, thin edge. Business quality intact (QS 87, WIDE moat) but forward return thesis is broken.
 
 ### Gate 3: MoS Current — 4.3% (LOWEST)
-E[CAGR] 9.4% = worst in portfolio, below 12% Tier A threshold. Position is essentially at fair value.
+E[CAGR] 9.4% = worst in portfolio, 2.6pp below 12% Tier A threshold. Portfolio avg MoS: 23.6%.
 
-### Gate 4: Better Opportunity — YES
-SPGI R4 APPROVED CONDITIONAL. E[CAGR] delta +2.7pp (12.1% vs 9.4%). OS 2.15. Capital redeployment adds ~EUR 215 expected 3yr gain.
+### Gate 4: Better Opportunity — YES (OS 2.15)
+| Metric | FTNT (hold) | SPGI (target) | Delta |
+|--------|-------------|--------------|-------|
+| QS | 87 Tier A | 76 Tier A | -11 |
+| MoS | 4.3% | 10.6% | +6.3pp |
+| E[CAGR] | 9.4% | 12.1% | +2.7pp |
+| Risk | 3 KCs MON | Clean | Cleaner |
+
+Expected 3yr: FTNT hold EUR 232 vs rotation EUR 447. Delta +EUR 215 (+93%).
+QS downgrade concern: both Tier A, P9 satisfied.
 
 ### Gate 5: Dead Money — APPROACHING
-No catalyst until Q1 May 6. 3 KCs trending negative. Only 15 days held but trajectory is toward dead money.
+No catalyst until Q1 May 6. 3 KCs trending negative. 15 days held but precedent clear (RACE.MI 2 days). Risk/reward asymmetric: Q1 miss → $75 (-11%) vs Q1 beat → $88 (+4%).
 
 ### Gate 6: Friction — NEGLIGIBLE
-~EUR 9 tax. eToro zero commission. $63B market cap = liquid.
+~EUR 9 tax. eToro zero commission. $63B market cap = liquid. Total ~1.2% of position.
 
 ---
 
