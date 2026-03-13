@@ -176,12 +176,31 @@ events:
     priority: high
     action: "Cancel if Q1 growth <3%. See thesis/research/DSY.PA/committee_decision.md"
 
-  - date: 2026-04-28
-    type: earnings_pipeline
+  - date: 2026-05-05
+    type: earnings
     ticker: SPGI
-    event: "SPGI Q1 2026 earnings (estimated) — SO gate review"
+    event: "SPGI Q1 2026 earnings (CONFIRMED May 5) — first position earnings test"
     priority: high
-    action: "SO $420 GATED on this. Must clear: (1) receivables growth normalizes <5pp above rev, (2) FCF margin >=35%, (3) MI organic growth >=5%. If PASS → activate SO. 7 smart money holders (TCI Fund adding)."
+    action: |
+      R4 APPROVED CONDITIONAL (S152). FY2025 gate evaluation:
+      G1 (receivables): PENDING 10-K check. G2 (FCF ≥35%): PASS (35.9%). G3 (MI organic ≥5%): PASS (5-7%).
+      EXECUTION PLAN: SELL FTNT late April → BUY SPGI EUR 400 BEFORE May 5 earnings.
+      Do NOT hold through Q1 earnings as new position — buy pre-Q1 with FY2025 gates cleared.
+      7 quality fund holders. 0% SI. Mobility spinoff = upside optionality (SOTP $532-639 vs FV $470).
+
+  - date: 2026-04-21
+    type: execution
+    ticker: FTNT
+    event: "FTNT EXIT WINDOW OPENS — sell 10.57 shares, rotate to SPGI + best available"
+    priority: CRITICAL
+    action: |
+      EXIT APPROVED S152 (committee + 6-gate protocol). Timing: late April, before FTNT Q1 May 6.
+      SELL FTNT 10.57 shares (~EUR 775). Deploy: SPGI EUR 400 + best available EUR 375.
+      Best available: ALFA.L (if ≤165p) > CPRT (if ≤$31) > cash buffer.
+      KILL CONDITIONS FOR EXIT (can REVERSE):
+      - KC-EXIT-1: FTNT drops to $73 → E[CAGR] ~14%, reassess.
+      - KC-EXIT-2: Q1 PASS + guide raise → FV $95-100, CANCEL exit.
+      - KC-EXIT-3: SPGI drops >15% → rotation math improves, accelerate.
 
   - date: 2026-05-01
     type: earnings_pipeline
