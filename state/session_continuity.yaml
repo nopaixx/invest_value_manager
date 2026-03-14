@@ -5,9 +5,9 @@
 # Created: 2026-03-13
 
 session:
-  id: 164
+  id: 165
   date: "2026-03-14"
-  timestamp_cet: "2026-03-14T02:30"
+  timestamp_cet: "2026-03-14T03:30"
 
 completed:
   vigilance:
@@ -33,8 +33,8 @@ completed:
   net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged from S158. No cash, no trades possible until Mar 26. Oil $101 + VIX 26.6 + gold ATH = macro stress continuing. FOMC Tue is binary."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: FTNT 9.8% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26."
-  velocity_units: 6  # +1u PCTY rapid triage (SCORED, PARKED behind PAYC)
-  velocity_note: "S164: EU Pricing Power death accepted (no viable 2nd). Data & Analytics drag accepted (monopoly pricing = near FV normal). Orphans confirmed (NVO standalone, BZU.MI rotation candidate). PCTY triaged: QS 82 Tier A but DCF $114 = 4.5% MoS, PARKED behind PAYC. Entry $90."
+  velocity_units: 7  # +1u BZU.MI rotation plan + FOMC per-position action tree + conviction ranking
+  velocity_note: "S165: BZU.MI rotation Scenario A recommended (sell with FTNT late Apr, redeploy EUR 1,137 → SPGI+ALFA.L+buffer). KC#6 clock 2 weeks in, not urgent. FOMC per-position action tree: TW ONLY position that benefits from hawkish. Conviction ranking: IHP.L #1, BZU.MI #11."
   portfolio_ecagr:
     deployed: 18.0%
     blended: 18.0%
