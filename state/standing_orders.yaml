@@ -374,23 +374,23 @@ standing_orders:
 
   - ticker: VRSK
     action: BUY
-    category: GATED
-    fill_prob_6m: 35
-    trigger: "<=$195"
-    current_distance: "2.9%"
+    category: BORDERLINE
+    fill_prob_6m: 15
+    trigger: "<=$176"
+    current_distance: "14.3%"
     created_date: "2026-03-13"
-    staleness_status: FRESH
+    staleness_status: RECALIBRATED  # S167: trigger $195→$176. Old SO at $195 gave E[CAGR] 8.5% = below 12% Tier A threshold.
     gate: "FTNT exit capital needed (~late April). Also verify Q1 2026 organic growth >=4%."
     r4_status: "APPROVED (S143, 2026-03-07). R4 complete."
-    size_eur: 400
+    size_eur: 375
     fair_value: "$210 (R4, post-Q4 2025 earnings update)"
-    mos_at_trigger: "7.1%"
+    mos_at_trigger: "16.2%"
     tier: "A (QS 72/80 adj)"
-    ecagr_at_trigger: "~12.4%"
-    notes: "R4 APPROVED. Insurance data monopoly — ISO designated statistical agent all 50 US states. ROIC 60.6%, FCF margin 38.8%, 70% GM. Near-monopoly moat. At $200.61, 2.9% from $195 entry. Data & Analytics Monopolies basket candidate (alongside TW, WKL.AS). Capital from FTNT exit (~EUR 775 total, EUR 400 ALFA.L + EUR 375 VRSK or SPGI). SPGI is primary FTNT rotation target; VRSK is alternative if SPGI gate fails."
+    ecagr_at_trigger: "~12.0%"
+    notes: "S167 RECALIBRATED: trigger $195→$176. At $195 E[CAGR] was 8.5% = BELOW 12% Tier A threshold. At $176 E[CAGR] = 12.0% with 16.2% MoS — proper Tier A entry. R4 APPROVED. Insurance data monopoly — ISO designated statistical agent all 50 US states. ROIC 60.6%, FCF margin 38.8%, 70% GM. 14.3% from trigger = needs correction to deepen. Data & Analytics basket. DEPRIORITIZED behind SPGI + ALFA.L for FTNT exit capital."
     kill_conditions: "Subscription rev negative 2Q, ROIC <25% 2Q, ISO mandate eliminated, 3+ top-10 insurers replace Verisk, mega-M&A >$5B, FCF margin <25% 2Q, FTC enforcement on core data"
-    pre_execution_condition: "Needs FTNT exit capital. If SPGI takes primary EUR 400 slot, VRSK gets EUR 375 remainder. If SPGI gate fails, VRSK upgrades to EUR 400."
-    last_analysis_date: 2026-03-07
+    pre_execution_condition: "Needs FTNT exit capital. DEPRIORITIZED behind SPGI (EUR 500) + ALFA.L (EUR 500). Only deploys if both SPGI and ALFA.L are unavailable AND VRSK drops to $176."
+    last_analysis_date: 2026-03-14
     expiry: 2026-10-01
 
   - ticker: ALFA.L

@@ -2,7 +2,7 @@
 
 > **Fair Value:** $210
 > **Date:** 2026-03-07 (UPDATED from 2026-02-13)
-> **Status:** R4 APPROVED -- Standing Order $210
+> **Status:** R4 APPROVED -- Standing Order $176 (S167 recalibrated from $210/$195. Old entries gave E[CAGR] 5.8-8.5% = below 12% Tier A threshold.)
 > **Quality Score:** 72 Tool / 80 Adjusted (Tier A)
 > **Previous R3 FV:** $185 (pre-earnings). Updated post-Q4 2025 earnings (Feb 18).
 > **Data & Analytics Monopolies basket candidate** (alongside TW, WKL.AS)

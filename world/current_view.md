@@ -1,10 +1,16 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-13 (S153 refresh)
+> Ultima actualizacion: 2026-03-14 (S167 geopolitical scan refresh)
 
-**CAMBIOS MATERIALES desde ultimo update (11-mar → 13-mar):**
-- **CRITICAL: OIL SURGES TO $100 BRENT / $94 WTI.** Iran's NEW Supreme Leader Mojtaba Khamenei (son of killed Ali Khamenei) vows Hormuz STAYS CLOSED. Three ships hit by projectiles in Hormuz Mar 12-13. Iran planting NAVAL MINES (US intel, Mar 10). IEA coordinating 400M barrel strategic reserve release (LARGEST EVER, 32 countries). Despite this, Brent hit $100. Oil range NOW $94-100 WTI. RECESSION TRIGGER FIRMLY ACTIVATED ($90+ sustained).
-- **CRITICAL: WAR ~DAY 14 — ESCALATING, NOT STABILIZING.** New Supreme Leader = regime continuity. Naval mines = structural escalation. Ship attacks continuing. France Hormuz mission not yet launched. The "stabilizing" narrative from Mar 10-11 was WRONG. The crisis is DEEPENING.
+**CAMBIOS MATERIALES desde ultimo update (13-mar → 14-mar S167 geopolitical refresh):**
+- **CRITICAL: SITUATION FAR MORE SEVERE THAN MODELED.** S167 WebSearch reveals: Brent peaked at $126/bbl (not just $101). Strait of Hormuz tanker traffic dropped to ZERO (not just -70%). 8M barrels/day cut from global supply = largest disruption since 1973 energy crisis. IEA 400M barrel release = "Band-Aid" per analysts, insufficient. California gas >$5/gal. This is a FULL WAR, not a limited conflict.
+- **CRITICAL: DIPLOMACY DEAD.** Iran foreign policy adviser Kharazi: "I don't see any room for diplomacy any more." New Supreme Leader Mojtaba Khamenei vowed to KEEP Hormuz closed. No ceasefire path visible. War Day ~14+. France + US escort missions not yet operational.
+- **CRITICAL: RECESSION RISK ELEVATED.** 20% of global oil + significant LNG flows cut. Sustained $100+ Brent → CPI 3.0%+ → Fed forced hawkish → stagflation scenario ACTIVE. If Hormuz stays closed months → recession becomes base case.
+- **S167 REASSESSMENT:** My S156 3-month outlook assumed 50% probability oil normalizes by June. With diplomacy dead + Hormuz at zero traffic + new Supreme Leader vowing closure → oil normalization probability drops to 25-30%. Elevated oil ($95-120) for months is now BASE CASE (50%). Spike to $120+ = 20-25% (was 10%). This materially changes: (1) BZU.MI KC#6 urgency (sell sooner), (2) FOMC hawkish probability (should be 50%, not 40%), (3) CVNA short conviction (INCREASES — oil devastates used car demand).
+
+**Previous CRITICAL items (13-mar, still valid):**
+- **OIL $100+ BRENT / $99 WTI.** IEA 400M barrel release announced but market calls it insufficient. Brent range $95-126 (volatile). WTI $94-119 peak.
+- **WAR ESCALATING.** Naval mines, ship attacks, new Supreme Leader = regime continuity. France Hormuz mission forming. US Navy escort planned but not active.
 - **MATERIAL: S&P AT 3-MONTH LOW.** -4.7% from 52wH. YTD returns now NEGATIVE (-2.3%). 3 consecutive down sessions. Broad selloff sparing only energy. Banks, tech, consumer disc all hit.
 - **MATERIAL: VIX 25.92 (was 25.5 → 27.7 intraday).** Elevated but not panic. Credit spreads widening slowly (HYG/LQD 0.7309).
 - **MATERIAL: FED CUTS BEING PRICED OUT.** With oil at $94-100, rate cuts "likelihood quickly dwindling." FOMC Mar 18 dot plot = CRITICAL. If 0 cuts for 2026 = further selloff.
