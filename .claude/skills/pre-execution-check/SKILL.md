@@ -87,7 +87,25 @@ Para cada standing order TRIGGERED o NEAR:
 [ ] Si mejor alternativa existe → ESPERA o REDIRIGE capital
 ```
 
-### Gate 7: SMART MONEY CONTEXT
+### Gate 7: MACRO REGIME CHECK (Error #67 — added S172 post-BZU.MI)
+```
+[ ] How many days since R4 approval? If >7 days → mandatory macro re-validation
+[ ] Run: macro_fragility.py world → compare key indicators vs R4 date
+    - Oil: if moved >15% since R4 → check stock's energy sensitivity
+    - VIX: if moved >10pts since R4 → check stock's beta/cyclicality
+    - 10Y: if moved >50bps since R4 → check stock's rate sensitivity
+    - S&P: if moved >5% since R4 → check if correction changes thesis
+[ ] Does the stock's sector have DIRECT exposure to the dominant macro event?
+    - Energy-intensive + oil crisis → BLOCK
+    - Rate-sensitive + rate spike → FLAG
+    - Consumer-cyclical + recession → FLAG
+[ ] If macro regime changed materially since R4:
+    → Re-run investment-committee with updated macro context
+    → Do NOT execute stale R4 approval in a new macro regime
+[ ] If macro regime unchanged: PASS
+```
+
+### Gate 8: SMART MONEY CONTEXT
 ```
 [ ] Run: python3 tools/smart_money.py stock-profile TICKER
 [ ] Run: python3 tools/smart_money.py signals --ticker TICKER

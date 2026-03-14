@@ -156,6 +156,11 @@ WebSearch returned Wikipedia claim "Brent peaked $126/bbl." Actual peak was ~$11
 **ROOT CAUSE:** Wikipedia (T3 source) used for price data without cross-checking against yfinance (T1 source). The more alarming the number, the LESS it was questioned — exactly backwards.
 FIX: (1) ANY price/macro number from WebSearch → verify against T1 tool (`macro_fragility.py`, `price_checker.py`) BEFORE using in analysis. (2) Decision-grade data requires 2+ sources, at least 1 T1. (3) Alarming numbers get MORE scrutiny, not less. (4) Always distinguish peak/intraday vs close vs current. Full protocol in `critical-thinking` skill v4.2 "Macro Data Verification Protocol."
 
+**#67. Executing stale R4 approval in changed macro regime (BZU.MI trap)**
+BZU.MI R4 approved Feb 7 (oil ~$85). Executed Mar 13 (oil $97-100, Hormuz closed, war day 13). The SO was correct at approval but the macro regime changed materially. Pre-flight checked stock-level gates (KCs, constraints, thesis) but NOT macro regime change. A cement company (30-40% energy cost) should never be bought during the worst oil crisis since 1973.
+**ROOT CAUSE:** Pre-execution check had 7 gates, none asked "has the macro regime changed since R4?" The implicit assumption was that if the stock price hits the trigger, the thesis is still valid. But a trigger price set in a $85 oil world is meaningless in a $100+ oil world for an energy-intensive business.
+FIX: Gate 7 added to pre-execution-check: "MACRO REGIME CHECK." If >7 days since R4 AND key macro indicators (oil, VIX, 10Y, S&P) moved materially → mandatory re-validation before execution. Sector-specific exposure check (energy-intensive + oil crisis = BLOCK). Full protocol in `pre-execution-check` skill.
+
 ---
 
 ## FV Consistency Check (Periodic — every 10 sessions)
