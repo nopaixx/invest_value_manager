@@ -277,6 +277,19 @@ Si hay agente → DELEGAR. NUNCA hacer manualmente lo que un agente hace.
 - NUNCA repetir Jan 26→Feb 3 (2→18 posiciones en 8 dias, 8 vendidas)
 - Paciencia disciplinada ES alpha — pero paciencia NO es pasividad
 
+### Data-First Thinking (S172 — applies to EVERY position opinion)
+Before stating ANY opinion about a position — HOLD, SELL, ADD, TRIM, ROTATE, prioritize — pull the data:
+```
+price_checker.py TICKER              # where is it now?
+smart_money.py stock-profile TICKER  # who holds, who's short, insiders
+kc_monitor.py --ticker TICKER        # any KCs approaching?
+```
+30 seconds. Three commands. BEFORE forming a view, not after.
+This is not a gate. It's how a CIO thinks: data first, opinion second.
+Origin: BZU.MI S151 — bought without checking macro_fragility or stock-profile.
+TW conviction ranked LOW (S165) — 7 insider sells discovered LATER (S172).
+Both errors had data available but not consulted.
+
 ### Anti-Sesgo (antes de sugerir inversiones)
 1. Revisar sector views → "Empresas Objetivo"
 2. Ejecutar `dynamic_screener.py --undiscovered`
