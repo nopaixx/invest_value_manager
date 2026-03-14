@@ -7,7 +7,7 @@
 Adobe cotiza a P/E 16x (-43% de maximos), el mercado teme disrupcion por IA pero los fundamentales cuentan otra historia: 89% gross margin, 30% ROIC, $9.8B FCF creciendo +10%/ano. Quality Score Tool 76 (Tier A). MoS ~25% tras ajuste regulatorio. Oportunidad de Quality Compounder con riesgo FTC/DOJ conocido y acotable.
 
 **CAMBIO v2.0 (10-Feb-2026):** Integra FTC/DOJ ROSCA lawsuit (trial Oct 2026), ajusta FV -6%, anade Kill Condition #6 (FTC churn impact). Corrige formato a QS Tool-First.
-> **Fair Value:** $390 (FTC-adjusted, weighted DCF + EV/EBIT + P/E)
+> **Fair Value:** $406 (S181: FTC settlement resolved. Was $390 FTC-adjusted. Unwind 4% of 6% FTC discount — keep 2% for operational changes (easy cancellation). Pre-FTC was ~$414.)
 > **Expected Growth:** 7% (adjusted from 8%. R3 pending post-earnings Mar 12.)
 > **Data Integrity:** FV matches current.yaml ($390). QS Tool 80 (Mar 8, up from 76). Growth 7% sourced from projection framework.
 > Pipeline Stage: R2_COMPLETE (DA S146c9-10. R3 after Q1 earnings.)
@@ -204,7 +204,7 @@ TOTAL expected annual impact: ~$334M/yr = ~3.4% of revenue
 3. **FCF se vuelve negativo** -> tesis de compounder invalida
 4. **Adobe pierde >5pp de market share en 12 meses** -> disrupcion real
 5. **Insider selling masivo (>10% de holdings)** -> ratas abandonan barco
-6. **FTC trial loss con mandatory one-click AND churn spikes >5pp** -> modelo de suscripcion danado materialmente (NUEVO v2.0)
+6. **~~FTC trial~~ RESOLVED S181: $150M settlement Mar 13, 2026. Trial CANCELLED. No structural remedy. KC RESOLVED.** (was: FTC trial loss + churn >5pp)
 
 **Model Disruption Kill Conditions (added 2026-02-11):**
 7. **Open-source AI creative tools reach professional quality** — If Stability AI, Midjourney, or an open-source alternative achieves Photoshop/Illustrator-level quality with enterprise features (collaboration, brand assets, compliance) AND captures >15% of creative professional workflows, Adobe's 89% gross margin is structurally threatened. The moat is switching costs + ecosystem lock-in; free/cheap alternatives with AI-native workflows could erode both. Monitor: Figma AI features post-IPO, Canva enterprise adoption, open-source model benchmarks vs Adobe Firefly.
@@ -219,7 +219,7 @@ TOTAL expected annual impact: ~$334M/yr = ~3.4% of revenue
 | 3 | FCF negative | **CLEAR** | FCF **$9.9B** FY2025. 41.4% margin. $7.4B→$6.9B→$7.9B→$9.9B trajectory = accelerating. |
 | 4 | Market share loss >5pp/12m | **CLEAR** | Holding ~34% Photoshop, 80% graphics suite. No material share loss detected. |
 | 5 | Insider selling >10% | **CLEAR** | **Insiders are NET BUYERS** (183K shares purchased vs 1.8K sold). CFO Durn sold $485K Jan 27 = routine. |
-| 6 | FTC one-click + churn >5pp | **PENDING** | Trial Oct 19, 2026. Motion to dismiss denied. No settlement signals. Binary event. |
+| 6 | ~~FTC one-click + churn >5pp~~ | **RESOLVED** | **SETTLED Mar 13, 2026.** $150M ($75M penalties + $75M services). Trial CANCELLED. No structural remedy. $150M = 1.5% annual FCF. Easy cancellation + advance notification required. |
 | 7 | Open-source AI pro quality | **CLEAR** | No open-source tool at Photoshop/Illustrator pro quality with enterprise features. |
 | 8 | AI agents automate creative | **CLEAR** | No AI agent producing campaign-quality creative autonomously at enterprise scale. |
 

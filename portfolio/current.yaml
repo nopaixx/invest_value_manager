@@ -53,11 +53,12 @@ positions:
     avg_cost_usd: 264.73  # Blended: (2*271.60 + 1.83*259.04) / 3.83
     date_opened: 2026-02-04
     conviction: medium
-    fair_value: "$390 (FTC-adjusted, was $394. QS Tool 80 (up from 76), Adj 77. ROIC 53%.)"
-    exit_plan: "HOLD through trial Oct 2026. EXIT if KC#6 (FTC mandates one-click + churn >5pp) or KC#9 (successor fails, rev growth <8% 2Q). TRIM at $350 pre-trial."
-    last_review: 2026-03-08
+    fair_value: "$406 (S181: FTC settled $150M, trial CANCELLED. Was $390 FTC-adjusted. Unwind 4% of 6% discount. QS Tool 80, Adj 77. ROIC 53%.)"
+    exit_plan: "HOLD. FTC RESOLVED (settlement $150M, trial cancelled). EXIT if KC#9 (successor fails, rev growth <8% 2Q). TRIM at $370+. ADD at $220 (bear case + FTC resolved)."
+    last_review: 2026-03-14
     thesis: thesis/active/ADBE/thesis.md
-    notes: "S151 Post-earnings: Q1 FY2026 CONDITIONAL BEAT. Rev $6.40B (+12%) BULL. EPS $6.06 BULL. AI-first ARR tripled. Cash from ops $2.96B record. CEO Narayen stepping down (stays Chair). KC#9 added (successor risk). FV $390 MAINTAINED. All 9 KCs CLEAR. HOLD."
+    conviction: medium-high
+    notes: "S181: FTC settled $150M ($75M penalties + $75M services). Trial Oct 2026 CANCELLED. KC#6 RESOLVED. FV $390→$406 (unwind 4% of 6% FTC discount). Conviction MEDIUM→MEDIUM-HIGH. E[CAGR] 24.6% at $249. Q1 FY2026 CONDITIONAL BEAT. AI-first ARR tripled. CEO Narayen stepping down."
 
   - ticker: NVO
     name: "Novo Nordisk A/S"
