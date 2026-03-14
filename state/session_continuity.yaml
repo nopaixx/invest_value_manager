@@ -5,9 +5,9 @@
 # Created: 2026-03-13
 
 session:
-  id: 169
+  id: 170
   date: "2026-03-14"
-  timestamp_cet: "2026-03-14T07:30"
+  timestamp_cet: "2026-03-14T08:30"
 
 completed:
   vigilance:
@@ -33,8 +33,8 @@ completed:
   net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged from S158. No cash, no trades possible until Mar 26. Oil $101 + VIX 26.6 + gold ATH = macro stress continuing. FOMC Tue is binary."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: FTNT 9.8% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26."
-  velocity_units: 11  # S169: Recession playbook, CVNA sizing decision, earnings impact, opportunity scan
-  velocity_note: "S169: Recession playbook complete (7-step sell order, 5 intocables). CVNA short HOLD at EUR 100 (committee approved, don't override). No earnings pre-FOMC. TW Q1 = positive surprise candidate (vol tailwind). 3 SOs TRIGGERED + 1 AT TRIGGER. If correction deepens 10% → 6-8 SOs trigger vs EUR 1,534 capital. Pipeline delivering."
+  velocity_units: 13  # S170: Oil crisis precedent analysis, SM crisis scan, defensive screening, velocity accounting
+  velocity_note: "S170: Oil crisis precedents (1973: 21-month bear -48%, 1990: 3-month recovery). Current crisis most comparable to 1973 in severity but SPR 400M bbl = mitigant. GS/MS: $70 Brent by year-end even in prolonged scenario. SM: CPRT 4 quality funds, SPGI 7 funds, IHP.L shorts → 0%. Defensive candidates: PODD below entry, STMN.SW near entry, VEEV near entry. Weekly velocity ~40 units / 21 sessions."
   portfolio_ecagr:
     deployed: 18.0%
     blended: 18.0%
