@@ -12,5 +12,5 @@ sec_13f:
   path: null
 sec_form4:
   cadence_days: 30
-  last_download: null
-  path: null
+  last_download: '2026-03-14'
+  path: null  # Ingested via ingest-insider --universe (S172). 12 buys, 144 sells across 11 tickers.
