@@ -5,9 +5,9 @@
 # Created: 2026-03-13
 
 session:
-  id: 165
+  id: 166
   date: "2026-03-14"
-  timestamp_cet: "2026-03-14T03:30"
+  timestamp_cet: "2026-03-14T04:30"
 
 completed:
   vigilance:
@@ -33,8 +33,8 @@ completed:
   net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged from S158. No cash, no trades possible until Mar 26. Oil $101 + VIX 26.6 + gold ATH = macro stress continuing. FOMC Tue is binary."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: FTNT 9.8% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26."
-  velocity_units: 7  # +1u BZU.MI rotation plan + FOMC per-position action tree + conviction ranking
-  velocity_note: "S165: BZU.MI rotation Scenario A recommended (sell with FTNT late Apr, redeploy EUR 1,137 → SPGI+ALFA.L+buffer). KC#6 clock 2 weeks in, not urgent. FOMC per-position action tree: TW ONLY position that benefits from hawkish. Conviction ranking: IHP.L #1, BZU.MI #11."
+  velocity_units: 8  # +1u S166 April rotation model + contrathesis + world view
+  velocity_note: "S166: April rotation modeled 4 scenarios. Scenario B optimal (SPGI EUR 500 + ALFA.L EUR 500 + EUR 137 buffer). VRSK SO at $195 produces 8.5% E[CAGR] = BELOW threshold (needs $176). Top 3 bear cases: ADBE FTC (HIGH), DOCS MFN (MED-HIGH), EDEN.PA France levy (MED-HIGH). 3-month outlook: oil-driven correction, quality protects, positioned correctly."
   portfolio_ecagr:
     deployed: 18.0%
     blended: 18.0%
