@@ -1,8 +1,13 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-14 (S167 geopolitical scan refresh)
+> Ultima actualizacion: 2026-03-14 (S173 FOMC week prep + macro refresh)
 
-**CAMBIOS MATERIALES desde ultimo update (13-mar → 14-mar S167 geopolitical refresh):**
+**CAMBIOS MATERIALES desde ultimo update (14-mar S173 FOMC week prep):**
+- **S173 FOMC WEEK PREP:** Three central banks in 3 days (FOMC Tue, ECB Wed, BoE Thu). FOMC hawkish 50% base case. Portfolio blended E[CAGR] ranges 15.1% (SHOCK) to 19.6% (DOVISH). Probability-weighted: 17.5%. EDEN.PA and WKL.AS BARELY AFFECTED by any scenario (LOW rate sensitivity). ADBE and HLNE MOST AFFECTED (HIGH rate sensitivity, growth multiples). TW is natural hedge (benefits from vol). ECB likely cuts (60%), BoE likely holds (75%). Neither materially changes our thesis — EU/UK positions are non-rate-sensitive.
+- **S172 CORRECTED: Brent peak was ~$119.50, NOT $126.** Error #66 logged. Probabilities recalibrated: oil normalization by June 25-30% (was 50%). Elevated oil for months = BASE CASE 50%. BZU.MI SELL MONDAY confirmed.
+- **S172 EXPOSED STRESS TEST:** HLNE 12.0% weighted (OK), DOCS 10.5% (WATCH), DNLM.L 8.1% (CONCERN → sizing reduced EUR 440→300 for Mar 26).
+
+**Previous CRITICAL items (13-14-mar, still valid):**
 - **CRITICAL: SITUATION FAR MORE SEVERE THAN MODELED.** S167 WebSearch reveals: Brent peaked at ~$119.50/bbl intraday (S172 CORRECTED — Wikipedia T3 source claimed $126, actual WTI 52wH $119.48 per yfinance T1. Error #66 logged). Strait of Hormuz tanker traffic dropped to ZERO (not just -70%). 8M barrels/day cut from global supply = largest disruption since 1973 energy crisis. IEA 400M barrel release = "Band-Aid" per analysts, insufficient. California gas >$5/gal. This is a FULL WAR, not a limited conflict.
 - **CRITICAL: DIPLOMACY DEAD.** Iran foreign policy adviser Kharazi: "I don't see any room for diplomacy any more." New Supreme Leader Mojtaba Khamenei vowed to KEEP Hormuz closed. No ceasefire path visible. War Day ~14+. France + US escort missions not yet operational.
 - **CRITICAL: RECESSION RISK ELEVATED.** 20% of global oil + significant LNG flows cut. Sustained $100+ Brent → CPI 3.0%+ → Fed forced hawkish → stagflation scenario ACTIVE. If Hormuz stays closed months → recession becomes base case.
