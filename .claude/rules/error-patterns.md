@@ -149,6 +149,15 @@ FIX: (1) DA (R2) must complete within 5 sessions of position opening. Track via 
 
 ---
 
+## Errores de Verificacion de Datos
+
+**#66. Using unverified WebSearch data for decision-grade analysis**
+WebSearch returned Wikipedia claim "Brent peaked $126/bbl." Actual peak was ~$119.50 (yfinance WTI 52wH $119.48). Decisions (BZU.MI sell timing, recession probability 50%→base case, FOMC hawkish 40%→50%) were calibrated on inflated data. BZU.MI sell was correct regardless (KC#6 + worst E[CAGR] + LOW conviction), but recession urgency was overstated.
+**ROOT CAUSE:** Wikipedia (T3 source) used for price data without cross-checking against yfinance (T1 source). The more alarming the number, the LESS it was questioned — exactly backwards.
+FIX: (1) ANY price/macro number from WebSearch → verify against T1 tool (`macro_fragility.py`, `price_checker.py`) BEFORE using in analysis. (2) Decision-grade data requires 2+ sources, at least 1 T1. (3) Alarming numbers get MORE scrutiny, not less. (4) Always distinguish peak/intraday vs close vs current. Full protocol in `critical-thinking` skill v4.2 "Macro Data Verification Protocol."
+
+---
+
 ## FV Consistency Check (Periodic — every 10 sessions)
 
 Cross-check FVs across three sources. All must match:

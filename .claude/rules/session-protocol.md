@@ -75,6 +75,13 @@ FASE 0.5: SESSION PLAN (auto-activar en modo SESSION PLAN)
 FASE 1: Vigilancia
   → news-monitor + market-pulse (paralelo)
   → Incluir shorts activos en scan (noticias POSITIVAS sobre short = alerta)
+  → **MACRO DATA VERIFICATION (Error #66 — OBLIGATORIO):**
+    → ANY price/macro number from WebSearch → cross-check against T1 tool BEFORE using
+    → Oil/commodities: `macro_fragility.py world` (current + 52wH + 52wL)
+    → Stock prices: `price_checker.py TICKER`
+    → If WebSearch and T1 disagree → T1 WINS. Document discrepancy.
+    → Alarming numbers get MORE scrutiny, not less. Alarm triggers VERIFICATION, not action.
+    → Full protocol: `critical-thinking` skill v4.2 "Macro Data Verification Protocol"
   → Si CRITICO → STOP, informar humano
 
 FASE 2: Estado del Portfolio

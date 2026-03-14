@@ -3,13 +3,13 @@
 > Ultima actualizacion: 2026-03-14 (S167 geopolitical scan refresh)
 
 **CAMBIOS MATERIALES desde ultimo update (13-mar → 14-mar S167 geopolitical refresh):**
-- **CRITICAL: SITUATION FAR MORE SEVERE THAN MODELED.** S167 WebSearch reveals: Brent peaked at $126/bbl (not just $101). Strait of Hormuz tanker traffic dropped to ZERO (not just -70%). 8M barrels/day cut from global supply = largest disruption since 1973 energy crisis. IEA 400M barrel release = "Band-Aid" per analysts, insufficient. California gas >$5/gal. This is a FULL WAR, not a limited conflict.
+- **CRITICAL: SITUATION FAR MORE SEVERE THAN MODELED.** S167 WebSearch reveals: Brent peaked at ~$119.50/bbl intraday (S172 CORRECTED — Wikipedia T3 source claimed $126, actual WTI 52wH $119.48 per yfinance T1. Error #66 logged). Strait of Hormuz tanker traffic dropped to ZERO (not just -70%). 8M barrels/day cut from global supply = largest disruption since 1973 energy crisis. IEA 400M barrel release = "Band-Aid" per analysts, insufficient. California gas >$5/gal. This is a FULL WAR, not a limited conflict.
 - **CRITICAL: DIPLOMACY DEAD.** Iran foreign policy adviser Kharazi: "I don't see any room for diplomacy any more." New Supreme Leader Mojtaba Khamenei vowed to KEEP Hormuz closed. No ceasefire path visible. War Day ~14+. France + US escort missions not yet operational.
 - **CRITICAL: RECESSION RISK ELEVATED.** 20% of global oil + significant LNG flows cut. Sustained $100+ Brent → CPI 3.0%+ → Fed forced hawkish → stagflation scenario ACTIVE. If Hormuz stays closed months → recession becomes base case.
 - **S167 REASSESSMENT:** My S156 3-month outlook assumed 50% probability oil normalizes by June. With diplomacy dead + Hormuz at zero traffic + new Supreme Leader vowing closure → oil normalization probability drops to 25-30%. Elevated oil ($95-120) for months is now BASE CASE (50%). Spike to $120+ = 20-25% (was 10%). This materially changes: (1) BZU.MI KC#6 urgency (sell sooner), (2) FOMC hawkish probability (should be 50%, not 40%), (3) CVNA short conviction (INCREASES — oil devastates used car demand).
 
 **Previous CRITICAL items (13-mar, still valid):**
-- **OIL $100+ BRENT / $99 WTI.** IEA 400M barrel release announced but market calls it insufficient. Brent range $95-126 (volatile). WTI $94-119 peak.
+- **OIL $100+ BRENT / $99 WTI.** IEA 400M barrel release announced but market calls it insufficient. Brent range $95-120 (volatile). WTI 52wH $119.48, current $98.71.
 - **WAR ESCALATING.** Naval mines, ship attacks, new Supreme Leader = regime continuity. France Hormuz mission forming. US Navy escort planned but not active.
 - **MATERIAL: S&P AT 3-MONTH LOW.** -4.7% from 52wH. YTD returns now NEGATIVE (-2.3%). 3 consecutive down sessions. Broad selloff sparing only energy. Banks, tech, consumer disc all hit.
 - **MATERIAL: VIX 25.92 (was 25.5 → 27.7 intraday).** Elevated but not panic. Credit spreads widening slowly (HYG/LQD 0.7309).

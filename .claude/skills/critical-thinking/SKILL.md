@@ -105,6 +105,62 @@ PASO 5: Formular MI conclusion basada en DATOS PRIMARIOS
 - Alternativas consideradas: [que mas mire]
 - **Donde mi analisis depende de opinion de terceros?** [listar — si >0, reforzar con datos primarios]
 
+## Macro Data Verification Protocol (S172, post-Brent $126 error)
+
+> **Origin:** S167-S171. Wikipedia reported Brent peak "$126/bbl." Actual peak was ~$119.50 (yfinance 52wH $119.48 WTI). Decisions (BZU.MI SELL, recession modeling, FOMC recalibration) were made on inflated data. BZU.MI sell was correct regardless, but the error inflated urgency and distorted probability assessments.
+
+### Source Hierarchy for Prices and Macro Data
+
+| Tier | Source | Use | Trust Level |
+|------|--------|-----|-------------|
+| **T1: TRUTH** | `price_checker.py` (yfinance), `macro_fragility.py` (yfinance), SEC/company filings | Prices, FX, macro indicators, financial data | **Accept.** This is ground truth. |
+| **T2: RELIABLE** | Reuters, Bloomberg, CNBC (articles with specific data), FT, WSJ | Context, analysis, breaking news with numbers | **Trust but verify** any specific number against T1 before using in decisions. |
+| **T3: VERIFY** | Wikipedia, Al Jazeera, analyst reports, government agency pages | Context, narrative, background | **Never use for specific prices/numbers.** Cross-check ALL quantitative claims against T1. |
+| **T4: SENTIMENT** | Seeking Alpha, Twitter/X, Reddit, opinion blogs, forecasts | Sentiment gauge only | **Never cite as fact.** No numbers from T4 enter decision inputs. |
+
+### Cross-Check Rules (HARD)
+
+1. **Any price/macro number from WebSearch → verify against T1 tool BEFORE using in analysis.**
+   - Oil price → `macro_fragility.py world` (shows current + 52wH + 52wL)
+   - Stock price → `price_checker.py TICKER`
+   - FX rate → `price_checker.py` header
+   - If T1 and WebSearch disagree → T1 wins. Document the discrepancy.
+
+2. **Decision-grade data requires 2 sources minimum.**
+   - A sell/buy decision cannot rest on a single WebSearch result.
+   - Minimum: 1 T1 source + 1 T2 source agreeing on the key datapoint.
+   - If only T3/T4 available → flag as UNVERIFIED and state confidence level.
+
+3. **Alarming numbers get extra scrutiny.**
+   - If a number seems extreme (oil $126, stock -50% overnight, GDP -5%) → STOP.
+   - Check: Is this intraday peak or close? Is it the right instrument (WTI vs Brent)? Is it current or historical? Is the source T1/T2?
+   - The more alarming the number, the MORE verification required, not less. Alarm triggers verification, not action.
+
+4. **Distinguish peak vs current vs close.**
+   - "Oil hit $126" could mean: intraday tick, futures spike, different contract month, or close.
+   - Always clarify: peak intraday / settlement close / current. Decisions use CLOSE or CURRENT, not intraday peaks.
+
+### Verification Workflow (before any macro-based decision)
+
+```
+WebSearch returns alarming data point
+├─ STEP 1: Check T1 tool (price_checker / macro_fragility)
+│  ├─ T1 confirms → proceed with T1 number
+│  └─ T1 contradicts → USE T1, flag WebSearch as unreliable
+├─ STEP 2: If T1 unavailable, find T2 source (Reuters/Bloomberg/CNBC)
+│  ├─ T2 confirms → proceed with caveat "T2 sourced, not T1 verified"
+│  └─ T2 contradicts → flag discrepancy, use conservative estimate
+└─ STEP 3: Document source tier in analysis
+   └─ "Brent $103 (T1: macro_fragility 52wH $119.48 WTI)" not just "Brent $126"
+```
+
+### Error Pattern Added
+
+**#66. Using unverified WebSearch data for decision-grade analysis**
+Wikipedia said Brent $126. Actual peak was ~$119.50. Decisions (BZU.MI sell timing, recession probability, FOMC hawkish %) were calibrated on inflated data. The BZU.MI sell was correct regardless (KC#6 + worst E[CAGR] + low conviction), but recession probability was overstated and urgency was artificial. ALWAYS run `macro_fragility.py world` or `price_checker.py` BEFORE accepting any WebSearch price as decision input.
+
+---
+
 ## Escepticismo sano
 
 - **Management guidance**: Tipicamente optimista. Comparar guidance historico vs resultados reales de ESTA empresa para calibrar. No aplicar descuento fijo — razonar caso a caso
@@ -115,5 +171,5 @@ PASO 5: Formular MI conclusion basada en DATOS PRIMARIOS
 
 ---
 
-**Framework Version:** 4.1
-**Ultima actualizacion:** 2026-02-18
+**Framework Version:** 4.2
+**Ultima actualizacion:** 2026-03-14 (S172: Macro Data Verification Protocol added post-Brent $126 error)
