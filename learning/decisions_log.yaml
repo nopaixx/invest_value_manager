@@ -1421,3 +1421,27 @@ lessons:
       At QS 64 Tier B, the 15% MoS requirement is much harder to meet.
       Lesson: Tool output must be validated. TOOL-FIRST means running the actual tool,
       not trusting secondary references to it.
+
+  - date: 2026-03-14
+    lesson: "Insider selling must be classified: 10b5-1 automatic vs discretionary open-market"
+    from_decision: "DOCS insider analysis S172→S177: initially reported '0 buys, 50 sells = BEARISH'. WebSearch revealed Wampler sells 2K/month under Rule 10b5-1 plan adopted Nov 2024. Sitaram sells also 10b5-1. These are PRE-SCHEDULED, not discretionary signals."
+    impact: |
+      Revised DOCS from BEARISH → NEUTRAL insider signal. The initial assessment
+      incorrectly treated mechanical 10b5-1 dispositions as discretionary selling.
+      Smart money graph doesn't distinguish between the two.
+      RULE: Before interpreting insider selling as bearish, ALWAYS check via
+      insider_tracker.py or WebSearch whether sells are:
+        (a) 10b5-1 automatic plan (routine) → NEUTRAL
+        (b) Open-market discretionary (signal) → BEARISH if sustained
+        (c) Compensation vesting + immediate sale (tax) → NEUTRAL
+      Only (b) is a genuine conviction signal. Most insider selling is (a) or (c).
+      Error #66 analog: unverified data interpretation leading to wrong assessment.
+
+  - date: 2026-03-14
+    lesson: "Standing orders from changed macro regime must be re-validated before execution"
+    from_decision: "BZU.MI bought Mar 13 (oil $100) on R4 approved Feb 7 (oil $85). Pre-flight had 7 gates — none checked macro regime change. Sold 1 day later. Error #67 created."
+    impact: |
+      Gate 7 'MACRO REGIME CHECK' added to pre-execution-check skill.
+      'Would I buy this TODAY from zero?' question added as mindset framing.
+      Both changes prevent executing stale SOs in changed macro environment.
+      Cost: ~EUR 0 P&L (1 day hold) but process failure identified and fixed.
