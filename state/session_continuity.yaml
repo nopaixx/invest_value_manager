@@ -5,9 +5,9 @@
 # Created: 2026-03-13
 
 session:
-  id: 170
+  id: 171
   date: "2026-03-14"
-  timestamp_cet: "2026-03-14T08:30"
+  timestamp_cet: "2026-03-14T09:30"
 
 completed:
   vigilance:
@@ -33,8 +33,8 @@ completed:
   net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged from S158. No cash, no trades possible until Mar 26. Oil $101 + VIX 26.6 + gold ATH = macro stress continuing. FOMC Tue is binary."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: FTNT 9.8% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26."
-  velocity_units: 13  # S170: Oil crisis precedent analysis, SM crisis scan, defensive screening, velocity accounting
-  velocity_note: "S170: Oil crisis precedents (1973: 21-month bear -48%, 1990: 3-month recovery). Current crisis most comparable to 1973 in severity but SPR 400M bbl = mitigant. GS/MS: $70 Brent by year-end even in prolonged scenario. SM: CPRT 4 quality funds, SPGI 7 funds, IHP.L shorts → 0%. Defensive candidates: PODD below entry, STMN.SW near entry, VEEV near entry. Weekly velocity ~40 units / 21 sessions."
+  velocity_units: 15  # S171: EDEN.PA deep check (1u), IHP.L resilience (1u), GDDY recession stress test with historical data (1u)
+  velocity_note: "S171: Core position deep checks. EDEN.PA RESILIENT (B2B services not industrial, oil irrelevant, SI +0.73pp marginal, 2 KCs MON both non-oil). IHP.L HIGHLY RESILIENT (zero NHS, zero oil, shorts 0%, IHT planning counter-cyclical). GDDY PASSES recession test (2008: renewals 58→45%, 2020: registrations SURGED. $15/yr = last thing cut. Bear FV $110 → E[CAGR] 15.6% at $81). World view current from S167."
   portfolio_ecagr:
     deployed: 18.0%
     blended: 18.0%
