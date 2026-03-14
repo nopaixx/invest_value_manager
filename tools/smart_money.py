@@ -5532,6 +5532,570 @@ def cmd_ingest_afm_nl(args):
           f"(from {total_rows} rows, {len(isin_to_ticker)} ISINs tracked)")
 
 
+
+# ---------------------------------------------------------------------------
+# CMD: weekly-report
+# ---------------------------------------------------------------------------
+
+REPORTS_DIR = os.path.join(PROJECT_ROOT, "reports", "smart_money")
+UNIVERSE_PATH = os.path.join(PROJECT_ROOT, "state", "quality_universe.yaml")
+
+
+def _get_universe_tickers():
+    """Load ticker set from quality_universe.yaml."""
+    if not os.path.exists(UNIVERSE_PATH):
+        return set()
+    with open(UNIVERSE_PATH) as f:
+        data = yaml.safe_load(f) or {}
+    return {c["ticker"] for c in data.get("quality_universe", {}).get("companies", []) if c.get("ticker")}
+
+
+def _gather_signals(G, portfolio_tickers):
+    """Reuse signal detection logic from cmd_signals. Returns list of (type, ticker, weight, detail)."""
+    stocks = nodes_by_type(G, "stock")
+    # Load previous snapshot
+    G_prev = None
+    if os.path.exists(SNAPSHOTS_DIR):
+        snaps = sorted(f for f in os.listdir(SNAPSHOTS_DIR) if f.startswith("graph_") and f.endswith(".json"))
+        for s in reversed(snaps):
+            snap_date = s[6:16]
+            if snap_date != today_str():
+                try:
+                    with open(os.path.join(SNAPSHOTS_DIR, s)) as f2:
+                        G_prev = nx.node_link_graph(json.load(f2), directed=True, multigraph=True)
+                except Exception:
+                    pass
+                break
+
+    median = _median_holder_count(G)
+    signals = []
+
+    for ticker, sdata in stocks.items():
+        holders = []
+        shorts = []
+        insider_buys = []
+
+        for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+            rel = d.get("relation", "")
+            if rel == "holds":
+                holders.append((u, d))
+            elif rel == "shorts":
+                shorts.append((u, d))
+            elif rel == "insider_buy":
+                insider_buys.append((u, d))
+
+        total_si = sum(s[1].get("pct_shares", 0) or 0 for s in shorts)
+        n_short_funds = len(shorts)
+        in_pf = ticker in portfolio_tickers
+
+        quality_holders = []
+        for fund_id, ed in holders:
+            ft = G.nodes.get(fund_id, {}).get("fund_type", "")
+            if ft in ("value", "quality", "activist"):
+                quality_holders.append((fund_id, ed))
+
+        recent_buys_60d = []
+        recent_buys_90d = []
+        for person_id, ed in insider_buys:
+            buy_date = ed.get("date", "")
+            days = days_since(buy_date)
+            if days is not None:
+                if days <= 60:
+                    recent_buys_60d.append((person_id, ed))
+                if days <= 90:
+                    recent_buys_90d.append((person_id, ed))
+
+        if len(recent_buys_60d) >= 3:
+            total_val = sum(b[1].get("value", 0) or 0 for b in recent_buys_60d)
+            signals.append(("INSIDER_CLUSTER_BUY", ticker, "STRONG BULL",
+                            f"{len(recent_buys_60d)} insiders bought in 60d (${total_val:,.0f})"))
+
+        if len(quality_holders) >= 2:
+            names = [G.nodes.get(h[0], {}).get("full_name", h[0])[:20] for h in quality_holders[:3]]
+            signals.append(("CONVERGENCE", ticker, "BULL",
+                            f"{len(quality_holders)} quality/value funds: {', '.join(names)}"))
+
+        if total_si > 10 and quality_holders and recent_buys_90d:
+            signals.append(("SHORT_SQUEEZE_RISK", ticker, "CONTROVERSY",
+                            f"SI {total_si:.1f}% + {len(quality_holders)} quality holders + insider buying"))
+
+        if G_prev and ticker in G_prev.nodes:
+            prev_holders = {u for u, v, k, d in G_prev.in_edges(ticker, data=True, keys=True)
+                           if d.get("relation") == "holds"}
+            curr_holders = {h[0] for h in holders}
+            exited = prev_holders - curr_holders
+            for ex_fund in exited:
+                ft = G_prev.nodes.get(ex_fund, {}).get("fund_type", "")
+                if ft in ("value", "quality", "activist"):
+                    name = G_prev.nodes.get(ex_fund, {}).get("full_name", ex_fund)
+                    signals.append(("SMART_EXIT", ticker, "BEAR WARNING",
+                                    f"{name} ({ft}) exited position"))
+
+        if total_si > 8 and n_short_funds >= 5:
+            signals.append(("SHORT_ESCALATION", ticker, "BEAR",
+                            f"SI {total_si:.1f}% ({n_short_funds} funds)"))
+
+        if holders and total_si < 3 and recent_buys_90d and not in_pf:
+            new_holder = False
+            if G_prev and ticker in G_prev.nodes:
+                prev_h = {u for u, v, k, d in G_prev.in_edges(ticker, data=True, keys=True)
+                          if d.get("relation") == "holds"}
+                curr_h = {h[0] for h in holders}
+                new_holder = bool(curr_h - prev_h)
+            if new_holder or not G_prev:
+                signals.append(("QUIET_ACCUMULATION", ticker, "STEALTH BULL",
+                                f"New fund + low SI ({total_si:.1f}%) + insider buying"))
+
+        crowding = len(holders) / median if median > 0 else 0
+        if len(holders) >= 5 and crowding > 3.0:
+            signals.append(("HERD_WARNING", ticker, "RISK",
+                            f"{len(holders)} funds hold ({crowding:.1f}x median)"))
+
+        for person_id, ed in recent_buys_90d:
+            role = (ed.get("role", "") or "").lower()
+            value = ed.get("value", 0) or 0
+            if value >= 100000 and any(w in role for w in ["ceo", "chief executive", "founder", "chairman", "director"]):
+                name = G.nodes.get(person_id, {}).get("full_name", person_id)
+                signals.append(("FOUNDER_CONVICTION", ticker, "CONVICTION",
+                                f"{name} ({ed.get('role', '')}) ${value:,.0f}"))
+                break
+
+    signals.sort(key=lambda x: (x[0], x[1]))
+    return signals
+
+
+def _gather_alerts(G, portfolio_tickers):
+    """Reuse alert detection logic from cmd_alerts. Returns list of (type, ticker, msg) and snapshot name."""
+    snaps = sorted(f for f in os.listdir(SNAPSHOTS_DIR) if f.startswith("graph_") and f.endswith(".json"))
+    prev_snap = None
+    for s in reversed(snaps):
+        snap_date = s[6:16]
+        if snap_date != today_str():
+            prev_snap = s
+            break
+
+    if not prev_snap:
+        return [], None
+
+    with open(os.path.join(SNAPSHOTS_DIR, prev_snap)) as f:
+        prev_data = json.load(f)
+    G_prev = nx.node_link_graph(prev_data, directed=True, multigraph=True)
+
+    alerts = []
+    for ticker in portfolio_tickers:
+        curr_shorts = {}
+        for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+            if d.get("relation") == "shorts":
+                curr_shorts[u] = d.get("pct_shares", 0) or 0
+
+        prev_shorts = {}
+        if ticker in G_prev.nodes:
+            for u, v, k, d in G_prev.in_edges(ticker, data=True, keys=True):
+                if d.get("relation") == "shorts":
+                    prev_shorts[u] = d.get("pct_shares", 0) or 0
+
+        curr_total = sum(curr_shorts.values())
+        prev_total = sum(prev_shorts.values())
+        delta = curr_total - prev_total
+
+        if delta > 0.3:
+            alerts.append(("SHORT_INCREASE", ticker, f"short {prev_total:.2f}% -> {curr_total:.2f}% (+{delta:.2f}pp)"))
+        elif delta < -0.3:
+            alerts.append(("SHORT_DECREASE", ticker, f"short {prev_total:.2f}% -> {curr_total:.2f}% ({delta:.2f}pp) [bullish]"))
+
+        curr_holders = set()
+        for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+            if d.get("relation") == "holds":
+                curr_holders.add(u)
+
+        prev_holders = set()
+        if ticker in G_prev.nodes:
+            for u, v, k, d in G_prev.in_edges(ticker, data=True, keys=True):
+                if d.get("relation") == "holds":
+                    prev_holders.add(u)
+
+        new_holders = curr_holders - prev_holders
+        exit_holders = prev_holders - curr_holders
+
+        for h in new_holders:
+            fund_name = G.nodes[h].get("full_name", h) if h in G.nodes else h
+            alerts.append(("NEW_HOLDER", ticker, f"{fund_name} entered position"))
+        for h in exit_holders:
+            fund_name = G_prev.nodes[h].get("full_name", h) if h in G_prev.nodes else h
+            alerts.append(("EXIT_HOLDER", ticker, f"{fund_name} exited position"))
+
+        recent_buys = []
+        for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+            if d.get("relation") == "insider_buy":
+                buy_date = d.get("date", "")
+                days_ago = days_since(buy_date)
+                if days_ago is not None and days_ago <= 30:
+                    recent_buys.append((u, d))
+
+        if len(recent_buys) >= 3:
+            total_val = sum(b[1].get("value", 0) or 0 for b in recent_buys)
+            alerts.append(("INSIDER_CLUSTER_BUY", ticker, f"{len(recent_buys)} insiders bought in 30d (${total_val:,.0f} total)"))
+
+        if delta < -0.3 and len(recent_buys) >= 2:
+            alerts.append(("CONVERGENCE", ticker, "insider buy + short decrease = strong bullish signal"))
+
+    alerts.sort(key=lambda x: x[0])
+    return alerts, prev_snap
+
+
+def _gather_crowding(G, top_n=15):
+    """Reuse crowding logic. Returns list of (ticker, name, holders, crowding, in_pf) and median."""
+    stocks = nodes_by_type(G, "stock")
+    median = _median_holder_count(G)
+    scores = []
+    for ticker, data in stocks.items():
+        holders = sum(1 for u, v, k, d in G.in_edges(ticker, data=True, keys=True) if d.get("relation") == "holds")
+        crowding = holders / median if median > 0 else 0
+        in_pf = data.get("in_portfolio", False)
+        scores.append((ticker, data.get("name", ""), holders, crowding, in_pf))
+    scores.sort(key=lambda x: -x[3])
+    return scores[:top_n], median
+
+
+def _gather_discovery_untracked(G, universe_tickers, portfolio_tickers, min_funds=3):
+    """Find stocks in graph held by 3+ quality funds NOT in our universe or portfolio."""
+    stocks = nodes_by_type(G, "stock")
+    known = universe_tickers | portfolio_tickers
+    discoveries = []
+
+    for ticker, sdata in stocks.items():
+        if ticker in known:
+            continue
+        holders = []
+        for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+            if d.get("relation") == "holds":
+                fund_type = G.nodes.get(u, {}).get("fund_type", "")
+                if fund_type in ("value", "quality", "activist"):
+                    fund_name = G.nodes.get(u, {}).get("full_name", u)
+                    holders.append(fund_name)
+        if len(holders) >= min_funds:
+            name = sdata.get("name", "")
+            discoveries.append((ticker, name, holders))
+
+    discoveries.sort(key=lambda x: -len(x[2]))
+    return discoveries
+
+
+def _gather_insider_summary(G):
+    """Summarize insider activity across graph. Returns (total_buys, total_sells, buy_value, sell_value, clusters)."""
+    stocks = nodes_by_type(G, "stock")
+    total_buys = 0
+    total_sells = 0
+    buy_value = 0
+    sell_value = 0
+    clusters = []  # (ticker, count, value)
+
+    for ticker in stocks:
+        buys_90d = []
+        sells_90d = []
+        for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+            rel = d.get("relation", "")
+            dt = d.get("date", "")
+            days_ago = days_since(dt)
+            if days_ago is not None and days_ago <= 90:
+                val = d.get("value", 0) or 0
+                if rel == "insider_buy":
+                    buys_90d.append(val)
+                elif rel == "insider_sell":
+                    sells_90d.append(val)
+
+        total_buys += len(buys_90d)
+        total_sells += len(sells_90d)
+        buy_value += sum(buys_90d)
+        sell_value += sum(sells_90d)
+
+        if len(buys_90d) >= 3:
+            clusters.append((ticker, len(buys_90d), sum(buys_90d)))
+
+    clusters.sort(key=lambda x: -x[2])
+    return total_buys, total_sells, buy_value, sell_value, clusters
+
+
+def _gather_changes_vs_snapshot(G):
+    """Compare current graph vs last snapshot. Returns dict of changes."""
+    snaps = sorted(f for f in os.listdir(SNAPSHOTS_DIR) if f.startswith("graph_") and f.endswith(".json"))
+    prev_snap = None
+    for s in reversed(snaps):
+        snap_date = s[6:16]
+        if snap_date != today_str():
+            prev_snap = s
+            break
+
+    if not prev_snap:
+        return None
+
+    with open(os.path.join(SNAPSHOTS_DIR, prev_snap)) as f:
+        G_prev = nx.node_link_graph(json.load(f), directed=True, multigraph=True)
+
+    snap_date = prev_snap[6:16]
+
+    # Node changes
+    curr_stocks = set(n for n, d in G.nodes(data=True) if d.get("type") == "stock")
+    prev_stocks = set(n for n, d in G_prev.nodes(data=True) if d.get("type") == "stock")
+    curr_funds = set(n for n, d in G.nodes(data=True) if d.get("type") == "fund")
+    prev_funds = set(n for n, d in G_prev.nodes(data=True) if d.get("type") == "fund")
+
+    new_stocks = curr_stocks - prev_stocks
+    removed_stocks = prev_stocks - curr_stocks
+    new_funds = curr_funds - prev_funds
+
+    # Edge count changes
+    curr_edges = G.number_of_edges()
+    prev_edges = G_prev.number_of_edges()
+
+    # Relation-type edge counts
+    curr_holds = len([1 for u, v, k, d in G.edges(data=True, keys=True) if d.get("relation") == "holds"])
+    prev_holds = len([1 for u, v, k, d in G_prev.edges(data=True, keys=True) if d.get("relation") == "holds"])
+    curr_shorts_e = len([1 for u, v, k, d in G.edges(data=True, keys=True) if d.get("relation") == "shorts"])
+    prev_shorts_e = len([1 for u, v, k, d in G_prev.edges(data=True, keys=True) if d.get("relation") == "shorts"])
+    curr_ins = len([1 for u, v, k, d in G.edges(data=True, keys=True) if d.get("relation") in ("insider_buy", "insider_sell")])
+    prev_ins = len([1 for u, v, k, d in G_prev.edges(data=True, keys=True) if d.get("relation") in ("insider_buy", "insider_sell")])
+
+    return {
+        "snapshot_date": snap_date,
+        "new_stocks": sorted(new_stocks),
+        "removed_stocks": sorted(removed_stocks),
+        "new_funds": sorted(new_funds),
+        "edge_delta": curr_edges - prev_edges,
+        "holds_delta": curr_holds - prev_holds,
+        "shorts_delta": curr_shorts_e - prev_shorts_e,
+        "insider_delta": curr_ins - prev_ins,
+        "curr_nodes": G.number_of_nodes(),
+        "curr_edges": curr_edges,
+    }
+
+
+def cmd_weekly_report(args):
+    """Generate a comprehensive markdown report and save to reports/smart_money/YYYY-MM-DD.md."""
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+
+    G = load_graph()
+    if not G.number_of_nodes():
+        print("Graph is empty. Run sync-portfolio and refresh first.")
+        return
+
+    portfolio_tickers = set(get_portfolio_tickers())
+    universe_tickers = _get_universe_tickers()
+    stocks = nodes_by_type(G, "stock")
+    funds = nodes_by_type(G, "fund")
+
+    # Gather all data
+    signals = _gather_signals(G, portfolio_tickers)
+    alerts, prev_snap = _gather_alerts(G, portfolio_tickers)
+    crowding_data, median_holders = _gather_crowding(G, top_n=15)
+    discoveries = _gather_discovery_untracked(G, universe_tickers, portfolio_tickers, min_funds=3)
+    total_buys, total_sells, buy_value, sell_value, insider_clusters = _gather_insider_summary(G)
+    changes = _gather_changes_vs_snapshot(G)
+
+    # Separate portfolio signals
+    pf_signals = [(t, tk, w, d) for t, tk, w, d in signals if tk in portfolio_tickers]
+    pf_alerts = [(t, tk, m) for t, tk, m in alerts]
+
+    report_date = today_str()
+    lines = []
+    lines.append(f"# Smart Money Weekly Report - {report_date}\n")
+    lines.append(f"Graph: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges | "
+                 f"{len(stocks)} stocks, {len(funds)} funds | "
+                 f"Portfolio: {len(portfolio_tickers)} positions | "
+                 f"Universe: {len(universe_tickers)} tracked\n")
+
+    # --- Executive Summary ---
+    lines.append("## Executive Summary\n")
+    summary_bullets = []
+    if signals:
+        by_type = defaultdict(int)
+        for s in signals:
+            by_type[s[0]] += 1
+        summary_bullets.append(f"- **{len(signals)} signals detected**: "
+                               + ", ".join(f"{t} ({c})" for t, c in sorted(by_type.items())))
+    else:
+        summary_bullets.append("- No actionable signals detected (graph may need refresh)")
+
+    if alerts:
+        summary_bullets.append(f"- **{len(alerts)} portfolio alerts** vs last snapshot")
+    else:
+        summary_bullets.append("- No portfolio alerts vs last snapshot")
+
+    bull_signals = [s for s in signals if s[2] in ("BULL", "STRONG BULL", "CONVICTION", "STEALTH BULL")]
+    bear_signals = [s for s in signals if s[2] in ("BEAR", "BEAR WARNING")]
+    if bull_signals:
+        tickers = sorted(set(s[1] for s in bull_signals))
+        summary_bullets.append(f"- **Bullish signals** on: {', '.join(tickers[:8])}")
+    if bear_signals:
+        tickers = sorted(set(s[1] for s in bear_signals))
+        summary_bullets.append(f"- **Bearish signals** on: {', '.join(tickers[:8])}")
+
+    if discoveries:
+        summary_bullets.append(f"- **{len(discoveries)} untracked opportunities** held by 3+ quality funds")
+
+    if insider_clusters:
+        cluster_tickers = [c[0] for c in insider_clusters[:5]]
+        summary_bullets.append(f"- **Insider cluster buys** (90d): {', '.join(cluster_tickers)}")
+
+    for b in summary_bullets[:5]:
+        lines.append(b)
+    lines.append("")
+
+    # --- Changes vs Last Report ---
+    lines.append("## Changes vs Last Report\n")
+    if changes:
+        lines.append(f"Comparing against snapshot from **{changes['snapshot_date']}**.\n")
+        lines.append(f"| Metric | Change |")
+        lines.append(f"|--------|--------|")
+        if changes["new_stocks"]:
+            lines.append(f"| New stocks enrolled | {', '.join(changes['new_stocks'][:10])} ({len(changes['new_stocks'])} total) |")
+        if changes["removed_stocks"]:
+            lines.append(f"| Stocks removed | {', '.join(changes['removed_stocks'][:10])} |")
+        if changes["new_funds"]:
+            lines.append(f"| New funds tracked | {len(changes['new_funds'])} |")
+        d = changes
+        lines.append(f"| Edges (total) | {d['edge_delta']:+d} (now {d['curr_edges']}) |")
+        lines.append(f"| Holdings edges | {d['holds_delta']:+d} |")
+        lines.append(f"| Short edges | {d['shorts_delta']:+d} |")
+        lines.append(f"| Insider edges | {d['insider_delta']:+d} |")
+    else:
+        lines.append("No previous snapshot available for comparison. Run `snapshot` to establish a baseline.")
+    lines.append("")
+
+    # --- Active Signals ---
+    lines.append("## Active Signals\n")
+    if signals:
+        lines.append(f"| Ticker | Signal | Weight | Detail | Portfolio |")
+        lines.append(f"|--------|--------|--------|--------|-----------|")
+        for sig_type, ticker, weight, detail in signals:
+            pf_marker = "[PF]" if ticker in portfolio_tickers else ""
+            lines.append(f"| {ticker} | {sig_type} | {weight} | {detail} | {pf_marker} |")
+    else:
+        lines.append("No signals detected. Graph may need more data (run `refresh`).")
+    lines.append("")
+
+    # --- Alerts ---
+    lines.append("## Alerts\n")
+    if prev_snap:
+        lines.append(f"Changes for portfolio positions vs **{prev_snap}**.\n")
+    if pf_alerts:
+        lines.append(f"| Type | Ticker | Detail |")
+        lines.append(f"|------|--------|--------|")
+        for alert_type, ticker, msg in pf_alerts:
+            priority = "!!" if alert_type in ("CONVERGENCE", "INSIDER_CLUSTER_BUY") else ""
+            lines.append(f"| {priority}{alert_type} | {ticker} | {msg} |")
+    else:
+        lines.append("No portfolio alerts. Graph unchanged vs previous snapshot.")
+    lines.append("")
+
+    # --- Crowding Risk ---
+    lines.append("## Crowding Risk\n")
+    lines.append(f"Top 15 most-held stocks (median holders: {median_holders:.0f}).\n")
+    lines.append(f"| Ticker | Name | Holders | Crowding | Portfolio |")
+    lines.append(f"|--------|------|---------|----------|-----------|")
+    for ticker, name, holders, crowding, in_pf in crowding_data:
+        pf_marker = "[PF]" if in_pf else ""
+        lines.append(f"| {ticker} | {name[:30]} | {holders} | {crowding:.2f}x | {pf_marker} |")
+    lines.append("")
+
+    # --- Discovery ---
+    lines.append("## Discovery -- Untracked Opportunities\n")
+    lines.append("Stocks held by 3+ quality/value/activist funds NOT in our universe or portfolio.\n")
+    if discoveries:
+        lines.append(f"| Ticker | Name | Quality Funds | Fund Names |")
+        lines.append(f"|--------|------|---------------|------------|")
+        for ticker, name, holder_names in discoveries[:20]:
+            funds_str = ", ".join(h[:25] for h in holder_names[:4])
+            if len(holder_names) > 4:
+                funds_str += f" +{len(holder_names)-4} more"
+            lines.append(f"| {ticker} | {name[:30]} | {len(holder_names)} | {funds_str} |")
+    else:
+        lines.append("No untracked stocks held by 3+ quality funds found.")
+    lines.append("")
+
+    # --- Insider Activity Summary ---
+    lines.append("## Insider Activity Summary\n")
+    lines.append(f"**Last 90 days**: {total_buys} buys (${buy_value:,.0f}) vs {total_sells} sells (${sell_value:,.0f})\n")
+    net = buy_value - sell_value
+    net_label = "NET BUY" if net > 0 else "NET SELL"
+    lines.append(f"**Net**: {net_label} ${abs(net):,.0f}\n")
+    if insider_clusters:
+        lines.append("### Cluster Buys (3+ insiders in 90 days)\n")
+        lines.append(f"| Ticker | Insiders | Total Value |")
+        lines.append(f"|--------|----------|-------------|")
+        for ticker, count, value in insider_clusters:
+            pf_marker = " [PF]" if ticker in portfolio_tickers else ""
+            lines.append(f"| {ticker}{pf_marker} | {count} | ${value:,.0f} |")
+    else:
+        lines.append("No insider cluster buys detected (90d window).")
+    lines.append("")
+
+    # --- Portfolio Overlay ---
+    lines.append("## Portfolio Overlay\n")
+    lines.append("Signals and positioning for stocks we own.\n")
+    if pf_signals:
+        lines.append(f"| Ticker | Signal | Weight | Detail |")
+        lines.append(f"|--------|--------|--------|--------|")
+        for sig_type, ticker, weight, detail in pf_signals:
+            lines.append(f"| {ticker} | {sig_type} | {weight} | {detail} |")
+    else:
+        lines.append("No active signals for portfolio positions.")
+
+    # Portfolio positions with their holder/short summary
+    lines.append("")
+    lines.append("### Position Summary\n")
+    lines.append(f"| Ticker | Holders | Short Funds | Total SI% | Insider Buys (90d) | Insider Sells (90d) |")
+    lines.append(f"|--------|---------|-------------|-----------|--------------------|--------------------|")
+    for ticker in sorted(portfolio_tickers):
+        if ticker not in G.nodes:
+            continue
+        n_holders = 0
+        n_short_funds = 0
+        total_si = 0
+        n_insider_buys = 0
+        n_insider_sells = 0
+        for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+            rel = d.get("relation", "")
+            if rel == "holds":
+                n_holders += 1
+            elif rel == "shorts":
+                n_short_funds += 1
+                total_si += d.get("pct_shares", 0) or 0
+            elif rel == "insider_buy":
+                days_ago = days_since(d.get("date", ""))
+                if days_ago is not None and days_ago <= 90:
+                    n_insider_buys += 1
+            elif rel == "insider_sell":
+                days_ago = days_since(d.get("date", ""))
+                if days_ago is not None and days_ago <= 90:
+                    n_insider_sells += 1
+        si_str = f"{total_si:.2f}%" if total_si > 0 else "-"
+        lines.append(f"| {ticker} | {n_holders} | {n_short_funds} | {si_str} | {n_insider_buys} | {n_insider_sells} |")
+
+    lines.append("")
+    lines.append(f"---\n*Generated {report_date} by smart_money.py weekly-report*\n")
+
+    # Write report
+    report_path = os.path.join(REPORTS_DIR, f"{report_date}.md")
+    with open(report_path, "w") as f:
+        f.write("\n".join(lines))
+
+    # Print summary to stdout
+    print(f"=== WEEKLY REPORT GENERATED ===\n")
+    print(f"  File: {report_path}")
+    print(f"  Date: {report_date}")
+    print(f"  Graph: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
+    print(f"  Signals: {len(signals)}")
+    print(f"  Alerts: {len(alerts)}")
+    print(f"  Discoveries: {len(discoveries)}")
+    print(f"  Insider clusters: {len(insider_clusters)}")
+    if pf_signals:
+        print(f"  Portfolio signals: {len(pf_signals)}")
+        for sig_type, ticker, weight, detail in pf_signals[:5]:
+            print(f"    [{weight}] {ticker}: {sig_type} - {detail}")
+    print()
+
+
 # ---------------------------------------------------------------------------
 # Main CLI
 # ---------------------------------------------------------------------------
@@ -5708,6 +6272,9 @@ def main():
     p_iafm = subparsers.add_parser("ingest-afm-nl", help="Parse AFM NL CSV and apply shorts to graph (Netherlands)")
     p_iafm.add_argument("--file", help="Specific CSV file path")
 
+    # weekly-report
+    subparsers.add_parser("weekly-report", help="Generate comprehensive markdown weekly report")
+
     args = parser.parse_args()
 
     if not args.command:
@@ -5754,6 +6321,7 @@ def main():
         "sector-overlay": cmd_sector_overlay,
         "ingest-consob": cmd_ingest_consob,
         "ingest-afm-nl": cmd_ingest_afm_nl,
+        "weekly-report": cmd_weekly_report,
     }
 
     cmd_func = commands.get(args.command)
