@@ -124,10 +124,11 @@ Para cada standing order TRIGGERED o NEAR:
 [ ] If macro regime unchanged: PASS
 ```
 
-### Gate 8: SMART MONEY CONTEXT
+### Gate 8: SMART MONEY CONTEXT (MANDATORY — not optional)
 ```
-[ ] Run: python3 tools/smart_money.py stock-profile TICKER
-[ ] Run: python3 tools/smart_money.py signals --ticker TICKER
+[ ] Run: python3 tools/smart_money.py stock-profile TICKER ← MANDATORY, no exceptions
+[ ] Run: python3 tools/smart_money.py signals --ticker TICKER ← MANDATORY, no exceptions
+[ ] Document output in pre-flight presentation (even if "no data")
 [ ] If SI increased >2x since thesis → FLAG for re-eval before execution
 [ ] If quality fund EXITED since thesis → FLAG for re-eval before execution
 [ ] If insider cluster buy appeared → BOOST confidence (note in presentation)

@@ -147,7 +147,11 @@ FASE 2.5.7: Smart Money Check (si stale, cada 3 dias shorts / 90 dias 13F)
   → smart_money.py alerts → incorporar alertas relevantes (SHORT_INCREASE, INSIDER_CLUSTER_BUY, CONVERGENCE)
   → smart_money.py snapshot (si hubo update)
   → Cadencia: NO es cron. Claude decide basado en contexto (earnings, re-eval, R1 nuevo)
+  → **MONTHLY** (cada 30 dias): smart_money.py ingest-insider --universe → Form4 insider data
   → **QUARTERLY** (cada 90 dias, alinear con 13F cycle): smart_money.py discover-funds → evaluar candidatos
+  → **WEEKLY** (cada 7 dias, viernes/sabado): smart_money.py weekly-report → genera reports/smart_money/YYYY-MM-DD.md
+    → Consolida: signals, alerts, crowding, discovery, insider activity, portfolio overlay
+    → Commit al repo para historial y revision por humano
   → **EUROPEAN CAPTURE DISCIPLINE** (ANTES de R1/re-eval/earnings para stock no-US):
     → WebSearch "[TICKER] major shareholders" + "[TICKER] insider transactions [year]"
     → Capturar hallazgos: capture [fund] holds [pct]% [TICKER] / capture [role] [name] bought [val] [TICKER]
