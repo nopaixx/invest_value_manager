@@ -5,9 +5,9 @@
 # Created: 2026-03-13
 
 session:
-  id: 166
+  id: 168
   date: "2026-03-14"
-  timestamp_cet: "2026-03-14T04:30"
+  timestamp_cet: "2026-03-14T06:30"
 
 completed:
   vigilance:
@@ -28,13 +28,13 @@ completed:
     - "S160: DOCS integrity check — thesis 6 days fresh, FV $30, E[CAGR] 15.2%, 5/6 KCs CLEAR, 1 MONITORING. NO refresh needed."
     - "S160: VRSK SO needs formalization in standing_orders.yaml — R4 approved, FV $210, at $200.61 = 2.9% above $195 entry."
     - "S160: Weekly summary updated with S158-S160 work. Gaps updated: ALFA.L R4 DONE, ZTS DA DONE."
-  key_finding: "S160: Correction deepening — 4 SOs triggered + 4 near. SPGI now AT trigger ($422 vs $420). Portfolio -2.8%. CVNA short working (+7.5%). Pipeline advancing but EUR 0 cash blocks execution. VRSK R4 forgotten SO found."
+  key_finding: "S168 URGENT: Oil crisis FAR more severe than modeled. Brent peaked $126, Hormuz ZERO traffic, diplomacy dead. BZU.MI SELL MONDAY (KC#6 approaching, 11.2% worst, oil headwind structural). FOMC hawkish 50%. Recession if Hormuz stays closed months. Portfolio 45% BUNKER (defensive), outperforms -20% S&P by 3.6pp. Mar 26 UNCHANGED + EUR 426 buffer."
   net_exposure_updated: true
   net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged from S158. No cash, no trades possible until Mar 26. Oil $101 + VIX 26.6 + gold ATH = macro stress continuing. FOMC Tue is binary."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: FTNT 9.8% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26."
-  velocity_units: 8  # +1u S166 April rotation model + contrathesis + world view
-  velocity_note: "S166: April rotation modeled 4 scenarios. Scenario B optimal (SPGI EUR 500 + ALFA.L EUR 500 + EUR 137 buffer). VRSK SO at $195 produces 8.5% E[CAGR] = BELOW threshold (needs $176). Top 3 bear cases: ADBE FTC (HIGH), DOCS MFN (MED-HIGH), EDEN.PA France levy (MED-HIGH). 3-month outlook: oil-driven correction, quality protects, positioned correctly."
+  velocity_units: 10  # S167: VRSK recalibrated, ADBE FTC plan, geopolitical escalation. S168: Full oil stress test, BZU.MI SELL MONDAY, recession modeling.
+  velocity_note: "S168 URGENT: Full reassessment post-geopolitical escalation. Brent peaked $126, Hormuz CLOSED, diplomacy dead. BZU.MI SELL MONDAY recommended (don't wait April). FOMC hawkish 40%→50%. Recession modeling: portfolio -16.4% vs S&P -20% (outperform 3.6pp). BUNKER positions (WKL.AS, EDEN.PA, IHP.L, NVO) = 45% of portfolio. Mar 26 plan UNCHANGED but with EUR 426 buffer from BZU.MI."
   portfolio_ecagr:
     deployed: 18.0%
     blended: 18.0%
