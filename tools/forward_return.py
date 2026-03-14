@@ -121,7 +121,11 @@ def get_conviction_for_ticker(decisions_log, ticker):
 
 def get_fx_rates():
     """Get EUR/USD and GBP/EUR and DKK/EUR exchange rates. Reports fallback usage."""
-    defaults = {'EURUSD': 1.16, 'GBPEUR': 1.15, 'DKKEUR': 0.134}
+    try:
+        from fx_defaults import FX_DEFAULTS
+        defaults = {'EURUSD': FX_DEFAULTS['EURUSD'], 'GBPEUR': FX_DEFAULTS['GBPEUR'], 'DKKEUR': FX_DEFAULTS['DKKEUR']}
+    except ImportError:
+        defaults = {'EURUSD': 1.16, 'GBPEUR': 1.15, 'DKKEUR': 0.134}
     fallbacks_used = []
 
     try:
