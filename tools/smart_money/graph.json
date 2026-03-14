@@ -8715,7 +8715,7 @@
       "date": "2026-01-27",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "durn-daniel-j",
       "target": "ADBE",
       "key": 0
@@ -8727,7 +8727,7 @@
       "date": "2025-03-20",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "durn-daniel-j",
       "target": "ADBE",
       "key": 1
@@ -8739,7 +8739,7 @@
       "date": "2024-09-17",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "durn-daniel-j",
       "target": "ADBE",
       "key": 2
@@ -8751,7 +8751,7 @@
       "date": "2025-10-31",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "forusz-jillian",
       "target": "ADBE",
       "key": 0
@@ -8763,7 +8763,7 @@
       "date": "2025-05-02",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "forusz-jillian",
       "target": "ADBE",
       "key": 1
@@ -8775,7 +8775,7 @@
       "date": "2025-01-28",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "forusz-jillian",
       "target": "ADBE",
       "key": 2
@@ -8787,7 +8787,7 @@
       "date": "2024-10-29",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "forusz-jillian",
       "target": "ADBE",
       "key": 3
@@ -8799,7 +8799,7 @@
       "date": "2025-01-28",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "ricks-david-a",
       "target": "ADBE",
       "key": 0
@@ -8811,7 +8811,7 @@
       "date": "2025-01-27",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 0
@@ -8823,7 +8823,7 @@
       "date": "2024-10-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 1
@@ -8835,7 +8835,7 @@
       "date": "2024-10-16",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 2
@@ -8847,7 +8847,7 @@
       "date": "2024-07-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 3
@@ -8859,7 +8859,7 @@
       "date": "2024-07-16",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 4
@@ -8871,7 +8871,7 @@
       "date": "2024-05-02",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "belsky-scott-k",
       "target": "ADBE",
       "key": 5
@@ -8883,7 +8883,7 @@
       "date": "2024-12-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "banse-amy-l",
       "target": "ADBE",
       "key": 0
@@ -8895,7 +8895,7 @@
       "date": "2024-09-25",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "narayen-shantanu",
       "target": "ADBE",
       "key": 0
@@ -8907,7 +8907,7 @@
       "date": "2024-06-27",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "narayen-shantanu",
       "target": "ADBE",
       "key": 1
@@ -8919,7 +8919,7 @@
       "date": "2024-07-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 0
@@ -8931,7 +8931,7 @@
       "date": "2024-07-16",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 1
@@ -8943,7 +8943,7 @@
       "date": "2024-06-17",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 2
@@ -8955,7 +8955,7 @@
       "date": "2024-06-03",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 3
@@ -8967,7 +8967,7 @@
       "date": "2024-05-06",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 4
@@ -8979,7 +8979,7 @@
       "date": "2024-04-25",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "garfield-mark-s",
       "target": "ADBE",
       "key": 5
@@ -8991,7 +8991,7 @@
       "date": "2024-06-17",
       "role": "General Counsel",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "rao-dana-jd",
       "target": "ADBE",
       "key": 0
@@ -14873,7 +14873,7 @@
       "date": "2026-03-03",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 0
@@ -14885,7 +14885,7 @@
       "date": "2026-02-02",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 1
@@ -14897,7 +14897,7 @@
       "date": "2026-01-02",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 2
@@ -14909,7 +14909,7 @@
       "date": "2025-12-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 3
@@ -14921,7 +14921,7 @@
       "date": "2025-11-03",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 4
@@ -14933,7 +14933,7 @@
       "date": "2025-10-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 5
@@ -14945,7 +14945,7 @@
       "date": "2025-09-02",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 6
@@ -14957,7 +14957,7 @@
       "date": "2025-08-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 7
@@ -14969,7 +14969,7 @@
       "date": "2025-07-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 8
@@ -14981,7 +14981,7 @@
       "date": "2025-06-02",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 9
@@ -14993,7 +14993,7 @@
       "date": "2025-05-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 10
@@ -15005,7 +15005,7 @@
       "date": "2025-04-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 11
@@ -15017,7 +15017,7 @@
       "date": "2025-03-03",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 12
@@ -15029,7 +15029,7 @@
       "date": "2025-02-11",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 13
@@ -15041,7 +15041,7 @@
       "date": "2024-11-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 14
@@ -15053,7 +15053,7 @@
       "date": "2024-10-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 15
@@ -15065,7 +15065,7 @@
       "date": "2024-09-03",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 16
@@ -15077,7 +15077,7 @@
       "date": "2024-08-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 17
@@ -15089,7 +15089,7 @@
       "date": "2024-07-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 18
@@ -15101,7 +15101,7 @@
       "date": "2024-06-03",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 19
@@ -15113,7 +15113,7 @@
       "date": "2024-05-17",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 20
@@ -15125,7 +15125,7 @@
       "date": "2024-04-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "wampler-kira-scherer",
       "target": "DOCS",
       "key": 21
@@ -15137,7 +15137,7 @@
       "date": "2025-11-21",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 0
@@ -15149,7 +15149,7 @@
       "date": "2025-09-24",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 1
@@ -15161,7 +15161,7 @@
       "date": "2025-09-02",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 2
@@ -15173,7 +15173,7 @@
       "date": "2025-08-15",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 3
@@ -15185,7 +15185,7 @@
       "date": "2025-06-25",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 4
@@ -15197,7 +15197,7 @@
       "date": "2025-05-23",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 5
@@ -15209,7 +15209,7 @@
       "date": "2025-02-03",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 6
@@ -15221,7 +15221,7 @@
       "date": "2024-11-01",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 7
@@ -15233,7 +15233,7 @@
       "date": "2024-08-09",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 8
@@ -15245,7 +15245,7 @@
       "date": "2024-06-12",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "cabral-timothy-s",
       "target": "DOCS",
       "key": 9
@@ -15257,7 +15257,7 @@
       "date": "2025-10-10",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "benjamin-regina-m",
       "target": "DOCS",
       "key": 0
@@ -15269,7 +15269,7 @@
       "date": "2025-09-12",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "benjamin-regina-m",
       "target": "DOCS",
       "key": 1
@@ -15281,7 +15281,7 @@
       "date": "2025-08-08",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "benjamin-regina-m",
       "target": "DOCS",
       "key": 2
@@ -15293,7 +15293,7 @@
       "date": "2025-07-11",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "benjamin-regina-m",
       "target": "DOCS",
       "key": 3
@@ -15305,7 +15305,7 @@
       "date": "2025-06-25",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "benjamin-regina-m",
       "target": "DOCS",
       "key": 4
@@ -15317,7 +15317,7 @@
       "date": "2025-02-11",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "benjamin-regina-m",
       "target": "DOCS",
       "key": 5
@@ -15329,7 +15329,7 @@
       "date": "2025-08-26",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bryson-anna-collins",
       "target": "DOCS",
       "key": 0
@@ -15341,7 +15341,7 @@
       "date": "2025-05-02",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bryson-anna-collins",
       "target": "DOCS",
       "key": 1
@@ -15353,7 +15353,7 @@
       "date": "2025-02-11",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bryson-anna-collins",
       "target": "DOCS",
       "key": 2
@@ -15365,7 +15365,7 @@
       "date": "2024-11-12",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bryson-anna-collins",
       "target": "DOCS",
       "key": 3
@@ -15377,7 +15377,7 @@
       "date": "2024-08-13",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bryson-anna-collins",
       "target": "DOCS",
       "key": 4
@@ -15389,7 +15389,7 @@
       "date": "2024-08-09",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bryson-anna-collins",
       "target": "DOCS",
       "key": 5
@@ -15401,7 +15401,7 @@
       "date": "2024-06-12",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bryson-anna-collins",
       "target": "DOCS",
       "key": 6
@@ -15413,7 +15413,7 @@
       "date": "2025-02-12",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "yang-watkin-phoebe-l",
       "target": "DOCS",
       "key": 0
@@ -15425,7 +15425,7 @@
       "date": "2024-08-05",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "yang-watkin-phoebe-l",
       "target": "DOCS",
       "key": 1
@@ -15437,7 +15437,7 @@
       "date": "2024-07-29",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "yang-watkin-phoebe-l",
       "target": "DOCS",
       "key": 2
@@ -15449,7 +15449,7 @@
       "date": "2025-02-12",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "tangney-jeffrey-a",
       "target": "DOCS",
       "key": 0
@@ -15461,7 +15461,7 @@
       "date": "2024-05-16",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "overpeck-craig",
       "target": "DOCS",
       "key": 0
@@ -15473,7 +15473,7 @@
       "date": "2026-02-03",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "ohlgart-christiane-margrit",
       "target": "FTNT",
       "key": 0
@@ -15485,7 +15485,7 @@
       "date": "2025-11-04",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "ohlgart-christiane-margrit",
       "target": "FTNT",
       "key": 1
@@ -15497,7 +15497,7 @@
       "date": "2025-08-05",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "ohlgart-christiane-margrit",
       "target": "FTNT",
       "key": 2
@@ -15509,7 +15509,7 @@
       "date": "2025-06-06",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "ohlgart-christiane-margrit",
       "target": "FTNT",
       "key": 3
@@ -15521,7 +15521,7 @@
       "date": "2026-02-02",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-michael",
       "target": "FTNT",
       "key": 0
@@ -15533,7 +15533,7 @@
       "date": "2025-11-03",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-michael",
       "target": "FTNT",
       "key": 1
@@ -15545,7 +15545,7 @@
       "date": "2025-08-04",
       "role": "Officer and Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-michael",
       "target": "FTNT",
       "key": 2
@@ -15557,7 +15557,7 @@
       "date": "2025-05-02",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-michael",
       "target": "FTNT",
       "key": 3
@@ -15569,7 +15569,7 @@
       "date": "2025-03-11",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-michael",
       "target": "FTNT",
       "key": 4
@@ -15581,7 +15581,7 @@
       "date": "2024-11-04",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-michael",
       "target": "FTNT",
       "key": 5
@@ -15593,7 +15593,7 @@
       "date": "2024-08-02",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-michael",
       "target": "FTNT",
       "key": 6
@@ -15605,7 +15605,7 @@
       "date": "2024-05-02",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-michael",
       "target": "FTNT",
       "key": 7
@@ -15617,7 +15617,7 @@
       "date": "2026-02-02",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 0
@@ -15629,7 +15629,7 @@
       "date": "2025-11-03",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 1
@@ -15641,7 +15641,7 @@
       "date": "2025-08-04",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 2
@@ -15653,7 +15653,7 @@
       "date": "2025-05-02",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 3
@@ -15665,7 +15665,7 @@
       "date": "2025-03-10",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 4
@@ -15677,7 +15677,7 @@
       "date": "2025-02-12",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 5
@@ -15689,7 +15689,7 @@
       "date": "2025-01-15",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 6
@@ -15701,7 +15701,7 @@
       "date": "2024-12-18",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 7
@@ -15713,7 +15713,7 @@
       "date": "2024-11-13",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 8
@@ -15725,7 +15725,7 @@
       "date": "2024-10-16",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 9
@@ -15737,7 +15737,7 @@
       "date": "2024-09-18",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 10
@@ -15749,7 +15749,7 @@
       "date": "2024-08-14",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 11
@@ -15761,7 +15761,7 @@
       "date": "2024-07-16",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 12
@@ -15773,7 +15773,7 @@
       "date": "2024-06-12",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 13
@@ -15785,7 +15785,7 @@
       "date": "2024-05-15",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 14
@@ -15797,7 +15797,7 @@
       "date": "2024-04-17",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "xie-kenneth-qing",
       "target": "FTNT",
       "key": 15
@@ -15809,7 +15809,7 @@
       "date": "2025-06-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "neukom-william-h",
       "target": "FTNT",
       "key": 0
@@ -15821,7 +15821,7 @@
       "date": "2025-03-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "neukom-william-h",
       "target": "FTNT",
       "key": 1
@@ -15833,7 +15833,7 @@
       "date": "2024-12-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "neukom-william-h",
       "target": "FTNT",
       "key": 2
@@ -15845,7 +15845,7 @@
       "date": "2024-06-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "neukom-william-h",
       "target": "FTNT",
       "key": 3
@@ -15857,7 +15857,7 @@
       "date": "2025-03-12",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "goldman-kenneth-allen",
       "target": "FTNT",
       "key": 0
@@ -15869,7 +15869,7 @@
       "date": "2025-03-10",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "goldman-kenneth-allen",
       "target": "FTNT",
       "key": 1
@@ -15881,7 +15881,7 @@
       "date": "2025-02-26",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "jensen-keith-franklin",
       "target": "FTNT",
       "key": 0
@@ -15893,7 +15893,7 @@
       "date": "2025-02-19",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "jensen-keith-franklin",
       "target": "FTNT",
       "key": 1
@@ -15905,7 +15905,7 @@
       "date": "2024-11-26",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "jensen-keith-franklin",
       "target": "FTNT",
       "key": 2
@@ -15917,7 +15917,7 @@
       "date": "2024-11-19",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "jensen-keith-franklin",
       "target": "FTNT",
       "key": 3
@@ -15929,7 +15929,7 @@
       "date": "2024-11-08",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "jensen-keith-franklin",
       "target": "FTNT",
       "key": 4
@@ -15941,7 +15941,7 @@
       "date": "2024-08-27",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "jensen-keith-franklin",
       "target": "FTNT",
       "key": 5
@@ -15953,7 +15953,7 @@
       "date": "2024-08-20",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "jensen-keith-franklin",
       "target": "FTNT",
       "key": 6
@@ -15965,7 +15965,7 @@
       "date": "2024-06-05",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "jensen-keith-franklin",
       "target": "FTNT",
       "key": 7
@@ -15977,7 +15977,7 @@
       "date": "2024-11-08",
       "role": "Chief Operating Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "whittle-john",
       "target": "FTNT",
       "key": 0
@@ -15989,7 +15989,7 @@
       "date": "2024-08-21",
       "role": "Chief Operating Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "whittle-john",
       "target": "FTNT",
       "key": 1
@@ -16001,7 +16001,7 @@
       "date": "2026-02-24",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "berkman-david-j",
       "target": "HLNE",
       "key": 0
@@ -16013,7 +16013,7 @@
       "date": "2026-02-20",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "delgado-moreira-juan",
       "target": "HLNE",
       "key": 0
@@ -16025,7 +16025,7 @@
       "date": "2025-11-07",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "delgado-moreira-juan",
       "target": "HLNE",
       "key": 1
@@ -16037,7 +16037,7 @@
       "date": "2024-11-11",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "delgado-moreira-juan",
       "target": "HLNE",
       "key": 2
@@ -16049,7 +16049,7 @@
       "date": "2026-02-20",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "hirsch-erik-r",
       "target": "HLNE",
       "key": 0
@@ -16061,7 +16061,7 @@
       "date": "2026-02-20",
       "role": "Chief Operating Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "kramer-andrea-anigati",
       "target": "HLNE",
       "key": 0
@@ -16073,7 +16073,7 @@
       "date": "2025-09-04",
       "role": "Beneficial Owner of more than 10% of a Class of Security",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "french-river-5-ltd",
       "target": "HLNE",
       "key": 0
@@ -16085,7 +16085,7 @@
       "date": "2025-02-12",
       "role": "Officer, Director and Beneficial Owner",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "rogers-hartley-r",
       "target": "HLNE",
       "key": 0
@@ -16097,7 +16097,7 @@
       "date": "2026-03-03",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "hult-william",
       "target": "TW",
       "key": 0
@@ -16109,7 +16109,7 @@
       "date": "2026-02-10",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "hult-william",
       "target": "TW",
       "key": 1
@@ -16121,7 +16121,7 @@
       "date": "2025-01-06",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "hult-william",
       "target": "TW",
       "key": 2
@@ -16133,7 +16133,7 @@
       "date": "2024-11-06",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "hult-william",
       "target": "TW",
       "key": 3
@@ -16145,7 +16145,7 @@
       "date": "2024-05-10",
       "role": "Chief Executive Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "hult-william",
       "target": "TW",
       "key": 4
@@ -16157,7 +16157,7 @@
       "date": "2026-02-20",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bruni-enrico",
       "target": "TW",
       "key": 0
@@ -16169,7 +16169,7 @@
       "date": "2025-03-20",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bruni-enrico",
       "target": "TW",
       "key": 1
@@ -16181,7 +16181,7 @@
       "date": "2024-07-22",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bruni-enrico",
       "target": "TW",
       "key": 2
@@ -16193,7 +16193,7 @@
       "date": "2024-06-03",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "bruni-enrico",
       "target": "TW",
       "key": 3
@@ -16205,7 +16205,7 @@
       "date": "2026-02-10",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "furber-sara",
       "target": "TW",
       "key": 0
@@ -16217,7 +16217,7 @@
       "date": "2025-03-20",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "furber-sara",
       "target": "TW",
       "key": 1
@@ -16229,7 +16229,7 @@
       "date": "2025-01-06",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "furber-sara",
       "target": "TW",
       "key": 2
@@ -16241,7 +16241,7 @@
       "date": "2024-05-17",
       "role": "Chief Financial Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "furber-sara",
       "target": "TW",
       "key": 3
@@ -16253,7 +16253,7 @@
       "date": "2026-02-10",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "friedman-douglas-l",
       "target": "TW",
       "key": 0
@@ -16265,7 +16265,7 @@
       "date": "2025-03-19",
       "role": "General Counsel",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "friedman-douglas-l",
       "target": "TW",
       "key": 1
@@ -16277,7 +16277,7 @@
       "date": "2025-01-06",
       "role": "General Counsel",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "friedman-douglas-l",
       "target": "TW",
       "key": 2
@@ -16289,7 +16289,7 @@
       "date": "2024-03-20",
       "role": "General Counsel",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "friedman-douglas-l",
       "target": "TW",
       "key": 3
@@ -16301,7 +16301,7 @@
       "date": "2026-02-10",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "peterson-justin",
       "target": "TW",
       "key": 0
@@ -16313,7 +16313,7 @@
       "date": "2025-03-19",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "peterson-justin",
       "target": "TW",
       "key": 1
@@ -16325,7 +16325,7 @@
       "date": "2025-01-06",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "peterson-justin",
       "target": "TW",
       "key": 2
@@ -16337,7 +16337,7 @@
       "date": "2024-03-25",
       "role": "Chief Technology Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "peterson-justin",
       "target": "TW",
       "key": 3
@@ -16349,7 +16349,7 @@
       "date": "2026-02-10",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "clack-amy",
       "target": "TW",
       "key": 0
@@ -16361,7 +16361,7 @@
       "date": "2025-05-14",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "berns-steven-d",
       "target": "TW",
       "key": 0
@@ -16373,7 +16373,7 @@
       "date": "2024-11-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "berns-steven-d",
       "target": "TW",
       "key": 1
@@ -16385,7 +16385,7 @@
       "date": "2024-05-20",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "berns-steven-d",
       "target": "TW",
       "key": 2
@@ -16397,7 +16397,7 @@
       "date": "2025-03-19",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "zucker-scott-d",
       "target": "TW",
       "key": 0
@@ -16409,7 +16409,7 @@
       "date": "2025-01-06",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "zucker-scott-d",
       "target": "TW",
       "key": 1
@@ -16421,7 +16421,7 @@
       "date": "2024-05-07",
       "role": "Officer",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "zucker-scott-d",
       "target": "TW",
       "key": 2
@@ -16433,7 +16433,7 @@
       "date": "2024-08-08",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "dixon-troy",
       "target": "TW",
       "key": 0
@@ -16445,7 +16445,7 @@
       "date": "2024-08-06",
       "role": "Director",
       "data_source": "yfinance",
-      "date_added": "2026-03-13",
+      "date_added": "2026-03-14",
       "source": "yared-rana",
       "target": "TW",
       "key": 0
