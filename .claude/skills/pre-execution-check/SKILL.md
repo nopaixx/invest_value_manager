@@ -27,7 +27,26 @@ Antes de recomendar ejecucion, SIEMPRE hacer pre-flight check.
 
 ---
 
-## Pre-Flight Checklist (7 gates)
+## THE QUESTION (before any gate runs)
+
+> **"Would I buy this stock TODAY, from zero, with EVERYTHING I know right now?"**
+
+This is NOT a gate. It's a mindset. Gates check boxes. This question forces you to
+THINK. If BZU.MI's SO triggered on Mar 13 and you asked this question — cement
+company, 30-40% energy cost, oil at $100, Hormuz closed, war day 13 — the answer
+is obviously NO. No gate needed. Just honest thinking.
+
+If the answer is NO or HESITANT: **stop**. Do not proceed to gates. The SO is stale
+regardless of what the gates say. Re-evaluate the thesis in current context first.
+
+If the answer is YES with conviction: proceed to gates for systematic verification.
+
+Origin: S172 post-mortem. BZU.MI bought Mar 13 (oil $100), sell recommended Mar 14.
+The 8 gates all passed because none asked this simple question.
+
+---
+
+## Pre-Flight Checklist (8 gates)
 
 Para cada standing order TRIGGERED o NEAR:
 

@@ -5,9 +5,9 @@
 # Created: 2026-03-13
 
 session:
-  id: 171
+  id: 172
   date: "2026-03-14"
-  timestamp_cet: "2026-03-14T09:30"
+  timestamp_cet: "2026-03-14T10:00"
 
 completed:
   vigilance:
@@ -28,13 +28,13 @@ completed:
     - "S160: DOCS integrity check — thesis 6 days fresh, FV $30, E[CAGR] 15.2%, 5/6 KCs CLEAR, 1 MONITORING. NO refresh needed."
     - "S160: VRSK SO needs formalization in standing_orders.yaml — R4 approved, FV $210, at $200.61 = 2.9% above $195 entry."
     - "S160: Weekly summary updated with S158-S160 work. Gaps updated: ALFA.L R4 DONE, ZTS DA DONE."
-  key_finding: "S168 URGENT: Oil crisis FAR more severe than modeled. Brent peaked $126, Hormuz ZERO traffic, diplomacy dead. BZU.MI SELL MONDAY (KC#6 approaching, 11.2% worst, oil headwind structural). FOMC hawkish 50%. Recession if Hormuz stays closed months. Portfolio 45% BUNKER (defensive), outperforms -20% S&P by 3.6pp. Mar 26 UNCHANGED + EUR 426 buffer."
+  key_finding: "S172: Zero-base question added to pre-flight. Error #67 documented. EXPOSED positions stress-tested: DNLM.L weighted E[CAGR] 8.1% = CONCERN → sizing reduced EUR 440→300. DOCS 10.5% = WATCH. HLNE 12.0% = OK. BZU.MI SELL MONDAY confirmed. Mar 26 plan adjusted (GDDY EUR 720 + DNLM.L EUR 300 + EUR ~540 buffer)."
   net_exposure_updated: true
   net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged from S158. No cash, no trades possible until Mar 26. Oil $101 + VIX 26.6 + gold ATH = macro stress continuing. FOMC Tue is binary."
   rotation_check: true
   rotation_note: "Bottom 3 unchanged: FTNT 9.8% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26."
-  velocity_units: 15  # S171: EDEN.PA deep check (1u), IHP.L resilience (1u), GDDY recession stress test with historical data (1u)
-  velocity_note: "S171: Core position deep checks. EDEN.PA RESILIENT (B2B services not industrial, oil irrelevant, SI +0.73pp marginal, 2 KCs MON both non-oil). IHP.L HIGHLY RESILIENT (zero NHS, zero oil, shorts 0%, IHT planning counter-cyclical). GDDY PASSES recession test (2008: renewals 58→45%, 2020: registrations SURGED. $15/yr = last thing cut. Bear FV $110 → E[CAGR] 15.6% at $81). World view current from S167."
+  velocity_units: 17  # S172: Zero-base question integrated (1u), oil stress test on EXPOSED positions (1u), SM insider ingest + signals refresh (1u)
+  velocity_note: "S172: 'Would I buy from zero TODAY?' integrated as pre-flight mindset (NOT gate). Error #67 (stale R4 in changed macro). Oil stress test: HLNE 12.0% weighted (OK), DOCS 10.5% (WATCH), DNLM.L 8.1% (CONCERN). DNLM.L Mar 26 sizing reduced EUR 440→300. SM: Form4 ingested (12 buys, 144 sells). HLNE insider cluster confirmed. PODD below entry ($220 vs $240)."
   portfolio_ecagr:
     deployed: 18.0%
     blended: 18.0%
