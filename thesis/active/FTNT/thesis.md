@@ -8,6 +8,7 @@
 > Sector View: world/sectors/cybersecurity.md (FRESH, same day)
 > Stage: R4 APPROVED — POSITION OPENED 2026-02-26 (5.98 shares @ $79.12, EUR 400)
 > EXIT: APPROVED S152 (2026-03-13). E[CAGR] 9.4% worst, 3 KCs MONITORING, 4.3% MoS. Rotate to SPGI EUR 400 + best available EUR 375. Late April timing.
+> **Bear Case:** CVE vulnerability pattern escalating (11 new vulns Mar 10, CISA advisory). Deferred revenue growth decelerating. E[CAGR] 9.8% worst in portfolio. EXITING April — contrathesis supports exit decision.
 
 ---
 

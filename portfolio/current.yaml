@@ -31,7 +31,7 @@ positions:
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
     conviction: high
-    last_review: 2026-03-08
+    last_review: 2026-03-15
     intentional_weight: 18.7  # Weight after S144c1 ADD (EUR 317 at EUR 18.79). Last action on EDEN.PA.
     fair_value: "EUR 29.0 (adversarial, was 38.4)"
     exit_plan: "HOLD. SI declining (21.2%→9.64% AMF, Citadel COVERED, Millennium reduced). ADD prohibition RELAXED — reconsider at EUR 17. TRIM at EUR 22+ (19%→15%). EXIT if France levy tabled (KC#13) or 2027-28 guide <5%. KC#1 MONITORING, KC#7 MONITORING ELEVATED."

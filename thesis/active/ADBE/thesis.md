@@ -13,6 +13,7 @@ Adobe cotiza a P/E 16x (-43% de maximos), el mercado teme disrupcion por IA pero
 > Pipeline Stage: R2_COMPLETE (DA S146c9-10. R3 after Q1 earnings.)
 > **Post-Earnings (Mar 13):** Q1 FY2026 CONDITIONAL BEAT. Rev $6.40B (+12%) BULL. EPS $6.06 BULL. AI-first ARR tripled. Cash from ops $2.96B record. CEO Narayen stepping down (stays Chair). KC#9 added (successor risk). FV $390 MAINTAINED. All 9 KCs CLEAR.
 > **FTC SETTLEMENT (Mar 13, discovered S180):** $150M total ($75M penalties + $75M free services). Trial Oct 2026 CANCELLED. Adobe must implement easy cancellation + advance notification. KC#6 RESOLVED — settlement terms MILD (no structural remedy, no forced unbundling, $150M = 1.5% annual FCF). FV $390 → potential UPSIDE as FTC uncertainty premium (~$24, 6%) can now be unwound. Conviction upgraded MEDIUM → MEDIUM-HIGH.
+> **Bear Case:** CEO Narayen departure creates succession risk (KC#9). AI open-source creative tools could reach professional quality in 3-5yr. P/E 14.9x already prices significant pessimism. SELL if successor announced AND Q2 misses AND churn rises >2pp.
 
 ---
 

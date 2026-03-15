@@ -9,6 +9,7 @@
 > **Fair Value:** EUR 29.0 (R3 maintained S146c9. Was EUR 38.4 pre-adversarial. DA bear EUR 25.40-30.90 brackets thesis.)
 > **Expected Growth:** 6% (R3 resolved: 2026 -10%, 2027-28 +7%. Management guide +8/+12% at 70% probability.)
 > Pipeline Stage: R3_COMPLETE
+> **Bear Case:** France 8% social levy (15% prob) would compress margins EUR 100M+. Brazil Federal Court could cap interchange fees (15% prob). 22 funds short at 23.1% SI — quant-heavy but signals disagreement. SELL if France tables formal levy bill OR 2027-28 guide <5%.
 
 ---
 

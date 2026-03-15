@@ -7,6 +7,7 @@
 > Sector View: world/sectors/uk-adviser-platforms.md (FRESH, updated 2026-03-07)
 > Pipeline Stage: R3_COMPLETE
 > **Status: ACTIVE HOLD** — 327 shares @ avg 319.6p (~11.4% portfolio, CEILING). BUY S108 + ADDs S127/S132/S143c8.
+> **Bear Case:** IHT pension reform Apr 2027 (15% prob) could trigger SIPP outflows >GBP 0.5B/Q. AJ Bell price war eroding fee premium. UK equity -25% sustained would mechanically reduce FUA and revenue. SELL if IHT reform enacted AND outflows >0.5B/Q.
 
 ## TL;DR
 

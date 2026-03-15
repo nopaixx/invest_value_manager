@@ -6,6 +6,7 @@
 > **Expected Growth:** 2% (post-DA actual 1-2%. Lowest growth in portfolio. Insurance premium decline structural but cyclical recovery expected 2026.)
 > **Fair Value:** 190 GBp (R3 S147c3, maintained. DA MODERATE COUNTER, 5 HIGH. DA bear 155p. Only 10% upside — yield play.)
 > Pipeline Stage: R3_COMPLETE
+> **Bear Case:** Google AI Overviews could disintermediate price comparison (KC#6). Growth 2% is lowest in portfolio. AI agents could automate insurance purchase without comparison sites. SELLING Mar 26 — contrathesis is moot.
 
 ---
 

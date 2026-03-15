@@ -5,6 +5,7 @@
 > **Expected Growth:** 6% (R3 resolved: FY2025 organic 5-6%, cloud +15%, EPS +24.7%. Margin expansion offsets low-single-digit revenue growth. Guided 2026: organic 5-7%.)
 > **Sector View:** professional-information-services.md (348 lines, COMPLETE — HARD GATE cleared S146)
 > Pipeline Stage: R3_COMPLETE
+> **Bear Case:** Receivables +23% vs revenue +3.5% is unexplained and concerning. AI tax/compliance plugins (TR CoCounsel) could erode competitive position over 5yr. New CEO Caywood is unproven. P/E 11.9x may be correct pricing, not opportunity. SELL if organic growth <3% 2Q.
 
 ## TL;DR
 

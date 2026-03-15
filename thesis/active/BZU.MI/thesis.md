@@ -8,6 +8,7 @@ Buzzi is the most profitable cement company globally, with 53% family ownership,
 > **Expected Growth:** 3% (GDP-level cement organic + 2.1% buyback accretion)
 > **QS:** 73 tool / 75 adjusted (Tier B treatment)
 > **Kill Conditions:** KC#1 MONITORING US EBITDA margin <30% 2yr, KC#2 CLEAR net debt >2x EBITDA, KC#3 CLEAR family <40%, KC#4 CLEAR Russia writedown >EUR 500M, KC#5 CLEAR ROIC <WACC 2yr, KC#6 MONITORING Brent >$95 sustained 6mo AND EBITDA margin compression >5pp
+> **Bear Case:** Oil $100+ directly compresses cement margins (30-40% energy cost). KC#6 clock running (Brent >$95 since Feb 28). US cement demand declining 3yr. Worst E[CAGR] 11.2% + lowest conviction. SELLING MONDAY.
 
 ## Quality Score
 

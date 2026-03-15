@@ -5,6 +5,7 @@
 > R1 Fundamental Analysis | 2026-02-23 | Updated: 2026-03-07 (S147c4)
 > Analyst: fundamental-analyst agent | Framework v4.0
 > Pipeline Stage: R3_COMPLETE
+> **Bear Case:** RPM compression -14% in credit offsets ADV records. CEO sold $23.1M in 30 days (10b5-1 but pattern). LSEG orderly stake reduction could overhang. Only 1 quality fund (Cantillon). SELL if Q1 Apr shows RPM collapse despite record ADV.
 
 ---
 

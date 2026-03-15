@@ -6,6 +6,7 @@
 > Sector View: pharma-healthcare.md (Health Information Services)
 > Pipeline Stage: R3_COMPLETE
 > **Expected Growth:** 8% (R3 resolved: TAM 7% + share gains 1-2pp - MFN drag 1pp. Was 10%. Sell-side ~9%, Q4 guide 4%, "record Jan bookings" suggests sandbagged.)
+> **Bear Case:** MFN clauses (16/20 clients) create pricing ceiling — growth may be structurally 3-4% not 8%. 126 clients at 84% of revenue = extreme concentration. Probability-weighted FV $25.4 gives only 4% MoS. TRIM to 5% if Q4 growth <8%. EXIT if <4%.
 
 ---
 
