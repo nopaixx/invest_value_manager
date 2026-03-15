@@ -187,26 +187,12 @@ standing_orders:
     notes: "R2 DA COMPLETE S158. MODERATE COUNTER (7 HIGH/17). FV $130→$120 (committee confirmed, DA validated). Growth 7%→5%. WIDE moat but NARROWING (double franchise headwind). E[CAGR] at $105 = 6.3% < 12% = NOT actionable. At $95 = 9.9% — marginal. Apoquel generics Nov 2026 + Librela -32% US Q4 = compound risk. Polen + Fundsmith + Cantillon holders."
     kill_conditions: "FDA Librela restriction, core franchise -5% 2Q organic, ROIC <15% 2yr, OP margin <34% 2Q, receivables/rev >20% 2Q, Apoquel generic erosion >30% within 18mo of Nov 2026, OA Pain + Dermatology combined rev decline >10% YoY any quarter"
 
-  - ticker: STMN.SW
-    action: BUY
-    category: GATED
-    fill_prob_6m: 25
-    trigger: "<=CHF 80"
-    current_distance: "5.6%"
-    created_date: "2026-02-20"
-    staleness_status: FRESH  # S155: CHF 82.66, +3.3% from CHF 80. APPROACHING. Dated gate (GM at next report).
-    current_distance: "+3.3%"
-    gate: "GM >=70% at most recent reporting date (R4 APPROVED S103)"
-    size_eur: 400
-    shares_approx: 5
-    fair_value: "CHF 110"
-    mos_at_trigger: "27.3%"
-    tier: "B (QS 60/72 adj)"
-    notes: "R3 RESOLVED (S102). FV revised 118→110, entry 85→80, bear 92 (was 102.5). WACC 9.0% (was 8.5%). FCF margin 13% (was 15%). EV/EBIT 27x (was 29x). R2 was 11/19 MODERATE COUNTER. GM 70.1% = AMBER (kill at 69%). #1 dental implants, 71% GM, 29% insider, near-zero debt."
-    kill_conditions: "GM <69%, ROIC <WACC 2yr, market share <30%, US tariffs >20% 12mo"
-    pre_execution_condition: "R4 committee required. GM must be >=70% at most recent report. If H1 2026 (July) shows GM <70%, CANCEL this SO."
-    last_analysis_date: 2026-02-20
-    expiry: 2026-10-01
+  # STMN.SW — CANCELLED S195 (2026-03-15). GM GATE FAILED.
+  # FY2025 GM 68.6% < 70% required. GM declining 4 consecutive years (75.6→68.6%).
+  # QS tool dropped 72→53 (Tier C). ROIC 14.6% (+2.3pp spread = thin).
+  # EPS CAGR -5.5%. P/E 36.5x. Market pricing 29.5% growth vs 8.5% historical.
+  # Fundamentals deteriorating structurally. Thesis DEAD.
+  # Re-eval only if GM recovers >70% at H1 2026 results (July).
 
   - ticker: KLR.L
     action: BUY
