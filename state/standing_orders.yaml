@@ -45,47 +45,18 @@ standing_orders:
     last_analysis_date: 2026-02-27
     expiry: 2026-06-01
 
-  - ticker: BAH
-    action: BUY
-    category: ACTIVE
-    fill_prob_6m: 30
-    trigger: "<=$75"
-    current_distance: "-2.8%"
-    created_date: "2026-03-06"
-    staleness_status: FRESH  # NEAR TRIGGER. Deprioritized — zero MoS at R3 FV $78.
-    gate: "CLEARED — R4 CONDITIONAL APPROVE S143c6 (2026-03-07)"
-    r4_status: "CONDITIONAL APPROVE (S143c6, 2026-03-07). 6 PASS, 1 CONDITIONAL PASS (Gate 5 MoS). Committee FV $85."
-    size_eur: 400
-    fair_value: "$85 (R4 committee, was $88 R1 / $78 R3)"
-    mos_at_trigger: "13.3%"
-    tier: "B (QS 68)"
-    notes: "S151 UPDATE: R1-R4 COMPLETE. R3 FV $78 (was $105 R1). DEPRIORITIZED — zero MoS at $77.52. Entry $55 requires -30%. QS adjusted 73→68 Tier B. DOGE 60% structural, Palantir existential for advisory. FROZEN — revisit May 2026 if Q4 shows civil bottoming. SO at $75 is essentially AT R3 FV = inadequate MoS for Tier B."
-    kill_conditions: "KC#1 defense rev >10% decline 2Q, KC#2 book-to-bill <0.9x 2Q, KC#3 cleared workforce <18K, KC#4 DOGE cancellations >$2B, KC#5 dividend cut, KC#6 CEO departure, KC#7 Iran ceasefire + no supplemental + FY2027 budget <$1T"
-    pre_execution_condition: "R4 CLEARED. Execute when price hits $75. Pre-flight reverse DCF before execution."
-    last_analysis_date: 2026-03-07
-    expiry: 2026-09-01
+  # BAH — ARCHIVED S196 (2026-03-15). SO at $75 vs R3 FV $78 = 3.8% MoS = ZERO meaningful margin.
+  # DOGE 60% structural, Palantir existential. QS 73→68. FROZEN since S151.
+  # Thesis preserved thesis/research/BAH/. Re-eval if Q4 shows civil bottoming + price <$60.
 
   # BZU.MI BUY — EXECUTED 2026-03-13 (Session 151). Market buy at EUR 42.00, ~8.81 shares, EUR 370.
   # SO triggered at EUR 42.00 = exactly at trigger. R4 APPROVED S143c10 (10/10 PASS).
   # QS 73/75adj Tier B. FV EUR 57. E[CAGR] 15.9% at EUR 42 > 15% Tier B threshold.
   # Italian cement. Buzzi family 53%. EUR 200M buyback active. Standalone (no basket).
 
-  - ticker: ACGL
-    action: BUY
-    category: ACTIVE
-    fill_prob_6m: 50
-    trigger: "<=$88"
-    current_distance: "-7.1%"
-    created_date: "2026-02-14"
-    staleness_status: STALE  # S155: $94.13 is ABOVE $88 trigger (not triggered). Was incorrectly marked TRIGGERED. No R4 — needs R1 first. QS 57 Tier C = below threshold. Distance +7.0%.
-    current_distance: "+7.0%"
-    size_eur: 400
-    fair_value: "$110"
-    mos_at_trigger: "20%"
-    tier: "C (QS 57/68 adj)"
-    notes: "S155 UPDATE: Price $94.13, NOT triggered (was incorrectly marked). QS 57 is TIER C = below buy threshold. Needs R1 to verify if QS adj brings it to Tier B. Bermuda specialty insurer. Entering soft market. DEPRIORITIZE until QS verified."
-    last_analysis_date: 2026-02-14
-    expiry: 2026-07-31
+  # ACGL — ARCHIVED S196 (2026-03-15). QS 57 Tier C = below buy threshold.
+  # No R1 complete. Bermuda specialty insurer entering soft market.
+  # Re-eval if QS adj verified >65 (Tier B) AND price <$80.
 
   - ticker: GDDY
     action: BUY
