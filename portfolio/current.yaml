@@ -87,7 +87,7 @@ positions:
     thesis: thesis/active/MONY.L/thesis.md
     notes: "R3 S147c3: FV 190p maintained. DA MODERATE COUNTER, 5 HIGH (AI live disruption, P/E re-rating unlikely, narrow upside 10%). FIRST ROTATION CANDIDATE. Yield play (7.3% div + 3% buyback). Growth 2% = lowest in portfolio."
     conviction: medium
-    last_review: 2026-03-07
+    last_review: 2026-03-15
     intentional_weight: 7.3  # Weight post-S143 restructuring. No ADD/TRIM since open. Selling Mar 26.
     fair_value: "190 GBp (R3 S147c3, maintained. DA MODERATE COUNTER, 5 HIGH. DA bear 155p. QS 83/75.)"
     exit_plan: "HOLD yield anchor. FIRST ROTATION CANDIDATE if higher E[CAGR] needs capital. SELL if revenue declines YoY, Insurance -5%+, dividend cut, or AI adoption >5% of quotes. TRIM at >180p."
@@ -182,7 +182,7 @@ positions:
     thesis: thesis/active/WKL.AS/thesis.md
     conviction: medium
     fair_value: "EUR 80 (R3 S147c2, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear EUR 67. QS 72 Tier B.)"
-    last_review: 2026-03-07
+    last_review: 2026-03-15
     intentional_weight: 7.7  # Weight after S143 market buy (11.68 shares, EUR 800).
     exit_plan: "HOLD. TRIM at EUR 95+. ADD at EUR 55 (MoS 31%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, Harvey AI >$500M ARR, net debt >2.5x, OpenEvidence >100 hospital contracts)."
     notes: "R3 S147c2: FV EUR 80 maintained. DA MODERATE COUNTER (was STRONG Feb 11). FY2025 confirmed thesis. Receivables +23% vs rev +3.5% yellow flag. Growth 6% formalized (Error #64 fix). KC#12-13 added. No ADD until receivables explained + Caywood track record. Sector view cleared S146."

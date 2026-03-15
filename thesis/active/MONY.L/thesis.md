@@ -1,6 +1,6 @@
 # MONY.L - MONY Group PLC (MoneySupermarket)
 
-> Fecha: 2026-02-04 | Updated: 2026-03-07 (S147c3)
+> Fecha: 2026-02-04 | Updated: 2026-03-15 (S204 final refresh before Mar 26 sell)
 > Analista: Claude (fundamental-analyst)
 > Status: ACTIVE HOLD — 384 shares @ 171.0p avg, 7.3% portfolio. FIRST ROTATION CANDIDATE.
 > **Expected Growth:** 2% (post-DA actual 1-2%. Lowest growth in portfolio. Insurance premium decline structural but cyclical recovery expected 2026.)
@@ -1214,3 +1214,26 @@ The thesis is DEBILITADA but not invalidated. The core investment case (ROIC 31.
 
 *Re-evaluation completed: 2026-02-12*
 *Next review: Feb 23 (mandatory, earnings)*
+
+---
+
+## S204 FINAL REFRESH (2026-03-15) — Pre-Sell Assessment
+
+**SELLING Mar 26.** This is the final thesis update before exit.
+
+| Metric | At Buy (Feb 4) | Now (Mar 15) | Change |
+|--------|----------------|-------------|--------|
+| Price | 171.0p | 167.8p | -1.9% |
+| FV | 190 GBp | 190 GBp | Unchanged |
+| MoS | 10.1% | 11.7% | Slight improvement |
+| E[CAGR] | 13.7% | 13.8% | Negligible |
+| P&L | 0% | -3.2% | Small loss |
+| Dividend captured | 0 | ~GBP 28 (Mar 26 ex-div) | Positive |
+
+**KCs at exit:** KC#4 (organic traffic) MONITORING, KC#6 (Google AI Overviews) MONITORING. Both unchanged. No trigger.
+
+**Why selling:** Growth 2% = lowest in portfolio. E[CAGR] 13.8% < GDDY 25.2%. Capital better deployed in GDDY (25.2% E[CAGR]) + DNLM.L (15.5%).
+
+**Net outcome:** Small capital loss (-3.2%) + dividend (~GBP 28) + freed EUR 716 for rotation into higher E[CAGR] positions. The rotation math justifies the exit: GDDY at 25.2% replaces MONY.L at 13.8% = +11.4pp improvement.
+
+**Lesson:** MONY.L was a yield anchor that served its purpose (7.5% dividend) but wasn't a compounder. In a fund targeting 30% CAGR, a 2% growth stock consumes a slot that should go to a 8%+ growth compounder.

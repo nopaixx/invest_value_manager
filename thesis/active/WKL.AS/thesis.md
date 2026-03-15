@@ -1,6 +1,7 @@
 # WKL.AS - Wolters Kluwer NV
 
 > **Fair Value:** EUR 80 (R3 refresh S147c2, maintained. Re-eval S143c11 post-FY2025. Committee EUR 72 pre-FY2025, range 67-80. DA bear EUR 67. DA MODERATE COUNTER.)
+> **Last Update:** 2026-03-15 (S204 refresh)
 > **Expected Growth:** 6% (R3 resolved: FY2025 organic 5-6%, cloud +15%, EPS +24.7%. Margin expansion offsets low-single-digit revenue growth. Guided 2026: organic 5-7%.)
 > **Sector View:** professional-information-services.md (348 lines, COMPLETE — HARD GATE cleared S146)
 > Pipeline Stage: R3_COMPLETE
@@ -610,3 +611,25 @@ The near-zero bear case MoS requires attention: it means that IF AI disruption i
 **Current Price:** EUR 67.70
 **MoS:** +39.3%
 **Veredicto:** WATCHLIST -- BUY on confirmation (full-year results + sector view creation)
+
+---
+
+## S204 REFRESH (2026-03-15)
+
+| Metric | Last Review (Mar 7) | Now (Mar 15) | Change |
+|--------|-------------------|-------------|--------|
+| Price | EUR 67.70 | EUR 67.26 | -0.7% |
+| FV | EUR 80 | EUR 80 | Unchanged |
+| MoS | 18.2% | 18.9% | Slight improvement |
+| E[CAGR] | 15.5% | 15.7% | +0.2pp |
+| P/E | 12.2x | 11.9x | Getting cheaper |
+| KCs | 10/11 CLEAR, 1 MON | Same | No change |
+
+**Context update:**
+- **P/E 11.9x is historically extreme** for WKL.AS (historical 25-35x). At this multiple, the market is pricing WKL.AS like a dying business, but organic growth is 5-6% with cloud +15%.
+- **Oil/FOMC impact: MINIMAL.** Beta 0.12 — near-zero S&P correlation. Legal/tax information is non-discretionary spend. Most defensive position alongside IHP.L.
+- **KC#6 (AI tax/compliance plugins):** MONITORING. No new developments. TR CoCounsel has ~1M users but mostly legal, not tax. Claude/GPT have not gained IRS e-filing certification.
+- **Receivables +23% vs revenue +3.5%:** Still unexplained (flagged R3). New CEO Caywood hasn't addressed. WATCH but not thesis-breaking.
+- **7 institutional holders** (BlackRock 5.3%, Mawer 5.7%, Fidelity 4.1%, MFS 3.0%).
+
+**Verdict: HOLD.** Most defensive position in portfolio. E[CAGR] 15.7% above Tier B threshold. Drift -0.0pp (intentional 7.7%, current 7.7%). No action needed.
