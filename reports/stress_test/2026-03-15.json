@@ -2,7 +2,7 @@
   "date": "2026-03-15",
   "positions_count": 12,
   "total_value_usd": 11885.309642616654,
-  "portfolio_weighted_beta": 0.6196764116426581,
+  "portfolio_weighted_beta": 0.6196763934421972,
   "betas": {
     "EDEN.PA": {
       "beta": 0.16567684352720302,
@@ -17,16 +17,16 @@
       "annual_vol": 0.3126083644476507
     },
     "NVO": {
-      "beta": 1.0955876052063493,
+      "beta": 1.095587546656211,
       "weight": 0.11561768335682829,
       "direction": "long",
-      "annual_vol": 0.557537513996048
+      "annual_vol": 0.557537508407028
     },
     "MONY.L": {
-      "beta": 0.14489099096351885,
+      "beta": 0.1448910343910024,
       "weight": 0.07235789698679697,
       "direction": "long",
-      "annual_vol": 0.25189873800478507
+      "annual_vol": 0.2518987458805845
     },
     "IHP.L": {
       "beta": 0.11966365998808073,
@@ -35,10 +35,10 @@
       "annual_vol": 0.29794197403836165
     },
     "HLNE": {
-      "beta": 1.4789043507619344,
+      "beta": 1.4789040008392493,
       "weight": 0.09672524456289393,
       "direction": "long",
-      "annual_vol": 0.4495379377455296
+      "annual_vol": 0.4495378138850781
     },
     "DOCS": {
       "beta": 1.2123192420231503,
@@ -53,10 +53,10 @@
       "annual_vol": 0.42992282092190104
     },
     "TW": {
-      "beta": 0.41167871750149604,
+      "beta": 0.41167904685172313,
       "weight": 0.058518272613660084,
       "direction": "long",
-      "annual_vol": 0.30629480161804523
+      "annual_vol": 0.30629474470917634
     },
     "WKL.AS": {
       "beta": 0.13597361848102818,
@@ -224,7 +224,8 @@
         "weight": 0.18603037361854052,
         "position_drawdown": -0.368,
         "portfolio_impact": -0.0684591774916229,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 10.0
       },
       {
         "ticker": "ADBE",
@@ -233,7 +234,8 @@
         "weight": 0.08034251161853023,
         "position_drawdown": -0.256,
         "portfolio_impact": -0.02056768297434374,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 3.5
       },
       {
         "ticker": "NVO",
@@ -242,7 +244,8 @@
         "weight": 0.11561768335682829,
         "position_drawdown": -0.235,
         "portfolio_impact": -0.027170155588854647,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 4.0
       },
       {
         "ticker": "MONY.L",
@@ -251,7 +254,8 @@
         "weight": 0.07235789698679697,
         "position_drawdown": -0.382,
         "portfolio_impact": -0.027640716648956443,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 18.0
       },
       {
         "ticker": "IHP.L",
@@ -260,7 +264,8 @@
         "weight": 0.11438486156602098,
         "position_drawdown": -0.291,
         "portfolio_impact": -0.03328599471571211,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 7.0
       },
       {
         "ticker": "HLNE",
@@ -269,7 +274,8 @@
         "weight": 0.09672524456289393,
         "position_drawdown": -0.433,
         "portfolio_impact": -0.04188203089573307,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 9.0
       },
       {
         "ticker": "DOCS",
@@ -278,7 +284,8 @@
         "weight": 0.08187368800400513,
         "position_drawdown": -0.2529,
         "portfolio_impact": -0.0207058556962129,
-        "source": "sector proxy (healthcare \u00d7 0.9)"
+        "source": "sector proxy (healthcare \u00d7 0.9)",
+        "recovery_months": null
       },
       {
         "ticker": "FTNT",
@@ -287,7 +294,8 @@
         "weight": 0.07420596116766318,
         "position_drawdown": -0.376,
         "portfolio_impact": -0.027901441399041355,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 4.0
       },
       {
         "ticker": "TW",
@@ -296,7 +304,8 @@
         "weight": 0.058518272613660084,
         "position_drawdown": -0.3,
         "portfolio_impact": -0.017555481784098024,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 5.0
       },
       {
         "ticker": "WKL.AS",
@@ -305,7 +314,8 @@
         "weight": 0.07612361818906967,
         "position_drawdown": -0.209,
         "portfolio_impact": -0.01590983620151556,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 3.0
       },
       {
         "ticker": "BZU.MI",
@@ -314,7 +324,8 @@
         "weight": 0.035991190460759985,
         "position_drawdown": -0.426,
         "portfolio_impact": -0.015332247136283754,
-        "source": "REAL (traded in 2020)"
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 12.0
       },
       {
         "ticker": "CVNA",
@@ -323,14 +334,15 @@
         "weight": 0.00782869785523107,
         "position_drawdown": -0.339,
         "portfolio_impact": 0.002653928572923333,
-        "source": "sector proxy (consumer_disc \u00d7 1.0)"
+        "source": "sector proxy (consumer_disc \u00d7 1.0)",
+        "recovery_months": null
       }
     ]
   },
   "crisis_correlations": {
-    "crisis_avg_correlation": 0.1903904903643878,
-    "normal_avg_correlation": 0.10763624648928048,
-    "spike_multiplier": 1.7688324943897855,
+    "crisis_avg_correlation": 0.19039057478340746,
+    "normal_avg_correlation": 0.10763623609026633,
+    "spike_multiplier": 1.7688334495805051,
     "crisis_days_count": 23,
     "normal_days_count": 205,
     "threshold_return": -0.010049064381848914
@@ -432,30 +444,5 @@
       "risk_level": "LOW",
       "flagged": false
     }
-  ],
-  "monte_carlo": {
-    "percentiles": {
-      "P1": -0.44541724585998743,
-      "P5": -0.3010008063407309,
-      "P10": -0.22702140111858557,
-      "P25": -0.11009371376366883,
-      "P50": -0.001955567768391366,
-      "P75": 0.10646243906521444,
-      "P90": 0.20193836032283688,
-      "P95": 0.259637730463745,
-      "P99": 0.36989565611536834
-    },
-    "loss_probabilities": {
-      "loss_gt_10pct": 0.2711,
-      "loss_gt_20pct": 0.1258,
-      "loss_gt_30pct": 0.0503,
-      "loss_gt_40pct": 0.018,
-      "loss_gt_50pct": 0.0045
-    },
-    "mean_return": -0.007344256729122391,
-    "median_return": -0.001955567768391366,
-    "std_return": 0.1694924782176104,
-    "n_simulations": 10000,
-    "market_annual_vol": 0.18163462261698485
-  }
+  ]
 }

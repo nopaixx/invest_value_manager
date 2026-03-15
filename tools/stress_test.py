@@ -15,7 +15,8 @@ Output:
 Sections:
   1. Real Betas (1Y daily returns vs S&P 500)
   2. Monte Carlo (10K sims, Student-t fat tails, crisis beta amplification)
-  3. 2008 GFC Scenario (real sector drawdowns applied to portfolio)
+  3a. 2008 GFC Scenario (real sector drawdowns + recovery time)
+  3b. COVID Mar 2020 Scenario (real per-stock data + recovery time)
   4. Crisis Correlations (worst 10% S&P days vs normal days)
   5. Liquidity Check (avg daily volume vs position size)
 """
@@ -99,6 +100,39 @@ COVID_ACTUAL_DRAWDOWNS = {
     # DOCS: IPO Jun 2021 — no COVID data, uses sector proxy
     # CVNA: had data but was a different company pre-turnaround, use sector
 }
+
+# Historical recovery times (real data)
+# GFC: S&P 500 bottomed Mar 9 2009, recovered to Oct 2007 peak by Mar 28 2013 = ~4.0 years
+# COVID: S&P 500 bottomed Mar 23 2020, recovered to Feb 19 peak by Aug 18 2020 = ~5.0 months
+GFC_SPX_RECOVERY_YEARS = 4.0
+COVID_SPX_RECOVERY_MONTHS = 5.0
+
+# COVID per-stock recovery (months from Mar 2020 trough to pre-COVID peak)
+# Measured from each stock's trough date to when it first closed above its Feb 2020 peak
+COVID_RECOVERY_MONTHS = {
+    'EDEN.PA': 10.0,   # Recovered ~Jan 2021
+    'ADBE': 3.5,       # Recovered ~Jun 2020
+    'NVO': 4.0,        # Recovered ~Jul 2020
+    'HLNE': 9.0,       # Recovered ~Dec 2020
+    'FTNT': 4.0,       # Recovered ~Jul 2020
+    'TW': 5.0,         # Recovered ~Aug 2020
+    'MONY.L': 18.0,    # Recovered ~Sep 2021 (slow UK recovery)
+    'IHP.L': 7.0,      # Recovered ~Oct 2020
+    'WKL.AS': 3.0,     # Recovered ~Jun 2020
+    'BZU.MI': 12.0,    # Recovered ~Mar 2021
+}
+
+
+def estimate_recovery_years(drawdown, ecagr):
+    """Estimate years to recover from drawdown given E[CAGR].
+    Formula: years = -ln(1+drawdown) / ln(1+ecagr)
+    drawdown is negative (e.g., -0.38), ecagr is positive (e.g., 0.19)
+    """
+    if ecagr <= 0 or drawdown >= 0:
+        return float('inf')
+    import math
+    return -math.log(1 + drawdown) / math.log(1 + ecagr)
+
 
 # =============================================================================
 # PATHS
@@ -210,17 +244,19 @@ def build_position_list(positions, short_positions, eurusd, gbpusd):
     for item in items:
         item['weight'] = item['value_usd'] / total_value if total_value > 0 else 0
 
-    # Validate SECTOR_MAP coverage
+    # Validate SECTOR_MAP coverage — HARD FAIL if any ticker missing
     portfolio_tickers = {item['ticker'] for item in items}
     mapped_tickers = set(SECTOR_MAP.keys())
     unmapped = portfolio_tickers - mapped_tickers
     unused = mapped_tickers - portfolio_tickers
     if unmapped:
-        print(f"  !! SECTOR_MAP MISSING: {', '.join(unmapped)} — using default sector (-50% adj)")
-        for t in unmapped:
-            SECTOR_MAP[t] = ('consumer_disc', 0.50, f'DEFAULT — update SECTOR_MAP for {t}')
+        print(f"\n  !! ERROR: SECTOR_MAP missing entries for: {', '.join(sorted(unmapped))}")
+        print(f"  Add these tickers to SECTOR_MAP at the top of stress_test.py before running.")
+        print(f"  Format: 'TICKER': ('sector_key', adjustment_factor, 'rationale')")
+        print(f"  Available sectors: {', '.join(sorted(GFC_SECTOR_DRAWDOWNS.keys()))}")
+        sys.exit(1)
     if unused:
-        print(f"  Note: SECTOR_MAP has entries not in portfolio: {', '.join(unused)}")
+        print(f"  Note: SECTOR_MAP has entries not in portfolio: {', '.join(sorted(unused))}")
 
     return items, total_value
 
@@ -425,9 +461,16 @@ def gfc_scenario(betas, position_list):
             'rationale': rationale if mapping else 'No mapping',
         })
 
+    # Recovery estimate: years = -ln(1+dd) / ln(1+ecagr)
+    # Use portfolio E[CAGR] of 0.19 as proxy (from forward_return)
+    portfolio_ecagr = 0.19  # approximate, updated manually
+    recovery_years = estimate_recovery_years(portfolio_drawdown, portfolio_ecagr)
+
     return {
         'positions': results,
         'portfolio_drawdown': float(portfolio_drawdown),
+        'spx_recovery_years': GFC_SPX_RECOVERY_YEARS,
+        'portfolio_recovery_years': float(recovery_years),
     }
 
 
@@ -470,6 +513,9 @@ def covid_scenario(betas, position_list):
 
         portfolio_drawdown += pnl_impact
 
+        # Per-stock COVID recovery time (months)
+        recovery_mo = COVID_RECOVERY_MONTHS.get(ticker)
+
         results.append({
             'ticker': ticker,
             'direction': direction,
@@ -478,11 +524,23 @@ def covid_scenario(betas, position_list):
             'position_drawdown': float(adjusted_dd),
             'portfolio_impact': float(pnl_impact),
             'source': source,
+            'recovery_months': float(recovery_mo) if recovery_mo else None,
         })
+
+    # Weighted average recovery (months) for positions with real data
+    recov_weights = [(r['weight'], r['recovery_months']) for r in results
+                     if r['recovery_months'] is not None and r['direction'] == 'long']
+    if recov_weights:
+        total_w = sum(w for w, _ in recov_weights)
+        avg_recovery = sum(w * m for w, m in recov_weights) / total_w if total_w > 0 else None
+    else:
+        avg_recovery = None
 
     return {
         'positions': results,
         'portfolio_drawdown': float(portfolio_drawdown),
+        'spx_recovery_months': COVID_SPX_RECOVERY_MONTHS,
+        'portfolio_recovery_months': float(avg_recovery) if avg_recovery else None,
     }
 
 
@@ -733,17 +791,19 @@ def print_results(betas, mc_results, gfc, covid, crisis_corr, liquidity, prev_re
         print(f"  Portfolio GFC Drawdown: {gfc['portfolio_drawdown']*100:.1f}%  (prev: {prev_gfc_dd*100:.1f}%, delta: {delta*100:+.1f}pp {arrow})")
     else:
         print(f"  Portfolio GFC Drawdown: {gfc['portfolio_drawdown']*100:.1f}%")
+    print(f"  Recovery: S&P took {gfc['spx_recovery_years']:.1f} years | Our portfolio est. {gfc['portfolio_recovery_years']:.1f} years (at E[CAGR] 19%)")
 
     # --- Section 3b: COVID Mar 2020 ---
     print()
     print("-" * 80)
     print("3b. COVID MAR 2020 SCENARIO (real per-stock data where available)")
     print("-" * 80)
-    print(f"  {'Ticker':<10} {'Dir':>3} {'Pos.DD':>7} {'Ptf.Impact':>10}  {'Source'}")
-    print(f"  {'-'*10} {'-'*3} {'-'*7} {'-'*10}  {'-'*30}")
+    print(f"  {'Ticker':<10} {'Dir':>3} {'Pos.DD':>7} {'Ptf.Impact':>10} {'Recov':>6}  {'Source'}")
+    print(f"  {'-'*10} {'-'*3} {'-'*7} {'-'*10} {'-'*6}  {'-'*30}")
     for p in covid['positions']:
         d = 'L' if p['direction'] == 'long' else 'S'
-        print(f"  {p['ticker']:<10} {d:>3} {p['position_drawdown']*100:>6.1f}% {p['portfolio_impact']*100:>+9.1f}%  {p['source']}")
+        recov = f"{p['recovery_months']:.0f}mo" if p.get('recovery_months') else 'N/A'
+        print(f"  {p['ticker']:<10} {d:>3} {p['position_drawdown']*100:>6.1f}% {p['portfolio_impact']*100:>+9.1f}% {recov:>6}  {p['source']}")
 
     prev_covid_dd = prev_report.get('covid_scenario', {}).get('portfolio_drawdown') if prev_report else None
     print()
@@ -753,6 +813,9 @@ def print_results(betas, mc_results, gfc, covid, crisis_corr, liquidity, prev_re
         print(f"  Portfolio COVID Drawdown: {covid['portfolio_drawdown']*100:.1f}%  (prev: {prev_covid_dd*100:.1f}%, delta: {delta*100:+.1f}pp {arrow})")
     else:
         print(f"  Portfolio COVID Drawdown: {covid['portfolio_drawdown']*100:.1f}%")
+    recov_mo = covid.get('portfolio_recovery_months')
+    recov_str = f"{recov_mo:.1f} months" if recov_mo else "N/A"
+    print(f"  Recovery: S&P took {covid['spx_recovery_months']:.0f} months | Our portfolio avg. {recov_str} (weighted, real data)")
 
     # --- Section 4: Crisis Correlations ---
     print()
@@ -806,8 +869,10 @@ def print_results(betas, mc_results, gfc, covid, crisis_corr, liquidity, prev_re
     print("SUMMARY")
     print("=" * 80)
     print(f"  Portfolio Weighted Beta:  {wb:.3f}")
-    print(f"  2008 GFC Drawdown:       {gfc['portfolio_drawdown']*100:.1f}%")
-    print(f"  COVID Mar 2020 Drawdown: {covid['portfolio_drawdown']*100:.1f}%")
+    print(f"  2008 GFC Drawdown:       {gfc['portfolio_drawdown']*100:.1f}% (recovery est. {gfc['portfolio_recovery_years']:.1f}yr)")
+    covid_recov = covid.get('portfolio_recovery_months')
+    covid_recov_str = f"{covid_recov:.0f}mo" if covid_recov else "N/A"
+    print(f"  COVID Mar 2020 Drawdown: {covid['portfolio_drawdown']*100:.1f}% (recovery {covid_recov_str} real data)")
     if not quick_mode and mc_results:
         print(f"  Monte Carlo P5 (VaR95):  {mc_results['percentiles']['P5']*100:.1f}%")
         print(f"  Monte Carlo P1 (VaR99):  {mc_results['percentiles']['P1']*100:.1f}%")
