@@ -80,10 +80,10 @@ def get_fx_rates():
         return _fx_cache
     pairs = {
         'EURUSD': ('EURUSD=X', FX_DEFAULTS.get('EURUSD', 1.16)),
-        'GBPUSD': ('GBPUSD=X', 1.26),
+        'GBPUSD': ('GBPUSD=X', FX_DEFAULTS.get('GBPUSD', 1.34)),
         'DKKUSD': ('DKKUSD=X', 0.134),
         'SEKUSD': ('SEKUSD=X', 0.095),
-        'CHFUSD': ('CHFUSD=X', 1.10),
+        'CHFUSD': ('CHFUSD=X', FX_DEFAULTS.get('CHFUSD', 1.10)),
         'NOKUSD': ('NOKUSD=X', 0.092),
     }
     for key, (yf_sym, fallback) in pairs.items():

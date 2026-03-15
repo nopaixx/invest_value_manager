@@ -26,6 +26,12 @@ except ImportError:
     print("ERROR: yfinance not installed. Run: pip install yfinance")
     sys.exit(1)
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    from fx_defaults import FX_DEFAULTS
+except ImportError:
+    FX_DEFAULTS = {'EURUSD': 1.16, 'GBPEUR': 1.15}
+
 # ─── Mappings ────────────────────────────────────────────────────────────────
 
 SECTOR_MAP = {
@@ -58,7 +64,7 @@ def load_portfolio():
         return yaml.safe_load(f)
 
 def get_fx_rates():
-    defaults = {'EURUSD': 1.16, 'GBPEUR': 1.15}
+    defaults = {'EURUSD': FX_DEFAULTS.get('EURUSD', 1.16), 'GBPEUR': FX_DEFAULTS.get('GBPEUR', 1.15)}
     fallbacks_used = []
 
     try:

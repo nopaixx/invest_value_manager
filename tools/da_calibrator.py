@@ -20,6 +20,11 @@ import yaml
 import yfinance as yf
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(BASE_DIR, 'tools'))
+try:
+    from fx_defaults import FX_DEFAULTS
+except ImportError:
+    FX_DEFAULTS = {'EURUSD': 1.16, 'GBPUSD': 1.34, 'CHFUSD': 1.10}
 TRACKER_FILE = os.path.join(BASE_DIR, 'learning', 'da_accuracy_tracker.yaml')
 
 # --- Currency parsing ---
@@ -53,9 +58,9 @@ def parse_price_string(s):
 def get_fx_rates():
     """Fetch FX rates from yfinance with fallbacks. Returns dict of currency->multiplier_to_USD."""
     pairs = {
-        'EUR': ('EURUSD=X', 1.16),
-        'GBP': ('GBPUSD=X', 1.26),
-        'CHF': ('CHFUSD=X', 1.13),
+        'EUR': ('EURUSD=X', FX_DEFAULTS.get('EURUSD', 1.16)),
+        'GBP': ('GBPUSD=X', FX_DEFAULTS.get('GBPUSD', 1.34)),
+        'CHF': ('CHFUSD=X', FX_DEFAULTS.get('CHFUSD', 1.10)),
         'DKK': ('DKKUSD=X', 0.14),
         'SEK': ('SEKUSD=X', 0.095),
     }

@@ -48,6 +48,10 @@ import numpy as np
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'tools'))
 from thesis_parser import extract_fair_value as _tp_extract_fv
+try:
+    from fx_defaults import FX_DEFAULTS
+except ImportError:
+    FX_DEFAULTS = {'EURUSD': 1.16, 'GBPUSD': 1.34}
 
 # ==============================================================================
 # Configuration
@@ -130,14 +134,16 @@ def load_history() -> Dict:
 
 def get_fx_rates() -> Tuple[float, float]:
     """Get EUR/USD and GBP/USD rates."""
+    eurusd_fallback = FX_DEFAULTS.get('EURUSD', 1.16)
+    gbpusd_fallback = FX_DEFAULTS.get('GBPUSD', 1.34)
     try:
-        eurusd = yf.Ticker('EURUSD=X').info.get('previousClose', 1.16)
+        eurusd = yf.Ticker('EURUSD=X').info.get('previousClose', eurusd_fallback)
     except:
-        eurusd = 1.16
+        eurusd = eurusd_fallback
     try:
-        gbpusd = yf.Ticker('GBPUSD=X').info.get('previousClose', 1.26)
+        gbpusd = yf.Ticker('GBPUSD=X').info.get('previousClose', gbpusd_fallback)
     except:
-        gbpusd = 1.26
+        gbpusd = gbpusd_fallback
     return eurusd, gbpusd
 
 
