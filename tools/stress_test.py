@@ -90,8 +90,13 @@ def load_portfolio():
 
 
 def get_fx_rates():
-    """Get EUR/USD and GBP/USD rates via yfinance with fallbacks."""
-    defaults = {'EURUSD': 1.16, 'GBPUSD': 1.33}
+    """Get EUR/USD and GBP/USD rates via yfinance with centralized fallbacks."""
+    try:
+        sys.path.insert(0, os.path.join(BASE_DIR, 'tools'))
+        from fx_defaults import FX_DEFAULTS
+        defaults = {'EURUSD': FX_DEFAULTS['EURUSD'], 'GBPUSD': FX_DEFAULTS.get('GBPUSD', 1.33)}
+    except ImportError:
+        defaults = {'EURUSD': 1.16, 'GBPUSD': 1.33}
     fallbacks = []
     rates = {}
     for pair, default in defaults.items():
@@ -112,16 +117,46 @@ def get_fx_rates():
 
 
 def build_position_list(positions, short_positions, eurusd, gbpusd):
-    """Build unified list of positions with ticker, shares, weight_usd, direction."""
+    """Build unified list of positions with ticker, shares, weight based on CURRENT market value."""
     items = []
     total_value = 0.0
+
+    # Collect all tickers for batch price fetch
+    all_tickers = [p['ticker'] for p in positions] + [s['ticker'] for s in short_positions]
+    live_prices = {}
+    try:
+        price_data = yf.download(all_tickers, period='5d', progress=False, auto_adjust=True)
+        if isinstance(price_data.columns, pd.MultiIndex):
+            close = price_data['Close']
+        else:
+            close = price_data[['Close']]
+            close.columns = all_tickers[:1]
+        for t in all_tickers:
+            if t in close.columns:
+                last = close[t].dropna()
+                if len(last) > 0:
+                    live_prices[t] = float(last.iloc[-1])
+    except Exception:
+        pass  # Fall through to invested_usd fallback
+
+    # Currency conversion: yfinance returns GBp for .L tickers, EUR for .PA/.DE/.AS/.MI, CHF for .SW
+    def to_usd(ticker, local_price):
+        if ticker.endswith('.L'):
+            return local_price / 100.0 * gbpusd  # GBp → GBP → USD
+        elif any(ticker.endswith(s) for s in ('.PA', '.DE', '.AS', '.MI')):
+            return local_price * eurusd  # EUR → USD (eurusd = EUR/USD rate)
+        elif ticker.endswith('.SW'):
+            return local_price * eurusd * 0.95  # CHF ≈ EUR (rough proxy)
+        return local_price  # USD assumed
 
     for p in positions:
         ticker = p['ticker']
         shares = p['shares']
-        # Estimate current value from invested (will be refined with live prices later)
-        if 'invested_usd' in p:
-            val = p['invested_usd']
+        # Prefer live price × shares for CURRENT value (converted to USD)
+        if ticker in live_prices:
+            val = shares * to_usd(ticker, live_prices[ticker])
+        elif 'invested_usd' in p:
+            val = p['invested_usd']  # fallback to cost
         elif 'invested_eur' in p:
             val = p['invested_eur'] * eurusd
         else:
@@ -132,13 +167,28 @@ def build_position_list(positions, short_positions, eurusd, gbpusd):
     for s in short_positions:
         ticker = s['ticker']
         shares = s['shares']
-        val = s.get('entry_price_usd', 0) * shares
+        if ticker in live_prices:
+            val = shares * to_usd(ticker, live_prices[ticker])
+        else:
+            val = s.get('entry_price_usd', 0) * shares
         items.append({'ticker': ticker, 'shares': shares, 'value_usd': val, 'direction': 'short'})
         total_value += val
 
     # Calculate weights
     for item in items:
         item['weight'] = item['value_usd'] / total_value if total_value > 0 else 0
+
+    # Validate SECTOR_MAP coverage
+    portfolio_tickers = {item['ticker'] for item in items}
+    mapped_tickers = set(SECTOR_MAP.keys())
+    unmapped = portfolio_tickers - mapped_tickers
+    unused = mapped_tickers - portfolio_tickers
+    if unmapped:
+        print(f"  !! SECTOR_MAP MISSING: {', '.join(unmapped)} — using default sector (-50% adj)")
+        for t in unmapped:
+            SECTOR_MAP[t] = ('consumer_disc', 0.50, f'DEFAULT — update SECTOR_MAP for {t}')
+    if unused:
+        print(f"  Note: SECTOR_MAP has entries not in portfolio: {', '.join(unused)}")
 
     return items, total_value
 
@@ -198,12 +248,13 @@ def calculate_betas(returns, position_list):
                 'annual_vol': float(returns[ticker].std() * np.sqrt(252)),
             }
         else:
-            print(f"  WARNING: No return data for {ticker}, using beta=1.0")
+            print(f"  !! WARNING: No return data for {ticker}, using beta=1.0 (FALLBACK)")
             betas[ticker] = {
                 'beta': 1.0,
                 'weight': item['weight'],
                 'direction': item['direction'],
                 'annual_vol': 0.20,
+                'fallback': True,
             }
 
     return betas
@@ -222,13 +273,16 @@ def portfolio_weighted_beta(betas):
 # 2. MONTE CARLO
 # =============================================================================
 
-def run_monte_carlo(betas, market_annual_vol, n_sims=10000, seed=42):
+def run_monte_carlo(betas, market_annual_vol, n_sims=10000, seed=None):
     """
     Monte Carlo simulation using real betas and volatilities.
     Uses Student-t distribution (df=5) for fat tails.
     In crisis (market < -20%), betas amplified by 1.5x.
     Returns dict with percentiles and loss probabilities.
     """
+    if seed is None:
+        # Reproducible per day but different each day
+        seed = int(date.today().strftime('%Y%m%d'))
     np.random.seed(seed)
 
     market_daily_vol = market_annual_vol / np.sqrt(252)
@@ -654,6 +708,12 @@ def print_results(betas, mc_results, gfc, crisis_corr, liquidity, prev_report, q
     if 'error' not in crisis_corr:
         print(f"  Crisis Correlation Spike: {crisis_corr['spike_multiplier']:.2f}x")
     print(f"  Liquidity Flags:         {flagged_count}")
+
+    # Beta fallback warnings
+    fallback_tickers = [t for t, info in betas.items() if info.get('fallback')]
+    if fallback_tickers:
+        print(f"  !! BETA FALLBACKS:       {', '.join(fallback_tickers)} (using 1.0 — no historical data)")
+
     print()
     print("[Raw data. Reason from principles.md]")
 
@@ -667,6 +727,8 @@ def main():
     parser.add_argument('--quick', action='store_true', help='Skip Monte Carlo (faster)')
     parser.add_argument('--compare', type=str, metavar='YYYY-MM-DD',
                        help='Compare vs specific date report')
+    parser.add_argument('--seed', type=int, default=None,
+                       help='Monte Carlo seed (default: date-based for daily reproducibility)')
     args = parser.parse_args()
 
     print("Loading portfolio...")
@@ -696,7 +758,7 @@ def main():
     if not args.quick:
         print("[2/5] Running Monte Carlo (10K simulations)...")
         market_vol = float(returns['^GSPC'].std() * np.sqrt(252)) if '^GSPC' in returns.columns else 0.16
-        mc_results = run_monte_carlo(betas, market_vol)
+        mc_results = run_monte_carlo(betas, market_vol, seed=args.seed)
     else:
         print("[2/5] Monte Carlo SKIPPED (--quick)")
 
