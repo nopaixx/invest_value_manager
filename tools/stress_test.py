@@ -123,6 +123,25 @@ COVID_RECOVERY_MONTHS = {
 }
 
 
+def _read_portfolio_ecagr():
+    """Read portfolio E[CAGR] from session_continuity.yaml. FAILS if not found."""
+    cont_path = os.path.join(BASE_DIR, 'state', 'session_continuity.yaml')
+    try:
+        with open(cont_path, 'r') as f:
+            data = yaml.safe_load(f)
+        ecagr_str = data.get('completed', {}).get('portfolio_ecagr', {}).get('deployed', '')
+        if isinstance(ecagr_str, str) and '%' in ecagr_str:
+            return float(ecagr_str.replace('%', '')) / 100.0
+        elif isinstance(ecagr_str, (int, float)):
+            val = float(ecagr_str)
+            return val / 100.0 if val > 1 else val
+    except Exception:
+        pass
+    print("  !! ERROR: Cannot read portfolio E[CAGR] from state/session_continuity.yaml")
+    print("  !! Recovery time estimates will use 15% default (conservative).")
+    return 0.15  # conservative fallback with warning
+
+
 def estimate_recovery_years(drawdown, ecagr):
     """Estimate years to recover from drawdown given E[CAGR].
     Formula: years = -ln(1+drawdown) / ln(1+ecagr)
@@ -160,9 +179,13 @@ def get_fx_rates():
     try:
         sys.path.insert(0, os.path.join(BASE_DIR, 'tools'))
         from fx_defaults import FX_DEFAULTS
-        defaults = {'EURUSD': FX_DEFAULTS['EURUSD'], 'GBPUSD': FX_DEFAULTS.get('GBPUSD', 1.33)}
+        defaults = {
+            'EURUSD': FX_DEFAULTS['EURUSD'],
+            'GBPUSD': FX_DEFAULTS.get('GBPUSD', 1.34),
+            'CHFUSD': FX_DEFAULTS.get('CHFUSD', 1.10),
+        }
     except ImportError:
-        defaults = {'EURUSD': 1.16, 'GBPUSD': 1.33}
+        defaults = {'EURUSD': 1.16, 'GBPUSD': 1.34, 'CHFUSD': 1.10}
     fallbacks = []
     rates = {}
     for pair, default in defaults.items():
@@ -179,10 +202,10 @@ def get_fx_rates():
             fallbacks.append(f"{pair}={default}")
     if fallbacks:
         print(f"  FX WARNING: Using fallback rates ({', '.join(fallbacks)})")
-    return rates['EURUSD'], rates['GBPUSD']
+    return rates['EURUSD'], rates['GBPUSD'], rates.get('CHFUSD', 1.10)
 
 
-def build_position_list(positions, short_positions, eurusd, gbpusd):
+def build_position_list(positions, short_positions, eurusd, gbpusd, chfusd=1.10):
     """Build unified list of positions with ticker, shares, weight based on CURRENT market value."""
     items = []
     total_value = 0.0
@@ -212,7 +235,7 @@ def build_position_list(positions, short_positions, eurusd, gbpusd):
         elif any(ticker.endswith(s) for s in ('.PA', '.DE', '.AS', '.MI')):
             return local_price * eurusd  # EUR → USD (eurusd = EUR/USD rate)
         elif ticker.endswith('.SW'):
-            return local_price * eurusd * 0.95  # CHF ≈ EUR (rough proxy)
+            return local_price * chfusd  # CHF → USD via fx_defaults CHFUSD
         return local_price  # USD assumed
 
     for p in positions:
@@ -462,8 +485,8 @@ def gfc_scenario(betas, position_list):
         })
 
     # Recovery estimate: years = -ln(1+dd) / ln(1+ecagr)
-    # Use portfolio E[CAGR] of 0.19 as proxy (from forward_return)
-    portfolio_ecagr = 0.19  # approximate, updated manually
+    # Read E[CAGR] from session_continuity.yaml (updated every session)
+    portfolio_ecagr = _read_portfolio_ecagr()
     recovery_years = estimate_recovery_years(portfolio_drawdown, portfolio_ecagr)
 
     return {
@@ -911,8 +934,8 @@ def main():
 
     print("Loading portfolio...")
     positions, short_positions, cash = load_portfolio()
-    eurusd, gbpusd = get_fx_rates()
-    position_list, total_value = build_position_list(positions, short_positions, eurusd, gbpusd)
+    eurusd, gbpusd, chfusd = get_fx_rates()
+    position_list, total_value = build_position_list(positions, short_positions, eurusd, gbpusd, chfusd)
 
     if not position_list:
         print("ERROR: No positions found in portfolio")
@@ -970,10 +993,14 @@ def main():
         'betas': {t: {k: v for k, v in info.items()} for t, info in betas.items()},
         'gfc_scenario': {
             'portfolio_drawdown': float(gfc['portfolio_drawdown']),
+            'spx_recovery_years': gfc.get('spx_recovery_years'),
+            'portfolio_recovery_years': gfc.get('portfolio_recovery_years'),
             'positions': gfc['positions'],
         },
         'covid_scenario': {
             'portfolio_drawdown': float(covid['portfolio_drawdown']),
+            'spx_recovery_months': covid.get('spx_recovery_months'),
+            'portfolio_recovery_months': covid.get('portfolio_recovery_months'),
             'positions': covid['positions'],
         },
         'crisis_correlations': crisis_corr,

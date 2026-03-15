@@ -2,7 +2,7 @@
   "date": "2026-03-15",
   "positions_count": 12,
   "total_value_usd": 11885.309642616654,
-  "portfolio_weighted_beta": 0.6196763934421972,
+  "portfolio_weighted_beta": 0.619676407025976,
   "betas": {
     "EDEN.PA": {
       "beta": 0.16567684352720302,
@@ -23,10 +23,10 @@
       "annual_vol": 0.557537508407028
     },
     "MONY.L": {
-      "beta": 0.1448910343910024,
+      "beta": 0.14489099096351885,
       "weight": 0.07235789698679697,
       "direction": "long",
-      "annual_vol": 0.2518987458805845
+      "annual_vol": 0.25189873800478507
     },
     "IHP.L": {
       "beta": 0.11966365998808073,
@@ -35,10 +35,10 @@
       "annual_vol": 0.29794197403836165
     },
     "HLNE": {
-      "beta": 1.4789040008392493,
+      "beta": 1.4789040541510976,
       "weight": 0.09672524456289393,
       "direction": "long",
-      "annual_vol": 0.4495378138850781
+      "annual_vol": 0.44953776734043205
     },
     "DOCS": {
       "beta": 1.2123192420231503,
@@ -53,16 +53,16 @@
       "annual_vol": 0.42992282092190104
     },
     "TW": {
-      "beta": 0.41167904685172313,
+      "beta": 0.41167953030715876,
       "weight": 0.058518272613660084,
       "direction": "long",
-      "annual_vol": 0.30629474470917634
+      "annual_vol": 0.30629482139428976
     },
     "WKL.AS": {
-      "beta": 0.13597361848102818,
+      "beta": 0.13597339881887038,
       "weight": 0.07612361818906967,
       "direction": "long",
-      "annual_vol": 0.32353814280948445
+      "annual_vol": 0.3235381154724833
     },
     "BZU.MI": {
       "beta": 0.5395394352459898,
@@ -79,6 +79,8 @@
   },
   "gfc_scenario": {
     "portfolio_drawdown": -0.3840908083205445,
+    "spx_recovery_years": 4.0,
+    "portfolio_recovery_years": 2.92817803013535,
     "positions": [
       {
         "ticker": "EDEN.PA",
@@ -216,6 +218,8 @@
   },
   "covid_scenario": {
     "portfolio_drawdown": -0.3137566919594511,
+    "spx_recovery_months": 5.0,
+    "portfolio_recovery_months": 7.500093244062542,
     "positions": [
       {
         "ticker": "EDEN.PA",
@@ -340,9 +344,9 @@
     ]
   },
   "crisis_correlations": {
-    "crisis_avg_correlation": 0.19039057478340746,
-    "normal_avg_correlation": 0.10763623609026633,
-    "spike_multiplier": 1.7688334495805051,
+    "crisis_avg_correlation": 0.19039059785456416,
+    "normal_avg_correlation": 0.1076362504932002,
+    "spike_multiplier": 1.768833427234553,
     "crisis_days_count": 23,
     "normal_days_count": 205,
     "threshold_return": -0.010049064381848914
