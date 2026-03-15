@@ -87,8 +87,8 @@ def main():
     total_value = 0
 
     print("LONG POSITIONS")
-    print(f"{'Ticker':<10} {'Shares':>10} {'Avg $':>8} {'Now $':>8} {'Invested':>10} {'Value':>10} {'P&L':>10} {'%':>7} {'Alloc':>6}")
-    print("-" * 82)
+    print(f"{'Ticker':<10} {'Shares':>10} {'Avg $':>8} {'Now $':>8} {'Invested':>10} {'Value':>10} {'P&L':>10} {'%':>7} {'Alloc':>6} {'Drift':>7}")
+    print("-" * 90)
 
     rows = []
     for p in positions:
@@ -118,7 +118,8 @@ def main():
         rows.append({
             'ticker': ticker, 'shares': shares, 'avg': invested/shares,
             'price_usd': price_usd, 'invested': invested, 'value': value,
-            'pnl': pnl, 'pnl_pct': pnl_pct
+            'pnl': pnl, 'pnl_pct': pnl_pct,
+            'intentional_weight': p.get('intentional_weight'),
         })
 
     # We need portfolio_total for allocation % — compute after shorts too
@@ -174,7 +175,9 @@ def main():
     # =========================================================================
     for r in rows:
         alloc = (r['value'] / portfolio_total) * 100 if portfolio_total > 0 else 0
-        print(f"{r['ticker']:<10} {r['shares']:>10.4f} ${r['avg']:>7.2f} ${r['price_usd']:>7.2f} ${r['invested']:>9.2f} ${r['value']:>9.2f} ${r['pnl']:>+9.2f} {r['pnl_pct']:>+6.1f}% {alloc:>5.1f}%")
+        iw = r.get('intentional_weight')
+        drift_str = f"{alloc - iw:>+5.1f}pp" if iw is not None else "     "
+        print(f"{r['ticker']:<10} {r['shares']:>10.4f} ${r['avg']:>7.2f} ${r['price_usd']:>7.2f} ${r['invested']:>9.2f} ${r['value']:>9.2f} ${r['pnl']:>+9.2f} {r['pnl_pct']:>+6.1f}% {alloc:>5.1f}% {drift_str}")
 
     cash_alloc = (cash_usd / portfolio_total) * 100 if portfolio_total > 0 else 0
     print("-" * 82)
@@ -230,6 +233,30 @@ def main():
     if total_short_pnl != 0:
         combined_pnl = (total_value - total_invested) + total_short_pnl
         print(f"Combined P&L (long + short): ${combined_pnl:>+,.2f}")
+    print()
+    # =========================================================================
+    # REGIME CHECK — S&P 500 20-day decline
+    # =========================================================================
+    try:
+        spx = yf.Ticker('^GSPC')
+        spx_hist = spx.history(period='2mo')
+        if len(spx_hist) >= 20:
+            current = spx_hist['Close'].iloc[-1]
+            twenty_days_ago = spx_hist['Close'].iloc[-21] if len(spx_hist) > 20 else spx_hist['Close'].iloc[0]
+            decline_20d = (current / twenty_days_ago - 1) * 100
+            if decline_20d <= -15:
+                print("!" * 80)
+                print(f"!! CRISIS MODE: S&P 500 {decline_20d:+.1f}% in 20 trading days (threshold: -15%)")
+                print("!! Standing orders FROZEN. Stress test should run DAILY.")
+                print("!! Deactivates when S&P 20-day decline > -15%.")
+                print("!" * 80)
+            elif decline_20d <= -10:
+                print(f"** WARNING: S&P 500 {decline_20d:+.1f}% in 20d. Approaching crisis threshold (-15%).")
+            else:
+                print(f"Regime: NORMAL (S&P 20d: {decline_20d:+.1f}%)")
+    except Exception:
+        pass
+
     print()
     print("[Raw data. Reason from principles.md]")
 

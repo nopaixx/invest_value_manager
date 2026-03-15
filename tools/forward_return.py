@@ -882,6 +882,9 @@ def main():
     show_active = not args.pipeline_only
     show_pipeline = not args.active_only
 
+    # Build intentional_weight lookup from portfolio
+    intentional_weights = {p['ticker']: p.get('intentional_weight') for p in positions}
+
     active_results = []
     if show_active:
         print(f"Processing {len(positions)} active long positions...")
@@ -891,6 +894,7 @@ def main():
                 continue
             thesis_path = p.get('thesis', f'thesis/active/{ticker}/thesis.md')
             result = process_position(ticker, thesis_path, eurusd, gbpeur, dkkeur, decisions_log, system_qs=system_qs, is_research=False)
+            result['intentional_weight'] = intentional_weights.get(ticker)
             active_results.append(result)
 
     short_results = []
