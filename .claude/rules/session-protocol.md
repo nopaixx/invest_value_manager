@@ -34,9 +34,9 @@ FASE 0.ZERO: Three Questions (PRIMERO, antes de CUALQUIER cosa — P18)
 FASE 0: Calibracion v4.8
   → **REGIME CHECK** (FIRST thing in Fase 0 — from portfolio_stats.py output):
     → If S&P 500 declined >15% in 20 trading days → CRISIS MODE:
-      → All standing orders FROZEN (no automatic buys)
+      → Context challenge MANDATORY before executing any SO ("Would I buy from zero TODAY in this macro?")
       → stress_test.py runs DAILY instead of weekly
-      → Only BUNKER position buys allowed (pre-defined: WKL.AS, EDEN.PA, IHP.L)
+      → CIO decides — nothing frozen, but every execution must pass heightened scrutiny
       → Deactivates when S&P 20-day decline improves above -15%
     → If S&P declined >10% in 20d → WARNING: approaching crisis threshold
     → If normal → proceed with session as planned

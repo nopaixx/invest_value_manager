@@ -251,13 +251,10 @@ def main():
             twenty_days_ago = spx_hist['Close'].iloc[-21] if len(spx_hist) > 20 else spx_hist['Close'].iloc[0]
             decline_20d = (current / twenty_days_ago - 1) * 100
             if decline_20d <= -15:
-                print("!" * 80)
-                print(f"!! CRISIS MODE: S&P 500 {decline_20d:+.1f}% in 20 trading days (threshold: -15%)")
-                print("!! Standing orders FROZEN. Stress test should run DAILY.")
-                print("!! Deactivates when S&P 20-day decline > -15%.")
-                print("!" * 80)
+                print(f"Regime: CRISIS (S&P 20d: {decline_20d:+.1f}%)")
+                print(f"  Context challenge MANDATORY before executing any SO.")
             elif decline_20d <= -10:
-                print(f"** WARNING: S&P 500 {decline_20d:+.1f}% in 20d. Approaching crisis threshold (-15%).")
+                print(f"Regime: WARNING (S&P 20d: {decline_20d:+.1f}%). Approaching -15% crisis threshold.")
             else:
                 print(f"Regime: NORMAL (S&P 20d: {decline_20d:+.1f}%)")
     except Exception as e:
