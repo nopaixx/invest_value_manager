@@ -1,7 +1,9 @@
 # Sector: Financial Data & Analytics
 
-> Ultima actualizacion: 2026-03-07
-> Status: NEUTRAL-SELECTIVO - Moats excepcionales pero valuaciones premium. Oportunidad selectiva en names castigados. MORN position active, SPGI SO $420 priority.
+> Ultima actualizacion: 2026-03-15 (S201 FOMC prep refresh)
+> Status: NEUTRAL-SELECTIVO - Moats excepcionales pero valuaciones premium. Oportunidad selectiva en names castigados. SPGI SO $420 AT TRIGGER (gated Q1 May 5).
+>
+> **S201 FOMC Week Context (Mar 15):** Financial data is MIXED in FOMC scenarios. WKL.AS (beta 0.14): IMMUNE — legal/tax information is non-discretionary. TW (beta 0.41): BENEFITS from hawkish (rate vol → record ADV, Jan +26%, Feb +23% YoY). SPGI (beta ~0.8 est): Ratings business benefits from vol but capital markets freeze hurts IPO/issuance revenue. At $422 AT TRIGGER ($420) — if FOMC pushes below $420, enters executable range (gated Q1 May 5). Data & Analytics basket: weakest E[CAGR] (13.9%) but monopoly moats protect. MORN sold S143.
 
 ## Resumen Ejecutivo
 

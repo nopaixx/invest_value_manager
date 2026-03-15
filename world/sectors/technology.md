@@ -1,8 +1,10 @@
 # Sector: Technology / Software
 
-> Ultima actualizacion: 2026-03-07 (S142)
+> Ultima actualizacion: 2026-03-15 (S201 FOMC prep refresh)
 > Analista: Claude
 > Status: **NEUTRAL** (selectivo en quality compounders, evitar growth sin fundamentales)
+>
+> **S201 FOMC Week Context (Mar 15):** Oil $99 WTI, Hormuz closed Day 15+. FOMC Tue 50% hawkish (0 cuts). If hawkish → tech multiples compress (growth stocks P/E sensitive to 10Y moves). ADBE (our position): beta 0.83, FTC SETTLED ($150M, trial cancelled S181). FV $406. At $249, even -3% FOMC drop → $241, MoS 68%. HOLD through FOMC. BYIT.L: not in portfolio, no impact. Sector-wide: S&P Tech -31.2% in COVID, -49.4% in GFC — our quality sub-selection (ADBE 89% GM, monopoly) is more resilient than sector average.
 > CRISIS NOTE (Mar 7): Iran war Day 7+, oil $92, VIX 27. Software selling on GENERAL risk-off, NOT sector-specific fears. SaaSpocalypse narrative eclipsed by war. ADBE earnings Mar 12 = next catalyst. Enterprise IT spending growing 10-15% (Gartner $6.15T forecast) but near-term macro uncertainty from oil/stagflation risk.
 
 ## Resumen Ejecutivo

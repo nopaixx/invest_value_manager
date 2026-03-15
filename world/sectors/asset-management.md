@@ -1,7 +1,9 @@
 # Sector: Asset Management (Alternative & Platform)
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-15 (S201 FOMC prep refresh)
 > Status: SOBREPONDERAR (structural secular growth in alternatives + platform economics)
+>
+> **S201 FOMC Week Context (Mar 15):** HLNE is the MOST FOMC-sensitive position (beta 1.49, highest in portfolio). Hawkish (0 cuts) → higher rates → PE fundraising stays depressed (already -32% YoY) → HLNE growth 10%→6% in recession. AT $96.85, near 52wL $92.77. BUT: 4 insiders bought $3.2M at $100-105 during this exact drawdown. P/E 17.3x (was 30-40x). In SHOCK scenario (-6% S&P), HLNE could drop to $87-90. Even then, insiders bought higher. HOLD — the insider signal outweighs the FOMC risk for a cyclical headwind, not structural damage.
 
 ## Resumen Ejecutivo
 

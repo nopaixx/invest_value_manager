@@ -1,8 +1,10 @@
 # Sector: Pharma/Healthcare
 
-> Ultima actualizacion: 2026-03-07 (macro-analyst — full refresh: GLP-1 market evolution, DOCS pharma digital, HALO/ENHANZE, IRA/MFN, AI drug discovery, Iran crisis overlay)
+> Ultima actualizacion: 2026-03-15 (S201 FOMC prep refresh. Previous: 2026-03-07 macro-analyst full refresh)
 > Analista: Claude
 > Status: NEUTRAL (subsector-dependent). GLP-1: LLY DOMINANT, NVO DAMAGED. Pharma Digital: FAVORABLE (DOCS). Drug Delivery Platforms: FAVORABLE (HALO gated). Animal Health: NEUTRAL-POSITIVO. Big Pharma: SOBREPONDERAR SELECTIVO + DEFENSIVE in crisis.
+>
+> **S201 FOMC Week Context (Mar 15):** Pharma is DEFENSIVE in FOMC scenarios — drug demand inelastic to rate changes. NVO (beta 1.10): P/E 10.7x already pricing permanent decline. FOMC hawkish → minor multiple compression but 4.9% dividend provides floor. KC#1 triggered (CagriSema) is thesis-specific, not FOMC-driven. DOCS (beta 1.22): higher rate sensitivity as growth SaaS, but 85% physician monopoly protects revenue. MFN pharma ad budget risk is the concern, NOT rates. Both positions: HOLD through FOMC. NVO trimming Mar 26 regardless.
 
 ## Resumen Ejecutivo
 
