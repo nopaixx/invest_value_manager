@@ -72,6 +72,13 @@ promises:
     status: COMPLETED  # S161: 11/11 MATCH. All positions consistent across thesis/current.yaml/system.yaml.
     broken_count: 0
 
+geographic_screening:
+  last_geo_screened: "US"
+  last_geo_date: "2026-03-14"
+  rotation: ["US", "UK", "EU Continental", "Nordics/Other"]
+  next_due: "EU Continental"  # US done S175 (fallen_angels), UK covered by portfolio. EU next.
+  note: "S202 structural change. Rotate weekly. Track here to prevent gaps."
+
 three_questions:
   q1_wait_streak: 0  # Cash = 0%. Deployment via rotation only.
   last_q1_answer: "Cash = 0%. Mar 26 plan firm. 4 SOs triggered but no capital. Next deployment Mar 26."
