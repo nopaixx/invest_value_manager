@@ -54,6 +54,7 @@
 | Tool | Comando | Proposito |
 |------|---------|-----------|
 | `macro_fragility.py` | `python3 tools/macro_fragility.py {world\|country CODE\|sector NAME\|full}` | 3-layer macro data: world (VIX, yields, gold, oil, DXY, S&P), country (index, FX, ETF, sector ETFs), sector (ETFs, P/E, top holdings). Datos crudos. |
+| `stress_test.py` | `python3 tools/stress_test.py [--quick\|--compare YYYY-MM-DD]` | Rigorous portfolio stress test. Real betas (1Y vs S&P), Monte Carlo (10K sims, t-dist fat tails, crisis beta amplification), 2008 GFC scenario (real sector drawdowns), crisis correlations (worst 10% days), liquidity check. Output: percentiles P1-P99, portfolio beta, 2008 drawdown, most vulnerable position. Saves to `reports/stress_test/YYYY-MM-DD.json` for weekly comparison. Weekly mandatory + trigger on position changes or macro events. |
 
 ## Smart Money & Institutional
 

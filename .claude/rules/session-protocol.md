@@ -88,6 +88,12 @@ FASE 2: Estado del Portfolio
   → portfolio_stats.py (muestra long + short + net/gross exposure)
   → effectiveness_tracker.py --summary + system state
   → basket_dashboard.py --health (basket health, allocation, theme vitality flags)
+  → **STRESS TEST (weekly + trigger-based — S198):**
+    → `stress_test.py` WEEKLY (same day as health check, every 14 days minimum)
+    → ALSO RUN WHEN: position opened/closed, macro event (FOMC, crisis), portfolio changes >5%/week
+    → Key metrics to track: portfolio beta, P5 (1-in-20 worst case), 2008 scenario, most vulnerable position
+    → Compare vs previous report — if P5 worsening week-over-week, flag as FRAGILITY INCREASING
+    → Output saved to `reports/stress_test/YYYY-MM-DD.json` for temporal comparison
   → **BASKET-LEVEL CHECKS (P17):**
     → For each basket: theme vitality (alive/declining/dead?), E[CAGR] trend, composition quality
     → Unassigned positions: should they join an existing basket, form a new one, or be rotation candidates?
