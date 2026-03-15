@@ -32,7 +32,7 @@ positions:
     thesis: thesis/active/EDEN.PA/thesis.md
     conviction: high
     last_review: 2026-03-08
-    intentional_weight: 18.7  # Weight at last action (S143 ADD). For drift tracking.
+    intentional_weight: 18.7  # Weight after S144c1 ADD (EUR 317 at EUR 18.79). Last action on EDEN.PA.
     fair_value: "EUR 29.0 (adversarial, was 38.4)"
     exit_plan: "HOLD. SI declining (21.2%→9.64% AMF, Citadel COVERED, Millennium reduced). ADD prohibition RELAXED — reconsider at EUR 17. TRIM at EUR 22+ (19%→15%). EXIT if France levy tabled (KC#13) or 2027-28 guide <5%. KC#1 MONITORING, KC#7 MONITORING ELEVATED."
     notes: "S151: SI update — Citadel covered below 0.50% (was 2.10%), Millennium 1.90%→0.71%. AMF total 9.64% from 10 funds (was 21.2%/20 funds). Smart money covering = moderately bullish. ADD restriction relaxed. Thesis v4.2."
@@ -57,7 +57,7 @@ positions:
     fair_value: "$406 (S181: FTC settled $150M, trial CANCELLED. Was $390 FTC-adjusted. Unwind 4% of 6% discount. QS Tool 80, Adj 77. ROIC 53%.)"
     exit_plan: "HOLD. FTC RESOLVED (settlement $150M, trial cancelled). EXIT if KC#9 (successor fails, rev growth <8% 2Q). TRIM at $370+. ADD at $220 (bear case + FTC resolved)."
     last_review: 2026-03-14
-    intentional_weight: 8.1  # Weight at last action (S122 market buy). For drift tracking.
+    intentional_weight: 8.1  # Weight after S122 market buy (3.83 shares, EUR 400). FTC settled S181.
     thesis: thesis/active/ADBE/thesis.md
     conviction: medium-high
     notes: "S181: FTC settled $150M ($75M penalties + $75M services). Trial Oct 2026 CANCELLED. KC#6 RESOLVED. FV $390→$406 (unwind 4% of 6% FTC discount). Conviction MEDIUM→MEDIUM-HIGH. E[CAGR] 24.6% at $249. Q1 FY2026 CONDITIONAL BEAT. AI-first ARR tripled. CEO Narayen stepping down."
@@ -73,7 +73,7 @@ positions:
     exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $47. SELL if FY2026 rev decline >10% (KC#8) OR market share <40% OR gross margin <70%. TRIM at $55+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, Q1 FY2026 ~May."
     fair_value: "$47 (R3 resolved S146c8. Was $50 v4.0. DA: FCF stale, P/E 16x. Bear $37/Base $48/Bull $62. QS 73 Tier B.)"
     last_review: 2026-03-07
-    intentional_weight: 11.7  # Weight at last action (original buy). For drift tracking.
+    intentional_weight: 11.7  # Weight post-S143 restructuring. No ADD/TRIM since open. Diluted from ~14% by other buys.
     thesis: thesis/active/NVO/thesis.md
     notes: "R3 S146c8: FV $50->$47, growth 10%->5%, E[CAGR] 23.8%->16.6%. OEY inputs stale (DKK 72B vs actual 29B), P/E now primary method. KC#8/#9 added. Position justified (16.6% > 15% Tier B) but do NOT add."
 
@@ -88,7 +88,7 @@ positions:
     notes: "R3 S147c3: FV 190p maintained. DA MODERATE COUNTER, 5 HIGH (AI live disruption, P/E re-rating unlikely, narrow upside 10%). FIRST ROTATION CANDIDATE. Yield play (7.3% div + 3% buyback). Growth 2% = lowest in portfolio."
     conviction: medium
     last_review: 2026-03-07
-    intentional_weight: 7.3  # Weight at last action (original buy). For drift tracking.
+    intentional_weight: 7.3  # Weight post-S143 restructuring. No ADD/TRIM since open. Selling Mar 26.
     fair_value: "190 GBp (R3 S147c3, maintained. DA MODERATE COUNTER, 5 HIGH. DA bear 155p. QS 83/75.)"
     exit_plan: "HOLD yield anchor. FIRST ROTATION CANDIDATE if higher E[CAGR] needs capital. SELL if revenue declines YoY, Insurance -5%+, dividend cut, or AI adoption >5% of quotes. TRIM at >180p."
 
@@ -109,7 +109,7 @@ positions:
     conviction: high
     fair_value: "390 GBp (R3 refresh S147c1, maintained. DA bear 350p still 10% above market. QS Tool 80 Tier A.)"
     last_review: 2026-03-07
-    intentional_weight: 11.5  # Weight at last action (S143 ADD). For drift tracking.
+    intentional_weight: 13.0  # Weight after S108 ADD (55 shares at 318p, EUR 200). Drifted down from 13% to 11.5%.
     exit_plan: "HOLD. 11.4% = CEILING, do NOT add. TRIM at 450p+. SELL if KC triggered (margin <20bps + FUA <8%, outflows 2Q, insider selling >5%, IHT SIPP outflows >0.5bn/Q). Validate H1 FY26 ops leverage (~June)."
     notes: "R3 refresh S147c1: FV 390p maintained. DA MODERATE COUNTER — sizing concern (11.4% = 5.7x original 2%), IHT pension reform blind spot (KC#8 added), competition incrementally worse. E[CAGR] 19.5%. No add, no trim."
 
@@ -123,7 +123,7 @@ positions:
     conviction: medium
     fair_value: "$110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)"
     last_review: 2026-03-07
-    intentional_weight: 9.7  # Weight at last action (S122 market buy). For drift tracking.
+    intentional_weight: 10.0  # Weight after S122 market buy + ADD (11.87 shares total). Drifted down from ~10% to 9.7%.
     exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Resolve receivables gate Q4 FY2026 ~May 2026."
     notes: "R3 refresh S147c4: FV $110 maintained. Growth 12%->10% (EPS CAGR basis). DA: PE fundraising -32%, mega-managers accelerating, receivables +67.5% unresolved (Error #63 flag). Insider cluster buy $4.2M = strongest in portfolio. No ADD."
 
@@ -137,7 +137,7 @@ positions:
     conviction: medium
     fair_value: "$30 (R3 resolved S146c4. Was $32.80. DA: TAM 13%->7%, growth 10%->8%, MFN structural. QS 74/79 Tier A.)"
     last_review: 2026-03-07
-    intentional_weight: 8.3  # Weight at last action (S122 market buy). For drift tracking.
+    intentional_weight: 8.5  # Weight after S122 market buy (39.93 shares total). Drifted down from ~8.5% to 8.3%.
     exit_plan: "HOLD 8%. Do NOT add before Q4 (~May 2026). TRIM to 5% if Q4 misses + FY27 guide <8%. TRIM at $38+. SELL if KC#1 (NRR <100%) or KC#7 (Q4 rev <$140M + FY27 guide <6%)."
     notes: "R3 S146c4: FV $32.80->$30, growth 10%->8%, E[CAGR] 19%->13.8%. TAM corrected 13%->7%. 3 HIGH DA findings resolved. Position justified (E[CAGR] 13.8% > 12% threshold) but oversized at 8%. Q4 earnings = binary catalyst."
 
@@ -153,7 +153,7 @@ positions:
     exit_plan: "EXIT APPROVED S152. SELL late April. E[CAGR] 9.4% worst, 3 KCs MONITORING (CVE pattern), 4.3% MoS. Rotate to SPGI EUR 400 + best available EUR 375. CANCEL exit if: price drops to $73 OR Q1 PASS + guide raise (FV $95-100). Accelerate if drops below $78 (cost basis)."
     notes: "S152: EXIT Protocol 6 gates + Committee APPROVE. 15-day hold on QS 87 = short but precedented (RACE.MI 2d, MORN 15d). Rotation improves portfolio E[CAGR] by ~0.5pp. Cybersecurity basket goes to 0 positions → RESEARCHING."
     last_review: 2026-03-13
-    intentional_weight: 7.5  # Weight at last action (S126 market buy). For drift tracking.
+    intentional_weight: 7.5  # Weight after S126 market buy (10.57 shares, EUR 400). EXIT approved late Apr.
 
   # RACE.MI REMOVED 2026-03-07 - SOLD. S143c10 T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg 17.4%). QS 84 Tier A but overvalued vs FV at EUR 301.60. Capital redeployed to EDEN/NVO/WKL (E[CAGR] 21-27%). P&L ~-3.4% (EUR -12).
 
@@ -169,7 +169,7 @@ positions:
     conviction: medium
     fair_value: "$135 (R3 refresh S147c4, reduced from $140. DA MODERATE COUNTER, 4 HIGH. DA bear $104. QS 76/84 Tier A.)"
     last_review: 2026-03-07
-    intentional_weight: 5.9  # Weight at last action (S143 market buy). For drift tracking.
+    intentional_weight: 5.9  # Weight after S143 market buy (5.59 shares, EUR 600).
     exit_plan: "HOLD. TRIM at $155+. ADD at $105 (MoS 22%). SELL if KC triggered (rev growth <10% 2Q, LSEG disorderly sale >20%, OP margin <38% 2Q, insider selling >$50M/6mo). Q1 earnings April = key test."
     notes: "R3 refresh S147c4: FV $140->$135, growth 12%->10%. DA: Q4 CC 9.9% below thesis, RPM compression structural, LSEG governance, insider selling $26.3M. E[CAGR] 13.0%. Bottom tercile — rotation candidate if Q1 disappoints."
 
@@ -183,7 +183,7 @@ positions:
     conviction: medium
     fair_value: "EUR 80 (R3 S147c2, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear EUR 67. QS 72 Tier B.)"
     last_review: 2026-03-07
-    intentional_weight: 7.7  # Weight at last action (S143 market buy). For drift tracking.
+    intentional_weight: 7.7  # Weight after S143 market buy (11.68 shares, EUR 800).
     exit_plan: "HOLD. TRIM at EUR 95+. ADD at EUR 55 (MoS 31%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, Harvey AI >$500M ARR, net debt >2.5x, OpenEvidence >100 hospital contracts)."
     notes: "R3 S147c2: FV EUR 80 maintained. DA MODERATE COUNTER (was STRONG Feb 11). FY2025 confirmed thesis. Receivables +23% vs rev +3.5% yellow flag. Growth 6% formalized (Error #64 fix). KC#12-13 added. No ADD until receivables explained + Caywood track record. Sector view cleared S146."
 
@@ -197,7 +197,7 @@ positions:
     conviction: medium
     fair_value: "EUR 51 (R3 post-DA resolution S151. Was EUR 57 R4. DA: through-cycle EBIT EUR 780M, oil $97 headwind, US demand 3yr decline. QS 73/75adj Tier B.)"
     last_review: 2026-03-13
-    intentional_weight: 3.6  # Weight at last action (S151 market buy). For drift tracking.
+    intentional_weight: 3.6  # Weight after S151 market buy (8.81 shares, EUR 370). SELLING Monday.
     exit_plan: "HOLD. TRIM at EUR 50+. ADD at EUR 35 (MoS 31%). SELL if KC triggered (US EBITDA margin <30% 2yr, net debt >2x EBITDA, family <40%, Russia writedown >EUR 500M, ROIC <WACC 2yr, Brent >$95 6mo + margin -5pp). Through-cycle EBIT EUR 780M at 10x. No ADD until FY2025 formal results."
     notes: "S151 DA RESOLUTION: FV EUR 57→51 (-10.5%). DA MODERATE COUNTER (3 HIGH: US demand 3yr decline, oil $97 headwind, timing premature). Edge limited (~5% vs consensus). E[CAGR] ~11.8% at EUR 41.50 — below 15% Tier B but position small (3.5%), defensible as cyclical recovery bet. KC#6 added (oil). DO NOT ADD."
 

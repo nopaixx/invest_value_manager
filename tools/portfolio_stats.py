@@ -12,6 +12,7 @@ Supports:
 import yfinance as yf
 import yaml
 import os
+import sys
 
 PORTFOLIO_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'portfolio', 'current.yaml')
 
@@ -20,7 +21,12 @@ def load_portfolio():
         return yaml.safe_load(f)
 
 def get_fx():
-    defaults = {'EURUSD': 1.16, 'GBPUSD': 1.33}
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from fx_defaults import FX_DEFAULTS
+        defaults = {'EURUSD': FX_DEFAULTS['EURUSD'], 'GBPUSD': FX_DEFAULTS.get('GBPUSD', 1.34)}
+    except ImportError:
+        defaults = {'EURUSD': 1.16, 'GBPUSD': 1.34}
     fallbacks_used = []
 
     try:
@@ -254,8 +260,8 @@ def main():
                 print(f"** WARNING: S&P 500 {decline_20d:+.1f}% in 20d. Approaching crisis threshold (-15%).")
             else:
                 print(f"Regime: NORMAL (S&P 20d: {decline_20d:+.1f}%)")
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"Regime: UNKNOWN (yfinance error: {e})")
 
     print()
     print("[Raw data. Reason from principles.md]")
