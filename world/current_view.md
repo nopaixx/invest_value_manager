@@ -1,8 +1,14 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-14 (S173 FOMC week prep + macro refresh)
+> Ultima actualizacion: 2026-03-15 (S207 pre-FOMC Sunday refresh)
 
-**CAMBIOS MATERIALES desde ultimo update (14-mar S173 FOMC week prep):**
+**CAMBIOS MATERIALES desde ultimo update (15-mar S207 Sunday pre-FOMC):**
+- **TRADE WAR ESCALATION:** Trump admin launched Section 301 probes into 16+ economies (China, EU, Mexico) + forced labor investigations into 60 economies. Goal: replace reciprocal tariffs struck down by Supreme Court. Current: blanket 10% tariff on all partners. New tariffs could be sector-specific. China responded: "pretext." Impact: adds uncertainty to FOMC decision — tariffs = inflationary.
+- **ADBE FTC SETTLED (S180):** $150M total. Trial CANCELLED. #1 contrathesis risk GONE. FV $390→$406.
+- **NVO GUIDE -5% to -13%:** Adjusted sales growth (constant FX) worse than thesis 5%. Reinforces Mar 26 trim.
+- **BZU.MI SELL MONDAY:** Confirmed. Oil headwind structural. KC#6 clock running.
+
+**Previous CRITICAL items (14-mar, still valid):**
 - **S173 FOMC WEEK PREP:** Three central banks in 3 days (FOMC Tue, ECB Wed, BoE Thu). FOMC hawkish 50% base case. Portfolio blended E[CAGR] ranges 15.1% (SHOCK) to 19.6% (DOVISH). Probability-weighted: 17.5%. EDEN.PA and WKL.AS BARELY AFFECTED by any scenario (LOW rate sensitivity). ADBE and HLNE MOST AFFECTED (HIGH rate sensitivity, growth multiples). TW is natural hedge (benefits from vol). ECB likely cuts (60%), BoE likely holds (75%). Neither materially changes our thesis — EU/UK positions are non-rate-sensitive.
 - **S172 CORRECTED: Brent peak was ~$119.50, NOT $126.** Error #66 logged. Probabilities recalibrated: oil normalization by June 25-30% (was 50%). Elevated oil for months = BASE CASE 50%. BZU.MI SELL MONDAY confirmed.
 - **S172 EXPOSED STRESS TEST:** HLNE 12.0% weighted (OK), DOCS 10.5% (WATCH), DNLM.L 8.1% (CONCERN → sizing reduced EUR 440→300 for Mar 26).
