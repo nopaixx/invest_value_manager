@@ -22,6 +22,7 @@ from datetime import date
 # Base directory
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 THESIS_DIR = os.path.join(BASE_DIR, "thesis", "active")
+SHORT_THESIS_DIR = os.path.join(BASE_DIR, "thesis", "short", "active")
 
 # Status priority for sorting (lower = shown first)
 STATUS_PRIORITY = {
@@ -43,12 +44,14 @@ STATUS_KEYWORDS = ["TRIGGERED", "MONITORING", "AMBER", "PENDING", "WATCHING",
 
 
 def read_thesis(ticker_dir):
-    """Read thesis.md from a ticker directory."""
-    path = os.path.join(ticker_dir, "thesis.md")
-    if not os.path.exists(path):
-        return None
-    with open(path, "r", encoding="utf-8") as f:
-        return f.read()
+    """Read thesis.md (or s3_resolution.md / committee_decision.md for shorts) from a ticker directory."""
+    # Try thesis.md first, then short thesis files
+    for filename in ["thesis.md", "s3_resolution.md", "committee_decision.md"]:
+        path = os.path.join(ticker_dir, filename)
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                return f.read()
+    return None
 
 
 def extract_ticker(ticker_dir):
@@ -497,8 +500,10 @@ def main():
                         help="One-line-per-ticker summary (for session dashboard)")
     args = parser.parse_args()
 
-    # Find all active thesis directories
+    # Find all active thesis directories (long + short)
     ticker_dirs = sorted(glob.glob(os.path.join(THESIS_DIR, "*")))
+    short_dirs = sorted(glob.glob(os.path.join(SHORT_THESIS_DIR, "*")))
+    ticker_dirs.extend(short_dirs)
     if not ticker_dirs:
         print(f"No active thesis directories found in {THESIS_DIR}")
         sys.exit(1)
