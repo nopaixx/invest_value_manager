@@ -72,7 +72,7 @@ positions:
     conviction: medium
     exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $47. SELL if FY2026 rev decline >10% (KC#8) OR market share <40% OR gross margin <70%. TRIM at $55+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, Q1 FY2026 ~May."
     fair_value: "$47 (R3 resolved S146c8. Was $50 v4.0. DA: FCF stale, P/E 16x. Bear $37/Base $48/Bull $62. QS 73 Tier B.)"
-    last_review: 2026-03-07
+    last_review: 2026-03-15
     intentional_weight: 11.7  # Weight post-S143 restructuring. No ADD/TRIM since open. Diluted from ~14% by other buys.
     thesis: thesis/active/NVO/thesis.md
     notes: "R3 S146c8: FV $50->$47, growth 10%->5%, E[CAGR] 23.8%->16.6%. OEY inputs stale (DKK 72B vs actual 29B), P/E now primary method. KC#8/#9 added. Position justified (16.6% > 15% Tier B) but do NOT add."
@@ -108,7 +108,7 @@ positions:
     thesis: thesis/active/IHP.L/thesis.md
     conviction: high
     fair_value: "390 GBp (R3 refresh S147c1, maintained. DA bear 350p still 10% above market. QS Tool 80 Tier A.)"
-    last_review: 2026-03-07
+    last_review: 2026-03-15
     intentional_weight: 13.0  # Weight after S108 ADD (55 shares at 318p, EUR 200). Drifted down from 13% to 11.5%.
     exit_plan: "HOLD. 11.4% = CEILING, do NOT add. TRIM at 450p+. SELL if KC triggered (margin <20bps + FUA <8%, outflows 2Q, insider selling >5%, IHT SIPP outflows >0.5bn/Q). Validate H1 FY26 ops leverage (~June)."
     notes: "R3 refresh S147c1: FV 390p maintained. DA MODERATE COUNTER — sizing concern (11.4% = 5.7x original 2%), IHT pension reform blind spot (KC#8 added), competition incrementally worse. E[CAGR] 19.5%. No add, no trim."
@@ -122,7 +122,7 @@ positions:
     thesis: thesis/active/HLNE/thesis.md
     conviction: medium
     fair_value: "$110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)"
-    last_review: 2026-03-07
+    last_review: 2026-03-15
     intentional_weight: 10.0  # Weight after S122 market buy + ADD (11.87 shares total). Drifted down from ~10% to 9.7%.
     exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Resolve receivables gate Q4 FY2026 ~May 2026."
     notes: "R3 refresh S147c4: FV $110 maintained. Growth 12%->10% (EPS CAGR basis). DA: PE fundraising -32%, mega-managers accelerating, receivables +67.5% unresolved (Error #63 flag). Insider cluster buy $4.2M = strongest in portfolio. No ADD."
@@ -136,7 +136,7 @@ positions:
     thesis: thesis/active/DOCS/thesis.md
     conviction: medium
     fair_value: "$30 (R3 resolved S146c4. Was $32.80. DA: TAM 13%->7%, growth 10%->8%, MFN structural. QS 74/79 Tier A.)"
-    last_review: 2026-03-07
+    last_review: 2026-03-15
     intentional_weight: 8.5  # Weight after S122 market buy (39.93 shares total). Drifted down from ~8.5% to 8.3%.
     exit_plan: "HOLD 8%. Do NOT add before Q4 (~May 2026). TRIM to 5% if Q4 misses + FY27 guide <8%. TRIM at $38+. SELL if KC#1 (NRR <100%) or KC#7 (Q4 rev <$140M + FY27 guide <6%)."
     notes: "R3 S146c4: FV $32.80->$30, growth 10%->8%, E[CAGR] 19%->13.8%. TAM corrected 13%->7%. 3 HIGH DA findings resolved. Position justified (E[CAGR] 13.8% > 12% threshold) but oversized at 8%. Q4 earnings = binary catalyst."
@@ -168,7 +168,7 @@ positions:
     thesis: thesis/active/TW/thesis.md
     conviction: medium
     fair_value: "$135 (R3 refresh S147c4, reduced from $140. DA MODERATE COUNTER, 4 HIGH. DA bear $104. QS 76/84 Tier A.)"
-    last_review: 2026-03-07
+    last_review: 2026-03-15
     intentional_weight: 5.9  # Weight after S143 market buy (5.59 shares, EUR 600).
     exit_plan: "HOLD. TRIM at $155+. ADD at $105 (MoS 22%). SELL if KC triggered (rev growth <10% 2Q, LSEG disorderly sale >20%, OP margin <38% 2Q, insider selling >$50M/6mo). Q1 earnings April = key test."
     notes: "R3 refresh S147c4: FV $140->$135, growth 12%->10%. DA: Q4 CC 9.9% below thesis, RPM compression structural, LSEG governance, insider selling $26.3M. E[CAGR] 13.0%. Bottom tercile — rotation candidate if Q1 disappoints."

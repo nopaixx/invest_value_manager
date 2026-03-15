@@ -73,11 +73,11 @@ promises:
     broken_count: 0
 
 geographic_screening:
-  last_geo_screened: "US"
-  last_geo_date: "2026-03-14"
+  last_geo_screened: "EU Continental"
+  last_geo_date: "2026-03-15"
   rotation: ["US", "UK", "EU Continental", "Nordics/Other"]
-  next_due: "EU Continental"  # US done S175 (fallen_angels), UK covered by portfolio. EU next.
-  note: "S202 structural change. Rotate weekly. Track here to prevent gaps."
+  next_due: "Nordics/Other"  # EU Continental done S203. 5 candidates evaluated (REN.AS skip, HOLN.SW skip, 3 parked QS<70).
+  note: "S203: EU screened via fallen_angels. No new pipeline entries. Best EU names already covered."
 
 three_questions:
   q1_wait_streak: 0  # Cash = 0%. Deployment via rotation only.
