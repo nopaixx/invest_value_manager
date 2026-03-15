@@ -1,8 +1,11 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-15 (S207 pre-FOMC Sunday refresh)
+> Ultima actualizacion: 2026-03-15 (S216 EMERGENCY — Kharg Island strike + oil $150 spike)
 
-**CAMBIOS MATERIALES desde ultimo update (15-mar S207 Sunday pre-FOMC):**
+**CAMBIOS MATERIALES desde ultimo update (15-mar S216 EMERGENCY):**
+- **CRITICAL ESCALATION: US-ISRAEL STRUCK KHARG ISLAND (Mar 14).** 90+ military targets destroyed on Iran's main oil export hub (90% of Iran's crude exports). Oil infrastructure SPARED — for now. Trump: "may hit it again just for fun." Israel launched "extensive strikes" on Iran. War Day 15+. Brent spiked 30%+ to $150+ on the news. Monday forecast: extreme volatility, Brent $103-150+ range. This is the BIGGEST escalation since the war began Feb 28.
+- **OIL SPIKE TO $150+:** Biggest single-day oil spike since 1990 Kuwait invasion. If oil stays above $120, recession becomes NEAR-CERTAIN within 6 months. Fed's FOMC Tuesday decision is now even more binary: acknowledge inflation risk (hawkish) or acknowledge recession risk (dovish). Both are real simultaneously = STAGFLATION.
+- **PORTFOLIO RESPONSE:** BZU.MI SELL MONDAY (urgent — cement margins destroyed at oil $120+). DNLM.L sizing reduced EUR 300→200 (UK homewares = discretionary, recession-sensitive). CVNA short STRENGTHENED (oil devastates used car demand). FOMC hawkish probability reduced 50%→40% (Fed unlikely to sound aggressive during active war).
 - **TRADE WAR ESCALATION:** Trump admin launched Section 301 probes into 16+ economies (China, EU, Mexico) + forced labor investigations into 60 economies. Goal: replace reciprocal tariffs struck down by Supreme Court. Current: blanket 10% tariff on all partners. New tariffs could be sector-specific. China responded: "pretext." Impact: adds uncertainty to FOMC decision — tariffs = inflationary.
 - **ADBE FTC SETTLED (S180):** $150M total. Trial CANCELLED. #1 contrathesis risk GONE. FV $390→$406.
 - **NVO GUIDE -5% to -13%:** Adjusted sales growth (constant FX) worse than thesis 5%. Reinforces Mar 26 trim.
