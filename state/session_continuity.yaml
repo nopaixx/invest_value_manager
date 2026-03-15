@@ -64,12 +64,12 @@ promises:
   - promise: "Formalize VRSK SO in standing_orders.yaml (R4 approved, entry $195, FV $210)"
     created_session: 160
     deadline: "S161"
-    status: PENDING
+    status: COMPLETED  # S161: SO formalized. S167: recalibrated $195→$176 (E[CAGR] 8.5% was below 12% threshold).
     broken_count: 0
   - promise: "FV consistency check (last S148, now S160 = 12 sessions overdue)"
     created_session: 160
     deadline: "S161"
-    status: PENDING
+    status: COMPLETED  # S161: 11/11 MATCH. All positions consistent across thesis/current.yaml/system.yaml.
     broken_count: 0
 
 three_questions:
