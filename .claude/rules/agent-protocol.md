@@ -19,6 +19,8 @@ Que necesito?
 │  R2: devil's-advocate (MANDATORY within 5 sessions of position opening — Error #65)
 │  R3: Resolucion conflictos (si necesario)
 │  R4: investment-committee (10 gates)
+│      POST-R4 MANDATORY: formalize SO in standing_orders.yaml. R4 is NOT complete until SO exists.
+│      Origin: VRSK R4 approved S143 but SO never written until S161. Error #67 pattern.
 ├─ ANALIZAR fragilidad SHORT (short-pipeline 4 rondas)
 │  S1: fundamental-analyst (--short-thesis) + moat-assessor + risk-identifier (PARALELO) → valuation-specialist
 │  S2: devil's-advocate (BULL case — por que precio podria tener razon?)

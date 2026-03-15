@@ -82,6 +82,12 @@ FASE 0.5: SESSION PLAN (auto-activar en modo SESSION PLAN)
 
 FASE 1: Vigilancia
   → news-monitor + market-pulse (paralelo)
+  → **POSITION NEWS CHECK (S202 — EVERY session, BEFORE anything else in Fase 1):**
+    → For EACH active position: quick news scan (WebSearch "[TICKER] news today")
+    → Classify: COSMETIC / MINOR / MATERIAL / CRITICAL
+    → If MATERIAL or CRITICAL → STOP, assess thesis impact immediately
+    → This is NOT optional. The ADBE FTC settlement (S180) took 1 day to discover.
+    → 30 seconds per position × 11 positions = 5.5 minutes. Non-negotiable.
   → Incluir shorts activos en scan (noticias POSITIVAS sobre short = alerta)
   → **MACRO DATA VERIFICATION (Error #66 — OBLIGATORIO):**
     → ANY price/macro number from WebSearch → cross-check against T1 tool BEFORE using
@@ -96,6 +102,13 @@ FASE 2: Estado del Portfolio
   → portfolio_stats.py (muestra long + short + net/gross exposure)
   → effectiveness_tracker.py --summary + system state
   → basket_dashboard.py --health (basket health, allocation, theme vitality flags)
+  → **FV CONSISTENCY CHECK (every 10 sessions — MANDATORY, S202):**
+    → Count: session_id mod 10. If == 0 → RUN, no exceptions.
+    → Cross-check: thesis header FV vs current.yaml FV vs system.yaml FV
+    → Also verify `> **Expected Growth:**` exists for all positions
+    → Tool: `forward_return.py --active-only` → verify GrSrc = "thesis" for all
+    → If ANY mismatch → FIX before proceeding with session
+    → Origin: S161 found 12-session gap. This makes it impossible to forget.
   → **STRESS TEST (weekly + trigger-based — S198):**
     → `stress_test.py` WEEKLY (same day as health check, every 14 days minimum)
     → ALSO RUN WHEN: position opened/closed, macro event (FOMC, crisis), portfolio changes >5%/week
@@ -180,6 +193,13 @@ FASE 2.5.7: Smart Money Check (si stale, cada 3 dias shorts / 90 dias 13F)
 FASE 2.7: Universe Work + Fragility Scan + R1 PROCESSING + THEME DISCOVERY
   → quality_universe.py stats/stale → decidir + ejecutar algo HOY
   → **EXPANSION**: batch_scorer.py --index {INDEX} --new-only --add-to-universe (si hay indices no cubiertos)
+  → **GEOGRAPHIC ROTATION (S202 — systematic coverage, not ad-hoc):**
+    → Rotate screening focus each week: US → UK → EU Continental → Nordics/Other
+    → Track in session_continuity: last_geo_screened + date
+    → US: sp500, russell1000 | UK: ftse100, ftse250 | EU: stoxx600, dax40, cac40
+    → Nordics: nordic | Other: nikkei225, mib40, ibex35
+    → This prevents the EU continental gap (S183: 77 EU stocks but most from batch, not refreshed)
+    → Minimum: 1 geographic region screened per week via fallen_angels.py or batch_scorer.py
   → **THEME DISCOVERY (P17 — weekly or when basket count < 3 or cash > 15%)**:
     → Ask: "What secular mega-trends are producing >30% CAGR companies right now?"
     → Sources: sector views scan, macro_fragility.py, smart_money.py discover, WebSearch for emerging themes
@@ -254,6 +274,16 @@ FASE 5: Meta-Reflexion + Promise Registration (OBLIGATORIO al final)
     → If directional accuracy <50% → FV estimates no better than random → investigate
     → Record findings in evolution_state.yaml (new trigger T15: FV_ACCURACY)
     → This is SELF-CALIBRATION — the system measuring its own predictive quality
+  → **ANTI-BULLISH-BIAS PROTOCOL (S202 — structural fix for +24.1% systematic overestimation):**
+    → When calculating FV, START from bear case, not base case:
+      1. Calculate bear FV FIRST (conservative assumptions, tightest multiples)
+      2. Calculate base FV SECOND
+      3. Final FV = 60% bear + 40% base (NOT 50/50, NOT base-only)
+    → Rationale: DA audit S147 showed 10/10 FVs had bullish bias. Avg DA correction -17.2%.
+      Starting from bear and weighting 60/40 structurally reduces the +24.1% premium.
+    → This is NOT a haircut — it's a change in methodology that weights conservative
+      assumptions more heavily. The bear case should be the ANCHOR, not the afterthought.
+    → Apply to ALL new R1 valuations and R3 resolutions going forward.
 
 FASE 6: Evolution Micro-Step (ULTIMA operacion — see evolution-protocol skill)
   → **UPDATE `state/evolution_state.yaml`:**
@@ -285,6 +315,7 @@ Si hay agente → DELEGAR. NUNCA hacer manualmente lo que un agente hace.
 - Desplegar capital en las mejores oportunidades. 30%+ CAGR target. Risk via quality, not cash.
 - NUNCA terminar mensaje con pregunta al humano — DECIDIR y PRESENTAR
 - **NUNCA preguntar "¿cerramos sesión?" o "¿algo más?"** — Eso es mentalidad de asistente. Siempre hay trabajo: pipeline, sistema, análisis, confrontar narrativas. Trabajo hasta agotar contexto, documentando lo que haré al volver.
+- **EL TRABAJO ES CONTINUO.** No declarar "sesión cerrada" ni "day complete." No hay sesiones con principio y fin — hay trabajo continuo con contexto que se guarda en session_continuity.yaml para retomar. Si el humano no me empuja, yo sigo trabajando. Si me quedo sin contexto, documento el estado y el handoff.
 - Tengo capacidad ILIMITADA de trabajo paralelo, auto-mejora y razonamiento. La USO.
 - Si algo falta, lo PIDO. Si lo tengo, lo HAGO sin pedir permiso.
 - Cash post-adversarial = capital preservado, no oportunidad perdida
@@ -303,6 +334,19 @@ This is not a gate. It's how a CIO thinks: data first, opinion second.
 Origin: BZU.MI S151 — bought without checking macro_fragility or stock-profile.
 TW conviction ranked LOW (S165) — 7 insider sells discovered LATER (S172).
 Both errors had data available but not consulted.
+
+### Insider Analysis — 10b5-1 Verification (S202, post-DOCS error S177)
+When smart_money.py or insider_tracker.py shows insider SELLING:
+```
+BEFORE interpreting as bearish, ALWAYS verify:
+1. Check if sells are on the SAME DAY as stock awards → likely tax/vesting (NEUTRAL)
+2. WebSearch "[TICKER] insider 10b5-1 plan" → if pre-scheduled, NEUTRAL
+3. Look for pattern: monthly same-amount sells = 10b5-1 automatic plan
+4. Only OPEN-MARKET DISCRETIONARY sells with no pre-announced plan = BEARISH signal
+```
+Origin: DOCS S172 — reported "0 buys, 50 sells = BEARISH." Actual: Wampler's monthly
+2K share sells were 10b5-1 automatic plan adopted Nov 2024. Signal was NEUTRAL, not bearish.
+This check is MANDATORY before any insider-driven assessment enters a thesis or decision.
 
 ### Anti-Sesgo (antes de sugerir inversiones)
 1. Revisar sector views → "Empresas Objetivo"
