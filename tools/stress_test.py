@@ -68,6 +68,38 @@ GFC_SECTOR_DRAWDOWNS = {
     'communication': -0.450,
 }
 
+# COVID Mar 2020 — REAL S&P sector ETF drawdowns (Feb peak → Mar 23 trough, 23 trading days)
+COVID_SECTOR_DRAWDOWNS = {
+    'technology': -0.312,
+    'healthcare': -0.281,
+    'financials': -0.429,
+    'consumer_disc': -0.339,
+    'industrials': -0.423,
+    'energy': -0.564,
+    'materials': -0.367,
+    'consumer_staples': -0.245,
+    'utilities': -0.361,
+    'real_estate': -0.388,
+    'communication': -0.301,
+}
+
+# COVID Mar 2020 — REAL per-stock drawdowns for positions that traded in 2020
+# Use these instead of sector proxy when available (more accurate)
+COVID_ACTUAL_DRAWDOWNS = {
+    'EDEN.PA': -0.368,   # Feb 19 → Mar 16
+    'ADBE': -0.256,      # Feb 19 → Mar 12
+    'NVO': -0.235,       # Feb 06 → Mar 20
+    'HLNE': -0.433,      # Feb 13 → Mar 18
+    'FTNT': -0.376,      # Feb 06 → Mar 16
+    'TW': -0.300,        # Feb 21 → Mar 18
+    'MONY.L': -0.382,    # Feb 20 → Mar 18
+    'IHP.L': -0.291,     # Feb 19 → Mar 16
+    'WKL.AS': -0.209,    # Feb 19 → Mar 12
+    'BZU.MI': -0.426,    # Feb 12 → Mar 23
+    # DOCS: IPO Jun 2021 — no COVID data, uses sector proxy
+    # CVNA: had data but was a different company pre-turnaround, use sector
+}
+
 # =============================================================================
 # PATHS
 # =============================================================================
@@ -399,6 +431,61 @@ def gfc_scenario(betas, position_list):
     }
 
 
+def covid_scenario(betas, position_list):
+    """
+    Apply COVID Mar 2020 drawdowns to portfolio. Uses REAL per-stock data
+    where available (10 of 12 positions traded in 2020), sector proxy otherwise.
+    """
+    results = []
+    portfolio_drawdown = 0.0
+
+    for item in position_list:
+        ticker = item['ticker']
+        weight = item['weight']
+        direction = item['direction']
+
+        # Prefer actual COVID drawdown data over sector proxy
+        if ticker in COVID_ACTUAL_DRAWDOWNS:
+            adjusted_dd = COVID_ACTUAL_DRAWDOWNS[ticker]
+            sector = 'actual'
+            adj_factor = 1.0
+            source = 'REAL (traded in 2020)'
+        else:
+            mapping = SECTOR_MAP.get(ticker)
+            if mapping:
+                sector, adj_factor, _ = mapping
+                base_dd = COVID_SECTOR_DRAWDOWNS.get(sector, -0.35)
+                adjusted_dd = base_dd * adj_factor
+                source = f'sector proxy ({sector} × {adj_factor})'
+            else:
+                adjusted_dd = -0.35
+                sector = 'unknown'
+                adj_factor = 1.0
+                source = 'default -35%'
+
+        if direction == 'short':
+            pnl_impact = -adjusted_dd * weight
+        else:
+            pnl_impact = adjusted_dd * weight
+
+        portfolio_drawdown += pnl_impact
+
+        results.append({
+            'ticker': ticker,
+            'direction': direction,
+            'sector': sector,
+            'weight': float(weight),
+            'position_drawdown': float(adjusted_dd),
+            'portfolio_impact': float(pnl_impact),
+            'source': source,
+        })
+
+    return {
+        'positions': results,
+        'portfolio_drawdown': float(portfolio_drawdown),
+    }
+
+
 # =============================================================================
 # 4. CRISIS CORRELATIONS
 # =============================================================================
@@ -563,7 +650,7 @@ def print_delta(label, current, previous, fmt='.1f', invert=False):
 # MAIN OUTPUT
 # =============================================================================
 
-def print_results(betas, mc_results, gfc, crisis_corr, liquidity, prev_report, quick_mode):
+def print_results(betas, mc_results, gfc, covid, crisis_corr, liquidity, prev_report, quick_mode):
     """Print formatted summary to stdout."""
     print()
     print("=" * 80)
@@ -647,6 +734,26 @@ def print_results(betas, mc_results, gfc, crisis_corr, liquidity, prev_report, q
     else:
         print(f"  Portfolio GFC Drawdown: {gfc['portfolio_drawdown']*100:.1f}%")
 
+    # --- Section 3b: COVID Mar 2020 ---
+    print()
+    print("-" * 80)
+    print("3b. COVID MAR 2020 SCENARIO (real per-stock data where available)")
+    print("-" * 80)
+    print(f"  {'Ticker':<10} {'Dir':>3} {'Pos.DD':>7} {'Ptf.Impact':>10}  {'Source'}")
+    print(f"  {'-'*10} {'-'*3} {'-'*7} {'-'*10}  {'-'*30}")
+    for p in covid['positions']:
+        d = 'L' if p['direction'] == 'long' else 'S'
+        print(f"  {p['ticker']:<10} {d:>3} {p['position_drawdown']*100:>6.1f}% {p['portfolio_impact']*100:>+9.1f}%  {p['source']}")
+
+    prev_covid_dd = prev_report.get('covid_scenario', {}).get('portfolio_drawdown') if prev_report else None
+    print()
+    if prev_covid_dd is not None:
+        delta = covid['portfolio_drawdown'] - prev_covid_dd
+        arrow = 'BETTER' if delta > 0 else 'WORSE' if delta < 0 else 'SAME'
+        print(f"  Portfolio COVID Drawdown: {covid['portfolio_drawdown']*100:.1f}%  (prev: {prev_covid_dd*100:.1f}%, delta: {delta*100:+.1f}pp {arrow})")
+    else:
+        print(f"  Portfolio COVID Drawdown: {covid['portfolio_drawdown']*100:.1f}%")
+
     # --- Section 4: Crisis Correlations ---
     print()
     print("-" * 80)
@@ -699,7 +806,8 @@ def print_results(betas, mc_results, gfc, crisis_corr, liquidity, prev_report, q
     print("SUMMARY")
     print("=" * 80)
     print(f"  Portfolio Weighted Beta:  {wb:.3f}")
-    print(f"  GFC Scenario Drawdown:   {gfc['portfolio_drawdown']*100:.1f}%")
+    print(f"  2008 GFC Drawdown:       {gfc['portfolio_drawdown']*100:.1f}%")
+    print(f"  COVID Mar 2020 Drawdown: {covid['portfolio_drawdown']*100:.1f}%")
     if not quick_mode and mc_results:
         print(f"  Monte Carlo P5 (VaR95):  {mc_results['percentiles']['P5']*100:.1f}%")
         print(f"  Monte Carlo P1 (VaR99):  {mc_results['percentiles']['P1']*100:.1f}%")
@@ -708,6 +816,11 @@ def print_results(betas, mc_results, gfc, crisis_corr, liquidity, prev_report, q
     if 'error' not in crisis_corr:
         print(f"  Crisis Correlation Spike: {crisis_corr['spike_multiplier']:.2f}x")
     print(f"  Liquidity Flags:         {flagged_count}")
+    # Most vulnerable position (worst drawdown across both scenarios)
+    worst_gfc = max(gfc['positions'], key=lambda p: abs(p['position_drawdown']))
+    worst_covid = max(covid['positions'], key=lambda p: abs(p['position_drawdown']))
+    print(f"  Most Vulnerable (GFC):   {worst_gfc['ticker']} ({worst_gfc['position_drawdown']*100:+.1f}%)")
+    print(f"  Most Vulnerable (COVID): {worst_covid['ticker']} ({worst_covid['position_drawdown']*100:+.1f}%)")
 
     # Beta fallback warnings
     fallback_tickers = [t for t, info in betas.items() if info.get('fallback')]
@@ -762,16 +875,20 @@ def main():
     else:
         print("[2/5] Monte Carlo SKIPPED (--quick)")
 
-    # --- 3. GFC Scenario ---
-    print("[3/5] Running 2008 GFC scenario...")
+    # --- 3a. GFC Scenario ---
+    print("[3/6] Running 2008 GFC scenario...")
     gfc = gfc_scenario(betas, position_list)
 
+    # --- 3b. COVID Scenario ---
+    print("[4/6] Running COVID Mar 2020 scenario...")
+    covid = covid_scenario(betas, position_list)
+
     # --- 4. Crisis Correlations ---
-    print("[4/5] Calculating crisis correlations...")
+    print("[5/6] Calculating crisis correlations...")
     crisis_corr = crisis_correlations(returns)
 
     # --- 5. Liquidity ---
-    print("[5/5] Checking liquidity...")
+    print("[6/6] Checking liquidity...")
     liquidity = liquidity_check(position_list)
 
     # --- Load previous report for comparison ---
@@ -790,6 +907,10 @@ def main():
             'portfolio_drawdown': float(gfc['portfolio_drawdown']),
             'positions': gfc['positions'],
         },
+        'covid_scenario': {
+            'portfolio_drawdown': float(covid['portfolio_drawdown']),
+            'positions': covid['positions'],
+        },
         'crisis_correlations': crisis_corr,
         'liquidity': liquidity,
     }
@@ -800,7 +921,7 @@ def main():
     print(f"\n  Report saved to: {filepath}")
 
     # --- Print formatted output ---
-    print_results(betas, mc_results, gfc, crisis_corr, liquidity, prev_report, args.quick)
+    print_results(betas, mc_results, gfc, covid, crisis_corr, liquidity, prev_report, args.quick)
 
 
 if __name__ == '__main__':
