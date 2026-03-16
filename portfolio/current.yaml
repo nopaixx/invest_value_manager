@@ -27,7 +27,7 @@ positions:
     shares: 102.83  # 85.96 + ~16.87 ADD S144c1 (EUR 317 at EUR 18.79). Confirm exact from eToro.
     invested_usd: 2218  # 1850 + ~368 (EUR 317 * 1.1616)
     avg_cost_usd: 21.57  # Blended estimate
-    avg_cost_eur: 18.35  # Blended: (85.96*18.26 + 16.87*18.79) / 102.83
+    avg_cost_eur: 18.45  # S220: REAL eToro entry EUR 18.45 (was 18.35 theoretical)
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
     conviction: high
@@ -51,7 +51,7 @@ positions:
     name: "Adobe Inc."
     shares: 3.83  # 2 original + 1.83 ADD S126. Confirm exact shares from eToro.
     invested_usd: 1013.92  # $541.20 + $472.72 (EUR 400 * 1.1818)
-    avg_cost_usd: 264.73  # Blended: (2*271.60 + 1.83*259.04) / 3.83
+    avg_cost_usd: 261.57  # S220: REAL eToro entry $261.57 (was $264.73 theoretical)  # Blended: (2*271.60 + 1.83*259.04) / 3.83
     date_opened: 2026-02-04
     conviction: medium
     fair_value: "$406 (S181: FTC settled $150M, trial CANCELLED. Was $390 FTC-adjusted. Unwind 4% of 6% discount. QS Tool 80, Adj 77. ROIC 53%.)"
@@ -82,7 +82,7 @@ positions:
     shares: 384  # 456 - 72 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
     invested_usd: 888  # Proportional: 1054 * (384/456)
     avg_cost_usd: 2.31  # Unchanged
-    avg_cost_gbp: 171.0  # Unchanged
+    avg_cost_gbp: 169.5  # S220: REAL eToro entry 169.5p (was 171p/125p theoretical)
     date_opened: 2026-02-04
     thesis: thesis/active/MONY.L/thesis.md
     notes: "R3 S147c3: FV 190p maintained. DA MODERATE COUNTER, 5 HIGH (AI live disruption, P/E re-rating unlikely, narrow upside 10%). FIRST ROTATION CANDIDATE. Yield play (7.3% div + 3% buyback). Growth 2% = lowest in portfolio."
@@ -103,7 +103,7 @@ positions:
     shares: 327  # 274 + ~53 ADD S143c8 sizing rebalance. Confirm exact from eToro.
     invested_usd: 1390  # 1165 + ~225 (EUR 194 * 1.1616)
     avg_cost_usd: 4.25  # Unchanged (blended)
-    avg_cost_gbp: 319.6  # Blended: (274*320 + 53*318.5) / 327
+    avg_cost_gbp: 316.0  # S220: REAL eToro entry 316p (was 319.6p/290p theoretical)
     date_opened: 2026-02-24
     thesis: thesis/active/IHP.L/thesis.md
     conviction: high
@@ -144,7 +144,7 @@ positions:
   - ticker: FTNT
     name: "Fortinet, Inc."
     shares: 10.57  # 12.92 - 2.35 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
-    avg_cost_usd: 81.58  # Unchanged
+    avg_cost_usd: 84.00  # S220: REAL eToro entry $84.00 (was $81.58 theoretical)
     invested_usd: 862  # Proportional: 1054 * (10.57/12.92)
     conviction: medium
     date_opened: 2026-02-26
@@ -177,7 +177,7 @@ positions:
     name: "Wolters Kluwer N.V."
     shares: 11.68  # 8.76 + ~2.92 ADD S143c10 T15 rotation. Confirm exact from eToro.
     invested_eur: 800  # 600 + 200
-    avg_cost_eur: 68.52  # Unchanged (same price)
+    avg_cost_eur: 67.47  # S220: REAL eToro entry EUR 67.47 (was 68.52 theoretical)
     date_opened: 2026-03-07
     thesis: thesis/active/WKL.AS/thesis.md
     conviction: medium
@@ -203,7 +203,7 @@ short_positions:
   - ticker: CVNA
     name: "Carvana Co."
     shares: 0.31
-    entry_price_usd: 318.77
+    entry_price_usd: 301.50  # S220: REAL eToro entry $301.50 (was $318.77 theoretical)
     date_opened: 2026-03-11
     carry_cost_accrued: 0.00
     catalyst_date: 2026-05-06
