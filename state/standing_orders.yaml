@@ -478,6 +478,27 @@ standing_orders:
     last_analysis_date: 2026-03-02
     expiry: 2026-08-01
 
+  - ticker: MONC.MI
+    action: BUY
+    category: GATED
+    fill_prob_6m: 25
+    trigger: "<=EUR 44"
+    current_distance: "18.9%"
+    created_date: "2026-03-16"
+    staleness_status: FRESH
+    gate: "FTNT exit capital needed (~late April). Luxury sector must NOT be in active recession (China revenue stable or growing)."
+    r4_status: "CONDITIONAL APPROVE (S229, 2026-03-16). R1+R2 same session. DA MODERATE COUNTER (3 HIGH: China structural, revenue deceleration, oil recession)."
+    size_eur: 400
+    fair_value: "EUR 58 (R2 DA corrected from EUR 66. 60/40 bear EUR 51 / base EUR 66.)"
+    mos_at_trigger: "24.1%"
+    tier: "A (QS 87)"
+    ecagr_at_trigger: "~20.5%"
+    notes: "S227 R1+R2. QS 87 = highest in universe (tied FTNT). GM 78.1% expanding. ROIC 20.1%. Rev CAGR 15% but decelerating to 4.2%. Insider 17.4% (Ruffini CEO/founder). Net cash EUR 349M. 2.7% dividend. EU Pricing Power basket REBIRTH candidate (2nd with EDEN.PA). Competes with SPGI for FTNT exit capital — MONC.MI E[CAGR] 20.5% >> SPGI 12.1% but MONC.MI is luxury cyclical vs SPGI duopoly defensive."
+    kill_conditions: "KC#1 China rev -15% 2Q, KC#2 GM <75% 2Q, KC#3 Stone Island rev -10% 2Q, KC#4 Ruffini sells >5%, KC#5 group rev -5% 2FY, KC#6 ND/EBITDA >2.0x, KC#7 OP margin <25% 2Q"
+    pre_execution_condition: "Needs FTNT exit capital. If SPGI Q1 gate FAILS (AR gap >15pp) → MONC.MI becomes PRIMARY deployment target. If both available → DUAL: MONC.MI EUR 400 + ALFA.L EUR 400 (skip SPGI)."
+    last_analysis_date: 2026-03-16
+    expiry: 2026-10-01
+
   # Cancelled orders history preserved as comments:
   # FGP.L — CANCELLED 2026-02-18 (Session 79). No pipeline. UK concentration.
   - ticker: CMCSA

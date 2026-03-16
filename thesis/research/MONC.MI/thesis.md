@@ -1,12 +1,13 @@
 # MONC.MI - Moncler SpA | R1 Thesis
 
-> **Fair Value:** EUR 66 (60/40 bear/base. Bear EUR 60.5 at EV/EBIT 18x, Base EUR 74.2 at 22x.)
-> **Expected Growth:** 8% (Revenue decelerated 27%→15%→4%. Normalized at 8%: Moncler brand mid-single + Stone Island double-digit - FX/China drag.)
-> **Entry Price:** EUR 48 (MoS 27.3%)
-> **Date:** 2026-03-16
-> **Quality Score:** 87 Tool (Tier A). Adjustment: +0 (Market Position 0/8 manual should be 5/8 for #1 luxury outerwear but keeping tool output per protocol.)
-> **Pipeline Stage:** R1 COMPLETE → R2 DA below
-> **Bear Case:** China 30% revenue exposure in luxury slowdown. Revenue decelerated 27%→4.2% in 3 years — growth could be structural decline. Oil recession crushes discretionary spending. Stone Island acquisition integration risk. SELL if China revenue -15% 2Q OR GM <75% 2Q.
+> **Fair Value:** EUR 58 (R2 DA corrected. Was EUR 66 R1. DA: growth 8%→6%, China structural, recession risk. Bear EUR 51/Base EUR 66/60-40 weighted EUR 58.)
+> **Expected Growth:** 6% (R2 DA corrected from 8%. Revenue decelerated 27%→15%→4%. Normalized 6%: Moncler 3-4% + Stone Island 8-10% blended.)
+> **Entry Price:** EUR 44 (MoS 24.1% vs EUR 58 FV)
+> **Date:** 2026-03-16 (R1+R2 same session)
+> **Quality Score:** 87 Tool (Tier A). Adjustment: +0.
+> **Pipeline Stage:** R4 CONDITIONAL APPROVE — SO EUR 44, GATED on FTNT exit capital + luxury sector not in active recession
+> **Bear Case:** China 30% revenue exposure in luxury slowdown. Revenue decelerated 27%→4.2% in 3 years — growth could be structural decline. Oil recession crushes discretionary spending first. Stone Island integration. SELL if China revenue -15% 2Q OR GM <75% 2Q.
+> **Smart Money:** Not in SM graph (Italian stock, no 13F). Insider 17.4% (Remo Ruffini CEO/founder). No institutional data.
 
 ---
 
