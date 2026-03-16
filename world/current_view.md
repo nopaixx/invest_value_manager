@@ -1,11 +1,14 @@
 # Vision Macro y Geopolitica
 
-> Ultima actualizacion: 2026-03-15 (S216 EMERGENCY — Kharg Island strike + oil $150 spike)
+> Ultima actualizacion: 2026-03-16 (S228 Monday pre-FOMC — oil reality check + BZU.MI sold)
 
-**CAMBIOS MATERIALES desde ultimo update (15-mar S216 EMERGENCY):**
-- **CRITICAL ESCALATION: US-ISRAEL STRUCK KHARG ISLAND (Mar 14).** 90+ military targets destroyed on Iran's main oil export hub (90% of Iran's crude exports). Oil infrastructure SPARED — for now. Trump: "may hit it again just for fun." Israel launched "extensive strikes" on Iran. War Day 15+. Brent spiked 30%+ to $150+ on the news. Monday forecast: extreme volatility, Brent $103-150+ range. This is the BIGGEST escalation since the war began Feb 28.
-- **OIL SPIKE TO $150+:** Biggest single-day oil spike since 1990 Kuwait invasion. If oil stays above $120, recession becomes NEAR-CERTAIN within 6 months. Fed's FOMC Tuesday decision is now even more binary: acknowledge inflation risk (hawkish) or acknowledge recession risk (dovish). Both are real simultaneously = STAGFLATION.
-- **PORTFOLIO RESPONSE:** BZU.MI SELL MONDAY (urgent — cement margins destroyed at oil $120+). DNLM.L sizing reduced EUR 300→200 (UK homewares = discretionary, recession-sensitive). CVNA short STRENGTHENED (oil devastates used car demand). FOMC hawkish probability reduced 50%→40% (Fed unlikely to sound aggressive during active war).
+**CAMBIOS MATERIALES desde ultimo update (16-mar S228 Monday pre-FOMC):**
+- **S228 MONDAY REALITY CHECK:** Kharg strike contained to MILITARY targets — oil infrastructure SPARED. Brent $150 spike was INTRADAY, not sustained. Monday open: WTI $97-99, Brent $103-105. EU markets calm (-1%). S&P futures +0.5%. The crisis is REAL but markets have digested it. Oil stays $95-110 range, NOT $150.
+- **BZU.MI SOLD 09:01 CET** at EUR 48.10. P&L +14.5%. Portfolio now 10L + 1S, cash EUR 423.7 (4.1%). Removes only oil-sensitive position pre-FOMC.
+- **S216 EMERGENCY CONTEXT (still valid):** US-Israel struck 90+ targets on Kharg Island Mar 14. Trump: "may hit again." Oil infrastructure spared FOR NOW. War Day 16. Hormuz still closed. Diplomacy dead.
+- **FOMC TOMORROW (Mar 18, 2 PM ET / 8 PM CET):** Probabilities post-Kharg: HAWKISH 40%, NEUTRAL 30%, DOVISH 15%, SHOCK 15%. Fed faces stagflation dilemma: oil inflation vs recession risk. Action tree defined for all 4 scenarios.
+- **DNLM.L SIZING:** Reduced EUR 300→200 in S216 emergency. May REVISIT back to EUR 300 given oil at $99 not $150. Decision at Mar 26.
+- **MONC.MI DISCOVERED (S226):** QS 87 Tier A. Italian luxury. E[CAGR] 25.8% at EUR 52. R1+R2 complete. Entry EUR 44. EU Pricing Power basket rebirth candidate.
 - **TRADE WAR ESCALATION:** Trump admin launched Section 301 probes into 16+ economies (China, EU, Mexico) + forced labor investigations into 60 economies. Goal: replace reciprocal tariffs struck down by Supreme Court. Current: blanket 10% tariff on all partners. New tariffs could be sector-specific. China responded: "pretext." Impact: adds uncertainty to FOMC decision — tariffs = inflationary.
 - **ADBE FTC SETTLED (S180):** $150M total. Trial CANCELLED. #1 contrathesis risk GONE. FV $390→$406.
 - **NVO GUIDE -5% to -13%:** Adjusted sales growth (constant FX) worse than thesis 5%. Reinforces Mar 26 trim.
