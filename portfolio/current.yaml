@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 0  # Updated 2026-03-13. BUY BZU.MI EUR 370 at EUR 42.00. Cash fully deployed.
+  amount: 423.7  # Updated 2026-03-16. SOLD BZU.MI 8.81 shares at EUR 48.10. P&L +14.5%.
   currency: EUR
 
 positions:
@@ -187,19 +187,11 @@ positions:
     exit_plan: "HOLD. TRIM at EUR 95+. ADD at EUR 55 (MoS 31%). SELL if KC triggered (organic growth <3% 2Q, OP margin <25% 2Q, Harvey AI >$500M ARR, net debt >2.5x, OpenEvidence >100 hospital contracts)."
     notes: "R3 S147c2: FV EUR 80 maintained. DA MODERATE COUNTER (was STRONG Feb 11). FY2025 confirmed thesis. Receivables +23% vs rev +3.5% yellow flag. Growth 6% formalized (Error #64 fix). KC#12-13 added. No ADD until receivables explained + Caywood track record. Sector view cleared S146."
 
-  - ticker: BZU.MI
-    name: "Buzzi SpA"
-    shares: 8.81  # EUR 370 / EUR 42.00. Confirm exact from eToro.
-    invested_eur: 370
-    avg_cost_eur: 42.00
-    date_opened: 2026-03-13
-    thesis: thesis/active/BZU.MI/thesis.md
-    conviction: medium
-    fair_value: "EUR 51 (R3 post-DA resolution S151. Was EUR 57 R4. DA: through-cycle EBIT EUR 780M, oil $97 headwind, US demand 3yr decline. QS 73/75adj Tier B.)"
-    last_review: 2026-03-13
-    intentional_weight: 3.6  # Weight after S151 market buy (8.81 shares, EUR 370). SELLING Monday.
-    exit_plan: "HOLD. TRIM at EUR 50+. ADD at EUR 35 (MoS 31%). SELL if KC triggered (US EBITDA margin <30% 2yr, net debt >2x EBITDA, family <40%, Russia writedown >EUR 500M, ROIC <WACC 2yr, Brent >$95 6mo + margin -5pp). Through-cycle EBIT EUR 780M at 10x. No ADD until FY2025 formal results."
-    notes: "S151 DA RESOLUTION: FV EUR 57→51 (-10.5%). DA MODERATE COUNTER (3 HIGH: US demand 3yr decline, oil $97 headwind, timing premature). Edge limited (~5% vs consensus). E[CAGR] ~11.8% at EUR 41.50 — below 15% Tier B but position small (3.5%), defensible as cyclical recovery bet. KC#6 added (oil). DO NOT ADD."
+  # BZU.MI — SOLD 2026-03-16 (S219). 8.81 shares at EUR 48.10. Proceeds EUR 423.7.
+  # Held 3 days (Mar 13→16). P&L: EUR 42.00→48.10 = +14.5% (EUR +53.7).
+  # Reason: Oil headwind structural (Hormuz closed, Kharg struck), KC#6 MONITORING,
+  # worst E[CAGR] 11.2%, lowest conviction. Error #67 documented (stale R4 in changed macro).
+  # Moved to portfolio/history.yaml.
 
 # =============================================================================
 # SHORT POSITIONS - CFDs en eToro

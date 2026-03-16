@@ -602,6 +602,21 @@ partial_sells:
     reason: "T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg 17.4%). QS 84 Tier A but overvalued at EUR 301.60. Capital redeployed to EDEN/NVO/WKL (E[CAGR] 21-27%). Short hold — correction of THREE WAITS mandate buy that deployed into wrong E[CAGR] tier."
     thesis_accuracy: "Thesis intact (FV EUR 355 > price). Sold for portfolio optimization, not thesis failure."
 
+  - ticker: BZU.MI
+    name: "Buzzi SpA"
+    entry_date: 2026-03-13
+    exit_date: 2026-03-16
+    entry_price_eur: 42.00
+    exit_price_eur: 48.10
+    shares: 8.81
+    invested_eur: 370
+    proceeds_eur: 423.7
+    pnl_eur: 53.7
+    pnl_pct: 14.5
+    holding_days: 3
+    reason: "Error #67 (stale R4 in changed macro) + oil crisis (Hormuz closed, Brent $100+, Kharg struck). KC#6 MONITORING (Brent >$95 sustained). E[CAGR] 11.2% worst. Conviction LOW. Sold to free capital for FOMC deployment."
+    thesis_accuracy: "Thesis partially correct (FV EUR 51 > exit EUR 48.10). Sold for macro risk management + rotation, not thesis failure. Price ROSE after buy — market disagreed with oil headwind thesis short-term."
+
 # Statistics (auto-calculated by effectiveness_tracker.py)
 statistics:
   # Will be populated by the tool
