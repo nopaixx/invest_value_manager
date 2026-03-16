@@ -1,0 +1,417 @@
+{
+  "date": "2026-03-16",
+  "positions_count": 11,
+  "total_value_usd": 11356.605302031316,
+  "portfolio_weighted_beta": 0.6235254224652487,
+  "betas": {
+    "EDEN.PA": {
+      "beta": 0.16361308100216387,
+      "weight": 0.1892848348909273,
+      "direction": "long",
+      "annual_vol": 0.44009299160843746
+    },
+    "ADBE": {
+      "beta": 0.8199866801924284,
+      "weight": 0.08408284013189743,
+      "direction": "long",
+      "annual_vol": 0.31416520567401063
+    },
+    "NVO": {
+      "beta": 1.0845771746226016,
+      "weight": 0.1210002399759478,
+      "direction": "long",
+      "annual_vol": 0.5549947100418473
+    },
+    "MONY.L": {
+      "beta": 0.1437988435503141,
+      "weight": 0.07448843547852974,
+      "direction": "long",
+      "annual_vol": 0.24983194926102864
+    },
+    "IHP.L": {
+      "beta": 0.11973585199556362,
+      "weight": 0.11898176022907221,
+      "direction": "long",
+      "annual_vol": 0.29694207987307314
+    },
+    "HLNE": {
+      "beta": 1.4782830739360553,
+      "weight": 0.10122826771854004,
+      "direction": "long",
+      "annual_vol": 0.44611337362763104
+    },
+    "DOCS": {
+      "beta": 1.209108791077365,
+      "weight": 0.08568530010781793,
+      "direction": "long",
+      "annual_vol": 0.5147209728511541
+    },
+    "FTNT": {
+      "beta": 1.2711791789199436,
+      "weight": 0.07766060388203426,
+      "direction": "long",
+      "annual_vol": 0.42814311153895157
+    },
+    "TW": {
+      "beta": 0.4036856923233819,
+      "weight": 0.06124257832928307,
+      "direction": "long",
+      "annual_vol": 0.3008019565922573
+    },
+    "WKL.AS": {
+      "beta": 0.13736817038027055,
+      "weight": 0.07815197803978426,
+      "direction": "long",
+      "annual_vol": 0.3208237097544686
+    },
+    "CVNA": {
+      "beta": 2.4420936716555595,
+      "weight": 0.008193161216166178,
+      "direction": "short",
+      "annual_vol": 0.7203494335682873
+    }
+  },
+  "gfc_scenario": {
+    "portfolio_drawdown": -0.37766445429580814,
+    "spx_recovery_years": 4.0,
+    "portfolio_recovery_years": 2.8654652338254927,
+    "positions": [
+      {
+        "ticker": "EDEN.PA",
+        "direction": "long",
+        "sector": "consumer_disc",
+        "weight": 0.1892848348909273,
+        "sector_drawdown": -0.594,
+        "adj_factor": 0.6,
+        "position_drawdown": -0.3564,
+        "portfolio_impact": -0.06746111515512648,
+        "rationale": "Employee benefits fintech, not pure consumer disc"
+      },
+      {
+        "ticker": "ADBE",
+        "direction": "long",
+        "sector": "technology",
+        "weight": 0.08408284013189743,
+        "sector_drawdown": -0.494,
+        "adj_factor": 1.0,
+        "position_drawdown": -0.494,
+        "portfolio_impact": -0.04153692302515733,
+        "rationale": "Software, direct match"
+      },
+      {
+        "ticker": "NVO",
+        "direction": "long",
+        "sector": "healthcare",
+        "weight": 0.1210002399759478,
+        "sector_drawdown": -0.375,
+        "adj_factor": 1.0,
+        "position_drawdown": -0.375,
+        "portfolio_impact": -0.04537508999098043,
+        "rationale": "Pharma, direct match"
+      },
+      {
+        "ticker": "MONY.L",
+        "direction": "long",
+        "sector": "consumer_disc",
+        "weight": 0.07448843547852974,
+        "sector_drawdown": -0.594,
+        "adj_factor": 0.8,
+        "position_drawdown": -0.4752,
+        "portfolio_impact": -0.03539690453939733,
+        "rationale": "Insurance comparison, consumer-facing"
+      },
+      {
+        "ticker": "IHP.L",
+        "direction": "long",
+        "sector": "financials",
+        "weight": 0.11898176022907221,
+        "sector_drawdown": -0.831,
+        "adj_factor": 0.35,
+        "position_drawdown": -0.29084999999999994,
+        "portfolio_impact": -0.03460584496262564,
+        "rationale": "Adviser platform, NOT bank"
+      },
+      {
+        "ticker": "HLNE",
+        "direction": "long",
+        "sector": "financials",
+        "weight": 0.10122826771854004,
+        "sector_drawdown": -0.831,
+        "adj_factor": 0.7,
+        "position_drawdown": -0.5816999999999999,
+        "portfolio_impact": -0.05888448333187473,
+        "rationale": "Alt asset mgmt, PE fundraising correlated"
+      },
+      {
+        "ticker": "DOCS",
+        "direction": "long",
+        "sector": "healthcare",
+        "weight": 0.08568530010781793,
+        "sector_drawdown": -0.375,
+        "adj_factor": 0.9,
+        "position_drawdown": -0.3375,
+        "portfolio_impact": -0.028918788786388552,
+        "rationale": "Healthcare IT/advertising"
+      },
+      {
+        "ticker": "FTNT",
+        "direction": "long",
+        "sector": "technology",
+        "weight": 0.07766060388203426,
+        "sector_drawdown": -0.494,
+        "adj_factor": 0.8,
+        "position_drawdown": -0.3952,
+        "portfolio_impact": -0.030691470654179938,
+        "rationale": "Cybersecurity, non-discretionary"
+      },
+      {
+        "ticker": "TW",
+        "direction": "long",
+        "sector": "financials",
+        "weight": 0.06124257832928307,
+        "sector_drawdown": -0.831,
+        "adj_factor": 0.4,
+        "position_drawdown": -0.33240000000000003,
+        "portfolio_impact": -0.020357033036653694,
+        "rationale": "Bond trading, benefits from vol in crisis"
+      },
+      {
+        "ticker": "WKL.AS",
+        "direction": "long",
+        "sector": "technology",
+        "weight": 0.07815197803978426,
+        "sector_drawdown": -0.494,
+        "adj_factor": 0.5,
+        "position_drawdown": -0.247,
+        "portfolio_impact": -0.01930353857582671,
+        "rationale": "Legal/tax info, consumer staples behavior"
+      },
+      {
+        "ticker": "CVNA",
+        "direction": "short",
+        "sector": "consumer_disc",
+        "weight": 0.008193161216166178,
+        "sector_drawdown": -0.594,
+        "adj_factor": 1.0,
+        "position_drawdown": -0.594,
+        "portfolio_impact": 0.004866737762402709,
+        "rationale": "Used car retail, full consumer disc exposure"
+      }
+    ]
+  },
+  "covid_scenario": {
+    "portfolio_drawdown": -0.30932645192329244,
+    "spx_recovery_months": 5.0,
+    "portfolio_recovery_months": 7.291702909861969,
+    "positions": [
+      {
+        "ticker": "EDEN.PA",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.1892848348909273,
+        "position_drawdown": -0.368,
+        "portfolio_impact": -0.06965681923986124,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 10.0
+      },
+      {
+        "ticker": "ADBE",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.08408284013189743,
+        "position_drawdown": -0.256,
+        "portfolio_impact": -0.02152520707376574,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 3.5
+      },
+      {
+        "ticker": "NVO",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.1210002399759478,
+        "position_drawdown": -0.235,
+        "portfolio_impact": -0.028435056394347732,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 4.0
+      },
+      {
+        "ticker": "MONY.L",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.07448843547852974,
+        "position_drawdown": -0.382,
+        "portfolio_impact": -0.02845458235279836,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 18.0
+      },
+      {
+        "ticker": "IHP.L",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.11898176022907221,
+        "position_drawdown": -0.291,
+        "portfolio_impact": -0.034623692226660015,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 7.0
+      },
+      {
+        "ticker": "HLNE",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.10122826771854004,
+        "position_drawdown": -0.433,
+        "portfolio_impact": -0.04383183992212784,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 9.0
+      },
+      {
+        "ticker": "DOCS",
+        "direction": "long",
+        "sector": "healthcare",
+        "weight": 0.08568530010781793,
+        "position_drawdown": -0.2529,
+        "portfolio_impact": -0.021669812397267153,
+        "source": "sector proxy (healthcare \u00d7 0.9)",
+        "recovery_months": null
+      },
+      {
+        "ticker": "FTNT",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.07766060388203426,
+        "position_drawdown": -0.376,
+        "portfolio_impact": -0.02920038705964488,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 4.0
+      },
+      {
+        "ticker": "TW",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.06124257832928307,
+        "position_drawdown": -0.3,
+        "portfolio_impact": -0.01837277349878492,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 5.0
+      },
+      {
+        "ticker": "WKL.AS",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.07815197803978426,
+        "position_drawdown": -0.209,
+        "portfolio_impact": -0.016333763410314908,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 3.0
+      },
+      {
+        "ticker": "CVNA",
+        "direction": "short",
+        "sector": "consumer_disc",
+        "weight": 0.008193161216166178,
+        "position_drawdown": -0.339,
+        "portfolio_impact": 0.0027774816522803344,
+        "source": "sector proxy (consumer_disc \u00d7 1.0)",
+        "recovery_months": null
+      }
+    ]
+  },
+  "crisis_correlations": {
+    "crisis_avg_correlation": 0.19627338364975178,
+    "normal_avg_correlation": 0.11834289172084732,
+    "spike_multiplier": 1.6585143458614355,
+    "crisis_days_count": 24,
+    "normal_days_count": 208,
+    "threshold_return": -0.009858734305129856
+  },
+  "liquidity": [
+    {
+      "ticker": "EDEN.PA",
+      "shares": 102.83,
+      "avg_daily_volume": 1248937,
+      "days_to_liquidate": 8.233401684792747e-05,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "ADBE",
+      "shares": 3.83,
+      "avg_daily_volume": 5387974,
+      "days_to_liquidate": 7.10842331458912e-07,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "NVO",
+      "shares": 36.2,
+      "avg_daily_volume": 24089452,
+      "days_to_liquidate": 1.5027323992260182e-06,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "MONY.L",
+      "shares": 384.0,
+      "avg_daily_volume": 1934043,
+      "days_to_liquidate": 0.00019854780891634779,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "IHP.L",
+      "shares": 327.0,
+      "avg_daily_volume": 702940,
+      "days_to_liquidate": 0.00046518906307792984,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "HLNE",
+      "shares": 11.87,
+      "avg_daily_volume": 679305,
+      "days_to_liquidate": 1.7473741544666973e-05,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "DOCS",
+      "shares": 39.93,
+      "avg_daily_volume": 3497713,
+      "days_to_liquidate": 1.1416030989392212e-05,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "FTNT",
+      "shares": 10.57,
+      "avg_daily_volume": 6715104,
+      "days_to_liquidate": 1.5740634843481204e-06,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "TW",
+      "shares": 5.59,
+      "avg_daily_volume": 1514482,
+      "days_to_liquidate": 3.6910309927750873e-06,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "WKL.AS",
+      "shares": 11.68,
+      "avg_daily_volume": 1109165,
+      "days_to_liquidate": 1.0530444072793497e-05,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "CVNA",
+      "shares": 0.31,
+      "avg_daily_volume": 4363226,
+      "days_to_liquidate": 7.104834817174265e-08,
+      "risk_level": "LOW",
+      "flagged": false
+    }
+  ]
+}
