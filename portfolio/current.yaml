@@ -66,7 +66,7 @@ positions:
     name: "Novo Nordisk A/S"
     shares: 36.20  # 24.16 + ~12.04 ADD S144c1 (EUR 400 at $38.58). Confirm exact from eToro.
     invested_usd: 1476  # 1011 + ~465 (EUR 400 * 1.1616)
-    avg_cost_usd: 40.76  # Blended: (24.16*41.84 + 12.04*38.58) / 36.20
+    avg_cost_usd: 37.93  # S231: REAL eToro entry $37.93 (was $40.76 theoretical). E[CAGR] 14.8%→17.3% (+2.5pp)
     avg_cost_dkk: 256.00  # Estimated blended
     date_opened: 2026-02-05
     conviction: medium
@@ -117,7 +117,7 @@ positions:
     name: "Hamilton Lane Incorporated"
     shares: 11.87  # 15.54 - 3.67 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
     invested_usd: 1264  # Proportional: 1641 * (11.87/15.54)
-    avg_cost_usd: 105.60  # Unchanged (blended cost basis)
+    avg_cost_usd: 99.02  # S231: REAL eToro entry $99.02 (was $106.49 theoretical). E[CAGR] 13.3%→15.8% (+2.5pp)
     date_opened: 2026-02-25
     thesis: thesis/active/HLNE/thesis.md
     conviction: medium
@@ -131,7 +131,7 @@ positions:
     name: "Doximity, Inc."
     shares: 39.93  # 47.08 - 7.15 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
     invested_usd: 991  # Proportional: 1168 * (39.93/47.08)
-    avg_cost_usd: 24.81  # Unchanged
+    avg_cost_usd: 24.41  # S231: REAL eToro entry $24.41 (was $24.82 theoretical). E[CAGR] 14.5%→15.1% (+0.6pp)
     date_opened: 2026-02-25
     thesis: thesis/active/DOCS/thesis.md
     conviction: medium
@@ -163,7 +163,7 @@ positions:
     name: "Tradeweb Markets Inc."
     shares: 5.59  # EUR 600 at ~$124.59. Confirm exact shares from eToro.
     invested_usd: 697  # EUR 600 * 1.1616
-    avg_cost_usd: 124.59
+    avg_cost_usd: 125.63  # S231: REAL eToro entry $125.63 (was $124.69 theoretical). E[CAGR] 13.2%→12.9% (-0.3pp)
     date_opened: 2026-03-07
     thesis: thesis/active/TW/thesis.md
     conviction: medium
