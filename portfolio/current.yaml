@@ -33,9 +33,9 @@ positions:
     conviction: high
     last_review: 2026-03-15
     intentional_weight: 18.7  # Weight after S144c1 ADD (EUR 317 at EUR 18.79). Last action on EDEN.PA.
-    fair_value: "EUR 29.0 (adversarial, was 38.4)"
-    exit_plan: "HOLD. SI declining (21.2%→9.64% AMF, Citadel COVERED, Millennium reduced). ADD prohibition RELAXED — reconsider at EUR 17. TRIM at EUR 22+ (19%→15%). EXIT if France levy tabled (KC#13) or 2027-28 guide <5%. KC#1 MONITORING, KC#7 MONITORING ELEVATED."
-    notes: "S151: SI update — Citadel covered below 0.50% (was 2.10%), Millennium 1.90%→0.71%. AMF total 9.64% from 10 funds (was 21.2%/20 funds). Smart money covering = moderately bullish. ADD restriction relaxed. Thesis v4.2."
+    fair_value: "EUR 24.0 (S251 recalc. Was 29.0. Brazil injunction lost, decree ~certain. Growth 6%→4%.)"
+    exit_plan: "HOLD. Brazil injunction OVERRULED Feb 24 — decree certain. Turkey antitrust = 4th front. SI 9.64% declining. ADD at EUR 15. TRIM at EUR 22+. EXIT if France levy tabled OR 2027-28 guide <3% OR Turkey fine >EUR 50M."
+    notes: "S251: FV EUR 29→24 (-17.2%). Brazil decree permanent: interchange capped, settlement halved, interoperability forced. Growth 6%→4%. E[CAGR] 30.6%→20.8% — STILL #1 in portfolio. Turkey antitrust probe = new risk. Thesis v4.3."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
@@ -81,8 +81,8 @@ positions:
     name: "Mony Group PLC"
     shares: 384  # 456 - 72 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
     invested_usd: 888  # Proportional: 1054 * (384/456)
-    avg_cost_usd: 2.31  # Unchanged
-    avg_cost_gbp: 169.5  # S220: REAL eToro entry 169.5p (was 171p/125p theoretical)
+    avg_cost_usd: 2.31  # Blended USD at prevailing FX. 169.5 GBp = GBP 1.695 × ~1.36 GBPUSD.
+    avg_cost_gbp: 169.5  # S220: REAL eToro entry in GBp (pence). = GBP 1.695.
     date_opened: 2026-02-04
     thesis: thesis/active/MONY.L/thesis.md
     notes: "R3 S147c3: FV 190p maintained. DA MODERATE COUNTER, 5 HIGH (AI live disruption, P/E re-rating unlikely, narrow upside 10%). FIRST ROTATION CANDIDATE. Yield play (7.3% div + 3% buyback). Growth 2% = lowest in portfolio."
@@ -102,8 +102,8 @@ positions:
     name: "IntegraFin Holdings plc"
     shares: 327  # 274 + ~53 ADD S143c8 sizing rebalance. Confirm exact from eToro.
     invested_usd: 1390  # 1165 + ~225 (EUR 194 * 1.1616)
-    avg_cost_usd: 4.25  # Unchanged (blended)
-    avg_cost_gbp: 316.0  # S220: REAL eToro entry 316p (was 319.6p/290p theoretical)
+    avg_cost_usd: 4.25  # Blended USD at prevailing FX. 316 GBp = GBP 3.16 × ~1.345 GBPUSD.
+    avg_cost_gbp: 316.0  # S220: REAL eToro entry in GBp (pence). = GBP 3.16.
     date_opened: 2026-02-24
     thesis: thesis/active/IHP.L/thesis.md
     conviction: high
@@ -203,6 +203,7 @@ short_positions:
   - ticker: CVNA
     name: "Carvana Co."
     shares: 0.31
+    avg_cost_usd: 301.50  # S264: Added for field consistency. Same as entry_price_usd.
     entry_price_usd: 301.50  # S220: REAL eToro entry $301.50 (was $318.77 theoretical)
     date_opened: 2026-03-11
     carry_cost_accrued: 0.00
