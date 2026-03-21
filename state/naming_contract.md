@@ -25,6 +25,29 @@
 - ~~r1_thesis.md~~ → usa `thesis.md`
 - ~~valuation_report.md~~ → usa `thesis.md`
 
+## Agentes Non-Thesis con Output de JUICIO
+
+Estos agentes emiten juicio y DEBEN incluir meta-reflexión en su output:
+
+| Agente | Output Path | Meta-Reflection |
+|--------|-------------|-----------------|
+| news-monitor | `state/news_digest.yaml` | Campo `meta_reflection:` en YAML |
+| risk-sentinel | `state/risk_alerts.yaml` | Campo `meta_reflection:` en YAML |
+| macro-analyst | `world/sectors/*.md` | Sección META-REFLECTION (en _TEMPLATE) |
+| sector-screener | `world/sectors/*.md` | Sección META-REFLECTION (en _TEMPLATE) |
+| review-agent | `thesis/active/TICKER/re_evaluation.md` | Sección META-REFLECTION (en _TEMPLATE) |
+
+Formato YAML para news-monitor y risk-sentinel:
+```yaml
+meta_reflection:
+  anomalies:
+    - "[data inconsistency found]"
+  suggestions:
+    - "[system improvement proposed]"
+  questions:
+    - "[question for CIO]"
+```
+
 ## Enforcement
 
 1. **En CADA prompt de agente:** incluir línea exacta
@@ -32,6 +55,7 @@
 2. **Post-agente checklist:** Verificar filename. Si no canónico → RENAME inmediatamente.
 3. **meta_compliance.py:** Solo cuenta ficheros con nombres canónicos para coverage.
 4. **Ficheros legacy:** Se migran en batch de limpieza. No bloquean pipeline.
+5. **Non-thesis agents:** Incluir instrucción de meta_reflection en CADA prompt.
 
 ## Estructura completa de thesis/research/{TICKER}/
 

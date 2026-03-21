@@ -171,6 +171,19 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 ---
 
+## META-REFLECTION
+
+### Anomalias Detectadas
+- [Datos inconsistentes o patrones inexplicados encontrados durante el analisis]
+
+### Sugerencias
+- [Mejoras al sistema, nuevos candidatos descubiertos, gaps de cobertura]
+
+### Preguntas para el Orquestador
+- [Decisiones que requieren juicio del CIO]
+
+---
+
 ## Fuentes
 
 - [fuente 1]
