@@ -3,11 +3,12 @@
 > **Fair Value:** $88 (R3 post-DA resolution)
 > **Expected Growth:** 8% (R3 post-DA. Billings +18%, SASE +40%, rev guide +12%. Buyback ~2%.)
 > Pipeline Stage: EXIT APPROVED S152. Committee APPROVE. Late April sell. SPGI rotation target.
-> R1 Fundamental Analysis | Date: 2026-02-26
+> R1 Fundamental Analysis | Date: 2026-02-26 (header refreshed 2026-03-21)
 > Analyst: fundamental-analyst (opus)
 > Sector View: world/sectors/cybersecurity.md (FRESH, same day)
 > Stage: R4 APPROVED — POSITION OPENED 2026-02-26 (5.98 shares @ $79.12, EUR 400)
-> EXIT: APPROVED S152 (2026-03-13). E[CAGR] 9.4% worst, 3 KCs MONITORING, 4.3% MoS. Rotate to SPGI EUR 400 + best available EUR 375. Late April timing.
+> EXIT: APPROVED S152 (2026-03-13). E[CAGR] ~9% at $81.40, 3 KCs MONITORING, ~7.5% MoS. Rotate to SPGI EUR 400 + best available EUR 375. Late April timing (Q1 earnings Apr 30).
+> **Current Price (2026-03-21):** $81.40. Down from $83.67 at last update. MoS vs FV $88 = 7.5%. Exit plan CONFIRMED: sell late April pre-Q1 or post-Q1 depending on price action. Price hikes (5-20%) effective Mar 2 = modest positive.
 > **Bear Case:** CVE vulnerability pattern escalating (11 new vulns Mar 10, CISA advisory). Deferred revenue growth decelerating. E[CAGR] 9.8% worst in portfolio. EXITING April — contrathesis supports exit decision.
 
 ---

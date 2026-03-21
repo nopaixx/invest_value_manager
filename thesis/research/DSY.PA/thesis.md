@@ -1,13 +1,15 @@
 # DSY.PA - Dassault Systemes SE
 
-> **Fair Value:** EUR 20.00 (base case, weighted EV/EBIT + DCF)
+> **Fair Value:** EUR 20.00 (base case, weighted EV/EBIT + DCF). FV unchanged on refresh — FY2025 actuals confirmed in thesis.
 > **Pipeline Stage:** R4_APPROVED (Investment Committee 2026-02-11)
-> **Standing Order:** BUY at EUR 15.50, WAIT Q1 FY2026
+> **Standing Order:** BUY at EUR 17.00, GATED (Q1 2026 results must confirm organic growth >=3%). Q1 earnings: April 23, 2026.
 
-**Date:** 2026-02-11
+**Date:** 2026-03-21 (header refreshed; body from 2026-02-11 R4)
 **Status:** R4_APPROVED - Fallen Angel Opportunity
 **Analyst:** fundamental-analyst v4.0
 **Catalyst:** -21% intraday crash after Q4 2025 results miss + weak FY2026 guidance
+**Current Price:** EUR 17.20 (2026-03-21). Distance to SO (EUR 17.00): 1.2%. 52wL EUR 15.83, 52wH EUR 39.08.
+**Recent:** Morgan Stanley downgrade to Equal Weight (Mar 17). Goldman downgrade to Neutral (Mar 3). Consensus PT EUR 24.50 (Hold). Q1 FY2026 earnings April 23.
 
 ---
 

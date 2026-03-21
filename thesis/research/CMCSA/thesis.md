@@ -4,12 +4,16 @@
 **Analyst:** Fundamental Analyst Agent (R1)
 **Previous Version:** 2026-02-03 (pre-FY2025 full data, FV $32.66, WATCHLIST at $26 SO)
 **Status:** R1 COMPLETE -- Pending R2 (Devil's Advocate)
+**Price Update:** 2026-03-21 (price $30.95 -> $29.02, anti-bias FV applied)
+
+> **Fair Value:** $34 (60/40 bear/base anti-bullish-bias weighted)
+> **Expected Growth:** 1.5% revenue CAGR (flat broadband + parks growth + wireless growth)
 
 ---
 
 ## TL;DR
 
-Post-Versant spinoff Comcast is a cleaner conglomerate: broadband cash cow (eroding but generating $18-20B EBITDA), Universal theme parks growth engine ($3.1B EBITDA with Epic Universe still ramping), and NBC/Peacock media ($10B+ cumulative losses but 44M subs at inflection). At $30.95, the market prices -6.1% annual FCF decline forever -- but even with broadband erosion, normalized FCF stays $14-16B. FY2025 headline FCF of $19.2B is inflated by ~$2-4B of one-timers. Normalized P/FCF ~7.5-8x for an IG-rated company with growing theme parks and wireless is cheap. Base FV $38 via weighted methods. Entry at $26-28 provides strong MoS; at current $30.95, MoS ~23% is borderline for Tier B.
+Post-Versant spinoff Comcast is a cleaner conglomerate: broadband cash cow (eroding but generating $18-20B EBITDA), Universal theme parks growth engine ($3.1B EBITDA with Epic Universe still ramping), and NBC/Peacock media ($10B+ cumulative losses but 44M subs at inflection). At $29.02 (updated 2026-03-21), the market prices -6.1% annual FCF decline forever -- but even with broadband erosion, normalized FCF stays $14-16B. FY2025 headline FCF of $19.2B is inflated by ~$2-4B of one-timers. Normalized P/FCF ~7.5-8x for an IG-rated company with growing theme parks and wireless is cheap. Base FV $38 via weighted methods. Entry at $26-28 provides strong MoS; at current $29.02, MoS ~17% vs anti-bias FV $34. With $28 SO just 3.5% away, approaching entry.
 
 ---
 
@@ -544,7 +548,7 @@ I apply a 10% conglomerate/governance discount at the SoP level. This partially 
 ```yaml
 ticker: CMCSA
 fecha_creacion: 2026-02-27
-ultima_revision: 2026-02-27
+ultima_revision: 2026-03-21
 autor: fundamental-analyst (R1)
 status: R1_COMPLETE
 quality_score_tool: 60
@@ -554,10 +558,12 @@ fair_value_base: 39.37
 fair_value_expected: 39.64
 fair_value_bear: 26.26
 fair_value_bull: 53.57
-current_price: 30.95
-mos_vs_base: 27.2%
-mos_vs_bear: -15.1%
-e_cagr_at_market: 14.2%
+current_price: 29.02
+fair_value_anti_bias: 34.00
+mos_vs_base: 35.7%
+mos_vs_anti_bias: 17.2%
+mos_vs_bear: -9.5%
+e_cagr_at_market: 16.3%
 e_cagr_at_28_entry: 17.3%
 e_cagr_at_26_entry: 20.7%
 standing_order: 28.00
