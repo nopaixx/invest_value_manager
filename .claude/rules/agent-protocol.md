@@ -9,6 +9,29 @@
 
 ---
 
+
+## Naming Contract (S276 — OBLIGATORIO)
+
+Cada agente DEBE escribir con estos nombres EXACTOS. No variaciones.
+
+| Stage | Filename EXACTO | Agente |
+|-------|----------------|--------|
+| R1 | `thesis.md` | fundamental-analyst |
+| R1 | `moat_assessment.md` | moat-assessor |
+| R1 | `risk_assessment.md` | risk-identifier |
+| R2 | `devils_advocate.md` | devils-advocate |
+| R3 | `r3_resolution.md` | orchestrador |
+| R4 | `committee_decision.md` | investment-committee |
+| Opt | `earnings_framework.md` | fundamental-analyst |
+
+**PROHIBIDO:** counter_analysis.md, r2_devils_advocate.md, da_analysis.md, adversarial_thesis_review.md, r2_bear_case.md, fundamental_analysis.md, r1_thesis.md, valuation_report.md
+
+**En CADA prompt de agente, incluir:**
+`OUTPUT: Write to thesis/research/{TICKER}/{filename_exacto}`
+
+**Post-agente:** Verificar filename. Si no canonico → RENAME inmediatamente.
+
+---
 ## Arbol de Decision (OBLIGATORIO antes de cualquier tarea)
 
 ```
