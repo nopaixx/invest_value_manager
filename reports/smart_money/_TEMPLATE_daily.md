@@ -203,21 +203,21 @@ python3 tools/sm_visualizer.py                        # §11 Generate all 5 char
 > Output: `reports/smart_money/images/*.png`
 
 ### Fund Network — Quality Fund Holdings in Portfolio
-![Fund Network](images/fund_network.png)
+![Fund Network](images/fund_network_YYYY-MM-DD.png)
 *Shows which quality/value funds hold our portfolio positions. Blue = funds, Green = portfolio, Orange = pipeline. Larger nodes = more connections.*
 
 ### Basket SM Conviction
-![Basket Conviction](images/basket_conviction.png)
+![Basket Conviction](images/basket_conviction_YYYY-MM-DD.png)
 *Aggregated SM signal strength per thematic basket. Green = STRONG, Yellow = Moderate, Red = Limited.*
 
 ### Short Interest Exposure
-![Short Interest](images/short_interest_bars.png)
+![Short Interest](images/short_interest_bars_YYYY-MM-DD.png)
 *Short interest % for each portfolio position. Red = long positions with SI, Purple = our short (CVNA).*
 
 ### SM Data Coverage Matrix
-![Coverage Heatmap](images/coverage_heatmap.png)
+![Coverage Heatmap](images/coverage_heatmap_YYYY-MM-DD.png)
 *Green = data exists, Red = missing. Shows which positions have complete SM data vs gaps.*
 
 ### Position Health Scores
-![Position Health](images/position_health.png)
+![Position Health](images/position_health_YYYY-MM-DD.png)
 *Health score 0-100 per position. Green ≥80, Yellow 60-79, Orange 40-59, Red <40. Threshold lines at 40 (CRITICAL) and 60 (STALE).*

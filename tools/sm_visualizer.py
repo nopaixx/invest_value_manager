@@ -705,13 +705,19 @@ def chart_position_health(portfolio_tickers, short_tickers):
 # Main
 # ---------------------------------------------------------------------------
 
-CHART_MAP = {
-    'fund_network': 'fund_network.png',
-    'basket_conviction': 'basket_conviction.png',
-    'short_interest': 'short_interest_bars.png',
-    'coverage': 'coverage_heatmap.png',
-    'health': 'position_health.png',
-}
+def _get_chart_map():
+    """Generate date-suffixed filenames for daily snapshots."""
+    from datetime import date
+    d = date.today().isoformat()
+    return {
+        'fund_network': f'fund_network_{d}.png',
+        'basket_conviction': f'basket_conviction_{d}.png',
+        'short_interest': f'short_interest_bars_{d}.png',
+        'coverage': f'coverage_heatmap_{d}.png',
+        'health': f'position_health_{d}.png',
+    }
+
+CHART_MAP = _get_chart_map()
 
 
 def main():
