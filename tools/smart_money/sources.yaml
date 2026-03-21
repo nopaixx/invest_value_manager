@@ -1,11 +1,11 @@
 amf_france_shorts:
   cadence_days: 3
-  last_download: '2026-03-14'
-  path: /home/angel/value_invest2/tools/smart_money/data/shorts/amf_france_2026-03-14.csv
+  last_download: '2026-03-21'
+  path: /home/angel/value_invest2/tools/smart_money/data/shorts/amf_france_2026-03-21.csv
 fca_uk_shorts:
   cadence_days: 3
-  last_download: '2026-03-14'
-  path: /home/angel/value_invest2/tools/smart_money/data/shorts/fca_uk_2026-03-14.xlsx
+  last_download: '2026-03-21'
+  path: /home/angel/value_invest2/tools/smart_money/data/shorts/fca_uk_2026-03-21.xlsx
 sec_13f:
   cadence_days: 90
   last_download: '2026-02-25'
@@ -13,4 +13,4 @@ sec_13f:
 sec_form4:
   cadence_days: 30
   last_download: '2026-03-14'
-  path: null  # Ingested via ingest-insider --universe (S172). 12 buys, 144 sells across 11 tickers.
+  path: null
