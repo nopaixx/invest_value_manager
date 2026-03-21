@@ -1,28 +1,40 @@
 #!/usr/bin/env python3
 """
-Kill Condition Monitor v1.0
+Kill Condition Monitor v1.1
 Parses kill conditions from active thesis files and displays dashboard.
+v1.1: Added --health flag for Position Health Score (0-100).
 
 Usage:
     python3 tools/kc_monitor.py                  # All positions
     python3 tools/kc_monitor.py --triggered-only  # Only TRIGGERED/MONITORING KCs
     python3 tools/kc_monitor.py --ticker NVO      # Specific ticker
     python3 tools/kc_monitor.py --compact          # One-line-per-ticker summary
+    python3 tools/kc_monitor.py --health           # Position Health Scores (0-100)
 
 Note: KC status derived from thesis files, not live data.
 """
 
 import argparse
 import glob
+import json
 import os
 import re
+import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime, timedelta
+
+try:
+    import yaml
+except ImportError:
+    yaml = None
 
 # Base directory
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 THESIS_DIR = os.path.join(BASE_DIR, "thesis", "active")
 SHORT_THESIS_DIR = os.path.join(BASE_DIR, "thesis", "short", "active")
+CURRENT_YAML = os.path.join(BASE_DIR, "portfolio", "current.yaml")
+TRACKER_YAML = os.path.join(BASE_DIR, "state", "meta_reflection_tracker.yaml")
+SM_GRAPH_JSON = os.path.join(BASE_DIR, "tools", "smart_money", "graph.json")
 
 # Status priority for sorting (lower = shown first)
 STATUS_PRIORITY = {
@@ -490,6 +502,430 @@ def print_compact(all_kcs):
             print(f"  >> {t} KC#{kc['num']}: {kc['description'][:60]}")
 
 
+# =============================================================================
+# POSITION HEALTH SCORE (--health flag)
+# =============================================================================
+
+def git_file_date(filepath):
+    """Get the last modification date of a file from git log.
+    Returns a date object or None if not tracked / error."""
+    if not os.path.exists(filepath):
+        return None
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%aI", "--", filepath],
+            capture_output=True, text=True, timeout=10,
+            cwd=BASE_DIR
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            date_str = result.stdout.strip()
+            # Parse ISO 8601 date (e.g., "2026-03-17 14:30:00 +0100")
+            dt = datetime.fromisoformat(date_str)
+            return dt.date()
+    except Exception:
+        pass
+    return None
+
+
+def load_yaml_file(filepath):
+    """Load a YAML file, returning None on error."""
+    if yaml is None:
+        # Fallback: basic YAML-like parsing not feasible; warn
+        return None
+    if not os.path.exists(filepath):
+        return None
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            return yaml.safe_load(f)
+    except Exception:
+        return None
+
+
+def load_current_positions():
+    """Load positions from portfolio/current.yaml.
+    Returns dict: ticker -> position_data."""
+    data = load_yaml_file(CURRENT_YAML)
+    if data is None:
+        return {}
+    positions = {}
+    for pos in data.get("positions", []):
+        ticker = pos.get("ticker", "")
+        if ticker:
+            positions[ticker] = pos
+    for pos in data.get("short_positions", []):
+        ticker = pos.get("ticker", "")
+        if ticker:
+            positions[ticker] = pos
+    return positions
+
+
+def extract_fv_from_thesis(thesis_path):
+    """Extract Fair Value from thesis header (first 20 lines).
+    Returns the raw FV string for comparison, or None."""
+    if not os.path.exists(thesis_path):
+        return None
+    try:
+        with open(thesis_path, "r", encoding="utf-8") as f:
+            for i, line in enumerate(f):
+                if i > 25:
+                    break
+                line = line.strip()
+                # Match: > **Fair Value:** <value>
+                m = re.match(r'^>\s*\*\*Fair\s*Value:\*\*\s*(.+)', line, re.IGNORECASE)
+                if m:
+                    return m.group(1).strip()
+    except Exception:
+        pass
+    return None
+
+
+def normalize_fv_for_comparison(fv_str):
+    """Extract the primary numeric FV from a FV string for comparison.
+    E.g., '$406 (S181: FTC settled...)' -> ('$', 406.0)
+          'EUR 24.0 (S251 recalc...)' -> ('EUR', 24.0)
+          '190 GBp (R3 S147c3...)' -> ('GBp', 190.0)
+    Returns (currency_hint, numeric_value) or None."""
+    if not fv_str:
+        return None
+    # Try patterns: $NNN, EUR NNN, NNN GBp, NNN GBP
+    m = re.match(r'^\$\s*([\d,.]+)', fv_str)
+    if m:
+        return ("$", float(m.group(1).replace(",", "")))
+    m = re.match(r'^EUR\s*([\d,.]+)', fv_str, re.IGNORECASE)
+    if m:
+        return ("EUR", float(m.group(1).replace(",", "")))
+    m = re.match(r'^([\d,.]+)\s*GBp', fv_str, re.IGNORECASE)
+    if m:
+        return ("GBp", float(m.group(1).replace(",", "")))
+    m = re.match(r'^([\d,.]+)\s*DKK', fv_str, re.IGNORECASE)
+    if m:
+        return ("DKK", float(m.group(1).replace(",", "")))
+    # Generic number at start
+    m = re.match(r'^[\$€£]?\s*([\d,.]+)', fv_str)
+    if m:
+        return ("?", float(m.group(1).replace(",", "")))
+    return None
+
+
+def check_fv_consistency(thesis_fv_str, current_fv_str):
+    """Check if thesis FV and current.yaml FV are consistent.
+    Returns True if they match (same primary numeric value)."""
+    t = normalize_fv_for_comparison(thesis_fv_str)
+    c = normalize_fv_for_comparison(current_fv_str)
+    if t is None or c is None:
+        return False
+    # Compare numeric values (allow small float tolerance)
+    return abs(t[1] - c[1]) < 0.5
+
+
+def load_tracker_data():
+    """Load meta_reflection_tracker.yaml.
+    Returns (material_events, open_items) lists."""
+    data = load_yaml_file(TRACKER_YAML)
+    if data is None:
+        return [], []
+    material_events = data.get("material_events", []) or []
+    open_items = data.get("open_items", []) or []
+    return material_events, open_items
+
+
+def load_sm_graph_edges():
+    """Load smart money graph edges. Returns list of edges or empty list."""
+    if not os.path.exists(SM_GRAPH_JSON):
+        return []
+    try:
+        with open(SM_GRAPH_JSON, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data.get("edges", [])
+    except Exception:
+        return []
+
+
+def check_sm_freshness(ticker, sm_edges, cutoff_date):
+    """Check if ticker has smart money data added within cutoff_date.
+    Returns True if fresh data exists."""
+    for edge in sm_edges:
+        if edge.get("target") == ticker or edge.get("source") == ticker:
+            date_added = edge.get("date_added", "")
+            if date_added:
+                try:
+                    edge_date = datetime.strptime(date_added[:10], "%Y-%m-%d").date()
+                    if edge_date >= cutoff_date:
+                        return True
+                except (ValueError, TypeError):
+                    continue
+    return False
+
+
+def calculate_health_scores(ticker_filter=None):
+    """Calculate Position Health Score for all active positions.
+    Returns list of dicts with score breakdown per ticker."""
+    today = date.today()
+    positions = load_current_positions()
+    material_events, open_items = load_tracker_data()
+    sm_edges = load_sm_graph_edges()
+
+    # Build set of active thesis dirs (long + short)
+    thesis_dirs = {}
+    for d in sorted(glob.glob(os.path.join(THESIS_DIR, "*"))):
+        if os.path.isdir(d):
+            thesis_dirs[os.path.basename(d)] = d
+    for d in sorted(glob.glob(os.path.join(SHORT_THESIS_DIR, "*"))):
+        if os.path.isdir(d):
+            thesis_dirs[os.path.basename(d)] = d
+
+    # Determine which tickers to score: intersection of positions and thesis dirs
+    tickers_to_score = set(positions.keys()) | set(thesis_dirs.keys())
+    # Filter only those that have BOTH a position and a thesis dir (or at least a thesis dir)
+    tickers_to_score = sorted([t for t in tickers_to_score if t in thesis_dirs])
+
+    if ticker_filter:
+        ticker_upper = ticker_filter.upper()
+        tickers_to_score = [t for t in tickers_to_score if t.upper() == ticker_upper]
+
+    results = []
+
+    for ticker in tickers_to_score:
+        thesis_dir = thesis_dirs.get(ticker, "")
+        pos_data = positions.get(ticker, {})
+        scores = {}
+        details = {}
+
+        # --- Factor 1: thesis.md modified <30d (+20) ---
+        thesis_path = os.path.join(thesis_dir, "thesis.md")
+        thesis_date = git_file_date(thesis_path)
+        if thesis_date and (today - thesis_date).days <= 30:
+            scores["thesis"] = 20
+            details["thesis"] = f"{(today - thesis_date).days}d ago"
+        else:
+            scores["thesis"] = 0
+            if thesis_date:
+                details["thesis"] = f"{(today - thesis_date).days}d STALE"
+            else:
+                details["thesis"] = "MISSING"
+
+        # --- Factor 2: devils_advocate.md exists and <60d (+15) ---
+        da_path = os.path.join(thesis_dir, "devils_advocate.md")
+        if not os.path.exists(da_path):
+            # Also check alternative names (r2_devils_advocate.md)
+            alt_da = os.path.join(thesis_dir, "r2_devils_advocate.md")
+            if os.path.exists(alt_da):
+                da_path = alt_da
+        da_date = git_file_date(da_path)
+        if da_date and (today - da_date).days <= 60:
+            scores["da"] = 15
+            details["da"] = f"{(today - da_date).days}d ago"
+        else:
+            scores["da"] = 0
+            if da_date:
+                details["da"] = f"{(today - da_date).days}d STALE"
+            elif not os.path.exists(da_path):
+                details["da"] = "MISSING"
+            else:
+                details["da"] = "NO GIT"
+
+        # --- Factor 3: risk_assessment.md exists and <90d (+10) ---
+        risk_path = os.path.join(thesis_dir, "risk_assessment.md")
+        risk_date = git_file_date(risk_path)
+        if risk_date and (today - risk_date).days <= 90:
+            scores["risk"] = 10
+            details["risk"] = f"{(today - risk_date).days}d ago"
+        else:
+            scores["risk"] = 0
+            if risk_date:
+                details["risk"] = f"{(today - risk_date).days}d STALE"
+            elif not os.path.exists(risk_path):
+                details["risk"] = "MISSING"
+            else:
+                details["risk"] = "NO GIT"
+
+        # --- Factor 4: KCs reviewed <14d (+10) ---
+        # Proxy: thesis.md git date as KC review indicator (KCs live in thesis)
+        # A more precise check would parse KC status dates, but thesis mod date is
+        # the best available proxy since KC status is updated within thesis.
+        kc_date = thesis_date  # KCs are part of thesis
+        if kc_date and (today - kc_date).days <= 14:
+            scores["kc"] = 10
+            details["kc"] = f"{(today - kc_date).days}d ago"
+        else:
+            scores["kc"] = 0
+            if kc_date:
+                details["kc"] = f"{(today - kc_date).days}d"
+            else:
+                details["kc"] = "N/A"
+
+        # --- Factor 5: Material events all COMPLETE for ticker (+15) ---
+        ticker_events = [e for e in material_events if e.get("ticker", "") == ticker]
+        if not ticker_events:
+            # No material events = fully complete (nothing pending)
+            scores["events"] = 15
+            details["events"] = "none"
+        else:
+            incomplete = [e for e in ticker_events
+                          if e.get("status", "").upper() not in ("COMPLETE", "ACCEPTABLE")]
+            if not incomplete:
+                scores["events"] = 15
+                details["events"] = f"{len(ticker_events)} OK"
+            else:
+                # Partial credit: proportion of complete events
+                complete_count = len(ticker_events) - len(incomplete)
+                ratio = complete_count / len(ticker_events) if ticker_events else 0
+                scores["events"] = int(15 * ratio)
+                statuses = [e.get("status", "?") for e in incomplete]
+                details["events"] = f"{len(incomplete)} {'/'.join(set(statuses))}"
+
+        # --- Factor 6: FV consistency (thesis header = current.yaml) (+10) ---
+        thesis_fv = extract_fv_from_thesis(os.path.join(thesis_dir, "thesis.md"))
+        current_fv = pos_data.get("fair_value", "")
+        if thesis_fv and current_fv and check_fv_consistency(thesis_fv, current_fv):
+            scores["fv"] = 10
+            details["fv"] = "OK"
+        elif not thesis_fv:
+            scores["fv"] = 0
+            details["fv"] = "NO HDR"
+        elif not current_fv:
+            scores["fv"] = 0
+            details["fv"] = "NO CUR"
+        else:
+            scores["fv"] = 0
+            t = normalize_fv_for_comparison(thesis_fv)
+            c = normalize_fv_for_comparison(current_fv)
+            if t and c:
+                details["fv"] = f"MISMATCH {t[1]}!={c[1]}"
+            else:
+                details["fv"] = "PARSE?"
+
+        # --- Factor 7: No OPEN anomalies in tracker for ticker (+10) ---
+        ticker_anomalies = [item for item in open_items
+                            if item.get("ticker", "") == ticker
+                            and item.get("type", "").upper() == "ANOMALY"
+                            and item.get("status", "").upper() == "OPEN"]
+        if not ticker_anomalies:
+            scores["anom"] = 10
+            details["anom"] = "clear"
+        else:
+            scores["anom"] = 0
+            details["anom"] = f"{len(ticker_anomalies)} OPEN"
+
+        # --- Factor 8: SM stock-profile <30d (+10) ---
+        sm_cutoff = today - timedelta(days=30)
+        if check_sm_freshness(ticker, sm_edges, sm_cutoff):
+            scores["sm"] = 10
+            details["sm"] = "fresh"
+        else:
+            scores["sm"] = 0
+            details["sm"] = "stale"
+
+        total = sum(scores.values())
+
+        # Determine status tier
+        if total >= 80:
+            status = "HEALTHY"
+        elif total >= 60:
+            status = "ACCEPTABLE"
+        elif total >= 40:
+            status = "STALE"
+        else:
+            status = "CRITICAL"
+
+        results.append({
+            "ticker": ticker,
+            "total": total,
+            "scores": scores,
+            "details": details,
+            "status": status,
+        })
+
+    # Sort by score ascending (worst first for attention)
+    results.sort(key=lambda r: r["total"])
+    return results
+
+
+def generate_recommendations(results):
+    """Generate actionable recommendations for positions needing attention."""
+    recs = []
+    for r in results:
+        if r["status"] in ("HEALTHY",):
+            continue
+        parts = []
+        s = r["scores"]
+        d = r["details"]
+        ticker = r["ticker"]
+
+        if s["thesis"] == 0:
+            parts.append(f"thesis {d['thesis']}")
+        if s["da"] == 0:
+            parts.append(f"DA {d['da']}")
+        if s["risk"] == 0:
+            parts.append(f"risk_assessment {d['risk']}")
+        if s["events"] < 15 and d["events"] != "none":
+            parts.append(f"material events {d['events']}")
+        if s["fv"] == 0 and d["fv"] not in ("NO CUR",):
+            parts.append(f"FV {d['fv']}")
+        if s["anom"] == 0:
+            parts.append(f"anomalies {d['anom']}")
+        if s["sm"] == 0:
+            parts.append(f"SM profile {d['sm']}")
+
+        if parts:
+            urgency = "RE-EVALUATE URGENTLY" if r["status"] == "CRITICAL" else "Needs attention"
+            recs.append(f"  {ticker}: {urgency} -- {', '.join(parts)}")
+
+    return recs
+
+
+def print_health(results):
+    """Print the Position Health Score dashboard."""
+    today = date.today().isoformat()
+
+    if not results:
+        print("No active positions found for health scoring.")
+        return
+
+    print(f"POSITION HEALTH SCORES | {today}")
+    print("=" * 105)
+    print(f"{'Ticker':<10} {'Score':>5}  {'Thesis':>6} {'DA':>5} {'Risk':>5} "
+          f"{'KC':>5} {'Evnts':>5} {'FV':>5} {'Anom':>5} {'SM':>5}  Status")
+    print("-" * 105)
+
+    for r in sorted(results, key=lambda x: -x["total"]):  # Best first for display
+        s = r["scores"]
+        print(f"{r['ticker']:<10} {r['total']:>5}  "
+              f"{s['thesis']:>2}/20 "
+              f"{s['da']:>2}/15 "
+              f"{s['risk']:>2}/10 "
+              f"{s['kc']:>2}/10 "
+              f"{s['events']:>2}/15 "
+              f"{s['fv']:>2}/10 "
+              f"{s['anom']:>2}/10 "
+              f"{s['sm']:>2}/10  "
+              f"{r['status']}")
+
+    print("-" * 105)
+
+    # Summary stats
+    avg_score = sum(r["total"] for r in results) / len(results) if results else 0
+    critical = [r for r in results if r["status"] == "CRITICAL"]
+    stale = [r for r in results if r["status"] == "STALE"]
+
+    print(f"\nPORTFOLIO HEALTH: {avg_score:.0f}/100 (avg)")
+    if critical:
+        tickers = ", ".join(r["ticker"] for r in critical)
+        print(f"CRITICAL: {len(critical)} position(s) need immediate re-evaluation ({tickers})")
+    if stale:
+        tickers = ", ".join(r["ticker"] for r in stale)
+        print(f"STALE: {len(stale)} position(s) need attention this week ({tickers})")
+
+    # Recommendations
+    recs = generate_recommendations(results)
+    if recs:
+        print(f"\nRECOMMENDATIONS:")
+        for rec in recs:
+            print(rec)
+
+    print(f"\n[Verifiable by human. No AI interpretation needed.]")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Kill Condition Monitor — parse KC status from active thesis files")
     parser.add_argument("--triggered-only", action="store_true",
@@ -498,7 +934,18 @@ def main():
                         help="Show KCs for specific ticker only")
     parser.add_argument("--compact", action="store_true",
                         help="One-line-per-ticker summary (for session dashboard)")
+    parser.add_argument("--health", action="store_true",
+                        help="Position Health Score (0-100) per active position")
     args = parser.parse_args()
+
+    # Health mode is independent from KC monitoring
+    if args.health:
+        if yaml is None:
+            print("ERROR: PyYAML required for --health mode. Install: pip install pyyaml")
+            sys.exit(1)
+        results = calculate_health_scores(ticker_filter=args.ticker)
+        print_health(results)
+        return
 
     # Find all active thesis directories (long + short)
     ticker_dirs = sorted(glob.glob(os.path.join(THESIS_DIR, "*")))

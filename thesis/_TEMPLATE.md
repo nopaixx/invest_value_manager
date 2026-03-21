@@ -7,6 +7,7 @@
 > Sector View: [sector-file.md] (MANDATORY — Error #30/#56)
 > Pipeline Stage: R1_COMPLETE
 > **Data Integrity:** GrSrc: thesis | FV_source: R1 YYYY-MM-DD | Last_verified: YYYY-MM-DD
+> **Macro Sensitivity:** HIGH / MEDIUM / LOW / IMMUNE (how sensitive is this business to oil, rates, tariffs, recession?)
 
 ---
 

@@ -25,6 +25,7 @@ Usage:
   python3 tools/r1_prioritizer.py --advancement          # R1_COMPLETE advancement pipeline (3 sections)
   python3 tools/r1_prioritizer.py --near-entry-advancement  # Quick: advancement near entry only
   python3 tools/r1_prioritizer.py --buyable-now              # Reverse: what's buyable at market TODAY?
+  python3 tools/r1_prioritizer.py --stagnation                    # Pipeline stagnation report
 """
 
 import sys
@@ -35,6 +36,7 @@ from datetime import date, datetime, timedelta
 import yaml
 
 import re
+import subprocess
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
@@ -44,6 +46,7 @@ SECTORS_DIR = os.path.join(PROJECT_ROOT, "world", "sectors")
 CONTINUITY_PATH = os.path.join(PROJECT_ROOT, "state", "session_continuity.yaml")
 GRAPH_PATH = os.path.join(SCRIPT_DIR, "smart_money", "graph.json")
 SNAPSHOTS_DIR = os.path.join(SCRIPT_DIR, "smart_money", "data", "snapshots")
+RESEARCH_DIR = os.path.join(PROJECT_ROOT, "thesis", "research")
 
 # Tickers known to NOT be available on eToro (verified manually)
 ETORO_UNAVAILABLE = {
@@ -844,6 +847,175 @@ def load_smart_money_signals(tickers):
     return results
 
 
+def _git_file_date(filepath):
+    """Get last git commit date for a file. Falls back to mtime."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%aI", "--", filepath],
+            capture_output=True, text=True, timeout=10,
+            cwd=PROJECT_ROOT,
+        )
+        iso = result.stdout.strip()
+        if iso:
+            # Parse ISO date like 2026-03-18T09:34:47+01:00
+            return datetime.fromisoformat(iso).date()
+    except Exception:
+        pass
+    # Fallback: file mtime
+    try:
+        mtime = os.path.getmtime(filepath)
+        return datetime.fromtimestamp(mtime).date()
+    except Exception:
+        return None
+
+
+def show_stagnation_report():
+    """Pipeline stagnation report: scan thesis/research/* for canonical files
+    and flag items stuck at a pipeline stage for >14 days."""
+
+    CANONICAL_FILES = [
+        ("thesis.md", "R1"),
+        ("devils_advocate.md", "R2"),
+        ("r3_resolution.md", "R3"),
+        ("committee_decision.md", "R4"),
+    ]
+
+    today = date.today()
+
+    # Scan all research directories
+    if not os.path.isdir(RESEARCH_DIR):
+        print("No thesis/research/ directory found.")
+        return
+
+    entries = []  # list of dicts: {ticker, files: {stage: date}, current_stage, last_date, days_stale}
+
+    for dirname in sorted(os.listdir(RESEARCH_DIR)):
+        dirpath = os.path.join(RESEARCH_DIR, dirname)
+        if not os.path.isdir(dirpath) or dirname.startswith("_") or dirname == "ANALYSIS_NOTES":
+            continue
+
+        files_found = {}  # stage -> date
+        for filename, stage in CANONICAL_FILES:
+            fpath = os.path.join(dirpath, filename)
+            if os.path.isfile(fpath):
+                fdate = _git_file_date(fpath)
+                if fdate:
+                    files_found[stage] = fdate
+
+        if not files_found:
+            continue
+
+        # Determine current stage (highest canonical file present)
+        stage_order = ["R1", "R2", "R3", "R4"]
+        current_stage = None
+        for s in reversed(stage_order):
+            if s in files_found:
+                current_stage = s
+                break
+
+        # Last advancement date = date of the most recent file
+        last_date = max(files_found.values())
+        days_since = (today - last_date).days
+
+        # Next expected stage
+        stage_idx = stage_order.index(current_stage)
+        next_stage = stage_order[stage_idx + 1] if stage_idx < len(stage_order) - 1 else None
+
+        entries.append({
+            "ticker": dirname,
+            "files": files_found,
+            "current_stage": current_stage,
+            "next_stage": next_stage,
+            "last_date": last_date,
+            "days_since": days_since,
+        })
+
+    # Group by current stage (only those that still need advancement -- not R4)
+    stage_groups = {"R1": [], "R2": [], "R3": []}
+    r4_complete = []
+
+    for e in entries:
+        cs = e["current_stage"]
+        if cs == "R4":
+            r4_complete.append(e)
+        elif cs in stage_groups:
+            stage_groups[cs].append(e)
+
+    # Print report
+    print(f"PIPELINE STAGNATION REPORT | {today}")
+    print("=" * 70)
+
+    for stage in ["R1", "R2", "R3"]:
+        next_s = {"R1": "R2", "R2": "R3", "R3": "R4"}[stage]
+        items = stage_groups[stage]
+        items.sort(key=lambda e: e["days_since"], reverse=True)
+
+        overdue = [e for e in items if e["days_since"] > 14]
+        ok = [e for e in items if e["days_since"] <= 14]
+
+        print(f"\n  {stage} without {next_s} ({len(items)}):")
+        if not items:
+            print(f"    (none)")
+            continue
+
+        for e in items:
+            ticker = e["ticker"]
+            stage_date = e["last_date"].strftime("%Y-%m-%d")
+            days = e["days_since"]
+            if days > 14:
+                label = f"OVERDUE ({days}d)"
+            elif days > 10:
+                label = f"APPROACHING ({days}d)"
+            else:
+                label = f"OK ({days}d)"
+            print(f"    {ticker:<14} {stage}: {stage_date}  {label}")
+
+    # Conversion funnel
+    total_r1 = sum(1 for e in entries if "R1" in e["files"])
+    total_r2 = sum(1 for e in entries if "R2" in e["files"])
+    total_r3 = sum(1 for e in entries if "R3" in e["files"])
+    total_r4 = sum(1 for e in entries if "R4" in e["files"])
+
+    r1_to_r2 = (total_r2 / total_r1 * 100) if total_r1 > 0 else 0
+    r2_to_r3 = (total_r3 / total_r2 * 100) if total_r2 > 0 else 0
+    r3_to_r4 = (total_r4 / total_r3 * 100) if total_r3 > 0 else 0
+    r1_to_r4 = (total_r4 / total_r1 * 100) if total_r1 > 0 else 0
+
+    # Find bottleneck (lowest conversion rate among stages with items)
+    rates = []
+    if total_r1 > 0:
+        rates.append(("R1->R2", r1_to_r2))
+    if total_r2 > 0:
+        rates.append(("R2->R3", r2_to_r3))
+    if total_r3 > 0:
+        rates.append(("R3->R4", r3_to_r4))
+    bottleneck = min(rates, key=lambda x: x[1]) if rates else ("N/A", 0)
+
+    print(f"\nCONVERSION FUNNEL:")
+    print(f"  thesis.md:              {total_r1:>3} companies")
+    print(f"  + devils_advocate.md:   {total_r2:>3} companies ({r1_to_r2:.1f}% conversion R1->R2)")
+    print(f"  + r3_resolution.md:     {total_r3:>3} companies ({r2_to_r3:.1f}% conversion R2->R3)")
+    print(f"  + committee_decision.md:{total_r4:>3} companies ({r3_to_r4:.1f}% conversion R3->R4)")
+    print(f"")
+    print(f"  Overall R1->R4:         {r1_to_r4:.1f}%")
+    print(f"  Bottleneck:             {bottleneck[0]} ({bottleneck[1]:.1f}%)")
+
+    # Overdue summary
+    all_overdue = [e for e in entries if e["current_stage"] != "R4" and e["days_since"] > 14]
+    if all_overdue:
+        all_overdue.sort(key=lambda e: e["days_since"], reverse=True)
+        print(f"\nOVERDUE (>14d at current stage):")
+        for e in all_overdue:
+            next_s = e["next_stage"] or "?"
+            print(f"  {e['ticker']:<14} {e['current_stage']} done {e['last_date'].strftime('%Y-%m-%d')} "
+                  f"({e['days_since']}d without {next_s})")
+    else:
+        print(f"\nNo overdue items. All pipeline items within 14d threshold.")
+
+    print(f"\n[Raw data. Pipeline velocity context.]")
+
+
+
 def main():
     parser = argparse.ArgumentParser(description="R1 Prioritizer -- Rank SCORED companies for R1 analysis")
     parser.add_argument("--top", type=int, default=10, help="Number of candidates to show (default: 10)")
@@ -859,6 +1031,7 @@ def main():
     parser.add_argument("--near-entry-advancement", action="store_true", help="Quick check: advancement pipeline candidates near entry")
     parser.add_argument("--buyable-now", action="store_true", help="Reverse mode: what's buyable at market price today? (E[CAGR]@market > threshold)")
     parser.add_argument("--smart-money", action="store_true", help="Add Smart Money overlay from graph signals (insider, convergence, shorts)")
+    parser.add_argument("--stagnation", action="store_true", help="Pipeline stagnation report: flag items stuck >14d at current stage")
     args = parser.parse_args()
     args._cooled_entries = []  # populated by rank_candidates
 
@@ -870,6 +1043,11 @@ def main():
     # --buyable-now mode: reverse pipeline — what's buyable at market today?
     if args.buyable_now:
         show_buyable_now(companies)
+        sys.exit(0)
+
+    # --stagnation mode: pipeline stagnation report
+    if args.stagnation:
+        show_stagnation_report()
         sys.exit(0)
 
     # --advancement mode: show R1_COMPLETE candidates for R2+ advancement

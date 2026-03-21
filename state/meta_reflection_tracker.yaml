@@ -203,6 +203,8 @@ material_events:
     event_date: "2026-02-23"
     level: CRITICAL
     event: "CagriSema REDEFINE 4 FAILED — KC#1 triggered"
+    response_date: "2026-03-07"
+    response_time_days: 12  # Target: <3d for CRITICAL
     docs_required: [thesis.md, devils_advocate.md, risk_assessment.md]
     docs_updated:
       thesis_header: "2026-03-07"  # R3 resolution, FV $50→$47

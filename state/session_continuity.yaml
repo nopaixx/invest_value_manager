@@ -79,6 +79,15 @@ geographic_screening:
   next_due: "US"  # Full cycle complete. S204: 4 Nordic fallen angels evaluated (all in universe). MEDI.OL best Nordic (QS 85) but +23% from entry.
   note: "S204: Nordic screened. 21 Nordic stocks in universe. No new entries. LIFCO-B.ST QS 72 best but ROIC 8.1% thin. Full geo rotation complete."
 
+screening_coverage:  # S280: Track what's been screened and when
+  last_us: "2026-03-13"  # sp500/russell1000 batch_scorer
+  last_uk: "2026-03-21"  # ftse100/ftse250 batch_scorer (S274)
+  last_eu: "2026-03-13"  # stoxx600/dax/cac
+  last_nordic: "2026-03-21"  # omx_helsinki/stockholm (rate limited S274)
+  last_asia: "never"  # Japan NOT on eToro. HK/Singapore unverified.
+  sectors_without_view: ["real-estate", "utilities", "semiconductors-equipment"]
+  fallen_angels_last_scan: "2026-03-20"
+
 three_questions:
   q1_wait_streak: 0  # Cash = 0%. Deployment via rotation only.
   last_q1_answer: "Cash = 0%. Mar 26 plan firm. 4 SOs triggered but no capital. Next deployment Mar 26."

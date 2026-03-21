@@ -22,12 +22,14 @@ Usage:
   python3 tools/so_probability.py --active-only  # Only ACTIVE category
   python3 tools/so_probability.py --include-extreme  # Include EXTREME watchlist
   python3 tools/so_probability.py --horizon 12   # 12-month horizon instead of 6
+  python3 tools/so_probability.py --freshness    # Thesis freshness check per SO
 """
 
 import sys
 import os
 import argparse
 import math
+import subprocess
 from datetime import date, datetime
 
 import yaml
@@ -40,6 +42,7 @@ warnings.filterwarnings('ignore')
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 SO_PATH = os.path.join(PROJECT_ROOT, "state", "standing_orders.yaml")
+TRACKER_PATH = os.path.join(PROJECT_ROOT, "state", "meta_reflection_tracker.yaml")
 
 
 def load_standing_orders():
@@ -323,6 +326,264 @@ def process_order(order, horizon_years, is_short=False):
     return result
 
 
+# =========================================================================
+# FRESHNESS CHECK — thesis staleness per standing order
+# =========================================================================
+
+def get_thesis_git_date(ticker):
+    """Get the last git commit date for the thesis file behind a standing order.
+
+    Searches in order: thesis/research/{TICKER}/thesis.md,
+    thesis/active/{TICKER}/thesis.md, thesis/short/research/{TICKER}/thesis.md.
+    Returns (date_obj, age_days, filepath) or (None, None, None).
+    """
+    candidate_paths = [
+        os.path.join(PROJECT_ROOT, "thesis", "research", ticker, "thesis.md"),
+        os.path.join(PROJECT_ROOT, "thesis", "active", ticker, "thesis.md"),
+        os.path.join(PROJECT_ROOT, "thesis", "short", "research", ticker, "thesis.md"),
+    ]
+
+    for filepath in candidate_paths:
+        if not os.path.exists(filepath):
+            continue
+        try:
+            result = subprocess.run(
+                ["git", "log", "-1", "--format=%aI", "--", filepath],
+                capture_output=True, text=True, cwd=PROJECT_ROOT, timeout=10
+            )
+            date_str = result.stdout.strip()
+            if not date_str:
+                # File exists but no git history — use file mtime as fallback
+                mtime = os.path.getmtime(filepath)
+                dt = datetime.fromtimestamp(mtime).date()
+                age = (date.today() - dt).days
+                return dt, age, filepath
+            # Parse ISO date (e.g. 2026-03-21T10:30:00+01:00)
+            dt = datetime.fromisoformat(date_str).date()
+            age = (date.today() - dt).days
+            return dt, age, filepath
+        except Exception:
+            continue
+
+    return None, None, None
+
+
+def load_material_events():
+    """Load material events from meta_reflection_tracker.yaml.
+
+    Returns list of dicts with keys: ticker, event_date, level, event, status.
+    """
+    if not os.path.exists(TRACKER_PATH):
+        return []
+    try:
+        with open(TRACKER_PATH, "r") as f:
+            data = yaml.safe_load(f) or {}
+        return data.get("material_events", []) or []
+    except Exception:
+        return []
+
+
+def get_material_events_for_ticker(ticker, material_events, thesis_date):
+    """Count material events with status STALE or PARTIAL since thesis_date.
+
+    Returns (total_events_since_thesis, stale_or_partial_count, event_details).
+    """
+    if thesis_date is None:
+        return 0, 0, []
+
+    matching = []
+    stale_partial = 0
+
+    for evt in material_events:
+        evt_ticker = evt.get("ticker", "")
+        if evt_ticker != ticker:
+            continue
+        evt_date_str = evt.get("event_date", "")
+        evt_status = evt.get("status", "")
+        evt_level = evt.get("level", "")
+
+        # Parse event date
+        try:
+            evt_date = datetime.strptime(str(evt_date_str), "%Y-%m-%d").date()
+        except (ValueError, TypeError):
+            continue
+
+        # Only count events since thesis was last updated
+        if evt_date >= thesis_date:
+            detail = {
+                "date": evt_date,
+                "level": evt_level,
+                "event": evt.get("event", ""),
+                "status": evt_status,
+            }
+            matching.append(detail)
+            if evt_status in ("STALE", "PARTIAL"):
+                stale_partial += 1
+
+    return len(matching), stale_partial, matching
+
+
+def classify_freshness(age_days, stale_partial_count, has_thesis):
+    """Classify thesis freshness for a standing order.
+
+    Returns (classification, is_blocked).
+    - FRESH: thesis <14d old, no unresolved material events
+    - ACCEPTABLE: thesis 14-30d old, no material events with STALE/PARTIAL
+    - STALE: thesis >30d old OR material events pending
+    - BLOCKED: thesis >30d AND material events with STALE/PARTIAL status
+    - NO_THESIS: no thesis file found
+    """
+    if not has_thesis:
+        return "NO_THESIS", False
+
+    if age_days is None:
+        return "UNKNOWN", False
+
+    if age_days > 30 and stale_partial_count > 0:
+        return "BLOCKED", True
+    elif age_days > 30:
+        return "STALE", False
+    elif stale_partial_count > 0:
+        return "STALE", False
+    elif age_days > 14:
+        return "ACCEPTABLE", False
+    else:
+        return "FRESH", False
+
+
+def run_freshness_check():
+    """Run the --freshness report: thesis freshness behind each standing order."""
+    data = load_standing_orders()
+    long_orders = data.get("standing_orders", []) or []
+    short_orders = data.get("short_orders", []) or []
+
+    # Combine all active SOs (skip comments / archived entries which are just YAML comments)
+    all_orders = []
+    for order in long_orders:
+        if isinstance(order, dict) and order.get("ticker"):
+            all_orders.append((order, "LONG"))
+    for order in short_orders:
+        if isinstance(order, dict) and order.get("ticker"):
+            all_orders.append((order, "SHORT"))
+
+    material_events = load_material_events()
+
+    today = date.today()
+    print(f"SO THESIS FRESHNESS | {today}")
+    print("=" * 90)
+    print(f"{'Ticker':<12} {'Trigger':<16} {'Thesis Age':<12} {'Mat.Events':<14} {'Freshness'}")
+    print("-" * 90)
+
+    results = []
+    blocked_details = []
+
+    # Counters
+    fresh_count = 0
+    acceptable_count = 0
+    stale_count = 0
+    blocked_count = 0
+    no_thesis_count = 0
+
+    for order, side in all_orders:
+        ticker = order.get("ticker", "?")
+        trigger_str = order.get("trigger", "?")
+        category = order.get("category", "?")
+
+        # Get thesis date via git
+        thesis_date, age_days, thesis_path = get_thesis_git_date(ticker)
+
+        # Get material events since thesis date
+        total_events, stale_partial, event_details = get_material_events_for_ticker(
+            ticker, material_events, thesis_date
+        )
+
+        has_thesis = thesis_date is not None
+        classification, is_blocked = classify_freshness(age_days, stale_partial, has_thesis)
+
+        # Format age string
+        if age_days is not None:
+            age_str = f"thesis {age_days:>3}d"
+        else:
+            age_str = "NO THESIS"
+
+        # Format events string
+        evt_str = f"{total_events} events"
+        if stale_partial > 0:
+            evt_str += f" ({stale_partial} STALE)"
+
+        # Format freshness with annotation
+        fresh_str = classification
+        if is_blocked:
+            fresh_str += " <- BLOCK"
+        elif classification == "STALE":
+            fresh_str += " <- FLAG"
+        elif category == "GATED":
+            fresh_str += " (GATED)"
+
+        print(f"{ticker:<12} {trigger_str:<16} {age_str:<12} {evt_str:<14} {fresh_str}")
+
+        # Count
+        if classification == "FRESH":
+            fresh_count += 1
+        elif classification == "ACCEPTABLE":
+            acceptable_count += 1
+        elif classification == "STALE":
+            stale_count += 1
+        elif classification == "BLOCKED":
+            blocked_count += 1
+        elif classification == "NO_THESIS":
+            no_thesis_count += 1
+
+        # Collect blocked details
+        if is_blocked:
+            reasons = []
+            if age_days is not None and age_days > 30:
+                reasons.append(f"thesis {age_days}d old")
+            if stale_partial > 0:
+                reasons.append(f"{stale_partial} material event(s) with STALE/PARTIAL status")
+            for evt in event_details:
+                if evt["status"] in ("STALE", "PARTIAL"):
+                    reasons.append(f"  ME: {evt['event'][:60]} ({evt['status']})")
+            blocked_details.append((ticker, reasons))
+
+        # Also flag STALE with details
+        if classification == "STALE" and not is_blocked:
+            reasons = []
+            if age_days is not None and age_days > 30:
+                reasons.append(f"thesis {age_days}d old — consider refreshing before execution")
+            if stale_partial > 0:
+                for evt in event_details:
+                    if evt["status"] in ("STALE", "PARTIAL"):
+                        reasons.append(f"  ME: {evt['event'][:60]} ({evt['status']})")
+            if reasons:
+                blocked_details.append((ticker, reasons))
+
+    # Print blocked/stale details
+    if blocked_details:
+        print()
+        print("FLAGGED SOs (thesis stale or material events pending):")
+        for ticker, reasons in blocked_details:
+            print(f"  {ticker}:")
+            for reason in reasons:
+                print(f"    {reason}")
+
+    # Summary
+    total = fresh_count + acceptable_count + stale_count + blocked_count + no_thesis_count
+    print()
+    print("-" * 90)
+    print(f"SUMMARY:")
+    print(f"  Total SOs: {total}")
+    print(f"  FRESH (<14d): {fresh_count}")
+    print(f"  ACCEPTABLE (14-30d): {acceptable_count}")
+    print(f"  STALE (>30d or mat.events): {stale_count}")
+    print(f"  BLOCKED (>30d AND mat.events STALE/PARTIAL): {blocked_count}")
+    if no_thesis_count > 0:
+        print(f"  NO_THESIS: {no_thesis_count}")
+    print()
+    print("[Verifiable by human. No AI interpretation needed.]")
+    print()
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Standing Order Fill Probability Calculator"
@@ -343,7 +604,16 @@ def main():
         "--ticker", nargs="+",
         help="Only process specific tickers"
     )
+    parser.add_argument(
+        "--freshness", action="store_true",
+        help="Check thesis freshness behind each standing order (no yfinance calls)"
+    )
     args = parser.parse_args()
+
+    # Freshness mode: separate report, no yfinance needed
+    if args.freshness:
+        run_freshness_check()
+        return
 
     horizon_years = args.horizon / 12.0
 
