@@ -192,6 +192,15 @@ FASE 2.5.7: Smart Money Check (si stale, cada 3 dias shorts / 90 dias 13F)
   → smart_money.py alerts → incorporar alertas relevantes (SHORT_INCREASE, INSIDER_CLUSTER_BUY, CONVERGENCE)
   → smart_money.py snapshot (si hubo update)
   → Cadencia: NO es cron. Claude decide basado en contexto (earnings, re-eval, R1 nuevo)
+  → **MANDATORY STALENESS RESOLUTION (S280 — HARD RULE):**
+    → `smart_money.py stale` → if ANY source VERY_STALE: download + ingest BEFORE continuing session
+    → FCA/AMF: cadencia 3 dias. If STALE → `download fca` + `ingest-fca`, `download amf` + `ingest-amf`
+    → CONSOB/AFM-NL: cadencia 7 dias. Same pattern.
+    → This is NOT optional. Stale SM data = corrupted signals = bad decisions.
+  → **COVERAGE MINIMUM (S280 — OBLIGATORIO):**
+    → Portfolio activo: 100% coverage target. If any position <67% → EU capture this session.
+    → Pipeline con SO: 67% coverage target. Flag gaps.
+    → `smart_money.py coverage` → verify after each ingest.
   → **MONTHLY** (cada 30 dias): smart_money.py ingest-insider --universe → Form4 insider data
   → **QUARTERLY** (cada 90 dias, alinear con 13F cycle): smart_money.py discover-funds → evaluar candidatos
   → **WEEKLY** (cada 7 dias, viernes/sabado): smart_money.py weekly-report → genera reports/smart_money/YYYY-MM-DD.md
