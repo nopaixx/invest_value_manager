@@ -55,6 +55,16 @@ FASE 0: Calibracion v4.8
     → Check: any material_events with status STALE or PARTIAL? → prioritize doc updates
     → Check: any open_items with deadline approaching (<7d)? → prioritize resolution
     → Check: compliance score <60? → pipeline PAUSE until improved
+  → **POSITION HEALTH CHECK** (S280, EVERY session — auto-trigger)
+    → Run `kc_monitor.py --health` → Position Health Score 0-100 per position
+    → IF any position CRITICAL (<40): MANDATORY re-evaluation BEFORE any new R1/R2
+      → Launch review-agent for CRITICAL positions → writes re_evaluation.md
+      → Update thesis header + current.yaml + tracker
+      → CRITICAL positions BLOCK new pipeline work until resolved
+    → IF any position STALE (40-59): FLAG in session plan as P1 priority
+      → Re-evaluation should happen THIS session, but does not block pipeline
+    → IF portfolio avg <60: ALL new R1s paused until avg reaches 70+
+    → This runs AUTOMATICALLY — no human prompt needed
   → **STRATEGIC DIRECTION CHECK** (system.yaml → strategic_direction)
     → ¿Sigue siendo valida la direccion actual? ¿Algo cambio?
     → Si cambio → ACTUALIZAR direccion ANTES de actuar
