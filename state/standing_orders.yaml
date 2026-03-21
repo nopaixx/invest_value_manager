@@ -310,22 +310,22 @@ standing_orders:
   - ticker: SPGI
     action: BUY
     category: GATED
-    fill_prob_6m: 15
-    trigger: "<=$420"
-    current_distance: "0.1%"
+    fill_prob_6m: 20
+    trigger: "<=$380"
+    current_distance: "11.7%"
     created_date: "2026-02-28"
-    staleness_status: FRESH  # S155: $422.80, +0.7% from $420 trigger. APPROACHING. Gated Q1 late April.
-    fill_prob_6m: 40
+    staleness_status: RECALIBRATED  # S282: Trigger $420→$380 after R2 DA. Post-DA FV $440. At $420 E[CAGR] was 9-10% = BELOW 12% threshold.
     size_eur: 400
-    fair_value: "$470 (R3 post-DA S131, was $511)"
-    mos_at_trigger: "10.6%"
+    fair_value: "$440 (post-DA S282, was $470 R3. DA: receivables +20%, FCF contracted. QS 76adj.)"
+    mos_at_trigger: "13.6%"
     tier: "A (QS 60/76 adj — serial acquirer +16)"
-    ecagr_at_trigger: "12.1%"
-    gate: "FY2025 10-K verified S152c16. G1 CONDITIONAL FAIL (AR +20% vs rev +8%), G2 PASS (35.9%), G3 PASS (5-7%). Proceed with caution — size down EUR 400→300 if Q1 AR gap persists."
-    r4_status: "APPROVED CONDITIONAL (S152, 2026-03-13). 10/10 gates PASS. G1 receivables CONDITIONAL FAIL post-verification."
-    notes: "R4 APPROVED S152. R3 FV $470 (-8.0% from R1 $511). Thesis header FIXED (Error #62). Pre-flight DETAILED S152c16: AT TRIGGER $419.70. G1 FAIL context: AR $2.87B→$3.44B (+20%) vs rev +8%. Gap 12pp > 5pp threshold. Mitigated by FCF $5.5B / 35.9% margin = cash collection healthy. Likely acquisition-driven (Visible Alpha full-year impact). 7 quality funds. 0% SI. FTNT exit → SPGI PRIMARY rotation target (EUR 400, or EUR 300 if AR gap unexplained). Mobility spinoff SOTP $532-639 = upside optionality."
-    kill_conditions: "Ratings market share <30%, regulatory break of duopoly, ROIC<WACC 3yr, revenue decline >5% 2Q, receivables >10pp gap 2Q (NEW: enforced — Q1 10-Q will be first test), Mobility spinoff destroys >20% of value"
-    last_analysis_date: 2026-03-13
+    ecagr_at_trigger: "12.9%"
+    gate: "HARD GATE: Q1 2026 earnings (late April). Receivables gap (+20% vs rev +8%) MUST normalize. If gap persists → CANCEL. Do NOT buy before Q1 regardless of price."
+    r4_status: "APPROVED CONDITIONAL (S152, 2026-03-13). 10/10 gates PASS. G1 receivables CONDITIONAL FAIL."
+    notes: "S282 RECALIBRATED: R2 DA MODERATE COUNTER. Post-DA FV $470→$440. At old trigger $420, E[CAGR] was 9-10% = BELOW 12% Tier A threshold. Franchise quality does NOT justify breaking own rules. New trigger $380 gives E[CAGR] 12.9% ≥ 12%. Receivables +20% vs rev +8% unresolved — could be Visible Alpha acquisition timing or revenue quality issue. Q1 10-Q is the test. 7 quality funds. FTNT exit capital. If receivables normalize AND price reaches $380 → execute. If either fails → CANCEL."
+    kill_conditions: "Ratings market share <30%, regulatory break of duopoly, ROIC<WACC 3yr, revenue decline >5% 2Q, receivables >10pp gap 2Q (ENFORCED — Q1 is first test), Mobility spinoff destroys >20% of value"
+    pre_execution_condition: "HARD GATE: Q1 2026 10-Q must show receivables gap closing (<10pp). Do NOT execute before Q1 data available. If Q1 AR gap >10pp for 2nd consecutive quarter → CANCEL SO entirely."
+    last_analysis_date: 2026-03-21
     expiry: 2026-10-01
 
   - ticker: VRSK
