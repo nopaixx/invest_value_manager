@@ -4714,7 +4714,12 @@ def cmd_discover(args):
 
     total = len(discoveries_13f) + len(discoveries_fca) + len(discoveries_amf)
     print(f"\n  Total discoveries: {total}")
-    print()
+
+    # Auto-flag extension: find convergence tickers without thesis
+    if getattr(args, 'auto_flag', False):
+        _discover_auto_flag(G, discoveries_13f, discoveries_fca, discoveries_amf, min_funds)
+    else:
+        print()
 
 
 # ---------------------------------------------------------------------------
@@ -5870,6 +5875,786 @@ def _gather_changes_vs_snapshot(G):
     }
 
 
+# ---------------------------------------------------------------------------
+# CMD: basket-signals — Basket-level SM overlay (P17)
+# ---------------------------------------------------------------------------
+
+BASKETS_PATH = os.path.join(PROJECT_ROOT, "state", "thematic_baskets.yaml")
+
+def cmd_basket_signals(args):
+    """Aggregate smart money signals per thematic basket.
+
+    Reads thematic_baskets.yaml, then for each basket aggregates CONVERGENCE,
+    INSIDER_CLUSTER_BUY, and SHORT_ESCALATION signals from the graph.
+    Shows which quality funds are concentrated in each theme.
+    """
+    if not os.path.exists(BASKETS_PATH):
+        print("ERROR: state/thematic_baskets.yaml not found.")
+        return
+
+    with open(BASKETS_PATH) as f:
+        baskets_data = yaml.safe_load(f) or {}
+
+    baskets = baskets_data.get("baskets", [])
+    if not baskets:
+        print("No baskets found in thematic_baskets.yaml.")
+        return
+
+    G = load_graph()
+    stocks = nodes_by_type(G, "stock")
+    median = _median_holder_count(G)
+
+    print(f"BASKET SMART MONEY OVERLAY | {today_str()}")
+    print("=" * 70)
+
+    for basket in baskets:
+        bstatus = basket.get("status", "")
+        if bstatus in ("KILLED", "ARCHIVED"):
+            continue
+
+        bid = basket.get("id", "unknown")
+        bname = basket.get("name", bid)
+        positions = basket.get("positions", []) or []
+        entering = basket.get("entering", []) or []
+        pipeline = basket.get("pipeline", []) or []
+
+        # Clean ticker comments (e.g. "ADBE    # Creative/document cloud" -> "ADBE")
+        def clean_ticker(t):
+            if not t:
+                return ""
+            return t.split("#")[0].split()[0].strip()
+
+        pos_tickers = [clean_ticker(t) for t in positions if clean_ticker(t)]
+        enter_tickers = [clean_ticker(t) for t in entering if clean_ticker(t)]
+        pipe_tickers = [clean_ticker(t) for t in pipeline if clean_ticker(t)]
+        all_tickers = set(pos_tickers + enter_tickers + pipe_tickers)
+
+        if not all_tickers:
+            continue
+
+        n_pos = len(pos_tickers) + len(enter_tickers)
+        n_pipe = len(pipe_tickers)
+        status_tag = f" [{bstatus}]" if bstatus not in ("ACTIVE",) else ""
+
+        print(f"\n{bname}{status_tag} ({n_pos} pos + {n_pipe} pipe):")
+
+        # Gather per-ticker data from graph
+        convergence_data = {}  # ticker -> list of quality fund names
+        insider_data = {}      # ticker -> (count, total_value)
+        short_data = {}        # ticker -> (total_si, n_funds)
+        all_fund_holdings = defaultdict(list)  # fund_name -> [tickers]
+
+        for ticker in all_tickers:
+            if ticker not in G.nodes:
+                continue
+
+            holders = []
+            shorts_list = []
+            insider_buys = []
+
+            for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+                rel = d.get("relation", "")
+                if rel == "holds":
+                    holders.append((u, d))
+                elif rel == "shorts":
+                    shorts_list.append((u, d))
+                elif rel == "insider_buy":
+                    insider_buys.append((u, d))
+
+            # Quality fund convergence (deduplicate by fund_id — MultiDiGraph has multi-edges)
+            seen_funds = set()
+            quality_holders = []
+            for fund_id, ed in holders:
+                if fund_id in seen_funds:
+                    continue
+                seen_funds.add(fund_id)
+                ft = G.nodes.get(fund_id, {}).get("fund_type", "")
+                if ft in ("value", "quality", "activist"):
+                    fname = G.nodes.get(fund_id, {}).get("full_name", fund_id)
+                    quality_holders.append(fname)
+                    all_fund_holdings[fname].append(ticker)
+
+            if quality_holders:
+                convergence_data[ticker] = quality_holders
+
+            # Recent insider buys (60 days)
+            recent_buys = []
+            for person_id, ed in insider_buys:
+                buy_date = ed.get("date", "")
+                days = days_since(buy_date)
+                if days is not None and days <= 60:
+                    recent_buys.append((person_id, ed))
+
+            if len(recent_buys) >= 2:
+                total_val = sum(b[1].get("value", 0) or 0 for b in recent_buys)
+                insider_data[ticker] = (len(recent_buys), total_val)
+
+            # Short interest
+            total_si = sum(s[1].get("pct_shares", 0) or 0 for s in shorts_list)
+            n_short_funds = len(shorts_list)
+            if total_si > 3 or n_short_funds >= 3:
+                short_data[ticker] = (total_si, n_short_funds)
+
+        # --- Output: CONVERGENCE ---
+        if convergence_data:
+            parts = []
+            total_conv = 0
+            for t in sorted(convergence_data.keys()):
+                n = len(convergence_data[t])
+                total_conv += n
+                parts.append(f"{t} ({n} funds)")
+            print(f"  CONVERGENCE: {', '.join(parts)} = {total_conv} total")
+        else:
+            print(f"  CONVERGENCE: none")
+
+        # --- Output: INSIDER ---
+        if insider_data:
+            parts = []
+            for t, (cnt, val) in sorted(insider_data.items()):
+                parts.append(f"{t} cluster ${val:,.0f}")
+            print(f"  INSIDER: {'; '.join(parts)}")
+        else:
+            print(f"  INSIDER: none")
+
+        # --- Output: SHORTS ---
+        if short_data:
+            parts = []
+            for t, (si, nf) in sorted(short_data.items()):
+                parts.append(f"{t} SI {si:.1f}% ({nf} funds)")
+            print(f"  SHORTS: {'; '.join(parts)}")
+        else:
+            print(f"  SHORTS: none")
+
+        # --- Output: Top funds in theme ---
+        # Funds that hold 2+ tickers in this basket, or top 3 by name
+        multi_holders = {fn: tks for fn, tks in all_fund_holdings.items() if len(tks) >= 2}
+        if multi_holders:
+            parts = []
+            for fn in sorted(multi_holders, key=lambda x: -len(multi_holders[x]))[:5]:
+                tks = "+".join(sorted(multi_holders[fn]))
+                parts.append(f"{fn[:25]} ({tks})")
+            print(f"  Top funds in theme: {', '.join(parts)}")
+        elif all_fund_holdings:
+            top3 = sorted(all_fund_holdings.keys())[:3]
+            parts = []
+            for fn in top3:
+                tks = ", ".join(all_fund_holdings[fn])
+                parts.append(f"{fn[:25]} ({tks})")
+            print(f"  Top funds in theme: {', '.join(parts)}")
+        else:
+            print(f"  Top funds in theme: none tracked")
+
+        # --- Output: Assessment ---
+        total_conv = sum(len(v) for v in convergence_data.values())
+        has_insider = bool(insider_data)
+        has_shorts = bool(short_data)
+
+        if total_conv >= 10 and has_insider:
+            assessment = "STRONGEST institutional conviction + insider alignment"
+        elif total_conv >= 6:
+            assessment = "STRONG institutional conviction"
+        elif total_conv >= 3:
+            assessment = "Moderate institutional interest"
+        elif has_shorts and not convergence_data:
+            assessment = "CAUTION: short interest without quality holder conviction"
+        else:
+            assessment = "Limited SM data"
+        print(f"  Assessment: {assessment}")
+
+    # Summary
+    print(f"\n{'=' * 70}")
+    print(f"Raw data. Institutional overlay per thematic basket.")
+    print()
+
+
+# ---------------------------------------------------------------------------
+# CMD: discover --auto-flag extension
+# ---------------------------------------------------------------------------
+
+def _discover_auto_flag(G, discoveries_13f, discoveries_fca, discoveries_amf, min_funds):
+    """Check discovered tickers for missing thesis files. Print R1 priorities."""
+    import re as _re
+
+    # Build set of tickers that have convergence (3+ funds in 13F)
+    # We need to map CUSIPs back to tickers — use cusip_map and identifiers
+    identifiers_data = load_identifiers()
+    cusip_to_ticker = {}
+    if os.path.exists(CUSIP_MAP_PATH):
+        with open(CUSIP_MAP_PATH) as f:
+            cm = yaml.safe_load(f) or {}
+        cusip_to_ticker = cm.get("cusip_to_ticker", {})
+
+    # Also build from identifiers (reverse mapping)
+    for ticker, info in identifiers_data.get("identifiers", {}).items():
+        cusip = info.get("cusip")
+        if cusip:
+            cusip_to_ticker[cusip] = ticker
+
+    # Collect convergence tickers from all sources
+    flagged = []
+
+    # From 13F discoveries (CUSIP-based, may not have ticker)
+    for cusip, rec in discoveries_13f.items():
+        n_funds = len(rec["funds"])
+        if n_funds < 3:
+            continue
+        ticker = cusip_to_ticker.get(cusip)
+        issuer = rec.get("issuer", "")
+        if not ticker:
+            # Try to guess from issuer name
+            ticker = _guess_ticker_from_issuer(issuer) if issuer else None
+        if not ticker:
+            continue
+        # Check thesis existence
+        thesis_path = os.path.join(PROJECT_ROOT, "thesis", "research", ticker, "thesis.md")
+        active_path = os.path.join(PROJECT_ROOT, "thesis", "active", ticker, "thesis.md")
+        if not os.path.exists(thesis_path) and not os.path.exists(active_path):
+            fund_names = rec["funds"][:5]
+            flagged.append((ticker, n_funds, fund_names, "13F"))
+
+    # From graph convergence (quality fund holders — deduplicate MultiDiGraph edges)
+    stocks = nodes_by_type(G, "stock")
+    for ticker, sdata in stocks.items():
+        quality_holders = []
+        seen_fund_ids = set()
+        for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+            if d.get("relation") == "holds" and u not in seen_fund_ids:
+                seen_fund_ids.add(u)
+                ft = G.nodes.get(u, {}).get("fund_type", "")
+                if ft in ("value", "quality", "activist"):
+                    quality_holders.append(G.nodes.get(u, {}).get("full_name", u))
+        if len(quality_holders) >= 3:
+            thesis_path = os.path.join(PROJECT_ROOT, "thesis", "research", ticker, "thesis.md")
+            active_path = os.path.join(PROJECT_ROOT, "thesis", "active", ticker, "thesis.md")
+            if not os.path.exists(thesis_path) and not os.path.exists(active_path):
+                # Avoid duplicates from 13F section
+                if not any(f[0] == ticker for f in flagged):
+                    flagged.append((ticker, len(quality_holders), quality_holders[:5], "graph"))
+
+    # Output
+    print(f"\nAUTO-FLAG -- R1 PRIORITY (3+ fund convergence, no thesis):")
+    if flagged:
+        flagged.sort(key=lambda x: -x[1])
+        for ticker, n_funds, fund_names, source in flagged:
+            names_str = ", ".join(fn[:20] for fn in fund_names)
+            print(f"  {ticker:12s}  {n_funds} funds ({names_str})  NO THESIS -> R1 PRIORITY")
+    print(f"\n  {len(flagged)} new R1 priorities found" +
+          (" (all convergence tickers already have thesis)" if not flagged else "") + "\n")
+
+
+# ---------------------------------------------------------------------------
+# CMD: sector-flows — Institutional sector rotation detection
+# ---------------------------------------------------------------------------
+
+# Static sector map for common tickers. Falls back to yfinance if available.
+_SECTOR_MAP = {
+    # Technology
+    "ADBE": "Technology", "MSFT": "Technology", "AAPL": "Technology", "GOOG": "Technology",
+    "GOOGL": "Technology", "META": "Technology", "CRM": "Technology", "ORCL": "Technology",
+    "INTU": "Technology", "NOW": "Technology", "SNPS": "Technology", "CDNS": "Technology",
+    "BYIT.L": "Technology", "GDDY": "Technology", "VRSN": "Technology",
+    # Cybersecurity
+    "FTNT": "Technology", "PANW": "Technology", "CRWD": "Technology", "ZS": "Technology",
+    "QLYS": "Technology", "CHKP": "Technology",
+    # Healthcare / Pharma
+    "NVO": "Healthcare", "JNJ": "Healthcare", "UNH": "Healthcare", "LLY": "Healthcare",
+    "ABBV": "Healthcare", "PFE": "Healthcare", "MRK": "Healthcare", "AMGN": "Healthcare",
+    "DOCS": "Healthcare", "HALO": "Healthcare",
+    # Financials / Data
+    "SPGI": "Financials", "MCO": "Financials", "MSCI": "Financials", "ICE": "Financials",
+    "NDAQ": "Financials", "TW": "Financials", "MA": "Financials", "V": "Financials",
+    "ADP": "Financials", "PAYC": "Financials", "HLNE": "Financials", "FDS": "Financials",
+    "GL": "Financials", "KNSL": "Financials", "ERIE": "Financials",
+    # Consumer Discretionary
+    "LULU": "Consumer Discretionary", "AMZN": "Consumer Discretionary",
+    "MONY.L": "Consumer Discretionary", "AUTO.L": "Consumer Discretionary",
+    "IHP.L": "Financials", "DNLM.L": "Consumer Discretionary", "ALFA.L": "Technology",
+    # Consumer Staples
+    "PG": "Consumer Staples", "KO": "Consumer Staples", "PEP": "Consumer Staples",
+    "DOM.L": "Consumer Staples",
+    # Industrials / Defense
+    "HON": "Industrials", "CAT": "Industrials", "GE": "Industrials",
+    "BAH": "Industrials", "BA.L": "Industrials", "RHM.DE": "Industrials",
+    "HO.PA": "Industrials", "SAF.PA": "Industrials", "AM.PA": "Industrials",
+    "LDO.MI": "Industrials", "MEGP.L": "Industrials",
+    # Energy / Materials
+    "XOM": "Energy", "CVX": "Energy", "BZU.MI": "Materials",
+    # Real Estate
+    "RACE.MI": "Consumer Discretionary",
+    # Telecom
+    "DTE.DE": "Communication",
+    # EU misc
+    "EDEN.PA": "Industrials", "WKL.AS": "Industrials",
+    "RMS.PA": "Consumer Discretionary", "MC.PA": "Consumer Discretionary",
+    "LOPE": "Consumer Discretionary",
+}
+
+
+def _get_ticker_sector(ticker, yf_cache=None):
+    """Get sector for a ticker. Uses static map first, then yfinance cache."""
+    if ticker in _SECTOR_MAP:
+        return _SECTOR_MAP[ticker]
+    if yf_cache and ticker in yf_cache:
+        return yf_cache[ticker]
+    return ""
+
+
+def cmd_sector_flows(args):
+    """Compare current graph holdings vs previous snapshot to detect sector-level flows.
+
+    For each fund, identifies new positions and exits since last snapshot.
+    Aggregates by sector to show institutional rotation patterns.
+    """
+    G = load_graph()
+
+    # Load previous snapshot
+    if not os.path.exists(SNAPSHOTS_DIR):
+        print("ERROR: No snapshots directory found. Run 'snapshot' first.")
+        return
+
+    snaps = sorted(f for f in os.listdir(SNAPSHOTS_DIR)
+                   if f.startswith("graph_") and f.endswith(".json"))
+    if not snaps:
+        print("ERROR: No snapshots found. Run 'snapshot' first.")
+        return
+
+    prev_snap = None
+    for s in reversed(snaps):
+        snap_date = s[6:16]
+        if snap_date != today_str():
+            prev_snap = s
+            break
+
+    if not prev_snap:
+        print("ERROR: No previous snapshot found (only today's exists).")
+        return
+
+    snap_date = prev_snap[6:16]
+    with open(os.path.join(SNAPSHOTS_DIR, prev_snap)) as f:
+        G_prev = nx.node_link_graph(json.load(f), directed=True, multigraph=True)
+
+    # Build fund->holdings maps (current and previous)
+    def get_fund_holdings(graph):
+        """Returns {fund_id: set(tickers)} for holds edges."""
+        holdings = defaultdict(set)
+        for u, v, k, d in graph.edges(data=True, keys=True):
+            if d.get("relation") == "holds":
+                fund_type = graph.nodes.get(u, {}).get("type", "")
+                stock_type = graph.nodes.get(v, {}).get("type", "")
+                if fund_type == "fund" and stock_type == "stock":
+                    holdings[u].add(v)
+        return holdings
+
+    curr_holdings = get_fund_holdings(G)
+    prev_holdings = get_fund_holdings(G_prev)
+
+    # Find funds present in both
+    all_funds = set(curr_holdings.keys()) | set(prev_holdings.keys())
+
+    # Aggregate sector-level changes
+    sector_new = defaultdict(list)    # sector -> [(ticker, fund)]
+    sector_exits = defaultdict(list)  # sector -> [(ticker, fund)]
+    fund_rotations = []               # (fund_name, from_sector, to_sector)
+
+    for fund_id in all_funds:
+        curr = curr_holdings.get(fund_id, set())
+        prev = prev_holdings.get(fund_id, set())
+        new_positions = curr - prev
+        exited_positions = prev - curr
+
+        fund_name = G.nodes.get(fund_id, G_prev.nodes.get(fund_id, {})).get("full_name", fund_id)
+
+        # Track per-fund sector rotation
+        fund_exit_sectors = set()
+        fund_new_sectors = set()
+
+        for ticker in new_positions:
+            sector = _get_ticker_sector(ticker)
+            if sector:
+                sector_new[sector].append((ticker, fund_name))
+                fund_new_sectors.add(sector)
+
+        for ticker in exited_positions:
+            sector = _get_ticker_sector(ticker)
+            if sector:
+                sector_exits[sector].append((ticker, fund_name))
+                fund_exit_sectors.add(sector)
+
+        # Detect rotation: exited one sector and entered another
+        for exit_sec in fund_exit_sectors:
+            for new_sec in fund_new_sectors:
+                if exit_sec != new_sec:
+                    fund_rotations.append((fund_name, exit_sec, new_sec))
+
+    # Combine all sectors
+    all_sectors = sorted(set(list(sector_new.keys()) + list(sector_exits.keys())))
+
+    print(f"SECTOR FLOWS (vs snapshot {snap_date})")
+    print("=" * 70)
+
+    if not all_sectors:
+        print("  No sector-level changes detected between snapshots.")
+        print("  This can happen if no holdings edges changed.")
+        print()
+        return
+
+    print(f"  {'Sector':<30s}  {'New':>4s}  {'Exits':>5s}  {'Net':>4s}  Signal")
+    print(f"  {'-'*30}  {'-'*4}  {'-'*5}  {'-'*4}  {'-'*15}")
+
+    sector_signals = {}
+    for sector in all_sectors:
+        n_new = len(sector_new.get(sector, []))
+        n_exits = len(sector_exits.get(sector, []))
+        net = n_new - n_exits
+
+        if net >= 2:
+            signal = "ACCUMULATING"
+        elif net <= -2:
+            signal = "DISTRIBUTING"
+        elif net > 0:
+            signal = "SLIGHT INFLOW"
+        elif net < 0:
+            signal = "SLIGHT OUTFLOW"
+        else:
+            signal = "NEUTRAL"
+
+        sector_signals[sector] = signal
+        print(f"  {sector:<30s}  {'+' + str(n_new):>4s}  {'-' + str(n_exits):>5s}  {net:>+4d}  {signal}")
+
+    # Notable rotations (deduplicated)
+    if fund_rotations:
+        # Aggregate by (from, to) pair
+        rotation_pairs = defaultdict(list)
+        for fund_name, from_sec, to_sec in fund_rotations:
+            rotation_pairs[(from_sec, to_sec)].append(fund_name)
+
+        print(f"\nNOTABLE ROTATIONS:")
+        for (from_sec, to_sec), funds in sorted(rotation_pairs.items(),
+                                                 key=lambda x: -len(x[1])):
+            if len(funds) >= 1:
+                fund_str = ", ".join(sorted(set(fn[:25] for fn in funds))[:3])
+                extra = f" +{len(funds)-3} more" if len(funds) > 3 else ""
+                print(f"  {from_sec} -> {to_sec}: {len(set(funds))} funds ({fund_str}{extra})")
+
+    # Portfolio alignment check
+    if os.path.exists(BASKETS_PATH):
+        with open(BASKETS_PATH) as f:
+            baskets_data = yaml.safe_load(f) or {}
+
+        basket_sectors = set()
+        for basket in baskets_data.get("baskets", []):
+            if basket.get("status") in ("KILLED", "ARCHIVED"):
+                continue
+            for sv in basket.get("sector_views", []):
+                # Extract sector name from path
+                sv_name = os.path.basename(sv).replace(".md", "").replace("-", " ").title()
+                basket_sectors.add(sv_name)
+
+            # Also map basket positions to sectors
+            for t in (basket.get("positions", []) or []):
+                ticker = t.split("#")[0].split()[0].strip() if t else ""
+                sec = _get_ticker_sector(ticker)
+                if sec:
+                    basket_sectors.add(sec)
+
+        aligned = []
+        misaligned = []
+        for sec in basket_sectors:
+            sig = sector_signals.get(sec, "")
+            if sig in ("ACCUMULATING", "SLIGHT INFLOW"):
+                aligned.append(f"{sec} ({sig})")
+            elif sig in ("DISTRIBUTING",):
+                misaligned.append(f"{sec} ({sig})")
+
+        print(f"\nPORTFOLIO ALIGNMENT:")
+        if aligned:
+            print(f"  Our baskets aligned with: {', '.join(aligned)}")
+        else:
+            print(f"  Our baskets aligned with: none (or no flow data)")
+        if misaligned:
+            print(f"  Our baskets misaligned with: {', '.join(misaligned)}")
+        else:
+            print(f"  Our baskets misaligned with: none")
+
+    print(f"\n{'=' * 70}")
+    print(f"Raw data. Institutional flow analysis vs snapshot {snap_date}.")
+    print()
+
+
+# ---------------------------------------------------------------------------
+# CMD: insider-sectors — Cross-sector insider buy patterns
+# ---------------------------------------------------------------------------
+
+def cmd_insider_sectors(args):
+    """Find cross-sector insider buying patterns.
+
+    Groups insider_buy edges from the last 60 days by sector.
+    If 3+ different companies in the same sector have insider buys
+    within the last 30 days, flags as SECTOR_INSIDER_CLUSTER.
+    """
+    G = load_graph()
+
+    if not G.number_of_nodes():
+        print("Graph is empty. Run sync-portfolio and refresh first.")
+        return
+
+    # Collect all insider_buy edges from last 60 days
+    cutoff_60d = (date.today() - timedelta(days=60)).isoformat()
+    cutoff_30d = (date.today() - timedelta(days=30)).isoformat()
+
+    # sector -> {ticker -> [(person_role, value, date)]}
+    sector_buys_60d = defaultdict(lambda: defaultdict(list))
+    sector_buys_30d = defaultdict(lambda: defaultdict(list))
+
+    for u, v, k, d in G.edges(data=True, keys=True):
+        if d.get("relation") != "insider_buy":
+            continue
+
+        buy_date = str(d.get("date", ""))[:10]
+        if not buy_date or buy_date < cutoff_60d:
+            continue
+
+        # v = stock ticker (target), u = person (source)
+        ticker = v
+        stock_node = G.nodes.get(ticker, {})
+        if stock_node.get("type") != "stock":
+            continue
+
+        sector = _get_ticker_sector(ticker)
+        if not sector:
+            # Try node attribute
+            sector = stock_node.get("sector", "")
+        if not sector:
+            sector = "Unknown"
+
+        person_node = G.nodes.get(u, {})
+        role = d.get("role", person_node.get("role", "Insider"))
+        value = d.get("value", 0) or 0
+
+        sector_buys_60d[sector][ticker].append((role, value, buy_date))
+        if buy_date >= cutoff_30d:
+            sector_buys_30d[sector][ticker].append((role, value, buy_date))
+
+    # Sort sectors by number of insider buys descending
+    sector_summary = []
+    for sector in sorted(set(list(sector_buys_60d.keys()))):
+        n_buys = sum(len(v) for v in sector_buys_60d[sector].values())
+        n_companies = len(sector_buys_60d[sector])
+        n_companies_30d = len(sector_buys_30d.get(sector, {}))
+        is_cluster = n_companies_30d >= 3
+        sector_summary.append((sector, n_buys, n_companies, n_companies_30d, is_cluster))
+
+    # Sort by buy count descending
+    sector_summary.sort(key=lambda x: -x[1])
+
+    print(f"CROSS-SECTOR INSIDER PATTERNS | {today_str()}")
+    print("=" * 70)
+    print(f"{'Sector':<30s} {'Buys (60d)':>10s} {'Companies':>10s} {'Signal':<25s}")
+    print(f"{'-'*30} {'-'*10} {'-'*10} {'-'*25}")
+
+    cluster_sectors = []
+    for sector, n_buys, n_companies, n_companies_30d, is_cluster in sector_summary:
+        signal = "SECTOR_INSIDER_CLUSTER" if is_cluster else "Normal"
+        marker = " <-" if is_cluster else ""
+        print(f"{sector:<30s} {n_buys:>10d} {n_companies:>10d} {signal}{marker}")
+        if is_cluster:
+            cluster_sectors.append(sector)
+
+    # Cluster details
+    if cluster_sectors:
+        print(f"\nSECTOR_INSIDER_CLUSTER details:")
+        for sector in cluster_sectors:
+            parts = []
+            for ticker in sorted(sector_buys_60d[sector].keys()):
+                buys = sector_buys_60d[sector][ticker]
+                total_val = sum(b[1] for b in buys)
+                # Find most senior role
+                roles = [b[0] for b in buys]
+                display_role = roles[0] if roles else "Insider"
+                # Shorten role
+                for short, full in [("CEO", "Chief Executive"),
+                                    ("CFO", "Chief Financial"),
+                                    ("COO", "Chief Operating"),
+                                    ("Dir", "Director"),
+                                    ("VP", "Vice President")]:
+                    if full.lower() in display_role.lower():
+                        display_role = short
+                        break
+                if total_val >= 1_000_000:
+                    val_str = f"${total_val/1e6:.1f}M"
+                elif total_val > 0:
+                    val_str = f"${total_val:,.0f}"
+                else:
+                    val_str = ""
+                n_insiders = len(buys)
+                if n_insiders > 1:
+                    parts.append(f"{ticker} ({n_insiders} insiders {val_str})")
+                else:
+                    parts.append(f"{ticker} ({display_role} {val_str})")
+            print(f"  {sector}: {', '.join(parts)}")
+
+    # Portfolio relevance
+    portfolio_tickers = set(get_portfolio_tickers())
+    universe_tickers = _get_universe_tickers()
+
+    if portfolio_tickers or universe_tickers:
+        print(f"\nPORTFOLIO RELEVANCE:")
+        for sector in cluster_sectors:
+            cluster_tickers = set(sector_buys_60d[sector].keys())
+            held = cluster_tickers & portfolio_tickers
+            in_universe = cluster_tickers & universe_tickers - portfolio_tickers
+            if held:
+                print(f"  We hold in {sector}: {', '.join(sorted(held))} <- cluster CONFIRMS")
+            if in_universe:
+                print(f"  Pipeline in {sector}: {', '.join(sorted(in_universe))} <- cluster CONFIRMS")
+            if not held and not in_universe:
+                not_tracked = cluster_tickers - portfolio_tickers - universe_tickers
+                if not_tracked:
+                    print(f"  NOT tracked in {sector}: {', '.join(sorted(not_tracked))} <- DISCOVERY opportunity")
+
+    if not sector_summary:
+        print("  No insider buy data found in the graph (last 60 days).")
+        print("  Run 'ingest-insider' to populate insider transactions.")
+
+    print(f"\n{'=' * 70}")
+    print(f"[Raw data. Cross-sector insider intelligence.]")
+    print()
+
+
+# ---------------------------------------------------------------------------
+# CMD: exodus-check — Institutional exodus detection
+# ---------------------------------------------------------------------------
+
+def cmd_exodus_check(args):
+    """Compare fund holder counts per portfolio position vs previous snapshot.
+
+    Detects if multiple portfolio positions are losing institutional holders,
+    which could signal a broad quality-fund exodus.
+    """
+    G = load_graph()
+
+    if not G.number_of_nodes():
+        print("Graph is empty. Run sync-portfolio and refresh first.")
+        return
+
+    # Load previous snapshot
+    if not os.path.exists(SNAPSHOTS_DIR):
+        print("ERROR: No snapshots directory found. Run 'snapshot' first.")
+        return
+
+    snaps = sorted(f for f in os.listdir(SNAPSHOTS_DIR)
+                   if f.startswith("graph_") and f.endswith(".json"))
+    if not snaps:
+        print("ERROR: No snapshots found. Run 'snapshot' first.")
+        return
+
+    prev_snap = None
+    for s in reversed(snaps):
+        snap_date = s[6:16]
+        if snap_date != today_str():
+            prev_snap = s
+            break
+
+    if not prev_snap:
+        print("ERROR: No previous snapshot found (only today's exists).")
+        return
+
+    snap_date = prev_snap[6:16]
+    with open(os.path.join(SNAPSHOTS_DIR, prev_snap)) as f:
+        G_prev = nx.node_link_graph(json.load(f), directed=True, multigraph=True)
+
+    # Get portfolio tickers
+    portfolio_tickers = get_portfolio_tickers()
+    if not portfolio_tickers:
+        print("ERROR: No portfolio positions found in current.yaml.")
+        return
+
+    def count_holders(graph, ticker):
+        """Count unique fund nodes with 'holds' edges to this ticker."""
+        if ticker not in graph.nodes:
+            return 0
+        holders = set()
+        for u, v, k, d in graph.in_edges(ticker, data=True, keys=True):
+            if d.get("relation") == "holds":
+                node_data = graph.nodes.get(u, {})
+                if node_data.get("type") == "fund":
+                    holders.add(u)
+        return len(holders)
+
+    # Compare holder counts
+    results = []
+    for ticker in sorted(portfolio_tickers):
+        curr_count = count_holders(G, ticker)
+        prev_count = count_holders(G_prev, ticker)
+        change = curr_count - prev_count
+
+        if change <= -3:
+            signal = "SIGNIFICANT EXIT"
+        elif change <= -1:
+            signal = "MINOR EXIT"
+        elif change == 0:
+            signal = "STABLE"
+        elif change >= 3:
+            signal = "ACCUMULATION"
+        else:
+            signal = "MINOR ADD"
+
+        results.append((ticker, curr_count, prev_count, change, signal))
+
+    # Determine exodus
+    significant_exits = [(t, c, p, ch, s) for t, c, p, ch, s in results if ch < 0]
+    exodus = len(significant_exits) >= 3
+
+    print(f"INSTITUTIONAL EXODUS CHECK | {today_str()}")
+    print(f"Snapshot comparison: current vs {snap_date}")
+    print("=" * 70)
+    print(f"{'Ticker':<12s} {'Funds Now':>10s} {'Funds Prev':>10s} {'Change':>8s} {'Signal':<20s}")
+    print(f"{'-'*12} {'-'*10} {'-'*10} {'-'*8} {'-'*20}")
+
+    for ticker, curr, prev, change, signal in results:
+        change_str = f"{change:+d}" if change != 0 else "0"
+        print(f"{ticker:<12s} {curr:>10d} {prev:>10d} {change_str:>8s} {signal}")
+
+    print()
+
+    if exodus:
+        print("!! INSTITUTIONAL_EXODUS DETECTED")
+        print(f"  {len(significant_exits)} positions showing fund exits:")
+        for ticker, curr, prev, change, signal in significant_exits:
+            # List exiting funds if possible
+            curr_holders = set()
+            prev_holders = set()
+            if ticker in G.nodes:
+                for u, v, k, d in G.in_edges(ticker, data=True, keys=True):
+                    if d.get("relation") == "holds" and G.nodes.get(u, {}).get("type") == "fund":
+                        curr_holders.add(u)
+            if ticker in G_prev.nodes:
+                for u, v, k, d in G_prev.in_edges(ticker, data=True, keys=True):
+                    if d.get("relation") == "holds" and G_prev.nodes.get(u, {}).get("type") == "fund":
+                        prev_holders.add(u)
+            exited = prev_holders - curr_holders
+            exited_names = []
+            for fund_id in sorted(exited)[:3]:
+                fname = G_prev.nodes.get(fund_id, {}).get("full_name", fund_id)
+                exited_names.append(fname[:30])
+            extra = f" +{len(exited)-3} more" if len(exited) > 3 else ""
+            exits_str = f" (exited: {', '.join(exited_names)}{extra})" if exited_names else ""
+            print(f"  {ticker}: {prev} -> {curr} ({change:+d} funds){exits_str}")
+        print()
+        print("  ACTION: Re-evaluate portfolio thesis. Quality funds leaving = bearish signal.")
+    else:
+        print(f"VERDICT: NO EXODUS ({len(significant_exits)} positions with fund exits, threshold: 3+)")
+        if significant_exits:
+            print(f"  Minor exits in: {', '.join(t for t, _, _, _, _ in significant_exits)}")
+        else:
+            print(f"  All positions stable or gaining institutional holders.")
+
+    print(f"\n{'=' * 70}")
+    print(f"[Verifiable by human. Snapshot comparison vs {snap_date}.]")
+    print()
+
+
+
 def cmd_weekly_report(args):
     """Generate a comprehensive markdown report and save to reports/smart_money/YYYY-MM-DD.md."""
     os.makedirs(REPORTS_DIR, exist_ok=True)
@@ -6243,6 +7028,7 @@ def main():
     p_disc = subparsers.add_parser("discover", help="Find stocks held/shorted by tracked funds NOT in our graph")
     p_disc.add_argument("--source", choices=["13f", "fca", "amf", "all"], default="all")
     p_disc.add_argument("--min-funds", type=int, default=2, help="Minimum funds to flag (default: 2)")
+    p_disc.add_argument("--auto-flag", action="store_true", help="Flag convergence tickers without thesis as R1 PRIORITY")
 
     # ingest-live (WS4)
     p_live = subparsers.add_parser("ingest-live", help="Ingest live intelligence from sessions")
@@ -6274,6 +7060,19 @@ def main():
 
     # weekly-report
     subparsers.add_parser("weekly-report", help="Generate comprehensive markdown weekly report")
+
+    # basket-signals (P17 SM overlay)
+    subparsers.add_parser("basket-signals", help="Aggregate SM signals per thematic basket")
+
+    # sector-flows
+    subparsers.add_parser("sector-flows", help="Institutional sector rotation vs previous snapshot")
+
+    # insider-sectors
+    subparsers.add_parser("insider-sectors", help="Cross-sector insider buying patterns")
+
+    # exodus-check
+    subparsers.add_parser("exodus-check", help="Institutional exodus detection for portfolio")
+
 
     args = parser.parse_args()
 
@@ -6322,6 +7121,10 @@ def main():
         "ingest-consob": cmd_ingest_consob,
         "ingest-afm-nl": cmd_ingest_afm_nl,
         "weekly-report": cmd_weekly_report,
+        "basket-signals": cmd_basket_signals,
+        "sector-flows": cmd_sector_flows,
+        "insider-sectors": cmd_insider_sectors,
+        "exodus-check": cmd_exodus_check,
     }
 
     cmd_func = commands.get(args.command)
