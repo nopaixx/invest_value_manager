@@ -192,4 +192,32 @@ python3 tools/smart_money.py signals                  # §6 Crowding (HERD_WARNI
 python3 tools/smart_money.py insider-sectors          # §7 Insider Sectors
 python3 tools/smart_money.py discover --auto-flag     # §8 Discovery
 python3 tools/smart_money.py snapshot                 # Save for next day comparison
+python3 tools/sm_visualizer.py                        # §11 Generate all 5 charts
 ```
+
+---
+
+## 11. Visual Dashboard
+
+> Command: `python3 tools/sm_visualizer.py`
+> Output: `reports/smart_money/images/*.png`
+
+### Fund Network — Quality Fund Holdings in Portfolio
+![Fund Network](images/fund_network.png)
+*Shows which quality/value funds hold our portfolio positions. Blue = funds, Green = portfolio, Orange = pipeline. Larger nodes = more connections.*
+
+### Basket SM Conviction
+![Basket Conviction](images/basket_conviction.png)
+*Aggregated SM signal strength per thematic basket. Green = STRONG, Yellow = Moderate, Red = Limited.*
+
+### Short Interest Exposure
+![Short Interest](images/short_interest_bars.png)
+*Short interest % for each portfolio position. Red = long positions with SI, Purple = our short (CVNA).*
+
+### SM Data Coverage Matrix
+![Coverage Heatmap](images/coverage_heatmap.png)
+*Green = data exists, Red = missing. Shows which positions have complete SM data vs gaps.*
+
+### Position Health Scores
+![Position Health](images/position_health.png)
+*Health score 0-100 per position. Green ≥80, Yellow 60-79, Orange 40-59, Red <40. Threshold lines at 40 (CRITICAL) and 60 (STALE).*
