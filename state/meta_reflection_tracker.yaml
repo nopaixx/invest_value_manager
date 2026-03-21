@@ -177,9 +177,109 @@ open_items:
 # 7. Weekly: count OPEN items. If >20 → pipeline pause until reduced to <10
 # 8. NEVER delete items — mark RESOLVED with date + evidence
 
+# =============================================================================
+# MATERIAL EVENTS LOG (S277)
+# Every MATERIAL or CRITICAL event on active positions is logged here.
+# meta_compliance.py compares event_date vs file modification dates via git.
+# If thesis docs are OLDER than the event → STALE DOCUMENT flag.
+# =============================================================================
+
+material_events:
+
+  - id: ME-001
+    ticker: EDEN.PA
+    event_date: "2026-02-24"
+    level: CRITICAL
+    event: "Brazil PAT decree injunction OVERRULED by Federal Regional Court"
+    docs_required: [thesis.md, devils_advocate.md, risk_assessment.md]
+    docs_updated:
+      thesis_header: "2026-03-17"  # FV EUR 29→24, growth 6%→4%
+      devils_advocate: "2026-03-17"  # Formal DA re-run S237
+      risk_assessment: null  # NEVER updated — STALE
+    status: PARTIAL  # thesis + DA updated, risk_assessment stale
+
+  - id: ME-002
+    ticker: NVO
+    event_date: "2026-02-23"
+    level: CRITICAL
+    event: "CagriSema REDEFINE 4 FAILED — KC#1 triggered"
+    docs_required: [thesis.md, devils_advocate.md, risk_assessment.md]
+    docs_updated:
+      thesis_header: "2026-03-07"  # R3 resolution, FV $50→$47
+      devils_advocate: null  # NEVER re-run post-CagriSema — STALE
+      risk_assessment: null  # NEVER updated — STALE
+    status: PARTIAL
+
+  - id: ME-003
+    ticker: NVO
+    event_date: "2026-03-05"
+    level: MATERIAL
+    event: "FDA Warning Letter — adverse event reporting violations for semaglutide"
+    docs_required: [thesis.md, risk_assessment.md]
+    docs_updated:
+      thesis_header: null  # NOT updated — STALE
+      risk_assessment: null  # NOT updated — STALE
+    status: STALE
+
+  - id: ME-004
+    ticker: NVO
+    event_date: "2026-03-19"
+    level: MATERIAL
+    event: "Wegovy HD (7.2mg) FDA approved. Semaglutide patent expiring India/China"
+    docs_required: [thesis.md]
+    docs_updated:
+      thesis_header: null  # NOT updated — STALE
+    status: STALE
+
+  - id: ME-005
+    ticker: ADBE
+    event_date: "2026-03-12"
+    level: MATERIAL
+    event: "CEO Narayen stepping down. Q1 FY2026 beat (rev +12%, EPS beat). FTC settlement $150M."
+    docs_required: [thesis.md, devils_advocate.md]
+    docs_updated:
+      thesis_header: "2026-03-14"  # FV $390→$406, FTC resolved
+      devils_advocate: null  # NEVER re-run post-CEO-transition — STALE
+    status: PARTIAL
+
+  - id: ME-006
+    ticker: HLNE
+    event_date: "2026-03-01"
+    level: MATERIAL
+    event: "Blue Owl private credit crisis — Evergreen contagion risk. UBS cut PT $184→$150."
+    docs_required: [thesis.md, devils_advocate.md]
+    docs_updated:
+      thesis_header: null  # NOT updated — STALE
+      devils_advocate: "2026-03-17"  # Formal DA S237
+    status: PARTIAL
+
+  - id: ME-007
+    ticker: FTNT
+    event_date: "2026-03-10"
+    level: MINOR
+    event: "FortiOS 8.0 launched. Product rev growth guided 10-15%. Accelerate 2026."
+    docs_required: [thesis.md]
+    docs_updated:
+      thesis_header: null  # Not updated but EXIT approved — acceptable
+    status: ACCEPTABLE  # EXIT position, minor event
+
+# PROTOCOL FOR MATERIAL EVENTS:
+# 1. Event detected by news-monitor or risk-sentinel → log here immediately
+# 2. Classify: COSMETIC / MINOR / MATERIAL / CRITICAL
+# 3. List docs_required based on classification (see S277 protocol)
+# 4. Update docs within same session (CRITICAL) or next session (MATERIAL)
+# 5. Record update dates in docs_updated
+# 6. meta_compliance.py audits: compares event_date vs docs_updated dates
+# 7. status: COMPLETE (all docs updated) / PARTIAL (some updated) / STALE (none updated)
+
 stats:
   total_items: 18
   open: 14
   resolved: 4
   oldest_open: MR-001 (2026-03-17)
   next_deadline: MR-004 (2026-03-28)
+  material_events: 7
+  material_events_complete: 0
+  material_events_partial: 4
+  material_events_stale: 2
+  material_events_acceptable: 1

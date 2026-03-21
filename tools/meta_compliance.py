@@ -618,15 +618,67 @@ def main():
     latest_agent = get_latest_agent_run()
     freshness = check_freshness(tracker_mtime, latest_agent)
 
+    # Material Events Audit (S277)
+    material_events = tracker_data.get('material_events', [])
+    if material_events is None:
+        material_events = []
+    me_stale = []
+    me_partial = []
+    me_complete = []
+    for me in material_events:
+        status = me.get('status', 'STALE')
+        if status == 'STALE':
+            me_stale.append(me)
+        elif status == 'PARTIAL':
+            me_partial.append(me)
+        elif status == 'COMPLETE':
+            me_complete.append(me)
+
     score, deductions = calculate_compliance_score(
         coverage, staleness_result, violations, resolution, freshness
     )
+
+    # Additional deductions for material events
+    if me_stale:
+        score -= len(me_stale) * 5
+        deductions.append(f"  -{len(me_stale) * 5}: {len(me_stale)} material event(s) with STALE documents")
+    if me_partial:
+        score -= len(me_partial) * 2
+        deductions.append(f"  -{len(me_partial) * 2}: {len(me_partial)} material event(s) with PARTIAL document updates")
+    score = max(0, score)
 
     # Output
     if args.json:
         print_json_report(coverage, staleness_result, violations, resolution, freshness, score, deductions, all_items)
     else:
         print_report(coverage, staleness_result, violations, resolution, freshness, score, deductions, all_items, verbose=args.verbose)
+
+        # Material Events section
+        if material_events:
+            print()
+            print(f"MATERIAL EVENTS AUDIT (S277)")
+            print("=" * 56)
+            print(f"  Total events:    {len(material_events)}")
+            print(f"  COMPLETE:        {len(me_complete)}")
+            print(f"  PARTIAL:         {len(me_partial)}")
+            print(f"  STALE:           {len(me_stale)}")
+            if me_stale:
+                print()
+                print("  STALE EVENTS (documents NOT updated after event):")
+                for me in me_stale:
+                    docs_updated = me.get('docs_updated', {})
+                    stale_docs = [k for k, v in docs_updated.items() if v is None]
+                    print(f"    {me.get('id','?'):8s}  {me.get('ticker','?'):10s}  {me.get('event_date','?')}  {me.get('event','')[:60]}")
+                    print(f"             Stale docs: {', '.join(stale_docs)}")
+            if me_partial:
+                print()
+                print("  PARTIAL EVENTS (some documents updated, some stale):")
+                for me in me_partial:
+                    docs_updated = me.get('docs_updated', {})
+                    stale_docs = [k for k, v in docs_updated.items() if v is None]
+                    updated_docs = [k for k, v in docs_updated.items() if v is not None]
+                    print(f"    {me.get('id','?'):8s}  {me.get('ticker','?'):10s}  {me.get('event_date','?')}  {me.get('event','')[:60]}")
+                    print(f"             Updated: {', '.join(updated_docs)} | STALE: {', '.join(stale_docs)}")
 
 
 if __name__ == '__main__':
