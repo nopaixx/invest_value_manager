@@ -1,13 +1,21 @@
 # Sector: Semiconductors & Equipment
 
-> Ultima actualizacion: 2026-03-07
-> Status: NEUTRAL-CAUTELA - Quality compounders exist but valuations stretched + NEW geopolitical supply chain risk from Hormuz closure
+> Ultima actualizacion: 2026-03-18
+> Status: NEUTRAL-CAUTELA - Valuations stretched + Hormuz LNG risk to Korea/Taiwan fabs + ASML tariff warning + China export control tightening
 
 ## Resumen Ejecutivo
 
 The semiconductor equipment and specialty chip sector contains some of the highest-quality businesses in the world -- oligopolistic market structures, extreme switching costs, and multi-decade secular growth driven by AI, automotive electrification, IoT, and advanced packaging. Equipment companies in particular are "picks-and-shovels" plays on chip manufacturing buildout, with asset-light models that generate exceptional returns on capital.
 
-**UPDATE Mar 2026:** Three material developments since Feb 13:
+**UPDATE Mar 18, 2026:** Five material developments since Feb 13 (two new since Mar 7):
+
+**NEW (Mar 7-18):**
+
+4. **ASML WARNS ON TARIFFS AND GROWTH.** CEO Fouquet: "While we still prepare for growth in 2026, we cannot confirm it at this stage." 30% tariff threat on EU semiconductor equipment shipped to US could hit gross margins. ASML plans to pass "lion's share" to US customers but risks slowing orders. China revenue expected "significantly lower in 2026 than 2024-2025." Stock at $1,293 (-8% from Feb).
+
+5. **TARIFF ESCALATION MATERIALIZING.** Trump Section 301 probes into 16+ economies. 15% EU surcharge active. 30% tariff threat on semiconductor equipment specifically. This is NOT theoretical -- it is actively pressuring customer capex decisions and ASML's own margin guidance. Equipment stocks pulled back 5-14% since Feb highs partly on this.
+
+**Previous (through Mar 7):**
 
 1. **Earnings season confirmed AI capex boom is REAL and ACCELERATING.** AMAT Q1 FY2026 revenue $7.01B (record, +11% surge), KLAC Q2 FY2026 revenue $3.30B (+17% YoY), LRCX Q2 FY2026 revenue $5.34B (+22% YoY). CDNS Q4 FY2025 beat consensus by 6% with FY2026 guidance of $5.9-6.0B (+11-13%). All equipment makers beating estimates and guiding up. The "AI giga-cycle" narrative is backed by data.
 
@@ -98,7 +106,7 @@ Key sub-sectors: Lithography (ASML monopoly), Etch/Deposition (LRCX/AMAT/TEL oli
 |------------|--------------|---------|
 | US-China export controls (ASML/LRCX/AMAT) | Ongoing | Revenue reduction 5-15%. ASML expects China revenue to drop from 36% to ~20% by end-2026. Chinese multipatterning workaround emerging for mature nodes. |
 | CHIPS Act subsidies (US/EU/Japan) | Ongoing | Positive for equipment demand |
-| Tariff escalation | Medium-High (escalating) | Negative for supply chains. 15% EU surcharge active. |
+| Tariff escalation | **HIGH (ACTIVE)** | **Negative. 15% EU surcharge active. 30% tariff threat on EU equipment to US. ASML passing costs to customers = order slowdown risk.** |
 | Antitrust scrutiny (SNPS-Ansys merger) | Low-Medium | SNPS specific |
 | China 50% domestic equipment mandate (NEW) | Ongoing | Accelerates Chinese equipment substitution. NAURA threat growing for mature nodes. |
 
@@ -311,6 +319,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 |-------|--------|-------|
 | 2026-02-13 | Sector view created | Filling gap in quality universe coverage |
 | 2026-02-13 | CDNS R1 analysis complete | QS 82 adj (Tier A). FV $260. Entry $260. WATCHLIST. Earnings Feb 17 hard gate. |
+| 2026-03-18 | **REFRESH: ASML tariff warning + China export controls** | ASML CEO cannot confirm 2026 growth due to tariff uncertainty. 30% tariff threat on EU equipment. China revenue declining. Equipment stocks -5-14% from Feb highs. Hormuz still closed Day 19 (LNG risk to Korea/Taiwan fabs persists). NEUTRAL-CAUTELA maintained. |
 | 2026-03-07 | MATERIAL UPDATE: Earnings + Hormuz risk | Equipment earnings all BEAT (AMAT, KLAC, LRCX, CDNS). Hyperscaler capex $660-690B. CDNS Q4 beat, FY2026 guide strong, ChipStack AI launch. NEW Hormuz/LNG risk to Korea/Taiwan fabs. Cycle position revised to "mid-cycle with elevated uncertainty." Prices down 5-14% on risk-off. Valuation table refreshed. |
 
 ---

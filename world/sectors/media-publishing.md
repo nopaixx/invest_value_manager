@@ -1,6 +1,6 @@
 # Sector: Digital Media & Publishing
 
-> Ultima actualizacion: 2026-03-06
+> Ultima actualizacion: 2026-03-18
 > Analista: Claude
 > Status: **INFRAPONDERAR** (solo oportunidades extremas con MoS >40% y catalizadores claros)
 
@@ -17,6 +17,11 @@ El sector de medios digitales y publicaciones esta en una **bifurcacion estructu
 6. **RELX 2025 results STRONG**: Rev +7% underlying, OP +9%, EPS +10%. Buyback GBP 2.25B para 2026. Digital 84% of revenue. NO es publisher -- es data/analytics. DIFERENTE thesis.
 7. **Future plc deteriorandose**: Trading at 402p (vs 915p 52wH). Rev -6% FY2025. Sessions -10% AI impact. FV targets 2-4% rev growth FY2026 -- very optimistic given structural headwinds.
 8. **Global ad spend $1T+ (2026e)**: Dentsu forecast. Digital +6.7%, representing 68.7% of total. Pero REDISTRIBUCION continua -- CTV, programmatic, creators ganan; display/search-dependent publishers pierden.
+10. **AI disrupting retail media search ($38B market under threat)**: ChatGPT Instant Checkout enables consumers to research AND purchase without visiting retail websites. Retail media search spend was $38B in 2025 -- now directly challenged by AI-driven shopping flows.
+11. **Publisher bots approaching parity with humans**: Tools like Huxe and OpenAI Pulse offer personalized news briefings at scale. Some sources suggest bots will outnumber human readers on publisher sites soon.
+12. **60% of US marketing leaders cut agency spend due to AI (2025)**: GenAI performing tasks of copywriters, designers, media buyers. Agentic advertising gaining traction in 2026 with AI optimizing campaigns autonomously.
+13. **Publisher M&A cooling**: AI-driven traffic declines stalling deals and lowering publisher valuations. Buyers discounting ad-dependent models more aggressively.
+
 9. **Iran crisis (Feb 28-Mar 2)**: Sector es PRO-CICLICO con ad spend. Oil shock + recession risk = ad budgets at risk if downturn materializes. DOUBLE headwind para publishers (structural AI + cyclical ad slowdown).
 
 **Conclusion reforzada**: INFRAPONDERAR se CONFIRMA y REFUERZA. La bifurcacion se esta haciendo mas clara:
@@ -235,6 +240,7 @@ El riesgo estructural de AI disruption esta CONFIRMADO con datos reales. Los pub
 
 | Fecha | Cambio | Tipo | Razon |
 |-------|--------|------|-------|
+| 2026-03-18 | MINOR refresh: AI disrupting retail media search ($38B market under pressure from ChatGPT Instant Checkout). Bots approaching parity with human readers on publisher sites. 60% of US marketing leaders cut agency spend due to AI (2025). Agentic advertising gaining traction. Publisher M&A cooling as traffic declines lower valuations. Status: INFRAPONDERAR maintained, REINFORCED | MENOR | Staleness refresh. AI disruption data points confirm structural decline |
 | 2026-03-06 | Update completo. FUTR.L SOLD removida. AI traffic data confirmada. M&A streaming actualizado. Copyright lawsuits escalados. NYT/RELX earnings updated. Iran crisis cyclical headwind added | MATERIAL | Sector view 30 dias stale. Datos fundamentales cambiaron (FUTR.L sold, AI impact confirmed with real data) |
 | 2026-02-04 | Status inicial: INFRAPONDERAR | INICIAL | Sector con riesgo estructural activo por AI disruption |
 

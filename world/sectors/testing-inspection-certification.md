@@ -1,7 +1,7 @@
 # Sector: Testing, Inspection & Certification (TIC)
 
-> Ultima actualizacion: 2026-03-06
-> Status: SOBREPONDERAR - Quality compounder hunting ground con moats amplios, FY2025 earnings confirmed sector strength
+> Ultima actualizacion: 2026-03-18
+> Status: SOBREPONDERAR - Quality compounder hunting ground. EU AI Act Aug 2026 deadline = NEW TAM. ITRK.L at 52wL (3,650-3,750p range).
 
 ## Resumen Ejecutivo
 
@@ -13,7 +13,11 @@ El sector cotiza a ~14x EV/EBITDA (mediana historica). Intertek ha experimentado
 
 El mercado global TIC tiene un TAM de ~$276B (2026), creciendo al 4-5% CAGR. Es un mercado muy fragmentado: los top 5 players solo representan ~35% del mercado. M&A activity alcanzo all-time high de 153 transacciones en TTM junio 2025, confirmando el apetito por consolidacion.
 
-**CAMBIOS MATERIALES desde Feb 14:**
+**CAMBIOS MATERIALES desde Feb 14 (UPDATED Mar 18):**
+10. **EU AI Act high-risk compliance deadline Aug 2, 2026** -- conformity assessment MANDATORY for all high-risk AI systems. Compliance infrastructure (notified bodies, testing facilities) INSUFFICIENT for demand. AI governance platform market projected $492M in 2026 spending. Enterprise readiness gap: >50% of organizations lack AI system inventories. This creates SIGNIFICANT incremental TAM for TIC companies with AI/digital testing capabilities (SGS, BVI, ITRK). Timeline: next 5 months.
+11. **ITRK.L continues decline to new 52wL** -- trading 3,650-3,750p range (Mar 18), down from 4,062p on Mar 6. Now -27% from 52wH (5,150p). FX headwinds + general UK sell-off deepening, NOT fundamental deterioration. Yield now ~4.3%. Approaching our strongest conviction level for the sector.
+
+**Previous CAMBIOS MATERIALES (through Mar 6):**
 1. Bureau Veritas FY2025 reportado Feb 25: 6.5% organic, 16.3% margen, EUR 200M buyback nuevo
 2. Intertek FY2025 reportado Mar 3: 18.1% margen (+90bps), ROIC >21%, guidance 2026 margen >18.5%
 3. SGS FY2025 reportado Feb 11: record en ventas, profitability y FCF. EPS +12.3%
@@ -188,7 +192,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | # | Ticker | QS | P/E | Dist 52wH | Price | Razon | Priority |
 |---|--------|----|-----|-----------|-------|-------|----------|
-| 1 | **ITRK.L** | 63 | 18.1x | **-24%** | 4,062p | **UPGRADED TO #1.** Best discount in TIC, now at 12-month low despite RECORD results. FY2025: margin 18.1% (+90bps), ROIC >21%, double-digit EPS growth, 110% cash conversion. 2026 guide: margin >18.5%. Yield 4.1% (highest in sector). Selloff driven by FX headwinds + general UK market weakness (Iran crisis), NOT fundamentals. AAA strategy delivering ahead of plan. QS 63 likely conservative -- with ROIC >21% confirmed and margin trajectory, adjusted QS could be 68-72. **Strongest value setup in TIC.** | **ALTA** |
+| 1 | **ITRK.L** | 63 | ~17x | **-27%** | ~3,700p | **UPGRADED TO #1.** Best discount in TIC, now at 12-month low despite RECORD results. FY2025: margin 18.1% (+90bps), ROIC >21%, double-digit EPS growth, 110% cash conversion. 2026 guide: margin >18.5%. Yield 4.1% (highest in sector). Selloff driven by FX headwinds + general UK market weakness (Iran crisis), NOT fundamentals. AAA strategy delivering ahead of plan. QS 63 likely conservative -- with ROIC >21% confirmed and margin trajectory, adjusted QS could be 68-72. **Strongest value setup in TIC.** | **ALTA** |
 | 2 | BVI.PA | 69 | 22.1x | -5% | EUR 28.98 | Sector-leading 6.5% organic growth FY2025, margin 16.3% (+51bps), EPS EUR 1.32 (+4.3%). LEAP\|28 on track: MHSd organic + margin expansion. New EUR 200M buyback. Dividend EUR 0.92 (+2.2%). ROIC 19.1%, payout 62%. P/E expanded from 18.8x to 22.1x post-earnings rally. Less discount vs Feb (-5% vs -13%). Still best organic growth profile in TIC but valuation tighter now. | **MEDIA** (was ALTA, downgraded on valuation) |
 | 3 | SGSN.SW | 62 | 26.9x | -5% | CHF 92.96 | Record FY2025: sales CHF 6.945B, adj OI margin 16.0% (+70bps), FCF CHF 841M record, EPS +12.3%. Strategy 27 executing well. Applied Technical Services acquisition (US). Highest ROIC (~27%). But P/E 26.9x still rich, minimal discount -5%, payout ~92% limits reinvestment, CHF strong currency. | MEDIA |
 | 4 | ULS | 67 | 50.9x | -11% | $81.52 | Strong FY2025: rev $3.1B (+6.4%), EBITDA margin 25.9% (+300bps!), FCF $403M record. Q4 beat. 2026 guide: MSD organic + margin 26.5-27%. Selling EHS software biz for $210M. But P/E 50.9x is EXTREMELY expensive. IPO premium still inflated. Quality is real but price is fantasy for value investing. | BAJA (valuation) |
@@ -225,6 +229,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 | ~~Mar 3, 2026~~ | ~~Intertek FY2025 results~~ | ~~AAA margin progress~~ | REPORTED. 18.1% margin record, ROIC >21%. New 12-mo low despite results (FX). |
 | H1 2026 | CSRD Phase 2 implementation | Positive but **REDUCED** scope (~80% fewer companies) | CSRD scope narrowed. Still positive net. |
 | H1 2026 | EU Cyber Resilience Act enforcement | New certification TAM | PENDING. Structural positive. |
+| **Aug 2, 2026** | **EU AI Act high-risk compliance deadline** | **NEW TAM: conformity assessment mandatory. Notified bodies insufficient for demand. $492M governance market. Structural positive for BVI/ITRK/SGS.** | **APPROACHING -- 5 months** |
 | Q2-Q3 2026 | SGS Strategy 27 mid-term update | Strategy execution check | UPCOMING |
 | H2 2026 | Eurofins 2027 targets progress | 6.5% organic + 24% margin target | UPCOMING |
 
@@ -270,6 +275,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 |-------|--------|-------|
 | 2026-02-12 | Status inicial: SOBREPONDERAR | Sector view created. High-quality sector with structural tailwinds. |
 | 2026-02-14 | Screening completado: QS scores, 11 public companies scored | Added EXPO, TIC. Updated all QS scores. Confirmed BVI.PA and ITRK.L as top candidates. |
+| 2026-03-18 | **REFRESH: EU AI Act TAM + ITRK.L deepening discount** | EU AI Act Aug 2026 deadline creates incremental certification TAM ($492M governance market). ITRK.L continues to 52wL ~3,700p (-27% from 52wH). Compliance infrastructure insufficient -- structural positive for established TIC players. SOBREPONDERAR maintained. |
 | 2026-03-06 | **MATERIAL UPDATE: Post-FY2025 earnings + CSRD scope change** | All 4 major players reported FY2025. ITRK upgraded to #1 candidate (deepest discount, record margins, FX-driven selloff). BVI downgraded to MEDIA priority (valuation tightened post-rally). CSRD scope narrowed ~80% (MATERIAL negative for ESG tailwind magnitude). M&A record 153 deals TTM. AI confirmed as enabler. Iran crisis = sector is defensive haven. |
 
 ---

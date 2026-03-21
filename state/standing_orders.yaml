@@ -116,22 +116,21 @@ standing_orders:
   - ticker: HALO
     action: BUY
     category: GATED
-    fill_prob_6m: 30
-    trigger: "<=$65"
-    current_distance: "-2.2%"
+    fill_prob_6m: 25
+    trigger: "<=$55"
+    current_distance: "+17.0%"
     created_date: "2026-02-26"
-    staleness_status: FRESH  # S155: $64.14 TRIGGERED (-1.3% below $65). GATED on Merck PTAB Jun 2026.
-    current_distance: "-1.3%"
-    gate: "Merck PTAB ruling (Jun 2026) — binary risk favors patience"
+    staleness_status: RECALIBRATED  # S244: Trigger $65→$55 after R2 DA STRONG COUNTER. CEO+COO sold $5.5M. DA bear FV $63 = at market.
+    gate: "Merck PTAB ruling Jun 2, 2026 — MUST resolve favorably before execution"
     r4_status: "APPROVED CONDITIONAL (S140, 2026-03-06). 6 PASS, 4 CONDITIONAL PASS, 0 FAIL."
     size_eur: 400
-    fair_value: "$90 (R3 post-DA, was $110 R1)"
-    mos_at_trigger: "27.8%"
+    fair_value: "$78 (post-DA S244, was $90 R3. DA bear $63. Probability-weighted.)"
+    mos_at_trigger: "29.5%"
     tier: "A (QS 79adj, R4 APPROVED)"
-    notes: "R4 APPROVED S140. S151 PTAB UPDATE: PTAB GRANTED Merck's review — determined 'more likely than not' Merck prevails on claims 1-4 and 8-21 of patent 11,952,600. Industry data: 70% of PTAB reviews that reach trial result in FULL patent invalidation. This INCREASES probability of adverse ruling from ~40% to ~60-70%. German injunction still WON (Dec 2025). Existing royalties (DARZALEX $483M, Phesgo, Vyvgart) NOT at risk — only Keytruda SC opportunity. BUT: if PTAB invalidates, Keytruda SC royalty (~$2-4B TAM) is lost. Gate STRENGTHENED: do NOT buy before Jun 2 PTAB final ruling. If adverse → CANCEL. If favorable → execute immediately at market (massive re-rate expected). Goldman SELL $56."
-    kill_conditions: "Merck PTAB full loss (Keytruda SC royalty opportunity voided), CMS/IRA final guidance kills DARZALEX pricing, Alteogen wins 3+ new partners in 12mo, ROIC <WACC 2yr"
-    pre_execution_condition: "Merck PTAB ruling June 2, 2026 must resolve favorably. If partial adverse → reassess at lower entry ($55). If full adverse → CANCEL. PTAB oral hearings in progress Mar 2026."
-    last_analysis_date: 2026-03-06
+    notes: "S244 RECALIBRATED: R2 DA STRONG COUNTER. 3 developments worsened risk: (1) PTAB favors Merck 50-60% adverse probability, (2) Alteogen 6+ deals $2B+ (monopoly-breaking real), (3) CEO Torley $3.5M + COO Caudill $2.0M selling, zero insider buys, ownership 1.6%→1.2%. DA bear FV $63 = at market ($64.29). Old trigger $65 had zero MoS risk-adjusted. New trigger $55 provides 29.5% MoS vs $78 FV. Goldman SELL $56-58. If PTAB favorable Jun 2 → execute immediately at market (re-rate expected). If adverse → CANCEL entirely."
+    kill_conditions: "Merck PTAB full loss (Keytruda SC royalty voided), Alteogen signs 3+ additional partners, insider ownership falls <0.8%, ROIC <WACC 2yr, Evergreen fund redemption gates"
+    pre_execution_condition: "Merck PTAB ruling June 2, 2026 must resolve favorably. If partial adverse → reassess at $45-48. If full adverse → CANCEL. Do NOT execute before Jun 2 regardless of price."
+    last_analysis_date: 2026-03-17
     expiry: 2026-10-01
 
   # ERIE — ARCHIVED S133 (2026-03-02). STALE TRIAGE: $269 > FV $225 (overvalued). SCOTUS undated.
@@ -400,6 +399,26 @@ standing_orders:
   # REVISED trigger $183→$120. Entry per R1 = $120-125 (20-25% MoS vs $144-152 FV).
   # At $120, prob_fill <5% in 6mo = EXTREME territory. ARCHIVED.
   # Thesis preserved: thesis/research/MSA/thesis.md. Re-eval if $140-150 with PFAS clarity.
+
+  - ticker: BCG.L
+    action: BUY
+    category: ACTIVE
+    fill_prob_6m: 45
+    trigger: "<=175 GBp"
+    current_distance: "2.8%"
+    created_date: "2026-03-21"
+    staleness_status: FRESH
+    r4_status: "APPROVED CONDITIONAL (S274, 2026-03-21). 10/10 gates PASS."
+    size_eur: 275
+    fair_value: "215 GBp (R3 S274. Was 260 R1. DA reduced -21.2%. Methods: EV/EBIT 50% + P/E 30% + OEY 20%.)"
+    mos_at_trigger: "18.6%"
+    tier: "A (QS 80adj, R4 APPROVED)"
+    ecagr_at_trigger: "~14.5%"
+    notes: "S274 R4 APPROVED. Baltic digital classifieds monopoly — #1 in ALL verticals across Lithuania, Latvia, Estonia. 78% EBITDA margin, 69% FCF margin, net cash. 6-36x lead over nearest competitors. Insider bought GBP 100K at 190p post-crash (Dec 11, discretionary). Market buy at 180p also approved (E[CAGR] 13.5% > 12% Tier A). 3rd company to pass full pipeline R1→R4 this week. Capital: Mar 26 surplus EUR 560 or FTNT exit EUR 775. eToro ID 3640."
+    kill_conditions: "KC1 rev negative 2Q, KC2 EBITDA <65% 2Q, KC3 Apax sells >50%, KC4 FB Marketplace >10% any vertical, KC5 Estonian auto <60% pre-tax by FY2027, KC6 net debt >2x EBITDA, KC7 RE ARPU growth <10% 2Q"
+    pre_execution_condition: "Market buy at 180p approved. SO at 175p for better MoS. H2 FY2026 growth confirmation (Nov) ideal but not required gate."
+    last_analysis_date: 2026-03-21
+    expiry: 2027-03-31
 
   - ticker: WING
     action: BUY

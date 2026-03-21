@@ -5,9 +5,9 @@
 # Created: 2026-03-13
 
 session:
-  id: 217
-  date: "2026-03-15"
-  timestamp_cet: "2026-03-15T20:03"
+  id: 273
+  date: "2026-03-20"
+  timestamp_cet: "2026-03-20T21:00"
 
 completed:
   vigilance:
@@ -28,16 +28,16 @@ completed:
     - "S160: DOCS integrity check — thesis 6 days fresh, FV $30, E[CAGR] 15.2%, 5/6 KCs CLEAR, 1 MONITORING. NO refresh needed."
     - "S160: VRSK SO needs formalization in standing_orders.yaml — R4 approved, FV $210, at $200.61 = 2.9% above $195 entry."
     - "S160: Weekly summary updated with S158-S160 work. Gaps updated: ALFA.L R4 DONE, ZTS DA DONE."
-  key_finding: "S216-S217 EMERGENCY: US-Israel struck Kharg Island (Iran oil hub). Brent spiked $150+. BZU.MI SELL MONDAY URGENT. DNLM.L sizing EUR 300→200 (oil recession risk). CVNA short STRENGTHENED. FOMC recalibrated: hawkish 50→40%, shock 10→15%. Portfolio 48.4% oil-immune. 62 sessions S156-S217 this weekend. Monday playbook written."
+  key_finding: "S237-S273 MASSIVE PIPELINE WEEK: 59 R1 + 58 DA + 4 R3 + 2 R4 (SPG, AAPL full pipelines). 32/33 sector views FRESH. FOMC NEUTRAL-HAWKISH (1 cut, 7 see 0). EDEN.PA FV EUR 29→24 (Brazil decree). HALO SO $65→$55 (PTAB). SPGI $425.65 = 1.3% from $420 trigger — monitor daily next week. Mar 26 execution in 6 days (4 trades, EUR ~1,020). Portfolio -3.1% vs S&P -0.4%. DA system: 0/58 buyable at market."
   net_exposure_updated: true
-  net_exposure_reasoning: "99.2% net long + 0.8% short. Unchanged from S158. No cash, no trades possible until Mar 26. Oil $101 + VIX 26.6 + gold ATH = macro stress continuing. FOMC Tue is binary."
+  net_exposure_reasoning: "95.8% net long + 0.8% short + 4.2% cash. FOMC NEUTRAL-HAWKISH confirmed higher-for-longer. POSITIVE for EDEN.PA float revenue, TW trading volume. NEGATIVE for HLNE (PE compression). Net exposure correct — quality positions with diverse FX (EUR/GBP/USD/DKK). Cash EUR 424 reserved for SPGI if triggers $420."
   rotation_check: true
-  rotation_note: "Bottom 3 unchanged: FTNT 9.8% (exit locked Apr), BZU.MI 11.2%, TW 13.2%. MONY.L 13.7% selling Mar 26."
-  velocity_units: 50  # +5u S215-S217: insurance screening (1u), emergency Kharg analysis (2u), Monday playbook (1u), session continuity final (1u)
-  velocity_note: "S217: 62 sessions S156-S217 this weekend. EMERGENCY S216: Kharg Island struck, Brent $150+, DNLM.L sizing reduced, FOMC recalibrated. Monday playbook written. All thesis bear cases embedded. System fully prepared for most volatile week since inception."
+  rotation_note: "Bottom: FTNT 9.9% (exit Apr → SPGI). MONY.L 15.3% (selling Mar 26 → GDDY+DNLM.L). NVO 18.2% trimming Mar 26. Top: ADBE 25.2%, EDEN.PA 21.5%, IHP.L 21.1%."
+  velocity_units: 125  # 59 R1 (59u) + 58 DA (58u × not counted as units, pipeline velocity uses different metric) — actual: 59 R1 + 58 DA + 4 R3 + 2 R4 in 6 days
+  velocity_note: "S237-S273: Most productive week ever. 59 R1s + 58 DAs + 2 full pipelines (SPG, AAPL). D&A Monopolies basket pipeline complete (8/8 companies R1+R2). 4 megatrends defined. agreed_objectives.md updated. portfolio_nav.py built."
   portfolio_ecagr:
-    deployed: 18.0%
-    blended: 18.0%
+    deployed: 17.0%
+    blended: 16.6%
     cash_drag: "0pp/yr"
     worst: "FTNT 9.8%"
     note: "Correction widening MoS across portfolio. Avg MoS +23.9%. 6 positions with MoS >20%."

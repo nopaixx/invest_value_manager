@@ -1,6 +1,6 @@
 # Sector: HR / Payroll Processing / HCM
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18
 > Status: **NEUTRAL** (selective -- exceptional businesses at historically depressed valuations, but structural headwinds are real and correlated. Morningstar moat downgrades add new caution layer)
 
 ## Resumen Ejecutivo
@@ -16,6 +16,11 @@ The sector continues trading at a significant discount to historical norms (ADP 
 2. **ADP Q2 FY2026 results (Jan 28):** Beat on both lines -- EPS $2.62 (vs $2.57 consensus), revenue $5.4B (+6% YoY). 80bp adjusted EBIT margin expansion. FY2026 revenue guidance narrowed to 6% (was 5-6%). Strong execution but growth rate confirms mid-single-digit trajectory that triggered Morningstar downgrade. ADP also launched AI agent marketplace (Mar 2) -- most aggressive AI initiative in the sector.
 
 3. **Iran crisis / oil at $92 WTI** creates ADDITIONAL headwind via employment channel. ADP National Employment Report for Feb 2026: +63K private jobs (improved from +11K Jan revised), but professional/business services shed 30K jobs. Oil shock expected to compress employment growth further in coming months. Rate cuts now OFF TABLE for H1 2026 -- this is actually FAVORABLE for float income (rates stay higher longer), partially offsetting employment weakness.
+
+
+4. **Paylocity Q2 FY2026 BEAT (Feb 5):** Revenue $416.1M (+10% YoY), recurring revenue +11%. EPS $0.92 vs $0.84 consensus (+9.5% beat). Adj EBITDA $142.7M (34.3% margin), exceeded guidance top. Raised FY2026 revenue guidance to $1.732-1.742B (+9% YoY). AI usage up 100%+ QoQ. Gross margin expanding (74.4% vs 73.8% YoY). PCTY is executing well in mid-market but P/E 27x still premium vs ADP 21x and PAYC 17x.
+
+5. **Fed FOMC March 18 (TODAY):** Hold at 3.50-3.75% virtually certain. Statement language on oil/inflation/employment will guide float income expectations for H1-H2 2026. Hawkish stance = rates high longer = float income TAILWIND continues for ADP.
 
 **My thesis (UPDATED):** The Triple Squeeze narrative is now INSTITUTIONALLY VALIDATED (Morningstar downgrades). However, the market may be OVERSHOOTING on pessimism, particularly for ADP. The business model's defensive qualities (regulatory compliance moat, pricing power, float income at elevated rates) remain intact even if growth slows to 5-6%. At current prices: ADP at $226 is trading BELOW Morningstar's reduced FV of $231 -- first time in years the market price is at/below Morningstar. PAYC at $138 is above Morningstar's implied zero-moat FV. The Iran crisis adds near-term uncertainty but does NOT structurally impair payroll demand (businesses still need to pay employees). Key watch: if oil $90+ sustained for 3+ months, employment contraction becomes the dominant risk -- PPC goes negative, which has historically only happened in severe recessions.
 
@@ -233,7 +238,7 @@ However, Morningstar is right that the GROWTH premium deserves compression. A 21
 | **PAYC** | Paycom Software | R4 watchlist. QS 75 Tier A borderline. FV $115. Q4 CY2025 rev +10% YoY, EBITDA margin 43%. BUT Morningstar moat = NONE | 16.9x | **MEDIA** (was ALTA) | Downgraded priority due to Morningstar no-moat rating. SO at $88. Need to re-evaluate moat thesis before advancing |
 | **PAYX** | Paychex (+Paycor) | #2 US payroll. 4.4% yield. Post-Paycor organic growth only ~1% is concerning. Q2 FY2026 +18% headline (17pp Paycor). $100M synergy target | 22.3x | **MEDIA** | Integration risk. Organic growth stalling. Worth screening if yield >5% or P/E <18x |
 | SGE.L | Sage Group | UK-listed. European SMB focus. Recurring revenue transition. Lower coverage than US peers | ~20x est | **BAJA** | European geographic diversification. Anti-US-bias check. Iran crisis less relevant |
-| PCTY | Paylocity | Modern UX, API-first, mid-market growth. -41% from 52wH. P/E 27x still elevated vs peers | 27.3x | **BAJA** | Valuation still rich vs peers. Wait for further correction |
+| PCTY | Paylocity | **Q2 FY2026 BEAT: rev +10%, EBITDA 34.3%, guidance raised to $1.74B.** AI usage +100% QoQ. Modern UX, API-first. -41% from 52wH. P/E 27x still elevated vs peers. | 27.3x | **BAJA** | Executing well but valuation premium vs ADP/PAYC hard to justify given similar growth |
 
 ### Evitar
 
@@ -259,8 +264,8 @@ However, Morningstar is right that the GROWTH premium deserves compression. A 21
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| Mar 12, 2026 | **US CPI Feb 2026** | First read on oil-driven inflation. If >2.6% headline, confirms rate cuts dead H1 -> FAVORABLE for float income, UNFAVORABLE for growth multiples |
-| Mar 18, 2026 | **Fed FOMC** | Hold certain. Statement on oil/inflation/employment crucial. Hawkish language = rates high longer = float income stays |
+| Mar 12, 2026 | **US CPI Feb 2026** | DONE. Rate cuts OFF TABLE for H1 confirmed. Float income tailwind intact. |
+| **Mar 18, 2026** | **Fed FOMC (TODAY)** | Hold certain. Statement on oil/inflation/employment crucial. Hawkish = float income stays. Watch employment language closely. |
 | Apr 1, 2026 | ADP National Employment Report (March) | First post-oil-shock employment data. PPC trajectory critical for ADP revenue outlook |
 | Apr 2026 | ADP Q3 FY2026 earnings | PPC trajectory critical. Float income update. New bookings momentum. AI agent marketplace adoption data |
 | Apr 2026 | PAYC Q1 FY2026 earnings | Growth stabilization data. Revenue-per-client trend for KC#8. IWant/Beti adoption metrics |
@@ -278,6 +283,7 @@ However, Morningstar is right that the GROWTH premium deserves compression. A 21
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-03-18 | MINOR UPDATE: Paylocity Q2 FY2026 BEAT added (rev +10%, EBITDA 34.3%, guidance raised, AI usage +100% QoQ). FOMC today -- hold certain. CPI done, rate cuts off table H1. Date refresh. |
 | 2026-03-07 | MATERIAL UPDATE: Morningstar moat downgrades, Q2 ADP/Q4 PAYC results, Iran oil crisis overlay, AI agent acceleration, employment data update | Scheduled refresh + multiple material developments. Status remains NEUTRAL but with new caution layer from institutional moat downgrades |
 | 2026-02-18 | Status inicial: NEUTRAL | Sector created as Gate 0 for ADP pipeline. Defensible businesses at discounted valuations, but Triple Squeeze risk warrants selectivity |
 

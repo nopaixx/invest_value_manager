@@ -1,6 +1,6 @@
 # Sector: Building Materials / Cement
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18 (macro-analyst refresh — BZU.MI sold, oil $98 WTI sustained, FOMC today)
 > Status: NEUTRAL-CAUTELA (cyclical at late-peak, oil shock adds cost pressure but infrastructure tailwinds persist)
 
 ## Resumen Ejecutivo
@@ -188,7 +188,7 @@ None currently.
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Pipeline | BZU.MI | thesis/research/BZU.MI | 2026-02-20 | Under Analysis -- R1 candidate |
+| Closed | BZU.MI | thesis/research/BZU.MI | 2026-03-16 | SOLD +14.5%. Oil headwind structural, KC#6, Error #67 (stale R4 in changed macro) |
 
 ---
 
@@ -315,3 +315,5 @@ The building materials sector is in an active M&A phase driven by:
 - [Kerrisdale Capital: Buzzi Thesis](https://www.kerrisdalecap.com/investments/buzzi-bzu-im/)
 - [Global Cement: European Cement Producers in 2025](https://www.globalcement.com/news/analysis/20501-european-cement-producers-in-2025)
 - [McKinsey: Future Cement Industry](https://www.mckinsey.com/industries/engineering-construction-and-building-materials/our-insights/the-future-cement-industry-a-cementitious-golden-age)
+
+| 2026-03-18 | Refresh: BZU.MI SOLD Mar 16 (+14.5%). Oil WTI $98 (T1) sustained — energy cost headwind confirmed structural while Hormuz closed. Kharg struck Mar 14 but oil infrastructure spared. FOMC today — stagflation dilemma (oil inflation vs recession). US construction: diesel at multi-year highs, civil projects most exposed. No portfolio exposure to sector. Status unchanged NEUTRAL-CAUTELA pending oil normalization. |

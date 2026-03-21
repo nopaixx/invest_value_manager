@@ -1,15 +1,15 @@
 # Edenred SE (EDEN.PA) - Investment Thesis v3.0
 
-**Date:** 2026-02-06 (R1) | Last Update: **2026-03-13 (S157 refresh)**
-**Original Date:** 2026-02-01 | Versions: v1.0→v4.2 (see Historial de Cambios)
-**Price at Review:** EUR 18.61 (S157) | Cost: EUR 18.35
+**Date:** 2026-02-06 (R1) | Last Update: **2026-03-17 (S251 FV recalculation — Brazil injunction lost)**
+**Original Date:** 2026-02-01 | Versions: v1.0→v4.3 (see Historial de Cambios)
+**Price at Review:** EUR 18.00 (S251) | Cost: EUR 18.35
 **Quality Score:** 62/100 (tool) / 76 adj (Tier B) -- Adjustment: +14 for market position, network effects, regulatory moat in non-IT/BR markets
-**Recommendation:** HOLD (FY2025 BASE+ confirmed. KC#1 MONITORING, KC#7 MONITORING ELEVATED. SI collapsed 21.2%→9.64% (Citadel COVERED). ADD at EUR 17. TRIM at EUR 22+.)
+**Recommendation:** HOLD (Brazil injunction OVERRULED Feb 24 — decree implementation ~certain. Turkey antitrust probe = 4th regulatory front. SI collapsed to 9.64%. ADD at EUR 15. TRIM at EUR 22+.)
 **Framework Version:** 4.0 (Principios Adaptativos)
-> **Fair Value:** EUR 29.0 (R3 maintained S146c9. Was EUR 38.4 pre-adversarial. DA bear EUR 25.40-30.90 brackets thesis.)
-> **Expected Growth:** 6% (R3 resolved: 2026 -10%, 2027-28 +7%. Management guide +8/+12% at 70% probability.)
+> **Fair Value:** EUR 24.0 (S251 recalculation. Was EUR 29.0. -17.2% adjustment: injunction lost +95% decree certainty, recovery +5% not +7%, Turkey probe. Methods: EV/EBIT 8x = EUR 24.3, P/E 11x = EUR 22.6, 60/40 bear/base = EUR 21.1. Blended EUR 24.)
+> **Expected Growth:** 4% (was 6%. Revised: 2026 -12%, 2027-28 +5%. Brazil structural damage permanent — float revenue halved, interchange capped, interoperability forced.)
 > Pipeline Stage: R3_COMPLETE
-> **Bear Case:** France 8% social levy (15% prob) would compress margins EUR 100M+. Brazil Federal Court could cap interchange fees (15% prob). 22 funds short at 23.1% SI — quant-heavy but signals disagreement. SELL if France tables formal levy bill OR 2027-28 guide <5%.
+> **Bear Case:** France 8% social levy (15% prob) would compress margins EUR 100M+. Brazil decree CONFIRMED (injunction lost Feb 24). Turkey antitrust investigation (NEW). 10 funds short at 9.64% SI (declining). SELL if France tables formal levy bill OR 2027-28 guide <3% OR Turkey fine >EUR 50M.
 
 ---
 

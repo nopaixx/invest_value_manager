@@ -1,6 +1,6 @@
 # Sector: Industrials (Defense/Gov IT, Geotechnical/Construction, Infrastructure)
 
-> Ultima actualizacion: 2026-03-07 (S142 — restructured for pipeline relevance)
+> Ultima actualizacion: 2026-03-18
 > Status: **NEUTRAL-SELECTIVE** (subsectors diverge sharply: defense/infrastructure favorable, gov consulting under DOGE pressure)
 
 ## Resumen Ejecutivo
@@ -18,7 +18,7 @@ The industrials sector is broad and heterogeneous. This view focuses on three su
 | Metrica | Valor | vs Historia | Tendencia |
 |---------|-------|-------------|-----------|
 | Global defense spending | $2.72T (2025) | Record high | +8-10% YoY |
-| US ISM Manufacturing PMI | 52.4 (Feb 2026) | 2nd month expansion | Slightly decelerating |
+| US ISM Manufacturing PMI | 52.4 (ISM Feb), 51.6 (S&P Global Feb) | 2nd month expansion | Decelerating -- S&P Global PMI fell from 53.4 to 51.6 |
 | US construction spending growth | ~1% (2026E) | Below 2024-25 levels | Flat, infra-led |
 | German infra investment | EUR 120B (2026) | Record | EUR 33.7B transport alone |
 | NATO defense target | 3.5% GDP by 2035 | Was 2% (2014 pledge) | Structural multi-year ramp |
@@ -247,6 +247,7 @@ Track quarterly:
 | 2026-02-06 | Status: NEUTRAL-DETERIORATING | Q4 2025 Signify miss, JPM downgrade |
 | 2026-02-06 | LIGHT.AS SOLD | Capital rotation. QS 56, ROIC < WACC |
 | 2026-03-02 | Iran cascade update | Oil surge, minimal direct impact on lighting watchlist |
+| **2026-03-18** | **Date refresh.** S&P Global US Manufacturing PMI fell to 51.6 in Feb 2026 (from 53.4 Jan) -- expansion continues but DECELERATING. Tariff headwinds intensifying: Yale Budget Lab reports effective tariff rate 10.5% (highest since 1943). Construction output contracting -1.7% per Yale analysis. FOMC today (Mar 18) -- hold at 3.50-3.75% expected. KCR.HE pipeline added to universe. Status unchanged NEUTRAL-SELECTIVE. | 11-day staleness refresh. PMI deceleration + tariff data updated. |
 | **2026-03-07** | **MAJOR RESTRUCTURE: Lighting archived. Refocused on Defense/Gov IT (BAH), Geotechnical (KLR.L), Defense spending context. Status: NEUTRAL-SELECTIVE.** | **No active positions or lighting exposure. Pipeline candidates BAH + KLR.L require subsector-specific analysis. Iran war + DOGE create bifurcated outlook within industrials.** |
 
 ---

@@ -1,6 +1,6 @@
 # Sector: Promotional Products
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18 (macro-analyst refresh — FOUR.L FY2025 results released, HARD GATE data available)
 > Status: NEUTRAL
 
 ## Resumen Ejecutivo
@@ -137,7 +137,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| 18-Mar-2026 | 4imprint FY2025 Full Results (CORRECTED date) | Detailed financials, 2026 guidance. HARD GATE for pipeline entry. |
+| 18-Mar-2026 | 4imprint FY2025 Full Results — RELEASED | Rev $1.35B, PBT $150.8M, OM 10.8%, cash $132.8M. Orders -3%, new customers -12%. Div 240c. Board confident in long-term. HARD GATE DATA NOW AVAILABLE. |
 | Mid-2026 | Tariff resolution/escalation | Clarity on China sourcing costs |
 
 ---
@@ -157,3 +157,5 @@ Cuando actualices este sector view con cambio MATERIAL:
 - [PPAI Industry Data](https://www.ppai.org/)
 - [Advertising Specialty Institute](https://members.asicentral.com/)
 - [Metastat Insight: Promotional Products Market](https://www.metastatinsight.com/report/promotional-products-market)
+
+| 2026-03-18 | Refresh: FOUR.L FY2025 RELEASED (Mar 11). Rev $1.35B (flat), PBT $150.8M (slight decline), OM 10.8% maintained, cash $132.8M. Orders -3%, new customers -12% (weakness confirmed), existing customer retention strong. Div 240c/share. Board outlook confident. HARD GATE data now available for pipeline decision. Status unchanged NEUTRAL. |

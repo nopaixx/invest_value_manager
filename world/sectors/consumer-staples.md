@@ -1,6 +1,6 @@
 # Sector: Consumer Staples
 
-> Ultima actualizacion: 2026-03-07 (S142 — Iran re-escalation, oil $90+, DOM.L FY25 date corrected)
+> Ultima actualizacion: 2026-03-18 (tariff inflation hitting food, oil $95+ sustained, DOM.L SOLD, CELH pipeline)
 > Status: **NEUTRAL** - Seleccionar empresas especificas, no sobreponderar sector
 
 ## Resumen Ejecutivo
@@ -24,9 +24,10 @@ Consumer Staples es el sector defensivo por excelencia: alimentos, bebidas, taba
 - Sector receiving defensive rotation flows in 2026 (third-best S&P sector YTD)
 
 **Nuestras posiciones actuales:**
-- DOM.L (Domino's Pizza UK) - QS 61 Tier B, FV 240 GBp. FY25 results Mar 10 (Monday).
+- *(None -- DOM.L SOLD 2026-03-07, capital rotated to quality ADDs)*
 
 **Vendidas:**
+- DOM.L (Domino's Pizza UK) - SOLD 2026-03-07 (~-1.7%). QS 61 Tier B, orphan, LOW conviction. Capital rotated.
 - IMB.L (Imperial Brands) - SOLD 2026-02-10 (+6.9%). QS 54 Tier C, MoS -14.6%.
 - TATE.L (Tate & Lyle) - SOLD 2026-02-08 (+3.5%). QS 45 Tier C, adversarial FV -40%.
 
@@ -190,7 +191,9 @@ Consumer Staples es el sector defensivo por excelencia: alimentos, bebidas, taba
 - **Currency:** Empresas globales expuestas a FX
 - **China slowdown:** Danone, Nestle, Diageo, Pernod Ricard tienen exposure significativa
 
-### **IRAN CRISIS CASCADE (UPDATED 2026-03-07 — RE-ESCALATION)**
+### **IRAN CRISIS + TARIFF CASCADE (UPDATED 2026-03-18 — RE-ESCALATION)**
+
+TARIFF + OIL DOUBLE HEADWIND NOW ACTIVE. Tariff-driven food price increases lagging 12-18 months -- 2026 is the inflection point (Food Navigator). Ground beef at all-time high $6.70/lb (+22% since admin change). Beef/veal prices predicted +9.4% in 2026. Fed Reserve study (Mar 5): "The Slow Climb: How Tariffs Gradually Raised Retail Prices in 2025" -- confirming pass-through now reaching consumers. This COMPOUNDS the oil-driven input cost inflation below.
 
 Operation Epic Fury has RE-ESCALATED. Oil now at $90+ WTI (was $78 on Mar 2). The "if oil >$90" scenario flagged on Mar 2 is NOW ACTIVE.
 
@@ -250,6 +253,7 @@ Was: "Sector boring sin growth, mejor estar en AI/tech." NOW: "Defensives are ba
 ## Empresas Objetivo
 
 ### Para Analisis (no yet screened)
+**CELH** (Celsius Energy: Q4 FY2025 rev +117% YoY, $721.6M beat by 13.5%. Insider selling post-earnings = noise (Form 144 filing). Fast-growing energy drink disrupting Monster/Red Bull. Worth R1 screening at quality universe level),
 HRL (dividend king 60y, -25%), ULVR.L (lowest P/E majors), DGE.L (spirits, ROE 20% — but GLP-1 headwind now revised higher), NESN.SW (quality premium)
 
 ### Evitar
@@ -261,7 +265,7 @@ KO (P/E alto, GLP-1), PEP (not cheap), MDLZ (GLP-1 vulnerable), CAG (VALUE TRAP 
 
 | Fecha | Evento | Impacto |
 |-------|--------|---------|
-| **Mar 10, 2026** | **DOM.L FY25 Results** | **KC#1 EBITDA <GBP125M = SELL. Forward guidance on oil costs critical.** |
+| ~~Mar 10, 2026~~ | ~~DOM.L FY25 Results~~ | **KC#1 EBITDA <GBP125M = SELL. Forward guidance on oil costs critical.** |
 | **Mar 12, 2026** | **US CPI Feb 2026** | **Early oil impact on inflation. If >2.6% = market selloff. Staples as defensives but input cost concern.** |
 | **Mar 18-19, 2026** | **Fed FOMC + ECB meeting** | **Rate trajectory. Oil kills rate cuts for H1. Yield stocks impacted.** |
 | **Mar 20, 2026** | **BoE rate decision** | **Hold expected. UK consumer outlook. DOM.L sensitive.** |
@@ -273,7 +277,7 @@ KO (P/E alto, GLP-1), PEP (not cheap), MDLZ (GLP-1 vulnerable), CAG (VALUE TRAP 
 
 | Tipo | Ticker | Status |
 |------|--------|--------|
-| Portfolio | DOM.L | HOLD LOW. FY25 Mar 10. Oil headwind worsening. |
+| Sold | DOM.L | SOLD 2026-03-07. Orphan, LOW conviction. Rotated. |
 | Watchlist | GIS, BATS.L, RI.PA, INGR, DGE.L | See watchlist table above |
 
 ---
@@ -302,6 +306,7 @@ KO (P/E alto, GLP-1), PEP (not cheap), MDLZ (GLP-1 vulnerable), CAG (VALUE TRAP 
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-03-18 | Tariff inflation + DOM.L sold + CELH added | Tariff-driven food prices now hitting consumers (Fed study Mar 5). Ground beef all-time high. DOM.L SOLD Mar 7. CELH added to Empresas Objetivo (Q4 rev +117%). Oil $95+ sustained = input cost headwind CONTINUES. NEUTRAL maintained. |
 | 2026-03-07 | Iran re-escalation update | Oil $90+ WTI (was $78). Input cost headwind NOW ACTIVE. DOM.L FY25 corrected to Mar 10. GLP-1 data updated (20% households, -33% alcohol). Private label data refreshed ($282.8B, 21.3%). Sector +15.5% YTD defensive rotation. NEUTRAL maintained. |
 | 2026-03-02 | Iran cascade update | Oil $78+, input cost risk, DOM.L FY25 context. NEUTRAL maintained. |
 | 2026-02-04 | 5 analyses completed | GIS/BATS.L/RI.PA/INGR→Watchlist. CAG→AVOID (value trap). |

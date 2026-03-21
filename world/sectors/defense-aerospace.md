@@ -1,6 +1,6 @@
 # Sector: Defense & Aerospace
 
-> Ultima actualizacion: 2026-03-06
+> Ultima actualizacion: 2026-03-18
 > Status: SOBREPONDERAR (crisis-driven structural acceleration -- quality at premium, but BAH contrarian opportunity)
 
 ## Resumen Ejecutivo
@@ -348,6 +348,7 @@ This update is **MATERIAL** -- Operation Epic Fury transforms the sector's spend
 |-------|--------|------|-------|
 | 2026-02-13 | Created sector view | -- | Initial screening, 20+ companies scored |
 | 2026-02-13 | Added BAH analysis, US govcon IT sub-sector | -- | R1 fundamental analysis complete |
+| **2026-03-18** | **Date refresh.** | **MINOR** | EU governments preparing EUR ~800B toward defense by 2030 (EU defense spending 2.1% GDP in 2025, up from 1.6% in 2023). France targeting EUR 64B defense budget by 2027 (3 years ahead of schedule). European defense M&A deal value +35% in H1 2025. Broad-based rearmament cycle driving ~5% defense spending growth in 2026. BAH deprioritized from immediate pipeline. SAF.PA remains interesting at P/E ~18.6x. Status unchanged SOBREPONDERAR. |
 | **2026-03-06** | **MATERIAL UPDATE** | **MATERIAL** | Operation Epic Fury transforms sector. NATO 5% GDP target confirmed. Q4/FY25 earnings season (BAE, Thales, Safran, Dassault all strong). BAH DOGE impact deeper (Goldman downgrade). Prices updated. Sub-sector assessments re-rated. BAH dependency marked NEEDS_REVIEW. |
 
 ---

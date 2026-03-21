@@ -1,6 +1,6 @@
 # Sector: Professional Information Services
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18
 > Status: NEUTRAL-SELECTIVO -- Exceptional moats and quality, but AI disruption creates genuine uncertainty in 10-20% of revenue base. Select best-positioned companies at reasonable valuations.
 
 ## Resumen Ejecutivo
@@ -9,7 +9,12 @@ Professional information services companies provide mission-critical data, softw
 
 The sector's defining characteristic is extreme stickiness: products embed in daily professional workflows, cost less than 1% of client total cost base (eliminating switching incentive), require regulatory certification (tax e-filing, clinical protocols), and accumulate decades of client data. Recurring revenue ranges from 78-84% across the majors. Gross margins are 65-74%, operating margins 25-35%, and ROIC spreads above WACC are consistently 5-10pp+. These are toll-booth businesses -- when regulation increases (which it does secularly), demand for compliance tools rises automatically.
 
-The sector experienced a severe AI-driven sell-off beginning in 2025 and accelerating on February 3, 2026 when Anthropic launched Claude Cowork legal plugins. WKL fell 63% from ATH, TRI fell ~55%, RELX fell ~37%, and FactSet fell ~55%. The market is conflating three distinct threat levels: (1) generic information lookup (genuinely vulnerable, 10-15% of sector revenue), (2) curated professional databases with liability frameworks (partially vulnerable, 15-20%), and (3) embedded workflow software with regulatory lock-in (not vulnerable near-term, 60-70%). The indiscriminate sell-off creates opportunity for companies whose revenue is predominantly workflow-embedded, while generic information aggregators face real structural risk.
+The sector experienced a severe AI-driven sell-off beginning in 2025 and accelerating on February 3, 2026 when Anthropic launched Claude Cowork legal plugins. WKL fell 63% from ATH, TRI fell ~55%, RELX fell ~37%, and FactSet fell ~55%. The market is conflating three distinct threat levels: (1) generic information lookup (genuinely vulnerable, 10-15% of sector revenue), (2) curated professional databases with liability frameworks (partially vulnerable, 15-20%), and (3) embedded workflow software with regulatory lock-in (not vulnerable near-term, 60-70%). **Key developments since Mar 7:**
+1. **LexisNexis Protege GA (Feb 24) + Willkie firmwide adoption (Mar 16).** Willkie Farr & Gallagher chose Protege for firm-wide legal AI workflows. RELX rose 0.9% on the news. This is the FIRST major validation that incumbent platforms can embed AI profitably rather than being disrupted by it. Protege replaces Lexis+ AI as integrated flagship -- rolling out globally through 2026.
+2. **Morningstar downgraded WKL + TRI moats to NARROW** and raised uncertainty to Medium (from Low). Rationale: AI disruption potential in legal vertical. Our view: partially agree for legal (16% of WKL rev) but disagree for tax/health/compliance workflow (70%+ of revenue, switching costs intact).
+3. **Trade war tariffs (Section 301 probes)** = potential tailwind: more compliance complexity = more demand for professional information tools. EU AI Act implementation ongoing = additional compliance revenue.
+
+The indiscriminate sell-off creates opportunity for companies whose revenue is predominantly workflow-embedded, while generic information aggregators face real structural risk.
 
 ---
 
@@ -304,6 +309,7 @@ The `financial-data-analytics.md` sector view covers FINANCIAL MARKET infrastruc
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-03-18 | MINOR refresh: LexisNexis Protege GA (Feb 24) + Willkie firmwide adoption (Mar 16) = AI-as-tailwind thesis VALIDATED. RELX +0.9% on news. Morningstar downgraded WKL+TRI moats to Narrow (AI uncertainty raised to Medium). AI fear persists but commercial adoption proves incumbents can integrate, not be replaced. Status: NEUTRAL-SELECTIVO maintained | Staleness refresh. Protege commercial traction + Morningstar moat downgrades |
 | 2026-03-07 | Status inicial: NEUTRAL-SELECTIVO | Created as HARD GATE requirement from WKL.AS investment committee decision (2026-02-11, Gate 0 FAIL) |
 
 ---

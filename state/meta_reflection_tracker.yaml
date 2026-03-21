@@ -1,0 +1,185 @@
+# META-REFLECTION TRACKER
+# Purpose: Capture and resolve ALL meta-reflection items from sub-agents.
+# Protocol: After EVERY agent completion, orchestrator MUST extract items here.
+# Items stay OPEN until explicitly resolved with evidence.
+# Weekly audit: every Sunday, review all OPEN items.
+# Created: 2026-03-21 (S275)
+
+# CATEGORIES:
+# ANOMALY — data inconsistency requiring investigation
+# SUGGESTION — system improvement proposed by agent
+# QUESTION — question agent asked orchestrator, needs answer
+# RISK — risk identified that may not be in thesis KCs
+
+open_items:
+
+  # === ANOMALIES (investigate before acting) ===
+
+  - id: MR-001
+    type: ANOMALY
+    source: "HLNE R2 DA (S237)"
+    ticker: HLNE
+    finding: "Blue Owl private credit crisis = Evergreen contagion. HLNE SCOPE fund offers monthly liquidity in illiquid private credit."
+    action_required: "Verify if HLNE Evergreen products have gating provisions. Check Q4 FY2026 (May) for redemption data."
+    status: OPEN
+    deadline: 2026-05-15
+
+  - id: MR-002
+    type: ANOMALY
+    source: "HLNE R1 thesis"
+    ticker: HLNE
+    finding: "Receivables +67.5% vs revenue +28%. Largest divergence in portfolio."
+    action_required: "Read 10-K for receivables breakdown. Is it fundraising timing or revenue quality issue?"
+    status: OPEN
+    deadline: 2026-05-15
+
+  - id: MR-003
+    type: ANOMALY
+    source: "DOCS R2 DA (S237)"
+    ticker: DOCS
+    finding: "NRR decelerating 119%→118%→112%. At -3pp/quarter pace, KC#1 (NRR <100%) could breach Q2-Q3 FY2027."
+    action_required: "Q4 FY2026 (May) = binary test. If NRR drops below 108%, trim to 5%."
+    status: OPEN
+    deadline: 2026-05-30
+
+  - id: MR-004
+    type: ANOMALY
+    source: "EDEN.PA R2 DA (S237)"
+    ticker: EDEN.PA
+    finding: "Price falling -4.2% while SI declining. Bears covering but longs selling. Institutional repositioning?"
+    action_required: "Refresh AMF data next week. Check if funds exiting."
+    status: OPEN
+    deadline: 2026-03-28
+
+  - id: MR-005
+    type: ANOMALY
+    source: "GDDY R2 DA (S237)"
+    ticker: GDDY
+    finding: "Starboard Value down from ~6.5% to 2.02% via systematic 13F reductions. KC#5 (exits completely) APPROACHING."
+    action_required: "Check next 13F filing (May 2026) for Starboard position. If exits → KC#5 triggered."
+    status: OPEN
+    deadline: 2026-05-20
+
+  - id: MR-006
+    type: ANOMALY
+    source: "Multiple R1 agents"
+    ticker: SYSTEM
+    finding: "yfinance dividend yield anomalies: TW 45%, SPGI 91%, WDFC 99%, ADP 41%. Tool outputs incorrect yields."
+    action_required: "Add yield anomaly filter to price_checker.py or thesis_parser.py. Ignore yields >20% as data errors."
+    status: OPEN
+    deadline: 2026-04-01
+
+  - id: MR-007
+    type: ANOMALY
+    source: "MELI R2 DA (S274)"
+    ticker: MELI
+    finding: "OCF/NI ratio of 6.1x. FCF margins inflated by credit book cash flows. 37% FCF margin may not be real operating FCF."
+    action_required: "Separate Mercado Pago credit book cash flows from marketplace operating FCF in R3."
+    status: OPEN
+    deadline: 2026-04-15
+
+  - id: MR-008
+    type: ANOMALY
+    source: "CVLT R2 DA (S274)"
+    ticker: CVLT
+    finding: "SaaS ARR decelerated 56%→40% in one quarter. NRR dropped 600bps (127→121%). Steeper than headline 22→18%."
+    action_required: "Monitor Q4 FY2026 (May). If SaaS ARR <35% or NRR <115%, thesis dead."
+    status: OPEN
+    deadline: 2026-05-30
+
+  # === SUGGESTIONS (system improvements) ===
+
+  - id: MR-009
+    type: SUGGESTION
+    source: "Multiple agents (SPG, KKR, CBRE, LPLA, BN, URI)"
+    finding: "quality_scorer.py needs REIT/financial-services/rental modes. Tool gives Tier D (15-45) for businesses that are clearly Tier B+ after manual adjustment. 6 companies needed +25 to +47 QS adjustments."
+    action_required: "Build quant-tools-dev: quality_scorer.py --mode reit|financial|rental. Auto-detect sector and apply appropriate metrics (FFO vs EPS, leverage norms, etc.)."
+    priority: HIGH
+    status: OPEN
+
+  - id: MR-010
+    type: SUGGESTION
+    source: "Multiple agents (ECL, SHW, ORLY, CDW, UBER, CSGP)"
+    finding: "Anti-bullish-bias protocol (S202) frequently overridden by FAs. 6+ cases where FA calculated 60/40 FV then reported higher number. DAs catch this systematically."
+    action_required: "Enforce in agent prompt: S202 output IS the FV. Override requires explicit justification AND automatic DA flag."
+    priority: HIGH
+    status: OPEN
+
+  - id: MR-011
+    type: SUGGESTION
+    source: "ISRG, IDXX, MTD, CTAS R1 agents"
+    finding: "DCF tool produces unreliable FVs (FV Spread >75%, TV >74.5% of EV) for nearly all companies. Agents consistently weight it down or discard it."
+    action_required: "Add automatic DCF reliability flag in dcf_calculator.py output. If FV Spread >80% OR TV >75% → print WARNING: HIGH SENSITIVITY, USE DIRECTIONALLY ONLY."
+    priority: MEDIUM
+    status: OPEN
+
+  - id: MR-012
+    type: SUGGESTION
+    source: "MSI R1, CBRE R1, LYV R1"
+    finding: "Missing sector views for: public-safety-technology, hospitality/lodging, live-entertainment, property-management-software, rail-transport, auto-parts-aftermarket, paints-coatings."
+    action_required: "Create sector views BEFORE R2/R4 advancement for companies in these sectors. Error #30 HARD GATE."
+    priority: MEDIUM
+    status: OPEN
+
+  - id: MR-013
+    type: SUGGESTION
+    source: "BCG.L R1"
+    finding: "Small-cap monopolies (<$2B market cap) with dominant local positions may need a dedicated screening protocol. Current screeners bias toward large-cap."
+    action_required: "Consider: dynamic_screener.py --undiscovered --max-mcap 5B for small-cap monopoly discovery."
+    priority: LOW
+    status: OPEN
+
+  - id: MR-014
+    type: SUGGESTION
+    source: "portfolio_nav.py build (S256)"
+    finding: "NAV tracking should be daily and automatic. Currently manual invocation."
+    action_required: "Add portfolio_nav.py to daily pipeline or hooks. Auto-append to CSV each session."
+    priority: MEDIUM
+    status: OPEN
+
+  # === QUESTIONS (need CIO answer) ===
+
+  - id: MR-015
+    type: QUESTION
+    source: "CSGP R1 (S258)"
+    finding: "Should CSGP be in Digital Marketplaces or Data Monopolies basket?"
+    answer: "Neither yet. CSGP is WATCHLIST. Basket assignment when deployed. CRE data = D&A if commercial focus survives Homes.com pivot."
+    status: RESOLVED
+
+  - id: MR-016
+    type: QUESTION
+    source: "KKR R1 (S264)"
+    finding: "Should KKR join same basket as HLNE? Maximum alt AM concentration?"
+    answer: "HLNE is superior (QS 82 A, cleanest model). No 2nd alt AM position needed. KKR/BN = watchlist only. Max alt AM = 10%."
+    status: RESOLVED
+
+  - id: MR-017
+    type: QUESTION
+    source: "MSCI R1 (S269)"
+    finding: "MSCI E[CAGR] 7-8% at any entry = below threshold. Works as 5-10yr compounder, not 3yr convergence. Does our framework handle this?"
+    answer: "No. Our E[CAGR] framework is 3yr convergence. Permanently expensive compounders (MSCI, CTAS, ROL) don't fit unless market crashes. Acknowledge as system limitation — these are WATCHLIST-forever unless regime change."
+    status: RESOLVED
+
+  - id: MR-018
+    type: QUESTION
+    source: "Multiple DAs"
+    finding: "Our FV is consistently 20-50% below analyst consensus. Is this genuine conservatism or systematic over-pessimism?"
+    answer: "Partially both. The 60/40 bear/base anti-bias protocol STRUCTURALLY produces conservative FVs. DA corrections add another -10-15%. Net result: we're ~30% below consensus on average. This is by design — we want to buy ONLY when market offers significant discount to our already-conservative view. But it means many quality companies are permanently WATCHLIST. Acceptable trade-off."
+    status: RESOLVED
+
+# PROTOCOL:
+# 1. After EVERY agent completion, check META-REFLECTION section
+# 2. Extract items → add here with id, type, source, finding
+# 3. Items with deadlines → check at session start
+# 4. ANOMALY items → investigate before next pipeline advancement for that ticker
+# 5. SUGGESTION items → batch review weekly (Sunday audit)
+# 6. QUESTION items → answer immediately, document here
+# 7. Weekly: count OPEN items. If >20 → pipeline pause until reduced to <10
+# 8. NEVER delete items — mark RESOLVED with date + evidence
+
+stats:
+  total_items: 18
+  open: 14
+  resolved: 4
+  oldest_open: MR-001 (2026-03-17)
+  next_deadline: MR-004 (2026-03-28)

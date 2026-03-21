@@ -1,6 +1,6 @@
 # Digital Marketplaces / Online Classifieds
 
-> Sector view v2.7 | Creado: 2026-02-06 | Actualizado: 2026-03-07
+> Sector view v2.8 | Creado: 2026-02-06 | Actualizado: 2026-03-18
 > Status: **SOBREPONDERAR** (data moat thesis intact; AI = real but manageable risk; valuations still depressed vs fundamentals; Rightmove class action adds sector risk but validates pricing power thesis)
 
 ---
@@ -41,8 +41,8 @@ Key developments since v2.6:
 ### Nuestras Posiciones
 | Ticker | Empresa | Vertical | Status |
 |--------|---------|----------|--------|
-| MONY.L | Mony Group (MoneySupermarket) | Price comparison UK | PORTFOLIO. QS 75 adj Tier A borderline. FY2025 record results. All KCs CLEAR. **172.9p**, P/E 10.8x, yield 7.7%. SI 1.83%. Buyback executing (5 tranches early Mar). Insurance premiums RISING. ChatGPT app: car, broadband, van, current accounts, savings LIVE. Aviva/DLG merger adds more products to PCWs. |
-| AUTO.L | AutoTrader Group | Car classifieds UK | PORTFOLIO. QS 71 adj Tier B. April 1 pricing (+5.5%) = make-or-break. **494.8p** (near 52wL 454.5p), P/E 14.1x, yield 2.3%. **SI 5.73% (8 funds, stable)**. Buyback aggressive (535K shares @ 469p on Mar 4). Dealer revolt: <100 cancellations of 14,000 (company claim) vs 165 (IMDA). FB Marketplace tools emerging but not yet professional-grade. |
+| MONY.L | Mony Group (MoneySupermarket) | Price comparison UK | PORTFOLIO — **SELLING Mar 26 per S228 plan.** QS 75 adj Tier A borderline. FY2025 record results. All KCs CLEAR. ~168p range (Mar 18), P/E ~10.5x, yield ~7.9%. SI 1.83%. Buyback AGGRESSIVE (117-121K shares/tranche at 161-169p through Mar 12). Insurance premiums RISING. ChatGPT app 5+ categories LIVE. |
+| AUTO.L | AutoTrader Group | Car classifieds UK | **SOLD S150.** Was QS 71 Tier B. April 1 pricing (+5.5%) approaching — 14 days away. SI was 5.73%. Sold for capital rotation. Monitor April 1 outcome as potential re-entry catalyst if pricing absorbs smoothly and price drops to 420-440p range. |
 | IHP.L | IntegraFin Holdings | Adviser platform UK | PORTFOLIO. QS 80 Tier A. Quality anchor. FUD record GBP 77.2B (+17% YoY). CEO insider buying. AGM Feb 26: all resolutions passed. **318.5p**, P/E 19.9x, yield 3.6%. H1 FY2026 results expected May 20. |
 
 ### Peers / Comparables
@@ -173,7 +173,7 @@ FUD GBP 77.2B (record, +17% YoY). Net flows GBP 1.0B (+11%, beat). Gross inflows
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
 | Portfolio | MONY.L | thesis/active/MONY.L/thesis.md | 2026-02-23 | FY2025 record. All KCs CLEAR. FV 190p. Insurance tailwind confirmed. ChatGPT app 5+ categories. Aviva/DLG adds products to PCWs. |
-| Portfolio | AUTO.L | thesis/active/AUTO.L/thesis.md | 2026-02-11 | HOLD LOW. QS 71 Tier B. FV 580p. SI 5.73%. April 1 pricing = make-or-break (25 days). May FY results = mandatory review. |
+| Sold | AUTO.L | thesis/archive/AUTO.L/thesis.md | 2026-03-07 | SOLD S150. Capital rotated. Monitor April 1 pricing outcome for potential re-entry. |
 | Portfolio | IHP.L | thesis/active/IHP.L/thesis.md | 2026-03-07 | HOLD. QS 80 Tier A. FUD record. CEO insider buying. Quality anchor. H1 results May 20. |
 
 ---
@@ -203,11 +203,12 @@ FUD GBP 77.2B (record, +17% YoY). Net flows GBP 1.0B (+11%, beat). Gross inflows
 | 2026-02-25 | REFRESH | v2.1. MONY.L FY2025. AUTO.L supply dynamics. |
 | 2026-03-02 | MATERIAL UPDATE | v2.3. RMV.L FY2025. AUTO.L SI 5.15%->6.35%. Goldman SELL. Iran cascade. |
 | 2026-03-07 | REFRESH | v2.4-2.6. Scout24 FY2025. IHP.L added. Insurance confirmed rising. AI data updated. Aviva/DLG. CoStar/OnTheMarket. |
+| **2026-03-18** | **REFRESH** | **v2.8. AUTO.L SOLD (S150, capital rotation). MONY.L selling Mar 26 per S228 plan. MONY.L buyback continues aggressively (117-121K shares/tranche at 161-169p). April 1 AUTO.L pricing now 14 days away — monitor for sector read-across. IHP.L H1 results May 20 approaching.** |
 | **2026-03-07** | **REFRESH** | **v2.7. Rightmove GBP 1B class action detail (170+ agencies, CAT filing pending, Innsworth funding). Facebook Marketplace/Marketplace Pro emerging as dealer channel. AUTO.L 52wL touch. CMA Strategy 2026-2029. DMCCA consumer protection live. Catalizadores proximos section added. All prices refreshed.** |
 
 ---
 
-**Ultima actualizacion:** 2026-03-07
+**Ultima actualizacion:** 2026-03-18
 
 ---
 

@@ -1,6 +1,6 @@
 # Sector: Industrial Technology
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18
 > Status: **NEUTRAL -- Selective opportunities in quality compounders at discounted prices. Oil/Hormuz crisis adds input cost risk but safety/defense demand tailwind.**
 
 ## Resumen Ejecutivo
@@ -18,6 +18,12 @@ The best companies in this sector share several characteristics that make them e
 - **Software-heavy names insulated:** ROP (80% software/recurring), Halma (regulation-driven), MEGP.L (consumer-facing self-service) have limited exposure to energy input costs.
 
 **UPDATE 2026-02-18:** Screening of broader European industrials uncovered ME Group International (MEGP.L) -- QS 80 Tier A, ROIC-WACC +32.3pp, net cash, 37% insider, P/E 9.1x at -42.5% from 52wH. Added as highest-priority new candidate. Also scored Lagercrantz (QS 67) and GEA Group (QS 59). GEA is near ATH with no MoS. Lagercrantz confirmed as quality compounder but expensive at P/E 38x.
+
+**UPDATE 2026-03-18 (incremental):**
+- **Halma FY2026 trading update (Mar 12):** On track for 23rd consecutive record adjusted profit. Mid-teens organic CC revenue growth for full year (including photonics premium in E&A). Adj EBIT margin ~22% (ex one-off H1 profit). 5 acquisitions YTD, record GBP 451M invested. FX headwind: ~GBP 63M revenue, ~GBP 14M profit (GBP/USD 1.34, GBP/EUR 1.16). Cash conversion 90% KPI. Full results Jun 11. HLMA remains at premium P/E (~42x) -- quality priced in, no MoS.
+- **MEGP.L:** Shares still SUSPENDED as of Mar 18 (expected results by Mar 13 have NOT yet been published). Audit delay extending. No further announcements. Risk: longer suspension = governance concern; Reward: if results confirm GBP 76-79M PBT + buyback launch, re-rating potential significant. Monitor daily.
+- **Konecranes (KCR.HE):** FY2025 results: revenue EUR 4.19B (-0.9% YoY), comparable EBITA margin 14.0%, earnings +8.5%. Order book EUR 2,984M. Automation/digital services investment continuing. Investor presentation Mar 2026 confirms focus on recurring service revenue + port automation. Decent but not exceptional quality -- margin expansion and ROIC spread will determine whether this is compounding quality.
+- **PwC Industrial Outlook:** Manufacturers expect to double automation of key processes by 2030 (18% -> 50% highly automated). This validates secular demand for industrial technology/automation names in our universe.
 
 **Tesis sectorial:** This is a sector where quality truly compounds -- ROIC consistently above WACC, stable/growing margins, and resilient demand. The best entry points come from temporary sector/company-specific headwinds, not secular problems. The key risk is valuation: these businesses are rarely "cheap" by traditional metrics (P/E 25-40x), so the MoS comes from understanding the durability of the compounding. The Iran crisis creates modest opportunity via risk-off pullbacks but does NOT fundamentally impair these businesses.
 
@@ -202,13 +208,14 @@ Note: All 4 Nordic serial acquirers trade at 30-42x P/E. All require "crisis onl
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| **By Mar 13 2026** | **MEGP.L FY2025 results (delayed from Feb 24, shares SUSPENDED since Mar 2)** | **KEY READ: Record PBT GBP 76-79M confirmation, laundry growth trajectory, GBP 15-20M buyback launch. Audit delay = no material issues per company.** |
+| **OVERDUE (was Mar 13)** | **MEGP.L FY2025 results -- STILL PENDING as of Mar 18. Shares remain SUSPENDED.** | **ELEVATED RISK: audit delay extending beyond expected date. Monitor daily for RNS. If results confirm PBT + buyback, strong re-rating. If further delay, governance concern escalates.** |
 | Mar 2026 | JDG.L FY2025 results expected | EPS guide 200-250p. US research funding headwind impact. Key for thesis. |
 | Mar 10 2026 | MSA Safety dividend record date ($0.53/share) | Routine |
 | Mar 12 2026 | US CPI Feb 2026 | Macro: oil impact on inflation. Affects rate-cut expectations for all equities. |
 | Mar 18 2026 | Fed FOMC decision | Hold certain. Language on oil/inflation critical for valuation-sensitive industrials. |
 | Q2 2026 | ROP Q1 2026 results | Key read: Deltek recovery post-gov shutdown, DAT freight cycle. EPS guide $4.95-5.00. |
 | Apr 28 2026 | Lifco Q1 earnings | Serial acquirer health check |
+| Jun 11 2026 | Halma FY2026 full results | 23rd consecutive record profit expected. Key: organic growth sustainability, acquisition returns, FX impact |
 | H2 2026 | US research funding clarity | Critical for JDG.L thesis |
 
 ---
@@ -220,6 +227,7 @@ Note: All 4 Nordic serial acquirers trade at 30-42x P/E. All require "crisis onl
 | 2026-02-12 | Status inicial: NEUTRAL | First version. Sector-wide screening complete. |
 | 2026-02-18 | **MATERIAL UPDATE**: Added MEGP.L (QS 80 Tier A), scored Lagercrantz (QS 67), scored GEA Group (QS 59). MEGP.L elevated to MAXIMA priority. | Broader European screening uncovered undiscovered Tier A compounder. |
 | 2026-02-19 | ADDT-B.ST R3 COMPLETE. QS 70->77 (was 79). FV SEK 225 (was 250), entry SEK 180 (was 200). R2 MODERATE COUNTER accepted. | R1->R2->R3 pipeline. Crisis only entry. |
+| 2026-03-18 | MINOR UPDATE: Halma FY2026 trading update (Mar 12) -- on track 23rd record profit, mid-teens organic growth, GBP 451M acquisitions. MEGP.L results OVERDUE (was Mar 13), shares still suspended. KCR.HE FY2025 results: rev EUR 4.19B, EBITA 14%, earnings +8.5%. PwC: manufacturers doubling automation by 2030. Date refresh. |
 | 2026-03-07 | **MINOR UPDATE**: Price refresh all candidates. Added Iran/Hormuz impact analysis (LOW for sector). MEGP.L shares suspended Mar 2 (audit delay), FY2025 results expected by Mar 13. ROP SI +31.1% in Feb (contrarian). Halma H1 record (+16.7% organic, Safetec acquisition). Diploma Q1 +14% organic. MSA $500M buyback. PFAS risk added. Catalysts refreshed. | Staleness refresh (16 days). Geopolitical overlay added. |
 
 ---

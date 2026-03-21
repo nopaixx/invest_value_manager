@@ -1,6 +1,6 @@
 # Sector: Telecommunications
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18
 > Analista: Claude
 > Status: **NEUTRAL** (selectivo - pipeline only, no active positions)
 
@@ -14,7 +14,14 @@ Los catalizadores identificados previamente se han CONFIRMADO pero parcialmente 
 3. **Capex peak pasando** - Capex-to-sales bajando de pico 25% (2021) hacia 16% (2025-27). FCF mejora visible.
 4. **Proximus CRASH** - Q4 2025 earnings DISASTER: stock dropped -19.7% to EUR 6.63 on Feb 27. Higher costs + weaker FCF growth. Recovery play thesis DAMAGED.
 
-**Key development since last update: IRAN WAR + OIL SHOCK.** Oil at $92 WTI is a MIXED impact for telecoms -- on one hand, defensive/essential service characteristics protect revenue; on the other, energy costs for network operations rise and inflation re-acceleration delays rate cuts (negative for leveraged operators). Telecoms remain relatively insulated vs cyclicals but NOT immune to stagflation.
+**Key developments since last update (Mar 18):**
+1. **ECB held rates at 2.15% (Feb 5).** Mar 18-19 meeting pending -- oil at $97-99 WTI makes another hold likely. EUR appreciation may push ECB toward eventual cut if inflation stays below 2% target (1.9% forecast 2026). Leveraged operators (TEF, VOD) remain most exposed.
+2. **MWC 2026 highlights:** AI-RAN gaining prominence, DTE/Orange call for "four building blocks" of digital sovereignty, sector lobbying DNA to go further.
+3. **TIM Sparkle sale closing confirmed Mar 2026.** Poste Italiane became TIM largest shareholder.
+4. **Morgan Stanley picks DTE + Orange as top EU telecoms** -- consensus view aligns with our prior thesis (quality operators outperform).
+5. **MONY.L SELLING Mar 26** -- removes only portfolio dependency on this sector view.
+
+**Previous context (still valid): IRAN WAR + OIL SHOCK.** Oil at $92 WTI is a MIXED impact for telecoms -- on one hand, defensive/essential service characteristics protect revenue; on the other, energy costs for network operations rise and inflation re-acceleration delays rate cuts (negative for leveraged operators). Telecoms remain relatively insulated vs cyclicals but NOT immune to stagflation.
 
 **No active portfolio positions** -- DTE.DE was fully exited Feb 26 via P16 rotation (E[CAGR] 6.7% lowest position). Sector view is pipeline-only.
 
@@ -265,6 +272,7 @@ The Iran war and oil shock have created a risk-off environment that modestly ben
 | 2026-02-03 | Status inicial: NEUTRAL | Sector barato pero con razones estructurales. Selectivo en names con catalizadores. |
 | 2026-02-20 | Update MATERIAL: Q4 earnings results + regulatory + catalysts | TMUS CMD beat. Orange FY2025 beat. KPN beat. EU DNA proposed. Sentiment improving. |
 | 2026-02-26 | DTE.DE FULLY EXITED | P16 rotation. E[CAGR] 6.7% lowest. No active positions. |
+| 2026-03-18 | MINOR refresh: ECB held rates 2.15% (Feb), Mar 18-19 meeting pending (oil-driven hold likely). TIM Sparkle sale closing confirmed. Morgan Stanley picks DTE+Orange as top EU telecoms. MWC 2026 highlights: AI-RAN, tech sovereignty debate. Poste Italiane now TIM largest shareholder. MONY.L SELLING Mar 26 removes portfolio dependency. Status: NEUTRAL maintained | Staleness refresh. ECB + MWC + M&A updates |
 | 2026-03-07 | Update MENOR: Post-DTE earnings + Iran war context + price refresh | DTE FY2025 BEAT confirmed (EBITDA EUR 44.2B, guide EUR 47.4B 2026). Proximus CRASHED -19.7% on Q4 earnings. Iran war/oil shock: mixed impact (defensive but rate cuts delayed). DNA progressing through EU Parliament. MASORANGE EC review pending. Elisa pullback -20% upgraded to ALTA priority. VodafoneThree integration advancing (10K MOCN sites). Comparativa valuacion refreshed. Status: NEUTRAL maintained. |
 
 ---

@@ -1,6 +1,6 @@
 # Sector: Security / Access Control
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18
 > Status: NEUTRAL
 > Analista: sector-screener (Claude)
 
@@ -12,7 +12,13 @@ The Security / Access Control sector encompasses physical security products: mec
 
 The competitive landscape remains consolidated at the top: ASSA ABLOY (global #1, ~20-22% global market share), Allegion (#2 in Americas, ~11% global), and dormakaba (#3 globally) collectively dominate commercial access control. The top 5 players hold 70-80% of the total market. This is an oligopoly with high barriers to entry (brand reputation with specifiers, certification infrastructure, distribution relationships, and decades of regulatory expertise). Pricing power is strong for incumbents -- Allegion's Americas segment generates 27-29% adjusted operating margins, a level no peer matches in the region.
 
-The sector is NOT cheap in aggregate. ASSA ABLOY trades at ~28x P/E, Allegion at ~21x (down from 22x in Feb), and the broader group averages 20-28x trailing earnings. This premium is warranted by the quality characteristics (high ROIC, recurring aftermarket revenue, secular growth) but limits margin of safety for new entrants. **ALLE has pulled back to $150, approaching R1 entry zone ($145-155).** The opportunity lies in stock-specific entry during pullbacks rather than sector-wide undervaluation. Allegion remains the most interesting name in the sector for our portfolio: highest Americas margins, pure-play exposure, Tier A quality (QS 79 adj), and ALLE has pulled back 18% from 52wH of $183 to $150 amid Iran-driven risk-off.
+The sector is NOT cheap in aggregate. ASSA ABLOY trades at ~28x P/E, Allegion at ~21x (down from 22x in Feb), and the broader group averages 20-28x trailing earnings. This premium is warranted by the quality characteristics (high ROIC, recurring aftermarket revenue, secular growth) but limits margin of safety for new entrants. **ALLE has pulled back to $150, approaching R1 entry zone ($145-155).** The opportunity lies in stock-specific entry during pullbacks rather than sector-wide undervaluation. **Key developments since Mar 7:**
+1. **Aliro 1.0 spec launched (Feb 26)**: Apple-backed enterprise access control standard. 220+ companies contributed, including ASSA ABLOY, Google, Samsung, Allegion. Aims to do for enterprise access what Matter did for smart home. Allegion among first to certify. POSITIVE for incumbents -- standardization raises bar, benefits scale players.
+2. **Allegion on-device AI for Schlage Sense** (Jan 2026): Detects suspicious access patterns WITHOUT cloud reliance. Plus Pin & Tumbler Studio -- DTC innovation hub for "invisible" smart locks. Shows ALLE investing in AI integration.
+3. **ASSA ABLOY Yale Luna Elite+ launched**: FaceScan + PalmScan biometrics. Built-in video doorbell. First to support Matter + Aliro protocols. Acquired Level Lock (late 2024) now integrated.
+4. **AI smart lock market CAGR 23.5%** -- confirms acceleration of smart lock transition. Structural tailwind intact.
+
+Allegion remains the most interesting name in the sector for our portfolio: highest Americas margins, pure-play exposure, Tier A quality (QS 79 adj), and ALLE has pulled back 18% from 52wH of $183 to $150 amid Iran-driven risk-off.
 
 ---
 
@@ -267,6 +273,7 @@ The sector is NOT cheap in aggregate. Premium valuations (20-28x P/E) reflect th
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-03-18 | MINOR refresh: Aliro 1.0 spec launched (Apple-backed, 220+ companies including ASSA ABLOY + Allegion). Allegion launched on-device AI for Schlage Sense (no cloud reliance). ASSA ABLOY Yale Luna Elite+ with FaceScan/PalmScan biometrics + Matter/Aliro support. AI smart lock market CAGR 23.5%. Pin & Tumbler Studio (ALLE DTC innovation hub). No status change (NEUTRAL maintained). ALLE still near $150 entry zone | Staleness refresh. Aliro 1.0 + AI product launches + smart lock market data |
 | 2026-03-07 | MINOR refresh: Updated prices, ALLE Q4/FY2025 results, 2026 guidance, dormakaba H1 turnaround data, NSSC Q2 record, ACaaS market data, Iran crisis impact on sector, technology trends (AI, ACaaS, cyber-physical convergence). DOKA.SW upgraded from Avoid to Baja-Media. NSSC upgraded to Media-Alta. ALLE approaching entry zone ($150 vs $145-155). No status change (NEUTRAL maintained) | Staleness refresh (>5 days). Q4 earnings data. Geopolitical context update |
 | 2026-02-18 | Status inicial: NEUTRAL | Sector view creation. High quality oligopoly but premium valuations. ALLE identified as primary target |
 

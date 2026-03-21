@@ -1,6 +1,6 @@
 # Sector: Healthcare Equipment & MedTech
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18
 > Analista: Claude (sector-screener)
 > Status: NEUTRAL -- Quality compounders exist but most trade at premium valuations. Best opportunities at cyclical lows or company-specific dislocations. European mid-caps near 52wL offer the best risk/reward.
 
@@ -11,6 +11,9 @@ Healthcare equipment and MedTech is a structurally attractive sector with high b
 However, the market generally prices this quality fairly. The best medtech businesses (ISRG, SYK, BSX) trade at 35-70x P/E, reflecting their compounder status. The opportunity for value investors lies in three scenarios: (1) company-specific dislocations (e.g., product safety issues, guidance cuts), (2) cyclical corrections in elective procedure volumes, or (3) less-covered European/niche players where the moat is underappreciated.
 
 **March 2026 update:** Several key developments since Feb 14: (1) ResMed Q2 FY2026 BEAT -- EPS $2.81 (+15.6% YoY), revenue $1.42B (+11%), beating estimates on both lines. GLP-1 impact narrative is shifting -- RMD's 3-year real-world data shows GLP-1 patients are 11% MORE likely to initiate PAP therapy and have higher resupply rates (+3.1% year 1, +6.2% year 3). GLP-1 is COMPLEMENTARY, not cannibalistic; (2) Medtronic Hugo robotic system received FDA clearance for urologic procedures (Dec 2025), first US surgeries performed Feb 2026 -- the surgical robotics duopoly era begins, though ISRG's installed base of 10,763+ systems and multi-indication approvals give it a significant runway advantage; (3) European medtech continues to underperform -- Coloplast near 52wL (DKK 461.50, -39% from 52wH), Straumann at CHF 84.78 (-29%), Sonova at 52wL CHF 191.05 (-33%), Ambu at DKK 75.65 (-40%). Bernstein's "buying opportunity in European medtech" thesis from Feb 2026 has not yet played out; (4) BSX dropped sharply to $71.35 (-35% from 52wH), nearing 52wL; (5) Global medtech market growing at 7% CAGR with hospital capital spending expected to favor efficiency/automation technologies.
+
+
+**March 18 update (incremental):** (1) Insulet (PODD) Q4 2025 BEAT -- revenue $784M (+29% CC), full-year >$2.7B, 10th consecutive year of 20%+ CC growth. GM 72.5% (+40bps). Type 2 diabetes users now >40% of US new starts. 2026 guidance: 20-22% total revenue growth, ~100bps OM expansion, EPS +25%. Stock recovered to ~$237 from lows but still -33% from 52wH. Competition entering market but Omnipod ecosystem sticky; (2) ResMed AI-driven CPAP: FDA cleared Smart Comfort for AirSense 11 beta launch early 2026, broader rollout later 2026. GLP-1 coexistence thesis further validated -- cardiometabolic screening driven by GLP-1 adoption is surfacing more undiagnosed sleep apnea; (3) EU medtech dislocation persists with no catalyst for re-rating yet -- Bernstein thesis still unproven.
 
 **Sub-sectors covered:**
 1. Surgical Robotics (ISRG dominant, SYK entering, MDT Hugo FDA-cleared)
@@ -185,7 +188,7 @@ However, the market generally prices this quality fairly. The best medtech busin
 | **SOON.SW** | Sonova | 61 | ~66* | **+5.2pp** | 72% | +4.7% | **17.0%** | 22x | CHF 191.05 | **-33% (52wL)** | CHF 11.4B | Switzerland |
 | **SYK** | Stryker Corp | 59 | ~67* | +5.1pp | 64% | +10.7% | ~15% | 44x | $364.56 | -10% | $139.5B | US |
 | **COLO-B.CO** | Coloplast | 56 | ~64* | **+8.5pp** | 68% | +11.6% | 5.3% | 26.1x | DKK 461.50 | **-39% (near 52wL)** | DKK 104B | Denmark |
-| **PODD** | Insulet | 61 | ~66* | +4.3pp | 70% | +23.5% | ~15% | 69.5x | $237.01 | -33% | $16.7B | US |
+| **PODD** | Insulet | 61 | ~66* | +4.3pp | 70%→72.5% | +23.5%→+29% CC | ~15% | 69.5x→~55x | $237.01 | -33% | $16.7B | US |
 
 *QS Adjustments rationale: RMD +5 (near-monopoly in CPAP post-Philips recall, data ecosystem moat, GLP-1 narrative de-risked); STMN.SW +8 (dental implant global leader 33% share, 29% insider); ISRG +16 (surgical robotics monopoly, 80% procedure share, net cash, data moat -- largest adjustment justified by truly unassailable position, Hugo entry validates TAM but ISRG 10K+ installed base is durable); SOON.SW +5 (hearing aid oligopoly #2, 18% insider, cochlear implants diversification); SYK +8 (ortho oligopoly #1-2, surgeon switching costs); COLO-B.CO +8 (ostomy/wound care global leader, 30% insider, patient loyalty moat); PODD +5 (Omnipod ecosystem, diabetes CGM integration).
 
@@ -240,7 +243,7 @@ However, the market generally prices this quality fairly. The best medtech busin
 | **BSX** | Boston Scientific | **Sharp selloff to $71.35 (-35% from 52wH).** 71% GM, 12% revenue growth. ROIC still < WACC but improving. Worth monitoring if ROIC crosses positive. | ~55 | $60-65 | Media |
 | **ISRG** | Intuitive Surgical | Monopoly in robotic surgery, net cash, 17% ROIC improving, 17% rev CAGR. Hugo entry validates TAM but ISRG installed base (10,763) is durable moat. P/E 63x -- need -35% correction to get reasonable entry. | ~71 | $310-330 | Media |
 | **SYK** | Stryker | #1-2 ortho implants, 11% organic growth. P/E 44x -- need -25% correction. | ~67 | $275-290 | Media |
-| **PODD** | Insulet | Fastest growing medtech (24% rev CAGR), Omnipod ecosystem. P/E 69.5x near 52wL (-33%). Still too expensive unless further drop. | ~66 | $170-180 | Media |
+| **PODD** | Insulet | **Q4 2025 BEAT: rev +29% CC, GM 72.5%. 2026 guide 20-22%.** Type 2 = 40% of new US starts. Omnipod ecosystem. P/E compressing from 69.5x. Still above entry but growth trajectory exceptional. | ~66 | $170-180 | Media |
 | **DHR** | Danaher | Serial acquirer at $195.50, -19% from 52wH. Cyclical trough. P/E 40x but historically commands premium. Monitor for $170-175 entry. | ~55 | $170-175 | Media |
 
 ### Priority 3: Monitor only
@@ -288,6 +291,7 @@ However, the market generally prices this quality fairly. The best medtech busin
 | H1 2026 | EU MDR implementation | Regulatory risk EU players |
 | H2 2026 | GLP-1 impact on bariatric/diabetes devices | RMD data positive. Watch PODD/DXCM |
 | Q2-Q3 2026 | MDT Hugo urologic procedure data | Market share shift indicators |
+| Q2 2026 | PODD Q1 2026 earnings | Growth trajectory post-Q4 beat. Type 2 adoption metrics. Competition impact. |
 
 ---
 
@@ -295,6 +299,7 @@ However, the market generally prices this quality fairly. The best medtech busin
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-03-18 | MINOR UPDATE: PODD Q4 2025 BEAT added (rev +29% CC, GM 72.5%, 2026 guide 20-22%). RMD Smart Comfort FDA cleared. GLP-1 coexistence thesis further validated. EU medtech dislocation persists. Date refresh. |
 | 2026-03-07 | **21-day refresh.** Price updates all tickers. RMD Q2 FY2026 BEAT added (+15.6% EPS, GLP-1 complementary data de-risks overhang). MDT Hugo FDA clearance + first US surgeries added. EU medtech dislocation DEEPENING: Sonova at 52wL, Coloplast near 52wL, Straumann near 52wL. BSX sharp selloff (-35%). Sonova/Coloplast/Straumann entry ranges UPGRADED to "AT ENTRY ZONE." BSX added to Priority 2. DHR approaching value zone. HOLX near ATH (removed from dislocation narrative). Ambu-Coloplast partnership noted. PE consolidation data added. | Staleness refresh + material developments |
 | 2026-02-14 | Expanded 20->28+ companies, 8 new QS scores | RMD #1 priority, STMN/SOON added P1, Demant downgraded P2 |
 | 2026-02-13 | Sector view created | Healthcare Equipment screening |

@@ -1,6 +1,6 @@
 # Sector: Insurance
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18
 > Status: **NEUTRAL-FAVORABLE** (Defensive in crisis; stock picking selectivo)
 
 ## Resumen Ejecutivo
@@ -226,7 +226,7 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 | 2026 Q2 | KNSL Q1 2026 results | GWP growth verification (gate for SO). Buyback execution |
 | 2026 Q2-Q3 | Hurricane season | Cat loss exposure. ACGL/KNSL most exposed |
 | 2026 H2 | Rate filing approvals | Social inflation response verification |
-| TBD | ERIE SCOTUS No. 25-834 | Fee structure challenge. Hard gate for entry |
+| TBD (cert petition filed Jan 12, 2026) | ERIE SCOTUS No. 25-834 | Fee structure challenge -- cert petition pending, no conference date yet. Hard gate for entry |
 
 ---
 
@@ -259,6 +259,7 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-03-18 | **Date refresh.** ERIE SCOTUS No. 25-834 cert petition filed Jan 12 -- no disposition yet as of Mar 18 (monitor for conference listing/cert grant). Social inflation continues accelerating: GL rates forecast +9% Q1 2026, auto liability +7-15% confirmed by Aon 2026 P&C Outlook. P&C soft market deepening per Aon -- property rates dipped first time since 2017. No material change to thesis or status. | 11-day staleness refresh. No new earnings or material events. ERIE SCOTUS still pending. |
 | 2026-03-07 | **5-day refresh.** Price updates: GL $142.18 (MoS 25.6%), ACGL $97.21 (9.5% from SO), KNSL $372.02 (4.6% from SO). GL CEO sold 26.4% of holdings ($2.66M, Mar 4) -- YELLOW FLAG. GL dividend increased. Hormuz crisis ESCALATED: strait at near-total halt, war risk premiums 5x, US proposes DFC insurance + Navy escorts. KNSL $250M buyback + BMO downgrade. AM Best warns higher combined ratios. Social inflation data reinforced (umbrella +10%+). | Weekly maintenance + crisis escalation |
 | 2026-03-02 | **Q1 2026 full update.** Status NEUTRAL->NEUTRAL-FAVORABLE. GL Q4 beat + guidance raised. KNSL Q4 beat (CR 71.7%). Soft market data updated. Iran/Hormuz crisis impact assessed (minimal for our names). Social inflation data added. ACGL/KNSL pipeline updated with fresh prices. ERIE archived. ALL removed (sold Feb 14). | 17-day staleness update. Crisis context |
 | 2026-02-26 | ERIE R3 COMPLETE -- DA STRONG COUNTER | FV $313->$225 (-28.1%). SCOTUS gated |

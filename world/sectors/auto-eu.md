@@ -1,6 +1,6 @@
 # Sector: Auto EU
 
-> Ultima actualizacion: 2026-03-07 (S142 — oil shock $92, tariffs, Ferrari position update)
+> Ultima actualizacion: 2026-03-18 (macro-analyst refresh — BMW i3 debut today, EU registrations -3.9% Jan, oil $98 WTI)
 > Status: EVITAR mass-market (estructural) | FAVORABLE luxury (Ferrari only)
 
 ## Resumen Ejecutivo
@@ -129,7 +129,7 @@ The EU auto sector requires a SPLIT VIEW as of March 2026. Mass-market automaker
 
 | Ticker | Name | Entry | FV | QS | Tier | Status |
 |--------|------|-------|-----|-----|------|--------|
-| RACE.MI | Ferrari N.V. | EUR 312.80 | EUR 355 | 82/84adj | A | HOLD, medium conviction |
+| RACE.MI | Ferrari N.V. | EUR 312.80 (SOLD Mar 7) | EUR 355 | 82/84adj | A | SOLD — T15 rotation, E[CAGR] 6.6% worst |
 
 **Basket:** EU Value Recovery (2nd position alongside EDEN.PA)
 
@@ -262,3 +262,5 @@ Ferrari: Standard R4-approved thesis monitoring (KCs, earnings, macro fit).
 ### Previous Sources (retained)
 - [VW Annual Report 2024](https://www.volkswagen-group.com/en/annual-report-and-full-year-results-2024-19005)
 - [Morningstar: VW tariff woes](https://global.morningstar.com/en-gb/stocks/stock-week-volkswagen-faces-tariff-woes)
+
+| **2026-03-18** | **Refresh: BMW i3 Neue Klasse debut today (440mi range, 400kW charging, production Aug Munich). EU Jan registrations -3.9% YoY to 800K units; EV share 19.3% (up from 14.9%). Oil WTI $98 (T1). RACE.MI SOLD Mar 7 — no portfolio exposure. US March sales surged to 1.59M units (pre-tariff rush). Tariffs cost automakers $35.4B cumulative.** |

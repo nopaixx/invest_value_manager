@@ -1,8 +1,8 @@
 # Sector: Payments & Fintech
 
-> Ultima actualizacion: 2026-03-06
+> Ultima actualizacion: 2026-03-18
 > Status: NEUTRAL - Quality excepcional pero valuaciones comprimidas por crisis; oportunidades emergiendo
-> Cambio desde 2026-02-04: MATERIAL — UK MIF pass-on ruling (Feb 18), PayPal CEO ouster, Adyen guidance miss, V/MA Q1 strong but Iran selloff compressing multiples. V now closer to entry zone.
+> Cambio desde 2026-02-04: MATERIAL — UK PSR cross-border fee cap upheld (Jan 15), Wero 47M users expanding across EU, tariff uncertainty pressuring cross-border flows. V/MA multiples still compressed.
 
 ## Resumen Ejecutivo
 
@@ -23,6 +23,13 @@ Desarrollos clave desde ultima actualizacion (Feb 4):
 6. **Visa interchange settlement:** Propuesta de $38B en ahorros para merchants pendiente de aprobacion judicial en 2026. Reduciria interchange 10bp por 5 anos. Merchants (NRA, NACS, Walmart) objetan como insuficiente.
 
 7. **DOJ vs Visa (debit antitrust):** Caso activo, trial no esperado hasta late 2027-2028. Riesgo estructural pero timeline largo.
+
+
+8. **UK PSR Cross-Border Fee Cap Upheld (Jan 15, 2026):** High Court ruled PSR has power to cap cross-border interchange fees, rejecting V/MA/Revolut legal challenge. Current fees 1.15-1.5% (post-Brexit 5x increase) could return to pre-Brexit 0.2-0.3%. PSR now designing cap rate and timeline. GBP 150-200M annual cost to UK merchants at current rates. ADDITIONAL regulatory headwind on top of MIF Trial 3.
+
+9. **EU Wero Payment System Scaling Rapidly:** Wero (European Payment Initiative) reached 47M users across Belgium, France, Germany. Feb 2026: MoU signed with EuroPA Alliance (Bancomat, Bizum, MB WAY, Vipps MobilePay) connecting ~130M users across 13 countries (72% of EU population). Belgium went live for e-commerce Mar 3. Retail payments live in Germany since late 2025 (Lidl, Decathlon, Rossmann). Full A2A alternative to V/MA for EU domestic/intra-EU by 2027. Medium-term structural threat to V/MA EU domestic volumes, though cross-border and non-EU remain firmly V/MA territory.
+
+10. **Tariff Impact on Cross-Border Payments:** Javelin estimates US tariff plans impact >$500B in trade (Canada, China, Mexico). Businesses reassessing cross-border payment relationships -- smaller fintechs with competitive pricing could gain share on B2B corridors. V/MA consumer payments less affected but B2B (Visa B2B Connect, Mastercard Move) face competitive pressure from nimbler alternatives.
 
 La narrativa se mantiene entre duopolio invencible vs amenazas fintech/regulatorias. La novedad es que las valuaciones se han comprimido por Iran risk-off, acercando a V (y eventualmente MA) a zonas de entrada mas realistas. V a ~$316 esta 16% por encima de nuestra entry zone ($270-285) pero la distancia se ha reducido significativamente.
 
@@ -165,6 +172,8 @@ La narrativa se mantiene entre duopolio invencible vs amenazas fintech/regulator
 | DORA (EU operational resilience) | Alta | Bajo | Implementation priority 2026. Compliance cost for all payments firms. |
 | CFPB rollback under new admin | Alta | Positivo | Biden-era digital payments rule REPEALED. Less regulatory burden on V/MA/PYPL. |
 | PSD3/PSR (EU payments) | Media | Medio | Open banking evolution. Multi-year implementation. |
+| **UK PSR cross-border fee cap** | **Alta** | **Medio-Alto** | **High Court upheld PSR power (Jan 15). Cap design underway. Could cut fees from 1.15-1.5% back to 0.2-0.3%. GBP 150-200M/yr merchant impact.** |
+| **EU Wero / A2A domestic alternative** | **Media-Alta** | **Medio** | **47M users, 130M via EuroPA alliance. Domestic EU threat to V/MA volume by 2027. NOT cross-border/non-EU threat.** |
 
 **UK MIF Ruling (Feb 18, 2026) -- MATERIAL DEVELOPMENT:**
 The Competition Appeal Tribunal ruled that V/MA did not prove merchants passed on interchange fee overcharges to consumers (with only 3 narrow exceptions). This was Trial 2 of the umbrella proceedings. The finding means V/MA face HIGHER damages in Trial 3 (H2 2027), as the "pass-on defence" was their primary argument to reduce damages. Exposure could be in the billions of GBP. This is a significant negative for V/MA UK operations specifically. However, the market has partially priced this -- V/MA traded down on the ruling but recovered. Trial 3 in H2 2027 is the real damages determination.
@@ -364,6 +373,7 @@ These are NOT existential threats (V/MA will survive and thrive), but they could
 | 2026-02-04 | Sector view creado | MA/V en pipeline como Quality Compounders |
 | 2026-02-04 | MA analizada, movida a Watchlist | QS 86, FV $420, Entry $395-420 |
 | 2026-02-04 | V analizada, movida a Watchlist | QS 80, FV $280, Entry $270-285 |
+| 2026-03-18 | MINOR UPDATE: UK PSR cross-border fee cap upheld (Jan 15) -- additional regulatory headwind for V/MA UK revenue. EU Wero scaling to 47M users with EuroPA alliance (130M users, 13 countries). Tariff impact on cross-border B2B corridors noted. Date refresh. |
 | 2026-03-06 | **MATERIAL UPDATE** | UK MIF pass-on ruling (Feb 18) increases damages exposure. V/MA Q1/Q4 strong. PayPal CEO ousted. Adyen guidance miss. Iran selloff compressing multiples -- V now 11% from entry zone (was 18%). CFPB rollback positive. AI fraud/VAS tailwinds. V/MA thesis marked NEEDS_REVIEW. |
 
 ---

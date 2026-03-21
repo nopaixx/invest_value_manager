@@ -1,6 +1,6 @@
 # Sector: Luxury Goods (Ultra-Premium & Personal Luxury)
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18
 > Status: **NEUTRAL-SELECTIVO** - Oportunidades selectivas en nombres premium que han sufrido de-rating significativo. No comprar el sector entero. **RACE.MI purchased as 6th E[CAGR] market buy (S139, Mar 5).**
 
 ## Resumen Ejecutivo
@@ -192,6 +192,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| **2026-03-18** | **Date refresh.** LVMH Q4 2025 results (Jan 27): FY2025 revenue EUR 80.8B (-5% YoY), beat consensus EUR 80.6B. Asia ex-Japan "noticeable improvement" -- mainland China returned to positive growth in H2 2025. CEO Arnault warned "2026 wont be simple." MC.PA DA completed (overvalued conclusion). MONC.MI DA completed. Luxury sector recovery thesis: Bain/JP Morgan expect +4-6% growth in 2026 driven by China stabilization. US-EU tariff deadline Jun 1 remains key risk for Ferrari (29% US revenue). Status unchanged NEUTRAL-SELECTIVO. | 11-day staleness refresh. LVMH FY2025 data added. China recovery signals confirmed. |
 | **2026-03-07** | **RACE.MI added to Nuestras Posiciones. RMS.PA added to Dependencias (R1 refresh S141). China outlook updated (Bain: bottoming). Tariff context updated (Ferrari 10% pass-through confirmed).** | **RACE.MI bought S139 Mar 5 at EUR 312.80 (6th E[CAGR] market buy). Orphan position -- luxury basket candidate. RMS.PA R1 refresh completed S141. Bain data: China luxury -3-5% 2025, modest growth 2026E. Global luxury TAM USD 484B (2026). MINOR update (position addition + data enrichment).** |
 | **2026-03-02** | **IRAN CASCADE UPDATE** | **Operation Epic Fury. Impact: LOW for ultra-luxury (UHNW insulated). RACE.MI was 5.8% from SO trigger -- subsequently bought Mar 5. Oil wealth effect POSITIVE for Ferrari/Hermes. Aspiration luxury (Moncler) more vulnerable. No thesis change.** |
 | 2026-02-19 | MONC.MI R3 complete. FV EUR 58-52, entry EUR 48-42. R4 deferred to post-Q1 2026. | FY2025 BASE-BULL (Q4 +7%, EBIT 29.2%). DA MODERATE COUNTER: consensus convergence (Error #49), growth 3% vs 6% assumed, CEO double transition risk. Quality-at-discount thesis, not contrarian. |

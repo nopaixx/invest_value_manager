@@ -1,11 +1,20 @@
 # Sector: Energy (Oil & Gas Majors)
 
-> Ultima actualizacion: 2026-03-07 (CRISIS ESCALATION UPDATE)
-> Status: **SOBREPONDERAR-SELECTIVO** (upgraded from NEUTRAL-SELECTIVO -- oil $91+ WTI, Hormuz near-total halt, biggest weekly oil rally in history)
+> Ultima actualizacion: 2026-03-18 (War Day 19 — oil $95-103 sustained, Hormuz still closed, coalition escort fails)
+> Status: **SOBREPONDERAR-SELECTIVO** (oil $95-103 Brent sustained, Hormuz closed Day 19, coalition escort failing, US crude inventory +6.56M bbl)
 
 ## Resumen Ejecutivo
 
-**CAMBIO MATERIAL (Mar 7):** La crisis ha ESCALADO significativamente desde el update del 2 de marzo. Oil WTI ha pasado de $72 a $91.27 (+26.7% en 5 dias), la mayor subida semanal en la historia de futuros del WTI desde 1983. Brent a $92.87. Hormuz en HALT CASI TOTAL -- solo single-digit transits por dia vs 138 normales. US Navy ha hundido el IRIS Dena (fragata iraniana) off Sri Lanka. QatarEnergy ha PARADO produccion LNG en Ras Laffan tras ataque de drones iranies -- esto elimina ~20% del suministro global de LNG. Gas natural europeo (TTF) subio +45-76% en la semana. Trump exige rendicion incondicional, dice que la guerra podria durar "4-5 semanas".
+**CAMBIO MATERIAL (Mar 18 — War Day 19):** Oil has consolidated in the $95-103 Brent / $95-99 WTI range. Key developments since Mar 7:
+- **Brent closed $103.42, WTI $96.21 (Mar 17).** Oil briefly topped $100 WTI on Mar 12-13 (Kharg Island strike Day 1). Has since settled $95-103 range as market digests IEA 400M bbl release.
+- **Hormuz STILL CLOSED — Day 19.** Zero meaningful tanker transit. Mojtaba Khamenei vowed to keep fighting. Foreign ships attacked this week. 15M bbl/day of crude + 5M bbl/day of products CUT from global supply.
+- **Coalition escort FAILING.** Trump unable to organize meaningful tanker escort coalition. Allies reluctant (Mar 15-17). Oil rose 2%+ on Mar 17 on escort doubts.
+- **UAE infrastructure targeted.** Expands the conflict footprint beyond Iran proper.
+- **US crude inventory +6.56M barrels.** Builds suggest demand destruction beginning at $95+ WTI. Partial offset to supply disruption.
+- **BZU.MI SOLD (Mar 16).** No remaining direct oil exposure in portfolio. Cross-impact only via consumer/input cost channels.
+- **FOMC TODAY (Mar 18).** Fed faces stagflation dilemma. Oil inflation vs recession risk. Hawkish 40% probability.
+
+**Previous CAMBIO MATERIAL (Mar 7):** La crisis ha ESCALADO significativamente desde el update del 2 de marzo. Oil WTI ha pasado de $72 a $91.27 (+26.7% en 5 dias), la mayor subida semanal en la historia de futuros del WTI desde 1983. Brent a $92.87. Hormuz en HALT CASI TOTAL -- solo single-digit transits por dia vs 138 normales. US Navy ha hundido el IRIS Dena (fragata iraniana) off Sri Lanka. QatarEnergy ha PARADO produccion LNG en Ras Laffan tras ataque de drones iranies -- esto elimina ~20% del suministro global de LNG. Gas natural europeo (TTF) subio +45-76% en la semana. Trump exige rendicion incondicional, dice que la guerra podria durar "4-5 semanas".
 
 **Tesis sectorial actualizada:** El escenario que describimos como "posible si Hormuz >2 semanas" ($85-95) ahora es REALIDAD ($91-93 WTI/Brent). El sector ha tenido su mejor semana desde la invasion rusa de Ucrania (XLE +24% 3m). La pregunta ya no es "si oil sube" sino "cuanto dura". Las majors con produccion fuera del Golfo (XOM Permian/Guyana, Shell Noruega/Brasil, TTE Africa) generan FCF excepcional a estos precios. Refinadores capturan cracks disparados, especialmente en EU donde deficit de diesel es estructural.
 
@@ -324,6 +333,7 @@ Este update es **MATERIAL** (oil +26% WTI, Hormuz near-halt, QatarEnergy LNG hal
 | 2026-02-04 | SHEL.L posicion reducida a 3.6% | TRIM por overweight (era 15%) |
 | 2026-02-06 | SHEL.L EXIT completo | Capital rotado a AUTO.L (Tier A). QS 36, MoS -3.5%, tesis debilitada. |
 | 2026-03-02 | Status: INFRAPONDERAR -> NEUTRAL-SELECTIVO | CAMBIO MATERIAL. Operation Epic Fury -- Hormuz cerrado. Oil $78+. Refining cracks $18-22/bbl |
+| **2026-03-18** | **REFRESH: War Day 19, oil -103 sustained** | Oil consolidated -103 Brent (WTI -99). Hormuz closed Day 19. Coalition escort failing. UAE infrastructure targeted. US crude +6.56M bbl (demand destruction signal). BZU.MI sold. FOMC today. No status change — SOBREPONDERAR-SELECTIVO maintained. |
 | **2026-03-07** | **Status: NEUTRAL-SELECTIVO -> SOBREPONDERAR-SELECTIVO** | **CAMBIO MATERIAL. Oil WTI $91.27 (+26% from Mar 2). Brent $92.87. Hormuz NEAR-TOTAL HALT (single-digit transits vs 138 normal). QatarEnergy Ras Laffan HALTED (20% global LNG). EU gas TTF +45-76%. Biggest weekly oil rally in WTI history. IRIS Dena sunk. XLE +24% 3m. EU majors still at P/E 13-14x despite windfall. Portfolio cross-impact: DOM.L NEEDS_REVIEW for oil headwind on UK consumer.** |
 
 ---

@@ -1,6 +1,6 @@
 # Sector: Shipping Services (Shipbroking & Maritime Advisory)
 
-> Ultima actualizacion: 2026-03-07
+> Ultima actualizacion: 2026-03-18 (macro-analyst refresh — CKN.L FY2025 results released, container rates +30% since crisis)
 > Status: FAVORABLE (crisis-driven activity surge + structural complexity increase)
 
 ## Resumen Ejecutivo
@@ -204,7 +204,7 @@ None.
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Pipeline | CKN.L | thesis/research/CKN.L | 2026-02-19 | R1 COMPLETE. QS 80 Tier A. FV 5200p. Entry 3200p. WATCHLIST. **FY2025 results 9-Mar-2026 (2 days).** HARD GATE IMMINENT. |
+| Pipeline | CKN.L | thesis/research/CKN.L | 2026-03-18 | R1 COMPLETE. QS 80 Tier A. FV 5200p. Entry 3200p. WATCHLIST. **FY2025 RELEASED Mar 9. HARD GATE CLEARED.** Ready for R2. |
 
 ---
 
@@ -227,7 +227,7 @@ None.
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| **9 Mar 2026** | **CKN.L FY2025 preliminary results** | **IMMINENT (2 days). Pre-announced PBT at least GBP 90M. Confirms H2 recovery. Results will NOT yet reflect Hormuz crisis (crisis started Feb 28, FY ends Dec 31). However, commentary on Hormuz impact and forward outlook will be CRITICAL. Watch for: (a) management commentary on crisis-driven activity, (b) forward order book update, (c) SIN/research subscription growth, (d) dividend (24th consecutive year?).** |
+| **9 Mar 2026** | **CKN.L FY2025 preliminary results -- RELEASED** | **PBT GBP 90.6M (vs 115.3M prior yr). Rev GBP 631.4M. EPS 225.8p. Div 112p (+3%, 23rd consecutive yr). Forward book $244M (up from $231M). Free cash GBP 232M. Positive momentum into 2026. HARD GATE CLEARED.** |
 | Ongoing | **Hormuz crisis duration** | **ACTIVE. Every week the crisis continues = higher commission revenue for CKN. Key question: does the crisis create a structural step-change in shipping complexity (positive for CKN long-term) or is it a temporary spike (positive near-term only)?** |
 | Q1-Q2 2026 | **US military escort program through Hormuz** | If successful, partial Hormuz reopening. Rates normalize somewhat but insurance/complexity premium persists |
 | Q2 2026 | OPEC+ output increases | Tanker volume catalyst (if Hormuz reopens) |
@@ -310,3 +310,5 @@ None.
 ### CKN.L Results
 - [Clarkson PLC Investor Relations: Results & Presentations](https://www.clarksons.com/home/investors/results-and-presentations/)
 - [Quartr: Clarkson Investor Relations](https://quartr.com/companies/clarkson-plc_14106)
+
+| **2026-03-18** | **Refresh: CKN.L FY2025 RELEASED Mar 9. PBT GBP 90.6M, rev GBP 631.4M, div 112p (23rd consecutive yr). Forward book $244M (up from $231M). Free cash GBP 232M. Results pre-crisis but outlook bullish. Container freight +30% since crisis. Oil WTI $98 (T1). Hormuz still closed War Day 20. Status unchanged FAVORABLE.** |

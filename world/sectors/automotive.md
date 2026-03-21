@@ -1,6 +1,6 @@
 # Sector: Automotive (Premium/Luxury EU)
 
-> Ultima actualizacion: 2026-03-06
+> Ultima actualizacion: 2026-03-18 (macro-analyst refresh — BMW i3 debut, US pre-tariff sales surge, oil $98 WTI)
 > Status: AVOID (Iran oil shock + tariffs + structural disruption = triple crisis)
 
 ## Resumen Ejecutivo
@@ -270,3 +270,5 @@ Cuando actualices este sector view con cambio MATERIAL:
 - [ZF Debt Relief from Slower EV Transition](https://www.bloomberg.com/news/articles/2026-02-23/german-auto-supplier-sees-debt-relief-from-slower-ev-transition)
 - [Europe's Auto Suppliers in Trouble](https://www.jalopnik.com/2114557/europe-auto-suppliers-trouble/)
 - [Automotive Restructuring Intensifies 2026](https://www.automotivemanufacturingsolutions.com/strategy/why-automotive-industry-restructuring-will-intensify-in-2026/2605552)
+
+| **2026-03-18** | **Refresh: BMW i3 Neue Klasse sedan debuts TODAY (440mi range, 400kW, Munich production Aug 2026). US March sales 1.59M units = best month in 4 years (pre-tariff rush before 25% kicks in). Tariffs cost automakers $35.4B cumulative. Oil WTI $98 (T1 macro_fragility). EU Jan registrations -3.9% YoY, EV share 19.3%. Status unchanged: AVOID.** |

@@ -1,25 +1,26 @@
 # Sector: Technology / Software
 
-> Ultima actualizacion: 2026-03-15 (S201 FOMC prep refresh)
+> Ultima actualizacion: 2026-03-18 (S252 macro-analyst refresh: FOMC day, ADBE CEO transition, tariffs Section 301)
 > Analista: Claude
 > Status: **NEUTRAL** (selectivo en quality compounders, evitar growth sin fundamentales)
 >
-> **S201 FOMC Week Context (Mar 15):** Oil $99 WTI, Hormuz closed Day 15+. FOMC Tue 50% hawkish (0 cuts). If hawkish → tech multiples compress (growth stocks P/E sensitive to 10Y moves). ADBE (our position): beta 0.83, FTC SETTLED ($150M, trial cancelled S181). FV $406. At $249, even -3% FOMC drop → $241, MoS 68%. HOLD through FOMC. BYIT.L: not in portfolio, no impact. Sector-wide: S&P Tech -31.2% in COVID, -49.4% in GFC — our quality sub-selection (ADBE 89% GM, monopoly) is more resilient than sector average.
-> CRISIS NOTE (Mar 7): Iran war Day 7+, oil $92, VIX 27. Software selling on GENERAL risk-off, NOT sector-specific fears. SaaSpocalypse narrative eclipsed by war. ADBE earnings Mar 12 = next catalyst. Enterprise IT spending growing 10-15% (Gartner $6.15T forecast) but near-term macro uncertainty from oil/stagflation risk.
+> **S252 FOMC Day Context (Mar 18):** Fed holds rates 3.50-3.75% (98.9% probability). Statement language on oil/war/tariffs crucial for tech multiples. ADBE at $254, -7% post-CEO transition announcement. FTNT EXIT approved late April. Oil ~$94 WTI (down from $99 last week). Section 301 probes into 16+ economies add tariff uncertainty. Rate cuts now expected Oct-Dec 2026 at earliest.
+> **ADBE CEO TRANSITION (Mar 12):** Narayen stepping down after 18 years once successor named. Stays as Board Chair. Search committee led by Frank Calderoni (Lead Independent Director). Both internal and external candidates. Shares -7% on announcement. Q1 FY2026 was a BEAT ($6.4B revenue, +11% YoY, EPS $6.06 vs $5.87 est). AI-first ARR tripled YoY. This is MATERIAL for our 8.2% position.
+> CRISIS NOTE (still active): Iran war Day 20+, Hormuz closed, oil ~$94 WTI. Software selling on GENERAL risk-off, NOT sector-specific fears. Enterprise IT spending growing 10-15% (Gartner $6.15T forecast) but near-term macro uncertainty from oil/stagflation risk + trade war escalation.
 
 ## Resumen Ejecutivo
 
-El sector Technology/Software sigue siendo el mercado mas grande y dinamico del mundo, con Gartner pronosticando gasto IT global de $6.15T en 2026 (+10.8% YoY), y software enterprise creciendo ~15% impulsado por adopcion de AI y price increases por funcionalidades generativas. Sin embargo, el mercado esta atravesando DOS presiones simultaneas:
+El sector Technology/Software sigue siendo el mercado mas grande y dinamico del mundo, con Gartner pronosticando gasto IT global de $6.15T en 2026 (+10.8% YoY), y software enterprise creciendo ~14.7% impulsado por adopcion de AI y price increases por funcionalidades generativas. Gartner estima gasto total en AI de $2.52T en 2026 (+44% YoY), con GenAI model spending creciendo 80.8%. Sin embargo, el mercado esta atravesando TRES presiones simultaneas:
 
-1. **SaaSpocalypse estructural (2025-2026):** IGV (software ETF) ha caido 30% desde su pico en Sept 2025. El mercado esta repricing el riesgo de que AI commoditice software seat-based. J.P. Morgan lo llama "broken logic" y BofA dice que el sell-off es "illogico", pero el debate continua. Copilot de Microsoft tiene solo 15M asientos (3.3% de la base de 450M de M365 despues de 2 anos), y pierde share vs ChatGPT (55.2% vs 11.5% Copilot). Esto sugiere que la disrupcion AI es real pero NO esta fluyendo a traves de los incumbentes de la forma que el mercado temia.
+1. **SaaSpocalypse estructural (2025-2026):** IGV (software ETF) trading at ~$85, down -5.2% YTD y aun en bear market territory desde el pico de Sept 2025. El mercado reprecia el riesgo de que AI commoditice software seat-based. AI-native companies crecen al DOBLE que SaaS tradicional, comprimiendo ventanas competitivas. Pero Copilot de Microsoft tiene solo 15M asientos (3.3% de la base de 450M de M365 despues de 2 anos), y pierde share vs ChatGPT. Esto sugiere que AI disruption es real pero NO esta fluyendo a traves de los incumbentes bundled copilots como se temia.
 
-2. **Iran war risk-off (semana 2, Mar 2026):** Software vendiendo por risk-off general, no por miedo sectorial especifico. Oil $92 WTI crea riesgo de stagflation que retrasa rate cuts y comprime multiples de growth. Pero esto es CICLICO, no ESTRUCTURAL para el sector.
+2. **Iran war risk-off + oil shock (semana 3, Mar 2026):** Software vendiendo por risk-off general, no por miedo sectorial especifico. Oil ~$94 WTI crea riesgo de stagflation que retrasa rate cuts. Fed FOMC hoy holds at 3.50-3.75%. Rate cuts now pushed to Q4 2026. Pero esto es CICLICO, no ESTRUCTURAL para el sector.
 
-**Mi tesis sobre el sector (ACTUALIZADA):** El mercado sigue polarizado. Mega-caps (MSFT, GOOGL, NVDA) cotizan a valoraciones elevadas por AI hype. Dentro del sector existen bolsas de valor en: (1) **Quality compounders castigados por miedo a AI disruption + war risk-off** (ADBE a P/E 17x, -36% del maximo, near 52wL), (2) **EU software post-correction** (DSY.PA -54% de maximos, Q4 miss + weak guide), y (3) **UK IT services con problemas ciclicos** (BYIT.L en transicion de incentivos Microsoft).
+3. **Trade war escalation (Section 301, NEW):** Trump admin launched Section 301 probes into 16+ economies (China, EU, Mexico) + forced labor investigations into 60 economies. Blanket 10% tariff on all partners. New tariffs could be sector-specific (semiconductors targeted). Direct impact on software is LOW (digital goods, no physical supply chain), but INDIRECT impact through: (a) customer IT budget uncertainty, (b) FX volatility (strong USD hurts international revenue), (c) semiconductor supply disruption affecting hardware costs. For our position (ADBE): 40% international revenue exposed to FX but minimal tariff exposure on product.
 
-La realidad de AI enterprise: el gasto SUBE (+15% software), pero se CONSOLIDA en menos vendors. Los incumbentes con datos propietarios y ecosistemas (Adobe Firefly, SAP, Intuit GenOS) capturan el upside. El software commoditizado sin moat pierde. Cloud infrastructure crece ~30% YoY (Q4 2025: AWS +24%, Azure +30%, GCP +32%). GenAI features permiten price increases de 15-25% sobre base -- beneficia a incumbentes con poder de pricing.
+**Mi tesis sobre el sector (ACTUALIZADA Mar 18):** El mercado sobre-reacciona TRIPLEMENTE: (1) AI disruption risk es MENOR de lo temido -- Copilot failing, point solutions sobreviven, AI-first ARR growing 3x at incumbents, (2) war risk-off es TEMPORAL, no structuralmente relevante para software, y (3) tariff uncertainty es MOSTLY irrelevante para pure software companies (no physical goods). Los incumbentes con datos propietarios estan integrando AI y raising prices 15-25%. La oportunidad esta en quality compounders castigados injustamente. ADBE a P/E 14.8x near 52wL con CEO transition priced in es deep value para un quality compounder.
 
-**NOTA CRITICA (Mar 12):** ADBE Q1 FY2026 earnings. Revenue guide $6.25-6.30B. Focus en Firefly monetizacion, Digital Media ARR, FTC commentary. Framework bear/base/bull READY en thesis.
+**NOTA CRITICA (Mar 18):** ADBE CEO Narayen stepping down. Q1 FY2026 BEAT ($6.4B vs $6.28B est, EPS $6.06 vs $5.87). AI-first ARR tripled. Firefly subs +75% QoQ. MAU >850M (+17% YoY). Market focused on CEO uncertainty, ignoring operational strength. New KC#9 added: successor fails to maintain AI/growth strategy + rev growth <8% for 2 consecutive quarters. FTNT EXIT approved -- selling late April.
 
 ---
 
@@ -28,14 +29,18 @@ La realidad de AI enterprise: el gasto SUBE (+15% software), pero se CONSOLIDA e
 | Metrica | Valor | vs Historia | Tendencia |
 |---------|-------|-------------|-----------|
 | Global IT Spending | $6.15T (2026 Gartner) | +10.8% YoY | Acelerando por AI |
-| Enterprise Software Spending | $1.43T+ (2026) | +14.7% YoY | Strong, AI-driven |
-| TAM Global SaaS | $376B (2026) | +19% YoY | Creciendo 18.7% CAGR |
+| Enterprise Software Spending | $1.43T+ (2026) | +14.7% YoY | Strong, AI-driven (slightly revised down from 15.2%) |
+| Total AI Spending | $2.52T (2026 Gartner) | +44% YoY | Massive acceleration |
+| TAM Global SaaS | $376B (2026) | +15.1% YoY | Creciendo 18.7% CAGR to 2034 |
 | GenAI Model Spending | Growing 80.8% in 2026 | | AI infrastructure boom |
+| AI Infrastructure | $1.37T (2026 Gartner) | >50% of total AI spend | Server spend +49% |
 | Cloud Infrastructure Q4 2025 | $119.1B quarter | +30% YoY | AWS 24%, Azure 30%, GCP 32% |
-| P/E sector (forward) | 25-30x | vs 20x (10y avg) | Elevated but compressed by selloff |
-| IGV (Software ETF) | -30% from Sept 2025 peak | | Bear market territory |
+| XLK (Tech ETF) | $139.54 | -8.8% from 52wH | Recovering from selloff |
+| IGV (Software ETF) | ~$85 | -5.2% YTD | Bear market territory, recovering |
+| P/E sector (forward, XLK) | 34.4x | vs 25x (5y avg) | Elevated but compressed by selloff |
+| Fed funds rate | 3.50-3.75% | HOLD today | Next cut Oct-Dec 2026 |
 
-**Fuentes:** [Gartner IT Spending Forecast](https://www.gartner.com/en/newsroom/press-releases/2025-10-22-gartner-forecasts-worldwide-it-spending-to-grow-9-point-8-percent-in-2026-exceeding-6-trillion-dollars-for-the-first-time), [CIO Dive](https://www.ciodive.com/news/gartner-global-IT-spend-2026/803460/), [SaaStr: Software Spend +15.2%](https://www.saastr.com/gartner-enterprise-software-spend-will-grow-a-stunning-15-2-next-year-but-most-of-that-will-go-to-price-increases-and-ai-apps/)
+**Fuentes:** [Gartner IT Spending $6.15T](https://www.gartner.com/en/newsroom/press-releases/2026-02-03-gartner-forecasts-worldwide-it-spending-to-grow-10-point-8-percent-in-2026-totaling-6-point-15-trillion-dollars), [Gartner AI Spending $2.52T](https://www.gartner.com/en/newsroom/press-releases/2026-1-15-gartner-says-worldwide-ai-spending-will-total-2-point-5-trillion-dollars-in-2026), [SaaStr: Software Spend +15.2%](https://www.saastr.com/gartner-enterprise-software-spend-will-grow-a-stunning-15-2-next-year-but-most-of-that-will-go-to-price-increases-and-ai-apps/), [macro_fragility.py sector technology: XLK $139.54, VGT $727.40, QQQ $603.31]
 
 ---
 
@@ -48,19 +53,21 @@ La realidad de AI enterprise: el gasto SUBE (+15% software), pero se CONSOLIDA e
 |---------|-------|--------------|-----------|
 | Microsoft | SaaS general | #1 overall | Ecosistema, enterprise, Azure +30%. BUT Copilot only 3.3% penetration (15M/450M seats) |
 | Salesforce | CRM | #1 (60%+) | Plataforma, integraciones. Agentforce pivot |
-| Adobe | Creative/Docs | #1 (80%+ graphics) | Moat profesional, Firefly 3x gen growth QoQ. FTC trial Oct 2026 |
+| Adobe | Creative/Docs | #1 (80%+ graphics) | Moat profesional, Firefly AI-first ARR tripled YoY. CEO TRANSITION underway. FTC SETTLED. |
 | SAP | ERP | #1 tied | Enterprise lock-in, cloud transition |
 | Oracle | Database/Cloud | #3 | Legacy + cloud transition |
 | **Intuit** | **SMB Accounting + Tax** | **#1 (81% QBO, ~60% DIY tax)** | **GenOS platform, $100M OpenAI partnership** |
 | Tyler Technologies | Gov Software | #1 (11.2% share) | Switching costs, 98% retention |
 | **Dassault Systemes** | **PLM/3D Design** | **#1 (16.5% PLM)** | **90% aircraft, 80% autos. Cloud transition pain. NVIDIA partnership** |
 
-**AI Adoption Reality Check (NEW Mar 2026):**
+**AI Adoption Reality Check (Mar 2026):**
 - Microsoft Copilot: 15M seats = 3.3% of M365 base after 2 years. Market share FALLING (18.8% -> 11.5% of AI subscribers). Users prefer ChatGPT (76% vs 18% when both available)
 - ChatGPT: 55.2% of paid AI subscribers. Enterprise plan growing
-- Implication: AI features being adopted, but NOT necessarily through incumbent software vendors' bundled copilots. Standalone AI tools winning user preference. This REDUCES the "Copilot bundles everything" disruption risk for point solution software (positive for ADBE, negative for Microsoft's AI monetization)
+- AI-native SaaS companies growing at 2x traditional SaaS rate (28-42% price premiums for AI features)
+- Gartner: AI in "Trough of Disillusionment" throughout 2026 -- sold BY incumbent providers, not as moonshot projects. POSITIVE for established software companies with AI features
+- Implication: AI features being adopted, but NOT necessarily through incumbent bundled copilots. Standalone AI tools winning user preference. This REDUCES the "Copilot bundles everything" disruption risk for point solution software (positive for ADBE)
 
-**Fuentes:** [Recon Analytics: Copilot Adoption](https://www.reconanalytics.com/ai-choice-2026-why-licenses-dont-equal-adoption/), [Perspectives: MSFT AI Numbers](https://www.perspectives.plus/p/microsoft-ai-numbers-good-bad-ugly), [Stackmatix: Copilot Market](https://www.stackmatix.com/blog/copilot-market-adoption-trends)
+**Fuentes:** [Recon Analytics: Copilot Adoption](https://www.reconanalytics.com/ai-choice-2026-why-licenses-dont-equal-adoption/), [Gartner AI Trough of Disillusionment](https://www.gartner.com/en/articles/strategic-predictions-for-2026), [SaaS Statistics 2026](https://www.hostinger.com/tutorials/saas-statistics)
 
 ---
 
@@ -68,20 +75,22 @@ La realidad de AI enterprise: el gasto SUBE (+15% software), pero se CONSOLIDA e
 
 | Factor | Sensibilidad | Notas |
 |--------|--------------|-------|
-| Tipos de interes | **ALTA** | Tasas altas comprimen P/E de growth stocks. Oil $92 = rate cuts dead H1 2026 |
-| Recesion | Media | Enterprise es sticky, SMB mas expuesto. Oil shock risk to IT budgets |
-| Inflacion | Baja-Media | Pricing power para pasar costos, BUT oil inflation may redirect budgets to opex |
+| Tipos de interes | **ALTA** | Tasas holding 3.50-3.75%. Rate cuts dead until Q4 2026. Oil ~$94 supports higher-for-longer |
+| Recesion | Media | Enterprise es sticky, SMB mas expuesto. Oil shock risk to IT budgets but spending forecasts remain strong |
+| Inflacion | Baja-Media | Pricing power para pasar costos. AI features enabling 15-25% price increases |
 | Iran war / oil shock | **Media** | No direct impact. Risk-off compresses multiples. Potential IT budget re-prioritization if recession materializes |
+| Section 301 tariffs | **Baja** (direct) / **Media** (indirect) | Pure software = no tariff on product. Indirect: customer uncertainty, FX, semiconductor supply chain |
 
 **Mejor fase del ciclo:** Early/Mid (expansion de IT budgets)
 **Beta tipico:** 1.2-1.5
-**Correlacion con Fed:** Inversa - recortes de tasas = re-rating de software. Currently NEGATIVE: rate cuts off table H1 2026
+**Correlacion con Fed:** Inversa - recortes de tasas = re-rating de software. Currently NEGATIVE: rate cuts off table until Q4 2026
+**XLK from macro_fragility.py:** $139.54 (-8.8% from 52wH, +31.2% 12m change). P/E 34.4x trailing.
 
 ---
 
 ## Disrupcion y Riesgos
 
-### Tecnologicos (AI Impact) -- UPDATED Mar 2026
+### Tecnologicos (AI Impact) -- UPDATED Mar 18, 2026
 
 | Amenaza | Probabilidad | Impacto | Timeline | Afectados |
 |---------|--------------|---------|----------|-----------|
@@ -91,17 +100,17 @@ La realidad de AI enterprise: el gasto SUBE (+15% software), pero se CONSOLIDA e
 | **AI bundles commoditizan FSS** | **Alta** | **Alto** | **Ya ocurriendo** | **Dropbox, Box** |
 | **Copilot/ChatGPT replace point solutions** | **Media-Baja** (REVISED DOWN) | **Medio** | **3-5 anos** | **Less than feared. Copilot adoption disappointing** |
 | AI enhances PLM/simulation | **Baja** | **Positivo** | 2-4 anos | **Dassault, Siemens (BENEFICIARIES)** |
-| **AI tax filing agents** | **Media** | **Medio** | **3-5 anos** | **TurboTax DIY segment** |
 | **AI-driven vendor consolidation** | **Alta** | **Medium** | **Now** | **Smaller SaaS vendors losing to platform plays** |
+| **AI-native SaaS disruption** | **Media-Alta** | **Alto** | **1-3 anos** | **Traditional SaaS without AI features. AI-native growing 2x rate** |
 
-**Mi view sobre AI disruption (UPDATED):**
+**Mi view sobre AI disruption (UPDATED Mar 18):**
 - The Copilot disappointment (3.3% penetration, losing share to ChatGPT) is BULLISH for incumbent point-solution software. It means the "Microsoft bundles AI into everything and kills point solutions" narrative is NOT playing out as feared
-- Enterprise AI spend is UP (+15% software budgets) but flowing to FEWER vendors. Incumbents with data moats benefit: Adobe (Firefly trained on licensed content), SAP (enterprise data), Intuit (financial data)
+- Enterprise AI spend is UP ($2.52T, +44% YoY) but flowing to FEWER vendors. Incumbents with data moats benefit: Adobe (Firefly trained on licensed content, AI-first ARR tripled), SAP (enterprise data), Intuit (financial data)
+- Gartner says AI is in "Trough of Disillusionment" in 2026 -- enterprises buy AI from INCUMBENT providers, not moonshot startups. This is structurally positive for quality software companies
+- AI-native companies growing at 2x traditional SaaS rate with 28-42% price premiums -- the gap is widening. Companies WITHOUT AI features face existential risk
 - The REAL losers: commodity SaaS without moats (FSS, generic analytics, simple workflow tools). These are being replaced by ChatGPT/Claude directly
 - Cloud infrastructure (+30% YoY) is the PICKS AND SHOVELS play, not directly our sector focus
 - GenAI features enable 15-25% PRICING INCREASES for incumbents -- this is ACCRETIVE to revenue and margins for quality software companies
-
-**Fuentes:** [CNBC: SaaS Selloff](https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html), [Fortune: BofA rebuke](https://fortune.com/2026/02/04/why-saas-stocks-tech-selloff-freefall-like-deepseek-2025-overblown-paradox-irrational/), [Bain: SaaS Stocks](https://www.bain.com/insights/why-saas-stocks-have-dropped-and-what-it-signals-for-softwares-next-chapter/), [J.P. Morgan: Broken Logic](https://finance.yahoo.com/news/j-p-morgan-research-says-110500776.html)
 
 ### Regulatorios
 
@@ -110,26 +119,27 @@ La realidad de AI enterprise: el gasto SUBE (+15% software), pero se CONSOLIDA e
 | EU Digital Markets Act | Ya vigente | Medio - afecta gatekeepers |
 | US antitrust Big Tech | Media | Alto si se fragmentan |
 | AI regulation | Alta | Incierto - puede beneficiar incumbentes |
-| **ADBE FTC trial** | **Oct 2026** | **Binary for ADBE. Cancellation flow risk.** |
+| **Section 301 tariffs** | **Alta (probes launched)** | **Bajo directo para software, medio indirecto via customer uncertainty** |
+| **ADBE FTC** | **SETTLED ($150M)** | **RESOLVED. Trial CANCELLED. KC#6 removed.** |
 
 ### Competitivos
 
-- **Nuevos entrantes:** Startups IA (OpenAI, Anthropic) amenazan verticalmente BUT losing enterprise to incumbents' own AI features
+- **Nuevos entrantes:** Startups IA (OpenAI, Anthropic) amenazan verticalmente BUT losing enterprise to incumbents' own AI features. AI-native SaaS growing 2x rate is the real competitive pressure
 - **Sustitutos:** Open source ganando share en infra (no tanto en apps)
-- **Canva vs Adobe:** Canva AI threat real in prosumer, BUT Adobe's enterprise moat + Firefly differentiation holding
+- **Canva vs Adobe:** Canva AI threat real in prosumer, BUT Adobe's enterprise moat + Firefly differentiation holding. Firefly subs +75% QoQ validates monetization
 - **Siemens Altair vs Dassault Simulia:** Consolidation in simulation creates stronger competition
 
 ---
 
 ## Sentimiento de Mercado
 
-**Sentimiento actual:** **BEARISH across the board.** IGV -30% from peak. War risk-off ON TOP of SaaSpocalypse. Institutional underweight at 2021 levels. BUT this creates value: ADBE near 52wL at P/E 17x, BYIT.L recovering from lows.
+**Sentimiento actual:** **BEARISH but stabilizing.** IGV -5.2% YTD. XLK -8.8% from 52wH but +31.2% 12m. War risk-off + tariff uncertainty overlaid on SaaSpocalypse. BUT options traders buying dips on IGV (Feb data). Institutional underweight at 2021 levels.
 
 **Narrativa dominante:**
-"AI lo cambia todo. Solo invierte en los winners de AI (NVDA, MSFT). El resto es disruptable. Plus oil shock = recession = cut IT budgets."
+"AI lo cambia todo. Solo invierte en los winners de AI (NVDA, MSFT). El resto es disruptable. Plus oil shock + tariffs = recession = cut IT budgets. Adobe losing its CEO at the worst time."
 
 **Mi contra-tesis:**
-"El mercado sobre-reacciona DOBLEMENTE: (1) AI disruption risk is LESS than feared -- Copilot failing to gain traction proves point solutions survive, y (2) war risk-off es TEMPORAL, no structuralmente relevante para software. Los incumbentes con moats estan integrando AI y raising prices 15-25%. La oportunidad esta en quality compounders castigados injustamente. ADBE a P/E 17x near 52wL es la definicion de value."
+"El mercado sobre-reacciona TRIPLEMENTE: (1) AI disruption risk is LESS than feared -- Copilot failing, incumbents with data moats thriving (ADBE AI-first ARR tripled), (2) war risk-off es TEMPORAL, Gartner IT spend forecast UNCHANGED at $6.15T, y (3) tariffs barely affect pure software. ADBE at P/E 14.8x near 52wL, Q1 BEAT, FTC settled, CEO transition is orderly (Narayen stays as Chair). The market is pricing in leadership chaos that isn't happening. Quality compounders in software are the best risk/reward in the market right now."
 
 **Flujos de fondos (12m):** Inflows masivos en AI/Tech ETFs, outflows de software SaaS puro. Institutional underweight = structural buying opportunity when risk clears.
 
@@ -137,47 +147,39 @@ La realidad de AI enterprise: el gasto SUBE (+15% software), pero se CONSOLIDA e
 
 ## Nuestras Posiciones Actuales
 
-### ADBE - Adobe Inc. (Creative Software)
+### ADBE - Adobe Inc. (Creative Software) -- POSITION 8.2%
 
-- **Holding:** 3.83 shares, ~EUR 1,014 invested (ADD EUR 400 at $259.04 S126)
-- **Quality Score:** 76/73adj (Tier A)
-- **Current Price:** $283.62 (Mar 7). Near 52wL $244.28.
-- **Thesis:** Lider indiscutible en software creativo profesional. 89% gross margin, 30% ROIC, $9.8B FCF. Integrando AI via Firefly exitosamente (3x gen growth QoQ). Mercado sobrereacciono por miedo a AI disruption + war risk-off.
+- **Holding:** 3.83 shares, ~EUR 1,014 invested
+- **Quality Score:** 80 Tool / 77 adj (Tier A)
+- **Current Price:** $254.20 (Mar 18). Near 52wL $244.28. P/E 14.8x.
+- **Thesis:** Lider indiscutible en software creativo profesional. 89% gross margin, 53% ROIC, $9.8B FCF. Integrando AI via Firefly exitosamente (AI-first ARR tripled YoY, Firefly subs +75% QoQ, video gen +8x YoY). Mercado sobrereacciono por miedo a AI disruption + war risk-off + CEO transition.
+- **Q1 FY2026 RESULTS (Mar 12):** CONDITIONAL BEAT. Revenue $6.4B (+11% YoY, beat $6.28B est). EPS $6.06 (beat $5.87). MAU >850M (+17% YoY). Creative freemium MAU 80M (+50% YoY). Firefly Enterprise new customer acquisition +50% YoY.
+- **CEO TRANSITION (Mar 12):** Narayen stepping down after 18 years. Stays as Board Chair. Search committee led by Frank Calderoni (Lead Independent Director). Internal and external candidates. Shares -7% on news. Market overreaction -- transition is ORDERLY, not emergency. Narayen stays until successor installed.
+- **FTC:** SETTLED ($150M total, trial CANCELLED). KC#6 RESOLVED.
 - **Por que nos gusta:**
-  - Quality Compounder a precio de value stock (P/E 17x, -36% de maximos)
-  - E[CAGR] ~18%+ at current $283 >> 12% threshold
-  - AI es OPORTUNIDAD: Firefly Foundry (brand-specific AI models), video generation. 3x gen growth QoQ
+  - Quality Compounder a precio de deep value stock (P/E 14.8x, -40% de maximos)
+  - E[CAGR] ~24%+ at current $254 >> 12% threshold
+  - AI es OPORTUNIDAD: Firefly AI-first ARR tripled, video gen 8x, 850M MAU
   - FCF margin 41% (excepcional)
-  - Copilot's failure to gain traction REDUCES Copilot-bundle-threat to Adobe's point solutions
+  - Copilot's failure to gain traction REDUCES bundle-threat to Adobe's point solutions
+  - FTC RESOLVED -- #1 contrathesis risk eliminated
 - **Riesgos:**
-  - FTC trial Oct 2026 -- binary outcome. Cancellation flow mandate risk
+  - CEO transition uncertainty -- successor quality is binary. KC#9: if successor fails + rev growth <8% 2Q
   - War risk-off selling compressing multiple near-term
+  - Section 301 tariffs -- minimal direct impact but customer uncertainty
   - Canva/Figma in prosumer segment
-  - Beta alto (1.51) = volatil
-- **EARNINGS MAR 12:** Q1 FY2026. Guide $6.25-6.30B revenue. Focus: Firefly monetization, Digital Media ARR growth, AI-driven ARPU lift, FTC commentary. Framework READY.
-- **Status:** HOLD. Avg cost $264.73, FV $390, MoS ~27% at current price.
+  - Rate cuts delayed to Q4 2026 -- extended multiple compression
+- **Status:** HOLD. Avg cost $261.57, FV $406, MoS ~37% at current price.
 - **Thesis:** `/home/angel/value_invest2/thesis/active/ADBE/thesis.md`
 
-### BYIT.L - Bytes Technology Group plc (UK IT Services/VAR)
+### FTNT - Fortinet, Inc. (Cybersecurity) -- EXIT APPROVED
 
-- **Holding:** 110 shares, ~$444 invested
-- **Quality Score:** 68-72/100 (Tier B, adversarial-adjusted from 81)
-- **Current Price:** 316.40 GBp (Mar 7). +5.7% from cost.
-- **Thesis:** UK #1 software VAR. Net cash, 30% FCF margin. Fallen angel -44% due to Microsoft partner incentive restructuring (FY26). Named Microsoft Inner Circle Partner for AI Business Solutions 2025/2026 (top 1% globally).
-- **Por que nos gusta:**
-  - ROIC >> WACC, net cash, small position
-  - 80%+ recurring revenue, >95% implied customer retention
-  - Services +40% growth provides structural offset to margin pressure
-  - Inner Circle AI recognition = positioned for AI upsell cycle
-  - Softcat comparable trades at 25x P/E vs BYIT at 15x
-- **Riesgos:**
-  - Microsoft incentive restructuring ongoing -- H1 OP -7%. FY27 could bring further changes
-  - Insider ownership 0.4% (corrected from 9.6% in original thesis)
-  - Microsoft EA disintermediation structural risk
-  - UK mid-cap, lower liquidity
-  - UK economy under oil/recession pressure
-- **Status:** HOLD ON PROBATION. Entry at 296 GBp, FV 345 GBp (adversarial), MoS 8.4% at current price. FY2026 results ~May 2026 = decisive.
-- **Thesis:** `/home/angel/value_invest2/thesis/active/BYIT.L/thesis.md`
+- **Holding:** 10.57 shares, ~$862 invested
+- **Quality Score:** 87 Tool Tier A
+- **Current Price:** $83.16 (Mar 18). Near cost basis $84.
+- **EXIT APPROVED S152.** Selling late April. E[CAGR] 9.4% worst in portfolio. 3 KCs MONITORING. Rotate proceeds to SPGI + best available.
+- **Cancel exit if:** price drops to $73 OR Q1 PASS + guide raise (FV $95-100)
+- **Thesis:** `/home/angel/value_invest2/thesis/active/FTNT/thesis.md`
 
 ---
 
@@ -187,11 +189,10 @@ La realidad de AI enterprise: el gasto SUBE (+15% software), pero se CONSOLIDA e
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Portfolio | ADBE | thesis/active/ADBE/thesis.md | 2026-02-10 | HOLD. Earnings Mar 12. |
-| Portfolio | BYIT.L | thesis/active/BYIT.L/thesis.md | 2026-02-11 | HOLD ON PROBATION. FY results ~May 2026. |
-| Watchlist | TYL | thesis/research/TYL/thesis.md | 2026-02-04 | Entry $250. Currently $374.59 -- FAR from entry. |
-| Watchlist | DBX | thesis/research/DBX/thesis.md | 2026-02-05 | Entry $18-20. VALUE TRAP risk. |
-| Watchlist | DSY.PA | thesis/research/DSY.PA/thesis.md | 2026-02-11 | Entry EUR 15.50. Currently EUR 18.73. Getting closer (-16% away). |
+| Portfolio | ADBE | thesis/active/ADBE/thesis.md | 2026-03-14 | HOLD. CEO transition. Q1 BEAT. FV $406. |
+| Portfolio | FTNT | thesis/active/FTNT/thesis.md | 2026-03-13 | EXIT APPROVED. Selling late Apr. |
+| Watchlist | TYL | thesis/research/TYL/thesis.md | 2026-02-04 | Entry $250. Currently $374 -- FAR from entry. |
+| Watchlist | DSY.PA | thesis/research/DSY.PA/thesis.md | 2026-02-11 | Entry EUR 15.50. Q1 Apr 15. |
 | Watchlist | INTU | thesis/research/INTU/thesis.md | 2026-02-13 | Entry $285-300 (R3: FV $395, QS 72 Tier B). Currently $481 -- FAR. |
 | Watchlist | ALFA.L | thesis/research/ALFA.L/thesis.md | 2026-02-19 | R1 COMPLETE. Entry 175-180p. FV 265p. QS 83 Tier A. |
 
@@ -202,7 +203,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 2. Anadir al calendario: "RE-EVAL [tickers] por cambio en [sector]"
 3. Documentar el cambio en "Historial de Cambios"
 
-**ASSESSMENT: This update is NOT material (no status change, no structural shift). Existing dependencies remain valid. No NEEDS_REVIEW triggered.**
+**ASSESSMENT (Mar 18): This update is MATERIAL for ADBE specifically (CEO transition = KC#9 territory) but NOT material for sector status (NEUTRAL unchanged). ADBE already has KC#9 documented in thesis. No NEEDS_REVIEW triggered for other dependencies. ADBE already reviewed post-earnings S181. FTNT exit already approved.**
 
 ---
 
@@ -222,11 +223,11 @@ Cuando actualices este sector view con cambio MATERIAL:
 | Ticker | Empresa | Razon |
 |--------|---------|-------|
 | SNOW | Snowflake | P/S >15x, no profitability, hype valuation |
-| PLTR | Palantir | P/E >100x, gov dependency, volatile |
+| PLTR | Palantir | P/E >100x, gov dependency, volatile. #2 holding in XLK at 2.8% |
 | CRM | Salesforce | Good company pero P/E 25x+ no es value |
 | NOW | ServiceNow | P/E >50x, priced for perfection |
 | MSFT | Microsoft | Excelente empresa pero P/E 35x, no MoS. Copilot underperforming |
-| DBX | Dropbox | On watchlist but VALUE TRAP. Structural decline, AI-commoditized FSS |
+| DBX | Dropbox | VALUE TRAP. Structural decline, AI-commoditized FSS |
 
 ---
 
@@ -235,9 +236,8 @@ Cuando actualices este sector view con cambio MATERIAL:
 | Ticker | Empresa | FV | Entry | MoS Req | Reason | Fecha Analisis |
 |--------|---------|-----|-------|---------|--------|----------------|
 | TYL | Tyler Technologies | $280 | $250-260 | 20% (Tier B) | Wide moat gov software, QS 72. Currently $374 -- FAR from entry | 2026-02-04 |
-| DBX | Dropbox | $33 | $18-20 | 35-40% | **Value trap risk alto**. QS 73 pero declive estructural, users -1.5%/yr, commoditized FSS. AI-disruption ACTIVE. | 2026-02-05 |
-| **DSY.PA** | **Dassault Systemes** | **EUR 21.00** | **EUR 15.50-17.00** | **20-25%** | **#1 PLM globally, QS 78 (Tier A borderline). -54% from high. Cloud transition pain. "Dassault Exception" narrative shattered. At EUR 18.73 -- 16% from lower entry. Q1 Apr 15.** | **2026-02-11** |
-| **INTU** | **Intuit Inc.** | **$395 (R3)** | **$285-300** | **24-28%** | **R3 COMPLETE. QS 72 Tier B. SBC-adjusted FCF key correction. Currently $481 -- FAR from entry.** | **2026-02-13** |
+| **DSY.PA** | **Dassault Systemes** | **EUR 21.00** | **EUR 15.50-17.00** | **20-25%** | **#1 PLM globally, QS 78 (Tier A borderline). -54% from high. Cloud transition pain. Q1 Apr 15.** | **2026-02-11** |
+| **INTU** | **Intuit Inc.** | **$395 (R3)** | **$285-300** | **24-28%** | **R3 COMPLETE. QS 72 Tier B. Currently $481 -- FAR from entry.** | **2026-02-13** |
 | **PAYC** | **Paycom Software** | **$115 (R4)** | **$88** | **23.5%** | **R4 WATCHLIST. QS 75 adj (Tier A borderline). Per-seat pricing KC#8.** | **2026-02-14** |
 
 ---
@@ -246,14 +246,13 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| **Mar 12, 2026** | **ADBE Q1 FY2026 earnings** | **Framework READY. Firefly AI monetization, Digital Media ARR, FTC guidance. Most important near-term catalyst.** |
-| **Mar 12, 2026** | **US CPI Feb** | **If >2.6% headline, growth stocks selloff further. Rate cut hopes die.** |
-| **Mar 17-18, 2026** | **Fed FOMC** | **Hold certain. Statement language on oil/war crucial for multiples.** |
+| **Mar 18, 2026** | **Fed FOMC decision** | **Hold 3.50-3.75% certain (98.9%). Statement language on oil/war/tariffs crucial for tech multiples. Dot plot and SEP updates key.** |
 | Apr 15, 2026 | DSY.PA Q1 2026 earnings | First datapoint on FY2026 3-5% guide |
-| May 2026 | BYIT.L FY2026 results | **DECISIVE for probation exit/rotation.** |
-| H1 2026 | Fed rate cuts? | DEAD for H1 2026 (oil $92). Maybe Q4 2026 earliest. Delays re-rating. |
-| Oct 2026 | **ADBE FTC trial** | Binary risk. Cancellation flow mandate = KFC#6 |
-| Ongoing | Enterprise AI adoption | AI pricing power for incumbentes (+15-25% ARPU uplift) |
+| Late Apr 2026 | FTNT EXIT execution | Sell ~$83-88 range. Rotate proceeds. |
+| May 2026 | ADBE successor announcement? | Narayen said "a few months." If strong internal candidate = bullish. |
+| H2 2026 | Fed rate cuts? | Now expected Oct-Dec 2026 at earliest. Tariffs add uncertainty. Delayed re-rating for growth. |
+| Ongoing | Enterprise AI adoption | AI pricing power for incumbentes (+15-25% ARPU uplift). $2.52T total AI spending. |
+| Ongoing | Section 301 tariff outcomes | Probes into 16+ economies. Software mostly immune but customer uncertainty lingers. |
 
 ---
 
@@ -270,7 +269,19 @@ Cuando actualices este sector view con cambio MATERIAL:
 | 2026-02-11 | DSY.PA analizado -> Watchlist | Full fundamental analysis post -21% crash. QS 78, FV EUR 21.00 |
 | 2026-02-12 | INTU analizado -> Watchlist | QS 75 -> R3 QS 72 Tier B. FV $465 -> R3 $395. Insider selling concern |
 | 2026-02-14 | PAYC R4 WATCHLIST. Standing order $88 | QS 75 adj. Per-seat pricing risk KC#8 |
-| **2026-03-07** | **Update: Iran crisis + AI adoption data + earnings preview** | **Non-material update. Sector status NEUTRAL unchanged. Key additions: (1) Copilot adoption disappointing (3.3% penetration, losing share) -- reduces AI-bundle threat to point solutions, (2) Enterprise software spend +15% Gartner -- AI driving price increases, (3) Cloud infra +30% YoY, (4) War risk-off temporary, not structural for software, (5) ADBE earnings Mar 12 preview. BYIT.L price recovered to 316p (+5.7% from cost).** |
+| 2026-03-07 | BYIT.L SOLD (S143 restructuring) | QS 68 Tier B ON PROBATION. Orphan. Capital rotated to quality ADDs. P&L +5.7%. |
+| 2026-03-07 | Update: Iran crisis + AI adoption data + earnings preview | Non-material. Copilot disappointing, enterprise software +15%, war risk-off temporary |
+| 2026-03-15 | FOMC prep refresh | Oil $99, FOMC context, ADBE HOLD through FOMC |
+| **2026-03-18** | **MATERIAL UPDATE: ADBE CEO transition + Q1 BEAT + FOMC day + tariffs** | **Narayen stepping down (stays Chair). Q1 $6.4B (+11%), EPS $6.06 beat. AI-first ARR tripled. ADBE -7% on CEO news, now $254 P/E 14.8x. FTC SETTLED. FTNT EXIT approved (late Apr). Fed holds 3.50-3.75%. Section 301 probes into 16+ economies -- low direct software impact. BYIT.L removed from positions (SOLD Mar 7). DBX removed from watchlist (value trap). Sector NEUTRAL unchanged. MATERIAL for ADBE (KC#9 CEO succession) but thesis already updated.** |
+
+---
+
+## Historial de Analisis (Archivadas)
+
+| Ticker | Razon Archivo | Fecha | Leccion |
+|--------|---------------|-------|---------|
+| BYIT.L | SOLD S143. QS 68 Tier B ON PROBATION. Orphan, no platform. Capital rotated. P&L +5.7%. | 2026-03-07 | Insider ownership matters (claimed 9.6%, actual 0.4%). Microsoft dependency = structural risk. |
+| DBX | Removed from watchlist. VALUE TRAP confirmed. AI-commoditized FSS. | 2026-03-18 | FSS without moat = AI-disrupted first. Users declining -1.5%/yr. |
 
 ---
 
@@ -289,55 +300,47 @@ Cuando actualices este sector view con cambio MATERIAL:
 - Mover "Historial de Analisis" a archivo separado: world/sectors/archive/technology-history.md
 - Mantener solo ultimos 6 meses en "Analizadas - Watchlist"
 
-### Historial de Analisis (Archivadas)
-
-| Ticker | Razon Archivo | Fecha | Leccion |
-|--------|---------------|-------|---------|
-| (vacio) | | | |
-
 ---
 
 ## Fuentes Principales
 
 ### Sector-Level (Mar 2026)
-- [Gartner: IT Spending $6.15T in 2026](https://www.gartner.com/en/newsroom/press-releases/2025-10-22-gartner-forecasts-worldwide-it-spending-to-grow-9-point-8-percent-in-2026-exceeding-6-trillion-dollars-for-the-first-time)
+- [Gartner: IT Spending $6.15T in 2026 (+10.8%)](https://www.gartner.com/en/newsroom/press-releases/2026-02-03-gartner-forecasts-worldwide-it-spending-to-grow-10-point-8-percent-in-2026-totaling-6-point-15-trillion-dollars)
+- [Gartner: AI Spending $2.52T in 2026 (+44%)](https://www.gartner.com/en/newsroom/press-releases/2026-1-15-gartner-says-worldwide-ai-spending-will-total-2-point-5-trillion-dollars-in-2026)
 - [SaaStr: Enterprise Software Spend +15.2%](https://www.saastr.com/gartner-enterprise-software-spend-will-grow-a-stunning-15-2-next-year-but-most-of-that-will-go-to-price-increases-and-ai-apps/)
+- [Deloitte: 2026 Software Industry Outlook](https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/software-industry-outlook.html)
 - [Motley Fool: Enterprises Spending 15% More on Software Thanks to AI](https://www.fool.com/investing/2026/03/01/spending-more-ai-software-how-to-profit-msft/)
-- [TechCrunch: VCs Predict Enterprise AI Spend Through Fewer Vendors](https://techcrunch.com/2025/12/30/vcs-predict-enterprises-will-spend-more-on-ai-in-2026-through-fewer-vendors/)
 
 ### SaaSpocalypse / Software Selloff
 - [CNBC: AI Fears Pummel Software Stocks](https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html)
 - [Fortune: BofA Says Tech Selloff "Doesn't Make Sense"](https://fortune.com/2026/02/04/why-saas-stocks-tech-selloff-freefall-like-deepseek-2025-overblown-paradox-irrational/)
-- [Bain: Why SaaS Stocks Have Dropped](https://www.bain.com/insights/why-saas-stocks-have-dropped-and-what-it-signals-for-softwares-next-chapter/)
-- [J.P. Morgan: "Broken Logic" Driving Software Selloff](https://finance.yahoo.com/news/j-p-morgan-research-says-110500776.html)
 - [SaaStr: The 2026 SaaS Crash](https://www.saastr.com/the-2026-saas-crash-its-not-what-you-think/)
-- [Advisor Perspectives: Navigating the SaaSpocalypse](https://www.advisorperspectives.com/articles/2026/03/02/navigating-saaspocalypse)
 
 ### AI / Copilot Adoption
 - [Recon Analytics: Why Licenses Don't Equal Adoption](https://www.reconanalytics.com/ai-choice-2026-why-licenses-dont-equal-adoption/)
-- [Perspectives: Microsoft AI Numbers -- Good, Bad, Ugly](https://www.perspectives.plus/p/microsoft-ai-numbers-good-bad-ugly)
-- [Stackmatix: Copilot Market Adoption Trends](https://www.stackmatix.com/blog/copilot-market-adoption-trends)
-- [Forrester: Copilot Reality Check](https://www.forrester.com/blogs/the-copilot-reality-check-what-enterprise-adoption-data-reveals-about-the-ai-boom/)
-- [Microsoft Blog: 6 Core Capabilities for Agent Adoption](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/6-core-capabilities-to-scale-agent-adoption-in-2026/)
+- [Gartner: Strategic Predictions for 2026 (Trough of Disillusionment)](https://www.gartner.com/en/articles/strategic-predictions-for-2026)
+- [SaaS Statistics 2026: AI-native growing 2x](https://www.hostinger.com/tutorials/saas-statistics)
 
-### Adobe Pre-Earnings
-- [Blockonomi: ADBE Q1 Earnings Preview](https://blockonomi.com/adobe-adbe-stock-earnings-preview-q1-results-drop-thursday-amid-price-target-cuts/)
-- [Yahoo Finance: ADBE Up 5.1% on AI Optimism Pre-Earnings](https://finance.yahoo.com/news/why-adobe-adbe-5-1-220735808.html)
-- [Adobe Q4 FY2025 Transcript](https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q4fy25-transcript.pdf)
-- [Quantumrun: Adobe Firefly Statistics 2026](https://www.quantumrun.com/consulting/adobe-firefly-statistics/)
+### Adobe Q1 FY2026 + CEO Transition
+- [CNBC: Adobe CEO Narayen to Step Down](https://www.cnbc.com/2026/03/12/adobe-ceo-shantanu-narayen-step-down.html)
+- [Adobe Press Release: Leadership Update](https://news.adobe.com/news/2026/03/leadership-update)
+- [Futurum Group: Adobe Q1 FY2026 AI Monetization Progress](https://futurumgroup.com/insights/adobe-q1-fy-2026-earnings-show-ai-monetization-progress-amid-ceo-transition/)
+- [Fortune: Adobe CEO Stepping Down After 18 Years](https://fortune.com/2026/03/12/adobe-ceo-shantanu-narayen-stepping-down-after-18-years-pressure-deliver-ai/)
+- [MarketMinute: Adobe at a Crossroads](https://markets.financialcontent.com/stocks/article/marketminute-2026-3-17-adobe-at-a-crossroads-ceo-shantanu-narayen-to-step-down-amid-generative-ai-turbulence)
+
+### FOMC March 2026
+- [CNBC: Fed Interest Rate Decision March 2026](https://www.cnbc.com/2026/03/17/the-fed-issues-its-latest-interest-rate-decision-wednesday-heres-what-to-expect.html)
+- [Kiplinger: March Fed Meeting Live Updates](https://www.kiplinger.com/investing/live/march-fed-meeting-2026-live-updates-and-commentary)
+- [Seeking Alpha: How Stocks React After FOMC March 2026](https://seekingalpha.com/article/4881342-how-might-stocks-react-after-the-fomcs-march-2026-rate-decision)
+
+### Tariffs / Section 301
+- [Troutman: Section 301 as New Tariff Framework](https://www.troutman.com/insights/plan-b-after-ieepa-section-301-as-the-new-tariff-framework-for-overcapacity-and-forced-labor/)
+- [Brookings: After IEEPA Section 301 Investigations](https://www.brookings.edu/articles/after-ieepa-new-section-301-investigations-and-why-public-input-matters/)
+- [Global Trade Alert: Section 301 Trump's Tariff Tool](https://globaltradealert.org/blog/s301-trump-tariff-tool)
 
 ### Cloud Infrastructure
 - [Synergy Research: Cloud Market Share](https://www.srgresearch.com/articles/cloud-market-share-trends-big-three-together-hold-63-while-oracle-and-the-neoclouds-inch-higher)
-- [CIO Dive: Cloud's Big 3 Rule Infrastructure](https://www.ciodive.com/news/cloud-infrastructure-services-iaas-growth-aws-microsoft-google/757343/)
-
-### BYIT.L / Bytes Technology
-- [Bytes: Named Microsoft Inner Circle Partner 2025/2026](https://www.bytes.co.uk/info/news/bytes-named-microsoft-inner-circle-partner-2025)
-- [Investing.com: Bytes Shares Tumble on Microsoft Changes](https://uk.investing.com/news/earnings/bytes-technology-group-shares-tumble-as-profit-falls-amid-microsoft-changes-93CH-4302576)
-
-### DSY.PA / Dassault Systemes
-- [MarketMinute: "Dassault Exception" Shatters](https://markets.financialcontent.com/stocks/article/marketminute-2026-2-18-the-dassault-exception-shatters-software-giant-plunges-19-on-weak-2026-outlook)
-- [Seeking Alpha: Dassault One of Best IT Potentials for 2026](https://seekingalpha.com/article/4864751-dassault-systmes-one-of-the-best-it-potentials-for-2026)
 
 ---
 
-*Proxima revision: 2026-03-12 (ADBE Q1 earnings) o ante cambio material*
+*Proxima revision: 2026-03-25 (post-FOMC digest + FTNT pre-exit check) o ante cambio material*
