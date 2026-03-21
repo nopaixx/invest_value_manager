@@ -440,6 +440,26 @@ standing_orders:
     last_analysis_date: 2026-03-21
     expiry: 2026-12-31
 
+  - ticker: ITRK.L
+    action: BUY
+    category: ACTIVE
+    fill_prob_6m: 80
+    trigger: "<=3700 GBp"
+    current_distance: "-2.9%"
+    created_date: "2026-03-21"
+    staleness_status: FRESH
+    r4_status: "BUY APPROVED (S282, 2026-03-21). 10/10 gates PASS. Gate 7 CONDITIONAL (cash tight)."
+    size_eur: 300
+    fair_value: "4700 GBp (R3 S147. DA -15%. WACC corrected 7.3%→9.0%. Moat NARROW.)"
+    mos_at_trigger: "21.3%"
+    tier: "B (QS 65)"
+    ecagr_at_trigger: "~18.5%"
+    notes: "S282 R4 APPROVED. TRIGGERED at 3592p < 3700p entry. TIC sector SOBREPONDERAR. EU AI Act Aug 2 2026 = structural catalyst. FCF declined -15% (watch H1 2026). SPGI takes priority for cash — ITRK.L uses FTNT exit capital (late April). If SPGI doesn't trigger by FTNT exit → ITRK.L gets EUR 300 first."
+    kill_conditions: "Organic rev <3% 2Q, AAA margin stalls <16.5% 2Q, FCF <GBP 350M, CEO departure, net debt >2.0x EBITDA, client loss top-10"
+    pre_execution_condition: "Capital from FTNT exit (late April). SPGI $420 has priority for current EUR 424 cash. Execute ITRK.L with FTNT proceeds if available."
+    last_analysis_date: 2026-03-21
+    expiry: 2026-12-31
+
   - ticker: WING
     action: BUY
     category: GATED
