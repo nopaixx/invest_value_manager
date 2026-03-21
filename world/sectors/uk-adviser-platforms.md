@@ -1,13 +1,13 @@
 # Sector: UK Adviser Investment Platforms
 
-> Ultima actualizacion: 2026-03-07 (S142)
+> Ultima actualizacion: 2026-03-21
 > Status: SELECTIVO - Quality platform economics intact but AUM under short-term pressure from Iran war selloff + oil shock. Proprietary tech platforms preferred. Fee compression structural but slowing.
 
 ## Resumen Ejecutivo
 
 UK adviser investment platforms provide technology infrastructure for financial advisers to manage client portfolios. Revenue is driven by assets under administration (basis points on FUA), creating natural leverage to rising markets -- and vulnerability to selloffs. The sector is in a consolidation phase: Hargreaves Lansdown taken private by CVC/Nordic Capital/ADIA (completed Mar 2025, GBP 5.4bn), leaving AJ Bell, IntegraFin (Transact), Quilter, and abrdn (interactive investor) as the listed/public players.
 
-**CRISIS OVERLAY (Mar 2026):** The Iran war, oil at $92 WTI, VIX 27, and FTSE 100 -5.5% weekly create a TEMPORARY AUM headwind for all platforms. AUM-based fee revenue is mechanically linked to market levels -- a 10% market decline translates roughly to a 10% revenue decline (before new inflows partially offset). However, this is NOT structural damage to platform businesses. Platform switching costs are high (adviser relationships, client migration friction), and net inflows continue regardless of market direction. The key question is duration of the selloff, not its occurrence.
+**CRISIS OVERLAY (Mar 2026, updated 2026-03-21):** FTSE 100 has recovered strongly — crossed 10,000 and approaching 11,000, +14% YTD. Crisis AUM headwind from early Mar largely reversed. Platform AUM should be at or near record levels. Original concern (Iran war, oil shock, FTSE selloff) was correctly identified as TEMPORARY for all platforms. AUM-based fee revenue is mechanically linked to market levels -- a 10% market decline translates roughly to a 10% revenue decline (before new inflows partially offset). However, this is NOT structural damage to platform businesses. Platform switching costs are high (adviser relationships, client migration friction), and net inflows continue regardless of market direction. The key question is duration of the selloff, not its occurrence.
 
 Revenue margin compression remains the dominant structural headwind: pricing pressure from competition and tiering effects as larger client portfolios enter lower charging bands. IntegraFin guides margin compression "slowing" in FY2026. Most platforms now at 20-23bps revenue margin vs 25-30bps five years ago. Volume growth (more FUA) has been outpacing margin compression -- the critical dynamic to monitor.
 
@@ -57,17 +57,17 @@ Revenue margin compression remains the dominant structural headwind: pricing pre
 
 ---
 
-## FCA Regulatory Developments (Updated Mar 2026)
+## FCA Regulatory Developments (Updated 2026-03-21)
 
 | Regulation | Status | Impact on Platforms | Timeline |
 |------------|--------|-------------------|----------|
 | **Consumer Duty** | Phase 2: Outcomes evidence | Platforms must PROVE good outcomes (fair value, suitable products). Benefits quality platforms with transparent pricing. Higher compliance costs disadvantage smaller players | Ongoing 2026. FCA expects continuous monitoring evidence |
 | **Targeted Support** | NEW channel from 2026 | FCA allowing advice firms to offer simplified "targeted support" without full advice wrapper. Opens addressable market for platforms | Early 2026 rollout. Quilter already announced plans |
-| **MPS Review** | FCA starting Q4 2025 | Multi-firm review of Model Portfolio Services. How MPS providers implement Consumer Duty. Could affect platforms with large MPS books | Findings expected summer 2026 |
+| **MPS Review** | FCA multi-firm review IN PROGRESS | FCA 2026 Regulatory Priorities (published Mar 4 2026) confirmed MPS review progressing. Assessing Consumer Duty implementation by MPS firms. Distribution chain scrutiny + client categorisation consultation upcoming | Findings expected summer 2026 |
 | **Pension reforms** | Ongoing | Pension freedoms continue driving SIPP usage. Any changes to ISA/SIPP rules affect platform flows | Budget-related speculation drives flow spikes |
 | **Fee transparency** | Ongoing | FCA pushing for clearer fee disclosure. Benefits simple-fee platforms (Transact, AJ Bell) vs complex charging structures | Structural tailwind for transparent platforms |
 
-**Net regulatory assessment:** FAVORABLE for quality platforms. Consumer Duty raises barriers to entry, increases compliance costs (disadvantages small players), and benefits platforms with transparent pricing and strong technology. IntegraFin/Transact well-positioned -- proprietary tech enables compliance automation.
+**Net regulatory assessment:** FAVORABLE for quality platforms. FCA 2026 Regulatory Priorities (Mar 4 2026) confirmed Consumer Duty remains central pillar of FCA strategy 2025-2030 — relying on Duty rather than creating new prescriptive rules. Distribution chain clarification consultation upcoming. Consumer Duty raises barriers to entry, increases compliance costs (disadvantages small players), and benefits platforms with transparent pricing and strong technology. IntegraFin/Transact well-positioned -- proprietary tech enables compliance automation.
 
 ---
 
@@ -103,6 +103,7 @@ Revenue margin compression remains the dominant structural headwind: pricing pre
 | Regulatory change (SIPP/ISA) | Baja | Medio | Ongoing | Budget speculation drives flow spikes but structural rules unlikely to change |
 | **Market selloff / AUM decline** | **ACTIVE** | **Medio** | NOW | Iran war + oil $92. Mechanical AUM decline. TEMPORARY |
 | Platform outage / cyber | Baja | Alto | Ongoing | Reputational damage. Proprietary tech platforms have more control |
+| **Altruist AI platform launch** | **Baja-Media** | **Medio** | **2026** | Altruist launched AI-powered adviser platform; AJ Bell and IHP.L fell 4-6% on news. US-focused initially but signals tech disruption vector. Proprietary tech platforms (Transact) better positioned to integrate AI than outsourced |
 
 ---
 
@@ -149,6 +150,7 @@ Revenue margin compression remains the dominant structural headwind: pricing pre
 
 | Fecha | Cambio | Tipo | Razon |
 |-------|--------|------|-------|
+| 2026-03-21 | Mini-update | MENOR | FTSE recovery (crisis AUM headwind reversed), FCA 2026 Regulatory Priorities published Mar 4, MPS review in progress, Altruist AI disruption risk added, Berenberg bullish initiation |
 | 2026-03-07 | Full sector view update | MATERIAL | Iran war AUM impact, HL takeover complete, FCA Consumer Duty phase 2, Q1 FY26 data, competitive landscape update |
 | 2026-02-27 | IHP.L moved to Portfolio | MATERIAL | Position doubled. ADD S127 at 320p |
 | 2026-02-24 | IHP.L BUY executed | MATERIAL | First position in sector. Market buy at 318p |
@@ -170,3 +172,7 @@ Revenue margin compression remains the dominant structural headwind: pricing pre
 - [UK stocks plunge on Iran conflict](https://www.globalbankingandfinance.com/uk-stocks-plunge-iran-conflict-sparks-global-selloff/)
 - IntegraFin FY25 Annual Results (Dec 2025)
 - macro_fragility.py data 2026-03-06
+- [FCA 2026 Regulatory Priorities: Consumer Investments](https://financialregulation.linklaters.com/post/102mm1y/fca-sets-out-its-2026-regulatory-priorities-for-consumer-investments)
+- [FCA Regulatory Priorities Report 2026](https://www.regulationtomorrow.com/2026/03/fca-regulatory-priorities-report-2026-consumer-investments/)
+- [Altruist AI launch impacts platform stocks](https://www.proactiveinvestors.co.uk/companies/news/1087181)
+- [Berenberg bullish platform initiation](https://www.proactiveinvestors.com/companies/news/907553)

@@ -1,6 +1,6 @@
 # Sector: Education Services
 
-> Ultima actualizacion: 2026-03-08
+> Ultima actualizacion: 2026-03-21
 > Status: SOBREPONDERAR (selectivamente -- asset-light education services, NOT edtech platforms)
 
 ## Resumen Ejecutivo
@@ -76,13 +76,21 @@ The sector trades at a discount to the broader market (median P/E 14-16x vs S&P 
 - Accreditation reform: lowering barriers for new accreditors, reducing compliance burden
 - Gainful Employment rule from Biden era being replaced by AHEAD framework (One Big Beautiful Bill Act)
 
-**AHEAD Framework (effective July 2026):**
+**AHEAD Framework (effective July 2026) — updated 2026-03-21:**
 - New accountability metric: "Ineligibility Based on Low Earnings Outcomes"
 - Programs must show graduates earn more than non-college adults in their state
 - Must demonstrate graduates can afford yearly debt payments
 - Failing BOTH tests in 2 consecutive years leads to Title IV loss
 - More targeted than Biden-era blanket gainful employment rule
+- **OBBBA Rulemaking consensus reached Jan 2026:** DOE concluded negotiated rulemaking. 55% of students in failing programs attend for-profit institutions. 29% of undergrad certificate programs estimated to fail vs only 1% of bachelor.s programs. Quality operators (LOPE, STRA, ATGE) with strong graduate outcomes should PASS easily
 - NET IMPACT: positive for quality operators (LOPE, STRA, ATGE) whose graduates have good outcomes; negative for low-quality diploma mills
+
+**OBBBA Graduate Loan Caps (effective July 1, 2026 — NEW):**
+- Grad PLUS program ELIMINATED for new borrowers
+- Annual cap: $20,500 grad / $50,000 professional. Aggregate: $100K grad / $200K professional
+- Parent PLUS capped at $20,000/yr ($65,000 lifetime)
+- Legacy borrowers grandfathered for 3 academic years
+- IMPACT ON LOPE: Primarily affects GRADUATE programs at GCU. GCU is ~80% undergrad — limited direct impact. Graduate enrollment may face affordability pressure but GCU.s tuition ($7-16K/yr online) is well below cap thresholds. NET: NEUTRAL to SLIGHTLY POSITIVE (hurts expensive grad schools more, making GCU.s value proposition stronger)
 
 **Title IV Funding:**
 - Lifeblood of the sector -- most for-profit education revenue ultimately comes from federal student aid
@@ -185,7 +193,8 @@ The sector trades at a discount to the broader market (median P/E 14-16x vs S&P 
 - **QS:** 75 (Tier A)
 - **FV:** $205 | Current: $166.54 | MoS: 18.7%
 - **Thesis:** Asset-light education services compounder. 30%+ ROIC, 21% FCF margins, 10% expected growth (7% organic + buybacks). Regulatory overhang resolved (GCU nonprofit status Dec 2025). Main risk: GCU concentration (~85% of revenue).
-- **Key Catalyst:** MSA renewal visibility, new partner wins, margin expansion
+- **Key Catalyst:** MSA renewal visibility, new partner wins, margin expansion, AHEAD framework implementation (Jul 2026 — LOPE well-positioned to pass earnings test)
+- **Regulatory Update (2026-03-21):** OBBBA grad loan caps neutral-to-positive for LOPE (GCU ~80% undergrad, tuition well below cap). AHEAD rulemaking consensus reached — 55% of failing programs are for-profit but concentrated in low-quality certificate programs, not LOPE.s segment. Strong 2026 guidance: revenue $1.06-1.08B, EPS $8.13-8.33, $200M buyback authorized
 - **Next Step:** R2 (Devil's Advocate) focusing on concentration risk and regulatory scenarios
 
 ---
@@ -253,6 +262,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-03-21 | Mini-update: OBBBA grad loan caps, AHEAD rulemaking consensus, LOPE 2026 guidance | OBBBA eliminates Grad PLUS, caps at $20.5K/yr. AHEAD consensus reached Jan 2026. LOPE beat Q4, strong 2026 guide |
 | 2026-03-08 | Sector view created (Status: SOBREPONDERAR selective) | LOPE R1 complete, Error #30 gate requires sector view for pipeline advancement |
 
 ---
@@ -278,3 +288,8 @@ Cuando actualices este sector view con cambio MATERIAL:
 - yfinance (price and valuation data, March 2026)
 - Brookings Institution (DOE policy analysis)
 - Coursera AI in Higher Education Report (Feb 2026)
+- [OBBBA Student Loan Changes - Harvard SFS](https://sfs.harvard.edu/2025-changes-federal-student-loans)
+- [DOE Concludes AHEAD Rulemaking](https://www.ed.gov/about/news/press-release/us-department-of-education-reaches-consensus-historic-new-accountability-framework-and-concludes-higher-education-reform-rulemaking-sessions)
+- [AHEAD Rulemaking Session 2 Recap](https://ticas.org/accountability/ahead-neg-reg-session-2-recap-jan-2026/)
+- [LOPE Q4 2025 Earnings - Strong 2026 Guidance](https://www.signalbloom.ai/news/LOPE/grand-canyon-education-beats-q4-estimates-strong-2026-guidance-masks-full-year-profit-distortions)
+- [Federal Student Aid OBBBA Changes](https://studentaid.gov/announcements-events/big-updates)

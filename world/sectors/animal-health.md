@@ -1,6 +1,6 @@
 # Sector: Animal Health
 
-> Ultima actualizacion: 2026-03-13
+> Ultima actualizacion: 2026-03-21
 > Status: SOBREPONDERAR (selectivo — calidad en drawdown por problema idiosincratico)
 
 ## Resumen Ejecutivo
@@ -66,14 +66,15 @@ Mi tesis: el mercado esta sobrepenalizando ZTS por Librela. Los margenes siguen 
 ### Tecnologicos
 | Amenaza | Probabilidad | Impacto | Timeline |
 |---------|--------------|---------|----------|
-| GLP-1 for pets (Okava OKV-119) | Baja-Media | Bajo (complementary, not substitutive) | 2027-28 FDA filing |
+| GLP-1 for pets (Okava OKV-119) | Baja-Media | Bajo (complementary, not substitutive) | MEOW-1 cat trial dosing underway. Results expected summer 2026. Dog trial to follow. FDA approval ~2028. 6-month implant, ~$100/mo. Does NOT compete with ZTS pain/parasiticide portfolio — different indication (obesity) |
 | AI diagnostics (IDEXX) | Media | Bajo para pharma (helps diagnostics) | En progreso |
 | Telehealth vet | Baja | Bajo (prescriptions still needed) | 2025+ |
 
 ### Regulatorios
 | Regulacion | Probabilidad | Impacto |
 |------------|--------------|---------|
-| FDA adverse event scrutiny (Librela) | ACTIVO | ALTO — driving ZTS selloff |
+| FDA adverse event scrutiny (Librela) | ACTIVO | ALTO — driving ZTS selloff. Label updated Feb 2025 with post-approval experience section. 25M+ doses globally, AE rate <10/10,000 (rare). |
+| **Apoquel US patent expiry Nov 2026** | **CERTAIN** | **MEDIO-ALTO — $1.0B+ revenue at risk. Generic oclacitinib expected post-expiry. EU patent already expired Sep 2024. Key monitoring point for ZTS thesis.** |
 | EU pharmacovigilance changes | Baja | Medio |
 | Antibiotic resistance regulations | Media | Medio — livestock impact |
 
@@ -140,7 +141,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Ticker | Empresa | FV | Entry | MoS Req | Thesis | Fecha Analisis |
 |--------|---------|----|----- -|---------|--------|----------------|
-| (ninguna aun) | | | | | | |
+| ZTS | Zoetis | $130 | $95-100 | ~25% | R1 Complete, SO $95 GATED on Q1 earnings May 2026 | 2026-03-13 |
 
 ---
 
@@ -148,8 +149,10 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| 2026-03-13 | ZTS at 52wL ($115.23) | POSITIVE — entry opportunity |
+| 2026-03-21 | ZTS ~$116 near 52wL ($114.47) | POSITIVE — entry opportunity if Q1 clears Librela fears |
+| **2026-11 (est)** | **Apoquel US patent expiry** | **KEY — generic competition begins. Monitor erosion pace vs ZTS guidance** |
 | Q2 2026 | ZTS Q1 2026 earnings (~May) | KEY — Librela trajectory, guide update |
+| 2026 summer | Okava MEOW-1 results (cat GLP-1 trial) | MONITOR — if positive, dog trial next. FDA approval ~2028. Complementary to ZTS, not substitutive |
 | 2027-28 | Okava OKV-119 FDA filing | MONITOR — pet GLP-1 |
 | 2026 ongoing | FDA Librela pharmacovigilance | RISK — could worsen or stabilize |
 
@@ -159,6 +162,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-03-21 | Mini-update: Apoquel patent Nov 2026, Librela label updated, MEOW-1 dosing, ZTS watchlist | Apoquel US patent expiry confirmed Nov 2026 (generic risk). Librela FDA label updated Feb 2025 (AE rare). Okava MEOW-1 cat trial underway. ZTS added to Analizadas |
 | 2026-03-13 | Status inicial: SOBREPONDERAR (selectivo) | ZTS fallen angel at 52wL, sector quality + idiosyncratic opportunity |
 
 ---
@@ -171,4 +175,8 @@ Cuando actualices este sector view con cambio MATERIAL:
 - [ZTS Stock -24.8% YTD Analysis](https://finance.yahoo.com/news/zoetis-stock-plummets-24-8-144700688.html)
 - [Zoetis Building a Moat in $112B Market](https://www.ainvest.com/news/zoetis-building-moat-112-billion-market-ensure-minimum-rivalry-2601/)
 - [GLP-1 for Cats: Clinical Trial](https://abcnews.go.com/GMA/Wellness/weight-loss-drugs-cats-company-launches-clinical-trial/story?id=128054236)
+- [Okava MEOW-1 First Cat Dosed](https://www.cbs42.com/business/press-releases/ein-presswire/871966123/okava-announces-first-cat-dosed-in-meow-1-study-of-okv-119)
+- [Apoquel Patent Expiration Analysis](https://pharsight.greyb.com/drug/apoquel-patent-expiration)
+- [Librela Label Update Feb 2025](https://news.zoetis.com/press-releases/press-release-details/2025/Zoetis-Announces-U.S.-Label-Update-for-Librela)
+- [FDA Dear Veterinarian Letter - Librela](https://www.fda.gov/animal-veterinary/product-safety-information/dear-veterinarian-letter-notifying-veterinarians-about-adverse-events-reported-dogs-treated-librela)
 - [Animal Health Market Size 2026-2035](https://www.researchnester.com/reports/animal-health-market/1225)
