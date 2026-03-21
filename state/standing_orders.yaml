@@ -420,6 +420,26 @@ standing_orders:
     last_analysis_date: 2026-03-21
     expiry: 2027-03-31
 
+  - ticker: CMCSA
+    action: BUY
+    category: ACTIVE
+    fill_prob_6m: 50
+    trigger: "<=$28"
+    current_distance: "3.6%"
+    created_date: "2026-03-21"
+    staleness_status: FRESH
+    r4_status: "BUY CONDITIONAL (S281, 2026-03-21). 10/10 gates PASS."
+    size_eur: 300
+    fair_value: "$33 (R3 post-DA. DA bear $26.50. Probability-weighted $30.)"
+    mos_at_trigger: "15.2%"
+    tier: "B (QS 60)"
+    ecagr_at_trigger: "~17.3%"
+    notes: "S281 R4 APPROVED CONDITIONAL. Broadband cable monopoly + theme parks (Epic Universe) + Peacock streaming. DA MODERATE COUNTER: broadband erosion accelerating (Q4 -181K), FWA capacity doubled, no edge vs consensus. Committee reduced sizing 4%→3%. Dodge & Cox 3.1% ownership. Insider net buying. SI 2.2% low. Prefer post-Q1 but don't hard-block. Capital: FTNT exit EUR 775 or Mar 26 surplus EUR 524."
+    kill_conditions: "Broadband >250K loss/Q x2, Peacock losses widen vs FY2025, dividend cut, leverage >3.5x, FCF <$12B x2, ARPU+volume double decline, content spend >$10B/yr, Roberts M&A >$20B"
+    pre_execution_condition: "Q1 2026 earnings (late April) preferred but not hard gate. If triggers at $28 pre-Q1, execute at 3% sizing. Upgrade to 4% if Q1 broadband <150K + ARPU stable."
+    last_analysis_date: 2026-03-21
+    expiry: 2026-12-31
+
   - ticker: WING
     action: BUY
     category: GATED
