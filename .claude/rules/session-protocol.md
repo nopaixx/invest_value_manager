@@ -47,6 +47,14 @@ FASE 0: Calibracion v4.8
     → 2. What's broken? Check trigger_summary.red_count. If >=4 → P8e URGENTE in plan.
     → 3. Am I coasting on process? Quick self-check against identity.md Section 7.
     → 4. Scheduled reviews due? Check scheduled_reviews[] for due_session <= current. Add to plan.
+  → **FASE 0.0c: ACCOUNTABILITY CHECK** (S275-S277, EVERY session post-compaction)
+    → Read `state/meta_reflection_tracker.yaml` → material_events[] + open_items[]
+    → Read `state/agreed_objectives.md` → active decisions, cash policy, megatrends
+    → Read `state/naming_contract.md` → 7 canonical filenames (enforce in all agent prompts)
+    → IF first session after compaction: run `python3 tools/meta_compliance.py` → score baseline
+    → Check: any material_events with status STALE or PARTIAL? → prioritize doc updates
+    → Check: any open_items with deadline approaching (<7d)? → prioritize resolution
+    → Check: compliance score <60? → pipeline PAUSE until improved
   → **STRATEGIC DIRECTION CHECK** (system.yaml → strategic_direction)
     → ¿Sigue siendo valida la direccion actual? ¿Algo cambio?
     → Si cambio → ACTUALIZAR direccion ANTES de actuar
