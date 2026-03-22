@@ -144,6 +144,14 @@ FASE 2: Estado del Portfolio
 
 FASE 2.5: Rotation Check + Net Exposure Reasoning (P13)
   → forward_return.py --basket (incluye shorts) → bottom 3 → pipeline health → cash deployment → conviction update
+  → **SIZING CONCENTRATION CHECK (S283 — OBLIGATORIO cada sesion):**
+    → constraint_checker.py REPORT → check if ANY position >13% of portfolio
+    → IF >13%: MANDATORY SIZING REVIEW within 1 session
+      → Answer 5 questions with data: zero-base test, E[CAGR] vs median, Sharpe impact, drawdown, decision
+      → Write re_evaluation.md if MAINTAIN (explicit justification required)
+      → TRIM if Sharpe improves AND E[CAGR] sacrifice <0.5pp portfolio
+    → IF >15%: ELEVATED — same review but TRIM is DEFAULT unless E[CAGR] is #1 in portfolio
+    → This prevents path dependency accumulation (EDEN.PA 18.4% was never decided, it happened)
   → **T15 SIZING-CONVICTION CHECK (OBLIGATORIO cada sesion):**
     → portfolio_cagr.py → record blended E[CAGR]
     → Rank positions by size% AND by E[CAGR] → calculate rank correlation
