@@ -152,11 +152,12 @@ baskets:
       - world/sectors/financial-data-analytics.md
       - world/sectors/professional-information-services.md
     positions:
-      - TW      # Bond trading platform, QS 84adj Tier A — NEW S143
+      - TW      # Bond trading platform, QS 84adj Tier A — EXIT CONDITIONAL Q1 April
       - WKL.AS  # Legal/tax/health information monopolist, QS 72 Tier B — NEW S143
     entering:
       - SPGI    # BUY late April (post-FTNT exit). Ratings duopoly, QS 76adj Tier A, R4 APPROVED. FV $470.
     pipeline:
+      - ITRK.L  # Credit data/analytics monopoly, QS ~80 Tier A, R4 APPROVED. TW replacement if Q1 disappoints.
       - ICE     # Exchange + data monopoly, QS 65adj Tier B, SCORED
       - NDAQ    # Exchange + data, QS 67adj Tier B, 11% insider, SCORED
     shared_risks:
@@ -170,11 +171,11 @@ baskets:
       - "Major regulatory restructuring of credit ratings industry"
       - "2+ positions hit individual KCs simultaneously"
     vitality_signals:
-      positive: ["SPGI R4 APPROVED, entering late April = 3 positions", "WIDE moats across all three", "Global AUM at ATH", "7 quality funds hold SPGI (Markel, Dodge & Cox)", "TW WIDE moat 20/25"]
-      negative: ["Sector trades at premium multiples (P/E 28-35x)", "TW insider selling $26.3M in Feb", "WKL.AS receivables +23% vs rev +3.5%"]
-    last_reviewed: 2026-03-13
+      positive: ["SPGI R4 APPROVED, entering late April = 3 positions", "WIDE moats across all three", "Global AUM at ATH", "7 quality funds hold SPGI (Markel, Dodge & Cox)", "ITRK.L R4 APPROVED as TW replacement — improves basket E[CAGR] by ~5pp"]
+      negative: ["Sector trades at premium multiples (P/E 28-35x)", "TW EXIT CONDITIONAL Q1 April (E[CAGR] 13% bottom tercile, SM absent)", "WKL.AS receivables +23% vs rev +3.5%"]
+    last_reviewed: 2026-03-22
     created: 2026-02-28
-    notes: "S153: SPGI entering late April via FTNT rotation (EUR 400). Post-entry: 3 positions (TW 5.8%, WKL.AS 7.6%, SPGI ~3.9%) = ~17% portfolio. STRONGEST by moat quality (all WIDE). Oil-NEUTRAL (all data/subscription). E[CAGR] avg 15.0%. SPGI $420 = at $420 trigger, Q1 May 5. TW bottom-tercile E[CAGR] 13.5% but WIDE moat justifies. WKL.AS receivables +23% still unresolved — monitor Q1."
+    notes: "S284: TW EXIT CONDITIONAL formalized (Q1 gate April). If TW exits → ITRK.L enters as credit data monopoly replacement. Basket improves: TW E[CAGR] 13% → ITRK.L ~18%. SPGI entering late April. Post-rotation: WKL.AS + ITRK.L + SPGI = 3 positions, all WIDE moat. Basket E[CAGR] avg improves ~2.5pp. TW kept for basket structure is WRONG reasoning — keep positions for returns, not for labels (S283 basket challenge lesson)."
 
   - id: defense-rearmament
     name: "Defense & European Rearmament"

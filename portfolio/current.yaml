@@ -170,8 +170,8 @@ positions:
     fair_value: "$135 (R3 refresh S147c4, reduced from $140. DA MODERATE COUNTER, 4 HIGH. DA bear $104. QS 76/84 Tier A.)"
     last_review: 2026-03-15
     intentional_weight: 5.9  # Weight after S143 market buy (5.59 shares, EUR 600).
-    exit_plan: "HOLD. TRIM at $155+. ADD at $105 (MoS 22%). SELL if KC triggered (rev growth <10% 2Q, LSEG disorderly sale >20%, OP margin <38% 2Q, insider selling >$50M/6mo). Q1 earnings April = key test."
-    notes: "R3 refresh S147c4: FV $140->$135, growth 12%->10%. DA: Q4 CC 9.9% below thesis, RPM compression structural, LSEG governance, insider selling $26.3M. E[CAGR] 13.0%. Bottom tercile — rotation candidate if Q1 disappoints."
+    exit_plan: "EXIT CONDITIONAL — gated on Q1 earnings (April). Q1 MISS or guide flat → EXIT, rotate to ITRK.L (D&A Monopolies basket replacement). Q1 BEAT + guide raise → HOLD one more quarter. Decision firm by end April. E[CAGR] 13.0% = 2nd worst after FTNT. SM: 1 fund, 0 insider buys, 0 shorts. LSEG 52% overhang."
+    notes: "S284: EXIT CONDITIONAL formalized. E[CAGR] 13.0% bottom tercile, SM signal absent (1 fund, 30 insider sells all 10b5-1, 0 buys). LSEG 52% overhang + governance concern. Inconsistency exposed: EDEN.PA (E[CAGR] 21.5%) being trimmed while TW (13.0%) untouched — corrected by formalizing exit gate. If TW exits → ITRK.L enters D&A Monopolies basket as credit data monopoly replacement."
 
   - ticker: WKL.AS
     name: "Wolters Kluwer N.V."
