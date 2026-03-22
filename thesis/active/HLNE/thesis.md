@@ -2,8 +2,11 @@
 
 > **Fair Value:** $110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)
 > **Expected Growth:** 10% (R3 refresh: EPS CAGR 10.7% more honest than revenue CAGR 24.7%. SBC dilution 2.7%/yr. PE fundraising -32% YoY headwind. Was 12%.)
+> **Last Update:** 2026-03-22 (S283 material events sync)
+> **Macro Sensitivity:** MEDIUM (rate-sensitive PE valuations, private credit contagion)
 > Pipeline Stage: R3_COMPLETE
-> **Bear Case:** PE fundraising -32% could deepen to -50% in recession (oil crisis + hawkish). Mega-managers (BX/KKR/APO) launching competitive Evergreen products. At probability-weighted FV $90.5, position may be underwater. SELL if FEAUM growth negative 2Q OR PE fundraising <-50%.
+> **Bear Case:** Blue Owl private credit crisis (Feb-Mar 2026) = Evergreen contagion risk. HLNE SCOPE fund offers monthly liquidity in illiquid private credit. If redemption gates trigger → thesis impaired. PE fundraising -32% could deepen to -50% in recession (oil crisis + hawkish). Mega-managers (BX/KKR/APO) launching competitive Evergreen products. UBS cut PT $184→$150. SELL if FEAUM growth negative 2Q OR PE fundraising <-50% OR Evergreen redemption gate triggered.
+> **Insider Signal:** 4 insiders bought $3.24M in 60d (STRONG BULL). Director Berkman $1.01M. Insiders buying at 12-month lows.
 
 ## TL;DR
 

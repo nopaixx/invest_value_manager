@@ -1,14 +1,15 @@
 # NOVO-B.CO - Novo Nordisk A/S
 
-> **Analysis Date:** 2026-02-04
-> **Analyst:** Claude (Framework v3.0)
-> **Status:** RESEARCH
+> **Analysis Date:** 2026-02-04 | Last Update: **2026-03-22 (S283 material events sync)**
+> **Analyst:** Claude (Framework v4.0)
+> **Status:** HOLD — TRIMMING 14.3 shares Mar 26
 > **Ticker:** NOVO-B.CO (Copenhagen) / NVO (NYSE ADR)
 
 > **Fair Value:** $47 (R3 resolved S146c8. Was $50 v4.0. DA: FCF inputs stale, P/E 16x DKK 21 = $46. Bear $37/Base $48/Bull $62 scenario = $46.25. Split at $47.)
-> **Expected Growth:** 5% (R3 resolved: normalized post-CagriSema. 2026 -7%, 2027 +6%, 2028+ +7%. Was 10% R1.)
+> **Expected Growth:** 5% (R3 resolved: normalized post-CagriSema. 2026 guidance -5% to -13% sales decline. 2027 +6%, 2028+ +7%.)
 > **Conviction:** LOW (downgraded from MEDIUM, S117 2026-02-25)
-> **Status Update:** HOLD CONFIRMED by human S117. CagriSema FAILED non-inferiority vs Zepbound. KC#1 TRIGGERED.
+> **Macro Sensitivity:** LOW (pharma, DKK-denominated, non-cyclical)
+> **Status Update:** HOLD. Trimming 14.3 shares Mar 26 (rotation to GDDY E[CAGR] 25.2%). Triple headwind: KC#1 CagriSema FAILED + FDA Warning Letter Mar 5 (adverse event reporting violations, procedural not product safety) + Semaglutide patent expiring India/China Mar 2026. POSITIVE: Wegovy HD (7.2mg) FDA approved Mar 19 (~21% weight loss). Hims settlement protects franchise.
 > Pipeline Stage: R3_COMPLETE
 
 ---
