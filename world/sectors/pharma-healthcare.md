@@ -1,11 +1,11 @@
 # Sector: Pharma/Healthcare
 
-> Ultima actualizacion: 2026-03-18 (MATERIAL update. NVO triple-headwind: CagriSema+FDA warning+patent LOE. DOCS near 52wL, SI surging. GLP-1 compounder crackdown. Previous: 2026-03-15 S201 FOMC prep)
+> Ultima actualizacion: 2026-03-22 (Wegovy HD approved Mar 19 + price refresh. Previous: 2026-03-18 MATERIAL update)
 > Analista: Claude
 > Status: NEUTRAL (subsector-dependent). GLP-1: LLY DOMINANT, NVO SEVERELY DAMAGED. Pharma Digital: FAVORABLE but MONITOR (DOCS near 52wL, NRR decelerating). Drug Delivery Platforms: FAVORABLE (HALO gated). Animal Health: NEUTRAL-POSITIVO. Big Pharma: SOBREPONDERAR SELECTIVO + DEFENSIVE in crisis.
 >
 > **2026-03-18 MATERIAL CHANGES:**
-> 1. **NVO TRIPLE HEADWIND:** CagriSema FAILED (KC#1 triggered) + FDA warning letter Mar 5 (semaglutide safety reporting violations) + TD Cowen downgrade to HOLD ($42 PT) + semaglutide patent expiring India/China Mar 2026. NVO guiding -5% to -13% sales decline for 2026. Stock -74% from mid-2024 ATH. P/E 10.9x. Trimming Mar 26 regardless.
+> 1. **NVO TRIPLE HEADWIND + WEGOVY HD APPROVED:** CagriSema FAILED (KC#1 triggered) + FDA warning letter Mar 5 + semaglutide patent LOE India/China. BUT: **Wegovy HD (7.2mg) FDA approved Mar 19** -- 20.7% mean weight loss, National Priority Voucher, available April. Stock $36.53, P/E 10.3x. Trimming Mar 26 regardless.
 > 2. **DOCS NEAR 52wL ($23.53).** Short interest surging +25% to 8.4M shares (4.56% of float). NRR decelerating: top-20 customer NRR 112% (was 117% last year, 118% prior quarter). Revenue accounting concerns surface. Q4 earnings ~May = binary.
 > 3. **GLP-1 COMPOUNDER CRACKDOWN:** Novo dropped Hims patent lawsuit (Mar 9). FDA Commissioner Makary brokered settlement — Hims sells FDA-approved products, limits compounded GLP-1s. Court ruled compounding pharmacies must stop copying Zepbound/Mounjaro. Semaglutide removed from shortage list Feb 2025. LLY tirzepatide removed Dec 2024. Compounding loophole CLOSED.
 > 4. **LLY DOMINANCE ACCELERATING:** Mounjaro+Zepbound combined $39.5B revenue (was $36.5B). Market share ~60%. Orforglipron FDA priority review — decision expected Q1-Q2 2026. Retatrutide Phase III 29% weight loss.
@@ -42,9 +42,9 @@ El sector Pharma/Healthcare opera bajo cuatro fuerzas simultaneas en marzo 2026:
 | TAM Drug Delivery Platforms | ~$5B (2025) | Creciendo 8-10% CAGR | SC formulations expanding with patent cliff |
 | TAM Animal Health | $63-67B (2025) | Creciendo 6-10% CAGR | Hacia $150B+ (2033) |
 | P/E Big Pharma (names clave) | 7-16x | vs 14-20x historico | Minimos 30 anos. DEFENSIVE in crisis. |
-| P/E Novo Nordisk | **10.9x** | vs 25-35x historico | **COLLAPSE. -74% from ATH. 4.8% div yield.** |
+| P/E Novo Nordisk | **10.3x** | vs 25-35x historico | **COLLAPSE. -74% from ATH. 5.1% div yield. Wegovy HD approved Mar 19.** |
 | P/E Eli Lilly | **~40x** | vs 30-40x historico | **Premium normalizing slightly. MCap $833B (was $1T+).** |
-| P/E Doximity | **20.9x** | vs 40-80x historico | **COMPRESSED. Near 52wL $23.53. SI surging.** |
+| P/E Doximity | **20.5x** | vs 40-80x historico | **COMPRESSED. $24.41 near 52wL $23.53. SI 4.56%.** |
 | P/E Halozyme | **~15x** | vs 20-30x historico | **Gated on PTAB Jun 2026** |
 | P/E Zoetis | **~21x** | vs 35-40x historico | **Comprimido (near 52wL)** |
 | XLV (Healthcare ETF) | $149.64 | -6.8% from 52wH | +3.9% 12m. Defensive holding. |
@@ -117,6 +117,7 @@ El sector Pharma/Healthcare opera bajo cuatro fuerzas simultaneas en marzo 2026:
 | Eli Lilly | Retatrutide (triple agonist) | -- | Phase III: 29% weight loss (~71 lbs). Expected market late 2026. Bariatric surgery-level. |
 | Novo Nordisk | Ozempic/Wegovy (semaglutide) | ~$42B franchise | **UNDER SEVERE PRESSURE. Market share ~39%. Patent LOE India/China NOW.** |
 | Novo Nordisk | Wegovy pill (oral sema 25mg) | LAUNCHED Jan 2026 | $149-299/mo. 170K patients in 4 weeks. 50K weekly Rx. **ONLY BRIGHT SPOT.** |
+| Novo Nordisk | **Wegovy HD (sema 7.2mg)** | APPROVED Mar 19 | **FDA approved. 20.7% mean weight loss. National Priority Voucher. Available April 2026. 1 in 3 patients achieved 25%+ loss.** |
 | Novo Nordisk | CagriSema (sema + cagrilintide) | -- | **FAILED REDEFINE 4.** NDA filed based on REDEFINE 1/2, decision H2 2026. Securities fraud probe by Pomerantz. |
 
 **NVO TRIPLE HEADWIND (NEW — 2026-03-18):**
@@ -302,6 +303,7 @@ Cycle: Late-cycle defensive (pharma 0.5-0.8 beta). **IHE +24.9% 12m and +2.5% 3m
 
 | Fecha | Evento | Impacto | Nuestras posiciones |
 |-------|--------|---------|---------------------|
+| **Mar 19 (DONE)** | **Wegovy HD (7.2mg) FDA APPROVED** | **POSITIVE for NVO. 20.7% mean weight loss. National Priority Voucher. Available April. Partially offsets CagriSema failure narrative.** | NVO: POSITIVE catalyst |
 | **Mar 26** | **NVO TRIM execution** | Medium — reducing exposure to severely damaged position | NVO: TRIM |
 | Q1-Q2 2026 | **LLY orforglipron FDA decision** | **Alto — if approved, oral GLP-1 market SPLITS. NVO Wegovy pill faces SUPERIOR competitor.** | NVO: NEGATIVE if approved |
 | Q1-Q2 2026 | NVO: Wegovy pill ramp data + Q1 2026 results (~May) | **Alto — first full-quarter data on oral sema commercial success. Guidance reaffirmation or further cut.** | NVO: MAKE-OR-BREAK |
@@ -336,8 +338,8 @@ Cycle: Late-cycle defensive (pharma 0.5-0.8 beta). **IHE +24.9% 12m and +2.5% 3m
 
 | Tipo | Ticker | QS/Tier | FV | Status |
 |------|--------|---------|-----|--------|
-| Portfolio (11.7%) | NVO | 73/B | $47 | **HOLD with TRIM Mar 26.** TRIPLE HEADWIND: CagriSema FAILED (KC#1) + FDA warning letter Mar 5 + semaglutide patent LOE India/China. Guiding -5% to -13% sales. P/E 10.9x, div 4.8%. Do NOT add. |
-| Portfolio (8.3%) | DOCS | 79/A | $30 | **HOLD. MONITOR.** Near 52wL ($24.91 vs $23.53). SI +25% surging. NRR 118%->112%. Q4 FY2026 (~May) = binary. Do NOT add before Q4. |
+| Portfolio (11.3%) | NVO | 73/B | $47 | **HOLD with TRIM Mar 26.** TRIPLE HEADWIND but Wegovy HD approved Mar 19 (20.7% weight loss). $36.53, P/E 10.3x, div 5.1%. Do NOT add. |
+| Portfolio (8.4%) | DOCS | 79/A | $30 | **HOLD. MONITOR.** $24.41 near 52wL ($23.53). SI 8.43M shares (4.56% float). NRR 118%->112%. Q4 FY2026 (~May) = binary. Do NOT add before Q4. |
 
 ### Pipeline (analysed, watchlist)
 
@@ -369,6 +371,7 @@ Cycle: Late-cycle defensive (pharma 0.5-0.8 beta). **IHE +24.9% 12m and +2.5% 3m
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| **2026-03-22** | **Wegovy HD (sema 7.2mg) FDA approved Mar 19.** 20.7% mean weight loss, National Priority Voucher, available April. NVO $36.53 (P/E 10.3x, div 5.1%). DOCS $24.41 (SI 4.56%). FOMC held 3.5-3.75%, 1 cut dot plot. Price refresh. | Post-FOMC + Wegovy HD approval refresh. |
 | **2026-03-18** | **MATERIAL UPDATE: NVO triple headwind (CagriSema+FDA warning letter Mar 5+semaglutide patent LOE India/China), DOCS near 52wL with SI +25% and NRR 118%->112%, GLP-1 compounder crackdown resolved (Hims settlement, court rulings), LLY revenue $39.5B, orforglipron decision imminent, IRA 38-79% discounts active, macro_fragility IHE +24.9% 12m** | **macro-analyst refresh. 3 days since prior update but MATERIAL developments on both portfolio positions (NVO, DOCS).** |
 | 2026-03-15 | S201 FOMC prep refresh | FOMC context for pharma positions |
 | 2026-03-07 | Full refresh: GLP-1 post-CagriSema, DOCS pharma digital subsector, HALO/ENHANZE, IRA/MFN, AI drug discovery, Iran overlay | macro-analyst full update. 5 days stale. |
@@ -379,6 +382,10 @@ Cycle: Late-cycle defensive (pharma 0.5-0.8 beta). **IHE +24.9% 12m and +2.5% 3m
 ---
 
 ## Fuentes
+
+### Wegovy HD Approval (NEW)
+- [FDA approves Wegovy HD injection 7.2mg](https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-new-wegovy-hd-injection-delivering-the-highest-weight-loss-to-date-for-a-wegovy-injection-adding-to-its-already-expansive-clinical-profile-302718982.html)
+- [AJMC: Higher-Dose Semaglutide Approved Under New FDA Accelerated Review](https://www.ajmc.com/view/higher-dose-semaglutide-approved-under-new-fda-accelerated-review-process)
 
 ### GLP-1/Obesity Market
 - [CNBC: 2026 is the year of obesity pills](https://www.cnbc.com/2026/01/10/2026-is-the-year-of-obesity-pills-from-novo-nordisk-eli-lilly-.html)

@@ -1,9 +1,9 @@
 # Sector: Financial Data & Analytics
 
-> Ultima actualizacion: 2026-03-15 (S201 FOMC prep refresh)
-> Status: NEUTRAL-SELECTIVO - Moats excepcionales pero valuaciones premium. Oportunidad selectiva en names castigados. SPGI SO $420 AT TRIGGER (gated Q1 May 5).
+> Ultima actualizacion: 2026-03-22 (post-FOMC refresh)
+> Status: NEUTRAL-SELECTIVO - Moats excepcionales pero valuaciones premium. SPGI $424 BELOW SO trigger $420 — EXECUTABLE (gated Q1 May 5). MORN retreating from FV.
 >
-> **S201 FOMC Week Context (Mar 15):** Financial data is MIXED in FOMC scenarios. WKL.AS (beta 0.14): IMMUNE — legal/tax information is non-discretionary. TW (beta 0.41): BENEFITS from hawkish (rate vol → record ADV, Jan +26%, Feb +23% YoY). SPGI (beta ~0.8 est): Ratings business benefits from vol but capital markets freeze hurts IPO/issuance revenue. At $422 AT TRIGGER ($420) — if FOMC pushes below $420, enters executable range (gated Q1 May 5). Data & Analytics basket: weakest E[CAGR] (13.9%) but monopoly moats protect. MORN sold S143.
+> **Post-FOMC Context (Mar 22):** Fed held 3.5-3.75% (11-1 vote, Mar 18). Dot plot: 1 cut 2026. Powell highlighted oil shock uncertainty, inflation at 2.7% (above target). Rates higher-for-longer = MIXED for sector: TW BENEFITS (rate vol drives ADV), SPGI ratings business benefits from vol but IPO/issuance stays frozen. SPGI at $424 — BELOW $420 SO trigger (gated Q1 May 5). MORN dropped to $179 (-6% from $190, now -8% below FV $195). SPGI launched DataXchange + AmendX (Mar 3) for private credit/syndicated loan modernization. FDS Q2 earnings Mar 31 = IMMINENT catalyst.
 
 ## Resumen Ejecutivo
 
@@ -37,18 +37,14 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 
 ---
 
-## Precios Actuales (2026-03-07)
+## Precios Actuales (2026-03-22)
 
 | Ticker | Precio (USD) | Precio (EUR) | 52w High | 52w Low | P/E | Yield | MCap |
 |--------|-------------|-------------|----------|---------|-----|-------|------|
-| MORN | $190.15 | EUR 163.70 | $316.71 | $149.08 | 21.4x | 1.1% | $7.8B |
-| SPGI | $452.36 | EUR 389.44 | $579.05 | $381.61 | 30.8x | 0.0%* | $137B |
-| MSCI | $569.24 | EUR 490.06 | $626.28 | $486.74 | 36.1x | 1.4% | $42.8B |
-| TW | $124.59 | EUR 107.26 | $152.65 | $97.06 | 33.0x | 0.0%* | $27.2B |
-| ICE | $166.19 | EUR 143.07 | $189.35 | $143.17 | 28.4x | 1.3% | $94.8B |
-| NDAQ | $88.43 | EUR 76.13 | $101.79 | $64.84 | 28.5x | 1.2% | $50.5B |
-| FICO | $1,476.00 | EUR 1,270.69 | $2,217.60 | $1,193.10 | 54.6x | 0.0% | $35.0B |
-| FDS | $225.87 | EUR 194.45 | $474.79 | $185.00 | 14.3x | 2.0% | $8.5B |
+| MORN | $179.07 | EUR 154.52 | $316.71 | $149.08 | 20.2x | 1.1% | $7.4B |
+| SPGI | $424.43 | EUR 366.24 | $579.05 | $381.61 | 29.0x | 0.0%* | $128.5B |
+| TW | $125.15 | EUR 107.99 | $152.65 | $97.06 | 33.1x | 0.0%* | $27.3B |
+| FDS | -- | -- | $474.79 | $185.00 | -- | -- | -- |
 
 *SPGI/TW yield anomaly in yfinance data -- actual yields ~0.8-0.9%.
 
@@ -234,6 +230,7 @@ MORN es la unica posicion activa del sector en el portfolio. La thesis de basket
 | 2026-02-14 | MORN R4 WATCHLIST. Standing order $135. | QS 78 adj Tier A. FV $180. CRSP conflict risk. 10 kill conditions. Pre-execution condition: CRSP thesis update. |
 | 2026-02-14 | FDS R4 WATCHLIST. Standing order $170. | QS 73 Tier B. FV $210 (was $230). NARROW moat. Hard gate Q2 FY2026 (Mar). VRSK preferred over FDS. |
 | 2026-03-07 | **SECTOR UPDATE: Material changes.** MORN CRSP acquisition CLOSED ($365M, Feb 2026). Vanguard relationship extended. MORN now $190 (+18% from entry). SPGI FY2025 strong ($15.3B rev, EPS +32% Q4). SO $420 now 7% away. FICO pricing war escalating: $10/score vs VantageScore $0-4.50. FDS Q2 Mar 31. TW added to tracked (ADV +27.5%). ICE Black Knight synergies $230M. MSCI extended BlackRock license to 2035. Prices refreshed all tickers. | Staleness refresh (22 days). Multiple material developments across sector. |
+| 2026-03-22 | **Post-FOMC refresh.** Fed held 3.5-3.75% (1 cut dot plot). SPGI $424 BELOW $420 SO trigger (gated Q1 May 5). SPGI launched DataXchange+AmendX (Mar 3) for private credit. MORN retreated to $179 (-6%, below FV $195). FDS Q2 earnings Mar 31 imminent. | Post-FOMC + price refresh. |
 
 ---
 

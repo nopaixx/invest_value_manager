@@ -1,6 +1,6 @@
 # Sector: Cybersecurity
 
-> Ultima actualizacion: 2026-03-18
+> Ultima actualizacion: 2026-03-22
 > Analista: Claude
 > Status: NEUTRAL — Structural tailwinds strongest in years (state-sponsored cyber war + AI threat supercycle), but valuations rich across most names. Selective stock-picking required. **FTNT EXIT APPROVED late April. Cybersecurity basket goes to 0 positions. Basket status: RESEARCHING. Death clock Sep 2026.**
 
@@ -10,6 +10,7 @@ Cybersecurity is one of the most structurally attractive sectors in technology. 
 
 **Geopolitical cyber escalation -- INTENSIFIED (Mar 2026):** The Iran/Hormuz crisis has evolved into a full-spectrum hybrid conflict. Since the Mar 6 re-escalation and the Kharg Island strikes (Mar 14), cyber warfare has become a central battlefield. Key developments since last update:
 - **MuddyWater pre-positioned on US networks:** US intelligence confirmed Iran's state-backed APT group MuddyWater had pre-positioned on multiple US networks BEFORE the bombing campaign (CNN, Mar 10). This is not reactive retaliation -- it was planned infrastructure infiltration.
+- **60+ active threat groups tracked** (Flashpoint/Recorded Future, mid-Mar): 53 pro-Iranian, including Handala Hack (MOIS-linked) which claimed Stryker Corp cyberattack (Mar 11). MuddyWater deploying new "Dindoor" backdoor (The Hacker News, Mar 2026). Iranian actors exploiting Hikvision CVEs (CVE-2017-7921, CVE-2023-6895, CVE-2025-34067) and Dahua cameras (CVE-2021-33044) at scale -- hundreds of IP camera compromise attempts documented.
 - **Israel executed near-total internet blackout on Iran** (Feb 28) in one of the largest state-on-state cyberattacks ever documented.
 - **Iranian-aligned groups launched spear-phishing, ransomware, data exfiltration, and malware targeting energy systems, airports, financial institutions, and government networks** across multiple Western countries (Cyble, Flashpoint, Recorded Future reports).
 - **Navigation system interference impacting 1,100+ ships near Strait of Hormuz** -- cyber operations now directly affecting global oil and gas trade logistics.
@@ -78,7 +79,7 @@ However, valuations are the critical constraint for value investors. The sector 
 | PANW | $9.2B | $118B | Broadest platform (firewall + cloud + identity via CyberArk + SIEM). CyberArk closed Feb 2026. "Cortex AgentiX" expected late 2026. |
 | FTNT | ~$7.5-7.7B (FY26 guided) | $59B | #1 firewall units (~55-60% share), best unit economics, ASIC hardware advantage. FortiOS 8.0 launched Mar 10. Product rev growth guided 10-15%. 13% billings growth FY26. Price hikes 5-20% effective Mar 2. **EXIT APPROVED late Apr.** |
 | CRWD | ~$4.8B | $92B | Dominant endpoint, single-agent architecture, data flywheel. Post-outage: >97% gross retention, stock +65% from outage. |
-| CHKP | ~$2.9B | $16B | Profitable legacy franchise, 100K+ customers, Infinity platform. Q1 2026 guidance below consensus ($655-685M vs $746M expected). Q1 earnings Apr 29. |
+| CHKP | ~$2.9B | $16.4B | Profitable legacy franchise, 100K+ customers, Infinity platform. Q1 2026 guidance below consensus ($655-685M vs $746M expected). Q1 earnings Apr 29. Current $152.73 (Mar 22) -- NEAR entry $125 but still far. |
 | ZS | ~$2.5B | $25B | Cloud-native zero trust proxy, no legacy baggage |
 
 **Barreras de entrada:** HIGH
@@ -191,7 +192,7 @@ SASE market estimated at ~$15.5B in 2026, growing at 20-29% CAGR depending on so
 
 | Ticker | Entry | Shares | FV | QS | Conviction | Status |
 |--------|-------|--------|-----|-----|------------|--------|
-| FTNT | $84.00 (real eToro) | 10.57 | $88 | 85adj Tier A | Medium | **EXIT APPROVED S152. SELL late April.** E[CAGR] 9.4% worst in portfolio, 4.3% MoS. 3 KCs MONITORING (CVE pattern). Accelerate 2026 validated thesis (FortiOS 8.0, product rev 10-15%, price hikes 5-20%). Cancel exit only if: price drops to $73 OR Q1 PASS + guide raise (FV $95-100). |
+| FTNT | $84.00 (real eToro) | 10.57 | $88 | 85adj Tier A | Medium | **EXIT APPROVED S152. SELL late April. Current $81.40 (Mar 22).** E[CAGR] 9.4% worst in portfolio, 4.3% MoS. 3 KCs MONITORING (CVE pattern). Accelerate 2026 validated thesis (FortiOS 8.0, product rev 10-15%, price hikes 5-20%). Cancel exit only if: price drops to $73 OR Q1 PASS + guide raise (FV $95-100). |
 
 **Basket:** Cybersecurity (formed S141, Mar 6 2026). **FTNT exiting late April. Basket goes to 0 positions. Status: RESEARCHING. Death clock: Sep 2026 (6 months to find 2 positions or basket dies).** QLYS and CHKP in pipeline but both far from entry -- CHKP at $125 (Apr 29 earnings gate), QLYS at $78-82 (Q1 billings gate). Neither is likely to trigger before FTNT exit. Basket survival depends on one of: (a) CHKP/QLYS price correction to entry range, (b) new candidate identified via screening, or (c) macro dislocation creates sector-wide entry opportunity.
 
@@ -274,6 +275,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| **2026-03-22** | **Post-FOMC refresh.** 60+ threat groups tracked (53 pro-Iranian). MuddyWater "Dindoor" backdoor deployed. Handala Hack claimed Stryker Corp attack (Mar 11). Iranian actors exploiting Hikvision/Dahua CVEs at scale. FTNT $81.40 (-3% from exit price $84). CHKP $152.73 (entry $125, 18% away). Basket death clock unchanged. | Cyber war escalation continued. Price refresh. |
 | **2026-03-18** | **MATERIAL UPDATE: FTNT EXIT approved, FortiOS 8.0, cyber war intensified, basket death clock** | **FTNT EXIT APPROVED S152 (late Apr). E[CAGR] 9.4% worst in portfolio. FortiOS 8.0 launched at Accelerate 2026 (Mar 10): AI governance, quantum-safe, sovereign SASE, FortiSOC. Product rev guided 10-15%. Price hikes 5-20%. Cyber war INTENSIFIED: MuddyWater pre-positioned on US networks, Israel internet blackout on Iran, 1,100+ ships nav interference near Hormuz. CHKP Q1 earnings Apr 29 (gate). Basket goes to 0 positions post-FTNT exit. Death clock Sep 2026.** |
 | 2026-03-07 | Sector view refresh: Iran/Hormuz cyber context, Gartner 2026 trends, PANW/CyberArk close, CRWD recovery, FTNT Accelerate 2026, basket formation | S141 cybersecurity basket formed (FTNT anchor). Geopolitical cyber escalation (Iran Electronic Operations Room, CISA/NCSC warnings). Gartner 2026 top 6 trends added. PANW CyberArk closed Feb 11. CRWD outage recovery complete (+65% stock, >97% retention). FTNT 13% billings guidance above consensus. Software now 40% of security budgets. |
 | 2026-02-27 | QLYS R3 COMPLETE (DA MODERATE COUNTER) | S127. FV $128-$110 (-14.1%). QS 81 Tier A. Entry $78-82. SO $82 GATED Q1 billings. |
