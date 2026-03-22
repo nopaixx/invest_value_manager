@@ -138,8 +138,8 @@ positions:
     fair_value: "$30 (R3 resolved S146c4. Was $32.80. DA: TAM 13%->7%, growth 10%->8%, MFN structural. QS 74/79 Tier A.)"
     last_review: 2026-03-15
     intentional_weight: 8.5  # Weight after S122 market buy (39.93 shares total). Drifted down from ~8.5% to 8.3%.
-    exit_plan: "HOLD 8%. Do NOT add before Q4 (~May 2026). TRIM to 5% if Q4 misses + FY27 guide <8%. TRIM at $38+. SELL if KC#1 (NRR <100%) or KC#7 (Q4 rev <$140M + FY27 guide <6%)."
-    notes: "R3 S146c4: FV $32.80->$30, growth 10%->8%, E[CAGR] 19%->13.8%. TAM corrected 13%->7%. 3 HIGH DA findings resolved. Position justified (E[CAGR] 13.8% > 12% threshold) but oversized at 8%. Q4 earnings = binary catalyst."
+    exit_plan: "HOLD 8%. Do NOT add before Q4 (~May 2026). KC#8 EARLY WARNING: NRR <110% → TRIM to 5% + FV $30→$25-27 + growth 8%→5-6%. SELL if KC#1 (NRR <100%) or KC#7 (Q4 rev <$140M + FY27 guide <5%). Fundsmith still adding = positive."
+    notes: "S284: KC#8 added (NRR <110% early warning). NRR decline 119→112 is ~50% structural (pharma restructuring + AI deflation + competitive fragmentation), ~50% cyclical (MFN timing). Management 'temporary' narrative overstates cyclical. Fundsmith ADDING (1.65M shares, 5.3% portfolio). KC#6 TAM upgraded to MONITORING (eMarketer 13%→4.8%). Q4 FY2026 (~May) is binary."
 
   - ticker: FTNT
     name: "Fortinet, Inc."

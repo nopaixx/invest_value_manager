@@ -6,7 +6,8 @@
 > Sector View: pharma-healthcare.md (Health Information Services)
 > Pipeline Stage: R3_COMPLETE
 > **Expected Growth:** 8% (R3 resolved: TAM 7% + share gains 1-2pp - MFN drag 1pp. Was 10%. Sell-side ~9%, Q4 guide 4%, "record Jan bookings" suggests sandbagged.)
-> **Bear Case:** MFN clauses (16/20 clients) create pricing ceiling — growth may be structurally 3-4% not 8%. 126 clients at 84% of revenue = extreme concentration. Probability-weighted FV $25.4 gives only 4% MoS. TRIM to 5% if Q4 growth <8%. EXIT if <4%.
+> **Bear Case:** MFN clauses (16/20 clients) create pricing ceiling — growth may be structurally 3-4% not 8%. 126 clients at 84% of revenue = extreme concentration. Probability-weighted FV $25.4 gives only 4% MoS. TRIM to 5% if Q4 growth <8%. EXIT if <4%. **S284 NRR DEEP DIVE:** NRR decline 119→112 is ~50% cyclical (MFN timing), ~50% structural (pharma restructuring Novo/Merck/Bayer, AI deflation 30-50%, eMarketer growth 13%→4.8%, competitive fragmentation Veeva Crossix 3x faster). Management "temporary" narrative is partially true but overstates cyclical component. KC#8 added: NRR <110% = early warning. Fundsmith still ADDING (1.65M shares, 5.3% of portfolio) = positive long-term signal.
+> **SM Signal:** Fundsmith (quality) holds 1.65M shares, ADDING since Q4 2024 (initiated 710K → built through drawdown). Baillie Gifford 2.0%. Insider sells: Wampler monthly 2K shares = 10b5-1 (NEUTRAL). No discretionary insider buys.
 
 ---
 
@@ -388,6 +389,8 @@ This is on the EDGE of actionability. The stock needs to drop to ~$27 or below f
 4. **SBC/Revenue exceeds 15%** without offsetting buyback increase -- dilution outrunning buybacks = value destruction
 5. **Major competitor achieves >30% physician penetration** -- would break the network effect monopoly
 6. **Pharma digital advertising TAM contracts for 2+ years** -- secular change in how pharma reaches physicians
+7. **Q4 revenue <$140M AND FY2027 guide <5%** -- structural decline signal (implicit from earnings framework)
+8. **NRR drops below 110% (EARLY WARNING)** -- at current deceleration (119→118→112 in 9mo), NRR <110% puts 100% breach within 2-3 quarters. Triggers: TRIM to 5%, mandatory re-eval, growth assumption 8%→5-6%, FV $30→$25-27. Independent evidence: pharma restructuring (Novo -9K, Merck -6K, Bayer -12K), eMarketer growth 13%→4.8%, AI deflation 30-50% on marketing costs, Veeva Crossix growing 3x faster. MFN timing = ~2-3pp of 6pp NRR decline, rest is structural.
 
 ### Kill Conditions Status (2026-03-08)
 
@@ -398,7 +401,9 @@ This is on the EDGE of actionability. The stock needs to drop to ~$27 or below f
 | 3 | Revenue decline 2 consecutive FY | **CLEAR** | FY2025 revenue +13%. Q3 FY2026 +10%. Q4 guided +4% (MFN timing, not structural decline). |
 | 4 | SBC/Revenue >15% | **MONITORING** | SBC 12.7% of revenue, trending up (was 9.2%). Buybacks offsetting dilution but ratio approaching. |
 | 5 | Competitor >30% physician penetration | **CLEAR** | No competitor above ~10%. Sermo at ~800K claimed. Moat intact. |
-| 6 | Pharma digital ad TAM contracts 2yr | **CLEAR** | TAM growing ~10-13% annually. Digital shift structural. No contraction signal. |
+| 6 | Pharma digital ad TAM contracts 2yr | **MONITORING** | TAM growth decelerating: eMarketer projects 13%→4.8% (2025→2026). Not contracting yet, but growth rate halving. AI deflation structural. |
+| 7 | Q4 rev <$140M + FY2027 guide <5% | **PENDING** | Q4 FY2026 earnings ~May 2026. Guide $143-144M = tight. |
+| 8 | NRR <110% (EARLY WARNING) | **APPROACHING** | NRR 112%, trend 119→118→112 in 9mo. 2pp buffer. Independent evidence: ~3-4pp of 6pp decline is structural (pharma restructuring + AI deflation + competitive fragmentation). Q4 report is binary. |
 
 ---
 
