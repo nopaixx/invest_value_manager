@@ -259,6 +259,40 @@ def edges_by_relation(G, relation):
 
 
 # ---------------------------------------------------------------------------
+# Corporate Buyback Detection (S283 — misclassification fix)
+# ---------------------------------------------------------------------------
+
+BUYBACK_SUFFIXES = {'plc', 'group', 'corp', 'inc', 'ltd', 'sa', 'se', 'ag', 'nv', 'oyj', 'ab',
+                    'co', 'company', 'corporation', 'limited', 'holdings'}
+
+
+def is_corporate_buyback(insider_name, ticker):
+    """Detect if an 'insider' transaction is actually a corporate buyback.
+
+    yfinance classifies corporate buyback transactions with the COMPANY NAME
+    as the insider. These should be stored as 'corporate_buyback', not 'insider_buy'.
+
+    Returns True if the insider_name looks like a company name (not a person).
+    """
+    if not insider_name:
+        return False
+    name_lower = insider_name.lower().strip()
+    name_words = set(name_lower.replace("-", " ").split())
+
+    # Check if name contains corporate suffixes
+    if name_words & BUYBACK_SUFFIXES:
+        return True
+
+    # Check if insider name matches the ticker's company name pattern
+    # e.g. ticker AUTO.L -> "auto" matches "auto-trader-group-plc"
+    ticker_base = ticker.split('.')[0].lower()
+    if len(ticker_base) >= 3 and ticker_base in name_lower:
+        return True
+
+    return False
+
+
+# ---------------------------------------------------------------------------
 # Identifier Resolution System
 # ---------------------------------------------------------------------------
 
@@ -2753,13 +2787,14 @@ def cmd_ingest_insider(args):
     # Remove existing insider edges for target tickers
     edges_to_remove = []
     for u, v, k, d in G.edges(data=True, keys=True):
-        if d.get("relation") in ("insider_buy", "insider_sell") and v in target_tickers:
+        if d.get("relation") in ("insider_buy", "insider_sell", "corporate_buyback") and v in target_tickers:
             edges_to_remove.append((u, v, k))
     for u, v, k in edges_to_remove:
         G.remove_edge(u, v, key=k)
 
     total_buys = 0
     total_sells = 0
+    total_buybacks = 0
 
     for ticker in target_tickers:
         try:
@@ -2858,13 +2893,19 @@ def cmd_ingest_insider(args):
                         elif role:
                             G.nodes[person_slug]["role"] = role
 
-                        relation = "insider_buy" if is_buy else "insider_sell"
+                        # Detect corporate buybacks (S283 fix)
+                        if is_buy and is_corporate_buyback(name, ticker):
+                            relation = "corporate_buyback"
+                        else:
+                            relation = "insider_buy" if is_buy else "insider_sell"
                         G.add_edge(person_slug, ticker, relation=relation,
                                    shares=shares_val, value=value_val, date=txn_date,
                                    role=role, data_source="yfinance", date_added=today_str())
 
                         if is_buy:
                             total_buys += 1
+                            if relation == "corporate_buyback":
+                                total_buybacks += 1
                         else:
                             total_sells += 1
 
@@ -2881,7 +2922,8 @@ def cmd_ingest_insider(args):
         time.sleep(0.5)  # Rate limit
 
     save_graph(G)
-    print(f"\nInsider ingest: {total_buys} buys, {total_sells} sells across {len(target_tickers)} tickers")
+    buyback_note = f" ({total_buybacks} corporate buybacks reclassified)" if total_buybacks else ""
+    print(f"\nInsider ingest: {total_buys} buys{buyback_note}, {total_sells} sells across {len(target_tickers)} tickers")
 
 
 # ---------------------------------------------------------------------------
@@ -3688,6 +3730,7 @@ def cmd_stock_profile(args):
     # Insiders
     insider_buys = [(u, d) for u, v, k, d in G.in_edges(ticker, data=True, keys=True) if d.get("relation") == "insider_buy"]
     insider_sells = [(u, d) for u, v, k, d in G.in_edges(ticker, data=True, keys=True) if d.get("relation") == "insider_sell"]
+    buybacks = [(u, d) for u, v, k, d in G.in_edges(ticker, data=True, keys=True) if d.get("relation") == "corporate_buyback"]
     print(f"\n  Insider Activity:")
     if insider_buys:
         print(f"    Buys ({len(insider_buys)}):")
@@ -3705,7 +3748,10 @@ def cmd_stock_profile(args):
             val = ed.get("value", 0)
             dt = ed.get("date", "")
             print(f"      {name} ({role}): ${val:,.0f} on {dt}")
-    if not insider_buys and not insider_sells:
+    if buybacks:
+        bb_total = sum(b[1].get("value", 0) or 0 for b in buybacks)
+        print(f"    Corporate Buybacks ({len(buybacks)}): ${bb_total:,.0f} total [excluded from insider signals]")
+    if not insider_buys and not insider_sells and not buybacks:
         print("    No insider data.")
 
     # Crowding
@@ -4168,7 +4214,7 @@ def cmd_visualize(args):
         relation = d.get("relation", "")
         edge_colors = {"holds": "#2ecc71", "shorts": "#e74c3c",
                        "insider_buy": "#f1c40f", "insider_sell": "#e67e22",
-                       "manages": "#95a5a6"}
+                       "corporate_buyback": "#d4ac0d", "manages": "#95a5a6"}
         color = edge_colors.get(relation, "#7f8c8d")
         width = 1
         if relation == "holds":
@@ -5858,8 +5904,8 @@ def _gather_changes_vs_snapshot(G):
     prev_holds = len([1 for u, v, k, d in G_prev.edges(data=True, keys=True) if d.get("relation") == "holds"])
     curr_shorts_e = len([1 for u, v, k, d in G.edges(data=True, keys=True) if d.get("relation") == "shorts"])
     prev_shorts_e = len([1 for u, v, k, d in G_prev.edges(data=True, keys=True) if d.get("relation") == "shorts"])
-    curr_ins = len([1 for u, v, k, d in G.edges(data=True, keys=True) if d.get("relation") in ("insider_buy", "insider_sell")])
-    prev_ins = len([1 for u, v, k, d in G_prev.edges(data=True, keys=True) if d.get("relation") in ("insider_buy", "insider_sell")])
+    curr_ins = len([1 for u, v, k, d in G.edges(data=True, keys=True) if d.get("relation") in ("insider_buy", "insider_sell", "corporate_buyback")])
+    prev_ins = len([1 for u, v, k, d in G_prev.edges(data=True, keys=True) if d.get("relation") in ("insider_buy", "insider_sell", "corporate_buyback")])
 
     return {
         "snapshot_date": snap_date,
@@ -6382,6 +6428,45 @@ def cmd_sector_flows(args):
 
 
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# CMD: fix-buybacks — Reclassify misclassified corporate buyback edges (S283)
+# ---------------------------------------------------------------------------
+
+def cmd_fix_buybacks(args):
+    """Scan graph for insider_buy edges that are actually corporate buybacks.
+
+    Reclassifies them as 'corporate_buyback' to prevent false INSIDER_CLUSTER_BUY signals.
+    """
+    G = load_graph()
+
+    reclassified = 0
+    reclassified_detail = defaultdict(int)
+
+    edges_to_fix = []
+    for u, v, k, d in G.edges(data=True, keys=True):
+        if d.get("relation") != "insider_buy":
+            continue
+        # Check source node name
+        source_name = G.nodes.get(u, {}).get("full_name", u)
+        if is_corporate_buyback(source_name, v):
+            edges_to_fix.append((u, v, k, source_name))
+
+    for u, v, k, source_name in edges_to_fix:
+        G.edges[u, v, k]["relation"] = "corporate_buyback"
+        reclassified += 1
+        reclassified_detail[v] += 1
+
+    if reclassified:
+        save_graph(G)
+        print(f"=== BUYBACK RECLASSIFICATION ===\n")
+        print(f"Reclassified {reclassified} edges from insider_buy to corporate_buyback:\n")
+        for ticker, count in sorted(reclassified_detail.items(), key=lambda x: -x[1]):
+            print(f"  {ticker:12s}  {count} edges")
+        print(f"\nGraph saved. These edges will no longer trigger INSIDER_CLUSTER_BUY signals.")
+    else:
+        print("No misclassified buyback edges found.")
+
+
 # CMD: insider-sectors — Cross-sector insider buy patterns
 # ---------------------------------------------------------------------------
 
@@ -6910,7 +6995,7 @@ def main():
     p_ae = subparsers.add_parser("add-edge", help="Add or update an edge")
     p_ae.add_argument("from_node")
     p_ae.add_argument("to_node")
-    p_ae.add_argument("relation", choices=["holds", "shorts", "insider_buy", "insider_sell", "manages"])
+    p_ae.add_argument("relation", choices=["holds", "shorts", "insider_buy", "insider_sell", "corporate_buyback", "manages"])
     p_ae.add_argument("--attr", nargs="*", help="Attributes as K=V pairs")
 
     # bulk-update
@@ -7067,6 +7152,9 @@ def main():
     # sector-flows
     subparsers.add_parser("sector-flows", help="Institutional sector rotation vs previous snapshot")
 
+    # fix-buybacks (S283)
+    subparsers.add_parser("fix-buybacks", help="Reclassify corporate buyback edges (S283 misclassification fix)")
+
     # insider-sectors
     subparsers.add_parser("insider-sectors", help="Cross-sector insider buying patterns")
 
@@ -7123,6 +7211,7 @@ def main():
         "weekly-report": cmd_weekly_report,
         "basket-signals": cmd_basket_signals,
         "sector-flows": cmd_sector_flows,
+        "fix-buybacks": cmd_fix_buybacks,
         "insider-sectors": cmd_insider_sectors,
         "exodus-check": cmd_exodus_check,
     }

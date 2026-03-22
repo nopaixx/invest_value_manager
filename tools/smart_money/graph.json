@@ -10044,7 +10044,7 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 531493,
       "value": 3364350.0,
       "date": "2026-03-05",
@@ -10056,7 +10056,7 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 535000,
       "value": 3354985.0,
       "date": "2026-03-04",
@@ -10068,7 +10068,7 @@
       "key": 1
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 520000,
       "value": 3298360.0,
       "date": "2026-03-03",
@@ -10080,7 +10080,7 @@
       "key": 2
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 515000,
       "value": 3348015.0,
       "date": "2026-03-02",
@@ -10092,7 +10092,7 @@
       "key": 3
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 384671,
       "value": 2541136.0,
       "date": "2026-02-26",
@@ -10104,7 +10104,7 @@
       "key": 4
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 625000,
       "value": 4024375.0,
       "date": "2026-02-25",
@@ -10116,7 +10116,7 @@
       "key": 5
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 640000,
       "value": 4074240.0,
       "date": "2026-02-24",
@@ -10128,7 +10128,7 @@
       "key": 6
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 625000,
       "value": 4013125.0,
       "date": "2026-02-23",
@@ -10140,7 +10140,7 @@
       "key": 7
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 537076,
       "value": 3420099.0,
       "date": "2026-02-19",
@@ -10152,7 +10152,7 @@
       "key": 8
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 540000,
       "value": 3394980.0,
       "date": "2026-02-18",
@@ -10164,7 +10164,7 @@
       "key": 9
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 12306,
       "value": 76801.0,
       "date": "2026-02-17",
@@ -10176,7 +10176,7 @@
       "key": 10
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 530000,
       "value": 3350660.0,
       "date": "2026-02-16",
@@ -10188,7 +10188,7 @@
       "key": 11
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 850000,
       "value": 5489300.0,
       "date": "2026-02-11",
@@ -10200,7 +10200,7 @@
       "key": 12
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 823812,
       "value": 5196606.0,
       "date": "2026-02-11",
@@ -10212,7 +10212,7 @@
       "key": 13
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 700000,
       "value": 4535300.0,
       "date": "2026-02-10",
@@ -10224,7 +10224,7 @@
       "key": 14
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 800000,
       "value": 5246400.0,
       "date": "2026-02-09",
@@ -10236,7 +10236,7 @@
       "key": 15
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 461692,
       "value": 3163513.0,
       "date": "2026-02-04",
@@ -10248,7 +10248,7 @@
       "key": 16
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 460000,
       "value": 3257260.0,
       "date": "2026-02-03",
@@ -10260,7 +10260,7 @@
       "key": 17
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 430000,
       "value": 3148890.0,
       "date": "2026-02-02",
@@ -10272,7 +10272,7 @@
       "key": 18
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 421532,
       "value": 3229778.0,
       "date": "2026-01-28",
@@ -10284,7 +10284,7 @@
       "key": 19
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 420000,
       "value": 3221820.0,
       "date": "2026-01-27",
@@ -10296,7 +10296,7 @@
       "key": 20
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 420000,
       "value": 3188220.0,
       "date": "2026-01-26",
@@ -10308,7 +10308,7 @@
       "key": 21
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 419318,
       "value": 3141111.0,
       "date": "2026-01-21",
@@ -10320,7 +10320,7 @@
       "key": 22
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 420000,
       "value": 3176880.0,
       "date": "2026-01-20",
@@ -10332,7 +10332,7 @@
       "key": 23
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 400000,
       "value": 3082000.0,
       "date": "2026-01-19",
@@ -10344,7 +10344,7 @@
       "key": 24
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 494843,
       "value": 3846909.0,
       "date": "2026-01-16",
@@ -10356,7 +10356,7 @@
       "key": 25
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 450000,
       "value": 3491550.0,
       "date": "2026-01-15",
@@ -10368,7 +10368,7 @@
       "key": 26
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 500000,
       "value": 3863500.0,
       "date": "2026-01-14",
@@ -10380,7 +10380,7 @@
       "key": 27
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 500000,
       "value": 3878000.0,
       "date": "2026-01-13",
@@ -10392,7 +10392,7 @@
       "key": 28
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 638611,
       "value": 5492054.0,
       "date": "2026-01-12",
@@ -10404,7 +10404,7 @@
       "key": 29
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 61240,
       "value": 481652.0,
       "date": "2026-01-09",
@@ -10416,7 +10416,7 @@
       "key": 30
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 550000,
       "value": 4226750.0,
       "date": "2026-01-08",
@@ -10428,7 +10428,7 @@
       "key": 31
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 800000,
       "value": 6136000.0,
       "date": "2026-01-07",
@@ -10440,7 +10440,7 @@
       "key": 32
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 695000,
       "value": 5404320.0,
       "date": "2026-01-06",
@@ -10452,7 +10452,7 @@
       "key": 33
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 285532,
       "value": 2242282.0,
       "date": "2026-01-05",
@@ -10464,7 +10464,7 @@
       "key": 34
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 850000,
       "value": 6936850.0,
       "date": "2025-12-18",
@@ -10476,7 +10476,7 @@
       "key": 35
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 584955,
       "value": 4780252.0,
       "date": "2025-12-17",
@@ -10488,7 +10488,7 @@
       "key": 36
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 750000,
       "value": 6159750.0,
       "date": "2025-12-16",
@@ -10500,7 +10500,7 @@
       "key": 37
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 160739,
       "value": 1328347.0,
       "date": "2025-12-15",
@@ -10512,7 +10512,7 @@
       "key": 38
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 550154,
       "value": 4397931.0,
       "date": "2025-12-12",
@@ -10524,7 +10524,7 @@
       "key": 39
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 700000,
       "value": 5593700.0,
       "date": "2025-12-11",
@@ -10536,7 +10536,7 @@
       "key": 40
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 700000,
       "value": 5583200.0,
       "date": "2025-12-10",
@@ -10548,7 +10548,7 @@
       "key": 41
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 670000,
       "value": 5318460.0,
       "date": "2025-12-09",
@@ -10560,7 +10560,7 @@
       "key": 42
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 650000,
       "value": 5237050.0,
       "date": "2025-12-08",
@@ -10572,7 +10572,7 @@
       "key": 43
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 620000,
       "value": 5057340.0,
       "date": "2025-12-05",
@@ -10584,7 +10584,7 @@
       "key": 44
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 700000,
       "value": 5699400.0,
       "date": "2025-12-04",
@@ -10596,7 +10596,7 @@
       "key": 45
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 600000,
       "value": 4975200.0,
       "date": "2025-12-03",
@@ -10608,7 +10608,7 @@
       "key": 46
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 750000,
       "value": 6192750.0,
       "date": "2025-12-02",
@@ -10620,7 +10620,7 @@
       "key": 47
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 550000,
       "value": 4627700.0,
       "date": "2025-12-01",
@@ -10632,7 +10632,7 @@
       "key": 48
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 500000,
       "value": 4235500.0,
       "date": "2025-11-28",
@@ -10644,7 +10644,7 @@
       "key": 49
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 500000,
       "value": 4243000.0,
       "date": "2025-11-27",
@@ -10656,7 +10656,7 @@
       "key": 50
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 643000,
       "value": 5499579.0,
       "date": "2025-11-26",
@@ -10668,7 +10668,7 @@
       "key": 51
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 700000,
       "value": 5898200.0,
       "date": "2025-11-25",
@@ -10680,7 +10680,7 @@
       "key": 52
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 500000,
       "value": 4291500.0,
       "date": "2025-11-24",
@@ -10692,7 +10692,7 @@
       "key": 53
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 600000,
       "value": 5169600.0,
       "date": "2025-11-21",
@@ -10704,7 +10704,7 @@
       "key": 54
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 500000,
       "value": 4326000.0,
       "date": "2025-11-20",
@@ -10716,7 +10716,7 @@
       "key": 55
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 490000,
       "value": 4247810.0,
       "date": "2025-11-19",
@@ -10728,7 +10728,7 @@
       "key": 56
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 450000,
       "value": 3997800.0,
       "date": "2025-11-18",
@@ -10740,7 +10740,7 @@
       "key": 57
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 500000,
       "value": 4492500.0,
       "date": "2025-11-17",
@@ -10752,7 +10752,7 @@
       "key": 58
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 450000,
       "value": 4041450.0,
       "date": "2025-11-14",
@@ -10764,7 +10764,7 @@
       "key": 59
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 540000,
       "value": 4992300.0,
       "date": "2025-11-13",
@@ -10776,7 +10776,7 @@
       "key": 60
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 500000,
       "value": 4622000.0,
       "date": "2025-11-12",
@@ -10788,7 +10788,7 @@
       "key": 61
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 450000,
       "value": 4337550.0,
       "date": "2025-11-11",
@@ -10800,7 +10800,7 @@
       "key": 62
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 438574,
       "value": 4315568.0,
       "date": "2025-11-10",
@@ -10812,7 +10812,7 @@
       "key": 63
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 67550,
       "value": 704411.0,
       "date": "2025-10-30",
@@ -10824,7 +10824,7 @@
       "key": 64
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 353200,
       "value": 3699770.0,
       "date": "2025-10-29",
@@ -10836,7 +10836,7 @@
       "key": 65
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 4426,
       "value": 47287.0,
       "date": "2025-10-22",
@@ -10848,7 +10848,7 @@
       "key": 66
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 290000,
       "value": 3085310.0,
       "date": "2025-10-21",
@@ -10860,7 +10860,7 @@
       "key": 67
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 290000,
       "value": 3035720.0,
       "date": "2025-10-20",
@@ -10872,7 +10872,7 @@
       "key": 68
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 300800,
       "value": 3129523.0,
       "date": "2025-10-17",
@@ -10884,7 +10884,7 @@
       "key": 69
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 291900,
       "value": 3038095.0,
       "date": "2025-10-16",
@@ -10896,7 +10896,7 @@
       "key": 70
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 284659,
       "value": 2948782.0,
       "date": "2025-10-15",
@@ -10908,7 +10908,7 @@
       "key": 71
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 290383,
       "value": 2973521.0,
       "date": "2025-10-14",
@@ -10920,7 +10920,7 @@
       "key": 72
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 296400,
       "value": 3022983.0,
       "date": "2025-10-13",
@@ -10932,7 +10932,7 @@
       "key": 73
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 296074,
       "value": 3041272.0,
       "date": "2025-10-10",
@@ -10944,7 +10944,7 @@
       "key": 74
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 372900,
       "value": 3849073.0,
       "date": "2025-10-09",
@@ -10956,7 +10956,7 @@
       "key": 75
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 338419,
       "value": 3538170.0,
       "date": "2025-10-08",
@@ -10968,7 +10968,7 @@
       "key": 76
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 64425,
       "value": 677944.0,
       "date": "2025-10-07",
@@ -10980,7 +10980,7 @@
       "key": 77
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 226363,
       "value": 2386545.0,
       "date": "2025-10-06",
@@ -10992,7 +10992,7 @@
       "key": 78
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 375200,
       "value": 3944477.0,
       "date": "2025-10-03",
@@ -11004,7 +11004,7 @@
       "key": 79
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 373900,
       "value": 3898281.0,
       "date": "2025-10-02",
@@ -11016,7 +11016,7 @@
       "key": 80
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 373300,
       "value": 3899118.0,
       "date": "2025-10-01",
@@ -11028,7 +11028,7 @@
       "key": 81
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 362600,
       "value": 3721726.0,
       "date": "2025-09-26",
@@ -11040,7 +11040,7 @@
       "key": 82
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 357600,
       "value": 3630355.0,
       "date": "2025-09-25",
@@ -11052,7 +11052,7 @@
       "key": 83
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 299226,
       "value": 3085319.0,
       "date": "2025-09-24",
@@ -11064,7 +11064,7 @@
       "key": 84
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 269734,
       "value": 2808470.0,
       "date": "2025-09-23",
@@ -11076,7 +11076,7 @@
       "key": 85
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 220627,
       "value": 2304449.0,
       "date": "2025-09-22",
@@ -11088,7 +11088,7 @@
       "key": 86
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 171000,
       "value": 1829529.0,
       "date": "2025-09-16",
@@ -11100,7 +11100,7 @@
       "key": 87
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 328700,
       "value": 3517090.0,
       "date": "2025-09-15",
@@ -11112,7 +11112,7 @@
       "key": 88
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 322800,
       "value": 3448149.0,
       "date": "2025-09-12",
@@ -11124,7 +11124,7 @@
       "key": 89
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 313400,
       "value": 3330501.0,
       "date": "2025-09-11",
@@ -11136,7 +11136,7 @@
       "key": 90
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 297000,
       "value": 3186513.0,
       "date": "2025-09-10",
@@ -11148,7 +11148,7 @@
       "key": 91
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 266242,
       "value": 2927330.0,
       "date": "2025-09-09",
@@ -11160,7 +11160,7 @@
       "key": 92
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 287600,
       "value": 3135415.0,
       "date": "2025-09-08",
@@ -11172,7 +11172,7 @@
       "key": 93
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 247234,
       "value": 2678038.0,
       "date": "2025-09-05",
@@ -11184,7 +11184,7 @@
       "key": 94
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 283900,
       "value": 3024102.0,
       "date": "2025-09-04",
@@ -11196,7 +11196,7 @@
       "key": 95
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 281800,
       "value": 2936074.0,
       "date": "2025-09-03",
@@ -11208,7 +11208,7 @@
       "key": 96
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 281100,
       "value": 2909666.0,
       "date": "2025-09-02",
@@ -11220,7 +11220,7 @@
       "key": 97
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 163448,
       "value": 1770795.0,
       "date": "2025-09-01",
@@ -11232,7 +11232,7 @@
       "key": 98
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 219734,
       "value": 2456845.0,
       "date": "2025-07-03",
@@ -11244,7 +11244,7 @@
       "key": 99
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 368146,
       "value": 4066172.0,
       "date": "2025-07-02",
@@ -11256,7 +11256,7 @@
       "key": 100
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 257267,
       "value": 2889108.0,
       "date": "2025-07-01",
@@ -11268,7 +11268,7 @@
       "key": 101
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 450000,
       "value": 5104800.0,
       "date": "2025-06-30",
@@ -11280,7 +11280,7 @@
       "key": 102
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 270000,
       "value": 3009420.0,
       "date": "2025-06-12",
@@ -11292,7 +11292,7 @@
       "key": 103
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 300000,
       "value": 3291300.0,
       "date": "2025-06-11",
@@ -11304,7 +11304,7 @@
       "key": 104
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 320000,
       "value": 3476160.0,
       "date": "2025-06-10",
@@ -11316,7 +11316,7 @@
       "key": 105
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 350000,
       "value": 3750600.0,
       "date": "2025-06-09",
@@ -11328,7 +11328,7 @@
       "key": 106
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 420000,
       "value": 4513320.0,
       "date": "2025-06-05",
@@ -11340,7 +11340,7 @@
       "key": 107
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 724933,
       "value": 7822752.0,
       "date": "2025-06-04",
@@ -11352,7 +11352,7 @@
       "key": 108
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 715500,
       "value": 7765321.0,
       "date": "2025-06-03",
@@ -11364,7 +11364,7 @@
       "key": 109
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 4556631,
       "value": 48865310.0,
       "date": "2025-06-02",
@@ -11376,7 +11376,7 @@
       "key": 110
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 243534,
       "value": 2753882.0,
       "date": "2025-05-13",
@@ -11388,7 +11388,7 @@
       "key": 111
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 250000,
       "value": 2772750.0,
       "date": "2025-05-12",
@@ -11400,7 +11400,7 @@
       "key": 112
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 175000,
       "value": 1968225.0,
       "date": "2025-05-01",
@@ -11412,7 +11412,7 @@
       "key": 113
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 175000,
       "value": 1944950.0,
       "date": "2025-04-30",
@@ -11424,7 +11424,7 @@
       "key": 114
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 180000,
       "value": 1973880.0,
       "date": "2025-04-29",
@@ -11436,7 +11436,7 @@
       "key": 115
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 180000,
       "value": 1969020.0,
       "date": "2025-04-28",
@@ -11448,7 +11448,7 @@
       "key": 116
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 175000,
       "value": 1900500.0,
       "date": "2025-04-24",
@@ -11460,7 +11460,7 @@
       "key": 117
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 175000,
       "value": 1871975.0,
       "date": "2025-04-23",
@@ -11472,7 +11472,7 @@
       "key": 118
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 175000,
       "value": 1875300.0,
       "date": "2025-04-22",
@@ -11484,7 +11484,7 @@
       "key": 119
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 163095,
       "value": 1717716.0,
       "date": "2025-04-17",
@@ -13343,10 +13343,10 @@
     {
       "relation": "holds",
       "pct_portfolio": 2.21,
-      "source": "baillie-gifford",
       "session_date": "2026-03-21",
       "date_added": "2026-03-21",
       "note": "capture",
+      "source": "baillie-gifford",
       "target": "IHP.L",
       "key": 1
     },
@@ -20032,7 +20032,7 @@
       "key": 2
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 45482,
       "value": 1087338.0,
       "date": "2025-04-11",
@@ -20044,7 +20044,7 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 45482,
       "value": 1087338.0,
       "date": "2025-04-11",
@@ -20056,7 +20056,7 @@
       "key": 1
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65819,
       "value": 1557474.0,
       "date": "2025-04-10",
@@ -20068,7 +20068,7 @@
       "key": 2
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65819,
       "value": 1557474.0,
       "date": "2025-04-10",
@@ -20080,7 +20080,7 @@
       "key": 3
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65819,
       "value": 1503635.0,
       "date": "2025-04-09",
@@ -20092,7 +20092,7 @@
       "key": 4
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65819,
       "value": 1503635.0,
       "date": "2025-04-09",
@@ -20104,7 +20104,7 @@
       "key": 5
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65819,
       "value": 1446438.0,
       "date": "2025-04-08",
@@ -20116,7 +20116,7 @@
       "key": 6
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65819,
       "value": 1446438.0,
       "date": "2025-04-08",
@@ -20128,7 +20128,7 @@
       "key": 7
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65819,
       "value": 1498237.0,
       "date": "2025-04-07",
@@ -20140,7 +20140,7 @@
       "key": 8
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65819,
       "value": 1498237.0,
       "date": "2025-04-07",
@@ -22120,7 +22120,7 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 1000,
       "value": 91440.0,
       "date": "2025-08-06",
@@ -22912,7 +22912,7 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 20006,
       "value": 592277.0,
       "date": "2024-10-30",
@@ -22924,7 +22924,7 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 170000,
       "value": 5146410.0,
       "date": "2024-10-29",
@@ -22936,7 +22936,7 @@
       "key": 1
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 163852,
       "value": 4924408.0,
       "date": "2024-10-28",
@@ -22948,7 +22948,7 @@
       "key": 2
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 161168,
       "value": 4868562.0,
       "date": "2024-10-25",
@@ -22960,7 +22960,7 @@
       "key": 3
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 152451,
       "value": 4667134.0,
       "date": "2024-10-24",
@@ -22972,7 +22972,7 @@
       "key": 4
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 150171,
       "value": 4598386.0,
       "date": "2024-10-23",
@@ -22984,7 +22984,7 @@
       "key": 5
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 147691,
       "value": 4626863.0,
       "date": "2024-10-22",
@@ -22996,7 +22996,7 @@
       "key": 6
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 146103,
       "value": 4698818.0,
       "date": "2024-10-21",
@@ -23008,7 +23008,7 @@
       "key": 7
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 144318,
       "value": 4684995.0,
       "date": "2024-10-18",
@@ -23020,7 +23020,7 @@
       "key": 8
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 149010,
       "value": 4811681.0,
       "date": "2024-10-17",
@@ -23032,7 +23032,7 @@
       "key": 9
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 147081,
       "value": 4696296.0,
       "date": "2024-10-16",
@@ -23044,7 +23044,7 @@
       "key": 10
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 157000,
       "value": 5001549.0,
       "date": "2024-10-15",
@@ -23056,7 +23056,7 @@
       "key": 11
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 150881,
       "value": 4783983.0,
       "date": "2024-10-14",
@@ -23068,7 +23068,7 @@
       "key": 12
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 154250,
       "value": 4877385.0,
       "date": "2024-10-11",
@@ -23080,7 +23080,7 @@
       "key": 13
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 136829,
       "value": 4314902.0,
       "date": "2024-10-10",
@@ -23092,7 +23092,7 @@
       "key": 14
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 156003,
       "value": 4983203.0,
       "date": "2024-10-09",
@@ -23104,7 +23104,7 @@
       "key": 15
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 155451,
       "value": 4992775.0,
       "date": "2024-10-08",
@@ -23116,7 +23116,7 @@
       "key": 16
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 159376,
       "value": 5183545.0,
       "date": "2024-10-07",
@@ -23128,7 +23128,7 @@
       "key": 17
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 155980,
       "value": 5098206.0,
       "date": "2024-10-04",
@@ -23140,7 +23140,7 @@
       "key": 18
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 158887,
       "value": 5121404.0,
       "date": "2024-10-03",
@@ -23152,7 +23152,7 @@
       "key": 19
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 157713,
       "value": 5157688.0,
       "date": "2024-10-02",
@@ -23164,7 +23164,7 @@
       "key": 20
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 156030,
       "value": 5148990.0,
       "date": "2024-10-01",
@@ -23176,7 +23176,7 @@
       "key": 21
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 155732,
       "value": 5178244.0,
       "date": "2024-09-30",
@@ -23188,7 +23188,7 @@
       "key": 22
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 155000,
       "value": 5215130.0,
       "date": "2024-09-27",
@@ -23200,7 +23200,7 @@
       "key": 23
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 154358,
       "value": 5197542.0,
       "date": "2024-09-26",
@@ -23212,7 +23212,7 @@
       "key": 24
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 134079,
       "value": 4422998.0,
       "date": "2024-09-25",
@@ -23224,7 +23224,7 @@
       "key": 25
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 151053,
       "value": 5024324.0,
       "date": "2024-09-24",
@@ -23236,7 +23236,7 @@
       "key": 26
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 138228,
       "value": 4554750.0,
       "date": "2024-09-23",
@@ -23248,7 +23248,7 @@
       "key": 27
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 147042,
       "value": 4863561.0,
       "date": "2024-09-20",
@@ -23260,7 +23260,7 @@
       "key": 28
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 142905,
       "value": 4836905.0,
       "date": "2024-09-19",
@@ -23272,7 +23272,7 @@
       "key": 29
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 136717,
       "value": 4492247.0,
       "date": "2024-09-18",
@@ -23284,7 +23284,7 @@
       "key": 30
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 135500,
       "value": 4407950.0,
       "date": "2024-09-17",
@@ -23296,7 +23296,7 @@
       "key": 31
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 124016,
       "value": 4028659.0,
       "date": "2024-09-16",
@@ -23308,7 +23308,7 @@
       "key": 32
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 130928,
       "value": 4248744.0,
       "date": "2024-09-13",
@@ -23320,7 +23320,7 @@
       "key": 33
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 125911,
       "value": 4064784.0,
       "date": "2024-09-12",
@@ -23332,7 +23332,7 @@
       "key": 34
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 121092,
       "value": 3804831.0,
       "date": "2024-09-11",
@@ -23344,7 +23344,7 @@
       "key": 35
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 116975,
       "value": 3708575.0,
       "date": "2024-09-10",
@@ -23356,7 +23356,7 @@
       "key": 36
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 108042,
       "value": 3478520.0,
       "date": "2024-09-09",
@@ -23368,7 +23368,7 @@
       "key": 37
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 106500,
       "value": 3656145.0,
       "date": "2024-09-06",
@@ -23380,7 +23380,7 @@
       "key": 38
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 105600,
       "value": 3691036.0,
       "date": "2024-09-05",
@@ -23392,7 +23392,7 @@
       "key": 39
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 101194,
       "value": 3552111.0,
       "date": "2024-09-04",
@@ -23404,7 +23404,7 @@
       "key": 40
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 99200,
       "value": 3557212.0,
       "date": "2024-09-03",
@@ -23416,7 +23416,7 @@
       "key": 41
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 93623,
       "value": 3352171.0,
       "date": "2024-09-02",
@@ -23428,7 +23428,7 @@
       "key": 42
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 91943,
       "value": 3307925.0,
       "date": "2024-08-30",
@@ -23440,7 +23440,7 @@
       "key": 43
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 89673,
       "value": 3226613.0,
       "date": "2024-08-28",
@@ -23452,7 +23452,7 @@
       "key": 44
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 86700,
       "value": 3130476.0,
       "date": "2024-08-27",
@@ -23464,7 +23464,7 @@
       "key": 45
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 86871,
       "value": 3144730.0,
       "date": "2024-08-27",
@@ -23476,7 +23476,7 @@
       "key": 46
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 94571,
       "value": 3399070.0,
       "date": "2024-08-23",
@@ -23488,7 +23488,7 @@
       "key": 47
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 90600,
       "value": 3238315.0,
       "date": "2024-08-22",
@@ -23500,7 +23500,7 @@
       "key": 48
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 83761,
       "value": 2976112.0,
       "date": "2024-08-21",
@@ -23512,7 +23512,7 @@
       "key": 49
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 85600,
       "value": 3039142.0,
       "date": "2024-08-20",
@@ -23524,7 +23524,7 @@
       "key": 50
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 88780,
       "value": 3136331.0,
       "date": "2024-08-19",
@@ -23536,7 +23536,7 @@
       "key": 51
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 84572,
       "value": 2944712.0,
       "date": "2024-08-16",
@@ -23548,7 +23548,7 @@
       "key": 52
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 87100,
       "value": 2978471.0,
       "date": "2024-08-15",
@@ -23560,7 +23560,7 @@
       "key": 53
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 84961,
       "value": 2865734.0,
       "date": "2024-08-14",
@@ -23572,7 +23572,7 @@
       "key": 54
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 84300,
       "value": 2819076.0,
       "date": "2024-08-13",
@@ -23584,7 +23584,7 @@
       "key": 55
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 81047,
       "value": 2690679.0,
       "date": "2024-08-12",
@@ -23596,7 +23596,7 @@
       "key": 56
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 72109,
       "value": 2382914.0,
       "date": "2024-08-09",
@@ -23608,7 +23608,7 @@
       "key": 57
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 76242,
       "value": 2496696.0,
       "date": "2024-08-08",
@@ -23620,7 +23620,7 @@
       "key": 58
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 74800,
       "value": 2455833.0,
       "date": "2024-08-07",
@@ -23632,7 +23632,7 @@
       "key": 59
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 72500,
       "value": 2355090.0,
       "date": "2024-08-06",
@@ -23644,7 +23644,7 @@
       "key": 60
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 69900,
       "value": 2272239.0,
       "date": "2024-08-05",
@@ -23656,7 +23656,7 @@
       "key": 61
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 67873,
       "value": 2273202.0,
       "date": "2024-08-02",
@@ -23668,7 +23668,7 @@
       "key": 62
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65607,
       "value": 2244874.0,
       "date": "2024-08-01",
@@ -23680,7 +23680,7 @@
       "key": 63
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 64100,
       "value": 2220872.0,
       "date": "2024-07-31",
@@ -23692,7 +23692,7 @@
       "key": 64
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 62000,
       "value": 2142038.0,
       "date": "2024-07-30",
@@ -23704,7 +23704,7 @@
       "key": 65
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 59205,
       "value": 2038783.0,
       "date": "2024-07-29",
@@ -23716,7 +23716,7 @@
       "key": 66
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 49417,
       "value": 1660213.0,
       "date": "2024-07-26",
@@ -26428,7 +26428,7 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 102903,
       "value": 1301722.0,
       "date": "2026-03-04",
@@ -26440,7 +26440,7 @@
       "key": 0
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 100426,
       "value": 1291478.0,
       "date": "2026-03-03",
@@ -26452,7 +26452,7 @@
       "key": 1
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 94451,
       "value": 1253459.0,
       "date": "2026-03-02",
@@ -26464,7 +26464,7 @@
       "key": 2
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 227713,
       "value": 3082778.0,
       "date": "2026-02-27",
@@ -26476,7 +26476,7 @@
       "key": 3
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 111814,
       "value": 1496854.0,
       "date": "2026-02-26",
@@ -26488,7 +26488,7 @@
       "key": 4
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 113000,
       "value": 1524144.0,
       "date": "2026-02-25",
@@ -26500,7 +26500,7 @@
       "key": 5
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 112643,
       "value": 1508627.0,
       "date": "2026-02-24",
@@ -26512,7 +26512,7 @@
       "key": 6
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 105229,
       "value": 1396704.0,
       "date": "2026-02-23",
@@ -26524,7 +26524,7 @@
       "key": 7
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 107222,
       "value": 1415223.0,
       "date": "2026-02-20",
@@ -26536,7 +26536,7 @@
       "key": 8
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 107420,
       "value": 1411391.0,
       "date": "2026-02-19",
@@ -26548,7 +26548,7 @@
       "key": 9
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 107456,
       "value": 1411971.0,
       "date": "2026-02-18",
@@ -26560,7 +26560,7 @@
       "key": 10
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 105460,
       "value": 1393548.0,
       "date": "2026-02-17",
@@ -26572,7 +26572,7 @@
       "key": 11
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 104177,
       "value": 1382532.0,
       "date": "2026-02-16",
@@ -26584,7 +26584,7 @@
       "key": 12
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 76882,
       "value": 915664.0,
       "date": "2025-03-14",
@@ -26596,7 +26596,7 @@
       "key": 13
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 100411,
       "value": 1184247.0,
       "date": "2025-03-13",
@@ -26608,7 +26608,7 @@
       "key": 14
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 97040,
       "value": 1229982.0,
       "date": "2025-03-12",
@@ -26620,7 +26620,7 @@
       "key": 15
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 98602,
       "value": 1250963.0,
       "date": "2025-03-11",
@@ -26632,7 +26632,7 @@
       "key": 16
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 98165,
       "value": 1229614.0,
       "date": "2025-03-10",
@@ -26644,7 +26644,7 @@
       "key": 17
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 95205,
       "value": 1167308.0,
       "date": "2025-03-07",
@@ -26656,7 +26656,7 @@
       "key": 18
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 89849,
       "value": 1114576.0,
       "date": "2025-03-06",
@@ -26668,7 +26668,7 @@
       "key": 19
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 88468,
       "value": 1105230.0,
       "date": "2025-03-05",
@@ -26680,7 +26680,7 @@
       "key": 20
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 87219,
       "value": 1083521.0,
       "date": "2025-03-04",
@@ -26692,7 +26692,7 @@
       "key": 21
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 83741,
       "value": 1034703.0,
       "date": "2025-03-03",
@@ -26704,7 +26704,7 @@
       "key": 22
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 79278,
       "value": 976150.0,
       "date": "2025-02-28",
@@ -26716,7 +26716,7 @@
       "key": 23
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 76927,
       "value": 945817.0,
       "date": "2025-02-27",
@@ -26728,7 +26728,7 @@
       "key": 24
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 73995,
       "value": 924567.0,
       "date": "2025-02-26",
@@ -26740,7 +26740,7 @@
       "key": 25
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 74190,
       "value": 924481.0,
       "date": "2025-02-25",
@@ -26752,7 +26752,7 @@
       "key": 26
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 73717,
       "value": 936205.0,
       "date": "2025-02-24",
@@ -26764,7 +26764,7 @@
       "key": 27
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 71444,
       "value": 921270.0,
       "date": "2025-02-21",
@@ -26776,7 +26776,7 @@
       "key": 28
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 69157,
       "value": 885693.0,
       "date": "2025-02-20",
@@ -26788,7 +26788,7 @@
       "key": 29
     },
     {
-      "relation": "insider_buy",
+      "relation": "corporate_buyback",
       "shares": 65710,
       "value": 831888.0,
       "date": "2025-02-19",
