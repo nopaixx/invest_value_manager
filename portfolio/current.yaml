@@ -110,8 +110,8 @@ positions:
     fair_value: "390 GBp (R3 refresh S147c1, maintained. DA bear 350p still 10% above market. QS Tool 80 Tier A.)"
     last_review: 2026-03-15
     intentional_weight: 13.0  # Weight after S108 ADD (55 shares at 318p, EUR 200). Drifted down from 13% to 11.5%.
-    exit_plan: "HOLD. 11.4% = CEILING, do NOT add. TRIM at 450p+. SELL if KC triggered (margin <20bps + FUA <8%, outflows 2Q, insider selling >5%, IHT SIPP outflows >0.5bn/Q). Validate H1 FY26 ops leverage (~June)."
-    notes: "R3 refresh S147c1: FV 390p maintained. DA MODERATE COUNTER — sizing concern (11.4% = 5.7x original 2%), IHT pension reform blind spot (KC#8 added), competition incrementally worse. E[CAGR] 19.5%. No add, no trim."
+    exit_plan: "TRIM CONDITIONAL 11.4%→7-8% when capital destination available (ITRK.L/SPGI post-FTNT exit late April). Zero-base = 5-7%, path dependency 4-6pp. HOLD floor 7%. SELL if KC triggered. Cross-holding risk: BG holds 2.21% IHP.L + 5.41% EDEN.PA."
+    notes: "S284: Path dependency audit. Zero-base would NOT open 11.4% (max 5-7%). 2%→11.4% via 3 ADDs without deliberate sizing decision = same EDEN.PA pattern at smaller scale. TRIM CONDITIONAL formalized. Cross-holding Baillie Gifford = -2.1pp portfolio if simultaneous dump with EDEN.PA. E[CAGR] 21.4% strong but sizing unjustified."
 
   - ticker: HLNE
     name: "Hamilton Lane Incorporated"
