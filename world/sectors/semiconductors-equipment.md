@@ -1,7 +1,14 @@
 # Sector: Semiconductors & Equipment
 
-> Ultima actualizacion: 2026-03-18
-> Status: NEUTRAL-CAUTELA - Valuations stretched + Hormuz LNG risk to Korea/Taiwan fabs + ASML tariff warning + China export control tightening
+> Ultima actualizacion: 2026-03-22
+> Status: NEUTRAL-CAUTELA - Valuations recovering 10-15% from Mar 7 lows. Dip-buying window narrowing.
+>
+> **UPDATE Mar 22 (S284):** Four material developments:
+> (1) **AMAT guided semi equipment business >20% growth CY2026** — step-up from 10-15% WFE consensus. Bullish for entire equipment sector revenue trajectory.
+> (2) **Export controls SOFTENING** — BIS shifted H200/MI325X from "presumption of denial" to case-by-case. Samsung, SK hynix, TSMC got annual licenses for China fabs. Direction more nuanced than pure tightening. BUT AMAT fined $252M (Feb 12) for past illegal exports — enforcement remains strict.
+> (3) **Capex cycle peak consensus 2027** — $133B (2025) → $145B (2026) → $156B (2027 PEAK). Post-2027 trough risk real if AI ROI disappoints.
+> (4) **TSMC Arizona massively upgraded** — $65B→$165B investment, 3→6 fabs. Fab 2 accelerated to H2 2027 (was 2028). Fab 3 = N2/A16 most advanced node. Major positive for US equipment demand.
+> **Price recovery:** LRCX +14.6%, KLAC +11.4%, AMAT +9.8% from Mar 7 lows. Dip-buying window for ASML/CDNS is NARROWING. CDNS at $284 vs $200 entry = still 42% away.
 
 ## Resumen Ejecutivo
 

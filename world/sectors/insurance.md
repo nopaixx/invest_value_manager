@@ -1,7 +1,13 @@
 # Sector: Insurance
 
-> Ultima actualizacion: 2026-03-18
+> Ultima actualizacion: 2026-03-22
 > Status: **NEUTRAL-FAVORABLE** (Defensive in crisis; stock picking selectivo)
+>
+> **UPDATE Mar 22 (S284):** Three material developments:
+> (1) **KNSL SO $355 TRIGGERED** — price $328.21 (7.6% below trigger). BUT Jefferies downgraded to UNDERPERFORM Mar 19 (PT $392→$312), E&S growth decelerated H2 2025 to 3% (was 13.5%). Gate Q1 GWP >10% ex-property is now BINDING. Do NOT execute until Q1 verifies.
+> (2) **WRB — Mitsui Sumitomo completed $3.8B / 15.7% stake + board seat.** Purchased 2.3M additional shares open market Feb-Mar at $71-73. Board nominee Andrew Carrier. Combined with Markel + Fairholme = 3 SM holders. WRB at $65.74, -17% from highs, 14.8x P/E. Pipeline candidate strengthened.
+> (3) **E&S growth deceleration confirmed sector-wide:** 9.7% through 9M 2025 (from 13.5%), H2 only ~3%. Rate reductions expected Q1-Q2 2026 in property. Casualty/liability remains firm (social inflation). This challenges KNSL's growth trajectory specifically.
+> GL at $136.80, ADD SO $125 now 8.6% away. ERIE $240 approaching FV $225.
 
 ## Resumen Ejecutivo
 
