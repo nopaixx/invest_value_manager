@@ -54,13 +54,13 @@ positions:
     avg_cost_usd: 261.57  # S220: REAL eToro entry $261.57 (was $264.73 theoretical)  # Blended: (2*271.60 + 1.83*259.04) / 3.83
     date_opened: 2026-02-04
     conviction: medium
-    fair_value: "$406 (S181: FTC settled $150M, trial CANCELLED. Was $390 FTC-adjusted. Unwind 4% of 6% discount. QS Tool 80, Adj 77. ROIC 53%.)"
-    exit_plan: "HOLD. FTC RESOLVED (settlement $150M, trial cancelled). EXIT if KC#9 (successor fails, rev growth <8% 2Q). TRIM at $370+. ADD at $220 (bear case + FTC resolved)."
-    last_review: 2026-03-14
+    fair_value: "$385 (S284: CMA UK reopens multi-jurisdiction regulatory risk. FV $406→$385. Revert FTC unwind + CMA discount. 60/40 bear/base.)"
+    exit_plan: "HOLD. FTC RESOLVED but CMA UK OPEN. EXIT if KC#9 (successor fails, rev growth <8% 2Q) OR KC#10 (CMA structural remedy). TRIM at $350+. ADD at $220."
+    last_review: 2026-03-22
     intentional_weight: 8.1  # Weight after S122 market buy (3.83 shares, EUR 400). FTC settled S181.
     thesis: thesis/active/ADBE/thesis.md
-    conviction: medium-high
-    notes: "S181: FTC settled $150M ($75M penalties + $75M services). Trial Oct 2026 CANCELLED. KC#6 RESOLVED. FV $390→$406 (unwind 4% of 6% FTC discount). Conviction MEDIUM→MEDIUM-HIGH. E[CAGR] 24.6% at $249. Q1 FY2026 CONDITIONAL BEAT. AI-first ARR tripled. CEO Narayen stepping down."
+    conviction: medium
+    notes: "S284: FV $406→$385 (CMA UK multi-jurisdiction risk + revert FTC unwind). E[CAGR] 21.5% at $248. Conviction MEDIUM-HIGH→MEDIUM (CEO transition + CMA dual front). Wadhwani personally named in FTC complaint — continuity CEO, not reformer. SM stale (all pre-event Q4 2025). Still HOLD: P/E 14.5x, E[CAGR] 21.5% solid."
 
   - ticker: NVO
     name: "Novo Nordisk A/S"

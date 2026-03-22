@@ -7,15 +7,17 @@
 Adobe cotiza a P/E 16x (-43% de maximos), el mercado teme disrupcion por IA pero los fundamentales cuentan otra historia: 89% gross margin, 30% ROIC, $9.8B FCF creciendo +10%/ano. Quality Score Tool 76 (Tier A). MoS ~25% tras ajuste regulatorio. Oportunidad de Quality Compounder con riesgo FTC/DOJ conocido y acotable.
 
 **CAMBIO v2.0 (10-Feb-2026):** Integra FTC/DOJ ROSCA lawsuit (trial Oct 2026), ajusta FV -6%, anade Kill Condition #6 (FTC churn impact). Corrige formato a QS Tool-First.
-> **Fair Value:** $406 (S181: FTC settlement resolved. Was $390 FTC-adjusted. Unwind 4% of 6% FTC discount — keep 2% for operational changes (easy cancellation). Pre-FTC was ~$414.)
+> **Fair Value:** $385 (S284: CMA UK reopens multi-jurisdiction regulatory risk. Revert FTC unwind ($406→$390) + add 1.3% CMA discount. 60/40 bear/base: 60%×$375 + 40%×$390 = $381, rounded $385. Was $406.)
 > **Expected Growth:** 7% (adjusted from 8%. R3 pending post-earnings Mar 12.)
-> **Data Integrity:** FV matches current.yaml ($390). QS Tool 80 (Mar 8, up from 76). Growth 7% sourced from projection framework.
+> **Data Integrity:** FV matches current.yaml ($385). QS Tool 80 (Mar 8, up from 76). Growth 7% sourced from projection framework.
 > Pipeline Stage: R2_COMPLETE (DA S146c9-10. R3 after Q1 earnings.)
 > **Post-Earnings (Mar 13):** Q1 FY2026 CONDITIONAL BEAT. Rev $6.40B (+12%) BULL. EPS $6.06 BULL. AI-first ARR tripled. Cash from ops $2.96B record. CEO Narayen stepping down (stays Chair). KC#9 added (successor risk). FV $390 MAINTAINED. All 9 KCs CLEAR.
-> **FTC SETTLEMENT (Mar 13, discovered S180):** $150M total ($75M penalties + $75M free services). Trial Oct 2026 CANCELLED. Adobe must implement easy cancellation + advance notification. KC#6 RESOLVED — settlement terms MILD (no structural remedy, no forced unbundling, $150M = 1.5% annual FCF). FV $390 → potential UPSIDE as FTC uncertainty premium (~$24, 6%) can now be unwound. Conviction upgraded MEDIUM → MEDIUM-HIGH.
-> **Last Update:** 2026-03-22 (S283 material event sync — CMA UK investigation added)
+> **FTC SETTLEMENT (Mar 13, discovered S180):** $150M total ($75M penalties + $75M free services). Trial Oct 2026 CANCELLED. Adobe must implement easy cancellation + advance notification. Settlement terms MILD (no structural remedy, no forced unbundling, $150M = 1.5% annual FCF). NOTE: FTC discount unwind REVERTED in S284 due to CMA UK reopening multi-jurisdiction risk. KC#6 REOPENED.
+> **Last Update:** 2026-03-22 (S284: FV $406→$385. KC#6 REOPENED multi-jurisdiction. Conviction MEDIUM-HIGH→MEDIUM. SM signal downgraded BULL→STALE PRE-CATALYST.)
 > **Macro Sensitivity:** LOW (pure software, no tariff/oil exposure. 40% international rev = FX only)
-> **CMA UK INVESTIGATION (Mar 19, 2026 — NEW ME-008):** UK Competition and Markets Authority launched formal consumer protection enforcement case investigating: (1) 50% early termination fee on "annual billed monthly" plans as unfair contract term, (2) presentation of cancellation fee info as misleading omission. Fines up to 10% global turnover (theoretical max ~$2B, actual likely far lower). Timeline: initial phase until Sep 2026. Same subscription practices as US FTC settlement — different jurisdiction. KC#6 should be REOPENED as multi-jurisdiction risk (was RESOLVED after FTC $150M settlement). FV $406 MAINTAINED — do NOT unwind remaining FTC discount until CMA trajectory clearer.
+> **CMA UK INVESTIGATION (Mar 19, 2026 — ME-008):** UK Competition and Markets Authority launched formal consumer protection enforcement case investigating: (1) 50% early termination fee on "annual billed monthly" plans as unfair contract term, (2) presentation of cancellation fee info as misleading omission. Fines up to 10% global turnover (theoretical max ~$2B, actual likely far lower). Timeline: initial phase until Sep 2026. Same subscription practices as US FTC settlement — different jurisdiction. KC#6 REOPENED as multi-jurisdiction risk. FV $406→$385 (revert FTC unwind + CMA discount). Conviction MEDIUM-HIGH→MEDIUM.
+> **SM SIGNAL DOWNGRADE (S284):** All 8 fund holders (Dodge & Cox, Polen, Cantillon, Olstein) reflect Q4 2025 13F snapshot (Dec 31) — BEFORE CEO transition (Mar 12) and CMA (Mar 19). Polen TRIMMED 44.7% in Q3 2025. Dodge & Cox and Cantillon underwater 25-35%. Signal reclassified: BULL → STALE PRE-CATALYST DATA. Next update: Q1 2026 13Fs (~May 15).
+> **CEO SUCCESSION (S284):** David Wadhwani (President Digital Media, 73% of revenue) is heir apparent. Competent operator (AppDynamics $3.7B exit, Firefly launch, 11-12% DM growth). BUT: personally named as defendant in FTC complaint alongside Adobe Inc. — subscription practices were under HIS division. Continuity CEO, not reformer. Narayen stays as Chairman. "Clean house" scenario UNLIKELY — he IS the house. Changes will come from legal mandate, not leadership conviction.
 > **Bear Case:** CEO Narayen departure creates succession risk (KC#9). CMA UK investigation reopens subscription regulatory risk globally (KC#6 → KC#10). AI open-source creative tools could reach professional quality in 3-5yr. P/E 14.3x already prices significant pessimism. SELL if successor announced AND Q2 misses AND churn rises >2pp AND CMA imposes structural remedy.
 
 ---
@@ -560,7 +562,7 @@ Consensus PT $403-418 is close to our FV $390. This means we do NOT have a stron
 | KC#3 | FCF negative | FCF $9.9B = CLEAR | Monitor FCF margin, legal costs |
 | KC#4 | Market share loss >5pp/12m | Holding = CLEAR | Competitive positioning commentary |
 | KC#5 | Insider selling >10% | No major selling = CLEAR | Form 4 filings post-earnings |
-| KC#6 | FTC mandates one-click + churn >5pp | Trial Oct 2026 = PENDING | Any FTC update on call, legal reserve size |
+| KC#6 | **REOPENED: Multi-jurisdiction subscription regulatory risk.** FTC settled ($150M) but CMA UK opened Mar 19. Same practices, different jurisdiction. TRIGGER: CMA imposes structural remedy (unbundling, forced refunds) OR churn >5pp from mandated cancellation changes. | CMA initial phase until Sep 2026 | CMA provisional findings (~Sep 2026), EU/ACCC copycat actions, churn metrics post-easy-cancellation |
 | KC#7 | Open-source AI reaches pro quality | Not yet = CLEAR | Firefly competitive positioning commentary |
 | KC#8 | AI agents automate creative end-to-end | Not yet = CLEAR | Enterprise AI agent adoption commentary |
 
@@ -639,17 +641,19 @@ Every quantitative metric hit BULL thresholds. Revenue, EPS, ARR growth, AI mone
 | KC#3 (FCF negative) | CLEAR — $2.96B record quarter |
 | KC#4 (Market share loss >5pp) | CLEAR |
 | KC#5 (Insider selling >10%) | CLEAR |
-| KC#6 (FTC one-click + churn >5pp) | PENDING — trial Oct 2026 |
+| KC#6 (Multi-jurisdiction subscription risk) | **REOPENED** — FTC settled but CMA UK opened Mar 19. Same practices, new jurisdiction. Wadhwani personally named in FTC. Monitor CMA provisional findings ~Sep 2026. |
 | KC#7 (Open-source AI pro quality) | CLEAR — Firefly accelerating |
 | KC#8 (AI agents automate creative) | CLEAR |
-| **KC#9 (NEW)** | **CEO successor fails to maintain growth trajectory (rev growth <8% for 2Q under new CEO). Monitoring starts when successor takes role.** |
+| KC#9 (CEO successor risk) | MONITORING — Wadhwani heir apparent. Competent operator but continuity CEO, not reformer. Rev growth <8% for 2Q under new CEO = TRIGGER. |
+| **KC#10 (NEW)** | **CMA imposes structural remedy (forced unbundling, mandatory refunds, subscription model changes) OR triggers EU/ACCC copycat enforcement. TRIGGER: CMA provisional findings include structural remedy (not just fine).** |
 
 ### Action: HOLD
 
-At $269.78, MoS is 31% vs $390 FV. Business results STRENGTHEN the thesis — every doubt about AI disruption was answered by tripling AI-first ARR. But:
-- CEO transition adds uncertainty (6-12 month monitoring period)
-- FTC trial Oct 2026 remains binary risk
-- No ADD at current price unless successor announcement is strong + price <$240
+At $248, MoS is 35.6% vs $385 FV (revised from $406). E[CAGR] ~21.5%. Business results STRENGTHEN the thesis — AI-first ARR tripled. But:
+- CEO transition adds uncertainty — Wadhwani competent but personally named in FTC complaint
+- CMA UK reopens regulatory risk as multi-jurisdiction (KC#6 REOPENED, KC#10 NEW)
+- SM signal STALE — all fund data pre-dates both CEO departure and CMA (Q4 2025 13Fs)
+- No ADD at current price until CMA trajectory clearer (~Sep 2026 provisional findings)
 
 **FV unchanged at $390.** Business beat supports current FV; CEO transition is a -$0 impact (Chair retention + strong bench) unless successor disappoints.
 
