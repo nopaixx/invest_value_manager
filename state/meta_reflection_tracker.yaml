@@ -269,6 +269,19 @@ material_events:
       thesis_header: null  # Not updated but EXIT approved — acceptable
     status: ACCEPTABLE  # EXIT position, minor event
 
+  - id: ME-008
+    ticker: ADBE
+    event_date: "2026-03-19"
+    level: MATERIAL
+    event: "CMA UK launched formal consumer protection enforcement case — 50% early termination fee + misleading omission. Fines up to 10% global turnover."
+    response_date: "2026-03-22"
+    response_time_days: 3  # Target: <7d for MATERIAL ✓
+    docs_required: [thesis.md, devils_advocate.md]
+    docs_updated:
+      thesis_header: "2026-03-22"  # S283: CMA risk added, KC#10 proposed, bear case updated
+      devils_advocate: null  # DA not re-run yet — should be done post-CMA trajectory clearer
+    status: PARTIAL  # thesis updated same session, DA deferred to post-Sep CMA timeline
+
 # PROTOCOL FOR MATERIAL EVENTS:
 # 1. Event detected by news-monitor or risk-sentinel → log here immediately
 # 2. Classify: COSMETIC / MINOR / MATERIAL / CRITICAL

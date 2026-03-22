@@ -13,7 +13,10 @@ Adobe cotiza a P/E 16x (-43% de maximos), el mercado teme disrupcion por IA pero
 > Pipeline Stage: R2_COMPLETE (DA S146c9-10. R3 after Q1 earnings.)
 > **Post-Earnings (Mar 13):** Q1 FY2026 CONDITIONAL BEAT. Rev $6.40B (+12%) BULL. EPS $6.06 BULL. AI-first ARR tripled. Cash from ops $2.96B record. CEO Narayen stepping down (stays Chair). KC#9 added (successor risk). FV $390 MAINTAINED. All 9 KCs CLEAR.
 > **FTC SETTLEMENT (Mar 13, discovered S180):** $150M total ($75M penalties + $75M free services). Trial Oct 2026 CANCELLED. Adobe must implement easy cancellation + advance notification. KC#6 RESOLVED — settlement terms MILD (no structural remedy, no forced unbundling, $150M = 1.5% annual FCF). FV $390 → potential UPSIDE as FTC uncertainty premium (~$24, 6%) can now be unwound. Conviction upgraded MEDIUM → MEDIUM-HIGH.
-> **Bear Case:** CEO Narayen departure creates succession risk (KC#9). AI open-source creative tools could reach professional quality in 3-5yr. P/E 14.9x already prices significant pessimism. SELL if successor announced AND Q2 misses AND churn rises >2pp.
+> **Last Update:** 2026-03-22 (S283 material event sync — CMA UK investigation added)
+> **Macro Sensitivity:** LOW (pure software, no tariff/oil exposure. 40% international rev = FX only)
+> **CMA UK INVESTIGATION (Mar 19, 2026 — NEW ME-008):** UK Competition and Markets Authority launched formal consumer protection enforcement case investigating: (1) 50% early termination fee on "annual billed monthly" plans as unfair contract term, (2) presentation of cancellation fee info as misleading omission. Fines up to 10% global turnover (theoretical max ~$2B, actual likely far lower). Timeline: initial phase until Sep 2026. Same subscription practices as US FTC settlement — different jurisdiction. KC#6 should be REOPENED as multi-jurisdiction risk (was RESOLVED after FTC $150M settlement). FV $406 MAINTAINED — do NOT unwind remaining FTC discount until CMA trajectory clearer.
+> **Bear Case:** CEO Narayen departure creates succession risk (KC#9). CMA UK investigation reopens subscription regulatory risk globally (KC#6 → KC#10). AI open-source creative tools could reach professional quality in 3-5yr. P/E 14.3x already prices significant pessimism. SELL if successor announced AND Q2 misses AND churn rises >2pp AND CMA imposes structural remedy.
 
 ---
 
