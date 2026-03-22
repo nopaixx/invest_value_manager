@@ -123,9 +123,9 @@ positions:
     conviction: medium
     fair_value: "$110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)"
     last_review: 2026-03-15
-    intentional_weight: 10.0  # Weight after S122 market buy + ADD (11.87 shares total). Drifted down from ~10% to 9.7%.
-    exit_plan: "HOLD. TRIM at $140+. ADD at $85 (MoS 23%). SELL if KC#1 (FEAUM growth negative 2Q) or KC#6 (ROIC < WACC 11%). Resolve receivables gate Q4 FY2026 ~May 2026."
-    notes: "R3 refresh S147c4: FV $110 maintained. Growth 12%->10% (EPS CAGR basis). DA: PE fundraising -32%, mega-managers accelerating, receivables +67.5% unresolved (Error #63 flag). Insider cluster buy $4.2M = strongest in portfolio. No ADD."
+    intentional_weight: 5.0  # S283: TRIM 10.1%→5% decided via challenge protocol. Execute post-FTNT exit (late April).
+    exit_plan: "TRIM 10.1%→5% post-FTNT exit (~6 shares, EUR ~520). Capital → ITRK.L EUR 300 + cash EUR 220. GATE: Q4 FY2026 (May) — if Evergreen inflows → CANCEL trim. If Evergreen outflows → FULL EXIT. SELL if KC#1 (FEAUM negative 2Q) or KC#8 (Evergreen outflows/gating)."
+    notes: "S283 challenge protocol: zero-base = would NOT open 10.1% (max 5%). Sharpe IMPROVES +0.023 on trim. Insider net NEGATIVE -$19M (French River $22M sell > $3.24M buys). SI 8.5% rising. Risk score HIGH (2 CRITICAL). Worst individual Sharpe (0.267) due to beta 1.45."
 
   - ticker: DOCS
     name: "Doximity, Inc."

@@ -1445,3 +1445,16 @@ lessons:
       'Would I buy this TODAY from zero?' question added as mindset framing.
       Both changes prevent executing stale SOs in changed macro environment.
       Cost: ~EUR 0 P&L (1 day hold) but process failure identified and fixed.
+
+  - date: 2026-03-22
+    lesson: "Path dependency in sizing = silent risk. 18.4% EDEN.PA was never decided, it happened. Challenge protocol reveals truth."
+    from_decision: "HLNE challenge protocol S283: zero-base test shows would NOT open 10.1% (max 5%). Net insider -$19M (French River $22M sell contradicts $3.24M cluster buy STRONG BULL signal). Sharpe IMPROVES +0.023 on trim to 5%. HLNE has worst individual Sharpe (0.267) in portfolio. Trim 10.1%→5% decided, gate Q4 FY2026."
+    impact: |
+      1. HLNE trim 10.1%→5% post-FTNT exit (EUR 520 → ITRK.L + cash).
+      2. HARD TRIM >15% rule implemented: automatic, no exceptions, no justification.
+      3. >13% + E[CAGR] < median: TRIM to 10% (performance-adjusted).
+      4. Insider signals must include NET flow (buys - affiliated sells), not just buys.
+      5. EDEN.PA 18.4% = same path dependency pattern. Trim to 12-13% post-FTNT exit.
+      6. 19-question stress test on concentration rules proved: case-by-case = rationalization.
+         Rules must be automatic to eliminate bias. System designed to prevent worst decisions,
+         not enable best justifications.

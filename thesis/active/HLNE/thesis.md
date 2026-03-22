@@ -2,10 +2,11 @@
 
 > **Fair Value:** $110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)
 > **Expected Growth:** 10% (R3 refresh: EPS CAGR 10.7% more honest than revenue CAGR 24.7%. SBC dilution 2.7%/yr. PE fundraising -32% YoY headwind. Was 12%.)
-> **Last Update:** 2026-03-22 (S283 material events sync)
+> **Last Update:** 2026-03-22 (S283 challenge protocol — sizing 10.1%→5% decided)
 > **Macro Sensitivity:** MEDIUM (rate-sensitive PE valuations, private credit contagion)
 > Pipeline Stage: R3_COMPLETE
-> **Bear Case:** Blue Owl private credit crisis (Feb-Mar 2026) = Evergreen contagion risk. HLNE SCOPE fund offers monthly liquidity in illiquid private credit. If redemption gates trigger → thesis impaired. PE fundraising -32% could deepen to -50% in recession (oil crisis + hawkish). Mega-managers (BX/KKR/APO) launching competitive Evergreen products. UBS cut PT $184→$150. SELL if FEAUM growth negative 2Q OR PE fundraising <-50% OR Evergreen redemption gate triggered.
+> **SIZING DECISION (S283 Challenge Protocol):** TRIM from 10.1% to 5% (~6 shares, EUR ~520). Timing: post-FTNT exit (late April) — rotate to ITRK.L EUR 300 + cash EUR 220. GATE: Q4 FY2026 (May) — if Evergreen inflows growing → CANCEL trim (thesis confirmed). If Evergreen outflows/gating → FULL EXIT. Zero-base test: would NOT open 10.1% today (max 5%). Sharpe IMPROVES +0.023 on trim. HLNE has worst individual Sharpe in portfolio (0.267) due to beta 1.45 + vol 44.5%.
+> **Bear Case:** Blue Owl private credit crisis (Feb-Mar 2026) = Evergreen contagion risk. HLNE SCOPE fund offers monthly liquidity in illiquid private credit. If redemption gates trigger → thesis impaired. PE fundraising -32% could deepen to -50% in recession (oil crisis + hawkish). Mega-managers (BX/KKR/APO) launching competitive Evergreen products. UBS cut PT $184→$150. Sensitivity: PE drought 3yr → FV $91 (OVERVALUED). Blue Owl cascade → FV $77 (DEEPLY UNDERWATER). SELL if FEAUM growth negative 2Q OR PE fundraising <-50% OR Evergreen redemption gate triggered.
 > **Insider Signal:** MIXED (was STRONG BULL — corrected S283 risk_assessment). 4 insiders bought $3.24M in 60d (Berkman $1.01M). BUT French River Partners (affiliated) sold $22M in same period. Net insider flow: NEGATIVE $19M. Short interest rose to 8.5% (+27.3% MoM), above prior 6.7%. The cluster buy is real but does NOT represent net insider conviction. Robbins Geller investigating Private Assets Fund (fiduciary breach).
 
 ## TL;DR

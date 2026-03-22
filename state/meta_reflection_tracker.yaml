@@ -297,9 +297,20 @@ stats:
   resolved: 6
   oldest_open: MR-001 (2026-03-17)
   next_deadline: MR-007 (2026-04-15)
-  material_events: 7
+  material_events: 8
   material_events_complete: 2
-  material_events_partial: 3
+  material_events_partial: 4
   material_events_stale: 1
   material_events_acceptable: 1
   last_audit: 2026-03-22
+  sizing_decisions_pending:
+    - ticker: HLNE
+      decision: "TRIM 10.1%→5% (~6 shares, EUR ~520)"
+      timing: "Post-FTNT exit (late April)"
+      gate: "Q4 FY2026 (May) — if Evergreen inflows → CANCEL trim. If outflows → FULL EXIT."
+      decided: 2026-03-22
+    - ticker: EDEN.PA
+      decision: "TRIM 18.4%→12-13% (>15% HARD TRIM rule)"
+      timing: "Post-FTNT exit when ITRK.L capital available"
+      gate: "None — >15% is automatic action per S283 rule"
+      decided: 2026-03-22
