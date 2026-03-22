@@ -17,7 +17,7 @@
 | 5 | Financiero | SBC dilution eating shareholder returns (Rev CAGR 24.7% vs EPS CAGR 10.7%) | Alta | Medio | HIGH | Alignment signal (insiders own 10.6%), but dilution is real |
 | 6 | Valoracion | Near-zero MoS at probability-weighted FV ($96 vs $99.59 price) | Alta | Medio | HIGH | Market implies 1.2% FCF growth vs 21.5% historical; asymmetry favors upside |
 | 7 | Legal | Robbins Geller investigation into Hamilton Lane Private Assets Fund | Baja-Media | Medio | MEDIUM | Ambulance-chaser pattern common; no SEC formal action; no specifics public |
-| 8 | Financiero | Receivables growing 67.5% vs revenue 28.7% | Media | Bajo-Medio | MEDIUM | Could be timing; must resolve at Q4 FY2026 (May 2026) |
+| 8 | Financiero | Receivables growing 67.5% vs revenue 28.7% (2.4x ratio) | Media | Medio | **HIGH** | S284 audit: WORST receivables ratio of all 10 positions (next worst DOCS 1.3x). PE fund cycle timing possible but 2.4x is extreme. Combined with SI 8.5%↑, insider net -$19M, worst Sharpe = cumulative flag pattern. Resolve at Q4 FY2026 (May). If ratio >2x again → investigate revenue quality. |
 | 9 | Macro | Beta 1.49 amplifies drawdown (highest in portfolio) | Alta | Medio | HIGH | Quality fundamentals support recovery; beta is a feature of alt managers broadly |
 | 10 | Regulatorio | SEC intensified scrutiny of private fund advisers and retailization | Media | Bajo-Medio | MEDIUM | HLNE compliance-focused; regulation = barrier for smaller competitors |
 | 11 | Fundamental | Short interest +27.3% MoM to 8.5% of float (4.0 days to cover) | Media | Bajo | LOW | Insiders buying at same time; could signal informed bearish view OR contrarian opportunity |
