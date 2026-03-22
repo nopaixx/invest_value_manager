@@ -6,7 +6,7 @@
 > **Macro Sensitivity:** MEDIUM (rate-sensitive PE valuations, private credit contagion)
 > Pipeline Stage: R3_COMPLETE
 > **Bear Case:** Blue Owl private credit crisis (Feb-Mar 2026) = Evergreen contagion risk. HLNE SCOPE fund offers monthly liquidity in illiquid private credit. If redemption gates trigger → thesis impaired. PE fundraising -32% could deepen to -50% in recession (oil crisis + hawkish). Mega-managers (BX/KKR/APO) launching competitive Evergreen products. UBS cut PT $184→$150. SELL if FEAUM growth negative 2Q OR PE fundraising <-50% OR Evergreen redemption gate triggered.
-> **Insider Signal:** 4 insiders bought $3.24M in 60d (STRONG BULL). Director Berkman $1.01M. Insiders buying at 12-month lows.
+> **Insider Signal:** MIXED (was STRONG BULL — corrected S283 risk_assessment). 4 insiders bought $3.24M in 60d (Berkman $1.01M). BUT French River Partners (affiliated) sold $22M in same period. Net insider flow: NEGATIVE $19M. Short interest rose to 8.5% (+27.3% MoM), above prior 6.7%. The cluster buy is real but does NOT represent net insider conviction. Robbins Geller investigating Private Assets Fund (fiduciary breach).
 
 ## TL;DR
 
