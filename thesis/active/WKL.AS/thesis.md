@@ -5,7 +5,8 @@
 > **Expected Growth:** 6% (R3 resolved: FY2025 organic 5-6%, cloud +15%, EPS +24.7%. Margin expansion offsets low-single-digit revenue growth. Guided 2026: organic 5-7%.)
 > **Sector View:** professional-information-services.md (348 lines, COMPLETE — HARD GATE cleared S146)
 > Pipeline Stage: R3_COMPLETE
-> **Bear Case:** Receivables +23% vs revenue +3.5% is unexplained and concerning. AI tax/compliance plugins (TR CoCounsel) could erode competitive position over 5yr. New CEO Caywood is unproven. P/E 11.9x may be correct pricing, not opportunity. SELL if organic growth <3% 2Q.
+> **Bear Case:** Receivables anomaly RESOLVED — narrative_checker now shows -4.8% (was +23% in prior period, normalized). AI tax/compliance plugins (TR CoCounsel) could erode competitive position over 5yr. New CEO Caywood is unproven (but bought $426K shares in Aug 2025 dip). P/E 11.9x may be correct pricing, not opportunity. SELL if organic growth <3% 2Q.
+> **SM Signal (S284):** STRONG ACTIVE profile. Mawer (5.7%, top-5 holding, "stalwart"), MFS (3.0%, active quality), Fidelity (4.1%, "largest overweight" in Overseas Fund), Fundsmith (NEW late 2025 — Terry Smith initiated). BlackRock 5.3% = only passive holder. CEO Caywood bought $426K + CFO Entricken $301K in Aug 2025 dip. Zero insider selling. EUR 1.5B buybacks (5% of MCap). 80% of tracked holders are active stock-pickers, not index.
 
 ## TL;DR
 

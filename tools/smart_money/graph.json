@@ -5811,6 +5811,35 @@
       "full_name": "Liontrust Investment Partners",
       "fund_type": "unknown",
       "id": "liontrust-investment-partners"
+    },
+    {
+      "type": "fund",
+      "full_name": "T. Rowe Price",
+      "fund_type": "unknown",
+      "id": "t-rowe-price"
+    },
+    {
+      "type": "fund",
+      "full_name": "LSEG",
+      "fund_type": "unknown",
+      "id": "lseg"
+    },
+    {
+      "type": "stock",
+      "country": "US",
+      "id": "LSEG"
+    },
+    {
+      "type": "person",
+      "full_name": "Stacey Caywood",
+      "role": "CEO",
+      "id": "stacey-caywood"
+    },
+    {
+      "type": "person",
+      "full_name": "Kevin Entricken",
+      "role": "CFO",
+      "id": "kevin-entricken"
     }
   ],
   "edges": [
@@ -7707,6 +7736,26 @@
       "source": "elliott-management",
       "target": "LULU",
       "key": 1
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 1.0,
+      "session_date": "2026-03-22",
+      "date_added": "2026-03-22",
+      "note": "capture",
+      "source": "elliott-management",
+      "target": "TW",
+      "key": 0
+    },
+    {
+      "relation": "mentions",
+      "sentiment": "bullish",
+      "context": "",
+      "session_date": "2026-03-22",
+      "date_added": "2026-03-22",
+      "source": "elliott-management",
+      "target": "LSEG",
+      "key": 0
     },
     {
       "relation": "holds",
@@ -13126,6 +13175,16 @@
     },
     {
       "relation": "holds",
+      "pct_portfolio": 1.0,
+      "session_date": "2026-03-22",
+      "date_added": "2026-03-22",
+      "note": "capture",
+      "source": "fundsmith",
+      "target": "WKL.AS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
       "pct_portfolio": 50.0,
       "session_date": "2026-02-22",
       "date_added": "2026-02-22",
@@ -13709,6 +13768,16 @@
       "source": "blackrock",
       "target": "WKL.AS",
       "key": 2
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 5.9,
+      "session_date": "2026-03-22",
+      "date_added": "2026-03-22",
+      "note": "capture",
+      "source": "blackrock",
+      "target": "TW",
+      "key": 0
     },
     {
       "relation": "holds",
@@ -14394,6 +14463,16 @@
     },
     {
       "relation": "holds",
+      "pct_portfolio": 8.1,
+      "session_date": "2026-03-22",
+      "date_added": "2026-03-22",
+      "note": "capture",
+      "source": "wellington-management",
+      "target": "TW",
+      "key": 0
+    },
+    {
+      "relation": "holds",
       "pct_portfolio": 38.4,
       "session_date": "2026-02-23",
       "date_added": "2026-02-23",
@@ -15001,6 +15080,16 @@
       "note": "capture",
       "source": "vanguard",
       "target": "RACE.MI",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 10.3,
+      "session_date": "2026-03-22",
+      "date_added": "2026-03-22",
+      "note": "capture",
+      "source": "vanguard",
+      "target": "TW",
       "key": 0
     },
     {
@@ -26848,6 +26937,48 @@
       "note": "capture",
       "source": "liontrust-investment-partners",
       "target": "IHP.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 13.6,
+      "session_date": "2026-03-22",
+      "date_added": "2026-03-22",
+      "note": "capture",
+      "source": "t-rowe-price",
+      "target": "TW",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 50.8,
+      "session_date": "2026-03-22",
+      "date_added": "2026-03-22",
+      "note": "capture",
+      "source": "lseg",
+      "target": "TW",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 426000.0,
+      "date": "2026-03-22",
+      "role": "CEO",
+      "data_source": "live",
+      "date_added": "2026-03-22",
+      "source": "stacey-caywood",
+      "target": "WKL.AS",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 301000.0,
+      "date": "2026-03-22",
+      "role": "CFO",
+      "source": "kevin-entricken",
+      "data_source": "live",
+      "date_added": "2026-03-22",
+      "target": "WKL.AS",
       "key": 0
     }
   ]
