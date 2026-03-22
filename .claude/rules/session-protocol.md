@@ -150,8 +150,13 @@ FASE 2.5: Rotation Check + Net Exposure Reasoning (P13)
       → Answer 5 questions with data: zero-base test, E[CAGR] vs median, Sharpe impact, drawdown, decision
       → Write re_evaluation.md if MAINTAIN (explicit justification required)
       → TRIM if Sharpe improves AND E[CAGR] sacrifice <0.5pp portfolio
-    → IF >15%: ELEVATED — same review but TRIM is DEFAULT unless E[CAGR] is #1 in portfolio
+    → IF >15%: HARD TRIM to 13% within 1 session. NO EXCEPTIONS. No review, no justification.
+      → Capital freed goes to highest E[CAGR] available candidate or cash.
+      → This is not a gate — it is an automatic action. Path dependency dies here.
     → This prevents path dependency accumulation (EDEN.PA 18.4% was never decided, it happened)
+    → IF >13% AND E[CAGR] < portfolio median: TRIM to 10% within 1 session
+      → Oversized + underperforming = most dangerous combination. No justification.
+    → Audit: constraint_checker.py REPORT shows allocations. portfolio_cagr.py shows E[CAGR] ranking.
   → **T15 SIZING-CONVICTION CHECK (OBLIGATORIO cada sesion):**
     → portfolio_cagr.py → record blended E[CAGR]
     → Rank positions by size% AND by E[CAGR] → calculate rank correlation
