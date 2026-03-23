@@ -1,15 +1,17 @@
 # MELI - MercadoLibre, Inc.
 
-> **Status:** R1 COMPLETE
-> **Date:** 2026-03-18
-> **Fair Value:** $2,450 (anti-bullish-bias: 60% bear + 40% base)
-> **Current Price:** $1,710 (EUR 1,481)
-> **MoS vs FV:** +43.3%
-> **Expected Growth:** 20%
-> **Quality Score:** 70 Tool / 78 Adjusted → Tier A
-> **Verdict:** WATCHLIST — Entry $1,500 (EUR 1,300)
-> **Sector View:** latam-ecommerce-fintech (TO CREATE)
-> **Basket Candidate:** LatAm Digital Ecosystem (new basket candidate)
+> **Status:** R3 COMPLETE
+> **Date:** 2026-03-23 (R3 resolved. R1: 2026-03-18. R2 DA: 2026-03-23.)
+> **Fair Value:** $2,200 (R3 resolved. Was $2,450 R1. DA MODERATE-STRONG COUNTER: anti-bias override corrected, FCF normalized 37.3%→32%, competition margin pressure 14%→12-13%, QS downgraded 78→74.)
+> **Current Price:** $1,666 (EUR 1,439)
+> **MoS vs FV:** +24.3%
+> **Expected Growth:** 18% (R3: was 20%. Margin compression reduces EPS growth vs revenue growth.)
+> **Quality Score:** 70 Tool / 74 Adjusted → Tier B (R3: was 78 Tier A. +4 market position not +8.)
+> **Verdict:** WATCHLIST — Entry $1,500 (EUR 1,300). SO maintained. Distance -10%.
+> **Sector View:** latam-ecommerce-fintech.md (CREATED S284 — Gate 0 CLEARED)
+> **Basket Candidate:** LatAm Digital Ecosystem (new basket — formation when position opens)
+> **Bear FV:** $1,700 (R3 revised from $1,600. DA bear $1,953.)
+> **DA Verdict:** MODERATE-STRONG COUNTER (3 HIGH: FV override, competition Temu/Shopee, bear=market price)
 
 ---
 
