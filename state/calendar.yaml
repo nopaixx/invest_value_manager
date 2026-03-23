@@ -81,6 +81,21 @@ events:
 
   # NVO CagriSema: COMPLETED Feb 23. FAILED. KC#1 triggered. Next: Wegovy pill ramp Q1-Q2 2026.
 
+  - date: 2026-04-25
+    type: preparation
+    ticker: CVNA
+    event: "CVNA Q1 2026 earnings framework preparation — MANDATORY before May 6"
+    priority: HIGH
+    action: |
+      Prepare bear/base/bull scenarios for CVNA Q1 2026 (reports May 6).
+      KEY METRICS: EBITDA margin (was 9.1% Q4), FCF margin, gain-on-sale %, units sold.
+      DECISION TREE:
+        - EBITDA margin >11% → KC#6 TRIGGERED → COVER immediately
+        - EBITDA margin 9-11% → HOLD, thesis intact
+        - EBITDA margin <9% → Consider ADD to 1.5-2% to make position material
+      Also check: PIK-to-cash transition progress, subprime delinquency rates, oil price.
+      S284 lesson: 0.7% sizing was an error — either commit properly or don't short.
+
   - date: 2026-03-29
     type: regulatory
     ticker: LNTH

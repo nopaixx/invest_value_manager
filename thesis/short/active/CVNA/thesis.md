@@ -3,18 +3,19 @@
 > **Quality Score:** 30/100 Tier D (quality_scorer.py, unchanged since S4)
 > **QS Adjusted:** 30/100 -- No adjustment warranted. Tool accurately captures negative ROIC-WACC spread, declining FCF margins, poor governance, and below-sector gross margins.
 > **Fair Value (Short Target):** $120 (S3 weighted multi-method)
-> **Current Price:** $281.28 (2026-03-21)
+> **Current Price:** $304.40 (2026-03-23)
 > **Entry:** $301.50 (2026-03-11, 0.31 shares)
-> **Overvaluation:** 134% (price is 2.34x FV)
-> **P&L:** +6.7% (in profit)
-> **Expected Decline:** -57% to FV $120
+> **Overvaluation:** 153% (price is 2.54x FV)
+> **P&L:** +1.0% (compressed from +6.7% — stock rebounded $281→$304 in 2 days)
+> **Expected Decline:** -61% to FV $120
 > **Expected Growth:** -15% (overvaluation unwind + margin compression -- for parser: short position, negative expected return for longs)
 > **Macro Sensitivity:** HIGH (oil prices, interest rates, consumer discretionary spending, credit cycle)
-> **Stop Loss:** $370 (+31.5% from current, +22.7% from entry)
+> **Stop Loss:** $370 (+21.5% from current, +22.7% from entry)
 > **Catalyst:** Q1 2026 earnings (May 6, 2026)
 > **Max Duration:** Sep 2026
-> **Status:** HOLD SHORT
-> **Last Review:** 2026-03-21
+> **Status:** HOLD SHORT — S284 review: thesis vigente but position 0.7% = immaterial sizing error
+> **Last Review:** 2026-03-23
+> **S284 Review:** HOLD until Q1 (May 6). Thesis fundamentals intact (EBITDA margin declining, FCF compressing, PIK-to-cash mid-2026). But: (a) stock rebounded $281→$304, profit compressed +6.7%→+1.0%, (b) short interest declining -10.7% MoM = bears covering, (c) position 0.7% = too small to matter — sizing error, should have been 2-3% or not at all. (d) "turnaround" narrative gaining traction but NOT supported by margin data. DECISION: HOLD. If Q1 EBITDA margin >11% → COVER (KC#6). If <9% → consider ADD to 1.5-2%. Prepare earnings framework by late April.
 
 ---
 
