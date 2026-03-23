@@ -351,23 +351,23 @@ standing_orders:
 
   - ticker: ALFA.L
     action: BUY
-    category: GATED
-    fill_prob_6m: 30
+    category: ACTIVE
+    fill_prob_6m: 95
     trigger: "<=165 GBp"
-    current_distance: "4.8%"
+    current_distance: "-9.3% (TRIGGERED — price 151p, well below 165p)"
     created_date: "2026-03-13"
     staleness_status: FRESH
-    gate: "FTNT exit capital needed (~late April). Market buy <=170p if annual report confirms receivables normalization."
-    r4_status: "BUY CONDITIONAL (S158, 2026-03-13). 10/10 gates PASS. Gate 5 CONDITIONAL (bear 169p tight vs 165p entry)."
+    gate: "CLEARED — FTNT exit ACCELERATED to Mar 26. Capital available Mar 27. Execute Mar 27-28."
+    r4_status: "BUY CONDITIONAL (S158, 2026-03-13). 10/10 gates PASS. TRIGGERED S284."
     size_eur: 400
     fair_value: "215 GBp (R3 updated S152. Was 235p. DA -8.5%. Cumulative -18.9% from R1 265p.)"
-    mos_at_trigger: "23.3%"
-    tier: "A (QS 83)"
-    ecagr_at_trigger: "~17%"
-    notes: "R4 BUY CONDITIONAL S158. Vertical SaaS monopoly — asset finance software, 50%+ market share. ROIC 71%, FCF margin 21-30%, net cash. CHP (founder, 55% stake) disposals create overhang. 10 KCs (KC#6 receivables DE-RISKED by FY2025 cash conv 97%). NRR declining 112→109% (KC#9 monitors <105%). Annual report late April/early May. 3 committee questions resolved: stick to 165p SO, market buy <=170p if annual confirms, Mar 26 plan unchanged."
+    mos_at_trigger: "29.8% (at 151p, better than 23.3% at 165p trigger)"
+    tier: "A (QS 83 — highest QS in pipeline)"
+    ecagr_at_trigger: "~19% (at 151p, better than ~17% at 165p)"
+    notes: "S284: SO TRIGGERED. Price 151p = 9.3% below 165p trigger. FTNT exit accelerated to Mar 26 → capital available Mar 27. Execute Mar 27-28 as separate trade (Mar 26 already has 6 trades). UK Quality Leaders basket 3rd position (with IHP.L + DNLM.L). MoS 29.8% at 151p vs 23.3% at trigger — MORE attractive than committee approved. Post-ALFA.L cash ~EUR 644."
     kill_conditions: "KC#1 NRR<100%, KC#2 CHP<40% accelerating, KC#3 no wins 2yr, KC#4 OP<25% 2yr, KC#5 top-5 client loss, KC#6 receivables/rev rising (DE-RISKED), KC#7 pricing erosion >10%, KC#8 UK regulatory, KC#9 NRR<105% H1 2026, KC#10 analyst coverage <2"
-    pre_execution_condition: "Needs FTNT exit capital. PRIMARY allocation from FTNT: EUR 400. If annual report confirms receivables AND price 170-175p → raise SO to 175p and market buy."
-    last_analysis_date: 2026-03-13
+    pre_execution_condition: "CLEARED. Verify Mar 26 trades filled before executing."
+    last_analysis_date: 2026-03-23
     expiry: 2026-10-01
 
   # REN.AS — ARCHIVED 2026-03-07 (S143c4). STALE: 19.7% from trigger, rallied to 52wH EUR 30.50.

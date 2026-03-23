@@ -65,6 +65,20 @@ events:
         - If DNLM.L news negative AM Mar 26: skip, add to ITRK.L
         - FX SENSITIVITY: GBP/EUR and EUR/USD on Mar 26 affect exact amounts
 
+  - date: 2026-03-27
+    type: execution
+    ticker: ALFA.L
+    event: "ALFA.L BUY — R4 APPROVED S157, SO 165p TRIGGERED (price 151p = 9.3% below trigger)"
+    priority: HIGH
+    action: |
+      BUY ALFA.L EUR 400 at market if ≤165p. Execute Mar 27-28 once Mar 26 cash settles.
+      R4 committee approved S157 (Mar 13). All 10 gates PASSED.
+      QS 83 Tier A (highest QS in pipeline). FV 215p. MoS 29.8% at 151p. E[CAGR] ~19%.
+      UK Quality Leaders basket — 3rd position alongside IHP.L + DNLM.L (entering Mar 26).
+      Capital source: Mar 26 sells (MONY.L + NVO + FTNT) → ~EUR 1,044 post-buys.
+      Post-ALFA.L cash: ~EUR 644. Remaining SOs: MEGP.L 135p EUR 300, SPGI $380 EUR 400.
+      GATE: Verify Mar 26 trades all filled before executing.
+
   # NVO CagriSema: COMPLETED Feb 23. FAILED. KC#1 triggered. Next: Wegovy pill ramp Q1-Q2 2026.
 
   - date: 2026-03-29
