@@ -5840,6 +5840,54 @@
       "full_name": "Kevin Entricken",
       "role": "CFO",
       "id": "kevin-entricken"
+    },
+    {
+      "type": "fund",
+      "full_name": "Vanguard Group",
+      "fund_type": "unknown",
+      "id": "vanguard-group"
+    },
+    {
+      "type": "fund",
+      "full_name": "William Blair Investment Management",
+      "fund_type": "unknown",
+      "id": "william-blair-investment-management"
+    },
+    {
+      "type": "fund",
+      "full_name": "ClearBridge Investments",
+      "fund_type": "unknown",
+      "id": "clearbridge-investments"
+    },
+    {
+      "type": "fund",
+      "full_name": "Franklin Resources",
+      "fund_type": "unknown",
+      "id": "franklin-resources"
+    },
+    {
+      "type": "fund",
+      "full_name": "Geode Capital Management",
+      "fund_type": "unknown",
+      "id": "geode-capital-management"
+    },
+    {
+      "type": "fund",
+      "full_name": "T. Rowe Price Investment Management",
+      "fund_type": "unknown",
+      "id": "t-rowe-price-investment-management"
+    },
+    {
+      "type": "fund",
+      "full_name": "William Blair",
+      "fund_type": "unknown",
+      "id": "william-blair"
+    },
+    {
+      "type": "fund",
+      "full_name": "Ken Xie",
+      "fund_type": "unknown",
+      "id": "ken-xie"
     }
   ],
   "edges": [
@@ -13225,6 +13273,26 @@
     },
     {
       "relation": "holds",
+      "pct_portfolio": 2.87,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "capital-world-investors",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 2.87,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "capital-world-investors",
+      "target": "DOCS",
+      "key": 1
+    },
+    {
+      "relation": "holds",
       "pct_portfolio": 1.01,
       "session_date": "2026-02-22",
       "date_added": "2026-02-22",
@@ -13777,6 +13845,26 @@
       "note": "capture",
       "source": "blackrock",
       "target": "TW",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 4.6,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "blackrock",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 7.4,
+      "source": "blackrock",
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "target": "FTNT",
       "key": 0
     },
     {
@@ -15090,6 +15178,16 @@
       "note": "capture",
       "source": "vanguard",
       "target": "TW",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 8.9,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "vanguard",
+      "target": "FTNT",
       "key": 0
     },
     {
@@ -26921,6 +27019,16 @@
     },
     {
       "relation": "holds",
+      "pct_portfolio": 5.01,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "fmr-llc",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
       "pct_portfolio": 5.27,
       "session_date": "2026-03-21",
       "date_added": "2026-03-21",
@@ -26975,10 +27083,110 @@
       "value": 301000.0,
       "date": "2026-03-22",
       "role": "CFO",
-      "source": "kevin-entricken",
       "data_source": "live",
       "date_added": "2026-03-22",
+      "source": "kevin-entricken",
       "target": "WKL.AS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 5.96,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "vanguard-group",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 2.91,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "william-blair-investment-management",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 2.74,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "clearbridge-investments",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 2.74,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "clearbridge-investments",
+      "target": "DOCS",
+      "key": 1
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 1.79,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "franklin-resources",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 1.79,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "franklin-resources",
+      "target": "DOCS",
+      "key": 1
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 1.94,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "geode-capital-management",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 1.04,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "t-rowe-price-investment-management",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 2.91,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "william-blair",
+      "target": "DOCS",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 7.0,
+      "session_date": "2026-03-23",
+      "date_added": "2026-03-23",
+      "note": "capture",
+      "source": "ken-xie",
+      "target": "FTNT",
       "key": 0
     }
   ]
