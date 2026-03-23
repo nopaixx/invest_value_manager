@@ -10,6 +10,7 @@
 > **Conviction:** LOW (downgraded from MEDIUM, S117 2026-02-25)
 > **Macro Sensitivity:** LOW (pharma, DKK-denominated, non-cyclical)
 > **Status Update:** HOLD. Trimming 14.3 shares Mar 26 (rotation to GDDY E[CAGR] 25.2%). Triple headwind: KC#1 CagriSema FAILED + FDA Warning Letter Mar 5 (adverse event reporting violations, procedural not product safety) + Semaglutide patent expiring India/China Mar 2026. POSITIVE: Wegovy HD (7.2mg) FDA approved Mar 19 (~21% weight loss). Hims settlement protects franchise.
+> **Wegovy Pill Data Correction (S284):** The "50K scripts/week" figure is MANAGEMENT-SOURCED (David Moore, NVO US President), NOT independent IQVIA data. IQVIA retail-only shows peak 38,220/week (Feb 6) and has PLATEAUED since mid-Feb. NVO's 50K blends retail + NovoCare DTC + telehealth (non-verifiable channels). Additionally: oral requires 70x more API than injectable at $149/month vs $1,350/month = structural margin destruction. Orforglipron (Lilly, small molecule oral) FDA decision Q2 2026 = ~3-month first-mover window at best. The oral franchise validates demand but does NOT solve the economics problem.
 > Pipeline Stage: R3_COMPLETE
 
 ---
@@ -195,7 +196,7 @@ LTV/CAC: Estimated >10x (exceptional)
 | 3 | Gross margin <70% | **CLEAR** | GM 76% (Q3 2025). Declining from 85% but well above 70% threshold. Trend bears watching. |
 | 4 | Dividend cut | **CLEAR** | Dividend growing. DKK 5.30/share. Payout ~49%, well covered by FCF. No cut expected. |
 | 5 | ROIC <WACC 2yr | **CLEAR** | ROIC 22% vs WACC 6.8%. Spread +15pp. No risk of breaching. |
-| 6 | Oral GLP-1 comparable efficacy at scale | **MONITORING** | Wegovy pill launch exceeding expectations (~50K scripts/week). Paradoxically, Novo's OWN oral success validates this KC path — oral could cannibalize higher-margin injectables long-term. No competitor oral at comparable efficacy yet. |
+| 6 | Oral GLP-1 comparable efficacy at scale | **MONITORING** | Wegovy pill IQVIA retail peak 38K/week (Feb 6), plateaued since mid-Feb. NVO claims 50K (includes non-verifiable DTC). 70x API requirement at $149/month = margin destruction. Orforglipron (Lilly, small molecule) FDA Q2 2026 — structurally better economics (no bioavailability penalty). First-mover window ~3 months. |
 | 7 | Gene therapy one-shot cure | **DORMANT** | No obesity gene therapy in advanced trials. Probability <5% in 5 years. Theoretical risk only. |
 
 ---
@@ -615,7 +616,7 @@ Given QS 82 (Tier A) but elevated near-term uncertainty:
 ## THESIS UPDATE v4.1 — Wegovy Pill Exceeding Expectations (2026-03-07, S142)
 
 ### What's Changed
-- **Wegovy pill launch exceeding expectations** (S140 data, Mar 4): Weekly prescriptions tracking ~50K/week, above internal targets. Oral semaglutide for obesity is validating the base case assumption that Wegovy pill can partially offset CagriSema weakness.
+- **Wegovy pill launch data corrected (S284):** NVO claims ~50K scripts/week (management-sourced, includes DTC+telehealth). Independent IQVIA retail data: peak 38,220/week (Feb 6), PLATEAUED since mid-Feb at ~38-40K. Fastest drug launch claim is directionally valid but: (a) 90% cash-pay not insured, (b) $149/month requires 70x more API than injectable $1,350/month = margin destruction, (c) orforglipron (Lilly small molecule oral) FDA Q2 2026 eliminates first-mover advantage in ~3 months. Oral validates demand but economics are structurally inferior to injectable.
 - **Price**: $38.58 (Mar 7). Down from $48.13 avg cost (-19.8% unrealized).
 - **E[CAGR] at current price**: (50/38.58)^(1/3) - 1 + 5% growth + 4.8% div = ~18.8%. Well above 15% Tier B threshold.
 
@@ -634,13 +635,14 @@ Given QS 82 (Tier A) but elevated near-term uncertainty:
 **New Expected Value: ($38.5 * 0.30) + ($50 * 0.50) + ($65 * 0.20) = $11.55 + $25 + $13 = $49.55 → ~$50 (unchanged)**
 
 ### Conviction Assessment
-- **Conviction stays LOW.** KC#1 remains triggered (CagriSema inferior). One positive data point (Wegovy pill) doesn't reverse a structural competitive disadvantage in next-gen compounds.
-- **However, HOLD case strengthens.** E[CAGR] 18.8% at $38.58 is compelling. The base business is generating real cash ($10B+ FCF). Wegovy pill validates the revenue offset thesis.
-- **Upgrade to MEDIUM would require**: (a) FY2026 revenue decline <5% (beating bear guidance), OR (b) Wegovy pill scripts >100K/week sustained for 2Q, OR (c) Market share stabilizes at >42% for 2Q.
+- **Conviction stays LOW.** KC#1 remains triggered (CagriSema inferior). Wegovy pill data is management-sourced and plateauing (IQVIA 38K, not 50K). One partially-verified positive doesn't reverse structural competitive disadvantage.
+- **However, HOLD case still valid.** E[CAGR] 18.9% at $36.53 is compelling. P/E 10.3x for 76% GM business. But FV $47 may need revision to $42-44 if Q1 confirms negative guidance + orforglipron approved.
+- **Upgrade to MEDIUM would require**: (a) FY2026 revenue decline <5% (beating bear guidance), OR (b) Wegovy pill IQVIA retail scripts >60K/week sustained for 2Q (not management-sourced), OR (c) Market share stabilizes at >42% for 2Q.
 
 ### Next Catalysts
-- **Wegovy pill ramp data** (Q1-Q2 2026): if scripts sustain >50K/week through Q2 → POSITIVE
-- **FY2026 Q1 results** (~May 2026): first quarter with Wegovy pill contribution
+- **Wegovy pill IQVIA ramp data** (Q1-Q2 2026): if IQVIA retail scripts break >45K/week sustained → POSITIVE. If plateau continues at 38K → NEUTRAL. Use IQVIA, NOT management figures.
+- **Orforglipron FDA decision** (Q2 2026): if APPROVED → oral Wegovy first-mover advantage ELIMINATED. Monitor Lilly launch pricing vs $149.
+- **FY2026 Q1 results** (~May 2026): first quarter with Wegovy pill contribution. Revenue decline severity is the key metric.
 - **Market share data**: monthly IMS/IQVIA data tracking NVO vs LLY share
 
 ---
