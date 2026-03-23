@@ -1,8 +1,14 @@
 # Sector: Payments & Fintech
 
-> Ultima actualizacion: 2026-03-18
-> Status: NEUTRAL - Quality excepcional pero valuaciones comprimidas por crisis; oportunidades emergiendo
+> Ultima actualizacion: 2026-03-23
+> Status: NEUTRAL - Quality excepcional pero CCCA risk escalated + valuaciones comprimidas
 > Cambio desde 2026-02-04: MATERIAL — UK PSR cross-border fee cap upheld (Jan 15), Wero 47M users expanding across EU, tariff uncertainty pressuring cross-border flows. V/MA multiples still compressed.
+>
+> **UPDATE Mar 23 (S284):** 3 material developments:
+> (1) **CCCA REINTRODUCED Jan 2026 + Trump endorsed** — "swipe fees out-of-control ripoff." Bipartisan: Durbin/Marshall (Senate) + Lofgren/Gooden (House). If passed: largest banks must enable 2nd network on credit cards — directly targets V/MA routing exclusivity. Durbin Amendment precedent (debit, 2010) crushed V debit interchange. Not yet passed (excluded from Mar 13 housing bill vote) but legislative momentum highest ever. THIS IS THE #1 RISK for V/MA pipeline.
+> (2) **UK MIF appeal granted** (Mar 17): V/MA can challenge adverse interchange ruling. Procedural positive, delays worst-case timeline. Does not change structural long-term risk.
+> (3) **Stablecoin integration accelerating**: Visa live in 18 countries (target 100+ by year-end). Mastercard acquiring BVNK (crypto payments infra). V/MA embedding into stablecoin rails = moat evolution, not disintermediation.
+> V price ~$306 (down from $316 Mar 18). MA ~$553 (up from $519).
 
 ## Resumen Ejecutivo
 

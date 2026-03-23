@@ -1,6 +1,6 @@
 # Sector: Luxury Goods (Ultra-Premium & Personal Luxury)
 
-> Ultima actualizacion: 2026-03-18
+> Ultima actualizacion: 2026-03-23
 > Status: **NEUTRAL-SELECTIVO** - Oportunidades selectivas en nombres premium que han sufrido de-rating significativo. No comprar el sector entero. **RACE.MI purchased as 6th E[CAGR] market buy (S139, Mar 5).**
 
 ## Resumen Ejecutivo
@@ -60,7 +60,7 @@ El sub-segmento ultra-luxury (Ferrari, Hermes, Patek Philippe) es especialmente 
 | Inflacion | POSITIVA | Pricing power supera inflacion. Luxury goods = inflation hedge |
 | China spending | Alta | ~22% del gasto luxury global. Desaceleracion China = headwind significativo |
 | Wealth effect | Media | Correlacion con mercados bursatiles y real estate para clientes HNWI |
-| US tariffs | Media | Ferrari demostro pass-through (10% price hike, no demand impact). Broader sector ~25% US exposure. |
+| US tariffs | Media-Alta | EU goods: 20% tariff confirmed (not 25% as previously stated). Swiss: 31%. China: 34%. De minimis exemption eliminated. Leather goods prices expected +22% over 2 years. Hermes, LVMH, Nike already announced price hikes. Ferrari demonstrated pass-through. Broader sector ~25-30% US exposure. |
 
 **Mejor fase del ciclo:** All (ultra-luxury), Mid-to-Late (aspiration luxury)
 **Beta tipico:** 0.7-1.2 (ultra-luxury ~0.8-1.0, aspiration luxury ~1.1-1.4)
@@ -80,7 +80,7 @@ El sub-segmento ultra-luxury (Ferrari, Hermes, Patek Philippe) es especialmente 
 | Regulacion | Probabilidad | Impacto |
 |------------|--------------|---------|
 | EU emissions 2035 (autos) | Alta | Bajo para Ferrari (low-volume exemption) |
-| US tariffs 25% on EU imports | Alta (ya vigente) | Medio (Ferrari demostro pass-through con 10% price hike) |
+| US tariffs on EU imports | Alta (ya vigente) | **CORRECCION: tarifa EU = 20% (no 25% anteriormente registrado). Swiss = 31%. China = 34%.** De minimis exemption eliminada. Medio-Alto: Ferrari pass-through demostrado, pero aspiration luxury (MONCLER, Kering) tiene menor pricing power. Leather goods +22% proyectado en 2 anos. Ultra-ricos compran en Europa para evitar aranceles (positivo para flagship stores EU). |
 | China retaliatory tariffs | Media | Medio (8-10% exposure Ferrari) |
 | ESG reporting requirements | Alta | Bajo (compliance cost, no cambio de modelo) |
 | US-EU tariff deadline Jun 1, 2026 | Alta | Medio -- watch for escalation. Ferrari 29% US revenue exposure. |
@@ -110,13 +110,15 @@ Operation Epic Fury impacto en luxury goods:
 
 ## Sentimiento de Mercado
 
-**Sentimiento actual:** CAUTELOSO / CASTIGADO (de-rating -30% desde 2023 picos). China bottoming signals emerging.
+**Sentimiento actual:** CAUTELOSO / CASTIGADO (de-rating -30% desde 2023 picos). China bottoming signals emerging. **Polarizacion K-shaped acelerando: UHNW 46-47% of spending (vs 30% in 2019). Aspirational buyer has virtually disappeared from the market.**
 
 **Narrativa dominante:**
 "China luxury spending has peaked. Growth is slowing to low-single-digits. These stocks were overvalued at 50-60x and the normalization has further to go."
 
 **Mi contra-tesis:**
 "Los mejores operadores (Hermes, Ferrari) estan protegidos por escasez deliberada y UHNW clientele que no es ciclica. La correccion de multiples es justa (de 50x a 35x), pero los fundamentos no se han deteriorado. A 30-35x para negocios con ROIC 20-40%, moats de 30+ anos, y pricing power demostrado, el sector es interesante selectivamente. China bottoming (Bain: -3-5% in 2025, modest growth 2026E) supports stabilization. Ferrari's 52% ROIC and 2-year order book make it a quality compounder regardless of China."
+
+**Actualizacion Mar 23:** La polarizacion K-shaped es mas severa de lo anticipado. El aspirational buyer no esta 'siendo selectivo' -- esta saliendo del mercado por completo (UHNW ahora 46-47% del gasto, vs 30% in 2019). Esto REFUERZA la tesis ultra-luxury (Ferrari, Hermes) pero DEBILITA el caso para aspiration luxury (Moncler). MONC.MI R4 debe incorporar este riesgo estructural explicitamente. Positivo inesperado: ultra-ricos comprando en Europa (flagship stores) para evitar aranceles US -- LVMH/Kering abren mas tiendas en Europa en respuesta (Bloomberg Mar 23).
 
 **Flujos de fondos (12m):** Outflows significativos de EUR ~5-8B de luxury ETFs y fondos tematicos. Contrarian signal for quality names.
 
@@ -138,7 +140,7 @@ Operation Epic Fury impacto en luxury goods:
 |------|--------|-------------|-------------|--------|
 | Portfolio | RACE.MI | thesis/active/RACE.MI/ | 2026-03-05 | BOUGHT EUR 312.80 S139. FV EUR 355. Position ~2.9%. Orphan (no basket yet). |
 | Research | RMS.PA | thesis/research/RMS.PA/ | 2026-03-06 | R1 refresh + moat assessment S141. Pipeline candidate for luxury basket. |
-| Research | MONC.MI | thesis/research/MONC.MI | 2026-02-19 | R3 complete. FV EUR 52, entry EUR 42. R4 deferred post-Q1 2026. |
+| Research | MONC.MI | thesis/research/MONC.MI | 2026-02-19 | R3 complete. FV EUR 52, entry EUR 42. R4 deferred post-Q1 2026. **NEEDS_REVIEW: aspirational luxury structural deterioration (Mar 23). R4 must explicitly address UHNW concentration vs aspirational buyer exit.** |
 
 ### Protocolo de Cambio Material
 Cuando actualices este sector view con cambio MATERIAL:
@@ -192,6 +194,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| **2026-03-23** | **MATERIAL UPDATE.** (1) US tariff correction: EU rate is 20% (not 25% previously stated), Swiss 31%, China 34%, de minimis exemption eliminated. Leather goods +22% projected over 2 years. Hermes/LVMH/Nike announced price hikes. Ultra-rich buying in Europe to avoid US tariffs -- positive for EU flagship stores. (2) Aspirational luxury structural deterioration confirmed: UHNW now 46-47% of personal luxury spend (vs 30% in 2019). Aspirational buyer has "virtually disappeared." MONC.MI R4 must explicitly price this structural headwind. (3) LVMH + Kering opening more stores in Europe defying slowdown (Bloomberg Mar 23) -- strategic response to tariff-driven travel shopping. (4) Hermes FY2025 confirmed: revenue >EUR 16B (+9% CER), margin 41%, 5-6% price increases planned 2026, new stores Beijing/Geneva/London. Status unchanged NEUTRAL-SELECTIVO. | MINOR data correction (tariff rate) + MATERIAL structural update (aspirational collapse). MONC.MI risk profile elevated. RACE.MI/RMS.PA unaffected (UHNW clientele). |
 | **2026-03-18** | **Date refresh.** LVMH Q4 2025 results (Jan 27): FY2025 revenue EUR 80.8B (-5% YoY), beat consensus EUR 80.6B. Asia ex-Japan "noticeable improvement" -- mainland China returned to positive growth in H2 2025. CEO Arnault warned "2026 wont be simple." MC.PA DA completed (overvalued conclusion). MONC.MI DA completed. Luxury sector recovery thesis: Bain/JP Morgan expect +4-6% growth in 2026 driven by China stabilization. US-EU tariff deadline Jun 1 remains key risk for Ferrari (29% US revenue). Status unchanged NEUTRAL-SELECTIVO. | 11-day staleness refresh. LVMH FY2025 data added. China recovery signals confirmed. |
 | **2026-03-07** | **RACE.MI added to Nuestras Posiciones. RMS.PA added to Dependencias (R1 refresh S141). China outlook updated (Bain: bottoming). Tariff context updated (Ferrari 10% pass-through confirmed).** | **RACE.MI bought S139 Mar 5 at EUR 312.80 (6th E[CAGR] market buy). Orphan position -- luxury basket candidate. RMS.PA R1 refresh completed S141. Bain data: China luxury -3-5% 2025, modest growth 2026E. Global luxury TAM USD 484B (2026). MINOR update (position addition + data enrichment).** |
 | **2026-03-02** | **IRAN CASCADE UPDATE** | **Operation Epic Fury. Impact: LOW for ultra-luxury (UHNW insulated). RACE.MI was 5.8% from SO trigger -- subsequently bought Mar 5. Oil wealth effect POSITIVE for Ferrari/Hermes. Aspiration luxury (Moncler) more vulnerable. No thesis change.** |
