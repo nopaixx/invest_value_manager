@@ -5888,6 +5888,18 @@
       "full_name": "Ken Xie",
       "fund_type": "unknown",
       "id": "ken-xie"
+    },
+    {
+      "type": "fund",
+      "full_name": "Federated Hermes",
+      "fund_type": "unknown",
+      "id": "federated-hermes"
+    },
+    {
+      "type": "fund",
+      "full_name": "Hillman Value Fund",
+      "fund_type": "unknown",
+      "id": "hillman-value-fund"
     }
   ],
   "edges": [
@@ -13860,10 +13872,10 @@
     {
       "relation": "holds",
       "pct_portfolio": 7.4,
-      "source": "blackrock",
       "session_date": "2026-03-23",
       "date_added": "2026-03-23",
       "note": "capture",
+      "source": "blackrock",
       "target": "FTNT",
       "key": 0
     },
@@ -14075,6 +14087,16 @@
       "note": "capture",
       "source": "norges-bank",
       "target": "AUTO.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 2.3,
+      "session_date": "2026-03-24",
+      "date_added": "2026-03-24",
+      "note": "capture",
+      "source": "norges-bank",
+      "target": "ADBE",
       "key": 0
     },
     {
@@ -27187,6 +27209,26 @@
       "note": "capture",
       "source": "ken-xie",
       "target": "FTNT",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 0.9,
+      "session_date": "2026-03-24",
+      "date_added": "2026-03-24",
+      "note": "capture",
+      "source": "federated-hermes",
+      "target": "ADBE",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 0.5,
+      "source": "hillman-value-fund",
+      "session_date": "2026-03-24",
+      "date_added": "2026-03-24",
+      "note": "capture",
+      "target": "ADBE",
       "key": 0
     }
   ]
