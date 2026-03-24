@@ -13245,6 +13245,16 @@
     },
     {
       "relation": "holds",
+      "pct_portfolio": 1.2,
+      "source": "fundsmith",
+      "session_date": "2026-03-24",
+      "date_added": "2026-03-24",
+      "note": "capture",
+      "target": "WKL.AS",
+      "key": 1
+    },
+    {
+      "relation": "holds",
       "pct_portfolio": 50.0,
       "session_date": "2026-02-22",
       "date_added": "2026-02-22",
@@ -27224,10 +27234,10 @@
     {
       "relation": "holds",
       "pct_portfolio": 0.5,
-      "source": "hillman-value-fund",
       "session_date": "2026-03-24",
       "date_added": "2026-03-24",
       "note": "capture",
+      "source": "hillman-value-fund",
       "target": "ADBE",
       "key": 0
     }
