@@ -1,10 +1,11 @@
 # Edenred SE (EDEN.PA) - Investment Thesis v3.0
 
-**Date:** 2026-02-06 (R1) | Last Update: **2026-03-17 (S251 FV recalculation — Brazil injunction lost)**
+**Date:** 2026-02-06 (R1) | Last Update: **2026-03-24 (S284 staleness refresh)**
 **Original Date:** 2026-02-01 | Versions: v1.0→v4.3 (see Historial de Cambios)
-**Price at Review:** EUR 18.00 (S251) | Cost: EUR 18.35
+**Price at Review:** EUR 18.11 (S284) | Cost: EUR 18.45 (real eToro entry)
 **Quality Score:** 62/100 (tool) / 76 adj (Tier B) -- Adjustment: +14 for market position, network effects, regulatory moat in non-IT/BR markets
-**Recommendation:** HOLD (Brazil injunction OVERRULED Feb 24 — decree implementation ~certain. Turkey antitrust probe = 4th regulatory front. SI collapsed to 9.64%. ADD at EUR 15. TRIM at EUR 22+.)
+**Recommendation:** HOLD (Brazil injunction OVERRULED Feb 24 — decree implementation ~certain. Turkey antitrust probe = 4th regulatory front. SI 23.5% with 22 funds short — MOST CONTESTED position in portfolio. ADD at EUR 15. TRIM at EUR 22+. HARD TRIM >15% = 18.4% current alloc violates S283 rule → trim when capital destination available.)
+> **S284 Staleness Refresh (Mar 24):** Price EUR 18.11 (+0.6% from last review). E[CAGR] 21.2% (#2 in portfolio). P&L -1.8%. MoS 32.5% vs FV EUR 24. SI escalated to 23.5% (22 funds, CPPIB 2.32% largest). Board member Kelly Richdale bought $50K Mar 21 (contra-signal). Thesis UNCHANGED — waiting for deployment destination to execute >15% HARD TRIM. All KCs CLEAR except KC#1 (Brazil decree) MONITORING and KC#7 (Turkey) MONITORING.
 **Framework Version:** 4.0 (Principios Adaptativos)
 > **Fair Value:** EUR 24.0 (S251 recalculation. Was EUR 29.0. -17.2% adjustment: injunction lost +95% decree certainty, recovery +5% not +7%, Turkey probe. Methods: EV/EBIT 8x = EUR 24.3, P/E 11x = EUR 22.6, 60/40 bear/base = EUR 21.1. Blended EUR 24.)
 > **Expected Growth:** 4% (was 6%. Revised: 2026 -12%, 2027-28 +5%. Brazil structural damage permanent — float revenue halved, interchange capped, interoperability forced.)

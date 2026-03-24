@@ -1,6 +1,6 @@
 # NOVO-B.CO - Novo Nordisk A/S
 
-> **Analysis Date:** 2026-02-04 | Last Update: **2026-03-22 (S283 material events sync)**
+> **Analysis Date:** 2026-02-04 | Last Update: **2026-03-24 (S284 staleness refresh + Wegovy pill correction)**
 > **Analyst:** Claude (Framework v4.0)
 > **Status:** HOLD — TRIMMING 14.3 shares Mar 26
 > **Ticker:** NOVO-B.CO (Copenhagen) / NVO (NYSE ADR)
@@ -9,7 +9,8 @@
 > **Expected Growth:** 5% (R3 resolved: normalized post-CagriSema. 2026 guidance -5% to -13% sales decline. 2027 +6%, 2028+ +7%.)
 > **Conviction:** LOW (downgraded from MEDIUM, S117 2026-02-25)
 > **Macro Sensitivity:** LOW (pharma, DKK-denominated, non-cyclical)
-> **Status Update:** HOLD. Trimming 14.3 shares Mar 26 (rotation to GDDY E[CAGR] 25.2%). Triple headwind: KC#1 CagriSema FAILED + FDA Warning Letter Mar 5 (adverse event reporting violations, procedural not product safety) + Semaglutide patent expiring India/China Mar 2026. POSITIVE: Wegovy HD (7.2mg) FDA approved Mar 19 (~21% weight loss). Hims settlement protects franchise.
+> **Status Update:** HOLD. Trimming 14.3 shares Mar 26 (TOMORROW). Post-trim: 21.9 shares, ~7% alloc. Rotation to GDDY E[CAGR] 25.2%. Triple headwind: KC#1 CagriSema FAILED + FDA Warning Letter Mar 5 + Semaglutide patents expiring India/China. POSITIVE: Wegovy HD FDA approved Mar 19. Post-trim Q1 (~May) is binary: revenue decline severity + orforglipron FDA decision Q2 2026.
+> **S284 Staleness Refresh (Mar 24):** Price $36.82, E[CAGR] 18.5% (#3 in portfolio). P&L -10.7%. MoS 27.6% vs FV $47. SM: Markel + Fundsmith hold (Q4 2025 13F, STALE post-guidance). Near 52wL $35.85. Conviction LOW. FV $47 may need revision to $42-44 if Q1 confirms negative guidance + orforglipron approved. Trim CONFIRMED for tomorrow.
 > **Wegovy Pill Data Correction (S284):** The "50K scripts/week" figure is MANAGEMENT-SOURCED (David Moore, NVO US President), NOT independent IQVIA data. IQVIA retail-only shows peak 38,220/week (Feb 6) and has PLATEAUED since mid-Feb. NVO's 50K blends retail + NovoCare DTC + telehealth (non-verifiable channels). Additionally: oral requires 70x more API than injectable at $149/month vs $1,350/month = structural margin destruction. Orforglipron (Lilly, small molecule oral) FDA decision Q2 2026 = ~3-month first-mover window at best. The oral franchise validates demand but does NOT solve the economics problem.
 > Pipeline Stage: R3_COMPLETE
 

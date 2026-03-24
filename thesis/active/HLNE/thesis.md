@@ -2,7 +2,8 @@
 
 > **Fair Value:** $110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)
 > **Expected Growth:** 10% (R3 refresh: EPS CAGR 10.7% more honest than revenue CAGR 24.7%. SBC dilution 2.7%/yr. PE fundraising -32% YoY headwind. Was 12%.)
-> **Last Update:** 2026-03-22 (S283 challenge protocol — sizing 10.1%→5% decided)
+> **Last Update:** 2026-03-24 (S284 staleness refresh)
+> **S284 Staleness Refresh (Mar 24):** Price $102.01 (+2.4% since last review). E[CAGR] 14.7% (#9 of 10 — near bottom). P&L -6.0%. MoS 7.8% vs FV $110 = thin. Risk #8 upgraded HIGH: receivables 2.4x revenue growth (WORST in portfolio). Cumulative flags: SI 8.5%↑ + insider net -$19M + worst Sharpe + recv 2.4x + beta 1.45. TRIM 10.1%→5% CONFIRMED — execute post-FTNT exit capital availability (now Mar 26, was late April). Gate: Q4 FY2026 (~May). Fiscal year ends Mar 31 — reporting ~late May.
 > **Macro Sensitivity:** MEDIUM (rate-sensitive PE valuations, private credit contagion)
 > Pipeline Stage: R3_COMPLETE
 > **SIZING DECISION (S283 Challenge Protocol):** TRIM from 10.1% to 5% (~6 shares, EUR ~520). Timing: post-FTNT exit (late April) — rotate to ITRK.L EUR 300 + cash EUR 220. GATE: Q4 FY2026 (May) — if Evergreen inflows growing → CANCEL trim (thesis confirmed). If Evergreen outflows/gating → FULL EXIT. Zero-base test: would NOT open 10.1% today (max 5%). Sharpe IMPROVES +0.023 on trim. HLNE has worst individual Sharpe in portfolio (0.267) due to beta 1.45 + vol 44.5%.
