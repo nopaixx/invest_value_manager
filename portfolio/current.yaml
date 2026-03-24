@@ -138,8 +138,8 @@ positions:
     fair_value: "$30 (R3 resolved S146c4. Was $32.80. DA: TAM 13%->7%, growth 10%->8%, MFN structural. QS 74/79 Tier A.)"
     last_review: 2026-03-15
     intentional_weight: 8.5  # Weight after S122 market buy (39.93 shares total). Drifted down from ~8.5% to 8.3%.
-    exit_plan: "HOLD 8%. Do NOT add before Q4 (~May 2026). KC#8 EARLY WARNING: NRR <110% → TRIM to 5% + FV $30→$25-27 + growth 8%→5-6%. SELL if KC#1 (NRR <100%) or KC#7 (Q4 rev <$140M + FY27 guide <5%). Fundsmith still adding = positive."
-    notes: "S284: KC#8 added (NRR <110% early warning). NRR decline 119→112 is ~50% structural (pharma restructuring + AI deflation + competitive fragmentation), ~50% cyclical (MFN timing). Management 'temporary' narrative overstates cyclical. Fundsmith ADDING (1.65M shares, 5.3% portfolio). KC#6 TAM upgraded to MONITORING (eMarketer 13%→4.8%). Q4 FY2026 (~May) is binary."
+    exit_plan: "HOLD 8%. Do NOT add before Q4 (~May 2026). KC#8 EARLY WARNING: NRR <110% → TRIM to 5% + FV $30→$25-27 + growth 8%→5-6%. SELL if KC#1 (NRR <100%) or KC#7 (Q4 rev <$140M + FY27 guide <5%)."
+    notes: "S284: SM CORRECTED — Fundsmith 0.43% of portfolio (seed, NOT 5.3% conviction). Rank #26/37, tail position. After 4Q has not graduated to core (≥2%). Signal: seeding, not conviction. Other holders: Fidelity 5.01% (+37.6% Q4), Capital World 2.87% (+25.7% Q3), William Blair 2.91% (trimming). Multiple institutions underwater at $25 vs $40-75 build. KC#8 NRR<110% early warning. NRR 119→112 ~50% structural. Q4 FY2026 (~May) is binary."
 
   - ticker: FTNT
     name: "Fortinet, Inc."
