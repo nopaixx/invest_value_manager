@@ -157,6 +157,17 @@ FASE 2.5: Rotation Check + Net Exposure Reasoning (P13)
     → IF >13% AND E[CAGR] < portfolio median: TRIM to 10% within 1 session
       → Oversized + underperforming = most dangerous combination. No justification.
     → Audit: constraint_checker.py REPORT shows allocations. portfolio_cagr.py shows E[CAGR] ranking.
+  → **STARTER POSITION RULE (S284 — OBLIGATORIO cada sesion):**
+    → Any position <4% allocation = STARTER. Starters have 90-day prove-or-exit clock.
+    → At 90 days: position must be ≥5% (ADDed on confirmed thesis) OR exited (thesis unconfirmed).
+    → Rationale: EUR 200-300 positions (2-3%) don't move the needle on a EUR 10K portfolio.
+      A +50% winner at 2% = +1pp portfolio. That's noise, not alpha.
+    → Target portfolio: 10-11 positions, all 6-12% allocation, no micro positions.
+    → Growth path for starters: thesis confirmation (earnings, KCs clear) → ADD to 5-7% → material position.
+    → Capital source for ADDs: trims of oversized positions (>12%) per HARD TRIM rule above.
+    → Track in session_continuity.yaml: starter_positions[] with {ticker, open_date, 90d_deadline, status}.
+    → IF starter at 90d with no ADD and no EXIT decision → MANDATORY review that session.
+    → Origin: S284 analysis — 4 micro positions at 2-4% combined = 11.9% < one oversized position (18.4%).
   → **T15 SIZING-CONVICTION CHECK (OBLIGATORIO cada sesion):**
     → portfolio_cagr.py → record blended E[CAGR]
     → Rank positions by size% AND by E[CAGR] → calculate rank correlation
