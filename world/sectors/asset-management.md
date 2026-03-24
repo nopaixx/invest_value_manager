@@ -1,9 +1,9 @@
 # Sector: Asset Management (Alternative & Platform)
 
-> Ultima actualizacion: 2026-03-15 (S201 FOMC prep refresh)
-> Status: SOBREPONDERAR (structural secular growth in alternatives + platform economics)
+> Ultima actualizacion: 2026-03-24 (S284 post-Blue-Owl crisis refresh)
+> Status: SOBREPONDERAR (structural secular growth in alternatives + platform economics) — with elevated near-term caution on private credit contagion sentiment
 >
-> **S201 FOMC Week Context (Mar 15):** HLNE is the MOST FOMC-sensitive position (beta 1.49, highest in portfolio). Hawkish (0 cuts) → higher rates → PE fundraising stays depressed (already -32% YoY) → HLNE growth 10%→6% in recession. AT $96.85, near 52wL $92.77. BUT: 4 insiders bought $3.2M at $100-105 during this exact drawdown. P/E 17.3x (was 30-40x). In SHOCK scenario (-6% S&P), HLNE could drop to $87-90. Even then, insiders bought higher. HOLD — the insider signal outweighs the FOMC risk for a cyclical headwind, not structural damage.
+> **S284 Context (Mar 24):** Three material changes since Mar 15: (1) Blue Owl OBDC II permanently gated — private credit contagion spreading to BlackRock HPS, Cliffwater, Morgan Stanley; JPMorgan markdown cascade Mar 16; Goldman alarm Mar 21. NOT a direct HLNE kill condition (advisory/tech model ≠ BDC operator) but sentiment damage to evergreen structures real. (2) Q1 2026 PE fundraising $80B+ — RECORD, confirming 2025 as the trough. Recovery stronger than expected. (3) HLNE-specific positives: Republic strategic partnership (Mar 17) opens mass-affluent distribution; quarterly dividend +10% YoY ($2.16 annualized). TRIM decision on HLNE proceeds as planned — near-FV risk management, not thesis-break.
 
 ## Resumen Ejecutivo
 
@@ -142,16 +142,17 @@ HLNE occupies a unique niche: it is primarily a **private markets advisory and t
 
 ## Sentimiento de Mercado
 
-**Sentimiento actual:** Neutral-Cautious (geopolitical risk-off overshadowing structural positives)
-**Narrativa dominante:** "Private markets are maturing" (McKinsey 2026). Fundraising drought recovery underway but uneven. Democratization via evergreen is the #1 growth vector.
-**Flujos de fondos (12m):** Strong inflows into private credit, infrastructure, evergreen vehicles. PE buyout fundraising stabilizing. Hedge fund outflows continuing.
-**Valuation context:** Listed alternative managers trading at 15-25x earnings. HLNE at ~20x forward (below 3-year average of ~30x due to selloff). STEP at ~25x. PGHN at ~22x.
+**Sentimiento actual:** Cautious-Negative (Blue Owl private credit crisis + JPMorgan markdown cascade dominating narrative since Mar 14-21)
+**Narrativa dominante (post Mar 14):** "$265B private credit meltdown" (Fortune). "Private credit's golden era hits wall" (Mar 6). Goldman sounded alarm (Mar 21). Semi-liquid structures under existential scrutiny. This overshadows the Q1 2026 fundraising RECORD ($80B+).
+**Narrativa contrareste:** Blue Owl crisis is credit/BDC-specific, not PE evergreen. Q1 fundraising record confirms 2025 was the trough. Retailization continues (SEC roundtable, 401k opening). HLNE Republic deal signals confidence.
+**Flujos de fondos (Mar 2026):** Private credit semi-liquid vehicles: OUTFLOWS + gates. PE evergreen: cautious but not gated. Infrastructure/real assets: stable. PE buyout fundraising: recovering strongly ($80B Q1). Hedge fund outflows continuing.
+**Valuation context:** Listed alternative managers under pressure from credit contagion. HLNE at ~17-20x forward (below 3yr avg ~30x). OWL -60% from peak (direct crisis). STEP, PGHN less affected (no retail credit exposure). Sector valuation bifurcating between credit-exposed (OWL, Ares) and advisory/equity (HLNE, STEP).
 
 ---
 
 ## Nuestras Posiciones Actuales
 
-### Hamilton Lane (HLNE) -- ACTIVE, MEDIUM CONVICTION
+### Hamilton Lane (HLNE) -- ACTIVE, MEDIUM CONVICTION, TRIM PENDING
 - **QS:** Tool 86 / Adj 82 Tier A (highest in portfolio)
 - **Entry:** $104.88 blended (9.00 shares, ~$944 invested)
 - **FV:** $110 (R3 post-DA)
@@ -159,8 +160,11 @@ HLNE occupies a unique niche: it is primarily a **private markets advisory and t
 - **Key metrics:** FEAUM $79.1B (+11% YoY), Evergreen $16B+ (+70%+ YoY), FRE margin 50%, management fees +11% YoY, EPS $1.55 beat vs $1.30 consensus (+19%)
 - **Insider signal:** CEO Delgado-Moreira $1M buy at $130. Total insider cluster $4.2M. VERY STRONG conviction.
 - **Guardian partnership:** $5B AUM, $500M/yr commitments for 10+ years including $250M into Evergreen
+- **Republic deal (Mar 17 — NEW):** Strategic investment in Republic retail platform → expands mass-affluent distribution for HLNE evergreen funds. Direct execution on democratization thesis.
+- **Dividend (NEW):** $0.54/quarter declared ($2.16 annualized, +10% YoY). Payable Apr 6, 2026. Signals earnings durability confidence.
 - **Thesis fit:** Direct play on private wealth democratization + evergreen secular growth
-- **Iran crisis impact:** Short-term AUM pressure from market selloff. Structural thesis intact. Do NOT sell.
+- **Blue Owl crisis impact:** NOT a direct HLNE kill condition (advisory/tech ≠ BDC operator). Evergreen sentiment headwind possible. Monitor net flows. Structural thesis INTACT.
+- **TRIM decision:** Proceeds as planned. Near-FV risk management ($104.88 entry vs $110 FV = thin MoS). Not thesis-driven — sizing discipline.
 
 ### IntegraFin (IHP.L) -- ACTIVE, MEDIUM CONVICTION
 - **QS:** Tool 80 Tier A
@@ -218,22 +222,49 @@ None currently beyond SEIC triage.
 - Semi-liquid/evergreen vehicles are the delivery mechanism
 - **HLNE is a direct beneficiary** -- 11 evergreen funds, $16B+ platform, technology enabling adviser access
 - **IHP.L benefits indirectly** -- as alternatives flow through adviser platforms, Transact captures platform fees
+- **Mar 2026 update**: SEC Private Markets Roundtable (Mar 4) on retail access — regulatory framework being built, not blocked. Atkins supportive. 401(k) "retail wall breaking." Long-term positive; Blue Owl crisis may slow pace in 2026.
+- **HLNE Republic deal (Mar 17)**: Hamilton Lane made strategic investment in Republic (retail platform with millions of users) to expand distribution of its evergreen funds to mass affluent. Direct execution on democratization thesis — HLNE not waiting for regulatory catalysts.
 
-### 2. Fundraising Recovery (CYCLICAL -- POSITIVE)
-- PE fundraising troughed at $735B in 2025 (-17% YoY, lowest since 2020)
-- BUT: 70% of LPs maintaining/increasing allocations. 75% of flagship funds re-raised at step-up.
-- Exit environment recovering (+40% in 2025). IPO exits nearly doubled.
-- Secondaries hitting records ($240B, +48%). Continuation vehicles at $115B.
-- Recovery benefits fee-earning AUM growth for HLNE (new fund vintages)
-- **Risk**: Iran oil shock could delay recovery if recession materializes
+### 2. Fundraising Recovery (CYCLICAL -- CONFIRMED UPGRADE)
+- PE fundraising troughed at $735B in 2025 (-17% YoY, lowest since 2020) — **NOW CONFIRMED**
+- **Q1 2026: $80B+ confirmed in US VC/PE alone — record-breaking** (The VC Corner). 2025 was the bottom.
+- $160B+ additional capital in-market from active fundraises. If half close: 2026 = biggest year since 2021 peak.
+- Carlyle targeting $50B PE + $90B credit + $60B secondaries (2026-28 supercycle)
+- Apollo Fund XI targeting $25B (would be firm's largest ever)
+- BUT: Fundraising increasingly concentrated among mega-managers. Emerging/smaller managers still struggling.
+- Exit environment recovering (+40% in 2025). IPO exits nearly doubled. Secondaries hitting records ($240B, +48%).
+- Recovery benefits fee-earning AUM growth for HLNE (new fund vintages, advisory mandates on new raises)
+- **Risk**: Blue Owl crisis could soften retail fundraising into semi-liquid vehicles. Mega-fund concentration ≠ broad recovery.
 
-### 3. Evergreen Fund Structural Shift (SECULAR -- ACCELERATING)
+### 3. Evergreen Fund Structural Shift (SECULAR -- ACCELERATING, NEAR-TERM HEADWINDS)
 - $493B AUM (Q3 2025), growing 30%+ annually
 - Projected $1.1T by 2029
 - The 5 largest listed PE firms now have $1.5T in perpetual capital (40% of combined AUM)
 - HLNE has $16B+ evergreen with 70%+ growth rate -- INDUSTRY-LEADING relative to peers
 - Direct lending evergreen tripled since 2022 to $209B
 - This structural shift means AUM is PERMANENTLY higher quality (no redemption, perpetual fees)
+- **RISK UPDATE (Mar 2026 — MATERIAL):** Blue Owl OBDC II permanently gated — 200% surge in redemption requests, only 30% capital returned in 45-day window. OWL stock -60% over 13 months. Contagion: BlackRock HPS $26B restricted, Cliffwater $33B facing 7% withdrawals, Morgan Stanley North Haven 10.9% repurchase requests. JPMorgan software-loan markdown cascade (Mar 16) spreading de-risking. Goldman alarm (Mar 21).
+- **HLNE DIFFERENTIATION vs crisis:** HLNE's evergreen funds are PE/equity-focused, NOT private credit BDCs. The Blue Owl crisis is in credit/direct lending, not HLNE's product set. HLNE is also an advisor/selector — it helps LPs navigate the semi-liquid space, which increases its value in a crisis (due diligence, manager selection). Advisory model = no balance sheet risk, no redemption exposure.
+- **2026 growth rate**: 70%+ YoY for HLNE evergreen may moderate toward 40-50% as retail confidence in semi-liquid structures broadly damaged. Secular direction unchanged; pace recalibrated.
+
+### 3b. Private Credit Systemic Risk (NEW RISK -- ACTIVE AS OF MAR 2026)
+
+**Status: ACTIVE CONCERN. Not a kill condition for HLNE. Monitor weekly.**
+
+- Blue Owl Capital (OWL) OBDC II: $1.6B evergreen credit fund permanently gated Feb 2026. 200% redemption surge. 30% capital returned in 45d. Stock -60% from peak.
+- Contagion spreading to: BlackRock HPS $26B (restricted), Cliffwater $33B flagship (7% withdrawal), Morgan Stanley North Haven (10.9% repurchase requests).
+- JPMorgan markdown cascade (Mar 16): Aggressively marking down software-related collateral for private credit → "de-risking cascade" across Ares, Blue Owl, KKR.
+- Goldman Sachs alarmed (Mar 21). Fortune: "$265B private credit meltdown."
+- Root cause: "Valuation gap" — funds marked at cost vs actual liquidation value. Semi-liquid structures promised retail liquidity that illiquid assets cannot provide.
+- SEC response: Roundtable on private markets valuation (Mar 4). Increased governance scrutiny coming.
+
+**Why HLNE is insulated (but not immune to sentiment):**
+- HLNE does NOT operate credit BDCs or direct lending funds. Its 11 evergreen funds are PE/equity/multi-asset.
+- Advisory model means HLNE earns fees advising ON private markets, not deploying capital into illiquid loans.
+- HLNE's Cobalt LP data advantage INCREASES in value when LPs need better due diligence tools (crisis = more demand for analytics, not less).
+- The Republic deal (Mar 17) and Guardian partnership ($500M/yr) are evergreen commitments not subject to retail redemption pressure.
+- **Risk**: If PE evergreen funds (not credit) face redemption pressure due to sentiment contagion → HLNE's $16B+ evergreen AUM could face outflows → management fee base at risk. Monitor: HLNE evergreen redemption rates quarterly.
+- **Kill condition threshold**: If HLNE evergreen net flows turn NEGATIVE for 2 consecutive quarters → re-evaluate thesis. Currently not triggered.
 
 ### 4. Fee Dynamics: Diverging Paths
 - Traditional active: -2% annual fee compression. Terminal for commodity active managers.
@@ -270,6 +301,8 @@ None currently beyond SEIC triage.
 
 | Fecha | Cambio | Tipo | Razon |
 |-------|--------|------|-------|
+| 2026-03-24 | Blue Owl private credit crisis added as new risk section (3b). Q1 2026 fundraising confirmed record $80B+ — upgraded from "expected" to "confirmed." HLNE Republic deal (Mar 17) + dividend increase added to position block. Sentimiento downgraded to Cautious-Negative. Evergreen 70% growth rate recalibrated to 40-50% near-term. Header context updated. | MATERIAL | Blue Owl contagion + JPMorgan markdown cascade missed in Mar 15 refresh. HLNE-specific positives also new. |
+| 2026-03-15 | FOMC context added. HLNE sensitivity analysis vs rate outcomes. | MINOR | FOMC prep session. |
 | 2026-03-07 | MAJOR REFRESH. Status NEUTRAL->SOBREPONDERAR. Added HLNE + IHP.L as active positions. Expanded scope from "Alternative AM" to "Asset Management (Alternative & Platform)". Added McKinsey 2026 data, evergreen metrics, fee dynamics, democratization theme. Added SEIC to pipeline. | MATERIAL | Sector view was stale (created for FSG.L Feb 19). Now reflects our two active positions + structural thesis. |
 | 2026-02-19 | Status inicial: NEUTRAL | N/A | Created for FSG.L R1 analysis |
 
@@ -304,6 +337,28 @@ None currently beyond SEIC triage.
 - [HLNE Evergreen VC/Growth Fund Launch (Jan 2026)](https://www.prnewswire.com/news-releases/hamilton-lane-launches-us-venture-capital-and-growth-evergreen-fund-further-expanding-its-10b-aum-evergreen-platform-302446775.html)
 - [HLNE Global Private Assets Fund reaches $4B AUM](https://www.hamiltonlane.com/en-us/news/gpa-reaches-four-billion)
 - [HLNE Private Assets Fund reaches $1B in 3 years](https://www.hamiltonlane.com/en-us/news/paf-one-billion-aum-in-three-years)
+- [HLNE 2026 Market Overview (Mar 11)](https://shareholders.hamiltonlane.com/2026-03-11-Hamilton-Lane-2026-Market-Overview) -- AI as #1 returns determinant; manager selection critical
+- [HLNE Strategic Investment in Republic (Mar 17)](https://www.hamiltonlane.com/en-us/news/) -- Mass-affluent distribution channel for evergreen funds
+- [HLNE Japan Expansion -- Mika Tashiro (Mar 1)](https://www.stocktitan.net/news/HLNE/hamilton-lane-expands-presence-in-japan-appointing-mika-tashiro-as-gemw5s8naqhq.html) -- Head of Private Wealth Solutions Japan
+
+### Private Credit Crisis (Mar 2026 -- New)
+- [Bloomberg: Blue Owl Redemptions Halt Intensifies Private Credit Fears (Feb 22)](https://www.bloomberg.com/news/features/2026-02-22/blue-owl-redemptions-halt-intensifies-private-credit-fears)
+- [Fortune: $265B Private Credit Meltdown (Mar 14)](https://fortune.com/2026/03/14/private-credit-meltdown-how-wall-streets-blackstone-kkr-apollo-ares-blue-owl-investment-craze-panic/)
+- [MarketMinute: Blue Owl Crack-up -- Private Credit's Golden Era Hits Wall (Mar 6)](https://markets.financialcontent.com/stocks/article/marketminute-2026-3-6-the-blue-owl-crack-up-why-private-credits-golden-era-just-hit-a-wall)
+- [MarketMinute: JPMorgan Private Credit Markdowns -- Ares, Blue Owl, KKR (Mar 16)](https://markets.financialcontent.com/stocks/article/marketminute-2026-3-16-software-apocalypse-jpmorgans-private-credit-markdowns-send-shockwaves-through-ares-blue-owl-and-kkr)
+- [Motley Fool: Goldman Sachs Alarm on Private Credit (Mar 21)](https://www.fool.com/investing/2026/03/21/goldman-sachs-just-sounded-the-alarm-on-private-cr/)
+- [Bahnsen Group: Private Credit Contagion Risk -- Lies and Reality (Mar 20)](https://thebahnsengroup.com/dividend-cafe/private-credit-contagion-risk-and-all-the-lies-march-20-2026/) -- Useful counter-narrative
+
+### Retailization & Regulatory (Mar 2026 -- Updated)
+- [SEC Private Markets Roundtable (Mar 4)](https://www.sec.gov/newsroom/press-releases/2026-21-sec-announces-roundtable-private-markets-valuation-retail-investor-access-accelerates)
+- [National Law Review: SEC Retail Access Roundtable](https://natlawreview.com/article/private-markets-go-public-inside-secs-push-retail-participation)
+- [HedgeCo: Retailization of Private Markets (Mar 2026)](https://www.hedgeco.net/news/03/2026/the-retailization-of-private-markets.html)
+- [Goodwin: US Retailization Opportunities for European Managers (Mar 2026)](https://www.goodwinlaw.com/en/insights/publications/2026/03/alerts-otherindustries-pif-the-retailization-of-private-markets-in-the-us)
+
+### Q1 2026 Fundraising Record
+- [The VC Corner: $80B in 3 Months -- Q1 2026 Record Fundraising](https://www.thevccorner.com/p/q1-2026-us-fund-activity-record-fundraising)
+- [Buyouts Insider: Carlyle $50B PE Supercycle Target](https://www.buyoutsinsider.com/carlyle-targets-50bn-private-equity-raise-as-part-of-three-year-supercycle/)
+- [Pioneers Intelligence: PE Outlook 2026 -- Secondaries Hot Ticket](https://www.pionline.com/alternative-investments/private-equity/pi-private-equity-outlook-2026-secondaries-deals-exits/)
 
 ### IntegraFin
 - [Sharecast: IntegraFin reports strong start to 2026 financial year](https://www.sharecast.com/news/news-and-announcements/integrafin-reports-strong-start-to-2026-financial-year--21492436.html)
