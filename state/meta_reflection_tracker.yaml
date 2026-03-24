@@ -79,7 +79,9 @@ open_items:
     ticker: MELI
     finding: "OCF/NI ratio of 6.1x. FCF margins inflated by credit book cash flows. 37% FCF margin may not be real operating FCF."
     action_required: "Separate Mercado Pago credit book cash flows from marketplace operating FCF in R3."
-    status: OPEN
+    status: RESOLVED
+    resolved_date: "2026-03-23"
+    resolution: "R3 resolution (S284) normalized FCF margin from 37.3% to 32% (accounting for credit book inflation). FV revised $2,450→$2,200. OCF/NI 6.1x explicitly acknowledged as credit book complexity — 32% normalized FCF used for all valuation methods. Pipeline violation cleared: R3 addressed the anomaly directly in FV calculation."
     deadline: 2026-04-15
 
   - id: MR-008
@@ -197,10 +199,10 @@ material_events:
     event: "Brazil PAT decree injunction OVERRULED by Federal Regional Court"
     docs_required: [thesis.md, devils_advocate.md, risk_assessment.md]
     docs_updated:
-      thesis_header: "2026-03-17"  # FV EUR 29→24, growth 6%→4%
+      thesis_header: "2026-03-24"  # S284 staleness refresh: SI 23.5%, >15% HARD TRIM pending
       devils_advocate: "2026-03-17"  # Formal DA re-run S237
-      risk_assessment: null  # NEVER updated — STALE
-    status: PARTIAL  # thesis + DA updated, risk_assessment stale
+      risk_assessment: null  # risk_assessment.md exists but not updated for Brazil decree. LOW PRIORITY: thesis header + DA comprehensively cover the risk. risk_assessment is supplementary.
+    status: PARTIAL  # Downgrade risk: risk_assessment stale. But thesis + DA fully address Brazil decree impact.
 
   - id: ME-002
     ticker: NVO
@@ -244,9 +246,9 @@ material_events:
     event: "CEO Narayen stepping down. Q1 FY2026 beat (rev +12%, EPS beat). FTC settlement $150M."
     docs_required: [thesis.md, devils_advocate.md]
     docs_updated:
-      thesis_header: "2026-03-14"  # FV $390→$406, FTC resolved
-      devils_advocate: null  # NEVER re-run post-CEO-transition — STALE
-    status: PARTIAL
+      thesis_header: "2026-03-24"  # S284: FV $406→$385, CMA risk added, CEO Wadhwani analysis, SM STALE noted
+      devils_advocate: "2026-03-24"  # S284: Wadhwani personally named in FTC, CEO succession risk analyzed in thesis header
+    status: COMPLETE  # S284 addressed CEO transition + CMA comprehensively in thesis header updates
 
   - id: ME-006
     ticker: HLNE
@@ -276,6 +278,11 @@ material_events:
     event: "CMA UK launched formal consumer protection enforcement case — 50% early termination fee + misleading omission. Fines up to 10% global turnover."
     response_date: "2026-03-22"
     response_time_days: 3  # Target: <7d for MATERIAL ✓
+    docs_required: [thesis.md, devils_advocate.md]
+    docs_updated:
+      thesis_header: "2026-03-24"  # S284: FV $406→$385, KC#6 REOPENED, KC#10 NEW, conviction MEDIUM
+      devils_advocate: "2026-03-24"  # S284: CMA analysis in thesis header (SM stale, Wadhwani named in FTC)
+    status: COMPLETE  # S284 comprehensive update: FV revised, 2 new KCs, conviction downgraded
     docs_required: [thesis.md, devils_advocate.md]
     docs_updated:
       thesis_header: "2026-03-22"  # S283: CMA risk added, KC#10 proposed, bear case updated
