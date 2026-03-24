@@ -18,52 +18,64 @@ events:
   - date: 2026-03-26
     type: execution
     ticker: PORTFOLIO
-    event: "CAPITAL DEPLOYMENT DAY — 6 TRADES: 3 sells + 3 buys"
+    event: "CAPITAL DEPLOYMENT DAY — 7 TRADES: 3 sells + 4 buys"
     priority: CRITICAL
     action: |
-      EXECUTION PLAN v2 (6 trades) — S284 REVISED. FTNT exit ACCELERATED from late April.
+      EXECUTION PLAN v3 (7 trades) — MEGP.L TRIGGERED, added to Mar 26.
 
-      SELLS (3):
-      1. SELL MONY.L 384 shares at market. Ex-div Mar 26 — dividend captured.
-         Proceeds ~EUR 650 (at 158p). Rotation: lowest growth (2%) in portfolio.
-      2. TRIM NVO 14.3 shares at market (~$36.53). Proceeds ~EUR 450.
-         KC#1 triggered. Trim 11.7%→7%. BEFORE NVO ex-div Mar 30.
-      3. SELL FTNT 10.57 shares at market (~$81.40). Proceeds ~EUR 740.
-         EXIT APPROVED S152. E[CAGR] 10.6% worst in portfolio. ACCELERATED from
-         late April because: (a) ITRK.L is TRIGGERED at 3,547p, (b) SPGI $441 is
-         16% above SO (not buyable), (c) no reason to wait for Q1 when exit already
-         committee-approved. Cybersecurity basket → 0 positions (RESEARCHING).
+      ═══════════════════════════════════════════════════════════════
+      LSE AM (09:00-09:30 CET) — 4 trades
+      ═══════════════════════════════════════════════════════════════
 
-      BUYS (3):
-      4. BUY GDDY EUR 720 at market if ≤$90. R4 APPROVED. E[CAGR] 25.2%. PRIORITY #1.
-         Pre-flight complete. US Quality Compounders basket.
-      5. BUY DNLM.L EUR 200 at market if ≤950p. R4 APPROVED. E[CAGR] ~13%.
-         Reduced from EUR 440 (S283 buyback misclassification fix). UK Quality Leaders.
-      6. BUY ITRK.L EUR 300 at market if ≤3,700p. R4 APPROVED. E[CAGR] ~18%.
-         SO TRIGGERED (price 3,547p < 3,700p trigger). D&A Monopolies basket.
-         4 directors bought cluster Mar 13-16. EU AI Act Aug 2026 catalyst.
+      1. SELL MONY.L 384 shares at market.
+         Ex-div Mar 26 — dividend captured. Proceeds ~EUR 690.
+
+      2. BUY DNLM.L EUR 200 at market if ≤950p.
+         R4 APPROVED. UK Quality Leaders basket. Price ~802p.
+
+      3. BUY ITRK.L EUR 300 at market if ≤3,700p.
+         R4 APPROVED. SO TRIGGERED. D&A Monopolies basket. Price ~3,638p.
+
+      4. BUY MEGP.L EUR 300 at market if ≤135p.
+         R4 APPROVED S284. SO TRIGGERED at 133.8p. Record PBT, audit clean.
+         UK Quality Leaders basket 3rd position. QS 80 Tier A.
+
+      ═══════════════════════════════════════════════════════════════
+      NYSE PM (15:30-16:00 CET) — 3 trades
+      ═══════════════════════════════════════════════════════════════
+
+      5. SELL FTNT 10.57 shares at market.
+         EXIT APPROVED S152. E[CAGR] 10.6% worst. Price ~$82.77.
+
+      6. TRIM NVO 14.3 shares at market.
+         KC#1 triggered. 11.7%→7%. BEFORE ex-div Mar 30. Price ~$36.82.
+
+      7. BUY GDDY EUR 720 at market if ≤$90.
+         R4 APPROVED. E[CAGR] 25.2%. PRIORITY #1 buy. Price ~$84.13.
+
+      ═══════════════════════════════════════════════════════════════
 
       CAPITAL FLOW:
-        IN:  MONY.L ~650 + NVO ~450 + FTNT ~740 + existing cash 424 = ~EUR 2,264
-        OUT: GDDY 720 + DNLM.L 200 + ITRK.L 300 = ~EUR 1,220
-        POST-EXECUTION CASH: ~EUR 1,044 (~8.5% of portfolio)
+        IN:  MONY.L ~690 + NVO ~453 + FTNT ~753 + cash 424 = EUR 2,320
+        OUT: GDDY 720 + DNLM.L 200 + ITRK.L 300 + MEGP.L 300 = EUR 1,520
+        POST-EXECUTION CASH: ~EUR 800 (6.5% of portfolio)
 
-      DEPLOYMENT PLAN FOR REMAINING CASH (~EUR 1,044):
-        - MEGP.L SO 135p EUR 300 (R4 BUY approved S284, shares resumed)
-        - SPGI SO $380 EUR 400 (R4 approved, waiting for price)
-        - Buffer ~EUR 344 (2.8%)
+      REMAINING SOs:
+        - SPGI $380 EUR 400 (R4 approved, price $429 = 13% above)
+        - Buffer ~EUR 400
 
-      POST-EXECUTION PORTFOLIO: 12 positions (vs 10 today).
+      POST-EXECUTION PORTFOLIO: 13 positions (vs 10 today).
         REMOVED: MONY.L (sold), FTNT (sold)
         TRIMMED: NVO (14.3 shares)
-        ADDED: GDDY, DNLM.L, ITRK.L
-        Net: -2 positions +3 positions = +1 net. E[CAGR] improves ~1.5-2pp.
+        ADDED: GDDY, DNLM.L, ITRK.L, MEGP.L
+        Net: -2 sold +4 bought = +3 net positions.
 
       CONTINGENCIES:
-        - If GDDY >$90: reallocate EUR 720 to DNLM.L (increase) + ITRK.L (increase)
-        - If ITRK.L >3,700p on Mar 26: defer ITRK.L buy, add to MEGP.L SO or cash
-        - If DNLM.L news negative AM Mar 26: skip, add to ITRK.L
-        - FX SENSITIVITY: GBP/EUR and EUR/USD on Mar 26 affect exact amounts
+        - If GDDY >$90: reallocate EUR 720 → DNLM.L +300 + ITRK.L +420
+        - If ITRK.L >3,700p: defer ITRK.L, EUR 300 → cash buffer
+        - If MEGP.L >135p at open: defer MEGP.L to Mar 27
+        - If DNLM.L news negative AM: skip, EUR 200 → add to ITRK.L
+        - If market crash -3%+: SELL as planned, DEFER all 4 buys 1-2 days
 
   - date: 2026-03-27
     type: execution
@@ -71,12 +83,12 @@ events:
     event: "ALFA.L BUY — R4 APPROVED S157, SO 165p TRIGGERED (price 151p = 9.3% below trigger)"
     priority: HIGH
     action: |
-      BUY ALFA.L EUR 400 at market if ≤165p. Execute Mar 27-28 once Mar 26 cash settles.
+      BUY ALFA.L EUR 400 at market if ≤165p. Execute Mar 27 once Mar 26 cash settles.
       R4 committee approved S157 (Mar 13). All 10 gates PASSED.
       QS 83 Tier A (highest QS in pipeline). FV 215p. MoS 29.8% at 151p. E[CAGR] ~19%.
-      UK Quality Leaders basket — 3rd position alongside IHP.L + DNLM.L (entering Mar 26).
-      Capital source: Mar 26 sells (MONY.L + NVO + FTNT) → ~EUR 1,044 post-buys.
-      Post-ALFA.L cash: ~EUR 644. Remaining SOs: MEGP.L 135p EUR 300, SPGI $380 EUR 400.
+      UK Quality Leaders basket — 4th position (IHP.L + DNLM.L + MEGP.L entering Mar 26).
+      Capital source: Mar 26 post-execution cash ~EUR 800.
+      Post-ALFA.L cash: ~EUR 400. Remaining SO: SPGI $380 EUR 400.
       GATE: Verify Mar 26 trades all filled before executing.
 
   # NVO CagriSema: COMPLETED Feb 23. FAILED. KC#1 triggered. Next: Wegovy pill ramp Q1-Q2 2026.
