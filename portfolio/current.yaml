@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 423.7  # Updated 2026-03-16. SOLD BZU.MI 8.81 shares at EUR 48.10. P&L +14.5%.
+  amount: 220.8  # Updated 2026-03-27. 8 trades: SELL MONY.L + FTNT, TRIM NVO (close+reopen), BUY GDDY+DNLM.L+ITRK.L+MEGP.L+ALFA.L.
   currency: EUR
 
 positions:
@@ -64,33 +64,20 @@ positions:
 
   - ticker: NVO
     name: "Novo Nordisk A/S"
-    shares: 36.20  # 24.16 + ~12.04 ADD S144c1 (EUR 400 at $38.58). Confirm exact from eToro.
-    invested_usd: 1476  # 1011 + ~465 (EUR 400 * 1.1616)
-    avg_cost_usd: 37.93  # S231: REAL eToro entry $37.93 (was $40.76 theoretical). E[CAGR] 14.8%→17.3% (+2.5pp)
-    avg_cost_dkk: 256.00  # Estimated blended
-    date_opened: 2026-02-05
+    shares: 28.53  # S155: Closed 38.91 shares + reopened EUR 900 at $36.40. Confirm exact from eToro.
+    invested_usd: 1039  # EUR 900 * 1.1539
+    invested_eur: 900
+    avg_cost_usd: 36.40  # Fresh entry at market Mar 27
+    date_opened: 2026-03-27  # Reopened position (original Feb 5, closed+reopened for tax/sizing)
     conviction: medium
     exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $47. SELL if FY2026 rev decline >10% (KC#8) OR market share <40% OR gross margin <70%. TRIM at $55+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, Q1 FY2026 ~May."
     fair_value: "$47 (R3 resolved S146c8. Was $50 v4.0. DA: FCF stale, P/E 16x. Bear $37/Base $48/Bull $62. QS 73 Tier B.)"
-    last_review: 2026-03-15
-    intentional_weight: 11.7  # Weight post-S143 restructuring. No ADD/TRIM since open. Diluted from ~14% by other buys.
+    last_review: 2026-03-27
+    intentional_weight: 7.0  # Trimmed from 11.7% to ~7%. Close+reopen structure.
     thesis: thesis/active/NVO/thesis.md
-    notes: "R3 S146c8: FV $50->$47, growth 10%->5%, E[CAGR] 23.8%->16.6%. OEY inputs stale (DKK 72B vs actual 29B), P/E now primary method. KC#8/#9 added. Position justified (16.6% > 15% Tier B) but do NOT add."
+    notes: "S155: TRIM via close 38.91 sh ($37.93 avg) + reopen EUR 900 ($36.40). Old position P&L: -4.0%. New cost basis $36.40 = 29.2% MoS to FV $47. E[CAGR] ~17.9%. Before ex-div Mar 30."
 
-  - ticker: MONY.L
-    name: "Mony Group PLC"
-    shares: 384  # 456 - 72 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
-    invested_usd: 888  # Proportional: 1054 * (384/456)
-    avg_cost_usd: 2.31  # Blended USD at prevailing FX. 169.5 GBp = GBP 1.695 × ~1.36 GBPUSD.
-    avg_cost_gbp: 169.5  # S220: REAL eToro entry in GBp (pence). = GBP 1.695.
-    date_opened: 2026-02-04
-    thesis: thesis/active/MONY.L/thesis.md
-    notes: "R3 S147c3: FV 190p maintained. DA MODERATE COUNTER, 5 HIGH (AI live disruption, P/E re-rating unlikely, narrow upside 10%). FIRST ROTATION CANDIDATE. Yield play (7.3% div + 3% buyback). Growth 2% = lowest in portfolio."
-    conviction: medium
-    last_review: 2026-03-15
-    intentional_weight: 7.3  # Weight post-S143 restructuring. No ADD/TRIM since open. Selling Mar 26.
-    fair_value: "190 GBp (R3 S147c3, maintained. DA MODERATE COUNTER, 5 HIGH. DA bear 155p. QS 83/75.)"
-    exit_plan: "HOLD yield anchor. FIRST ROTATION CANDIDATE if higher E[CAGR] needs capital. SELL if revenue declines YoY, Insurance -5%+, dividend cut, or AI adoption >5% of quotes. TRIM at >180p."
+  # MONY.L REMOVED 2026-03-27 — SOLD 389.79 shares at 148.50p. Rotation: lowest E[CAGR] + growth (2%) in portfolio. Ex-div Mar 26 captured. Capital → GDDY+DNLM.L+ITRK.L+MEGP.L+ALFA.L. P&L: -12.4%. Held 51 days. Moved to history.yaml + thesis archived.
 
   # LULU REMOVED 2026-03-06 - SOLD. Orphan EXIT. No CEO 34+ days, dual activist pressure (Wilson + Elliott), worst E[CAGR] in portfolio (-5.5%). P&L -1.0%.
 
@@ -141,19 +128,78 @@ positions:
     exit_plan: "HOLD 8%. Do NOT add before Q4 (~May 2026). KC#8 EARLY WARNING: NRR <110% → TRIM to 5% + FV $30→$25-27 + growth 8%→5-6%. SELL if KC#1 (NRR <100%) or KC#7 (Q4 rev <$140M + FY27 guide <5%)."
     notes: "S284: SM CORRECTED — Fundsmith 0.43% of portfolio (seed, NOT 5.3% conviction). Rank #26/37, tail position. After 4Q has not graduated to core (≥2%). Signal: seeding, not conviction. Other holders: Fidelity 5.01% (+37.6% Q4), Capital World 2.87% (+25.7% Q3), William Blair 2.91% (trimming). Multiple institutions underwater at $25 vs $40-75 build. KC#8 NRR<110% early warning. NRR 119→112 ~50% structural. Q4 FY2026 (~May) is binary."
 
-  - ticker: FTNT
-    name: "Fortinet, Inc."
-    shares: 10.57  # 12.92 - 2.35 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
-    avg_cost_usd: 84.00  # S220: REAL eToro entry $84.00 (was $81.58 theoretical)
-    invested_usd: 862  # Proportional: 1054 * (10.57/12.92)
+  # FTNT REMOVED 2026-03-27 — SOLD 10.26 shares at $81.03. EXIT APPROVED S152. E[CAGR] 9.4% worst in portfolio, 3 KCs MONITORING (CVE pattern). Cybersecurity basket → 0 positions (RESEARCHING). Capital → rotation. P&L: -3.5%. Held 29 days. Moved to history.yaml + thesis archived.
+
+  - ticker: GDDY
+    name: "GoDaddy Inc."
+    shares: 10.17  # EUR 720 at $81.73. Confirm exact from eToro.
+    invested_usd: 831  # EUR 720 * 1.1539
+    invested_eur: 720
+    avg_cost_usd: 81.73
+    date_opened: 2026-03-27
+    thesis: thesis/active/GDDY/thesis.md
+    conviction: high
+    fair_value: "$130 (R4 S284. QS 75 Tier A. Bear $100/Base $140/Bull $170. 60/40 = $116 conservative.)"
+    last_review: 2026-03-27
+    intentional_weight: 7.0
+    exit_plan: "HOLD. ADD at $70 (MoS 46%). TRIM at $120+. SELL if KC triggered (rev growth <3% 2Q, FCF margin <20%, domain base declining, securities investigation material finding)."
+    notes: "S155: NEW POSITION. R4 approved S284. E[CAGR] 25.2% at $81.73. MoS 37.1%. 27M domains monopoly, 85%+ retention, $1.8B FCF guide FY2025. Securities investigation = noise (no SEC action). Correction from $193→$82 = quality at trough."
+
+  - ticker: DNLM.L
+    name: "Dunelm Group plc"
+    shares: 21.76  # EUR 200 at 795p. Confirm exact from eToro.
+    invested_eur: 200
+    avg_cost_gbp: 795.0
+    date_opened: 2026-03-27
+    thesis: thesis/active/DNLM.L/thesis.md
     conviction: medium
-    date_opened: 2026-02-26
-    fair_value: "$88 (R3 post-DA resolution. QS Tool 87 Tier A. Was 70 pre-ROIC data fix.)"
-    thesis: thesis/active/FTNT/thesis.md
-    exit_plan: "EXIT APPROVED S152. SELL late April. E[CAGR] 9.4% worst, 3 KCs MONITORING (CVE pattern), 4.3% MoS. Rotate to SPGI EUR 400 + best available EUR 375. CANCEL exit if: price drops to $73 OR Q1 PASS + guide raise (FV $95-100). Accelerate if drops below $78 (cost basis)."
-    notes: "S152: EXIT Protocol 6 gates + Committee APPROVE. 15-day hold on QS 87 = short but precedented (RACE.MI 2d, MORN 15d). Rotation improves portfolio E[CAGR] by ~0.5pp. Cybersecurity basket goes to 0 positions → RESEARCHING."
-    last_review: 2026-03-13
-    intentional_weight: 7.5  # Weight after S126 market buy (10.57 shares, EUR 400). EXIT approved late Apr.
+    fair_value: "1050 GBp (R4 S284. QS 78 Tier A. UK #1 homewares. Bear 880p/Base 1100p/Bull 1300p.)"
+    last_review: 2026-03-27
+    intentional_weight: 2.0  # Starter position. 90-day prove-or-exit clock.
+    exit_plan: "HOLD starter. ADD to 5-7% if Q3 confirms thesis (rev growth >3%, margin stable). EXIT at 90 days if no ADD decision. SELL if KC triggered."
+    notes: "S155: NEW STARTER POSITION. R4 approved. UK Quality Leaders basket. E[CAGR] ~18% at 795p. MoS ~24%. UK #1 homewares, 30%+ ROIC, 5.7% yield. 90-day clock → Jun 25."
+
+  - ticker: ITRK.L
+    name: "Intertek Group PLC"
+    shares: 7.07  # EUR 300 at 3670p. Confirm exact from eToro.
+    invested_eur: 300
+    avg_cost_gbp: 3670.0
+    date_opened: 2026-03-27
+    thesis: thesis/active/ITRK.L/thesis.md
+    conviction: medium
+    fair_value: "4750 GBp (R4 S284. QS 73 Tier B. TIC oligopoly. Bear 4000p/Base 5000p/Bull 5800p.)"
+    last_review: 2026-03-27
+    intentional_weight: 3.0  # Starter. D&A Monopolies basket. 90-day clock.
+    exit_plan: "HOLD starter. ADD to 5-7% if H1 results confirm margin recovery. EXIT at 90 days if no ADD. SELL if KC triggered (organic growth <2% 2Q, OP margin <15%)."
+    notes: "S155: NEW STARTER POSITION. R4 approved. D&A Monopolies basket (replacing MORN slot). TIC sector oligopoly. E[CAGR] ~16% at 3670p. MoS ~23%. 90-day clock → Jun 25."
+
+  - ticker: MEGP.L
+    name: "ME Group International PLC"
+    shares: 190.26  # EUR 300 at 136.4p. Confirm exact from eToro.
+    invested_eur: 300
+    avg_cost_gbp: 136.4
+    date_opened: 2026-03-27
+    thesis: thesis/active/MEGP.L/thesis.md
+    conviction: medium
+    fair_value: "200 GBp (R4 S284. QS 80 Tier A. Self-service vending monopoly. Bear 160p/Base 210p/Bull 260p.)"
+    last_review: 2026-03-27
+    intentional_weight: 3.0  # Starter. UK Quality Leaders basket 3rd position. 90-day clock.
+    exit_plan: "HOLD starter. ADD to 5-7% if H1 confirms KiPhoto ramp + Revolution growth. EXIT at 90 days if no ADD. SELL if KC triggered."
+    notes: "S155: NEW STARTER POSITION. R4 approved S284. SO triggered at 133.8p, bought at 136.4p (1% above gate — marginal, approved by CIO). UK Quality Leaders basket. Record PBT, audit clean. E[CAGR] ~22% at 136.4p. 90-day clock → Jun 25."
+
+  - ticker: ALFA.L
+    name: "Alfa Financial Software Holdings PLC"
+    shares: 235.71  # EUR 400 at 146.8p. Confirm exact from eToro.
+    invested_eur: 400
+    avg_cost_gbp: 146.8
+    date_opened: 2026-03-27
+    thesis: thesis/active/ALFA.L/thesis.md
+    conviction: medium
+    fair_value: "210 GBp (R4 S284. QS 76 Tier A. Auto leasing software monopoly. Bear 170p/Base 220p/Bull 270p.)"
+    last_review: 2026-03-27
+    intentional_weight: 4.0  # Near starter. 90-day prove-or-exit clock.
+    exit_plan: "HOLD. ADD to 5-7% if CHP selling pressure subsides + new contract wins. EXIT at 90 days if no ADD. SELL if KC triggered (ARR growth <5%, CHP sells below 40%, contract loss to competitor)."
+    notes: "S155: NEW POSITION. R4 approved S284. Near 52wL (145p). CHP (founder 55%) systematic selling = structural overhang but thesis intact. Auto leasing software monopoly, 30+ year contracts. E[CAGR] ~20% at 146.8p. 90-day clock → Jun 25."
 
   # RACE.MI REMOVED 2026-03-07 - SOLD. S143c10 T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg 17.4%). QS 84 Tier A but overvalued vs FV at EUR 301.60. Capital redeployed to EDEN/NVO/WKL (E[CAGR] 21-27%). P&L ~-3.4% (EUR -12).
 
@@ -966,3 +1012,85 @@ transactions:
     price_eur: 42.00
     total_eur: 370
     notes: "BUY - S151. R4 APPROVED S143c10 (10/10 PASS). QS 73/75adj Tier B. FV EUR 57 (R3 post-DA). MoS 35.7% at EUR 42. E[CAGR] 15.9% > 15% Tier B threshold. SO triggered at EUR 42.00 = exactly at trigger. Italian cement, Buzzi family 53%, net cash, best margins in industry. EUR 200M buyback active. Standalone (no basket). Through-cycle EBIT EUR 850M at 10.5x."
+
+  - date: 2026-03-16
+    action: SELL
+    ticker: BZU.MI
+    shares: 8.81
+    price_eur: 48.10
+    total_eur: 423.7
+    pnl_pct: +14.5
+    notes: "SELL - Oil headwind structural (Hormuz, Kharg). KC#6 MONITORING, worst E[CAGR] 11.2%, lowest conviction. Error #67 (stale R4 in changed macro). Held 3 days."
+
+  - date: 2026-03-27
+    action: SELL
+    ticker: MONY.L
+    shares: 389.79
+    price_gbp: 148.50
+    total_eur: ~669
+    pnl_pct: -12.4
+    notes: "SELL - S155. Rotation: lowest growth (2%) + E[CAGR] in portfolio. Ex-div Mar 26 captured. Capital → GDDY+DNLM.L+ITRK.L+MEGP.L+ALFA.L. Held 51 days."
+
+  - date: 2026-03-27
+    action: SELL
+    ticker: FTNT
+    shares: 10.26
+    price_usd: 81.03
+    total_eur: ~720
+    pnl_pct: -3.5
+    notes: "SELL - S155. EXIT APPROVED S152. E[CAGR] 9.4% worst, 3 KCs MONITORING (CVE pattern). Cybersecurity basket → 0. Held 29 days."
+
+  - date: 2026-03-27
+    action: TRIM
+    ticker: NVO
+    shares: 38.91
+    price_usd: 36.40
+    notes: "TRIM - S155. Closed full position (38.91 sh at $36.40) + reopened EUR 900. Net trim 11.7%→7%. Before ex-div Mar 30. Old avg $37.93, P&L -4.0%."
+
+  - date: 2026-03-27
+    action: BUY
+    ticker: NVO
+    shares: 28.53
+    price_usd: 36.40
+    total_eur: 900
+    notes: "BUY - S155. Reopen after trim. EUR 900 at $36.40. FV $47, MoS 29.2%, E[CAGR] ~17.9%."
+
+  - date: 2026-03-27
+    action: BUY
+    ticker: GDDY
+    shares: 10.17
+    price_usd: 81.73
+    total_eur: 720
+    notes: "BUY - S155. R4 APPROVED S284. PRIORITY #1. QS 75 Tier A. FV $130, MoS 37.1%, E[CAGR] 25.2%. 27M domains monopoly, 85%+ retention, $1.8B FCF guide."
+
+  - date: 2026-03-27
+    action: BUY
+    ticker: DNLM.L
+    shares: 21.76
+    price_gbp: 795.0
+    total_eur: 200
+    notes: "BUY - S155. R4 APPROVED. Starter position. UK Quality Leaders basket. UK #1 homewares, 30%+ ROIC, 5.7% yield. 90-day clock."
+
+  - date: 2026-03-27
+    action: BUY
+    ticker: ITRK.L
+    shares: 7.07
+    price_gbp: 3670.0
+    total_eur: 300
+    notes: "BUY - S155. R4 APPROVED. SO TRIGGERED. Starter. D&A Monopolies basket. TIC oligopoly. 90-day clock."
+
+  - date: 2026-03-27
+    action: BUY
+    ticker: MEGP.L
+    shares: 190.26
+    price_gbp: 136.4
+    total_eur: 300
+    notes: "BUY - S155. R4 APPROVED S284. SO TRIGGERED at 133.8p, bought 136.4p. Starter. UK Quality Leaders basket. QS 80 Tier A. Record PBT. 90-day clock."
+
+  - date: 2026-03-27
+    action: BUY
+    ticker: ALFA.L
+    shares: 235.71
+    price_gbp: 146.8
+    total_eur: 400
+    notes: "BUY - S155. R4 APPROVED S284. Near 52wL (145p). Auto leasing software monopoly. CHP 55% systematic selling = overhang. 30+ year contracts. 90-day clock."

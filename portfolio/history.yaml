@@ -617,18 +617,48 @@ partial_sells:
     reason: "Error #67 (stale R4 in changed macro) + oil crisis (Hormuz closed, Brent $100+, Kharg struck). KC#6 MONITORING (Brent >$95 sustained). E[CAGR] 11.2% worst. Conviction LOW. Sold to free capital for FOMC deployment."
     thesis_accuracy: "Thesis partially correct (FV EUR 51 > exit EUR 48.10). Sold for macro risk management + rotation, not thesis failure. Price ROSE after buy — market disagreed with oil headwind thesis short-term."
 
+  - ticker: MONY.L
+    name: "Mony Group PLC"
+    entry_date: 2026-02-04
+    exit_date: 2026-03-27
+    entry_price_gbp: 169.5
+    exit_price_gbp: 148.5
+    shares: 389.79
+    invested_eur: ~768  # $888 / 1.1539
+    proceeds_eur: ~669
+    pnl_eur: -99
+    pnl_pct: -12.4
+    holding_days: 51
+    reason: "P16 rotation. Lowest growth (2%) and E[CAGR] in portfolio. Ex-div Mar 26 captured. Capital rotated to GDDY+DNLM.L+ITRK.L+MEGP.L+ALFA.L (higher E[CAGR] positions)."
+    thesis_accuracy: "FV 190p never reached. Price declined from entry 169.5p to exit 148.5p. DA was correct: 5 HIGH concerns (AI disruption, P/E re-rating unlikely, narrow upside 10%). Growth 2% was structural ceiling, not temporary. Rotation was correct — capital redeployed to 20%+ E[CAGR] positions."
+
+  - ticker: FTNT
+    name: "Fortinet, Inc."
+    entry_date: 2026-02-26
+    exit_date: 2026-03-27
+    entry_price_usd: 84.00
+    exit_price_usd: 81.03
+    shares: 10.26
+    invested_eur: ~747  # $862 / 1.1539
+    proceeds_eur: ~720
+    pnl_eur: -27
+    pnl_pct: -3.5
+    holding_days: 29
+    reason: "EXIT APPROVED S152. E[CAGR] 9.4% worst in portfolio. 3 KCs MONITORING (CVE-2024-55591 pattern). MoS 4.3% insufficient. QS 87 Tier A but overvalued at entry. Cybersecurity basket → 0 positions."
+    thesis_accuracy: "FV $88 was reasonable but entry at $84 gave only 4.3% MoS — insufficient for a position with 3 active KCs. CVE exploit pattern confirmed DA concerns. Short hold (29d) with small loss (-3.5%) is acceptable exit. QS 87 was highest in portfolio — selling high QS for low E[CAGR] is correct when MoS is thin."
+
 # Statistics (auto-calculated by effectiveness_tracker.py)
 statistics:
   # Will be populated by the tool
-  total_closed_positions: 22
+  total_closed_positions: 24  # +MONY.L, +FTNT
   total_partial_sells: 4
-  total_realized_pnl_eur: 562.88  # Previous 554.88 + MORN ~8
-  winners: 12  # Added MORN +2%
-  losers: 8  # RACE.MI -3.4%, DOM.L -1.7%, LULU -1.0%, SAN.PA, HRB, TEP.PA, A2A, FUTR.L
+  total_realized_pnl_eur: 436.88  # Previous 562.88 - 99 (MONY.L) - 27 (FTNT)
+  winners: 12
+  losers: 10  # +MONY.L -12.4%, +FTNT -3.5%
   breakeven: 2  # ENEL.MI 0%, VNA.DE 0%
-  win_rate_pct: 54.5
+  win_rate_pct: 50.0
   avg_win_pct: 7.4
-  avg_loss_pct: -3.8
-  avg_holding_days: 12
+  avg_loss_pct: -4.6
+  avg_holding_days: 14
   positions_reached_fv: 0
   thesis_accuracy_rate: null
