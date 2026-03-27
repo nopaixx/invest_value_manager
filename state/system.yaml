@@ -33,20 +33,22 @@ system:
       net_pct: 0
       gross_pct: 0
     positions:
-      # MORN — SOLD S143. Moved to thesis/archive/MORN/.
-      - { ticker: MONY.L, score: 75, tier: A, status: "FV 190 GBp. ADD S143. UK Digital Platforms." }
-      - { ticker: ADBE, score: 76, tier: A, status: "FV $390. US Quality Compounders." }
-      - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. ADD S143. UK Digital Platforms quality anchor." }
-      - { ticker: NVO, score: 73, tier: B, status: "FV $47. CagriSema FAILED. HOLD LOW. R3 S146c8." }
-      # AUTO.L — SOLD S150 (executed at open). P&L +1.6%.
-      - { ticker: EDEN.PA, score: 76, tier: A, status: "FV EUR 29. QS Tool 76 Tier A (was 62 stale). European Pricing Power → orphan ~Apr 6." }
-      - { ticker: HLNE, score: 82, tier: A, status: "FV $110. ADD S143 >10%. US Quality Compounders." }
-      - { ticker: DOCS, score: 79, tier: A, status: "FV $30. R3 S146c4. US Quality Compounders." }
-      - { ticker: FTNT, score: 87, tier: A, status: "FV $88. EXIT APPROVED S152 (late April). Rotate to SPGI + best available." }
-      # RACE.MI — SOLD S143c10. T15 rotation. E[CAGR] 6.6% worst. P&L -3.4%.
-      - { ticker: TW, score: 84, tier: A, status: "FV $135. R3 S147c4. Data & Analytics Monopolies." }
-      - { ticker: WKL.AS, score: 72, tier: B, status: "FV EUR 80 (re-eval S143c11). Data & Analytics Monopolies. Sector view CREATED S144c2." }
-      - { ticker: BZU.MI, score: 73, tier: B, status: "FV EUR 51 (DA resolution S151). Italian cement. Standalone. KC#6 oil MONITORING." }
+      # MONY.L — SOLD S155. Rotation: lowest growth 2%. P&L -12.4%.
+      # FTNT — SOLD S155. EXIT APPROVED S152. P&L -3.5%.
+      # BZU.MI — SOLD S219. Error #67 stale R4. P&L +14.5%.
+      - { ticker: EDEN.PA, score: 76, tier: A, status: "FV EUR 24. S251 recalc. Brazil decree. Growth 4%." }
+      - { ticker: ADBE, score: 76, tier: A, status: "FV $385. CMA UK open. S284." }
+      - { ticker: NVO, score: 73, tier: B, status: "FV $47. Trimmed S155. Close+reopen EUR 900." }
+      - { ticker: IHP.L, score: 80, tier: A, status: "FV 390 GBp. TRIM CONDITIONAL. Path dependency." }
+      - { ticker: HLNE, score: 82, tier: A, status: "FV $110. TRIM pending. Evergreen gate May." }
+      - { ticker: DOCS, score: 79, tier: A, status: "FV $30. Q4 binary May. NRR declining." }
+      - { ticker: GDDY, score: 75, tier: A, status: "FV $130. NEW S155. 27M domains monopoly. E[CAGR] 24.7%." }
+      - { ticker: DNLM.L, score: 78, tier: A, status: "FV 1050 GBp. NEW S155 starter. UK #1 homewares." }
+      - { ticker: ITRK.L, score: 65, tier: B, status: "FV 4750 GBp. NEW S155 starter. TIC oligopoly." }
+      - { ticker: MEGP.L, score: 80, tier: A, status: "FV 200 GBp. NEW S155 starter. Self-service vending." }
+      - { ticker: ALFA.L, score: 76, tier: A, status: "FV 215 GBp. NEW S155. Auto leasing software monopoly." }
+      - { ticker: TW, score: 84, tier: A, status: "FV $135. EXIT CONDITIONAL Apr Q1. D&A Monopolies." }
+      - { ticker: WKL.AS, score: 72, tier: B, status: "FV EUR 80. D&A Monopolies. Conviction upgrading." }
 
   last_session_summary: |
     Session 155 (2026-03-13 15:30 CET). NYSE open check + pipeline + sector views + FOMC prep.

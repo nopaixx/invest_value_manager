@@ -52,6 +52,11 @@ SECTOR_MAP = {
     'WKL.AS': ('technology', 0.50, 'Legal/tax info, consumer staples behavior'),
     'BZU.MI': ('materials', 1.0, 'Cement, direct match'),
     'CVNA': ('consumer_disc', 1.0, 'Used car retail, full consumer disc exposure'),
+    'GDDY': ('technology', 0.70, 'Domain registrar, recurring revenue, less discretionary than pure tech'),
+    'DNLM.L': ('consumer_disc', 0.90, 'UK homewares retail, cyclical consumer'),
+    'ITRK.L': ('industrials', 0.70, 'Testing/inspection/certification, non-discretionary but industrial exposure'),
+    'MEGP.L': ('consumer_disc', 0.50, 'Self-service vending/photobooths, low ticket, recession-resistant'),
+    'ALFA.L': ('technology', 0.60, 'Auto leasing software, long contracts, low churn, non-discretionary'),
 }
 
 # 2008 GFC — REAL S&P sector drawdowns (peak-to-trough)
@@ -316,7 +321,9 @@ def download_returns(tickers, period='1y'):
 
 
 def calculate_betas(returns, position_list):
-    """Calculate beta of each position vs S&P 500."""
+    """Calculate beta of each position vs S&P 500.
+    Clamps nonsensical betas (|beta| > 5) to sector-based defaults.
+    Small-cap UK stocks often produce garbage betas due to thin trading vs S&P."""
     if '^GSPC' not in returns.columns:
         print("  ERROR: S&P 500 data not available for beta calculation")
         return {}
@@ -326,12 +333,27 @@ def calculate_betas(returns, position_list):
     if market_var == 0:
         return {}
 
+    # Sector-based default betas for when yfinance produces nonsense
+    SECTOR_DEFAULT_BETA = {
+        'technology': 1.1, 'healthcare': 0.85, 'financials': 1.2,
+        'consumer_disc': 1.1, 'industrials': 1.0, 'energy': 1.3,
+        'materials': 1.1, 'consumer_staples': 0.65, 'utilities': 0.55,
+        'real_estate': 0.9, 'communication': 0.95,
+    }
+
     betas = {}
     for item in position_list:
         ticker = item['ticker']
         if ticker in returns.columns:
             cov = returns[ticker].cov(market)
             beta = cov / market_var
+            # Clamp nonsensical betas — |beta| > 5 is always bad data
+            if abs(beta) > 5.0:
+                mapping = SECTOR_MAP.get(ticker)
+                sector = mapping[0] if mapping else 'industrials'
+                default_beta = SECTOR_DEFAULT_BETA.get(sector, 1.0) * (mapping[1] if mapping else 1.0)
+                print(f"  !! CLAMPED: {ticker} beta {beta:.1f} → {default_beta:.2f} (sector default, raw beta nonsensical)")
+                beta = default_beta
             betas[ticker] = {
                 'beta': float(beta),
                 'weight': item['weight'],

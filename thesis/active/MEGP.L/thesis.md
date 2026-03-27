@@ -1,11 +1,12 @@
 # MEGP.L - ME Group International PLC
 
-> **Fair Value:** 180p (R3 resolved, was 200p R1. DA -10%: German regulation execution risk + failed sale + FY2026E normalization)
-> **Current Price:** 141.6p (18-Feb-2026)
-> **MoS:** +21.5% (vs R3 FV 180p)
+> **Fair Value:** 200 GBp (R4 S284. Post-earnings upgrade from 180p R3. FY2025 record PBT confirmed.)
+> **Expected Growth:** 8%
+> **Current Price:** 136.4p (27-Mar-2026)
 > **Tier:** A (QS 80)
-> **Bear Case:** 120p (R3 revised from 130p, EBIT compression in bear)
-> **Verdict:** WATCHLIST -- Standing order 135p, HARD GATE Feb 27 FY2025 results. R4 committee required post-earnings.
+> **Quality Score Tool:** 80/100 (Tier A)
+> **Bear Case:** 160p (post-earnings upgrade from 120p. Revenue trajectory confirmed.)
+> **Status:** R4 APPROVED S284. Active position. UK Quality Leaders basket.
 
 ---
 

@@ -167,7 +167,7 @@ positions:
     date_opened: 2026-03-27
     thesis: thesis/active/ITRK.L/thesis.md
     conviction: medium
-    fair_value: "4750 GBp (R4 S284. QS 73 Tier B. TIC oligopoly. Bear 4000p/Base 5000p/Bull 5800p.)"
+    fair_value: "4750 GBp (R3 resolution, confirmed R4 S284. QS 65 Tier B. TIC oligopoly. Growth 4.5%.)"
     last_review: 2026-03-27
     intentional_weight: 3.0  # Starter. D&A Monopolies basket. 90-day clock.
     exit_plan: "HOLD starter. ADD to 5-7% if H1 results confirm margin recovery. EXIT at 90 days if no ADD. SELL if KC triggered (organic growth <2% 2Q, OP margin <15%)."

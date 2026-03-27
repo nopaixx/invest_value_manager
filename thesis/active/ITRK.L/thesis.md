@@ -10,10 +10,13 @@ DA MODERATE COUNTER (-15%): FV 5400p→4700p. Entry 4200p→3700p.
 - **BVI.PA preferred** for TIC sector allocation (QS 70 vs 65, growth 6.7% vs 4.5%, R3 vs R1).
 - R3 FV: 4700p. Entry 3700p (21% MoS for Tier B QS 65). Hard gate Mar 3 FY results still applies.
 
-> **Fair Value:** 4700p
+> **Fair Value:** 4750 GBp
+> **Expected Growth:** 4.5%
 > **Entry Price:** 3700p
-> **Date:** 2026-02-18 (R3 resolution)
-> **Status:** R3 COMPLETE — Hard gate Mar 3 FY2025 results. BVI.PA preferred for TIC.
+> **Date:** 2026-02-18 (R3 resolution, updated S155 post-R4)
+> **Quality Score Tool:** 63/100 (Tier B)
+> **Quality Score Adjusted:** 65/100 (Tier B)
+> **Status:** R4 APPROVED S155. Active position. D&A Monopolies basket.
 
 ---
 

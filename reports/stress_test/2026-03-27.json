@@ -1,0 +1,522 @@
+{
+  "date": "2026-03-27",
+  "positions_count": 14,
+  "total_value_usd": 11086.424702882387,
+  "portfolio_weighted_beta": 0.5741570005550685,
+  "betas": {
+    "EDEN.PA": {
+      "beta": 0.26401994886957203,
+      "weight": 0.16466722899525366,
+      "direction": "long",
+      "annual_vol": 0.47525087172741587
+    },
+    "ADBE": {
+      "beta": 0.7958328513643371,
+      "weight": 0.0832162255574884,
+      "direction": "long",
+      "annual_vol": 0.315414965585023
+    },
+    "NVO": {
+      "beta": 1.1052856205227084,
+      "weight": 0.09367240308440693,
+      "direction": "long",
+      "annual_vol": 0.5524289238643083
+    },
+    "IHP.L": {
+      "beta": 0.14402712740134938,
+      "weight": 0.1211397818514772,
+      "direction": "long",
+      "annual_vol": 0.29788753612673585
+    },
+    "HLNE": {
+      "beta": 1.4459386833742849,
+      "weight": 0.10442330296161804,
+      "direction": "long",
+      "annual_vol": 0.44551712714335495
+    },
+    "DOCS": {
+      "beta": 1.141193842581675,
+      "weight": 0.08755737802672355,
+      "direction": "long",
+      "annual_vol": 0.5066181704757649
+    },
+    "GDDY": {
+      "beta": 0.7510036235029856,
+      "weight": 0.07497404766785729,
+      "direction": "long",
+      "annual_vol": 0.36400530454615004
+    },
+    "DNLM.L": {
+      "beta": 0.09005672473278108,
+      "weight": 0.02080723335125575,
+      "direction": "long",
+      "annual_vol": 0.3494873129642168
+    },
+    "ITRK.L": {
+      "beta": 0.18475172491878902,
+      "weight": 0.031208564733727448,
+      "direction": "long",
+      "annual_vol": 0.3027658619351862
+    },
+    "MEGP.L": {
+      "beta": 0.55,
+      "weight": 0.031214052851704796,
+      "direction": "long",
+      "annual_vol": 102.96867947840668
+    },
+    "ALFA.L": {
+      "beta": -0.01566112697784443,
+      "weight": 0.04161907183202803,
+      "direction": "long",
+      "annual_vol": 0.30771156846949504
+    },
+    "TW": {
+      "beta": 0.4016557991654294,
+      "weight": 0.05931647164997762,
+      "direction": "long",
+      "annual_vol": 0.303399270250155
+    },
+    "WKL.AS": {
+      "beta": 0.10579430713374781,
+      "weight": 0.07775729178085986,
+      "direction": "long",
+      "annual_vol": 0.3217764951351087
+    },
+    "CVNA": {
+      "beta": 2.3672761871112424,
+      "weight": 0.008426945655621366,
+      "direction": "short",
+      "annual_vol": 0.6995694480907706
+    }
+  },
+  "gfc_scenario": {
+    "portfolio_drawdown": -0.3656944799941299,
+    "spx_recovery_years": 4.0,
+    "portfolio_recovery_years": 2.8994501807473743,
+    "positions": [
+      {
+        "ticker": "EDEN.PA",
+        "direction": "long",
+        "sector": "consumer_disc",
+        "weight": 0.16466722899525366,
+        "sector_drawdown": -0.594,
+        "adj_factor": 0.6,
+        "position_drawdown": -0.3564,
+        "portfolio_impact": -0.0586874004139084,
+        "rationale": "Employee benefits fintech, not pure consumer disc"
+      },
+      {
+        "ticker": "ADBE",
+        "direction": "long",
+        "sector": "technology",
+        "weight": 0.0832162255574884,
+        "sector_drawdown": -0.494,
+        "adj_factor": 1.0,
+        "position_drawdown": -0.494,
+        "portfolio_impact": -0.041108815425399264,
+        "rationale": "Software, direct match"
+      },
+      {
+        "ticker": "NVO",
+        "direction": "long",
+        "sector": "healthcare",
+        "weight": 0.09367240308440693,
+        "sector_drawdown": -0.375,
+        "adj_factor": 1.0,
+        "position_drawdown": -0.375,
+        "portfolio_impact": -0.035127151156652596,
+        "rationale": "Pharma, direct match"
+      },
+      {
+        "ticker": "IHP.L",
+        "direction": "long",
+        "sector": "financials",
+        "weight": 0.1211397818514772,
+        "sector_drawdown": -0.831,
+        "adj_factor": 0.35,
+        "position_drawdown": -0.29084999999999994,
+        "portfolio_impact": -0.035233505551502134,
+        "rationale": "Adviser platform, NOT bank"
+      },
+      {
+        "ticker": "HLNE",
+        "direction": "long",
+        "sector": "financials",
+        "weight": 0.10442330296161804,
+        "sector_drawdown": -0.831,
+        "adj_factor": 0.7,
+        "position_drawdown": -0.5816999999999999,
+        "portfolio_impact": -0.060743035332773206,
+        "rationale": "Alt asset mgmt, PE fundraising correlated"
+      },
+      {
+        "ticker": "DOCS",
+        "direction": "long",
+        "sector": "healthcare",
+        "weight": 0.08755737802672355,
+        "sector_drawdown": -0.375,
+        "adj_factor": 0.9,
+        "position_drawdown": -0.3375,
+        "portfolio_impact": -0.0295506150840192,
+        "rationale": "Healthcare IT/advertising"
+      },
+      {
+        "ticker": "GDDY",
+        "direction": "long",
+        "sector": "technology",
+        "weight": 0.07497404766785729,
+        "sector_drawdown": -0.494,
+        "adj_factor": 0.7,
+        "position_drawdown": -0.3458,
+        "portfolio_impact": -0.02592602568354505,
+        "rationale": "Domain registrar, recurring revenue, less discretionary than pure tech"
+      },
+      {
+        "ticker": "DNLM.L",
+        "direction": "long",
+        "sector": "consumer_disc",
+        "weight": 0.02080723335125575,
+        "sector_drawdown": -0.594,
+        "adj_factor": 0.9,
+        "position_drawdown": -0.5346,
+        "portfolio_impact": -0.011123546949581325,
+        "rationale": "UK homewares retail, cyclical consumer"
+      },
+      {
+        "ticker": "ITRK.L",
+        "direction": "long",
+        "sector": "industrials",
+        "weight": 0.031208564733727448,
+        "sector_drawdown": -0.58,
+        "adj_factor": 0.7,
+        "position_drawdown": -0.40599999999999997,
+        "portfolio_impact": -0.012670677281893344,
+        "rationale": "Testing/inspection/certification, non-discretionary but industrial exposure"
+      },
+      {
+        "ticker": "MEGP.L",
+        "direction": "long",
+        "sector": "consumer_disc",
+        "weight": 0.031214052851704796,
+        "sector_drawdown": -0.594,
+        "adj_factor": 0.5,
+        "position_drawdown": -0.297,
+        "portfolio_impact": -0.009270573696956323,
+        "rationale": "Self-service vending/photobooths, low ticket, recession-resistant"
+      },
+      {
+        "ticker": "ALFA.L",
+        "direction": "long",
+        "sector": "technology",
+        "weight": 0.04161907183202803,
+        "sector_drawdown": -0.494,
+        "adj_factor": 0.6,
+        "position_drawdown": -0.2964,
+        "portfolio_impact": -0.012335892891013108,
+        "rationale": "Auto leasing software, long contracts, low churn, non-discretionary"
+      },
+      {
+        "ticker": "TW",
+        "direction": "long",
+        "sector": "financials",
+        "weight": 0.05931647164997762,
+        "sector_drawdown": -0.831,
+        "adj_factor": 0.4,
+        "position_drawdown": -0.33240000000000003,
+        "portfolio_impact": -0.019716795176452563,
+        "rationale": "Bond trading, benefits from vol in crisis"
+      },
+      {
+        "ticker": "WKL.AS",
+        "direction": "long",
+        "sector": "technology",
+        "weight": 0.07775729178085986,
+        "sector_drawdown": -0.494,
+        "adj_factor": 0.5,
+        "position_drawdown": -0.247,
+        "portfolio_impact": -0.019206051069872384,
+        "rationale": "Legal/tax info, consumer staples behavior"
+      },
+      {
+        "ticker": "CVNA",
+        "direction": "short",
+        "sector": "consumer_disc",
+        "weight": 0.008426945655621366,
+        "sector_drawdown": -0.594,
+        "adj_factor": 1.0,
+        "position_drawdown": -0.594,
+        "portfolio_impact": 0.005005605719439091,
+        "rationale": "Used car retail, full consumer disc exposure"
+      }
+    ]
+  },
+  "covid_scenario": {
+    "portfolio_drawdown": -0.28275896437096665,
+    "spx_recovery_months": 5.0,
+    "portfolio_recovery_months": 6.575275611745209,
+    "positions": [
+      {
+        "ticker": "EDEN.PA",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.16466722899525366,
+        "position_drawdown": -0.368,
+        "portfolio_impact": -0.060597540270253346,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 10.0
+      },
+      {
+        "ticker": "ADBE",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.0832162255574884,
+        "position_drawdown": -0.256,
+        "portfolio_impact": -0.02130335374271703,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 3.5
+      },
+      {
+        "ticker": "NVO",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.09367240308440693,
+        "position_drawdown": -0.235,
+        "portfolio_impact": -0.022013014724835626,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 4.0
+      },
+      {
+        "ticker": "IHP.L",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.1211397818514772,
+        "position_drawdown": -0.291,
+        "portfolio_impact": -0.03525167651877986,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 7.0
+      },
+      {
+        "ticker": "HLNE",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.10442330296161804,
+        "position_drawdown": -0.433,
+        "portfolio_impact": -0.045215290182380616,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 9.0
+      },
+      {
+        "ticker": "DOCS",
+        "direction": "long",
+        "sector": "healthcare",
+        "weight": 0.08755737802672355,
+        "position_drawdown": -0.2529,
+        "portfolio_impact": -0.022143260902958387,
+        "source": "sector proxy (healthcare \u00d7 0.9)",
+        "recovery_months": null
+      },
+      {
+        "ticker": "GDDY",
+        "direction": "long",
+        "sector": "technology",
+        "weight": 0.07497404766785729,
+        "position_drawdown": -0.21839999999999998,
+        "portfolio_impact": -0.01637433201066003,
+        "source": "sector proxy (technology \u00d7 0.7)",
+        "recovery_months": null
+      },
+      {
+        "ticker": "DNLM.L",
+        "direction": "long",
+        "sector": "consumer_disc",
+        "weight": 0.02080723335125575,
+        "position_drawdown": -0.30510000000000004,
+        "portfolio_impact": -0.006348286895468131,
+        "source": "sector proxy (consumer_disc \u00d7 0.9)",
+        "recovery_months": null
+      },
+      {
+        "ticker": "ITRK.L",
+        "direction": "long",
+        "sector": "industrials",
+        "weight": 0.031208564733727448,
+        "position_drawdown": -0.2961,
+        "portfolio_impact": -0.009240856017656696,
+        "source": "sector proxy (industrials \u00d7 0.7)",
+        "recovery_months": null
+      },
+      {
+        "ticker": "MEGP.L",
+        "direction": "long",
+        "sector": "consumer_disc",
+        "weight": 0.031214052851704796,
+        "position_drawdown": -0.1695,
+        "portfolio_impact": -0.005290781958363963,
+        "source": "sector proxy (consumer_disc \u00d7 0.5)",
+        "recovery_months": null
+      },
+      {
+        "ticker": "ALFA.L",
+        "direction": "long",
+        "sector": "technology",
+        "weight": 0.04161907183202803,
+        "position_drawdown": -0.1872,
+        "portfolio_impact": -0.007791090246955647,
+        "source": "sector proxy (technology \u00d7 0.6)",
+        "recovery_months": null
+      },
+      {
+        "ticker": "TW",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.05931647164997762,
+        "position_drawdown": -0.3,
+        "portfolio_impact": -0.017794941494993288,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 5.0
+      },
+      {
+        "ticker": "WKL.AS",
+        "direction": "long",
+        "sector": "actual",
+        "weight": 0.07775729178085986,
+        "position_drawdown": -0.209,
+        "portfolio_impact": -0.01625127398219971,
+        "source": "REAL (traded in 2020)",
+        "recovery_months": 3.0
+      },
+      {
+        "ticker": "CVNA",
+        "direction": "short",
+        "sector": "consumer_disc",
+        "weight": 0.008426945655621366,
+        "position_drawdown": -0.339,
+        "portfolio_impact": 0.002856734577255643,
+        "source": "sector proxy (consumer_disc \u00d7 1.0)",
+        "recovery_months": null
+      }
+    ]
+  },
+  "crisis_correlations": {
+    "crisis_avg_correlation": 0.18492283156743555,
+    "normal_avg_correlation": 0.095262028831629,
+    "spike_multiplier": 1.941201902116505,
+    "crisis_days_count": 24,
+    "normal_days_count": 209,
+    "threshold_return": -0.010289484285731707
+  },
+  "liquidity": [
+    {
+      "ticker": "EDEN.PA",
+      "shares": 102.83,
+      "avg_daily_volume": 1304414,
+      "days_to_liquidate": 7.883233390625983e-05,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "ADBE",
+      "shares": 3.83,
+      "avg_daily_volume": 5817864,
+      "days_to_liquidate": 6.583172105776278e-07,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "NVO",
+      "shares": 28.53,
+      "avg_daily_volume": 23989164,
+      "days_to_liquidate": 1.1892869630638233e-06,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "IHP.L",
+      "shares": 327.0,
+      "avg_daily_volume": 697988,
+      "days_to_liquidate": 0.00046848942961770116,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "HLNE",
+      "shares": 11.87,
+      "avg_daily_volume": 699403,
+      "days_to_liquidate": 1.6971617222116574e-05,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "DOCS",
+      "shares": 39.93,
+      "avg_daily_volume": 3442371,
+      "days_to_liquidate": 1.1599563208033068e-05,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "GDDY",
+      "shares": 10.17,
+      "avg_daily_volume": 2167716,
+      "days_to_liquidate": 4.691573988474505e-06,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "DNLM.L",
+      "shares": 21.76,
+      "avg_daily_volume": 617373,
+      "days_to_liquidate": 3.5246115395393064e-05,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "ITRK.L",
+      "shares": 7.07,
+      "avg_daily_volume": 549031,
+      "days_to_liquidate": 1.2877232797419455e-05,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "MEGP.L",
+      "shares": 190.26,
+      "avg_daily_volume": 1114746,
+      "days_to_liquidate": 0.00017067565167311655,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "ALFA.L",
+      "shares": 235.71,
+      "avg_daily_volume": 709933,
+      "days_to_liquidate": 0.00033201724669792786,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "TW",
+      "shares": 5.59,
+      "avg_daily_volume": 1507597,
+      "days_to_liquidate": 3.7078874526813198e-06,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "WKL.AS",
+      "shares": 11.68,
+      "avg_daily_volume": 1180498,
+      "days_to_liquidate": 9.894129426733462e-06,
+      "risk_level": "LOW",
+      "flagged": false
+    },
+    {
+      "ticker": "CVNA",
+      "shares": 0.31,
+      "avg_daily_volume": 3803671,
+      "days_to_liquidate": 8.150021387233544e-08,
+      "risk_level": "LOW",
+      "flagged": false
+    }
+  ]
+}
