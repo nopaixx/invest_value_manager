@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 220.8  # Updated 2026-03-27. 8 trades: SELL MONY.L + FTNT, TRIM NVO (close+reopen), BUY GDDY+DNLM.L+ITRK.L+MEGP.L+ALFA.L.
+  amount: 611.5  # Updated 2026-03-27b. +EDEN trim EUR 346 + HLNE trim net EUR 345 - MEGP.L ADD EUR 300.
   currency: EUR
 
 positions:
@@ -24,18 +24,18 @@ positions:
 
   - ticker: EDEN.PA
     name: "Edenred SA"
-    shares: 102.83  # 85.96 + ~16.87 ADD S144c1 (EUR 317 at EUR 18.79). Confirm exact from eToro.
-    invested_usd: 2218  # 1850 + ~368 (EUR 317 * 1.1616)
-    avg_cost_usd: 21.57  # Blended estimate
-    avg_cost_eur: 18.45  # S220: REAL eToro entry EUR 18.45 (was 18.35 theoretical)
+    shares: 80.83  # S155: TRIM 22 shares at EUR 15.72. Was 102.83. HARD TRIM >15% rule executed.
+    invested_usd: 1740  # Proportional: 2218 * (80.83/102.83)
+    avg_cost_usd: 21.57  # Blended estimate (unchanged — same cost basis)
+    avg_cost_eur: 18.45  # S220: REAL eToro entry EUR 18.45
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
     conviction: high
-    last_review: 2026-03-15
-    intentional_weight: 18.7  # Weight after S144c1 ADD (EUR 317 at EUR 18.79). Last action on EDEN.PA.
+    last_review: 2026-03-27
+    intentional_weight: 13.0  # S155: HARD TRIM 16.8%→13%. Rule: >15% = trim to 13%, NO EXCEPTIONS.
     fair_value: "EUR 24.0 (S251 recalc. Was 29.0. Brazil injunction lost, decree ~certain. Growth 6%→4%.)"
     exit_plan: "HOLD. Brazil injunction OVERRULED Feb 24 — decree certain. Turkey antitrust = 4th front. SI 9.64% declining. ADD at EUR 15. TRIM at EUR 22+. EXIT if France levy tabled OR 2027-28 guide <3% OR Turkey fine >EUR 50M."
-    notes: "S251: FV EUR 29→24 (-17.2%). Brazil decree permanent: interchange capped, settlement halved, interoperability forced. Growth 6%→4%. E[CAGR] 30.6%→20.8% — STILL #1 in portfolio. Turkey antitrust probe = new risk. Thesis v4.3."
+    notes: "S155: HARD TRIM executed. 22 shares sold at EUR 15.72, proceeds EUR 346. Weight 16.8%→13.0%. Delayed ~10 sessions — cost ~0.6pp alpha drag (EUR 113 lost proceeds vs early Mar). Path dependency broken. E[CAGR] 28.8% still #1."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
@@ -102,17 +102,18 @@ positions:
 
   - ticker: HLNE
     name: "Hamilton Lane Incorporated"
-    shares: 11.87  # 15.54 - 3.67 TRIM S143c8 sizing rebalance. Confirm exact from eToro.
-    invested_usd: 1264  # Proportional: 1641 * (11.87/15.54)
-    avg_cost_usd: 99.02  # S231: REAL eToro entry $99.02 (was $106.49 theoretical). E[CAGR] 13.3%→15.8% (+2.5pp)
-    date_opened: 2026-02-25
+    shares: 7.67  # S155: Close 11.87 sh + reopen EUR 630 at $94.77. Confirm exact from eToro.
+    invested_usd: 727  # EUR 630 * 1.1539
+    invested_eur: 630
+    avg_cost_usd: 94.77  # Fresh entry at market Mar 27
+    date_opened: 2026-03-27  # Reopened position (original Feb 25, close+reopen for sizing)
     thesis: thesis/active/HLNE/thesis.md
     conviction: medium
     fair_value: "$110 (R3 refresh S147c4, maintained. DA MODERATE COUNTER, 3 HIGH. DA bear $84. QS 86/82 Tier A.)"
-    last_review: 2026-03-15
-    intentional_weight: 5.0  # S283: TRIM 10.1%→5% decided via challenge protocol. Execute post-FTNT exit (late April).
-    exit_plan: "TRIM 10.1%→5% post-FTNT exit (~6 shares, EUR ~520). Capital → ITRK.L EUR 300 + cash EUR 220. GATE: Q4 FY2026 (May) — if Evergreen inflows → CANCEL trim. If Evergreen outflows → FULL EXIT. SELL if KC#1 (FEAUM negative 2Q) or KC#8 (Evergreen outflows/gating)."
-    notes: "S283 challenge protocol: zero-base = would NOT open 10.1% (max 5%). Sharpe IMPROVES +0.023 on trim. Insider net NEGATIVE -$19M (French River $22M sell > $3.24M buys). SI 8.5% rising. Risk score HIGH (2 CRITICAL). Worst individual Sharpe (0.267) due to beta 1.45."
+    last_review: 2026-03-27
+    intentional_weight: 5.7  # S155: TRIM 10.3%→~5.7%. Close+reopen structure. Target ~5%.
+    exit_plan: "HOLD at ~5%. GATE: Q4 FY2026 (May) — if Evergreen inflows → ADD back to 7%. If Evergreen outflows → FULL EXIT. SELL if KC#1 (FEAUM negative 2Q) or KC#8 (Evergreen outflows/gating)."
+    notes: "S155: TRIM executed via close 11.87 sh ($99.02 avg) + reopen EUR 630 ($94.77). Old P&L: -4.3%. Net cash freed EUR 345. Weight 10.3%→5.7%. Zero-base = max 5%. Sharpe improves. Evergreen gate May."
 
   - ticker: DOCS
     name: "Doximity, Inc."
@@ -175,17 +176,17 @@ positions:
 
   - ticker: MEGP.L
     name: "ME Group International PLC"
-    shares: 190.26  # EUR 300 at 136.4p. Confirm exact from eToro.
-    invested_eur: 300
-    avg_cost_gbp: 136.4
+    shares: 389.89  # 190.26 (EUR 300 at 136.4p) + ~199.63 ADD (EUR 300 at 130p). Confirm exact from eToro.
+    invested_eur: 600  # 300 + 300 ADD
+    avg_cost_gbp: 133.1  # Blended: (190.26*136.4 + 199.63*130.0) / 389.89
     date_opened: 2026-03-27
     thesis: thesis/active/MEGP.L/thesis.md
-    conviction: medium
+    conviction: medium-high  # Upgraded: E[CAGR] 28.8% tied #1, record PBT, adding capital
     fair_value: "200 GBp (R4 S284. QS 80 Tier A. Self-service vending monopoly. Bear 160p/Base 210p/Bull 260p.)"
     last_review: 2026-03-27
-    intentional_weight: 3.0  # Starter. UK Quality Leaders basket 3rd position. 90-day clock.
-    exit_plan: "HOLD starter. ADD to 5-7% if H1 confirms KiPhoto ramp + Revolution growth. EXIT at 90 days if no ADD. SELL if KC triggered."
-    notes: "S155: NEW STARTER POSITION. R4 approved S284. SO triggered at 133.8p, bought at 136.4p (1% above gate — marginal, approved by CIO). UK Quality Leaders basket. Record PBT, audit clean. E[CAGR] ~22% at 136.4p. 90-day clock → Jun 25."
+    intentional_weight: 6.0  # S155: ADD from 3%→6%. Capital from EDEN+HLNE trims. E[CAGR] 28.8% = tied #1.
+    exit_plan: "HOLD. Now material position (6%). SELL if KC triggered (laundry rollout stalls, photobooth decline >10% 2yr, ROIC <20%, German regulation reversed)."
+    notes: "S155: ADD EUR 300 at 130p. Total EUR 600 invested. E[CAGR] 28.8% tied #1 with EDEN.PA. Capital sourced from EDEN.PA HARD TRIM (EUR 346) + HLNE trim (EUR 345). Graduated from starter to material position. FY2025 record PBT confirmed. Laundry EBITDA +18.1%."
 
   - ticker: ALFA.L
     name: "Alfa Financial Software Holdings PLC"
@@ -1094,3 +1095,34 @@ transactions:
     price_gbp: 146.8
     total_eur: 400
     notes: "BUY - S155. R4 APPROVED S284. Near 52wL (145p). Auto leasing software monopoly. CHP 55% systematic selling = overhang. 30+ year contracts. 90-day clock."
+
+  - date: 2026-03-27
+    action: TRIM
+    ticker: EDEN.PA
+    shares: 22
+    price_eur: 15.72
+    total_eur: 346
+    notes: "TRIM - S155. HARD TRIM rule: >15% → 13%. Delayed ~10 sessions. Weight 16.8%→13%. Proceeds to MEGP.L ADD. Path dependency broken."
+
+  - date: 2026-03-27
+    action: TRIM
+    ticker: HLNE
+    shares: 11.87
+    price_usd: 94.77
+    notes: "TRIM - S155. Close 11.87 sh ($99.02 avg) + reopen EUR 630 ($94.77). Weight 10.3%→5.7%. Zero-base = max 5%. Sharpe improves. Evergreen gate May."
+
+  - date: 2026-03-27
+    action: BUY
+    ticker: HLNE
+    shares: 7.67
+    price_usd: 94.77
+    total_eur: 630
+    notes: "BUY - S155. Reopen after trim. EUR 630 at $94.77. FV $110, E[CAGR] ~16.3%."
+
+  - date: 2026-03-27
+    action: ADD
+    ticker: MEGP.L
+    shares: 199.63
+    price_gbp: 130.0
+    total_eur: 300
+    notes: "ADD - S155. Re-executed (original order lost). E[CAGR] 28.8% tied #1. Capital from EDEN+HLNE trims. Total position EUR 600. Graduated from starter to material."
