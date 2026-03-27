@@ -5968,6 +5968,54 @@
       "so_tier": "A (QS 87)",
       "so_fair_value": "EUR 58 (R2 DA corrected from EUR 66. 60/40 bear EUR 51 / base EUR 66.)",
       "id": "MONC.MI"
+    },
+    {
+      "type": "fund",
+      "full_name": "MFS (Massachusetts Financial Services)",
+      "fund_type": "unknown",
+      "id": "mfs-(massachusetts-financial-services)"
+    },
+    {
+      "type": "fund",
+      "full_name": "Adderley Family",
+      "fund_type": "unknown",
+      "id": "adderley-family"
+    },
+    {
+      "type": "fund",
+      "full_name": "JP Morgan Asset Management",
+      "fund_type": "unknown",
+      "id": "jp-morgan-asset-management"
+    },
+    {
+      "type": "fund",
+      "full_name": "Jupiter Fund Management",
+      "fund_type": "unknown",
+      "id": "jupiter-fund-management"
+    },
+    {
+      "type": "fund",
+      "full_name": "Schroder Investment Management",
+      "fund_type": "unknown",
+      "id": "schroder-investment-management"
+    },
+    {
+      "type": "fund",
+      "full_name": "Montefiore Investment",
+      "fund_type": "unknown",
+      "id": "montefiore-investment"
+    },
+    {
+      "type": "fund",
+      "full_name": "Serge Crasnianski",
+      "fund_type": "unknown",
+      "id": "serge-crasnianski"
+    },
+    {
+      "type": "fund",
+      "full_name": "CHP Software",
+      "fund_type": "unknown",
+      "id": "chp-software"
     }
   ],
   "edges": [
@@ -13689,6 +13737,16 @@
     },
     {
       "relation": "holds",
+      "pct_portfolio": 3.7,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "fidelity-international",
+      "target": "ITRK.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
       "pct_portfolio": 1.0,
       "session_date": "2026-02-23",
       "date_added": "2026-02-23",
@@ -13955,6 +14013,16 @@
       "note": "capture",
       "source": "blackrock",
       "target": "GDDY",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 10.13,
+      "source": "blackrock",
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "target": "ALFA.L",
       "key": 0
     },
     {
@@ -14781,6 +14849,72 @@
       "key": 0
     },
     {
+      "relation": "insider_buy",
+      "value": 99500,
+      "date": "2026-03-03",
+      "role": "NED",
+      "data_source": "live",
+      "date_added": "2026-03-27",
+      "source": "unknown",
+      "target": "ITRK.L",
+      "key": 0
+    },
+    {
+      "relation": "insider_buy",
+      "value": 18400,
+      "date": "2026-03-13",
+      "role": "Director",
+      "data_source": "live",
+      "date_added": "2026-03-27",
+      "source": "unknown",
+      "target": "ITRK.L",
+      "key": 1
+    },
+    {
+      "relation": "insider_buy",
+      "value": 5918,
+      "date": "2026-03-13",
+      "role": "Director",
+      "data_source": "live",
+      "date_added": "2026-03-27",
+      "source": "unknown",
+      "target": "ITRK.L",
+      "key": 2
+    },
+    {
+      "relation": "insider_sell",
+      "value": 120497,
+      "date": "2026-03-13",
+      "role": "Director",
+      "data_source": "live",
+      "date_added": "2026-03-27",
+      "source": "unknown",
+      "target": "ITRK.L",
+      "key": 3
+    },
+    {
+      "relation": "insider_sell",
+      "value": 586846,
+      "date": "2025-10-27",
+      "role": "CEO",
+      "data_source": "live",
+      "date_added": "2026-03-27",
+      "source": "unknown",
+      "target": "DNLM.L",
+      "key": 0
+    },
+    {
+      "relation": "insider_sell",
+      "value": 96988,
+      "date": "2025-10-27",
+      "role": "Director",
+      "data_source": "live",
+      "date_added": "2026-03-27",
+      "source": "unknown",
+      "target": "DNLM.L",
+      "key": 1
+    },
+    {
       "relation": "holds",
       "pct_portfolio": 17.0,
       "session_date": "2026-02-25",
@@ -15268,6 +15402,16 @@
       "note": "capture",
       "source": "vanguard",
       "target": "GDDY",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 4.8,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "vanguard",
+      "target": "ITRK.L",
       "key": 0
     },
     {
@@ -27348,6 +27492,96 @@
       "date_added": "2026-03-24",
       "source": "aman-bhutani",
       "target": "GDDY",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 4.6,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "mfs-(massachusetts-financial-services)",
+      "target": "ITRK.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 37.6,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "adderley-family",
+      "target": "DNLM.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 5.13,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "jp-morgan-asset-management",
+      "target": "DNLM.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 4.95,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "jupiter-fund-management",
+      "target": "DNLM.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 12.0,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "schroder-investment-management",
+      "target": "MEGP.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 12.0,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "",
+      "source": "schroder-investment-management",
+      "target": "MEGP.L",
+      "key": 1
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 12.0,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "montefiore-investment",
+      "target": "MEGP.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 37.0,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "serge-crasnianski",
+      "target": "MEGP.L",
+      "key": 0
+    },
+    {
+      "relation": "holds",
+      "pct_portfolio": 55.0,
+      "session_date": "2026-03-27",
+      "date_added": "2026-03-27",
+      "note": "capture",
+      "source": "chp-software",
+      "target": "ALFA.L",
       "key": 0
     }
   ]
