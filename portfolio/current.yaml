@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 611.5  # Updated 2026-03-27b. +EDEN trim EUR 346 + HLNE trim net EUR 345 - MEGP.L ADD EUR 300.
+  amount: 613.5  # Updated 2026-03-30. +IHP.L trim EUR 242 - ALFA.L ADD EUR 240. Net ~+2.
   currency: EUR
 
 positions:
@@ -87,18 +87,18 @@ positions:
 
   - ticker: IHP.L
     name: "IntegraFin Holdings plc"
-    shares: 327  # 274 + ~53 ADD S143c8 sizing rebalance. Confirm exact from eToro.
-    invested_usd: 1390  # 1165 + ~225 (EUR 194 * 1.1616)
-    avg_cost_usd: 4.25  # Blended USD at prevailing FX. 316 GBp = GBP 3.16 × ~1.345 GBPUSD.
-    avg_cost_gbp: 316.0  # S220: REAL eToro entry in GBp (pence). = GBP 3.16.
+    shares: 272  # S155b: TRIM 55 shares at 302.5p. Was 327. Confirm exact from eToro.
+    invested_usd: 1155  # Proportional: 1390 * (272/327)
+    avg_cost_usd: 4.25  # Blended USD (unchanged cost basis)
+    avg_cost_gbp: 316.0  # S220: REAL eToro entry in GBp (pence).
     date_opened: 2026-02-24
     thesis: thesis/active/IHP.L/thesis.md
     conviction: high
     fair_value: "390 GBp (R3 refresh S147c1, maintained. DA bear 350p still 10% above market. QS Tool 80 Tier A.)"
-    last_review: 2026-03-15
-    intentional_weight: 13.0  # Weight after S108 ADD (55 shares at 318p, EUR 200). Drifted down from 13% to 11.5%.
-    exit_plan: "TRIM CONDITIONAL 11.4%→7-8% when capital destination available (ITRK.L/SPGI post-FTNT exit late April). Zero-base = 5-7%, path dependency 4-6pp. HOLD floor 7%. SELL if KC triggered. Cross-holding risk: BG holds 2.21% IHP.L + 5.41% EDEN.PA."
-    notes: "S284: Path dependency audit. Zero-base would NOT open 11.4% (max 5-7%). 2%→11.4% via 3 ADDs without deliberate sizing decision = same EDEN.PA pattern at smaller scale. TRIM CONDITIONAL formalized. Cross-holding Baillie Gifford = -2.1pp portfolio if simultaneous dump with EDEN.PA. E[CAGR] 21.4% strong but sizing unjustified."
+    last_review: 2026-03-30
+    intentional_weight: 8.0  # S155b: TRIM 11.8%→~8%. Path dependency 2%→11.4% broken. Zero-base 5-7%.
+    exit_plan: "HOLD at ~8%. Floor 7%. ADD only if FUA growth >10% AND margin expanding. SELL if KC triggered."
+    notes: "S155b: TRIM 55 shares at 302.5p. Proceeds EUR 242. Weight 11.8%→~8.3%. Path dependency broken (was 2%→11.4% via 3 ADDs). Capital → ALFA.L ADD. Cross-holding BG risk reduced proportionally."
 
   - ticker: HLNE
     name: "Hamilton Lane Incorporated"
@@ -190,17 +190,17 @@ positions:
 
   - ticker: ALFA.L
     name: "Alfa Financial Software Holdings PLC"
-    shares: 235.71  # EUR 400 at 146.8p. Confirm exact from eToro.
-    invested_eur: 400
-    avg_cost_gbp: 146.8
+    shares: 382.1  # 235.71 + ~146.4 ADD at 142.3p. Confirm exact from eToro.
+    invested_eur: 640  # 400 + 240 ADD
+    avg_cost_gbp: 145.1  # Blended: (235.71*146.8 + 146.4*142.32) / 382.1
     date_opened: 2026-03-27
     thesis: thesis/active/ALFA.L/thesis.md
-    conviction: medium
+    conviction: medium-high  # Upgraded: ADD demonstrates conviction
     fair_value: "210 GBp (R4 S284. QS 76 Tier A. Auto leasing software monopoly. Bear 170p/Base 220p/Bull 270p.)"
-    last_review: 2026-03-27
-    intentional_weight: 4.0  # Near starter. 90-day prove-or-exit clock.
-    exit_plan: "HOLD. ADD to 5-7% if CHP selling pressure subsides + new contract wins. EXIT at 90 days if no ADD. SELL if KC triggered (ARR growth <5%, CHP sells below 40%, contract loss to competitor)."
-    notes: "S155: NEW POSITION. R4 approved S284. Near 52wL (145p). CHP (founder 55%) systematic selling = structural overhang but thesis intact. Auto leasing software monopoly, 30+ year contracts. E[CAGR] ~20% at 146.8p. 90-day clock → Jun 25."
+    last_review: 2026-03-30
+    intentional_weight: 6.5  # S155b: ADD EUR 240. Near 52wL 141.7p. Capital from IHP.L trim.
+    exit_plan: "HOLD. Now material position (6.5%). SELL if KC triggered (ARR growth <5%, CHP sells below 40%, contract loss to competitor)."
+    notes: "S155b: ADD EUR 240 at 142.3p (new 52wL 141.7p). Total EUR 640. Weight 4%→6.5%. Capital from IHP.L trim. CHP 55% founder still aligned. ROE 58.6%. Graduated from near-starter to material. 90-day clock continues → Jun 25."
 
   # RACE.MI REMOVED 2026-03-07 - SOLD. S143c10 T15 rotation. E[CAGR] 6.6% = WORST position (11pp below portfolio avg 17.4%). QS 84 Tier A but overvalued vs FV at EUR 301.60. Capital redeployed to EDEN/NVO/WKL (E[CAGR] 21-27%). P&L ~-3.4% (EUR -12).
 
@@ -1126,3 +1126,19 @@ transactions:
     price_gbp: 130.0
     total_eur: 300
     notes: "ADD - S155. Re-executed (original order lost). E[CAGR] 28.8% tied #1. Capital from EDEN+HLNE trims. Total position EUR 600. Graduated from starter to material."
+
+  - date: 2026-03-30
+    action: TRIM
+    ticker: IHP.L
+    shares: 55
+    price_gbp: 302.5
+    total_eur: ~242
+    notes: "TRIM - S155b. Path dependency broken (2%→11.4% via 3 ADDs). Weight 11.8%→8.3%. Zero-base = max 5-7%. Capital → ALFA.L ADD."
+
+  - date: 2026-03-30
+    action: ADD
+    ticker: ALFA.L
+    shares: 146.4
+    price_gbp: 142.3
+    total_eur: 240
+    notes: "ADD - S155b. Near new 52wL (141.7p). Total EUR 640, 382 shares. Weight 4%→6.5%. Capital from IHP.L trim. ROE 58.6%. Graduated to material."
