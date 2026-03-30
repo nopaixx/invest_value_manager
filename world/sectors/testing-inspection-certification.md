@@ -1,7 +1,9 @@
 # Sector: Testing, Inspection & Certification (TIC)
 
-> Ultima actualizacion: 2026-03-18
-> Status: SOBREPONDERAR - Quality compounder hunting ground. EU AI Act Aug 2026 deadline = NEW TAM. ITRK.L at 52wL (3,650-3,750p range).
+> Ultima actualizacion: 2026-03-30
+> Status: SOBREPONDERAR - Quality compounder hunting ground. EU AI Act Aug 2026 deadline = NEW TAM. ITRK.L at 52wL (3,620p).
+>
+> **UPDATE Mar 30 (S155b):** No material sector changes. ITRK.L FY2025 results (Mar 3) were operationally solid (+10.1% EPS CC) but stock -14% on FX headwinds + investment spending. Now 3620p. Jefferies cut PT 5800→4800 (still Buy). Multiple directors bought post-drop at 3794p (above our entry 3670p). EU AI Act Aug 2 catalyst intact — NB designation proceeding, harmonized standards Dec 2026. Sector CAGR 3.8-4.6% confirmed.
 
 ## Resumen Ejecutivo
 

@@ -1,6 +1,12 @@
 # Sector: Pharma/Healthcare
 
-> Ultima actualizacion: 2026-03-22 (Wegovy HD approved Mar 19 + price refresh. Previous: 2026-03-18 MATERIAL update)
+> Ultima actualizacion: 2026-03-30
+>
+> **UPDATE Mar 30 (S155b):** 2 material developments:
+> (1) **GLP-1 pricing floor $245/month + Medicare coverage mid-2026.** Trump admin established pricing agreements with LLY+NVO. Monthly cost $1,000+→$245. Volume strongly positive (20M→30M patients projected). ASP negative (-75% per unit). Net: regime change in market access. Removes pricing uncertainty downward but caps ASP recovery.
+> (2) **Orforglipron FDA decision confirmed April 10, 2026.** Lancet ACHIEVE-3 head-to-head: orforglipron OUTPERFORMED oral semaglutide on A1C and weight. Lilly building pre-launch inventory. Wegovy pill competitive position weaker than assumed.
+> (3) **DOCS positive:** FDA tightened DTC ad rules → pharma redirecting spend to physician-focused platforms. BofA upgraded DOCS. >60% of industry leaders ramping provider campaigns. Structural tailwind confirmed for DOCS thesis.
+> NVO also: Mars CEO Poul Weihrauch appointed board observer (consumer focus signal), $507M Irish factory expansion for pill production.
 > Analista: Claude
 > Status: NEUTRAL (subsector-dependent). GLP-1: LLY DOMINANT, NVO SEVERELY DAMAGED. Pharma Digital: FAVORABLE but MONITOR (DOCS near 52wL, NRR decelerating). Drug Delivery Platforms: FAVORABLE (HALO gated). Animal Health: NEUTRAL-POSITIVO. Big Pharma: SOBREPONDERAR SELECTIVO + DEFENSIVE in crisis.
 >

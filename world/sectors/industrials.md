@@ -1,7 +1,9 @@
 # Sector: Industrials (Defense/Gov IT, Geotechnical/Construction, Infrastructure)
 
-> Ultima actualizacion: 2026-03-18
+> Ultima actualizacion: 2026-03-30
 > Status: **NEUTRAL-SELECTIVE** (subsectors diverge sharply: defense/infrastructure favorable, gov consulting under DOGE pressure)
+>
+> **UPDATE Mar 30 (S155b):** Oil WTI $92→$101+ worsens cost pressure across all industrials. PMI 52.4 (Mar, beat 51.3 exp) — minor positive, reverses deceleration. Tariffs confirmed in place (EU-US 15%), no new escalation. MEGP.L (our position) is services model, not energy-intensive — limited direct impact.
 
 ## Resumen Ejecutivo
 

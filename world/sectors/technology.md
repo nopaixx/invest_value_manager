@@ -1,12 +1,12 @@
 # Sector: Technology / Software
 
-> Ultima actualizacion: 2026-03-18 (S252 macro-analyst refresh: FOMC day, ADBE CEO transition, tariffs Section 301)
+> Ultima actualizacion: 2026-03-30 (S155b refresh: AI reckoning confirmed, ADBE guidance upped, ALFA.L new CFO, IEEPA ruling, tariff clarity)
 > Analista: Claude
 > Status: **NEUTRAL** (selectivo en quality compounders, evitar growth sin fundamentales)
 >
-> **S252 FOMC Day Context (Mar 18):** Fed holds rates 3.50-3.75% (98.9% probability). Statement language on oil/war/tariffs crucial for tech multiples. ADBE at $254, -7% post-CEO transition announcement. FTNT EXIT approved late April. Oil ~$94 WTI (down from $99 last week). Section 301 probes into 16+ economies add tariff uncertainty. Rate cuts now expected Oct-Dec 2026 at earliest.
-> **ADBE CEO TRANSITION (Mar 12):** Narayen stepping down after 18 years once successor named. Stays as Board Chair. Search committee led by Frank Calderoni (Lead Independent Director). Both internal and external candidates. Shares -7% on announcement. Q1 FY2026 was a BEAT ($6.4B revenue, +11% YoY, EPS $6.06 vs $5.87 est). AI-first ARR tripled YoY. This is MATERIAL for our 8.2% position.
-> CRISIS NOTE (still active): Iran war Day 20+, Hormuz closed, oil ~$94 WTI. Software selling on GENERAL risk-off, NOT sector-specific fears. Enterprise IT spending growing 10-15% (Gartner $6.15T forecast) but near-term macro uncertainty from oil/stagflation risk + trade war escalation.
+> **S155b Context (Mar 30):** AI "Reckoning" confirmed — MSCI Software Index -21% YTD, per-seat model under structural agentic AI threat. BUT sector Q1 EPS expected +45.1% (best of all 11 sectors). ADBE upped FY2026 guidance post-Q1 BEAT. GDDY FY2026 ~6% growth confirmed. ALFA.L new CFO appointed Mar 2. Supreme Court ruled IEEPA tariffs unlawful — reduces trade war escalation risk for software. Oil still ~$94 WTI (Iran war ongoing). Rate cuts still Oct-Dec 2026.
+> **PRIOR (Mar 18):** Fed holds 3.50-3.75%. ADBE -7% on CEO transition announcement. ADBE Q1 BEAT $6.4B / EPS $6.06. AI-first ARR tripled YoY. FTNT EXIT approved late April.
+> CRISIS NOTE (still active): Iran war Day 30+, Hormuz closed, oil ~$94 WTI. Software selling on GENERAL risk-off, NOT sector-specific fears. Enterprise IT spending growing 10-15% (Gartner $6.15T forecast) but near-term macro uncertainty from oil/stagflation risk.
 
 ## Resumen Ejecutivo
 
@@ -18,9 +18,13 @@ El sector Technology/Software sigue siendo el mercado mas grande y dinamico del 
 
 3. **Trade war escalation (Section 301, NEW):** Trump admin launched Section 301 probes into 16+ economies (China, EU, Mexico) + forced labor investigations into 60 economies. Blanket 10% tariff on all partners. New tariffs could be sector-specific (semiconductors targeted). Direct impact on software is LOW (digital goods, no physical supply chain), but INDIRECT impact through: (a) customer IT budget uncertainty, (b) FX volatility (strong USD hurts international revenue), (c) semiconductor supply disruption affecting hardware costs. For our position (ADBE): 40% international revenue exposed to FX but minimal tariff exposure on product.
 
-**Mi tesis sobre el sector (ACTUALIZADA Mar 18):** El mercado sobre-reacciona TRIPLEMENTE: (1) AI disruption risk es MENOR de lo temido -- Copilot failing, point solutions sobreviven, AI-first ARR growing 3x at incumbents, (2) war risk-off es TEMPORAL, no structuralmente relevante para software, y (3) tariff uncertainty es MOSTLY irrelevante para pure software companies (no physical goods). Los incumbentes con datos propietarios estan integrando AI y raising prices 15-25%. La oportunidad esta en quality compounders castigados injustamente. ADBE a P/E 14.8x near 52wL con CEO transition priced in es deep value para un quality compounder.
+**Mi tesis sobre el sector (ACTUALIZADA Mar 30):** Tesis CONFIRMADA pero con una nueva capa de riesgo estructural. El "AI Reckoning" (MSCI Software -21% YTD) es REAL y refleja la amenaza a los modelos per-seat por agentic AI — esto NO es simple risk-off temporal. Sin embargo: (1) Las empresas con datos propietarios y moats defensivos (ADBE, GDDY) están acelerando AI monetization — ADBE AI-first ARR tripled, GDDY A&C growing low-double-digits. (2) El fallo del Tribunal Supremo sobre IEEPA REDUCE el riesgo de tariff escalation adicional. (3) El Q1 earnings season tech es el MAS FUERTE de todos los sectores (+45.1% EPS growth). Mi posicion: companies with data moats + AI native products + per-seat diversification = SAFE. Companies con solo seat-licensing sin AI differentiation = RISK. ADBE + GDDY + ALFA.L fit the first category.
 
-**NOTA CRITICA (Mar 18):** ADBE CEO Narayen stepping down. Q1 FY2026 BEAT ($6.4B vs $6.28B est, EPS $6.06 vs $5.87). AI-first ARR tripled. Firefly subs +75% QoQ. MAU >850M (+17% YoY). Market focused on CEO uncertainty, ignoring operational strength. New KC#9 added: successor fails to maintain AI/growth strategy + rev growth <8% for 2 consecutive quarters. FTNT EXIT approved -- selling late April.
+**NOTA CRITICA (Mar 18):** ADBE CEO Narayen stepping down. Q1 FY2026 BEAT ($6.4B vs $6.28B est, EPS $6.06 vs $5.87). AI-first ARR tripled. Firefly subs +75% QoQ. MAU >850M (+17% YoY). FY2026 guidance upped: revenue $25.9-26.1B, non-GAAP EPS $23.30-23.50. Market focused on CEO uncertainty, ignoring operational strength. New KC#9 added: successor fails to maintain AI/growth strategy + rev growth <8% for 2 consecutive quarters. FTNT EXIT approved -- selling late April.
+
+**NEW (Mar 30) — AI RECKONING STRUCTURAL UPDATE:** Enterprises reporting "seat compression" -- single AI agents replacing dozens of human software licenses. Microsoft stock -21% YTD. VC flowing OUT of public software, INTO AI-native startups. This is NOT just multiple compression -- it represents a genuine business model challenge for seat-based SaaS. Assessment for our positions: ADBE (outcome-based + creative tools = partially insulated), GDDY (SMB web infrastructure = non-seat model), ALFA.L (asset finance enterprise = sticky long-term contracts). Risk is HIGHEST for generic workflow/analytics SaaS -- none of our positions.
+
+**NEW (Mar 30) — IEEPA TARIFF RULING:** Supreme Court ruled Trump's IEEPA tariff authority unlawful. Reduces tail risk of additional digital services tariffs. The WTO moratorium on e-transmission tariffs is also still active through mid-2026. Net: tariff risk to pure software remains LOW. Customer IT budget uncertainty persists but is more manageable without escalation risk.
 
 ---
 
@@ -99,6 +103,7 @@ El sector Technology/Software sigue siendo el mercado mas grande y dinamico del 
 | AI coding assistants | Alta | Medio | Ya ocurriendo | IDEs, dev tools |
 | **AI bundles commoditizan FSS** | **Alta** | **Alto** | **Ya ocurriendo** | **Dropbox, Box** |
 | **Copilot/ChatGPT replace point solutions** | **Media-Baja** (REVISED DOWN) | **Medio** | **3-5 anos** | **Less than feared. Copilot adoption disappointing** |
+| **Agentic AI seat compression** | **ALTA (CONFIRMED Mar 2026)** | **Alto** | **Now-3 anos** | **Enterprises replacing dozens of seats with single AI agent. MSCI Software -21% YTD. Per-seat SaaS model existentially challenged. ADBE/GDDY/ALFA.L have non-seat or outcome-based elements -- PARTIALLY INSULATED.** |
 | AI enhances PLM/simulation | **Baja** | **Positivo** | 2-4 anos | **Dassault, Siemens (BENEFICIARIES)** |
 | **AI-driven vendor consolidation** | **Alta** | **Medium** | **Now** | **Smaller SaaS vendors losing to platform plays** |
 | **AI-native SaaS disruption** | **Media-Alta** | **Alto** | **1-3 anos** | **Traditional SaaS without AI features. AI-native growing 2x rate** |
@@ -147,26 +152,29 @@ El sector Technology/Software sigue siendo el mercado mas grande y dinamico del 
 
 ## Nuestras Posiciones Actuales
 
-### ADBE - Adobe Inc. (Creative Software) -- POSITION 8.2%
+### ADBE - Adobe Inc. (Creative Software) -- POSITION 8.1%
 
 - **Holding:** 3.83 shares, ~EUR 1,014 invested
 - **Quality Score:** 80 Tool / 77 adj (Tier A)
-- **Current Price:** $254.20 (Mar 18). Near 52wL $244.28. P/E 14.8x.
+- **Current Price:** $254.20 (Mar 18 last check). Near 52wL $244.28. P/E 14.8x.
 - **Thesis:** Lider indiscutible en software creativo profesional. 89% gross margin, 53% ROIC, $9.8B FCF. Integrando AI via Firefly exitosamente (AI-first ARR tripled YoY, Firefly subs +75% QoQ, video gen +8x YoY). Mercado sobrereacciono por miedo a AI disruption + war risk-off + CEO transition.
-- **Q1 FY2026 RESULTS (Mar 12):** CONDITIONAL BEAT. Revenue $6.4B (+11% YoY, beat $6.28B est). EPS $6.06 (beat $5.87). MAU >850M (+17% YoY). Creative freemium MAU 80M (+50% YoY). Firefly Enterprise new customer acquisition +50% YoY.
+- **Q1 FY2026 RESULTS (Mar 12):** BEAT. Revenue $6.4B (+11% YoY, beat $6.28B est). EPS $6.06 (beat $5.87). MAU >850M (+17% YoY). Creative freemium MAU 80M (+50% YoY). Firefly Enterprise new customer acquisition +50% YoY. Cash from operations $2.96B (Q1 record).
+- **FY2026 GUIDANCE UPPED (Mar 12):** Revenue $25.9-26.1B. Non-GAAP EPS $23.30-23.50. Q2 guide: revenue $6.43-6.48B, EPS $5.80-5.85. This is ABOVE prior consensus.
 - **CEO TRANSITION (Mar 12):** Narayen stepping down after 18 years. Stays as Board Chair. Search committee led by Frank Calderoni (Lead Independent Director). Internal and external candidates. Shares -7% on news. Market overreaction -- transition is ORDERLY, not emergency. Narayen stays until successor installed.
 - **FTC:** SETTLED ($150M total, trial CANCELLED). KC#6 RESOLVED.
+- **AI RECKONING ASSESSMENT (Mar 30):** ADBE is PARTIALLY INSULATED. Creative tools are outcome-based (you create something) vs seat-based workflow SaaS. Firefly's training on licensed content is a defensible moat. AI-native ARR growing 3x shows ADBE IS the AI beneficiary in creative. The "seat compression" threat is REAL for generic SaaS but LOWER for creative professional tools.
 - **Por que nos gusta:**
   - Quality Compounder a precio de deep value stock (P/E 14.8x, -40% de maximos)
-  - E[CAGR] ~24%+ at current $254 >> 12% threshold
+  - E[CAGR] ~24%+ at current price >> 12% threshold
   - AI es OPORTUNIDAD: Firefly AI-first ARR tripled, video gen 8x, 850M MAU
-  - FCF margin 41% (excepcional)
+  - FCF margin 41% (excepcional). Q1 record FCF $2.96B.
+  - Guidance UPPED post-Q1 -- operational execution strong despite CEO transition
   - Copilot's failure to gain traction REDUCES bundle-threat to Adobe's point solutions
   - FTC RESOLVED -- #1 contrathesis risk eliminated
 - **Riesgos:**
   - CEO transition uncertainty -- successor quality is binary. KC#9: if successor fails + rev growth <8% 2Q
+  - AI Reckoning / seat compression -- partially insulated but structural shift bears monitoring
   - War risk-off selling compressing multiple near-term
-  - Section 301 tariffs -- minimal direct impact but customer uncertainty
   - Canva/Figma in prosumer segment
   - Rate cuts delayed to Q4 2026 -- extended multiple compression
 - **Status:** HOLD. Avg cost $261.57, FV $406, MoS ~37% at current price.
@@ -189,12 +197,13 @@ El sector Technology/Software sigue siendo el mercado mas grande y dinamico del 
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Portfolio | ADBE | thesis/active/ADBE/thesis.md | 2026-03-14 | HOLD. CEO transition. Q1 BEAT. FV $406. |
+| Portfolio | ADBE | thesis/active/ADBE/thesis.md | 2026-03-30 | HOLD. CEO transition. Q1 BEAT. Guidance upped. FV $406. AI Reckoning: partially insulated. |
 | Portfolio | FTNT | thesis/active/FTNT/thesis.md | 2026-03-13 | EXIT APPROVED. Selling late Apr. |
+| Portfolio | GDDY | thesis/active/GDDY/thesis.md | 2026-03-30 | HOLD. FY2026 ~6% rev growth confirmed. EBITDA >33%. Non-seat model insulates from AI Reckoning. |
+| Portfolio | ALFA.L | thesis/active/ALFA.L/thesis.md | 2026-03-30 | HOLD. New CFO appointed Mar 2 (minor leadership refresh). Asset finance enterprise = sticky contracts. AI Reckoning low risk. |
 | Watchlist | TYL | thesis/research/TYL/thesis.md | 2026-02-04 | Entry $250. Currently $374 -- FAR from entry. |
 | Watchlist | DSY.PA | thesis/research/DSY.PA/thesis.md | 2026-02-11 | Entry EUR 15.50. Q1 Apr 15. |
 | Watchlist | INTU | thesis/research/INTU/thesis.md | 2026-02-13 | Entry $285-300 (R3: FV $395, QS 72 Tier B). Currently $481 -- FAR. |
-| Watchlist | ALFA.L | thesis/research/ALFA.L/thesis.md | 2026-02-19 | R1 COMPLETE. Entry 175-180p. FV 265p. QS 83 Tier A. |
 
 ### Protocolo de Cambio Material
 
@@ -203,7 +212,9 @@ Cuando actualices este sector view con cambio MATERIAL:
 2. Anadir al calendario: "RE-EVAL [tickers] por cambio en [sector]"
 3. Documentar el cambio en "Historial de Cambios"
 
-**ASSESSMENT (Mar 18): This update is MATERIAL for ADBE specifically (CEO transition = KC#9 territory) but NOT material for sector status (NEUTRAL unchanged). ADBE already has KC#9 documented in thesis. No NEEDS_REVIEW triggered for other dependencies. ADBE already reviewed post-earnings S181. FTNT exit already approved.**
+**ASSESSMENT (Mar 18): This update is MATERIAL for ADBE specifically (CEO transition = KC#9 territory) but NOT material for sector status (NEUTRAL unchanged). ADBE already has KC#9 documented in thesis. FTNT exit already approved.**
+
+**ASSESSMENT (Mar 30): AI Reckoning + agentic seat compression is MATERIAL at the sector level — the per-seat SaaS model disruption risk is now confirmed (MSCI Software -21% YTD), not just feared. HOWEVER: our three positions (ADBE, GDDY, ALFA.L) are PARTIALLY INSULATED by non-seat or outcome-based business models. Sector status remains NEUTRAL. No NEEDS_REVIEW triggered for current positions — existing KCs already capture this risk. New candidates in pure seat-based SaaS require higher scrutiny. IEEPA ruling is minor POSITIVE (tariff uncertainty reduced).**
 
 ---
 
@@ -246,12 +257,14 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| **Mar 18, 2026** | **Fed FOMC decision** | **Hold 3.50-3.75% certain (98.9%). Statement language on oil/war/tariffs crucial for tech multiples. Dot plot and SEP updates key.** |
+| ~~Mar 18, 2026~~ | ~~Fed FOMC decision~~ | DONE. Hold 3.50-3.75% confirmed. |
 | Apr 15, 2026 | DSY.PA Q1 2026 earnings | First datapoint on FY2026 3-5% guide |
 | Late Apr 2026 | FTNT EXIT execution | Sell ~$83-88 range. Rotate proceeds. |
-| May 2026 | ADBE successor announcement? | Narayen said "a few months." If strong internal candidate = bullish. |
-| H2 2026 | Fed rate cuts? | Now expected Oct-Dec 2026 at earliest. Tariffs add uncertainty. Delayed re-rating for growth. |
-| Ongoing | Enterprise AI adoption | AI pricing power for incumbentes (+15-25% ARPU uplift). $2.52T total AI spending. |
+| May 2026 | ADBE successor announcement? | Narayen said "a few months." Strong internal candidate = bullish. |
+| Q1 2026 earnings season (ongoing) | Tech sector EPS +45.1% YoY expected | Strongest sector. Validates IT spend $6.15T Gartner thesis. Watch for AI Reckoning commentary. |
+| H2 2026 | Fed rate cuts? | Expected Oct-Dec 2026 at earliest. Delayed re-rating for growth. |
+| Ongoing | Agentic AI seat compression | ACTIVE RISK. Monitor "seat compression" language in ADBE/GDDY earnings calls. KCs in thesis already capture this. |
+| Ongoing | Enterprise AI adoption | AI pricing power for incumbents (+15-25% ARPU uplift). $2.52T total AI spending. ADBE well-positioned. |
 | Ongoing | Section 301 tariff outcomes | Probes into 16+ economies. Software mostly immune but customer uncertainty lingers. |
 
 ---

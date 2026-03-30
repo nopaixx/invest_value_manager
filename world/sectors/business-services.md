@@ -169,8 +169,9 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 | P/E EDEN.PA | **8.1x** | vs 15-25x historico | **Deeply depressed** (was 8.5x Mar 7) |
 | Regulatory risk | HIGH but QUANTIFIED | Italy cap active, Brazil PAT May-Nov 2026 | Materializing per schedule |
 | France reform | NEUTRAL-POSITIVE | No fee cap, digitalization Feb 2027 | Resolved favorably |
-| Turkey antitrust | NEW | Investigation opened into Edenred + peers | Monitoring |
-| Brazil injunction | OVERRULED | Judge sided with government, overruled prior courts | Negative for Edenred |
+| Turkey antitrust | ONGOING | Investigation into Edenred + peers (collusive bidding, customer allocation) | Monitoring — Turkey ~2-4% of revs |
+| Brazil injunction | OVERRULED | Government position prevailing; interoperability on track May/Nov 2026 | Materializing per schedule |
+| Italy AGCM (antitrust) | **NEW Mar 26** | Abuse of dominance investigation in meal voucher market. Complaint from retail sector. Edenred "confident" — cooperating | Monitoring — separate from fee cap |
 | Short interest | DECLINING | 23.1%→9.64% AMF (Citadel covered, Millennium reduced) | Moderately bullish |
 
 ---
@@ -272,15 +273,16 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
   - **2027-2028: Intrinsic EBITDA growth +8-12% (ex-regulation)**
 - **Regulatory Tracker (UPDATED 2026-03-17):**
   - Italy: Fee cap active since Sep 2025, EUR ~120M annual EBITDA impact. PRICED IN.
-  - Brazil: PAT Decree No. 12,712 (Feb 2026). MDR cap 3.6%, interchange 2%. Interoperability: large operators May 2026, full Nov 2026. **Injunction OVERRULED — government position prevailing.**
+  - **Italy AGCM (NEW Mar 26, 2026):** Competition authority opened abuse-of-dominance investigation against Edenred Italia in meal voucher market. Complaint from retail sector players. Edenred states compliance with Dec 2024 fee cap law and "confident in outcome." No penalty disclosed. This is SEPARATE from the fee cap — it concerns market conduct (possibly anti-competitive practices in merchant relations under the new fee cap regime). Monitoring.
+  - Brazil: PAT Decree No. 12,712 (Feb 2026). MDR cap 3.6%, interchange 2%. Interoperability: large operators May 2026, full Nov 2026. **Injunction OVERRULED — on track.** Nubank, iFood, Mercado Pago moving forward. Expected EBITDA impact up to EUR 200M in 2026 (consistent with -8% to -12% LfL guidance).
   - France: No fee cap (positive). Transparency charter. Full digitalization by Feb 2027. Expanded usage (supermarkets, Sundays).
-  - **Turkey: NEW — Antitrust authority opened investigation into Edenred and peers.** Impact unknown but adds regulatory risk surface.
+  - Turkey: Antitrust investigation ongoing (Edenred + Multinet + Pluxee + Setcard). Alleged collusive bidding and customer allocation. Turkey ~2-4% of revs. Historical precedent: TCA imposed fines in prior 2006 case.
   - EU: Pay Transparency Directive (Jun 2026) — minimal direct impact on employee benefits, more relevant for HR/payroll sub-sector.
-  - Italy fringe benefits: Tax-exempt limit confirmed EUR 2,000/year for employees with dependent children. Pension deduction increased EUR 5,165 to EUR 5,300. Mildly positive for benefits adoption.
-- **Price:** EUR 18.00 | P/E 8.1x | Yield 7.4% | MCap EUR 4.2B
-- **52wH:** EUR 32.85 | 52wL: EUR 16.96 | %offHi: -45%
-- **Short Interest:** DECLINING. AMF 9.64% (was 23.1%). Citadel COVERED (<0.50%, was 2.10%). Millennium reduced (0.71%, was 1.90%). 10 funds remaining (was 22).
-- **Assessment:** Near 52wL (EUR 18 vs EUR 16.96). P/E compressed to 8.1x from 8.5x ten days ago. Brazil injunction overruled and Turkey probe are NEW negatives. But: short interest halving, dividend yield 7.4%, and 2027-28 recovery guidance provide asymmetric risk/reward IF regulatory headwinds don't broaden further. Key question unchanged: is 2026 a temporary rebasing or the start of structural margin erosion?
+  - Italy fringe benefits: Tax-exempt limit confirmed EUR 2,000/year for employees with dependent children. Mildly positive for benefits adoption.
+- **Price:** EUR 15.94 | P/E ~7.5x | Yield ~8.5% | MCap EUR 3.7B
+- **52wH:** EUR 32.40 | 52wL: EUR 15.23 | %offHi: -51% | Near 52wL
+- **Short Interest:** DECLINING (last data Mar 17). AMF 9.64% (was 23.1%). Citadel covered. Trend positive.
+- **Assessment (UPDATED Mar 30):** Price fell from EUR 18.00 to EUR 15.94 (-11.5% since Mar 17). Now at 52wL territory (vs EUR 15.23). Italy AGCM abuse-of-dominance probe is NEW incremental negative — adds legal uncertainty on top of the existing fee cap. However: this investigation relates to compliance with the existing fee cap regime (i.e., how Edenred is treating merchants under capped MDR), not a new fee cap threat. Regulatory surface continues to broaden (Italy, Brazil, Turkey = 3 active fronts). Key risk escalation: if AGCM finds abuse, could impose behavioural remedies or fines on top of fee cap. P/E 7.5x, yield 8.5% — deep value IF 2026 is truly the trough. Key question: is Italy AGCM a contained compliance issue or a sign of structural conduct problems that could spread to other markets?
 
 ### WKL.AS - Professional Information Services (Wolters Kluwer) -- 7.7% portfolio
 - **QS:** 72 (Tier B, was 77 tool)
@@ -297,7 +299,7 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Portfolio | EDEN.PA | thesis/active/EDEN.PA | 2026-03-15 | HOLD 18% — SI declining, yield 7.4%, Turkey probe NEW risk |
+| Portfolio | EDEN.PA | thesis/active/EDEN.PA | 2026-03-30 | HOLD 13.3% — Italy AGCM probe NEW (Mar 26), price EUR 15.94, yield 8.5%, 3 regulatory fronts active |
 | Portfolio | WKL.AS | thesis/active/WKL.AS | 2026-03-15 | HOLD 7.7% — Gartner MQ 3x Leader, receivables flag |
 | Universe | BVI.PA | -- | 2026-02-12 | QS 69, corrected to EUR 27.68 (-9% off 52wH) |
 | Universe | VRSK | thesis/research/VRSK | 2026-02-13 | R1 COMPLETE, Entry $150. Price $205 (+37% above entry). |
@@ -350,6 +352,7 @@ Archived: TEP.PA SOLD (QS 46, AI disruption). FUTR.L SOLD (QS 32 Tier D). HRB SO
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-03-30 | TARGETED UPDATE: EDEN.PA price EUR 18.00→15.94 (-11.5%, near 52wL EUR 15.23). Italy AGCM opened abuse-of-dominance investigation Mar 26 (NEW — separate from fee cap). Brazil PAT on track (interoperability May/Nov 2026, EUR 200M EBITDA impact in guidance). Turkey antitrust ongoing. 3 regulatory fronts now active. P/E 7.5x, yield 8.5%. | EDEN.PA-only refresh (13d stale). Italy AGCM probe not in prior update. |
 | 2026-03-17 | UPDATE: Price refresh all tickers. Added WKL.AS to "Nuestras Posiciones" (7.7% portfolio). EDEN.PA price EUR 18.79→18.00 (P/E 8.1x, yield 7.4%). New developments: Turkey antitrust probe on Edenred, Brazil injunction overruled, WKL.AS Gartner MQ 3x Leader, EU Pay Transparency Directive Jun 2026, EU AI Act Aug 2026 tailwind for TIC. IT/FDS at new lows. ITRK.L at 52wL. Short interest update (SI halved). Added Gift Cards/B2B Incentives sub-sector ($85.8B). Macro context: oil $96 NEUTRAL for sector, FOMC today, tariffs minimal impact. Status remains NEUTRAL. | Staleness refresh (10 days). Macro crisis context. New regulatory developments. |
 | 2026-03-07 | UPDATE: EDEN.PA FY25 results, regulatory tracker (IT/BR/FR), price refresh all tickers, Info Services recovery (VRSK +20% from entry). 2026 = rebasing year for EDEN.PA. | Staleness refresh (22 days). FY25 earnings, PAT Brazil decree, France reform resolution. |
 | 2026-02-13 | MAJOR UPDATE: Info Services + TIC. VRSK R1 (QS 85 Tier A), IT R1 (QS 80 Tier A) | Sector screener v3.0. 11 scored companies. |
@@ -361,6 +364,6 @@ Archived: TEP.PA SOLD (QS 46, AI disruption). FUTR.L SOLD (QS 32 Tier D). HRB SO
 
 Information Services: Verisk IR (Q4 2025 earnings Feb 18), Gartner top predictions for Data & Analytics 2026 (Mar 11), Wolters Kluwer Gartner MQ Leader announcement (Mar 12), IDC AI spending forecast.
 TIC: Mordor Intelligence (EU TIC), EU AI Act compliance services demand.
-Employee Benefits: Edenred FY 2025 press release (Feb 24, 2026), Brazil PAT Decree No. 12,712, Turkey antitrust investigation (Mar 2026), Europe Gift Card Market Report (GlobeNewsWire Feb 2026, $85.8B 2026), Italy 2026 fringe benefits tax updates (Asinta/DBCG), EU Pay Transparency Directive.
+Employee Benefits: Edenred FY 2025 press release (Feb 24, 2026), Brazil PAT Decree No. 12,712, Turkey antitrust investigation (Mar 2026), Italy AGCM abuse-of-dominance investigation press release (Mar 26, 2026), Europe Gift Card Market Report (GlobeNewsWire Feb 2026, $85.8B 2026), Italy 2026 fringe benefits tax updates (Asinta/DBCG), EU Pay Transparency Directive.
 Competitive: Pluxee N.V. S&P analysis (Dec 2025), HelloBonnie DACH comparison, Brazil Prepaid Card Intelligence Report (GlobeNewsWire Feb 2026).
 BPO/Staffing: Grand View Research (BPO), Yahoo Finance (staffing sector).
