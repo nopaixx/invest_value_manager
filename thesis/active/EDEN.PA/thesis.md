@@ -1,16 +1,17 @@
 # Edenred SE (EDEN.PA) - Investment Thesis v3.0
 
-**Date:** 2026-02-06 (R1) | Last Update: **2026-03-24 (S284 staleness refresh)**
-**Original Date:** 2026-02-01 | Versions: v1.0→v4.3 (see Historial de Cambios)
-**Price at Review:** EUR 18.11 (S284) | Cost: EUR 18.45 (real eToro entry)
+**Date:** 2026-02-06 (R1) | Last Update: **2026-03-31 (S155b FV revision — Italy AGCM + regulatory contagion)**
+**Original Date:** 2026-02-01 | Versions: v1.0→v4.4 (see Historial de Cambios)
+**Price at Review:** EUR 16.42 (S155b) | Cost: EUR 18.45 (real eToro entry)
 **Quality Score:** 62/100 (tool) / 76 adj (Tier B) -- Adjustment: +14 for market position, network effects, regulatory moat in non-IT/BR markets
-**Recommendation:** HOLD (Brazil injunction OVERRULED Feb 24 — decree implementation ~certain. Turkey antitrust probe = 4th regulatory front. SI 23.5% with 22 funds short — MOST CONTESTED position in portfolio. ADD at EUR 15. TRIM at EUR 22+. HARD TRIM >15% = 18.4% current alloc violates S283 rule → trim when capital destination available.)
-> **S284 Staleness Refresh (Mar 24):** Price EUR 18.11 (+0.6% from last review). E[CAGR] 21.2% (#2 in portfolio). P&L -1.8%. MoS 32.5% vs FV EUR 24. SI escalated to 23.5% (22 funds, CPPIB 2.32% largest). Board member Kelly Richdale bought $50K Mar 21 (contra-signal). Thesis UNCHANGED — waiting for deployment destination to execute >15% HARD TRIM. All KCs CLEAR except KC#1 (Brazil decree) MONITORING and KC#7 (Turkey) MONITORING.
+**Recommendation:** HOLD at 13%. Dividend yield 8.2% pays to wait. EXIT if France tables formal levy OR Italy AGCM structural remedy OR 2027-28 guide <3%.
 **Framework Version:** 4.0 (Principios Adaptativos)
-> **Fair Value:** EUR 24.0 (S251 recalculation. Was EUR 29.0. -17.2% adjustment: injunction lost +95% decree certainty, recovery +5% not +7%, Turkey probe. Methods: EV/EBIT 8x = EUR 24.3, P/E 11x = EUR 22.6, 60/40 bear/base = EUR 21.1. Blended EUR 24.)
-> **Expected Growth:** 4% (was 6%. Revised: 2026 -12%, 2027-28 +5%. Brazil structural damage permanent — float revenue halved, interchange capped, interoperability forced.)
+> **Fair Value:** EUR 20.5 (S155b revision. Was EUR 24.0. -14.6% adjustment: Italy AGCM 5th regulatory front -EUR 1.5/sh, regulatory contagion discount -EUR 1.5/sh, pattern of multi-jurisdiction targeting of meal voucher interchange model. Methods: EV/EBIT 8x on probability-weighted EBITDA EUR 665M = EUR 19.6, adjusted up for dividend yield + network effect residual.)
+> **Expected Growth:** 4% (unchanged from S251. 2026 -12%, 2027-28 +5%.)
 > Pipeline Stage: R3_COMPLETE
-> **Bear Case:** France 8% social levy (15% prob) would compress margins EUR 100M+. Brazil decree CONFIRMED (injunction lost Feb 24). Turkey antitrust investigation (NEW). 10 funds short at 9.64% SI (declining). SELL if France tables formal levy bill OR 2027-28 guide <3% OR Turkey fine >EUR 50M.
+> **Bear Case:** 5 regulatory fronts active: (1) Brazil PAT decree CONFIRMED, (2) Turkey antitrust investigation, (3) France social levy potential (15% prob), (4) Italy fee cap ENACTED, (5) **Italy AGCM abuse-of-dominance NEW Mar 26**. Probability-weighted FV analysis: all-neutral EUR 11.8, all-worse EUR 7.9. Market at EUR 16.42 (P/E 7.7x) prices "2 of 5 worse." SELL if France levy tabled OR Italy AGCM structural remedy OR 2027-28 guide <3% OR Turkey fine >EUR 50M.
+> **FV Revision Log (S155b):** EUR 24.0→EUR 20.5. Italy AGCM (Mar 26) = 5th front. Regulatory surface BROADENING not narrowing — contagion pattern (regulators see Brazil template and copy). Probability ALL 5 resolve favorably = 0.02% (1 in 4,000). Thesis FV cannot assume all-favorable. At EUR 20.5: MoS 19.8%, E[CAGR] ~18-19%. Still passes Tier A threshold. HOLD justified by 8.2% dividend + residual MoS, not by growth conviction.
+> **SM Signal:** CONTESTED — 14 holders (BG 5.4%, Capital Research 10%, Harris 5%, Pale Fire 5.1%) vs 22 shorts (23.6% SI, CPPIB 2.3% largest). Marshall Wace reducing (1.89%→1.19%). Board member Richdale bought $50K Mar 21. Signal: neither bull nor bear dominates.
 
 ---
 
