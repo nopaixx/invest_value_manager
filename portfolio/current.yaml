@@ -69,13 +69,13 @@ positions:
     invested_eur: 900
     avg_cost_usd: 36.40  # Fresh entry at market Mar 27
     date_opened: 2026-03-27  # Reopened position (original Feb 5, closed+reopened for tax/sizing)
-    conviction: medium
-    exit_plan: "HOLD. CagriSema FAILED (KC#1 triggered Feb 23). FV $47. SELL if FY2026 rev decline >10% (KC#8) OR market share <40% OR gross margin <70%. TRIM at $55+. Next catalyst: Wegovy pill ramp Q1-Q2 2026, Q1 FY2026 ~May."
+    conviction: LOW
+    exit_plan: "**EXIT PLANNED — SELL ALL before Apr 10 (orforglipron FDA).** Zero-base test FAILED: would NOT open 4% today at 10 days from 70% probability negative binary event. Proceeds ~EUR 878 → cash for May earnings season deployment. RE-ENTRY post-Apr 10 if thesis justifies at new price (approved: $30-32 entry if base business intact; rejected: $40-42 if MoS sufficient)."
     fair_value: "$47 (R3 resolved S146c8. Was $50 v4.0. DA: FCF stale, P/E 16x. Bear $37/Base $48/Bull $62. QS 73 Tier B.)"
-    last_review: 2026-03-27
-    intentional_weight: 7.0  # Trimmed from 11.7% to ~7%. Close+reopen structure.
+    last_review: 2026-03-31
+    intentional_weight: 0.0  # EXIT PLANNED. Execute this week before Apr 10.
     thesis: thesis/active/NVO/thesis.md
-    notes: "S155: TRIM via close 38.91 sh ($37.93 avg) + reopen EUR 900 ($36.40). Old position P&L: -4.0%. New cost basis $36.40 = 29.2% MoS to FV $47. E[CAGR] ~17.9%. Before ex-div Mar 30."
+    notes: "S155b: EXIT DECIDED (Mar 31). Zero-base test: would NOT buy 4% today pre-orforglipron. 70% prob approval = negative asymmetry. At $35.29, P&L -3.0% (~EUR 27 loss). Proceeds ~EUR 878 freed for May earnings season. Will re-evaluate post-Apr 10 FDA decision. If approved: NVO drops to $30-32, reassess base business. If rejected: NVO rallies to $40-42, re-entry if MoS sufficient. The exit is TACTICAL (event-driven risk management), not THESIS (base business still has value at right price)."
 
   # MONY.L REMOVED 2026-03-27 — SOLD 389.79 shares at 148.50p. Rotation: lowest E[CAGR] + growth (2%) in portfolio. Ex-div Mar 26 captured. Capital → GDDY+DNLM.L+ITRK.L+MEGP.L+ALFA.L. P&L: -12.4%. Held 51 days. Moved to history.yaml + thesis archived.
 
