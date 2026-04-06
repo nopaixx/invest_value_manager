@@ -1,17 +1,18 @@
 # Edenred SE (EDEN.PA) - Investment Thesis v3.0
 
-**Date:** 2026-02-06 (R1) | Last Update: **2026-03-31 (S155b FV revision — Italy AGCM + regulatory contagion)**
-**Original Date:** 2026-02-01 | Versions: v1.0→v4.4 (see Historial de Cambios)
-**Price at Review:** EUR 16.42 (S155b) | Cost: EUR 18.45 (real eToro entry)
+**Date:** 2026-02-06 (R1) | Last Update: **2026-04-06 (S155b TRIM 13%→6% — zero-base test + shorts escalating)**
+**Original Date:** 2026-02-01 | Versions: v1.0→v4.5 (see Historial de Cambios)
+**Price at Review:** EUR 17.12 (Apr 6) | Cost: EUR 18.45 (real eToro entry)
 **Quality Score:** 62/100 (tool) / 76 adj (Tier B) -- Adjustment: +14 for market position, network effects, regulatory moat in non-IT/BR markets
-**Recommendation:** HOLD at 13%. Dividend yield 8.2% pays to wait. EXIT if France tables formal levy OR Italy AGCM structural remedy OR 2027-28 guide <3%.
+**Recommendation:** **TRIM 13%→6% (execute Mon Apr 7).** Zero-base test: would NOT open 13% today. HOLD remainder as yield play (8.2%). EXIT if France levy tabled OR Italy AGCM structural remedy OR 2027-28 guide <3%.
 **Framework Version:** 4.0 (Principios Adaptativos)
 > **Fair Value:** EUR 20.5 (S155b revision. Was EUR 24.0. -14.6% adjustment: Italy AGCM 5th regulatory front -EUR 1.5/sh, regulatory contagion discount -EUR 1.5/sh, pattern of multi-jurisdiction targeting of meal voucher interchange model. Methods: EV/EBIT 8x on probability-weighted EBITDA EUR 665M = EUR 19.6, adjusted up for dividend yield + network effect residual.)
 > **Expected Growth:** 4% (unchanged from S251. 2026 -12%, 2027-28 +5%.)
 > Pipeline Stage: R3_COMPLETE
 > **Bear Case:** 5 regulatory fronts active: (1) Brazil PAT decree CONFIRMED, (2) Turkey antitrust investigation, (3) France social levy potential (15% prob), (4) Italy fee cap ENACTED, (5) **Italy AGCM abuse-of-dominance NEW Mar 26**. Probability-weighted FV analysis: all-neutral EUR 11.8, all-worse EUR 7.9. Market at EUR 16.42 (P/E 7.7x) prices "2 of 5 worse." SELL if France levy tabled OR Italy AGCM structural remedy OR 2027-28 guide <3% OR Turkey fine >EUR 50M.
 > **FV Revision Log (S155b):** EUR 24.0→EUR 20.5. Italy AGCM (Mar 26) = 5th front. Regulatory surface BROADENING not narrowing — contagion pattern (regulators see Brazil template and copy). Probability ALL 5 resolve favorably = 0.02% (1 in 4,000). Thesis FV cannot assume all-favorable. At EUR 20.5: MoS 19.8%, E[CAGR] ~18-19%. Still passes Tier A threshold. HOLD justified by 8.2% dividend + residual MoS, not by growth conviction.
-> **SM Signal:** CONTESTED — 14 holders (BG 5.4%, Capital Research 10%, Harris 5%, Pale Fire 5.1%) vs 22 shorts (23.6% SI, CPPIB 2.3% largest). Marshall Wace reducing (1.89%→1.19%). Board member Richdale bought $50K Mar 21. Signal: neither bull nor bear dominates.
+> **SM Signal (Apr 6 UPDATED):** DETERIORATING — 14 holders vs shorts NOW ESCALATING. AMF total 9.44%→10.02% (+0.58pp in 10 days). 5 of 9 funds ADDED. Marshall Wace REVERSED from reducing to adding (1.19%→1.30%). D.E. Shaw 1.01%→1.08%. Two Sigma 1.31%→1.43%. Gladstone 0.60%→0.74%. Voleon 0.60%→0.74%. "Bears covering" narrative BROKEN. Board member Richdale $50K (Mar 21) = lone contra-signal.
+> **SIZING DECISION (Apr 6):** TRIM 13%→6%. Zero-base test: would open 4-5% max, not 13%. Path dependency of 8pp (13% actual vs 5% zero-base). Second EDEN.PA trim (first was 18.7%→13% HARD TRIM, this is zero-base correction). EV of holding excess 45 shares through Q1 (Apr 23) = EUR -18 (negative). Asymmetry 2.6x against. Analyst consensus collapsed EUR 33→27.16. UBS at EUR 19. Our FV EUR 20.5 in optimistic half of distribution. Conviction HIGH→MEDIUM. Proceeds EUR ~770 → cash for May earnings deployment.
 
 ---
 

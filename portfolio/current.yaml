@@ -24,18 +24,18 @@ positions:
 
   - ticker: EDEN.PA
     name: "Edenred SA"
-    shares: 80.83  # S155: TRIM 22 shares at EUR 15.72. Was 102.83. HARD TRIM >15% rule executed.
-    invested_usd: 1740  # Proportional: 2218 * (80.83/102.83)
-    avg_cost_usd: 21.57  # Blended estimate (unchanged — same cost basis)
-    avg_cost_eur: 18.45  # S220: REAL eToro entry EUR 18.45
+    shares: 80.83  # TRIM PLANNED: sell ~45 shares → ~36 remaining. Execute Mon Apr 7 at market.
+    invested_usd: 1740  # Will update post-execution (proportional)
+    avg_cost_usd: 21.57
+    avg_cost_eur: 18.45
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
-    conviction: high
-    last_review: 2026-03-27
-    intentional_weight: 13.0  # S155: HARD TRIM 16.8%→13%. Rule: >15% = trim to 13%, NO EXCEPTIONS.
-    fair_value: "EUR 20.5 (S155b revision. Was 24.0. Italy AGCM 5th front + regulatory contagion discount. Prob-weighted EBITDA EUR 665M at 8x.)"
-    exit_plan: "HOLD at 13%. Dividend 8.2% pays to wait. EXIT if France levy tabled OR Italy AGCM structural remedy OR 2027-28 guide <3% OR Turkey fine >EUR 50M."
-    notes: "S155b: FV EUR 24→20.5 (-14.6%). Italy AGCM abuse-of-dominance (Mar 26) = 5th regulatory front. Regulatory surface BROADENING (Brazil template copied). Prob all 5 favorable = 0.02%. At EUR 20.5: MoS 19.8%, E[CAGR] ~18-19%. HOLD justified by 8.2% yield + residual MoS, not growth conviction. P&L: -10.9% at EUR 16.42."
+    conviction: medium  # Downgraded from HIGH. Zero-base test = 4-5%, not 13%.
+    last_review: 2026-04-06
+    intentional_weight: 6.0  # TRIM PLANNED 13%→6%. Zero-base test: would NOT open 13% today. Execute Mon Apr 7.
+    fair_value: "EUR 20.5 (S155b revision. Was 24.0. Italy AGCM 5th front + regulatory contagion discount.)"
+    exit_plan: "HOLD at 6% yield play. EXIT if France levy tabled OR Italy AGCM structural remedy OR 2027-28 guide <3% OR Turkey fine >EUR 50M. Q1 revenue Apr 23 = next binary."
+    notes: "S155b Apr 6: TRIM 13%→6% DECIDED. Zero-base test failed (would open 4-5% max, not 13%). Shorts ESCALATING: AMF 9.44→10.02%, MW reversed from reducing to adding, 5 of 9 funds added. Consensus collapsed EUR 33→27.16 (our FV 20.5 in optimistic half). EV of holding excess 45 shares through Q1 = EUR -18 (negative). Asymmetry 2.6x against us. Trim BEFORE Q1 Apr 23, not after. EUR ~770 freed → cash for May earnings deployment. Conviction HIGH→MEDIUM."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
