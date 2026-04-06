@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 613.5  # Updated 2026-03-30. +IHP.L trim EUR 242 - ALFA.L ADD EUR 240. Net ~+2.
+  amount: 1491.5  # Updated 2026-04-06. +NVO EXIT EUR 878 (sold Mar 31 at $36.40). Was 613.5.
   currency: EUR
 
 positions:
@@ -62,20 +62,7 @@ positions:
     conviction: medium
     notes: "S284: FV $406→$385 (CMA UK multi-jurisdiction risk + revert FTC unwind). E[CAGR] 21.5% at $248. Conviction MEDIUM-HIGH→MEDIUM (CEO transition + CMA dual front). Wadhwani personally named in FTC complaint — continuity CEO, not reformer. SM stale (all pre-event Q4 2025). Still HOLD: P/E 14.5x, E[CAGR] 21.5% solid."
 
-  - ticker: NVO
-    name: "Novo Nordisk A/S"
-    shares: 28.53  # S155: Closed 38.91 shares + reopened EUR 900 at $36.40. Confirm exact from eToro.
-    invested_usd: 1039  # EUR 900 * 1.1539
-    invested_eur: 900
-    avg_cost_usd: 36.40  # Fresh entry at market Mar 27
-    date_opened: 2026-03-27  # Reopened position (original Feb 5, closed+reopened for tax/sizing)
-    conviction: LOW
-    exit_plan: "**EXIT PLANNED — SELL ALL before Apr 10 (orforglipron FDA).** Zero-base test FAILED: would NOT open 4% today at 10 days from 70% probability negative binary event. Proceeds ~EUR 878 → cash for May earnings season deployment. RE-ENTRY post-Apr 10 if thesis justifies at new price (approved: $30-32 entry if base business intact; rejected: $40-42 if MoS sufficient)."
-    fair_value: "$47 (R3 resolved S146c8. Was $50 v4.0. DA: FCF stale, P/E 16x. Bear $37/Base $48/Bull $62. QS 73 Tier B.)"
-    last_review: 2026-03-31
-    intentional_weight: 0.0  # EXIT PLANNED. Execute this week before Apr 10.
-    thesis: thesis/active/NVO/thesis.md
-    notes: "S155b: EXIT DECIDED (Mar 31). Zero-base test: would NOT buy 4% today pre-orforglipron. 70% prob approval = negative asymmetry. At $35.29, P&L -3.0% (~EUR 27 loss). Proceeds ~EUR 878 freed for May earnings season. Will re-evaluate post-Apr 10 FDA decision. If approved: NVO drops to $30-32, reassess base business. If rejected: NVO rallies to $40-42, re-entry if MoS sufficient. The exit is TACTICAL (event-driven risk management), not THESIS (base business still has value at right price)."
+  # NVO REMOVED 2026-03-31 — SOLD 28.53 shares at $36.40. EXIT: zero-base test failed pre-orforglipron FDA (Apr 10). Tactical exit (event risk), not thesis exit. P&L: 0% (sold at cost). Proceeds EUR 878 → cash. Moved to history.yaml. Re-entry post-orforglipron decision if thesis justifies.
 
   # MONY.L REMOVED 2026-03-27 — SOLD 389.79 shares at 148.50p. Rotation: lowest E[CAGR] + growth (2%) in portfolio. Ex-div Mar 26 captured. Capital → GDDY+DNLM.L+ITRK.L+MEGP.L+ALFA.L. P&L: -12.4%. Held 51 days. Moved to history.yaml + thesis archived.
 
