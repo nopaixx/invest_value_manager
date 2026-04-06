@@ -1,14 +1,18 @@
 # Sector: Pharma/Healthcare
 
-> Ultima actualizacion: 2026-03-30
+> Ultima actualizacion: 2026-04-06
 >
-> **UPDATE Mar 30 (S155b):** 2 material developments:
-> (1) **GLP-1 pricing floor $245/month + Medicare coverage mid-2026.** Trump admin established pricing agreements with LLY+NVO. Monthly cost $1,000+→$245. Volume strongly positive (20M→30M patients projected). ASP negative (-75% per unit). Net: regime change in market access. Removes pricing uncertainty downward but caps ASP recovery.
-> (2) **Orforglipron FDA decision confirmed April 10, 2026.** Lancet ACHIEVE-3 head-to-head: orforglipron OUTPERFORMED oral semaglutide on A1C and weight. Lilly building pre-launch inventory. Wegovy pill competitive position weaker than assumed.
-> (3) **DOCS positive:** FDA tightened DTC ad rules → pharma redirecting spend to physician-focused platforms. BofA upgraded DOCS. >60% of industry leaders ramping provider campaigns. Structural tailwind confirmed for DOCS thesis.
-> NVO also: Mars CEO Poul Weihrauch appointed board observer (consumer focus signal), $507M Irish factory expansion for pill production.
+> **UPDATE Apr 6 (urgent pre-event):** ORFORGLIPRON APPROVED EARLY — MATERIAL CHANGE
+> (1) **FDA APPROVED FOUNDAYO (orforglipron) April 1, 2026 — 9 days AHEAD of April 10 PDUFA.** Commissioner's National Priority Voucher. Fastest NME approval since 2002. No food/water restrictions (vs Wegovy pill 30-min fasting). Shipping began April 6. Self-pay $149/mo, insured $25/mo, Medicare $50/mo from Jul 2026. DOMINANT oral GLP-1 profile.
+> (2) **Oral GLP-1 competitive landscape TRANSFORMED.** Wegovy pill (oral sema) now faces direct Foundayo competition. Novo's $149 introductory price expires April 15 → rises to $199. Lilly holds the structural advantage: no food restrictions + better ACHIEVE-3 head-to-head data (A1C -2.2% vs -1.4%, weight -19.7lb vs -11.0lb). LLY stock +6.5% on approval. NVO stock: FURTHER PRESSURE. Analysts forecast Foundayo $1.5-2.8B revenue in 2026.
+> (3) **DOCS: GLP-1 launch wave = pharma marketing SURGE.** Orforglipron + Foundayo launch = both LLY and NVO racing to HCP platforms for physician targeting. FDA warning letters to 30 telehealth firms for misleading compounded GLP-1 marketing → accelerates shift to regulated HCP channels where DOCS dominates. This is DIRECT NEAR-TERM REVENUE CATALYST for DOCS heading into Q4 FY2026 earnings (~May). Prior guidance was cut to $640-646M; GLP-1 launch wave may be underestimated tailwind.
+> (4) **MFN update:** 9 pharma companies (including LLY and NVO) agreed to MFN pricing for Medicaid/cash-pay via TrumpRx.gov. Deals are voluntary, 3-year terms. Congressional oversight letters sent Mar 2026 requesting detail. Net: ASP pressure is real and structural. DOCS somewhat insulated — pharma MUST market when ASP compressed (more volume required to maintain revenue).
+> (5) **NVO re-entry consideration:** NVO at $36.98 (P/E 10.4x, 4.9% yield, 52wL $35.12). Wegovy pill competing against Foundayo from an inferior position. No re-entry warranted at this stage — orforglipron approval removes the "NVO oral has no competitor" asymmetry that was the re-entry thesis anchor. Monitor KC#8 (FY2026 rev decline >10%) and oral sema patient retention data.
 > Analista: Claude
-> Status: NEUTRAL (subsector-dependent). GLP-1: LLY DOMINANT, NVO SEVERELY DAMAGED. Pharma Digital: FAVORABLE but MONITOR (DOCS near 52wL, NRR decelerating). Drug Delivery Platforms: FAVORABLE (HALO gated). Animal Health: NEUTRAL-POSITIVO. Big Pharma: SOBREPONDERAR SELECTIVO + DEFENSIVE in crisis.
+> Status: NEUTRAL (subsector-dependent). GLP-1: LLY DOMINANT/ACCELERATING, NVO FURTHER DAMAGED. Pharma Digital: FAVORABLE (DOCS — GLP-1 launch wave is NEAR-TERM CATALYST). Drug Delivery Platforms: FAVORABLE (HALO gated). Animal Health: NEUTRAL-POSITIVO. Big Pharma: SOBREPONDERAR SELECTIVO + DEFENSIVE in crisis.
+>
+> **PREV UPDATE Mar 30 (S155b):**
+> (1) GLP-1 pricing floor $245/month + Medicare coverage mid-2026. (2) Orforglipron FDA decision confirmed April 10 (now: APPROVED EARLY April 1). (3) DOCS structural HCP tailwind confirmed. NVO: Mars CEO board observer, $507M Irish factory expansion.
 >
 > **2026-03-18 MATERIAL CHANGES:**
 > 1. **NVO TRIPLE HEADWIND + WEGOVY HD APPROVED:** CagriSema FAILED (KC#1 triggered) + FDA warning letter Mar 5 + semaglutide patent LOE India/China. BUT: **Wegovy HD (7.2mg) FDA approved Mar 19** -- 20.7% mean weight loss, National Priority Voucher, available April. Stock $36.53, P/E 10.3x. Trimming Mar 26 regardless.
@@ -48,9 +52,9 @@ El sector Pharma/Healthcare opera bajo cuatro fuerzas simultaneas en marzo 2026:
 | TAM Drug Delivery Platforms | ~$5B (2025) | Creciendo 8-10% CAGR | SC formulations expanding with patent cliff |
 | TAM Animal Health | $63-67B (2025) | Creciendo 6-10% CAGR | Hacia $150B+ (2033) |
 | P/E Big Pharma (names clave) | 7-16x | vs 14-20x historico | Minimos 30 anos. DEFENSIVE in crisis. |
-| P/E Novo Nordisk | **10.3x** | vs 25-35x historico | **COLLAPSE. -74% from ATH. 5.1% div yield. Wegovy HD approved Mar 19.** |
-| P/E Eli Lilly | **~40x** | vs 30-40x historico | **Premium normalizing slightly. MCap $833B (was $1T+).** |
-| P/E Doximity | **20.5x** | vs 40-80x historico | **COMPRESSED. $24.41 near 52wL $23.53. SI 4.56%.** |
+| P/E Novo Nordisk | **10.4x** | vs 25-35x historico | **COLLAPSE. -74% from ATH. 4.9% div yield. $36.98 near 52wL $35.12. Wegovy pill now faces SUPERIOR Foundayo competitor from day 1 of oral race.** |
+| P/E Eli Lilly | **~40x** | vs 30-40x historico | **Premium. MCap $837B. Foundayo APPROVED April 1 — oral pill $149-$25/mo. LLY +6.5% on approval. Oral GLP-1 market share race begins.** |
+| P/E Doximity | **~19x** | vs 40-80x historico | **COMPRESSED. $22.77 BELOW prior 52wL ($21.82 new low). SI 4.56%. GLP-1 launch wave = Q4 catalyst.** |
 | P/E Halozyme | **~15x** | vs 20-30x historico | **Gated on PTAB Jun 2026** |
 | P/E Zoetis | **~21x** | vs 35-40x historico | **Comprimido (near 52wL)** |
 | XLV (Healthcare ETF) | $149.64 | -6.8% from 52wH | +3.9% 12m. Defensive holding. |
@@ -67,8 +71,8 @@ El sector Pharma/Healthcare opera bajo cuatro fuerzas simultaneas en marzo 2026:
 
 | Empresa | Market Cap | Fortaleza Principal | Vulnerabilidad |
 |---------|-----------|---------------------|----------------|
-| Eli Lilly (LLY) | **$833B** | GLP-1 DOMINANT. Zepbound + Mounjaro $39.5B. Retatrutide, orforglipron next. ~60% GLP-1 market share. | Valuacion elevada (~40x P/E). Single-franchise concentration. |
-| Novo Nordisk (NVO) | **$171B** | Wegovy/Ozempic franchise. Wegovy pill 170K patients in 4 weeks. | **TRIPLE HEADWIND: CagriSema FAILED + FDA warning letter + semaglutide patent LOE India/China. Guiding -5% to -13% sales 2026.** |
+| Eli Lilly (LLY) | **$837B** | GLP-1 DOMINANT. Zepbound + Mounjaro $39.5B. **Foundayo APPROVED April 1** (oral pill, no food restrictions, $149/mo). Retatrutide Phase III 29% weight loss filing 2026. ~60% GLP-1 share. | Valuacion elevada (~40x P/E). Single-franchise concentration. |
+| Novo Nordisk (NVO) | **$164B** | Wegovy/Ozempic franchise. Wegovy pill launched Jan 2026. Wegovy HD 20.7% weight loss. | **QUADRUPLE HEADWIND: CagriSema FAILED + FDA warning letter + semaglutide patent LOE + Foundayo OUTPERFORMS oral sema (ACHIEVE-3). Guiding -5% to -13% sales 2026. Wegovy pill now faces superior competitor.** |
 | Johnson & Johnson (JNJ) | $565B | Diversificacion, defensivo | Slow growth, litigios |
 | AbbVie (ABBV) | $402B | Immunology post-Humira | Dependencia Skyrizi/Rinvoq |
 | Merck (MRK) | $290B | Keytruda oncology. SC Keytruda extends to 2042. | Patent cliff 2028 (IV). MRK-HALO litigation. |
@@ -78,7 +82,7 @@ El sector Pharma/Healthcare opera bajo cuatro fuerzas simultaneas en marzo 2026:
 | Bristol-Myers (BMY) | $115B | Oncology/immuno | Opdivo/Eliquis cliff |
 | Sanofi (SAN) | $98B | Dupixent franchise | Pipeline post-Dupixent |
 | **Halozyme (HALO)** | **~$12B** | **ENHANZE platform: 8+ approved drugs using rHuPH20. Asset-light royalty model.** | **Merck PTAB Jun 2026 = binary risk** |
-| **Doximity (DOCS)** | **$4.7B** | **85% US physician monopoly. 90% GM, 47% FCF margin, net cash.** | **NRR decelerating 118%->112%. SI +25% surging. Customer concentration. Near 52wL.** |
+| **Doximity (DOCS)** | **$4.3B** | **85% US physician monopoly. 90% GM, 47% FCF margin, net cash. GLP-1 launch wave = Q4 catalyst.** | **NRR decelerating 118%->112%. SI +25% surging. $22.77 below prior 52wL. Q4 earnings (~May) binary.** |
 | **Zoetis (ZTS)** | **$56B** | **#1 Animal Health, ROIC 30%, GM 70%+** | **Librela safety, growth deceleration** |
 
 **Barreras de entrada:** Muy Altas
@@ -119,7 +123,7 @@ El sector Pharma/Healthcare opera bajo cuatro fuerzas simultaneas en marzo 2026:
 | Company | Key Products | 2025 Rev (GLP-1) | Status |
 |---------|-------------|-------------------|--------|
 | Eli Lilly | Zepbound/Mounjaro (tirzepatide) | **$39.5B combined** | **DOMINANT. ~60% market share.** Surpassed Keytruda as world's best-selling medicine. |
-| Eli Lilly | Orforglipron (oral pill) | -- | FDA priority review. National Priority Voucher. Decision Q1-Q2 2026. Small molecule, can take with food. |
+| Eli Lilly | **Foundayo (orforglipron)** | **APPROVED Apr 1 2026** | **FDA APPROVED. Brand: Foundayo. No food/water restrictions. $149/mo self-pay, $25/mo insured, $50/mo Medicare Jul 2026. Shipping Apr 6. Fastest NME approval (National Priority Voucher). Analysts: $1.5-2.8B 2026 revenue. SUPERIOR to Wegovy pill on all metrics.** |
 | Eli Lilly | Retatrutide (triple agonist) | -- | Phase III: 29% weight loss (~71 lbs). Expected market late 2026. Bariatric surgery-level. |
 | Novo Nordisk | Ozempic/Wegovy (semaglutide) | ~$42B franchise | **UNDER SEVERE PRESSURE. Market share ~39%. Patent LOE India/China NOW.** |
 | Novo Nordisk | Wegovy pill (oral sema 25mg) | LAUNCHED Jan 2026 | $149-299/mo. 170K patients in 4 weeks. 50K weekly Rx. **ONLY BRIGHT SPOT.** |
@@ -156,11 +160,12 @@ El sector Pharma/Healthcare opera bajo cuatro fuerzas simultaneas en marzo 2026:
 - Retatrutide (injectable triple agonist): 29% weight loss = bariatric surgery level. Filing expected 2026.
 - By mid-2026, ~40% of new obesity starts expected to be oral.
 
-**Nuestra posicion NVO: HOLD with TRIM Mar 26. FV $47. Do NOT add.**
-- Conviction: MEDIUM (recovered from LOW post-S144c1 adds, but triple headwind warrants caution)
-- Wegovy pill franchise is the bull case anchor: 170K patients in 4 weeks, DKK 20B revenue forecast 2026 rising to DKK 55B by 2030
-- P/E 10.9x with 4.8% dividend yield provides downside floor — but floor is untested against real LOE
-- RISK STACK: LLY retatrutide (29% weight loss) + orforglipron (superior oral) + semaglutide LOE + FDA warning letter + securities fraud probe + -5% to -13% guidance
+**Nuestra posicion NVO: EXITED. NO RE-ENTRY WARRANTED (updated Apr 6).**
+- NVO exited pre-orforglipron. This was correct. Price at exit > current $36.98.
+- Re-entry thesis anchor was "Wegovy pill has no oral competitor." That asymmetry is GONE. Foundayo APPROVED April 1 with superior profile: no food restrictions, better ACHIEVE-3 head-to-head vs oral sema, lower price trajectory with Medicare access.
+- Wegovy pill now faces direct, superior competition from Foundayo from day one of commercial launch.
+- P/E 10.4x, 4.9% yield at $36.98 (52wL $35.12). Floor still untested. -5% to -13% guidance still in force.
+- **RE-ENTRY GATE:** Need to see (a) Wegovy pill retention data after Foundayo launch (3-6 months), (b) FY2026 revenue confirm top end of guidance range (not worse than -5%), (c) NRR of oral Wegovy prescribers stable. Until then: WATCH ONLY.
 - KC#1 TRIGGERED (CagriSema). Monitor KC#8 (FY2026 rev decline >10%), KC#9 (market share <40%)
 
 ### 3. Pharma Digital Health / HCP Platforms
@@ -173,20 +178,26 @@ El sector Pharma/Healthcare opera bajo cuatro fuerzas simultaneas en marzo 2026:
 - Pharma manufacturers + health systems + recruiting = revenue base
 - 90% GM, 47% FCF margin, net cash = exceptional financial quality
 
-**NEGATIVE DEVELOPMENTS (NUEVO 2026-03-18):**
-- **Near 52-week low:** $24.91 vs 52wL $23.53. Only $1.38 above the floor.
-- **Short interest surging:** 8.4M shares short (+25% recent increase), 4.56% of float. Unusual for a company with this quality profile — suggests institutional skepticism.
-- **NRR decelerating:** Top-20 customer NRR dropped to 112%, down from 117% last year and 118% the prior quarter. Three consecutive years of NRR decline. If NRR drops below 100% → KC#1 TRIGGERED.
-- **Revenue accounting concerns:** Reports suggest DOCS may be pulling forward revenue on large accounts and changing NRR definition to mask churn among smaller customers. UNVERIFIED (Level 3 source) but aligns with SI increase.
-- **MFN risk to pharma ad budgets:** If MFN + IRA compress pharma margins further, marketing budgets could be CUT rather than shifted. This contradicts the bull thesis that IRA forces MORE marketing.
+**UPDATE Apr 6 — GLP-1 LAUNCH WAVE = NEAR-TERM CATALYST (MATERIAL):**
+- **Foundayo (orforglipron) approved April 1 + shipping April 6.** Both LLY and NVO now racing to HCP channels. Physician education campaigns for new oral GLP-1s historically drive 30-50% uplift in HCP-platform spend in launch quarters. DOCS is the dominant HCP platform (85% of US MDs). This is a DIRECT revenue catalyst.
+- **FDA sent 30 warning letters to telehealth firms** for misleading compounded GLP-1 marketing. This accelerates the shift from DTC/telehealth to regulated HCP platforms where DOCS dominates.
+- **FY2026 guidance $640-646M** (raised from $619-631M) may be conservative if pharma launch spend accelerates in Q4 (ending ~March). FY2027 guidance will be key watch for GLP-1 tailwind translation.
+- **MFN counter-thesis WEAKENED:** When ASP is compressed, pharma must drive MORE volume — requiring MORE marketing per unit revenue. This actually argues for sustained or increased HCP marketing spend, not cuts. Analyst: BofA upgrade remains in force; >60% of pharma leaders in surveys plan to INCREASE provider-focused campaigns.
+
+**NEGATIVE DEVELOPMENTS (still valid from 2026-03-18):**
+- **Price: $22.77** — below 52wL $21.82 (as of today). Portfolio position shows unrealized loss.
+- **Short interest surging:** 8.4M shares short (+25% recent), 4.56% of float. Institutional skepticism persists.
+- **NRR decelerating:** Top-20 customer NRR 112% (was 118% two quarters ago). Three consecutive years of decline. If drops below 100% → KC#1 TRIGGERED.
+- **Revenue accounting concerns:** Reports suggest DOCS pulling forward revenue on large accounts. UNVERIFIED (Level 3 source) but aligns with SI.
 
 **Still positive:**
-- BofA upgrade citing structural HCP-budget shift remains in force
-- AI tools adoption narrative intact (CEO: "winning the AI market in 2026")
-- 85% physician monopoly is REAL and defensible — no competitor has >15% share
-- Thesis justified at E[CAGR] 13.8% > 12% threshold
+- BofA upgrade, structural HCP-budget shift from DTC tightening
+- AI tools adoption (CEO: "winning the AI market in 2026")
+- 85% physician monopoly defensible
+- GLP-1 launch wave = near-term Q4 earnings potential upside
+- Thesis E[CAGR] justified if NRR stabilizes
 
-**Action:** HOLD 8%. Do NOT add before Q4 (~May 2026). The SI surge + NRR deceleration pattern is a WARNING. If Q4 misses + FY27 guide <8% → TRIM to 5%.
+**Action (updated Apr 6):** HOLD 8.4% (current price $22.77, near 52wL $21.82). The GLP-1 launch wave arriving in Q4 is a genuine catalyst that was NOT priced into prior guidance. This argues AGAINST trimming pre-earnings. Q4 earnings (~May 2026) remain binary: if NRR stabilizes + GLP-1 tailwind materializes → ADD signal. If NRR <110% + FY27 guide <8% → TRIM to 5%. Do not change position before earnings.
 
 ### 4. Drug Delivery Platforms / Biosimilars
 **Status: FAVORABLE (gated on litigation outcomes)**

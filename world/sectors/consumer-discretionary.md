@@ -1,22 +1,23 @@
 # Sector: Consumer Discretionary - UK Homewares, QSR, Promotional Products & UK Consumer
 
-> Ultima actualizacion: 2026-03-24
-> Status: **CAUTELA** - Oil sustained at $96 WTI creates MATERIAL headwind for UK consumer discretionary. DNLM.L entering portfolio Mar 26 (~860p, below SO 950p). UK petrol 139-142p/litre (+7-10p since Feb). GfK -19 (Feb) with marginal March rebound (fragile). Consumer sentiment dropped -8.2pts MoM in March (steepest since Covid lockdown 2020). Housing market weakening: RICS buyer demand -26% Mar vs -15% Jan. DOM.L SOLD Mar 7 (no longer held). FOUR.L FY results released Mar 11 -- resilient but not expansionary. WING collapsed to $199 (-23% in 3 weeks).
+> Ultima actualizacion: 2026-04-06
+> Status: **CAUTELA — DETERIORATING** - GfK Consumer Confidence fell FURTHER to -21 in March (from -19 Feb, 6-point drop in 12-month economic outlook, 4-point drop in major purchase willingness). KPMG reports 62% of consumers say economy is worsening. NLW/NIC headwind NOW LIVE (Apr 1). UK retail sales Feb -0.4% MoM (first post-oil-shock data, disappointing). Housing: spring bounce absent, market "recovering not rising." DNLM.L IN PORTFOLIO (Mar 26, ~860p). Q3 trading update due Apr 16 — KEY near-term event. DNLM.L trading at 810p (-5.8% from entry). Special dividend 25p + interim 17p payable Apr 8.
 
 ## Resumen Ejecutivo
 
-Consumer Discretionary in March 2026 remains under SUSTAINED MACRO PRESSURE from the Iran-US war (Hormuz closed, Kharg struck) and oil at $96 WTI. Three forces dominate, though the acute crisis panic has subsided into a "new normal" of elevated costs:
+Consumer Discretionary in April 2026 is under INTENSIFYING MACRO PRESSURE. Three forces from March have all moved WORSE since Mar 24:
 
 **1. OIL HEADWIND PERSISTS BUT IS NOT ACCELERATING.** WTI has settled at $96 (down from $119 intraday peak post-Kharg but well above pre-crisis $73). The Kharg strike targeted MILITARY facilities, not oil infrastructure -- this was the key reason oil didn't sustain $150. UK petrol has risen to 139-142p/litre (up from 132.7p in early March), with diesel at 149-162p/litre. For UK consumer discretionary: (a) petrol pump costs are 5-8% higher, squeezing household budgets, (b) shipping/freight costs remain elevated via non-Hormuz routes (+15-25%), (c) food/energy inflation is re-accelerating. DNLM.L's 200+ superstores face higher operating costs (heating, logistics) and consumers face higher transport-to-store costs. However, the apocalyptic $150 oil scenario has NOT materialized -- this is moderately negative, not catastrophic.
 
-**2. UK CONSUMER CONFIDENCE WEAK BUT SPENDING SURPRISINGLY RESILIENT.** GfK Consumer Confidence remains at -19 (Feb) -- worst since mid-2024. UK unemployment at 5.2% (post-pandemic high). Youth unemployment 16.4%. BUT: UK retail sales volumes rose 1.8% MoM in January (strongest since May 2024). Retail sales values forecast +2.5% in 2026. The sentiment-spending gap persists: consumers SAY they feel bad but KEEP spending, particularly on home-related categories. Dunelm's Q3 FY26 rev +6.3% (beat consensus) suggests the homewares segment is outperforming broader retail sentiment. Key risk: oil pass-through to household budgets could finally close this gap in Q4 FY26 (Apr-Jun).
+**2. UK CONSUMER CONFIDENCE DETERIORATING FURTHER — SPENDING GAP NOW CLOSING.** GfK fell to -21 in March (from -19 Feb). New data points: 6-point drop in 12-month economic outlook; 4-point drop in major purchase willingness (DIRECT negative for Dunelm); savings rate rising +6 points (consumers pulling back). KPMG: 62% say economy is worsening, only 1 in 10 say improving. Feb retail sales -0.4% MoM (released Mar 27 post-cut-off): the first post-oil-shock data confirms sentiment-spending gap IS CLOSING — consumers starting to cut spending. For DNLM.L: the 4-point drop in major purchase willingness is the most relevant signal, as large homewares items (furniture, appliances) fall in this category. However bedding/curtains replacement cycle provides some buffer.
 
-**3. LABOUR COST HEADWIND INCOMING.** NLW rising to GBP 12.71 from Apr 2026 (+4.1%), employer NIC 13.8% to 15%. Dunelm estimated GBP 10-15M incremental annual cost (absorbed through operating leverage + digital shift). DOM.L estimated GBP 3M+ direct impact. Retailers with higher wage bills (more labour-intensive models) will be squeezed harder.
+**3. LABOUR COST HEADWIND NOW LIVE.** NLW at GBP 12.71 from Apr 1 2026 (+4.1%), employer NIC 13.8% to 15% — now effective. Dunelm GBP 10-15M incremental annual cost will start flowing into P&L from Q4 FY26 (Apr-Jun). The Apr 16 Q3 trading update will cover the period ending Mar 29 (pre-NLW), so FY26 guidance revision risk is the key flag — management may lower PBT guide if NLW + weak consumer = double squeeze on Q4.
 
-**PORTFOLIO CHANGES SINCE LAST UPDATE:**
-- **DOM.L SOLD (Mar 7).** S143 restructuring. QS 61 Tier B LOW conviction. No longer held. Retained in sector view for monitoring.
-- **DNLM.L ENTERING PORTFOLIO (Mar 26).** R4 APPROVED. Market buy at ~860p (below SO 950p). EUR ~200-300 allocation (reduced from EUR 440 due to oil context). QS 79 Tier A. FV 1,008p. UK Quality Leaders basket with IHP.L.
-- **FOUR.L FY2025 RESULTS RELEASED (Mar 11).** Revenue $1.35B, PBT $149M (above upper consensus). Resilient but new customers -12%.
+**PORTFOLIO CHANGES / EVENTS SINCE MAR 24:**
+- **DNLM.L IN PORTFOLIO (entered Mar 26 ~860p).** Now at 810p (-5.8% from entry). Special dividend 25p + interim 17p payable Apr 8 (total 42p). Q3 trading update Apr 16 — KEY near-term catalyst.
+- **NLW/NIC NOW LIVE (Apr 1).** GBP 10-15M annual cost headwind for Dunelm starts flowing through P&L.
+- **GfK March = -21 (released post-cut-off).** Confirmed deterioration, not stabilization. Major purchase willingness -4pts.
+- **ONS Feb retail sales -0.4% MoM.** First hard evidence the sentiment-spending gap is closing.
 
 ---
 
@@ -28,16 +29,15 @@ Consumer Discretionary in March 2026 remains under SUSTAINED MACRO PRESSURE from
 | TAM UK QSR Market | $37.6B (2026) | Growing | ~5.2% CAGR to $48.6B by 2031 |
 | TAM US Promotional Products | ~$26B (2025) | Stable | ~3-4% CAGR |
 | US Consumer Sentiment (Michigan) | ~57 (Mar est) | 11-year low | PLUNGED (from 64 in Dec) |
-| UK GfK Consumer Confidence | -19 (Feb 2026), marginal March rebound (fragile) | Worst since mid-2024 | STABILIZING AT LOWS — 63.3% expect economy to worsen next 6mo |
-| UK Unemployment | 5.2% (3mo to Dec) | Post-pandemic high | Rising |
-| UK CPI (Jan 2026) | 3.0% YoY | Down from 3.4% Dec | RE-ACCELERATING from oil (est 3.0-3.5% Mar) |
-| UK Petrol Price | 139-142p/litre (Mar 16) | Was 132.7p early Mar | RISING (+7-10p in 2 weeks) |
-| UK Diesel Price | 149-162p/litre (Mar 16) | Was declining pre-crisis | RISING (+13p since late Feb) |
-| WTI Crude Oil (T1: macro_fragility) | $96.13 (Mar 17) | 52wH $119.48, 52wL $54.98 | ELEVATED but not peaking |
-| XLY Consumer Disc ETF | $112.20 | -10.2% from 52wH | Trailing P/E 29.9x |
-| UK Retail Sales (Jan) | +1.8% MoM, +2.5% YoY forecast | Strongest MoM since May 2024 | Positive but PRE-oil impact. Feb data release Mar 27. |
-| UK Housing (RICS Mar) | Buyer demand -26%, agreed sales -12% | Deteriorated from Jan (-15%, -9%) | WEAKENING — spring bounce absent, geo uncertainty cited |
-| UK House Prices (Nationwide Mar) | -0.2% MoM, +1.6% YoY | Annual growth slowing | SOFTENING |
+| UK GfK Consumer Confidence | **-21 (Mar 2026)** | Worst in nearly a year | DETERIORATING — fell from -19. Major purchase willingness -4pts. Savings +6pts. 62% say economy worsening. |
+| UK Unemployment | 5.2% (3mo to Dec) | Post-pandemic high | Rising. NLW live Apr 1 — cost headwind certain. |
+| UK CPI (Jan 2026) | 3.0% YoY | Down from 3.4% Dec | RE-ACCELERATING expected Mar-Apr (oil pass-through, energy costs surging) |
+| UK Petrol Price | ~139-142p/litre (latest est) | Was 132.7p early Mar | ELEVATED. KPMG: petrol up ~50% since Iran war began. |
+| WTI Crude Oil | ~$96 (est) | 52wH $119.48, 52wL $54.98 | SUSTAINED HEADWIND |
+| XLY Consumer Disc ETF | ~$112 | -10%+ from 52wH | Risk-off still dominant |
+| UK Retail Sales (Feb, ONS) | **-0.4% MoM** (£8.9B/wk) | Was +1.8% MoM Jan | **DETERIORATING** — first post-oil-shock data. 3mo to Feb +3% YoY (still positive). March data due Apr 24. |
+| UK Housing | Spring bounce ABSENT | "Recovering not rising" | STAGNANT — supply up (32 homes/agent = 8yr high), transactions flat to down. 2-4% price growth forecast. |
+| UK House Prices | +2-4% forecast 2026 | Asking price growth -0.2% YoY | WEAK — north/south divide. No recovery catalyst visible. |
 
 ---
 
@@ -49,7 +49,7 @@ Consumer Discretionary in March 2026 remains under SUSTAINED MACRO PRESSURE from
 - **Dinamica:** Dunelm Q3 FY26 rev +6.3% BEAT (consensus was +3.6% H1 rate). Gross margin expanded 30bps to 52.4% YTD. New app launch + 'Home of Colour' campaign. Digital 41% of sales. Market share gaining vs weaker competitors. 200+ superstores with strong omnichannel.
 - **Jan 15 profit warning:** DNLM.L guided FY26 PBT to lower end of consensus (GBP 210-221M range). Share price fell 17% to ~840p from ~1010p. Driven by: NLW/NIC headwinds, challenging homewares market, competitive Black Friday. BUT: Q3 rebound to +6.3% suggests worst may be behind.
 - **Oil shock impact:** MODERATE. Higher store operating costs (heating, logistics). Consumer transport-to-store costs up. BUT: Dunelm's product is housing-related (not truly discretionary for many items -- curtains, bedding = replacement cycle). Spring ranges + housing activity provide seasonal offset. Private label mix (~30-35%) provides margin buffer. Digital channel avoids transport cost entirely.
-- **Valuacion actual:** DNLM.L at 848.5p. P/E 11.6x (vs historical 16-18x). Dividend yield 5.3%. MCap GBP 1.7B. FV 1,008p (R4) implies 18.8% upside. Well below SO 950p.
+- **Valuacion actual:** DNLM.L at **810p** (entered 860p, -5.8%). P/E ~11.1x (vs historical 16-18x). Dividend yield 5.6%. MCap GBP 1.6B. FV 1,008p (R4) implies **24.4% upside**. Special div 25p + interim 17p payable Apr 8. Q3 trading update Apr 16 — NEXT CATALYST.
 - **Insider ownership:** 38.5% Adderley family. Special dividends regular feature.
 
 ### 2. UK QSR / Pizza Delivery (DOM.L -- SOLD, monitoring only)
@@ -83,19 +83,19 @@ Consumer Discretionary in March 2026 remains under SUSTAINED MACRO PRESSURE from
 
 ## Ciclo Actual
 
-| Factor | Sensibilidad | Estado Mar 17 2026 |
+| Factor | Sensibilidad | Estado Apr 6 2026 |
 |--------|--------------|---------------------|
 | Oil Price | **MUY ALTA** | WTI $96.13 (T1). Down from $119 peak but sustained. Petrol 139-142p. **SUSTAINED HEADWIND** |
 | Tipos de interes | Alta | UK: BoE 3.75%. FOMC Mar 18 = HOLD likely (oil inflation). BoE rate cuts DELAYED into H2 2026 at earliest. **HEADWIND** |
-| Consumer Confidence | Alta | UK GfK -19 Feb, marginal Mar rebound (FRAGILE). March sentiment -8.2pts MoM (worst since Covid lockdown). 63.3% expect economy to worsen. US Michigan ~57 (11-year low). **STABILIZING AT LOWS — not recovering** |
+| Consumer Confidence | Alta | UK GfK **-21 Mar** (from -19 Feb). 62% say economy worsening. Major purchase willingness -4pts. Savings rate +6pts. April release Apr 24. US Michigan ~57 (11-year low). **DETERIORATING — gap-closing now evidenced by Feb sales data** |
 | Tariffs | Alta (US apparel) / Baja (UK domestic) | US: Section 301 probes into 16+ economies. Blanket 10% on all partners. UK domestic names (DNLM.L) insulated. **HEADWIND for US names** |
 | Inflation | ALTA (rising) | UK CPI 3.0% Jan. Oil pass-through will push 3.0-3.5% in Apr-May. Diesel +13p. **RE-ACCELERATING** |
 | Employment | Media-Alta | UK unemployment 5.2%. Youth 16.4%. NLW/NIC cost increases Apr 2026. **WEAKENING** |
-| UK Retail Sales | MODERATING | Jan +1.8% MoM was strong but PRE-oil impact. Forecast +2.5% for 2026 (below 30yr avg +3.5%). **UNEVEN** |
+| UK Retail Sales | MODERATING | **Feb -0.4% MoM** (ONS). Jan +1.8% was the pre-oil peak. 3mo to Feb +3% YoY (still positive). Mar data Apr 24. **WEAKENING** |
 
-**Fase del ciclo:** **Late-cycle under sustained oil stress — sentiment deteriorating further in March.** The acute panic (Kharg strike, $150 intraday) has passed but the structural headwind is INTENSIFYING on the sentiment side: March saw the steepest consumer confidence drop since the first Covid lockdown (-8.2pts MoM), oil $96, petrol 140p+, diesel 160p+, labour costs rising Apr 2026. The UK housing market is also weakening materially (RICS buyer demand -26% Mar, Nationwide -0.2% MoM). The sentiment-spending gap RISK HAS INCREASED — the Q2 2026 gap-closing scenario is more likely than assessed Mar 17. Non-essential card spend was +1.8% in Feb (good signal) but March sentiment data suggests April-May could see actual spending pullback. For DNLM.L: the housing market softening is an incremental headwind (30-35% of demand correlated to housing transactions) but replacement-cycle demand partially offsets. Entry at ~860p remains justified as pessimism is well-priced at P/E 11.6x.
+**Fase del ciclo (Apr 6):** **Late-cycle under sustained oil stress — sentiment-spending gap now closing.** Three material deteriorations since Mar 24: (1) GfK -21 confirmed (not the "marginal rebound" hoped for); (2) Feb retail sales -0.4% MoM — the sentiment-spending gap has begun closing; (3) NLW/NIC headwind now live. The UK housing market "spring bounce" is absent — supply at 8-year high, transactions flat. For UK discretionary retailers, this is the most challenging macro backdrop since 2022. The near-term risk window is Apr-Jun (Q4 FY26 for Dunelm): if consumers start cutting non-essential spending in April and NLW costs flow through simultaneously, there is a double squeeze on margins.
 
-**For DNLM.L specifically:** Entering at 860p (below SO 950p, 14.8% MoS vs FV 1,008p) prices in significant headwind. Q3 +6.3% revenue growth suggests operational momentum. The risk is FY26 full-year PBT landing at or below the lower end of GBP 210-221M guide. The OPPORTUNITY is that the market has already discounted oil + NLW headwinds into the 17% drawdown from the profit warning -- and Dunelm's market share gains + digital acceleration + 38.5% insider alignment provide structural support.
+**For DNLM.L specifically:** Now at 810p (entered 860p). Apr 8 dividend payments (42p combined) provide near-term cash return. The Apr 16 Q3 trading update is the KEY near-term event: covers Jan-Mar period (pre-NLW), so will show revenue momentum and any FY26 guidance revision. Thesis intact at 810p: P/E ~11x, 5.6% yield, FV 1,008p (R4). The incremental deterioration in consumer confidence (major purchases -4pts) and housing stagnation are HEADWINDS vs Mar 24 view, but already partially priced into the 17% drawdown from the Jan profit warning. The question is whether Q4 FY26 (Apr-Jun) sees a further guidance cut.
 
 ---
 
@@ -152,12 +152,12 @@ Consumer Discretionary in March 2026 remains under SUSTAINED MACRO PRESSURE from
 
 ## Nuestras Posiciones Actuales
 
-### DNLM.L - Dunelm Group (UK #1 Homewares) -- ENTERING Mar 26
-- **Status:** R4 APPROVED. Buying at market ~860p (EUR ~200-300)
+### DNLM.L - Dunelm Group (UK #1 Homewares) -- IN PORTFOLIO
+- **Status:** HOLD. Entered Mar 26 ~860p. Now 810p (-5.8%).
 - **Quality Score:** QS 79 Tier A
 - **Fair Value:** 1,008p (R4 committee-adopted, was 1,328p thesis, -24% correction)
-- **Entry:** ~860p (below SO 950p). MoS 14.8% vs FV.
-- **E[CAGR]:** ~16-17% at 860p (growth 5% + div 5.3% + FV convergence)
+- **Entry:** ~860p. Now 810p. MoS vs FV now **24.4%** (improved from 14.8% at entry).
+- **E[CAGR]:** ~18-19% at 810p (growth 5% + div 5.6% + FV convergence). Improved vs entry.
 - **Key updates Mar 2026:**
   - Jan 15 profit warning: FY26 PBT guided to lower end GBP 210-221M. Shares fell 17%.
   - Q3 FY26 rev +6.3% BEAT (consensus ~4%). Gross margin +30bps to 52.4%.
@@ -271,12 +271,14 @@ Consumer Discretionary in March 2026 remains under SUSTAINED MACRO PRESSURE from
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| **Mar 18** | **FOMC decision (2 PM ET)** | Oil inflation vs recession. HOLD expected. Language on stagflation risk = key for consumer sector. |
-| **Mar 26** | **DNLM.L market buy execution** | Portfolio entry. ~860p, EUR 200-300. UK Quality Leaders basket. |
-| **Mar 27** | UK GfK Consumer Confidence (March) — OFFICIAL RELEASE | Early-month surveys already show -8.2pts MoM drop (worst since Covid lockdown). Official GfK release will confirm. Watch for: headline index vs Feb -19. If <-25 = severe deterioration scenario. |
-| **Mar 27** | ONS UK Retail Sales Feb 2026 | First post-oil-shock spending data. Card data suggests Feb non-essentials +1.8% YoY. Actual volumes will show if sentiment-spending gap is closing. Key read for DNLM.L Q4 FY26 risk. |
-| **Mar 31** | LULU Q4 FY26 earnings | Sector read. Governance update. US consumer read. (NOT HELD) |
-| **Apr 6** | DOM.L new CEO Dominic Paul starts | Strategic direction. (NOT HELD) |
+| **Mar 18** | FOMC decision | DONE. HOLD confirmed. |
+| **Mar 26** | **DNLM.L market buy** | DONE. Entered ~860p. |
+| **Mar 27** | UK GfK Mar + ONS Feb retail sales | DONE. GfK -21 (worse than -19). Retail -0.4% MoM. Both NEGATIVE surprises vs expectation. |
+| **Apr 6** | DOM.L new CEO Dominic Paul starts | DONE. (NOT HELD — monitoring only) |
+| **Apr 8** | **DNLM.L dividends payable** | Special 25p + interim 17p = 42p total. Cash return to shareholders. |
+| **Apr 16** | **DNLM.L Q3 FY26 trading update** | **KEY NEAR-TERM EVENT.** Watch: (1) Q3 revenue growth vs Q3 +6.3%. (2) Any FY26 PBT guidance revision (lower end GBP 210-221M at risk given NLW live Apr 1). (3) Management commentary on Q4 outlook. Bear: guidance cut to <GBP 210M = FV revision risk. Bull: +5%+ revenue + guidance maintained = re-rating. |
+| **Apr 24** | ONS UK Retail Sales March 2026 | Next hard data on consumer spending. Mar sentiment -21 = watch for further -0.4% or worse. |
+| **Apr 24** | GfK Consumer Confidence April release | If -25 or worse = severe deterioration, upgrade risk level on DNLM.L. |
 | **Q1 2026** | WING Q1 FY2026 earnings | SSS recovery gate. If positive -> advance pipeline. At $199, more interesting. |
 | **Q1 2026** | DECK Q3 earnings | Tariff impact. HOKA growth. At entry range $102. |
 | **Sep 2026** | DNLM.L FY26 full year results | PBT vs GBP 210-221M guide. KEY test for oil/NLW impact on margins. |
@@ -289,6 +291,7 @@ Consumer Discretionary in March 2026 remains under SUSTAINED MACRO PRESSURE from
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
 | 2026-03-24 | **MATERIAL UPDATE (2 changes): (1) Consumer sentiment dropped -8.2pts MoM in March — steepest since Covid lockdown 2020. GfK marginal rebound from Feb -19 but described as "fragile"; 63.3% expect economy to worsen. Risk of sentiment-spending gap closing in Q2 has INCREASED. (2) UK housing market softening materially: RICS buyer demand -26% (from -15% Jan), agreed sales -12%, Nationwide -0.2% MoM. Spring bounce absent due to geopolitical uncertainty. Incremental DNLM.L headwind via housing-correlated demand (~30-35%). NO change to competitive landscape or retail sales data (Feb ONS due Mar 27). DNLM.L entry thesis unchanged — pessimism at P/E 11.6x remains priced in.** | Sector refresh pre-DNLM.L Mar 26 entry. Two incremental negatives identified but neither changes entry decision. |
+| 2026-04-06 | **MATERIAL UPDATE: GfK March -21 (worse than -19 Feb). Feb retail sales -0.4% MoM (first hard evidence sentiment-spending gap closing). NLW/NIC live Apr 1. DNLM.L now at 810p (-5.8% from entry). Q3 trading update Apr 16 = KEY catalyst. Major purchase willingness -4pts direct negative for homewares.** | Sector deterioration confirmed across all three headwinds. DNLM.L thesis intact but near-term risk window is Q4 FY26 (Apr-Jun). |
 | 2026-03-17 | **MATERIAL UPDATE: DNLM.L entering portfolio Mar 26 (~860p). Oil $96 sustained (T1 verified). UK petrol 139-142p (+7-10p). FOUR.L FY results released Mar 11. WING collapsed to $199. DECK now at entry $102. DOM.L SOLD Mar 7. Updated all sub-sectors and dependencies.** | Sector view refresh pre-DNLM.L entry. Oil headwind sustained but not accelerating. DNLM.L Q3 +6.3% beat provides operational confidence. DECK approaching entry creates new actionable opportunity. |
 | 2026-03-07 | MATERIAL UPDATE: Oil shock ($90+ WTI), LULU SOLD, sector refocused, FOUR.L + WING pipeline added, UK GfK -19 deterioration. | Hormuz closure regime change. Status NEUTRAL -> CAUTELA. |
 | 2026-02-22 | MATERIAL UPDATE: LULU governance crisis, tariff escalation, UK consumer data, DECK Q3, DOM.L pre-earnings, DNLM.L near SO. | Full refresh. |

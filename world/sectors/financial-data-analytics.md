@@ -1,9 +1,9 @@
 # Sector: Financial Data & Analytics
 
-> Ultima actualizacion: 2026-03-22 (post-FOMC refresh)
-> Status: NEUTRAL-SELECTIVO - Moats excepcionales pero valuaciones premium. SPGI $424 BELOW SO trigger $420 — EXECUTABLE (gated Q1 May 5). MORN retreating from FV.
+> Ultima actualizacion: 2026-04-06 (post-FDS earnings + WKL price check + tariff selloff context)
+> Status: NEUTRAL-SELECTIVO - Moats excepcionales. MORN -9% desde FV ($173, FV $195). FDS BEAT Q2 + raised guidance — inflection confirmed. SPGI Q1 Apr 28. WKL tariff selloff: -60% desde ATH, P/E 11.6x = historically cheap.
 >
-> **Post-FOMC Context (Mar 22):** Fed held 3.5-3.75% (11-1 vote, Mar 18). Dot plot: 1 cut 2026. Powell highlighted oil shock uncertainty, inflation at 2.7% (above target). Rates higher-for-longer = MIXED for sector: TW BENEFITS (rate vol drives ADV), SPGI ratings business benefits from vol but IPO/issuance stays frozen. SPGI at $424 — BELOW $420 SO trigger (gated Q1 May 5). MORN dropped to $179 (-6% from $190, now -8% below FV $195). SPGI launched DataXchange + AmendX (Mar 3) for private credit/syndicated loan modernization. FDS Q2 earnings Mar 31 = IMMINENT catalyst.
+> **Post-Mar 22 Context (Apr 6):** FDS Q2 FY2026 BEAT Mar 31: EPS $4.46 vs $4.41 est, rev +7.1%, ASV growth 4th consecutive acceleration (6.7%), guidance raised ($2,450–$2,470M). Inflection thesis CONFIRMED — FDS at $228 = near FV $230, no MoS. MORN sold off further to $173 (tariff market rout) — now 11% below FV $195, E[CAGR] improving. SPGI Q1 earnings Apr 28 (not yet reported). WKL.AS (our 8% position) at EUR 65.32, P/E 11.6x — sharpest valuation compression in sector; Expert AI strategy accelerating (Mar 30 update: UpToDate 1,600 hospital pilots, CCH Axcess 10K firms, 20-30% workflow cuts claimed). WKL buyback $500M 2026. Broad tariff selloff compressing multiples across sector — not fundamental deterioration.
 
 ## Resumen Ejecutivo
 
@@ -37,14 +37,15 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 
 ---
 
-## Precios Actuales (2026-03-22)
+## Precios Actuales (2026-04-06)
 
 | Ticker | Precio (USD) | Precio (EUR) | 52w High | 52w Low | P/E | Yield | MCap |
 |--------|-------------|-------------|----------|---------|-----|-------|------|
-| MORN | $179.07 | EUR 154.52 | $316.71 | $149.08 | 20.2x | 1.1% | $7.4B |
-| SPGI | $424.43 | EUR 366.24 | $579.05 | $381.61 | 29.0x | 0.0%* | $128.5B |
-| TW | $125.15 | EUR 107.99 | $152.65 | $97.06 | 33.1x | 0.0%* | $27.3B |
-| FDS | -- | -- | $474.79 | $185.00 | -- | -- | -- |
+| MORN | $172.91 | EUR 150.07 | $316.71 | $149.08 | 19.5x | 1.2% | $6.8B |
+| SPGI | $431.16 | EUR 374.20 | $579.05 | $381.61 | 29.4x | ~0.9%* | $130.6B |
+| TW | $123.20 | EUR 106.93 | $149.25 | $97.06 | 32.6x | ~0.9%* | $26.9B |
+| FDS | $227.68 | EUR 197.60 | $474.79 | $185.00 | 14.6x | 1.9% | $8.5B |
+| WKL.AS | EUR 65.32 | EUR 65.32 | EUR 163.65 | EUR 59.00 | 11.6x | 3.9% | EUR 14.7B |
 
 *SPGI/TW yield anomaly in yfinance data -- actual yields ~0.8-0.9%.
 
@@ -132,8 +133,9 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 
 **Mi contra-tesis (si aplica):**
 "Monopolies die slowly. FICO's 30-year entrenchment creates switching costs measured in years, not months. BUT the stock at 55x P/E still prices in monopoly growth -- not enough correction yet."
-"FDS at 14x P/E for a 95%+ retention business with 27% FCF margins is anomalously cheap. Margin compression is investment-driven (cloud transition) and should normalize in FY2028. Q2 earnings Mar 31 is the inflection test."
-"MORN at 21x P/E post-CRSP is our best active position in the sector. CRSP deal resolved the key risk (Vanguard continuity confirmed) and adds $4.2T benchmark-linked revenue. FV $195 may be conservative post-integration."
+"FDS Q2 BEAT confirmed inflection -- ASV growth accelerated 4 consecutive quarters. At $228 = AT FV = no MoS. The thesis was right but the entry has been missed. Wait for $180-200."
+"MORN at 19.5x P/E with price back to $173 is 11% below FV $195. Tariff selloff is noise for a recurring-revenue information business with zero direct tariff exposure. E[CAGR] improving."
+"WKL.AS at P/E 11.6x is the most compressed valuation in the sector. Expert AI strategy is NOT a disruption threat -- it's WKL's own product (CCH Axcess, UpToDate). Buyback $500M 2026. Caywood confirmed expanding AI product investment to 12-13% of revenues. This is not a company under AI siege -- it's one deploying AI into entrenched professional workflows."
 
 ---
 
@@ -141,7 +143,8 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 
 | Ticker | Empresa | FV | Entry | Current | Unrealized | Status |
 |--------|---------|-----|-------|---------|-----------|--------|
-| MORN | Morningstar Inc. | $195 | market buy $161 | $190.15 | +18.1% | ACTIVE -- E[CAGR]-framework buy S101. CRSP closed. |
+| MORN | Morningstar Inc. | $195 | market buy $161 | $172.91 | +7.4% | ACTIVE -- CRSP closed. Tariff selloff -9% desde max. E[CAGR] improving as price retreats below FV. |
+| WKL.AS | Wolters Kluwer | (see thesis) | (see thesis) | EUR 65.32 | (see thesis) | ACTIVE -- 8% position. P/E 11.6x (vs sector avg 20-30x). Expert AI accelerating. Buyback $500M. See thesis for FV. |
 
 ---
 
@@ -152,7 +155,7 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 | Portfolio | MORN | thesis/active/MORN | 2026-03-06 | ACTIVE -- FV $195. CRSP acquisition CLOSED Feb 2026. Vanguard extended. +18% unrealized. |
 | Research | SPGI | thesis/research/SPGI | 2026-02-28 | R3 COMPLETE -- SO $420 (7% from current $452). FV $470. Financial Mkt Infra basket anchor. FY2025 strong. |
 | Research | FICO | thesis/research/FICO | 2026-02-11 | R1 COMPLETE -- WATCHLIST (~$900 FV, entry $700-850). Current $1,476 = 64% overvalued. |
-| Research | FDS | thesis/research/FDS | 2026-02-13 | R1 COMPLETE -- WATCHLIST ($230 FV, entry $180). Current $226 = near FV. Q2 earnings Mar 31 key. |
+| Research | FDS | thesis/research/FDS | 2026-03-31 | R1 COMPLETE -- WATCHLIST ($230 FV, entry $180). Current $228 = AT FV. Q2 BEAT (EPS $4.46, rev +7.1%, ASV accel). Guidance raised. NO MoS at current price -- wait for pullback to $180-200. |
 | Scored | ICE | N/A | 2026-02-28 | SCORED S130 -- QS 65adj Tier B. Black Knight synergies $230M achieved, targeting $275M by 2028. Mortgage tech $2.1B rev. |
 | Scored | NDAQ | N/A | 2026-02-28 | SCORED S130 -- QS 67adj Tier B. 11% insider. Tech transformation via acquisitions. |
 | Tracked | TW | N/A | 2026-03-07 | NOT SCORED. ADV +27.5% Dec 2025. Electronic trading secular growth. Premium valuation 33x P/E. |
@@ -173,7 +176,7 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 | Ticker | Razon | Resultado |
 |--------|-------|-----------|
 | FICO | QS 75 Tool / 70 Adj (Tier B). -33% from high. FV ~$900, price $1,476. | WATCHLIST -- overvalued at current price. Entry $700-850. Bureau pricing war intensifying. |
-| FDS | QS 73 (Tier B). -52% from ATH. FV $230, price $226 (near FV!). | WATCHLIST -- Q2 FY2026 earnings Mar 31 is inflection test. At FV now, no MoS. |
+| FDS | QS 73 (Tier B). -52% from ATH. FV $230, price $228 (AT FV). | WATCHLIST -- Q2 BEAT (EPS $4.46, ASV +6.7% 4Q consecutive accel, guidance raised). Inflection CONFIRMED. Zero MoS at current price. Entry target $180-200. |
 | MORN | QS 83 Tool / 80 Adj (Tier A). FV $195, price $190. | ACTIVE position. CRSP closed. +18% unrealized. Approaching FV. |
 
 ### Evitar
@@ -189,7 +192,7 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 | Ticker | Empresa | FV | Entry | Current | Distance to Entry | Thesis | Fecha Analisis |
 |--------|---------|-----|-------|---------|-------------------|--------|----------------|
 | FICO | Fair Isaac Corp | ~$900 | $700-850 | $1,476 | -74% to -111% | thesis/research/FICO | 2026-02-11 |
-| FDS | FactSet Research Systems | $230 | $180 | $226 | -26% | thesis/research/FDS | 2026-02-14 |
+| FDS | FactSet Research Systems | $230 | $180 | $228 | AT FV (no MoS) | thesis/research/FDS | 2026-03-31 |
 | MORN | Morningstar Inc. | $195 | bought $161 | $190 | N/A (ACTIVE) | thesis/active/MORN | 2026-03-06 |
 | SPGI | S&P Global Inc. | $470 | $420 | $452 | -7% | thesis/research/SPGI | 2026-02-28 |
 
@@ -199,13 +202,14 @@ Los jugadores clave (S&P Global, MSCI, Moody's, ICE, FICO, Verisk, FactSet) comp
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| **Mar 31, 2026** | **FDS Q2 FY2026 earnings** | **Margin trajectory key -- is trough forming? Consensus EPS $4.35. CRITICAL for thesis.** |
-| Q2 FY2026 (Apr 2026) | FICO Q2 results | Software Platform ARR growth + Direct License Program revenue. Bureau pricing war impact. |
-| Q1 2026 (Apr 2026) | SPGI Q1 2026 results | Ratings issuance + Indices growth. SO $420 trigger proximity. |
+| ~~Mar 31, 2026~~ | ~~FDS Q2 FY2026 earnings~~ | **COMPLETADO: BEAT. EPS $4.46 vs $4.41 est. Rev +7.1%. ASV accel 4Q consecutivos. Guidance raised. Inflection CONFIRMED.** |
+| **Apr 28, 2026** | **SPGI Q1 2026 results** | **Ratings issuance vol en tariff selloff? Indices AUM impact. SO $420 gate: is SPGI still $431 or drops?** |
+| Q2 FY2026 (Apr/May 2026) | FICO Q2 results | Software Platform ARR + Direct License revenue. Bureau pricing war impact. |
 | H1 2026 | VantageScore adoption data from GSEs | Key metric for FICO moat erosion speed |
-| H1 2026 | MORN CRSP integration milestones | Index revenue contribution, client retention, cost synergies |
+| H1 2026 | MORN CRSP integration milestones | Index revenue contribution Q1 2026 report |
 | Ongoing | CFPB pricing review / DOJ investigation | Regulatory overhang for FICO |
-| H2 2026 | Fed rate cuts (if) | Positive for mortgage origination + capital markets activity (ICE, TW, SPGI) |
+| H2 2026 | Fed rate cuts (if) | Positive for mortgage origination + capital markets (ICE, TW, SPGI) |
+| Ongoing | Tariff market selloff | Multiple compression across sector -- fundamental impact LOW (recurring revenue, no direct tariff exposure) |
 
 ---
 
@@ -231,6 +235,7 @@ MORN es la unica posicion activa del sector en el portfolio. La thesis de basket
 | 2026-02-14 | FDS R4 WATCHLIST. Standing order $170. | QS 73 Tier B. FV $210 (was $230). NARROW moat. Hard gate Q2 FY2026 (Mar). VRSK preferred over FDS. |
 | 2026-03-07 | **SECTOR UPDATE: Material changes.** MORN CRSP acquisition CLOSED ($365M, Feb 2026). Vanguard relationship extended. MORN now $190 (+18% from entry). SPGI FY2025 strong ($15.3B rev, EPS +32% Q4). SO $420 now 7% away. FICO pricing war escalating: $10/score vs VantageScore $0-4.50. FDS Q2 Mar 31. TW added to tracked (ADV +27.5%). ICE Black Knight synergies $230M. MSCI extended BlackRock license to 2035. Prices refreshed all tickers. | Staleness refresh (22 days). Multiple material developments across sector. |
 | 2026-03-22 | **Post-FOMC refresh.** Fed held 3.5-3.75% (1 cut dot plot). SPGI $424 BELOW $420 SO trigger (gated Q1 May 5). SPGI launched DataXchange+AmendX (Mar 3) for private credit. MORN retreated to $179 (-6%, below FV $195). FDS Q2 earnings Mar 31 imminent. | Post-FOMC + price refresh. |
+| 2026-04-06 | **Post-FDS earnings + WKL deep context + tariff selloff.** FDS Q2 BEAT (EPS $4.46 vs $4.41, rev +7.1%, ASV +6.7% 4Q accel, guidance raised) -- inflection CONFIRMED, but price $228 = AT FV, no MoS. WKL.AS added as active position (8%): EUR 65.32, P/E 11.6x, Expert AI advancing (UpToDate 1,600 hospital pilots, CCH Axcess 10K firms), buyback $500M 2026. MORN at $173 (-11% below FV, tariff selloff). SPGI Q1 earnings Apr 28 (not yet reported). Broad tariff selloff = multiple compression, not fundamental deterioration. | WKL position entry + FDS catalyst resolved + price refresh. |
 
 ---
 

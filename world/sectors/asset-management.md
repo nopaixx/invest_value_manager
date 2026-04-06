@@ -1,9 +1,9 @@
 # Sector: Asset Management (Alternative & Platform)
 
-> Ultima actualizacion: 2026-03-24 (S284 post-Blue-Owl crisis refresh)
-> Status: SOBREPONDERAR (structural secular growth in alternatives + platform economics) — with elevated near-term caution on private credit contagion sentiment
+> Ultima actualizacion: 2026-04-06 (S155b — Blue Owl escalation Apr 2)
+> Status: SOBREPONDERAR (structural secular growth in alternatives + platform economics) — with ELEVATED near-term caution: Blue Owl contagion now confirmed spreading across sector; HLNE at 52wL $90.47 (-47% from 52wH $179.19), pure sentiment damage
 >
-> **S284 Context (Mar 24):** Three material changes since Mar 15: (1) Blue Owl OBDC II permanently gated — private credit contagion spreading to BlackRock HPS, Cliffwater, Morgan Stanley; JPMorgan markdown cascade Mar 16; Goldman alarm Mar 21. NOT a direct HLNE kill condition (advisory/tech model ≠ BDC operator) but sentiment damage to evergreen structures real. (2) Q1 2026 PE fundraising $80B+ — RECORD, confirming 2025 as the trough. Recovery stronger than expected. (3) HLNE-specific positives: Republic strategic partnership (Mar 17) opens mass-affluent distribution; quarterly dividend +10% YoY ($2.16 annualized). TRIM decision on HLNE proceeds as planned — near-FV risk management, not thesis-break.
+> **Apr 6 Update:** Blue Owl crisis materially escalated Apr 2. OWL Blue Owl Credit Income Corp: investors requested exit of 21.9% of shares in Q1 (vs 5.2% prior quarter). Blue Owl Technology Income Corp: 40.7% withdrawal requests (vs 15.4%). OWL enforced 5% cap — billions trapped. OWL stock -40% YTD, peers BX/APO/KKR/ARES each -~3% on Apr 2. Blue Owl co-founder publicly warned of "self-inflicted credit crisis." Root causes deepened: string of direct lending failures (Tricolor subprime auto, First Brands auto parts, Market Financial Solutions mortgage), plus AI-risk fears on tech software lending. Multiple evergreen structures gating (Blackstone confirmed in March, now Blue Owl confirmed Apr 2). Private credit default rate hit record 9.2% end-2025; median interest coverage 1.6x. **HLNE differentiation confirmed intact**: HLNE's evergreen platform is PE/equity-focused (NOT credit BDCs). Advisory model = no redemption exposure. At $90.47 (-47% from $179.19 peak), market is pricing a credit crisis that doesn't directly apply to HLNE's business model. Dividend $0.54/quarter paid Apr 6 — management signaling earnings confidence.
 
 ## Resumen Ejecutivo
 
@@ -142,29 +142,30 @@ HLNE occupies a unique niche: it is primarily a **private markets advisory and t
 
 ## Sentimiento de Mercado
 
-**Sentimiento actual:** Cautious-Negative (Blue Owl private credit crisis + JPMorgan markdown cascade dominating narrative since Mar 14-21)
-**Narrativa dominante (post Mar 14):** "$265B private credit meltdown" (Fortune). "Private credit's golden era hits wall" (Mar 6). Goldman sounded alarm (Mar 21). Semi-liquid structures under existential scrutiny. This overshadows the Q1 2026 fundraising RECORD ($80B+).
-**Narrativa contrareste:** Blue Owl crisis is credit/BDC-specific, not PE evergreen. Q1 fundraising record confirms 2025 was the trough. Retailization continues (SEC roundtable, 401k opening). HLNE Republic deal signals confidence.
-**Flujos de fondos (Mar 2026):** Private credit semi-liquid vehicles: OUTFLOWS + gates. PE evergreen: cautious but not gated. Infrastructure/real assets: stable. PE buyout fundraising: recovering strongly ($80B Q1). Hedge fund outflows continuing.
-**Valuation context:** Listed alternative managers under pressure from credit contagion. HLNE at ~17-20x forward (below 3yr avg ~30x). OWL -60% from peak (direct crisis). STEP, PGHN less affected (no retail credit exposure). Sector valuation bifurcating between credit-exposed (OWL, Ares) and advisory/equity (HLNE, STEP).
+**Sentimiento actual:** NEGATIVE — Blue Owl crisis now escalating in public on Apr 2, confirmed contagion to peers. Sector re-rating in progress.
+**Narrativa dominante (Apr 2):** Blue Owl Credit Income Corp 21.9% withdrawal requests (vs 5.2% prior Q); Tech Income Corp 40.7% (vs 15.4%). 5% cap enforced, billions trapped. OWL co-founder warns "self-inflicted credit crisis." Peers BX/APO/KKR/ARES -3% in sympathy Apr 2. OWL -40% YTD. Root cause deepening: failures at Tricolor (subprime auto), First Brands (auto parts), Market Financial Solutions (mortgage) — real direct lending defaults, not just sentiment. Default rate 9.2% record, interest coverage 1.6x median. AI fears on software lending compounding.
+**Narrativa contrareste:** Q1 2026 PE fundraising still record $80B+ — CONFIRMED. Institutional PE fundraising bifurcated from retail credit. Blue Owl crisis is retail semi-liquid CREDIT BDCs, not PE/equity evergreens. HLNE's evergreen platform is equity-focused — different product, different risk profile. Moody's private credit AUM still projected to exceed $2T 2026.
+**Flujos de fondos (Apr 2026):** Private credit semi-liquid (retail BDCs): SEVERE OUTFLOWS + gates (Blue Owl, Blackstone confirmed). PE evergreen: caution but no confirmed gating at equity-focused vehicles. Infrastructure/real assets: stable. PE buyout fundraising: recovering ($80B Q1 record). Secondaries: record ($240B+, +48%). Hedge funds: outflows continuing.
+**Valuation context:** Listed alternative managers under severe pressure. HLNE $90.47 (52wL, -47% from $179.19). P/E 16.8x — well below 3yr avg ~30x. OWL down 40% YTD (direct crisis). BX/APO/KKR/ARES -3% Apr 2. STEP, PGHN less affected (no direct lending exposure). Sector bifurcating: credit BDC operators (OWL, HPS-exposed) vs advisory/equity (HLNE, STEP). HLNE being marked down with the credit names despite different business model — potential dislocation.
 
 ---
 
 ## Nuestras Posiciones Actuales
 
-### Hamilton Lane (HLNE) -- ACTIVE, MEDIUM CONVICTION, TRIM PENDING
+### Hamilton Lane (HLNE) -- ACTIVE, MEDIUM CONVICTION, UNDER REVIEW
 - **QS:** Tool 86 / Adj 82 Tier A (highest in portfolio)
 - **Entry:** $104.88 blended (9.00 shares, ~$944 invested)
-- **FV:** $110 (R3 post-DA)
-- **E[CAGR]:** ~14.6% at current levels
+- **Current price:** $94.19 (52wL $90.47; -47% from 52wH $179.19)
+- **FV:** $110 (R3 post-DA) — NOW AT DISCOUNT: $94.19 = 14.4% below FV
+- **E[CAGR]:** Materially improved at $94.19 vs prior trim-pending levels. Recalculate pre-next-decision.
 - **Key metrics:** FEAUM $79.1B (+11% YoY), Evergreen $16B+ (+70%+ YoY), FRE margin 50%, management fees +11% YoY, EPS $1.55 beat vs $1.30 consensus (+19%)
-- **Insider signal:** CEO Delgado-Moreira $1M buy at $130. Total insider cluster $4.2M. VERY STRONG conviction.
+- **Insider signal:** CEO Delgado-Moreira $1M buy at $130. Total insider cluster $4.2M. Management bought at $130 — stock now $94. VERY STRONG conviction signal, now further reinforced by management's willingness to absorb mark-to-market loss.
 - **Guardian partnership:** $5B AUM, $500M/yr commitments for 10+ years including $250M into Evergreen
-- **Republic deal (Mar 17 — NEW):** Strategic investment in Republic retail platform → expands mass-affluent distribution for HLNE evergreen funds. Direct execution on democratization thesis.
-- **Dividend (NEW):** $0.54/quarter declared ($2.16 annualized, +10% YoY). Payable Apr 6, 2026. Signals earnings durability confidence.
-- **Thesis fit:** Direct play on private wealth democratization + evergreen secular growth
-- **Blue Owl crisis impact:** NOT a direct HLNE kill condition (advisory/tech ≠ BDC operator). Evergreen sentiment headwind possible. Monitor net flows. Structural thesis INTACT.
-- **TRIM decision:** Proceeds as planned. Near-FV risk management ($104.88 entry vs $110 FV = thin MoS). Not thesis-driven — sizing discipline.
+- **Republic deal (Mar 17):** Strategic investment in Republic retail platform → mass-affluent distribution for HLNE evergreen funds.
+- **New interval fund (HLCIF — Mar 24):** SEC-effective. 12th evergreen fund. Credit-income focus. Quarterly liquidity. Conservative. Small in size; first entry into credit income — monitor for any redemption pressure at launch.
+- **Dividend:** $0.54/quarter ($2.16 annualized, +10% YoY). Paid Apr 6, 2026. Earnings confidence signal.
+- **Thesis fit:** Direct play on private wealth democratization + evergreen secular growth. Advisory model means Blue Owl crisis is TAILWIND for HLNE's manager selection value prop, not headwind.
+- **Status change (Apr 6):** TRIM PENDING canceled. Stock now -10.2% below entry, 14.4% below FV. ADD consideration warranted — thesis intact, FV not challenged by credit crisis, Zacks upgraded to #1. Recalculate E[CAGR] at $94 and evaluate vs portfolio median before next decision.
 
 ### IntegraFin (IHP.L) -- ACTIVE, MEDIUM CONVICTION
 - **QS:** Tool 80 Tier A
@@ -247,24 +248,34 @@ None currently beyond SEIC triage.
 - **HLNE DIFFERENTIATION vs crisis:** HLNE's evergreen funds are PE/equity-focused, NOT private credit BDCs. The Blue Owl crisis is in credit/direct lending, not HLNE's product set. HLNE is also an advisor/selector — it helps LPs navigate the semi-liquid space, which increases its value in a crisis (due diligence, manager selection). Advisory model = no balance sheet risk, no redemption exposure.
 - **2026 growth rate**: 70%+ YoY for HLNE evergreen may moderate toward 40-50% as retail confidence in semi-liquid structures broadly damaged. Secular direction unchanged; pace recalibrated.
 
-### 3b. Private Credit Systemic Risk (NEW RISK -- ACTIVE AS OF MAR 2026)
+### 3b. Private Credit Systemic Risk (ESCALATING — APR 2 UPDATE)
 
-**Status: ACTIVE CONCERN. Not a kill condition for HLNE. Monitor weekly.**
+**Status: ESCALATING. Contagion confirmed spreading. Not a kill condition for HLNE. Monitor weekly.**
 
-- Blue Owl Capital (OWL) OBDC II: $1.6B evergreen credit fund permanently gated Feb 2026. 200% redemption surge. 30% capital returned in 45d. Stock -60% from peak.
-- Contagion spreading to: BlackRock HPS $26B (restricted), Cliffwater $33B flagship (7% withdrawal), Morgan Stanley North Haven (10.9% repurchase requests).
-- JPMorgan markdown cascade (Mar 16): Aggressively marking down software-related collateral for private credit → "de-risking cascade" across Ares, Blue Owl, KKR.
-- Goldman Sachs alarmed (Mar 21). Fortune: "$265B private credit meltdown."
-- Root cause: "Valuation gap" — funds marked at cost vs actual liquidation value. Semi-liquid structures promised retail liquidity that illiquid assets cannot provide.
-- SEC response: Roundtable on private markets valuation (Mar 4). Increased governance scrutiny coming.
+**Mar 2026 (prior):**
+- Blue Owl OBDC II permanently gated Feb 2026. 200% redemption surge. 30% capital returned in 45d.
+- Contagion to: BlackRock HPS $26B (restricted), Cliffwater $33B (7% withdrawals), Morgan Stanley North Haven (10.9%).
+- JPMorgan markdown cascade (Mar 16): software collateral markdowns → Ares, Blue Owl, KKR.
+- Goldman alarm (Mar 21). Fortune "$265B private credit meltdown." Default rate 9.2% record.
 
-**Why HLNE is insulated (but not immune to sentiment):**
-- HLNE does NOT operate credit BDCs or direct lending funds. Its 11 evergreen funds are PE/equity/multi-asset.
-- Advisory model means HLNE earns fees advising ON private markets, not deploying capital into illiquid loans.
-- HLNE's Cobalt LP data advantage INCREASES in value when LPs need better due diligence tools (crisis = more demand for analytics, not less).
-- The Republic deal (Mar 17) and Guardian partnership ($500M/yr) are evergreen commitments not subject to retail redemption pressure.
-- **Risk**: If PE evergreen funds (not credit) face redemption pressure due to sentiment contagion → HLNE's $16B+ evergreen AUM could face outflows → management fee base at risk. Monitor: HLNE evergreen redemption rates quarterly.
-- **Kill condition threshold**: If HLNE evergreen net flows turn NEGATIVE for 2 consecutive quarters → re-evaluate thesis. Currently not triggered.
+**Apr 2, 2026 — NEW MATERIAL ESCALATION:**
+- Blue Owl Credit Income Corp ($36B): 21.9% withdrawal requests Q1 2026 (up from 5.2%). 5% cap enforced. Billions trapped.
+- Blue Owl Technology Income Corp: 40.7% withdrawal requests (up from 15.4%). 5% cap enforced.
+- OWL stock -7% on Apr 2; -40% YTD. Co-founder publicly warns "self-inflicted credit crisis."
+- Peers: Blackstone -3%, Apollo -3%, KKR -3%, Ares -3% in sympathy Apr 2.
+- Real credit failures now confirmed as root cause: Tricolor (subprime auto), First Brands (auto parts), Market Financial Solutions (mortgage).
+- AI risk fears on software lending: Blue Owl Technology Income specifically hit by concern that AI disrupts software companies used as collateral.
+- Interest coverage median 1.6x — no margin for error across private credit universe.
+- Cockroach effect: "Where there's one gating, there are more." Market assuming further gates at unnamed funds.
+
+**Why HLNE is insulated (but sentiment drag intensifying):**
+- HLNE does NOT operate credit BDCs or direct lending funds. Its 12 evergreen funds are PE/equity/multi-asset.
+- Advisory/technology model = earns fees ON private markets activity, no balance sheet at risk, no redemption exposure.
+- HLNE's Cobalt LP analytics VALUE INCREASES in this crisis (LPs need better manager selection tools → more HLNE advisory mandates).
+- New interval fund (HLCIF, SEC-effective Mar 24): HLNE IS entering credit income space — quarterly liquidity, conservative approach. Size is small; monitor if redemption pressure materializes in launch phase.
+- Republic deal + Guardian partnership ($500M/yr) are institutional-grade, not subject to retail redemption spikes.
+- **Key risk to watch**: If PE evergreen funds (equity-focused) begin gating due to sentiment contagion → broader sector re-rating. So far confined to credit BDCs.
+- **Kill condition threshold**: If HLNE evergreen net flows turn NEGATIVE for 2 consecutive quarters → re-evaluate thesis. Currently not triggered. Next data point: Q4 FY2026 earnings (~May 2026).
 
 ### 4. Fee Dynamics: Diverging Paths
 - Traditional active: -2% annual fee compression. Terminal for commodity active managers.
@@ -301,6 +312,7 @@ None currently beyond SEIC triage.
 
 | Fecha | Cambio | Tipo | Razon |
 |-------|--------|------|-------|
+| 2026-04-06 | Blue Owl escalation Apr 2 confirmed: BOCIC 21.9% / BOTIC 40.7% withdrawal requests. 5% caps enforced. Billions trapped. OWL -40% YTD. Peers -3% in sympathy. Co-founder warns "self-inflicted crisis." Real credit failures confirmed (Tricolor, First Brands, MFS). Default rate 9.2% record; coverage 1.6x median. HLNE at 52wL $90.47 (-47% 52wH). TRIM PENDING canceled — ADD consideration warranted. Section 3b expanded with Apr 2 details. New HLCIF interval fund noted. Sentiment upgraded to NEGATIVE. | MATERIAL | Blue Owl crisis escalated materially Apr 2. Cockroach effect. HLNE price now well below FV — changes decision calculus from trim to potential add. |
 | 2026-03-24 | Blue Owl private credit crisis added as new risk section (3b). Q1 2026 fundraising confirmed record $80B+ — upgraded from "expected" to "confirmed." HLNE Republic deal (Mar 17) + dividend increase added to position block. Sentimiento downgraded to Cautious-Negative. Evergreen 70% growth rate recalibrated to 40-50% near-term. Header context updated. | MATERIAL | Blue Owl contagion + JPMorgan markdown cascade missed in Mar 15 refresh. HLNE-specific positives also new. |
 | 2026-03-15 | FOMC context added. HLNE sensitivity analysis vs rate outcomes. | MINOR | FOMC prep session. |
 | 2026-03-07 | MAJOR REFRESH. Status NEUTRAL->SOBREPONDERAR. Added HLNE + IHP.L as active positions. Expanded scope from "Alternative AM" to "Asset Management (Alternative & Platform)". Added McKinsey 2026 data, evergreen metrics, fee dynamics, democratization theme. Added SEIC to pipeline. | MATERIAL | Sector view was stale (created for FSG.L Feb 19). Now reflects our two active positions + structural thesis. |
@@ -362,6 +374,14 @@ None currently beyond SEIC triage.
 
 ### IntegraFin
 - [Sharecast: IntegraFin reports strong start to 2026 financial year](https://www.sharecast.com/news/news-and-announcements/integrafin-reports-strong-start-to-2026-financial-year--21492436.html)
+
+### Blue Owl Apr 2 Escalation
+- [Bloomberg: Blue Owl BDCs Impose Caps After 41%/22% Exit Requests (Apr 2)](https://www.bloomberg.com/news/articles/2026-04-02/blue-owl-bdcs-impose-caps-after-facing-41-22-requests-to-exit)
+- [Bloomberg: Asset Manager Stocks Fall as Blue Owl Caps Redemptions (Apr 2)](https://www.bloomberg.com/news/articles/2026-04-02/asset-manager-shares-slump-after-blue-owl-bdcs-impose-limits)
+- [HedgeCo: Blue Owl Co-Founder Warns Self-Inflicted Credit Crisis (Apr 2026)](https://www.hedgeco.net/news/04/2026/blue-owl-co-founder-warns-of-self-inflicted-credit-crisis.html)
+- [The Daily Upside: Blue Owl Slams Brakes on Redemptions (Apr 2026)](https://www.thedailyupside.com/finance/blue-owl-slams-the-brakes-on-redemptions-at-two-funds-in-latest-private-credit/)
+- [MarketMinute: Cockroach Effect — Private Credit Reckoning as Major Funds Halt Redemptions (Mar 30)](https://markets.financialcontent.com/stocks/article/marketminute-2026-3-30-the-cockroach-effect-private-credit-faces-reckoning-as-major-funds-halt-redemptions)
+- [Hamilton Lane HLCIF SEC Effectiveness (Mar 24)](https://shareholders.hamiltonlane.com/2026-03-24-Hamilton-Lane-Announces-SEC-Effectiveness-for-Firms-First-Interval-Fund)
 
 ### Prior Sources (retained)
 - [Mordor Intelligence: UK Asset Management](https://www.mordorintelligence.com/industry-reports/uk-asset-management-industry)
