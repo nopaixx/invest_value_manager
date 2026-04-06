@@ -235,24 +235,9 @@ standing_orders:
     last_analysis_date: 2026-03-02
     expiry: 2026-08-01
 
-  - ticker: SOON.SW
-    action: BUY
-    category: GATED
-    fill_prob_6m: 10
-    trigger: "<=CHF 160"
-    current_distance: "17.9%"
-    created_date: "2026-02-18"
-    staleness_status: FRESH  # >15% but has dated gate (May 2026 FY results)
-    gate: "HARD: Do NOT execute before May 2026 FY2025/26 results"
-    size_eur: 350
-    shares_approx: 2
-    fair_value: "CHF 200"
-    mos_at_trigger: "20%"
-    tier: "B (QS 67)"
-    notes: "R3 complete. DA STRONG COUNTER -31.4% (FV 255->200, entry 180->160). Error #49 confirmed. CHF permanent drag. NARROW moat 18/25. 4 CRITICAL risks. Bear CHF 137-150."
-    pre_execution_condition: "HARD GATE: Do NOT execute before May 2026 FY2025/26 results. Full-year EBITA margin must be >= FY2024/25 (20.9%). FCF > CHF 700M. If margin declines for 4th consecutive year, thesis is DEAD."
-    last_analysis_date: 2026-02-18
-    expiry: 2026-10-01
+  # SOON.SW — ARCHIVED S155b (2026-04-06). NO THESIS FILE exists (only R3 resolution in research/).
+  # Cannot execute without thesis.md. DA STRONG COUNTER -31.4%. CHF drag. 4 CRITICAL risks.
+  # QS 67 Tier B. Not worth pipeline slot given May earnings focus.
 
   # EEFT — ARCHIVED S133 (2026-03-02). STALE TRIAGE: DA STRONG COUNTER -36%, CEO selling,
   # risk VERY HIGH. 18% from trigger. Thesis destroyed. Not worth pipeline slot.
@@ -467,8 +452,8 @@ standing_orders:
     trigger: "<=$190"
     current_distance: "7.1%"  # S155: $203.46 vs $190. Was 1.6% (stale data).
     created_date: "2026-02-25"
-    staleness_status: FRESH  # Dated gate (Q1 FY2026 SSS May 2026). R3 complete S135. S151: 1.6% from trigger, correction deepening.
-    gate: "Q1 FY2026 SSS data (May 2026). R2 COMPLETE S135 (STRONG COUNTER 13/19)."
+    staleness_status: STALE  # S155b: thesis 40d old. Price $153 = TRIGGERED (-19.5% below $190). Needs refresh.
+    gate: "Q1 FY2026 SSS data (May 2026). R2 COMPLETE S135 (STRONG COUNTER 13/19). S155b FLAG: TRIGGERED at $153 but thesis stale + consolidation mode → evaluate POST-May earnings. Do NOT execute before May."
     size_eur: 300
     fair_value: "$240 (R3 revised from $296, -19%)"
     mos_at_trigger: "20.8%"
