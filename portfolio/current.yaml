@@ -141,7 +141,7 @@ positions:
     date_opened: 2026-03-27
     thesis: thesis/active/DNLM.L/thesis.md
     conviction: medium
-    fair_value: "1050 GBp (R4 S284. QS 78 Tier A. UK #1 homewares. Bear 880p/Base 1100p/Bull 1300p.)"
+    fair_value: "1008 GBp (R4 thesis. QS 78 Tier A. UK #1 homewares. Was 1050 in current.yaml — ERROR corrected to match thesis source of truth.)"
     last_review: 2026-03-27
     intentional_weight: 2.0  # Starter position. 90-day prove-or-exit clock.
     exit_plan: "HOLD starter. ADD to 5-7% if Q3 confirms thesis (rev growth >3%, margin stable). EXIT at 90 days if no ADD decision. SELL if KC triggered."
