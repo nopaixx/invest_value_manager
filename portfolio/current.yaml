@@ -7,7 +7,7 @@
 # =============================================================================
 
 cash:
-  amount: 1491.5  # Updated 2026-04-06. +NVO EXIT EUR 878 (sold Mar 31 at $36.40). Was 613.5.
+  amount: 1750.5  # Updated 2026-04-07. Was 1491.5. +EDEN.PA trim EUR ~822 (48sh * EUR 17.12). -MEGP.L ADD EUR ~563 ($650). Net: +259.
   currency: EUR
 
 positions:
@@ -24,18 +24,18 @@ positions:
 
   - ticker: EDEN.PA
     name: "Edenred SA"
-    shares: 80.83  # TRIM PLANNED: sell ~45 shares → ~36 remaining. Execute Mon Apr 7 at market.
-    invested_usd: 1740  # Will update post-execution (proportional)
+    shares: 32.83  # TRIMMED Apr 7: sold 48 shares at EUR 17.12. Was 80.83.
+    invested_usd: 706.5  # Proportional: 1740 * (32.83/80.83)
     avg_cost_usd: 21.57
     avg_cost_eur: 18.45
     date_opened: 2026-02-02
     thesis: thesis/active/EDEN.PA/thesis.md
-    conviction: medium  # Downgraded from HIGH. Zero-base test = 4-5%, not 13%.
-    last_review: 2026-04-06
-    intentional_weight: 6.0  # TRIM PLANNED 13%→6%. Zero-base test: would NOT open 13% today. Execute Mon Apr 7.
+    conviction: medium
+    last_review: 2026-04-07
+    intentional_weight: 6.0  # TRIM EXECUTED Apr 7: 13%→~6%. Zero-base test justified.
     fair_value: "EUR 20.5 (S155b revision. Was 24.0. Italy AGCM 5th front + regulatory contagion discount.)"
     exit_plan: "HOLD at 6% yield play. EXIT if France levy tabled OR Italy AGCM structural remedy OR 2027-28 guide <3% OR Turkey fine >EUR 50M. Q1 revenue Apr 23 = next binary."
-    notes: "S155b Apr 6: TRIM 13%→6% DECIDED. Zero-base test failed (would open 4-5% max, not 13%). Shorts ESCALATING: AMF 9.44→10.02%, MW reversed from reducing to adding, 5 of 9 funds added. Consensus collapsed EUR 33→27.16 (our FV 20.5 in optimistic half). EV of holding excess 45 shares through Q1 = EUR -18 (negative). Asymmetry 2.6x against us. Trim BEFORE Q1 Apr 23, not after. EUR ~770 freed → cash for May earnings deployment. Conviction HIGH→MEDIUM."
+    notes: "Apr 7: TRIM EXECUTED. Sold 48 shares at EUR 17.12 (proceeds EUR ~822). Weight 13%→~6%. Zero-base test justified trim. Shorts ESCALATING: AMF 10.02%. Q1 revenue Apr 23 = next binary. Conviction MEDIUM."
 
   # TATE.L REMOVED 2026-02-08 - Position closed. Adversarial review: QS 45 Tier C, FV -40%, ROIC < WACC. P&L +3.5%.
 
@@ -163,17 +163,17 @@ positions:
 
   - ticker: MEGP.L
     name: "ME Group International PLC"
-    shares: 389.89  # 190.26 (EUR 300 at 136.4p) + ~199.63 ADD (EUR 300 at 130p). Confirm exact from eToro.
-    invested_eur: 600  # 300 + 300 ADD
-    avg_cost_gbp: 133.1  # Blended: (190.26*136.4 + 199.63*130.0) / 389.89
+    shares: 748.89  # 389.89 + ~359 ADD Apr 7 ($650 at 136.60p). Confirm exact from eToro.
+    invested_eur: 1163  # 600 + ~563 ($650 ADD)
+    avg_cost_gbp: 134.8  # Blended: (389.89*133.1 + ~359*136.60) / 748.89
     date_opened: 2026-03-27
     thesis: thesis/active/MEGP.L/thesis.md
-    conviction: medium-high  # Upgraded: E[CAGR] 28.8% tied #1, record PBT, adding capital
+    conviction: high  # Upgraded: largest ADD, E[CAGR] ~28%, deploying aggressively
     fair_value: "200 GBp (R4 S284. QS 80 Tier A. Self-service vending monopoly. Bear 160p/Base 210p/Bull 260p.)"
-    last_review: 2026-03-27
-    intentional_weight: 6.0  # S155: ADD from 3%→6%. Capital from EDEN+HLNE trims. E[CAGR] 28.8% = tied #1.
-    exit_plan: "HOLD. Now material position (6%). SELL if KC triggered (laundry rollout stalls, photobooth decline >10% 2yr, ROIC <20%, German regulation reversed)."
-    notes: "S155: ADD EUR 300 at 130p. Total EUR 600 invested. E[CAGR] 28.8% tied #1 with EDEN.PA. Capital sourced from EDEN.PA HARD TRIM (EUR 346) + HLNE trim (EUR 345). Graduated from starter to material position. FY2025 record PBT confirmed. Laundry EBITDA +18.1%."
+    last_review: 2026-04-07
+    intentional_weight: 10.0  # ADD Apr 7: $650 at 136.60p. Position now ~10% of portfolio. Highest conviction deployment.
+    exit_plan: "HOLD. Largest position by conviction. SELL if KC triggered (laundry rollout stalls, photobooth decline >10% 2yr, ROIC <20%, German regulation reversed)."
+    notes: "Apr 7: ADD $650 at 136.60p (~359 shares). Total ~749 shares, EUR ~1163 invested. E[CAGR] ~28% highest in portfolio. 3rd ADD — graduated to large position. FY2025 record PBT. Laundry EBITDA +18.1%. Self-service vending monopoly."
 
   - ticker: ALFA.L
     name: "Alfa Financial Software Holdings PLC"
@@ -1129,3 +1129,20 @@ transactions:
     price_gbp: 142.3
     total_eur: 240
     notes: "ADD - S155b. Near new 52wL (141.7p). Total EUR 640, 382 shares. Weight 4%→6.5%. Capital from IHP.L trim. ROE 58.6%. Graduated to material."
+
+  - date: 2026-04-07
+    action: TRIM
+    ticker: EDEN.PA
+    shares: 48
+    price_eur: 17.12
+    total_eur: 822
+    notes: "TRIM - S155b execution. 80.83→32.83 shares. Weight 13%→~6%. Zero-base test justified trim. Shorts escalating (AMF 10.02%). Proceeds to cash for May earnings deployment."
+
+  - date: 2026-04-07
+    action: ADD
+    ticker: MEGP.L
+    shares: ~359
+    price_gbp: 136.60
+    total_usd: 650
+    total_eur: ~563
+    notes: "ADD - $650 at 136.60p. Position 389.89→~749 shares. Weight ~6%→~10%. E[CAGR] ~28% highest in portfolio. 3rd ADD. Confirm exact shares from eToro."
