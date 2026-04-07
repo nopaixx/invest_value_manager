@@ -1,15 +1,19 @@
 # Sector: Auto EU
 
-> Ultima actualizacion: 2026-03-18 (macro-analyst refresh — BMW i3 debut today, EU registrations -3.9% Jan, oil $98 WTI)
-> Status: EVITAR mass-market (estructural) | FAVORABLE luxury (Ferrari only)
+> Ultima actualizacion: 2026-04-08 (macro-analyst refresh -- oil $105 WTI (T1), tariffs reduced to 15%, RACE.MI sold, CO2 fines deferred to 2028, Ferrari Luce reveal May 25)
+> Status: EVITAR mass-market (estructural) | MONITOR luxury (Ferrari SOLD, no position)
+
+**April 8 update:** (1) Oil now $105 WTI (T1 verified via macro_fragility.py; was $92-98 in prior view). Hormuz closure ongoing -- petrochemical feedstock costs up 15-25%, plastics prices up 15%. Mass-market devastation intensifies: consumer fuel costs up ~50-80% YoY, ICE operating costs punitive, supply chain disruption from Middle East petrochemicals (22% global supply). (2) RACE.MI SOLD Mar 7 at EUR 312.80 via P16 rotation (E[CAGR] 6.6% worst position). Current price EUR 286.75 -- validated the rotation decision (down 8.3% since sale). Moved to monitor/historial. (3) US-EU auto tariffs REDUCED from 27.5% to 15% (Aug 2025 deal, retroactive). Significant relief vs prior 25% assumption but still material headwind. (4) EU Feb registrations: +1.4% YoY to 865K units (better than Jan -3.9%); BEV share 18.8% YTD, BEV registrations +20.6% YoY in Feb. (5) BYD EU registrations +162.7% YoY through Feb, outselling Tesla in Europe for 2nd straight month. Raised 2026 export target to 1.5M vehicles. Hungary plant progressing. (6) EU CO2 fines DEFERRED: 3-year flexibility mechanism means no fines until 2028 assessment. Relief for mass-market but delays EV urgency. (7) Ferrari Luce (first EV) interior revealed Feb 2026 (Jony Ive design), pre-orders opened March 2026, full reveal May 25 in Rome. 1,000hp quad-motor, 500km+ range, EUR 500K+ pricing. (8) VW still restructuring (35K jobs, capacity -700K vehicles/year); BMW iX3 Neue Klasse production starts Aug 2026 Munich; Stellantis abandoned Level 3 autonomy. (9) Liberation Day tariffs (Apr 2025) 1-year review: 30K US auto jobs lost, auto imports lowest since Feb 2022, Supreme Court ruled tariffs illegal (Feb 2026). (10) ALFA.L cross-reference: our automotive leasing/fleet software position -- oil $105 impacts fleet TCO economics, accelerates EV fleet transition (positive for ALFA.L software demand as fleets need transition management tools).
+
+---
 
 ## Resumen Ejecutivo
 
-The EU auto sector requires a SPLIT VIEW as of March 2026. Mass-market automakers (VW, Stellantis, BMW) remain in structural crisis, now compounded by an oil shock ($92 WTI), 25% US tariffs, and accelerating Chinese EV competition. Luxury auto (Ferrari) operates in an entirely different universe: scarcity-based pricing, 2-year order backlog, 52% ROIC, and insulation from both oil and mass-market dynamics.
+The EU auto sector requires a SPLIT VIEW as of April 2026. Mass-market automakers (VW, Stellantis, BMW) remain in structural crisis, now compounded by an oil shock ($105 WTI, T1 verified), US tariffs (reduced to 15% from 27.5% but still material), and accelerating Chinese EV competition (BYD +162.7% EU registrations YoY). Luxury auto (Ferrari) operates in an entirely different universe but we have NO POSITION after selling RACE.MI Mar 7.
 
-**Mass-market thesis (UNCHANGED):** Value trap. ROIC < WACC, negative FCF from EV capex, asymmetric Chinese competition (BYD, Leapmotor subsidized). Oil at $92 WTI adds TRIPLE headwind: (1) consumer confidence crushed, delaying car purchases; (2) ICE operating costs rise, accelerating EV shift where EU legacy loses to China; (3) supply chain disruption from Hormuz closure (petrochemicals for plastics, rubber). Tariffs add $4,000/vehicle in US market. The sector is being squeezed from every direction.
+**Mass-market thesis (UNCHANGED -- WORSE):** Value trap. ROIC < WACC, negative FCF from EV capex, asymmetric Chinese competition (BYD, Leapmotor subsidized). Oil at $105 WTI adds QUADRUPLE headwind: (1) consumer confidence crushed, delaying car purchases; (2) ICE operating costs rise sharply, accelerating EV shift where EU legacy loses to China; (3) supply chain disruption from Hormuz closure (petrochemicals for plastics, rubber -- 22% global supply, prices up 15-25%); (4) stagflation environment with ECB constrained by oil-driven inflation. Tariff reduction from 27.5% to 15% provides some relief but $35.4B cumulative damage already done. CO2 fine deferral to 2028 reduces near-term margin pressure but delays structural EV transition urgency.
 
-**Luxury thesis (FERRARI):** Antithesis of mass-market. Ferrari's customers do not care about fuel costs, tariffs are absorbed into pricing (F80 at $3.9M sold out 799 units instantly), and oil crises historically have ZERO impact on ultra-luxury demand. Order book extends to end-2027. The 25% US tariff impacts Ferrari less than mass-market because Ferrari's pricing power absorbs it (ASP EUR 400K+, $4K tariff is <1% of price). Ferrari is in our portfolio as a quality compounder, NOT as an auto sector bet.
+**Luxury thesis (FERRARI -- MONITOR, NO POSITION):** Ferrari remains the antithesis of mass-market. RACE.MI was sold Mar 7 at EUR 312.80 as part of P16 rotation (worst E[CAGR] 6.6% in portfolio). Now at EUR 286.75 (down 8.3% since sale). The Luce EV reveal May 25 is a potential catalyst. If price reaches attractive entry (FV EUR 355, would need ~EUR 300 or below for meaningful E[CAGR]), could reconsider. Pre-orders reportedly strong. Not a priority for re-entry given low E[CAGR] at current levels.
 
 ---
 
@@ -17,81 +21,106 @@ The EU auto sector requires a SPLIT VIEW as of March 2026. Mass-market automaker
 
 | Metrica | Mass-Market | Ferrari (RACE.MI) |
 |---------|-------------|-------------------|
-| P/E | 5-7x | ~35x |
+| P/E | 5-7x (VW 6.4x, BMW 6.6x) | ~32x |
 | ROIC | 2-5% (< WACC) | 52% (>> WACC) |
 | FCF Margin | Negative (EV capex) | ~25% |
-| Dividend Yield | 5-7% (sustainable?) | ~0.7% (buybacks instead) |
+| Dividend Yield | 5-7% (sustainable?) | ~1.2% (buybacks instead) |
 | Gross Margin | 15-20% | ~50% |
 | Order Backlog | Declining/stale | End-2027 |
 | Pricing Power | None (commodity) | Absolute (scarcity) |
-| Oil Sensitivity | VERY HIGH | NEGLIGIBLE |
-| Tariff Exposure | HIGH (US = #1 export) | LOW (ASP absorbs) |
+| Oil Sensitivity | VERY HIGH ($105 WTI devastating) | NEGLIGIBLE |
+| Tariff Exposure | MEDIUM (reduced to 15%) | LOW (ASP absorbs) |
+| Current Price | VOW3.DE EUR 85.66, BMW EUR 78.24, STLAM EUR 6.32 | EUR 286.75 |
+| 52wH Distance | VOW3 -21%, BMW -20%, STLAM -40% | RACE -36% |
 
 ---
 
-## Oil Shock Impact ($92 WTI, Iran War — Mar 2026)
+## Oil Shock Impact ($105 WTI, Iran War + Hormuz Closure -- Apr 2026)
 
-### Mass-Market: DEVASTATING
+### Mass-Market: DEVASTATING (WORSE than Mar view at $92-98)
 
-1. **Consumer confidence collapse**: Oil at $92 = fuel costs up 30-50% for consumers. Car purchases are first discretionary item postponed. EU auto registrations expected to decline 5-8% if sustained
-2. **ICE economics worsen**: Higher fuel costs accelerate EV adoption. But EU legacy automakers are LOSING the EV race to BYD/Tesla. Paradox: oil shock pushes consumers toward EVs where European manufacturers are weakest
-3. **Supply chain disruption**: Hormuz near-total halt affects petrochemical inputs (plastics, rubber, synthetic materials). ~3,200 ships idle in Gulf. Component costs rise
-4. **Stagflation environment**: ECB may hold rates (oil-driven inflation), prolonging financing costs for car buyers. Auto loans become more expensive exactly when consumers are most squeezed
+1. **Consumer confidence collapse**: Oil at $105 = fuel costs up 50-80% for consumers vs pre-crisis. Car purchases are first discretionary item postponed. EU Feb registrations only +1.4% YoY despite easy comp -- oil shock impact building
+2. **ICE economics punitive**: Higher fuel costs accelerate EV adoption. But EU legacy automakers are LOSING the EV race to BYD/Tesla. Paradox: oil shock pushes consumers toward EVs where European manufacturers are weakest
+3. **Supply chain disruption MATERIAL**: Hormuz near-total halt affects petrochemical inputs (plastics, rubber, synthetic materials). 193 active petrochemical complexes in Middle East handling 22% of global supply. Plastics prices up 15%, feedstock costs up 15-25%. For large OEMs producing 500K+ vehicles/year, this is tens of millions in additional input costs
+4. **Stagflation environment**: ECB constrained by oil-driven inflation. Auto loans more expensive exactly when consumers are most squeezed
 5. **Middle East markets disrupted**: Gulf states (UAE, Saudi) are key premium market for BMW/Mercedes. War zone = sales collapse
 
 ### Luxury (Ferrari): INSULATED
 
-1. Ferrari buyers are ultra-high-net-worth. Fuel costs are irrelevant to someone buying a $400K+ car
+1. Ferrari buyers are ultra-high-net-worth. Fuel costs are irrelevant to someone buying a EUR 400K+ car
 2. Order book to end-2027 means current demand already locked in regardless of macro
-3. F1 brand strengthens in crisis (entertainment, aspiration)
-4. Historically, luxury goods sales have been resilient through oil crises (2008 exception was FINANCIAL crisis, not oil crisis)
-5. Ferrari actually benefits from wealth polarization that crises create
+3. Historically, luxury goods sales have been resilient through oil crises (2008 exception was FINANCIAL crisis, not oil crisis)
+4. Ferrari actually benefits from wealth polarization that crises create
+
+### ALFA.L Cross-Reference (Portfolio Position)
+
+Our ALFA.L position (automotive leasing/fleet software) is affected by oil shock dynamics:
+- Oil $105 accelerates fleet EV transition -- fleets need software tools to manage mixed ICE/EV fleet economics (POSITIVE for ALFA.L demand)
+- Higher fleet TCO on ICE vehicles increases urgency for fleet optimization software
+- Risk: if oil shock causes broader economic slowdown, fleet capex may be deferred
+- Net assessment: likely NEUTRAL to MILDLY POSITIVE for ALFA.L specifically
 
 ---
 
-## Tariff Headwinds
+## Tariff Update (Apr 2026)
 
-### 25% US Tariff on EU Autos (Active since Apr 2025)
+### US Tariff on EU Autos: REDUCED to 15% (from 27.5%)
 
-- US is EU auto's #1 export destination: EUR 56B annually
-- German auto GVA falls 5.3%, Italian 4.7% (Oxford Economics)
-- BMW estimates $1.1B earnings hit in 2026
-- VW, Mercedes, BMW have US plants but still import many models
-- 15% EU surcharge on top (Trump additional tariff)
-- EU CO2 fines 2025+ = ADDITIONAL margin pressure
+- **Aug 2025 deal**: Trump reduced EU auto tariff from 27.5% to 15%, retroactive from Aug 1 2025
+- **Condition**: EU introduces legislation to lower tariffs on certain US goods
+- **Cumulative damage**: $35.4B in tariff costs since Liberation Day (Apr 2025)
+- **Jobs lost**: ~30K US auto manufacturing jobs since tariffs began
+- **Supreme Court**: Ruled Liberation Day tariffs illegal (Feb 2026) but enforcement unclear
+- **Net impact for EU OEMs**: 15% still significant but roughly halves the prior 25-27.5% headwind. Audi 2026 models show $1,900-$4,100 price increases reflecting residual tariff pass-through
+- **Steel/aluminum**: Still at 50% tariff -- affects vehicle production costs
 
-### Ferrari Tariff Impact: MINIMAL
+### Ferrari Tariff Impact: STILL MINIMAL
 
-- ASP >EUR 400K. $4,000 tariff = <1% of vehicle price
-- Ferrari has proven pricing power to pass through costs entirely
+- ASP >EUR 400K. Even at 15%, the tariff on a EUR 400K vehicle is ~EUR 60K in absolute terms but Ferrari's pricing power can absorb this
 - US is ~30% of Ferrari revenue but customers are price-insensitive
-- F80 ($3.9M) buyers would not notice a $100K tariff, let alone $4K
 
 ---
 
-## EV Transition Status (Updated Mar 2026)
+## EV Transition Status (Updated Apr 2026)
 
-### Chinese Competition: ACCELERATING
+### Chinese Competition: ACCELERATING FASTER
 
-- BYD overtook Tesla globally. Chinese-brand plug-in share in Europe doubled from 3.4% to 6% in 2025, growing further in 2026
-- EU price floor deal incentivizes Chinese localization (BYD Hungary plant, Chery R&D Spain)
-- Stellantis adopting Leapmotor EV tech to cut costs -- a concession of technological inferiority
-- EU imposed tariffs on Chinese EVs (up to 35.3%) but this only SLOWS, does not stop, Chinese penetration
+- BYD EU registrations +162.7% YoY through February 2026. Outselling Tesla in Europe for 2nd straight month
+- BYD raised 2026 export target to 1.5M vehicles (up from initial 1.3M)
+- BYD Hungary plant progressing -- local production will undercut EU tariff barriers
+- Leapmotor (Stellantis partner) expanding -- ironic that Stellantis concedes tech to compete
+- EU tariffs on Chinese EVs (up to 35.3%) only SLOWING penetration, not stopping it
+- BYD Q1 2026 global pure EV deliveries down 25% YoY (310K units) but international sales compensating -- ~100K/month overseas, jumping to 120K in March
 
 ### European OEM Position: STILL BEHIND
 
-- **VW**: Farthest from CO2 targets (+7g CO2/km), restructuring 35K jobs. Still 75% ICE
-- **BMW**: Highest BEV share among major EU OEMs (25% in Jan 2026). Neue Klasse (iX3) launched. Best positioned of legacy, still weak
-- **Stellantis**: Adopting Chinese (Leapmotor) technology for cost cuts. 80% ICE. Margin compression
+- **VW**: Restructuring 35K jobs, capacity cut 700K vehicles/year. Launching ID. Polo at EUR 25K (affordable EV attempt). New Q4 e-tron variants in 2026. Still fundamentally behind on cost/scale vs BYD
+- **BMW**: Neue Klasse iX3 production starts Aug 2026 Munich (EUR 650M plant conversion). Best positioned of legacy OEMs but 25% BEV share still means 75% ICE exposure
+- **Stellantis**: Abandoned Level 3 autonomy (cost/complexity). Leapmotor partnership = admission of technological gap. STLAM at EUR 6.32, down 40% from 52wH
 - **Mercedes**: Luxury positioning helps but EV margins far below ICE. Slowed EV targets
-- Western OEMs launching 800V EVs in 2026 to compete, but BYD already 2-3 years ahead on cost/scale
 
-### Ferrari EV Strategy: DIFFERENTIATED
+### Ferrari Luce EV: KEY CATALYST (May 25 Reveal)
 
-- First EV expected late 2025/2026. Priced at EUR 500K+ (rumored)
-- Ferrari does NOT compete on volume or price in EV. It competes on brand, performance, exclusivity
-- EV transition is an OPPORTUNITY for Ferrari (new price points, new customer segment) rather than a threat
-- Challenge: proving EV can deliver the "Ferrari experience" (sound, emotion). But F80 hybrid sold out
+- Name revealed: "Luce" (Light). Ferrari's first fully electric vehicle
+- Interior revealed Feb 2026: designed by Jony Ive (LoveFrom) + Ferrari in-house
+- Pre-orders opened March 2026, reportedly strong reception
+- Full exterior reveal: **May 25, 2026 in Rome** (symbolic: date of Ferrari's first race victory, 1947)
+- Specs: 1,000hp quad-motor, 500km+ range, crossover form factor
+- Pricing: EUR 500K+ (rumored) -- maintains ultra-luxury positioning
+- Key question: can Ferrari prove EV delivers "Ferrari experience" (sound, emotion)?
+- F80 hybrid ($3.9M, sold out 799 units) suggests yes
+
+---
+
+## EU CO2 Fines: DEFERRED to 2028
+
+- **Major change**: EU adopted 3-year flexibility mechanism (2025-2027)
+- Manufacturers assessed on cumulative 3-year performance, not annually
+- First fines now expected in 2028, not 2025/2026 as previously feared
+- **Impact**: Removes near-term margin pressure on mass-market OEMs
+- **Downside**: Reduces urgency to push EV sales, may SLOW transition
+- **Net for mass-market**: Short-term relief, long-term problem delayed not solved
+- Estimated industry-wide fines if targets missed: ~EUR 16B
 
 ---
 
@@ -107,34 +136,37 @@ The EU auto sector requires a SPLIT VIEW as of March 2026. Mass-market automaker
 
 ## Estructura Competitiva
 
-| Empresa | Status | Oil Impact | Tariff Impact | EV Position | Overall |
-|---------|--------|------------|---------------|-------------|---------|
-| Volkswagen | Crisis | HIGH (75% ICE) | HIGH ($67B exports) | BEHIND (CO2 miss) | EVITAR |
-| Stellantis | Crisis | VERY HIGH (80% ICE) | HIGH | CONCEDING (Leapmotor) | EVITAR |
-| BMW | Stressed | HIGH (70% ICE) | HIGH ($1.1B hit) | BEST of legacy (25% BEV) | EVITAR |
-| Mercedes | Stressed | MEDIUM (luxury buffer) | MEDIUM | SLOWING targets | EVITAR |
-| **Ferrari** | **Strong** | **NEGLIGIBLE** | **NEGLIGIBLE** | **DIFFERENTIATED** | **FAVORABLE** |
+| Empresa | Status | Oil Impact | Tariff Impact (15%) | EV Position | Overall |
+|---------|--------|------------|---------------------|-------------|---------|
+| Volkswagen | Crisis | HIGH (75% ICE) | MEDIUM (reduced) | BEHIND (CO2 miss) | EVITAR |
+| Stellantis | Crisis | VERY HIGH (80% ICE) | MEDIUM (reduced) | CONCEDING (Leapmotor) | EVITAR |
+| BMW | Stressed | HIGH (70% ICE) | MEDIUM (reduced) | BEST of legacy (25% BEV) | EVITAR |
+| Mercedes | Stressed | MEDIUM (luxury buffer) | MEDIUM (reduced) | SLOWING targets | EVITAR |
+| **Ferrari** | **Strong** | **NEGLIGIBLE** | **LOW** | **DIFFERENTIATED (Luce)** | **MONITOR** |
 
 ---
 
 ## Sentimiento de Mercado
 
-**Mass-market sentiment:** MUY ODIADO. Rightly so. Oil shock + tariffs + Chinese competition = triple headwind on already broken fundamentals. No contrarian opportunity here.
+**Mass-market sentiment:** MUY ODIADO. Rightly so. Oil shock $105 + tariffs (reduced but still material) + Chinese competition accelerating + supply chain disruption = multiple headwinds on already broken fundamentals. STLAM.MI -40% from 52wH, paying 11.1% dividend (sustainability questionable with N/A P/E). No contrarian opportunity here -- structural, not cyclical.
 
-**Ferrari sentiment:** Constructive. 11 Buy / 3 Hold / 0 Sell. Median PT $475 (NYSE). Analyst consensus is that Ferrari transcends the auto sector. We agree.
+**Ferrari sentiment:** Constructive but stock has corrected. RACE.MI at EUR 286.75, down 36% from 52wH EUR 449.80. P/E compressed to 32x from ~45x. Luce reveal May 25 is near-term catalyst. We sold at EUR 312.80 -- price has validated our rotation decision.
 
 ---
 
 ## Nuestras Posiciones Actuales
 
-| Ticker | Name | Entry | FV | QS | Tier | Status |
-|--------|------|-------|-----|-----|------|--------|
-| RACE.MI | Ferrari N.V. | EUR 312.80 (SOLD Mar 7) | EUR 355 | 82/84adj | A | SOLD — T15 rotation, E[CAGR] 6.6% worst |
+**No direct auto sector positions.** RACE.MI sold Mar 7.
 
-**Basket:** EU Value Recovery (2nd position alongside EDEN.PA)
+**Cross-reference:** ALFA.L (automotive leasing/fleet software) in portfolio -- indirect auto sector exposure. Oil $105 impacts fleet economics but may accelerate demand for fleet management/transition software.
 
-**Why Ferrari is NOT an "auto sector" bet:**
-Ferrari's business model has more in common with Hermes or LVMH than with VW or Stellantis. It sells scarcity, brand, and emotion -- not transportation. Its 52% ROIC, 50% gross margin, and 2-year order book put it in the luxury goods category, not automotive. We own it for quality compounding, not sector exposure.
+---
+
+## Historial de Posiciones
+
+| Ticker | Name | Entry | Exit | P&L | Reason |
+|--------|------|-------|------|-----|--------|
+| RACE.MI | Ferrari N.V. | EUR 312.80 | EUR 312.80 (Mar 7) | ~0% | P16 rotation: E[CAGR] 6.6% worst in portfolio. Validated: now EUR 286.75 (-8.3%) |
 
 ---
 
@@ -142,24 +174,25 @@ Ferrari's business model has more in common with Hermes or LVMH than with VW or 
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Portfolio | RACE.MI | thesis/active/RACE.MI/thesis.md | 2026-03-05 | HOLD |
+| Cross-ref | ALFA.L | thesis/active/ALFA.L/thesis.md | 2026-04-08 | HOLD (fleet software, indirect auto exposure) |
+| Monitor | RACE.MI | thesis/archive/RACE.MI | 2026-03-07 | SOLD, monitor for re-entry |
 | Research | VOW3.DE | thesis/research/VOW3.DE | 2026-02-05 | REJECT |
 | Research | BMW.DE | thesis/research/BMW.DE | 2026-02-05 | REJECT |
 
 ### Protocolo de Cambio Material
 
 Mass-market: Only re-evaluate if evidence of turnaround (ROIC > WACC, FCF positive, 2+ quarters margin improvement).
-Ferrari: Standard R4-approved thesis monitoring (KCs, earnings, macro fit).
+Ferrari: Monitor for re-entry if E[CAGR] reaches >12% (would need ~EUR 300 or below). Luce reveal May 25 potential catalyst.
 
 ---
 
 ## Empresas Objetivo
 
-### Active Portfolio
+### Monitor for Re-Entry
 
-| Ticker | Razon | Priority | Next Review |
-|--------|-------|----------|-------------|
-| RACE.MI | Luxury compounder, Tier A QS 84 | Active position | Earnings ~May 2026, AGM Apr 15 |
+| Ticker | Razon | Priority | Trigger |
+|--------|-------|----------|---------|
+| RACE.MI | Former position, quality compounder QS 82 | Media | Price <EUR 300 AND post-Luce validation |
 
 ### For Analysis (IF mass-market conditions change)
 
@@ -173,9 +206,9 @@ Ferrari: Standard R4-approved thesis monitoring (KCs, earnings, macro fit).
 
 | Ticker | Razon |
 |--------|-------|
-| All mass-market EU OEMs | Structural crisis: ROIC < WACC, oil headwind, tariffs, Chinese competition |
+| All mass-market EU OEMs | Structural crisis: ROIC < WACC, oil $105 headwind, tariffs, Chinese competition, supply chain disruption |
 | Renault | Similar dynamics, no competitive edge |
-| Stellantis | Conceding technology to Chinese partner |
+| Stellantis | Conceding technology to Chinese partner, abandoned L3 autonomy |
 
 ---
 
@@ -192,12 +225,11 @@ Ferrari: Standard R4-approved thesis monitoring (KCs, earnings, macro fit).
 
 | Fecha | Evento | Impacto | Accion |
 |-------|--------|---------|--------|
-| Apr 15 | RACE.MI AGM | Buyback update, guidance | Monitor (portfolio) |
-| May 2026 | RACE.MI Q1 earnings | Margin, order book, EV timeline | Review thesis |
-| Mar-Apr 2026 | VW/BMW/Stellantis annual results | Restructuring progress | Monitor for turnaround signals |
-| Q2 2026 | EU CO2 fines impact | Margin pressure on mass-market | Reinforces EVITAR |
-| H2 2026 | Ferrari first EV launch? | Pricing, demand validation | Monitor for thesis impact |
-| 2026-2027 | VW restructuring (35K job cuts) | Potential turnaround indicator | Low priority watch |
+| May 25 | Ferrari Luce full reveal (Rome) | Brand extension validation, pre-order data | Monitor for re-entry signal |
+| May 2026 | RACE.MI Q1 earnings | Margin, order book, Luce pre-order numbers | Monitor |
+| Apr-May 2026 | VW/BMW/Stellantis Q1 results | Oil impact on margins, restructuring progress | Monitor for turnaround signals |
+| Aug 2026 | BMW iX3 Neue Klasse production start (Munich) | EV execution test | Low priority |
+| 2028 | EU CO2 fines first assessment | Margin pressure on mass-market (deferred from 2025) | Long-term watch |
 
 ---
 
@@ -205,11 +237,12 @@ Ferrari: Standard R4-approved thesis monitoring (KCs, earnings, macro fit).
 
 | Risk | Probability | Impact | Affected |
 |------|-------------|--------|----------|
-| Oil sustained >$100 for 6+ months | 20-30% | Devastating for mass-market, neutral for Ferrari | VW, Stellantis, BMW |
+| Oil sustained >$100 for 6+ months | 50-60% (Hormuz ongoing) | Devastating for mass-market, neutral for Ferrari | VW, Stellantis, BMW |
 | BYD launches EUR 15K EV in EU | 40-50% (2026-27) | Existential for mass-market volume brands | VW, Stellantis |
 | EU removes/reduces Chinese EV tariffs | 15-20% | Accelerates Chinese market share capture | All EU mass-market |
-| Ferrari brand dilution from EV entry | 5-10% | Medium for RACE.MI | KC to monitor |
-| Tariff escalation beyond 25% | 10-15% | Incremental damage to mass-market | All EU exporters |
+| Ferrari brand dilution from Luce EV entry | 5-10% | Medium for RACE.MI | Monitor May 25 |
+| Tariff re-escalation above 15% | 10-15% | Incremental damage to mass-market | All EU exporters |
+| Petrochemical supply chain collapse (Hormuz prolonged) | 20-30% | Production halts, input costs spike further | All OEMs, component suppliers |
 
 ---
 
@@ -219,7 +252,9 @@ Ferrari: Standard R4-approved thesis monitoring (KCs, earnings, macro fit).
 |-------|--------|-------|
 | 2026-02-05 | Status inicial: EVITAR | Analisis VOW3.DE revelo sector estructuralmente roto |
 | 2026-03-02 | IRAN CASCADE: EVITAR reforzado | Operation Epic Fury. Oil $78+. ICE economics worsened |
-| **2026-03-07** | **SPLIT VIEW: EVITAR mass-market / FAVORABLE luxury. Oil $92 WTI impact. Tariff analysis. Ferrari position added. EV status updated (BYD doubling EU share, Stellantis adopting Chinese tech). German fiscal stimulus assessed as insufficient catalyst.** |
+| 2026-03-07 | SPLIT VIEW: EVITAR mass-market / FAVORABLE luxury | Oil $92 WTI impact. Tariff analysis. Ferrari position added |
+| 2026-03-18 | Refresh: BMW i3 Neue Klasse debut, EU Jan registrations -3.9%, oil $98 WTI | RACE.MI SOLD Mar 7 noted |
+| **2026-04-08** | **MATERIAL REFRESH: Oil $105 WTI (T1, was $92-98). US tariffs reduced 27.5%->15% (Aug 2025 deal). RACE.MI moved to historial (sold Mar 7, now EUR 286.75). EU Feb regs +1.4% YoY, BEV +20.6%. BYD EU +162.7% YoY. CO2 fines deferred to 2028. Ferrari Luce pre-orders open, reveal May 25. Petrochemical supply chain disruption (Hormuz: plastics +15%, feedstock +15-25%). ALFA.L cross-reference added. Status: EVITAR mass-market / MONITOR luxury (no position).** |
 
 ---
 
@@ -229,38 +264,56 @@ Ferrari: Standard R4-approved thesis monitoring (KCs, earnings, macro fit).
 2. **FCF positive sustained** (not one-time)
 3. **Evidence of pricing power vs BYD** (margins improving, not declining)
 4. **Restructuring success** (costs down, margins up)
-5. **Oil normalizes below $75** AND tariff de-escalation
+5. **Oil normalizes below $75** AND tariff de-escalation below 10%
 
-**Until then: EVITAR mass-market completely. Ferrari monitored as luxury compounder, not auto sector bet.**
+**Until then: EVITAR mass-market completely. Ferrari monitored for potential re-entry (need EUR <300 + Luce validation for meaningful E[CAGR]).**
+
+---
+
+## Condiciones para Ferrari Re-Entry
+
+1. Price below EUR 300 (FV EUR 355, would give ~6% annual FV gap -- need higher E[CAGR] via growth)
+2. Luce reveal (May 25) validates EV strategy -- pre-order demand, pricing confirmation
+3. Q1 earnings confirm continued execution (margins, order book)
+4. Portfolio context: higher E[CAGR] candidates must not be available (P16 rotation logic)
+5. QS re-confirmation: 82+ after Luce data
 
 ---
 
 ## Fuentes
 
-### Tariffs & Trade
-- [Oxford Economics: How Trump's tariffs could derail Europe's auto powerhouse](https://www.oxfordeconomics.com/resource/driving-into-uncertainty-how-trumps-tariffs-could-derail-europes-automotive-powerhouse/)
-- [S&P Global: Auto tariffs lead to major forecast downgrades](https://www.spglobal.com/automotive-insights/en/rapid-impact-analysis/auto-tariffs-lead-to-forecast-downgrades)
-- [Rabobank: Assessing US tariffs impact on EU auto sector](https://www.rabobank.com/knowledge/d011480100-assessing-the-impact-of-us-tariffs-on-the-european-automotive-sector)
-- [OilPrice.com: Trump tariffs shock European auto industry](https://oilprice.com/Finance/the-Economy/Trump-Tariffs-Shock-European-Auto-Industry.html)
+### Tariffs & Trade (Updated Apr 2026)
+- [Digital Dealer: Auto tariffs $35.4B cumulative tracker](https://digitaldealer.com/news/us-tariff-tracker-impact-automaker-response/164521/)
+- [CBT News: US-EU trade deal 15% tariff baseline](https://www.cbtnews.com/u-s-eu-trade-deal-sets-15-tariff-baseline-easing-auto-and-tech-sector-uncertainty/)
+- [Euronews: US drops tariffs on EU cars to 15%](https://www.euronews.com/business/2025/09/25/us-drops-tariffs-on-eu-cars-to-15)
+- [ACEA: Clarity on EU-US auto tariffs](https://www.acea.auto/press-release/clarity-on-eu-us-auto-tariffs-marks-progress-now-momentum-must-be-maintained/)
+- [Automotive Logistics: EU-US trade deal auto impact](https://www.automotivelogistics.media/supply-chain/us-and-eu-trade-deal-details-how-auto-industry-will-be-affected/655190/)
 
-### EV Transition & Competition
-- [Torque News: EU's new price floor for Chinese EVs](https://www.torquenews.com/17995/great-ev-truce-2026-how-eus-new-price-floor-chinese-electric-cars-redrawing-global-trade-map)
-- [ICCT: European car market monitor Jan 2026](https://theicct.org/publication/european-car-market-monitor-jan-2026/)
-- [CnEVPost: Stellantis mulls adopting Leapmotor EV tech](https://cnevpost.com/2026/02/26/stellantis-mulls-adopting-leapmotor-ev-tech-for-european-models/)
-- [InsideEVs: Europe's EV boom -- the real fight starts in 2026](https://insideevs.com/features/783139/ev-adoption-europe-conclusions-2025/)
-- [Euronews: BYD overtakes Tesla](https://www.euronews.com/business/2026/01/02/byd-overtakes-tesla-as-china-reshapes-the-global-ev-race)
+### EU Registrations & EV Data
+- [ACEA: Feb 2026 registrations -1.2% YTD, BEV 18.8%](https://www.acea.auto/pc-registrations/new-car-registrations-1-2-in-february-2026-year-to-date-battery-electric-18-8-market-share/)
+- [Electrive: ACEA BEV registrations up 20%](https://www.electrive.com/2026/03/24/acea-bev-registrations-up-20/)
+- [Electrek: BYD outsells Tesla in Europe Feb 2026](https://electrek.co/2026/03/24/byd-outsells-tesla-europe-february-2026-registrations/)
+- [EV: BYD sales rise across key EU markets Q1](https://eletric-vehicles.com/byd/byd-sales-rise-across-key-eu-markets-in-q1-led-by-record-month-in-spain/)
 
-### Ferrari
-- [Globe and Mail: Ferrari beats 2025 targets, brings 2026 goals forward](https://www.theglobeandmail.com/investing/markets/stocks/RACE-N/pressreleases/157956/ferrari-beats-2025-targets-and-brings-2026-goals-forward-as-margins-and-cash-flow-surge/)
-- [Motley Fool: What Ferrari needs to prove in 2026](https://www.fool.com/investing/2026/01/14/what-ferrari-needs-to-prove-in-2026/)
-- [Seeking Alpha: Ferrari de-risked setup, rating upgrade](https://seekingalpha.com/article/4858775-ferrari-de-risked-setup-reset-year-ahead-valuation-back-in-play-rating-upgrade)
+### Oil & Supply Chain (Hormuz)
+- [CNBC: Hormuz petrochemicals plastics impact](https://www.cnbc.com/2026/03/28/iran-war-strait-of-hormuz-petrochemicals-oil-plastics.html)
+- [Supply Chain Dive: Manufacturers brace for Hormuz price increases](https://www.supplychaindive.com/news/manufacturers-brace-price-increases-strait-of-hormuz-closure-oil-petrochemicals/815911/)
+- [Automotive Manufacturing Solutions: Iran conflict auto production impact](https://www.automotivemanufacturingsolutions.com/analysis/iran-conflict-sends-shockwaves-through-auto-production-and-supply-chains/2616710/)
+- [WEF: Beyond oil -- 9 commodities impacted by Hormuz](https://www.weforum.org/stories/2026/04/beyond-oil-lng-commodities-impacted-closure-hormuz-strait/)
 
-### German Fiscal Stimulus
-- [Clean Energy Wire: Germany's EUR 500B infrastructure fund](https://www.cleanenergywire.org/factsheets/qa-germanys-eu500-bln-infrastructure-fund-whats-it-climate-and-energy)
-- [Amundi: Germany recovery and fiscal stimulus 2026](https://www.amundi.com/institutional/article/germany-recovery-and-fiscal-stimulus-2026)
+### Ferrari Luce EV
+- [Electrek: Ferrari reveals Luce name, Jony Ive interior](https://electrek.co/2026/02/09/ferrari-reveals-name-first-electric-car-luce-shows-off-jony-ive-designed-interior/)
+- [The Supercar Blog: Ferrari Luce unveil May 25 2026](https://www.thesupercarblog.com/ferrari-luce-to-be-officially-unveiled-on-may-25-2026/)
+- [GBAF: Ferrari Luce pre-orders open March](https://www.globalbankingandfinance.com/ferrari-open-new-luce-ev-model-pre-orders-march-positive/)
+
+### CO2 Fines
+- [ACEA: Penalty relief 2025 for cars and vans](https://www.acea.auto/news/penalty-relief-for-2025-for-cars-and-vans-why-it-matters-and-whats-at-stake/)
+
+### German Auto OEMs
+- [AutoNews: VW Group recovery hinges on restructuring](https://www.autonews.com/volkswagen/ane-vw-group-scene-setter-2025-final-results-0309/)
+- [AutoWorld Journal: BMW Munich plant Neue Klasse conversion](https://autoworldjournal.com/bmw-revamps-munich-plant)
 
 ### Previous Sources (retained)
+- [Oxford Economics: How Trump's tariffs could derail Europe's auto powerhouse](https://www.oxfordeconomics.com/resource/driving-into-uncertainty-how-trumps-tariffs-could-derail-europes-automotive-powerhouse/)
+- [S&P Global: Auto tariffs lead to major forecast downgrades](https://www.spglobal.com/automotive-insights/en/rapid-impact-analysis/auto-tariffs-lead-to-forecast-downgrades)
 - [VW Annual Report 2024](https://www.volkswagen-group.com/en/annual-report-and-full-year-results-2024-19005)
-- [Morningstar: VW tariff woes](https://global.morningstar.com/en-gb/stocks/stock-week-volkswagen-faces-tariff-woes)
-
-| **2026-03-18** | **Refresh: BMW i3 Neue Klasse debut today (440mi range, 400kW charging, production Aug Munich). EU Jan registrations -3.9% YoY to 800K units; EV share 19.3% (up from 14.9%). Oil WTI $98 (T1). RACE.MI SOLD Mar 7 — no portfolio exposure. US March sales surged to 1.59M units (pre-tariff rush). Tariffs cost automakers $35.4B cumulative.** |
