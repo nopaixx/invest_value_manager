@@ -56,7 +56,7 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 - **Personal Lines**: Auto improving (95-100% CR) but social inflation eroding gains. Tariffs add $7-24B/yr claims costs (auto parts 50%+ imported). Homeowners under cat pressure (LA wildfires $37.5B insured) + tariff-driven reconstruction cost inflation ($7.5-11K/home)
 - **Commercial Lines**: 5+ years of profitability. Rate increases moderating to LOW SINGLE DIGITS. Property rates DIPPED for first time since 2017
 - **Workers Comp**: Excellent (86% CR, 8+ years <90%). Best-performing line
-- **General Liability**: Problematic (CR >107%). Nuclear verdicts +52% in 2024, median $44M (3x since 2020). Social inflation is THE headwind. Tort reform in FL/GA/LA providing partial offset (FL dropped from #2 to #10 state for nuclear verdicts post-2023 reform). Casualty reserves under scrutiny -- loss trends 12-15%
+- **General Liability**: Problematic (CR >107%). Nuclear verdicts >$10M surged 89->135/year (+52%), >$100M nearly doubled 27->49. Median $44M (3x since 2020). Social inflation is THE headwind. Tort reform in FL/GA/LA providing partial offset (FL dropped from #2 to #10 state for nuclear verdicts post-2023 reform). Casualty reserves under scrutiny -- loss trends 12-15%
 
 ### Life Insurance (GL's primary segment)
 - Demand for savings products (annuities) strong with elevated rates
@@ -124,7 +124,7 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 | Tipos de interes | Alta (Life), Media (P&C) | Fed hold at 3.50-3.75% = continued strong investment income. Oil at $112 DELAYS cuts further = NET POSITIVE for insurers |
 | Recesion | Media | Primas inelasticas short-term. Claims may rise. GL: life/health demand = countercyclical |
 | Inflacion | Alta | Loss cost inflation (social inflation + oil + tariffs) in auto/property. BUT rate increases are tracking in liability lines. Oil spike + tariffs add material cost pressure |
-| Catastrofes | Muy Alta (P&C), None (Brokers/Fee) | LA wildfires $37.5B insured in 2025. 2026 hurricane forecast: NEAR NORMAL (11-16 storms, El Nino potential suppression) |
+| Catastrofes | Muy Alta (P&C), None (Brokers/Fee) | LA wildfires $40B insured in 2025 (Swiss Re revised). 2025 global insured losses $107B -- record secondary perils, wildfire fastest-growing risk (+12%/yr). 2026 hurricane forecast: NEAR NORMAL (11-16 storms, El Nino potential suppression) |
 | Social Inflation | Alta | THE emerging risk. Nuclear verdicts median $44M (3x since 2020). Jury attitudes shifting. FL/GA tort reform providing partial offset |
 | Tariffs | Media (P&C) | NEW. Liberation Day tariffs Apr 2. Auto repair +$7-24B/yr (APCIA). Property reconstruction +$7.5-11K/home (NAHB). Indirect but material for claims costs |
 
@@ -157,7 +157,7 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 - **FV**: $191 (v3.0) | **MoS**: 24.7% | **QS**: 52/55adj Tier B borderline
 - **Conviction**: MEDIUM
 - **Q4 2025 earnings (Feb 4)**: BEAT. EPS $3.29 (+9.3% YoY). FY2025 $14.07. Net health sales +71%. $170M buybacks. FY2026 guidance RAISED to $14.95-$15.65 (midpoint $15.30 = P/E 9.3x forward)
-- **Mar 2026 developments**: CEO Darden sold 18,318 shares ($2.66M) on Mar 4 -- ownership down 26.4% to 51,093 shares ($7.41M remaining). Board approved dividend increase same day. US Bancorp DE reduced stake (Mar 3). **YELLOW FLAG on insider sale magnitude -- monitor for pattern**
+- **Mar 2026 developments**: Two new board members appointed Feb 25 (Derek Kan -- tech/regulatory, Sandra Phillips -- legal/compliance). CEO Darden sold 18,318 shares ($2.66M) on Mar 4 -- ownership down 26.4% to 51,093 shares ($7.41M remaining). Board approved dividend increase same day. US Bancorp DE reduced stake (Mar 3). **YELLOW FLAG on insider sale magnitude -- monitor for pattern**
 - **Apr 7 update**: No further CEO insider sales. Class action proceeding, no new developments. Data breach settlement $4.66M awaiting preliminary approval (immaterial). Q1 2026 earnings scheduled **Apr 29**.
 - **Litigation status**: SEC+DOJ CLEARED Jul 2025. Securities class action proceeding (Texas court denied GL dismissal motion Sep 2025 -- "plausible claims for relief"). Data breach settlement $4.66M filed Feb 12 (immaterial). Class action resolution = PRIMARY catalyst for re-rating
 - **Iran crisis impact**: NONE. US domestic life/health. Defensive in crisis. Oil inflation delays Fed cuts = POSITIVE for investment income
@@ -183,13 +183,13 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 
 ### Kinsale Capital (KNSL) -- E&S Specialty -- SO GATED (R3 COMPLETE)
 - **SO**: $280 (18.9% from current $345.26) | **Category**: GATED | **Fill prob 6mo**: 20%
-- **FV**: $390 (R3 resolution, revised from $458) | **MoS at trigger**: 28.2% | **QS**: 61/65adj Tier B (reclassified from Tier A per R3)
+- **FV**: $390 (R3 resolution, revised from $458) | **MoS at trigger**: 28.2% | **QS**: 61/73adj Tier B (reclassified from Tier A per R3)
 - **R3 resolution**: FV lowered $458 to $390. Entry tightened $355 to $280. Gate: G1+G2+G3 with failure path. Tier A to Tier B reclassification reflects E&S growth deceleration risk
 - **Q4 2025 earnings (Feb 12)**: STRONG BEAT. EPS $5.81 (vs $5.30 est). Rev $483M (+17.3%). CR 71.7% (vs 74.8% est). FY2025 NI $503.6M (+21.4%)
 - **Q1 2026 earnings: Apr 23** (after close), call Apr 24. THIS IS THE GATE VERIFICATION EVENT
 - **Cycle position**: KNSL benefits from P&C softening in ADMITTED market -- more risks flow to E&S market as standard carriers tighten. KNSL's technology cost advantage (expense ratio 20% vs industry 30%) widens in competitive environments. BUT E&S growth decelerated to 3% H2 2025
-- **Mar 2026**: Board approved $250M share buyback program + $0.25/share quarterly dividend. BMO downgraded to Underperform (Feb 25), Cantor PT lowered to $360 (Feb 17), Morgan Stanley maintains Buy (Feb 23). Truist lowered PT $510 to $450 (Feb). Mixed analyst sentiment. 4 Buy, 6 Hold, 2 Sell (avg PT $431)
-- **Apr 2026**: Tudor Investment acquired 37,221 shares (institutional interest)
+- **Mar 2026**: Board approved $250M share buyback program + $0.25/share quarterly dividend. BMO downgraded to Underperform (Feb 25), Cantor PT lowered to $360 (Feb 17), Cantor PT lowered to $360 (Feb 17). Truist lowered PT $510 to $450 (Feb). Mixed analyst sentiment
+- **Apr 2026**: **Morgan Stanley downgraded from Overweight to Equal Weight, PT $450->$350 (Apr 6).** Tudor Investment acquired 37,221 shares. Now 3 downgrades total (MS, BMO, Jefferies). Consensus PT $480.73 but divergence widening
 - **Gate**: Verify Q1 2026 GWP growth trends (ex-property >10%) before executing
 - **Iran exposure**: NONE. US-only E&S
 - **Tariff impact**: INDIRECT POSITIVE -- tariffs raise replacement costs, pushing more risks into E&S market as standard carriers tighten terms
@@ -208,10 +208,10 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 - **Action**: Monitor. Re-evaluate if price <$200. SCOTUS cert disposition is hard gate
 
 ### Marsh (MRSH, fka MMC) -- #1 Global Broker -- WATCHLIST
-- **Entry target**: $150 | **Current**: $170.88 | **QS**: 68adj Tier B | **FV**: $180 (R3 S152)
+- **Entry target**: $150 | **Current**: $172.66 | **QS**: 68adj Tier B | **FV**: $180 (R3 S152)
 - **Q4 2025 (Jan 29)**: Revenue +9%, organic +4%, adj EPS $2.12 (+10%). FY26 guidance similar
 - **R3 S152**: FV $220->$195(R1)->$180(R3). DA MODERATE COUNTER: organic 4% doesn't justify 17x EV/EBIT, Greensill $900M expected, AI disruption risk for MMA. Entry $160->$150. HALF position pre-trial (Aug 2026). KC#9 added (MMA AI disruption)
-- **Status**: R3 COMPLETE. 12.2% above entry. Prob fill 15-20%. #3 for FTNT exit capital
+- **Status**: R3 COMPLETE. 15.1% above entry. Prob fill 15-20%. #3 for FTNT exit capital
 
 ### Aon (AON) -- #2 Global Broker -- WATCHLIST
 - **Entry target**: $300 | **QS**: 70adj Tier B | **FV**: TBD
@@ -281,7 +281,7 @@ The insurance sector enters Q1 2026 as a relative defensive haven amid the Iran/
 3. **KNSL R3 COMPLETE -- NEW PARAMETERS.** FV $390 (was $458), entry $280 (was $355), Tier B (was Tier A). At $345.26, stock is 23% above new entry. Q1 earnings Apr 23 = THE gate verification event. GWP growth ex-property >10% required. Tudor acquired 37K shares. Wait for Q1 data before any action
 4. **WRB ELEVATED TO HIGH PRIORITY WATCHLIST.** At $66.68, near 52wL ($63.65), with Mitsui Sumitomo 15.7% + board seat as powerful SM validation. Consider R1 after ACGL fills or if WRB hits $63-64 range
 5. **ERIE ARCHIVED.** $248.54, gap to FV $225 narrowing (10.5% vs 15.5%). SCOTUS hard gate. Revisit below $200
-6. **MRSH R3 COMPLETE.** $170.88, entry $150 (12.2% away). Lower priority than ACGL/KNSL
+6. **MRSH R3 COMPLETE.** $172.66, entry $150 (15.1% away). Lower priority than ACGL/KNSL
 7. **Sector allocation ~3.4% (GL only).** Room to grow to 8-10% if ACGL+KNSL entries fill. Insurance remains CORRECT defensive allocation in oil/tariff/crisis environment. Three Q1 earnings in next 3 weeks (KNSL Apr 23, ACGL Apr 28, GL Apr 29) will drive pipeline decisions
 
 ---
