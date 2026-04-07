@@ -184,17 +184,14 @@ El sector Technology/Software sigue siendo el mercado mas grande y dinamico del 
   - AI Reckoning / seat compression -- partially insulated but structural shift bears monitoring
   - Oil $111+ creating extended risk-off selling, rate cuts pushed to Q1 2027
   - Canva/Figma in prosumer segment
-- **Status:** HOLD. Avg cost $261.57, FV $406, MoS ~41% at current price.
+- **Status:** HOLD. Avg cost $261.57, FV $385 (S284: CMA UK reopens multi-jurisdiction risk), MoS ~38% at current price.
 - **Thesis:** `/home/angel/value_invest2/thesis/active/ADBE/thesis.md`
 
-### FTNT - Fortinet, Inc. (Cybersecurity) -- EXIT APPROVED
+### FTNT - Fortinet, Inc. (Cybersecurity) -- SOLD Mar 27
 
-- **Holding:** 10.57 shares, ~$862 invested
-- **Quality Score:** 87 Tool Tier A
-- **Current Price:** ~$83 area (exit execution window NOW)
-- **EXIT APPROVED S152.** Selling late April. E[CAGR] 9.4% worst in portfolio. 3 KCs MONITORING. Rotate proceeds to SPGI + best available.
-- **Cancel exit if:** price drops to $73 OR Q1 PASS + guide raise (FV $95-100)
-- **Thesis:** `/home/angel/value_invest2/thesis/active/FTNT/thesis.md`
+- **SOLD:** 10.57 shares at $81.03 on 2026-03-27. P&L -3.5%.
+- **Reason:** EXIT APPROVED S152. E[CAGR] worst in portfolio. Proceeds rotated.
+- **Lesson:** CEO transition risk + compressed E[CAGR] = rotate to better candidates.
 
 ---
 
@@ -204,8 +201,10 @@ El sector Technology/Software sigue siendo el mercado mas grande y dinamico del 
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Portfolio | ADBE | thesis/active/ADBE/thesis.md | 2026-04-07 | HOLD. $240.14 P/E 14.0x. CEO search ongoing. Q1 BEAT. Guidance upped. FV $406. MoS ~41%. AI Reckoning: partially insulated. |
-| Portfolio | FTNT | thesis/active/FTNT/thesis.md | 2026-03-13 | EXIT APPROVED. Selling late Apr. |
+| Portfolio | ADBE | thesis/active/ADBE/thesis.md | 2026-04-07 | HOLD. $240.14 P/E 14.0x. CEO search ongoing. Q1 BEAT. Guidance upped. FV $385 (S284 revision). MoS ~38%. AI Reckoning: partially insulated. |
+| Portfolio | GDDY | thesis/active/GDDY/thesis.md | 2026-03-27 | HOLD. $83.28. FV $130. QS 75 Tier A. A&C growth. Securities investigations (ambulance-chaser, no SEC action). Q1 earnings Apr 30. |
+| Portfolio | ALFA.L | thesis/active/ALFA.L/thesis.md | 2026-03-27 | HOLD. 147.8p near 52wL. FV 215p. QS 83 Tier A. FY2025 strong. Ex-div Apr 30. New CFO Jul 6. |
+| Sold | FTNT | thesis/archive/FTNT/ | 2026-03-27 | SOLD at $81.03 (-3.5%). Rotated. |
 | Portfolio | GDDY | thesis/active/GDDY/thesis.md | 2026-04-07 | HOLD. $83.28 P/E 13.4x near 52wL. Earnings Apr 30. FY2026 ~6% rev growth. EBITDA >33%. Non-seat model insulates from AI Reckoning. |
 | Portfolio | ALFA.L | thesis/active/ALFA.L/thesis.md | 2026-04-07 | HOLD. 147.80p P/E 14.8x near 52wL. FY2025 strong: rev GBP 126.7M (+17%), 32% op margin, ARR GBP 43.9M (+15%), NRR 109%. New CFO Andrew Dickson joining Jul 6. Ex-div Apr 30. |
 | Watchlist | TYL | thesis/research/TYL/thesis.md | 2026-02-04 | Entry $250. Currently ~$374 -- FAR from entry. |
