@@ -799,21 +799,21 @@ quality_universe:
   - ticker: PODD
     name: Insulet Corporation
     direction: long
-    qs_tool: 66
-    qs_adj: 66
+    qs_tool: 63
+    qs_adj: 68
     tier: B
     sector: healthcare-equipment
-    fair_value: 340.0
-    entry_price: 240.0
+    fair_value: 203.0
+    entry_price: 182.0
     currency: USD
-    current_price: 203.5
-    distance_to_entry: -15.2
-    pipeline_status: SCORED
-    thesis_path: null
-    last_scored: '2026-03-13'
-    last_price_check: '2026-04-07'
-    notes: 'Fallen angel S151: -33% from 52wH at 36. Omnipod insulin pump duopoly. Intl growth 40%+.'
-    distance_delta: -0.3
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: R1_COMPLETE
+    thesis_path: thesis/research/PODD/thesis.md
+    last_scored: '2026-04-07'
+    last_price_check: null
+    notes: ''
+    r1_verdict: AT_FV
   - ticker: ACGL
     name: Arch Capital Group Ltd.
     qs_tool: 57
@@ -3261,24 +3261,22 @@ quality_universe:
   - ticker: UTHR
     name: United Therapeutics Corporation
     direction: long
-    qs_tool: 78
+    qs_tool: 75
     qs_adj: 78
     tier: A
     sector: Pharma/Rare Disease
-    fair_value: 600.0
-    entry_price: 510.0
+    fair_value: 520.0
+    entry_price: 490.0
     currency: USD
-    current_price: 559.65
-    distance_to_entry: 9.7
-    pipeline_status: SCORED
-    thesis_path: null
-    last_scored: '2026-02-23'
-    last_price_check: '2026-04-07'
-    notes: 'TRIAGE ACTIONABLE. PAH monopoly + xenotransplant optionality. ROIC 25%, 50% EBIT margins, net cash .8B. GATED:
-      earnings Feb 25 + TETON-1 H1 2026.'
-    r1_session: 115
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: R1_COMPLETE
+    thesis_path: thesis/research/UTHR/thesis.md
+    last_scored: '2026-04-07'
+    last_price_check: null
+    notes: ''
     r1_verdict: ACTIONABLE
-    distance_delta: -1.0
+    r1_session: 115
   - ticker: MSA
     name: MSA Safety Incorporated
     direction: long
@@ -3693,20 +3691,20 @@ quality_universe:
     name: NewMarket Corp
     direction: long
     qs_tool: 68
-    qs_adj: 68
+    qs_adj: 73
     tier: B
     sector: specialty-chemicals
-    fair_value: 850.0
-    entry_price: 600.0
+    fair_value: 710.0
+    entry_price: 570.0
     currency: USD
-    current_price: 641.01
-    distance_to_entry: 6.8
-    pipeline_status: SCORED
-    thesis_path: null
-    last_scored: '2026-03-13'
-    last_price_check: '2026-04-07'
-    notes: 'Fallen angel S151: -33% from 52wH at 88. Petroleum additives duopoly. Zero analyst coverage.'
-    distance_delta: 0.8
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: R1_COMPLETE
+    thesis_path: thesis/research/NEU/thesis.md
+    last_scored: '2026-04-07'
+    last_price_check: null
+    notes: ''
+    r1_verdict: ACTIONABLE
   - ticker: NTNX
     name: Nutanix, Inc.
     direction: long

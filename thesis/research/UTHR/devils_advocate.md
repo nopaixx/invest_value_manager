@@ -1,287 +1,274 @@
-# Devil's Advocate: UTHR (United Therapeutics Corporation)
+# Devil's Advocate Analysis: UTHR (United Therapeutics Corporation)
 
 > **Verdict: MODERATE COUNTER**
-> R2 Adversarial Analysis | 2026-03-21
+> R2 Adversarial Analysis | 2026-04-07 (UPDATED -- replaces 2026-03-21 R2)
 > Analyst: devil's-advocate (opus)
-> Input: thesis/research/UTHR/thesis.md (R1, 2026-02-22)
+> Input: thesis/research/UTHR/thesis.md (R1 Updated 2026-04-07, FV $520)
 
 ---
 
-## CRITICAL FLAG
+## CRITICAL FLAG: Insmed TPIP Omission
 
-**The stock has rallied from $473 (R1 date) to $524.28 (+10.8%) since the thesis was written.** Two material catalysts have landed since R1: (1) Q4 2025 earnings reported Feb 25 -- revenue $790M missed consensus of $805M, though Tyvaso grew 12% YoY; (2) Ralinepag ADVANCE OUTCOMES succeeded March 2 with 55% reduction in clinical worsening (HR 0.45, p<0.0001). The R1 thesis FV of $475-510 is now BELOW the current price. At $524, the stock is 8-10% ABOVE the R1 fair value estimate. This is no longer a "WATCHLIST at $380-400" situation -- it is a "market has moved beyond our thesis" situation.
+The R1 thesis COMPLETELY OMITS Insmed's TPIP (treprostinil palmitil inhalation powder) -- a once-daily inhaled treprostinil prodrug with positive Phase 2b data (Jun 2025, 35% PVR reduction, p<0.001) and Phase 3 trials initiating in 2026. TPIP directly threatens UTHR's core DPI franchise (41% of revenue). When TPIP Phase 2b results were announced, UTHR stock fell 16%. This is a material competitive threat that must be addressed before pipeline advancement.
 
 ---
 
 ## Calibration
 
-- **Market anchor:** $524.28 (current price). The FA must prove the market is WRONG at $524, not merely that UTHR is a good business.
-- **Reverse DCF:** Market at $524 implies 7.4% FCF growth for 5 years. Historical FCF CAGR is 16%. The gap is 8.6pp -- but this gap has NARROWED significantly since R1 (was 3.3% implied at $473).
-- **DA historical stats:** 25 corrections, avg -15.7%, median -13.0%. All negative. No outcomes measured yet.
+- **Market anchor:** $559.65 (current). The FA must prove the market is WRONG, not merely that UTHR is good.
+- **Reverse DCF:** Market implies 9.2% FCF growth for 5yr. FA assumes 10%. Gap = 0.8pp. This is MINIMAL edge.
+- **Historical FCF CAGR:** 16%. Market prices significant deceleration, which is CORRECT given multi-front competition.
+- **DA historical stats:** 25 corrections, avg -15.7%, median -13.0%. All negative.
+- **Analyst consensus PT:** ~$382 avg (range $295-$600). FA thesis $520 is 36% above consensus.
 
 ---
 
 ## Resumen Ejecutivo
 
-The R1 thesis correctly identifies UTHR as an exceptional business (ROIC 24.9%, net cash $2.8B, 50% operating margins). However, three developments since the thesis was written have CHANGED the calculus: (1) the stock has rallied 10.8% past the R1 FV, (2) ralinepag ADVANCE OUTCOMES success adds a genuine new growth driver but is now partially priced in, and (3) YUTREPIA competitive data shows accelerating adoption (2,900+ patients started, $148M FY2025 sales, $90M in Q4 alone). The thesis's core weakness is that at $524, the stock is AT or ABOVE fair value by every method the R1 used, yet the competitive threats to Tyvaso are materializing faster than the thesis assumed. The MoS is NEGATIVE. Short interest is RISING (5.2% of float, up from prior period). Insider selling is confirmed as 10b5-1 plan (reducing bearish signal) but CEO holds only 7,150 shares directly ($3.8M) of a $23B company -- negligible skin in the game.
+The R1 thesis correctly identifies UTHR as an exceptional business with 88% gross margins, 24% ROIC, and a transformative IPF pipeline. However, four material gaps weaken the thesis: (1) **Insmed TPIP is completely omitted** -- a once-daily inhaled treprostinil with positive Phase 2b and Phase 3 starting 2026, which directly threatens Tyvaso DPI; (2) **PAH market share has declined from 51% (2023) to 42% (Q4 2025)** -- a 9pp erosion in 2 years that the thesis minimizes; (3) **YUTREPIA's commercial ramp is faster than modeled** ($148M in 7 months, Q4 run rate at 17% market share, management targeting $1B by 2027); (4) **Net buyback impact is overstated** (~7% net share reduction vs 12% gross, after CEO option exercises and SBC). At $560, the stock is 8% ABOVE the R1 FV of $520 and 17% above the DA bear FV of $449. There is no margin of safety by any measure. The thesis direction is correct but needs competition re-assessment and FV compression to $460-480.
 
 ---
 
-## Asunciones Clave Desafiadas
+## Assumptions Mapped and Challenged
 
-### 1. "IPF Expansion Justifies Premium Valuation"
+### 1. "Winrevair Is ADDITIVE, Not Substitutive" (KC#7)
 
-**R1 Assumption:** IPF TAM of ~100K US patients could add $4-6B in revenue at 20-30% adoption. TETON-2 succeeded. TETON-1 data expected H1 2026.
+**R1 claim:** PAH is combination therapy; Winrevair works through different mechanism; prostacyclins used alongside.
 
-**Evidence Against:**
-- TETON-2 showed 95.6 mL FVC improvement -- CLINICALLY MODEST. For context, the FDA considers 100 mL the minimum clinically meaningful difference (MCD) in IPF trials. TETON-2 barely reached this threshold. TETON-1 could easily miss if the effect size is even slightly smaller.
-- IPF market already has nintedanib (Boehringer) and pirfenidone (Genentech) established. Tyvaso would be ADD-ON therapy, not replacement. Adoption will be slower than green-field PAH penetration.
-- Price point challenge: PAH patients are ~30-40K (orphan). IPF patients are ~100K. At $200K/year, a $4-6B IPF revenue number implies payers covering 20-30K patients at full price. IRA's inflation rebate provision + broader patient base = HEAVY payer pushback vs orphan PAH pricing.
-- Liquidia will pursue IPF indication for YUTREPIA. First-mover advantage is temporary (12-24 months at best).
-- **The R1 thesis ITSELF acknowledged:** "The rally has already priced the TETON-2 catalyst." Since then, the stock rallied ANOTHER 10.8%. The IPF premium is now MORE priced in, not less.
-
-**Severity: MODERATE**
-
-**Resolution:** IPF is real upside but (a) TETON-1 is binary risk, (b) commercial ramp will be slower than PAH penetration (larger population = more payer scrutiny), (c) the stock has moved past R1 FV already pricing significant IPF success. Probability-weight IPF contribution more conservatively.
-
----
-
-### 2. "YUTREPIA Competition is Manageable (25% Share Capture Base Case)"
-
-**R1 Assumption:** Base case YUTREPIA captures 25% of market. Bear case 40%+.
-
-**Evidence Against:**
-- **YUTREPIA FY2025 sales were $148.3M, with Q4 at $90.1M** -- implying a Q4 annualized run rate of $360M. That is already ~19% of UTHR's Tyvaso franchise ($1.88B FY2025). This is FASTER than the R1 base case assumed.
-- **3,600+ unique prescriptions, 2,900+ patients started, 860+ prescribers.** This is not a slow ramp. At this rate, YUTREPIA could reach 30%+ share within 12-18 months.
-- **Physician surveys cited in Bleecker Street Research:** Some top prescribers expect 50/50 market share split long-term, with several forecasting 80/20 in favor of YUTREPIA for ILD patients. This is far worse than R1's 25% base case.
-- **UTHR's Q4 2025 revenue MISSED consensus ($790M vs $805M expected).** While Tyvaso DPI grew 12% YoY, the deceleration from 22% (Q3) to 12% (Q4) could signal YUTREPIA impact becoming visible.
-- **Generic nebulized Tyvaso from Watson:** Launched January 2026 per settlement. This erodes the ~18% of revenue from nebulized Tyvaso. The R1 thesis noted this but underweighted the cumulative impact: YUTREPIA takes DPI share + generics take nebulized share = two-front attack on the core franchise.
+**Evidence against:**
+- Winrevair FY2025 sales: **$1.4B** (from zero in Mar 2024). Q4 2025: **$467M** (+133% YoY). Explosive ramp.
+- UTHR's US PAH market share: **51% (2023) --> 42% (Q4 2025)**. A 9pp decline in 2 years. Source: Liquidia Q4 2025 earnings call.
+- FDA expanded Winrevair indication Oct 2025 (ZENITH trial: 76% risk reduction in clinical worsening, HR 0.24). This is the most impactful PAH efficacy data since prostacyclins -- it positions Winrevair as the anchor of PAH treatment.
+- While Winrevair IS used as add-on in 59% of ZENITH patients (who were on prostacyclin at baseline), the issue is NEW patient starts. New PAH patients increasingly start on Winrevair-containing regimens. The market share trajectory confirms this.
+- The thesis says "Winrevair: MODERATE threat." The market share data says HIGH threat to PAH growth.
 
 **Severity: HIGH**
 
-**Resolution:** The R1 base case of 25% share capture appears OPTIMISTIC based on YUTREPIA's actual commercial trajectory. A 30-35% share capture within 18 months is more realistic as a base case, with 40-50% as a plausible bear case. This materially reduces Tyvaso growth projections and compresses FV.
+**Resolution:** PAH franchise should be modeled as flat-to-declining in share terms (offset by overall PAH market growth of 5-7%). The IPF story must carry ALL incremental growth. Adjust KC#7 dual condition: the first condition (>40% new PAH starts) may already be approaching.
 
 ---
 
-### 3. "Ralinepag Provides Pipeline Diversification"
+### 2. Treprostinil Franchise Under Multi-Front Siege (CRITICAL OMISSION: Insmed TPIP)
 
-**R1 Assumption:** Ralinepag data expected H1 2026, $100-200M revenue potential from 2028.
+**R1 claim:** 92% of revenue from treprostinil in 4 delivery formats; staggered patent protection; DPI protected to 2030-2035.
 
-**Updated Reality:**
-- Ralinepag ADVANCE OUTCOMES SUCCEEDED (March 2, 2026). 55% reduction in clinical worsening (HR 0.45, p<0.0001). NDA submission planned H2 2026.
-- This is genuinely positive and was NOT priced into the R1 thesis at $473. The stock's move from ~$473 to ~$524 partially reflects this success.
+**Evidence against:**
+- **Insmed TPIP (COMPLETELY OMITTED by R1):** Once-daily inhaled treprostinil prodrug. Phase 2b positive Jun 2025 (35% PVR reduction, p<0.001, ALL secondary endpoints met). Phase 3 in PH-ILD before end 2025, Phase 3 in PAH early 2026. UTHR stock fell 16% on TPIP Phase 2b results. This is a capsule-based dry powder inhalation = DIRECT competitor to Tyvaso DPI (41% of UTHR revenue).
+- Once-daily dosing vs Tyvaso DPI 4x daily = massive patient convenience advantage. If TPIP Phase 3 succeeds (~2028 data, ~2029 launch), Tyvaso DPI faces direct substitution risk.
+- **Liquidia YUTREPIA:** $148.3M FY2025 sales (7 months since Jun 2025 launch). Q3: 10% market revenue share. Q4: 17%. 2,800+ unique prescriptions. Management targeting "$1B franchise by 2027." This ramp is FASTER than the R1's 25% base case.
+- **Generic nebulized Tyvaso:** Watson generic from Jan 2026. Neb Tyvaso = 18% of revenue, already mature.
+- **Combined picture:** UTHR faces FOUR simultaneous threats: Winrevair (new mechanism, $1.4B FY2025), YUTREPIA (same molecule, approved, ramping fast), TPIP (same molecule, once-daily, Phase 3 starting), generic neb (launched). This is a siege, not isolated manageable threats.
 
-**Counter-argument:**
-- Ralinepag is an ORAL prostacyclin receptor agonist (IP receptor). It will compete with Uptravi (selexipag) by J&J/Actelion, which had $1.8B peak sales. But Uptravi is already generic-facing (patent cliff ~2027-2028).
-- Peak ralinepag sales estimates range $300-600M. At the midpoint of $450M, this adds ~$10-12/share to FV (discounted). Significant but not transformative.
-- Ralinepag REPLACES some Tyvaso revenue (patients switching from inhaled to oral) rather than purely additive. Net revenue contribution is $300-400M, not $600M.
+**Severity: CRITICAL**
 
-**Severity: LOW**
-
-**Resolution:** Ralinepag success is genuine positive. DA challenge is mild here. But note: the market has already priced much of this ($524 vs $473). The incremental FV uplift is likely $10-15/share, which is already reflected in the current price.
+**Resolution:** Insmed TPIP must be added to the competitive landscape. While TPIP commercialization is 3+ years away, the Phase 3 read-through will affect UTHR's multiple and terminal value assumptions for DPI. Propose new KC#8: "Insmed TPIP Phase 3 meets primary endpoint in PAH."
 
 ---
 
-### 4. "OEY of 5.0% + Growth 8-12% = Attractive Spread vs WACC"
+### 3. IPF Revenue Ramp Assumptions
 
-**R1 Assumption:** Owner Earnings Yield 5.0% + Expected Growth 8-12% = 13-17% total return vs 9.1% WACC.
+**R1 claim:** $300M Y1, $800M FY2028, $1.6B FY2030. sNDA summer 2026, Priority Review, launch Q1 2027.
 
-**Evidence Against:**
-- At $524 (vs $473 at R1), the OEY has compressed: OE $1.08B / $23.0B market cap = **4.7%**. The spread has NARROWED.
-- The growth assumption of 8-12% is CHALLENGED by YUTREPIA's faster-than-expected share capture. If Tyvaso growth decelerates to 5-8% (vs 12% in Q4 2025, already down from 22% in Q3), the total return is 9.7-12.7% -- barely above WACC.
-- R&D spending is ELEVATED (16.7% of revenue) and will INCREASE with ralinepag NDA preparation, TreSMI development, xenotransplantation clinical trials, and TETON-1/IPF sNDA filing. This compresses FCF in 2026-2027.
-- Capex at 3.4x depreciation is GROWTH capex (pig farms, cartridge manufacturing). If xenotransplantation does not commercialize by 2030, this capex generates $0 return.
+**Evidence against:**
+- Clinical data is genuinely strong (TETON-1: 130.1 mL FVC improvement, TETON-2: 95.6 mL). This is NOT disputed.
+- However, commercial ramp concerns:
+  - $300M Y1 assumes ~6,000 patients at ~$50K/yr. IPF has ~100K US patients but diagnosis rates are low and treatment adherence for 4x daily inhaled therapy is challenging.
+  - Existing IPF treatments (nintedanib, pirfenidone) have real-world penetration below theoretical TAM.
+  - IRA pricing pressure: PAH is orphan (~30-40K patients). IPF is much larger (~100K). Larger patient population = MORE payer scrutiny on specialty pricing.
+  - Liquidia will pursue IPF indication for YUTREPIA. First-mover advantage may be limited to 12-24 months.
+- Stock surged 14% on TETON-1 data (Mar 30) and is up 18% since Feb. Market has ALREADY priced significant IPF success.
+- sNDA filing "by end of summer 2026" with Priority Review = Q4 2026 / Q1 2027 approval is plausible but not guaranteed. FDA could request advisory committee.
 
 **Severity: MODERATE**
 
-**Resolution:** At $524, the OEY + Growth framework produces a much thinner spread vs WACC than at $473. The growth assumption is the critical variable, and it is being challenged by competition.
+**Resolution:** IPF is the genuine thesis driver. $300M Y1 is possible but aggressive. Model $200M Y1 as bear, $300M as base. More importantly, the 14% TETON-1 surge means much of this upside is PRICED IN at $560.
 
 ---
 
-### 5. "Capital Allocation Risk is a Weakness but Not a Dealbreaker"
+### 4. Net Buyback Impact Overstated
 
-**R1 Assumption:** No dividends, no buybacks, $2.8B cash hoarded for xenotransplantation moonshot. Noted as concern but not weighted heavily.
+**R1 claim:** $3B+ buyback = ~12% share reduction = ~14% EPS boost even with zero revenue growth.
 
-**Evidence Against:**
-- **Rothblatt's 10b5-1 plan adopted Nov 7, 2025** will exercise up to 1,734,410 options through Dec 31, 2026. At ~10K shares/day x 3 days/week, she is systematically liquidating her equity stake. After recent sales, she holds only **7,150 shares directly** ($3.8M) of a $23B company. This is **0.016% of the company.**
-- The 10b5-1 plan confirms the selling is pre-programmed (NEUTRAL signal per our protocol), but the MAGNITUDE of the plan (1.7M options) and the TINY residual holding is concerning from an alignment perspective.
-- **Xenotransplantation cash burn:** The EXPAND trial is underway (6 initial patients, up to 50). Manufacturing pig kidneys at scale requires hundreds of millions in investment. First transplant was Nov 2025. BLA submission is YEARS away (earliest 2028-2030). Even if clinically successful, commercial adoption faces massive regulatory, ethical, and reimbursement hurdles.
-- $2.8B in cash earning ~4% = $112M/year in interest income. On a $23B market cap, this is 0.5%. If returned to shareholders via buyback, it would reduce share count by ~12% immediately, adding ~$60/share in accretion. The opportunity cost of hoarding cash is REAL.
+**Evidence against:**
+- CEO Rothblatt 10b5-1 plan: 1.73M options through Dec 2026. At ~$550/share = ~$950M in option exercises.
+- SBC at 4.6% of $3.2B revenue = ~$147M/yr = ~$294M over 2 years in dilutive compensation.
+- NET buyback effect: $3B gross - ~$950M CEO options - ~$294M SBC = ~$1.76B net reduction.
+- $1.76B / $24.5B market cap = ~7% net share reduction, not 12%.
+- EPS boost: ~8%, not 14%.
+- Additionally, CEO sold 9,500 shares at $582 on Apr 1, 2026 ($5.5M). This is 10b5-1 (NEUTRAL per protocol), but the pattern of systematic liquidation is notable.
 
 **Severity: MODERATE**
 
-**Resolution:** Capital allocation is a genuine weakness that the R1 correctly identified but underweighted. The 1.7M option liquidation plan is not bearish per se (10b5-1) but the residual 7,150 direct shares is the SMALLEST CEO holding I have seen relative to market cap. The xenotransplantation bet could be worth $0 or $10B+, but the expected value of $0 assigned by R1 is appropriate.
+**Resolution:** Correct the thesis buyback math. Net impact ~7% shares, ~8% EPS. Still meaningful but overstated by ~40%.
 
 ---
 
-## Desafios por Categoria
+### 5. Margin Decline Is Structural
 
-### Negocio
+**R1 claim:** Margin decline attributed to mix shift (DPI royalties to MannKind) and investment phase. IPF approval would add high-margin incremental revenue.
 
-| # | Desafio | Evidencia | Severidad |
-|---|---------|-----------|-----------|
-| 1 | Tyvaso franchise under TWO-FRONT attack (YUTREPIA DPI + generic nebulized) | YUTREPIA $148M FY2025 ($90M Q4), 2,900+ patients, Watson generic Jan 2026 | HIGH |
-| 2 | Revenue concentration EXTREME: ~76% treprostinil-based | If treprostinil class faces pricing/competitive pressure, entire business affected | MODERATE |
-| 3 | Moat NARROWING: YUTREPIA on market, generics launching | Physician surveys show 50/50 share split expected by top prescribers | HIGH |
-| 4 | Q4 2025 revenue miss ($790M vs $805M consensus) | Tyvaso growth decelerated from 22% (Q3) to 12% (Q4) | MODERATE |
-| 5 | CEO direct ownership 7,150 shares ($3.8M / $23B = 0.016%) | 10b5-1 plan for 1.7M options through Dec 2026 | MODERATE |
+**Evidence against:**
+- GM: 92.2% (FY2022) --> 87.9% (FY2025). Four consecutive years of decline.
+- OM: 50.6% --> 47.7%. Same trajectory.
+- Drivers are permanent: (a) MannKind royalties on DPI are contractual and grow as DPI grows; (b) IRA Medicare Part D redesign creates permanent pricing headwinds; (c) YUTREPIA competition forces promotional spending; (d) R&D investment for IPF/ralinepag/TreSMI/xeno elevated.
+- If generic neb captures 30% of neb volume and YUTREPIA captures 30% of DPI market, remaining UTHR volume shifts toward lower-margin products.
+- GM stabilization at 85-86% is plausible but 87-88% (R1 implicit) may be optimistic.
 
-### Valoracion
+**Severity: MODERATE**
 
-| # | Desafio | Evidencia | Severidad |
-|---|---------|-----------|-----------|
-| 1 | Stock at $524 is 8-10% ABOVE R1 FV ($475-510) | MoS is NEGATIVE at current price | HIGH |
-| 2 | OEY compressed to 4.7% from 5.0% (10.8% price increase) | Spread vs WACC narrows to barely positive territory | MODERATE |
-| 3 | R1 E[CAGR] of 3.8% at $473 is now ~1.2% at $524 | Well below 12% Tier A threshold | HIGH |
-| 4 | IPF revenue contribution heavily probability-weighted | TETON-1 binary risk; MCD threshold borderline | MODERATE |
-
-### Riesgos
-
-| # | Desafio | Evidencia | Severidad |
-|---|---------|-----------|-----------|
-| 1 | TETON-1 binary risk (data Q1-Q2 2026) -- IMMINENT | TETON-2 FVC improvement (95.6 mL) near MCD of 100 mL; TETON-1 could miss | HIGH |
-| 2 | Short interest RISING: 5.2% of float, 4.8 days to cover | Up from prior period; higher than peer group avg of 4.79% | MODERATE |
-| 3 | Liquidia patent counter-suit unresolved | If UTHR loses, royalty or injunction on Tyvaso DPI (core product) | HIGH |
-| 4 | IRA Medicare price negotiation risk | Tyvaso could be selected; 25-60% haircut on Medicare patients | MODERATE |
-| 5 | Xenotransplantation $0 commercial outcome probability | EXPAND trial 6 patients, BLA years away, regulatory/ethical hurdles massive | LOW |
-
-### Timing
-
-| # | Desafio | Evidencia | Severidad |
-|---|---------|-----------|-----------|
-| 1 | Stock at 52wH zone ($548.12 high). Momentum traders, not value buyers | +97% from 52wL. Consensus already BULLISH (5 buy, 3 hold, 0 sell) | HIGH |
-| 2 | TETON-1 data readout IMMINENT (Q1-Q2 2026) -- binary catalyst | If positive: already partially priced. If negative: -25-35% crash | MODERATE |
-| 3 | Post-ralinepag euphoria may be peaking | Stock surged after March 2 ADVANCE OUTCOMES success | MODERATE |
+**Resolution:** Model GM declining to 85-86% by FY2028 (vs R1's implicit stability at 87-88%). OM declining to 44-46%.
 
 ---
 
 ## Independent Bear-Case Valuation
 
-### Method: EV/EBIT with Bear Assumptions
+### Method: EV/EBIT with Bear Assumptions (Different from FA's primary OEY)
 
+**Bear assumptions:**
+- EBIT FY2025 actual: $1.52B
+- Bear growth: PAH flat (generic erosion offsets), IPF $150M Y1 (conservative), YUTREPIA at 35% DPI share by 2028
+- Bear EBIT FY2027E: ~$1.55B (minimal growth, competition + investment drag)
+- Multiple: 10x EV/EBIT (trailing pharma sector, below UTHR historical due to patent erosion + multi-front competition)
+- Net cash: $2.9B
+
+**Calculation:**
 ```
-EBIT 2025: ~$1.73B (operating margin 54.5% on $3.18B revenue)
-Normalized EBIT (bear): ~$1.5B (assumes YUTREPIA erosion + generic Tyvaso pressure)
-
-Bear assumptions:
-- YUTREPIA captures 35% of treprostinil DPI market by 2027 (vs R1 base 25%)
-- Generic nebulized Tyvaso erodes 40% of neb revenue by 2027
-- Net revenue growth: +3-5% (vs R1 base 8-12%)
-- Multiple: 9x EV/EBIT (sector pharma 10-14x, minus 1x competition, minus 1x no capital return, minus 1x governance)
-
-EV = $1.5B * 9x = $13.5B
-Equity = $13.5B + $2.88B (net cash) = $16.38B
-FV/share = $16.38B / 43.8M shares = $374
-
-Bear-bear (TETON-1 fails + YUTREPIA 45% share):
-EBIT: $1.3B, Multiple: 8x
-EV = $10.4B + $2.88B = $13.28B
-FV/share = $303
+EV = $1.55B x 10x = $15.5B
+Equity = $15.5B + $2.9B = $18.4B
+Shares: ~41M (net of conservative buyback effect)
+DA Bear FV = $18.4B / 41M = $449
 ```
+
+**Cross-check:** DCF tool at 6% growth = $410 bear, $498 base. DA bear $449 is between these, consistent.
 
 ### Three-Number Table
 
 | Source | FV | Method |
 |--------|-----|--------|
-| FA thesis (R1) | $484 | OEY (50%) + EV/EBIT (40%) + DCF (10%) |
-| Market | $524 | Current price |
-| DA bear | $374 | EV/EBIT bear (9x, competition-adjusted EBIT) |
+| FA thesis | $520 | OEY (60%) + EV/EBIT (40%), anti-bullish-bias 60/40 |
+| Market | $560 | Current price |
+| DA bear | $449 | EV/EBIT 10x bear EBIT |
 
-**Interpretation:** Market ($524) > FA thesis ($484) > DA bear ($374). The market is pricing ABOVE the FA's own fair value estimate. This is NOT a setup where we have edge -- the market is MORE optimistic than our analyst. The DA bear case suggests 29% downside from current price, concentrated in YUTREPIA share capture + TETON-1 binary risk.
+**Interpretation:** Market ($560) > FA thesis ($520) > DA bear ($449). Stock is overvalued on BOTH analyses. Even the FA's bull-biased thesis says the stock is 8% above FV. The DA bear case suggests 20% downside from current. There is NO margin of safety at current prices by any measure.
 
 ---
 
-## Probability-Weighted FV (DA-Adjusted)
+## Challenges Summary Table
 
-| Scenario | Prob | FV | Weighted |
-|----------|------|-----|----------|
-| Bear (TETON-1 fails, YUTREPIA 40%+) | 25% | $340 | $85 |
-| Base (TETON-1 succeeds, YUTREPIA 30%, ralinepag approved) | 50% | $480 | $240 |
-| Bull (IPF blockbuster, xenotransplant value) | 25% | $640 | $160 |
-| **DA Expected Value** | | | **$485** |
+### Business
+| # | Challenge | Evidence | Severity |
+|---|-----------|----------|----------|
+| 1 | PAH market share 51% --> 42% in 2 years | Liquidia Q4 2025 earnings | HIGH |
+| 2 | Insmed TPIP omitted -- once-daily inhaled treprostinil, Phase 2b+, Phase 3 2026 | UTHR -16% on announcement, Phase 2b met all endpoints | CRITICAL |
+| 3 | YUTREPIA ramp faster than modeled ($148M/7mo, 17% market share Q4, targeting $1B by 2027) | Liquidia FY2025 results | MODERATE |
+| 4 | Multi-front treprostinil siege (Winrevair + YUTREPIA + TPIP + generic neb) | Combined evidence | HIGH |
+| 5 | Q4 2025 revenue miss ($790M vs $815M expected) despite EPS beat | Earnings report | LOW-MOD |
 
-**DA Expected Value: $485 vs Market $524 = OVERVALUED by 7.4%**
+### Valuation
+| # | Challenge | Evidence | Severity |
+|---|-----------|----------|----------|
+| 6 | FA growth assumption (10%) only 0.8pp above market-implied (9.2%) -- minimal edge | Reverse DCF | MODERATE |
+| 7 | Net buyback overstated: ~7% net vs 12% gross (CEO options + SBC dilution) | 10b5-1 plan 1.73M options + 4.6% SBC | MODERATE |
+| 8 | FA thesis $520 is 36% above analyst consensus ~$382 | TipRanks, MarketBeat, StockAnalysis | HIGH |
+
+### Risks
+| # | Challenge | Evidence | Severity |
+|---|-----------|----------|----------|
+| 9 | CEO Rothblatt (72) -- no succession plan, xeno program dependent on her | No disclosure in filings | MODERATE |
+| 10 | Short interest RISING to 6.49% of float (2.84M shares), 4.09 days to cover | MarketBeat Apr 2026 | MODERATE |
+| 11 | Receivables growth 25.4% vs revenue 10.6% unresolved | R1 flagged | LOW-MOD |
+| 12 | Margin decline structural: GM 92.2% --> 87.9%, OM 50.6% --> 47.7% | 4yr trend | MODERATE |
+
+### Timing
+| # | Challenge | Evidence | Severity |
+|---|-----------|----------|----------|
+| 13 | Stock up 110% from 52wL ($267 --> $560), +18% in 6 weeks | Price data | HIGH |
+| 14 | IPF upside largely priced after TETON-1 14% surge Mar 30 | Price action | MODERATE |
+| 15 | Next earnings Q1 2026 -- first full quarter with generic neb visible | Calendar | LOW |
+
+---
+
+## Conflicts with R1 Thesis
+
+1. **CRITICAL: Insmed TPIP not in competitive landscape.** R1 lists Merck (Winrevair), Liquidia (YUTREPIA), Watson (generic neb), but completely omits Insmed TPIP. A once-daily inhaled treprostinil with Phase 3 starting 2026 is the most direct threat to Tyvaso DPI's medium-term dominance.
+
+2. **PAH market share trajectory.** R1 treats Winrevair as "MODERATE -- complementary" and YUTREPIA as "LOW-MODERATE ($148M 2025)." Combined evidence shows UTHR's PAH share declining 51% to 42% in 2 years. This 9pp erosion rate is not adequately modeled.
+
+3. **Analyst consensus gap.** FA FV $520 vs consensus ~$382 is a 36% premium. Some targets may be pre-TETON-1 (stale), but the dispersion (low $295, high $600) shows significant disagreement even among specialists. Wells Fargo revised UP to $575 and BofA to $626 post-TETON-1, but Goldman maintained Neutral at $293 (later). The consensus is not uniformly stale.
+
+4. **Growth edge is minimal.** FA assumes 10% growth; market implies 9.2%. A 0.8pp gap provides nearly ZERO informational advantage. The thesis is essentially agreeing with the market's growth pricing.
 
 ---
 
 ## Edge Assessment
 
-- **Analyst consensus PT:** $507-$584 depending on source (weighted average ~$540)
-- **Post-DA FV:** $485
-- **Gap vs consensus:** -10% to -5% (our FV is BELOW consensus)
-- **Our specific edge:** We correctly identified YUTREPIA competitive acceleration before it showed in UTHR's Q4 deceleration, and we note the TETON-2 FVC result is borderline MCD. However, we have NO informational advantage over the market at this price level.
-- **WARNING: No informational edge identified.** Our FV ($485) is BELOW both market ($524) and consensus (~$540). We are LESS bullish than consensus. This is appropriate for a DA but means buying here requires believing WE are wrong, not the market.
-
----
-
-## Proposed Additional Kill Conditions (for investment-committee)
-
-1. **YUTREPIA quarterly net sales exceed $120M** -- would confirm acceleration beyond 30% share capture trajectory
-2. **Tyvaso DPI revenue growth turns negative YoY** -- would signal moat breach is structural
-3. **Rothblatt's 10b5-1 plan is EXPANDED or renewed** -- would signal continued lack of alignment
-4. **UTHR announces acquisition >$2B outside core PAH/IPF** -- capital misallocation confirmed
-
----
-
-## Conflictos con R1 Thesis
-
-| Issue | R1 View | DA View | Resolution |
-|-------|---------|---------|------------|
-| YUTREPIA share capture | 25% base case | 30-35% base case (evidence: $148M FY25, Q4 $90M run rate) | DA has stronger evidence; R1 written before FY2025 YUTREPIA sales data |
-| FV at current price | $475-510 (written at $473) | $485 expected value (at $524) | Stock has moved past R1 FV; both agree stock is at/above FV |
-| Ralinepag | Assigned $100-200M base, data pending | Data succeeded; $300-400M net revenue, partially cannibalistic | R1 was conservative; DA acknowledges upside but notes it is now priced in |
-| Insider selling | Concerning (174 sells, 0 buys) | 10b5-1 plan (NEUTRAL mechanism, but 7,150 direct shares is negligible) | Signal is NEUTRAL on direction, but alignment concern remains |
+- **Analyst consensus PT:** ~$382 (range $295-$600); post-TETON-1 revisions push this higher
+- **Post-DA FV:** $460-480
+- **Gap vs consensus:** +20-26% (our FV above consensus even after DA adjustment)
+- **Our specific edge:** IPF de-risking (both TETON trials positive) + ralinepag de-risking + buyback accretion. These are REAL but now partially PRICED.
+- **WARNING: At $560, no informational edge identified.** Stock needs to decline 15-18% to reach our adjusted entry zone.
 
 ---
 
 ## Veredicto Global
 
-| Metric | Valor |
+| Metric | Value |
 |--------|-------|
-| Desafios HIGH/CRITICAL | 5 of 16 |
-| Desafios no resueltos por thesis | 3 (YUTREPIA acceleration, stock above FV, timing) |
-| Veredicto | **MODERATE COUNTER** |
+| Challenges HIGH/CRITICAL | 4 of 15 (1 CRITICAL + 3 HIGH) |
+| Challenges not addressed by thesis | 3 (TPIP omission, PAH share trend, consensus gap) |
+| Verdict | **MODERATE COUNTER** |
 
-### Interpretacion
+### Interpretation
 
-**MODERATE COUNTER:** The thesis correctly identifies UTHR as an exceptional business but the stock has moved ABOVE the R1 fair value since the thesis was written. The core challenge is TIMING and PRICE, not quality. The competitive threat from YUTREPIA is materializing faster than the R1 base case assumed ($148M FY2025 sales, Q4 run rate $360M annualized). At $524, there is NEGATIVE margin of safety vs the R1 FV of $484, and even vs the DA probability-weighted FV of $485. The ralinepag success is a genuine positive but is already reflected in the $524 price.
+**MODERATE COUNTER:** The thesis identifies a genuine quality compounder with a transformative pipeline (IPF + ralinepag). The business quality is NOT in dispute. However:
 
-The thesis would become actionable at:
-- **$400-420**: ~15-17% MoS vs DA expected value of $485 (vs R1 recommended $380-400)
-- **Post-TETON-1 if positive**: FV would increase to $530-550 range, making $450-470 attractive
-- **Post-TETON-1 if negative**: Stock could fall to $350-380 range, creating genuine MoS
+1. The **TPIP omission is serious** and must be addressed in the competitive landscape before advancing
+2. **PAH market share erosion** (51% to 42%) is a structural trend, not noise -- it needs explicit modeling
+3. At $560, the stock is **8% above the R1 FV and 17% above the DA bear FV** -- no MoS by any measure
+4. **Net buyback math is overstated** by ~40% (12% gross vs ~7% net)
+5. The **growth edge is minimal** (FA 10% vs market-implied 9.2%) -- we are not disagreeing with the market
+
+The thesis DIRECTION is correct. The PRICE is wrong for entry. WATCHLIST verdict is validated.
 
 ---
 
-## Recomendacion al Investment Committee
+## Recommendation to Investment Committee
 
-1. **WAIT for TETON-1 data** (expected Q1-Q2 2026, possibly next few weeks). This is the single most important binary catalyst. Buying before data = paying for optionality that could evaporate overnight.
-2. **Revise YUTREPIA base case upward** from 25% to 30-35% share capture. FY2025 sales data ($148M, Q4 $90M) shows faster-than-expected commercial ramp.
-3. **Adjust standing order** from $390 (R1) to $410-420 (reflecting ralinepag success + IPF optionality, but also YUTREPIA headwind).
-4. **Monitor Q1 2026 earnings** for Tyvaso DPI growth trajectory. If deceleration continues (22% Q3 -> 12% Q4 -> ?% Q1), the competitive moat breach is confirmed.
-5. **DO NOT buy at $524.** Even with ralinepag success and IPF optionality, there is NO margin of safety at current price. The E[CAGR] at $524 is ~1-2%, well below cash return.
+1. **MANDATORY:** Add Insmed TPIP to competitive landscape and thesis. Material omission.
+2. **MANDATORY:** Model PAH market share trajectory explicitly (51% --> 42% --> ??? by 2028).
+3. **ADJUST:** Net buyback EPS accretion from ~14% to ~8% (corrected for CEO options + SBC).
+4. **CONSIDER:** FV $460-480 reflecting competition headwinds, placing entry at $400-430 for meaningful MoS (Tier A precedent ~10-15% MoS).
+5. **WATCHLIST VALIDATED.** At $560, clearly not a buy. The R1's $475-500 entry may be slightly generous; $430-460 provides better protection given multi-front competition.
+6. **MONITOR:** Short interest trend (6.49%, rising), Q1 2026 earnings for generic neb + YUTREPIA impact, Insmed TPIP Phase 3 progress, YUTREPIA quarterly trajectory.
+7. **GATE before R3:** Resolve analyst consensus gap ($382 vs our $460-480+). Why do full-time UTHR analysts have lower targets? If consensus is stale (pre-TETON-1), document this. If not, explain the edge.
+8. **Propose KC#8:** Insmed TPIP Phase 3 meets primary endpoint in PAH (long-term franchise risk to DPI).
 
 ---
 
 ## META-REFLECTION
 
-### Dudas/Incertidumbres
-- TETON-1 data is IMMINENT (Q1-Q2 2026). My entire bear-case probability weighting hinges on the 25% probability of TETON-1 failure. If it succeeds, the base/bull case FV moves to $530-640 and the current price becomes more reasonable. If it fails, the stock crashes. I cannot resolve this uncertainty -- it is genuinely binary.
-- The ralinepag success (March 2) changes the diversification story materially. UTHR is no longer a "one-molecule company" in 2028+. But ralinepag will cannibalize some Tyvaso prescriptions (oral vs inhaled prostacyclin), so the NET revenue contribution is unclear.
-- I was unable to find detailed data on UTHR's specific patient retention rate on Tyvaso DPI vs YUTREPIA switching rates. The real-world switching data will only emerge in Q1-Q2 2026 earnings.
+### Doubts/Uncertainties
+- The analyst consensus of $382 is confusing given TETON-1/2 success and ralinepag data. Some targets are clearly pre-TETON-1 (Goldman $293 dated earlier). Post-TETON-1 targets from BofA ($626) and Wells Fargo ($575) are much higher. The "consensus" may be heavily skewed by stale pre-catalyst targets.
+- Insmed TPIP Phase 3 timeline is uncertain. Phase 3 takes 2-3 years, so commercial launch ~2028-2029 earliest. Near-term threat is to sentiment/multiple, not actual revenue. But the 16% UTHR stock drop on Phase 2b shows market takes it seriously.
+- I could not find granular capex breakdown for xenotransplantation vs other growth investments. The 6.2x Capex/Dep figure includes IPF launch prep and TreSMI, not just xeno.
+- PAH market share data (51% to 42%) sourced from Liquidia's Q4 earnings call -- potentially self-serving in framing their competitive progress.
 
-### Limitaciones de Este Analisis
-- YUTREPIA commercial ramp data is from Liquidia's reporting, which may overstate conversion rates (prescriptions vs sustained patients)
-- Xenotransplantation is assigned $0 value. If the EXPAND trial shows sustained kidney function at 6-12 months, this could be worth $20-50/share. I have no basis for probability-weighting this.
-- The R1 thesis was written pre-Q4 earnings and pre-ralinepag. Some R1 concerns (Q4 revenue) have partially materialized but the ralinepag success was not anticipated.
+### Limitations of This Analysis
+- No access to detailed UTHR 10-K capex segmentation by program
+- Some analyst targets may be stale (pre-TETON-1), inflating the "consensus gap" challenge
+- TPIP is Phase 2b/3 -- Phase 3 failure is possible (40-50% historical biotech Phase 3 failure rate)
+- No patient-level prescribing data for Winrevair vs UTHR combination therapy real-world patterns
 
-### Sugerencias para el Sistema
-- For pharma companies with binary clinical trial catalysts, the DA should explicitly model the pre/post-event FV gap and recommend whether to buy before or after the event. Currently this is implicit.
-- The R1 thesis's recommended entry of $380-400 should be adjusted for post-ralinepag reality. The investment-committee should set a new entry reflecting the improved pipeline.
+### Suggestions for the System
+- For pharma R1s, require explicit scan of Phase 2+ pipeline competitors (not just marketed drugs). Insmed TPIP omission would have been caught with a systematic pipeline competitor scan.
+- When R1 FV is BELOW current price (negative MoS), the DA should focus less on FV compression and more on whether the stock will return to the entry zone -- what catalysts bring price DOWN to entry?
 
-### Preguntas para Orchestrator
-1. TETON-1 data is expected within weeks. Should the standing order be placed NOW (at revised $410-420) or should we wait for data? The risk of placing the SO now is that TETON-1 succeeds and the stock rallies away from our entry. The risk of waiting is that TETON-1 fails and the stock crashes to $350, below our SO.
-2. Does the fund have a pharma/biotech basket that UTHR would fit into? If not, is this a candidate for a new Healthcare Innovation basket?
-3. Short interest at 5.2% is above peer average (4.79%). Is this worth investigating further via smart_money.py or filing analysis?
+### Questions for Orchestrator
+1. Should Insmed TPIP omission trigger a thesis update before R3, or can it be addressed in R3 resolution?
+2. Is the analyst consensus gap ($382 vs $460-480) a genuine concern or is the consensus stale post-TETON-1?
+3. Should we add KC#8 for Insmed TPIP Phase 3 success? Or modify existing KC#7?
+4. Given stock is 8-20% above any reasonable FV, should UTHR be deprioritized in the pipeline until a pullback materializes?
 
 ---
+
+*Sources: UTHR 10-K FY2025, Q4 2025 earnings ($790M rev, $7.70 EPS), Merck Q4 2025 earnings (Winrevair $467M Q4, $1.4B FY2025), Liquidia FY2025 preliminary ($148M YUTREPIA, 17% market share Q4), Insmed TPIP Phase 2b topline (Jun 2025), FDA expanded Winrevair indication (Oct 2025), MarketBeat short interest (6.49%), TipRanks/StockAnalysis consensus (~$382), BofA PT $626, Wells Fargo PT $575, Goldman $293, price_checker.py ($559.65), dcf_calculator.py --reverse (9.2% implied)*
