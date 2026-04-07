@@ -3,7 +3,7 @@
 > Ultima actualizacion: 2026-04-08
 > Status: **NEUTRAL** (selective -- exceptional businesses at historically depressed valuations, but structural headwinds are real and correlated. Morningstar moat downgrades add new caution layer. Oil at $100+ WTI intensifies employment headwind.)
 
-**April 8 update:** (1) Oil surged to ~$102 WTI / $113 Brent (was $92 at last update) -- Hormuz crisis unresolved, Iran rejected ceasefire, Trump escalated rhetoric. Employment channel headwind intensifies: 60-90 day lag from oil shock now hitting. (2) ADP NER March: +62K private jobs (vs +63K Feb revised) -- hiring FLAT at anemic levels. Trade/transport/utilities -58K (tariff + oil impact). Small biz (<20 employees) added 112K but mid-size -53K. Employment NOT collapsing but NOT recovering. (3) Fed FOMC Mar 18: HELD at 3.50-3.75%, projects ONE cut in 2026 (unchanged from Dec). Inflation and growth projections revised UP. Float income TAILWIND continues for ADP/PAYX. (4) Liberation Day tariffs anniversary (Apr 2): effective tariff rate 11% (highest since 1943). Manufacturing -89K jobs since Apr 2025. Economists project tariffs to add +0.3pp unemployment and -550K payroll by end-2026. NEW headwind layered on oil + AI. (5) Paycom DROPPED from S&P 500 (Mar 22) -- moved to S&P 600. Passive fund selling pressure. Board member resigned. Credit line expanded to $1.46B. Stock at $124, -54% from 52wH. (6) PAYX integration ahead of schedule: 500+ AI tools embedded, synergy targets on track to be EXCEEDED, cross-selling accelerating. Won Lighthouse Tech Awards. (7) ADP Q3 FY2026 earnings scheduled Apr 29. (8) Recession probability at 35-40% (was 30-49% range). Tariffs + oil = dual employment headwind. (9) All sector stocks down materially: ADP $204 (-10% from $226), PAYC $124 (-10% from $138), PAYX $92 (-stable), PCTY $106 (-19% from $131 implied), WDAY $128 (-stable from prior levels).
+**April 8 update:** (1) Oil surged to ~$102 WTI / $113 Brent (was $92 at last update) -- Hormuz crisis unresolved, Iran rejected ceasefire, Trump escalated rhetoric. Employment channel headwind intensifies: 60-90 day lag from oil shock now hitting. (2) ADP NER March: +62K private jobs (vs +63K Feb revised) -- hiring FLAT at anemic levels. Trade/transport/utilities -58K (tariff + oil impact). Small biz (<20 employees) added 112K but mid-size -53K. Employment NOT collapsing but NOT recovering. (3) Fed FOMC Mar 18: HELD at 3.50-3.75%, projects ONE cut in 2026 (unchanged from Dec). Inflation and growth projections revised UP. Float income TAILWIND continues for ADP/PAYX. (4) Liberation Day tariffs anniversary (Apr 2): effective tariff rate 11% (highest since 1943). Manufacturing -89K jobs since Apr 2025. Economists project tariffs to add +0.3pp unemployment and -550K payroll by end-2026. NEW headwind layered on oil + AI. (5) Paycom DROPPED from S&P 500 (Mar 22) -- moved to S&P 600. Passive fund selling pressure. Board member resigned. Credit line expanded to $1.46B. Stock at $124, -54% from 52wH. (6) PAYX Q3 FY2026 BEAT (Mar 25): revenue $1.8B (+20% YoY), adj EPS $1.71 (beat $1.67 consensus). Paycor $100M cost synergies COMPLETED ahead of schedule. Revenue synergies tracking high end 30-50bp. Bookings reaccelerated. 500+ AI tools embedded. Q4 guide: +12% growth, 41-42% adj operating margin. (7) ADP Q3 FY2026 earnings scheduled Apr 29. (8) Recession probability at 35-40% (was 30-49% range). Tariffs + oil = dual employment headwind. (9) All sector stocks down materially: ADP $204 (-10% from $226), PAYC $124 (-10% from $138), PAYX $92 (-stable), PCTY $106 (-19% from $131 implied), WDAY $128 (-stable from prior levels).
 
 ## Resumen Ejecutivo
 
@@ -188,7 +188,7 @@ However, Morningstar is right that the GROWTH premium deserves compression. A 19
 | Tax code simplification (reduces compliance moat) | Muy Baja | Alto | Would hurt ALL incumbents -- but US tax code complexity has only increased for 50+ years |
 | State-level payroll mandates (paid leave, min wage complexity) | Alta | Positivo | BENEFITS incumbents who handle compliance |
 | ERISA/retirement regulation changes | Media | Medio | PAYX most exposed (401k business) |
-| DOGE federal workforce reduction | Ongoing | Bajo | Minimal -- federal payroll is small share of ADP. But signals government efficiency trend |
+| DOGE federal workforce reduction | **Winding down** | Bajo | 350K+ departed, some agencies now rehiring (GSA hiring 400). Net impact on private payroll minimal |
 | **Tariff-related compliance changes (NEW)** | Alta | Positivo | Import duty changes, workforce restructuring compliance, tax adjustment filings -- INCREASES regulatory complexity = POSITIVE for incumbents |
 | **Iran war / oil shock regulatory cascade** | Media | Bajo | If recession triggers emergency employment legislation (enhanced UI, payroll tax holidays), compliance complexity INCREASES = positive for incumbents |
 
@@ -273,7 +273,7 @@ For PAYC at 15.4x: the S&P 500 removal adds a STRUCTURAL headwind that has nothi
 | WDAY | Workday | P/E 49x (was 57x), payroll is secondary business. Still priced for perfection despite sector compression |
 | DAY | Dayforce | TAKEN PRIVATE by Thoma Bravo ($12.3B, completed Feb 4, 2026). No longer investable |
 | Rippling | Rippling (private) | $16.8B valuation at ~$600M ARR. CEO says IPO not imminent. Sued Deel for espionage |
-| Deel | Deel (private) | $800M ARR. IPO possible 2026/2027. Reputational risk from Rippling lawsuit |
+| Deel | Deel (private) | $1.0B ARR. **IPO delayed by DOJ probe.** Reputational risk elevated. 2027+ timeline |
 
 ---
 
@@ -295,7 +295,8 @@ For PAYC at 15.4x: the S&P 500 removal adds a STRUCTURAL headwind that has nothi
 | Apr 1, 2026 | **ADP NER March** | DONE. +62K private jobs (flat from Feb). Trade/transport -58K. Employment NOT recovering. |
 | **Apr 29, 2026** | **ADP Q3 FY2026 earnings** | **CRITICAL.** First quarter showing full oil+tariff employment drag. PPC trajectory decisive. Float income update. AI agent marketplace adoption. Guide for FY2026 -- will they maintain 6% revenue growth? |
 | **May 5, 2026** | **PAYC Q1 FY2026 earnings** | Growth stabilization. Revenue-per-client trend. First results post-S&P 500 removal. |
-| May 2026 | **PAYX Q3 FY2026 earnings** | Paycor synergy update. Organic growth trajectory. 500+ AI tools impact on retention. |
+| Mar 25, 2026 | **PAYX Q3 FY2026 BEAT** | DONE. Rev $1.8B (+20%), EPS $1.71 beat. $100M synergies complete. Q4 guide: +12%, 41-42% margin. |
+| Jun 2026 | **PAYX Q4 FY2026 earnings** | Full-year Paycor integration results. FY2027 guidance critical. |
 | May 6-7, 2026 | **Fed FOMC May** | Rate decision. If economy deteriorating -> dovish tilt = cuts coming -> float income headwind emerges. |
 | Q2-Q3 2026 | US labor market under oil+tariff regime | PPC inflection point? If NFP <50K avg for 3+ months -> recession risk elevates to >50%. |
 | H2 2026 | Fed rate decisions | If cut(s) materialize -> float income headwind begins. Currently 1 cut projected = limited impact. |
@@ -323,6 +324,9 @@ For PAYC at 15.4x: the S&P 500 removal adds a STRUCTURAL headwind that has nothi
 - [ADP Q2 FY2026 Results](https://investors.adp.com/news/news-details/2026/ADP-Reports-Second-Quarter-Fiscal-2026-Results/default.aspx)
 - [Paycom Q4 2025 Results](https://investors.paycom.com/news/news-details/2026/Paycom-Software-Inc--Reports-Fourth-Quarter-and-Year-End-2025-Results/default.aspx)
 - [Paychex Q2 FY2026 Earnings](https://finance.yahoo.com/news/paychex-inc-payx-q2-2026-210126973.html)
+- [Paychex Q3 FY2026 Earnings Call](https://finance.yahoo.com/markets/stocks/articles/paychex-inc-payx-q3-2026-210047692.html)
+- [Paychex Q3 FY2026 Transcript](https://www.fool.com/earnings/call-transcripts/2026/03/25/paychex-payx-q3-2026-earnings-call-transcript/)
+- [Paychex Paycor Acquisition Paying Off](https://financialfreedomisajourney.com/paychex-4-1-billion-paycor-acquisition-is-starting-to-pay-off-2026-3-26/)
 
 **Moat/Valuation:**
 - [Morningstar: Updating Moat Ratings and Fair Value Estimates for Payroll Firms](https://www.morningstar.com/stocks/updating-moat-ratings-fair-value-estimates-payroll-firms)
@@ -356,7 +360,12 @@ For PAYC at 15.4x: the S&P 500 removal adds a STRUCTURAL headwind that has nothi
 **Competitive:**
 - [Rippling $16.8B Valuation](https://www.cnbc.com/2025/05/09/rippling-valued-at-16point8-billion-in-450-million-funding-round.html)
 - [Deel IPO Preparation](https://www.cnbc.com/2025/02/04/hr-unicorn-deel-prepares-for-ipo-as-soon-as-2026.html)
+- [Deel $1B ARR, IPO Status](https://www.calcalistech.com/ctechnews/article/mkl1xfyoe)
 - [Thoma Bravo Completes Dayforce Acquisition (Feb 4, 2026)](https://www.thomabravo.com/press-releases/thoma-bravo-completes-acquisition-of-dayforce)
+
+**DOGE/Federal:**
+- [GSA Rebuilding Workforce After DOGE Cuts](https://federalnewsnetwork.com/hiring-retention/2026/04/gsa-looks-to-rebuild-workforce-after-widespread-layoffs-last-year/)
+- [After DOGE Cuts, Federal Workers Finding New Roles](https://www.cnbc.com/2026/02/12/after-doge-cuts-federal-workers-new-roles.html)
 
 **TAM:** Fortune Business Insights (HCM $76B 2034), Mordor Intelligence (US Payroll), Verified Market Reports.
 
