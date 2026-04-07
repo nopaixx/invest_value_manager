@@ -1,8 +1,10 @@
 # Sector: Business Services (expanded)
 
-> Ultima actualizacion: 2026-03-17
+> Ultima actualizacion: 2026-04-07
 > Analista: Claude (Sector Screener v3.0)
 > Status: NEUTRAL - Quality subsectors preferred over value traps
+
+**April 7 update (incremental):** (1) EDEN.PA TRIMMED from 18% to ~6% portfolio (48 shares sold at EUR 17.12 on Apr 7). Price recovered to EUR 17.49 from EUR 15.94 trough (+9.7%). FV revised down to EUR 20.5 (was EUR 24.0) due to Italy AGCM 5th regulatory front + contagion discount. Now a yield play at 7.8%, not a core position. (2) Italy AGCM probe detail emerged: Guardia di Finanza inspections conducted at Edenred Italia + other meal voucher issuers + interconnection providers. Alleged conduct: unilateral switch from direct checkout integration to third-party interconnection systems post-fee-cap, imposing higher costs and longer reimbursement periods on large retailers. AGCM public consultation open until Apr 30 -- stakeholder feedback phase. This is now a 5th regulatory front (Italy fee cap, Italy AGCM conduct, Brazil PAT, Turkey antitrust, France digitalization). (3) WKL.AS executing EUR 500M buyback program (EUR 60M tranche via third party through May 4). Repurchased 105K shares at avg EUR 63.67 in late Mar. Price EUR 65.50 (vs EUR 66.6 at last update). Pune engineering hub inaugurated Mar 31 -- largest global engineering office. (4) Pluxee Q1 FY2026 (Jan 7): +9% organic revenue to EUR 308M. Employee Benefits +11.6% organic. LatAm +14.3%. Confirmed FY2026 targets (stable LfL revenue, slight EBITDA margin expansion). Acquired Skipr (BE/FR) and ProEves (India). Pluxee growing faster than Edenred organically -- competitive gap narrowing. (5) UTA Edenred partnership with EnBW (Germany) for electric fleet management -- single platform for charging + maintenance. Available Q4 2026. Positive for Mobility segment diversification. (6) Short interest: AMF aggregate ~10.9% (was 9.64%). Marshall Wace 1.32% (down from 1.89%). Shorts NOT covering further despite price recovery -- may be positioning ahead of Q1 revenue Apr 23. (7) France: no new legislative action on fee caps. Autorite de la concurrence previously recommended regulation over price caps. Supermarket use extended through Dec 2026. Digitalization deadline Jan 1, 2027 confirmed. (8) Q1 revenue Apr 23 = NEXT BINARY EVENT for EDEN.PA.
 
 ## Resumen Ejecutivo
 
@@ -16,13 +18,12 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 
 3. **BPO/Staffing/Value Traps** (low moat, AI disruption) -- Teleperformance, Concentrix, staffing agencies. Vendimos TEP.PA y FUTR.L. Sin cambios en tesis negativa.
 
-**Posiciones actuales**: EDEN.PA (employee benefits, Tier B, 18% portfolio = LARGEST position). WKL.AS (info services, Tier B, 7.7% portfolio).
+**Posiciones actuales**: EDEN.PA (employee benefits, Tier B, ~6% portfolio -- TRIMMED Apr 7 from 18%). WKL.AS (info services, Tier B, ~8% portfolio).
 
-**CONTEXTO MACRO (2026-03-17 — CRITICO):**
-- **Oil WTI $96, Brent ~$103.** Hormuz closed, Kharg struck Mar 14. Oil infrastructure spared but conflict ongoing. NEUTRAL para business services (sector NO es energy-intensive). Impacto indirecto: stagflation risk reduce corporate spending — mildly negative para consulting/advisory. Para EDEN.PA: oil pass-through a transportation costs de merchants es minimal.
-- **FOMC HOY (Mar 18, 2 PM ET).** Fed faces stagflation dilemma. Rates at 4.25-4.50%. For EDEN.PA: higher-for-longer rates = POSITIVE for float revenue (Edenred earns on float from voucher balances). For info services: rate sensitivity LOW (subscription models). For TIC: rate sensitivity LOW.
-- **VIX 24.2, Gold $5,029, DXY 99.9.** Elevated volatility, risk-off sentiment. S&P -4.3% from 52wH. Info services selloff deepening for some (IT, FDS) while quality names (VRSK, WKL.AS) stabilize.
-- **Tariffs: Section 301 probes into 16+ economies.** Blanket 10% + potential sector-specific tariffs. Impact on business services: MINIMAL directly (services, not goods). Indirect: tariffs = inflationary, slows corporate capex, mildly negative for consulting/advisory. For EDEN.PA: no direct impact (local service delivery per country).
+**CONTEXTO MACRO (2026-04-07):**
+- **Oil WTI ~$115, Brent elevated.** Continued geopolitical pressure. Business services sector remains NEUTRAL to oil (not energy-intensive). Second-order effects: consumer spending pressure may slow corporate benefits adoption in marginal cases but core meal voucher demand is non-discretionary (employer-mandated).
+- **Fed rates 4.25-4.50%.** Higher-for-longer confirmed. For EDEN.PA: POSITIVE for float revenue. For info services: LOW sensitivity. For TIC: LOW sensitivity.
+- **Tariffs escalating.** Section 301 + reciprocal tariffs broadening. Impact on business services: MINIMAL directly (services, not goods). Indirect: tariffs = inflationary, slows corporate capex, mildly negative for consulting/advisory. For EDEN.PA: no direct impact (local service delivery per country).
 - **EU Pay Transparency Directive (Jun 2026).** Creates compliance demand for HR services/payroll companies (ADP, PAYC) and consulting firms. TAILWIND for HR sub-sector.
 
 ---
@@ -51,7 +52,7 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 |--------|------|--------|------|------|--------|------|-----|---------|----------|---------|------|-------|------|--------|
 | **VRSK** | Verisk Analytics | Insurance Data | 38.3% | 7.8% | +30.5pp | 31.9% | 68.7% | +5.4% | 1.9x | **80** | **A** | $205 | $323 | **-37%** |
 | **ROL** | Rollins Inc | Pest Control | 23.4% | 8.6% | +14.8pp | 17.1% | 52.7% | +11.8% | 1.1x | **79** | **A** | $55 | $66 | -17% |
-| **WKL.AS** | Wolters Kluwer | Prof Info Services | 24.3% | 4.4% | +19.8pp | 22.7% | 72.5% | +7.4% | 2.2x | **77** | **A** | EUR 66.6 | EUR 164 | **-59%** |
+| **WKL.AS** | Wolters Kluwer | Prof Info Services | 24.3% | 4.4% | +19.8pp | 22.7% | 72.5% | +7.4% | 2.2x | **77** | **A** | EUR 65.5 | EUR 164 | **-60%** |
 | **IT** | Gartner | Research/Advisory | 52.1% | 8.8% | +43.4pp | 22.1% | 67.7% | +9.8% | 1.2x | **73** | B | $160 | $461 | **-65%** |
 | **BAH** | Booz Allen Hamilton | Gov Consulting | 23.6% | 5.5% | +18.1pp | 7.6% | 54.8% | +12.7% | 2.6x | **73** | B | $76 | $131 | **-42%** |
 | **FDS** | FactSet Research | Financial Data | 18.7% | 7.6% | +11.1pp | 26.6% | 52.7% | +8.0% | 1.4x | **73** | B | $207 | $475 | **-56%** |
@@ -104,10 +105,11 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 - Professional information services for legal, tax, healthcare, financial.
 - ROIC 24.3%, +19.8pp spread. GM 72.5%. FCF 22.7%.
 - Revenue CAGR +7.4%. EPS CAGR +17.6%.
-- At EUR 66.6, it is 59% below 52wH of EUR 164. P/E 11.8x. Yield 3.8%.
+- At EUR 65.50, it is 60% below 52wH of EUR 164. P/E 11.6x. Yield 3.9%.
 - Named 3x Leader in 2026 Gartner Magic Quadrant for Financial Close (CCH Tagetik, powered by Expert AI). This validates AI-as-tailwind thesis.
 - WIDE moat: embedded in professional workflows, switching costs.
-- **STATUS: IN PORTFOLIO (7.7%, EUR 800). FV EUR 80. E[CAGR] ~20%. R3 complete. Receivables +23% yellow flag, KC monitoring.**
+- **EUR 500M buyback program announced Feb 25. EUR 60M tranche executing through May 4 via third party. 105K shares repurchased at avg EUR 63.67 in late Mar. New Pune engineering hub (largest global) inaugurated Mar 31.**
+- **STATUS: IN PORTFOLIO (~8%). FV EUR 80. E[CAGR] ~20%. R3 complete. Receivables +23% yellow flag, KC monitoring. Buyback providing price support.**
 
 ### Tier A (adjusted) - R1 COMPLETE
 
@@ -160,19 +162,20 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 | Organic growth | 4-6% | Regulation-driven | Stable |
 | EU AI Act (Aug 2026) | Creates new compliance/testing demand | $180B compliance TAM | Tailwind |
 
-### Employee Benefits (REGULATORY HEADWINDS — stabilizing but not resolved)
+### Employee Benefits (REGULATORY HEADWINDS — 5 FRONTS NOW ACTIVE)
 
 | Metrica | Valor | vs Historia | Tendencia |
 |---------|-------|-------------|-----------|
 | TAM Global | >$1T (incl. engagement) | +4-5% CAGR | Up |
 | Gift Card Europe | $85.8B 2026 (+7.8%) | Growing, adjacent to Edenred | Up |
-| P/E EDEN.PA | **8.1x** | vs 15-25x historico | **Deeply depressed** (was 8.5x Mar 7) |
-| Regulatory risk | HIGH but QUANTIFIED | Italy cap active, Brazil PAT May-Nov 2026 | Materializing per schedule |
-| France reform | NEUTRAL-POSITIVE | No fee cap, digitalization Feb 2027 | Resolved favorably |
+| P/E EDEN.PA | **8.2x** | vs 15-25x historico | **Deeply depressed** (was 7.5x at Mar 30 trough) |
+| Regulatory risk | **HIGH — 5 FRONTS** | Italy cap + AGCM conduct + Brazil PAT + Turkey antitrust + France digitalization | Broadening |
+| France reform | NEUTRAL-POSITIVE | No fee cap. Autorite de la concurrence recommended regulation over caps. Digitalization Jan 2027. Supermarket use extended through Dec 2026 | Stable |
 | Turkey antitrust | ONGOING | Investigation into Edenred + peers (collusive bidding, customer allocation) | Monitoring — Turkey ~2-4% of revs |
 | Brazil injunction | OVERRULED | Government position prevailing; interoperability on track May/Nov 2026 | Materializing per schedule |
-| Italy AGCM (antitrust) | **NEW Mar 26** | Abuse of dominance investigation in meal voucher market. Complaint from retail sector. Edenred "confident" — cooperating | Monitoring — separate from fee cap |
-| Short interest | DECLINING | 23.1%→9.64% AMF (Citadel covered, Millennium reduced) | Moderately bullish |
+| Italy AGCM (antitrust) | **ACTIVE — consultation until Apr 30** | Abuse of dominance: Edenred shifted to 3rd-party checkout integration post-fee-cap, imposing costs on retailers. Guardia di Finanza inspections conducted. | Escalating |
+| Short interest | **STABLE-HIGH** | AMF aggregate ~10.9% (was 9.64%). Marshall Wace 1.32% (down from 1.89%). Shorts not covering further. | Neutral — not improving |
+| Pluxee competitive | GROWING FASTER | Q1 FY2026: +9% organic, Employee Benefits +11.6%. Acquiring Skipr + ProEves. | Competitive gap narrowing |
 
 ---
 
@@ -203,7 +206,7 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 - BUT: interoperability mandates in Brazil (from Nov 2026) WILL lower switching costs
 - Fee caps in Italy erode pricing power (EUR ~120M annual EBITDA impact)
 - Turkey antitrust probe could signal further regulatory scrutiny in emerging markets
-- **Competitive update:** Pluxee (Sodexo spinoff) growing double-digit, half Edenred's revenue but concentrated in employee benefits. HelloBonnie and other digital-native challengers emerging in DACH region with Mastercard-based solutions. European gift card market $85.8B growing 7.8% — Edenred and Pluxee increasingly compete here via B2B incentives.
+- **Competitive update (Apr 7):** Pluxee Q1 FY2026 showed +9% organic revenue, Employee Benefits +11.6% organic, LatAm +14.3%. Acquired Skipr (Belgium/France mobility) and ProEves (India). Pluxee growing faster than Edenred organically -- competitive gap narrowing. Pluxee confirmed FY2026 targets: stable LfL revenue, slight EBITDA margin expansion, ~80% cash conversion. HelloBonnie and other digital-native challengers continue emerging in DACH region with Mastercard-based solutions. European gift card market $85.8B growing 7.8%.
 
 ---
 
@@ -214,33 +217,33 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 | Recession | LOW (essential data) | LOW-MEDIUM | HIGH | LOW-MEDIUM |
 | Interest rates | LOW | LOW | MEDIUM | MEDIUM-POSITIVE (float revenue) |
 | AI disruption | TAILWIND (data) | LOW-POSITIVE (testing) | VERY HIGH | LOW |
-| Regulatory risk | LOW | LOW | LOW | **HIGH** (Italy, Brazil, Turkey) |
+| Regulatory risk | LOW | LOW | LOW | **VERY HIGH** (5 fronts: IT cap, IT AGCM, BR PAT, TR antitrust, FR digitalization) |
 | Oil/geopolitics | VERY LOW | LOW | LOW | LOW (services, not energy) |
 | Tariffs | VERY LOW (services) | LOW | LOW | VERY LOW |
 | Cycle phase | All (subscription) | All (regulation) | Early/Mid | All |
 
-**Oil at $96 impact on Business Services: NEUTRAL.** The sector is not energy-intensive. Services are delivered digitally or via professional labor. Oil crisis affects business services only through second-order effects (corporate spending reduction in recession scenario). For EDEN.PA specifically: voucher/card business has zero oil sensitivity. Float revenue benefits from higher-for-longer rates (Fed likely holds at 4.25-4.50% through 2026).
+**Oil at ~$115 WTI impact on Business Services: NEUTRAL.** The sector is not energy-intensive. Services are delivered digitally or via professional labor. Oil crisis affects business services only through second-order effects (consumer spending pressure in stagflation scenario -- marginal negative for discretionary benefits adoption but core meal voucher demand is non-discretionary). For EDEN.PA specifically: voucher/card business has near-zero direct oil sensitivity. Float revenue benefits from higher-for-longer rates (Fed at 4.25-4.50%).
 
 ---
 
-## Sentimiento de Mercado (UPDATED 2026-03-17)
+## Sentimiento de Mercado (UPDATED 2026-04-07)
 
-**Sentimiento actual:** MIXED-to-NEGATIVE — Broader market sell-off pulling down info services further; employee benefits still distressed
+**Sentimiento actual:** MIXED — Info services stabilizing at depressed levels; employee benefits slightly recovering from trough but regulatory cloud persists
 
 | Sub-sector | Sentimiento | P/E actual | P/E historico | Discount |
 |------------|-------------|------------|---------------|----------|
-| Info Services | Deepening selloff for mid-tier | 12-32x | 25-45x | -25% to -65% |
+| Info Services | Stabilizing at compressed levels | 12-32x | 25-45x | -25% to -65% |
 | TIC | Weakening (ITRK.L at 52wL) | 17-21x | 25-35x | -15% to -30% |
 | BPO | Odiado | 6-10x | 15-20x | -50% to -60% |
-| Employee Benefits | **Deeply distressed** | **8.1x** | 15-25x | **-55% to -68%** |
+| Employee Benefits | **Deeply distressed, slight recovery from trough** | **8.2x** | 15-25x | **-50% to -65%** |
 
 **Narrativa dominante (info services):**
 "AI will disintermediate research, advisory, and analytics. Per-seat pricing models are dead."
 *UPDATE Mar 17: Narrative PARTIALLY REFUTED. WKL.AS named Gartner MQ Leader 3x (CCH Tagetik powered by Expert AI). VRSK earnings showed AI as tailwind. But selloff continues for mid-tier (IT at $160, FDS at $207 = new lows). Market is differentiating: highest-quality data monopolies stabilize, pure advisory faces AI substitution risk.*
 
 **Narrativa dominante (employee benefits):**
-"Regulatory headwinds are permanent. Italy fee caps will spread to other countries. Brazil PAT interoperability destroys switching costs. Turkey antitrust adds new regulatory front."
-*UPDATE Mar 17: Brazil injunction OVERRULED — government's position prevailing. Turkey antitrust probe opened. But short interest HALVED (23.1% to 9.64%). Smart money is covering = they see limited further downside.*
+"Regulatory headwinds are permanent and broadening. Italy fee caps led to conduct investigation. Brazil PAT interoperability destroys switching costs. Turkey antitrust adds new regulatory front. Pluxee growing faster."
+*UPDATE Apr 7: Regulatory surface expanded to 5 fronts with AGCM conduct probe detail (Guardia di Finanza inspections, Apr 30 consultation deadline). BUT EDEN.PA price recovered from EUR 15.23 trough to EUR 17.49 (+15%). Shorts stable at ~10.9% AMF -- neither covering aggressively nor building. Market pricing a trough-and-recovery scenario conditionally on Q1 Apr 23.*
 
 **Mi contra-tesis (info services):**
 1. Los datos propietarios de VRSK, WKL.AS, FDS son INSUMOS para AI, no victimas de AI. WKL.AS Gartner MQ recognition confirms this.
@@ -249,20 +252,23 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 4. IDC forecasts $300B+ AI spending by 2026 — analytics and decision intelligence are fastest-growing segments. Data companies are BENEFICIARIES.
 
 **Mi contra-tesis (employee benefits / EDEN.PA):**
-1. EDEN.PA a P/E 8.1x y yield 7.4% ya descuenta un escenario muy negativo. FY 2025 mostro record profitability (EBITDA +11.2% LfL, margin 41.4%, FCF conversion 82%, leverage 0.9x).
-2. La reforma francesa NO incluye cap de comisiones — solo transparencia + digitalizacion. Net positive para Edenred (digital-first, 40% market share).
+1. EDEN.PA a P/E 8.2x y yield 7.8% ya descuenta un escenario muy negativo. FY 2025 mostro record profitability (EBITDA +11.2% LfL, margin 41.4%, FCF conversion 82%, leverage 0.9x).
+2. La reforma francesa NO incluye cap de comisiones — Autorite de la concurrence recomendo regulacion sobre caps, no caps directos. Digitalizacion Feb 2027 es net positive para Edenred (digital-first, 40% market share).
 3. Brasil PAT: headwinds reales pero cuantificados. Guia -8% a -12% EBITDA LfL ya los incorpora. Post-2026, management guia intrinsic EBITDA growth +8-12% para 2027-2028.
-4. El dividend yield 7.4% (EUR 1.33/share, +10% YoY) proporciona carry. Price EUR 18 = near 52wL EUR 16.96.
-5. Short interest halved: Citadel covered, Millennium reduced. Smart money reducing bearish bets.
-6. RIESGO NUEVO: Turkey antitrust probe + Brazil injunction overruled = regulatory pressure is BROADENING, not narrowing. If fee caps spread to France or other EU countries, the model is structurally impaired. This is the key monitoring point.
+4. El dividend yield 7.8% (EUR 1.33/share, +10% YoY) proporciona carry. Price EUR 17.49 = recovering from 52wL EUR 15.23.
+5. Short interest stable at ~10.9%: no longer declining rapidly. Marshall Wace reduced (1.32% from 1.89%) but aggregate not improving.
+6. RIESGO ESCALADO: Italy AGCM probe now has concrete allegations (forced third-party intermediation post-fee-cap to shift costs to retailers). Guardia di Finanza inspections conducted. Apr 30 consultation deadline. If AGCM finds abuse, could impose behavioural remedies, fines, or structural changes on top of fee cap. This is now the key swing factor.
+7. COMPETITIVE PRESSURE: Pluxee growing +9% organic vs Edenred's guided -8% to -12% LfL in 2026. Gap narrowing. Pluxee acquiring in mobility (Skipr) and engagement (ProEves). Edenred's competitive position may erode during the regulatory rebasing year.
+8. **NET ASSESSMENT post-trim**: At 6% portfolio (was 18%), EDEN.PA is now appropriately sized as a yield play with optionality. The trim was correct -- 5 regulatory fronts + competitive erosion + shorts stable = too much uncertainty for a core position. Q1 Apr 23 is the next binary event.
 
 ---
 
 ## Nuestras Posiciones Actuales
 
-### EDEN.PA - Employee Benefits (Edenred) -- LARGEST POSITION (18% portfolio)
+### EDEN.PA - Employee Benefits (Edenred) -- ~6% portfolio (TRIMMED Apr 7 from 18%)
 - **QS:** 62 (Tier B)
-- **Thesis:** Employee benefits con foso fintech. Regulacion hundio la accion. SI declining = smart money covering.
+- **FV:** EUR 20.5 (revised down from EUR 24.0 -- Italy AGCM 5th front + regulatory contagion discount)
+- **Thesis:** Employee benefits con foso fintech. Regulacion hundio la accion. Now a yield play at reduced sizing.
 - **FY 2025 Results (24-Feb-2026):**
   - Revenue EUR 2,732M (+6.2% LfL, Q4 +9.7% LfL)
   - EBITDA EUR 1,360M (+11.2% LfL), margin 41.4% (+2.8pp LfL)
@@ -271,27 +277,29 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
   - Dividend EUR 1.33/share (+10%), EUR 125M buybacks, total returns EUR 463M
   - **2026 Guidance: EBITDA -8% to -12% LfL (rebasing year: Italy cap + Brazil PAT)**
   - **2027-2028: Intrinsic EBITDA growth +8-12% (ex-regulation)**
-- **Regulatory Tracker (UPDATED 2026-03-17):**
-  - Italy: Fee cap active since Sep 2025, EUR ~120M annual EBITDA impact. PRICED IN.
-  - **Italy AGCM (NEW Mar 26, 2026):** Competition authority opened abuse-of-dominance investigation against Edenred Italia in meal voucher market. Complaint from retail sector players. Edenred states compliance with Dec 2024 fee cap law and "confident in outcome." No penalty disclosed. This is SEPARATE from the fee cap — it concerns market conduct (possibly anti-competitive practices in merchant relations under the new fee cap regime). Monitoring.
-  - Brazil: PAT Decree No. 12,712 (Feb 2026). MDR cap 3.6%, interchange 2%. Interoperability: large operators May 2026, full Nov 2026. **Injunction OVERRULED — on track.** Nubank, iFood, Mercado Pago moving forward. Expected EBITDA impact up to EUR 200M in 2026 (consistent with -8% to -12% LfL guidance).
-  - France: No fee cap (positive). Transparency charter. Full digitalization by Feb 2027. Expanded usage (supermarkets, Sundays).
+- **Regulatory Tracker (UPDATED 2026-04-07):**
+  - Italy fee cap: Active since Sep 2025, EUR ~120M annual EBITDA impact. PRICED IN.
+  - **Italy AGCM (ACTIVE):** Case A578, opened at AGCM sitting Mar 17, announced Mar 26. Abuse of dominance investigation under Art. 102 TFEU. Alleged conduct: post-fee-cap, Edenred unilaterally discontinued direct checkout integration with large retailers, replaced with third-party interconnection systems (higher costs for retailers), imposed longer reimbursement periods. Guardia di Finanza inspections at Edenred Italia + other issuers + interconnection providers. **Public consultation open until Apr 30.** This is about CONDUCT under the fee cap, not a new fee cap -- but remedies could be structural (forced direct integration, reimbursement timelines, additional cost controls).
+  - Brazil: PAT Decree No. 12,712 (Feb 2026). MDR cap 3.6%, interchange 2%. Interoperability: large operators May 2026, full Nov 2026. **Injunction OVERRULED — on track.** Expected EBITDA impact up to EUR 200M in 2026 (consistent with guidance).
+  - France: No fee cap (Autorite de la concurrence recommended regulation over caps). Transparency charter. Full digitalization by Jan 1, 2027. Supermarket use extended through Dec 2026. Expanded usage (supermarkets, Sundays). **No new legislative action in Mar-Apr 2026.**
   - Turkey: Antitrust investigation ongoing (Edenred + Multinet + Pluxee + Setcard). Alleged collusive bidding and customer allocation. Turkey ~2-4% of revs. Historical precedent: TCA imposed fines in prior 2006 case.
-  - EU: Pay Transparency Directive (Jun 2026) — minimal direct impact on employee benefits, more relevant for HR/payroll sub-sector.
-  - Italy fringe benefits: Tax-exempt limit confirmed EUR 2,000/year for employees with dependent children. Mildly positive for benefits adoption.
-- **Price:** EUR 15.94 | P/E ~7.5x | Yield ~8.5% | MCap EUR 3.7B
-- **52wH:** EUR 32.40 | 52wL: EUR 15.23 | %offHi: -51% | Near 52wL
-- **Short Interest:** DECLINING (last data Mar 17). AMF 9.64% (was 23.1%). Citadel covered. Trend positive.
-- **Assessment (UPDATED Mar 30):** Price fell from EUR 18.00 to EUR 15.94 (-11.5% since Mar 17). Now at 52wL territory (vs EUR 15.23). Italy AGCM abuse-of-dominance probe is NEW incremental negative — adds legal uncertainty on top of the existing fee cap. However: this investigation relates to compliance with the existing fee cap regime (i.e., how Edenred is treating merchants under capped MDR), not a new fee cap threat. Regulatory surface continues to broaden (Italy, Brazil, Turkey = 3 active fronts). Key risk escalation: if AGCM finds abuse, could impose behavioural remedies or fines on top of fee cap. P/E 7.5x, yield 8.5% — deep value IF 2026 is truly the trough. Key question: is Italy AGCM a contained compliance issue or a sign of structural conduct problems that could spread to other markets?
+  - EU: Pay Transparency Directive (Jun 2026) — minimal direct impact on employee benefits.
+  - Italy fringe benefits: Tax-exempt limit confirmed EUR 2,000/year for employees with dependent children. Mildly positive.
+- **Mobility segment:** UTA Edenred partnered with EnBW (Germany) for electric fleet management. Single platform for charging + maintenance via HyperNet (8,000 fast-charging points). Available Q4 2026. Positive diversification signal.
+- **Share capital (Mar 31, 2026):** 236,974,583 shares outstanding. Total potential voting rights 240,058,644.
+- **Price:** EUR 17.49 | P/E ~8.2x | Yield ~7.8% | MCap EUR 4.1B
+- **52wH:** EUR 32.40 | 52wL: EUR 15.23 | %offHi: -46% | Recovering from trough
+- **Short Interest (Apr 7):** AMF aggregate ~10.9% (was 9.64% at Mar 17). Marshall Wace 1.32% (down from 1.89%). Shorts stable, not covering further — possibly positioning ahead of Q1 Apr 23.
+- **Assessment (UPDATED Apr 7):** TRIMMED from 18% to ~6% portfolio on Apr 7 (sold 48 shares at EUR 17.12). Price recovered to EUR 17.49 from EUR 15.23 trough (+15%), but regulatory surface expanded to 5 fronts. AGCM probe now has concrete allegations with Guardia di Finanza involvement — this is serious antitrust enforcement, not a preliminary inquiry. Pluxee growing +9% organic while Edenred guides -8% to -12% = competitive erosion risk during rebasing year. At 6% portfolio with 7.8% yield, this is appropriately sized as a yield-with-optionality play. Q1 revenue Apr 23 = next binary event. EXIT if France fee cap tabled OR AGCM imposes structural remedy OR 2027-28 guide falls below +3% OR Turkey fine >EUR 50M.
 
-### WKL.AS - Professional Information Services (Wolters Kluwer) -- 7.7% portfolio
+### WKL.AS - Professional Information Services (Wolters Kluwer) -- ~8% portfolio
 - **QS:** 72 (Tier B, was 77 tool)
 - **Thesis:** Legal/tax/health information monopolist. WIDE moat. AI tailwind confirmed.
 - **FV:** EUR 80 (R3 maintained). E[CAGR] ~20%.
-- **Price:** EUR 66.6 | P/E 11.8x | Yield 3.8% | MCap EUR 15B
-- **52wH:** EUR 164 | 52wL: EUR 59 | %offHi: -59%
-- **Recent:** Named 3x Leader in 2026 Gartner Magic Quadrant for Financial Close (CCH Tagetik). AI strategy ("Expert AI") validating. Receivables +23% yellow flag unresolved.
-- **Assessment:** Deeply discounted quality. P/E 11.8x for ROIC 24% is anomalous. The Gartner MQ recognition is a positive data point. Main risk: SaaSpocalypse narrative persists, receivables concern.
+- **Price:** EUR 65.50 | P/E 11.6x | Yield 3.9% | MCap EUR 14.7B
+- **52wH:** EUR 164 | 52wL: EUR 59 | %offHi: -60%
+- **Recent:** Named 3x Leader in 2026 Gartner Magic Quadrant for Financial Close (CCH Tagetik). AI strategy ("Expert AI") validating. Receivables +23% yellow flag unresolved. **EUR 500M buyback program executing (EUR 60M tranche through May 4). Pune engineering hub inaugurated Mar 31.**
+- **Assessment:** Deeply discounted quality. P/E 11.6x for ROIC 24% is anomalous. Buyback provides price support and signals management confidence. The Gartner MQ recognition + Pune expansion are positive operational data points. Main risk: SaaSpocalypse narrative persists, receivables concern.
 
 ---
 
@@ -299,8 +307,8 @@ El sector Business Services es extremadamente heterogeneo, abarcando desde BPO/c
 
 | Tipo | Ticker | Thesis Path | Ultima Eval | Status |
 |------|--------|-------------|-------------|--------|
-| Portfolio | EDEN.PA | thesis/active/EDEN.PA | 2026-03-30 | HOLD 13.3% — Italy AGCM probe NEW (Mar 26), price EUR 15.94, yield 8.5%, 3 regulatory fronts active |
-| Portfolio | WKL.AS | thesis/active/WKL.AS | 2026-03-15 | HOLD 7.7% — Gartner MQ 3x Leader, receivables flag |
+| Portfolio | EDEN.PA | thesis/active/EDEN.PA | 2026-04-07 | HOLD ~6% (TRIMMED from 18%). FV EUR 20.5. Yield play. 5 regulatory fronts. Q1 Apr 23 = binary. |
+| Portfolio | WKL.AS | thesis/active/WKL.AS | 2026-03-15 | HOLD ~8% — EUR 500M buyback executing, Gartner MQ 3x Leader, receivables flag |
 | Universe | BVI.PA | -- | 2026-02-12 | QS 69, corrected to EUR 27.68 (-9% off 52wH) |
 | Universe | VRSK | thesis/research/VRSK | 2026-02-13 | R1 COMPLETE, Entry $150. Price $205 (+37% above entry). |
 | Universe | IT | thesis/research/IT | 2026-02-14 | R4 WATCHLIST. QS 71 adj (B). FV $190, Entry $120-130. Price $160 (approaching). |
@@ -352,8 +360,9 @@ Archived: TEP.PA SOLD (QS 46, AI disruption). FUTR.L SOLD (QS 32 Tier D). HRB SO
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
-| 2026-03-30 | TARGETED UPDATE: EDEN.PA price EUR 18.00→15.94 (-11.5%, near 52wL EUR 15.23). Italy AGCM opened abuse-of-dominance investigation Mar 26 (NEW — separate from fee cap). Brazil PAT on track (interoperability May/Nov 2026, EUR 200M EBITDA impact in guidance). Turkey antitrust ongoing. 3 regulatory fronts now active. P/E 7.5x, yield 8.5%. | EDEN.PA-only refresh (13d stale). Italy AGCM probe not in prior update. |
-| 2026-03-17 | UPDATE: Price refresh all tickers. Added WKL.AS to "Nuestras Posiciones" (7.7% portfolio). EDEN.PA price EUR 18.79→18.00 (P/E 8.1x, yield 7.4%). New developments: Turkey antitrust probe on Edenred, Brazil injunction overruled, WKL.AS Gartner MQ 3x Leader, EU Pay Transparency Directive Jun 2026, EU AI Act Aug 2026 tailwind for TIC. IT/FDS at new lows. ITRK.L at 52wL. Short interest update (SI halved). Added Gift Cards/B2B Incentives sub-sector ($85.8B). Macro context: oil $96 NEUTRAL for sector, FOMC today, tariffs minimal impact. Status remains NEUTRAL. | Staleness refresh (10 days). Macro crisis context. New regulatory developments. |
+| 2026-04-07 | INCREMENTAL UPDATE: EDEN.PA TRIMMED 18%->6% (48 shares sold at EUR 17.12). FV revised EUR 24->20.5. Price EUR 17.49 (recovered from EUR 15.23 trough). Italy AGCM detail: Guardia di Finanza inspections, forced 3rd-party intermediation allegation, public consultation until Apr 30. AMF shorts ~10.9% (stable, not covering). Pluxee Q1 +9% organic (competitive gap narrowing). WKL.AS EUR 500M buyback executing, Pune hub inaugurated. UTA Edenred-EnBW electric fleet partnership. France: no new fee cap legislation. Macro: oil ~$115 WTI = NEUTRAL for sector. | 21-day staleness refresh. EDEN.PA trim + AGCM escalation + competitive update. |
+| 2026-03-30 | TARGETED UPDATE: EDEN.PA price EUR 18.00->15.94 (-11.5%, near 52wL EUR 15.23). Italy AGCM opened abuse-of-dominance investigation Mar 26 (NEW — separate from fee cap). Brazil PAT on track (interoperability May/Nov 2026, EUR 200M EBITDA impact in guidance). Turkey antitrust ongoing. 3 regulatory fronts now active. P/E 7.5x, yield 8.5%. | EDEN.PA-only refresh (13d stale). Italy AGCM probe not in prior update. |
+| 2026-03-17 | UPDATE: Price refresh all tickers. Added WKL.AS to "Nuestras Posiciones" (7.7% portfolio). EDEN.PA price EUR 18.79->18.00 (P/E 8.1x, yield 7.4%). New developments: Turkey antitrust probe on Edenred, Brazil injunction overruled, WKL.AS Gartner MQ 3x Leader, EU Pay Transparency Directive Jun 2026, EU AI Act Aug 2026 tailwind for TIC. IT/FDS at new lows. ITRK.L at 52wL. Short interest update (SI halved). Added Gift Cards/B2B Incentives sub-sector ($85.8B). Macro context: oil $96 NEUTRAL for sector, FOMC today, tariffs minimal impact. Status remains NEUTRAL. | Staleness refresh (10 days). Macro crisis context. New regulatory developments. |
 | 2026-03-07 | UPDATE: EDEN.PA FY25 results, regulatory tracker (IT/BR/FR), price refresh all tickers, Info Services recovery (VRSK +20% from entry). 2026 = rebasing year for EDEN.PA. | Staleness refresh (22 days). FY25 earnings, PAT Brazil decree, France reform resolution. |
 | 2026-02-13 | MAJOR UPDATE: Info Services + TIC. VRSK R1 (QS 85 Tier A), IT R1 (QS 80 Tier A) | Sector screener v3.0. 11 scored companies. |
 | 2026-02-06 | TEP.PA SOLD, status NEUTRAL | Capital rotation. QS 46, ROIC < WACC. |
@@ -362,8 +371,8 @@ Archived: TEP.PA SOLD (QS 46, AI disruption). FUTR.L SOLD (QS 32 Tier D). HRB SO
 
 ## Fuentes
 
-Information Services: Verisk IR (Q4 2025 earnings Feb 18), Gartner top predictions for Data & Analytics 2026 (Mar 11), Wolters Kluwer Gartner MQ Leader announcement (Mar 12), IDC AI spending forecast.
+Information Services: Verisk IR (Q4 2025 earnings Feb 18), Gartner top predictions for Data & Analytics 2026 (Mar 11), Wolters Kluwer Gartner MQ Leader announcement (Mar 12), Wolters Kluwer share buyback report (Apr 2, 2026), Wolters Kluwer Pune office inauguration (Mar 31, 2026), IDC AI spending forecast.
 TIC: Mordor Intelligence (EU TIC), EU AI Act compliance services demand.
-Employee Benefits: Edenred FY 2025 press release (Feb 24, 2026), Brazil PAT Decree No. 12,712, Turkey antitrust investigation (Mar 2026), Italy AGCM abuse-of-dominance investigation press release (Mar 26, 2026), Europe Gift Card Market Report (GlobeNewsWire Feb 2026, $85.8B 2026), Italy 2026 fringe benefits tax updates (Asinta/DBCG), EU Pay Transparency Directive.
-Competitive: Pluxee N.V. S&P analysis (Dec 2025), HelloBonnie DACH comparison, Brazil Prepaid Card Intelligence Report (GlobeNewsWire Feb 2026).
+Employee Benefits: Edenred FY 2025 press release (Feb 24, 2026), Edenred share capital disclosure (Apr 3, 2026), Brazil PAT Decree No. 12,712, Turkey antitrust investigation (Mar 2026), Italy AGCM Case A578 press release (Mar 26, 2026), AGCM public consultation (deadline Apr 30, 2026), Concurrences analysis (Apr 2026), Europe Gift Card Market Report (GlobeNewsWire Feb 2026, $85.8B 2026), Italy 2026 fringe benefits tax updates, EU Pay Transparency Directive, Autorite de la concurrence opinion on meal voucher commissions.
+Competitive: Pluxee Q1 FY2026 revenues (Jan 7, 2026 -- EUR 308M, +9% organic), Pluxee Skipr/ProEves acquisitions, UTA Edenred-EnBW partnership (Apr 2, 2026), HelloBonnie DACH comparison, Brazil Prepaid Card Intelligence Report (GlobeNewsWire Feb 2026).
 BPO/Staffing: Grand View Research (BPO), Yahoo Finance (staffing sector).

@@ -1,7 +1,9 @@
 # Sector: Self-Service Vending / Photobooths / Unattended Retail
 
-> Ultima actualizacion: 2026-03-23 (S284: MEGP.L R4 BUY approved, FY2025 results published)
+> Ultima actualizacion: 2026-04-07 (incremental refresh: EES go-live, COO appointment, oil/consumer impact)
 > Status: NEUTRAL — MEGP.L is actionable (R4 approved, SO 135p triggered)
+>
+> **April 7 update (incremental):** (1) EU Entry/Exit System (EES) goes FULLY LIVE April 9, 2026 — biometric registration mandatory for non-EU travelers at Schengen borders. Since Oct 2025 phased rollout, 24,000+ entries refused on document issues. Processing times up 70% at some airports during holiday peaks. This is a STRUCTURAL TAILWIND for certified biometric photo demand — more travelers need compliant photos. ME Group's next-gen booths (3,079 deployed) are positioned to capture this. (2) ME Group appointed Christophe Dantcikian as COO (announced Mar 2, 2026). 20+ years retail/convenience experience (ExxonMobil, Puma Energy/Trafigura). Previously GM of Photomaton (ME Group's largest subsidiary, 2017-2018). Succession risk mitigation for Crasnianski (CEO, age 75, 36% owner) — POSITIVE signal. (3) UK consumer spending growth forecast CUT to 0.7% (from 1.2% Dec forecast) due to oil shock — petrol 152p/litre, diesel 181p. This creates MILD headwind for entertainment photo usage (discretionary) but NEUTRAL for ID photos (inelastic) and laundry (essential service). Net effect on MEGP.L: minimal — 70%+ of revenue is ID photo + laundry (both inelastic). (4) FY2025 results confirmed laundry ambition for FY2026: >1,300 net new machines target (up from 1,145 net in FY2025). Dog wash rollout (~70 units FR/IE), Kee.ME key-cutting machines (50 units under SNCF contract). Capex GBP 65.6M (+20.1% YoY), heavily weighted to laundry (GBP 31.8M). (5) Speed Queen EU store count appears ~800 (not 1,500+ as previously cited in DA). Their model remains full-laundromat (>GBP 100K/unit) vs ME Group's kiosk format (GBP 28K/unit). Different addressable locations. Competitive overlap limited. (6) MEGP.L price 141.8p (vs 136.6p at last update, +3.8%). Yield 6.3%. P/E 9.5x. Above 135p SO trigger but within range. Germany digital ID regulation fully embedded since May 2025 — no new propagation to other EU countries yet.
 >
 > **UPDATE Mar 23 (S284):** MEGP.L FY2025 results published Mar 23 after 2x audit delay:
 > Revenue £315.4M (+2.4%, +3% CC). EBITDA £120.4M (+5.4%), margin 38.2% (+110bps). PBT £78.2M RECORD.
@@ -31,9 +33,9 @@ Las dinamicas regulatorias son el factor diferenciador clave. La transicion de A
 | TAM Self-Service Kiosk Global | USD 34.5B (2025) | Business Research Co. [Nivel 2] | CAGR 6.2% |
 | P/E MEGP.L (lider) | 9.5x | yfinance [Nivel 1] | Historico 9-12x |
 | P/E AZK.MC (comparable) | 11.6x | yfinance [Nivel 1] | |
-| Yield MEGP.L | 5.8% | yfinance [Nivel 1] | |
+| Yield MEGP.L | 6.3% | yfinance [Nivel 1, Apr 7] | Was 5.8% at sector creation |
 
-**Nota sobre TAM Photobooth:** Las estimaciones varian enormemente (USD 0.6B a USD 5B) dependiendo de si incluyen solo hardware, o tambien software/apps/servicios de eventos. Las cifras mas conservadoras (Straits Research: USD 624M en 2024) parecen mas realistas para el segmento puro de ID + portrait photobooths que nos interesa.
+**Nota sobre TAM Photobooth:** Las estimaciones varian enormemente (USD 0.6B a USD 5B) dependiendo de si incluyen solo hardware, o tambien software/apps/servicios de eventos. Las cifras mas conservadoras (Straits Research: USD 624M en 2024) parecen mas realistas para el segmento puro de ID + portrait photobooths que nos interesa. Cognitive Market Research (2026 report) values market at USD 639M for 2026, growing at 9.3% CAGR to USD 1.55B by 2036.
 
 ---
 
@@ -53,7 +55,7 @@ Las dinamicas regulatorias son el factor diferenciador clave. La transicion de A
 | Empresa | Posicion | Geo | Listada |
 |---------|----------|-----|---------|
 | ME Group (Wash.ME) | 7,892 kioscos, monopolio en formato kiosk | Europa | LSE |
-| Speed Queen | 1,200+ stores en 30 paises EU | Europa/Global | Privada (Alliance Laundry) |
+| Speed Queen | ~800 stores in EU (franchise model, full laundromat format) | Europa/Global | Privada (Alliance Laundry) |
 | Bloomest/Miele | 1,000+ lavanderias Italia/EU | Europa | Privada |
 | CSC ServiceWorks | 1.4M machines (US focused) | US | Privada (Pamplona Capital) |
 | Domus Laundry (Clean&Go) | Cadena franquicia | Europa | Privada |
@@ -90,6 +92,7 @@ Las dinamicas regulatorias son el factor diferenciador clave. La transicion de A
 | Inflacion | Baja | Pueden pasar costes al consumidor (precios por uso) |
 | Regulacion | Alta | Cambios en normativa de ID photos pueden crear headwinds/tailwinds |
 | Urbanizacion | Positiva | Mas densidad = mas trafico = mejor economia unitaria |
+| Oil shock (2026) | Baja | ID photos inelastic, laundry essential. Entertainment photo mild negative. 70%+ revenue insulated. |
 
 **Mejor fase del ciclo:** All (subsegmento ID inelastico), Mid/Late (entretenimiento y laundry)
 **Beta tipico:** 0.6-0.8 (estimado, sector defensivo)
@@ -103,6 +106,7 @@ Las dinamicas regulatorias son el factor diferenciador clave. La transicion de A
 2. **Fabricacion vertical:** ME Group fabrica sus propias maquinas (coste ~GBP 6,500/photobooth, ~GBP 28,000/laundry kiosk), lo que reduce dependencia de proveedores y protege margenes.
 3. **Contratos de ubicacion:** Ubicaciones de alto trafico (aeropuertos, centros comerciales, supermercados) con contratos de 5-7 anos y comision al propietario (~25% de revenue). Alta renovacion.
 4. **Adaptacion regulatoria:** Capacidad de actualizar flota a transmision digital para cumplir nuevas regulaciones biometricas (next-gen machines: 3,079 ya operativos a fin de FY2025).
+5. **Management depth improving:** COO Christophe Dantcikian appointed Mar 2026 (ex-Photomaton GM, ExxonMobil/Trafigura). Reduces Crasnianski key-man risk.
 
 ### Diferencia clave: Laundry Kiosk vs Laundromat
 ME Group opera KIOSCOS individuales (1-2 lavadoras + secadoras en espacio compacto), NO lavanderias completas como Speed Queen. Es un modelo diferente:
@@ -112,18 +116,19 @@ ME Group opera KIOSCOS individuales (1-2 lavadoras + secadoras en espacio compac
 - Revenue por maquina: ~GBP 13,000/ano, EBITDA: ~GBP 5,500/ano
 - ROI cash ~20% primer ano, mejorando con escala
 
-Speed Queen y Bloomest son competidores en el concepto de "lavanderia autoservicio", pero NO en el formato kiosk. ME Group tiene monopolio efectivo en este nicho.
+Speed Queen and Bloomest are competitors in the concept of "self-service laundry", but NOT in the kiosk format. Speed Queen's EU network is ~800 stores (CORRECTED from 1,500+ previously cited — that figure appears to be a target, not current count). ME Group has effective monopoly in the kiosk niche.
 
 ---
 
 ## Drivers/Tailwinds
 
 1. **Regulacion biometrica EU:** La transicion a fotos digitales obligatorias (Alemania desde mayo 2025, se espera propagacion EU) favorece a operadores con tecnologia certificada. A corto plazo es headwind (adaptar flota), a medio plazo es MOAT amplificado (barrera regulatoria).
-2. **EU Entry/Exit System (EES):** Desde oct 2025, biometricos obligatorios para viajeros no-EU. Aumenta demanda de fotos biometricas certificadas.
-3. **Rollout laundry kiosks:** Penetracion aun baja en la mayoria de mercados EU. ME Group instala ~80-100 kioscos/mes y esta acelerando. Runway de crecimiento de +10 anos en este subsegmento.
+2. **EU Entry/Exit System (EES):** FULLY LIVE April 9, 2026. Biometric registration mandatory for all non-EU travelers at Schengen borders. Since Oct 2025 phased rollout: 24,000+ entries refused, processing times up 70% at peak. This INCREASES demand for certified biometric photos as travelers prepare documentation. Structural tailwind for ME Group's next-gen booths.
+3. **Rollout laundry kiosks:** Penetracion aun baja en la mayoria de mercados EU. ME Group targets >1,300 net new installs FY2026 (up from 1,145 net in FY2025). Runway de crecimiento de +10 anos en este subsegmento.
 4. **Hogares unipersonales + urbanizacion:** Tendencia secular que impulsa demanda de laundry autoservicio.
-5. **Cashless y smart vending:** Transicion a pagos electronicos mejora conversion y permite data analytics.
+5. **Cashless y smart vending:** Transicion a pagos electronicos mejora conversion y permite data analytics. WashMe app rolling out across major laundry markets.
 6. **ICAO standards:** Estandares biometricos mas estrictos globalmente (ISO/IEC 39794) eliminan fotos caseras/no certificadas.
+7. **Diversification into adjacent kiosks:** Dog wash (~70 units FR/IE), key-cutting Kee.ME (50 units under SNCF contract). Leverages existing location network and maintenance infrastructure.
 
 ## Headwinds
 
@@ -131,7 +136,8 @@ Speed Queen y Bloomest son competidores en el concepto de "lavanderia autoservic
 2. **Smartphone apps para fotos ID:** Apps como Visapics ofrecen fotos biometricas desde el movil. Sin embargo, las nuevas regulaciones (ban de AI editing, requisito de transmision segura) REDUCEN esta amenaza.
 3. **Dependencia de Francia:** ~50% de los kioscos Revolution estan en Francia. Concentracion geografica del segmento de mayor crecimiento.
 4. **Clima:** La lavanderia exterior tiene estacionalidad (menor uso en verano calido). FY2025 impactado por H2 calido.
-5. **CEO risk:** Serge Crasnianski (CEO) posee 36% pero la empresa tiene estructura casi familiar. Riesgo de sucesion.
+5. **CEO risk:** Serge Crasnianski (CEO, ~75) posee 36% pero la empresa tiene estructura casi familiar. Riesgo de sucesion. MITIGATED by COO appointment (Mar 2026) + Deputy CEO (Feb 2026). Succession planning now visible.
+6. **UK/EU consumer spending weakness (2026):** UK growth forecast cut to 0.7% (from 1.2%). Oil shock (petrol 152p/L, diesel 181p) squeezing discretionary spend. Impact on MEGP.L: MILD — entertainment photo is discretionary (~15% of revenue), but ID photos and laundry are inelastic.
 
 ---
 
@@ -179,13 +185,13 @@ Cuando actualices este sector view con cambio MATERIAL:
 ### Para analisis profundo
 | Ticker | Empresa | Razon | Priority |
 |--------|---------|-------|----------|
-| MEGP.L | ME Group International | Lider global photobooths + monopolio laundry kiosk. QS 80, P/E 9.5x, yield 5.8%, CEO 36% ownership. R4 approved conditional. | Alta |
+| MEGP.L | ME Group International | Lider global photobooths + monopolio laundry kiosk. QS 80, P/E 9.5x, yield 6.3%, CEO 36% ownership. R4 approved conditional. | Alta |
 | AZK.MC | Azkoyen | Fabricante vending + payment tech, P/E 11.6x, yield 4.3%, mcap EUR 200M. Nicho diferente (fabricante vs operador). | Baja |
 
 ### Comparables no listados (referencia)
 | Empresa | Descripcion | Por que no invertible |
 |---------|-------------|----------------------|
-| Speed Queen | Franquicia laundry autoservicio, 1,200+ EU stores | Privada (Alliance Laundry Systems) |
+| Speed Queen | Franquicia laundry autoservicio, ~800 EU stores (target 1,500+) | Privada (Alliance Laundry Systems) |
 | Selecta Group | Mayor operador vending EU, ~EUR 1.6B revenue | Privada (KKR) |
 | CSC ServiceWorks | 1.4M laundry machines US | Privada (Pamplona Capital) |
 | Bloomest/Miele | 1,000+ lavanderias Italia | Privada |
@@ -216,28 +222,31 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| Feb 2026 | MEGP.L FY2025 Annual Results (ano fiscal oct 2025) | Ya publicados. Revenue GBP 311-318M, PBT record GBP 76-79M |
-| Q1 2026 | Propagacion regulacion digital ID a otros paises EU | Positivo medio plazo para operadores certificados |
-| Abr 2026 | EU EES full implementation | Incremento demanda fotos biometricas |
-| H1 2026 | MEGP.L H1 2026 results | Clave para ver si Alemania se recupera y laundry sigue acelerando |
-| 2026 | MEGP.L laundry kiosk rollout pace | Target >100 kioscos/mes indicaria aceleracion |
+| Apr 9, 2026 | EU EES FULL IMPLEMENTATION | Structural tailwind for biometric photo demand. Live now. |
+| H1 2026 | MEGP.L H1 2026 results | Clave para ver si Alemania se recupera y laundry sigue acelerando. Target >1,300 net new laundry installs. |
+| Q2-Q3 2026 | EU biometric regulation propagation to other countries | Positive medium-term if other EU states follow Germany's digital-only model |
+| 2026 | MEGP.L buyback execution (GBP 15-20M program) | Supports share price at these levels (3-4% of market cap) |
+| Jul 5, 2026 | MEGP.L ex-dividend (4.79p) | Yield 6.3% at current price |
 
 ---
 
 ## Metricas del Lider del Sector (MEGP.L - referencia)
 
-| Metrica | FY2024 (Oct) | H1 FY2025 | FY2025e | Notas |
-|---------|--------------|-----------|---------|-------|
-| Revenue | ~GBP 287M | GBP 153.8M | GBP 311-318M | +~10% YoY |
-| EBITDA | GBP 114.2M | GBP 53.2M | ~GBP 110-115M est | Margin ~35% |
-| EBITDA margin | ~40% | 34.6% | ~35% | H1 tipicamente menor |
-| Laundry revenue | ~GBP 96M | GBP 51.9M | ~GBP 110M+ | +17.7% H1 (cc +20.2%) |
-| Laundry EBITDA | GBP 47.0M | GBP 25.4M | ~GBP 52M+ | Margin 49.1% |
-| Laundry machines | 7,892 | ~8,500+ | ~9,000+ | +27% net new FY2025 |
+| Metrica | FY2024 (Oct) | H1 FY2025 | FY2025 (actual) | Notas |
+|---------|--------------|-----------|-----------------|-------|
+| Revenue | ~GBP 287M | GBP 153.8M | GBP 315.4M (+2.4%) | +3% CC |
+| EBITDA | GBP 114.2M | GBP 53.2M | GBP 120.4M (+5.4%) | Margin 38.2% (+110bps) |
+| EBITDA margin | ~40% | 34.6% | 38.2% | |
+| PBT | | | GBP 78.2M (RECORD) | |
+| Laundry revenue | ~GBP 96M | GBP 51.9M | +10% YoY | |
+| Laundry machines | 7,892 | ~8,500+ | 7,892 (net +1,145 in FY2025) | Target >1,300 net new FY2026 |
+| Laundry capex | | | GBP 31.8M | Largest capex bucket |
 | Photobooths | ~31,000 | ~31,000 | ~31,000 | Stable fleet |
-| Photo revenue | (decl -4%) | | | Germany + UK headwinds |
+| Photo revenue | | | -4% YoY | Germany + UK headwinds |
+| Next-gen booths | | | 3,079 deployed | Digital transmission capable |
 | Cash ROI photobooth | ~30%/yr | | | Coste GBP 6,500/booth |
 | Cash ROI laundry | ~20%/yr | | | Coste GBP 28,000/kiosk |
+| Total capex | | | GBP 65.6M (+20.1% YoY) | Heavy investment cycle |
 | ROCE | >20% | | | |
 | CEO ownership | 36% | | | Skin in the game |
 
@@ -249,6 +258,7 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-04-07 | Incremental refresh: EES go-live, COO appointment, oil/consumer impact, Speed Queen correction, yield/catalyst update | 15-day staleness refresh |
 | 2026-02-18 | Sector view creado (Status: NEUTRAL) | Gate 0 para MEGP.L R4 approval |
 
 ---
@@ -278,20 +288,30 @@ Cuando actualices este sector view con cambio MATERIAL:
 ## Fuentes
 
 ### Nivel 1 (Datos Primarios)
+- ME Group Annual Results FY2025, RNS 23 Mar 2026 (https://me-group.com/wp-content/uploads/2026/03/ME-Group-2025-Annual-Results.pdf)
 - ME Group Annual Results FY2024, RNS 24 Feb 2025 (https://me-group.com/wp-content/uploads/2025/03/250224-ME-Group-2024-Annual-Results-RNS.pdf)
 - ME Group H1 2025 Interim Results, RNS 22 Jul 2025 (https://me-group.com/wp-content/uploads/2025/07/ME-Group-2025-Interim-Results.pdf)
 - ME Group Year-End Trading Update, 7 Nov 2025 (https://me-group.com/wp-content/uploads/2025/11/251107-ME-Group-Year-End-Trading-Update.pdf)
+- ME Group COO Appointment RNS, 2 Mar 2026 (https://www.investegate.co.uk/announcement/rns/me-group-international--megp/appointment-of-chief-operating-officer/9452352)
+- ME Group Deputy CEO Appointment RNS, 1 Feb 2026 (https://www.londonstockexchange.com/news-article/MEGP/appointment-of-deputy-ceo/17440172)
 - Germany Passport Act amendment 6a — official regulation (https://immigration-consultant.de/blog/digital-photos-for-german-id-cards/)
-- yfinance price data for MEGP.L, AZK.MC (retrieved 2026-02-18)
+- EU Entry/Exit System official (https://travel-europe.europa.eu/ees)
+- yfinance price data for MEGP.L, AZK.MC (retrieved 2026-04-07)
 
 ### Nivel 2 (Analisis Secundario)
 - Grand View Research: Europe Coin-operated Laundries Market (https://www.grandviewresearch.com/industry-analysis/europe-coin-operated-laundries-market-report)
 - Business Research Company: Self-Service Kiosk Market Report (https://www.thebusinessresearchcompany.com/report/self-service-kiosk-global-market-report)
 - Straits Research: Photo Booth Market (https://straitsresearch.com/report/photo-booth-market)
+- Cognitive Market Research: Photo Booth Market 2026 (https://www.cognitivemarketresearch.com/photo-booth-market-report)
+- Future Market Insights: Photo Booth Market 2026-2036 (https://www.futuremarketinsights.com/reports/photo-booth-market)
 - Market Data Forecast: Europe Kiosk Market (https://www.marketdataforecast.com/market-reports/europe-kiosk-market)
 - Market Data Forecast: Europe Vending Machine Market (https://www.marketdataforecast.com/market-reports/europe-vending-machine-market)
 - Quacker Capital: ME Group Long Pitch (https://quackercap.substack.com/p/long-pitch-me-group-international) [Nivel 2/3 — investment blog, datos verificados contra Nivel 1]
+- KPMG UK Economic Outlook Mar 2026 (https://kpmg.com/uk/en/media/press-releases/2026/03/uk-economy-faces-renewed-headwinds.html)
+- Euronews: EES April 2026 rollout (https://www.euronews.com/travel/2026/04/06/europes-entryexit-system-ees-what-travellers-need-to-know-before-10-april-rollout)
+- TipRanks: ME Group COO appointment (https://www.tipranks.com/news/company-announcements/me-group-names-new-coo-to-drive-expansion-of-laundry-and-photobooth-business)
 
 ### Nivel 3 (Opinion — solo para sentimiento)
 - Kiosk Marketplace: ME Group expansion (https://www.kioskmarketplace.com/news/me-group-expands-photobooths-laundry-machines-more/)
 - VisaPics: EU biometric regulations roundup (https://visapics.org/news/)
+- UK petrol prices analysis Apr 2026 (https://brumble.co.uk/guides/are-petrol-prices-going-up)

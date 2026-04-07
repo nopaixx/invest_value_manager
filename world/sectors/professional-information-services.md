@@ -1,6 +1,6 @@
 # Sector: Professional Information Services
 
-> Ultima actualizacion: 2026-03-18
+> Ultima actualizacion: 2026-04-07
 > Status: NEUTRAL-SELECTIVO -- Exceptional moats and quality, but AI disruption creates genuine uncertainty in 10-20% of revenue base. Select best-positioned companies at reasonable valuations.
 
 ## Resumen Ejecutivo
@@ -14,6 +14,8 @@ The sector experienced a severe AI-driven sell-off beginning in 2025 and acceler
 2. **Morningstar downgraded WKL + TRI moats to NARROW** and raised uncertainty to Medium (from Low). Rationale: AI disruption potential in legal vertical. Our view: partially agree for legal (16% of WKL rev) but disagree for tax/health/compliance workflow (70%+ of revenue, switching costs intact).
 3. **Trade war tariffs (Section 301 probes)** = potential tailwind: more compliance complexity = more demand for professional information tools. EU AI Act implementation ongoing = additional compliance revenue.
 
+**April 7 update (incremental):** (1) **WKL Expert AI strategy showcase (Mar 30):** Major press release detailing Expert AI advances across CCH Axcess and UpToDate. CCH Axcess Expert AI now features agentic orchestration across modules with 20-30% manual work reduction claims, serving 10,000 firms (95 of Top 100) and 1.4M users. UpToDate Expert AI adopted by ~1/3 of enterprise customers representing ~1,600 US hospitals. This is the strongest evidence yet that WKL is INTEGRATING AI into workflows, not being disrupted by it. (2) **WKL buyback executing at depressed prices:** EUR 6.7M repurchased Mar 26-Apr 1 at avg EUR 63.67 -- well below committee FV EUR 72 and thesis FV EUR 80. EUR 500M 2026 program underway. Unlike the value-destroying EUR 509M at EUR 134 avg in 2023-2024, current buybacks are accretive. (3) **WKL Pune office expansion (Mar 31):** Inaugurated new purpose-built tech hub in Pune -- now WKL's largest global engineering center. Strategic investment in development capacity. (4) **Harvey AI closed $200M round at $11B valuation (Mar 2026):** Launched Agent Builder (no-code legal AI agents) with multi-model support (Claude, Gemini, GPT). LexisNexis-Harvey alliance producing co-developed workflows (motions to dismiss, summary judgment). Threat assessment: Harvey remains focused on legal vertical only (~16% of WKL rev) and is PARTNERING with LexisNexis (RELX), not competing directly with WKL's tax/health/compliance. (5) **RELX GBP 2.25B buyback program** started, GBP 350M tranche executing. April 23 AGM + trading update will be next sentiment catalyst. (6) **Verisk -5.2% on Mar 26** after P&C industry data suggested faster insurance market normalization -- first cracks in VRSK's premium narrative. (7) **Tariff complexity = structural tailwind confirmed:** Grant Thornton, Cherry Bekaert, and others reporting surging demand for tariff compliance, customs classification, and trade advisory services. More regulatory complexity = more demand for WKL/TRI compliance tools. EU AI Act + US tariffs + CSRD = triple compliance tailwind.
+
 The indiscriminate sell-off creates opportunity for companies whose revenue is predominantly workflow-embedded, while generic information aggregators face real structural risk.
 
 ---
@@ -26,11 +28,11 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 | TAM Legal Information | ~USD 25-30B | Growing | CAGR 5-7% |
 | TAM Tax & Accounting Software | ~USD 15-20B | Growing | CAGR 7-9% |
 | TAM Clinical Decision Support | ~USD 5-8B | Growing | CAGR 8-10% |
-| P/E WKL.AS | 12.1x | vs 25-30x (3y avg) | Severely compressed |
-| P/E REL.L | 23.4x | vs 28-32x (3y avg) | Compressed |
-| P/E TRI | 33.3x | vs 35-40x (3y avg) | Moderately compressed |
-| P/E VRSK | 32.6x | vs 35x (3y avg) | Compressed |
-| P/E FDS | 14.3x | vs 30x (3y avg) | Severely compressed |
+| P/E WKL.AS | 11.6x | vs 25-30x (3y avg) | Severely compressed (was 12.1x Mar 7) |
+| P/E REL.L | 22.5x | vs 28-32x (3y avg) | Compressed |
+| P/E TRI | 27.5x | vs 35-40x (3y avg) | Further compressed (was 33.3x) |
+| P/E VRSK | 28.5x | vs 35x (3y avg) | Compressed (was 32.6x) |
+| P/E FDS | 14.9x | vs 30x (3y avg) | Severely compressed |
 | P/E CLVT | N/A (loss-making) | -- | Distressed |
 | Operating Margin (sector avg) | 25-35% | Stable-expanding | Cloud transition benefit |
 | Recurring Revenue (sector avg) | 78-84% | Increasing | Cloud/SaaS migration |
@@ -38,17 +40,19 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 
 ---
 
-## Precios Actuales (2026-03-07)
+## Precios Actuales (2026-04-07)
 
 | Ticker | Precio | Curr | EUR | 52w High | 52w Low | P/E | Yield | MCap |
 |--------|--------|------|-----|----------|---------|-----|-------|------|
-| WKL.AS | 68.52 | EUR | 68.52 | 163.65 | 59.00 | 12.1x | 3.7% | EUR 15.5B |
-| REL.L | 2640p | GBp | 30.35 | 4183p | 1991p | 23.4x | 2.6% | GBP 47.5B |
-| TRI | $111.46 | USD | 95.96 | $218.42 | $79.71 | 33.3x | 2.4% | $49.6B |
-| VRSK | $214.84 | USD | 184.96 | $322.92 | $164.60 | 32.6x | ~0.7% | $29.9B |
-| FDS | $225.87 | USD | 194.45 | $474.79 | $185.00 | 14.3x | 2.0% | $8.5B |
-| MORN | $190.15 | USD | 163.70 | $316.71 | $149.08 | 21.4x | 1.1% | $7.8B |
-| CLVT | $2.74 | USD | 2.36 | $4.77 | $1.66 | N/A | 0% | $1.8B |
+| WKL.AS | 65.60 | EUR | 65.60 | 163.65 | 59.00 | 11.6x | 3.9% | EUR 14.7B |
+| REL.L | 2520p | GBp | 28.90 | 4183p | 1991p | 22.5x | 2.7% | GBP 45.1B |
+| TRI | $90.62 | USD | 78.49 | $218.42 | $79.71 | 27.5x | 2.9% | $40.2B |
+| VRSK | $184.71 | USD | 159.98 | $322.92 | $164.60 | 28.5x | 1.1% | $25.7B |
+| FDS | $230.94 | USD | 200.02 | $474.79 | $185.00 | 14.9x | 1.9% | $8.6B |
+| MORN | -- | -- | -- | -- | -- | -- | -- | -- |
+| CLVT | -- | -- | -- | -- | -- | -- | -- | -- |
+
+*Note: MORN and CLVT not refreshed this cycle (low priority). TRI notably compressed from 33.3x to 27.5x since Mar 7.*
 
 ---
 
@@ -87,18 +91,21 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 **Key players:** RELX (LexisNexis), Thomson Reuters (Westlaw), WKL (Kluwer Law)
 **AI vulnerability:** HIGHEST in sector. Generic legal research (case lookup, statute interpretation) is directly challenged by LLMs. Claude Cowork legal plugin, Harvey AI ($190M ARR, $11B valuation), CoCounsel by Thomson Reuters.
 **Counter-argument:** Complex legal analysis requiring accountability, audit trails, and malpractice framework still needs curated platforms. Stanford research found error rates of 17% for Lexis+ AI and 34% for Westlaw AI-Assisted Research -- suggesting AI supplements rather than replaces curated databases near-term.
+**April 7 update:** Harvey AI raised $200M at $11B, launched Agent Builder with multi-model support. BUT Harvey is now PARTNERING with LexisNexis (RELX) via strategic alliance -- co-developing legal workflows. This shifts the threat from "disruptor vs incumbent" to "ecosystem partnership." Net effect: reduces legal sub-sector risk for RELX specifically. WKL legal exposure (16% rev) remains the most vulnerable segment but is now a smaller concern given RELX-Harvey alignment.
 **Sector share of WKL:** 16% of revenue, 10-13% of EBIT
 
 ### 2. Tax & Accounting Software (TAM ~$15-20B)
 **Key players:** WKL (CCH Axcess, 59% US share), Thomson Reuters (GoSystem, UltraTax), Intuit (ProConnect)
 **AI vulnerability:** LOW. Tax compliance requires real-time IRS/state database connections, e-filing certification, audit trails, multi-year client data. ChatGPT cannot e-file a tax return.
 **AI as tailwind:** WKL launched CCH Axcess Expert AI (Oct 2025), embedding AI into workflow. AI enhances rather than replaces.
+**April 7 update:** CCH Axcess Expert AI now features agentic orchestration with 20-30% manual work reduction. 10,000 firms, 1.4M users. Tariff complexity driving additional demand for trade/customs compliance tools in this vertical.
 **Sector share of WKL:** 26% of revenue
 
 ### 3. Health / Clinical Decision Support (TAM ~$5-8B)
 **Key players:** WKL (UpToDate), Elsevier (ClinicalKey), IBM Watson (declining)
 **AI vulnerability:** LOW-MEDIUM. Hospitals cannot tell a malpractice jury they used ChatGPT for dosage decisions. WKL found AI CDS tools produced "serious misfires, including recommending unnecessary surgery." Curated, peer-reviewed, evidence-graded content retains value.
 **AI as tailwind:** WKL launched UpToDate Expert AI (Sep 2025). GenAI on top of curated content.
+**April 7 update:** ~1/3 of UpToDate enterprise customers (~1,600 US hospitals) have signed on to Expert AI. This is significant adoption velocity for a product launched Sep 2025 (6 months to 33% penetration). Validates AI-as-upsell thesis.
 **Sector share of WKL:** 27% of revenue
 
 ### 4. Financial & Corporate Compliance (TAM ~$10-15B)
@@ -109,6 +116,7 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 ### 5. Insurance Analytics (TAM ~$8-12B)
 **Key players:** Verisk (dominant), RELX (LexisNexis Risk Solutions)
 **AI vulnerability:** LOW. Proprietary actuarial data accumulated over decades. Regulatory embedded.
+**April 7 update:** Verisk -5.2% on Mar 26 after P&C data suggested faster insurance market normalization. First sign that the insurance pricing cycle may be peaking, which could slow VRSK's premium growth narrative. Monitor closely.
 
 ### 6. Scientific/Academic Publishing (TAM ~$10-12B)
 **Key players:** RELX (Elsevier), Clarivate (Web of Science), Springer Nature
@@ -126,6 +134,7 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 | Regulacion | Positiva | More regulation = more compliance demand = structural tailwind |
 | AI disruption | Media-Alta | Varies dramatically by sub-sector (see above) |
 | FX (EUR/USD) | Media | WKL: 60%+ NA revenue. TRI: ~85% USD. RELX: ~55% USD |
+| Tariffs/Trade war | Positiva | Compliance complexity = demand driver for tax/trade tools |
 
 **Mejor fase del ciclo:** ALL (defensive/secular growth)
 **Beta tipico:** 0.7-0.9 (WKL 0.85, RELX 0.80, TRI 0.85)
@@ -145,6 +154,8 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 
 **Key insight:** AI threatens the INFORMATION layer but NOT the WORKFLOW layer. Generic lookup is vulnerable; embedded workflow + regulatory certification is not. Companies that are AI integrators (WKL, RELX) face different risk than companies that ARE the information (Clarivate, basic data providers).
 
+**April 7 update on AI risk:** Harvey's $200M raise and Agent Builder launch show AI-native legal tools are advancing rapidly. However, the Harvey-LexisNexis strategic alliance suggests even AI-native challengers need incumbent content and regulatory infrastructure. The competitive dynamic is evolving from "disruption" toward "ecosystem" -- reducing tail risk for incumbents who partner effectively (RELX) while maintaining risk for those who don't adapt (CLVT).
+
 ### Regulatorios
 | Regulacion | Probabilidad | Impacto |
 |------------|--------------|---------|
@@ -152,6 +163,7 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 | EU AI Act (compliance requirements) | HIGH | Positive -- more compliance = more demand |
 | US tax code simplification | LOW | Negative for WKL/TRI tax divisions |
 | Healthcare data interoperability mandates | MEDIUM | Mixed -- opens data but increases compliance |
+| US tariff regime (Section 301, reciprocal) | HIGH | Positive -- customs/trade compliance demand surge |
 
 ### Competitivos
 - **Nuevos entrantes:** Harvey AI ($190M ARR, $11B valuation) targeting legal. Thomson Reuters CoCounsel "Ready to Review" automating 1040 tax prep. These are the most credible AI-native threats.
@@ -162,7 +174,7 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 
 ## Sentimiento de Mercado
 
-**Sentimiento actual:** ODIADO (WKL, FDS) / CASTIGADO (TRI, RELX) / PREMIUM (VRSK)
+**Sentimiento actual:** ODIADO (WKL, FDS) / CASTIGADO (TRI, RELX) / PREMIUM-CRACKING (VRSK)
 
 **Narrativa dominante:**
 "AI will destroy professional information services. Claude/ChatGPT can do legal research, tax advice, and clinical questions. These companies are the next newspapers."
@@ -170,7 +182,9 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 **Mi contra-tesis:**
 "The market is conflating generic information lookup (10-15% of revenue, genuinely at risk) with embedded regulatory workflow software (60-70% of revenue, protected by switching costs, certification requirements, and liability frameworks). AI is a TAILWIND for the workflow layer -- it makes existing platforms more valuable when embedded (CCH Axcess Expert AI, UpToDate Expert AI). The sector crash prices in 40-60% revenue destruction when realistic disruption risk is 10-20% over 5-10 years."
 
-**Flujos de fondos (12m):** Significant outflows. WKL -63% from ATH, FDS -55%, TRI -55%. Sector-wide de-risking by institutional investors.
+**April 7 sentiment update:** Fear persists but evidence continues to accumulate that incumbents are integrating, not being disrupted. WKL Expert AI showcase (Mar 30) is most detailed evidence yet. UpToDate 33% enterprise adoption in 6 months. Harvey partnering with RELX rather than replacing it. However, macro headwinds (tariff recession fears, risk-off) are now adding to AI-driven selling -- sector getting hit from both AI narrative AND macro weakness. This creates a potential double-discount for quality names.
+
+**Flujos de fondos (12m):** Significant outflows. WKL -60% from ATH (worsened from -58%), FDS -51%, TRI -58% (worsened from -49%). Sector-wide de-risking continues. VRSK -43% (worsened from -33%, accelerated by P&C normalization data).
 
 ---
 
@@ -181,8 +195,9 @@ The indiscriminate sell-off creates opportunity for companies whose revenue is p
 - **Thesis:** Market conflates legal research (10-13% EBIT, vulnerable to AI) with tax workflow (26% rev, protected) and clinical CDS (27% rev, protected). 78% recurring revenue, 73.5% GM, 25% OP margin, EPS +24.7% YoY. FV EUR 80 (re-eval S143c11).
 - **FY2025 Results (Feb 25, 2026):** Revenue EUR 6,125M (+7% CC, +6% organic). Cloud software +15% organic. Diluted adj EPS EUR 5.29, +9% CC. Dividend EUR 2.52 (+8%). Buyback EUR 500M for 2026. Nearly 70% of digital revenues AI-powered. 2026 guidance: good organic growth, margin increase, high single-digit EPS growth.
 - **QS:** 72 (tool), Tier B. Committee FV EUR 72 (range 67-80).
-- **Key risk:** AI disruption of legal division (16% rev). CEO transition (Caywood). Buyback value destruction (EUR 509M at EUR 134 avg, stock now EUR 68.52).
+- **Key risk:** AI disruption of legal division (16% rev). CEO transition (Caywood). Buyback value destruction (EUR 509M at EUR 134 avg, stock now EUR 65.60).
 - **Key strength:** FY2025 confirmed 6% organic growth and 15% cloud growth -- AI has NOT impacted the business. The crash is fear-driven, not fundamentals-driven.
+- **April 7 update:** Expert AI showcase (Mar 30) is most detailed commercial evidence yet -- UpToDate Expert AI at 1/3 enterprise penetration (1,600 hospitals), CCH Axcess Expert AI at 10K firms/1.4M users with agentic orchestration. Buyback executing at EUR 63.67 avg -- now accretive vs prior EUR 134 avg. Pune tech hub expansion signals continued R&D investment. Price EUR 65.60 vs FV EUR 80 = 18% upside, E[CAGR] remains attractive for Tier B.
 
 ---
 
@@ -207,16 +222,16 @@ Cuando actualices este sector view con cambio MATERIAL:
 ### Para analisis profundo
 | Ticker | Empresa | Razon | Priority |
 |--------|---------|-------|----------|
-| REL.L | RELX PLC | #1-2 in legal + scientific. 23.4x P/E, 2.6% yield. 31% OP margin. AI-integrated (LexisNexis+ AI). Diversified across 4 verticals (Risk is strongest). Recovered more than WKL from crash (-37% vs -63%). | Alta |
-| FDS | FactSet Research | Severely compressed (14.3x P/E, -55% from ATH). Financial data terminal. 10.94x forward P/E vs 5y avg 27.6x. Risk: AI-native alternatives, client budget pressure, Bloomberg dominance. Potential deep value. | Alta |
-| TRI | Thomson Reuters | #1 legal (Westlaw), #2 tax. 33.3x P/E -- still premium despite crash. CoCounsel AI integration. Revenue growth 7.5-8% guided for 2026. Strong franchise but expensive. | Media |
-| VRSK | Verisk Analytics | Insurance data monopoly. 32.6x P/E. Revenue $3.07B (+6.6%). EBITDA margin 56%. Very high quality but expensive. | Media |
-| MORN | Morningstar | Investment research + CRSP indices. 21.4x P/E. CRSP acquisition completed. Diversified data business. | Media |
+| REL.L | RELX PLC | #1-2 in legal + scientific. 22.5x P/E, 2.7% yield. 31% OP margin. AI-integrated (LexisNexis+ AI + Harvey alliance). Diversified across 4 verticals (Risk is strongest). GBP 2.25B buyback for 2026. Apr 23 AGM/trading update next catalyst. | Alta |
+| FDS | FactSet Research | Severely compressed (14.9x P/E, -51% from ATH). Financial data terminal. Risk: AI-native alternatives, client budget pressure, Bloomberg dominance. Potential deep value. | Alta |
+| TRI | Thomson Reuters | #1 legal (Westlaw), #2 tax. 27.5x P/E -- compressed significantly (was 33.3x). CoCounsel AI integration. Revenue growth 7.5-8% guided for 2026. Strong franchise, now more attractively priced. | Media-Alta (upgraded from Media) |
+| VRSK | Verisk Analytics | Insurance data monopoly. 28.5x P/E (down from 32.6x). Revenue $3.07B (+6.6%). EBITDA margin 56%. P&C normalization risk emerging. | Media |
+| MORN | Morningstar | Investment research + CRSP indices. Diversified data business. | Media |
 
 ### Adjacent / Monitor
 | Ticker | Empresa | Razon | Priority |
 |--------|---------|-------|----------|
-| LSEG.L | London Stock Exchange Group | Data + analytics + exchanges. 47.3x P/E -- very expensive. Wide moat. | Baja (valuation) |
+| LSEG.L | London Stock Exchange Group | Data + analytics + exchanges. Wide moat. | Baja (valuation) |
 | CLVT | Clarivate | Academic/IP data. Loss-making, restructuring. Revenue declining. | Baja (distressed) |
 
 ### Evitar
@@ -239,25 +254,25 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Metric | WKL.AS | REL.L | TRI | VRSK | FDS | MORN |
 |--------|--------|-------|-----|------|-----|------|
-| P/E | 12.1x | 23.4x | 33.3x | 32.6x | 14.3x | 21.4x |
-| Yield | 3.7% | 2.6% | 2.4% | ~0.7% | 2.0% | 1.1% |
+| P/E | 11.6x | 22.5x | 27.5x | 28.5x | 14.9x | -- |
+| Yield | 3.9% | 2.7% | 2.9% | ~1.1% | 1.9% | -- |
 | Gross Margin | 73.5% | 66.3% | ~65% | ~70% | ~55% | ~60% |
 | Op Margin | 25-27% | 31.1% | ~30% | ~56% | ~28% | ~25% |
 | Revenue Growth (organic) | 6% | ~6% | 7.5-8% | 6.6% | ~4% | ~10% |
 | Recurring Revenue | 83% | ~70% | ~80% | ~85% | ~95% | ~70% |
-| MCap (EUR B) | 15.5 | 54.6 | 42.7 | 25.7 | 7.3 | 6.7 |
-| vs 52w High | -58% | -37% | -49% | -33% | -52% | -40% |
+| MCap (EUR B) | 14.7 | 51.7 | 34.8 | 22.2 | 7.5 | -- |
+| vs 52w High | -60% | -40% | -58% | -43% | -51% | -- |
 | AI Risk Level | LOW-MED | LOW-MED | MED | LOW | MED-HIGH | LOW |
 | Moat | NARROW* | WIDE | WIDE | WIDE | NARROW | NARROW |
 
 *WKL moat assessment: switching costs WIDE but intangible assets eroding due to AI. Committee ruled NARROW.
 
-**Observations:**
-1. WKL.AS is the cheapest by P/E (12.1x) with the highest yield (3.7%) -- most aggressively discounted for AI risk
-2. RELX has the best recovery (-37% vs -49 to -58% for peers) -- market differentiating its Risk division
-3. FactSet is second-cheapest (14.3x P/E) but faces strongest AI disruption risk (financial terminals)
-4. Verisk commands premium (32.6x P/E) justified by insurance data monopoly with lowest AI risk
-5. TRI still trades at premium (33.3x) despite -49% crash -- market values CoCounsel AI integration
+**Observations (updated Apr 7):**
+1. WKL.AS remains cheapest by P/E (11.6x, down from 12.1x) with highest yield (3.9%) -- valuation gap widening vs peers
+2. TRI now significantly cheaper (27.5x vs 33.3x on Mar 7) -- 19% P/E compression in 30 days. Becoming more interesting.
+3. VRSK premium cracking (28.5x vs 32.6x) after P&C normalization data -- insurance cycle question emerging
+4. RELX best-positioned on AI integration (Harvey alliance + Protege rollout + Risk division strength)
+5. Sector-wide valuation compression continues: avg P/E down ~15% in 30 days across the board
 
 ---
 
@@ -265,31 +280,31 @@ Cuando actualices este sector view con cambio MATERIAL:
 
 | Fecha | Evento | Impacto esperado |
 |-------|--------|------------------|
-| 2026-03-12 | ADBE earnings (tech sentiment) | Indirect -- AI narrative for sector |
-| 2026-Q1 | RELX FY2025 results | Direct -- peer comparison for WKL |
-| 2026-Q1/Q2 | TRI Q1 2026 results | CoCounsel adoption metrics |
+| 2026-04-23 | RELX AGM + trading update | Direct -- first 2026 trading update, AI product traction, buyback progress |
+| 2026-Q2 | TRI Q1 2026 results | CoCounsel adoption metrics, organic growth confirmation |
+| 2026-Q2 | WKL Q1 2026 trading update | Expert AI adoption metrics, organic growth trajectory |
 | 2026 ongoing | AI product launches by WKL/RELX/TRI | Positive if showing AI-as-tailwind thesis |
 | 2026 H2 | Harvey AI growth metrics | Risk indicator for legal sub-sector |
-| 2026 ongoing | EU AI Act implementation | Positive for compliance revenue |
+| 2026 ongoing | EU AI Act + US tariff implementation | Positive for compliance revenue |
 
 ---
 
 ## Key Sector Dynamics
 
 ### 1. AI: Threat or Tailwind?
-The central question. Evidence to date (as of FY2025 results):
-- WKL: 6% organic growth maintained, 15% cloud growth, 70% AI-powered digital revenue. NO customer defections to AI alternatives.
-- RELX: Strong growth in Risk division (data analytics), improving Legal momentum. AI integration via LexisNexis+.
+The central question. Evidence to date (as of FY2025 results + Mar 2026 updates):
+- WKL: 6% organic growth maintained, 15% cloud growth, 70% AI-powered digital revenue. NO customer defections to AI alternatives. Expert AI showcase (Mar 30) shows UpToDate at 33% enterprise penetration, CCH Axcess with agentic orchestration.
+- RELX: Strong growth in Risk division (data analytics), improving Legal momentum. AI integration via LexisNexis+ Protege. Strategic alliance with Harvey AI (previously seen as disruptor, now partner).
 - TRI: 7.5-8% growth guided. CoCounsel adopted but "Ready to Review" for tax is competitive threat to WKL.
 - FDS: Weakest position. Client budget pressure + AI alternatives + S&P Global weak guidance.
 
-**Current evidence supports AI-as-tailwind for WKL/RELX/TRI workflow businesses.** But the sample size is small (one post-crash reporting cycle) and agentic AI evolution could change the calculus.
+**Current evidence supports AI-as-tailwind for WKL/RELX/TRI workflow businesses.** The Harvey-LexisNexis alliance is a structural positive: the most credible AI-native challenger chose to PARTNER with, not compete against, the incumbent. This suggests the "workflow + content + regulatory certification" moat is real. But the sample size is still small (one post-crash reporting cycle) and agentic AI evolution could change the calculus.
 
 ### 2. Consolidation Trend
 The sector has consolidated significantly over 20 years. Further M&A likely targets: Clarivate (distressed), Morningstar (strategic), FactSet (financial data). Acquirers could be private equity (data businesses are PE favorites) or strategic (LSEG, S&P Global).
 
 ### 3. Regulatory Tailwind
-EU AI Act, ESG reporting mandates (CSRD), increased financial regulation post-SVB, healthcare compliance requirements -- all increase demand for compliance tools and professional information platforms.
+EU AI Act, ESG reporting mandates (CSRD), increased financial regulation post-SVB, healthcare compliance requirements, **US tariff regime (Section 301 + reciprocal tariffs)** -- all increase demand for compliance tools and professional information platforms. The tariff tailwind is new since Mar 18 and represents a structural demand driver for tax/trade/customs compliance tools (WKL, TRI primary beneficiaries).
 
 ---
 
@@ -309,6 +324,7 @@ The `financial-data-analytics.md` sector view covers FINANCIAL MARKET infrastruc
 
 | Fecha | Cambio | Razon |
 |-------|--------|-------|
+| 2026-04-07 | MINOR incremental refresh: (1) WKL Expert AI showcase Mar 30 -- UpToDate 33% enterprise penetration, CCH Axcess agentic orchestration. (2) Harvey AI $200M at $11B, Agent Builder launch, RELX partnership deepening. (3) VRSK -5.2% on P&C normalization. (4) WKL buyback executing at EUR 63.67 (accretive). (5) Tariff tailwind confirmed. (6) Sector-wide P/E compression ~15% in 30 days. (7) TRI upgraded to Media-Alta priority. Status: NEUTRAL-SELECTIVO maintained -- AI-as-tailwind thesis strengthening with commercial evidence | 20-day staleness refresh. Expert AI adoption data + Harvey partnership + tariff tailwind + price updates |
 | 2026-03-18 | MINOR refresh: LexisNexis Protege GA (Feb 24) + Willkie firmwide adoption (Mar 16) = AI-as-tailwind thesis VALIDATED. RELX +0.9% on news. Morningstar downgraded WKL+TRI moats to Narrow (AI uncertainty raised to Medium). AI fear persists but commercial adoption proves incumbents can integrate, not be replaced. Status: NEUTRAL-SELECTIVO maintained | Staleness refresh. Protege commercial traction + Morningstar moat downgrades |
 | 2026-03-07 | Status inicial: NEUTRAL-SELECTIVO | Created as HARD GATE requirement from WKL.AS investment committee decision (2026-02-11, Gate 0 FAIL) |
 
@@ -339,16 +355,18 @@ The `financial-data-analytics.md` sector view covers FINANCIAL MARKET infrastruc
 ## Fuentes
 
 - [Wolters Kluwer FY2025 Full-Year Report (Feb 25, 2026)](https://www.wolterskluwer.com/en/investors/financials/results)
-- [RELX 2024 Annual Report - Market Segments](https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/2024-ar-sections/relx-2024-market-segments.pdf)
+- [Wolters Kluwer Expert AI Strategy (Mar 30, 2026)](https://www.globenewswire.com/news-release/2026/03/30/3264336/0/en/Wolters-Kluwer-powers-high-stakes-professional-decision-making-by-advancing-its-Expert-AI-strategy.html)
+- [Wolters Kluwer Pune Office Inauguration (Mar 31, 2026)](https://www.globenewswire.com/news-release/2026/03/31/3265202/0/en/Wolters-Kluwer-inaugurates-new-Pune-office-marking-the-next-chapter-of-its-technology-growth-journey-in-India.html)
+- [Wolters Kluwer Buyback Details Mar 26-Apr 1 (Apr 2, 2026)](https://www.globenewswire.com/news-release/2026/04/02/3267143/0/en/Share-Buyback-Transaction-Details-March-26-April-1-2026.html)
 - [RELX 2025 Results](https://www.relx.com/investors/results/2025)
+- [RELX Buyback + April Update Preview](https://www.bez-kabli.pl/relx-plc-ramps-up-share-buyback-as-lexisnexis-owner-heads-into-april-trading-update-reuters/)
+- [Harvey AI Agent Builder Launch + $200M Round](https://sacra.com/c/harvey/)
+- [Best AI Legal Tools 2026 Comparison](https://www.techno-pulse.com/2026/04/best-ai-legal-tools-in-2026-harvey-ai.html)
+- [Verisk -5.2% on P&C Normalization (Mar 26, 2026)](https://markets.financialcontent.com/stocks/article/marketminute-2026-3-26-verisk-analytics-tumbles-5-as-shifting-p-and-c-data-sparks-fears-of-insurance-sector-cooling)
+- [Verisk Investor Day Mar 2026 Targets](https://www.stocktitan.net/news/VRSK/)
+- [Tariff Impact on Professional Services (Grant Thornton)](https://www.grantthornton.com/insights/articles/tax/2025/new-tariff-paradigm-how-businesses-can-respond)
+- [RELX 2024 Annual Report - Market Segments](https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/2024-ar-sections/relx-2024-market-segments.pdf)
 - [Thomson Reuters - AI Content Moat Analysis](https://beyondspx.com/quote/TRI/analysis)
 - [Global Information Services Market Size 2025-2034](https://www.custommarketinsights.com/report/information-services-market/)
-- [S&P Global 2026 Outlook - Weak Guidance Impact](https://finance.yahoo.com/news/moody-factset-stocks-slide-p-131610430.html)
-- [FactSet Stock - Down 30% in 2026 AI Dip](https://www.barchart.com/story/news/425737/down-30-in-2026-should-you-buy-the-ai-dip-in-factset-stock)
-- [Verisk Analytics FY2025 Results](https://finance.yahoo.com/news/verisk-analytics-inc-vrsk-q4-210358714.html)
-- [Clarivate 2026 Guidance - Net Losses Amid Restructuring](https://simplywall.st/stocks/us/commercial-services/nyse-clvt/clarivate/news/clarivate-clvt-is-up-299-after-guiding-to-2026-net-losses-am)
 - [Anthropic Claude Crash Impact Analysis (Artificial Lawyer)](https://www.artificiallawyer.com/2026/02/04/claude-crash-impact-on-thomson-reuters-lexisnexis-is-irrational/)
-- [Legal Tech AI Predictions 2026](https://natlawreview.com/article/85-predictions-ai-and-law-2026)
 - [Morningstar: WKL Wide Moat Initiation](https://www.morningstar.com/company-reports/1212536-initiating-coverage-of-wolters-kluwer-with-a-wide-moat)
-- [The $100B Bloomberg for Academics and Lawyers](https://rupakghose.substack.com/p/the-100-billion-bloomberg-for-academics)
-- [Wolters Kluwer FY2025 AI Drives 6% Growth](https://www.investing.com/news/company-news/wolters-kluwer-fy-2025-slides-ai-drives-6-growth-amid-stock-decline-93CH-4523585)
