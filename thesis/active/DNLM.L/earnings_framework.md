@@ -1,7 +1,7 @@
 # DNLM.L Q3 FY2026 Trading Update Framework
 
 > Report: **April 16, 2026** (07:00 BST)
-> Position: 2.1% of portfolio (~EUR 200). Cost 795p. Current 810p. P&L: +1.9%.
+> Position: 2.1% of portfolio (~EUR 200). Cost 795p. Current 841.5p. P&L: +5.8%.
 > FV: 1,008p. E[CAGR]: ~19.3%. QS 79 Tier A.
 > **STARTER POSITION — 90-day prove-or-exit clock expires Jun 25.**
 > **This update determines: ADD to 4-5% or EXIT.**
@@ -84,30 +84,46 @@ Q3 FY2026 TRADING UPDATE (April 16, 07:00)
 
 ## FV Sensitivity to LFL Trajectory
 
-| LFL Q3 | Implied FY Growth | FV | E[CAGR] at 810p | Action |
+| LFL Q3 | Implied FY Growth | FV | E[CAGR] at 841p | Action |
 |---------|------------------|-----|-----------------|--------|
-| >+3% (recovery) | 4-5% | **1,008p** | ~19% | ADD to 4-5% |
-| +1% to +3% (stabilising) | 2-4% | **950-1,008p** | ~15-19% | HOLD |
-| -1% to +1% (flat) | 1-2% | **900-950p** | ~12-15% | HOLD, extend clock |
-| -2% to -1% (weak) | 0-1% | **850-900p** | ~8-12% | EXIT (MoS insufficient) |
-| < -2% (structural) | negative | **750-850p** | <8% | EXIT immediately |
+| >+3% (recovery) | 4-5% | **1,008p** | ~16% | ADD to 4-5% |
+| +1% to +3% (stabilising) | 2-4% | **950-1,008p** | ~13-16% | HOLD |
+| -1% to +1% (flat) | 1-2% | **900-950p** | ~10-13% | HOLD, extend clock |
+| -2% to -1% (weak) | 0-1% | **850-900p** | ~6-10% | EXIT (MoS insufficient) |
+| < -2% (structural) | negative | **750-850p** | <6% | EXIT immediately |
 
 ---
 
-## UK Consumer Context (from sector refresh Apr 6)
+## UK Consumer Context (UPDATED Apr 11 — macro shift since Apr 6)
 
-The macro backdrop is DETERIORATING, not improving:
+The macro backdrop has PARTIALLY IMPROVED in the last week:
 
-| Indicator | Latest | Direction | Impact |
-|-----------|--------|-----------|--------|
-| GfK Consumer Confidence | **-21** (Mar, was -19 Feb) | **Worsening** | Direct negative for discretionary spending |
-| Major Purchase Willingness | **-4pts MoM** | **Worsening** | This IS Dunelm's business (furniture, homeware) |
-| ONS Retail Sales | **-0.4% MoM** (Feb) | **Worsening** | Sentiment-spending gap closing — consumers actually cutting |
-| NLW/NIC | **Live Apr 1** | NEW headwind | £10-15M annual cost to Dunelm |
-| Housing Transactions | Flat, no spring bounce | STAGNANT | 30-35% of homeware demand correlates with movers |
-| UK Savings Rate | **+6pts MoM** | Consumer pulling back | Active saving = not spending |
+| Indicator | Apr 6 | Apr 11 | Direction | Impact |
+|-----------|-------|--------|-----------|--------|
+| **Oil WTI** | **$115** | **$96** | **IMPROVED -17%** | Lower petrol costs ease UK consumer squeeze. Petrol was 157.5p/L — should drop 5-10p/L within 2 weeks if oil stays <$100. |
+| **VIX** | 24.2 | **19.2** | **IMPROVED -21%** | Risk appetite returning. Equity wealth effect improving. |
+| **Iran ceasefire** | None | **2-week ceasefire** (Apr 7) | **POSITIVE** | If holds → recession probability drops from 30-49% to 25-35%. UK consumer confidence should improve. |
+| GfK Consumer Confidence | **-21** (Mar) | -21 (unchanged, Apr data due ~Apr 24) | Flat | Apr data post-ceasefire may improve. Key leading indicator. |
+| Major Purchase Willingness | **-4pts MoM** | Unchanged | Flat | Watch Apr reading |
+| ONS Retail Sales | **-0.4% MoM** (Feb) | Feb data (Mar data ~Apr 24) | Unknown | Mar data includes early ceasefire effect |
+| NLW/NIC | **Live Apr 1** | **NOW IN EFFECT (10 days)** | Cost headwind confirmed | £10-15M annual cost. Management commentary on Q3 update = KEY. |
+| Housing Transactions | Flat | Flat | STAGNANT | No spring bounce yet, but mortgage rates may ease if BoE reacts to oil drop |
+| UK Savings Rate | **+6pts MoM** | Unknown | Unknown | Watch for reversal if confidence improves |
+| **DNLM.L stock** | 801p | **841.5p (+5.1%)** | **Rallying** | Market pricing in improved consumer outlook |
+| **FTSE 100** | ~8,300 | ~8,500 (est.) | **Rallying** | Broad UK equityrally on ceasefire |
 
-**This is the most hostile macro backdrop for UK homewares since 2023.** The question is whether Dunelm's #1 market position and private label mix protect it, or whether the tide swamps all boats.
+**SHIFT: From "most hostile backdrop since 2023" to "hostile BUT easing."** The ceasefire + oil drop removes the WORST tail risk (stagflation + $115 oil). UK consumer is still under pressure (NLW/NIC, housing stagnant, GfK -21) but the direction of change is now LESS BAD, not getting worse. This improves the probability of PASS scenario and reduces DISASTER probability.
+
+**Revised scenario probabilities (vs Apr 6):**
+
+| Scenario | Apr 6 Prob | Apr 11 Prob | Change | Rationale |
+|----------|-----------|------------|--------|-----------|
+| BEAT | 20% | **25%** | +5pp | Oil drop eases consumer pressure, stock rallying |
+| PASS | 40% | **45%** | +5pp | Ceasefire reduces recession tail risk |
+| FAIL | 30% | **22%** | -8pp | $96 oil + VIX 19 = less macro headwind |
+| DISASTER | 10% | **8%** | -2pp | Stagflation scenario now less likely |
+
+**Net: the macro has moved in Dunelm's favor since the framework was written. Q3 data (Jan-Mar) partially predates the ceasefire (Apr 7) — so Q3 LFL captures the worst of the oil crisis period but Q4 commentary should reflect improvement.**
 
 ---
 
@@ -163,4 +179,4 @@ At EUR 200 (2.1%), this is our smallest position. The 90-day starter rule was de
 
 ---
 
-*Framework prepared S155b. Report: April 16, 2026 at 07:00 BST.*
+*Framework prepared S155b. Updated Apr 11 with ceasefire macro shift. Report: April 16, 2026 at 07:00 BST. 5 DAYS.*
