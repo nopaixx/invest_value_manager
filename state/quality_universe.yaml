@@ -1,5 +1,5 @@
 quality_universe:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-11'
   companies:
   - ticker: INTU
     name: Intuit Inc.
@@ -134,23 +134,21 @@ quality_universe:
     distance_delta: -1.0
   - ticker: V
     name: Visa Inc.
+    direction: long
     qs_tool: 80
     qs_adj: 80
     tier: A
-    sector: Payments
+    sector: payments-fintech
     fair_value: 305.0
     entry_price: 260.0
     currency: USD
-    current_price: 302.55
-    distance_to_entry: 16.4
-    pipeline_status: STANDING_ORDER
-    thesis_path: thesis/research/V/thesis.md
-    last_scored: '2026-02-15'
-    last_price_check: '2026-04-08'
-    notes: R4 APPROVED. FV $305. Entry $260 (14.8% MoS). 4 hard gates (DOJ, CCCA, rev growth, incentives). MA first priority.
-      ADD $235.
-    direction: long
-    distance_delta: -0.3
+    current_price: null
+    distance_to_entry: null
+    pipeline_status: R3_COMPLETE
+    thesis_path: null
+    last_scored: '2026-04-11'
+    last_price_check: null
+    notes: ''
   - ticker: ROP
     name: Roper Technologies, Inc.
     direction: long
